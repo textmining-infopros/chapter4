@@ -1,0 +1,715 @@
+Focus
+
+VALUE-ADDED GLOBAL DATABASE SEARCH THROUGH
+WIDE AREA N E W O R K *
+Anjali Baokar, PR Sundareshwar and M R joshi
+Research & Development Establishment (Engineers), Pune 41 1 015.
+Abstract
+Online database searches have become common and a number of
+American and European databases, notably those related to science and
+engineering have become very popular due to their specialisation in specific
+fields. Although telecommunication charges are relatively low, specific
+database charges are substantiHI, depending upon the area of specialisation.
+This paper discusses the access and search of global databases, value
+addition through organisation of the received data and sharing of the
+organised data in the local area network. The original organised database
+when accessed and downloaded becomes an ASCll file. If the selected
+database is to be reconstructed at the receiving end, it i s a laborious task
+of manual data entry which could be very slow and error-prone. A program
+developed for automated conversion of the ASCll file into a standard
+database format is described.
+is interested in. This data can exist on a variety
+
+1. INTRODUCTION
+A database may be defined as a collection
+of interrelated data stored together without redundancy to find multiple applications. It is, in
+fact, an array of data organised in a logical
+manner with minimum functional and maximum tolerable redundancy, indexed in a way
+most optimal for the kind of application the user
+-
+
+-
+
+-
+
+* Reprinted with permission from Defence
+Science Journal 7 993, 43(2).
+DESIDOC Bull of lnf Tecnol, 13(3), I W3
+
+of physical media, such as card files, magnetic
+tapes, etc. 1
+Database environment can be classified into
+operational environment and decision support
+environment. The primary aim of the operational environment is towards online performance and data integrity, whereas the decision
+support environment is aimed at user flexibility
+in viewing the data. The decision support environment operates on downloaded data that is
+
+3
+
+summarised or data that has been screened,
+includi~lgediting, merging, recalculating, etc2
+
+scribing to DIALOG DATABASE SERVICE, we
+present a case study on DIALOG.^
+
+Global databases come under decision sup
+port environment. They can be defined as a
+collection of information which is accessed all
+around the globe. These databases cover practically all fields of human activity. The databases
+are built through contributions from several
+universities and organisations.'They form the
+most important part of today's informationtechnology and offer almost all the needed information instantaneously. They support a large
+number of queries made by today's R&D organisations and industries.
+
+2. DIALOG DATABASE
+2.1 What is DIALOG
+
+DIALOG is an 'electronic library' used to
+locate information on most of the subjects from
+a variety of sources. Using DIALOG, we can
+quickly browse through 'volumes' of information.
+The DIALOG system manages a wide variety
+of information, including references and a b
+stracts relating to published literature, statistical
+tables, directories, business and financial data
+(such as financial reports), and for a rapidly
+growing number of publications, ,the complete
+text of articles.
+
+These global databases are accessed by the
+users all around the globe through public data
+networking using satellites. This accessed information can either be received through courier
+services or can be downloaded to a userend
+computer. These global databases are viewed as
+valuable resources. Access to these databases is
+charged, depending on the value of the database, satellite time used, etc.
+
+This information has been collected, organised and produced in machine-readable
+form (on magnetic tape) by many publishers,
+who, in turn, are contracted by DIALOG to store
+their collections on its mainframe computers.
+
+Databases searches usually serve a useful
+purpose immediately, but paper copies tend to
+get lost. If the same information is downloaded
+into computer format, it i s preserved for a longer
+duration, but cannot be retrieved easily, since it
+is not in the form of a structured database. A
+study has, therefore, been carried out to detect
+the received information format and suitable
+identifiers located so as to facilitate structuring
+of the information with minimum manual effort.
+A costeffective way of searching these databases and sharing the facility among different
+Defence establishments i s presented in this
+paper. We propose that individual subscribers
+to these databases, after search, shall maintain
+the searched data in a structured and sharable
+form at their work place. Later, these users shall
+send their searched data to a commonly identified nodal agency in the premises. At the time
+of any new search, the users shall first search in
+the common database maintained at the nodal
+agency. If the query i s not answered, then they
+are advised to search the global database. As
+most of the defence establish~nentsare sub-
+
+DIALOG customers can search for and view
+the information contained in over 300 databases via telecommunication networks. A single
+database contains anywhere from 3,000 to
+70,00,000 records, which can be browsed online, downloaded on to local disk or printed
+offline.
+2.2 How to Access DIALOG
+
+Hardware
+IBM or compatible PC/AT using a modem,
+compatible with CClTT Standard with 300,
+1200,2400 or 4800 baud rate, which can
+be internal or external to the computer,
+and telephone lines/packet-switched data
+networks.
+Software
+Communication software like DIALOGLINK, PROCOMM, etc.
+
+.
+
+To access DIALOG the user first logs into the
+national networks, which, in turn, hooks to international networks, via GPSS, Bombay.
+-
+
+4
+
+DESIDOC Bu/l of Inf Tecnol, 13(31, 1993
+
+1
+
+LOGON TO
+DIALOG
+-..
+.-*
+DIALNET
+
+-6
+
+jin!ij =
+USER
+COMPUTER
+
+MODEM
+
+,
+
+GPSS
+
+TYMNET
+
+BOMBAY
+
+-
+
+,
+A
+
+TELENET
+CONNECT
+TO
+NETWORK
+
+TELECOMMUNICATION
+NETWORKS
+
+Fig 1. DIALOG setup
+
+DIALOG is accessible through the following
+US telecommunications networks:
+
+DIALOG'S
+COMPUTER
+
+1
+
+d
+
+Format 2 : Full record except text
+Format 3 : Bibliographic citation
+
+MALNET and lNWATS
+
+-
+
+NMNET
+
+TEWEl
+
+The set-up required to access DIALOG, is
+shown in Fig.1.
+2.3 Billing Methodology
+DIALOG has an annual renewal fee per pas<
+word. There is no monthly minimum. A DIALOG
+subscriber pays only for the time he actually uses
+this service.
+Factors affecting monthly invoice include
+
+(a) Connect time:
+Charges for the duration of time spent
+online. Charges vary with different databases.
+(b)Tefecommunication charges:
+Charges for the telecommunication network used.
+(c) Per-item type charges:
+Charges for viewing records accessed during the search.
+
+General Format for DIALOG Search
+The following are the predefined formats for
+DIALOG search
+Format 1 : DIALOG accession number
+
+DESIDOC Bull of Inf Tecnol, 13(3), I993
+
+Format 4 : Full record with tagged fields
+Format 5 : Full record
+Format 6 :Title and DIALOG accession
+number
+Format 8 : Title and word count
+
+3. RE-STRUCTURING OF
+SEARCHED DATA
+The downloaded data at the user end i s an
+unstructured ASCll file created depending on
+the search carried out. This ASCll file should to
+be re-organised and structured. Then this file i s
+ready for sharing among different users as a
+database.
+A method for structuring the downloaded
+file, is presented in the following sections.
+3.1 Underlying Concept
+
+The search is carried out by specifying the
+search number followed by search format and
+number of records. The records are separated
+by this key in the received text.
+key : i/j/k
+where i is the search number, j is the search
+format, and k is the record number.
+5
+
+unstructured ASCII file has to
+ss of re-organisingand strudurthis reorganisation is explained
+... .. .- .-.... - . -..e following algorithm.
+
+3.2 Algorithm
+read input file
+search for key in text file
+if key is found
+do while not of input file
+
+out searches in various fields, it i s appropriate to
+mutually share the databases.
+These individual subscribers will first structure their searched information, reorganise it to
+form a shared database, and send the same to
+a common nodal agency. This nodal agency
+shall be responsible for maintaining a common
+database. Later on, a user will first access the
+common nodal agency to find the required
+information. If he does not get the needed
+information, he wilt go for DIALOG access.
+
+read keywords and subject for
+classification
+
+Thus, value is added to this unstructured
+received data by developing it into a database
+and sharing the same among many users. The
+user will be paying only the communication
+charges in case he gets the needed information
+from the nodal agency. If the search fails, he has
+to pay only nominal overhead charges. The main
+advantage is that this common database will
+grow with time and will be able to support more
+queries.
+
+buitd appropriate database based on
+subjects from keywords and
+temporary files.
+
+The value-addition is in the most important
+area, i.e., cost. Costefhctiveness becomes o b
+vious from the following comparison.
+
+remove all temporary files.
+
+When Searched DIALOG using international
+network
+
+repeat
+copy the token to temporary file
+read next token
+until next token = key
+end do
+
+The flowchart of this algorithm is presented
+in Fig. 2.
+
+3.3 Implementation at R&DE (E)
+
+Total charge = DC+TC
+When Searched at nodal agency using national network
+
+Research & Development Establishment
+(Engrs) (R&DE(E) is a subscriber to DIALOG
+database. In addition, R&DE(E) has a local area
+network spread across its campus. The data
+searched is downloaded and restructured, as
+described above. This database is added as a
+new resource to the library information system
+on the local area network and is now being
+shared among the users of the network. Within
+a short time, the number of records available in
+R&DE(E) database has crossed 500.
+
+where DC is the DIALOG charges (connect
+time charges + per item type charges), and TC
+i s the telecommunicationcharges (call duration
+charges + data transfer charges).
+
+4. PROPOSED SYSTEM
+
+Example
+
+4.1 Value-Addition through Sharing using
+WAN
+
+When we have different subscribers of DIALOG situated a?different places in India carrying
+
+Total charge = TC
+
+Further, the telecommunication charges for
+a national call are one fourth of those of an
+international call.
+
+Consider a typical sample DIALOG search
+carried out on a certain topic using NTlS file (File
+number 6) which results in a collection of 100
+records on that topic. The expanses incurred
+are:
+DESiDOC Bull of lnf Tecnol, 13(3), 1993
+
+Start
+
+read token
+from DIALOG
+search file
+
+increment file pointer
+
+is token=KEY ?
+
+c
+
+-.
+
+>'
+
+/
+
+A i;
+
+\''A
+
+-7
+
+.L
+r-
+
+create new
+
+7
+
+read keywords
+and class
+--
+
+-
+
+-.
+
+---/
+
+-
+
+- -.-"_--
+
+.-
+
+choose
+appropriate
+database
+.. _
+
+-
+
+_
+l
+-
+
+1
+I
+
+j
+
+-- - J I
+
+:
+--
+
+read next token
+
+-
+
+4
+--
+
+- -- 7
+
+I
+
+I
+1
+
+add information
+- -
+
+J
+
+1
+/
+
+Ye*
+
+!
+
+_ - -,
+
+f
+
+___-- --..
+J,
+
+A
+
+'
+\
+1
+
+'\
+
+stop
+
+--.----
+
+i
+
+,
+
+N
+'
+
+1
+
+,
+
+1
+
+I
+
+IF "?
+
+i
+
+I
+I
+
+Is token=KEY
+
+,
+
+.
+
+Ye*
+.
+
+-
+
+-
+
+9'
+
+DESIDOC Bull of Inf Tecnol, 13(31, 7 593
+
+Fig 2. Flowchart displaying the restructuring logic
+
+7
+
+The total cost incurred on DIALOG search =
+Rs 886.00+ US $ 149.00- Rs 5356.00 (@ 1 US
+Rs 30).
+
+Telecommunication Charges
+
+-
+
+lnitialising & dialling
+
+10 min
+
+Searching
+
+10 min
+
+Type/downloading
+
+50 min
+
+(112 min required for 1 record)
+Total communication time
+
+70 min
+
+Communication cost
+
+Rs 280
+
+4.2 Sharing Using INET (Packet-Switched
+Data Network)
+
+(Rs 4 per min)
+Rs 606
+
+Cost of data transfer
+
+Total telecommunication charges Rs 886
+DIALOG charges
+Searching
+
+10 min
+
+Downloading
+
+50 min
+
+Total connect time
+
+60 min
+
+Connect time cost
+
+6 84
+
+Print charges1100 records
+
+$65
+
+($ 0.65 per record)
+Total DIALOG charges
+
+$149
+
+The total cost estimated for a successful
+search among the users connected through national network = Rs 221.50
+
+Various Defence Establishments including
+R&D units, services, production units, etc are
+located all over the country. They all need information about Defence technology, but in different contexts. Some of these Defence.units are
+subscribers to global databases. The information
+searched by these units may at times be redurtdant, resulting in duplication of search and
+hence extra cost.
+We propose that a nodal agency be identified to maintain the database, .constructed
+through contributions from different subscribers. Figure 3 shows how the DRDO database will
+grow richer through multiple users. The subscribers will first search through this database
+maintained by the nodal agency and then
+search in DIALOG if the search at the nodal
+
+DIALOG DATABASE
+(1 0000 RECORDS)
+
+----
+
+A---,
+
+USERA
+(140 RECORDS)
+
+.
+
+.
+
+. .-- - -
+
+.?A
+
+I
+
+USER E
+(28 RECORDS)
+
+USER C
+(67 RECORDS)
+
+I
+
+,
+
+J
+
+I
+
+/
+
+I
+
+i'
+
+I-
+
+USER B
+I (210 RECORDS)
+
+'
+
+,
+
+USER D
+(0 RECORDS)
+
+i
+
+!
+
+d
+
+DRDO DATABASE
+445 RECORDS
+
+'
+
+- .
+
+Fig 3. Growth of DRDO database through multiple users
+
+8
+
+I
+
+DESlDOC Bull of Inf Tecnol, 13(3), 1993
+
+agency fails. Also, the users, when searching
+through DIALOG, will add the searched jnformation to the database maintained by the nodal
+agency. The individual users will be accessing
+this common database maintained at the nodal
+agency through I-Net, introduced by the Department of Telecommunications.
+I-Net offers facilities for interlinking terminals
+and computers through packet switches located
+in important cities of the country. Subscribers to
+this network can also access international networks abroad through GPSS of VSNL at Bombay.
+Although expensive, access to global databases is required to keep R&D personnel abreast
+of advances in various fields of their interest. A
+cost-effective way i s to share the information
+maintained at the nodal agency, eliminating redundant searches of global databases.
+
+4.3 Legal Aspects
+
+The proposed information sharing is legal,
+since the information stays within the customer's organisation and is not resold.
+
+REFERENCES
+1.
+
+Henry, F. Korth & Silberschat, Abraham.
+Database system concepts. Mc-Graw Hill,
+Singapore, 1986. pp 422-44.
+
+2.
+
+Inmon, W.H.& Thomas,Jr. J.Bird. The
+dynamics of database. Prentice-Hall, New
+Jersey, 1986. pp 17-20.
+
+3.
+
+Searching DIALOG: the tutorial guide.
+DIALOG Information Services, March
+1988.
+
+"The art of life, indeed consists largely in the
+capacity t o spend wisely and happily the
+moments in which we are most free--free from
+the demands and behests of others, free from
+the demands of relaxation and hygiene. free to
+plan our activities in and at our own time. To
+waste these moments is t o waste something
+extraordinarily precious."
+
+-SR Ranganathan
+
+DESlDOC Bull of lnf Tecnol, 13(3), 1993
+
+9
+
+

@@ -1,0 +1,985 @@
+Focus
+
+Hypertext and Hypermedia: An Overview
+
+DESIDOC, Minisb-y of Defence, Metcalfe House, Delhi- 1 1 0 054
+Abstract
+
+The historical developments of hypertext (HT), which is
+non-linear text or non-sequential writing, hypermedia (HM)
+and multimedia; types of HT systems; their general
+charateristics, advantages, disadvantages and limitations
+are overviewed in this paper. It also lists important HT
+systems and HM products, their storage and distribution
+patterns. Problems like disorientation, cognitive overhead,
+lack of presentation, rhetoric and construction of default
+paths are also discussed.
+
+1. Introduction
+Information storage, retrieval and dissemination is a dynamic process. A number of technologies like radio, motion
+picture, telecommunications, computers,
+optical storage technology, etc have
+added strength in terms of sophistication,
+speed and accuracy. But, to retrieve the
+information quickly, especially when the
+size of information is large, is rather difficult and time consuming. So far there is
+no foolproof system to store all the inforThe author is presently workingfor
+PhD at Deptt of Library & Information
+Studies, Loughborough University of
+Technology, UK.
+DESIDOC Bull of Inf Techno1 12(6),1992
+
+mation of human knowledge, and retrieve
+the same as and when required.
+A record, if it is to be useful to science,
+must be ~ntinuouslyextended, it must
+be stored; and above all it fiust be consulted (1). At present only 10% of the
+information published is in electronic
+form and the rest is in printed form. It is
+a big problem to access the 90% of nonelectronic information which mainly
+comes from magazines, newspapers,
+R&D reports, reference manuals, personal communications, etc. Above all, information doubles every few years (period
+varies from field to field). To store all the
+literature published in the world and
+make it easily accessible to users is a
+
+3
+
+gigantic task. This problem has drawn the
+attention of pioneers in information field
+since the second world war.
+Vannevar Bush identified this problem
+as far back as 1940s and gave a serious
+thought to overcome this situation. In
+1945,he invented a technique which was
+later called 'Hypertext (HT)' (2). He
+foresaw the problem of information explosion in future and developed a
+mechanical recording device called
+'Memex'. He described it as 'a device in
+which an individual stores all his books,
+records and communications, and which
+is mechanised so that it may be consulted
+with exceeding speed and flexibility. It is
+an enlarged intimate supplement to his
+memory' (ref 1, p 106-7). This can be
+considered as the first seed of the concept
+of HT.
+In 1960s, Engelbart designed the first
+hypertext system named a s 'on Line
+System' (NLS),for the knowledge workers
+to augment the human intellect. A number of concepts and items related to HT
+like mouse, windows, editing text on the
+screen, links between the chunks of information, teleconferencing, hypermedia
+(HM), office automation, outline processing, etc are some of his important contributions. Later, NLS (popularly known
+as Engelbart's system) was named as
+AUGMENT (text processing multi-user
+systemW3). and was distributed commerUY.
+Theodor Nelson defined and coined the
+term hypertext in 1965 (2). His book (4)
+can be considered as a treatise on HT and
+HM. According to him ordinary writing is
+sequential for two reasons. First, it grew
+out of speech and speech-making,which
+have to be sequential. Second, books are
+not convenient to read except in a sequence. But structures of ideas are not
+sequential. They tie together in every conceivable way. And when humans write,
+they always try to tie ideas together in
+non-sequential ways. The footnote is a
+
+break from sequence, but it can be extended (ref 4, p. 29). So hypertext is nonsequential reading and writing. When
+other media elements such as graphics,
+images, sound, video and animation are
+added to the HT, the resulting form is
+called hypermedia. In 1960s he started a
+project called 'Xanadu'--a global literary
+system (5,6) aimed as instantaneous
+repository and delivery system for the
+published works like text, graphics,
+audio, video, etc so that any user may
+rapidly get any frame or whole work. The
+system has automatic royalty facility to
+avoid copyright permission problem. Nelson had also foreseen 'computer teaching
+(7).
+Van Dam designed FRESS, a File
+Retrieval and Editing System (8)in late
+1970s by incorporating the best ideas of
+Engelbart's NLS and some of the best
+features from his Hypertext Editing System. Later, under his guidance another
+hypermedia system 'INTERMEDIA' (9,101
+was designed by Meyrowitz a t IRIS,
+Brown University for conducting research
+on 'use of hypertext for teaching.
+From the mid-eighties, a number of
+people started working on various
+projects of hypertext. Presently there are
+more than Bfty HTIHM systems designed
+for specific purposes like conducting research, commercial purpose, in-house
+use, etc.
+
+2. What is Hypertext and
+
+Hypermedia 3
+Text is an assembly of words, formed
+out of letters organised according to a set
+of principles. We use text to communicate
+our ideas to others either by speech1talk
+or in writtenlprinted form. Though we do
+not think linearly, while writing we try to
+join or link all those ideas in a logical
+manner. All written communications like
+books and other printed publications are
+linear,in which text is arranged sequentially. For example, traditionally text of a
+DESIDOC Bull of Inf Techno1 12(6),1992
+
+book is arranged linearly from page 1 to
+
+page X. At the end there may be an index
+through which one can retrieve the information easily and quickly.
+When text is converted into hypertext,
+all the individual ideas instead of being
+joined sequentially,will be linked in nonlinear fashion with some logic. The information is stored in the nodal points,
+joined through machine-generated W s .
+This is considered to align more closely
+with human thinking than conventional
+computing.
+HT consists of chunks or fragments of
+text, linked associatively. Nodes are the
+basic.units of information in an HT. So,
+HT is creation and representation of links
+between discrete pieces of information
+[text or data). In HT, instead of continuous flow, text breaks into units or
+modules or fragments of information
+which will be linked in non-sequential
+manner. In HM, more than one media are
+arranged in HT linking pattern.
+Hypertext can be simply defined as
+non-sequential writing (2)or as the text'
+in electronic form that takes advantage
+of the interactive capabilities ( 11).
+HM is simply the extension of HT that
+incorporates other media elements in addition to text. With HM systems, authors
+can create linked corps of materials that
+include text. static and animated
+graphics, video, sound, music, etc (10).
+
+HT document systems allow authors to
+link together any information blocks
+created with a text editor, while HM document systems provide linking capabilities
+between heterogeneous blocks created
+with different applications such as a
+painting program, chart package, or a
+music editor.
+
+3. Multimedia
+Now-a-daysmultimedia is probably an
+over-used phrase in the personal computer (PC) world. Every new product,
+DESIDOC Bull of Inf Techno1 12(6),1992
+
+which involves any type of media, say
+sound, graphics or even text, is described
+as a multimedia product. Multimedia can
+be defined as a process that can handle
+text, still images, video, sound, and
+animated graphics (12).TV,video tapes,
+video disks, etc are some of the commonly
+available multimedia products. The advantages of TV multimedia communications and the widespread dissemination
+of information can then be combined
+with intelligent capabilities of the PC.
+Multimedia manufacturers are making
+these more attractive, but the
+viewerluser cannot interact with the program in the same way as in the case of
+HM because of the former's sequential
+organisation of information. Despite the
+feeling of being in control, the user can
+only watch the program but cannot interact. Some of the multimedia products like
+compact disk-interactive (CD-I), digital
+video interactive (DVI) are having some
+level of interaction because of their
+development using HT technique or
+some other pattern which allows the
+machine to generate links between information blocks. When a multimedia program is developed in HT environment, the
+resulting product is called Hypermedia.
+So, HT is a part of an interactive multimedia environment. All HM products are
+multimedia but not vice versa.
+Multimedia is a general term which
+includes HM. The basic difference between HM and multimedia is the organisation and the linkages of the
+information fragments. Multimedia
+products are organised linearly whereas,
+HM products are organised non-linearly
+linking all the information chunks. There
+are quite a few companies making multimedia hardware systems. Apple's Macintosh is one of the best machines for
+developing multimedia applications.
+One of the first and useful multimedia
+packages is Farallon Computing's
+Mediatracks which could be used to
+record a series of screens and use the
+
+sound hardware to record a step-by-step
+guide for using any Mac software. Two
+multimedia projects h m Europe are to
+be mentioned here: (i)Nordic Life Today,
+a full multimedia publishing platform for
+schools,colleges, libraries and other cultural institutions of Scandenavia, and (ii)
+55 Anos Despues, tourist information
+multimedia system.
+
+4. Characteristics of HT and HM
+
+Systems
+
++ In hypertext, information (text and
+
+data) is represented in discrete
+chunks. The information may be a
+paragraph, diagram, graphics of
+image or a combination of any of these
+items.
+
++ A n HT databaseis formed by interlinking chunks. A chunk could be linked
+with another or many chunks forming
+a network in the HT database.
+
++ Any document written by using HT
+technique is called a hyperdocument.
+In HT environment, the information
+chunks or frames will be linked within
+and in between the hyperdocuments.
+
++ In HT systems, the user can navigate
+
+rapidly in either directions between
+nodes of the HT database. An HT user
+to access informationby both assodative and intuitive routes, irrespective
+of the actual location of information,
+or for any visible database structure.
+
++ Users can create, edit and rearrange
+
+the chunks according to their needs.
+HT databases can have changeable
+structures which can be changed according to the author's or designer's
+addition, deletion or editingof the text,
+graphics, images, etc. It does not have
+a clear structure like a conventional
+book in which the length, breadth, etc
+can be defined. Moreover the arrangement of information in HT databases
+can change according to the user's
+interaction.
+
++ At any time, a reader/user is able to
+see only a small fragment of informa-
+
++
++
++
+
+tion fi-oma large HT database.
+There are no page boundaries as in a
+conventional book.
+To a large extent, HT leaves control of
+information in the hands of users.
+Unlike a printed book, HT is multifaceted, with many entry points to add
+or retrieve information according to
+the need /requirement, level of interest
+and learning style of thd user population.
+
+Ted Nelson has classified (ref 4. p. 32)
+Hypertext into &re types:
+(a) Chunk or discrete style HT: It consists of separate pieces of text called
+'chunks' which are connected by links
+and represented in the form of footnote
+markers. When the user interacts with
+the chunks, they come out with a
+response and present an entirely new
+fi-agment of information related to the
+previous one. Using these 'jumpable
+connections' one can provide detailed
+explanations for a word, phrase or topic.
+This is a n entirely different way of
+presenting information compared with
+traditional sequential form. While constructing this type of database, one has
+to provide these links logically, artistically and also according to the subject
+relevance through which a reader can
+grasp, understand, and assimilate the
+knowledge easily.
+(b) Collateral HT: For two types of data
+structures, creation of collateral HT is
+possible. It may be useful to compare
+collateral equivalents of two tables of
+contents, writer's notes, etc. Crehtion of
+multiple viewable links in between any
+two data structures is called 'collation'
+and the structures are called 'collateral
+strictures'. When comparing two definitions or laws on the same screen, it is
+DESIDOC Bull of Inf Techno1 12(6),1992
+
+very easy to draw conclusions.
+Moreover, the user absorbs quickly by
+seeing those d e m o n s or laws simultaneously on the screen.
+
+6.1 Broad Classification
+
+(c)Stretchtext: Here all the related prose
+is written closely. It is very easy to use
+and has advantages of descreteness and
+looseness. In stretchtext, the screen will
+show two 'throttles*,the first one moves
+the text forward and backward, up and
+down on the screen; the second throttle
+causes changes in the writing itself.
+This is completely controlled by the
+user. The text can also be changed with
+the throttles connected to the computer.
+Stretchtext can be made longer / shorter
+by adding and substracting words or
+phrases respectively. The gaps between
+the phrases can be used to pop-in new
+words and phrases like a cartoon picture. It is read by the userlstudents
+from the computer screen.
+
+(a) Macro Literary Systems: These systems are similar to very large size outline libraries in which all types of
+information on every topic will be stored
+and can be retrieved. The broad based
+systems like Memex, Augment, Xanadu
+and Textnet were designed for the multiuser environment, where one can store
+all types of published information. They
+could also be used for various purposes
+like publishing, reading, collaborative
+works and criticism.
+
+(d) Grand HT: It consists of 'everythhg'
+written about a subject or relevant to it,
+tied together by editors, and the users
+can navigate in all the directions and
+read the information according to their
+choice. There are different pathways of
+thinking. Ted Nelson's Xanadu is the
+best example of grand hypertext system. in which one can read 'everything
+and also write on the screen.
+(e) SpecIfzc HT: It is specifically written
+for a particular purpose in a specific
+area, consequently the usage also will
+be limited to a specific type of clientele.
+For example, Anthological HT,where all
+the materials are brought together and
+arranged like in an anthological book.
+
+6. Classification of HT and HM
+
+Systems
+We can classify the Hypertext and Hypermedia systems according to broad
+classification, environment or generations.
+DESIDOC Bull of Inf Techno1 12(6),1992
+
+Conklin has classified (13) all the
+available hypertext systems into four
+types under the broad classification.
+
+(b) Problem Explomtfon Systems: These
+systems are basically issue-investigation
+type, designed to support high interactivity and unstructured thinking. They
+are developed to assist the members of a
+team in creating and structuring of information. These systems have built-in
+ability to handle large unstructured
+chunks of information and allow the
+user to focus, browse and organise the
+concepts. These systems assist the
+users with such mechanisms by praviding information lenses to filter the
+various levels of details. They also permit the user to see differing views of the
+same information. Examples include
+PIE, IBIS, Synview, WE and Outline
+Processors.
+(c) Structured
+
+Browsing Systems: These
+systems are almost like systems
+described at (a),but smaller in size and
+are being used for computer-aided
+teaching, reference, and public information. They are simple, user-friendly, and
+very easy to use. Examples include
+KMS, Info, HypeflIES and DE. Normally
+these systems are read-only type and
+will not allow the user to add new information because they are meant for
+providing information only. They are
+being used in museums (14) for Mormation displays (HyperTIES), com-
+
+puterised information management
+systems (15) for aircraft carries
+(KMS/ZOG) (15). and online computerised help systems (INFO) (16).
+These systems can be used at any place
+where well-defined information has to
+be provided.
+(d)Modifred Database Management Systems (DBMS]: Now-a-days a number of
+DBMS packages are coming with simple
+HT linking features. To make DBMS
+software useful and attractive, the
+designers incorporate the flavour of HT
+technique, but they are not real HT systems. Normally we find such features in
+the currently used software for information retrieval purposes where data
+pointers merely increase text retrieval
+facilities. They are retrofit systems
+rather than true HT systems.
+(e) General Experimental S y s t e m s :
+There are a number of systems
+developed for experimentation of reading, writing, collaboration, etc aspects of
+HT such as Intermedia, NoteCards and
+Hypercard. Even though they are strong
+in some aspects of HT, they are very
+general in nature and could be used for
+any work.
+6.2 HT and HM Classification with
+Reference to Environment
+
+(a)Dlsb.ibuted Systems: Normally these
+systems are very powerful and are able
+to handle very large volumes of information. Since they are multi-user systems,
+they allow a number of users to work at
+a time in doing collaborative work. Intermedia is a good example for this type
+and is being used for computer-aided
+instruction at the English and Biology
+Departments of the Brown University for
+the past three years. Other examples include NoteCards, Neptune, and KMS.
+(b) PC-Based Systems: These are single
+user systems, comparatively small in
+size and could be used to design personal HT applications. The most popular
+
+example of this kind is Hypercard.
+Others include Guide, HyperTIES, and
+LinkWay.
+6.3 Classification based on Generations
+
+Despite the commonality in the basic
+architecture of the HM systems. they are
+classified into two generations (17). All
+the ikst generation HM systems originally
+developed on mainframes, mainly
+focussed on text nodes and.user display
+technologies with little or no graphics
+capabilities. However, they were
+developed to support work of a team.
+sharing a common HM network. These
+systems were developed prior to 1980and
+include NLS/Auigment ( 18), FRESS (8)
+and ZOG ( 19).
+Those developed after 1980are second
+generation systems-which include
+various workstation-based, researchoriented, and PC-basedsystems. The first
+category systems include NoteCards,
+Neptune, Intermedia, PlainText and
+KMS. These systems have got advanced
+three-dimentional graphics interface,
+strong support of graphics, animation,
+composite multimedia nodes, sophisticated navigational displays and interface
+tailorability. They were basically
+designed for single users or small teams
+of workers. Later, PC-based HT systems
+Guide (201,HypeflIES (21), LinkWay (22).
+HyperPAD (23). HyperDOC (24)etc have
+emerged.
+
+7. Advantages of HT and HM
+
+Systems
+HT is a pervading concept in the
+present computer world. The most important advantage of these systems is the
+ease and speed of browsing through
+greater volumes of information. One can
+also add personal annotations (25),
+without altering the original information
+of the document. The information in
+these systems may be v i e d in varying
+degree of details. In case of larger HT
+DESIDOC Bull of Inf Techno1 12(6),1992
+
+systems, greater economy of information
+storage could be achieved. Normally in
+very big databases, there will be a lot of
+information duplication at many places
+due to the inaccessibility of same information. In HT databases all the information is stored in basic units. The
+inter-linked information is easily accessible, so one can eliminate the repetition
+of same piece of information at more than
+one location which ultimately saves a lot
+of storage space of the computer. These
+systems encourage highly collaborative
+work environments (26.27) (for example,
+Augment (28).Intermedia (29).KMS (30).
+Neptune (17). Notecards (31), and WE
+(32). Hyperdocuments are always
+dynamic and encourage the users to contribute their knowledge and ideas. The
+advantage of this function is that both
+users and authors can refine anil also add
+new information to the system all the
+time, with a result the information in the
+system w
+ill always remain updated when
+compared to traditional databases. It is
+possible to provide comments, criticism,
+discussion, etc on a concept or topic by
+various people which ultimately lead to
+development of critical thlnking in the
+users and are very useful for any research.
+
++ Software engineering, for example,
+CASE, Neptune
++ Authoring and designing tools, for example, Hypercard, Guide, HyperDoc
++ Collaborativewriting, for example, Intermedia, WE
++ Writing aids, for example, WE, Notes
++ Instructional aids, for example, Hy+
++
+
++
++
+
+8. Applications of HT and HM
+
+Systems
+These systems find applications in the
+following areas:
+
+percard, HyperDoc, LSM InfoMaster,
+etc
+Computer -aided training/ teaching,
+CSILE, IRIS'S INTERMEDIA
+Presentation aids and information
+kiosks, for example, Boston MacWorld, LITA Conference Information
+Disk, Metacatalog (multilingualinformation kiosk)
+Information and retrieval systems, for
+example, HIRS, HyperDoc, KRS,IBIS
+Library and information handling
+sources/services:
+- Dictionaries, for example, OED,
+Webster's Dictionary
+- Encyclopedias, for example, Grolier's
+Electronic Encyclopedia, Compton's
+Multimedia Encyclopedia
+- Medical text books, for example,
+Dynamic Medical Handbook
+- Product catalogues, for example, The
+Savings Zone Club Disk
+- Online user manuals, for example,
+Hypercard
+- Electronic maps, for example,
+HyperMap, Business Class
+- Travel guides, for example, Glasgow
+Online.
+Literary collections, for example,
+Xanadu, Textnet
+Electronic document publishing (considerablecost reduction in publishing,
+reproduction, and distribution)
+Expert Systems (+Hypertext),for example, KnowledgePro, Plus, HyperBridge, MacSmarts, 1st Class FIT
+
++ Technical documentation, for example, DE, ThothII
++ Help systems, for example, Emacs,
+INFO, Hypercard, Guide, askSam
++ Museum exhibits, for example, Kings
+
++
++
+
+Herald's Dream, Jewish Heritage,
+HypeflIES
+
++
+
+for exxnple,IBIS
+
+A number of American libraries are
+already using HT for providing library and
+
++ Religious studies, for example, The
+Bible Library
++ Problem solving and idea processing,
+DESIDOC Bull of Inf Techno1 12(6),1992
+
+information services to their users. Apart
+from special and university libraries, a
+number of public libraries also started
+using Hyper Card and other HT systems
+for providing services to the users of their
+libraries.
+
+8. Drawbacks and Limitations
+8.1 Superficial Problems
+
+Temporary in nature, these are implications or technological drawbacks,
+that are common to any new technology.
+These include problems related to the
+structure of HT, learner control, integration of and synthesising information,
+retrieval of information, processing
+strategies of HT. retrieval of iconised
+nodes, copyright, compatibility, etc.
+8.2 Deep Problems
+
+These problems are more stronger
+which may take long time to solve and
+sometimes they may not be solved at all.
+Presently there are four such problems
+which overlap each other.
+(a)Disorientation: The tendency of users
+to get lost in a HT database is termed as
+disorientation. This tendency depends
+on the size of the database; the bigger
+the database, the easier to get lost. Inspite of page numbers, chapter headings, sometimes we loose the sense of
+location while reading a book which is
+normally very small in size when compared to an HT database. In an HT
+database, the information is neither sequential nor it has the pages to flip
+through. So,it is easy to get lost. In case
+of multimedia environment, this problem is more severe because each
+medium may have its own cycles. Some
+of the I-IT systems are providing aids to
+overcome the problem of disorientation.
+for example, Find and Goto commands,
+bookmarks, database maps, location indicators, etc. But these are not permanent solutions. Research is
+
+underway to develop solution to this
+problem. (33-35)
+(b) Cognitive Overhead: Even though
+users familiar with a particular network
+do not experience any disorientation,
+working in an HT knowledge base curtails some extra 'cognitive overhead'
+(36).An additional effort and concentration is required by the user to maintain
+several tasks or trails at the same time.
+Psychologists have found that a normal
+human being can maintain at the most
+flve to nine thoughts in His memory at
+one time, whereas HT and HM systems
+require occasionally more. If the information is not properly organised and
+linked between the related chunks, the
+nonlinear representation leads to
+greater risks of potential intellectual
+digestion, disorientation and cognitive
+overhead.
+(c)Lack of Presentation Rhetoric: Landow
+has discussed (37) the need for a
+rheotoric of linking in HM. Indication of
+the destination of a link, and inviting
+the user to that destination are the two
+problems according to him. He has formulated nine rules for creating mcaningful links in HT database to have logic
+or relationship among nodes. HT systems are useful only when there are
+balanced number of linear and nonlinear links, otherwise they lead to more
+distortion. The number of linear or nonlinear links will depend on the
+knowledge1information being stored.
+the objectives of documentation, and
+sophistication of the user population.
+Large size databases, have more links to
+integrate the chunks which leads to
+'nodal or linkage explosion', i.e., distortion. In second generation HT systems,
+this problem was taken care by aggregating sub-networks into composite
+nodes which have chunk material on a
+higher level of abstraction. But creating
+another dimension of hierarchy complicates the representational architecture
+and, unless implemented in a manner
+
+DESlDOC Bull of Inf Techno1 12(6), 1992
+
+transparent to users, may increase disorientation and cognitive overload (17,
+p.99).
+
+creating useful materials. Empirical
+studies in all the related fields of HT could
+be conducted to develop appropriate
+guidelines to make use of this technology
+optimally. The speed in which the research is going on, one can expect that
+they will be available very soon.
+
+(d) Construction of Default Paths: This
+problem is also related to rhetoric experienced in the construction of very big
+HT databases. Construction of required
+links itself is a time consuming task and
+creating default paths requires more
+time. Thus this becomes a major constraint in d6signing a sophisticated HM
+system.
+
+Acknowledgements
+
+9. Storage and Distribution of HT
+
+References
+
+and HM Documents
+The main problems in storage and distribution of HT and HM systems are their
+size and multimedia nature. Since these
+have graphics, photographs, -tion,
+sound, etc they normally require very
+large disk space, which often exceeds the
+memory of large computers also. For a
+simple HT system, memory of a
+microcomputer is adequate whereas the
+same will be inadequate for HM. In
+general, most of the HM systems require
+an external storage device for storing and
+usage. Some of the storage and distribution devices include magnetic disks, video
+disks, optical disks, and online networks
+or bulletin board systems.
+
+10. Conclusions
+There is no doubt that HT has created
+a new revolution and opened a new way
+of presenting the information. At the
+same time, many people, especially computer scientists, believe that HT concept
+is a breakthrough in the computer world;
+something comparable to the invention of
+printing machine. Research is in progress
+to add new strengths and facilities to HT
+and to overcomethe problems. HT is overwhelmingly accepted by many of the computer users in almost all areas.No valid
+and verified guidelines are available for
+designing the HT materials. Effective
+guidelines are necessary to assist in
+DESIDOC Bull of Inf Techno1 12(6),1992
+
+I would like to thank my supervisor
+Prof A J Meadows because of whom I
+entered in this field and doing research.
+
+1.
+
+Bush, V. A s we may think.Atlantic
+Monthly. 1945, 176(1). 101-8.
+
+2.
+
+Nelson, Theodor H. The hypertext.
+In Proceedings of the World
+Documentation Federation, 10-15
+October 1965, Washington, DC,
+1965. p. 80.
+
+3.
+
+Engelbart, Douglas C. A conceptual
+frame work for the augmentation of
+man's intellect. In Vistas in information handling, Vol. 1, edited by
+P. Howerton. Sparton Books,
+Washington, DC,1963. pp. 1-29.
+
+4.
+
+Nelson, Theodor H. Computer
+lib /dream machines. Microsoft,
+Redmond, 1987.
+
+5.
+
+Nelson, Theodor H. Replacing the
+printed word: a complete
+literary system.In IFIP Promedings
+80,edited by Lavington. North- Holland, Amsterdam, 1980. 1013-23.
+(IFIP Congress series Vol. 8)
+
+6.
+
+Gregory, Roger. XANADU: hypertext for the future. Dr Dobb' Journal,1983, 75 (January),28-35.
+
+7.
+
+Nelson, Theodor H. No more
+teachers dirty looks. Computer
+Decisions. 1970, September, 16-23.
+
+8.
+
+Van Dam. Andries. FRESS: file
+retrieval and editing system. Text
+System, Barrington, 1971.
+
+Meyrowitz, N. Intermedia: the architecture and construction of a n
+object-oriented hypermedia system
+and applications framework. In
+OOPSLA'86 Proceedings. ACM, New
+York, 1986. pp. 1-23.
+
+18.
+
+Yankelovich, N., Haan, B.J.,
+Meyrowitz N. & Drucker, S.M. Inkrmedia: the concept and the construction of a seemless information
+environment. IEEE Computer, 1988,
+21(1), 81-96.
+
+Engelbart, D.C. & English, W. A
+research centre for augumenting of
+human intellect. In Proceedings of
+the Fall Joint Computer Conference, Vol. 33, No. 1, AFIPS Press,
+Reston, 1968. pp. 395-410.
+
+19.
+
+Akscyn, R.M. & McCracken D.L.,
+ZOG and the USS CARLINSON:
+lessons in system dyelopment. In
+HCI-INTERACT'84. Proceedings of
+the IFIP Conference on HC1,London
+4-7 Sept 1984, edited by B.Shacke1.
+North-Holland, Amsterdam, 1985.
+pp. 901-6.
+
+20.
+
+Brown, P.J. Turning ideas into
+products: the Guide system. In
+Proceedings of the Hypertext '87.
+Univ of North Carolina, Chapel Hill,
+1987. pp. 33-40.
+
+2 1.
+
+Shneiderman. Ben. User interface
+design a n d evaluation for a n
+electronic encyclopedia. In: Cognitive
+engineering in the design of humancomputer interaction and expert systems, edited by G. Salvendy,Elsevier,
+Amsterdam. 1987. pp. 207-23.
+
+22.
+
+Harrington, R.. Fancher, B. &
+Black, P. IBM LinkWay: hypermedia
+for PC. John Wiely, New York, 1990.
+
+23.
+
+HyperPAD. Personal Computer
+ori id. 1989, August.,pp. 190-93.
+
+24.
+
+The world of hyperdoc-ideas for multimedia applications. Hypedoc International Newsletter, 1989. 1(2),2.
+
+25.
+
+van der Merwe, D.P. Annotating
+literary texts with hypertext. In
+Proceedings of the 12th International Online Information Meeting,
+London, UK, Vol. 1, 6-8 December
+1988, Learned Information, Oxford,
+1988, pp. 239-47.
+
+26.
+
+Smith, J B., Weiss, S.F. & Ferguson,
+G.L. A hypertext writing environ-
+
+tin,TX, December 1986. ACM, New
+York, 1986. pp. 147-52.
+
+Conk&, Jeff. Hypertext : a survey
+and introduction. IEEE Computer,
+1987, 20(9), 17-41.
+Multimedia road show gets set to
+achieve stardom. PC Week Supplement, 1990 (4 September), 12.
+Conklin, Jeff. A survey of hypertext. MCC Technical Report No:
+STP-356-86, Rev.2. MCC, Austin.
+1987. p. 9.
+Shneiderman, B., Brethauer, D.,
+Plaisant C., and Potter, R. Evaluating three museum installations of a
+hypertext system. J o u r n a l of
+American Society of fhe Information
+Science, 1989, 40(3), 172-82.
+Mc Cracken, D. & Akscyn, R. Experience with the ZOG Human-zComputer Interaction System.
+International Journal of ManMachine Studies, 1984, 21, 293310.
+Stallman, R.M. EMACS: the extensible,
+customizable
+selfdocumenting display editor. In
+Proceedings
+of
+the
+ACM
+SIGPLAN/SIGOA Conference on
+Text Manipulation. Portland, June
+1981. pp. 147-56.
+Delisle, N. & Schwaritz, M. Concepts--a partitioning concept for
+hypertext. In Proceedings of the
+Conference o n Computer -Supported Co-operative Work, Aus-
+
+DESIDOC Bull of Inf Techno1 12(6),1992
+
+The University of North Carolina at
+Chapel Hill, Dept. of Computer
+Science, Chapel Hill,October 1987.
+14 p. A text lab report No:TR87033.
+
+ment and its cognitive basis. In:
+Proceedings of the Hypertext'87.
+Univ of North Carolina, Chapel Hill,
+1987. pip. 195-214.
+27.
+
+Fish, Robert S., Kraut, R.E., Ieland,
+M.D. & Cohen, M. Quilt: a collaborative writing. In Proceedings of
+the ACM Conferenceon OMce Automation Systems. ACM, NY, 1988.
+pp. 30-37.
+
+28.
+
+Engelbart. D.C. Authorship
+provisions in Augment. In Proceedings of the IEEE COMPCON, San
+Francisco, CA, Spring 1984. IEEE,
+New York, 1984. pp. 465-72.
+
+29.
+
+Garrett, L., Smith, K. & Meyrowitz,
+N. Intermedia: issues, strategies
+and tactics in the design of a hypermedia document system. In
+Proceedings of the Conference on
+Computer -Supported Co-operative
+Work. Austin.TX. December 1986.
+ACM, New York, 1986. pp. 163-74.
+
+30.
+
+3 1.
+
+32.
+
+Yoder. Elise.. Askcyn R. & Mc
+~rackeh.D. Collaboration in KMS,
+a shared hypermedia system. In
+Proceedings of CHI'89, Austin,=,
+May 1989. ACM, New York, 1989.
+pp. 37-42.
+Halasz, F. Reflections of Notecards:
+seven issues for the next generation
+of hypermedia systems. Communications of the ACM, 1988,
+31(7).pp. 836-52.
+Smith, J.B., Weiss, S.F. & Ferguson, G.F. A hypertext writing environment and its cognitive basics.
+
+DESIDOC Bull of Inf Techno1 12(6),1992
+
+33.
+
+Fairchild, Kim F., Poetrock, S.E. &
+Furnas, G.W. SemNet: threedimentional graphic representations of large knowledge
+bases. In Cognitive science and its
+applications for human-computer
+interaction, edited by R. Guindon
+Lawrence Erlbaum Associates,
+Hillsdate. 1987.
+
+34.
+
+Beard, D.V. & Walker, J.Q. Navigational techniques to improve the
+display of large two-dimentional
+spaces. UNC, Dept. of Computer
+Science, Chapell Hill, 1987.Technical Report: 87-031.
+
+35. Foss, Carolyn L. Tools for reading
+and browsing hypertext. Information Processing & Management,
+1989, 28(4), pp. 407-18.
+36.
+
+Dede, Christopher. The role of hypertext in transforminginformation
+into knowledge. In Ps-r
+of
+NECC'88. Int. Council Comp.
+Educ., 1988. pp. 95-102.
+
+37.
+
+Landow, George P. Relational encoded links and the rhetoric of hypertext. In Proceedings of the
+hypertext'87, 13-15 November,
+1987, Univ of North Carolina at
+Chapel Hill.Univ of North Carolina,
+Chapel Hill, 1987. pp. 331-43.
+
+13
+
+

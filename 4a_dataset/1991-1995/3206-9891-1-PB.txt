@@ -1,0 +1,1006 @@
+DESlDOC Bulktin of I n h a t i o n TecRoobgy, Vol. IS,No. 6, November 1995, pp. 17-26
+Q 1995, QESlDOC
+
+A Resource for Teaching lnternet Access
+
+Department of Electrical and Computer Engineering,
+University of Michigan-Dearborn, USA
+e-mail: nnarasim@urnich.edu
+S Amba
+
+Information Area, Central Leather Research Institute
+Madras 600 020
+email: samba@niclai.ernetin
+Abstract
+This article presents the basics of lnternet and its benefits to the users
+who want to avail the opportunities offered by the net in simplified
+questionnaire form. The text lists out various login sites of interest to
+information professiorkls, librarians and documentalists.
+
+However hackneyed it might sound, we
+are in the midst of the information
+revolution and the lnternet is the force that
+is driving this revolution. The lnternet is a
+network of literally millions of computers in
+over 75 nations and accessed by millions of
+users. It is estimated that every month two
+million new users try the lnternet [I]. While
+a majority of the machines use the lnternet
+as a communication medium, a good
+percentage of them are information service
+providers.
+At present, information on the lnternet
+i s stored in a haphazard, relatively
+unstructured manner thus making the
+access to information tedious, and a hit or
+DESIDOC 6ukbtlnof lnf Tedwd,199515(6)
+
+miss proposition. Jacobson [2] compares
+the lnternet to a large rapidly growing
+library where the books have been placed
+randomly on the shelves and have no call
+numbers or other classification schemes
+and with new collections being added
+every day. Hence, i t is important that
+librarians understand and exploit this
+information resource which is literally
+swamping the world with electronic data
+and information. Of particular interest to
+librarians i s the problem of citing electronic
+documents. Standards are being developed
+for this. Another area of interest i s of
+cataloguing lnternet resources. The OCLC
+has
+brought
+out
+a
+manual
+for
+cataloguing lnternet resources. This manual
+was developed to aid those participating in
+
+the OCLC/US Department of Education
+funded project 'Building a Catalogue of
+A
+searchable
+Internet Resources'.
+catalogue of lnternet resources called
+the intercat will be available at URL
+http://w.ocIc.org:6990 till March 1996.
+It is essential, therefore, for library and
+information workers to actively participate
+in this revolution and not just be carried
+along with the tide. For this, it is necessary
+to know about the internet and how to
+effectively utilise this vast 'comparatively
+unorganised' library.
+In this paper, we provide information
+that will be useful to the instructors. We
+have selected only what we consider as the
+core information that every user of lnternet
+should know. At a minimum, the students
+should be able to use the lnternet to send
+and receive electronic mail, telnet to
+remote sites, search for files using a search
+program such as Archie, and retrieve files
+using ftp. Although the World Wide Web
+with its hypertext technology will make
+searching and retrieval easier, not all
+documents are available on the Web and
+the primitive methods are still necessary.
+However, we feel that the students shouid
+be introduced to the Web and strongly
+encouraged to browse through the Web.
+We have indicated some interesting sites to
+visit on the network. The instructor may add
+additional sites and also make it a
+requirement for the students to atleast visit
+a few and retrieve information from them.
+
+One final note to the instructors:
+Teaching' lnternet is more like teaching
+swimming or bicycling. There is not much
+of theory to teach and the students learn
+only by doing. It is therefore important to
+ensure that the students are given adequate
+computer time and the course be taught in
+a laboratory setting (with an lnternet
+connected computer).
+18
+
+2. INSTRUnIONAL MODULES
+2.1 Preliminaries and Pact-requisites
+
+FAQ stands for Frequently Asked
+Questions. Most tutorial and instructional
+materials on the internet are often in the
+form of questions and answers and the
+documents are often called FAQs. The
+name of the documents often have the
+extension .faq or XAQ.
+2.1.2 What is JInfemel?
+internet is a backbone connecting
+networks of computers. Typically, one
+machine in each network, usually called the
+gateway machine, is connected to the
+Internet.
+2.1.3 Who regulates the Internet?
+
+Nobody? lnternet is an unregulated
+network. Any machine that follows the
+lnternet Protocol (1P) can be on the
+network. Each machine on the network is
+given a unique lnternet address. Most users
+access the lnternet through an lnternet
+Service Provider (ISP) who has a machine
+on the Internet. Currently, in India, the three
+providers are the Educational and Research
+Network of the Department of Electronics
+(ERNET), Vidhesh Sanchar Nigam Limited
+(QSNL) and the Software Technoiogy Parks
+of India (STPI). O f the three, only QSNL is
+available to the general public.
+2.1.4 What is an internet Service
+Provider?
+lnternet Service Provider (ISP) gives you
+an account on a machine that i s connected
+to the Internet. You log on to the machine
+and access the lnternet from there. Most of
+the users will connect to the machine using
+modems and telephone lines. Dedicated
+users may have round the clock
+connections using leased telephone line
+DESIDOC Bulletin of Inf Technd,1495,15(6)
+
+connections, or radio iinks or even satellite
+links to the provider.
+
+2.1.5 I have a PC and a Modem. Can I
+place nty machine on the Internet?
+Generally, you use your PC as a terminal
+to the machine provided by the [SP.
+However, if your ISP provides the right
+access to you, you connect to the ISP using
+either PPP or SLIP connections (you use
+specialised software to do this). Once you
+are connected and the connection i s
+authenticated, the ISP will provide your
+machine with a temporary lnternet address.
+At this stage, your computer is physically a
+part of the Internet. Your machine will be
+on the network till you disconnect, at which
+time the temporary address is returned to
+the pool that is maintained by the ISP. This
+address will be assigned by the ISP to the
+next machine that connects using the
+
+SLIP/PPP.
+lalor all lSPs provide SLIP/PPP
+connections and those that do may not
+extend this privilege to all their clients.
+Service providers call the clients who are
+permitted SLIP/PPP connection as TCP/IP
+accounts,
+
+TCP (Transmission Control Protocol)
+refers to the manner in which the control is
+transferred from one machine to the other
+(in this case the service provider and your
+machine). IP stands for lnternet Protocol,
+the protocol that should be followed by any
+machine that wants to communicate on the
+lnternet Programs running on personal
+computers that allow the PC to use TCP/tP
+are often referred to as TCP/IP stacks.
+2.1.7 What is the history of Internet?
+
+The origin of the lnternet can be traced
+to the ARPANET. ARPANET was a network
+created by the Advanced Research Projects
+Agency, the US Department of Defence
+
+Organisation, This network linked
+researchers in various organisations and
+enabled them to share resources and
+information. This network split into two
+one for military use and the other for
+civilian purposes. The interconnection
+between them came to be known as the
+lnternet. Other networks such as the
+BITNR; CSNR; NSFNET, JANET to name a
+few were developed and connected with
+the Internet, thus making it a huge network
+of computers,
+
+-
+
+2.1,8 What took and equipment da H
+need to access Internet?
+
+A PC, modem, communication software
+and a computer account on a machine
+connected to the Internet. If the access to
+the lnternet is text based, any simple PC
+with modem speed of 2400 baud rate is
+adequate. However, if you are interested in
+graphics and sound, you need a PC with
+processor comparable to or better than
+Intel 386 chip and modems with speed of
+9600 baud. if you are interested in a
+SLIP/PPP connection, you would need the
+appropriate software. intensive users of the
+lnternet should have a (Unix) workstation
+directly connected to the network on high
+speed link,
+
+2.1.9 What pre-requisite (Background)
+knowledge do I need to use
+Internet?
+You need to know: How to use a PC and
+the communication programme and how
+to log on to the machine on which you
+have the account. If you plan to transfer
+files between your PC and the machine on
+the lnternet you should become familiar
+with the file transfer programmes that
+comes with the communication software.
+Kermit, Xmodem, Ymodem and Zmodem
+are some of the widely used file transfer
+programmes.
+19
+
+2.1.10 M a t is available 'en #heInternet?
+1. Free software developed at various
+universities and research organisations.
+2. Free software developed by individuals
+and placed on the lnternet for general
+use.
+
+3, Shareware/crippIeware programmes.
+4, Research articles and reports.
+
+5. Electronic journals and books,
+6. Bulletin boards.
+
+7. Discussion groups.
+8. Pictures.
+
+9. Library catalogues.
+10. Product information and specifications.
+1 1. Upgrades and bug fixes for commercial
+sofware.
+
+Archie and gopher, there are several other
+search tools such as veronica, wais, etc.
+
+2.2 E-Mail, Electronic journals,
+Bulletin Boards and Discussion Lists
+
+22.1 What is e-maiR
+Electronic mail or e-mail as it is popularly
+known is the electronic equivalent of the
+normal postal system. E-mail permits the
+transmission of text in machine-readable
+form from one computer system to another
+where it is stored in the recipient" mailbox.
+Every e-mail consists 05 atleast four
+elements :
+a) the address of the recipient,
+b) the address of the sender,
+c) a subject line and
+d) the letter/message.
+
+12. Newspapers.
+
+2.2.2 What is in an entail address?
+
+13. Electronic shopping malls.
+
+The e-mail address consists of your id
+and the name of the machine on which you
+have your account. For example,
+nviiay@giarrndOI.vsnl.netin would be the
+email address of the user nvijay whose
+account i s on the machine called
+giasmdo 1.vsnl.netin.
+The
+format
+is
+userid@hostsubdomain.firstleveldomain. The
+address is in several parts, each of which is
+separated by a period. The first part is the
+name of the machine, the subdomain
+indicates the location of the machine and
+the network and the first level domain
+indicates the country, and if in the US, the
+type of organisation. The system used by
+the lnternet to assign addresses to
+computers on the network is known as the
+Domain Name System (DNS).
+
+2.1.11 What is Shareware/Crippleware?
+Shareware is a form of distributing
+commercial software. Typically you are
+given 30 to 40 days to try it out and at the
+end of the period you are expected to pay
+for the software if interested or delete it
+from your machine. Crippleware is a form
+of commercial software where certain key
+features are inactivated. This allows you to
+try the software before buying it.
+
+2.1.I2What facilities are available for
+searching the Internet?
+
+if you know the name of the file, you
+can use Archie to locate the file. In most
+cases it is enough if you can specify the
+name of the file using wild cards. Gopher is
+a menu driven search tool that also locates
+files. Even if the computer you use does not
+provide these services, you can telnet to the
+sites that do provide them (telnet is
+described in a later module). In addition to
+
+2.2.3 How are machines identified on
+
+the Internet?
+Computers on the lnternet can be
+identified either by names as described
+above or by numbers. The number consists
+
+-PIJOM aqj u! au!q>ew
+Aue 01 uo 301 03 alqssod s! 31 9au~a1ul
+aql uo au!y3e~u e ol uo paSSol aAeq
+noA a3uo 'snql -1au ayj uo ale noA a3uo
+3auJa)ul aql uo au!q3ew Aue 01 u!8ol 01
+noA smolle ley$ uo!~m!lddeue s! aaulal
+
+he~qq
+10 s3adse lualajyp ssnDs!p sue!JeJq!l
+4 3 ! 4 ~u! ,QS!I, 10 Jaqwnu e aJe aJaql
+Ue!JPJq!l aLJ1 J O j .~Da!qns JO A $ ~ ! J ap!M
+~A
+e ueds s a ~ u a ~ a j u~alndwo:,
+o~
+JO spJeoq
+u!ia11ng qe paAyJe suo!lnlos snoiyen aql
+pue S U ~ I ~ O Jel!w!s
+J ~
+a3ej o q sJaqlo
+~
+1noqe
+MOUY 01 a~o:, sa~ua~aju033!~0~13ala
+asaql u! aled!D!l~ed o q ~
+sJaq!J:,sqnS
+.sdno~8 SUO!SSn3S!p Ile-JOJaaJ) ale SJaqlO
+seaJaqM paleJapour ale spJeoq u!jallnq
+aluos -11e J O ~ uado ale spJeoq u!lallnq
+asaql Alle~aua8 Inq papJ1saJ aJe awoS
+.a3!~as I!ew a ! u o ~ ~ ~ aay1
+l a jo uo!sualxa
+ue lsn! aJe 's)s!l JO s a ~ u a ~ a ~3!uoq3ala
+uo~
+se u ~ o osle
+u ~spJeog u!lallng 3 y o ~ i ~ a l g
+
+.I!ewa J ~ O Aul oapA
+pue punos 'S:,!qde~8 9xa1 se q3ns slewJoj
+* ( s M ~ ! ~ ; JZj!UoJJX/3
+sly luaJajj!p aie~od~o:,~!
+03 noA s)!wJad
+s ~ o ~ ~ m ! u n w w o ~ a831
+~ a l aql
+)
+pue uap~e3
+PJP~UEJS 3
+~ a 1q l "suolsualxl
+~
+pew
+an!y~ aq1 se q3ns ue!seJq!l aqi J O ~S I ~ U J ~ O !
+lauJalu1 a s o d ~ n d p l n~~ o spurns
+j
+3
+~
+1
+~ ! u o ~ l 3 a lale
+a amql .suo!l!pa pa>lJowau
+PUP palu!~d~€!wJOj Q! UaaWaq A J O J ~ ~ J ! ~
+lay aq1 salepdn q ~ ! $s!l
+q ~1uawaDunouue
+Sasn 01 Ja!sea
+3?uoJ)3ala ue s ? q 3 ! q ~ ~nolmal\r
+Alle~aua8 ale s w e ~ 8 o ~ d
+asaql *swalsAs
+ayl s! sleu~nola!uo~l~ala
+jnoqe uo!yeLuJoju!
+lsow
+uo
+alqel!eAe aJe JWIW lnoddns
+~ o jamnos 3!uo~pala Jayjouv -5661
+q 3 y ~
+snse8ad 'ww]3 'au!d se 43"s UaNas
+Aew U? (~0!l!p3 Jaqd0f-J) "SlS!-j UO!S§nZjS!a
+j!ew uaAyp nuaW .Jan!aDaJ 01 %u!puas~ o j
+D!wapeDy pue sJajjajsMal\r 'sleu~nol
+walsAs aq1 o l 3gpads spuewwo:, aql asn
+D!UOr)Da/3 JO ~ o ~ Z W J ! ~e, In0 1Lj8noJq
+pue a8essaw aq1 adAl -ssaJppe s,~a~!a:,a~
+seq sa!Jelq!l qa~easaa 40 uo!le!:,ossy
+Aq paMolloj /!ern adAl " u w e ~ 8 o J d
+aql jo Su!qsllqnd ~ ! w a p e ~pue
+y D!j!luapS
+pew leuop!peJ) aql Suisn
+puas
+jo a3940 a y l 4 u 0 lew.mj ~ ! u o . ~ ~ u!
+a l aq
+a
+01ahipua!.yJasn aJow s! Jallel a g OAQ ay1
+Aew JO q~ed~ajuno:,ju!~daAeq ue3 sleu~no!
+"(103030~d~dalsue~.~
+i!ew a % d ~ ! sd)l w s
+zyucPJ1Dalg -leu.mo! Ag~e1oq3~leuo!luaAuoD
+asn
+ley1
+pej,q
+pue
+I!PW
+pailm
+sawwe~8oJd
+aqa a y l ~sn! Ma!AaJ ~ a a d01 pal~a!qns
+OM$
+aAeq Ailensn sau!q:,ew
+x!un
+aJe sleu~no! asaql jo awes -sJaualsMau
+.peLu-a puas oq JaAJas; I!ew e paau noA
+pue sieu~no! D!uoaDala ale sa3ua~ajuo~
+2 j ~ ~ wpuas
+-a
+op moH P * ~ Z
+JalndU03 01 pajelaJ Alas013 -sa!Jelq![
+u! s~alndw03 jo suoper>!ldde sassnas!p
+-sJaqwnuaq, 03 saweu
+I-sJed a u 'SUe!J€?Jq!l 01 lSaJaJU! 10 ~3!d01
+aql dew q 3 ! q ~aseqmep e a ~ e qq q q ~
+uo suo!ssn3s!p i3u!Sue~ ap!M JOJ wnJoj
+sJa,uas aweu u!ewop p a l l a sau!qaeu"
+EP se sahlas a~ole%ueg
+% a u a p ~jo alnlysul
+ale aJaql IauJalul aql u g -au!q3elu
+ue!pul ayl ze uo!aewJojup a ~ u a ~p ~
+oaaua3
+j
+ayl jo SsaJppe ~ e ! ~ y jaql
+o s! Jaqwnu a q ,
+leuo!leN Aq paBeuew Latnroj-s!l a u ~ J O M
+-au!od pew13ap A q palelE?d3Sw e d Jnoj p
+
+~
+
+ao
+
+Often, you may have account on more
+than one machine which may not be
+geographically close. Telnet permits you to
+work on more than one machine. This is
+especially useful for collaborative work.
+Also, certain facilities may not be available
+in your local machine but only on some
+remote machine. As long as you have login
+privileges on the remote machine, you can
+make use of these facilities. Some machines
+might only provide restricted access to
+them for anyone. For example, you will
+telnet to a site that has an Archie server and
+login with the user id Archie to make use of
+the Archie service,
+2.3.3 What is Archie?
+
+Archie started out as an archive of files
+available to general public. Over the years,
+Archie has become a powerful search tool
+to locate publicly available files. You use
+Archie by connecting to an Archie site and
+running the Archie program.
+2.3.4 How do I connect to an Archie site?
+
+You telnet to an Archie site and login as
+Archie, Once you are logged in, the
+computer will automatically start the Archie
+program. Note that most Archie sites will
+not allow you to do anything beyond
+running the program.
+
+2.3.5 Can you name some Archie sites?
+
+22
+
+Site
+
+Location
+
+archie.sura.net
+
+Maryland, USA
+
+archie.unl.edu
+
+Nebraska, USA
+
+archie.mcgill.ca
+
+Canada
+
+archiehinet3
+
+Finland
+
+archie.docic.asuk
+
+United Kingdom
+
+archie.au
+
+Australia
+
+archle.ncu.edu.~
+
+Taiwan
+
+Fik using Archie P
+Once you have Archie running, use the
+command find followed by the file name,
+You can use wild cards in the search. You
+can also use what is called a substring
+search in which the pattern you use for the
+file name will be matched with any file that
+has the pattern as a substring. Generally,
+only the first 99 files that match the pattern
+would be shown, but this number can be
+changed. Also, i f p u want a more
+permanent record of the search results, you
+can issue the command mail to followed by
+your e-mail address. In this case, the resu!ts
+of the search will also be mailed to you by
+e-mail.
+
+2.3.7 Now that Iknow Where the fjle is,
+and How E/O 1 get if?
+To get the file you need to use the
+program called ftp.
+
+2.4 ftp and File Transfer
+2.4.1 What is ftp?
+File Transfer Protocol (Pt) i s an
+application that permits the transfer of files
+between two computers. Typically, you run
+the program on one computer and open a
+connection to the other computer. When
+establishing the connection, you need to
+login to the other computer using a valid
+userid and the corresponding password.
+Once, the connection is established, you
+can transfer files from your local machine
+using the put command and retrieve files
+from the remote machine using the get
+command. You retrieve most of the public
+documents that are available on the
+internet using 'anonymous' ftp.
+2.4.2 How do I connect to an
+anonymous ftp site?
+
+Anonymous ftp sites are computer sites
+which have public files. These files can be
+accessed by anyone. You do not have to be
+DESDOC BdeM of Inf T ~ c W 1995.15(6)
+,
+
+a registered user to access these files.
+When you use anonymous ftp, you login as
+anonymous once you are connected to the
+ftp site. The password generally used is
+one's own e-mail address.
+2.4.3 How do I put files for the use of
+others?
+Some anonymous ftp sites will permit
+you to put files on their system. You can
+select one such site and place your
+documents there. Your file can now be
+used by others. It is also important to note
+that most anonymous ftp sites mirror other
+sites also; i.e., they hill keep copies of files
+found in the site being mirrored. Thus, once
+you place the file on a site, it may be
+duplicated at several sites.
+
+2.5 World Wide Web
+2.5.1 Whatis WWW?
+The World Wide Web, more commonly
+known as the Web or WWW, is a network
+of WWW servers that use the lnternet as
+the backbone. The Web started as a small,
+hypertext-based network of documents. The
+documents themselves were distributed
+over several machines on the Internet,
+connected to each other through hypertext
+links. Although it started as a tool for
+researchers to exchange information, many
+organisations joined by adding documents
+to this network and providing links to these
+documents. At present, the Web is truly
+world wide with Web documents literally
+spanning the globe.
+2.5.2 What are Hypertext and
+Hypermedia?
+Hypertext is a document which permit
+'non-linear' access to information. The
+documents contain programmed 'links' to
+other documents and selecting the link
+results in the display of the linked
+document. The 'path' that you follow in a
+hypertext document is determined entirely
+DESIDOC BulleNn of Inf Technol,1995,15(6)
+
+by you. This is in contrast to the
+conventional documents which follow a
+'linear' structure. Hypermedia refers to
+hypertext documents which in addition to
+text contain graphics, video and sound. The
+pages on the Web are hypertext documents
+as they contain links to other documents.
+What makes the Web truly world wide is
+that the documents could be anywhere in
+the world and are known to each other
+through their URL.
+2.5.3 What is an URL?
+Every document on the internet has an
+unique identifier called the URL (Uniform
+Resource Locator). URLs contain three
+parts-the type of protocol that is used to
+fetch the document, followed by the
+computer site where the document. is
+stored, followed by the directory path on
+the computer to the actual document. The
+last piece of the URL is likely to be the file
+name. For example, the URL http:
+//www.3w.com/3w/index.html locates file
+called index.htmi in the directory 3w on the
+machine www.3w.com. The initial section
+http: indicates that this document should be
+fetched using hypertext transfer protocol.
+Also, the suffix html in the file name
+indicates that it is a HTML document.
+2.5.4 What is HTTP?
+Hypertext Transfer Protocol (HTTP)
+defines h o w hypermedia files get
+transferred from the WWW servers to your
+computer. A computer that stores and
+transmits WWW documents has a software
+called HTTP server. Browsers on your
+computer have HTTP client software built'in
+so that you can display these documents on
+your computer.
+2.5.5 What is HTML?
+If you want to put your information on
+the WWW you will need to use the
+Hypertext Mark-up Language or HTML.
+Every Web page is an HTML document. An
+23
+
+HTML document consists of text and HTML
+codes which define how the text will look.
+If you want to create your pages on the
+Web you will need to know HTML or
+procure a program that generates HTML
+files.
+2.5.6 How to retrieve information from
+the Web?
+To access information on the Web, you
+need a special program called the browser.
+The browser has the ability to render HTML
+documents and also follow links embedded
+in these documents. You start the session at
+a special document called the Homepage.
+Depending on the Internet Seivice Provider,
+you may or may not be able to choose the
+homepage you want to start with. Starting
+from your page, you follow the links, from
+one document to another until you get the
+information you need. Some URCs will have
+fp in the place of http as the protocol to be
+used to access the document. In such
+cases, the browser will automatically invoke
+fp and transfer the file to your computer.
+
+2.5.9 What are the Browsers avail;ableP
+
+Mosaic, Netscape, Lynx are the most
+commonly available browsers. To evaluate
+the browsers you should first be clear about
+the nature of the information you want to
+access (text or graphics or sound or video,
+etc.) and the computing power available on
+your own system. If you are interested in
+multimedia, then you would probably go in
+for a multimedia browser such as the
+Netscape or Mosaic. if you are only
+interested in text, or your resources do not
+permit multimedia, then you should
+probably choose Lynx. Also, i t is important
+to note that the browser that is available is
+often dictated by the lnternet Service
+Provider.
+2.5.10 Can you name some Web
+documents of interest?
+Description
+
+URL
+
+http://www.internic
+.net/infoguide/
+gopher/aboutinternethtml
+
+visit
+
+2.5.7 What is a Homepage?
+The Homepage is the starting page that
+is displayed when you access the World
+Wide Web. The home page is designed to
+have links to the various documents on the
+site. You can create your own home page
+with links 10 the documents you want to
+access.
+
+The place to start if you
+http://www.
+interramp.com/coo want to explore the Web.
+I/ cool.html
+To get the most out of
+your exploration, you
+would need a graphical
+browser.
+http://www. bdi.
+com/server/doc/
+we&nfo.html
+
+2.5.8 Whatisa WWWBrowser?
+Browsers are programmes which help to
+navigate the Web. The browser can be on
+your ISP's computer or it can be a
+programme that you can install on your PC.
+~roivsersare of different types, some of
+them do not permit graphics or other media
+while others are multimedia capable
+browsers.
+
+The definitive source for
+information regarding the
+Internet. This should be
+the first site you should
+
+http://www.hot
+wired.com
+
+The definitive source for
+information regarding the
+World Wide Web.
+Novices may be
+overwhelmed by the
+jargon.
+An online magazine for
+WWW users. A must for
+
+all but the casual user.
+http://w.3w.
+com/3windex.htm
+
+An online magazine on
+WWW. A good starting
+place for beginners.
+
+DESIDUC &rgsfin of Inf T'hnd. l995,15(6)
+
+http://chronide.
+merit.edu
+
+The Chronicle of Higher
+Education. Lodc here for
+an electronic copy of the
+journal
+
+http://www.cupmc
+.uk
+
+The Cambridge
+University Press. Look
+here for an online
+catalogue as well as links
+to other publishers.
+
+http://www.
+
+Headline news stories
+provided by San Jose
+Mercury News.
+Somewhat regional but a
+good place to start for
+researchers of topical
+major international news.
+
+sjmercury.com
+
+http://www.
+childsoft.com/
+childsoft
+
+Look here for high quality
+educational software for
+children.
+
+http://www.cs.cmu
+.edu:8001meb/
+books.html
+
+Search for books by
+author or title.
+
+http://info.isoc.
+org/home.html
+
+Look here for policies on
+the use of lnternet
+
+3. CONCLUSION
+The modules presented above deal with
+the technical aspects of Internet. There is
+another important aspect to lnternet usage
+which i s of interest to library and
+information workers. This is concerned with
+the administrative and management aspect
+of use of the lnternet by the organisation.
+
+DESIDOC Bulleth of lnf T & c h d , 19951M6)
+
+Some of the questions which would
+arise in this connection are those dealing
+with accounting and budgeting For the use
+of the lnternet, the types of facilities to be
+provided for the members of the
+organisation, whether the library and
+information centre should charge for the
+services it provides etc. These issues are
+necessarily addressed on a case by case
+basis.
+
+4. BIBLIOGRAPHY
+1. Eager, Bill. Using the Internet.
+Indianapolis, Que Corporation, 1994.
+
+2. jacobson, Robert L. 'Taming the Internet,'
+The Chronicle of Higher Education, 1995,
+April 2 1, A29.
+
+5. REFERENCES
+1. New Riders' Official World Wide Web
+Yellow Pages. Indianapolis; New Riders
+Publishing, 1995.
+
+2. PC Magazine (India) October 15, 1995
+and October 30, 1995. Covers the
+lnternet and the tools for using the
+Internet.
+
+3. Weibel, Stuart L. The World Wide Web
+and Emerging lnternet Resource
+Discovery Standards for Scholarly
+Literature. 1ibrary Trends, 1995, 43(4),
+62 7.
+
+25
+
+INDEX T O QUESTIONS
+2.1.1 What is FAQ?
+
+2.3.2 Why would I want to use telnet?
+
+2.1.2 What is Internet?
+
+2.3.3
+
+What is Archie?
+
+2.1.3 Who regulates the Internet?
+
+2.3.4
+
+How do I connect to an Archie site?
+
+2.1.4 What is an Internet Service Provider?
+
+2.3.5
+
+Can you name some Archie sites?
+
+2.1 -5 1 have a PC and a Modem. Can Iplace
+my machine on the Internet?
+
+2.3.6 How do I look up the location of a file
+using Archie?
+
+2.1 -6 What is TCP/IP?
+
+2.3.7
+
+2.1.7' What is the history of Internet?
+
+2.1.8 What tools and equipment do I need
+to access Internet?
+2.1.9 What prerequisite (background)
+knowledge do Ineed to use Internet?
+
+2.4.1 What is ftp?
+2.4.2
+
+How do I connect to an anonymous
+ftp site?
+
+2.4.3
+
+How do I put files for the use of
+others?
+
+2.1.1 0 What is available on the Internet?
+2.1.1 1 What is shareware/crippler?
+2.1.12 What facilities are available for
+searching the Internet!
+2.2.1
+
+What is e-mail?
+
+2.2.2 What is in an e-mail address?
+2.2.3
+2.2.4
+
+How are machines identified on the
+lnternet?
+How do I send e-mail?
+
+2.2.5 What is MIME?
+2.2.6 What are ejournals, bulletin boards,
+discussion lists?
+2.2.7 How do I subscribe to them?
+2.3.1 What is telnet?
+
+26
+
+Now that Iknow where the file is, how
+do I get it?
+
+2.5.1 What is WWW?
+2.5.2 What
+are
+Hypermedia?
+2.5.3
+
+Hypertext
+
+and
+
+What is an URL?
+
+2.5.4 What is HTTP?
+2.5.5 What is HTML?
+2.5.6 How do you retrieve information from
+the Web?
+2.5.7 What is a Homepage?
+2.5.8 What is a WWW browser?
+2.5.9
+
+What are the browsers available?
+
+2.5.1 0 Can you name some Web documents
+of interest?
+
+DESlDOC Bulbtin of Inf Jechnd. 1995.15(6)
+
+

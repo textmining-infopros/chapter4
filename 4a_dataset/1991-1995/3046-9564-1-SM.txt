@@ -1,0 +1,942 @@
+FOCUS
+
+ONLINE SEARCHING OF DATABASES :AN AUTOMATIC APPROACH
+Ambrish Kumar and AK 'Tyagi
+Defence Scientific Information & Documentation Centre
+Metcalfe House, Delhi-110 054
+
+Abstract
+A technique for automatic logon to Dialog host computer
+at Palo Alto, California, USA, is described. The software,
+written in Procomm Script language, helps in connecting
+to the Gateway Packet Switching Service PAD at New
+Delhi provided by the Videsh Sanchar Nigam Limited.
+After connecting to the PAD, the software sends NUI,
+User No., Password and loads up the search strategy. The
+software with automatic option selection capability, can
+be learnt by librarians with minimum effort.
+
+1. Introduction
+
+1
+
+Due to the continued devaluation of
+Indian rupee and rising cost of databases and
+telecommunications, it is necessary to cope
+up with the resulting problems by adopting
+novel techniques for searching the databases
+online. One of the factors which affect the
+search cost is the manual typing of
+commands from the keyboard. Besides,
+accessing the databases through Gateway
+Packet Switching Service (GPSS) without
+having leased lines up to local PADS poses
+connectivity problems, mainly due to the fact
+that a large number of subscribers are served
+by only a few ports. For example, in Delhi,
+only four telephone lines are provided by
+Videsh Sanchar Nigam Limited (VSNL) for
+about 150 registered users. The users lose
+interest when they do not get a clear line
+even after repetitive manual dialing.
+
+Besides, in the process, they waste their
+valuable time.
+The above factors inspired us to find a
+solution in providing necessary relief to the
+user from the process of repetitive dialing
+and also in using the telephone line
+effectively after getting the connection. The
+Script file, written in Procomm Script
+language, saves time and reduces the
+telecommunication and search costs besides
+minimizing the errors (Fig. 1).
+
+2. Procomm Script Language
+In India, Procomm software is supplied
+along with the modem at a nominal price of
+Rs 500 by various modem manufacturers.
+Sometimes, it is given free of cost. One of
+the special features of the Procomm software
+is its script language. For those who are
+unfamiliar with script language, these may
+
+Figure 1
+1:
+
+.................................................................................
+
+2:
+
+;*
+;*
+;*
+;*
+;*
+
+3:
+4:
+5:
+6:
+7:
+8:
+9:
+
+10:
+11:
+
+;*
+;*
+
+*
+*
+
+AUTODIAL.CMD Written by A Kumar& AKTyagi, July 1991
+
+*
+
+Thisscript file is written for automatic loggingonto ;
+
+*
+*
+
+Dialog via GPSS (Delhi) and up loading the search strategy
+
+: r ~ r 8 * * * r ~ r ~ * * ~ t r r r ~ r ~ t t t * * t t r r r t r t r r r ~ r r t t ~ ~ 5 ~ * * r * ~ r r o ~ r
+
+CLEAR
+
+47:
+
+SET BAUDRATE 1200
+
+48:
+
+TRANSMIT "!" r
+G O T 0 DPARA
+
+12: , SET DATABITS 7
+
+49:
+
+13:
+
+SET PARITY EVEN
+
+50:
+
+14:
+
+SET STOPBITS 1
+
+51:
+
+15:
+
+EMULATE VTl00
+
+52:
+
+16:
+
+LOCATE 4 5
+
+53:
+
+17:
+
+MESSAGE "Enter file name to save the retrieved
+data XXXXXXXX.XXX
+
+54:
+
+ASSIGN S2 "ATDW,3712221!"
+
+55:
+
+ASSIGN S3 "(3712221)"
+
+18:
+
+LOCATE448
+
+56:
+
+ENDCASE
+
+19:
+
+GET S1 12
+
+57:
+
+CASE "(3712221)"
+
+20:
+
+SWITCH S1
+
+21:
+
+CASE "NULL"
+
+22:
+
+ASSIGN S1 "PROCOMM.LOG"
+
+23:
+
+ENDCASE
+
+ENDIF
+DPARA:
+SWITCH S3
+CASE "(3712220)"
+
+58:
+
+ASSIGN S2 "ATDP0,353505!"
+
+59:
+
+ASSIGN S3 "(353505)"
+
+60:
+
+ENDCASE
+
+61:
+
+CASE "(353505)"
+
+24:
+
+ENDSWITCH
+
+62:
+
+25:
+
+CLEAR
+
+63:
+
+26:
+
+TRANSMIT "AT!"
+
+64:
+
+ENDCASE
+
+27:
+
+PAUSE 1
+
+65:
+
+DEFAULT
+
+28:
+
+ASSIGN S2 "ATDP0,3712220!"
+
+66:
+
+29:
+
+ASSIGN S3 "(3712220)"
+
+67:
+
+30:
+
+ASSIGN S4 "Press ESC key to abort the session and
+
+68:
+
+return to Terminal mode"
+
+69:
+
+ENDCASE
+ENDSWITCH
+
+START:
+
+70:
+
+GOT0 START
+NPARA.
+
+31:
+
+ASSIGN S2 "ATDP0,353508!"
+ASSIGN S3 "(353508)"
+
+ASSlGN S2 "ATDP0,3712220!"
+ASSIGN S3 "(3712220)"
+
+32:
+
+TRANSMIT S2
+
+33:
+
+CLEAR
+
+71:
+72,
+
+34:
+
+LOCATE 10 16
+
+73:
+
+WAITFOR "*" 20
+
+35:
+
+MESSAGE "Trying to connect to GPSS'
+
+74.
+
+IF NOT WAITFOR
+
+36:
+
+LOCATE 10 42
+
+75.
+
+HANGUP
+
+37:
+
+MESSAGE S3
+
+76.
+
+GOT0 DPARA
+
+38:
+
+LOCATE 18 5
+
+77:
+
+39:
+
+MESSAGE S4
+
+78:
+
+KFLUSH
+
+40:
+
+LOCATE 23 1
+
+79:
+
+LOG OPEN S1
+
+ENDlF
+
+41:
+
+RFLUSH
+
+tul
+
+ISFILE "NETWORK.KEY"
+
+42:
+
+WAiTFOR "CONNECT RELIABLE!" 60
+
+81.
+
+IF FAILURE
+
+43:
+
+IF WAITFOR
+
+82:
+
+CLEAR
+
+83:
+
+MESSAGE "Network file not found. Press
+
+84:
+
+LOG CLOSE
+
+44:
+45:
+46:
+
+GOT0 NPARA
+ELSE
+
+RETURN to proceed manually"
+HANGUP
+
+135:
+
+EXIT
+ELSE
+
+8s:
+86:
+
+136:
+
+MLOAD "NETWORK.KEY"
+
+87:
+
+88:
+
+GOT0 LPARA
+ENDIF
+
+89:
+
+137:
+
+WARA:
+ISFILE "DIALOG.KEY"
+IF FAILURE
+
+138:
+
+CLEAR
+MESSAGE "Dialog file not found. Press
+RETURN to proceed manually"
+
+139:
+140:
+
+90:
+91:
+
+LPARA:
+
+92:
+
+MACRO 0
+WAITFOR "PLEASE LOGONA M" 10
+
+EXIT
+
+141:
+143:
+
+ELSE
+GOT0 SKPARA
+
+144:
+
+ENDIF
+
+147:
+149:
+
+MLOAD "DIALOG.KEY"
+KFLUSH
+SET ALARM ON
+
+HANGUP
+
+150:
+
+ALARM 5
+
+152:
+
+MACRO 0
+WAITFOR "?"
+
+104:
+
+CLEAR
+GOT0 DPARA
+ELSE
+
+151:
+
+105:
+
+GOT0 UPARA
+
+154:
+
+93:
+
+IF NOT WAITFOR
+
+94:
+
+MACRO 0
+WAITFOR "PLEASE LOG0N:PLM" 10
+
+95:
+96:
+
+97:
+98:
+99:
+
+142:
+
+IF NOT WAITFOR
+MACRO 0
+WAI~OR
+"PLEASE LOGON: /\MIO
+IF NOT WAITFOR
+
+100:
+101:
+102:
+103:
+
+ENDIF
+ENDIF
+
+106:
+107:
+
+148:
+
+MACRO 1
+WAITFOR "?"
+
+153:
+155:
+156:
+157:
+
+MACRO 2.
+WAITFOR "?"
+MACRO 3
+WAITFOR "?"
+
+158:
+
+UPARA:
+KFLUSH
+MACRO 1
+WAITFOR "ENTER PASSW0RD:AM 10
+IF NOT WAITFOR
+
+159:
+160:
+
+MACRO 4
+WAITFOR "?"
+
+161:
+
+MACRO 5
+
+162:
+
+WAITFOR "?"
+MACRO 6
+WAITFOR "?"
+
+163:
+
+LOG CLOSE
+
+164:
+
+HANGUP
+CLEAR
+
+166:
+
+MACRO 7
+WAITFOR "?"
+
+165:
+167:
+
+MACRO
+
+ELSE
+
+168:
+
+GOT0 PPARA
+ENDIF
+
+169:
+
+WAITFOR "?"
+MACRO 9
+
+GOT0 DPARA
+
+170:
+171:
+
+WAITFOR "*"
+IF WAITFOR
+
+172:
+
+HANGUP
+
+KFLUSH
+MACRO 2
+WAITFOR "?" 60
+
+173:
+
+PAUSE 2
+LOG CLOSE
+
+IF NOT WAITFOR
+
+176:
+
+PPARA:
+
+LOG CLOSE
+HANGUP
+CLEAR
+GOT0 DPARA
+ELSE
+GOT0 DPARA
+ENDIF
+
+174:
+
+ENDIF
+
+175:
+
+EXIT
+
+be taken as mini-programs that take care of
+the control of the functioning of their
+computer and modem from the point of
+dialing through the logon process, and also
+of their automatic movement in an online
+system from one database to another for
+
+searching, once they entered an information
+retrieval system such as Dialog. The
+publishers of Procomm have done a
+commendable job of making COMMANDS
+accessible to anyone willing to learn the
+language.
+
+3. Autodial Commands
+
+number and passsword are stored) exists in
+current directory o r not. If the file exists.
+then these t h ~ e eare transmitted (lines 91 to
+125). In case of any failure in transmission
+or when the NUI, user number and password
+are not accepted by the host/PAD. the
+control is passed on to line 51 and the next
+available number is tried.
+
+Figure 1 gives a complete picture of the
+commands that a Script file uses. It begins
+with a few lines of comments. Comments
+must be started with semicolons. After
+comments, the first six lines set the terminal
+speed. parity, etc. Line number 16 positions
+the cursor on the 4th row and 5th column
+for the message in line 17. This message asks
+the user to specify the file name where the
+retrieved data will be stored on the hard disk.
+In case the file name is not specified, the
+key <ENTER> is pressed and the default
+file name PROCOMM.LOG is assumed. We
+recommend to rename this file and then
+delete it after a search is over. Between lines
+28 to 30, three variab!es are defined. In
+variable S2, the number to be dialed first is
+defined, preceded by ATDP. If the user
+wants to change telephone numbers, the
+Script file is updated by replacing the old file
+with a new one, using any text editor.
+Lines 31 to 49 display some message on
+the screen and dial the number given in line
+28. If no connection is made, lines 51 to 70
+are executed which determine the number
+to be dialled next. The process is repeated
+until the session is aborted or the connectian
+is established. Modifications can be made
+wherever necessary in the lines 51 to 70 by
+replacing the existing telephone numbers
+with new ones. The digits ( 4 ) ,coming after
+ATDP are required only when the telephone
+line is through EPABXd a d is not a direct
+dial up line.
+
+After transmitting the password
+successfully, the Script waits up to 60 s for
+Dialog prompt "?". The monient Dialog
+prompt is received, the Script checks the
+DIALOG.KEY file where the Dialog
+commands and search strategy are stored. If
+it iS not found, further execution of
+commands is terminated 'and the Script
+returns to terminal mode, and one .can
+continue the session manually.
+The DIALOG.KEY file can be changed
+by pressing ALT-M key from the terminal
+mode or the Help Screen. A window will
+appear listing the current key assignments
+(Fig. 2). T o revise an assignment the key
+"R" is pressed, followed by the key to assign
+
+In case the connection is established,
+the line 73 instructs the program to wait for
+20 s for "*" (PAD prompt). If "*"is received
+within the specified time limit, the line 79
+will open a file for downloading information.
+The next ten lines determine whether the
+file NETWORK.KEY (where the NUI, user
+
+(ALT-0 through ALT-9). A group of macros
+thus created is saved on to disk by using the
+"S" option. When Procomm prompts for a
+file name, the name of the file is given for
+saving the macro. The use of a file extension
+'.KEY' helps in distinguishing the nature of
+contents. In case the file name is not
+
+Figure 2
+KEYBOARD MACROS
+ALT-0
+
+SET COST SHORT!
+
+ALT- I
+
+SET SELECT SHORT!
+
+ALT-2
+
+B 213!
+
+ALT-3
+
+LIMIT ALUENG!
+
+ALT-4
+
+SET U I TI, AU, JN, PY!
+
+ALT-5
+
+SET U2 TI, AU?JN, PY, LH!
+
+ALT-6
+
+SET U3 T3, AU, JN, PY, AB'; DE, ID!
+
+ALT-7
+
+S online( )information( )retrieval!
+
+ALT-8
+
+T S1/03/1-2!
+
+ALT-9
+
+LOGOFF!
+
+R: Revise
+
+L: Load
+
+S: Save
+
+C: Clear
+
+ESC: Exit
+
+DIALOG.KEY, it must be changed in lines
+137 and 147.
+In case the file specified by the user in
+line 137 is found on the disk, line 149 sounds
+alarm five times to alert the user about the
+beginning of the database search. The
+subsequent 20 statements of the program
+wait for the prompts to be sent by the host
+system and for answering them with proper
+responses.
+Finally, when the program ends, the
+Script closes the logged file and returns to
+the terminal mode. In case the search
+strategy requires more than 10 macros, one
+can have more than one .KEY files. These
+can be loaded in the same way as
+DIALOG.KEY and macros can be
+transmitted after inserting requisite lines
+between lines 169 and 170.
+
+before the actual search begins. However,
+in actual case as many macro files can be
+created as the situation demands.
+
+4. Search Example
+
+1. Dykhuis, Randy. Procomm Plus and
+OCLC's EPIC: Part one. Computers in
+Libraries, 1991, ll(2), 38-39.
+2. Dykhuis, Randy. Procomm Plus and
+OCLC's EPIC: Part two. Compute& in
+Libraries, 1991, 11(3), 23-25.
+3. Clancy, Stephen. How to download and
+use Procomm communications software
+with power performance and price.
+Online, 1988, 12(1), 97-114.
+
+The result of the search conducted on
+Dialog System through GPSS (Delhi PAD)
+using Script file AUTODIAL.CMD, is given
+in Appendix 'A'. Only one search statement
+macro 6 was used in this example to keep
+the cost of the experiment to a bare minimum
+(Fig. 2). Besides, some other search
+parameters, such as Set Cost Short,
+LimitalVEng, Set Select Short, are to be set
+
+5. Conclusion
+The success of this method depends on
+the efficacy and efficiency of the search
+strategy. However, in case of zero results in
+response to the search statements executed,
+the Script file* should be terminated by
+pressing ESC key.
+
+Acknowledgements
+We gratefully acknowledge the
+inspiration and guidance given by Dr SS
+Murthy, Director, DESIDOC, for the
+development of this automode technique.
+
+Bibliograpby
+
+*N-31069CNJ803
+
+APPENDIX 'A'
+
+COM
+DIALOG INFORMATION SERVICES
+PLEASE LOGON:
+* * * * * * * * HHHHNHHHSSSSSSSS? * * * * * * * *
+ENTER PASSWORD:
+* * * * * * * * HHHHHHHHSSSSSSSS? * * * * * * * *
+
+Welcome to Dialog
+Dialog level 27.06.06B
+Last logoff: 07ju191 23:44:19
+Logon file01 10ju191 0432: 16
+COPR. (c) DIALOG INFORMATION SERVIVES, INC. ALL RIGHTS RESERVED.
+NO CLAIM TO ORIG. U.S. G O W . WORKS.
+
+New: DAILY NEWS OF LOS ANGELES (File 716)
+New: KOMPASS ASIAIPACSFIC (File 592)
+FEDERAL NEWS SERVICE (File 660) has been delayed
+Onesearch Increased to 40-File Searching
+PAPERS and PAPERS2 Categories Consolidated-BEGIN PAPERS
+and ONTAPSA and ONTAPSB are now one ONTAPS
+>>> Enter BEGIN HOMEBASE for Dialog Announcemenrs <<<
+>>> of new databases, price changes, etc.
+<<<
+>>> Announcements last updated 021~191
+<c<
+
+-
+
+File 1:ERIC 66-91NUN.
+Satltems-Rssaiplim
+?SET COST SHORT
+COST = SHORT.
+?SET SELECT SHORT
+SELECT response set to SHORT
+?B 213
+10Ju191 04:32:48 User039870 Session B265.1
+$0.27 Estimated cost File1
+$0.27 Estimated cost this search
+$0.27 Estimated total session cost 0.009 Hrs.
+
+1
+
+File 213:ONTAP INSPEC
+(COPR. IEE 1990)
+?LIM'ITALLIENG
+>>>LIMITALL started
+?SET U1 TI,AU,JN,PY
+User Defined Format 1 is set to TI AU JN PY.
+TypeIDisplay Estimated Cost: $ 0.00 - (File 213).
+?SET U2 TI,AU,JN,PY ,LA
+User Defined Format 2 is set to TI AU JN PY LA.
+TypeIDisplay Estimated Cost: $ 0.00 - (File 213).
+?SET U3 TI,AU,JN,PY,AB,DE,ID
+User Defined Format 3 is set to TI AU JN PY DE ID.
+TypeIDisplay Estimated Cost: $ 0.00 - (File 213).
+?s online () information 0 retrieval
+S1
+6 ONLINE () INFORMATION () RETRIEVAL
+?T SllU311-2
+1lU311
+Title: Multiple attribute decision making and on-line information systems
+Author (s) : O'Shaughnessy, M.P.; Coskuntuna, S.; Kantro, E.
+Editor (s) : Salvendy, G.
+Publication Date: 1987
+Abstract: Describes two studies undertaken as part of a research program designed to
+investigate the human decision making process. The decision process is modelled in terms of
+
+information processing theory. Preliminary results support such a model of decision making,
+and point to important issues to consider in the development of online information retrieval
+systems.
+Descripto
+on retrieval systems; information theory;
+psychology; user 1
+Identifiers: multiple attribute decision making; psychology; human decision' making
+process; information processing theory; online information retrieval systems
+IN312
+Title: A question-answering system for the French Yellow pages
+Author (s): Herman, P.; Sabah, G.; Vilnat, A.
+I
+~ournal:Computational Intelligence
+Publication Date: May 1988
+Abstract: Describes a dialogue-based system which is intended as an intelligent natural
+language interface to the French Yellow Pages. The authors do not assume that the user
+knows how the Yellow pages are organized, and they paraphrase his request, if necessary, so
+as to better search for the desired information. Itis assumed that the reason the user is online
+is to find addresses and phone numbers of suppliers. There are three basic modules used in
+the system: parser, dialogue manager, and generator. The first two exist (and are constantly
+being extended), while the generation module is still only a set of functional specifications.
+Descriptors: expert systems; information retrieval systems; interactive systems; natural
+language; telecommunications computing; user interfaces
+Identifiers: online information retrieval; question-answering system; French Yellow Pages;
+dialogue-based system; intelligent natural language interface; parser; dialogue manager:
+generation module.
+?logoff
+10Ju191 04:33:53 User039870 Session B265.2
+$0.50 Estimated cost File213
+$0.50 Estimated cost this search
+$0.77 Estimated total session cost 0.042 Hrs.
+Logoff: level 27.06.06 B G4:33:53
+PAD CLR
+
+*
+
+

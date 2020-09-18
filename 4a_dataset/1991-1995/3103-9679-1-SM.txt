@@ -1,0 +1,1029 @@
+AUTOMATED BOOK ACQUISITION SYSTEM USING
+'SANJAY' AT DEFENCE SCIENCE LIBRARY
+Sumati S h a m
+Defence Scientific Information & Docurnentatjon Centre
+Metcalk House, DeIM 1 10 054
+
+ABSTRACT
+This paper outlines various features of the acquisition module of
+Sanjay, an augmented CDS/ISIS ver 2.3 software package. It briefly
+describes the activities which are carried out using this software at
+Defence Science Library. It also suggests some features that need to
+be provided for book acquisition processing.
+
+1. INTRODUCTION
+Defence Science Library (DSL) is a
+central agency for providing scientific and
+technical information to all DRDO
+labs/estts. To cater for the day to day needs
+of DRDO scientists for their research work,
+DSL at Defence Scientific lnformation and
+Documentation Centre is holding a rich
+collection of books and non-book
+documents. To efficiently develop and
+manage its collection in an organised way,
+DSL has automated library acquisition
+activities which include acquisition,
+cataloguing, circulation and serials control.
+Acquisition activities in DSL have been
+automated using 'Sanjay', a software based
+DESrDoC Bulktin of hf T e c h 4 1994,14(4)
+
+on CDS/ISIS. The software package
+CDS/ISIS has been developed and
+distributed free of cost to non-profit
+organisations by Unesco (PGI). Designed
+and used for the management of structured
+non-numerical databases, the package
+combines features o f Unesco's
+Computerised Documentation System
+(CDS) and the Integrated Set of Information
+Systems (ISIS) and is efficient to store,
+retrieve, display and print information.
+Micro CDS/ISIS is basically a package
+for information storage and retrieval and is
+not capable of handling many library
+management activities (viz acquisition,
+circulation, financial control) in an
+integrated manner. To overcome the
+
+limitations of Micro CDS/ISIS, Sanjay has
+been developed by NISSAT in coordination
+with DESIDO~.Sanjay enhances the
+capabilities of CDS/ISIS by interfacing
+about 35 Pascal programs and 25 special
+user-friendly menus. Sanjay as an
+augmented package, has the following
+special features in addition to the database
+management applications already available
+in CDS/ISIS package.
+The package is capable of handling nitmerical operations like calculation of
+budgetary allocations and expenditure.
+It prwides linking of two or more databases for a single application, like linking
+an acquisition system with the online
+catalogue and circulation system.
+
+The inverted files are updated automatically whenever a change is made in the
+database. For this purpose, the user is not
+required to use the inverted file service.
+
+o New menus can be inserted in between
+the existing menus without affecting
+their functions.
+
+2. BOOK ACQUISITION
+PROCESSING AT DSL
+The activities in book acquisition at DSL
+involve sending information about new
+publications to readers, getting indents
+from them, placing the details of new
+indents to Book SelectionCommittee (BSC)
+placing orders and reminders to vendors,
+processing of bills and keeping track of the
+budget position. DESIDOC also procures
+books for other labs from separate budget
+allocations.
+Manual processing of the new indents
+requires repeated inputting of bibliographic details for generating lists for BSC,
+list of selected books, budget status reports,
+order and reminders to vendors and
+processing of bills for payment For online
+catalogue of books, the data on acquired
+
+books is to be inpuked in the required
+format. The same data is also required for
+generation of acquisition lists and catalogue
+
+cards.
+To avoid frequent inputting of data and
+generation of various reports and forms, the
+acquisition activities were automated.
+Sanjay packagewas chosen for automation,
+because of its suitability for menudriven
+information storage and retrieval system,
+linking of various related databases,
+handling of numerical data for budget and
+expenditure, and also as DESIDOC has
+been involved in its development
+Availability of the acquisition data in
+machine-readable form has lead to quick
+updation of online catalogue at DESIDOC
+by exporting this data in required format
+using a conversion program. The flexible
+printingoptions of the package facilitate the
+generation of reports and lists in desired
+form.
+
+3. SYSTEM FEATURES
+The foUowing hardware and software
+configuration is required for operating
+Sanjay.
+(i) PC AT with 1 MB RAM, 40 MB Hard Disk
+and one floppy drive.
+(ii) Printer
+(ii) MS-DOS 3.2 or above
+(iii) CDS/ISIS ver 2.3
+At Defence Science Library, version 1.0
+of SANJAY. package (based on CDS/ISIS
+ver 2.3) has been loaded. on a PC/AT
+computer and the acquisition control
+module of the software is being used for the
+management of acquisition activities.
+The following databases are being used
+with the acquisition module of 'SANJAY'.
+DESIDOC Bulletin of lnf Techno1 1994,14(4)
+
+The structure of these databases is given in
+Appendix I.
+(i) Acquis database: It contains bibliographic details of the documents to be procured, along with the details of indentors,
+vendor codes, and Book Selection Committee number (Table 1).
+
+ACQUISITION CONTROL
+A
+B
+C
+D
+X
+
+(ii) Vendor database: It includes the addresses of vendors approved by the Library
+for supply of documents (in Table 2).
+
+Fig. 1. Maln menu
+
+(iv) Budget database: It contains budget
+allocations, expenditure and other related
+information (Table 4).
+
+ACQUISITION DATA ENTRY
+A
+B
+C
+D
+E
+F
+
+(v) Bill database: It includes price and
+other details of each item listed in the bill
+along with the sanction number, order and
+invoice number, CRV number etc. (Table 5).
+
+0
+X
+
+Acquis database has been linked with
+other databases to carry out routine
+functions of library without redundancy and
+to meet the requirements for acquisition
+and cataloguing.
+
+(Fig. 3), vendor or budget status.
+(c) Report generation
+(d) Link to catalogue
+
+4. DATA ENTRY
+
+New Indents
+BSC Decision
+Arrival
+Vendor
+Budget
+Bill
+CataiogueEntry
+Exit ( To Main Menu)
+
+ENTER YOUR CHOICE
+
+Fig. 2. Data entry menu
+1
+
+ACQUISITION INDENTOR QUERY
+
+(a) Data entry (Fig. 2)
+
+(b) Query search separately for indentor
+
+.
+
+ENTER YOUR CHOICE
+
+(iii) Cataloguedatabase: It contains the bib
+liographic details of documents received in
+the library (Table 3).
+
+Acquisition control module of the
+software offers the following options in its
+main menu (Fig.l).
+
+Data Entry
+Query Search
+Report Generation
+Link to Catalogue
+Exit
+
+A
+B
+C
+D
+E
+X
+
+Acquisition Status by Indentors Name
+Acquisition Status by Author Surname
+Acquisition Status by Book Title
+Acquisition Status by Acquis. No.
+Acquisition Status by BSC Number
+Exit ( To Main Menu)
+
+ENTER YOUR CHOICE
+
+4.1 Acquis database
+Starting from the receipt of an indent for
+a document to its final processing and
+DESIDOC Bulletin of Inf Techno/, 1994,14(4)
+
+Fig. 3. Sample query search menu
+5
+
+merging in& online catalogue, fields are
+added at four different stages of data entry
+using
+different
+worksheets
+in
+acquisdatabase as d e w in Appendix II.
+(a) New indents: First l e d of data entry is
+done in 'New Indents' worksheet This includes both the indents received from
+DRDO scientists plus bod<s taken on a p
+proval from vendors (Worksheet 11.
+Monthly list of indents is generated at this
+stage for consideration and approval of the
+BSC which meets every month.
+(b) BSC decision: After the Committee has
+screened the list for approval, entries with
+the details of vendor, supply due-date, a p
+proval status etc. are added in 'BSC Decision' worksheet (Worksheet 2).
+
+- -
+
+in this workAfter m p k t i n gthe data
+sheet, supply orders to vendom are generated. Oher r e v s&
+al i s t o f ~ c w e d
+and un-apprddocuments are ab;o generated at th,is stage.
+(c) AM
+of documents: After the -ipt
+of document, entries regarding publishers'
+details, bill details, accession number,
+classification number, desuiptors, etc. are
+made (Worksheet 3).
+.
+List of books received. over a specified
+period of time can be generated at this
+stage.
+2
+*.I
+
+(d) Catalogue entry: Finally when data is
+complqte and ready for online catalogue,
+compl&eness code and date are given to
+
+hdentor-
+
+quey
+
+seactr -----5
+
+'
+
+-
+
+,
+-
+
+&
+&
+,
+
+me
+
+--kqrll~onN0
+
+--j,B o o k s e ~ c o m n m e e N 0
+
+I
+*\k#dorcode
+Acqubmon -ts
+
+order agotnst
+orupply-
+
+Seards
+To
+W P t q u e n L a b thrwrgh
+kww
+
+-I-
+
+-
+
+vendorcode+
+&! meeting
+No)
+
+-----3
+Total budget
+---r3 cQmmmdS
+
+-----P
+
+,-
+
+Figure 4. Query search.
+6
+
+oEWDoC Bulktin d M 1-
+
+1994,14(4)
+
+the record. Printout of complete record is
+taken'for editing (Worksheet 4).
+
+The edited data is sent for merging into
+the online catalogue and generating
+'Monthly List of Additions to Defence
+Science Library'.
+
+Use 'W to cotoptbn
+
+4.1 Vendor Database
+
+'
+
+Full details of the supplier vjz. name
+address, type and vendor codes are
+maintained in vendor database (Worksheet 5).
+
+4.3 Budget Database
+Initially, the allocated budget amount for
+acquisition is entered for all the labs for
+whom DESIDOC is procuring books
+(Worksheet 6). System updates the
+,calculating expenditure and
+udgetary status for each laboratory and
+status report can be generated at any stage.
+
+P-
+
+w
+
+-/ISISfileushg
+
+mastertllesenrlces
+
+4.4 Bill Database
+Bill details are entered to generate two
+types of reports (Worksheet 7).
+(a) Sanction and contingent bill
+(b) Certified receipt voucher (CRV)
+
+5. QUERY SEARCH
+The database can be searched to know
+the information about a document
+including the vendor details, indentor
+details, bibliographic details, etc. The fields
+on which searches can be made are shown
+in Fig. 4.
+
+6. REPORT GENERATION
+The following types of reports and letters
+can be generated using the acquisition
+module of Sanjay software.
+
+List of addmcxls to
+Defence Sdence Ukary
+Figure 5. Steps Involved In exportlng
+acquisition data to onllne catalogue.
+
+(c) List of rejected documents
+(d) List of documents received during a
+particular period
+(e) Supply orders
+
+(9 Reminders to vendors
+
+(a) List of indented documents
+
+(g) CRVs (Certified receipt vouchers)
+
+(b) List of apprdved documents
+
+(h) Sanction and contingent bills
+
+DEWDOCadkin ofInf Tedtnd 1994,144)
+
+7. LINK TO ONLINE CATALOGUE
+Using this option, acquisition data is
+exported and merged i n the online
+catalogue. As a by-product of this data, a
+Monthly List o f Additions to Defence
+Science Library is being generated. Steps
+involved in this process are shown in Fig. 5.
+
+8. SUGGESTIONS FOR IMPROVING
+
+THE ACQUlSmON MODULE
+Acquisition module of Sanjay package
+(Ver 1.0) has been found quite efficient in
+managing the acquisition activities of
+Defence Science Library. Adequate help
+messages have been provided at all the
+stages of data entry. But i t is nqt possible to
+link the acquis and bill files; therefore bill
+processing job could not be simplified
+further. The need for a few help messages
+such as symbols for truncation and Boolean
+expressions has also been felt in the search
+module.
+Facilities for information queries such as
+the consolidated list of orders pendingwith
+a vendor, listing of aH indents by a person
+with their status, total expenditure of a
+particular BSC should also be provided in
+the package. These may be incorporated in
+the future version of the Sanjay package.
+
+years. The use of this package has resulted
+in reducing the effortsand time required for
+acquisition processing and generation of
+status reports at different stages. The same
+data is available for merging into the online
+catalogue database and generating
+monthly list of acquisitions.
+The software has been able to fulfil
+majority o f the requirements of the
+acquisition control in Defence Science
+Library. However, there is a scope for further
+improvement of the software.
+
+FURTHER READING
+1.
+
+2.
+
+3.
+
+Haravu, L.J. Library automation and
+networking in India An overview of
+recent developments. Annals of Library
+Science and Documentation, 1993,
+40(1), 32-40.
+
+4.
+
+Nieuwenhuysen, P. Computerised
+storage and retrieval of structured
+text information-CDS/ISIS Version
+2.3. Program, 1991, 25(1), 1-18.
+Perera, Pradeepa. Micro CDS/ISIS--A
+critical appraisal of its search interface.
+Program, 1992, 26(4), 373-86.
+
+9. CONCLUSION
+For managingthe acquisition and related
+activities in an organised way, Defence
+Science Library is using the acquisition
+module of Sanjay package since last two
+
+8
+
+Bhargava, J.K.; Srivastava, R.K.; &
+Murthy, S.S. Sanjay-An Indian library
+automation package based on
+CDS/ISIS. Program, 1993, 27(1),
+5 166.
+Cabral, Maria Luisa & Lopes, Maria
+Ines. The modernisation of Portuguese
+libraries-Five
+decisive years.
+Program, 1992, 26(3), 249-58.
+
+5.
+
+-
+
+DESIDOC BuMetin d Inf T d n o l 1994,144)
+
+610 C h No.
+20 X
+Kywwdr
+25 X
+836 CompkBmeu~fRec 1
+X-900 kccessian N a
+10 X R
+
+Appendix I
+
+- 620
+
+-
+
+Tabte 1. FDT for AcquCs Data&
+
+-
+
+TM; NAME
+
+-
+
+--'
+
+--
+
+Mms
+
+X
+X
+X
+#
+X
+
+X
+
+X
+
+R A B
+
+AD
+
+X
+X
+
+-5
+-10
+20
+-30
+
+X
+X
+R
+
+X
+N
+X
+
+TAG NAME
+
+R
+
+LEN TYPE REP
+
+-- 2010
+-
+
+Vendor Code
+Vendor Name
+30 Vendor Address
+40 Vendor Type
+
+3
+24
+50
+10
+
+X
+x
+X
+X
+
+- 1
+2
+3
+20
+22
+
+-
+
+-
+
+-
+
+-
+
+M
+
+I
+
+D
+
+Record Status
+
+LEN TYPE REP DEUMITERS
+7
+X
+1
+X
+1
+X
+20 X
+
+BiigraphicLevel
+Source of Record
+Date of Record
+completion
+8
+40 Language
+10
+50 Physical Medium
+5
+60 Type of Material
+5
+100 ISBN
+20
+120 Document Number
+30
+200 Tide
+150
+230 Other Title
+150
+260 Edition
+40
+300 Author
+50
+310 Corporate Body
+100
+320 Name of Meeting
+100
+400 Place and Publisher
+100
+420 Place and Distributor 100
+440 Date of Publication 8
+450 Serial No. and Date 20
+460 Physical Description 50
+465 Cost (per copy)
+20
+480 Series
+100
+490 Part Statement (Vol ) 100
+500 Note
+100
+510 kote on Biblio Relation30
+
+N
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+x
+X
+X
+X
+X
+X
+X
+X
+X
+X
+
+DESIDOC Bulletin of Inf Technd, 1994,14(4)
+
+TYPE REP
+X
+X
+R
+X
+X
+X
+X
+X
+
+- 40
+- 50
+-60
+- 70
+- 75
+- 80
+- 90
+- 100
+- 1 10
+
+LEN TYPE REP DRC
+
+MnBR3
+V&ldorAddre~~
+OrderNa&Date
+h i c e No.& Date
+Book Details
+Total hoks
+Total Cost
+Dixount/Excess
+Net Cost
+Net Cost (in words)
+CRV No. dr Date
+Sanction No. & Date
+Budget Adjusted
+Budget Lab
+
+50 X
+30 X
+30 X
+1600x
+2
+X
+10 x
+to X
+10 X
+200 X
+30 X
+30 X
+1
+X
+10 X
+
+R
+
+Table 3. FDT for Catalogue Database
+TAG NAME
+
+--
+
+TAG NAME
+
+N
+N
+N
+N
+
+TAG NAME
+LEN
+10 litb/fnsaihrtian Name 25
+- 2 0 tirb/lw0ituttonllddt!iO
+30 Total Budget
+10
+40 YW
+15
+50 Commlbncnk
+10
+-60 Expenditrae
+10
+70 Balance
+10
+
+fable 5. FDT for Bill Database
+
+X
+X
+
+Table 2. FDT for Vendor Database
+
+-
+
+Table 4. FDT for Budget Database
+
+tENTYPERa'MLI
+
+800 Bill No. andDate
+3f3
+801 Acquisition No.
+10
+8(12 0% Number
+20
+.805tirtPnke(lcopy)
+20
+a08 Na.dcopk?s
+2
+809 lMenWOetaas
+3 0
+812 lrppravalcode
+1
+813 Vendor€&
+10
+814 Supply Order Number 20
+81 5 Supply Mode
+10
+816 Supply Order Date
+8
+817 Supply DueDate
+8
+829 Reminder Date
+8
+830 Reminder Number
+20
+-831~Re&dSta(us
+1
+-832BookRecehdDate
+8
+833 Ertc/krb
+20
+834 No.ofCopiesReceiucd 2
+835 Cinadled Order
+10
+
+ABC
+R
+
+R
+R
+AB
+R
+
+ABF
+ABCDE
+ABEGHJ
+ABD
+ABD
+SD
+AD
+ABC
+ABC
+
+Appendix I!
+Worksheet 1:
+Lanwaw
+Physical medium
+ISBN Number
+Document Number (Repeatable)
+Title
+Edition statement
+Author
+Corporate body
+Name of meeting
+PI&e & Publisher
+Date of Publication
+Part statement
+Acquisition No.
+BSC Number
+List price
+No. of copies
+fndentor's detail
+EsaJLab
+Record status with bibbgraphical level
+Note
+
+Worksheet 2:
+Language
+Physical medium
+
+od
+id
+R
+
+aqtp
+
+dp
+
+cd
+sd.
+%
+
+lSBNNunber
+Donancnt Number iRem&k)
+Ti&
+Edition statement
+Author
+Approvil-
+
+Vendorcode
+
+Worksheet 4:
+Record status
+Biblbgraphii kvel
+Source of mord
+Date ofenby
+wuw
+
+W h
+Rmrinder date
+Reminder Number
+
+Phydcal medium
+Type of material
+ISBN Number
+Document Number (Repea&)
+
+CoV=tebody
+Name of meeting
+
+ri
+
+Pbce&Publisher
+
+Other title
+
+Edition statement
+Author
+-ate
+body
+Name of meeting
+Place & Publisher
+Place & Distributor
+Date of Publication
+Serial no. & date
+Physical description
+cost (per COPY)
+
+krpplV-te
+
+Date of Publication
+Put statement
+Acquisition No.
+BSC N u m b
+List price
+No. of copies
+Indentor's detail
+EttlLab
+Record status with biMiographicaltevel
+series
+Note
+
+Worksheet 3:
+Language
+Phyrical medium
+ISBN Number
+Document Number (Repeatable)
+Tide
+Edition statement
+Book received date
+Copwsreceived
+Place & Distributor
+cost (per cow)
+
+Bookreceivedstahn
+
+Part statement
+Note
+Note on biMmgraphy
+Class no.
+Accession no.
+Bill no. & date
+Subject descriptors/kepvords
+Completeness
+
+Worksheet 5:
+Vendor Code
+Vendor Name
+Vendor Address
+Vendor Type
+
+Binno.&date
+Author
+
+Corporate body
+Name of meeting
+Place & Publisher
+Date of Publication
+Part statement
+Acquisition No
+BSC Number
+List price
+No.of copies
+Indentor's detail
+E s W
+Note on bibliography
+Class Number
+subjectdercriptors
+Accession No.
+phvsicaldcrcription
+Completemss of record
+Source of record
+Type of material
+Other tide
+Serial no. & date
+Note
+
+Worksheet 6:
+Lab/Institute Name
+Lab/lnstitute Address
+Total Budget
+Budget Year
+Commitments
+Expenditure
+Balance
+
+Worksheet I:
+
+-
+
+Order no. & Date
+Invoice no. & Date
+Book Details
+Total Books
+Total Cost
+Discount
+Net Cost
+CRV no. & Date
+Sanction no. & Date
+Vendor Address
+Budget LAB
+
+DESIOOC &&tin of Inf 1
+-
+
+1994,14(4)
+
+

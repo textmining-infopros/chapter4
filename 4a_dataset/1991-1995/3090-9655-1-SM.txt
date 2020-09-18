@@ -1,0 +1,152 @@
+DOS 6.0 for Personal Computers
+MS DOS from Microsoft Corporation,
+USA has been the most widely used
+operating system for personal computers all
+over the world. In 1993, the company came
+out with the latest version DOS 6.0 which
+is now also available in Indian market.
+The earlier 5.0 version of DOS had the
+ability to run in the high memory area of
+RAM, making programs to run faster and
+more efficiently. It had an improved
+graphical interface-MS DOS shell which
+could manage programs and switch
+between them. tt had two new
+commands-unformat and undelete-for
+data security; and online help for all MS
+DOS commands, MS DOS shell, and for MS
+DOS Editor which allowed users to easily
+create and modify text files. The version had
+the capability to create larger disk partitions
+upto 2 GB and support 2.88 MB floppy
+diskettes.
+
+space on the same hard disk used with
+earlier versions. Similarly the floppy drives
+too could now store more data.
+The DoubleSpace utility is automatic. It
+creates a comp.essed volume file (CVF) that
+contains an alternative file system to store
+compressed
+files.
+DoubleSpace
+compresses
+each
+file
+using
+Lempel-Ziv-Welchtechnique and stores it in
+the CVF using space reclaimed from
+uncompressed disk. This conversion
+process is continuously checked by the
+utility making it fault- tolerant. This CVF
+shows up as drive C and therefore DIR and
+CHKDSK command show the virtual space
+estimated on average compression ratio.
+The utility can not compress files which are
+already compressed such as ZIP files. MS
+DOS 6.0 has enhanced disk cache for better
+compression syStem.
+
+The package comes with a number of
+additional tools which include a disk
+defragger, a serial/parallel file transfer tool,
+an antivirus tool, and client-only NetBlOS
+LAN software, as well as enhanced backup
+and undelete tools for installation on MS
+DOS, Windows or both.
+
+Disk Defraggers :DOS 6.0 provides two
+disk defraggers, one based on Norton's
+speed disk for traditional disk
+reorganisation. The other is internal to
+DoubleSpace and compacts the CVF. The
+first defragger invokes the second.
+MEMMAKER provides much needed
+automation for users of EMM386.EXE or
+the LOAD HIGH and DEVICE HIGH
+commands. It prepends SIZER command to
+every device driver and program named in
+CONFIG.SYS and AUTOEXEC.BAT and
+reboots the machine.
+
+Doublespace Utility: Like other
+compression utilities, MS DOS 6.0 has
+DoubleSpace Utility. This virtually increases
+the disk spape by 1.8 times. Thus it can
+make available a lot of precious memory
+
+Antivirus Tool :It includes a monitor that
+watches for any suspicious disk or memory
+access and MS DOS and Windows version
+of scanner to check and remove known
+viruses. The scanners also record file
+
+The MS DOS 6.0 has some much
+wanted requirements like data compression
+and memory management. These features
+are robust, automatic and fault tolerant.
+
+checksums to detect changes in EXE and
+COM files. It gives some false alarms too.
+
+Undelete Tool : In MS DOS 6.0 users
+can undelete directories with subdirectories
+but it works with only one level at a time.
+
+Backup Tool : The tool allows the user
+to define archive sets and store them on
+floppy disks or network drives using the
+same communication technique as
+Doublespace. But there is no support for
+tape drives for backup.
+MS DOS 6.0 supports limited
+networking and E-mail through a separate
+workgroup connection module. This
+networking lacks server capability and
+protected mode protocol support of
+Windows for Workgroups. The file transfer
+system has c(ient and sever components.
+INTERSVR runs full screen on a host, waiting
+for clients to connect to its local drives or
+printers. It runs on the client and establishes
+connection without buying a separate
+module, user has to reboot the system after
+including INTERLNK by way of
+CONFIG.SYS and other utilities.
+DOS 6.0 can skip CONFIG.SYS &
+AUTOEXEC.BAT file, if F5 key is pressed
+while the system is booting up. It even has
+
+DESIDOC Bulletin ofInf Technol, 1994, 14(1)
+
+an option of selecting each line o f
+CONFIG.SYS for execution for better
+convenience, by using F8 key.
+For organising the boot-up process, a
+user can create multiple paths through
+CONFIG.SYS using MENUITEM. Sim~larly
+an user can branch in AUTOEXEC.BAT and
+CONFIG.SYS Files but this sometimes has
+problem with MEMMAKER, therefore with
+MEMMAKER, one still has to maintain
+multiple CONFIG.SYS file.
+Unlike the fixed EMS and XMS with
+earlier version, DOS 6.0 enables EMS and
+XMS pools to adjust dynamically as per
+usersf requirements. The version has two
+additional DELTREE and MOVE commands
+similar to that of UNtX. User can detete
+entire trees of directories and subdirectories
+and can also delete individual files marked
+hidden, system, or read-only. MOVE
+transplants files from one directory to
+another, rename a directory CHOICE
+prompts for a single character of input and
+returns on ERROR LEVEL.
+The features included in the version are
+very usefui to and much wanted by the
+users.
+
+11
+
+

@@ -1,0 +1,1379 @@
+﻿DESIDOC Bulletin of Information Technology, Vol 15, No 3, May 1995, pp 1&28
+O 1995, DESIDOC
+
+Computer-based Periodicals Management
+System in SAC Library
+
+DR Patel and Smita D loshipura
+
+SAC Library, Space Applications Centre
+Ahmedabad-380 053
+
+ABSTRACT
+
+The paper discusses the efforts made for a Periodicals Management
+System developed and designed for implementation in SAC Library,
+using DBASE ||| software. it briefly describes the computer
+programmes in PMS and highlights the present system which is
+implemented by using ’LIBSYS’, a comprehensive library software
+package and a multi-user system on Pentium system, under Unix
+environment.
+
+information services depend. They .115
+considered as the backbone for re g5:
+and development and SDI services.'
+
+1. INTRODUCTION
+
+Information is an essential resource for
+development. It is a key factor, both in
+decision-making as well as in subsequent
+actions to be taken by an organisation for
+development and research. We are living in
+the age of information explosion. This is
+evident from the large number of
+periodicals and books published in the
+world every year. The number of articles
+and papers being produced in different
+branches of knowledge every year is mind
+boggling. The age of ’information society' is
+round the corn’er.
+
+remained a challenge for a long time 
+considered as one of the most (1'.
+house keeping operations to be auto 
+mainly due to the unpredictable natu
+serial publications like susceptibility.
+change of titles, scope, publisher, freq 
+of publication, price, etc.
+
+    
+
+2. NEED FOR AUTOMATION
+
+Automation of periodicals managei,
+requires utmost concentration and
+involvement. It is one-of the '
+complicated technical processes carri 
+by a library. The following Chara "
+necessitate the need of automatl
+handling periodicals.
+
+Surveys reveal that scientists,
+technologists, doctors and decision makers,
+most frequently use periodicals as primary
+sources of information. Periodicals
+constitute the most important segment of
+technical literature on which library and
+
+I' k.
+
+ 
+
+lB
+
+ . s are often the most important
+t frequently used material among
+_ s collection. Hence, an ideal
+‘ldontrol system is required for its
+utilisation.
+
+ 
+  
+ 
+  
+  
+ 
+ 
+ 
+  
+  
+ 
+  
+  
+  
+ 
+ 
+  
+   
+  
+   
+ 
+ 
+  
+ 
+ 
+ 
+  
+  
+ 
+  
+  
+  
+ 
+  
+ 
+ 
+ 
+ 
+  
+
+publications come in different
+and frequencies. Often, there is
+'ty in the publication schedule,
+
+cost and time required to send
+orders, reminders, and for
+ng and maintaining them is
+tly increasing.
+
+control function can usually be
+with minimum disruption of other
+functions. To control the signiﬁcant
+complex problems, considerable
+. _ 'risrequired.
+
+computerised system, organising
+I matters, charging in the
+late account, organising for
+* volumes of serials to be bound,
+g current and accurate details of
+,1: ings is easier.
+
+5 , ODICALS CONTROL IN
+LIBRARY
+
+(Library currently receives 540
+and have more than 12,000 bound
+On an average 10 to 15 journals
+every year. Manual control of
+using conventional methods is
+‘duclve to meet the specific
+t of the users in the least
+time. Because of the multifarious
+being faced, it was decided to
+the procedures relating to
+  » control.
+
+  FIGURATION AND
+' ARE
+
+‘ ‘ beginning efforts were made to
+ the system using DATATRIEVE
+
+orsoo'c Bulletin orinr
+
+software and FORTRAN language on VAX
+"[780. An HCL PC XT was installed in SAC
+library in the year 1987 on which the
+present system was implemented using
+dBase lll+ package.
+
+The database of holdings of periodicals
+in SAC Library was created using dBase Ill
+software. This simpliﬁed its regular updation
+with speed, accuracy and efﬁciency with
+less manpower. The database was updated
+in 1986, 1991 and 1994. The holdings
+database is useful in getting several outputs
+like missing issues list, subject~wise list,
+country-wise list, frequency-wise list, and
+current list of periodicals. Missing issues list
+is generally required to complete the lacuna
+of backfiles of journals.
+
+In addition to the holdings of periodicals,
+other outputs were also obtained by using
+the same database. these include vendor’s
+list, publisher’s list, status-wise list, subject
+list, list of duplicate issues, renewal orders
+list, etc.
+
+In 1990, it was decided that the library
+information system should be in multi~user
+environment, so that many in-house
+activities and users can be handled by the
+system at a time and also that in-house
+activities should be integrated. Therefore, a
+Wipro Genius 386 with 380 MB hard disc,
+an eight port card for eight terminals with
+Unix Operating System was installed in the
+Library.
+
+At this juncture, it was felt necessary to
+have an integrated library management
+software package. From the available ready
+made library software packages, 'LiBSYS'
+software developed by M/s INFOTEC
+Consultants Pvt. Ltd., New Delhi, was found
+suitable for our requirements. It is an
+integrated multi~user library informatiOn
+management system which supports all
+in-house activities and public access
+information system. It has maximum
+
+ 
+
+: Moflnf TecMoi.1995. 15(3)
+
+  
+
+possible integration of functions, where
+data entered once can be accessad from
+various angles with powerful search and
+query facilities. It was obtained and installed
+on Genius 386 in October 1991.
+
+Recently a Pentium microprocessor with
+the following configuration has been
+installed :
+
+60 MHz Pentium Microprocessor
+16 MB RAM
+
+lx(1.2 + 1.44 ) MB FDD
+
+Ix | GB SCSI Drive
+
+150 MB CTD
+
+256 KB External Cache Memory
+Intelligent 16 Serial Port Card
+
+l MB Video Memory
+
+14" Colour Monitor with VGA card
+LAN (32 Bit).
+
+)9
+
+5. SERIALS CONTROL
+
+  
+
+Serials are distinguished fro.
+monographs by their ongoing nature. “‘Ij.
+serials control system may have fewer ',
+to handle but must record more details 6'
+each title and can expect a greater num'
+of transactions per title. It is one of the _
+cumbersome and expensive procedu 
+due to the cost of acquiring p
+maintaining serials, complexities of ma 
+procedure of Ordering, check-in of so.)
+claiming of missing issues and its follow;
+and cost of binding and related paper “
+
+ 
+  
+  
+
+   
+   
+  
+  
+
+to some change in title, frequency
+publisher. Hence, an automated s 
+control system with following functio :-
+desirable. ‘
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+L, gamputer
+
+ 
+
+ 
+
+/
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+of 
+W
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 1. Schematic diagram of the serial control subsystem.
+
+ 
+
+ 
+
+ 
+
+ 
+
+20
+
+  
+   
+  
+  
+  
+  
+  
+  
+ 
+
+lishment of policies and procedures:
+  ation of procurement procedure.
+
+7.5:. tenance of procedure manuals :
+. ce analysis, user feedback analysis,
+on analysis, and inter library
+ding lists.
+
+lishment and maintenance of
+, on control : Review of new order
+and renewal requests, preparation
+- bscription renewal lists, order
+' on, fund accounting, and vendor
+. _ rce ﬁle maintenance.
+
+   
+    
+   
+ 
+  
+  
+ 
+ 
+  
+   
+  
+   
+    
+ 
+   
+   
+ 
+   
+ 
+  
+
+l
+
+ lishment and maintenance of biblio~
+ﬁle control : Cataloguing of new
+recataloguing of old serials, preparing
+__. record entry, provide cross reference
+"ls, update serial holdings, and
+'on control (additions, changes and
+
+ rding of incoming receipts : Sorting
+;;= mg Issues, bibliographic Identiﬁca-
+posting to control file, recording
+in bibliographic control, information
+w updating, and claiming titles not
+
+11» aterials handling and collection
+."i'ir l: Sorting and shelving issues,
+j'ng request for serial issues, circulation
+'l, storage of title pages, indexes, etc. ,
+'2‘} tenance and binding control file, missing
+~ - control, and preparation of ’want’ lists
+
+1:":
+
+'mplete holdings.
+
+Output generation and dissemination:
+ration of serial holding lists, accession
+.‘ graphics, union list, and printing of
+rforms, subscription renewal lists, claim
+» es, binding notices, prepare serial
+(a. in forms or arrival cards.
+
+it
+
+Reference and retrieval : Processing
+Vographic verification enquiries, selection
+"_'.= dissemination uses, and bibliographic
+ltol of serial catalogues.
+
+DESIDOC Bulletin of Int Techno“ ' '
+
+ 
+
+As mentioned earlier, LIBSYS - is being
+used for different activities of SAC Library.
+Presently, LIBSYS version 2.3 is being used.
+It is easy to operate and the staff can learn
+it quickly without any pro-requisite
+programming/computer skills. It ensures
+high productivity because of minimal data
+entry requirements. LIBSYS supports almost
+all activities relating to acquisition,
+cataloguing, circulation, serials, article
+indexing and online public access
+catalogue.
+
+5.1 Serials Control in SAC Library
+
+The Serial Control Sub-system of LIBSYS
+is an independent system in SAC Library
+which provides control of periodical
+subscriptions and subsequent monitoring of
+the scheduled arrival of individual issues. It
+maintains a recurd of budget sanctioned for
+serials under different categories, amount
+encumbered and expanded for complete
+budgetary control. This sub—system alsa
+handles serials on subscription, gratis or on
+exchange.
+
+5.2 Serials Menu
+
+The functions of Serials Menu as shown
+in Fig. 2 and are discussed below.
+
+5.2. I New Subscription
+
+New subscription of a serial is initiated
+in this system by entering its basic details,
+such as title, publisher, ISSN, country,
+annual subscription, etc. The titles initiated
+for new subscription pass through the
+approval process by printing an approval
+form. After approval status is recorded, the
+new serials are available for ordering.
+Ordering involves specifying a vendor and
+selecting approved serialls) for the order.
+After placing an order, the important
+function is to update subscription details.
+The worksheet details are shown in Fig. 3.
+
+The information to be provided in this
+worksheet should be perfect, since it plays
+
+ 
+
+-  0 Bulletin oflnfi'ochnolJWS. 15(3)
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2i
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Subscription Kardex Update
+*   ‘ -   it
+Invo‘ .-  .  
+' Parliamentarian“  : ~ _‘  :s-  Tress : "I 
+consumerism  " 
+Others
+. . (Indexing
+Circulation nape.” g
+m EI'It'jtZtTl'lBu'
+ensuring-In » “99°”?
+System setup _
+Figure 2. Functions of serials menu.
+a very important role in generating request form in which titles to be ren
+reminders. The order forms are are listed alphabetically. Such a list
+
+automatically printed for direct mailing. For
+new subscriptions, the system monitors
+their status as 'specimen copy requested',
+’send for approval’, ’approved’, ’ordered’,
+’billed', ’paid for' and ‘first issue received.’
+
+5.2.2 Subscription Renewal
+
+The subscription renewal procedure is
+basically the same as for new subscriptions
+involving approval process and ordering. It
+commences with the printing of renEWal
+
+   
+ 
+   
+ 
+
+contain budget information also. This li
+used for getting approval in the renewal
+specific serials. Separate orders are u..-
+for subscription renewal and 
+subscription.
+
+5.2.3 invoice Processing
+
+Invoice processing involves matchl
+invoices received from vendors agal 
+orders placed with them, paym‘
+
+Title :
+
+Publisher: Subs : Airmail
+Delivery Mode: Airmail/Surface mail
+Volumes:
+
+Copies
+
+Volume Cost
+
+Budget Head
+
+Vendor/Direc:
+
+First Issue on
+
+Recpt Control on :
+
+Subsc No :
+
+Vol overlap with previous year (17 N):
+Vendor :
+
+Part/Iss :
+
+Other
+
+Issues:
+Issue/year:
+
+Curr:
+Vol. Roman:
+Prd:
+Vol/year Iss/Vol :
+
+Issue Cost (Rs):
+
+Subsc Mode:
+
+Is Issue No. continuous:
+Vol/Iss:Period:
+
+lntransit Period (Days):
+Vol: Issue:
+Vendor Ref.:
+
+Set No :
+
+Figure 3. Worksheet for update subscription details.
+
+ 
+
+ 
+
+  
+    
+  
+ 
+ 
+   
+  
+  
+   
+   
+ 
+ 
+  
+  
+ 
+ 
+  
+   
+ 
+  
+   
+   
+ 
+  
+ 
+  
+ 
+   
+  
+ 
+  
+  
+   
+  
+
+ 'tion and lastly payment cheque
+
+the ordered title, its details such as
+ription period, volume, discount,
+,» - rate, etc. can be changed as per
+meal. The system allows for more
+one invoice for an order and keeps an
+to status of each order with respect
+‘ ordered and billed against it. It also
+ supplementary invoice for any title.
+
+-- invoice amount matches with the
+tal cost of each serial billed, the
+e can be processed for payment.
+" ent requisition involves preparing
+don form for getting sanctions and
+of from the Account Section. Once a
+'on has been processed, no more
+can be added to the requisition,
+r, invoices can be removed from a
+in already processed if these are
+be paid. Once a requisition form is
+ed, it can be printed through the
+yr ’ function.
+
+in i- veriﬁcation of bills, cheque/drafts
+-: red by Account Section and sent
+library for necessary transaction to
+vendor/publisher. ’Payment updates’
+‘ required information to be entered
+ cheque number, cheque dates bank
+on, etc. Reports are generated,
+can be sent to the publisher/vendor.
+essential that payment details are
+
+e for all the vendors in the requisition
+
+Receiving Issues
+
+iving issues is one of the most
+nt functiOns of the system which
+well-designed screen requiring entry
+nimum possible data. It involves
+ding of volume and issue
+- [period which ever is applicable for
+'al. There is separate facility for
+issues and additional issues
+tively. This function automatically
+
+updates the serial holdings. It has a
+provision to record damaged/soiled issues
+for subsequent replacement. Duplicate
+issues whenever recorded are flushed,
+however, it allows the recording of the
+same in the serial holdings to enable
+generation of 'duplicate issues’ list.
+
+5.2.5 Claims Monitoring
+
+Monitoring of issues to be received as
+per the respective frequency of each
+subscribed serial basically involves,
+generating notices which could be mailed
+directly to the vendors/publishers for
+overdue, not received and received
+damaged/soiled issues. The following
+functions are used for monitoring of issues:
+
+I Schedule updates
+I Reminder notices
+I Display reminders
+
+(a) Schedule updates : This function allows
+entering the schedule of irregular issues of a
+serial. For serials having regular frequency
+such as monthly, or quarterly, the schedule is
+automatically developed on the basis of the
+ﬁrst issue scheduled and in-transit delay (in
+days).
+
+(b) Reminder notices : The notices to the
+vendors/publishers are generated which list
+out the serials having 'overdue’, ’missing’ and
+’soiled/damaged’ issues. For each serial,
+complete details of all the issues for which
+reminders to be sent to the vendor/publisher,
+are given in the notices. These also contain
+the reference and date of the last reminder
+sent for each issue.
+
+While developing reminders, the system
+asks for the subscription year for which
+reminders are to be generated. As the
+subscription year is entered, the system
+identiﬁes the overdue, missing and
+soiled/damaged issues from the current
+holdings of . each serial and generates
+reminders to be sent to the vendor/publisher
+
+  
+
+ 
+
+Milt") of Inf Techno“  l 5(3)
+
+for the specified subscription year.
+Reminders are also generated one by one by
+giving alpha code of the journal or title or
+ISSN number whereby it generates reminders
+for speciﬁc journals.
+
+(c) Display reminders : This function shows
+the number of reminders sent for each
+overdue/not received issues of serials.
+
+5.2.6 Bindery Management
+
+The following functions relate to the
+management of binding of loose issues of
+serial.
+
+I Bindery update
+
+I Bindery order
+
+I Bound volumes
+
+I Back issues
+
+I Checking out of loose issues
+
+(a) Bindery update : On selection of this
+function, the system scans the current
+holdings of loose issues of various serials and
+reports for serials whose volumes are
+completed. While listing out the completed
+volumes, it assigns a control number to each
+complete volume which is used for
+subsequent bindery order generation.
+
+(b) Bindery order : This function is used to
+generate order for bindery from the records
+of the completed volumes. Once the bindery
+order has been processed, no more serials
+can be added to the order; it can be printed
+through the ’reports' function.
+
+(c) Bound volumes : This is to record the
+bound volumes received from the bindery so
+as to update the collection of a serial. The
+accession number is entered for each bound
+volume received along with the detailed
+information like volume, issue, month, year,
+
+23
+
+    
+   
+   
+  
+ 
+  
+   
+ 
+ 
+ 
+ 
+ 
+   
+   
+
+library can be recorded as well as upda ~33
+There is a facility to view the list of n j
+volumes before adding these to the data . '4"
+There is also option to see the list of l 
+issues for the established serial. ‘
+
+(e) Checking-out of loose issues : -.-'j
+function is used to keep track of loose iss if:
+of serials checked-out by the borrowers. ‘
+5.2.7 Enquiries
+
+The enquiries on serials are based on 
+following :
+
+I Titles
+
+I Vendors
+
+I Budget heads
+
+I Checks-out of loose issues
+I Miscellaneous
+
+(a) Title based: The following alphabetic 
+of serials are given on query to facilitate:
+serials control process: '
+
+0 Serials’ details,
+
+0 New serials,
+
+Renewed serials,
+
+o
+
+0 Current serials, and
+o Missing/overdue, replacement issues:
+it provides information related
+subscription, loose issues, missing .573
+invoices, etc.
+
+(b) Vendor based: This enquiry lists:
+vendors dealing with current serials, s l 
+orders placed with the vendor, and V.
+invoices received with their current it:
+
+(c) Budget head based: It includese :- if-
+related to serials by budget head,..'
+
+etc.
+
+(d) Back issues : It deals with the recording of
+existing bound volumes in the collection.
+Availability of back issues maintained by the
+
+expenditure analysis.
+
+(d) Checks-out of loose issues : It in
+
+enquiries related to checks—out of the :5:
+issues based on borrower, serial, etc.
+
+ 
+
+24
+
+  
+ 
+   
+    
+   
+   
+   
+ 
+  
+ 
+ 
+   
+  
+  
+  
+  
+  
+    
+  
+   
+   
+ 
+ 
+  
+ 
+  
+ 
+  
+
+llaneous enquiries : It includes
+in bindery, recent arrivals, unbilled
+and subject-wise serials.
+
+1: Reports
+
+'us reports generated by the serials
+are as follows.
+
+. -— ed:Alphabetic list of serials, list
+'rrent serials, serials by publisher, list of
+- issues, list of duplicate issues, and list
+- "7.): 'ng/overdue issues, etc.
+
+rots/notices: Approval form, subscrip—
+rder form, payment requisition form,
+e delivery notice, bindery order, etc.
+
+i - out of the loose issues : Borrower-
+._.-serial-wise, etc.
+
+ 1i 'iscellaneous: Vendors directory, recent
+
+, bill register, bindery register,
+men request, location-wise serial,
+volumes, etc.
+
+ Record Keeping
+
+are maintenance functions for
+g the uptodate records of various
+of the serials system. Both the
+'tion and serials systems of LIBSYS
+the same records of vendors, budget
+and currencies. Thus, these records
+i updated through the corresponding
+' s of either of the system. The
+' g are the subroutines of records
+
+' details: This is used to update the
+details of a serial. If there is change in
+details of the serial like title, name
+- s of the publisher, frequency, etc. it
+- . here.
+
+pdate loose issues : This is used to
+=- the‘ loose issues holdings of a serial,
+i updated wrongly by ‘receiving'
+n, e.g., if number or month of the issue
+gly entered, it can be modified by this
+
+orsrooc Bulletin of in! rachnom - 
+
+(C) Update history status : This is used to
+update the history status of a serial to any of
+the following :
+
+o Discontinued/ceased,
+0 Continued as,
+
+0 Deleted,
+
+o Merged with, and
+
+o Succeeding title.
+
+(0') Vendor’s record: This function is used to
+enter the details of the new vendor like name,
+address, contact person, fax, telephone
+number, etc. If there is any change in these
+details, one has to make necessary changes
+in this function. It may be noted that the
+system doesn’t allow duplicate vendor ID.
+
+(6) Budget head: Records of new budget
+heads can be added through this function. It
+also provides for modiﬁcation of budget
+head, name and removal of a budget head
+from the database.
+
+(0 Currencies: Various currencies can be
+deﬁned and subsequently updated through
+this function. For each and every currency, its
+code has to be deﬁned against it. It may be
+noted that the system doesn’t allow duplicate
+currency code.
+
+Currency code Name
+5 Dollar
+ST R Pound
+
+(3) Exchange rate updates: Exchange rates
+can be entered and subsequently updated
+every month for different periods for each
+currency according to GOC (Good Ofﬁces
+Committee). While processing an invoice,
+the exchange rates applicable for the period
+are automatically picked up for processing.
+
+(h) Budget updates Year-wise budget
+amounts can be entered and subsequently
+updated through this function.
+
+ 
+
+   
+
+6 man oflnf Technol. 1995. 15(3)
+
+r
+
+(1') Languages :This option is used to add one
+or more new languages in the system other
+then English.
+
+(1) Serial types :This function is used to add
+new serial types received, i.e., periodicity of
+the journal.
+
+(k) Types of bindery : This function is used to
+add new bindery types, e.g., leather binding,
+rexine binding, etc.
+
+(i) Subscription modes :This function is used
+to add new subscription modes, e.g.,
+subscribed serials, serial received free or on
+exchange or by membership, etc. List is also
+generated for serials received against
+subscription, etc.
+
+(m) Report text updates : The text to be
+included in various reports can be entered
+and subsequently updated through this
+function. The following reports are generated
+on different functions:
+
+Approval form,
+
+New order,
+
+Order renewal,
+Additional order,
+Overdue notice,
+Payment request notice,
+Cheque delivery notice,
+
+Bindery order,
+
+OOOOOOOOO
+
+Request specimen copy, and
+
+0 Supply order.
+
+5.4 System Set Up
+5.4.1 Default Values
+
+There is a facility to deﬁne the default
+values of the following items which is taken
+automatically wherever data are not
+entered:
+
+I Vendor ID
+
+25
+
+I Currency
+
+Budget head
+Discount
+Subscription mode
+Mode of delivery '
+Approval :...thority
+Overdue grace period
+Reminders interval
+Issue period.
+
+I
+I
+I
+I
+I
+I
+I
+I
+5.4.2 Control Options
+
+     
+ 
+      
+     
+   
+ 
+ 
+  
+   
+ 
+  
+
+There is facility to have the fall l:
+control numbers either user deﬁned '
+system generated: ‘
+
+I Specimen request number
+I Approval number
+
+I Order number
+
+I Payment sanction number
+I Bindery number.
+
+For system generated option, all
+above mentioned numbers '
+
+duplicate numbers are not assigned on}
+this option. For user defined op;
+duplicate numbers are not accepted in
+system.
+
+5.5. House-Keeping
+
+The following house-keeping functi
+are provided for serial systems: »
+
+(a) Redevelop receipt file: On the bas‘ﬂ
+ageing, the records in the database can:
+flushed out periodically to optimise the 
+
+of storage space.
+
+(b) Remove invoice records: Dupl'
+invoice records entered by mistake and.
+which no further processing has been -,".i-
+can be removed from the system througluf:
+function.
+
+ 
+
+26
+
+ 
+   
+   
+   
+   
+   
+    
+
+.
+ ture for establishing serial: For
+g a serial, enter one of the following
+
+ y - 5 ’Enter’ Key:
+ . code or CODEN or
+
+ 
+     
+    
+  
+  
+
+ - procedure for subscription renewal
+
+ . title (as many letters as known) or I
+a code is generated by the system I
+by using the ﬁrst letter of each word in
+,‘al name. In case there are more than
+serial having same code, these are I
+out for further selectioo of a speciﬁc
+"OBLEMS I
+'1 , gh the ’Serials Control’ is quite
+ted and has covered almost all I
+v activities, we practically experienced
+certain functions supported in the
+- e ’LlBSYS’ requires modiﬁcation and I
+'on. They are as follows.
+“oldings of periodicals as per the
+-. - format is not generated. 7_
+
+ossooc Bulletin oflnfl'ochnol.l995.. 
+
+  
+
+be sent’, so we have to keep a track manually.
+
+Some problems with ’report generatiOn’
+
+function are listed below.
+
+There is no provision for generating
+reminders for new orders or renewals of
+the journals.
+
+Payment request notice and cheque
+delivery notice should cover name of the
+journal and periodicity.
+
+Mid-year subscription creates problems
+for generating reminders for non-receipt of
+issues.
+
+Generation of vendor-wise list of journals
+is not possible.
+
+Reminders should cover payment details,
+e.g., invoice number, date, cheque/draft
+number, etc.
+
+For resubscribing the journal which has
+been already discontinued, separate entry
+is required.
+
+CONCLUSION
+
+Computerisation has made an impact on
+
+ 
+ 
+
+   
+
+periodicals is very lengthy. We do not
+approval from the Director every
+but while processing renewal through
+ftware, we have to undergo the lengthy
+. It is not possible to place an order
+gm ,without approval.
+
+   
+    
+ 
+   
+   
+ 
+   
+    
+ 
+
+ e is no provision for ’credit note’,
+’ a from the vendor/publisher.
+
+.  the case of receipt of combined issues,
+for is provision for entry of only one issue,
+if the journal is for March-April, it will
+' tonly one month, i.e., either March or
+
+3‘ ards sharing of resources, one of the
+nt library service is sending the
+ts pages of serials to various libraries.
+no facility by which, while receiving
+e, it shows that ’contents pages are to
+
+all the main functions of the library. It can
+process information much faster than
+human beings and permits better work.
+Computer-based information system saves
+the time and efforts of the library staff
+involved in producing the information
+products. From the user's point of view, the
+system saves searching time and
+information can be made available faster.
+There is complete access to information in
+the record from all possible angles.
+
+Most of the programmes used in Indian
+libraries were written locally. However,
+some of the institutions did take advantage
+of the Commercially available packages. But,
+many of the institutions using ready-made
+packages feel that the available packages
+were neither suitable to their speciﬁc needs
+nor economical. They are of the opinion
+
+  
+  
+
+ 
+
+ Stiletto orrnrrecnnoi.1995. 15(3) 27
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+ 
+ 
+   
+ 
+   
+ 
+  
+  
+
+Kimber, P. T. Automation in li . 
+Pergamon Press, Oxford, 1975.
+
+that ’tailor-made' programmes suitable to
+their needs will be more efﬁcient and
+economical.
+
+libraries, B. R. Publishing Corporal
+Delhi, 1987.
+LIBSYS An integrated libr,
+
+management software package. NI
+Newsletter, 1989, 8(3).
+
+The ’Serials Control’ system of LIBSYS,
+comprehends almost all activities
+connected with procurement, recording
+and dissemination of information except a
+few. It saves the time and efforts of library
+personnel involved in checking, typing and
+
+reproducing various kinds of reports. It is a 7- Pillar D-.C- (Edl- Advances in library 1
+menu-driven and integrated system which g Information SCIBHCE. VOL 4. 
+can help in generating various kinds of PUblISherSJOthUfr 1993-
+reports' 8. Patel, D. R. Computer-based 
+Minglgolding in SAC Library. -
+PHY ‘1 g
+BIBLIOGRA 9. Patel, D. R. SAC library automa
+1. Balakrishnan, M. R. Preparation of Oblems and PFOSPECtS- 
+
+. P .
+Dirile‘tblis‘é’hason, 1994.
+10.
+
+camputerised database of current
+periodicals and development of
+
+_ Riaz, Muhammad. Library 
+computer programs for processrng the
+
+Atlantic Publishers and Distribuli,
+
+J database. NlSSATNewsletter, 1987, 6(4). 3 New Delhi, 1992.
+2. Bourne, Ross. Serials librarianship. 11, Riaz, Muhammad, serials manag {3;
+l3 Library A55°Ciatlonr London: 1930- in libraries. Atlantic Publishers 
+. . B Distributors, New Delhi, 1992. .
+3. Kamath, V. A., et al (Ed). Applications of 4
+mini- and micro-computers in 12. Sharma, C. D. and tha, D. C. ( 35‘
+{% documentation, information and Advances in library and inform?
+
+libraries. Infotek, Madras, 1988. (3’ science. Rosa Publishers, Jaipur, 
+
+ 
+
+2B
+

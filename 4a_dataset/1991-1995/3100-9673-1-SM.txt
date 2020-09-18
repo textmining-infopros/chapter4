@@ -1,0 +1,224 @@
+Global Communication Language
+for Networks*
+With the advancement in the field of
+communications and computer hardware,
+there is a growing need for having portable,
+continuous and interactive access to
+information. Although the developments in
+wireless communication hardware hold
+promise for this, the biggest hurdle in this
+field is the existence of different protocols
+which are used in data communication
+process. This has raised a need for a
+user-friendly, transparent and universal
+communication language.
+Telescript is an interpretedlanguage that
+works independently any and all protocols
+and transports. The developers of Telescript,
+General Magic of USA plans to push
+Telescript as a standard for any type of
+network interaction from personal E-mail to
+interaction over commercial data networks.
+Like
+language from Adobe
+I
+which has revolutionised printing by using
+Programs '0 contrast the "You' of text and
+graphic' On a Page, Telexri~t
+is machine
+independent and can run on printers of
+different
+and
+resolution. Telescript promises to bring the
+same intero~erabilit~to the networking
+field. Like Postscript it is also an interpreted
+Extracted from :
+Wayner, Peter. Agents away. Byte, May 1994,113-1 8
+DESlDOC 8uIktin of lnf Technol, 1994,14(3)
+
+language independent o f hardware
+platforms
+and operating
+- systems running it.
+.
+*
+
+Advantages of Telescript
+At present, a lot of time is taken by
+messages to travel across the network
+duri.ng a communication process.
+Information travels in the form of small
+packets across the network to a computer
+and vice-versa taking twice the network
+travel time.
+Telescript allows user to bundle his
+messages, requests and preferences into an
+intelligent program that travels to a distant
+computer in the network; gets answers to
+the queries and returns with answers to the
+host computer. This results in only two trips
+across the network and saves time,
+bandwidth and involves less cost.
+The major difference between other
+software communication
+and
+Telescript
+is that Telescript
+is
+
+c or BASIC
+computationa~~y
+as powerful
+and has built-in intelligence about how to
+interact with other systems. Other
+networking protoco~ssuch as Novell's IpX
+or
+IP merely pass packets of data
+between computers and require a software
+for manipulating the bits as they arrive.
+Computer with Telescript can understand
+any Telescript program that it receives on
+3
+
+the network because of built-in intelligence
+in the program for making decisions based
+on preferences. These packets of Telescript
+code (Telescript programs) are called
+Telescript agents. Of course, this would
+require a network of computers running
+Telescript interpreters. One such network
+called AT&T Personal Link is expected to be
+established shortly in USA.
+
+How Telescript Works?
+There are two types of Telescript-high
+Telescript and low Telescript. High
+Telescript i s a modern, high-level
+object-orientedlanguage having simple and
+clean semantics and is similar to an objectoriented version of Lisp. Telescript code is a
+dynamically bound code at run time. The
+Telescript interpreter handles garbage
+collection and memory management and
+provides security since such a program
+(agent) can change or damage the host
+system like a virus. High Telescript is sent to
+a locally resident Telescript software which
+consists of a converter and an interpreter.
+Low Telescript is a simple stack-based
+language running on Telescript interpreter
+similar to Forth and Postscript. High
+Telescript is designed for programmers
+while low Telescript is easier to be handled
+by the computer having small interpreter
+size and minimises the memory usage by
+agents and gives easy portability to the
+interpreter. Low Telescript interpreter
+requires run code which can be generated
+by computer and thus it is easier to create
+these without caring for semantic errors. Its
+stack-based nature is easier for computer to
+parse but difficult to humans to read.
+In a network the system that provides
+service requires only low Telescript while
+the client machine needs the highTelescript
+capability. Both these languages are used
+without showing the actual language like
+4
+
+the PostScript code. The language can be
+used through interface and pre-created
+skeletal agents for collectingthe parameters
+for the agent.
+When the Telescript engine receives a
+new agent, it converts it into low Telescript
+and executes the GO command sending
+the bundled agent to its destination.
+Another version of GO command is sent
+where an agent or sub agent creates its
+version and sends them to all possibleways.
+The Telescript engine saves an agent by
+bundling up the agent's low Telescript code,
+the program counter, the stack and any of
+the memory-based objects owned by the
+agent. This information is stored into one
+bigfile and then sent over usingappropriate
+network transports.
+The destination of the agent can be
+specified into one of the following four
+ways.
+The first two methods involve providing
+a name or providing an address as 16-byte
+generated tags unique to a particular place.
+The name consists of the authority and
+identity of the place while the address
+consists of the authority and location of the
+place. This method provides flexibility for
+the changes in the nature of network as
+more and more new services are
+introduced on the network.
+Third way i s that the agent finds
+destination by asking from a directory the
+machine offering the particular class of
+cheapest service. In the fourth method, the
+interpreter provides details of information
+by specifying how to find address.
+
+Security of Systems
+Running Telescript on an interpreter
+enables machine independence, ease of
+porting, and security.
+DESIDOC Bulletin of Inf Techno/, 1994, 143)
+
+The security aspect assumes importance
+as the world-wide network is also open to a
+lot of unwanted programmes. Telescript
+interpreter can check the identity of each
+computer sending the request and allows
+authorised users to access information.
+Agents, being small intelligent programs,
+are similar to viruses except that these
+contain the identity which is required for
+execution. After interpreting these agents,
+the Telescript acts as an intermediate layer
+that examines and executes each
+instruction and can stop any agent trying to
+do unwanted activity.
+Another security feature i s the
+incorporation of Teleclicks. Teleclicks are
+equivalent of money coupons on the
+network which limit the action of an agent.
+While creating an agent, it is given a certain
+amount ofTeleclicks to do its job depending
+upon the expected CPU time to be used.
+
+This feature can stop unauthorised use of
+resources of host as well as over spending
+by the client.
+The third aspect of security is identity.
+Each Telescript agent is sealed with a
+cryptographically secure signature.
+Telescript host can verify the security of the
+agent from the signature and this will.also
+help in billing for its services.
+As on today Telescript offers a broad
+vision in network communication and
+despite its initial limitations, it has the
+potential to become world standard in this
+field. AT&T personal Link network will
+demonstrate the capabilities of Telescript
+and its real potential will be known when
+many more network providers make use of
+this technology.
+
+(Ashok Kumar)
+
+e golden vessels of the
+mps to be he(d ever in the
+
+- Richard De Busy
+
+DESIDOC Bulleth of Inf Techno& 1994,14(3)
+
+5
+
+

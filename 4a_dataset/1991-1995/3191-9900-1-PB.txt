@@ -1,0 +1,1233 @@
+DESIDOC Bulletin of IAformationTechnology, Vol. 15, No. 4, July 1995, pp, 23-31
+
+0 1995, DESIDOC
+
+Bulletin Board System for Libraries
+CK Ramaiah
+DESIDOC, Metcalfe House, Delhi-1 10 054
+
+Abstract
+Electronic bulletin board systems are vital tools for
+computer-mediated communication among computer users. These
+are similar to the bulletin boards that are displayed in a library.
+However, these are operated electronically on computer networks.
+This article gives an overview about electronic BBSs, the infrastructure
+required to set up BBS, and their applications in general. An attempt
+has also been made to design an Indian Bulletin Board System for
+tibraries, a conceptual BBS on which different types of information
+could be organised and a number of services could be provided to
+the users.
+
+1. INTRODUCTION
+
+2. WHAT IS A BBS?
+
+Bulletin Board Systems (BBS) started in
+the late 70s, as a means of communication
+for virtual community existing in
+Cyberspace where participants
+usually
+under pseudonames may send and receive
+public and private messages to each other
+on any topic, transfer software, play online
+games, etc. Ward Christensen and Randy
+Suess of USA had discussed on 18 January
+1978, about designing
+of
+the first
+electronic BBS i n the world and
+implemented the system on 16 February
+1978. This System was a message only
+system for the PC users and the topics
+included were C, Assembler, Al,
+programming
+techniques
+and
+communications. This BBS was designed
+on an 8080 processor with 24 KB RAM, a
+floppy disc drive and a modem interface.
+
+The BBS is a miniature form of an online
+system for a cost-effective distribution of
+information in electronic format. BBS
+supports interactive communication
+between users on a wide variety of
+subjects ranging from hobbies to politics.
+On some BBSs, it is possible for the users to
+communicate both interactively and to
+leave messages for other users. Some
+bulletin boards are considered more of a
+talk-net than a platform to
+exchange
+research information. Most BBSs make
+available a discussion topic list with brief
+descriptions under each topic heading.
+Easy to use menus guide the new user
+through the bulletin boards. Some bulletin
+boards provide
+file transfer services.
+Rutgers Bulletin Board Service (Quartz,
+USA) and University of North Carolina
+
+DESIDOC Bulletin of Jnfor Technol, 1995,15(4)
+
+23
+
+(Samba, USA), Bulletin Board for Librarians
+(BUBL, UK), National lnformation on
+Software and Services (NISS, UK) are some
+of the important butietin boards available
+on the networks.
+
+2.1
+
+BUBL, UK
+
+Bulletin Board for Librarians (BUBL), is
+one of
+the registered BBS on Joint
+Academic Network (JANET), UK, designed
+to be accessed and used in interactive
+mode. BUBL was designed using Userbul
+software, produced by Leicester University,
+England. This interface allows the users
+to move easily between files within the
+bulletin board. Since the datasets are
+arranged hierarchically, users need not
+'climb' or 'descend' through menus in
+order to reach files or henus they desire,
+for example the main menu can be recalled
+at any time, by typing 'M' and pressing
+Return key (Fig. 1).
+I
+
+I
+
+Page 1 of 7
+
+Section M
+***Main Menu***
+A
+
+All about BUBL
+
+B
+
+Reference Section K
+
+Practical Exercises
+
+C
+
+New Titles in LlS
+
+L
+
+British Library R&D
+News
+
+D
+
+Directories
+
+N
+
+Latest changes in BUBL
+
+E
+
+Current Contents 0
+
+Concise (Pan-European
+Info Services)
+
+F
+
+Mailing lists
+
+S
+
+ElectronicJournals&
+Texts
+
+G
+
+NlSS
+
+V
+
+Library Systems &
+
+H
+
+User's Board
+
+Z
+
+J
+
+Glossary
+
+Software
+CTILIS
+
+Options :
+HELP, HINTS, SEARCH, MAIL, POST,
+QIJIT, M(Main Menu) or (RETURN) (Next
+Page)
+Please select seetion name, page number
+or option
+Figure 1. Main Menu of BUBL, UK
+
+BUBL aims to provide a network of
+library resources of information on JANET
+and other networks such as Internet to the
+users.
+
+2.2
+
+NISS, UK
+
+The National lnformation on Software
+and Services, based at the universities of
+Bath and Southampton, provides a gateway
+to several services. These include an online
+bulletin board (NISSBB), and a catalogue of
+software and databases on JANET. Its
+primary
+function
+is
+information
+dissemination and online services for the
+UK higher education community. In NISS
+bulletin board, information is structured in a
+hierarchy of sections and selected via
+menus. NISSBB
+has a public access
+collection, i.e. a collection of datasets with
+powerful search facilities. The 'POST'
+command on the NISSBB can be used
+to mail all the information given under the
+sections on the bulletin board to local
+computers. For example, if a person wants
+the address list of university libraries in UK,
+he can use the 'POST' command to get the
+relevant information downloaded to hislher
+mail box.
+
+2.3
+
+Subject-based BBSs
+
+2.3.1 Chemistry
+American Chemical Society (ACS),
+Organic Chemistry Division and Chemical
+Abstracts Service and STN International
+have jointly designed and implemented a
+new BBS for chemists. It allows online
+meetings and to communicate with each
+other without physically travelling to a
+single location.
+Chem REFS (Chemical Research and
+Education Finding Sources) is another
+electronic bulletin board (available to the
+ACS members) containing information on
+grants and contracts in the chemical
+services and engineering. The bulletin
+DESILWC Bulletin of lnfor Technol,1W5.15(4)
+
+board also carries a new section with
+. weekly coverage of science policy issues,
+the federal (US) budget, and change in
+grant and contract procedures or
+guidelines. Except for the telephone
+charges, there are no other costs involved
+in using this system.
+
+2.3.2 Engineering
+The CIME-ISE is a free electronic bulletin
+board service of ASMEfs Publications
+Directorate. It is an online 24-hours service
+and can be accessed with 300-, 1200- or
+2400- baud rate modems. CIME-ISE
+currently offers several programs that
+includes FAT- video (Fortran Accessory
+Tools) w h i c h operates w i t h I B M
+monochrome, CGA and EGA video
+
+standards. It has a variety of programming
+tools for Pascal, Basic, Turbo Basic, Boosters
+and T- Enhance.
+
+BBS in lndia
+
+2.4
+
+,Some of the Bulletin Board Services
+available in India are listed in Table 1.
+
+3. GENERAL APPLICATIONS O F
+BBS
+Electronic mail
+Software exchange
+Electronic computer conferencing
+Electronic publishing
+Current contents
+
+Table 1. Some Bulletin Board Services available in lndia
+Name of the BBS
+
+City
+
+Sysop/Cosysop
+
+Dial Number
+Available
+
+Live Wire
+CiX
+
+Time
+
+Ahmedabad
+
+Roopal MehtaIRishabh
+
+41 1116
+
+24 hrs
+
+Bangalore
+
+Atul Chitnis
+
+3341 137
+
+24 hrs
+
+Live Wire
+
+Bombay
+
+SuchiVAnish Nanda
+
+24 hrs
+
+Liie Wire
+
+Calcutta
+
+Shamit Khemka
+
+5787812
+5777770
+241356
+2488763
+
+Status Royal
+
+Chandigarh
+Chandigarh
+
+AK Agarwal
+
+Genius Net
+
+R Prabhakar
+
+697648
+547144
+
+Cyberden
+Delhi Online
+
+Delhi
+Delhi
+
+Satyen Jhaveri
+
+600001
+
+2000 to 0800
+
+D Khurana
+
+5581 166
+
+2000 to 0800
+
+ECTC Net
+
+Delhi
+
+Kishore/Jyoti
+
+6845520
+
+24 Hrs
+
+Headnet
+
+Delhi
+
+Bhargava JayanVMenakashi
+Jhamb
+
+2222135
+
+2000 to 0800
+
+Nebulanet
+
+Delhi
+
+Sameer Madan
+
+5739404
+
+2000 to 0800
+
+Netropolis
+
+Delhi
+
+Ashish Gulhati
+
+4601978
+
+24 hrs
+
+Ankur Ruhagi
+
+603497
+
+1800 to 0600
+
+24 hrs
+2000 to 0800
+24 hrs
+
+Network 33
+
+Delhi
+
+PCQ Onlihe
+
+Delhi
+
+PK Roy
+
+6221 734
+
+24 hrs
+
+Poison Den
+
+Delhi
+
+Ashwani Agarwal
+
+2910518
+
+24 hrs
+
+Quantum Lnk
+
+Delhi
+
+Aditya/Sayan Ghosh
+
+6885548
+
+1800 to 0600
+
+Solutions
+
+Delhi
+
+Nitin Chandra/Deepak Datta
+
+Status BBS
+Twilight Zone
+
+Delhi
+Delhi
+
+Alok/Anjali Sinha
+
+6855362
+6865881
+64751 11
+
+24 hrs
+24 hrs
+24 hrs
+
+Manu Kaushish
+
+6830299
+
+200 to 0800
+
+Wondernet
+
+Delhi
+
+Aman Anand
+
+5741230
+
+1800 to 0600
+
+Jabberwocky
+
+Pune
+
+Gautamnikram Godse
+
+678749 '
+
+24 hrs
+
+Live Wire
+
+Madras
+
+Loyala Josep
+
+4838826
+
+24 hrs
+
+DESIDOC Bulletin otlnfor Technol, 1 W5,15(4)
+
+25
+
+Mailing lists
+Special interest groups/newsgroups
+Conducting research, surveys, etc.
+Networking
+Computer-based chatting (simulation)
+Electronic document & article delivery
+
+Access'to network resources
+Archive.
+
+4. INFRASTRUCTURE
+REQUIREMENTS F O R BBS
+Establishing an electronic BBS, requires
+a PC, a modem, a telephone line and the
+BBS software. There are several software
+packages that allow us to setup and run a
+BBS. These software run on variety of
+computers from a simple PC (286) to
+Pentium
+(multi-processor), minis and
+mainframes.
+
+4.1
+
+Manpower
+
+One system operator (SYSOP) i s
+required to maintain the system who will
+receive information from the contributors,
+edit it and add to the BBS. Thus, he is called
+as BBS moderator or operator. Depending
+upon the increase in the amount of
+information, more
+manpower may be
+required to operate, update and maintain
+the system. The person(s) may/may not be
+a computer professional; any one having
+some experience on computers and also
+some knowledge in BBS would be able to
+perform this job.
+
+4.2
+
+Hardware Required to Access/
+Use BB Services
+
+Anyone having an IBM AT or compatible
+with 512 KB RAM, having high density
+floppy drive, 15 MB hard drive, RS 232
+serial port with modem and cable, and
+
+voice grade telephone line would be able to
+access/use these services.
+
+4.3
+
+Hardware Required to Setup a
+BBS
+
+4.3.1 Computer and Peripherals
+For setting up a multimode BBS of 10
+lines, the PC should have multiple COM
+ports and faster speed to handle multiple
+connections. For setting up a full-fledged,
+national level professional BBS, a dedicated
+33 MHz clock speed
+mainframe
+is
+required. An average system configuration
+required for setting up a BBS would be :
+Computer : Server with 486 DX2/33 MHz
+or 40 MHz or higher if possible, 20 to 24
+MB RAM and 500 MB HDD.
+Operating System : DOS/Windows
+/Novel/Unix
+BBS software
+: Wildcat 4.01 (more
+softwares are listed in Table 3).
+Telephone : A dedicated telephone line/
+lines
+depending
+on
+the
+requirement.
+Modem : ZyXEL 1496E or equal having
+required baud speed.
+Modem Speed :1.2 kbps to 28.8 kbps.
+
+4.3.2 Modem
+Modem is one of the important
+components of the BBS. All BBS software
+do not support all kinds of modems,
+however, a few like Hayes and US Robotics
+modems support all types of BBS software.
+It is better to select a modem of industry
+standard (i.e., Hayes, AT Commands, MNP
+Protocol, etc.) and international standards
+(CCITT V.32, V.22, etc.). Since users yill
+be using modems of different makes, i t is
+better to select a modem that supports
+maximum protocols.
+A 1,200 bps modem is sufficient for the
+low-end BBS, however, 2,400 bps modem
+is a better choice. Some popular modems
+with their baud rates are given in Table 2.
+DESIDOC BuUetin of lnfor Technol, 1995.15(4)
+
+Table 2. Popular modems in use
+hlanuiacturer
+
+Modem Name
+
+Baud Rate
+
+DC Hayes
+
+Micro modem Ilc
+Smart modem
+Smart modem
+
+300
+1200
+2400
+
+Navigation
+
+J-CAT
+Apple Cat I1
+2400 Professional
+
+300
+1200
+2400
+
+Recal Vedic's
+
+1200 PA
+1200 PC
+The Maxell modem
+1200 VP
+
+1200
+2400
+2400
+2400
+
+TRS-80
+
+D C 2212
+
+1200
+
+US Robotics
+
+The Courier 2400
+
+2400
+
+A number of BBS software packages
+are available. These include a few that
+are available free of cost, and others which
+may be purchased through commercial
+vendors. Due to limited market, BBS
+software are usually available directly from
+the software or communication companies.
+The packages cost from less than fifty US
+dollars to several thousands of
+dollars. There are a few public domain
+BBS software available free of cost and
+may provide programming skills to novices
+and hobbyists.
+
+4.4
+
+Selection Procedure for BBS
+Software
+
+There is no perfect BBS software which
+matches the needs of all the users. Each
+software has some strengths and
+weaknesses and therefore comparisons
+among the software are difficult. There are
+three main characteristics that decide the
+selection of a BBS software, viz. user needs,
+software features, and software quality.
+
+4.4.1
+
+User Needs
+
+The needs for designing a BBS must be
+defined clearly. The clearer the user needs,
+the easier the task of selecting a BBS
+software. The needs include the following:
+
+H What is the purpose of the BBS?
+DESIDOC Bulletin of lnfor Technol,1W5.15(4)
+
+H Who are the users?
+
+H What features are to be added?
+H Any important facilities such as online
+surveys, electronic conferencing, chatting,
+etc. to be provided?
+
+4.4.2 Software Features
+An intensive literature survey should be
+conducted to know the features of the
+software usually published in the form of
+ratings. The features include:
+H Extent of software customisation.
+H Extent of programming.
+
+H Back-up protection.
+
+H Range of hardware program.
+Features such as chat, conferencing, down
+loading, posting, etc.
+H No. of ports it can support.
+4.4.3 Software Qualify
+
+The following features should be looked
+into while checking the quality of a BBS
+software.
+
+H User friendliness and reliability of the
+software.
+Availability of editing features
+nesting system.
+
+with-
+
+W Documentation (both online and hard
+COPY).
+H User support.
+
+H Updating of the software.
+4.4.4 PC Board-An Ideal BBS Software
+
+PC Board is an easy to use, standard
+and inexpensive BBS software that is being
+widely used by hundreds of users around
+the world. It can support from two users to
+65,535 users. PC Board includes other
+modules (normally very expensive if we buy
+
+them separately) such as an Internet/UUCP
+Gateway, a Fido Mailer QWK Mail Support,
+Credit Accounting, Sysop utilities, dBase
+file Access,
+Multi-channel CHAT,
+Local/Network and Dial in/remote, logins,
+and support for both intelligent and
+non-intelligent multi-port hardware with
+port speeds upto 1,15,200 bps. Moreover,
+these also provide PCB Mail (a Mail
+Manager for IMS Windows) free, with the
+result that Windows e-mail application is
+fully integrated with PC Board. The price
+varies depending upon the number of
+nodes needed by the user.
+Some of the important PC-based BBS
+software packages are listed in Table 3.
+
+Table 3. PC-based BBS software packages
+BBS software
+
+Baud rate (bbs)
+
+PC Board
+
+NA
+
+RBBS (Remote BBS)
+
+300-1200
+
+Searchlight
+
+NA
+
+TBBS
+
+NA
+
+WILDCAT 4.1
+
+NA
+
+Access
+
+300-1200
+
+ABBS (Apple BBS)
+
+300
+1 200-2400
+
+BBS-PC
+Conference Tree
+
+Dial-Your Match
+Diversi-DIAL
+
+The Dungeon
+Fido
+FoRem PC
+Great BBS PC
+
+Idea-Tree Message System
+
+300-1200
+300-1200
+300
+300
+300-2400
+300-9600
+300-2400
+
+PC-Date
+
+399-2400
+300-2400
+300-1200
+
+Usenet
+
+300-1200
+
+Metropolis Online
+
+NA
+
+Excel-PC Board
+
+NA
+
+Celebration Station
+
+NA
+
+Sound of Music
+
+NA
+
+Canadian Remote System
+
+NA
+
+Metroline BBS
+
+NA
+
+Let's Talk
+
+28
+
+5. A PROPOSED BBS F O R
+
+LIBRARIES
+The BBS should be attractive (in terms of
+its ingredients to attract callers),
+user-friendly, advertising, informative and
+should provide up-to-date information. An
+important barometer o i BBS success is the '
+number of calls it generates. An attempt is
+being made to design a model BBS namely
+Indian Bulletin Board System for Librarians
+(IBBSYL). Various features of the proposed
+system are explained in the following
+sections. IBBSL can be designed and
+implemented by any national agency like
+INSDOC or DESIDOC. General topics to
+be covered in the BBS can include advice
+columns, articles on subjects of interest,
+b o o k reviews, electronic mail and
+conferencing, inter-library loan, job listings,
+library information (such as programs,
+addresses, board members, etc.), local BBS
+members list, mailing lists and new books,
+online newsletters and surveys, information
+and
+advice
+on
+computers/
+telecommunications,
+news,
+wordprocessing, information exchange,
+advertisements, conferencing, sponsors and
+grants, bulletins (display of text files), public
+message areas (online conferences), file
+transfer (upload and downloading), etc.
+
+5.1
+
+I
+
+Basic Features
+
+IBBSYL
+w o u l d provide online
+information services to the ERNET users
+(particularly librarians i n India). The
+proposed BBS would have the following
+sections in the main menu:
+ABCD
+
+All about IBBSYL
+Reference Services
+Current Contents
+Directories
+E Electronic Journals
+F - New Titles in LIS
+G Mailing Lists
+H - LIS Research in India
+
+-
+
+-
+
+DESIDOC Bulletln of lnfor Technol,1995.15(4)
+
+I
+
+IJ
+KL-
+
+-
+
+Services of DESIDOC/lNSDOC
+TIC'S News
+Library Systems and Software
+Special Interest Groups
+
+5.1.1 All About IBBSYL
+This menu would
+cover
+all
+the
+background information about the IBBSYL
+project, LIS-link, system management, how
+to
+contribute your articles, contacting
+people, discussion on IBBSYL (such as
+improvwents,
+additions,
+deletions,
+suggestions etc.),
+editors of various
+sections of IBBSYL and library services. This
+will be an introductory and informative
+section for the users of BBS. The sub-menu
+would be as given below:
+IBBSYL Basics
+LIS-Link
+IBBSYL-Management
+Contribution to IBBSYL
+IBBSYL Contents
+Discussion on IBBSYL
+Section Editors
+Library Services
+
+5.1.2 Reference Services
+This menu would mainly cover the
+various rNrence sources available on
+ERNET and Internet. It will be particularly
+useful to Library & Information Science
+professionals for providing quick and better
+services to their users.
+B1 B2 83 B4 B5 B6 B7 -
+
+Guide for Libraries on ERNET
+How to Use the ERNET-PSS
+Gateway
+Short Guide to ERNET
+Guide to Internet Resources
+Library Res~urceson the Internet
+Union Catalogue of Indian
+Periodicals
+Union Catalogue of Periodicals in
+the DRDO Libraries.
+
+Each menu would have sub-menus to
+facilitate the user to get more information
+DESlDQCBulletln of lnfor Technol, 1995.15(4)
+
+on each option. For example, B3 sub-menu
+can have the following sub-menus :
+83 B3A B3B B3B1 B3B2 B3B3 B3C B3C1 B3C11 B3C12 B3C2 B3C3 B3D B3D1 B3D2 B3D3 B3E B3E1 B3E2B3F B3F1 B3F2 B3G B3G1 B3G2 B3H B318311 8312 B3JB3KB3L B3M -
+
+5.2
+
+A Short Guide To Ernet
+What is ERNET
+Access to ERNET
+Pre-requisites to Access
+Addressing Conventions
+Login and Logout
+Electronic Mail
+User lnterface for E-mail
+Mail
+Elm
+X.400 Message Handling System
+Mailing lists
+File Transfer
+Using FTP
+Anonymous FTP
+FTP by Mail Servers
+Remote Login
+Telnet
+RLogin
+Netnews Bulletin Board
+Reading News
+Posting an Article
+X.500 Based Directory Service
+User lnterface DE
+List of Countries Reachable
+Archive
+Databases
+National Databases
+International Databases
+Documents
+Gopher
+WAlS
+Freenets.
+
+Value-Aided Services
+
+5.2.1 Current Contents
+This menu would provide information
+from the contents page(s) of latest journals.
+Simply by selecting a menu option, the
+contents of that particular journal will be
+displayed. For example by typing 'CLl',
+and pressing 'Enter' key, the system will
+display Library High Tech journal's latest
+
+issue contents page. This service can be
+further extended by giving an abstract of
+that article also.
+
+5.2.7 DESIDOC/INSDOC Services
+
+Various directories available on IBBSYL
+would be covered under this menu. These
+include OPACs, information services and
+mail addresses on ERNET, different types of
+library directories, etc. This will help the
+remote library users and would be a
+better method of resources sharing.
+
+It would give information about national
+documentation centres like DESIDOC or
+INSDOC and their services to scientific
+community. The services provided by
+Defence Science Library,
+Reprography
+Division, Printing Division and Database
+Design Division and the service charges
+for the outside users would be listed. Later,
+publications brought out by these agencies
+can also be made available in electronic
+*
+form on this system.
+
+5.2.3 Electronic journa/s/Projects
+
+5.2.8 TICs News
+
+5.2.2
+
+Diredories
+
+This menu will give
+the latest
+information about electronic publishing,
+electronic journals and the research
+projects undertaken by various institutions.
+One can read a few full-text electronic
+journals through this BBS. Even, DESIDOC
+Bulletin of lnformation Technology can also
+be made available in electronic form on
+IBBSYL and all the ERNET users will be able
+to access the same at their offices.
+5.2.4 New Titles in LIS
+This menu would provide information
+about the latest books, monographs,
+reports, etc. published in the field of LIS.
+Abstracts or reviews of these publications
+would also be included on this BBS.
+5.2.5 Mailing Lists
+The standard LIS mailing lists from India,
+UK, USA for LIS conferences, seminars and
+meetings would be available in this section.
+5.2.6 LIS Research in India
+This section would provide information
+on LIS research in library schools, scientific
+institutions and research groups. It would
+also provide information about research
+funding bodies, how to apply for a research
+project and get the research grants.
+30
+
+This section would give the list of
+services provided by the Technical
+lnformation Centres (TICs) of the major
+institutions situated in various parts of the
+country. The meetings organised by various
+libraries/TICs and their outcome may also
+be provided in this section.
+5.2.9 Library Systems & Software
+It will be an advice information section
+for
+the
+librarians
+about the latest
+hardware, software, databases and
+CD-ROMs available in Indian and foreign
+markets.
+5.2.10 Special Interest Groups
+Special interest groups (SIGs) can have
+interaction with each other through
+teleconferencing. The system may have as
+many SlGs as are required. For example,
+the Public-Access Computer System Forum
+(PACS-L) is a computer conference that
+deals with all computer systems that
+libraries make available to their patrons.
+SlGs are formed to discuss on various
+topics of patron's interest
+through
+computer (online) conferencing. Utilising
+the BBS, the users can discuss various
+topics such as CD-ROM databases, expert
+multimedia,
+systems, hypertext progr5ms,
+network-based information
+resources,
+OPACs, etc. Messages sent to PACS-L are
+DESlDOC Bulletin of lnfor Technol, 1995.15(4)
+
+reviewed t$y the conference moderators,
+who distribute it to participants. For
+example, the University
+of
+Houston
+Library brovides PACS-L as a public
+service. , It does not verify the accessory of
+the subpitted message nor, does it endorses
+the opi ions expressed by message author.
+Author of the PACS-L messages are solely
+respodsible
+for the content of their
+rnessdges.
+
+i'
+
+i:
+
+number of bulletin board services are
+ava lable on national/international networks
+th oughout the world facilitating
+in ormation exchange through e-mail,
+c mputer conferencing, etc. to a group of
+p ople working in a particular subject area
+r geographical region. Initially BBSs were
+tarted in the universities/research
+jnstitutions. However, private agencies are
+also operating such services now-a-days.
+BBS software vendors claim that majority of
+their customers (about 80%) are from
+business or government and only about
+20% are hobby or entertainment users.
+While a number of BBS software packages
+are available for UNIX, the vast majority are
+written for MS-DOS to make the service as
+cheapest as possible. Shareware and
+Freeware are available on many larger BBSs
+for downloading,
+
+7. FURTHER READING
+1. Balas, Janet L. Bulletin board systems : A
+nostalgic look back. Computers in
+Libraries, 1993, 13(5), 24-26.
+
+DESIDOC Bulletin of lnfor Technol, 1995,15(4)
+
+2. Dewey, Patrick, R. Essential guide to
+bulletin board systems. Meckler :
+
+Westport, 1987.
+3. Kittle, Paul W. Putting the medical library
+online: Electronic bulletin boards and
+beyond. Online, May 1985, 25.
+4. Mayers, Larry. How to create your own
+computer bulletin board. Blue Righ
+Summit: USA, 1983
+5. Roatech, Mary A. Phoenix public librarySpecial needs centre. Library Hi Tech,
+1983, 11(1), 43-56.
+6. BBSs in India. PC Quest. April 1995.
+114-18.
+7. Esposito, Biu. Online service on the
+cheap. Byte. February 1995, 13 1-34.
+8. Delfino, Erik. The basis on setting up an
+electronic bulletin board system. Online,
+1993, 17(2), 90-92.
+9. Delfino, Erik. Getting an Electronic
+bulletin board system up and running.
+Online, 17(3), 1993, 106-11.
+10. Wood, L and Blankenhdn, D. State of the
+BBS nation: Behold lowly bulletin board,
+now encompassing the globe. Byte,
+January 1990, 298-304.
+11. Wood, Lamont. Business profits from
+bulletin boards. Datamation, 1993,39(9),
+45-48.
+12. Jackson, Greg. Bulletin boards give
+systematic
+support.
+Mechanical
+Engineering. September 1989, 24.
+13. Setting up a BBS. PC Quest. July 1994,
+38-39.
+14. Balas, JanetL. Learning about the Internet
+online. Computers in libraries. 13(9),
+1993, 26-27.
+
+

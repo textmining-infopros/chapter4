@@ -1,0 +1,615 @@
+Library Automation-A Feasibility Study
+AA Vaishnav and NG Bapat*
+Department of Library & Information Science
+Dr Babasaheb Ambedkar Marathwada University, Aurangabad
+*Department of Commerce
+ABSTRACT
+
+This study deals with library automation programme of BAMUL,
+Aurangabad. It identifies the problems in the existing system and
+gives reasons for automation. The study points out the requirement of
+library automation and discusses the technical, social and economic
+aspects of library automation in detail.
+
+1. INTRODUCTION
+Dr Babasaheb Ambedkar Marathwada
+University Library (BAMUL), established in
+1958 at Aurangabad (Maharaslitra), has in
+its collection 2,89,895 books and non-book
+material, and receives 899 periodical titles.
+On an average, the library is open on 245
+days in a year, has 2,979 registered users,
+and circulation of 56,588 documents. The
+library shares its resources with other
+university libraries; provides teachers
+personal library (TPL) facility, reference and
+reprographic services; brings out monthly
+documentation list, list of new additions
+and occasionally arranges exhibitions.
+These services are provided by 68 full
+time staff members of which 27 are
+professionals. However, 22 posts from nonprofessional category are vacant.
+Considering the present work load, BAMUL
+needs 110.4 persons as per the UGC
+formula (2). During 1993-94, annual budget
+DESIDOC Bubtln of Inf TechnoI,lW5,15(2)
+
+for BAMU.L was Rs 65,68,100, of which
+53.28% amount was spent on purchase of
+books and periodicals.
+0
+
+BAMUL is trying to provide the acquired
+information within manageable time to its
+users. However, increase in the intake of
+students has created greater demand for
+library services and performance of each
+operation manually, makes it difficult to
+provide the .acquired information to users
+without loosing their time and tempo.
+Moreover, due to paucity of clerical staff,
+most of the semi-professional and
+professional staff has to perform the routine
+clerical operations which increases the unit
+cost of each operation. Often, long leave of
+professional staff creates backlog in the
+work, and hence, rest of the professionals
+are engaged in clearing the backlog. In this
+situation, it is not possible to maintain
+schedule of the services or to introduce
+new services, which in turn is leading to
+dissatisfaction among the users.
+
+One of the solution to solve these
+problems, is library automation. Library
+automation is the mechanisation of library
+house-keeping operations, predominantly
+by computerisation (1).
+Due to characteristics like speed,
+promptness, huge storage capacity,
+accuracy, versatility, diligence, cost
+effectiveness, ease i n functioning,
+elimination of duplication of work, greater
+possibility of manipulation, etc., the
+computer can be used as a device to help
+the librarian in doing things rapidly, more
+economically and efficiently.
+
+2.
+
+OBJECTIVES
+
+The present study was undertaken with a
+view to :
+Survey the available infrastructure in
+BAMUL.
+Forecast the social aspect of library
+automation.
+Identify the tangible and intangible
+benefits of the system.
+
+2.1. Areas considered for Automation :
+The computerisation of BAMUL would
+cover the following operations :
+(a)Acquisition: I t includes book
+selection, purchase of books including
+ordering and accounting, receipt of books,
+followup for the unsupplied books,
+communication of discrepancies, etc.
+(b) Technical : It includes accessioning,
+preparation of author, title, classified and
+alphabetical subject catalogue, preparation
+of spine labels, sending books for binding,
+stock verification-checking missing books,
+recording of withdrawn books, etc.
+(c) Circulation : It includes charging and
+discharging of books to users, inter-library
+loan, departmental loan, renewals, fine
+calculation, sending reminders, compilation
+12
+
+of statistics by subject, category of users,
+class of students, language of books, type
+of material, etc.
+(d) Information services : It includes
+current awareness service-list of new
+additions, current contents from journals,
+SDI, location service-local documentation
+list, retrospective search, etc.
+
+3. REQUIREMENTS
+In all, about 30 data files need to be
+created for various operations covered
+under study to get the required outputs and
+perform desired functions.
+
+3.1. Hardware Requirements
+Computerised BAMUL would require
+multi-user
+system
+with
+80386
+microprocessor, 8 MB core memory
+(RAM), one 1.2 MB floppy drive, one tape
+drive, one CD drive, six terminals, one 300
+MB hard disk, line and dot matrix printers.
+
+3.2. Software requirements
+The software required for the system
+would be :
+Operating system: UNlX version 3.2
+W Editors: vi (visual instructors)
+
+Compilers: BASIC and C.
+
+4. FEASlB l LlTY S T U D Y
+Considering the requirements, a full
+scale feasibility study was undertaken for
+testing the possibility of computerisation of
+BAMUL. The feasibility study was carried
+out under the following three areas :
+(a) Technical Feasibility,
+(b) Social Feasibility,
+(c) Economic Feasibility.
+
+4.1. Technical Feasibility
+The Department o f Commerce,
+Marathwada University, Aurangabad has a
+DESlDOC Bulletinof Inf Techno1,1395,15(2)
+
+computer centre. The hardware available in
+the department is Zeus-386, a multi-user
+system with 8 MB RAM. The system has
+one floppy drive of 360 Kl1.2 MB, two hard
+disks of 156 MB each and one hard disk of
+300 MB. At a time 32 dumb terminals of
+VT100 type can be attached to the system.
+One tape drive is attached to the system.
+
+operators, etc. It will also relieve the
+existing, professional staff from their routine
+clerical activities, so as to enable them to
+perform intellectual professional duties
+which will need reorganisation of staff. The
+reorganisation of professional staff will lead
+to job improvement as well as job
+satisfaction.
+
+Two types of heavy duty printers-one
+line printer with 600 lines per minute and
+one dot-matrix printer with 200 characters
+per second speed are attached to the
+system.
+
+As computerisation will generate the
+possibility of additional information
+services, such as current awareness service,
+selective dissemination of information,
+bibliographic services, retrospective
+information services etc., the existing one
+professional will not be sufficient to provide
+these services. In future, the system would
+need system analyst, programmers and data
+entry operators.
+
+The system has standard software like vi
+(visual instructors) and ed (editors),
+compilers of BASIC, FORTRAN, COBOL
+and C language, and UNlX operating
+system v 3.2.
+
+For software, it was thought to develop
+an in-house package and BAMUL had a
+person with basic education in library and
+information science coupled with
+specialisation in computer programmilng
+and also familiar with library operations so
+that there can be a complete understanding
+of the requirements.
+
+Though there will not be any change in
+the qualifications of the existing staff,
+except for additional training but in future
+appointments, the qualifications for the
+different professional posts have to be
+changed and specialisation in computer
+programming will be a necessary
+qualification alopg with basic professional
+postgraduate degree. It will lead to higher
+pay scales especially for the posts of system
+analyst, programmers, etc. than that of the
+assistant librarian and senior library assistant
+respectively.
+
+This shows, that technically it is feasible
+to get the required hardware, software and
+a person having complete understanding of
+the requirements to develop the software
+package
+
+The existing organisational structure will
+remain unchanged, except for the addition
+of one more subsystem, i.e., computer
+system, for which the librarian will be
+accountable.
+
+4.2 Social Feasibility
+
+~ i ~ h pay
+e r scales and an aptitude to
+perform technical and intellectual jobs will
+definitely lead to job improvement.
+
+It was possible for the Commerce
+Department to provide terminals in the
+library, attached to the CPU of commerce
+department.
+
+.
+
+Generally computerisation brings fear of
+unemployment amongst the existing staff.
+The automation of BAMUL will not create
+unemployment problems but will create
+new job positions, like system manager,
+system analyst, programmers and
+programme maintenance staff, data entry
+DESIDOC Bubtln of Inf Technol,lW5.15(2)
+
+Social cost of the proposed system will
+consists of the cost of education and
+training, consultation and communication.
+For computerisation, each of the existing
+staff was consulted for their requirements
+
+and problems they have in the existing
+system. At the time of implementation, each
+employee w i l l be consulted and
+accordingly, in-house education and
+training programmes will be arranged for
+the existing staff member of the library for
+8-10 days duration. However, staff members
+who are about to retire within 1-2 years,
+may be reluctant to undergo training in use
+of computer due to ignorance, fear and
+hostility, such persons can be utilised for
+manual professional activities, as an
+alternative to avoid redundancy payment.
+
+4.3. Economic Feasibility
+The economic feasibility study was
+carried out under following areas :
+Cost of operations of existing systems
+Cost of operations
+system
+
+of the proposed
+
+Cost of development of the proposed
+systems
+Benefits of the proposed system.
+Cost o f operations o f the existing system :
+Financial records, like annual budget,
+payrolls, etc. were scrutinised and the
+librarian and each section incharge in
+BAMUL was interviewed to determine the
+manpower cost, material cost, operating
+cost, equipment cost, overhead cost, etc.
+for calculation of unit cost of each
+operations in BAMUL.
+The total operational expenditure of the
+library on manpower, material overhead,
+etc. in 1991-92 was Rs 34,86,963 Table 1.
+Cost o f operation o f the proposed
+system: The computerised BAMUL system
+requires manpower, materials, equipment,
+overhead cost, etc. Also, it requires data
+preparation and conversion cost,
+maintenance cost, site preparation cost, etc.
+Of the different cost requirements for
+the proposed system, Department of
+14
+
+Commerce, BAMUL has invested capital
+expenditure while BAMUL has to bear
+some capital and incremental cost as per its
+requirements.
+Table 2 shows items of expenditure and
+estimated cost of those items which give
+the investment, implementation a;ld
+overhead cost of the proposed system.
+As BAMUL can share the hardware
+facilities with Commerce Department, it has
+to bear the cost of monitors and key boards
+for terminals. The library requires 10
+terminals i n different areas like
+acquisition-2, maintenance-1, circulation-2,
+reference section for data entry
+operations-3, for users-2. UGC has already
+given a grant for purchase of one PC/AT
+which can be used as terminal. The tape
+drive available in Department of Commerce
+can be shared by the library. The library
+already has one dot Matrix printer, which
+can be attached to the computer in
+Commerce Department.
+The computer based system will require
+data entry operators. Till they are
+appointed, the operations can be
+per'formed by the existing junior library
+assistants and typists after giving required
+training for data conversion.
+For maintenance of hardware and
+software, the Commerce Department has
+signed a maintenance contract for
+Rs 70,000 of which 10% maintenance
+expenditure can be shared by the library
+which comes to Rs 7,000 per year.
+The computer running cost can be
+calculated from camputer time used, power
+utilised, stationary utilised, etc. It is
+estimated to Rs T 7 per computer hour.
+For site Preparation, the library need not
+have to spend any thing additional on air
+conditioning, power, insurance, etc.
+DESIDOCBulletin of Inf Technol,1995,15(2)
+
+Table 1. Cost of operations of the existing
+system for the year 1991-92.
+
+By using existing staff after training,
+sharing with commerce department and
+using available hardware there can be
+reduction of Rs 2,00,000 in capital cost to
+be invested by the library. With the
+proposed system, BAMUL has to bear
+capital cost of Rs 11,00,000 which is one
+time investment and Rs 31,35,000/- as
+incremental cost per year.
+
+S.No.
+
+Benefits of the Proposed system: Library
+being a non-profit organisation, it is difficult
+to measure, tangible benefits of the
+proposed system. However, considering the
+cost of operations of the existing system in
+1991-92 is Rs 34,86,963 as shown in
+Table 1. The expenditure incurred by the
+library in 1993-94 on items other than
+books and periodicals was Rs 30,68,100.
+The cost of operations of the proposed
+system consists of capital cost of
+Rs 11,00,000 and incremental cost of
+Rs 31,35,000. i t can be said that since the
+capital cost of Rs 11,Q0,000 will be one
+time investment, the operations cost of
+proposed system will. be less than that of
+existing system which shows net cost
+reduction by Rs 3,51,963. This includes cost
+of manpower, material, equipment and
+overheads.
+At the same time, financial resources can
+be generated by the library for providing
+DESIDOC Bulletinof Inf Technol,1995.1S(2)
+
+Cost
+
+1.
+
+Manpower (Salary)
+
+Rs. 26,89,200
+
+2.
+
+Materin.15
+
+Rs. 3,27,500
+
+3.
+
+Equipment cost
+
+Rs. 4,62,313
+
+4.
+
+Overhead cost
+
+Rs.
+7,950
+Rs. 34.86.963
+
+Total
+
+Cost of development of the proposed
+system: Considering the stages of
+development of a system, attempts were
+made to calculate development cost of the
+proposed system.
+The system development cost is once
+only cost. It required 3360 man-hours i.e.
+480 working days (1 year 4 months) for
+system development. Hence the system
+development cost required was Rs 1,37,000
+as salary and Rs 5,000 for stationary. The
+total system development cost was
+Rs 1,42,000.
+
+Item
+
+selective dissemination of information (SDI)
+and bibliographic services, so as to make
+the system cost beneficial.
+Apart from these, the following can be
+the intangible benefits of the proposed
+system :
+IFaster response time and accuracy in
+providing information can improve the
+quality of library services
+?
+
+Availability of statistical information from
+the system which can lead to effective
+decision making and elimination of
+wastage
+
+@ Saving of future expenditure in collection
+development because of possibility of
+sharing resources with other libraries by
+linking through INFLIBNm
+Provision of new information services like
+current awareness service, selective
+dissemination
+of
+information,
+retrospective search, etc.
+The library has to spend Rs 11,00,000 as
+capital cost, which is one time investment.
+It is cost effective to the extent of services
+provided by the proposed system.
+The c'ustomers will accept the system, as
+it will provide them required information
+without loosing their time and tempo. The
+employees can happily accept it as their
+friend to supplement their job and improve
+their status.
+
+.
+
+Table 2. Estimated capital and Incremental cost o f operations of the proposed system
+
+S. N o
+
+Items
+
+Capital cost invested by
+Dept. of Commerce
+
+Capital cost to be Incremental cost to be
+invested by BAMUL
+invested by BAMUL
+
+(A) INVESTMENT COST
+
+1.
+
+Hardware
+
+Rs. 10,00,000
+
+Rs. 7,00,000
+
+2.
+
+Software
+
+(Cost of hardware
+includes the cost of
+software also)
+
+Rs.
+
+50,000
+
+Rs.
+
+25,000
+
+Rs.
+
+25,000
+
+(B) IMPLEMENTATION COST
+3.
+Room Preparation
+-Cost
+4.
+Consumables
+-5. Data Conversion Cost - (C) OVERHEAD COST
+6. Maintenance of site
+--
+
+--
+
+Maintenance (H/W &
+S/w)
+Man-power (Salary)
+
+--
+
+--
+
+--
+
+--
+
+Total
+
+Rs. 10,00,000
+
+Rs. 11,00,000
+
+7.
+8.
+
+-.-
+
+Rs. 25,000
+(per year)
+
+Rs. 3,00,000
+Rs. 10,000
+Rs. 1,00,000
+Rs. 30,00,000
+(per year)
+Rs. 3 1,35.000
+
+5. CONCLUSION
+
+shows that library automation in BAMUL is
+feasible socially.
+
+Library automation is the need of the
+day. However, one has to think of the
+investment, its technical and social aspects.
+
+The operational cost of the proposed
+system is less than that of existing system
+which includes manpower, material
+equipment and overhead cost. At the same
+time, the system will be able to generate
+financial resources to make the system cost
+beneficial along with many intangible
+benefits, hence economicallt library
+automaton is feasible.
+
+Technically it is feasible to get the
+required hardware, software and person
+having complete understanding of the
+requirements to develop software package.
+Automation will create new job
+opportunities h t h higher scales and relieve
+the existing professional staff from their
+routine clerical activities to enable them to
+perform intellectual professional duties. The
+reorganisation of professional staff will lead
+to job satisfaction. The social cost of
+proposed system will be only the training
+cost of library personnel for 8-10 days. It
+
+16
+
+4. REFERENCES
+1. Ravichandra Rao, I. K. Library automation.
+Wiley Eastern, New Delhi. 1990.
+
+2. University Grants Commission Library
+Committee. University and college
+libraries : Report. (Chairman Dr S.R.
+Ranganathan). UGC, New Delhi. 1965.
+
+DESIDOC Bdletk, of lnf Technd,1995.1#2)
+
+

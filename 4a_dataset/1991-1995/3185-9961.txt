@@ -1,0 +1,459 @@
+﻿  
+  
+   
+
+ elem of Information Technology, Vol 15, No 3, May 1995, pp 1117
+‘l .
+
+Retrospective Conversion Software
+for LC, OCLC, BNB and
+Bookﬁnd CD-ROM Databases
+
+ARD Prasad
+
+Documentation Research and Training Centre
+Indian Statistical Institute, Bangalore-560 059
+
+ABSTRACT
+
+The paper emphasizes the importance of retrospective conversion of
+bibliographic data from CD-ROM databases, in building local
+database of library collection. It describes a software Ida, developed
+for this purpose at Documentation Research and Training Centre and
+funded by National Information System for Science and Technology .
+
+   
+ 
+   
+   
+  
+  
+  
+  
+   
+
+ of the major bottlenecks in library
+Iron is the data entry for creating
+Although a library professiOnal
+"r any software package in a few
+data entry may take years
+113 on the size of the library. Small
+libraries have greater advantage
+' and established libraries because
+quantity of data involved.
+
+5 entry in the case of bibliographical
+a involves ﬁlling of data in work
+it passing them on to data entry
+_ for inputting. Once the data is
+-g: y 'it has to be error checked.
+
+_.‘+=;'typical (IDS/ISIS software environ-
+
+in CDS/ISIS. Steps (iii) and (v) may get
+repeated again and again into a loop
+depending on how meticulously the job has
+been done.
+
+This is an offshoot of the problem of
+verbosity of the bibliographic data. Unlike
+the numeric and general databases,
+bibliographic databases are characterised
+by large amount of textual data. That is why
+software like CDS/ISIS are developed as
+ﬁne-tuned database management systems
+to take care of the following problems :
+
+(a) Variable number of ﬁelds in a record,
+
+(b) Variable length of each ﬁeld,
+
+(c) Variable length of records, and
+
+(d) Use of tag codes (like that of CCF,
+
+   
+  
+   
+
+.. entry involves : (i) ﬁlling the
+, (ii) entering data in CDS/ISIS,
+ng printout in proofmode, (iv)
+ mistakes, and (v) editing the data
+
+UNIMARC, etc.) instead of ﬁeld names.
+
+In an ideal situation, once the data is
+available in computer-readable form, one
+
+ 
+
+«53;? oflnfTecMoIJWt'). 15(3)
+
+  
+
+should be able to use it in his/her library in
+the required form. However, there are many
+problems in converting data from one form
+into another. Some of the problems can be
+avoided by bringing standards like ISO
+2709, CCF, UNIMARC, etc. But, the
+existance of many standards defeats the
+very purpose of a standard. Although there
+is no contender to ISO 2709 standard with
+regard to record structure, there are many
+MARC standards. This situation forces many
+compromises on the part of the
+programmer in converting one form of data
+into another form.
+
+The software Ida can convert the tags
+and format of the records downloaded from
+LC, OCLC, BNB and Bookﬁnd CD—ROM
+databases into a format acceptable to the
+user’s local database in CDS/ISIS. Those
+who own any of these databases can
+download the required information and by
+using relevant option in Ida, they can
+convert this data into the local format. Ida is
+basically meant for CDS/ISIS users. It may
+be noted that CBS/ISIS follows ISO 2709
+format with minor modiﬁcations.
+
+No attempt has been made here to
+describe how to download data from a
+speciﬁc database. The manuals that come
+along with the CD—ROM database describe
+this procedure. The following steps may
+give a broad outline of the work involved.
+
+(i) Make a list of the International Standard
+Book Numbers 058st of the books in your
+library.
+
+(ii) Enter these numbers in a computer ﬁle
+and do thorough checking to remove any
+error.
+
+(iii) Use the interface software that comes
+along with the CD-ROM to search for
+bibliographic data against each ISBN of your
+file and download the relevant data into a file.
+
+However, all the books in your library
+might not have been included in the the
+
+’ 2. IMPORT FEATURES OF IDA
+
+I3
+
+    
+ 
+ 
+  
+   
+  
+ 
+  
+ 
+  
+  
+   
+  
+  
+ 
+  
+        
+   
+ 
+ 
+ 
+
+database used by you and all the nu"
+might not have ISBNs. Some databases -,:
+aHow you to search by author and title 5:
+downloading informatiOn. For some - - a}?
+you may be required to enter (I
+manually. In such a case, joining a ne ff?
+like DELNEl', CALIBNET, or INFLIBNET <9
+be useful. ‘ Your professional collea'
+might have done your job to a signiﬁ-_ 1
+level. .
+
+Ida is a retrospective conversii
+software for changing the tags and fo 
+of LC, OCLC, BNB and Bookﬁnd coaf
+databases into that of COS/ISIS format.  
+converted tags need not have to con :11
+with those of CCF or UNIMARC; they 
+be local tags in your database. ‘
+
+Ida is highly user-friendly and has lit;
+following features :
+
+I MS—Windows look alike interface
+I Optional mouse interface
+
+I Editor for creating TAG Files
+
+I Online manual
+
+I Context sensitive and online help. i 1
+help options are provided with 333
+facility
+
+3. HOW TO USE IDA
+
+3.1 Ida.exe
+
+I
+This is the main program file. To users:
+type DA and press ’Enter' Key at,
+system prompt in a directory you wishr
+work. Ida responds with a MS-Wintl
+look-alike desktop. Ida works much Li“
+MS-Windows; the major difference 
+
+Ida is an Application Program In * .-
+(API) that runs in text mode w 
+MS-Windows is a Graphical User Inter
+(GUI). ‘
+
+  
+ 
+ 
+
+ 
+
+14
+
+ 
+
+  
+   
+  
+  
+ 
+  
+ 
+  
+ 
+   
+  
+ 
+  
+  
+ 
+   
+  
+  
+   
+
+ allows the use of mouse. You only
+click the left button to choose a
+the menu. If you do not have a
+you can either press ALT key and
+of the highlighted letter of the menu
+it wish to choose, or press F10 and
+i the cursor key on to the desired
+'tem and press ’Enter' key. If you still
+0’ clues on how to go about, press F1
+get context sensitive online help,
+1 tells you what to do.
+
+' ' ~Ida.cfg
+
+  extension indicates that this is a
+ration ﬁle. You can change the
+ration of IDA, like display attributes
+screen depending on whether you
+monochrome or colour monitor. To
+the screen attributes, select Conﬁg
+3 main menu and you can save your
+' ration by choosing the respective
+in the Conﬁg menu. The ﬁrst screen
+is given in Fig. I.
+
+DESIDOC Bulletin of inf Technol,l995. 
+
+ 
+
+ 
+
+ 
+
+Figure 1. Opening screen of Ida software.
+
+3.3 Ida.hlp
+
+The hlp extension indicates that this ﬁle
+contains help messages. Help is provided in
+many ways. One approach is by selecting
+Help in the main menu. Another is by
+pressing F1 function key, which provides
+context-sensitive help messages.
+Sometimes, dialog box may contain a
+’Help’ button.
+
+3.4 Input Files
+
+The program diskette for Ida contains
+four sample input files which contain
+downloaded records from LC, OCLC, BNB
+and BOOKFIND with the following names.
+
+LC.IN
+
+OCLCJN
+BNB.lN
+BOOKFINDJN
+
+The extension 'IN‘ is chosen to make the
+file name suggestive of its content.
+However, any other name can be given for
+
+ 
+
+ 
+
+ “Billetin oﬂnf Technoi.1995. 15(3)
+
+15
+
+   
+    
+ 
+   
+  
+
+means that subﬁeld IOO‘a in the 
+(ID-ROM database is to be conveq,
+300‘a of your local database. .
+
+Table 1 shows the sample
+BOOKCCRTAG which contains so ;--
+
+the ﬁle and it can reside in any drive or
+directory.
+
+To supply the input ﬁle to Ida, select
+’lnput’ Option from the main menu...This
+can be done by clicking the mouse button
+on the menu item or pressing‘ALT-l or by
+pressing F10 function key and using arrow
+keys. Then the menu item ’Enter Input File
+Name' will be displayed. If you press 'Enter’
+key or click mouse button, a dialog box will
+appear. You can enter the input file name
+or choose to go to the list of ﬁles in the list
+box by pressing the ’Tab’ key. You can use
+the arrow keys to move over file names and
+then press 'Enter’ to select the required ﬁle.
+If the input file does not exist, you will get
+an error message, which allows you to
+
+respective CCF tags.
+3.7 Useful Suggestions
+
+0 Always use the speciﬁc subfield. A,
+using only the tag number wi II-
+subﬁeld. ‘
+
+Table 1. Sample tag file
+
+ 
+
+ 
+
+ 
+
+reenter correctly. 00‘ 100 
+' 008*l Wa ‘
+3.5 Output File Dara 61%
+Choose the item 'Output’ in the main 033% 222“!
+menu and proceed in a manner similar to 1W3 300’“
+that of Input file. 100"h 300%
+. 245‘“?! 200‘?
+3.6 Tag File 245% 200%
+Selecting the required ’Tag File’ is similar 250"a 260%
+to that of selecting input and output ﬁles. 260"b 400%
+However, if you wish to create/modify a 260“: 440% '
+Tag File, you can either use your favourite 260%! 333% ‘
+editor or select the item ’Editor’ in the main 300% 450A;
+manu- 30m: 45m: '
+The tag ﬁles should be created in a. 35053 455'“
+deﬁnite format. It should be an ASCII ﬁle 440*“ 43‘”
+containing tags of the scurce database and 512% 600%!
+corresponding tags for the target database. 700"a 300%
+For example, the ﬁle LCCCF.TAG -is an 700’th 300% "
+ASCII ﬁle containing two columns. The ﬁrst 700‘y 300*? ‘
+column contains the tags that are used by 710% 31mg
+LC CD-ROM database, and the second 505a,. gonna ‘
+column contains the corresponding CCF 513xa asw‘
+tags against each of the LC Tags. 6995.3 . 
+521“a 901*;
+For example, 040"a 905“: ‘
+100‘3 300"a
+is DESIDOCBMethofIntTecMotI.
+
+ 
+
+3'". ‘ " symbol as subﬁeld indicator, even if
+D-ROM database uses ’5'.
+
+sample tag ﬁles supplied with the
+are are meant for demonstration
+You have to decide which tag of
+- database is to be converted to
+tag of target database.
+
+   
+    
+   
+   
+   
+   
+   
+   
+  
+
+' t-tory of Ida
+
+'divine cow is supposed to grant
+'h‘ g that is asked for. In Sanskrit
+re, Ida is referred to as the divine
+iwhich discovered hymns (mantras)
+ 'ing to Gods. In this Sense Ida is the
+er of all divine hymns—reciting
+nything can be achieved.
+
+DEVAHUH MANURYACNANEEHI"
+(a hymn for peace)
+
+4. ACKNOWLEDGEMENTS
+
+I thank Dr A Lahiri, Joint Advisor, NISSAT
+for the ﬁnancial assistance for this project. I
+also thank Ms Sridevi Ravindran, Shri
+Sunder Singh and Ms Kamini for their
+suggestions on the ﬁrst version of Ida.
+
+I thank Prof MA Gopinath and Prof 1K
+Ravichandra Rao for their encouragement
+and support in carrying out this project.
+
+I thank my friend Prof NSS Narayana,
+Economic Analysis Unit, ISI, for suggesting
+the name to this package. I thank my wife
+Aruna, GTRE for supplying the shareware
+API. Lastly, I thank Al Stevens for his DFLAT
+shareware files.
+
+ 
+
+-  Btlefin oflnfTechnolJWS, 15(3)
+
+  
+
+i7
+
