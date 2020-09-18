@@ -1,0 +1,738 @@
+ADOPTION OF CD-ROM IN LIBRARIES
+
+C.K. Ramaiah
+DESIDOC, Metcalfe House, Delhi 110 054,
+
+-
+
+Describes briefly CD-ROM
+its characteristics, advantages, limitations and mechanisms for recording and reading information. The
+basic configuration of a CD-ROM system and some guidelines for its
+installation are given. The major attempts made to effect standardization
+in installation and operation of CD-ROMs are reviewed. Applications
+of CD-ROM in libraries and information setvices in compact disc
+format are enumerated. Gives a brief account of his experience with
+CD-ROM at DESIDOC. 7Re future trends like networking and use of
+erasable optical discs and the influence of these developments on
+Indian libraries are discussed.
+
+1. INTRODUCTION
+
+Due to the complexities and high cost
+of online information searching, readers find
+it easier to use CD-ROM. Its u w offers
+unlimited access to databases at a fixed
+cost, interactive searching in comparison to
+hard copy or microfiche. In addition, it provides thb potential to browse, though it is
+a single-user system. CD-ROM may not
+replace online services or hard copies completely, but it does offer an alternative option
+to searchers.
+
+CD-ROM is the acronym for 'compact
+disc read only memory' and is one of the
+types of optical discs. It uses digital audio
+compact disc (CD) system for storage and
+retrieval of information. This mediurif is not
+a replacement for any existing medium like
+print, microforms or magnetic online; rather
+it supplements all these media. Presently, it
+is a useful medium available at a low cost.
+Moreover, it has reliability, permanence, durability, high capacity and scope for mass data
+distribution. It is free from the risk of demagnetization and other causes of data loss due
+
+-
+
+to mishandling of the magnetic media. At
+the same time, it does not require any
+back-up files for storing as in the case of
+online media.
+2. CHARACTERISTICS
+
+A CD-ROM disc (12 cm. dia ) can store
+600 MB of data, which is equal to
+
+2,75,000 pages of text or
+1,500 floppies (5.75" DD-DS diScs) or
+9,000 pages of graphics and 8 bit stereo
+audio or
+18,000 pages of computer graphics or
+4,500 hours of digitized voice (16 KB) or
+10 copies of commonly used 20 volume
+encyclopaedia.
+The CD-ROM has established itself as
+an efficient, fast and cheap medium. Its
+replication can be done just for $2.75 a disc
+within a 60-day turn around. The projected
+life of 10 years for CD-ROMs at the initial
+stages has been enhanced to 3b years for
+write once read many (WORM) type discs,
+which now stands at 100 years according
+to Sony Corporation. These discs are small,
+light and robust and inexpensive to distribute
+by mail or other means. Even though retrieval
+of information through CD-ROM is a bit
+slower as compared to optical discs, information can be accessed randomly. Since it is
+very much a user-friendly system, no training
+is needed for its operation. It has the following
+advantages:
+
+*
+
+high storage capacity,
+low production cost,
+high archival life,
+easy portability,
+speedy retrieval,
+ease of use, and
+safety of data.
+
+This technology is now at an early postexperimental stage. It requires minimum understanding to start the computer and then use
+the CD-ROM disc. CD-ROM access time is
+
+lower than in the magnetic disc or semiconductor memory, because of its constant linear
+velocity (CLV) format. Therefore, database
+retrieval software has to be modified to overcome this limitation. One cannot write, store
+or alter the data after mastering (the process
+of making an original plate which is sub
+sequently used for making multiple copies)
+the disc because of its read only memory.
+So, it is an alternative to the present-day
+magnetic floppy discs, but it cannot replace
+them totally. In this context, it is easier to
+pick up a book or journal and read, as and
+when desired than using a CD-ROM disc.
+
+4. RECORDING/RETRIEVING OF
+
+INFORMATION
+Information is stored digitally in the form
+of 'pits' and 'lands' of variable lengths on the
+concentric/spiral tracks of reflective layer of
+CD-ROM disc. Basically, there are two methods
+of recording data on these discs:
+
+i) Constant Angular Velocity (CAW Method :
+This method is similar to ordinary phonograph
+recording, where data is stored on concentric
+circles and the data packing density decreases
+from circles near the centre to those towards
+the periphery. Here, its disc drive rotates at
+a fixed speed and picture frames can be
+recorded for each revolution.
+ii) Constant Linear Vdocity (CLV) M e t M In
+this method data is stored on the spiral track,
+and the packing density of data from the
+outer circle to the innermost circle is unifonh.
+The speed of rotation of the drive is controlled,
+so that the speed of the outer circle is slower
+than the inner circles. By this method data
+can be accessed by block address.
+For fast random access of data, the disc
+is spun at CAV, so that all tracks per revolution
+have the same division in sectors, each having
+the potential to store the same amount of
+information. Hence, the inner track has higher
+density. h e latest method is to bum holes
+in a high absorbing layer 9n the rear side of
+a transparent substrate by focusing a low
+powered laser beam e.g. Al-Ga-As. In the
+
+e
+
+beginning a good coding system is chosen
+for writing data on the disc, so as to avoid
+cross-talk of powerful recording spot in the
+check signal. The check laser is given a
+different wavelength from that of the recording
+laser.
+Datdnformation is retrieved by translating
+the position of 'pits' and 'lands' into a timedependent signal. Reading is done here by a
+non-contact method which is free. of wear.
+The information can be protected against dust
+and damage by simple coating with a transparent lacquer layer. Moreover, non-contact
+allows the fast random access, which is of
+great importance in data storage and retrieval.
+5. SYSTEM CONFIGURATION
+
+The hardware components in this system
+are: i) IBM PC XT/AT or IBM compatible,
+Macintosh or *pie II type of microcomputer
+with 512 KB RAM which includes (i) computer,
+monitor, magnetic disc drive , (ii) CD-disc drive,
+(iii) interface card, (iv) cables, and (v) printer.
+The CD drive is used to read the disc which
+is available either as a stand-alone unit or an
+integral part of a PC. Some of the CD-ROMs
+available are Philips CM 100, CM 110, CM
+121, CM 131, CM 132, CM 201, CM 210,
+Hitachi's CDR-1502s, CDR- 1503s, CDR-2501),
+Sony's CDU 100, CDU 200, CDU 5002, Reference\ Technology 500 Data drive, and
+Tboshiba's XM-2000A.
+Connecting CD-ROM drive with a PC is
+not as simple as plugging a VCP into a TV
+set. It requires an interfacing card for interfacing the CD drive with IBM PC. The standard and commonly used interface is the
+IBM-based small computer system interface
+(SCSI), which is available in most of the
+latest PCs. The other interfaces available
+include a high speed serial interface RS233C, RS-432, IEEE 488 parallel interface,
+etc. Philips CM 153, CM 154, CM 155,
+Hitachi's IF 13, IF 14, IF 14A, and Sony's
+CD 6-200, 6-231 are some of the models
+available.
+CD-ROM software is linked to the operating system of the microcomputer because
+
+* MONITOR
+
+CD-ROM
+
+RETRIEVAL
+SOFTWARE
+
+the information is not only transferred from
+the disc to the computer, but also written
+on that computer's hard disc/floppy drive.
+6. INSTALLATION OF THE SYSTEM
+
+All the vendors, irrespective of the make
+of their system, provide adequate instructions
+for installation. But sometimes the supplier
+may forget or be reluctant to supply the
+related manuals along with the drive and
+interface. This causes delay in installation of
+the system. Once we receive the hardware,
+i.e., drive, interface card, related cables, system installation software and the manuals,
+hardly two hours are needed for installing
+the system. The main steps in the installation
+of the system are:
+setting of jumpers, depending upon the
+type of computer attached, as given in
+system specification manual,
+fitting the interface card in the host computer,
+connecting the host computer to the disk
+drive with the interface cable, supplied
+along with the disk drive, and another
+power cable of the drive for running the
+disk drive,
+setting of DIP switches if they are not
+pre-set,
+installing the system software In the host
+computer from the diskettes supplied along
+with the hardware, and
+
+loading the database software for reading
+and retrieving the information from compact disc.
+Anyone with basic knowledge about the
+computer can use the system easily. One
+can search the database easily with the help
+of the manual.
+7. OPERATIONAL CONDITIONS
+
+The recommended operational conditions
+for these systems are : temperature 5-35
+degree C , 20-80 per cent humidity and
+220-240 V power supply for Indian conditions
+(European model). Normally, the drive should
+not be moved during operation, because
+error is likely to occur in the reading operation.
+It is always advisable to avoid sudden
+changes in temperature where the system
+is installed.
+8. STANDARDIZATION
+
+Philips and Sony have prescribed CD-ROM
+standards and have prepared red, yellow
+and green books. The yellow book covers
+the physical recording standards for CD-ROM
+and its error detection code (EDC) and error
+correction coding (ECC) to meet the demands
+of data storage and retrieval, whereas the
+red book covers CD-digital audio recording
+standards, and the green book covers CDI formats. There is overlap between yellow
+and green books. The other prominent groups
+working on the formulation of these standards
+are High Sierra Group, Optical Disc Forum,
+UK, National Institute of Standards Organisation (NISO), USA and Information Industry
+Association (IIA), USA.
+9. CD-ROM AT DESIDOC
+
+DESIDOC has acquired a Philips CM
+110/30 system and installed it at a cost of
+$1390. Whitakers Books in Print 1988
+database and Grolier Academic Encyclopaedia 1989 are used in day-to-day operations in the library. NTlS and LISA databases
+1989 too have been acquired; these
+
+databases are updated quarterly and
+semi-annually. DESIDOC proposes to acquire
+the databases like Applied Science and
+Technology Index, Reader's Guide to Periodical Literature, and McGraw-Hill Encyclopaedia for the year 1989. The databases
+acquired are used for ready referencelliterature searches by the scientific community.
+The library has selected mainly those
+databases on CD-ROM which can be retained
+permanently and a few of the important
+databases which are to be subscribed annually. Most of the database publishers insist
+on return of the old discs after the updated
+disc has been received. In case the user
+fails to renew his subscription, he has to
+return the disc as per the agreement. So, it
+seems that most of the librarians/information
+scientists, especially in India, are reluctant
+to get these systems because of restrictions
+like this. There is a need for library associations to approach collectively the publishers
+for redressal of various problems faced by
+them. In the western countries, alternative
+arrangements are available, whereby these
+systems and databases can be installed on
+annual rental basis, whereas in India such
+facilities are not available.
+
+Earlier, sharing the CD-ROM drite was
+not possible, but of late research has been
+undertaken and partial success has been
+achieved in this direction on experimental
+basis. Now it is time for getting multi-user
+and/or networked environment systems.
+Micro Medex has succeeded in the experimental stage and has announced a next
+generation system in the form of a multi-user,
+dial-up system, which will be attached to a
+variety of hosts i.e., main frame computer
+systems. Meridian Data Inc. has CD-Net and
+CD-Server systems that make CD-ROM
+drives available as network resources. Spectrum Interactive has announced a multi-user
+local area network (LAN) system which is in
+use for the SABRE Travel Network (USA)
+and can support up to 14,000 locations and
+60,000 terminals.
+
+e
+
+rlC
+11. FUTURE TRENDS
+
+Optical disc technology is having considerable impact on the working of offices,
+factories and homes, especially in libraries,
+because of its vast storage capacity in small
+area and fast retrieval of data made possible.
+Now new formats like compact disc-interactive (CD-I), compact disc-video (CD-V) and
+compact disc-interactive video (CD-IV) have
+come out from the CD-ROM. On the other
+side, WORM type discs have also come in.
+Hypertext systems are another type, which
+feature machine-supported links both within
+that open up
+and between documents
+exciting new avenues for information retrieval.
+Hypermedia is the extension of hypertext, in
+which the networked elements can be text,
+graphics, speech, audio recordings and pictures. Optical discs are hypermedia.
+
+-
+
+users at the same time through local area
+networks. There are only two unsolved issues
+which restrict the widespread acceptance of
+CD-ROM: copyright and standardization.
+Technology only will eventually resolve these
+two issues in due course of time.
+If we classify all the formats of CDs from
+the point of view of their use in library and
+infovation services (LIS), these may be
+categorised as follows:
+tools for library automation like
+books/serials cataloguing, public
+access catalogues, etc.,
+
+-
+
+An erasable optical disc named magneto-optic disc is the latest form of this
+family which can store 6000 MB of data on
+a thin film of a magnetic material. 3M company had developed these erasable optical
+discs in 1988 and prototype discs are available at a few places. Further research is
+going on to store more information, say 6000
+to 7000 MB, on a 5 1/4" disk. On the other
+hand, direct over-write technology, which is
+still in experimental stage, is likely to eliminate
+the double throughput in magneto-optic two
+step erase-and-rerecord cycle, and disc
+drives.
+12. APPLICATIONS OF CD-ROMs IN
+LIBRARY AND INFORMATION
+SERVICES
+
+Introduction of CD-ROM in libraries and
+information centres has ushered in a new
+'optical information systems' era. Most of
+the libraries in advanced countries have
+already acquired these systems and are providing instantaneous information services to
+the readers. CD-ROM has solved major problems of these libraries in many ways by
+making easy access to information at a low
+cost, storing of information and use of the
+limited miniaturised form resources by many
+
+bookdserials selection tools,
+8
+
+reference tools, and
+
+8
+
+databases available in online format.
+
+The various tools in CD-ROM format are
+given in Appendix A under four categories
+mentioried above.
+13. CONCLUSION
+
+If CD-ROM is the best information retrieval
+devicdmedium, then erasable CD will be the
+best storage device. The fact is that the
+CD-ROM technology will not replace the
+existing technologies like paper media, microforms, magnetic and online media; rather
+it will supplement them. When advantages
+like space saving, and faster and random
+access to information are considered the
+use of CD-ROMs will not be costly for libraries. As the CD-ROM technology is still in
+its developmental stage, one has to wait till
+the technology is available at low cost to
+even small librariedinformation centres, as
+happened with computers a few years back.
+If the Indian suppliers are able to supply
+these machines on rental basis without much
+problems it will be of great help to the small
+libraries, which are unable to buy new systems.
+14. ACKNOWLEDGEMENTS
+
+The author is grateful to Shri SS Murthy,
+Director, DESIDOC, for the encouragement
+to write this paper. He also wishes to express
+
+his gratitude to Shri VK Rangra, Sci E for
+his guidance and suggestions in improving
+the draft of this paper.
+FURTHER READING
+
+1. Beteler, M. Combining image and text
+using a CD-ROM document delivery system. Inter. J. Micrographics Video
+Techno1 6 (1/2) 1987; 1-4.
+2. Chen, PPS. Compact Disc-ROM: how it
+works. IEEESpectmm 23(4), 1987; 44-49.
+3. Handley, T. An introduction to CD-ROM.
+Inform Media Technol 19(3), 1986;
+103-106.
+4. Handley, T. CD-ROM and optical publishing systems. (Cimtech Publication No.
+26) Cimtech, HaMeld, 1987.
+5. Lambert, S. and Repiequat, S. Ed.
+CD-ROM: the new papyrus, the current
+and fuwre state-of-the art. Microsoft
+press, Red Mond, 1986.
+
+6. Marlor, H. Data structures for CD-ROM.
+Bull. Am.Soc. Inform Sci. 38(4), 1987;
+18-20.
+7. Mullan, N A and Blick, A R. Initial experiences of untrained end-users with a life
+sciences CD-ROM databases: a statutary
+experience. J. lnfom. Sci. 13(3), 1987;
+139-41.
+8. Paisley, W and Butler M. The first wave:
+CD-ROM adoption in offices and libraries,
+Pt.1. CD-ROM Libraran3(2),1988; 21(3).
+9. Roth, JP. Ed. Essentialguide to CD-ROM.
+(Meckler Publishing, West Port), 1986.
+10. Silver, H. Managing a CD-ROM installation: a case study at Hahnemann University. Online 12(2); 1988; 61-66.
+11. Watson, P D and Golden G A. Distributing
+an online catalogue on CD-ROM: the
+University of Illinois experience. Online
+10 (3), 1983; 65-73.
+12. Williams, B J S., CD-ROM: a new medium
+for publishing. Inform Media Tech0119(3),
+1986; 107-109.
+
+APPENDIX-A
+I. TOOLS FOR LIBRARY AUTOMATION
+ACTMTIES
+
+(i) Cataloguing
+
+(a) Biblio File's Catalogue: Catalogue
+Production Module (CPM) is the
+first
+bibliographic
+CD-ROM
+database, in which all the three
+million MARC records of Library
+of Congress, are recorded on four
+discs. One can search these
+databases by author, title, ISBN,
+ISSN, LC Card No., year and place
+of publication and type of material.
+Library Corporation that developed
+this system is providing the
+CD-ROM drive and support kit (i.e.
+interfaces and cables to be used
+for IBM PC/XT/AT and compatibles) for $2930.
+(b) lngram Book Company: Laser
+search is another IBM PC/CD-ROM
+information resource system for
+LIS. It incorporates a fully integrated acquisitions management
+program that creates, orders and
+maintains their fund accounting
+records.
+(c) Horizon Information Services (HIS):
+Cataloguer's tool kit is a system
+developed by HIS which includes
+MARC-ENGLISH, MARC-STM (English cataloguing information for
+scientific, technical and medical
+libraries) and MARC-LAW (English
+language legal records). It produces catalogue cards, book
+lables, general orders, and does
+original cataloguing and can be
+linked to other local, online or
+circulation systems.
+
+(d) General Research Corporation
+(GRC): Laser Quest, an IBM
+FPC/CD-ROM system, is meant
+mainly for retrospective and new
+library cataloguing functions. It
+provides access to the GRCCOM
+Resource database, which con-
+
+@,
+
+tians 4 million MARC records,
+including English and foreign titles
+for books, serials, audio-visual
+materials, maps, manuscripts and
+archival materials.
+(e) Carrolitan Press, Inc: A subsidiary
+of International Thompson Information/UTLAS, this company has
+developed a CD-ROM-based information service called MARVLS,
+which uses video discs- to store
+information. MARVLS contains
+complete shelf list of the LC. This
+company has also developed three
+more systems called DISCON,
+DISCAT and LAWMARC.
+
+(9 Gaylord Brothers, Inc: MINIMARC
+is a video disc system which can
+support up to four standard video
+disc players and provide access
+to over 3.5 billion characters of
+online data. It requires two laser
+discs simultaneously to have complete database with indexes.
+(g) Library Systems and Services, Inc.
+(LSSI): It is also a PC/MARC system which is in LC classification
+available in machine-readable
+form. It includes all MARC formats,
+including serials, maps, and manuscripts. It can be accessed
+through windowing features.
+
+(ii) Serial Control
+Faxon Company: Micro Linx, a microcomputer-based CD-ROM system
+for serial control, has been developed
+by Faxon Company. It can store complete records of the entire LC MARC-S
+serials for identification of title,
+keywords, etc. Author search can be
+conducted. The best feature of this
+system is that any record can be
+downloaded
+into
+user's
+own
+
+databases and can be edited according to the user's requirement.
+
+(iii)
+
+Public Access Catalogues
+Many libraries have started or completed the accumulation of their
+databases for the purpose of resource
+I sharing. Some of them have produced
+new laser-based 'Public Access
+Catalogues (PAC).'
+(a) Brodart produced the first PAC
+called Le Pac (Local Public Access
+Catalogue) on CD-ROM and
+started marketing it in July 1985.
+The system can store one million
+MARC records with their indexes
+on a single CD-ROM disc.
+(b) Marcive, Inc. has been the first
+company to use WORM discs for
+distributing their PAC. It allows
+continuous updating of the discs
+containing bibliographic records.
+Marcive/PAC holds 100 MB of user
+data and has a total capacity of
+115 MB, i.e. almost one-sixth of
+that of a CD-ROM disc. It can be
+used as union catalogue.
+(c) The Ramapo Catskill Library System has developed and installed
+a video disc-based union cataloguing system, which contains about
+six lakh records.
+
+II. BOOKS/SERIALS ACQUISITION TOOLS
+ON CD-ROM
+CD-ROM technology provides a convenient way to store and distribute large
+amount of information. So, now-a-days
+a lot of dictionaries, encyclopaedias,
+directories, catalogues, etc. are available
+in CD-ROM form.
+(a) R R Bowker has published its entire
+Books In Print (BIP) series on one 12
+
+cm CD as Books In Print. Thus, the
+system comprises books in print, subject guide to BIP, BIP supplement,
+forthcoming books and subject guide
+to forthcoming books.
+(b) Whitaker has also started publishing
+the British Books In Print on CD-ROM
+disc and updates it quarterly.
+(c) The Library Corporation has started
+its Any-Book on CD-ROM disc. The
+disc contains an automated acquisition system that automatically converts the data into a purchase order
+format for printing or for sending to
+the vendor in addition to Any-Book
+database.
+(d) R R Bowker publishes its Ulrich International Periodical Directory (UIPD) on
+CD-ROM as Ulrich Plus, which covers
+68,000 periodicals in 534 subject
+areas. It contains 35,000 additional
+titles from irregular serials and annuals
+and Bowkers international serial
+database update in addition to the
+UIPD.
+(e) EBSCO has started producing 'The
+Seriab Directory: An International
+Reference Book' on CD-ROM, which
+contains 1,13,000 international serial
+publications and a 'Ceased Title'
+index.
+
+Ill. REFERENCE TOOLS/SERVICES
+CD-ROM
+
+ON
+
+American
+(a) Grolier's Academk
+Encyclopaedia on CD-ROM: The
+entire 21 volume Academic American
+Encyclopedia (AAE) is now available
+on a single CD-ROM disc for $199.
+The encyclopaedia odcupies 100 MB
+including an electronic index, where
+groups of words, keywords, concepts
+in context and article titles are listed,
+and each search can be conducted
+in less than five seconds.
+@) Mapping Services
+
+i) DeLORME mapping system has
+started a new mapping service which
+can scan and store colour maps on
+a CD-ROM disc. It is the first digital
+world atlas on compact disc. These
+maps are stored in a compressed
+digital video format. The user can
+view many maps, separately or with
+vector data su'perimposed over each
+source. It is useful in the field of
+navigation, command and control,
+engineering/surveying, and fleet management.
+
+ii) GEOVlSlON is another geographic
+database useful for land developers,
+social organisations, municipal and
+public
+departments.
+It
+uses
+GEODESK workstationfor reading the
+disc.
+
+(t) IS1 has also brought out its Science
+
+Citation lndex
+
+on CD-ROM.
+IV. DATABASES
+
+(g) Wilson company has brought out its
+Indexing Periodicals, Applied Science
+and Technology Index and Readers
+Guide to Periodical Literature on
+CD-ROM.
+(h) INSPEC has started a joint venture
+called 'IEEWIEE Publications Ondisc'
+(IPO, containing the full text of the
+IEEhEEE Journals and Conference
+Proceedings.
+
+A number of major online database publishers have announced CD-ROM versions of online databases in various fields
+like engineering, science, medicine, library
+8 information science, finance and geography. The major online database vendors
+like DIALOG Information Services. Inc.
+and BRS Information Technologies have
+also developed their databases on
+CD-ROM.
+
+(a) TMS and UMI (University Microfilms, '
+Inc) have jointly developed a system
+called Information Delivery Module
+(IDM) which stores and retrieves IEEE
+Journals as facsimile page images.
+The system can display text images
+of IEEE journals with high resolution;
+it also has the capacity to zoom-in
+the drawings and diagrams in these
+journals.
+
+-
+
+(b) Engineering Information, Jnc. has
+started publishing its Computerised
+Engineering Index (COMPENDIX) on
+CD-ROM in the fields of electrical
+and computer engineering, chemical
+engineering and aerospace engineering. This disc covers the abstracts
+from July 1983 and is published quarterly.
+(c) Chemical Abstracts Service (CAS) is
+publishing its abstracts as a quarterly;
+the abstracts are which were drawn
+from 12,000 journals on a CD-ROM
+disc in the field of health and safety
+in chemistry.
+
+(d) Royal Society of Chemistry started
+its Current Biotechnology Abstracts
+on CD-ROM disc in 1983.
+(e) National Technical Information Service (NTIS) has started publishing its
+bibliographic database of abstracts
+on CD-ROM in the fields of i)aeronautics, aerospace and astronomy ii)
+, computers, communications and
+electronics, iii) energy and natural
+resources, and iv)--environmental
+health and safety.
+(f) Cambridge Scientific Abstracts (CSA)
+
+has started publishing the full year
+abstracts in Aquatic sciences and
+Fisheries (ASFA) on a single compact
+disc under the name COMPACT
+CAMBRIDGE. It holds the information
+from around 2,75,000 typed pages
+text which is updated quarterly.
+(g) Silver Platter Information, Inc. is one
+of the leading CD-ROM distributers/publishers dealing with above
+databases in various fields.
+
+Knowledge is proudthat he has learned so much; wisdom is humble that he knows no more.
+
+- Wlliam Cowpar
+
+Booksare good enough in their one way but they am a mighty bloodless subatiMe for life.
+
+- RL st even so^,
+
+

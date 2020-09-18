@@ -1,0 +1,529 @@
+﻿ 
+
+Vol 2
+
+Fourth Indexing Course
+
+The fourth training course in
+‘Indexing‘ was organised by
+DESIDOC at Metcalfe House, Delhi
+from 24 Feb to 6 Mar 1982. The
+course was intended for information
+personnel of DRDO Labs/Estts
+loaated in the north zone. The
+curriculum covered various aspects
+of indexing techniques and systems
+including computer processing.
+Besides the lectures and practical
+assignments. audiovisual demons-
+tration on NTIS services was also
+screened. Visits to DRDO Computer
+Centre to familiarise the participants
+with the working of the computer,
+and lNSDOC/National Science
+Library were also arranged.
+
+The faculty members drawn
+mainly from DESIDOC were supple-
+mented by experts from INSDOC
+and Dept of Library Science,
+University of Delhi.
+
+Delivering the valedictory
+address, Prof M. Krishnamurthi,
+CCR&D(K), advised the trainees to
+put into practice the knowledge
+gained by them in the course for
+improving the efﬁciency in Libllnf
+Services. He hoped that the course
+would help in achieving the unifor-
+mity in the indexing practices in
+DRDO LibrarieslTICs and would
+lead to better input prepara-
+tion for computerisation of the
+information. Earlier addressing the
+participants, Shri S.S. Murthy,
+
+and every descriptor, all the
+document titles for which it
+was used during the input
+
+statements).
+Si.
+
+Nos. 3 8: 4
+
+MARCH—APRIL I982
+
+ 
+
+Director, DESIDOC. said that the
+main objectives of this training
+course were to acquaint the partici-
+pants with the recent developments
+in the ﬁeld and to promote unifor-
+mity in the indexing in the TICs of
+DRDO.
+
+Shri V.K. Rangra. Scientist ‘D'.
+was the Course Director. The next
+course will be conducted in Delhi.
+
+Computerisation of Information.
+
+Since the last reporting on the
+subject (DESIDOC Bulletin, Vol 1,
+No 1), substantial progress has
+
+ 
+
+been made in the information system
+design and the software develop- 1
+ment. For processing bibliographic l
+data for each document one data l
+input sheet which has the following i
+data elements is prepared : ‘
+
+ 
+
+1 Document number
+2. Report/patent/class number I
+3. Subject category (COSATI) 
+4 Language of the document l
+5 Physical format of the I
+document ,
+6. Availability of the document -
+(Acc. No. and Name of the l
+DRDO Estt) i
+7. Personal author (two only) 
+8. Corporate author/Issuing l
+agency ;
+9. Document type i
+10. Imprinthitation
+11. Title
+
+12. Descriptors (upto nine)
+
+13. Abstract
+
+Total = Upto 1280 characters.
+
+Software package written in
+structured COBOL, which operates
+on the above data, was compiled,
+debugged, executed at UNIVAC—
+1100 Computer available at BHEL.
+Delhi. The same has been imple-
+mented on PRIME—750 Computer.
+From a single input, the system
+provides the following outputs :
+
+OUTPUTS
+
+1. Subject Bibliography of Input
+Records
+This is sorted on three keys,
+i.e. (i) COSATI numeric
+subject code, (ii) Alphabetical
+equivalent of numeric code,
+(iii) Title of the document
+(ﬁrst 40 characters) printed
+in double columns.
+
+Personal Author Index
+Author index is printed in
+double format. An entry
+contains the name of the
+author and the corresponding
+document number.
+
+Corporate Author Index
+Corporate author index is
+printed in two columns.
+Entry contains name of the
+corporate author and the
+document number.
+Descriptor with Truncated
+TitIe Index ( D WTT)
+Descriptors are
+alphabetically.
+
+sorted
+For each
+
+The COBOL program package has eleven modules (a total of 2000+
+
+Module Name
+
+Function of each module is listed below :
+
+Function
+
+phase together with their No.
+document numbers. are in- l. SORT-ROUTINE Sorts input data in the ascending sequence
+dent printed in double of document number.
+column format. F 2. CARD-TAPE— Reads sorted card format data and transfers
+
+5. Document Type Index ‘ TRANSFER it on to tape/disc in ﬁxed format.
+This facilitates searching of 3. SORT- Sort records on COSATI subject ﬁelds;
+information depending on BIBLIOGRAPHY allots document number and creates‘
+documents category, such as Master File for further processing.
+report, book. patent. etc. 4. ASDI i) Adds Interest Proﬁles to an existing
+Entry contains three data interest proﬁle ﬁle.
+elements : (i) Reporthatent/ ii) Matches user interest proﬁles with
+Callnumber,etc..(ii) Corres- document proﬁles in the master ﬁle.
+ponding document number, for comprehensive literature search.
+and (iii) The document code. 5. SDI Matches the existing proﬁles with document
+(In fact, it is a composite proﬁles.
+document index). 6. BIBL Prints bibliography and indexes.
+
+6. Selective Dissemination of 7. NEW MAST Creates/Adds Master New File as an indexed
+Information (SDI) CREATE sequential ﬁle.
+The system matches the user 8. CREATE Creates the descriptor database (Inverted ﬁle)
+interest proﬁles (descriptors as indexed sequential ﬁle.
+connected by Boolean opera- 9. FULL Prints bibliography. indexes and SDI (Combi—
+tors) and the document pro- nation of BIBL+SDI).
+ﬁles. It prints out for each 10. DES Outputs descriptor with truncated title index.
+interest proﬁle, the relevant 1], QUERY Performs query searcl‘ online/offline on
+
+documents in two parts:
+
+database.
+
+\
+
+\.
+
+ 
+
+(i) User copy, (ii) Feedback
+copy. The feedback copy is
+to be returned to the system
+for reﬁning the interest pro-
+ﬁles, if necessary. Data
+elements contain :
+
+(vii) Master ﬁle for retrospec-
+tive searches and des—
+criptor database on disc
+for online query search.
+
+TRAINING
+
+In house training to DESTDOC
+staff was imparted for the input
+preparation for the system.
+
+Updating of Translations Index
+
+(i) Proﬁle number of the
+
+ONLINE QUERY SEARCH
+The programme accepts the user‘s
+
+Cooperation of Defence R&D
+
+user.
+
+(ii) Name and address of the
+user.
+
+(iii) Search parameters and
+search expresston.
+
+(iv) Document number, title,
+availability code, langu-
+age and physical format.
+
+In feedback copy each
+document entry has a
+comment line “IS THIS
+DOCUMENT RELE-
+VANT TO YOU? YES/
+
+A
+
+(V)
+
+keyed (himself)
+from a single
+
+not
+run during a single run.
+
+results are printed on both VDU
+and printer as desired.
+
+queries
+
+maximum of 99 queries
+
+DA TA PROCESSING
+
+ranging
+descriptor to nine
+descriptors connected by Boolean
+operators “AND” & “OR”
+greater than 45 descriptors.
+are
+The search
+
+but
+
+NOICAN'T SAY."
+(vi)
+
+PLEASE."
+
+source :
+
+Language :
+
+Reference :
+
+Translation No :
+
+Translated by :
+
+This information will help. in
+avoiding duplication in translation
+effort and quick location of elustlng
+translations in DRDO.
+
+In case of zero number
+of hits, a message IS prin-
+ted “NO DOCUMENTS
+
+Technical report data received
+from GTRE Bangalore was proces-
+sed and the output sent to them.
+DESIDOC Translation Division
+data (translations held
+DESIDOC) has also been processed.
+
+ 
+
+Technology‘, reported in daily
+newspapers, was scanned and 1445
+selected items were brought to the
+notice of top management in
+DRDO. _
+Information Search
+1nformation on the following
+subjects'topics was collected from
+
+ 
+
+sz
+
+Laboratories{Establishments is soli-
+cited to update the index of transla-
+tions maintained in the Translation
+Bank at DESIDOC. The present
+holding of translations runs into
+over 2000. The information on
+each translated document is arranged
+aCCording to source. author and
+subject.
+
+The Defence R&D LnbsiEstts
+have been requested to forward the
+bibliographic details of translations
+available with them. which were got
+done through other agencies to-tlate.
+
+ill the format shown below :
+Author(s) :
+
+Title of translation and name of
+
+ 
+
+‘Library and Information
+science education in India’—
+Prof K.A. Issac, Professor of
+Library Science, University of
+Kerala (3] Mar 1982).
+
+Library Activities
+
+89 books, 242 reports literature
+were acquired and accessioned by
+
+ 
+
+ 
+
+ 
+
+SDI Bulletins the literature available in the the Library during Feb& March
+Defence Science Library and 1932.
+Eight bulletins were brought out supplied to the indemors 1 677 publications consisting of
+on “meets 0f Dafepce.‘nterﬂt.:_ . 1. Blue Green Laser 250 books, 386 periodicals and
+-l' Armomd Fab-mg VEhwios' 2. Development of Aerial Mast 65 reports literature were loaned
+This bunetm highlights various 3. War Gaming during this period within and out—
+MBTS wider devewpmem m various 4. Composite Solid Propellant side the Defence R&D Organisation.
+:oumnes and also- reports the 5. Vehicle Technology Inter-library loan facility was
+“movements made m APC and 6. Ship Propulsion and Small availed by the SA to CAS, SA to
+M'zi" USA' Craft iCNS, osc, DLRL. DTRL and
+2. Energy Resources Thfe 7. Tecwnics System DEAL.
+main article ‘Alternative aircrat _ _ . _ .
+
+i - '- . f Seminar Lectures Participation in Conference ‘
+31:31:65 bfhgigbiophh‘Entud‘ECEEZrnZ— 1. ‘Application of quantitative Shri S.N. Mehta, Selentllst ‘D.,
+tive fuels for aircraft and also methods to information attended DRTC Annua Selml-
+discusses the viability of hydrogen, sciences’—Shrl K.C. Garg nar (19) 1982 held at Banga ore
+alcohol, etc, as fuels. (9 F613 1982) from 1 to 5 March, ‘1982 and
+
+3. Corrosion prevention _- This 2. ‘NATIS with reference to presented the paper 113503;?
+contains twoq ides, viz. (i) The NISSAT programme’I—Prof Sharing Cooperattlv‘: Rita”;
+control of hot cﬁwmion in marine P-B- Mang13~ UHIVBFSHY 0f “9U 01: DOCEUITiEIai: ’Y He also
+gas turbines, and (in A systematic Delhi (3 Mar V982)- _ lefal'éesthmt nhniéal sessmns
+approach to corrosion prevention. 3- ‘Compmel’ SYStem lﬂtrOduC- Chaim :3 6° _ 1 I
+
+- - . - tion’——Lt Col R.K. Sharma, ’7 8t. 8 on Collection Delve op
+b liltinlﬁfggﬁgoznﬁingi 013:: OIC, DRDO Computer Centre ment and Document Circula-
+u _ ’
+role of special libraries in the (4Mar1982)' “on'
+emerging national network, and Forthcoming Conference b
+(m sma" libraries: keeping the SNo Conference Date Details available from
+pmfessmnal {305mm prOfesswnaL 1. 7th International Conference 12—16 Sept Secretary, ICCG-‘l Kresta‘l-
+
+The tacma‘ ﬁghteI-‘s devel-OE- on Crystal Growth in Stutt- 1932 labor PhySIkallsches Insti-
+mackaligoxﬁxattﬁgﬁ-gﬁhtarise: gart, German Fed Rep. 21:6 delrd Unrversrgt 505‘:
+sur ’ ' enwa nlng
+{beefibihiiiirii‘iigob‘iﬁlginie subjeﬂs 0f 2. 4lst Conference and Con- 12-16 Sept Polytechnic Iflbl'alflla'll
+
+‘ gress of Federation for 1982 Hong Kong, Po ytec mc
+current Awareness gem“ Documentation : The chal- Library, Hung Hom Kow-
+
+Information 0“ “lemme lenge of information tech- 10011. Hong Kong-
+developments in China. (42 items) nology in Hong Kong I
+biting, iiieiiihsigeigcgiggglng 3. 2nd International Conference 20-23 Sept British Compilictler 52:18“:
+ted through the two publications, on Databases (ICOD-Z) 1982 13 Mansﬁe ree ,
+viz.,"‘Spot News on China’, and London, w1M 031: UK:
+satin“, and Tecmomgy m 4. 7th International Biotechno- Nov-Dec Biochemical Engineering
+[Dari-ammo" on sDRDO’ logy symposium in New 1982 Research ' Centre, IIT,
+
+loading? and ‘Scicnce and Delhi New Delhi-“0029.
+
+ 
+
+ 
+
+   
+ 
+
+Communications and Editorials
+
+Contributions for publication in the Defence
+Science Journal should be addressed to 1
+
+THE CHIEF EDITOR
+
+DEFENCE SCIENCE Jounmr
+DELHI-I 10054
+
+METCALFE House.
+
+The
+
+and techno]
+
+draft, crosse
+
+Defence
+Meicalfe
+
+Subscription R
+
+For Libraries
+Govt Deptls
+
+lions, etc
+Individuals
+
+Single Copy
+
+Research lnstilu-
+
+Journal publls hes rescu rch
+
+papers in almost all branches of science
+
+ogy related to Defence.
+
+Sales and Subscription
+
+Copies can be had on payment of bank
+
+d cheque or MQ from :
+
+The Director
+
+Scientiﬁc information and
+
+Documentation Centre (DESI DOC).
+
+House, Delhi-110054
+
+ates
+
+Inland Foreign
+
+Rs 50.00 t 
+
+Rs 25.00
+Rs [5.00
+
+is SIZ
+£3 5 6
+
+ 
+
+ 
+
+In?“LAIIL
+50"“. .
+nghnnlﬂl‘l
+
+     
+
+language.
+
+ideas.
+Issues Available
+Food for our
+Plastics—The
+Aeronautics
+From
+The Director
+
+Price : Re ll- per copy
+
+POPULAR SCIENCE AND TECHNOLOGY
+
+‘An illustrated popular journal that conveys information
+on scientiﬁc .und technological developments in a simple
+
+*1nteresting colour pictures are given to clarify scientiﬁc
+
+Defence Scientiﬁc Information and
+Documentation Centre (DESIDOC),
+Metcalfe House, Delhi-110054
+
+Sentinels
+Miracles from Molecules
+
+ 
+
+ 
+
+“Subscription to be remitted by crossed postal order or cheque in favour of Director, DESIDOC"
+
+ 
+
+ 
+
+Published and Printed by DESIDOC, Metcalfe House, Delhi-110054
+

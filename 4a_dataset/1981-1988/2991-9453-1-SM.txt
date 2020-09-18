@@ -1,0 +1,332 @@
+GUIDELINES FOR SOFTWARE ACQUISITION
+PK Bhat and JC Kewlani
+
+DRDO Computer Centre, Metcalfe House, Delhi - 1 10 054
+Computer users require software for
+specific applications but are sometimes unable to decide as to whether they should go
+in for its in-house development or acquisition
+from external sources. And in case a
+decision is taken to buy the software, how
+should they go about the task? ~ h j sarticle
+endeavours to answer such questions
+for the
+guidance of a user in respect of various steps
+in software acquisition, viz. feasibility study,
+market exploration, software selection
+process, vendor selection, benchmarking, etc.
+The suggestions made are based primarily On
+the long experience of ihe authors in the area
+of computer software.
+
+concern for both computer professionals and
+users.
+1.1 National Scene in Computer Software
+
+India made its entry into the computer
+age in a small way in the sixties with the
+acquisition of a few institutional minicornputers. Some more minicomputers and a few
+mainframes made their appearance during the
+seventies. Apart from the executive1 supervisor, the only software ordered along
+with these machines included compilers of
+then-in-use high-level languages, assembler,
+system
+and a limited range of specific
+packages for business, industrial or scientific
+use.
+
+1. INTRODUCTION
+
+Computer users are frequently required
+to take vital decisions in respect of purchase
+of software. Success in computer operation,
+depends to a large extent, on the correct
+choices made in this respect. The present
+article, arising out of the authors' extensive
+experience in in-house development of software as also their acquisition from external
+sources, lays down broad guidelines for
+procedure of software purchase for the benefit of users intending to acquire software from
+external sources. However, this article does
+not cover the aspect of computer virus which
+has in recent years become a matter of
+
+The decade of the eighties saw a major
+shift from minicomputers to micro-computers
+initially and then to the IBM-compatible
+personal computers (PCs). Desktop computers, as powerful as the minis, with much
+smaller space and installation requirements,
+and at just a fraction of the mini's cost
+became available. The IBM compatible PCs
+and their clones revolutionised the approach
+to the use of computer. The portable 4GL
+software available on these machines eliminated the need for tedious application
+programming. This has made the PCs very
+popular and'brought them within the reach of
+every researcher to work with and manager
+
+for performing decision-support functions. The
+favourable government policy has also played
+a major role in the proliferation of computers
+and their suppliers.
+
+hampered. The management thus has to
+study and evaluate the software available from
+various software houses. The packages may
+be available off-the-shelf or customised.
+
+With a steep rise in the number of computers and their users, there has also been a
+rise in the demand for software. This has led
+to the development of a large number
+of software packages. At one end of the
+spectrum are packages which are tuned-up
+versions of the existing IBM-PC software,
+offering some improved or added features
+over the initial package, and at the other end
+are packages developed specifically to suit
+the Indian user environment. The software
+consultancy service organisations take up
+customised application development for the
+users.
+
+2. ACQUISITION OF SOFTWARE
+2.1 Feasibility Study
+
+Studies on the software requirement of the
+project and the corresponding available resources would enable the user to evaluate the
+possibility of in-house development of the
+software for the project vis-a-vis its acquisition from external sources. Constraints of
+expertise and time may force the user to
+decide in favour of acquiring software from
+an outside agency.
+2.2 Market Exploration
+
+1.2 Software Requirements in DRDO
+
+Development of software for implementation of complex projects needs a strong base
+in terms of software specialists. In DRDO, this
+resource is somewhat limited and for this
+reason in-house development is at times
+
+The user has to contact the vendors who are
+likely to have developed the kind of software
+required for the project for a discussion on
+the user software requirements. After having
+understood the requirements, the vendors
+would either offer a package which can be
+
+System using image processing software
+
+supplied off-the-shelf or offer to devetop a
+customised package which would meet the
+user requirements. They would also submit
+quotations regarding price and specify terms
+and conditions about payment.
+
+-2.3 Software Package Selectinn.
+' .
+
+should be modular in design, with structured coding, i.e. it should be a self contained unit.
+Documentation : Full and good quality
+documentation must be provided by the
+vendor. Anything less than full documentation should not be accepted.
+Complete documentation pertains to
+areas like
+
+(ii)
+
+._
+
+.LC,
+
+I . )
+
+Of the several options available, selection
+of the right software package mainly for its
+long-term effectiveness is a difficult task.
+
+Although several packages may appear
+similar, they may not necessarily have the
+same capability. An ideal package is not just
+a software. It is also expected to provide
+for implementation planning, formalised
+education, continual structured support,
+on-going enhancement programmes, and
+user-interaction.
+Adoption of a logical approach and fixing
+of precise criteria is necessary for making a
+sound evaluation. The following are the major
+parameters to be taken into consideration in
+this respect:
+2.3.1 Technical Soundness : The package
+
+should be technically sound, and capable of
+meeting all the requirements of the user.
+2.3.2 User-friendliness : The software should
+
+be user-friendly, i.e. it should be easily understandable and operable with minimum mental
+strain and physical effort on the part of the
+user.
+2.3.3 System Changes : The package should
+be amenable to incorporation of such changes
+as may be necessary, including initial
+changes, changes imposed by program maintenance and as also those associated with
+extension of package facilities. It is important
+to fix the responsibility for affecting these
+changes. Should it be the user's responsibility then the vendor should provide source
+listings of the package and should guarantee
+the following :
+
+(i)
+
+Modularity of Design : The package
+
+-
+
+-
+
+identification of input and output
+elements,
+full record specifications,
+program logic,
+data specification,
+test data and
+Operating and conversion procedures.
+
+2.3.4 Installation and Training Support : The
+supplier should specify the support which he
+would provide with the package. It must
+include help during conversion and initial
+running, together with formal education programme for the user's team.
+
+2.3.5Initial and Running Costs : The acquisition modes vary considerably across the
+range of packages available. Some packages
+are offered only for direct purchase by the
+users, while others are custom-built with
+provision for payment on the basis of stagewise development. Maintenance support
+charges are usually inc\uded in the contract.
+In such cases, where separate charges are
+to be paid for maintenance purposes, clear
+settlement must be done within the framework
+of financial terms.
+2.3.6 Acceptance Tests : The conformity of
+packages to user requirements is determined
+for ready-built and custom-built packages. In
+the case of custom-built packages, continual
+and meaningful dialogue between the user
+and the vendor is necessary to ensure generation of a potentially successful package.
+The acceptance tests run on the software
+packages include :
+
+(i)
+
+Test Running, done on the test-data,
+
+specially created for the purpose,
+(ii) Pilot Running, based on data provided
+by the user, and
+
+(iii) Parallel Running, based on live data
+used by the system/project for which
+the package is acquired.
+2.3.7 Quality Assurance : The package
+selected by the user should not only be
+capable of serving its desired purpose but
+shoutd also be adaptable, reliable and of good
+quality.
+2.3.8 Maintenance Support Assurance : The
+user should ensure that the vendor can
+provide continued and the best possible
+maintenance support.
+2.3.9 Technology Application : An important
+consideration is whether current technology is
+being applied to make the software package
+really effective in terms of timeliness, accuracy, ability to handle data at reasonable cost
+and capability to handle potential security.
+2.3.10 Compatibility, Control and Recovery
+Problems : The prime concern at the time of
+acquisition of a software package is its
+compatibility with the user's existing hardware
+and software configuration and the familiarity
+and specialisation of the supplier in that
+environment. That way the supplier will be
+able to communicate better with the user and
+consequently ensure smooth installation and
+on-going support.
+2.3.11 Vendor Selection : The first step is to
+shortlist the suppliers who are able to provide the required package on the basis of set
+criteria. The vendors considered should be
+financially stable, be dedicated suppliers of
+software, be true professionals, have industry
+recognition and a good reputation.
+
+For effective support and quality-assurance,
+the vendor must meet the following requirements :
+(i) The representation and stability of the
+vendor company is essential for the
+
+Software processrng of a digital image
+
+future support of the system. In such
+cases where phased extensions have
+been envisaged in the system plans, a
+disastrous situation can arise if the
+vendor company goes into liquidation
+just when the user is about to implement
+a major extension programme . It is,
+therefore. essential that the vendor
+company chosen has a sound financial
+backing and a strong customer base.
+(ii) The vendor must have adequate staff
+and technical resources so as to be in
+a position to provide the requisite maintenance support.
+-5
+
+2.3.12 Benchmarking : A software package
+must not be acquired merely on the basis of
+its reputation. It has to be tested in actual
+user environment. Benchmarking tests are
+necessary to evaluate the relative performance of the software package. However, the
+user has to be clear that the tests must not
+be unduly complex; instead these should be
+realistic and relevant. Setting proper tests may
+involve days or even weeks of manual work.
+Users sho6ld set the test-plans for software
+efficiency, quality and reliability.
+
+In case the package to be acquired is only
+a module to be integrated with other modules, it is imperative to ensure interfacing of
+
+the module with other modules of the integrated package.
+
+coming up. The software costs, however,
+continue to be high and a user has to be
+very circumspect in software procurement.
+3. CONCLUSION
+Selection process is a complex job. The
+above
+guidelines based on several years of
+The use of computer has increased treof the authors in the software
+experience
+mendously over the years. Lower hardware
+development1
+acquisition for super-minis, PCs
+costs are bringing computers within the reach
+and other special-purpose systems, have
+of more and more users. Software requirements of the users are also simuttane~usly~ been laid down with the purpose of helping
+the users to take appropriate decisions while
+going up and one can see a number of
+purchasing s o h a r e from external sources.
+specialist software-development houses
+
+66
+
+Knowledge is a steep which few may climb while duty is
+a path which all may tread."
+-LEWIS MORRIS
+
+66
+
+Books are good enough in there own way hut-they are a
+mighty bloodless substitute for life."
+-RL STEVENSON
+
+

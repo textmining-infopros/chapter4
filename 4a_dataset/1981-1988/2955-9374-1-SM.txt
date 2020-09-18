@@ -1,0 +1,388 @@
+EXPERT SYSTEMS FOR LIBRARY AND INFORMATION SERVICES *
+S S Mutthy
+
+1. CONCEPT AND DEFlNlTlON
+An expert system (ES) acts as an expert
+or a consultant in some subject area and helps
+in decision-making in unstructured problem
+The expert systems comprise computer programs modelled after human experts.
+These systems rely heavily on knowledge,
+especially knowledge of their domain2. These
+systems store information relevant to the problem domain and seek to emulate problemsolving
+methods of human experts.
+Many definitions of ES have been provided by
+experts in this field, but the one given by the
+British Computer Society Expert Systems
+Specialist Group (BCS ESSG) appears to be
+adequate and comprehensive
+"An expert system is regarded as the embodiment within a computer of a knowledge based
+component, from an expert skill, in such a
+form that the system can offer intelligent advice
+or take an intelligent decision about a processing
+function. A desirable additional characteristic,
+which many would consider fundamental, is
+the capability of the system, on demand, to
+
+justify i t s own line of reasoning in a manner
+directly intelligible to the enquirerw3
+
+2.STRUCTURE AND OPERATION
+A simplified form of an ES structure is given
+below :
+
+KNOWLEDGE BASE
+
+Computer programs normally organise knowledge at two levels- data and program. According to Yaghmai and ~axin4mostexpert systems
+organise knowledge a t three levels-data,
+knowledge base and control.
+The database of an ES system contains the
+data that is used for providing expert advice.
+This database keeps track of input data for the
+current problem, the status of the current
+
+* Basad on the talk given by the author at the Computer Society of India, Delhi Chapter on 8 June 1987.
+3
+
+p r ~ b \ mand the relevant history of what has
+bmn dme so far, The knrrwld@ base canrains
+thfr prQ&ura) knowled~a sgecific to the
+probtarn area or domain. The inferetrce en~irit,
+p r ~ v i d at;ha control structure ot %heES. It
+mgkm bsisj~nsabout how to use
+systm's
+k ~ t e d g . sby otqanising and cm%r@$$ing
+the
+
+wJl4 be knawtedge acquisitiae sviystents which,
+after being giwn the cmsnt ~t a asic woblttm
+WR, will rapi-dty guide a buman in th* f ~ f f m t i o ~
+
+of the ne&t!d
+yar
+
+2ct0OI
+
+knowledge b e 6 Around
+
+*8
+
+system% wiil s e m i ~ a u ~ n ~ r n ~ ~ ~ \ r y
+
+&vekp know\edga bas% from %%it, The result
+of thtm deue~awstnt~
+may very welt h%<atd
+s matuting i%f~~mrstiian
+society &e& &%part
+systems put $%Dart knowtedgtt a l evBry~ne's
+
+step$ i t take5 to d r c p t i current pcabtem. This
+wnrrol meclrgriim (r e6tually a m$}e~:z'tun
+of
+prmdures or strare@es ah how to SGIW disposa!.
+
+puob~erns.
+
+4.
+
+ES F'OR LtBRARY AEJO
+INFORMAT101Y SERVICES
+
+BWBm m expert systems mre Cfie know.
+ladge up tBe probfsn at* u pt-Dduction w$m,
+rka knowfix& has* is rskr~adto tts the rule
+bstsp, awi the cantrut mwbtinidm ia G B ~ M tt\s
+ntle intsrprcster Rut% in the itnowie6ge W e
+&re actuated bEj i?y+&
+%Q* th% dtctabwe. This
+rule spplicsrtion mottifies fha database and
+identifies tbe pertinent rutis. The rut4 i'htwprb-
+
+.
+
+Gcimpufec~Ztarre Etmn ti#d in tibtariesfor ovw
+We dwdez ln advb& c~U\nt;rie%
+S)ke UK and
+USA. Mttny Ijbr$rittr and infocmatiarc centres
+m&i? imprwiw ih%%k?m%~ttr
+in automaxed
+apgs:dtiQrtg like cZrcufaikm,~~~C$toguing,
+aeridt
+tctf d ~ i r l e swM& rules ta %PPfyvia inference
+catltrul, acqui~%on,etc., and also infocrnat'ion
+t*O&dkW~ @T C O Q ~ % ~ % * ~ Qstrstegies
+D ~ U ~ that
+%tatage, retrieusi and cf&mination f u n c l l i ~ ~ s ,
+m w h tfre rubs in tb8 kmI&g& base. AII
+In tndia a b , a tew large libraries wmputer5sed
+rut* ari svskrazeu) Buting ewry cycle ar tha
+a
+m e iof ?he% fipstatiofisover W past decade,
+v&tam r ~ l e curmnt
+s
+grab&ns and dab, rend
+Howewr, tk% use a# ES pf~grams (hsurisfic
+keeps wwk ~f t!% s?atus of we d~tr$1v~msztt
+prugramsl in k k fi&d is retatively nwv e m In
+aC sotutions.
+advaneid eauntxiw where it is yet to R?#rd
+nutable whi~umr?nrs,whi(ein tndia,it hw yet
+to enter even the planning s w , But the work
+i i ~lthEo @*ion has progceshiue1y &on increasit@
+in advamad c~untrlesover the last eight ta
+ten y@r%, kut~rrrarlcciassifimfion, c~tiirIugi/in&
+me development of ES can tes uisvaIisd in
+Wans4~tiun,(Pnd inforrnafion rerieva\ are wrhe
+m b n mi%%.Thew are: SiJ system dsraa, Gi\
+af the maif{: areas wb~rretttese a f f a ~%re
+s $otm
+dwbIa~ont,f\h> torma\ ~ ~ I u a t i oa$
+n
+on and the patentlal fw application of SS
+performsme, fiu) (ormail m5~1atia1)uf ae~ctpin w$ field is how we11 und%r$toMfyYhic9
+tafic~,(u8 sxt~ndedtm in a 8mta%fsesnviron~mparzs@wdimpEttus to ~ngcireg&arts,
+mmt, hi\ d&uBIQ)~mer\t
+al waintenance Haw
+and (.Jiil system tetBage. Yaghnrai and llrkaxt~
+4.2 PY,pi$wl~m
+& ES
+claim that no current @stem has camplated
+A review of re'I:en$Dimturer on the davelopall these stag@$so kt.
+men1 vf ES <aSibrary and infom\adw ssrviees
+twt Q R < ~tewals the possibk a r w of such opplicathn, blrt aha sucquaints one wiih She sludins
+&sift viscstir;e two kit36 of
+Yagbmai
+cvndwed QR ~ h s eapp%~iftIcrn$in cPrtati,
+asds, rhe &on term trends and the tong term
+ctrgaoiwions, 71x8 appMations, bath tried aGd
+wvnds, Accorbing w them, tha short term,
+p i a n d , and aka some of the potent')^) a'r8as
+€3 wltb tAoo@(i& UP ru(m .syi)l eppaar, tn
+r;oUid be #faup& 8% t~))ows:d6Rirzn to en imtease in ruie~bdsebsyserng,
+al %bj@ctctagsificeti~n
+rtrere will be an inrrrease In the numb@ ot nQ%tu\erl-bs& .Icvstems, @y the k% ?S%, sfrctre
+bl &albgtcing
+
+,
+
+C) Reference service
+d) Indexing
+e) Specialised thesauri
+f) Information retrieval and
+g) Publishing.
+
+4.2.1 Subject Classification
+Classification of documents was considered
+as a problem of pattern recognition in the ES
+studies. Since the classification i s generally
+based on the subject content of the documents
+which can be represented either by codes (class
+numbers) or by keywords, the system matches
+the subject content of a new addition to the
+library collection with the existing codes or
+keywords for achieving automatic classification.
+Earlier studies in automatic classification used
+factor analysis or other clustering algorithms
+to create subject matching or subject associations
+based on keywords in the text5. Although
+these studies were helpful in demonstrating
+the possibilities of automatic classification, they
+were not adequate to handle large collections.
+Further work in this direction is in progress.
+
+4.2.2 Cataloguing
+There are different sets of rules for cataloguing. 4 scrutiny of any of these rules would
+convince any one that there are many complexities in the cataloguing function, particularly
+n entering the authorship of a document o i
+work. An expert system can store the rules
+according to a particular code and apply after
+taking appropriate decisions with regard to the
+authorship, type of document, linkage between
+multiple volumes of document and so on. An ES
+model for cataloguing6 of maps was recently
+developed at the University College of Los
+Angeles (UCLA) on similar lines with MYCIN,
+an expert system on diagnosis of infectious
+diseases.
+
+Another application of ES in this area could
+be the development of a suitable system for
+applying relevant cataloguing rules to a
+document while the text of the document is
+still under electronic composition.
+
+4.2.3 Reference Service
+A prototype ES for reference service was
+designed and tested at UCLA in 1980 using a
+TRS 80 microcomputer. The system was called
+REFLES- Reference Librarian Enhancement
+System. The objective of the system was to enhance the performance of a reference librarian
+by providing him access to ephemeral data,
+non-current data and data derived from knowledge of local resources. The study showed that
+with improved hardware and software facilities,
+the system could be augmented to encompass
+other reference material, search strategy development and user participation making it a true
+expert system.
+Vickery and 6rooks7 describe an ES developed at the University of London, titled
+PLEXUS covering the subject of gardening.
+This system was expected to provide reference
+service based on the description of the information requirement given by the user, and by
+supplementing the user's. statement with additional search terms or concepts from the
+knowledge base of the system and by making
+the *search strategy that could be applied to a
+'database. The development of i t s prototype
+took, about 20 months and further work is in
+progress.
+
+4 . 2 4 lndexing
+lndexing of documents i s highly subjective
+relative to the types of users, their specialisations, the depth of indexing required to be done
+for meeting individual requirements of users, the
+reading habits of the users and so on. Slant in
+indexing to provide access to the information
+required by different user groups from the same
+document i s also an important factor. So, an ES,
+which would store knowledge to satisfy different
+view points of the users and retrieves information
+that matches their specific requirements, can be
+highly useful.
+
+4.2.5 Specialised Thesauri
+The quality of a good thesaurus is to be
+measured by its ability in recognising and incorporating new subject fields, ignoring obsolete
+
+ones autornat\ca\\y, No single thesaurus would
+normally meet such requirements unless it is
+specially designed for the system and is constantlv updated, On the other hand, the ES
+which can take care of the changing requirements of the users of the t R system and can
+constantly update the thesaurus based on i t s
+expert knowbadge. Such an ES would be highly
+useful for \R system in general. No such ES
+appears to have yet been developed.
+
+4.26 Information Retrieval
+For retrieving information from a cornputerised IR system, the practice has been that the
+user either himself provides a search expression
+or describes the information requirement from
+which the search expression and a search strategy
+are worked out by an information specialist.
+The search is then conducted and the feedback
+is discussed by the information specialist with
+the user and the search expression modified as
+necessary and searches are again conducted till
+the user gets the most relevant information
+possible. Stodies using ES for information
+retrieval induded automatic formulation of
+search strategy and search expression based on
+the inputs provided by user through a men3
+provided by the system. The user gives bis own
+version of his infarmation requirement using his
+own terminology, The heuristic procedures used
+by the system, using i t s database and the knowledge base select the appropriate vocabulary,
+and formu\ate Ithe search strategy and conduct
+the search. Further modifications in the search,
+based on the feedback prodded by the user,
+are also carried out automatically, The system
+also attaches weights to the march terms based
+on i t s structured dialogue with the user, and
+i n the repeated searches the weimts are also
+modified suitably,
+
+An ES entit\ed C O N S E A R ~was recently
+designed to enable doctors to specify queries
+to retrieve cancer- therapy related documents
+stored in the MEDLINE database of the US
+National Library of Medicine. The system
+embodies the expert knowledge of a tibrarian
+functioning as an intermediary between the
+physician and the database.
+
+4.2.7 Publishing
+Some traditional reference publications like
+Bei{stein9s Handbuch der Organischen
+are not only difficult to comaile but are CQmp\i.
+cated to use. Some publications like, directarieJ
+and handbooks get outdated before they are
+distributed. Development of a suitable ES for
+providing up-to-date and ready data or infor.
+rnation t o answer specific queries incofporating
+expert advice to a particular problem for which
+the query is made, would be highly valuable.
+As the information explosion continues,
+reviews and digests covering the litergture output
+in specific fields, have become very valuable to
+the working scientists as well as the busy technocrats or executives. So, an ES which automatically prepares up-to-date digests with different
+subject slants to meet the requirements of
+different users and linked with an electronic
+publishing system to provide on-the-spot copier
+of the digestsJor reviews, would be greatly
+welcomed by these busy users,
+
+5. FUNDING of E%
+)n USA alone a substantial amount ($ 10
+million} is being spent by US government on
+some of the ES systems and $ 2 million under
+government contracts to non-profit organisafjons
+and universities. Same of the ESsystems funded
+by US government are: Diagnosis of infectious
+diseases (MYCIN), Oedema patients (PIP),
+Diagnosis and treatment for glaucoma
+(CASENET), and knowledge acquisition and
+problem formulation (ROGET). ES research
+sites in USA include universities, non-pmfit
+arganisations, government depts and industrial
+units.
+
+6. CONCLUSION
+As stated earlier, the use of ES for library
+and intormation services is not yet very common,
+and significant achievements in this area are
+still to take place, althaugh some studies have
+
+been made. These studies have demonstrated
+the high potential for the use of ES in the
+libraries and for information storage, retrieval
+and dissemination services including electronic
+publishing. In India, computerisation of library
+
+and information services has recently received
+a momentum with various national agencies
+actively carrying out work in this area and it
+will not be long before use of ES i s also made
+for operating these information services.
+
+REFERENCES
+1. Shoval, P. lnform Process k a g e 22/61. 1985; 475-87.
+2.
+
+Sowizral, HA. Annual Rev lnform Sci Techno1 20,1985; 178-91.
+
+3.
+
+Pollitt, AS. Aslib Proc 36(5), 1984; 229-34.
+
+4.
+
+Yaghmai, NS. and Maxin, JA. J Amer Soc lnform Sci 35(5), 1984; 297-305.
+
+5.
+
+Borko, H. Education lnform 3(2),1985; 103-14.
+
+6.
+
+Borko, H. Inform ProcessManage23(2),1987;81-7.
+
+7.
+
+Vickery, A and Brooks, HM. lnform Process Manag? 23(2), 1987; 99-1 17.
+
+8.
+
+Pollitt, S. Inform Process Manage 23(2), 1987; 119-38.
+
+My message to the managers and administrators i s t o care for their workers, to treat them like
+human beings and not like cogs in a machine. Only then will they be able to motivate them and
+carry them together in a team.
+MK Rustomji
+
+
