@@ -1,0 +1,593 @@
+DESIDOC Journal of Library and Information Technology, Vol. 28, No. 4, July 2008, pp. 35-42
+© 2008, DESIDOC
+
+Online Exhibition Authoring System with Intelligent
+Affective Background Image Composition
+Pai-Hsun Chen1, Jen-Shin Hong 2, * and Sheng-Wen Shih2
+Department of Computer Science and Information Engineering
+National Nai Kai Institute of Technology, Taiwan
+
+1
+
+Department of Computer Science and Information Engineering
+National Chi Nan University, Taiwan
+*
+E-mail:jshong@ncnu.edu.tw
+
+2
+
+ABSTRACT
+This study addresses the development of an online authoring system that can be integrated into a
+typical digital archive system to facilitate the construction of online exhibitions. One common approach
+for the efficient online authoring is based on a principle that decomposes a hypermedia presentation into
+a “content document” and a “style template.” This study proposes a layer-based architecture to further
+decompose a style template into a number of presentation layers. The approach eases the burden for
+implementing large-scale style templates in digital museum projects demanding versatile presentation
+styles. Particular attention has been focused on the mechanism for affective background image composition
+that incorporates the concerns of the affective colour scheme and the page layout. A system implementation
+has been successfully applied in real world digital museum projects for constructing aesthetic online
+exhibitions.
+Keywords : Virtual exhibition, online authoring, affective presentation, colour schemes.
+
+1. INTRODUCTION
+Online exhibitions provide a low-barrier mechanism
+for users to easily access and appreciate the precious
+artifacts archived in a digital museum. Conventionally,
+online exhibitions are developed by joint efforts of
+content experts, graphic designers and computer
+technicians. Such a typical development process
+is laborious and time-consuming. For a large-scale
+digital museum project, an effective hypermedia
+authoring system to facilitate the development of
+online exhibitions is crucial. One common approach
+for the online authoring system is based on a principle
+that decomposes a hypermedia presentation into a
+“content document” and a “style template.” A typical
+workflow includes three steps, namely (i) determine
+a practical common logical structure of the exhibition
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+pages, (ii) use a content authoring interface to fill
+in the contents of the exhibition pages and the
+inter-page structures, and (iii) select a pre-fabricated
+style template for each page for the final presentations.
+With such an approach, the workflow for developing
+the online exhibition improves significantly since
+the styling process is separated from the content
+authoring process.
+In the current Web environment, a common
+way to realise the principle of separating the content
+authoring and styling processes is to use the “XSLbased” approach1,2. The approach uses an Extra
+Markup Language (XML) document for describing
+the content and its structure. In the presentation
+stage, a corresponding Extended Style Sheet (XSL)
+document is used as the style template to transform
+35
+
+the XML-based content into HTML-based presentations.
+In such an approach, the presentation style is limited
+to that can be expressed in HTML and Javascripts
+supported in a typical browser. In addition, usually
+an XSL document needs to be prefabricated in its
+entirety. A minimal variation in a desired presentation
+style (such as a slight change in the title font
+setting, the content image size, or the number of
+paragraphs) requires a different XSL template. In a
+large-scale exhibition that demands significantly
+number of different presentation styles, the XSLbased approach requires laborious implementations
+and management of considerable prefabricated XSL
+documents and is therefore unpractical. Currently,
+for developing large-scale exhibitions emphasising
+on the aesthetic and affective dimensions of the
+presentation so as to stimulate the contemplations
+of the artistic works therein, there is still a thirst
+for a really sophisticated authoring system that
+significantly facilitates the authoring process while
+provides high quality presentations.
+Overall speaking, the design of an optimal hypermedia
+authoring workflow needs to consider a balance
+between like (i) the complexities of the authoring
+process, (ii) the aesthetic qualities of final hypermedia
+presentations, and (iii) the efforts for large-scale
+implementations of the style templates. In this study,
+we present a system based on a “layer-based”
+style template architecture. Our goal is to implement
+a system that allows the content providers to efficiently
+develop large-scale media-centric and animationbased presentations. A particular focus in this study
+is on the mechanism for intelligently composing the
+affective background images that accounting for the
+page layout and colour combination schemes for
+the presentation. An implementation will be presented.
+
+2. A LAYER-BASED ARCHITECTURE
+FOR HYPERMEDIA AUTHORING
+SYSTEM
+A typical hypermedia exhibition contains numerous
+interlinked hypermedia pages, which contains “content
+elements” as well as “style elements” (e.g. background
+animations, decorating graphics, interactive patterns,
+functional scripts, audio-loops, layout settings, font
+typesetting, etc.). In our layer-based framework
+(Fig. 1), a typical hypermedia presentation is decomposed
+into number of “content layers,” including the title,
+texts, and images. Each content layer is presented
+by a corresponding “content layer presenter” which
+is the style module responsible for the stylization
+and animation of the content in the layer. A content
+layer presenter is essentially a module in which the
+content formatting, interactions and decorative graphics,
+all encapsulated in a self-contained document. The
+36
+
+Figure 1. The layer-based architecture for the
+hypermedia presentation system.
+
+presentation in each content layer can be regarded
+as a building block, which can be assembled into
+a hypermedia presentation. Beyond the content layer
+presenters, a style template includes styling layers
+presenters, namely, the background image, background
+audio, and special effects (such as animations of
+raining, snowing, thunder, fireworks, etc.), that are
+used to help to create a particular style or affective
+states desired for the presentation.
+In the framework, a style template describes all
+the layer presenters for a content document. By
+switching the layer presenters in the style template,
+the content document can then be presented in
+different fashions based on the combination of the
+layer presenters. In addition, the position, size,
+rotation angle, transparency, and the dynamic movement
+of each layer presenter can be adjusted to create
+complex layouts and animation styles. The temporal
+behaviours of the presentation can also be assigned
+by adjusting the temporal schedules of each layer
+presenter in the style template. This modularization
+framework significantly improves the reusability of
+the style elements in a project. Our implementation
+has verified the applicability of such a framework
+in current Web environments. In the following, we
+elaborate our design of the intelligent background
+image composition module based on page layouts
+and colour combination schemes.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+3. THE BACKGROUND IMAGE
+COMPOSITION MODULE
+Style and affection aspects are important design
+factors of multimedia presentations such as webpages3 . Through emotion and style, a presentation
+grabs the attention of the audience. The colour
+scheme in the page is one key design factor that
+professional designers frequently use in their attempts
+to develop emotion evoking multimedia presentations.
+A colour scheme is the combination of colours used
+in a multimedia presentation. For example, the use
+of a blue background with white text is an example
+of a widely applied colour scheme for web pages
+of high-tech companies. In the graphic design
+communities, various heuristic principles have been
+proposed for developing colour schemes that tend
+to invoke a particular style or emotion 4. A number
+of systems have been reported to automate the
+design of colour schemes. For example, Tokoumaru,
+et al.5 proposed a system that automatically composes
+affective colour schemes mainly based on principle
+of colour harmony. A more easily accessible resource
+for the colour schemes is the colour charts that
+explicitly enumerate the colour schemes to different
+styles or affective states 6 .
+To provide a better visual structure of a multimedia
+page, in practice, a direct way for applying the
+colour schemes is to segment the page canvas,
+based on a layout design, into multiple coloured
+regions each one with a particular colour in the
+desired colour scheme. Alternatively, for applications
+that emphasise the aesthetics of the presentation,
+a more appealing way is to incorporate a background
+image design based on the concerns of both the
+layout and colour schemes. Usually, an exhibition
+author would select background images that are
+pertaining to the major theme of the exhibition content.
+
+For example, an exhibition regarding an artifact of
+ancient Chinese culture would typically apply images
+such as Chinese landscape paintings as the background.
+Often, in a common practice in multimedia design
+communities, the image would be manipulated offline
+in priori to incorporate certain layout design and
+colour schemes to create desired aesthetic or emotional
+effects. Our interest is to develop an intelligent
+system with which an exhibition author could facilitate
+the background image manipulation online with ease.
+The following describes a computationally efficient
+approach to achieve such a goal. The concern here
+is to transform the colour profiles of an image with
+a balance between the original visual characteristics
+of the image and the target colour scheme that is
+associated to a particular style or affective state.
+Roughly speaking, our approach first transforms
+the input image to grayscale. Then, based on the
+colour assigned for each region in the page layout,
+the colour tone of an output pixel is changed to that
+of the target colour, while the saturation and brightness
+of the pixel are changed based on the brightness
+of the input pixels according to a number of heuristic
+rules. These heuristic rules were manually tuned
+mainly to achieve an optimal contrast of the manipulated
+image. Figure 2 illustrates a typical colour manipulation
+process in the proposed intelligent background image
+composition module. The detail colour transformation
+algorithm is elaborated in Table 1.
+In a bitmap image, the colour of an image pixel
+is represented by a colour vector representing values
+in a corresponding constitutes of a certain colour
+models. The HSB (Hue, Saturation, Brightness) model
+is commonly used in computer graphics applications7 .
+The HSB colour space was designed to approximate
+the way humans perceive and interpret colour. The
+model defines a colour space in terms of three
+
+Figure 2. The colour manipulation process in the background composition module.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+37
+
+Table 1. Algorithms for the colour transformation
+Step1:
+
+Transform each pixel in the input image from RGB colour to grayscale with the luminance Bin given as 5
+
+Step 2
+
+Perform
+Gamma
+correction
+on grayscale
+the grayscale
+Perform Gamma
+correction
+on the
+pixel. pixel.
+
+Bin = 0.299
+R+0.577 G +0.144
+BB
+Βin = 0.299R+0.577
+G+0.144
+γ
+Bγ Bγ
+=B
+= inBin γ
+
+Step 3
+
+whereγ?is set to 0.5 for presentations to be shown in typical LCD monitors.
+
+Based on the target colour (Htarget, Starget, Btarget), perform colour transformation according to the following heuristic
+rules.
+(H) The hue of all the pixels is set the target hue.
+Hout = Htarget
+(S) The saturation of pixels with the gamma-corrected brightness less than 0.5 is set to the target saturation.
+Others are linearly decayed (Figure 3a).
+
+ Starget,
+Sout =  2S − 2S × B
+target − 2S
+target
+γ γ,
+target × B
+2 Starget
+
+0<0<B
+Bγ ≤
+0.5 
+γ <0.5
+
+0<BB
+0.5<
+γ γ<1
+≤ 1
+
+(B) The brightness of a pixel is linearly mapped based on the target brightness ( Btarget ) and a given contrast span
+
+(∆Β )
+
+( ? B ).
+
+= Btarget
++ ∆Β
+BBout
+−0.5∆Β
+0.5? B+
+? B×× Bγγ
+out =
+target−
+
+constituent components, namely, hue, saturation,
+and brightness. Table 1 lists a computationallyefficient algorithm based on the HSB colour models
+for manipulating the colours of a background image
+to better fit to a target colour scheme.
+Based on the above principles, Fig. 3 illustrates
+the framework of the background image composition
+module which includes the following core elements.
+Image Bank: The layout bank contains a collection
+of colour images to be used as the background of
+a multimedia presentation.
+Affective Colour Scheme Generator: The colour
+schemes for a particular style or affective state can
+be dynamically calculated using various colour
+combination heuristic rules, or simple based on
+colour scheme charts.
+Image
+Bank
+Layout
+Bank
+Color
+Scheme
+Generator
+
+Color
+Manipulation
+Module
+
+input image,
+select layout, style, hue
+
+Figure 3. Framework of the background image
+composition module .
+38
+
+Layout Bank: The layout bank contains a collection
+of layout designs each one with a particular arrangement
+of sub-page regions for the presentation. The layout
+schemes need to be pre-fabricated by graphic designers.
+Colour Manipulation Module: This module handles
+the computation for the on-the-fly image manipulation.
+The image manipulation could be implemented either
+in the server-side or in the player-side, depending
+on the image processing capabilities of the player.
+User Interface: The user interface allows a user
+to select the target style or affective state, layout,
+colour schemes, and background image.
+
+4. IMPLEMENTATIONS
+Based on the proposed framework, we have
+implemented a prototype system. We applied the
+Macromedia Flash technology for implementing the
+layer presenters. Each layer presenter is essentially
+a self-contained Flash document, in which the formatting,
+interactions and decorative graphics are all encapsulated.
+Flash provides a layer-based architecture with which
+a presentation with different graphic elements can
+be easily superimposed one upon one seamlessly.
+Particular, since the plug-ins for Flash player have
+been extremely widely installed, a user would not
+have to download additional plug-ins to view the
+developed exhibitions. For the server-side content
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+management and on-the-fly image manipulations,
+we applied the Microsoft ASP.net and SQL database
+technologies. In our design, the system provides a
+“PowerPoint-like” interface, with which a typical
+content author with basic computer skills can operate
+easily. Figure 4 shows snapshots of the interfaces,
+with which a user can organise the content structure
+of an exhibition page, input text (HTML or plain
+text), select the animation parameters, adjust the
+position and transparency of each layer, and preview
+the presentation. Figure 5 shows a snapshot of the
+interface for the background image composition module.
+Figure 6 shows a snapshot of exhibition pages for
+a content document with three different presentation
+styles.
+The system adopted the colour combination
+schemes listed by Colour Research Institute, Korea6 .
+About a dozen of common style or affective states,
+each one with five colour schemes were applied.
+Dozens of different layouts were designed. A typical
+process for generating a colour-transformed background
+image includes the following steps:
+
+Figure 4. Snapshots of the system interfaces: (1) content
+structure; (2) preview of the presentation;
+(T1) HTML-based interface for content texts; (T2)
+interface for setting the parameters of the text
+layer presenter; (I1) WYSIWYG interface for
+adjusting the size, position, and transparency of
+the image layer presenter.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+Step 1.
+
+Select a background image and a layout.
+
+Step 2.
+
+Select a target style or affective state.
+
+Step 3.
+
+Select a colour scheme associated with
+the target style or affective state.
+
+Step 4.
+
+Based on the selected colour scheme and
+layout, the final background image is
+dynamically composed.
+
+Step 5.
+
+Finally, the content layers are superimposed
+on top of the composed background using
+corresponding layer presenters. The position,
+rotation, and transparency of each layer
+can then be adjusted to fit to the selected
+background layout.
+
+5. A CASE STUDY ON THE SYSTEM
+USABILITY
+The implemented system has been used in two
+of our digital museum projects for construction of
+the exhibition websites of the Lanyu Digital Museum
+and the National Repository of Cultural Heritage.
+Each exhibition website contains hundreds of exhibitions,
+which are constantly updated from time to time.
+The exhibitions were authored alone by a professional
+graphic designer skilled in Photoshop and PowerPoint
+but not in Macromedia Flash or programming. He
+found that the system interfaces resemble that of
+the PowerPoint and is rather easy to learn and
+operate. It took a number of hours to get familiar
+with the interfaces. Overall speaking, the quality of
+authored animation-based presentations is rather
+satisfactory. Figure 7 shows a snapshot of the
+exhibitions for the two projects (note that animation
+of the presentation could not be captured in these
+steady shots).
+Nevertheless, observations on the authoring
+processes of the author pointed out a main problem
+that is related to the usability of the system. Aiming
+to provide versatile presentation styles, we devoted
+a significant amount of resources to develop huge
+amount of layer presenters, audio loops, and together
+many presentation parameters that a user can select
+and adjust. It appeared that there were many good
+layer presenters that have never been used throughout
+the projects. How to develop interfaces to help
+content authors to efficiently locate the appropriate
+layer presenters in such a large pool to give a
+desired target style to be explored. In the long run,
+given a system with such complex functionalities
+supported, there are several dimensions along which
+this system should be evaluated. It would require
+39
+
+Figure 5. A snapshot of the interface for the intelligent background image composer. (1) content structure;
+(2) affective colour schemes; (3) layout; (4) images; (5) preview of the composed background.
+
+Figure 6. A snapshot of exhibition pages for a content document with three different presentation styles.
+
+Figure 7. A snapshot of the exhibition website for the Lanyu Digital Museum (left), and a snapshot of the
+exhibition website for the National Repository of Cultural Heritage (right).
+40
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+a full-fledged usability test to justify various aspects
+of the system such as functionality, user interface,
+aesthetic and affective performances, and potential
+applications. The more serious study on the usability
+is current under our research agenda.
+
+REFERENCES
+1.
+
+Hong, J.S.; Chen, P.H. & Hsiang, J. XSL-based
+content management for multi-presentation digital
+museum exhibitions. In ECDL2001: 5th European
+Conference on Research and Advanced Technology
+for Digital Libraries, Darmstat, Germany, September
+2001.
+
+2.
+
+Yang, R.; Ramaiah, C.K. & Foo, S. Virtual
+archival exhibition system: An authoring tool for
+developing web-based virtual exhibitions. I n
+Proceedings of the International Conference on
+Dublin Core and Metadata Applications , 2007,
+pp. 96-105.
+
+3.
+
+Kim, J.; Lee, J. & Choi, D. Designing emotionally
+evocative homepages: An empirical study of the
+quantitative relations between design factors
+and emotional dimensions. International Journal
+of Human-Computer Studies , 2003, 59(6), 899940.
+
+4.
+
+Itten, J. The art of colour: The subjective experience
+and objective rationale of colour. John Wiley &
+Sons Inc, 1997, ISBN-13: 978-0471289289.
+
+5.
+
+Tokumaru, M.; Muranaka, N. & Imanishi, S.
+Colour design support system considering colour
+harmony. In Proceedings of the 2002 IEEE
+International Conference on Fuzzy Systems .
+IEEE Press, Honolulu, 2002, pp. 378-383.
+
+6.
+
+I.R.I. Colour Research Institute, Korea. Colour
+Combination. Youngjin.com & Co., ISBN: 89314-2368-3, 2003.
+
+7.
+
+Jain, A. Fundamentals of digital image processing.
+Englewood Cliffs, Prentice-Hall, N.J., p.67. ISBN:
+0-13-332578-4, 1989.
+
+6. CONCLUSION AND FUTURE WORK
+This study addresses the development of an
+online authoring system that can be integrated into
+a digital archive system to help the content author
+to facilitate the construction of online exhibitions.
+The system is build upon a layer-based hypermedia
+presentation architecture, which decomposes a style
+template into several independent layer presenters.
+Particular attention has been focused on the approach
+for a background composition module that incorporates
+the concerns of affective colour schemes and page
+layout.
+The proposed layer-based approach appears to
+be practical in current web environments for authoring
+large-scale aesthetic and affective exhibitions.
+Nevertheless, while the proposed system could be
+widely applied in authoring scenario where human
+intervention is available, our optimal goal is to develop
+an intelligent-styling system that can create an
+affective exhibition based on properties of a content
+document in a more automated way. The relevant
+research is currently under study in our research
+group.
+
+ACKNOWLEDGMENTS
+This work is supported by the National Science
+Council of Taiwan, under grant NSC-94-2422-H-260002.
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+41
+
+About the Authors
+Dr Pai-Hsun Chen received her MS degree and the PhD degree in computer science and
+information engineering from the National Chi Nan University in 2001 and 2005, respectively.
+In August 2005, she joined the Department of Computer Science and Information Engineering,
+Nan Kai Institute of Technology, Taiwan, as an assistant professor. Her research interests
+include digital museum, hypermedia, affective computing and aesthetic computing.
+
+Dr Jen-Shin Hong received his PhD degree from the University of California at Berkeley in
+1993 with bioengineering/mechanical engineering major. He is currently an associate professor
+in the Department of Computer Science and Information Engineering at National ChiNan University,
+Taiwan. He has served in the editorial board of the International Journal on Digital libraries
+since 2002. His research interests are in digital library systems, hypermedia authoring, affective
+computing and affective computing.
+Dr Sheng-Wen Shih received his MS and PhD degree in electrical engineering from the
+National Taiwan University in 1990 and 1996, respectively. From January to July 1997, he
+worked as a postdoctoral associate at the Image Formation and Processing Laboratory, Beckman
+Institute, University of Illinois. In August 1997, he joined the Department of Computer Science
+and Information Engineering, National Chi Nan University, Taiwan, as an assistant professor,
+and became an associate professor in 2003. His research interests include computer vision,
+biometrics, and human-computer interaction.
+
+42
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+

@@ -1,0 +1,542 @@
+DESIDOC Journal of Library and Information Technology, Vol. 28, No. 4, July 2008, pp. 72-78
+© 2008, DESIDOC
+
+An Integrated Environment for Cataloguing and Online
+Presentation of Museum Exhibits
+Costas Vassilakis1, Akrivi Katifori 2, Elias Daradimos2 and George Lepouras1
+Department of Computer Science and Technology
+University of Peloponnese, Tripolis 22100, Greece
+
+1
+
+Department of Informatics and Telecommunications
+University of Athens, Ilisia, Athens 157 84, Greece
+
+2
+
+ABSTRACT
+The paper presents an integrated environment which enables museum personnel to catalogue and
+at the same time publish online museum exhibits. The system is based on international standards and
+is highly customisable to cater the needs of a variety of museum types. Moreover, the underlying database
+allows storing for the same exhibit documentations for different audiences and in multiple languages,
+while it is extendable to accommodate new media types, languages, exhibits and information categories.
+The administrative part of the environment permits the restriction of certain functions to specific personnel
+roles, enforcing thus a general museum security policy regarding access to and modification of information.
+The environment presented is currently in use at the Athens University History Museum.
+Keywords : Museum, online museum exhibits, integrated environment, cataloguing.
+
+1. INTRODUCTION
+Museums are often regarded as organisations
+with a sole purpose of accumulating and preserving
+artefacts of cultural or scientific importance. This
+notion has been changing during the past decades
+and the profile of museums has been enhanced with
+educational and entertainment characteristics. Nowadays
+museums utilise their exhibits to educate and at
+the same time entertain their visitors. The advent
+of the Internet has given the means to museums to
+reach out and make contact with new audiences.
+The new technologies are also causing a convergence
+between the computing systems used for exhibition
+and those used for collection management 1 . Long
+established, large museums with the necessary
+infrastructure digitise and publish their collections
+on the web. Hermitage 2 and Louvre 3 are among an
+ever increasing number of museums that offer a
+wealth of information for their online visitors. However,
+72
+
+for smaller museums which lacked even the basic
+resources for cataloguing their exhibits this was a
+restricted task.
+To date, a number of studies have been carried
+out on the issues relating to developing websites
+in general and specially for museums. Kohrs and
+Merialdo4 studied techniques for personalising content
+in the context of the web and tested these techniques
+in the context of museum websites. Takahashi et
+al.5 described a paradigm for unified and global
+access to heterogeneous and distributed multimedia
+contents of museums, while Marucci and Paterno 6
+gave an example of a museum on the web which
+does not disorient the user, and Hong et al.7 described
+two methods for querying the exhibit database. Finally,
+Lepouras and Vassilakis 8 presented an adaptive
+system for virtual reality museums on the web,
+while Lepouras et al. 9 presented a distributed system
+for online museums.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+In the framework of “Digitisation and Online
+Presentation of Athens University’s History Museum”
+a project sponsored by Information Society
+(http://www.infosoc.gr/infosoc/en-UK/default.htm) on
+an integrated environment for cataloguing and online
+presentation of museum exhibits has been developed
+which caters the requirements outlined in the next
+section.
+
+2. MUSEUM REQUIREMENTS
+During the initial phase of the project a requirements
+analysis was carried out aiming to capture not only
+the constraints set by a History Museum curator
+but from other small to medium sized museums as
+well. To this end, experience from curators of diverse
+content museums was utilised ranging from zoology
+and palaeontology to archaeology and criminology
+museums. These requirements were later distilled
+in specifications and adopted in the environment’s
+design.
+The basic requirements derived from this phase
+were:
+Ë
+
+Ë
+
+Ë
+
+Support for cataloguing and presentation for a
+variety of exhibits: The environment should be
+able to support the cataloguing for a range of
+different exhibits such as books, pictures, scientific
+equipment, archaeological exhibits, natural history
+exhibits, and art objects. Furthermore, the system
+should allow the use of taxonomies (i.e. systematic
+categorisation) which is especially useful for
+natural history museums.
+Support for presentation to diverse target groups:
+Online visitors to museums originate from a
+variety of educational, cultural and economical
+backgrounds and have different interests, educational
+needs, available time and cognitive abilities. To
+this end, the system should cater for multilingual
+and multicultural variations. Additionally, the
+system should offer the possibility to museum
+curators to form different, customised collections
+of exhibits to address the needs of diverse
+target groups.
+Support for museum metadata standards: Information
+concerning the title of the object along with a
+physical description, the location of the object,
+the availability of an exhibit for loan, conservation
+treatments is among the most common kept for
+each artefact. The museum should be able to
+exchange this information with other museums.
+To this end, adoption of international standards
+is of the essence.
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+Ë
+
+Minimisation of total cost of ownership: The
+environment should be based on open source
+technologies to better support extensibility and
+to minimise cost of acquirement. In addition,
+since most small to medium sized museums
+have limited resources and cannot afford to
+employ permanent IT personnel, maintenance
+of the website content should be easy enough
+to be carried out by non-IT personnel.
+
+Based on these requirements we have proceeded
+with a detailed design of the underlying database
+and the user interface.
+
+3. ENVIRONMENT DESIGN AND
+IMPLEMENTATION
+The information integrated museum system employs
+a database for storing and retrieving all information
+used by both the cataloguing and the web presentation
+subsystems. Using a database ensures flexibility
+in information storage options and good performance,
+especially for retrieval operations, while offering possibilities
+for creating customised complex reports, when requested
+by the museum management. The database schema
+for the integrated museum system was created in
+the system design phase, and targeted the following
+major design goals:
+(i)
+
+Full support for functional requirements: The
+database schema should be able to fully support
+all functional requirements identified in the analysis
+phase, both regarding the information elements
+that need to be stored and the queries that
+need to be evaluated for creating web pages
+and reports for museum personnel. In order to
+determine the database information elements,
+both the user requirements and international
+standards, including Dublin Core10 , CIDOC11 and
+Spectrum12 were considered, to ensure the widest
+applicability of the integrated system.
+
+(ii) Extensibility: The database schema should be
+able to accommodate new media types and/or
+information elements with the minimum number
+of changes. For new media types (such as
+panoramas, novel 3-D model representations,
+etc.) in particular, it was highly desirable that
+they should be readily supported by the database
+with no modification at all, since such types
+emerge as new capturing devices and/or digital
+media formats.
+(iii) Performance: The system should be able to
+rapidly generate web pages, both for the cataloguing
+and for the web presentation subsystems. Besides
+73
+
+quick formulation of web pages, the overall information
+storage and delivery architecture should be tuned
+to ensure that performance enhancement
+mechanisms, such as client and proxy server
+caches, could be fully exploited.
+The cache exploitation consideration led to the
+decision that images, audio, video and other media
+contents would be stored on the filesystem, rather
+than within the database. Indeed, if images were
+stored within the database, they would have to be
+extracted from it and sent to the requesting client
+(i.e. a browser) in the context of a dynamic request;
+the default behaviour of browsers is to not cache
+the results of dynamic requests, thus any subsequent
+need for retrieving the same resource would lead to
+a retransmission of the same data, penalising thus
+the overall performance. Although certain browsers
+were found to honour explicit cache control specifications
+stating that the pertinent document (image, audio,
+video, etc.) could be stored in the cache and reused
+later on, the caching behaviour was not consistent
+across all browsers, thus filesystem storage was
+opted for. For these items, the database—instead
+of the content itself—stores pointers, in the form of
+path names.
+The core database schema for storing the museum
+information content is depicted in Fig. 1. This core
+schema illustrates only the basic tables used for
+storing information, and is complemented with additional
+tables, mainly for storing various aspects of data
+
+related to exhibits, such as maintenance activities,
+reproduction rights, exhibit parts, material and physical
+dimensions, etc.
+The central concept in this database schema
+is the exhibit, with each exhibit representing a distinct,
+self-contained artefact that is hosted by a museum.
+The administrative interface for entering exhibit information
+is illustrated in Fig. 2. As can be seen from the
+menu zone, information captures a number of exhibit
+facets, with each of them possibly related to different
+museum personnel and/or website visitor roles or
+profiles. The way information is organised in different
+screens serves a twofold purpose:
+(i)
+
+Each portion of information is for specific role,
+e.g. the information related to “Reproduction”
+(rights and charges) is of interest only to the
+museum administrators and the financial department.
+Thus roles not interested in specific information
+are protected from facing overwhelming amount
+of information, either by simply not choosing
+specific links and/or by customising their workspace
+so as not to display certain links at all. The
+system administrator may enforce certain links
+to be invisible to specific roles.
+
+(ii) By limiting user access to designated links,
+system administrators may enforce the museum
+security policy regarding access to and modification
+of information thus protecting data confidentiality
+and integrity. At a database level, the information
+
+Figure 1. Core database schema for integrated museum system.
+
+74
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+Figure 2. Administrative interface for cataloguing museum exhibits.
+
+managed in each screen is stored in a different
+table: this enables the exploitation of SQL’s
+discretionary access control mechanisms, i.e.
+granting data retrieval and/or modification privileges
+to certain users on specific tables. Databaselevel security mechanisms complement the access
+control features integrated in the management
+application, thus delivering adequate security
+provisions for most museum environments. Splitting
+the data across different tables does not affect
+performance, since tables storing exhibit information
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+facets are typically accessed individually using
+the exhibit’s Id as filtering criterion (which is
+part of the primary key in each table), thus
+only selection operations, rather than joins,
+are performed in the database. Reports
+necessitating the combination of multiple facet
+tables are not often executed, while the performance
+penalty induced in such cases due to splitting
+of information in multiple tables has been quantified
+to be less than two per cent.
+
+75
+
+Two additional issues worth noting in Fig. 2 are
+the multilinguality capabilities of the integrated system
+and the support it provides for multiple profiles .
+Regarding the multilinguality capabilities, the user
+can select the user interface language when s/he
+logs in the administrative interface. The user interface
+language selection affects the language in which
+menus, labels and messages are presented to the
+user. Multilingual capabilities, however, apply to the
+content entered and managed through the administrative
+interface. Each museum may choose the languages
+it wants to store and maintain in. The administrative
+interface provides the required facilities for managing
+content multilinguality: the “Language” combo box
+appearing in each screen hosting multilingual content
+may be used to switch between available languages
+and enter or update original content or translations
+in the languages chosen by the museum.
+For multiple profiles, the museum may designate
+visitor profiles that should be available in the web
+portal; the default setting for available user profiles
+is Researcher, Visitor and Student, which the requirement
+analysis has identified as major web portal visitor
+groups that (potentially) need to be presented with
+different information. Indeed, researchers need to
+be presented with details which are not of interest
+(or even boring) to common visitors, whereas students
+need to be presented with specially tailored descriptions
+and texts, possibly edited with the aid of museopedagogues. Museums addressing different target
+groups may customise this preset. For each piece
+of information that is presented through the museum
+web portal, the administrative interface displays a
+distinct input area for every chosen visitor profile,
+allowing thus museum content providers to enter
+the appropriate information.
+The collection (webCollectionsLang and
+webCollectionExhibit ) tables provide the database
+underpinnings for organising exhibits into collections.
+One important provision made in the database design
+is to allow exhibits to participate in multiple collections,
+with each such participation possibly conveying a
+different museum message . For example, the regal
+decree announcing the founding of the Athens University
+is interpreted differently when viewed in the “Athens
+University History” collection than when viewed in
+the “19th Century Calligraphy” collection. Museum
+curators are therefore relieved from the physical
+world restriction that each exhibit may participate
+in a single collection/exhibition arrangement (since
+it has only one physical instance), and are enabled
+to formulate collections best suiting the museum
+organisation and/or web visitor needs, including exhibits
+76
+
+in as many collections as needed. Each collection
+is tagged with a flag (collectionType) indicating whether
+the collection serves museum administration/organisation
+purposes (e.g. exhibition of room A, artefacts donated
+by a specific donor, etc.), or is crafted for presentation
+through the web or even both.
+The concept of categories supported by the
+integrated system is an important provision for museum
+curators, since it provides a concise and effective
+means for describing properties of exhibits, while
+these descriptions can be used in browsing, searching
+and organisation activities. In more detail, categories
+form a hierarchical concept tree , with each level
+specialising the concept represented at its parent
+level. Each exhibit may be linked to any number of
+categories at arbitrary tree levels, associating thus
+the exhibit with the relevant concepts. Users (either
+museum staff or web visitors) are able to drill down
+the concept hierarchy to locate exhibits correlated
+with specific concepts and/or use these concepts
+in queries to narrow the scope of their searches.
+Figure 3 illustrates the administrative interface for
+category management, and shows selected levels
+of concept hierarchies created for the Athens History
+University Museum. At database level, information
+regarding categories is stored in the following tables
+of Fig. 1: category (lists available categories and
+maintains parent/child relationships between them),
+webCategoryLang (hosting multilingual category
+descriptions) and exhibitCategories (stores associations
+between categories and exhibits).
+A final issue worth discussing regarding the
+database is the support it provides for multiple levels
+of detail supported for all multimedia resources
+(images, video, audio, etc.) that are stored in the
+integrated system. Indeed, the integrated system
+should store (a) digital formats with very high resolution,
+to be made available to researchers or even be used
+for reproduction purposes and (b)digital formats with
+low and medium resolutions, to be made available
+through the web (these resolutions entail files of
+small sizes which can be effectively delivered through
+the Internet, impeding also unauthorised high-quality
+reproduction, which infringes the museum’s intellectual
+property rights); at the database level, storage of
+multiple resolutions is enabled through the provision
+of appropriate fields in the pertinent tables
+(exhibitResource and bookPages in Fig. 1), allowing
+for storage of low, medium and high resolutions, as
+well as a thumbnail for each resource. Of these, the
+first two are made available through the web, while
+the later is restricted for use within the museum
+environment only. Naturally, the thumbnail is used
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+Figure 3. Administrative interface for managing categories.
+
+for providing users with a quick visual overview of
+the resource contents.
+As shown in Fig. 1, information regarding book
+pages, a special case of exhibit resource, is stored
+in a separate table (bookPages) than other resources
+(exhibitResource). This decision stems from the
+different information storage needs identified in the
+analysis phase for these resource types and more
+specifically:
+Ë
+
+Ë
+
+bookPages are strongly associated with a numbering
+scheme, which dictates their order in the original
+publication and enables the reproduction of this
+order upon presentation. This requirement does
+not hold for other resource types, which are
+generally unordered.
+bookPages need no additional description to
+that provided for the book as a whole, while
+generic exhibit resources in general do. For
+instance, an exhibit entry regarding the Victory
+of Samothrace statue may be associated with
+multiple resources; pictures of the statue from
+multiple angles, images representing the statue
+without the boat added to it during the Roman
+period, close-up detailed images from the broken
+wings area, 3-D dioramas of the statue in the
+environments it is believed to have been placed
+in different years, etc. Obviously, each such
+resource needs a description to help visitors
+understand what the resource depicts and how
+it should be interpreted.
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+Since the information storage needs for these
+two resource types are diverse enough, it was decided
+that different tables should be created at the database
+level to store the data corresponding to instances
+of these types. As shown in Figure 1, page numbering
+is embedded in the bookPages table, while resource
+descriptions (for non-page resources) are separately
+stored in the webResourceLang table, since for a
+single resource multiple descriptions need to be
+maintained, to cater for multiple languages and
+visitor profiles.
+
+4. FUTURE WORK
+The environment presented is currently in use
+at the Athens University History Museum (http://
+history-museum.uoa.gr/). The system holds 10 major
+collections with 581 categories of exhibits, 1342
+artifacts of which more than 200 are books with
+more than 14,000 digitised pages. All of the
+documentation is available in three languages: Greek,
+English and French. For the future an extension is
+planned which will allow the dynamic synthesis of
+virtual-reality museum. The engine will automatically
+create a web-based virtual-reality museum based
+on user’s preferences and profile.
+
+REFERENCES
+1. Besser, H. The transformation of the museum
+and the way it’s perceived. In Wired museum
+edited by Katherine Jones-Garmil. American
+Association of Museums, Washington,1997.
+
+77
+
+http://www.gseis.ucla.edu/~howard/Papers/garmiltransform.html
+2. Mintzer, F.; Braudaway, G.; Giordano, F.; Lee,
+J.; Magerlein, K.; D’Auria, S.; Ribak, A.; Shapir,
+G.; Schiattarella, F.; Tolva, J. & Zelenkov, A.
+Populating the hermitage museum’s new website,
+Communications of the ACM , 2001, 44(8), 5260.
+3. Louvre. http://www.louvre.fr/
+4. Kohrs, A. & Merialdo, B. Creating user-adapted
+websites by the use of collaborative filtering.
+Interacting with Computers , 2001, 13(6), 695716.
+5. Takahashi, J.; Kushida, T.; Hong, J.K.; Sugita,
+S.; Kurita, Y.; Rieger, R.; Martin, W.; Gay, G.;
+Reeve, J. & Loverance, R. Global digital museum:
+Multimedia information access and creation on
+the internet. In DL’98: Proceedings of the 3rd
+ACM International Conference on Digital Libraries,
+1998, 244-53.
+6. Marucci, L. & Paterno, F. Designing an adaptive
+virtual guide for web applications. In Proceedings
+of the 6th ERCIM Workshop on ‘User Interfaces
+for All, 2000.
+
+7. Hong, J.S.; Chen, H.Y. & Hsiang, J. A digital
+museum of Taiwanese butterflies. In DL’00:
+Proceedings of the 5th ACM International Conference
+on Digital Libraries, 2000, 260-61.
+8. Lepouras, G. & Vassilakis, C. Adaptive virtual
+reality museums on the web. In Adaptable and
+Adaptive Hypermedia Systems, edited by S.Y.
+Chen and G.D. Magoulas, IRM Press, 2005,
+pp. 190-205
+9. Lepouras, G.; Katifori, A.; Vassilakis, C. & Charissi,
+A. Facilitating VR museums web presence. I n
+Proceedings of the 10th International Conference
+on Human-Computer Interaction, 2003, pp. 114347.
+10. Dublin Core Metadata Initiative. Dublin Core
+Metadata Element Set, Version 1.1, 2006.
+http://dublincore.org/documents/dces/
+11. CIDOC consortium, definition of the CIDOC conceptual
+reference model, 2007. http://cidoc.ics.forth.gr/
+docs/cidoc_crm_version_4.2.2.pdf
+12. Museum Documentation Association, SPECTRUM
+3.1, 2007. http://www.mda.org.uk/ spectrum.htm
+
+About the Authors
+Dr Costas Vassilakis holds a BSc in Informatics (1990) and a PhD in Design and Implementation of a Historical
+DBMS (1995). Dr Vassilakis has authored more than 70 papers for international conferences and journals in
+subject areas including e-government, web technologies and databases. He has also participated in numerous
+European and national RTD projects. Currently Dr Vassilakis is an Assistant Professor in the University of
+Peloponnese and a research fellow for the University of Athens. His scientific interests include semantic web
+technologies, e-government, databases, user interaction and distributed systems.
+Akrivi Katifori holds a BSc in Informatics and Telecommunications (2000) and an MSc in Signal Processing for
+Telecommunications and Multimedia (2003) from the University of Athens, and is currently a PhD student of the
+same department. She has participated in European and national RTD projects and has authored several papers
+in different research areas of computer science. Her scientific interests include ontologies and semantic web
+technologies, virtual museums, information visualization and personal information management.
+Ilias Daradimos holds a BSc in Electronics Engineering (2003) and an MSc in Data Communication Systems
+(2005) from the Technical Educational Institute of Athens, and is currently a researcher at the Department of
+Informatics of the University of Athens. In the context of two national RTD projects he has contributed in the
+development of web–based applications for museums. His scientific interests combine virtual museums and web
+community tools with the semantic web.
+Dr George Lepouras holds a degree in Mathematics from the University of Athens (1991), an MSc in
+Information Technology Systems (1992) from the University of Strathclyde, and a PhD in Human-Computer
+Interaction from the University of Athens (2000). Dr Lepouras has participated in numerous European and national
+RTD projects, including the SmartGov and CB-Business projects of the IST framework. Dr Lepouras has authored
+more than 60 papers for international conferences and journals in various subject areas, including e-government,
+user interfaces and web technologies. Currently Dr Lepouras is an assistant professor in the University of
+Peloponnese and a research fellow for the University of Athens. His scientific interests include human-computer
+interaction, e-Government, and virtual reality systems.
+78
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+

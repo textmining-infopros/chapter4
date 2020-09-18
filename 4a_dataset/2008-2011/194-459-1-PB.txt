@@ -1,0 +1,976 @@
+DESIDOC Journal of Library and Information Technology, Vol. 28, No. 4, July 2008, pp. 22-34
+© 2008, DESIDOC
+
+Online Virtual Exhibitions: Concepts and Design Considerations
+Schubert Foo
+College of Humanities, Arts and Social Sciences
+Nanyang Technological University, Nanyang Link, Singapore
+E-mail: sfoo@pmail.ntu.edu.sg
+
+ABSTRACT
+Online virtual exhibitions (VEs) are acknowledged as important complimentary counterparts to physical
+exhibitions. It overcomes space, time and location restrictions and allows global visitors to access these
+priceless and exciting treasures that are stored in museums, archives and other institutions on a 24/
+7/365 basis. Well constructed VEs can offer alternative experiences to the "real thing" and open up
+other opportunities that include learning, more content beyond physical exhibits, active participation and
+contribution by visitors through forums and uploads, online shopping, and others. This paper provides
+a state-of-the-art review, and illustrates concepts and design considerations for the development of VEs
+that can be highly effective and efficient with minimal technological knowledge. By considering the
+important issues of metadata, system architecture design and development techniques, it becomes possible
+to generate a series of VEs to meet the needs of different user groups and at the same time cater to
+the constraints of the client computers, thereby providing the users the best possible experience in
+engaging with the VEs.
+Keywords: Online virtual exhibitions, VE concepts, VE design.
+
+1. INTRODUCTION
+An early definition of virtual exhibition (VE) is
+defined as an online Web-based hyper-textual dynamic
+collections devoted to a specific theme, topic, concept
+or idea 1. Most virtual exhibitions are attributed to
+museums and archives to make visible their collections
+to end users, generally the public or specialised
+user groups 2. Original artifacts are digitally captured
+and rendered into 2-D or 3-D objects which are
+packaged together and linked by hyperlinks to allow
+non-linearity or multiple-linearity by users (exhibition
+visitors). Virtual exhibitions are viewed as dynamic
+as they often undergo ongoing change in terms of
+design, activity and content, including encouraging
+users to contribute towards it, thereby adding to its
+dynamism. Many early VEs are undertaken as distinct
+projects and packaged as stand-alone exhibits with
+little regard on the reusability of objects, adoption
+of standards to support interoperability, extensible
+and scalable system architectures to support growth
+22
+
+and pervasiveness of exhibitions. Some examples
+of early VEs include Building a National Collection:
+150 Years of Print Collecting at the Smithsonian by
+the National Museum of American History (americanhistory.
+si.edu/prints/index.htm); American History Documents
+(www.indiana.edu/~liblilly/history/history.html); Birds:
+A Virtual Exhibition by Canadian Heritage Information
+Network (www.virtualmuseum.ca/Exhibitions/Birds/
+Birds/); Colours of the Wind by the National Archives
+of Singapore (www.a2o.com.sg/a2o/public/html/
+online_exhibit/misas/exhibit/index2.html)3 , 4 and others.
+Over the last decade, improvements to these
+areas have been seen and VEs have reached a
+stage of sophistication although a number of fundamental
+challenges remain. While the basic tenets of VE
+have not changed, it is helpful to provide an updated
+definition of VE:
+A VE is a Web-based hypermedia collection of
+captured or rendered multi-dimensional information
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+objects, possibly stored in distributed networks,
+designed around a specific theme, topic, concept or
+idea, and harnessed with state-of-art technology
+and architecture to deliver a user-centered and engaging
+experience of discovery, learning, contributing and
+being entertained through its nature of its dynamic
+product and service offerings.
+The case for investing in the design and development
+of VE has been well documented5 , 6. First and foremost
+is the recognition that hosting VEs provides a gateway
+to showcase museum or archive (hereafter referred
+to as institution) collections that are not bound by
+time (temporal), distance (spatial) and space (spatial)
+constraints unlike physical exhibitions. This addresses
+the important issue to make valuable artifacts available
+to the masses while playing the role of custodianship
+of national and international treasures.
+Users are unlikely to pay visits to these institutions
+unless they are aware of its collections and holdings.
+VEs coupled with educational functionality can promote
+the institution as a centre for learning and encourage
+users to visit and access more artifacts via information
+objects. Such demonstration of the institutional relevance
+and societal value through a strong public profile
+and high usage figures can be used to help secure
+adequate funding and resources for survival, sustainability
+and growth into the future. As such, outreach through
+VEs is seen to be an important strategic activity
+that needs to be properly planned and executed.
+Other forms of outreach activities like publications,
+websites, tours, talks, demonstrations and other
+activities can be undertaken alongside VEs to create
+the impact and yield the desired outcomes.
+Online strategies (VEs and websites) have particular
+advantages: it is relatively easy to add new products
+and services or revamp existing ones in the form of
+adding new materials, updating and reusing existing
+materials, adding new learning and edutainment
+components, online shopping, online forums, users'
+contributions, to name just a few. VEs, through
+digitisation and rendering, also have the distinct
+advantage to create and use electronic surrogates
+of original fragile or sensitive records, or priceless
+artifacts which might otherwise be damaged in physical
+consultation. Established institutions such as
+Smithsonian Institute (www.si.edu), Auckland Art
+Museum (www.ackland.org/index.php), and most national
+heritage boards and museums around the world
+have a permanent and rich set of VEs hosted on
+their servers. Collectively, they are able to display
+and make available a significant amount of "treasures"
+held by the institution which is by far much than
+what physical exhibitions can display and achieve
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+at any one time. This means of extending outreach
+has significant long term returns of investment once
+these VEs are curated and implemented for public
+access and use.
+While VEs have been critiqued in the past for
+their inability to provide the experience of the real
+thing, VEs can allow users to understand, discover,
+learn and do far more than physical exhibitions. By
+adopting a carefully researched user-centered design,
+VEs through hyper-linking supports both linear and
+non-linear discovery and learning pathways, creating
+learning opportunities that are difficult to replicate
+in physical exhibitions. The ability to engage in
+multiple forms of media (text, image, audio, sound,
+video, augmented reality and virtual reality components)
+on one page, having the ability to reverse, revisit,
+translate and read text tailored for different user
+groups, proficiencies and requirements, immersion
+in well crafted theme-games, etc. collective helps
+to establish a deeper sense of understanding, awareness,
+and learning of contents than physical exhibits.
+VEs are therefore no longer viewed as passing fads
+but an important logical companion and extension
+to physical exhibitions.
+Beth Hatefutsoth, the Nahum Goldmann Museum
+of the Jewish Diaspora (http://www.bh.org.il/index.html)
+site has many VEs on Jewish people in various
+places available in both in English and Hebrew.
+British Library VEs on various topics (http://www.
+collectbritain.co.uk/galleries/); National Gallery of
+Art's VEs (http://www.nga.gov/exhibitions/webtours.
+shtm) based on Apple QuickTime VT; VE of Canadian
+birds(http://www.virtualmuseum.ca/Exhibitions/Birds/
+Birds/); Cabaret Mechanical Theatre's VE (http://
+www.cabaret.co.uk/vrexs.htm); Everyone's VE (http:
+//billdouglas.ex.ac.uk/eve/ exhibitions.asp); International
+Institute of Social History's VEs (http://www.iisg.nl/
+exhibitions/); Water and the Sacred, a photographic
+exhibition by Claude Renault available at Charnwood
+Museum VEs site (http://www.kalakahani.co.uk/
+crenault/); National Library Board of Singapore's
+VEs (http://exhibitions.nlb.gov.sg/); Musee McCord
+Museum's VEs (http://www.mccord-museum.qc.ca/
+en/keys/virtualexhibits/); and Museum and Art Gallery
+of the Northern Territory (http://www.nt.gov.au/nreta/
+museums/virtual/index.html). These are some of the
+important VEs, but there are obviously many more
+that are meant for general public and available on
+Internet. Some of the developers of these exhibitions
+added virtual reality or Flash movies but most of
+them are designed using images with some animation,
+and adequate textual information to relay the content
+and support the explanation of the objects and events
+in the exhibits.
+23
+
+While the discussion of VEs has so far being
+related to non-profit institutions such as museums
+and archives, it should be borne in mind that the
+ideas put forth subsequently are equally applicable
+to profit organisations for the marketing of its products
+and services.
+While some functionality and features are no
+longer slanted towards the social responsibility aspects,
+these VEs still relies on similar characteristics such
+as the ability to deliver attractive, interesting, engaging,
+and intriguing "exhibits" through user-friendly interfaces
+to encourage users (buyers) to visit and access the
+site, and ultimately become customers of the organisation.
+These sites typically have the common features of
+hyper-animated graphics, brief exhibitions and high
+interactivity zones to showcase products and services,
+online areas for mailing list sign-ups and online
+stores to order and make purchases. These VEs
+are often associated with biased education in an
+attempt to gain competitive advantage over other
+competitors' VE sites. On the other hand, VEs developed
+by non-profit organisations and government agencies
+are constructed with different objectives in mind:
+archival, preservation, discovery, education, and others.
+They are deemed more authoritative; contain better
+researched and trusted resources, and higher educational
+value.
+Nonetheless, a similar set of user-centered design
+paradigms, use of technological tools, well designed
+system architectures to high level of automation
+with minimal human intervention and effort to create
+new versions of VEs are equally applicable for profit
+organisations as for non-profit organisations where
+VEs are becoming pervasive. At a higher abstract
+level, we may consider VEs as digital libraries (DLs)
+that contain a set of information objects that can be
+accessed individually, or packaged together by
+applications supported by the DLs. The Digital
+Library Federation defines digital libraries as "organisations
+that provide the resources, including the specialised
+staff, to select, structure, offer intellectual access
+to, interpret, distribute, preserve the integrity of,
+and ensure the persistence over time of collections
+of digital works so that they are readily available for
+use by a defined community or set of communities"
+(www.diglib.org/about/dldefinition.htm). This effectively
+parallels what VEs attempt to provide to users through
+its contents, features and services.
+The importance of educational digital libraries
+such as Alexandria Digital Library (www. alexandria.
+ucsb.edu/), National Science Digital Library
+(http://nsdl.org/), the eGranary Digital Library (www.
+widernet.org/digitalLibrary/), Second Life (http://
+24
+
+secondlife.com/) and other similar online virtual
+communities have also demonstrated the use of
+virtual worlds for learning. Recently, Giunti Labs,
+one of Europe's leading vendor of elearning and
+mobile learning content solutions proposed a new
+system, eXact VLW (virtual Learning Worlds) that
+encompass an authoring environment, to create,
+manage and deliver 3-D objects, artifacts and scenes
+within collaborative virtual learning worlds compatible
+with SCORM (an eLearning standard). No technical
+knowledge of VRML, X3D or any other 3-D programming
+language are needed to create virtual learning experiences
+that can be integrated into existing LMS (Learning
+Management Systems) or VLE (virtual learning
+environment) through SCORM. Originally developed
+for education in digital heritage, the system allows
+2-D images, videos, text and any standard SCO
+learning objects (all adhering to open standards and
+tracking protocols) to be used to create VEs and
+virtual learning worlds 7 .
+The aim of this conceptual paper is to treat VEs
+from this generic angle of varying applicability to
+examine a number of pertinent issues in the design
+and delivery of online exhibitions. This includes addressing
+the stakeholders of VEs, the important role of metadata,
+system architectural design, and research advances
+of techniques and tools. This is done by drawing
+upon relevant literature of DL and VE researches.
+A deliberate omission of this paper is a detailed
+treatise of exhibition content (selection, organisation,
+and packaging) which is an area in its own right.
+
+2. STAKEHOLDERS OF VIRTUAL
+EXHIBITIONS
+A first cursory thought on stakeholders of VEs
+might perhaps result in the thinking that only two
+groups exist: that of the exhibition designer and end
+users. This is in fact quite contrary to reality. Patel,
+et al. suggested that there are actually six groups
+of stakeholders involved in the process of creating
+and using the VE, with each group playing different
+roles8 . The stakeholders are (i) curator who is
+knowledgeable of the information objections and
+primarily responsible for artifact selection (i.e. identifying
+and selecting the artifacts for the VE); (ii) photographer
+who is responsible for digital acquisition to create
+the information objects to be stored in the digital
+repository; (iii) cataloguer who is responsible for
+data management to describe, catalogue and group
+individual objects together; (iv) modeller who is responsible
+for model refinement to create and describe object
+interpretations and/or refinements; (v) curator exhibition
+designer who is responsible for exhibition building;
+and (vi) end user who is consumer of the final VE 8 .
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+The first five categories of stakeholders are typically
+part of the VE team, each with a different set of
+knowledge, expertise and skill sets and differing
+metadata requirements. VE teams can be large and
+can comprise professional writers, artists, archivists,
+graphic designers, multimedia technicians, technical
+specialists and curators. External advisory and
+editorial committees may also be roped in the VE
+design and construction to create a more balanced
+and effective exhibition.
+End users, on the other hand, can evolve from
+a myriad of different user groups: children and adults,
+students and teachers, academics and researchers,
+novice and expert users, tourists and casual Internet
+surfers, the general public and professional users
+(such as archivists, librarians and information
+professionals).
+This big range of stakeholders collectively translates
+into a huge set of differing requirements and expectations
+throughout the process of designing, developing and
+using the exhibition. A one size fits all paradigm
+is almost certain to fail to meet these expectations.
+There is a need for good metadata design and
+management, novel and effective ways to generate
+different versions of VEs at least or acceptable
+costs and high productivity in order to satisfy the
+needs of different user groups. With this, we can
+expect to find the requirement to tailor varying levels
+of content generation and online media types to
+cater to the needs of different types of users; contents
+would typically include multimedia elements, 2-D,
+3-D, augmented reality (AR) and virtual reality (VR)9,10.
+
+3. METADATA REQUIREMENTS
+Metadata has always been an extremely crucial
+aspect for describing and managing artifacts in the
+collection. When these are digitally acquired and
+transformed into information objects, a new set of
+corresponding metadata becomes necessary. When
+new applications such as VEs are developed, more
+metadata is required to describe and manage the
+exhibition, page contents, access information, and
+so on. The different stakeholder groups in the previous
+section provide an idea of the wide ranging metadata
+requirements needed by various constituents of the
+cultural heritage industry. The active researches
+done on metadata and continuing developments of
+standards such as SPECTRUM, EAD, Dublin Core
+and other metadata schemes attest to the importance
+of having relevant metadata to support a variety of
+needs. Metadata can typically be classified as descriptive
+metadata, technical metadata, presentation metadata,
+preservation metadata, administrative metadata, and
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+resource discovery metadata. It should be noted
+that while Dublin Core is an important, well-established
+metadata standard for descriptive and resource discovery
+across domains and used by almost all the systems,
+but it does not specifically deals with museum,
+archive and education requirements that have their
+own set of detailed metadata elements.
+This overwhelming amount of metadata has prompted
+the proposal for having a system for authoring, maintaining
+and managing metadata to support the development
+of the Augmented Representation of Cultural Objects
+(ARCO) system for museums to create, manipulate,
+manage and present small to medium artifacts in
+VEs for both internally within museums and externally
+on the Web 8 . They envisaged the creation of digital
+artifacts providing opportunities to develop virtual
+learning environments (VLEs) which in turn entail
+creating new additional metadata such as those
+defined by ADL Sharable Content Object Reference
+Model (SCORM) or IEEE Learning Object Metadata
+(LOM) standards to support eLearning. Furthermore,
+they envisage commercial exploitation by institutions
+in the form of virtual loans for VEs (through information
+objects) that requires the support of a digital rights
+management system (DRMS). All this translates
+into more and more need for metadata.
+Two issues are particularly important for metadata
+in the context of VEs. First is the highly recommended
+use of standards to support interoperability. When
+this becomes not possible for whatever reasons, the
+exchange of metadata information across systems
+becomes more costly due to the need for validation,
+optimisation and mapping. In terms of metadata
+definition and storage, XML has turned out to be the
+de-facto emerging preferred means to manage information
+objects and VEs. VE exhibition pages contain a
+series of exhibition objects that can be neatly encapsulated
+in a XML-based conceptual hypermedia document
+model. Such a document typically includes different
+types of information: text, data, graphics, images,
+hyperlinks and other elements. Likewise, the information
+object's metadata can be neatly based on the XML
+structure. Effectively, an XML-based solution exhibits
+the advantages such as platform independence, clear
+structuring and encapsulation, modularity, and so
+on.
+The second issue pertains to the need to create
+a range of representations for one same original
+artifact. As an example, an image can be captured
+at different resolutions and sizes. They can be used
+as thumbnails, medium resolution for browsing, and
+very high resolution for zooming and detailed analysis.
+These different versions of content basically share
+25
+
+the same metadata except for those entities that
+are distinct and different.
+Figure 1 shows an example of a photograph
+metadata set in XML format 9. In this example, the
+Accession ID is used to uniquely identify a photograph
+artifact while the location element is used to define
+the repository directory where all the images are
+stored. As indicated previously, the image element
+can be defined more than once to cater to the
+different available versions of the same original photograph.
+These versions may contain resized, enhanced, or
+digitally-manipulated variations (e.g. colour, addition
+of borders) of the original photograph.
+The same approach can be adopted for textual
+artifact metadata to incorporate the standard Dublin
+Core elements plus text specific elements. For example,
+the "content_version" element can be used for the
+support layering of information through different descriptive
+layers of a textual artifact. These text descriptions
+can range from summarised abstract information to
+detailed information, or specially text written for
+children or adults, and so on. Likewise we can
+adopt the same approach for different audio, video
+and other artifacts to cater for different network
+
+conditions, resolutions, and the like. In doing so, we
+have one associated metadata record across different
+content versions that can be drawn by the VE to
+create a series of VEs for different users.
+
+4. CREATION OF MULTIPLE VERSIONS
+OF VES EFFECTIVELY AND
+EFFICIENTLY
+By using this approach of layering metadata
+and use of style-sheets, Lim and Foo 9 developed a
+VE authoring system to interface with the National
+Archives of Singapore digital archive to support the
+creation of VEs. The XML-based digital archive provides
+different artifact types that form the contents in the
+exhibition through the reference and reuse model.
+This means that only one copy of information object
+resides in the repository which is in turn referenced
+and used by more than one VE as necessary. Information
+objects and exhibitions are endowed with rich metadata
+that include the Dublin Core elements and other new
+attributes to support enhanced search support for
+field and free text searches. An authoring tool using
+a grid-layout approach is used to define and layout
+the exhibition contents. XML's Cascading Style Sheet
+
+<?xml version = “1.0” encoding = “UTF-8”>
+<!DOCTYPE photo [
+<!ELEMENT photo (title*, creator*, subject*, description*, contributor*, date*, type*, format, accession_id, source*,
+language*, relation*, coverage*, copyright*, identifier*, location, image+)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT creator (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT contributor (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+Standard Dublin Core 15 metadata
+<!ELEMENT format (#PCDATA)>
+elements
+<!ELEMENT accession_id (#PCDATA)>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT relation (#PCDATA)>
+<!ELEMENT coverage (#PCDATA)>
+<!ELEMENT copyright (#PCDATA)>
+<!ELEMENT identifier (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT image (img_id, img_height?, img_width?, img_file_size?, img_description?,
+reproduction_date?, photoCD?, photoCD_imgno?)
+<!ELEMENT img_no (#PCDATA)>
+<!ELEMENT photo_size (#PCDATA)>
+<!ELEMENT img_height (#PCDATA)>
+Additional metadata
+<!ELEMENT img_width (#PCDATA)>
+for photograph artifact
+<!ELEMENT img_file_size (#PCDATA)>
+<!ELEMENT img_description (#PCDATA)>
+<!ELEMENT reproduction_date (#PCDATA)>
+<!ELEMENT photoCD (#PCDATA)>
+<!ELEMENT photoCD_imgno(#PCDATA)>
+]>
+Figure 1. Example of photograph metadata document type definition9.
+26
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+(CSS) and Extended Style Sheets (XSL) are then
+selected from a range of predefined templates and
+applied to the XML documents to yield the final VE
+in HTML format. By adopting the notion of information
+layering in the descriptors or different editions of the
+information objects, and the application of different
+style sheets, it becomes possible to create multiple
+versions of the same exhibition that varies in content,
+layout and interface to create different versions of
+VEs for different user groups. The use of style
+sheets is particularly useful as it allows content and
+structure to be separated cleanly so that the information
+can rendered to yield different look-and-feel interface
+versions of VEs, thereby enhancing the productivity
+of creating VEs and updating existing VEs. A second
+version of this system was subsequently developed 11
+to enhance the authoring aspect by supporting a
+WYSIWYG interface for VE content layout and addition
+of different information objects types.
+A similar approach was also adopted by CruzLara, et al. 12 in the development of a distributed
+content management framework for digital museums
+based on XML and XSL techniques. Using this framework,
+they developed a Lanyu Digital Museum for the
+Lanyu Island and its Yami inhabitants, and a Lanyu
+Virtual Exhibition Hall. In a related article Hong,
+et al.13 proposed an intelligent styling system to
+help museums efficiently and effectively produce
+and publish attractive VEs through the use of loosely
+coupled fine-grained style modules (FGSM) to present
+specific content fragments coupled with a hypermedia
+authoring system.
+
+5. SYSTEM ARCHITECTURES FOR VES
+At the formative stages of VE development, we
+witness the emergence of different stand-alone proprietary
+systems as one would expect. Over a period of
+time, there is a growing emergence of acceptance
+of standards and techniques, notably in the areas
+of metadata definition for VE artifacts, XML for storing
+metadata and exhibition data, utilisation of style
+templates for generating versions of VEs, and inclusion
+of eLearning functionality in VEs.
+Examples of different system architectures have
+been report in literature. Figures 2 to 5 show the
+system architecture for Virtual Exhibition System
+(VES) by Lim and Foo 9 , Virtual Archive Exhibition
+System (VAES) by Yang, Chennupati and Foo 11 , the
+Lanyu Digital Museum architecture and proposed
+framework for an integrated digital museum system
+by Hong, et al. 1 4
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+In VES (Fig. 2), an Artifact Metadata Tool is
+provided for the exhibition team to re-use or create
+and store the different artifact objects used in the
+exhibition. Different repositories are used to store
+different artifact types and indexed via the XML
+server to facilitate searching and retrieval of artifacts
+and exhibition data by the information retrieval engine
+that is actually part of the functionality of the XML
+server. After determining the content of the exhibition,
+the exhibition team organises and lays out the various
+exhibition pages and defines the objects in each
+page using the Virtual Exhibition Authoring Tool.
+This tool is used to create the exhibition metadata
+and HTML exhibition pages. The exhibition page
+content includes references to the different artifacts.
+In VES, the exhibition content is kept separate from
+page formatting and layout. Exhibitions content is
+described using XML while formatting, and layout
+templates in the form of CSS and XSL are used.
+CSS provide display related information such as
+table height and width, font definitions, colours for
+web pages, and so on. XSL is used to format the
+artifact and exhibition's XML documents into HTML
+pages for display in Web browsers. Formatting is
+also applied to each retrieved artifact, which provides
+exhibition visitors detailed information of an artifact
+upon demand.
+As mentioned earlier, the separation of content
+and format facilitates the reusability of exhibition's
+content. Multiple exhibitions may make reference to
+the same content and since content is separated
+from the formatting information, the reused content
+remains intact. New formatting templates may be
+applied to the reused content creating exhibitions
+with the same or similar content but different presentation
+style. Information layering is also possible with the
+use of XSL templates. The XSL template applied to
+the XML document may determine which specific
+information to pull and display based on the needs
+of the visitors thereby creating exhibitions with different
+levels of information been displayed. In interacting
+with virtual exhibits, visitors can also optionally utilise
+the Exhibition Search Tool to search for information
+in these exhibitions. The search tool is actually a
+stand-alone application that allows searching for all
+the indexed information via the XML server. Searches
+can be done for specific occurrence of particular
+artifacts in the exhibitions, as well as exhibition and
+artifact related information that are stored in the
+repositories. The matching search results are retrieved
+from the different repositories and formatted for display.
+The search output makes direct reference to the
+exhibition's HTML pages and artifact detailed HTML
+
+27
+
+Figure 2. Virtual exhibition system processes and architecture9.
+
+pages. The later caters to the same artifact being
+used across a number of different exhibitions.
+The VAES (Fig. 3) is an improved version of the
+original VES (Fig. 2). VAES inherited all the features
+and provisions of VES and provides a number of
+enhancements and new features. It extends the
+artifact types by supporting audio and video. In order
+to accommodate different resource constraints (Internet
+connections and available bandwidths), the content
+28
+
+of each audio/video is stored in three versions with
+varying compression rates. An optimised metadata
+creation tool, comprising metadata creation, editing
+and extracting functionality, allows user to define
+and save the exhibition metadata into the database
+through a few entry forms. A user-type element is
+used to identify the unique version for different user
+groups. The Virtual Exhibition Authoring Tool in VAES
+supports direct WYSIWYG manipulation for authoring
+in comparison to using a grid layout definition in the
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+Figure 3. Virtual archive exhibition system architecture11.
+
+original VES. VAES facilitates the creation of multiple
+versions of the same exhibition with customised
+information and in adaptive presentation to support
+different user profiles to accommodate diverse user
+groups.
+In the Lanyu Digital Museum (Fig. 4), the digital
+archives contain the various digitised information
+objects that are described using metadata based on
+Dublin Core. A database management system (DMS)
+is used to support creating, viewing, editing, storing
+and retrieving information objects. A VE is achieved
+through using the set of XML Exhibition Element
+Authoring and XSL Authoring tools. The authoring
+tool is integrated with the digital archive for ease of
+accessing information objects for use in the VE. In
+order to facilitate the design and use of XSL templates,
+exhibition pages were simplified to contain the title,
+descriptive text, and linkages of sequence of information
+objects. The Navigation Path Authoring tool defines
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+the hyperlinks that represent ancestor nodes, descendant
+nodes, and collateral nodes for each exhibition page
+that are subsequently assembled to yield the VE
+navigation map. Using this approach, exhibition pages
+can be assembled into different exhibition navigation
+maps without having to modify the exhibition page
+contents. The XSL authoring allows the exhibition
+team to define various background music, image
+and media effects for the exhibition pages. These
+are then rendered by the XSLT processor to yield
+the final VE pages.
+End users interact with the
+system via the navigation maps that lead them to
+the various VE pages. Different XSL documents were
+manually authored in the system and classified under
+three categories: high-bandwidth adult version; high
+bandwidth child version; and low bandwidth version.
+The high-bandwidth adult VE usually take the form
+of narrated multimedia online slides shows. The
+high-bandwidth child uses more interesting graphical
+29
+
+Figure 4. Lanyu digital museum architecture14.
+
+interfaces with larger fonts and more amusing narrations.
+Both these versions provide an auto navigation function
+to automatically run through the VE pages. Finally,
+the low-bandwidth version uses still pages with little
+visual elements to reduce.
+In the same paper Hong, et al. 14 (Fig. 5) proposed
+an integrated architecture to support the authoring
+of hypermedia exhibitions, online courses, and educative
+games, all with a certain level of adaptabilities. The
+main motivation for development of such a system
+was to reduce construction and maintenance costs
+of digital museum websites. The metadata of the
+information objects are based on CIDOC CRM (Conceptual
+Reference Model, http://cidoc.ics.forth.gr/) that acts
+as ontology in cultural heritage applications. For the
+online learning environment in the system, the authors
+aim to incorporate adaptive mechanisms for navigation,
+content, and presentation.
+Exhibition and assessment pages will be serialised
+in XML based on the respective documents logical
+structure models. Learning objects metadata, based
+on LOM, will be used to describe primitive learning
+objects that will serve as building blocks for online
+courses, and to be used in different learning contexts.
+30
+
+Different user profiles are processed by an adaptive
+engine to create pages that are customised in style,
+navigation and contents.
+Although these and many current VE applications
+have adopted different system architecture for their
+systems, they tend to share a number of basic
+components to support VE functionality. Figure 6
+attempts to encapsulate a generic system architecture
+derived from existing literature that can be used as
+a useful platform for the development of VE systems
+in future. The architecture aims to support effectiveness
+and efficiency in generating, maintaining and managing
+VEs. It attempts to provide VE exhibition teams'
+useful tool sets to generate different versions of the
+same VEs for end users' consumption, taking into
+account user needs and a system constraint of the
+client's set up in accessing the exhibition.
+The primitive data level contains all the information
+objects that can be used for VEs: text, image,
+audio, video, 3-D graphics, interactive media, and
+so on. These information objects can be different
+versions of digitised artifacts or born digital objects.
+When eLearning is considered, this can also include
+questions for quizzes for assessment, and other
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+Figure 5. Proposed framework for an integrated digital museum
+
+Figure 5. Proposed frameworks for an integrated digital museum system 14.
+
+learning activities. These primitive learning and information
+objects can be combined to form larger learning
+entities through the Learning Management System
+(LMS) or eLearning authoring system (which can
+either be stand-alone or an integral part of the LMS)
+to generate stand-alone learning objects which in
+turn can be aggregated to form larger learning modules.
+These variations of learning content can be incorporated
+into VEs as necessary.
+Each primitive information object is defined by
+a set of appropriate metadata (see previous section)
+which is created, updated and maintained through
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+a DMS. If necessary, a Metadata Management System
+(MMS) can be used to provide an interface to the
+DMS to support various metadata operations. This
+system is not confined to managing primitive information
+objects: it can also be used to manage metadata
+for the exhibition, presentation templates and other
+metadata which the system uses.
+The exhibition authoring system forms the crux
+of VEs authoring. The VE exhibition team uses the
+system to define the exhibition framework, select
+information objects (including learning objects if these
+are present in the VE) for page contents, and create
+31
+
+Figure 6. Generic system architecture for VE development.
+
+the layout and look-and-feel of the exhibition pages.
+This functionality can be integrated as one system,
+or split into different modules for exhibition page
+definition, page element selection and presentation
+definition. This latter approach attempts to clearly
+separate data from structure and layout. Using an
+Information Object Manager, exhibition pages can
+incorporate background music or background image,
+use a specific layer of information, select different
+layout setting, font setting during the authoring stage.
+Different presentations are usually achieved through
+different presentation or style templates selected
+during this authoring stage.
+These templates can be predefined for selection,
+or created and managed by a more sophisticated
+presentation template manager. The Exhibition Manager
+defines and manages the whole exhibition and combines
+these various pages together to form the exhibition
+whose metadata can be stored in the exhibition
+repository for future reference, editing or updates.
+The internally generated VE definition can be stored
+in a suitable data exchange format that is used by
+the Presentation Manager, whose role is to render
+and generate the VE into its final form for use by
+users.
+Depending on the way the Exhibition Authoring
+System is designed, all the necessary information
+32
+
+can be made available for the Presentation Manager
+to complete the work so that VEs can be generated
+offline. Alternatively, VEs can be generated on-thefly to take into account client system characteristics
+and end-users characteristics or preferences. As
+such, the Presentation Manager may be interfaced
+with a User Profile Manager to manage these aspects
+of system and user requirements. System requirements
+would typically consider client computer processing
+capability, network bandwidth, and so on, in order
+for the content to be adapted as necessary. For
+example, different resolution image, sound and video
+may be used as necessary to attain an acceptable
+quality of service for the VEs with different constraints;
+and resource intensive 3-D graphics may be eliminated
+if they cannot be adequately supported by the client
+computer. User characteristics would typically consider
+age, literacy level, motive for using VE, kind of
+experience desired, and so on in order for the VE
+to be adapted as necessary. As such, the User
+Profile Manager may require some form of interaction
+and inputs from the user to complete the information
+necessary for the VEs to be generated.
+Another component that might be interfaced to
+the Presentation Manager might be a Digital Rights
+Manager to support a Digital Rights Management
+System in the case where VEs are loaned out to
+other institutions and where constraints are placed
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+on the information objects' use. Such a system
+may allow other VEs from other institutions to have
+access to the primitive information objects as content
+for these VEs. Such an attempt to either provide
+free or fee-paying access can help promote reusability
+and sharing, and potentially enhance the quality of
+the final VEs.
+Through the Presentation Manager and these
+other interfaces, a stand-alone single or many different
+versions of the same exhibition may be generated
+at one pass. Ultimately, the aim is to generate
+different versions of VEs to meet the needs of different
+user groups, and to user technology to support VE
+authoring efficiently and effectively, thereby minimising
+human effort and intervention.
+In terms of implementation, a number of
+common data types, standards and techniques
+have been utilised in most systems for VEs as
+shown in Table 1. The table also shows the desirable
+contents, characteristics and features that have been
+suggested in literature for successful VEs.
+Finally, it is worth note two interesting researches
+and work-in-progress in the development in VEs.
+Lu, et al.15 proposed a resource-driven content adoption
+approach to augment content with metadata in order
+to display or render content based on available
+resources. By considering display resolution, bandwidth,
+processing speed, quality of service and energy,
+content adaptation may add or remove information
+based on available resources. Metadata in this case
+not only contains multi-level content description but
+also important information and geometric information
+for computer generated images and animation. As
+such, their proposed approach does not necessary
+only use pixel manipulation to change resolution,
+but aim to represent the information object differently
+if necessary but yet allow the user to perceive the
+original intended content. Hong, et al. 13 proposed
+using self-contained fine-grained style modules that
+can be selected and combined together into a styling
+system to support creation of different versions of
+VEs using the same content. It aims to make the
+work of shaping presentation styles easier and to
+support the creation of VEs without technology specialists.
+
+update of the exhibition. This paper has presented
+the case for VEs, surfaced the myriad of stakeholders
+of VEs, and demonstrated the need for good metadata.
+Using generic system architecture, the various
+components and salient points of VE system design
+and development are highlighted. A list of desirable
+VE contents and features are articulated. The continuing
+developments of Web 2.0, VE research, wireless
+and other technological advances are likely to change
+the form and capability of future VEs. Nonetheless,
+virtual exhibitions can, and are expected to, survive
+and grow as they stand to yield a rich set of both
+tangible and intangible for institutions that fully embrace
+the idea of both the physical and virtual operating
+environment in this Internet age.
+
+REFERENCES
+1. Silver, D. Interfacing American culture: The perils
+and potentials of virtual exhibitions. American
+Quarterly, 1997, 49(4), 825-50.
+2. Hunt, L.; Lundberg, M. & Zuckerman, B. InscriptiFact:
+A virtual archive of ancient inscriptions from the
+Near East. International Journal of Digital Libraries,
+2005, 5, 153-66.
+3. Leong, C.K.; Chennupati, K.R. & Foo, S. The
+design and development of an online exhibition
+for heritage information awareness. Museums
+and the Web, 2002, Boston, Massachusetts,
+USA. http://www.archimuse.com/mw2002/papers/
+ramaiah/ramaiah.html
+4. Leong, C.K.; Chennupati, K.R. & Foo, S. The
+design and development of an online exhibition
+for heritage information awareness in Singapore.
+Program , 2003, 37(2), 85-93.
+5. Chennupati, K.R. Case for virtual Salar Jung
+museum. Deccan Chronicle , 5 December 2007,
+p 9.
+6. Lester, P. Is the virtual exhibition the natural
+successor to the physical? Journal of the Society
+of Archivists , 2006, 27(1), 5-101.
+
+6. CONCLUSION
+
+7. Giunti Labs. Training press release, 13 August
+2007. http://www.trainingpressreleases.com/
+newsstory.asp?NewsID=3073.
+
+Well designed virtual exhibitions are important
+extensions to physical exhibitions, providing discovery,
+learning and other opportunities beyond what the
+physical exhibitions can offer. Users can be captivated,
+engaged and even contribute towards the continual
+
+8. Patel, M.; White, M.; Mourkoussis, N.; Walczak,
+K.; Wojciechowski, R. & Chmielewski, J. Metadata
+requirements for digital museums environment.
+International Journal of Digital Libraries , 2005,
+5, 179-92.
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+33
+
+9. Lim, J.C. & Foo, S. Creating virtual exhibitions
+from an XML-based digital archive. Journal of
+Information Science, 2003, 29(3), 143-58.
+
+Network Conference, Tampere, Finland, 14-15
+November 2002. http://www.acten.org/cgi-bin/
+WebGUI/www/index.pl/sc_ announcements.
+
+10. Gotz, D. & Mayer-Patel, K. A framework for
+scalable delivery of digitised spaces. International
+Journal on Digital Libraries , 2005, 5(3), 205-18.
+
+13. Hong, J.S.; Chen, B.H. & Hung, S.H. Toward
+intelligent styling for digital museum exhibitions:
+Modularization framework for aesthetic hypermedia
+presentations, International Journal on Digital
+Libraries , 2004, 4, 64-68.
+
+11. Yang, R.; Chennupati, K.R. & Foo, S. Virtual
+archival exhibition system: An authoring tool for
+developing web-based virtual exhibitions. I n
+Proceedings of International Conference on Dublin
+Core and Metadata Applications (DC-2007), 2731 August 2007, Singapore. pp. 96-105.
+12. Cruz-Lara, S.; Chen, B.H. & Hong, J.S. Distributed
+content management framework for digital museum
+exhibitions. In Proceedings of EUROPIX Scholars
+
+14. Hong, J.S.; Chen, B.H.; Hung, S.H. & Hsiang,
+J. Toward an integrated digital museum systemthe Chi Nan experiences. International Journal
+on Digital Libraries , 2005, 5(3), 231-51.
+15. Lu, Y.H.; Ebert, D.S. & Delp, E.J. Resourcedriven content adaptation, 2006. http://cobweb.
+ecn.purdue.edu/~yunglu/papers/06istspie2.pdf.
+
+About the Author
+
+Schubert Foo is Professor and Associate Dean, College of Humanities, Arts and Social
+Sciences, Nanyang Technological University, Singapore. He received his BSc (Hons), MBA and
+PhD from the University of Strathclyde, UK. He is a Chartered Engineer, Chartered IT Professional,
+Fellow of the Institution of Mechanical Engineers and Fellow of the British Computer Society.
+He is also a board member of the National Library Board, and an Advisor of the National
+Archives of Singapore Board. He has published more than 170 publications in the areas of
+multimedia technology, Internet technology, multilingual information retrieval, digital libraries and
+knowledge management. He is a member of the Editorial Advisory Board of the Journal of
+Information Science, Journal of Information and Knowledge Management, and International
+Yearbook of Library and Information Management, among others. He has co-authored a book
+Knowledge Management: Tools and Techniques with Ravi Sharma and Alton Chua, and coedited a book Social Information Retrieval Systems: Emerging Technologies and Applications
+for Searching the Web Effectively with Dion Goh in 2007.
+
+34
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+

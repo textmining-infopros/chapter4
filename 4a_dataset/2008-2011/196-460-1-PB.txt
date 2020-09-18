@@ -1,0 +1,1314 @@
+DESIDOC Journal of Library and Information Technology, Vol. 28, No. 4, July 2008, pp. 43-54
+© 2008, DESIDOC
+
+Comparative Study of HTML and Animated
+User Interfaces of an Online Exhibition
+Nagarajan Viralingam1 and Chennupati K. Ramaiah2
+CITI Bank
+8th Floor, Millenia Tower, Singapore.
+E-mail: vvvgithi@hotmail.com
+1
+
+Muffakham Jah College of Engineering & Technology
+Road No. 3, Banjara Hills, Hyderabad-500 036
+E-mail: chennupati_kramaiah@yahoo.com
+
+2
+
+ABSTRACT
+The advancements in computer and telecommunication technologies have made the World Wide Web
+a vibrant place. Museums worldwide have recognised this phenomenon and are tapping the multimedia
+and interface technologies to present their contents online and in a more interesting manner. First priority
+to this is the user interface design and appropriate technologies to represent the contents. The paper
+discusses an animated interface created for an online exhibition with the Macromedia Flash software
+and compared the same with HTML user interface. The system evaluation results shows that only less
+than half of the users were satisfied with the animated version because of its inflexibility in terms of
+reusing and customising of information. Therefore, a HTML version was developed for the same system
+and compared for strengths and weaknesses in terms of user interfaces. The results showed that the
+respondents, especially those with lower bandwidth connections, were very comfortable with the HTML
+interface but aesthetically a few more percentage of respondents rated high to animated interface. The
+paper conclude that a balanced combination of HTML and animated interfaces will provide both aesthetics
+and functionality required for an online exhibition.
+Keywords: Online exhibition, user interface, animated user interface, interface design.
+
+1. INTRODUCTION
+The virtual space of World Wide Web (WWW)
+is being well utilised by many museums for putting
+their collections online so as people from all over
+the world can use them. The multimedia and other
+interactive technologies have provided new ways to
+museums to improve the communication with the
+public and to attract even the visitors at far of
+places to their collections in a virtual environment.
+The shift from the physical exhibition to the online
+format has also provided the visitors an altogether
+different experience that is not possible in the physical
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+medium. Such a virtual form is now becoming the
+preferred medium, especially where research is
+concerned. Studies have shown that the number of
+visitors to the museums is dwindling and the online
+visitors are rising rapidly 1 . The paper is mainly
+targeted to a broad spectrum of people including
+school students, tourists, academics, and researchers.
+Online exhibition is a boon for those who can not
+visit museums, such as disabled, large families
+and elderly people. The most important is that the
+remote visitors (people not geographically close to
+the museums) can also visit the online exhibition
+from various parts of the world.
+43
+
+The paper compares the strengths and weaknesses
+of HTML and animated user interfaces of an online
+exhibition system. For this “Colours in the Wind—
+Old Hill Street Police Station in Retrospect ” online
+exhibition system was chosen. Two versions for the
+same content were produced. The objectives of the
+study are: (i) to examine various technologies and
+authoring tools that are needed for the development
+of an online exhibition system; (ii) to design and
+develop an online exhibition system for disseminating
+cultural and heritage information; (iii) to compare
+HTML and animation-based interfaces of the same
+online exhibition system and find out their strengths
+and weaknesses; and (iv) to study the problems
+faced by the users of HTML and animated user
+interfaces.
+
+2. REVIEW OF RELATED LITERATURE
+It is evident from the literature that Internetbased online exhibitions offer better flexibility in all
+respects compared to their physical counterparts 2 .
+Online exhibitions allow visitors to select the level
+of information they wish to consult, thereby offering
+something useful to the users of all ages and experience.
+Studies show that the museum viewers would less
+likely to make a special trip to museum to see the
+original artifacts when the facility is available to see
+a similar digital copy at their computer. But Freedman
+states that the demand for the original work will
+increase rather than decrease, following repeated
+exposure at an institutionally authorised site on the
+W W W3 .
+Present technologies are helping in the growth
+of wired museums of all kinds to younger generations
+and providing both education and entertainment 4
+and the number of digital visitors are steadily growing
+and in some cases, outstripping the number of
+visitors to the corresponding physical museums. 5 , 6
+This encourages geographically distant digital visitors
+to become a physical visitor to all types of exhibitions,
+and to encourage physical visitors to maintain contact
+with the museums through online after they walk
+out of their doors.
+
+2.1 What makes a Good Online
+Exhibition?
+A good virtual/online exhibition should make its
+collection and knowledge accessible to the general
+public as well as specialist audiences 7 . The main
+requisites of a good online exhibition are good content,
+a narrative theme, intuitive navigation, and inviting
+graphics. Visitors respond favourably to an online
+exhibition website that possesses a lot of narrative
+44
+
+guidance simultaneously with great ease of navigation8 .
+The exhibition should encourage people to learn
+about the museum and the activities it provides and
+also should be updated on a regular basis to attract
+visitors. Thomas, et al. stated that a good museum
+exhibition should provide opportunities for people to
+visit the museum website more than once, allowing
+for surprises and wonders7. So, a dedicated museum
+website obviously has the potential to provide the
+most comprehensive, correct and latest information
+on the museum concerned. It should incorporate
+interactive functionalities like JavaScript, Flash, streaming
+media, DHTML and dynamically interfacing with serverside databases to provide access to their collections.
+It should make each page as self-sufficient, with
+interpretative text to bring out the salient points to
+the reader, while leaving the image to speak out as
+much as possible. 9
+
+2.2 Design Considerations for an Online
+Exhibition
+All art museums, small or large, share the
+same mission to communicate to the public about
+their collections. The strengths of the Internet should
+be exploited to enhance the visitor’s virtual experience
+and by avoiding creating the traditional museum
+experience. Design of ‘Home Page’ should be done
+with utmost care, as this sets the ‘scene and tone’
+for the rest of the exhibition site, and gives an
+overall impression to visitors about the physical
+exhibition or a real museum. Bowen, et al. suggest
+that the technicalities and tricks of trade should be
+followed to improve the apparent downloading speed
+of web pages 10 . Online exhibitions are websites
+where people can access information directly, rather
+than just knowing where the information is held 9 .
+They should help them (visitors) by saving a great
+deal of their time and efforts and provide information
+they are looking for. Each web page containing an
+image should be self-explanatory and self-sufficient,
+so that it carries all the information that the reader
+needs to make it intelligible.
+A museum’s online website should be brief,
+logical, provide equivalent alternatives to auditory
+and visual content, and ensure that user interface
+follows principles of accessible design 1 . Wallace
+pointed out that logo, theme line, typeface, layout
+format, design motifs, colour, icons and tone of
+voice are among the features that must be deployed
+at the same levels throughout the website to make
+it coherent, easy to navigate and fun for young
+people 11 . He feels that a well constructed and easily
+navigable website will never compromise in its design.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+2.3 Types of Interfaces for Online
+Exhibitions
+2.3.1 Hypertext-based User Interfaces
+Hypertext-based interfaces are non-animated
+pages mainly focusing on text-based content. Hypertext
+interfaces overcome the limitation of displaying text
+by structuring information into a network rather than
+presented in a linear mode. There are many ways
+of reading a hypertext document; the intention is
+that the user is able to read it in the way that suits
+him/her best. Some museum websites provide hypertext
+interfaces, especially for researchers and academics.
+According to Lehman, hypertext pages allow learners
+to have more control on how the information is
+presented and it is an important requirement for an
+effective learning which made it widely acceptable
+to the education community12 . Unlike Flash (animated)
+interface, HTML interface allows easy copying,
+reproduction, modification, searching, classification
+and reclassification.
+
+2.3.2 Animated User Interfaces
+Animated user interfaces make use of abundant
+desktop computing power and present information
+in an animated mode along with exciting effects.
+Animated interfaces consume more time for the
+content to display. The average time spent by a
+user on most of the web pages is only a few seconds
+because much of their time is spent in following
+links from page to page in order to arrive at a page
+where the content may be of actual interest to the
+visitor. This process should be made as painless
+and as fast as possible to ensure that the visitor
+is not discouraged. Bogomazova discussed the special
+problems faced by museum websites in using stateof-art web technologies such as use of proprietary
+design and software13 . He stated that the web resource
+should provide information and documentation in a
+way that favours the learning process and stimulates
+users’ enquiries and practical experiments. Kennedy
+suggested that Flash websites should avoid overloading
+of web graphics, audio and video content because
+vector material cannot be searchable and takes
+long time to download 14 . Since the design tools
+are of propitiatory nature, a Flash player is required
+to view the content. They should use non-Flashbased solution for those who do not have a Flash
+player or broadband capability. Online museum exhibits
+developed with too much animation might lead to
+disastrous results due to low speed, and lack of
+searchability and flexibility in the content. So, proper
+balance between these interfaces is always better
+for users to satisfy their requirements.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+2.3.3 Other User Interfaces
+With the developments in user interface
+technologies and the fifth generation languages,
+new user interfaces will not require the user to
+control computer through commands but will let the
+computer to adapt the dialogue the user needs
+based on its inferences from observing the user. A
+good example of creating animated interfaces without
+much hassle is using Pavlov, a programming-bydemonstration (PBD) system that allows even nonprogrammers to create animated interfaces (http://
+www.acm.org/sigchi/chi95/Electronic/documnts/demos/
+dww_bdy.htm). The next generation of user interfaces
+may move beyond the standard WIMP (window,
+icon, menu, and pointing device) paradigm to involve
+elements like virtual realities, head-mounted displays,
+sound and speech, pen and gesture recognition,
+animation and multimedia, limited artificial intelligence,
+and highly portable computers with cellular or other
+wireless communication capabilities. It may focus
+more on the user-oriented and task-oriented approach,
+rather than the present standard object-oriented
+approach. The object-oriented approach in this context
+means the way the user interacts with the objects
+such as text box, buttons and menus. Gesturebased interfaces such as pen computing, which
+simulates paper-like interface can be an alternative
+to printed material.
+
+2.4 Suitable User Interfaces for Online
+Exhibitions
+Users interact with museum application interfaces
+for many reasons 15 . Thus, it is important to have
+such user interfaces that are able to adapt to different
+user’s requirements to facilitate the accomplishment
+of the desired goals. Mixture of both animated and
+non-animated interfaces produce better results in
+browsing and navigation. Purely animated interfaces
+might cause inconvenience to the users. Bowen,
+et al. suggest avoiding high quality graphical images,
+which results in slower downloading of web pages,
+unless or until it is really required for the website 10 .
+Milekic’s study found that “the general interface
+guidelines for the design of web-based art education
+sites is to minimise the dependences on technology
+during pedagogical activities 16 . The major technical
+difficulty for most of the users is the narrow-bandwidth
+and undependable telephone connection. These could
+be avoided by off-line browsing of pre-loaded content,
+and creation of hybrid pre-loaded and interactive
+sites.
+It is important to provide users with a variety
+of easy-to-use and understandable navigational buttons
+45
+
+to prevent them from getting lost and to minimise
+cognitive overhead problems 12 . Consistency in all
+respects including design, colours, graphics, etc.
+can help the users in accomplishing their tasks
+quickly. Wallace11 suggests that an online exhibition
+should have the following basic requisites: (i) it
+should present visuals and text in easy-to-absorbable
+portions; (ii) its links should allow people to explore
+and learn at their own pace; (iii) it should not force
+the users to navigate rather allow the users to
+achieve their purpose of visit; and (iv) it should load
+quickly and no single page in a site should try to
+show or tell too much.
+Dierkind and Falk states that the visitors would
+like media options in museums to be more ‘userfriendly’ to assist them in knowing what options
+are available. And once an appropriate choice of
+interest has been made, they are able to successfully
+experience that option 17. They also stated that
+‘one can create the most wonderful website in the
+world, but if users do not know about its availability,
+understand how to use it effectively, or cannot
+make sense of the content presented, all that effort
+has been wasted’. So, the overall website development
+process should focus attention on understanding
+users and acknowledging their demographic diversity18 .
+
+3. METHODOLOGY
+An appropriate development model may be chosen
+by taking into account the nature of the software
+project and the strategies needed to meet the users’
+expectations and needs. A few important software
+development models existing in the software engineering
+are: (i) hacking model; (ii) linear sequential model;
+(iii) prototyping model; (iv) incremental model;
+(v) spiral model; (vi) component-based model; and
+(vii) the clean room model 19 .
+The prototyping model was used to develop
+this online exhibition system. The advantages of
+prototyping model are: (i) high user emphasis, (ii)
+teamwork promoting, (iii) waste reduction, and (iv)
+flexibility20. Prototyping is an excellent way to analyse
+and define a website’s requirements 21 . Since users
+were not clear about their requirements so designing
+multiple prototypes, may be time consuming, was
+useful process in this context. The valid reason for
+choosing this methodology for the project was the
+unavailability and unspecific user requirements. However,
+the user requirements gathered by Leong, et al.
+were used for the development of HTML version of
+the exhibition 22 .
+Macromedia Dreamweaver 4, a web design tool,
+was used to build a quick mockup prototype, which
+46
+
+was tested with the real users. The mockup prototype
+provided better interactivity, and also helped the
+users to express their ideas more clearly. Regular
+interaction and collection of feedback from the users
+was used to modify the prototype. The process
+continued in a cycle and helped in developing a
+successful implementation. Heuristic evaluation technique
+was used for design evaluation phase of this online
+exhibition because it helps to find out many usability
+problems 19 . Survey method and questionnaire tool
+were used for evaluating the final online exhibition.
+The main reason for choosing this methodology
+was to get the user’s viewpoints directly and to
+reveal issues, which have not been considered during
+the design phase apart from its relatively cheap
+and simple administering advantages. The questionnaire
+covered a mixed set of general, open- ended, multichoice and ranked questions but priority was given
+to closed-ended questions such as scalar, ranked
+or multi-choice to reduce the burden on the respondents
+and to encourage a high response rate. It also have
+an advantage of being easier to analyse.
+
+4. DESIGN AND DEVELOPMENT OF
+ONLINE EXHIBITION
+4.1 Design of the Online Exhibition
+The design of the online exhibition was carried
+out based on the user requirements. Initially a
+prototype was developed and presented to its real
+users, based on their feedback, full-fledged system
+was developed.
+
+4.1.1 Interface Design Issues
+The HTML-based online exhibition system was
+developed and uploaded on to the Information Studies
+Laboratory’s Windows NT-based Web Server. 1024
+x 768 pixel screen resolution was used, on the
+belief that most computer monitors nowadays have
+a higher resolution. As desired by most of the
+users, a highly interactive HTML web interface with
+a balanced mix of multimedia elements and interactions
+was provided. Thumbnail images (each image could
+be enlarged by a click on it) were provided in the
+web pages to reduce the downloading time. This
+is in line with the dialog design in the Systems
+Application Architecture (IBM developed architecture),
+wherein a series of requests and responses between
+the user and the application takes place 23 . The
+online exhibition contains more than 200 still images
+along with a good number of web pages.
+To facilitate better readability, Verdana font
+size 12 points was used with justified texts blocks.
+Simple white colour screen interface with linear
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+gradient effect was provided using Macromedia Fireworks
+for the title. Visual consistency was maintained
+throughout the website by using the top navigational
+panel as part of the template for all the web pages.
+Animated images of the Macromedia Fireworks 4
+version were used for most of the navigational dropdown menus, left navigational panel and the right
+top most icons (for search, help, print and e-mail)
+to enhance interactivity. Figures 1 and 2 shows
+HTML and animated interface homepages of the
+same online exhibition, respectively.
+
+(i)
+
+4.1.2 Information Organisation
+
+(v) The Wind Beneath a Nation’ s Wings comprising
+eight sub-panels.
+
+Information in the website should be organised
+in a structured manner to facilitate ease of navigation.
+To ensure that the website is properly structured,
+the system used an intuitive site structure that is
+transparent to users. Clear and consistent navigational
+methods should be used to enable users to know
+where they are and where they can go 21 . This online
+exhibition uses many organisation structures such
+as sequential, hierarchical and associative. Menus
+provided in all the web pages, are hierarchical and
+yet sequential in the order of importance, and with
+hyperlinks to other web pages, following the associative
+structure.
+The ‘Home Page’ contains windows, which are
+individually clickable and take users to the different
+sections of the exhibition. The main navigational
+structure of the ‘Home page’ is shown in the
+Fig. 3. There are six functional sub-panel links and
+five supporting panel links on the ‘Home page’. The
+six functional sub-panels are further divided into
+various sub-sub-panels. The sub-panels can be found
+through the drop-down menu. The left navigational
+links and the text links can be found at the bottom
+of each web page. The window panels are organised
+as:
+
+Figure 1. HTML interface home page.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+A Time and a Place comprising five sub-panels,
+which describe the contents by years.
+
+(ii) Here, There & Everywhere comprising three
+sub-panels further divided into 22 sub-sub-panels.
+(iii) Memories in the Shell of Time comprising three
+sub-panels further divided into 10 sub-sub-panels.
+(iv) A Present and the Past comprising three subpanels, further divided into eight sub -sub-panels.
+
+(vi) Contact Us is comprising three sub-panel and
+five sub-sub-panels.
+There are supporting panels to allow users to
+print, search for content, send e-mail and get help
+which is placed at the top right hand corner of the
+window. The ‘H elp Page’ can be reached either
+through the image icon or the ‘Contact Us’ page.
+To avoid problems to the naïve users, these icons
+display its functionality below them once when users’
+moves mouse over the icons 24. The ‘Site Map’ provides
+the users with a complete structure of the website
+along with brief explanation of the contents of each
+sub-exhibit.
+
+4.1.3
+
+Screen Layout
+
+Lengthier pages have been avoided by splitting
+the screens into screen-sized chunks wherever possible.
+All web pages comprise consistent top navigational
+panel throughout the website. Drop- down menus
+in hierarchical structure avoid users getting lost
+problem. Icons such as ‘Help’, ‘Print’, ‘Search’ and
+‘E-mail’ have been provided at the top navigational
+panel. Navigational icons have been provided at the
+
+Figure 2. Animated interface home page.
+47
+
+top most right of each page to get proper attention
+(Figs 3 and 4).
+
+4.2 Development of the Online
+Exhibition System
+The system was developed based on the users’
+requirements collected from a previous study conducted
+by Chee Khoon. Presenting the prototypes iteratively
+to the real users and improving the interface and
+functionality of the system, a total system was
+developed. Testable goals, early and continuous
+user testing were performed through simulations,
+prototypes and mock-ups. The aim was to address
+design difficulties such as too much information,
+impatience of web readers, limited short-term memory
+and tendency to get lost.
+The content was considered first, the navigation
+second, and the appearance last. The developer
+also kept in mind the problems and drawbacks of
+the Animated Flash interface including lack of
+customisation, reusability, search capabilities and
+the time taken for downloading, and then tried to
+use the strengths of the HTML interface to find
+solutions to satisfy the users needs.
+
+4.2.1
+
+Development Tools
+
+Macromedia’s Dreamweaver 4 is the main authoring
+tool used to develop this exhibition. Other tools
+used in building this system included Macromedia’s
+Fireworks 4, Adobe’s Photoshop, Microsoft GIF Animator
+and Front Page 2000.
+
+4.2.2
+
+Macromedia Dreamweaver 4
+
+Macromedia Dreamweaver 4 is a web authoring
+tool used for creating and managing website and
+web pages because it is easier for creating and
+
+Figure 3. HTML drop-down menus.
+48
+
+editing cross-platform and cross-browser pages. It
+has advanced design and layout tools that allow
+any one to use Dynamic HTML features such as
+animated layers and behaviours without having to
+write a line of code. Dreamweaver 4 enables designers
+to visually develop sophisticated page layouts in an
+intuitive approachable environment. It is fully customisable
+and does not require any special software additions
+to the server on which the designed system has to
+be installed.
+
+4.2.3
+
+Macromedia Fireworks 4
+
+It is a graphics design tool used to develop
+sophisticated navigation with multi-level pop-up menus
+in a step-by-step visual environment. Fireworks 4
+also has facilities to produce enhanced graphics
+interactivity, live animations, drag and drop rollovers,
+object masks (both vector and bitmap) and a new
+batch-processing environment. Integration between
+the two applications, i.e. Dreamweaver and Fireworks
+creates a seamless environment for the web content
+production. The Fireworks new pop-up menu creator
+was used for creating the main navigational dropdown menus. Basically the image is a .png file,
+exported into a GIF file with HTML and images
+options. The HTML page created using Fireworks
+is the basic template for this website. Radical changes
+to the document layout were made in the Fireworks
+before being exported into the Dreamweaver’s web
+pages.
+
+4.2.4
+
+Adobe’s Photoshop
+
+It is an image processing tool used to capture
+and edit the images required for this exhibition.
+
+4.2.5
+
+Microsoft GIF Animator
+
+It is used for creating animated GIF files for
+highlighting the images occurring in various panels.
+
+Figure 4. Animated interface zooming tool.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+The GIF animation was provided to add attractiveness
+to the website.
+
+4.2.6
+
+Microsoft FrontPage 2000
+
+It is also a web authoring tool used to create
+web pages to complement the features and facilities
+missing in the Dreamweaver 4.
+
+4.3 Implementation of the Online
+Exhibition
+As per user’s requirements, a similar and most
+appropriate HTML interface was developed for the
+existing animated version without many variations
+in content. Design considerations were made with
+the consent of end-users through repetitive prototyping
+technique. The HTML version of this online exhibition
+was uploaded on to the Information Studies Lab
+Web Server at http://islab2.sas.ntu.edu.sg:8000/projects/
+virralingam/index.html. Then Information Studies students
+and others were encouraged to evaluate both the
+interfaces of the same system and provide their
+feedback through questionnaire supplied to them.
+
+animated version of the online exhibition system
+(Fig. 5).
+
+4.4.2
+
+Help Page
+
+It provides assistance to the users on how to
+use the website and to reduce their browsing time.
+It can be reached either through the navigational
+icon on the top right hand corner of the web page
+or through one of the sub drop-down menus under
+the ‘Contact Us’ web page (Fig. 6).
+
+4.4.3
+
+Print Facility
+
+Print facility is to print any web page of the
+exhibition. This is especially useful for academics,
+students, and researchers.
+
+4.4.4
+
+E-mail Facility
+
+The facility is provided as a navigational icon
+at the top right hand corner of all the web pages
+to enable the user to contact the staff members of
+the National Archives of Singapore.
+
+4.4 Other Features of the Online
+Exhibition System
+
+5. EVALUATION OF THE ONLINE
+EXHIBITION
+
+4.4.1 Search Facility
+
+To evaluate both the interfaces of this online
+exhibition system, a questionnaire was designed
+and sent to 75 students to find out the strengths
+and weaknesses of these two interfaces. Of the
+total, 50 people provided their responses and the
+same were analysed.
+
+Search page uses the client side search engine
+in JavaScript. The page allows the users to search
+the entire website. As the search engine is client
+side one, the speed at which the search page
+displays mainly depends on the number of records
+matching to the keyword and the user’s Internet
+connection. Search engine displays results as a
+hyperlink, which can be clickable to reach the specific
+web page. Subject headings have not been used for
+search terms, instead any word in the title of the
+page can be used. This is an additional feature
+added to HTML interface and is not available in the
+
+Figure 5. The search page.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+5.1 Personal Profile
+Of the total, 62 per cent of the respondents
+were males and 38 per cent females. The majority
+(68 per cent) were between 26-30 years age group,
+20 per cent of 31-35 years, 10 per cent below 25
+years and the remaining 2 per cent above 36 years
+
+Figure 6. The help page.
+49
+
+old. Nearly half (48 per cent) of them were undergraduates,
+over a quarter (28 per cent) were graduates, a fifth
+(20 per cent) were polytechnic diploma holders and
+a small percentage (4 per cent) ‘O’/’A‘ level. These
+respondents were a mix of Singaporeans, Malaysians,
+Indians, and Philippines. The majority of the respondents
+were from Sciences (52 per cent), less than a third
+(30 per cent) from Engineering and a small percentage
+from Social Science (8 per cent), Library Science
+(7 per cent), and Humanities (3 per cent) backgrounds.
+These people though varying in their races and
+subject backgrounds, had similar computer experience.
+About two-third (64 per cent) of them were having
+6-10 years computer experience. Advanced computer
+users varied in their experience from 11-25 years
+(16 per cent had 11-20 years, 8 per cent had 2125 years), and a small percentage (12 per cent)
+with less than five years computer experience. While
+evaluating a project, especially an online exhibition
+system, personal profile of the users plays a vital
+role.
+
+5.2 Interface Design
+The various factors that an interface design
+contains are the readability of text, appropriate use
+of colours, the navigational icon buttons and attractiveness
+of the exhibition and visual consistency of the website.
+User’s ratings for the ‘interface design’ is presented
+in the Table 1.
+Overall, the majority of them (84 per cent) rated
+the design as ‘Good’ for the text readability because
+they were comfortable with the Verdana font with
+12 points size. They opined that the text was very
+clear and readable. Most of the respondents were
+very comfortable with the appropriate use of background
+colour (white background was used for most of the
+screen space but a different background colour for
+the top navigational panel). They felt that the colours
+were used consistently and efficiently, so they could
+easily keep track of the colours and their meanings.
+Some respondents appreciated the reverse video
+technique used to present the text on the web page
+and the colours chosen in contrast for every navigational
+drop-down menus.
+
+The navigational icons were meaningful and
+acceptable to most of the respondents. About 80
+per cent of them rated “Good” or “Very Good” and
+a small percentage (6 per cent) only rated as acceptable.
+The hierarchical structure of the drop-down menus
+with mouse over events, reverse video techniques
+attracted them along with their interactiveness. The
+majority of the respondents were also satisfied with
+the text clarity on the navigational icons (80 per
+cent), menus and left hand navigational panel. The
+most liked part of the exhibition by the respondents
+was the ‘site map’ with links directly to the individual
+web pages. Most (96 per cent) of the respondents
+felt that they never encountered any problems with
+the navigational buttons. However, a few were not
+comfortable with the ‘Print’, ‘E-mail’, and navigational
+icons. Some felt that the text links at the bottom
+of every panel were redundant, but many of the
+users were concerned about the same so the links
+were not removed from the screen/system design.
+The majority (88 per cent) of the users were satisfied
+with the visual consistency and most (96 per cent)
+of them were satisfied with the consistent use of
+the supporting functional icons like Help, Search,
+Print and E-mail, which were placed at the top right
+hand corner of the website.
+
+5.3 Ease of Use
+In addition to ease of use, other features like
+user friendliness, easy to learn, easy to understand,
+information search and the help facility were evaluated
+(Table 2). Most of the respondents (96 per cent) felt
+that the system was good because of its user
+friendly and simple interface. They felt that the
+overall architecture of the site was attractive, however,
+a small percentage (4 per cent) of them felt that
+the search capability was not comprehensive. More
+than three-fourth (78 per cent) of them felt that the
+online exhibition was easy to use, due to its good
+navigational aids, help guidelines and proper labelling
+of the contents. The majority of the respondents
+were able to understand the system with ease,
+though a few (7 per cent) found it difficult because
+of its information overload. Of the total, more than
+a third (40 per cent) felt that it was ‘easy or very
+
+Table 1. Users’ ratings for interface design
+Rating
+Design Issue
+
+50
+
+Very
+Poor
+
+Poor
+
+Acceptable
+
+Good
+
+Very Good
+
+Readability of text
+
+-
+
+2%
+
+14%
+
+76%
+
+8%
+
+Colours used in the website
+
+-
+
+4%
+
+30%
+
+60%
+
+6%
+
+Appropriate use of navigational icons
+
+-
+
+6%
+
+14%
+
+66%
+
+14%
+
+Visual consistency
+
+-
+
+4%
+
+18%
+
+66%
+
+12%
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+Table 2. Ease of use of the interface
+Very Hard
+
+Hard
+
+Average
+
+Easy
+
+Very
+Easy
+
+-
+
+4%
+
+4%
+
+6%
+
+-
+
+Information search facility
+
+2%
+
+4%
+
+14%
+
+2%
+
+-
+
+Easy to learn
+
+2%
+
+4%
+
+54%
+
+34%
+
+6%
+
+-
+
+4%
+
+58%
+
+36%
+
+2%
+
+Issue
+
+Rating
+
+Easy to u nderstand
+
+Help section provided
+
+easy’ to learn the system. Overall, half (58 per
+cent) of the respondents rated the ‘Help’ screens
+as average and about 38 per cent considered as
+‘easy to use’ compared to a small percentage (4
+per cent) who felt these “hard to understand”. Most
+of the users felt the system is easy to understand
+and without going through the ‘Help Section’ they
+can use the system.
+
+5.4 Content Coverage and Organisation
+The majority of the respondents (82 per cent)
+felt good about the content coverage. These respondents
+found the website intuitive because the contents
+were clear, very precise, consistent and easily accessible.
+They also felt that the related contents were linked
+and labelled properly. Some of the respondents felt
+that the metadata corresponding to the images should
+be available both in enlarged and thumbnails versions
+of the images. Since this option would increase the
+content size, the metadata for the thumbnail images
+was dropped. However, the majority of the respondents
+(60-80 per cent) were still happy with the present
+form.
+Table 3 shows that most (94 per cent) of the
+respondents were satisfied or very much satisfied
+with the ‘information organisation’. Almost all the
+respondents felt that the information was well organised
+as it followed a pattern which normally a web reader
+would look for. They appreciated the well-organised
+content in the consistent layout.
+
+5.5 HTML vs Flash Interface
+The users were requested to compare both the
+interfaces (HTML and Flash versions) in terms of
+the time taken for downloading, information retrieval
+and the navigation. Their ratings are presented in
+
+Figs. 7 and 8. Of the total, 86 per cent of them felt
+that the downloading time taken by the HTML version
+was considerably lower compared to 30 per cent
+who felt the same way with the Flash version. The
+majority (82 per cent) of them were satisfied with
+the HTML version because of its good information
+retrieval, search capabilities and intuitive navigational
+aids. On the other hand, more than 80 per cent of
+respondents rated the Flash version as above average.
+Overall, 92 per cent felt that the navigation was
+much faster in the HTML version compared to 80
+per cent who felt the same with the Flash version.
+Secondary issues including the information coverage,
+information organisation, ease of use, easy to learn,
+easy to understand and the attractiveness of user
+interface were tested. In terms of the ‘information
+coverage’, 84 per cent of them rated the HTML
+version above average compared to slightly higher
+percentage (88 per cent) of the respondents rated
+the same to the Flash version. For the ‘information
+organisation’, most of the respondents (94 per cent)
+rated very high for HTML version and almost the
+same (92 per cent) for the Flash version. Regarding
+‘ease of use’, more than three-fourth of the respondents
+(78 per cent) felt that the HTML version was above
+average, but only two-third (66 per cent) felt the
+same for the Flash version. For the ‘easy to learn’,
+94 per cent rated the HTML version as above average,
+against 72 per cent for the Flash version. For the
+‘easy to understand’, the rating (95 per cent) for
+HTML version was more than for the Flash version
+(89 per cent).
+For the ‘attractiveness’ of user interface, 82 per
+cent of the respondents rated high to Flash version
+compared to 68 per cent who liked HTML version.
+So, overall Flash interface was attractive in terms
+of appearance but got comparatively lower ratings
+
+Table 3. Content coverage and information organisation
+Very Hard
+
+Hard
+
+Average
+
+Easy
+
+Very
+Easy
+
+-
+
+4%
+
+4%
+
+10%
+
+-
+
+2%
+
+4%
+
+54%
+
+34%
+
+6%
+
+Rating
+Issue
+Content Coverage
+Information Organisation
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+51
+
+Design Issues
+
+Flash version
+80%
+
+Navigation
+
+92%
+
+HTML version
+
+80%
+82%
+
+Information Retrieval
+
+Downloading
+DownloadingTime
+Time
+
+86%
+
+30%
+
+0%
+
+20%
+
+40%
+
+60%
+
+80%
+
+100%
+
+No. of Respondents
+
+Figure 7. Comparison of navigation, information retrieval and downloading time on HTML vs Flash interfaces.
+
+Design Issues
+
+Attractiveness
+
+82%
+
+68%
+
+89%
+95%
+
+Easy to Understand
+72%
+
+Easy to Learn
+
+66%
+
+Ease of Use
+
+94%
+
+Flash version
+HTML version
+
+78%
+92%
+94%
+88%
+84%
+
+Information Organisation
+Information Coverage
+0%
+
+20%
+
+40%
+
+60%
+
+80%
+
+100%
+
+No. of Respondents
+
+Figure 8. Comparison of easy to understand, ease of use and information coverage on HTML vs Flash interfaces.
+
+in ‘ease of use’, ‘ease to learn’ and ‘easy to understand’.
+People cannot search and use information in terms
+of copying for their work. However, HTML interface
+has much more advantages including searching,
+updating the content, and reusing of information for
+various purposes. So, many designers are now using
+Flash interface for introduction of the website and
+rest of the site in HTML interface so that users will
+get the benefit of both the interfaces.
+
+5.6 Problems Encountered
+One-fifth (20 per cent) of the respondents were
+not happy with the information search as not being
+indexed according to subject terms. Similarly, a
+few respondents (8 per cent) felt that the text links
+provided at the bottom of the web pages were redundant.
+As each and every web page has a template on the
+top navigational pane, a few respondents (12 per
+cent) felt the downloading time for the HTML version
+is a little bit longer, but certainly faster than the
+Flash version. Since the entire left navigational panel
+is made of images, the respondents (about 86 per
+cent) felt satisfied with its appearance and downloading
+time. Some (4 per cent) felt that the content organisation
+is a bit confusing, especially on the Flash version,
+where the windows have to be clicked to navigate
+to individual panels. On the other part, they felt that
+52
+
+there is too much of text and very few images in
+the system. A few also felt quite uneasy about the
+downloading time on Flash. One of the respondents
+appreciated the navigational bar, which is a good
+idea to provide a better navigation in the online
+exhibition. Overall they did not face any serious
+problems while using both the interfaces except a
+few minor problems.
+
+6. CONCLUSION
+The popularity of the physical exhibition has
+dropped in comparison to the online exhibition. As
+the cost of maintaining traditional museums is
+increaseing, perhaps due to higher cost of artifacts
+or skilled manpower or maintenance costs of artifacts,
+the trend is moving towards online exhibitions steeply.
+However, museums of the future should continuously
+strive to capitalise on the availability of the latest
+technologies including virtual reality, multi-model,
+higher bandwidth communication interfaces, 3-D realtime computer graphics, advanced display devices,
+auditory icons, etc. in order to entice surfers to
+take the first step into their physical museums.
+The evaluation results show that the HTML version
+was a better option for lower bandwidth because of
+content downloading time was lower (86 per cent
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+for HTML vs 30 per cent for Flash version). It was
+also rated favourably for its other features like information
+retrieval (82 per cent for HTML vs 80 per cent for
+Flash interface), navigation (92 per cent for HTML
+vs 80 per cent for Flash version), easy to understand
+(95 per cent for HTML vs 89 per cent for Flash),
+easy to learn (94 per cent for HTML vs 72 per cent
+for Flash), easy to use (78 per cent for HTML vs
+66 per cent for Flash version) and information organisation
+(94 per cent for HTML vs 92 per cent for Flash).
+However, for attractiveness (68 per cent for HTML
+vs 82 per cent for Flash), and information coverage
+(84 per cent for HTML vs 88 per cent for Flash)
+HTML version was rated poorly.
+In brief, the HTML version of the online exhibition
+performed relatively well in most of the aspects.
+The major limitation of this system is its search
+capability. This is primarily due to the cost factor
+as well as time constraint. Attempt must be made
+to rectify their limitations in order to provide a total
+integrated system that supports users. Though the
+search utility was not comprehensive in HTML version,
+it was compensated with common terms to help the
+users to search the system. Suggestions were provided
+by the respondents to enhance the search facility
+by indexing the subject terms. Overall, there is a
+need to improve the relevancy of search results and
+the speed of retrieval of information. The drawback
+of online exhibitions compared to its physical cousin,
+is the lack of touch and feelings capability. This
+can easily be substituted with simulations using
+the latest technologies such as virtual reality, 3-D
+models, etc. Additional research should be done to
+develop advanced tools and techniques for developing
+online museums, which can be a real boom for
+heritage and museums industries.
+
+REFERENCES
+1.
+
+Anable, S. Accessibility techniques for museum
+web-sites. Springer/Heidelberg, Berlin, 2001.
+pp. 110. http://www.archimuse.com/mw2001/papers/
+anable/anable.html
+
+2.
+
+Gesualdo, Donna. Integrating a web component
+into the classroom. Paper presented at the
+Museum and the Web, 2002. http://
+www.archimuse.com/mw2000/papers/gesualdo/
+gesualdo.html
+
+3.
+
+Freedman, Michael. Think different: Combining
+online exhibitions and offline components to
+gain new understandings of museum permanent
+collections. Paper presented at the Museums
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+and the Web, 2003. http://www.archimuse.com/
+mw2003/papers/freedman/ freedman.html
+4.
+
+Teather, L. A museum is a museum is a museum.
+Or is it? Exploring museology and the web,
+2000. http://www.archimuse.com/mw98/papers/
+teather/teather_paper.html
+
+5.
+
+de Bruine Annelies. Digital city Bristol: A case
+study. In Digital cities: Technologies, experiences,
+and future perspectives, 2000.
+
+6
+
+Galani, Areti & Chalmers, Matthew. Can you
+see me? Exploring co-visiting between physical
+and virtual visitors. Paper presented at the Museums
+and the Web, 2002. http://www.archimuse.com/
+mw2002/papers/galani/galani.html
+
+7.
+
+Thomas, W. & and Boily, D. Virtual exhibition
+production: A reference guide, 2000. http://
+www.archimuse.com/mw98/papers/boily/
+boily_paper.html
+
+8.
+
+Douma, Michael. Lessons learned from web
+exhibits: Practical suggestions for good design,
+2000 http://www.webexhibits.org/
+
+9.
+
+Reid, Gordon. A Digital exhibition: The Powys
+digital history project, 1996-2001. Journal of
+the Society of Archivists , 2001, 22(2), 161-76.
+
+10. Bowen, J.P.; Bennett, J. & Johnson, J. Virtual
+visits to virtual museums. http://www.archimuse.com/
+mw98/papers/ bowen/bowen_paper.html
+11. Wallace, M. Building museum brands for the
+next generation: Websites that reach and keep
+young people. 2000. http://cui.unige.ch/isi
+12. Lehman, D. Designing hypertext multimedia
+educational software, 2000. http://www.aln.org/
+alnweb/magazine/Vol4_issue2/Lehman.htm
+13. Bogomazova, T. G. Applying high technology to
+a museum website. The Amber Room Project.
+http://www.archimuse.com/mw2001/papers/
+bogomazova/bogomazova.html
+14. Kennedy, T. Repent from flash sins, 2000.
+http: //smw.internet.com/symm/voices/flashsins/
+15. Paternò, F. Model-based design and evaluation
+of interactive applications. Springer, 2000.
+16. Milekic, S.; Moreno, C. & Kazee, A. Museums
+and WWW-based art education, 1998. http://
+www.archimuse.com/mw98/papers/milekic/
+milekic_paper.html
+53
+
+17. Dierkind, L.D. & Falk J.H. Understanding freechoice learning: A review of the research and
+its application to museum websites. http://
+www.archimuse.com/mw98/papers/dierking/
+dierking_paper.html
+18. Marcus, A. & Gould, E.W. Crosscurrents: Cultural
+dimensions and global web user-interface design.
+Interactions: New Visions of Human-computer
+Interactions , 2002, 7(4), 33-45.
+19. Dix, A.; Finlay, J.; Abowd, G. & Beale, R.
+Human-computer interaction, Second Edition.
+Pearson Education Limited, Harlow, England,
+1997.
+20. Gupta. Information systems success in the 21st
+century . Prentice-Hall, New Jersey, 2000.
+
+21. Lyons, C.J. Essential design for web professionals.
+Prentice Hall PTR, New Jersey, 2003.
+22. Leong, C.K.; Ramaiah, C.K. & Foo, S. The
+design and development of an online exhibition
+for heritage information awareness in Singapore.
+Program: Electronic Library & Information Systems,
+2003, 37(2), 85-93.
+23. Martin, J.; Chapman, K.K. & Leben, J. Systems
+application architecture, Prentice-Hall, New Jersey,
+1992.
+24. Ramaiah, C.K. Problems encountered by naïve
+users while using hypertext . Singapore Journal
+of Library & Information Management , 1999,
+28, 34-47.
+
+About the Author
+
+Viralingam is working as Manager (Development), CITI Bank, Singapore. He is leading a project
+team that handles a credit card processing software called Vision Plus on Mainframe. His
+formal education includes a Master’s Degree in Information Studies from the Nanyang Technological
+University, Singapore.
+
+54
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+

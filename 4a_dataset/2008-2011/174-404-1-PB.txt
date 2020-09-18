@@ -1,0 +1,2582 @@
+DESIDOC Journal of Library & Information Technology, Vol. 28, No. 3, May 2008, pp. 17-35
+© 2008, DESIDOC
+
+Application Domain and Functional Classification
+of Recommender Systems—A Survey
+K. Nageswara Rao
+Defence Research & Development Laboratory
+Kanchanbagh, Hyderabad- 500 058
+E-mail:raokochi@hotmail.com
+
+and
+V.G. Talwar
+University of Mysore, Mysore-570 005
+
+ABSTRACT
+The amount of scientific and technical information is growing exponentially. As a result, the scientific
+community has been overwhelmed by the information published in number of new books, journal articles,
+and conference proceedings. In addition to increasing number of publications, advances in information
+technology have dramatically reduced the barriers in electronic publishing and distribution of information
+over networks virtually anywhere in the world. As a result, the scientific community is facing the problem
+of locating relevant or interesting information. To address the problem of information overload and to
+sift all available information sources for useful information, recommender systems or filtering systems
+have emerged. Generally, recommender systems are used online to suggest items that users find interesting,
+thereby, benefiting both the user and merchant. Recommender systems benefit the user by making him
+suggestions on items that he is likely to purchase and the business by increase of sales. Filtering
+information or generation of recommendations by the recommender systems mimic the process of
+information retrieval systems by incorporating advanced profile building techniques, item/user
+representation techniques, filtering and recommendation techniques, and profile adaptation techniques.
+This paper addresses the application domain analysis, functional classification, advantages and
+disadvantages of various filtering and recommender systems.
+Keywords: Recommender system, filtering system, domain analysis, content-based filtering system.
+
+1. INTRODUCTION
+Bibliographic control and information retrieval
+mechanisms were established and made available
+to the users in many libraries for identifying and
+locating relevant books, journal articles, reports,
+patents, etc. Ever increasing number of research
+scientists and dynamic research activities in multidisciplinary subjects have resulted in the exponential
+growth of technical information and publication of
+large number of documents in the form of journal
+articles, conference proceedings, books, reports,
+Received on 8 January 2008
+
+standards, patents, etc. As more and more information
+became available electronically, the need for effective
+information retrieval and filtering tools became essential
+for easy access to relevant information. A poor
+information retrieval strategy results in retrieval of
+increased non-relevant documents.
+A survey of biomedical journals conducted by
+K.S. Warren showed that the number of journals
+increases by 6-7 per cent every year, doubles every
+10-15 years, and increases tenfold every 35-50 years.
+At the starting of the 19 century there were roughly
+17
+
+1000 biomedical journals, 30 years ago there were
+4,000 and 10 years ago 14,000 journals1. The history
+shows that scientific community has always found
+solution for the problem of information overload by
+preparing reviews for books and encyclopedias, indexes
+and abstracts for articles, and later computerised
+data banks. Explosive growth of information has
+resulted in the problem of information overload.
+Information overload is a perception that the information
+available is greater than can be managed effectively,
+and creates a degree of stress for which the coping
+strategies are ineffective. Richard Saul Wurman 2
+explained the reasons of information overload in his
+book titled “Information Anxiety” as: when a person
+does not understand available information, feels
+overwhelmed by the amount of information to be
+understood, does not know if certain information
+exists, does not know how to find information and
+knows where to find information, but does not have
+the key to access it. So, continued efforts by experts
+in the field of information technology resulted in
+development of technological aids such as information
+retrieval systems, information filtering systems, intelligent
+agents, ranking algorithms, clustering techniques,
+categorisation techniques, data mining techniques,
+web mining techniques, personalisation and recommender
+systems to tackle the problem of information overload.
+The advances in information and entertainment
+technologies have accelerated the availability of
+various alternative items in each and every domain,
+e.g. availability of hundreds of movies, television
+and music channels, books, restaurants, etc. In
+addition to this, the emergence of World Wide Web
+has opened up new possibilities for the users/customers
+to know the details/specifications of items seamlessly
+without visiting shops or outlets. It is an easy task
+for an individual to choose from limited number of
+available alternatives. When the collection becomes
+large, it is a tedious and time consuming task for
+any individual to really evaluate the features of
+items/products while purchasing quality, economic,
+and useful items. In such circumstances, people
+seek suggestions or recommendation from friends,
+relatives and experts who have knowledge about
+the items/products. The main purpose of the
+recommender systems is to provide tools to leverage
+the information hunting and gathering activities and
+interests of other people or groups of people.
+Recommendation systems have been an important
+application area and the focus of considerable recent
+academic and commercial interest. Generally,
+recommender systems are used online to suggest
+items that customers find interesting, thereby, benefiting
+
+18
+
+both the customer and merchant. They benefit the
+customer by making him suggestions on items that
+he is likely to purchase and the business by increase
+of sales. In this paper, authors have surveyed, evaluated
+and classified recommender/filtering systems based
+on their functionality in various application domains.
+
+2. APPLICATION DOMAIN ANALYSIS OF
+RECOMMENDER SYSTEMS
+We have conducted literature survey to analyse
+various filtering and recommender systems falling
+under different application domains with brief introduction
+and purpose of the systems developed. The analysis
+revealed that some recommender systems are purely
+research prototypes, some are working on Internet
+and some systems provide their services for fee.
+All of the recommender/filtering systems were studied
+and analysed based on published technical literature
+in the form of technical reports, conference paper
+and journal articles. It is understood from the literature
+survey that majority of filtering/recommender systems
+were designed and developed for recommending
+Web pages, Netnews articles, personalised newspapers,
+music, movies, documents and information.
+Research survey was conducted to study and
+classify approximately 96 filtering/recommender systems
+on various application domains. Out of 96 systems,
+21 systems were developed in Web recommendation
+application domain, 12 systems in movie/TV
+recommendation application domain, 12 systems
+in information/document recommendation application
+domain, eight systems in Usenet news recommendation
+application domain, seven systems in information
+filtering and sharing domain, six systems in music
+recommendation domain, four systems in restaurant
+recommendation application domain, three systems
+in organisational expertise recommendation domain,
+three in personalised newspaper domain, three in
+e-Commerce application domain and software application
+domain, two systems each in travel recommendation
+application domain and two in electronic catalogue
+item recommendation. One system each fall under
+the recommender application domains such as learning
+resources recommendation, recommending interesting
+changes on Web, explanation-sharing recommendation,
+research grants recommendation, IT skills
+recommendation, similar user recommendation on
+P2P network, Web search and filtering, virtual fair
+recommendation, jokes recommendation, and image
+recommender system. Table 1 details various
+recommender systems and their application domain.
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+Table 1. Filtering/recommender systems and their application domain
+Filtering/Recommender systems
+ACR News
+
+3
+4
+
+Restaurant Recommender System
+
+Adaptive Place Advisor
+5,6
+
+Web Recommender System
+
+Amalthaea
+
+7
+
+Document/Information Recommender Systems
+
+Amazon.com
+
+Anatagonomy
+
+8
+
+Personalized Newspaper Recommender System
+
+9
+
+Information Products Recommender System
+
+ARAS
+
+10
+
+Web Recommender System
+
+11
+
+Movie/TV Recommender System
+
+ArgueNet
+AVATAR
+
+12
+
+Information Filtering and Sharing Systems
+
+Beehive
+
+13
+
+Bellcore Video Recommender
+
+Movie/TV Recommender System
+14
+
+Book Recommender System (BRS)
+CBCF
+
+15
+
+Book Recommender System
+Movie/TV Recommender System
+
+16
+
+CinemaScreen Recommender Agent
+17
+
+Movie/TV Recommender System
+Music Recommender System
+
+CoCoA
+
+18
+
+Learning Resources Recommender System
+
+CoFIND
+
+Community Search Assistant
+
+19
+
+DEMOIR20
+
+Web Recommender System
+Organizational Expertise Recommender System
+
+21
+
+Travel Recommender System
+
+22,23
+
+Systems for Recommending Interesting Changes on
+Web
+Document/Information Recommender System
+
+Dietorecs
+Do-I-Care
+
+D-SIFTER
+
+24
+25
+
+Online Jokes Recommender System
+
+Eigentaste
+
+26,27
+
+Restaurant Recommender System
+
+Entrée
+
+Expertise Recommender
+
+28
+
+Organizational Expertise Recommender System
+
+29
+
+Explanation Sharing Recommender System
+
+ExplaNet
+30,31
+
+Web Recommender System
+
+Fab
+
+32
+
+Virtual Fair Recommender System
+
+FAIRWIS
+
+33
+
+Music Recommender System
+
+Flycasting
+
+Foafing the Music
+
+34
+
+Music Recommender System
+35
+
+Foxtrot Recommender System
+
+Document/Information Recommender System
+
+36,37
+
+Usenet News Recommender System
+
+38
+
+Web Rec ommender System
+
+GroupLens
+
+GroupMark
+IfWeb
+
+Application domain
+Usenet News Recommender System
+
+39
+
+Web Recommender System
+40
+
+Document/Information Recommender System
+
+41
+
+Usenet News Recommender System
+
+42
+
+Organizational Expertise Recommender System
+
+InfoFinder
+INFOrmer
+InfoScout
+
+43
+
+e-Commence Recommender System
+
+InterestMap
+INTIMATE
+
+44
+
+Movie/TV Recommender System
+45
+
+Krakatoa Chronicle
+46
+
+Personalized Newspaper Recommender System
+
+LaboUr
+
+Research Grants Recommender System
+
+Letizia47
+
+Web Recommender System
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+19
+
+47
+
+Web Recommender System
+
+Letizia
+
+48
+
+Web Recommender System
+
+Let's Browse
+LIBRA
+
+49
+
+Document/Information Recommender System
+50
+
+Travel Recommender System
+
+LifestyleFinder
+MetaLens
+
+51,52
+
+METIOREW
+
+e-Commence Recommender System
+
+53
+
+Web Recommender System
+
+54
+
+Movie/TV Recommender System
+
+55
+
+Movie/TV Recommender System
+
+56
+
+Software Recommender System
+
+MovieLens
+
+Movies2Go
+MyPYTHIA
+57
+
+Information Products Recommender System
+
+MyVU
+
+58
+
+NAUTILUS
+
+Web Recommender System
+
+59
+
+Usenet News Recommender System
+
+News Dude
+
+60
+
+Usenet News Recommender System
+
+NewsWeeder
+61
+
+IT Skills Recommender System
+
+OWL
+
+62
+
+Information Filtering and Sharing Systems
+
+PEA
+
+PEFNA
+
+63
+
+Usenet News Recommender System
+64
+
+Web Recommender System
+
+Personal WebWatcher
+65
+
+Document/Information Recommender System
+
+pFilter
+
+66
+
+Web Recommender System
+
+67
+
+Web Recommender System
+
+PHOAKS
+PILGRIM
+
+68
+
+Similar User Recommender System on P2P Network
+
+PipeCF
+
+69
+
+Pocket RestaurantFinder
+70,71
+
+Movie/TV Recommender System
+
+PocketLens
+PolyLens
+
+72
+
+PORSCHE
+
+Restaurant Recommender System
+73
+
+Document/Information Recommender System
+
+74
+
+Web Recommender System
+
+ProfBuilder
+75
+
+Usenet News Recommender System
+
+PSUN
+
+P-Tango
+
+76
+
+PYTHIA-II
+
+Personalized Newspaper Recommender System
+
+77
+
+Software Recommender System
+
+78
+
+Web Recommender System
+
+RAAP
+
+RACOFI
+
+79
+
+Music Recommender System
+
+80
+
+Information Filtering and Sharing Systems
+
+Rama
+
+81,82
+
+Software Recommender System
+
+RASCAL
+
+83
+
+Information Filtering and Sharing Systems
+
+Re: Agent
+
+84
+
+Recommendation Explorer
+85
+
+Recommender
+86
+
+Movie/TV Recommender System
+Movie/TV Recommender System
+Movie/TV Recommender System
+
+RecTree
+
+87
+
+Document/Information Recommender System
+
+REFEREE
+88,89
+
+Music Recommender System
+
+Ringo
+
+90
+
+Document/Information Recommender System
+
+SELECT
+
+91
+
+SIFT Netnews
+
+20
+
+Restaurant Recommender System
+
+Usenet News Recommender System
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+92
+
+Web Recommender System
+
+SiteIF
+
+93,94
+
+Music Recommender System
+
+SmartRadio
+95
+
+Web Recommender System
+
+SurlLen
+
+Syskill & Webert
+
+96
+
+Web Recommender System
+
+97
+
+Document/Information Recommender System
+
+TalkMine
+
+98
+
+Information Filtering and Sharing Systems
+
+Tapestry
+
+99
+
+Electronic Catalog Item Recommender System
+
+The MAUT Machine
+
+100
+
+The Wasabi Personal Shopper
+101
+
+Electronic Catalog Item Recommender System
+Movie/TV Recommender System
+
+TiVo
+
+102
+
+Image Recommender System
+
+VISCORS
+
+103
+
+WebInEssence
+104
+
+Document/Information Recommender System
+Web Recommender System
+
+WebMate
+WebSail
+
+105,106
+
+Web Search and Filtering System
+
+WebSell
+
+107,108
+
+e-Commence Recommender System
+
+WebSIFT
+
+109
+
+Web Recommender System
+110,111
+
+WebWatcher
+
+Web Recommender System
+
+3. FUNCTIONAL CLASSIFICATION OF
+RECOMMENDER SYSTEMS
+
+3.1 Content-based Filtering/Recommender
+Systems
+
+Recommender systems can be classified broadly
+into six categories depending on the information
+they uses to recommend items. The systems, which
+use data about the items and information regarding
+the active user, are called “Content-based Filtering
+Systems ”. Other systems that do not use data
+about the content of the items but make recommendations
+to the active user using information about a set of
+users and their relation with the item, are called
+“Collaborative Filtering Systems ”. Systems that use
+demographic information such as age, gender, education,
+etc. of people for identifying types of users like a
+certain object and makes recommendations, are
+called “Demographic Filtering Systems ”. Another
+category of systems, which uses the functional
+knowledge to generate recommendations, i.e. knowledge
+about how a particular item meets a particular user
+need, and can reasoning about the relationship
+between a need and a product, are called “Knowledgebased Recommender Systems”. The systems, which
+make suggestions based on computation of the
+utility of each object for the user, are called “ Utilitybased Recommender Systems ”. Recently, several
+authors proposed mixed approaches, attempting to
+keep the advantages of the combination of methods,
+and to reduce or take out disadvantages and problems.
+These systems are called “Hybrid Recommender
+Systems ”, which are the most interesting and can
+be considered as the state-of-the-art systems. The
+paper discusses four types of recommender systems
+based on their functionality.
+
+Content-based filtering systems recommend items
+based on descriptions or content of items rather
+than other user’s ratings of the system. Instead of
+deriving a user-to-item correlation and defining
+methodologies, they use item-to-item correlation
+for generating recommendations. In these systems,
+the process of recommendation first starts by gathering
+content data about the items. For example, title,
+author, descriptors, etc. for the books or the director,
+cast, etc. for the movies are some of the common
+content information. Most of these systems use
+feature extraction techniques and information indexing
+to extract the content data. Generally, feature extraction
+can be achieved through various approaches which
+reduce the number of words, stop words, pruning,
+stemming, etc. 112. In the next step, the user is
+asked to provide some ratings for the items randomly.
+Finally, the systems match un-rated books/items
+contents with the compiled user profile and assigns
+scores to the items depending on the match between
+user profile and item descriptions. The items are
+ranked according to their scores and presented to
+the user in order as output.
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+Consider the example in Table 2 to predict how
+recommendations are made for a particular user
+based on the relevance ratings provided by that
+user. It gives the relevance ratings for eight documents
+by four users. Users simply specify whether a particular
+document is relevant or not by mentioning ‘Yes’ as
+relevant and ‘No’ as non-relevant.
+21
+
+Table 2. Relevance ratings given by four users for eight documents
+Title of the document
+
+No
+
+No
+
+?
+
+D2
+
+Discovering Knowledge in Data: An Introduction to
+Data Mining
+
+Yes
+
+No
+
+No
+
+?
+
+D3
+
+Datawarehousing and Data Mining: Implementing
+Strategic Knowledge Management
+
+?
+
+?
+
+No
+
+Yes
+
+D4
+
+Datawarehousing and Data Mining for
+Telecommunications
+
+Yes
+
+?
+
+?
+
+?
+
+D5
+
+Semiconductor Physics
+
+No
+
+No
+
+Yes
+
+No
+
+D6
+
+Physics of Semiconductor Devices
+
+No
+
+No
+
+?
+
+?
+
+D7
+
+Knowledge Management in Theory and Practice
+
+No
+
+Yes
+
+?
+
+?
+
+D8
+
+Knowledge Management for the
+Telecommunications Industry
+
+No
+
+Yes
+
+No
+
+?
+
+They don’t require data on other users and are
+away from new user cold-start and sparsity
+problems
+These systems are capable of recommending
+items to users with unique tastes
+
+Ë
+
+Can provide explanations of recommended items
+by explicitly listing content features or descriptions
+that caused an item to be recommended and
+Do not suffer from first-rater problem, i.e., they
+are capable of recommending new and unpopular
+items to each and every user.
+The systems have the following drawbacks:
+
+22
+
+User-4
+
+Yes
+
+Ë
+
+Ë
+
+User-3
+
+Mastering Data Mining: The Art and Science of
+Customer Relationship Management
+
+editors have to manually insert the features for
+items that are not machine parsable such as
+movies and songs. The activity of human involvement
+is highly subjective, expensive, time consuming
+and erroneous. Moreover, it is impossible to
+define right set of features for some sort of
+items such as jokes.
+Ë
+
+Content-based filtering techniques have no inherent
+method for finding something unexpected and
+useful while searching for something else. The
+system recommends only more of what the
+user has already seen and indicated as “liking”
+the item. Hence, the user is restricted to see
+items similar to those already rated and these
+systems suffer from new-user cold start problem.
+
+Ë
+
+In content-based filtering systems, items are
+limited to their initial descriptions or features.
+This limitation makes the content-based techniques
+dependent on the features that are specified
+explicitly.
+
+Content-based filtering systems have the following
+advantages:
+
+Ë
+
+User-2
+
+D1
+
+In Table 2 User-1 has specified document D1,
+D2, D4 as relevant. The simplest form that the
+recommender system uses to recommend documents
+is through matching the content of rated document
+by the individual user. So, document D3 would be
+recommended to User-1 as title of the document
+has similarity with that of the rated documents.
+Likewise, D3 would be recommended to User-2, D6
+would be recommended to User-3 and finally D1,
+D2, D4, D7 and D8 would be recommended to the
+User-4.
+
+Ë
+
+User-1
+
+The feature extraction and representation can
+be achieved automatically for machine parsable
+items such as news or papers. But human
+
+3.2 Collaborative Filtering Systems
+The term collaborative filtering was coined by
+Doug Terry at Xerox PARC in the early nineties. In
+its initial conception, collaborative filtering referred
+to methods for information filtering based on the
+preferences expressed by people about items or
+documents. Due to the generality of this definition,
+a variety of methods, models, and technologies
+have emerged in the past decade that all claim to
+address the problem of collaborative filtering. A
+pure collaborative filtering system is one which
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+does no analysis of the items at all—in fact, all that
+is known about an item is a unique identifier 30 . The
+first recommender that used a collaborative approach
+was GroupLens 37 , which presented the so-called
+neighborhood based approach. Other approaches
+were proposed, using Bayesian networks, singular
+value decomposition with neural networks classification
+and induction rule learning 113 .
+
+similar pattern of ratings with User-X. In this example,
+User-2 has rated Doc-2, Doc-4, and Doc-5 with
+same or similar ratings as that of User-X. Hence,
+Doc-6 is recommended to the User-X or the predicted
+rating for Doc-6 by the User-X is 2.
+Another approach would be to find the degree
+of correlation between User-X and other users. Rather
+than relying on just the most similar user with
+similar ratings as explained above, a weighted average
+of the recommendations of several users can be
+found. In such circumstances the weightage to user’ s
+rating would be found by degree of correlation between
+the two users. The most common measure of correlation
+is the Pearson Product Moment Correlation (called
+Pearson’s correlation for short). When computed in
+a sample, it is designated by the letter “r” and is
+sometimes called “Pearson’s r”. Pearson’s correlation
+reflects the degree of linear relationship between
+two variables. It ranges from +1 to -1. A correlation
+of +1 means that there is a perfect positive linear
+relationship between variables.
+
+The goal of collaborative filtering systems is to
+suggest new items or predict the utility of a certain
+item for a particular user based on users past liking
+and the opinions of other like-minded users. It is
+widely used and perhaps the most familiar
+recommendation technique implemented in several
+e-Commerce applications. In general, collaborative
+filtering systems collect the ratings for a list of
+items from a list of users. Opinions can be explicitly
+given by the user as a rating score or can be
+implicitly derived from the historical data of the
+user. When the user does not the rate a particular
+item, there is the possibility of having a null set.
+The correlation between the user seeking
+recommendations and other users are computed
+and neighbours or peer groups are created using
+different correlation methods. Finally, predictions
+or recommendations for the items that the user has
+not rated but the neighbours have rated are computed
+and presented to the user in decreasing order of
+preference. It is important to note that collaborative
+filtering systems use the nearest neighbour model
+and rely upon the assumption that people who
+agreed in the past are likely to agree in the future 37 .
+
+The correlation coefficient of a set of observations
+
+{( x i , y i ) : i = 1,2,3...n} is given by the formula:
+n
+
+∑ (x
+i =1
+
+r=
+
+n
+
+∑ (x
+i =1
+
+i
+
+− x)( yi − y )
+n
+
+i
+
+− x) 2 ∑ ( y i − y ) 2
+i =1
+
+In collaborative filtering systems all users may
+not rate all documents. Here, for the purpose of
+calculation, zero value has been given for non-rated
+documents. From the above sample data, the Pearson
+correlation coefficient between User-X and User-1
+for all the document collection is 0.975, User-X and
+User-2 is 0.996, User-X and User-3 is 0.933, UserX and User-4 is 0.992 and User-X and User-5 is
+0.982, respectively. Mathematically, it is clear that
+the correlation between User-X and User-2 is more.
+Hence, collaborative filtering system recommends
+Doc-6 to User-X as User-2 is more similar and has
+rated Doc-6.
+
+Consider the example in Table 3 to predict how
+recommendations are made for a particular user. It
+shows the ratings for seven documents by six users.
+Users specify how relevant a particular document
+with the help of 1-5 ratings scale, i.e. 1 representing
+low relevant and 5 representing highly relevant.
+The simplest way of predicting the ratings that
+User-X would give to Doc-6 or to recommend documents
+to the User-X based on his ratings to other documents,
+it would be reasonable to consider users that have
+
+Table 3. Ratings of six users for seven documents
+Doc-1
+
+Doc-2
+
+Doc-3
+
+Doc-4
+
+Doc-5
+
+Doc-6
+
+Doc-7
+
+User-1
+
+1
+
+3
+
+0
+
+1
+
+0
+
+0
+
+2
+
+User-2
+
+0
+
+1
+
+0
+
+4
+
+0
+
+2
+
+5
+
+User-3
+
+5
+
+0
+
+1
+
+0
+
+4
+
+5
+
+0
+
+User-4
+
+0
+
+1
+
+0
+
+3
+
+0
+
+2
+
+3
+
+User-5
+
+0
+
+2
+
+0
+
+4
+
+0
+
+1
+
+1
+
+User-X
+
+0
+
+1
+
+0
+
+4
+
+0
+
+?
+
+5
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+23
+
+express preferences in the beginning stages
+when the system cannot yet help them.
+
+Collaborative filtering systems have the following
+advantages:
+Ë
+
+They do not need a representation of items in
+terms of features i.e. genre and actor of the
+movie, title and author of the book, but it is
+based only on the judgment of participating
+user community. Hence, collaborative filtering
+can be applied to virtually any kind of item, i.e.,
+papers, news, websites, movies, songs, books,
+jokes, etc.
+
+Ë
+
+Scalability of the items database can be large
+since the technique does not require any human
+involvement for tagging descriptions or features
+
+Ë
+
+They can cope with cross-genre recommendations
+such as making confident predictions of entirely
+different items to the user who have never rated
+such items in the past
+
+Ë
+
+They do not require domain-knowledge for tagging
+the features to the items, therefore, it is a time
+saving activity
+
+Ë
+
+The quality of the recommendations would be
+improved over time.
+
+Collaborative filtering systems have the following
+disadvantages:
+Ë
+
+Cold Start or First Raster Problem: When new
+item is added to the database, the item can not
+be recommended to any user until the item is
+either rated by another user(s) or correlated
+with other similar items of the database114,115,116.
+
+Ë
+
+Data Sparseness Problem: Most of the e-Commerce
+applications contains millions of users and millions
+of items. In practice even active users only rate
+a few of the entire set of items and results in
+a very sparse matrix in collaborative filtering.
+The sparseness of a collaborative filtering matrix
+is the percentage of empty cells. Because of
+the presence of empty cells, collaborative filtering
+systems may not locate successful neighbours
+and generate weak recommendations.
+
+Ë
+
+24
+
+Critical Mass Problem: For the recommendations
+to be reliable, the filtering system needs a very
+large number of people (typically thousands) to
+express their preferences about a relatively large
+number of options (typically dozens). But developing
+such a database for achieving a critical mass
+of participants makes collaborative filtering
+experiments so expensive and time consuming,
+because users will not be very motivated to
+
+Ë
+
+Unusual User Problem: In a small or medium
+community of users, there are individuals whose
+opinions or tastes are unusual. It means that
+an individual do not agree or disagree consistently
+with any of existing group of people. So, these
+individuals rarely receive accurate collaborative
+recommendations even when the critical mass
+of users is achieved.
+
+Ë
+
+Popularity Bias: Collaborative filtering systems
+cannot recommend items to someone with unique
+tastes, but tends to recommend popular items.
+
+3.3 Demographic Filtering Systems
+A general technique people use to build models
+of other people very quickly is the evocation of
+stereotypes or clusters of characteristics. A stereotype
+is a collection of frequently occurring characteristics
+of users. For example, one might guess that if
+someone is a judge, he or she is probably over
+forty, well educated, reasonably pro-establishment,
+fairly affluent, honest, and well-respected in the
+community. Although not all of these attributes are
+necessarily true for any particular judge, a person
+would tend to assume them until explicitly shown
+otherwise. Therefore, a stereotype normally contains
+the common knowledge about a group of users.
+When a new user enters the system, he will be
+assigned into related stereotype(s) if some of his
+characteristics match that of a particular stereotype(s).
+The same concept is used in demographic recommender
+systems by the use of descriptions of people to
+learn the relationships between a single item and
+the class or type of people who liked it. Demographicbased recommender systems use prior knowledge
+on demographic information about the users and
+their opinions for the recommended items as basis
+for recommendations. Demographic systems are
+stereotypical, because they depend on the assumption
+that all users belonging to a certain demographic
+group have similar taste or preference 117 .
+A demographic recommender system, Grundy,
+was one of the first book recommender system
+developed by Elaine Rich118. Grundy bunds models
+of its users, with the aid of stereotypes, and then
+exploits those models to guide it in its task, suggesting
+novels that people may find interesting. Users enter
+keywords describing their personality, not their information
+need in order to create a user profile. Grundy then
+associates terms used in the users’ self-descriptions
+with pre-defined stereotypes. These stereotypes
+expand into attribute rating pairs describing the
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+users’ information needs that are aggregated to
+form the object ratings when making predictions.
+Another recommender system is the LifeStyle
+Finder 40 , which suggests items and webpages to
+users. It attempts to identify one of pre-existing
+clusters of demographic groups to which a user
+belongs and tailors recommendations to users based
+on information about others in that cluster. Demographic
+techniques attempt to form “people-to-people” correlations
+like collaborative filtering, but uses different data.
+M.J. Pazzani 119 attempted to find regularities
+among users, by applying on them Winnow algorithm—
+an algorithm originally designed for text classification.
+User profiles utilised for similarity calculations had
+the form of user demographic vectors.
+Demographic filtering systems have the following
+advantages:
+Ë
+
+The advantage of a demographic approach is
+that it does not require a history of user ratings
+of the type required by collaborative and contentbased techniques
+
+Ë
+
+Demographic approach is quick and straightforward
+method for making assumptions based on limited
+observations, and
+
+Ë
+
+Demographic filtering systems could be implemented
+quickly and easily.
+
+Demographic filtering systems have the following
+disadvantages:
+Ë
+
+For the demographic filtering to be effective, it
+is necessary to collect complete demographic
+information about users. In practice, it is difficult
+to collect such information as it involves privacy
+issues
+
+Ë
+
+Demographic filtering systems suffer from both
+new-user cold-start problem and new-item coldstart problem
+
+Ë
+
+The formation of demographic clusters is based
+on a generalisation of the user’s interests. So,
+demographic systems try to recommend the
+same item to people with similar demographic
+profiles and the recommendations are too general.
+
+3.4 Hybrid Recommender Systems
+Several recommender systems use a hybrid
+approach by combining content-based and collaborative
+methods to avoid certain limitations and disadvantages
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+of content-based and collaborative systems. Different
+filtering/recommender systems and type of filtering
+techniques used for producing recommendations or
+predictions have been shown in Appendix 1.
+
+4. CONCLUSION
+Queries in information retrieval play an important
+role in searching and retrieving relevant information
+from static collection of documents. But in the
+case of information filtering/recommender systems,
+profiles play an important role to filter relevant information
+from dynamic stream of incoming data. Every
+recommender system needs some sort of input
+collected explicitly or implicitly to generate
+recommendations. Using this input, the recommender
+system builds user profile which represents any of
+the IR/profile representation models viz., vector space
+model, semantic networks, weighted n-grams, associative
+networks etc.
+The recommender system matches the user
+profile with the descriptions of items or users with
+similar taste to recommend items of interest to the
+user. There are three matching techniques generally
+used by the recommender systems such as: contentbased filtering, collaborative filtering, demographic
+filtering or hybrid technique. Finally, these systems
+provide Top-N recommendations followed by fine
+tuning the user profile with the help of relevance
+feedback mechanism to retrieve more relevant items.
+All these 96 systems under study have their advantages
+and disadvantages in the process of recommending
+items to the targeted users. Hybrid recommender
+systems are more important and they are going to
+play vital role in the next-generation of recommender
+systems, because they minimize the disadvantages
+and maximize the utility of content-based filtering
+systems and collaborative filtering systems.
+
+REFERENCES
+1.
+
+Warren, K.S. Selective aspects of the biomedical
+literature. In Coping with the biomedical literature:
+A primer for scientists and clinicians, edited by
+K.S. Warren. 1981. New York, Praeger.
+
+2.
+
+Wurman, R.S. Information Anxiety. 1989. New
+York, Doubleday.
+
+3.
+
+Mobasher, B.; Cooley, R. & Srivastava, J. Automatic
+personalization based on Web usage mining.
+Communications of ACM , 2000, 43(8), 142-151.
+
+4.
+
+Goker, M. & Thompson, C. The Adaptive Place
+Advisor: A conversational recommendation system,
+25
+
+edited by M. Goker. I n Proceedings of the 8th
+German Workshop on Case-based Reasoning,
+Lammerbuckel, Germany, 2000. pp.187-198.
+
+Colorado, United States. ACM Press/AddisonWesley Publishing Co., New York, 1995. pp.
+194-201.
+
+5.
+
+Moukas, A. & Maes, P. Amalthaea: An evolving
+multi-agent information filtering and discovery
+system for the WWW. Autonomous Agents and
+Multi-Agent Systems , 1998, 1(1), 59-88.
+
+6.
+
+Moukas, A. Amalthaea: Information discovery
+and filtering using a multiagent evolving ecosystem.
+Applied Artificial Intelligence: An International
+Journal , 1997, 11(5), 437-457.
+
+14. Nageswara Rao, K. & Talwar, V.G. Developing
+content-based Book Recommender System (BRS)
+using first order keywords. In Proceedings of
+the 48th All India Library Conference on Electronic
+Information Environment and Library Services:
+A Contemporary Paradigm , Bangalore, India,
+2002. pp. 346-360.
+
+7.
+
+Linden, G.; Smith, B. & York, J. Amazon.com
+recommendations: Item-to-item collaborative filtering.
+IEEE Internet Computing , 2003, 7(1), 76-80.
+
+8.
+
+Sakagami, H. & Kamba, T. Learning personal
+preferences on online newspaper articles from
+user behaviors, edited by P.H. Enslow, M.
+Genesereth, & A. Patterson. In Selected Papers
+From the Sixth International Conference on World
+Wide Web, California, USA, 1997. pp. 1447-1455.
+
+9.
+
+Kilfoil, M.; Xing, W. & Ghorbani, A. ARAS:
+Adaptive recommender for academic scheduling.
+In Proceedings of the 3rd Annual Communication
+Networks and Services Research Conference.
+IEEE Computer Society, Washington, 2005, pp.
+307-312.
+
+10. Chesñevar, C.I. & Maguitman, A.G. ArgueNet:
+An argument-based recommender system for
+solving Web search queries. I n Proceeding of
+the 2nd International IEEE Conference on Intelligent
+Systems, Varna, Bulgaria, 2004. pp. 282-287.
+11. Blanco-Fernandez, Y.; Pazos-Arias, J.J.; LopezNores, M.; Gil-Solla, A. & Ramos-Cabrer, M.
+AVATAR: An improved solution for personalized
+TV based on semantic interface. IEEE Transactions
+on Consumer Electronics, 2006, 52(1), 223-231.
+12. Huberman, B.A & Kaminsky, M. Beehive: A
+system for cooperative filtering and sharing of
+information. Technical Report, Dynamics of
+Computation Group, Xerox Palo Alto Research
+Center, 1996.
+13. Hill, W.; Stead, L.; Rosenstein, M. & Furnas,
+G. Recommending and evaluating choices in a
+virtual community of use, edited by I.R. Katz,
+R. Mack, L. Marks, M.B. Rosson, & J. Nielsen.
+In Proceedings of the SIGCHI Conference on
+Human Factors in Computing Systems, Denver,
+26
+
+15. Melville, P.; Mooney, R.J. & Nagarajan, R. Contentboosted collaborative filtering for improved
+recommendations edited by R. Dechter, M. Kearns,
+& R. Sutton. In Proceedings of Eighteenth National
+Conference on Artificial Intelligence, Edmonton,
+Alberta, Canada. American Association for Artificial
+Intelligence, Menlo Park, 2002. pp. 187-192.
+16. Salter, J. & Antonopoulos, N. CinemaScreen
+Recommender Agent: Combining collaborative
+and content-based filtering. IEEE Intelligent
+Systems , 2006, 21(1), 35-41.
+17. Aguzzoli, S.; Avesani, P. & Massa, P. Compositional
+recommender systems using case-based reasoning
+approach. In Proceedings of ACM SIGIR Workshop
+on Recommender Systems, New Orleans, Lousiana,
+USA, 2001.
+18. Dron, J.; Mitchell, R.; Siviter,
+CoFIND—An experiment in
+collaborative filtering. Journal
+Computer Applications , 2003,
+
+P. & Boyne, C.
+N-dimensional
+of Network and
+23(2), 131-142.
+
+19. Glance, N.S. Community search assistant. I n
+Proceedings of the 6th International Conference
+on Intelligent User Interfaces, Santa Fe, New
+Mexico, United States. ACM Press, New York,
+2001. pp. 91-96.
+20. Yimam-Seid, D. & Kobsa, A. Expert finding
+systems for organizations: Problem and domain
+analysis and the DEMOIR approach. Journal of
+Organizational Computing and Electronic
+Commerce, 2003, 13(1), 1-24.
+21. Arslan, B. & Ricci, F. Case-based session
+modeling and personalization in a travel advisory
+system, edited by F. Ricci & B. Smyth. I n
+Proceedings of the AH’2002 Workshop on
+Recommendation and Personalization in eCommerce, Malaga, Spain, 2002.
+22. Starr, B.; Ackerman, M.S. & Pazzani, M. DoI-Care: A collaborative Web agent, edited by M.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+J. Tauber. In Proceedings of the Companion on
+Human Factors in Computing Systems: Common
+Ground Conference, Vancouver, British Columbia,
+Canada. ACM Press, New York, 1996. pp. 273-274.
+23. Ackerman, M.S.; Starr, B. & Pazzani, M. The
+Do-I-Care Agent: Effective social discovery and
+filtering on the Web. In Proceedings of RIAO’97:
+Computer-Assisted Information Searching on
+the Internet, Montreal, CA, 1997, pp. 17-31.
+24. Raje, R.; Mukhopadhyay, S.; Boyles, M.; Patel,
+N. & Mostafa, J. D-SIFTER: A collaborative
+information classifier. In Proceedings of the
+International Conference on Information,
+Communications and Signal Processing, Singapore,
+1997, 820-824.
+25. Goldberg, K.; Roeder, T.; Gupta, D. & Perkins,
+C. Eigentaste: A constant time collaborative
+filtering algorithm. Information Retrieval , 2001,
+4(2), 133-151.
+26. Burke, R.; Hammond, K. & Cooper, E. Knowledgebased navigation of complex information spaces.
+In Proceedings of the Thirteenth National Conference
+on Artificial Intelligence and Eighth Innovative
+Applications of Artificial Intelligence Conference,
+Portland, Oregon. AAAI Press/The MIT Press,
+1996. pp. 462-468.
+27. Burke, R.; Hammond, K. & Young, B. The FindMe
+approach to assisted browsing. IEEE Expert ,
+1997, 12(4), 32-40.
+28. McDonald, D.W. & Ackerman, M.S. Expertise
+Recommender: A flexible recommendation system
+and architecture. I n Proceedings of the 2000
+ACM Conference on Computer Supported
+Cooperative Work , Philadelphia, Pennsylvania,
+United States. ACM Press, New York, 2000.
+pp. 231-240.
+29. Masters, J.; Madhyastha, T.M. & Shakouri, A.
+ExplaNet: A framework to manage and analyze
+student-authored course content. In Annual
+Proceedings of American Association of Engineering
+Education, Nashville, TN, 2003.
+30. Balabanovic, M. & Shoham, Y. Fab: Contentbased,
+collaborative
+recommendation.
+Communications of the ACM, 1997, 40(3), 66-72.
+31. Balabanovic, M. An adaptive Web page
+recommendation service. In Proceedings of 1st
+International Conference on Autonomous Agents,
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+Marina del Rey, California, United States. ACM
+Press, New York, 1997. pp. 378-385.
+32. Buono, P.; Costabile, M.F.; D’Atri, A.; Hemmje,
+M.; Jaeschke, G.; Muscogiuri, C.; Pauselli, E.
+& Barbini, F. FAIRWIS: A system for improving
+online trade fair services. I n E-work and Ecommerce E2001, Venice, 2001, pp. 519-525.
+33. Hauver, D. & French, J. Flycasting: Using
+collaborative filtering to generate a playlist for
+online radio. In Proceedings of the First International
+Conference on Web Delivering of Music. IEEE
+Computer Society, Washington, 2001, pp. 123-130.
+34. Celma, O.; Ramírez, M. & Herrera, P. Foafing
+the music: A music recommendation system
+based on RSS feeds and user preferences. I n
+Proceedings of 6th International Conference on
+Music Information Retrieval, London, UK, 2005,
+pp. 464-467.
+35. Middleton, S.E.; De Roure, D.C. & Shadbolt,
+N.R. Foxtrot Recommender System: User profiling,
+ontologies and the World Wide Web. In Proceedings
+of The Eleventh International World Wide Web
+Conference, Honolulu, Hawaii, 2002.
+36. Konstan, J.A.; Miller, B.N.; Maltz, D.; Herlocker,
+J.L.; Gordon, L.R. & Riedl, J. GroupLens: Applying
+collaborative filtering to Usenet news.
+Communications of ACM, 1997, 40(3), 77-87.
+37. Resnick, P.; Iacovou, N.; Suchak, M.; Bergstrom,
+P. & Riedl, J. GroupLens: An open architecture
+for collaborative filtering of netnews. In Proceedings
+of the 1994 ACM Conference on Computer Supported
+Cooperative Work, Chapel Hill, North Carolina,
+United States. ACM Press, New York, 1994.
+pp. 175-186.
+38. Pemberton, D.; Rodden, T. & Procter, R. GroupMark:
+A WWW recommender system combining
+collaborative and information filtering, edited by
+Emiliani, Pier Luigi & Stephanidis, Constantine.
+In Proceedings of the 6th ERCIM Workshop on
+‘User Interfaces for All’, Florence, Italy, 2000.
+39. Asnicar, F. & Tasso, C. ifWeb: A prototype of
+user model-based intelligent agent for documentation
+filtering and navigation in the World Wide Web.
+In Proceedings of the 6th International Conference
+on User Modeling, Chia Laguna, Sardinia, 1997.
+pp. 3-12.
+40. Krulwich, B. Lifestyle Finder: Intelligent user
+27
+
+profiling using large-scale demographic data.
+Artificial Intelligence Magazine, 1997, 18(2), 37-46.
+
+Digital Libraries, San Antonio, Texas, United
+States. ACM Press, New York, 2000. pp. 95-204.
+
+41. Sorensen, H.; O’Riordan, A. & O’Riordan, C.
+Profiling with the INFOrmer text filtering agent.
+Journal of Universal Computer Science, 1997,
+3(8), 988-1006.
+
+50. Krulwich, B. & Burkey, C. The InfoFinder agent:
+Learning user interests through heuristic phrase
+extraction. IEEE Expert: Intelligent Systems
+and Their Applications , 1997, 12(5), 22-27.
+
+42. Nagendra Prasad, M.V. & Anagnost, T.D. InfoScout:
+An active recommender agent. In Fifteenth National
+Conference on Artificial Intelligence, Madison,
+Wisconsin, 1999.
+
+51. Schafer, J.B. MetaLens: A framework for multisource
+recommendations. Doctoral thesis, Department
+of Computer Science, University of Northern
+Iowa, 2002.
+
+43. Liu, H. & Maes, P. InterestMap: Harvesting
+social network profiles for recommendations.
+In Proceedings of IUI Beyond Personalization
+2005: A Workshop on the Next Stage of
+Recommender Systems Research, San Diego,
+CA, USA, 2005. pp. 54-59.
+
+52. Schafer, J.B.; Konstan, J.A. & Riedl, J. View
+through MetaLens: Usage patterns for a metarecommendation system. Proceedings of IEE
+Software, 2004, 151(6), 267-279.
+
+44. Mak, H.; Koprinska, I. & Poon, J. INTIMATE:
+A Web-based movie recommender using text
+categorization. In Proceedings of the IEEE/
+WIC International Conference on Web Intelligence,
+Halifax, Canada. IEEE Computer Society,
+Washington, DC, 2003. pp. 602-605.
+45. Kamba T.; Bharat K. & Albers, M.C. The Krakatoa
+Chronicle: An interactive personalized newspaper
+on the Web. In Proceedings of Fourth International
+World Wide Web Conference, Boston, USA,
+1995. pp.159-170.
+46. Schwab, I.; Pohl, W. & Koychev, I. Learning to
+recommend from positive evidence. In Proceedings
+of the 5th International Conference on Intelligent
+User Interfaces, New Orleans, Louisiana, United
+States. ACM Press, New York, 2000. pp. 241-247.
+47. Lieberman, H. Letizia: An agent that assists
+Web browsing, edited by Chris S. Mellish. I n
+Proceedings of the Fourteenth International Joint
+Conference on Artificial Intelligence, Montreal,
+Quebec, Canada. Morgan Kaufmann Publishers
+Inc.: San Mateo, CA, USA, 1995. pp. 924-929.
+48. Lieberman, H.; Van Dyke, N.W. & Vivacqua, A.
+S. Let’s Browse: A collaborative Web browsing
+agent. In Proceedings of the 4th International
+Conference on Intelligent User Interfaces, Los
+Angeles, California, United States, ACM Press,
+New York, 1999. pp. 65-68.
+49. Mooney, R.J. & Roy, L. Content-based book
+recommending using learning for text categorization.
+In Proceedings of the Fifth ACM Conference on
+28
+
+53. Bueno, D.; Conejo, R. & David, A. METIOREW:
+An objective oriented content based and collaborative
+recommending system, edited by S. Reich, M.
+Tzagarakis & P.D. Bra. In Revised Papers from
+the International Workshops Ohs-7, Sc-3, and
+Ah-3 on Hypermedia: Openness, Structural
+Awareness, and Adaptivity. Springer-Verlag, London,
+2001. pp. 310-314.
+54. Miller, B.N.; Albert, I.; Lam, S.K.; Konstan,
+J.A. & Riedl, J. MovieLens unplugged: Experiences
+with an occasionally connected recommender
+system. I n Proceedings of the 8th International
+Conference on Intelligent User Interfaces, Miami,
+Florida, USA. ACM Press, New York, 2003. pp.
+263-266.
+55. Mukherjee, R.; Jonsdottir, G.; Sen, S. & Sarathi,
+P. MOVIES2GO: An online voting based movie
+recommender system. In Proceedings of the
+Fifth International Conference on Autonomous
+Agents, Montreal, Quebec, Canada. ACM Press,
+New York, 2001. pp. 114-115.
+56. Houstis, E.N.; Catlin, A.C.; Dhanjani, N.; Rice,
+J.R.; Ramakrishnan, N. & Verykios, V.S.
+MyPYTHIA: A recommendation portal for scientific
+software and services. Concurrency and
+Computation: Practice and Experience, 2002,
+14(13-15), 1481-1505.
+57. Geyer-Schulz, A.; Hahsler, M. & Jahn, M. myVU:
+A next generation recommender system based
+on observed consumer behavior and interactive
+evolutionary algorithms, edited by Wolfgang Gaul,
+Otto Opitz & Martin Schader. In Data Analysis:
+Scientific Modeling and Practical Applications,
+Studies in Classification, Data Analysis, and
+Knowledge Organization. Springer Verlag: Heidelberg,
+Germany, 2000. pp. 447-457.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+58. Gori, M.; Maggini. M. & Martinelli, E. NAUTILUS:
+Navigate Autonomously and Target Interesting
+Links for Users. Technical Report RT-DII-20/99,
+Dipartimento di Ingegneria dell’Informazione,
+Università di Siena, Italy, 1999.
+59. Billsus, D. & Pazzani, M.J. A hybrid user model
+for news story classification, edited by J. Kay.
+In Proceedings of the Seventh International
+Conference on User Modeling, Banff, Canada.
+Springer-Verlag, New York, 1999. pp. 99-108.
+60. Lang, K. NewsWeeder: Learning to filter netnews,
+edited by Armand Prieditis & Stuart J. Russell.
+In Proceedings of the Twelfth International Conference
+on Machine Learning, Tahoe City, California,
+USA. Morgan Kaufmann, 1995. pp. 331-339.
+61. Linton, F.; Joy, D.; Schaefer, H.P. & Charron,
+A. OWL: A recommender system for organizationwide learning. Educational Technology & Society,
+2000, 3(1), 62-76.
+62. Winiwarter, W. PEA — A personal email assistant
+with evolutionary adaptation. International Journal
+of Information Technology , 1999, 5(1).
+63. Kilander, F.; Fahraeus, E. & Palme, J. PEFNA:
+The private filtering news agent. Department of
+Computer and Systems Sciences, Stockholm
+University, 1997.
+64. Mladenic, D. Personal WebWatcher: Design
+and implementation . Technical Report IJS-DP7472, School of Computer Science, CarnegieMellon University, Pittsburgh, USA, 1996.
+65. Tang, C. & Xu, Z. pFilter: Global information
+filtering and dissemination using structured overlay
+networks. In Proceedings of 9th IEEE International
+Workshop on Future Trends of Distributed Computing
+Systems, San Juan, Puerto Rico. IEEE Computer
+Society, 2003. pp. 24-30.
+66. Terveen, L.; Hill, W.; Amento, B.; McDonald,
+D. & Creter, J. PHOAKS: A system for sharing
+recommendations. Communications of the ACM,
+1997, 40(3), 59-62.
+67. Brunato, M. & Battiti, R. PILGRIM: A location
+broker and mobility-aware recommendation system.
+In Proceedings of the First IEEE International
+Conference on Pervasive Computing and
+Communications, Fort Worth (TX), USA. PERCOM.
+IEEE Computer Society, Washington, DC, 2003.
+pp. 265-272.
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+68. Xie, B.; Han, P. & Shen, R. PipeCF: A scalable
+DHT-based collaborative filtering recommendation
+system, edited by Stuart I. Feldman, Mike Uretsky,
+Marc Najork, & Craig E. Wills. In Proceedings
+of the 13th International Conference on World
+Wide Web—Alternate Track Papers & Posters ,
+New York, USA. ACM Press, 2004. pp. 224-225.
+69. McCarthy, J.F. Pocket Restaurant Finder: A
+situated recommender system for groups. I n
+Workshop on Mobile adhoc Communication at
+the 2002 ACM Conference on Human Factors
+in Computer Systems, Minneapolis, 2002.
+70. Miller, B.N.; Konstan, J.A. & Riedl, J. PocketLens:
+Toward a personal recommender system. ACM
+Transactions Information Systems, 2004, 22(3),
+2004, 437-476.
+71. Miller, B.N. Toward a Personal Recommender
+System. Doctoral Thesis. University of Minnesota,
+2003.
+72. O’Connor, M.; Cosley, D.; Konstan, J.A. & Riedl,
+J. PolyLens: A recommender system for groups
+of users, edited by Wolfgang Prinz, Matthias
+Jarke, Yvonne Rogers, Kjeld Schmidt & Volker
+Wulf. In Proceedings of the Seventh European
+Conference on Computer Supported Cooperative
+Work, Bonn, Germany. Kluwer Academic, New
+York, 2001. pp. 199-219.
+73. Kawashima, H.; Matsushita, T. & Satake, S.
+PORSCHE: A physical objects recommender
+system for cell phone users. In Proceedings of
+the Second International Workshop on Personalized
+Context Modeling and Management for UbiComp
+Applications, Orange County, California, 2006.
+74. Ahmad Wasfi, A.M. Collecting user access patterns
+for building user profiles and collaborative filtering.
+In Proceedings of the 4th International Conference
+on Intelligent User Interfaces, Los Angeles, California,
+United States. ACM Press, New York, 1999.
+pp. 57-64.
+75. Sorensen, H. & M. McElligott. PSUN: A profiling
+system for Usenet news. In CIKM’95 Workshop
+on Intelligent Information Agents, Baltimore MD,
+1995.
+76. Claypool, M.; Gokhale, A.; Miranda, T.; Murnikov,
+P.; Netes, D. & Sartin, M. Combining contentbased and collaborative filters in an online newspaper.
+In Proceedings of ACM SIGIR Workshop on
+Recommender Systems, 1999.
+29
+
+77. Houstis, E.N.; Catlin, A.C.; Rice, J.R.; Verykios,
+V.S.; Ramakrishnan, N. & Houstis, C.E. PYTHIAII: A knowledge/database system for managing
+performance data and recommending scientific
+software. ACM Transactions on Mathematical
+Software, 2000, 26(2), 227-253.
+78. Delgado, J.; Ishii, N. & Ura, T. Content-based
+collaborative information filtering: Actively learning
+to classify and recommend documents, edited
+by M. Klusch & G. Weiß. In Proceedings of
+the Second International Workshop on Cooperative
+Information Agents II, Learning, Mobility and
+Electronic Commerce For information Discovery
+on the Internet. Springer-Verlag, London, 1998.
+pp. 206-215.
+79. Anderson, M.; Ball, M.; Boley, H.; Greene, S.;
+Howse, N.; McGrath, S. & Lemire, D. RACOFI:
+A rule-applying collaborative filtering system.
+In International Workshop on Collaboration Agents:
+Autonomous Agents for Collaborative Environments,
+Halifax, Nova Scotia, Canada, 2003. NRC Publication
+Number: 46507.
+80. Binkley, J. & Young, L. Rama: An architecture
+for Internet information filtering. Journal of Intelligent
+Information Systems, 1995, 5(2), 81-99.
+81. McCarey, F.; Cinneide, M.O. & Kushmerick, N.
+RASCAL: A recommender agent for software
+components in an agile environment. In Proceedings
+of the 15th Artificial Intelligence and Cognitive
+Science Conference, Castlebar, Ireland, 2004.
+pp. 107-116.
+82. McCarey, F.; Cinneide, M.O. & Kushmerick, N.
+Rascal: A recommender agent for agile reuse.
+Artificial Intelligence Review, 2005, 4(3-4), 253-276.
+83. Boone, G. Concept features in Re:Agent, an
+intelligent Email agent, edited by K.P. Sycara
+& M. Wooldridge. In Proceedings of the Second
+International Conference on Autonomous Agents,
+Minneapolis, Minnesota, United States. ACM
+Press, New York, 1998. pp. 141-148.
+84. Efron, M. & Geisler, G. Is it all about connections?
+Factors affecting the performance of a linkbased recommender systems. In Proceedings
+of ACM SIGIR Workshop on Recommender Systems,
+New Orleans, USA, 2001.
+85. Basu, C.; Hirsh, H. & Cohen, W. Recommendation
+as classification: Using social and contentbased information in recommendation. In Proceedings
+30
+
+of the Fifteenth National/Tenth Conference on
+Artificial Intelligence/Innovative Applications of
+Artificial Intelligence, Madison, Wisconsin, United
+States. AAAI, Menlo Park, CA, 1998. pp. 714720.
+86. Chee, S.H.; Han, J. & Wang, K. RecTree: An
+efficient collaborative filtering method, edited
+by Y. Kambayashi, W. Winiwarter & M. Arikawa.
+In Proceedings of the Third International Conference
+on Data Warehousing and Knowledge Discovery.
+Springer-Verlag, London, 2001. pp.141-151.
+87. Cosley, D.; Lawrence, S. & Pennock, D.M.
+REFEREE: An open framework for practical
+testing of recommender systems using
+ResearchIndex. In Proceedings of 28th International
+Conference on Very Large Data Bases, Hong
+Kong, China. Morgan Kaufmann, 2002. pp. 35-46.
+88. Shardanand, U. & Maes, P. Social information
+filtering: Algorithms for automating “word of mouth”,
+edited by I.R. Katz, R. Mack, L. Marks, M. B.
+Rosson & J. Nielsen. In Proceedings of the
+SIGCHI Conference on Human Factors in Computing
+Systems, Denver, Colorado, United States. ACM
+Press/Addison-Wesley, 1995. pp. 210-217.
+89. Shardanand, U. Social information filtering for
+music recommendation . M.S Thesis, Program
+in Media Arts and Sciences, Massachusetts
+Institute of Technology, 1994.
+90. Alton-Scheidl, R; Ekhall, J.; van Geloven, O.;
+Kovács, L.; Micsik, A.; Lueg, C.; Messnarz,
+R.; Nichols, D.; Palme, J.; Tholerus, T.; Mason,
+D.; Procter, R.; Stupazzini, E.; Vassali, M. &
+Wheeler, R. SELECT: Social and collaborative
+filtering of Web documents and news, edited
+by A. Kobsa, and C. Stephanidis. In Proceedings
+of the Fifth ERCIM Workshop on User Interfaces
+for All , Dagstuhl, Germany, 1999. pp. 23-37.
+91. Yan, T.W. & Garcia-Molina, H. SIFT—A tool for
+wide-area information dissemination. In Proceedings
+of USENIX 1995 Technical Conference on UNIX
+and Advanced Computing Systems, New Orleans,
+Louisiana, USENIX Association, Berkeley, CA,
+USA, 1995. pp. 177-186.
+92. Stefani, A. & Strapparava, C. Personalizing access
+to Web sites: The SiteIF project. In Proceedings
+of the Second Workshop on Adaptive Hypertext
+and Hypermedia held in Conjunction with the
+Ninth ACM Conference on Hypertext and Hypermedia
+- HYPERTEXT ‘98, Pittsburgh, Pennsylvania, 1998.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+93. Hayes, C. & Cunningham, P. Smart Radio—
+Building music radio on the fly, edited by A.
+Macintosh, M. Moulton & F. Coenen. In Proceedings
+of Expert Systems, 20th SGES Conference on
+KBS and Applied AI. Springer Verlag, London,
+2000. pp. 129-140.
+94. Hayes, C. & Cunningham, P. Smart Radio—
+Community-based music radio. Knowledge Based
+Systems , 2001, 14(3-4), 197-201.
+95. Fu, X.; Budzik, J. & Hammond, K.J. Mining
+navigation history for recommendation. I n
+Proceedings of the 5th International Conference
+on Intelligent User Interfaces, New Orleans,
+Louisiana, United States. ACM Press, New York,
+2000. pp. 106-112.
+96. Pazzani, J.M. & Billsus, D. Syskill & Webert:
+Identifying interesting Web sites. In Proceedings
+of the Thirteenth National Conference on Artificial
+Intelligence and Eighth Innovative Applications
+of Artificial Intelligence Conference, Portland,
+Oregon. AAAI Press/The MIT Press, 1996. pp. 54-61.
+97. Rocha, L.M. TalkMine: A soft computing approach
+to adaptive knowledge recommendation, edited
+by V. Loia & S. Sessa. In Soft Computing
+Agents: New Trends For Designing Autonomous
+Systems, Springer Studies in Fuzziness and
+Soft Computing. Physica-Verlag GmbH, Heidelberg,
+Germany, 2002. pp. 89-116.
+98. Goldberg, D.; Nichols, D.; Oki, B.M. & Terry,
+D. Using collaborative filtering to weave an information
+tapestry. Communications of the ACM , 1992,
+35(12), 61-70.
+99. Schmitt, C.; Dengler, D. & Bauer, M. The MAUT
+Machine: An adaptive recommender system. I n
+Proceedings of ABIS Workshop, Hannover, Germany,
+2002.
+100.Burke, R. The Wasabi Personal Shopper: A
+case-based recommender system. In Proceedings
+of the Sixteenth National Conference on Artificial
+intelligence and the Eleventh Innovative Applications
+of Artificial Intelligence Conference, Orlando,
+Florida, United States. AAAI, Menlo Park, CA,
+1999. pp. 844-849.
+101.Ali, K. & van Stam, W. TiVo: Making show
+recommendations using a distributed collaborative
+filtering architecture. In Proceedings of the Tenth
+ACM SIGKDD International Conference on
+Knowledge Discovery and Data Mining, Seattle,
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+WA, USA. ACM Press, New York, 2004. pp.
+394-401.
+102.Kim, C.Y.; Lee, J.K.; Cho, Y.H. & Kim, D.H.
+VISCORS: A visual-content recommender for
+the mobile Web. IEEE Intelligent Systems, 2004,
+19(6), 32-39.
+103.Radev, D.R.; Fan, W. & Zhang, Z. WebInEssence:
+A personalized web-based multi-document
+summarization and recommendation system.
+In Proceedings of NAACL Workshop on Automatic
+Summarization, Pittsburgh, PA, 2001. pp.79-88.
+104.Chen, L. & Sycara, K. WebMate: A personal
+agent for browsing and searching, edited by
+K.P. Sycara & M. Wooldridge. In Proceedings
+of the Second International Conference on
+Autonomous Agents, Minneapolis, Minnesota,
+United States. ACM Press, New York, 1998.
+pp. 132-139.
+105.Chen, Z.; Meng, X.; Fowler, R.H. & Zhu, B.
+WebSail: From online learning to Web search,
+edited by Qing Li, Z. Meral Özsoyoglu, Roland
+Wagner, Yahiko Kambayashi & Yanchun Zhang.
+In Proceedings of the First International Conference
+on Web Information Systems Engineering, Hong
+Kong, China. IEEE Computer Society, 2000.
+pp. 206-213.
+106.Chen, Z.; Meng, X.; Zhu, B. & Fowler, R.H.
+WebSail: From on-line learning to Web search.
+Knowledge and Information Systems, 2002, 4(2),
+219-227.
+107.Cunningham, P.; Bergmann, R.; Schmitt, S.;
+Traphoner, R.; Breen, S. & Smyth, B. WEBSELL:
+Intelligent sales assistants for the World Wide
+Web. Kunstliche Intelligenz (KI), 2001, 1, 28.
+108.Cunningham, P.; Bergmann, R.; Schmitt, S.;
+Breen, S.; Smyth, B. & Traphöner, R. Intelligent
+support for online sales: The WEBSELL experience,
+edited by R. Weber & C.G von Wangenheim.
+In Proceedings of the Workshop Programme at
+the Fourth International Conference on CaseBased Reasoning, Vancouver, British Columbia,
+Canada, 2001. pp. 104-109.
+109.Cooley, R.; Mobasher, B. & Srivastava, J. Web
+mining: Information and pattern discovery on
+the World Wide Web. In Proceedings of 9th
+International Conference on Tools with Artificial
+Intelligence, Newport Beach, CA, USA, 1997.
+pp. 558-567.
+31
+
+110.Armstrong, R.; Freitag, D.; Joachims, T. &
+Mitchell, T. WebWatcher: A learning apprentice
+for the World Wide Web. In Proceedings of
+AAAI Spring Symposium on Information Gathering
+from Heterogeneous, Distributed Environments,
+Stanford. AAAI Press, 1995.
+111. Joachims, T.; Freitag, D. & Mitchell, T. WebWatcher:
+A tour guide for the World Wide Web. In Proceedings
+of the Fifteenth International Joint Conference
+on Artificial Intelligence, Nagoya, Japan. Morgan
+Kaufmann, 1997. pp. 770-775.
+112.Salton, G. & McGill, M.J. Introduction to modern
+information retrieval. New York: McGraw Hill
+Publishing Company, 1983.
+113.Herlocker, J.L.; Konstan, J.A.; Borchers, A. &
+Riedl, J. An algorithmic framework for performing
+collaborative filtering. In Proceedings of the
+22nd Annual International ACM SIGIR Conference
+on Research and Development in Information
+Retrieval, 1999. pp. 230-237.
+114.Melville, P.; Mooney, R.J. & Nagarajan, R. Contentboosted collaborative filtering. In Proceedings
+of Eighteenth National SIGIR-2001 Workshop
+on Recommender Systems, New Orleans, LA,
+2001.
+
+115.Schein, A.I.; Popescul, A.; Ungar, L.H. & Pennock,
+D.M. Methods and metrics for cold-start
+recommendations. In Proceedings of the 25th
+Annual international ACM SIGIR Conference on
+Research and Development in information Retrieval,
+Tampere, Finland. ACM Press, New York, 2002.
+pp. 253-260.
+116.Maltz, D. & Ehrlich, K. Pointing the way: Active
+collaborative filtering, edited by I.R. Katz, R.
+Mack, L. Marks, M.B. Rosson & J. Nielsen. I n
+Proceedings of the SIGCHI Conference on Human
+Factors in Computing Systems, Denver, Colorado,
+United States. Conference on Human Factors
+in Computing Systems. ACM Press/AddisonWesley Publishing Co., New York, 1995. pp.
+202-209.
+117.Rich, E. Stereotypes and user modeling, edited
+by Alfred Kobsa & Wolfgang Wahlster. In User
+Models in Dialog Systems. Springer-Verlag: Berlin,
+1989. pp. 35-51.
+118.Rich, E. User modeling via stereotypes. Cognitive
+Science, 1979, 3, 329-354.
+119.Pazzani, M.J. A Framework for collaborative,
+content-based and demographic filtering. Artificial
+Intelligence Review, 1999, 13(5-6), 393-408.
+
+About the Author
+
+Shri K. Nageswara Rao received Masters degree in Physics in 1988 from Sri Venkateswara
+University, Tirupati, and Masters degree in Library and Information Science in 1992 from
+Annamalai University. From 1993 to 1995, he worked at the National Informatics Centre, Hyderabad.
+During 1995 to 1999, he worked as scientist at the Naval Physical and Oceanographic Laboratory,
+Kochi. Presently, he is Head, Technical Information Centre, Defence Reseach and Development
+Laboratory, Hyderabad. His research interest encompass Internet technologies, web mining,
+design and development of digital libraries, and recommender systems. He has published/
+presented a number of technical papers in national/international journals/conferences.
+
+32
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+Appendix 1
+Filtering/recommender systems and type of filtering
+techniques used for producing recommendations
+Filtering/Recommender system
+
+CBF
+
+ACR News
+
+X
+
+Adaptive Place Advisor
+
+X
+
+Amalthaea
+
+X
+
+CF
+
+HF
+
+Amazon.com
+
+X
+
+Anatagonomy
+
+X
+
+ARAS
+
+X
+
+ArgueNet
+
+X
+
+AVATAR
+
+X
+
+Beehive
+
+X
+
+Bellcore Video Recommender
+
+X
+
+Book Recommender System (BRS )
+
+X
+
+CBCF
+
+X
+
+CinemaScreen Recommender Agent
+
+X
+
+CoCoA
+
+X
+
+CoFIND
+
+X
+
+Community Search Assistant
+
+X
+
+DEMOIR
+
+X
+
+Case-based Reasoning
+
+Dietorecs
+
+Case-based Reasoning
+
+Do-I-Care
+
+X
+
+D-SIFTER
+
+X
+
+Eigentaste
+
+X
+
+Entrée
+
+X
+
+Expertise Recommender
+
+X
+
+ExplaNet
+
+X
+
+Fab
+
+X
+
+FAIRWIS
+
+X
+
+Flycasting
+
+X
+
+Foafing the Music
+
+X
+
+Foxtrot Recommender System
+
+X
+
+GroupLens
+
+X
+
+GroupMark
+
+X
+
+ifWeb
+
+X
+
+InfoFinder
+
+X
+
+INFOrmer
+
+X
+
+InfoScout
+
+X
+
+InterestMap
+
+X
+
+INTIMATE
+
+X
+
+Krakatoa Chronicle
+
+X
+
+LaboUr
+
+X
+
+Letizia
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+Others
+
+X
+
+33
+
+Letizia
+
+X
+
+Let's Browse
+
+X
+
+LIBRA
+
+X
+
+LifestyleFinder
+
+Demographic Filtering
+
+MetaLens
+
+X
+
+METIOREW
+
+X
+
+MovieLens
+
+X
+
+Movies2Go
+
+X
+
+MyPYTHIA
+
+X
+
+MyVU
+
+X
+
+NAUTILUS
+
+X
+
+News Dude
+
+X
+
+NewsWeeder
+
+X
+
+OWL
+
+X
+
+PEA
+
+X
+
+PEFNA
+
+X
+
+Personal WebWatcher
+
+X
+
+pFilter
+
+X
+
+PHOAKS
+
+X
+
+PILGRIM
+
+X
+
+PipeCF
+
+X
+
+Pocket RestaurantFinder
+
+X
+
+PocketLens
+
+X
+
+PolyLens
+
+X
+
+PORSCHE
+
+X
+
+ProfBuilder
+PSUN
+
+X
+X
+
+P-Tango
+PYTHIA-II
+
+X
+X
+
+RAAP
+
+X
+
+RACOFI
+Rama
+
+X
+X
+
+RASCAL
+
+X
+
+Re: Agent
+
+X
+
+Recommendation Explorer
+
+X
+
+Recommender
+
+X
+
+RecTree
+
+X
+
+REFEREE
+
+X
+
+Ringo
+
+X
+
+SELECT
+SIFT Netnews
+
+34
+
+X
+X
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+SiteIF
+
+X
+
+SmartRadio
+
+X
+
+SurlLen
+Syskill & Webert
+
+X
+X
+
+TalkMine
+
+X
+
+Tapestry
+The MAUT Machine
+
+X
+X
+
+The Wasabi Personal Shopper
+
+Case-based Reasoning
+
+TiVo
+
+X
+
+VISCORS
+
+X
+
+WebInEssence
+
+X
+
+WebMate
+
+X
+
+WebSail
+
+X
+
+WebSell
+
+X
+
+WebSIFT
+
+X
+
+WebWatcher
+
+X
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(3)
+
+35
+
+Invitation to Authors
+If you are a library professional/information manager/information scientist/information
+specialist/computer professional or a research scholar with a vision for developments
+in Information Technology, including software, processors, storage media, and devices
+having an impact on library and information systems and services, we invite you to
+submit a paper for DESIDOC Journal of Library and Information Technology (DJLIT)
+and enjoy the following benefits:
+
+Ò
+
+Expert editorial support: All papers are wetted by the eminent members of the
+Editorial Board of DJLIT
+
+Ò
+
+Critical review: All papers are peer-reviewed by the experts in Library and Information
+Science
+
+Ò
+
+Extensive abstracting and indexing for greater visibility: DJLIT is covered in major
+indexing and abstracting services like LISA, The Informed Librarian, INSPEC
+database and Wilson database
+
+Ò
+
+Open Journal System
+
+Ò
+
+Complimentary copies to the contributors
+
+Please send your paper/queries to:
+
+The Editor(s)
+DESIDOC Journal of Library & Information Technology
+House Bulletin Group
+Defence Scientific Information & Documentation Centre
+Metcalfe House, Delhi-110 054
+e-mail:dbit@drdo.in
+
+

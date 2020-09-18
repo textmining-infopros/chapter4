@@ -1,0 +1,1395 @@
+DESIDOC Journal of Library and Information Technology, Vol. 28, No. 4, July 2008, pp. 7-21
+© 2008, DESIDOC
+
+An Overview of Online Exhibitions
+Leong Chee Khoon and Chennupati K. Ramaiah2
+Institute of Technical Education Headquarters, 10 Diver Drive, Singapore 138683
+E-mail: leonghub@hotmail.com
+2
+
+Muffakham Jah College of Engineering & Technology
+Road No. 3, Banjara Hills, Hyderabad-500 036
+E-mail: chennupati_kramaiah@yahoo.com
+
+ABSTRACT
+To save our culture and heritage collections, online exhibitions are good conviction. Apart from
+saving and propagating the knowledge they play a vital role as communications link between highly
+valuable collections and the general public. This paper gives an overview of online exhibitions, their need,
+types, benefits and drawbacks. It also describes various authoring tools to create user interfaces and
+such online exhibitions. Some of the historical online exhibitions have also been discussed. The paper
+conclude that online museums have consequently reduced the distance between visitor and historical
+monuments and also the demand for original work has increased because of repeated exposure on World
+Wide Web.
+Keywords: Online exhibitions, virtual exhibitions, physical exhibitions, authoring tools, SCARN.
+
+1. INTRODUCTION
+In this digital era, technological advances are
+rapidly changing the environment in which we live.
+The impact of technology can be felt in many areas,
+one of which is heritage information delivery. Today,
+a large percentage of children grow up in cities
+around the world, where old and culturally significant
+architectural structures often have to give way to
+modern buildings due to land scarcity. The loss of
+such heritage icons and reduced interaction between
+children and their parents who spend increasingly
+long hours at work, has resulted in many school
+children not being well informed of the historical
+richness of the ancestors in their society. This is
+quite unfortunate, because the way leading to nationhood
+for many countries is often paved with interesting
+and noteworthy events. Such events form an important
+part of a country's heritage. This information has to
+be passed to school children, so that they can
+better understand the efforts and sacrifices of the
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+people who built the nation, understand the cultural
+diversity in modern society, and contribute productively
+to foster unity.
+This is where heritage exhibitions enter into the
+picture. During the sixties, the new and emerging
+educational role of museums and other such archival
+centres, e.g. galleries 1 was introduced. Such
+establishments hold carefully developed information
+resources of immense breadth and depth, which is
+continuously refreshed by ongoing research studies.
+They have a vital role to play as communications
+link between their highly valuable collections and
+the general public, in sharing and propagating the
+knowledge in their collections.
+
+2. EXHIBITIONS
+Exhibitions are public display of industrial or
+commercial products or artifacts. There are three
+major types of exhibitions: industrial, regional and
+7
+
+universal. Industrial exhibitions are devoted to the
+stimulation and progress of a specific industry or
+group of industries in a particular geographical region.
+An example is the Singapore Food Festival, which
+promotes local Singaporean food. The second type
+is regional in scope and is used to commemorate
+a historical event. An example is the 25 Years of
+Nation Building 1959-1984 exhibition, which
+commemorated the 25th anniversary of Singapore's
+independence. The last type of exhibition is the
+universal exposition, which is international in scope
+and is usually sponsored by a national government;
+it displays a wide variety of products from many
+countries in the world. An example is COMDEX,
+which is an annual American exhibition that showcases
+innovations in the computer, telecommunications
+and consumer electronics industries from around
+the world.
+
+2.1 The Need for Exhibitions
+Dudley defines an exhibition to be essentially
+a promotional event that is designed to communicate
+with the targeted audiences some form of information,
+products or services 2 . The primary objective of an
+exhibition is to provide a communication opportunity
+for achieving marketing objectives, mostly involving
+buyer/seller transactions. Visitors attend exhibitions
+for various reasons such as: see new products and
+developments; obtain product and technical information;
+talk with and compare potential suppliers; gain new
+ideas and information; find suppliers for whom they
+can become distributors; and for social reasons.
+According to Dudley exhibitions serve to: maximum
+exploitation of events and occasions; reach-out to
+the desired audience; opportunities to create a dialogue
+with its target audiences on a personal basis; and
+achievement of communications objectives for a wide
+range of organisations 2 .
+
+2.2 Physical Exhibitions
+Physical exhibitions are found in traditional museums
+wherein the line of communication is direct and the
+curator communicates directly with the visitors 3 .
+These exhibitions have to employ much more subtle
+means to reach so many different types of visitors.
+Physical museums 4 have been a source of traditional
+information; drawing and interpreting their collections
+in carefully designed architectural spaces for their
+visitors like schools, public, tourists, scholars, etc.
+According to Teather 5 , there are a number of factors
+normally considered in actual traditional exhibitions.
+These include international boundaries, customs
+procedures for the movement of works of art, design
+8
+
+of exhibition space, loan agreements, insurance
+policies, conservation work, transportation time for
+works of art, fixed hours of operation, and number
+of visitors that can be handled simultaneously.
+Physical museums 6 choose cultural artifacts
+for display in such a way that they incorporate the
+narratives about history, nature, technology, culture
+and science. One of the most important visible statements
+that museums make is the selection, labelling and
+physical arrangement of individual items and whole
+collections. Physical museums tend to carry out a
+range of activities and produce a variety of resources.
+The purpose is to make visitors aware of what is
+available in the collections, to guide visitors through
+the collections in numerous ways, and increase
+their understanding and enjoyment of these collections.
+Physical museums give visitors a real sense of the
+artifacts on exhibit. People visit art museums to
+enjoy, explore and understand cultural backgrounds
+of the physical exhibitions that operate on the real
+space that can communicate directly with the public.
+
+2.3 Limitations of Physical Exhibitions
+The limitations of physical exhibitions lie in
+their size and bulk1. Although they have some degree
+of mobility (hence called as "travelling exhibitions"),
+they are in a fixed location for most of the time. This
+limits the demographic reach of their target audience:
+while students in one area are viewing the exhibition,
+their counterparts in other areas have to wait for the
+exhibition to be unpacked, moved and re-installed
+at their respective sites-processes that are expensive
+in terms of costs, manpower and time. Besides,
+physical museums need extensive efforts to implement
+the ideas in addition to facing a few constraints like
+manpower-heavy operations, costs and space. Every
+initiative has to be planned in advance and suffers
+from many limitations in terms of space, cost and
+reachable audience. Furthermore, physical exhibition
+space can never provide as much information as the
+virtual space of the Internet. Static representations
+are not efficient for portraying real life events, as we
+need to provide dynamism and interactivity of cultural
+artifacts. Moreover, these exhibitions are open to
+public access at certain times of the day only, being
+manned by humans, with their limited working hours.
+Visitors have to visit the museums physically in
+person to gather information. Furthermore, given
+that most of the information is presented in a physical
+format, teacher may find it difficult to obtain takeaway copies of the materials to incorporate into
+their teaching.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+2.4 The Shift from Physical to Online
+Exhibitions
+
+group of users, still they have paved the way for
+future developments in online museum exhibitions.
+
+The move from physical to virtual form of exhibition
+is not a new phenomenon. Long before the terms
+'interactive' and 'multimedia' became technological
+buzzwords in the 1990s, museums were presenting
+multimedia displays and exhibitions to their visitors
+and encouraging interaction between the visitor and
+the exhibit objects7 . Interactive multimedia computer
+technology, in the form of kiosks, was recognised
+as a way of allowing a greater degree of public
+participation and involvement in the learning experience.
+
+2.5 Online vs Physical Exhibitions
+
+Multimedia kiosks are workstations designed
+specifically for public access 8. They may be standalone or belong to a larger computer system. Information
+is presented in various forms, e.g. text, images,
+animations, sound and video. In applications where
+information is to be delivered to a wide audience,
+a kiosk with just a screen for user interaction is a
+robust, attractive and economic solution. While some
+kiosks have a keypad or keyboard for user input, the
+majority employ a touch screen for human interaction.
+Kiosks present a wealth of information in an interesting
+and user-friendly fashion, bringing otherwise dull
+texts to life with multimedia. In many exhibitions,
+kiosks are used to complement the physical exhibits,
+providing an alternative and more proactive experience
+for the visitor. The problem of kiosks is their static
+location; the user still must walk up to the kiosk to
+access its information base, and the fact that their
+accessibility is constrained by the operating hours
+of the building in which they are located in. Sometimes
+kiosks are located in pre-designated positions far
+from the works they are describing, hence they do
+not support the opportunity for the visitors to see,
+compare, and verify the information received against
+the actual objects. Moreover, due to their design,
+kiosks do not allow the visitor to save portions of
+their information base for use in school projects.
+Another innovation to add multimedia experience
+to physical exhibitions is museum wearables 9 where
+they are real time storytelling devices. They evaluate
+the visitor's preferences by observing his/her path
+and length of stops along the museum's exhibit
+space, and select content for the wearer from a
+large database of available movie clips, audio, and
+animations. These devices offer a new type of entertainment
+and experience of informative museum, similar to
+mobile immersive cinema 9 , offering museums an
+opportunity to augment their perception/memory/
+experience of their exhibits to the visitors. Although
+museum wearable are not able to cater for wide
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+Online exhibitions present a practical and costeffective solution to the limitations of physical exhibitions.
+They are no longer limited in time, distance and
+space. Instead of being open to the public at certain
+times of the day, they are available round the clock
+via the Internet. An additional advantage is that
+students need not travel all the way to the exhibition
+site to see it. The exhibition is delivered right to
+their homes and classrooms via the Internet. The
+storage of artifacts in digital form also helps to
+reduce maintenance costs. There is no longer the
+need to dismantle and re-build the exhibition to
+make it available to new audiences. New materials
+can be added easily, while existing material can be
+updated with less effort too. This dramatically reduces
+the lead time and eliminates costly physical space
+required to mount an exhibition.
+In fact, once the exhibition is put online, it
+becomes immediately available to students all over
+the world, forming part of the global cultural exchange.
+Teachers will also find it easy to download the
+digital materials for integration into their teaching
+syllabi. Students can also use the online information
+for their school projects, i.e. create new information
+products. This provides a different kind of learning
+experience, as students gather information, organise
+it, create meaning, reach insight, and present their
+findings online. In fact, by the last act, they invite
+a global audience to share the experience 10 . Online
+exhibitions also offer better flexibility, encourages
+experimentation and dynamism compared to their
+physical counterparts. Visitors can select the level
+of information they wish to consult, thereby offering
+something to audiences of all ages and experiences.
+The fact that online exhibitions can link to relevant
+and complementary information available at other
+websites further underlines the flexibility and possibilities
+of this new online medium 11 .
+
+2.6 Benefits of Online Exhibitions
+Online exhibitions provide many benefits to
+institution: 12 (i) enhance learning and scholarship
+by providing more detailed information on cultural
+and heritage issues of a country, to meet the needs
+of different categories and levels of visitors; (ii) broaden
+access to the content as the exhibition materials
+can be used for teaching and learning, stimulating
+and enriching the experience of visitors; (iii) teachers
+9
+
+can combine the online resources in their curriculum,
+while students can use the resources for their assignments
+or project work; (iv) widen the reach of the visitor
+population as online exhibitions can be seen by
+many people, including those who could not visit the
+museum in person; (v) expand the content and context
+to provide various levels of information that are often
+hard to present in a physical exhibition such as
+information collection or conservation; (vi) the boundaries
+of the traditional interpretive spaces are limitless as
+visitors click and navigate around the website according
+to their personal information needs; (vii) increase
+information comprehensiveness, by connecting to
+other sites with additional information; and (viii) protect
+priceless collections from the wear and tear of the
+physical exhibition process.
+Myers 13 also sees many advantages of webbased exhibitions in education: (i) enhancement of
+the learner's motivation through novelty and excitement,
+which is sustained as electronic exhibitions move
+from stand-alone kiosks to the Internet; (ii) increased
+access to information-students learn how to manage
+and acquire new knowledge at blistering speed.
+Students now obtain a view of the wider world previously
+only possible through travel. They are also using a
+technology which will ultimately become a part of
+their adult working life; (iii) offers information in a
+variety of ways and forms which students can access
+and manipulate at their own pace, without being
+restricted by conventional teaching syllabus time
+periods; (iv) enhanced interactivity features over the
+passivity of classroom learning-multimedia technology
+provide an expanded representation of ideas in a
+lively and interactive environment; (v) increased
+collaboration opportunities, even with students from
+other countries, as the Internet reshapes class rooms
+into inter-connected self-sufficient workshops; and
+(vi) increased productivity in the students' preparation
+of assignments, since the materials are available
+just a few clicks away instead of a few kilometers
+away, so they can concentrate on absorbing and
+analysing the content rather than be unnecessarily
+burdened by the means of getting it.
+
+sees, hears, and sometimes touches the exhibits.
+When all these experiential senses are taken away
+in online exhibitions, the experience is not memorable
+anymore; (iv) poor representation of objects-textures,
+fine detail, mass and exact colour cannot be faithfully
+translated when displayed on the web; (v) electronic
+images of historical photographs are definitely inferior
+than the actual objects, due to the need for smaller
+sizes needed for online viewing. Image quality is
+still quite poor when compared to real art objects;
+(vi) expensive and time-consuming to produce (same
+as a physical exhibition); (vii) users must be
+connected to the Internet (for web-based exhibitions);
+and (viii) Internet connection speeds also affect the
+experience of the visitors (users with a slow connection
+will not have an enjoyable visit, especially if the site
+contains media-rich resources that take time to
+download and display).
+Myers 13 also found the following potential pitfalls
+of web-based exhibitions in education: (i) reduced
+critical thinking skills-the ease of downloading information
+from the Internet may result in thoughtless information
+harvesting without attention to the critical issues of
+bias, accuracy and quality control; (ii) reduced
+development in reading skills-especially among
+the impressionable young student population,
+since the web is primarily a image-based medium;
+(iii) diminished writing skills-students cut and paste
+information into impressive first drafts and resist the
+need to refine their work. Research skills will be
+neglected as students take the easy path,
+preferring to point and click rather than plan and
+think; (iv) distortion of teaching curricula-some teachers
+may change their curriculum to fit widely and readily
+available resources on the Internet, when faced with
+time schedule pressures; (v) lack of real life
+experience—most of what the students know
+or understand come as files downloaded from
+the web; and (vi) reduced direct interaction with
+society as a whole-due to the students' immersion
+in the virtual world of the web, they may not learn
+to build up the proper social skills for their adult
+working life.
+
+2.7 Drawbacks of Online Exhibitions
+
+2.8 Virtual Exhibitions
+
+Despite the attractiveness and great potential
+of online exhibitions, there are a number of drawbacks
+in terms of visitor experience: 12 (i) It is not a real
+museum experience; (ii) online exhibitions do not
+allow truly hands-on manipulations, which is very
+important for the kinesthetic learner, who may
+not feel like he/she really knows what is going on;
+(iii) effective exhibits are strongly "experiential", i.e.
+when a visitor walks through them, he/she also
+
+Virtual exhibition is the collection of digital replicas
+of real events or objects developed with the help of
+multimedia and virtual reality tools which produce a
+simulated environment in a computer, and delivered
+through web so that users will get the same satisfaction
+as they are seeing or using the physical objects in
+different areas. The difference between online and
+virtual exhibition is marginal. All virtual exhibitions
+are online exhibitions but not vice versa. Normally
+
+10
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+all virtual exhibitions will provide a simulated real
+environment using virtual reality tools which is a bit
+more difficult, expensive and time consuming to
+develop than a simple online exhibition. Unlike traditional
+exhibitions, these exhibitions could be viewed free
+of cost, at own convenience and in own time zone.
+Hong Kong Observatory's Exhibition Hall is an example
+to virtual exhibition to tour the visitors around and
+inside to see various exhibitions in virtual mode
+(www.hko.gov.hk/ education/cyber_exh_hall/exhibition.
+htm?flash=1). Other examples include Lithuania's
+Cultural Heritage (alka.mch.mii.lt/foje.en.htm), and
+Art virtual exhibitions (expositions.bnf.fr/usindex.htm,
+www.virex.dk).
+
+2.9 Web-based Exhibitions as Educational
+Tools
+The current trend shifts the focus of electronic
+exhibitions from static kiosks to the web. The web
+presents an active learning environment where users
+are empowered to make decisions about the tasks,
+content, navigation, presentation and assessment
+activities that they make in the course of learning 14 .
+Six active learning paradigms may be associated
+with web-based exhibitions:
+(i)
+
+As education meta-centres, web-based exhibitions
+are resources that allow students to explore,
+investigate, compare and evaluate textual and
+pictorial information from archive collections.
+The students develop learning outcomes built
+around their own interests, which result in deeper
+conceptual understanding and affinity with the
+subject.
+
+(ii) As creative play resources, web-based exhibitions
+cater to very young children. Creative play is
+important to this group of users' learning experience,
+as it encourages them to explore and test ideas
+through the process of learning. To them, drawing
+and painting activities are most effective, as
+these activities excite them into listening, talking,
+designing, constructing, asking questions, reading
+and writing. An example application is to provide
+them with a downloadable Java applet that acts
+as a digital palette, which can be used to draw
+portraits of a favourite animal.
+(iii) As electronic field trips, web-based exhibitions
+use audio-visual materials and interactive technologies
+(e.g. virtual reality) to transport the students
+through time, space or imagination to explore
+realistic but virtual historic or imaginary sites.
+They can be used with anchored instruction
+activities, which use sets of interconnected problems
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+to sharpen the students' reasoning, deductive
+and investigative faculties.
+(iv) Using video conferencing, web-based exhibitions
+connect students and teachers to the real exhibition
+in real time. Unlike electronic field trips, the
+micro-worlds created are not simulated, but make
+use of the 'scenery' of the real exhibit objects
+and the performances of the exhibit staff.
+(v) As learning networks, web-based exhibitions
+can be linked through their parent organisations
+to encourage international collaboration in learning
+or research projects. Such online communities
+can be facilitated via real meetings, chat rooms
+or listservs, within which the process of creating
+a joint product is negotiated.
+(vi) As expository teaching resources, web-based
+exhibitions provide highly-structured computerdirected activities, to present a set of principles,
+laws or theories. These are usually implemented
+in science and technology online exhibitions.
+They may make use of multimedia puzzles,
+activities and laboratories where students can
+conduct web-based experiments.
+
+3. DESIGN AND DEVELOPMENT OF
+USER INTERFACES
+Kalfatovic 15 emphasises three main issues in
+mounting a physical exhibition online. While a gallery
+offers visitors passive absorption of the contents of
+the exhibition, the visitor to the online exhibition has
+to actively participate by clicking and scrolling on
+the computer screen. Furthermore, while the designer
+of the gallery can be certain that all visitors will see
+the artifacts in the same presentation format, the
+same does not apply to online exhibitions, since
+different types of computers can be used by online
+visitors, which correspondingly affects their individual
+experience of the same exhibition site. Most importantly,
+in a gallery, there are curators and security staff to
+assist visitors who are lost, but visitors who lost
+themselves in an online exhibition often end their
+journey by simply clicking to leave the site.
+The user interface of online exhibitions is the
+web browser, so interface considerations for online
+exhibitions are similar to those of a website. Kalfatovic
+stressed on the need to prevent horizontal scrolling
+of the screen layout 15. Horizontal scrolling is caused
+by monitor resolution, the size of images used on
+the site, the tiling of images and tables; these can
+be minimised with the use of style sheets and the
+careful choice of image sizes.
+
+11
+
+Colour, an important design element, is another
+major consideration. The colours that can be displayed
+on a computer screen depend on the video display
+card, the monitor and the processor of the computer.
+Though millions of colours are available for design,
+only 216 "browser-safe" colours have been identified
+by Weinman that would be displayed accurately by
+most browsers on various types of computers 16 .
+While this limitation does not seriously affects
+photographs, it is recommended that these 216 colours
+be used for simple graphics such as decorative
+titles and backgrounds, so as to achieve a consistent
+design across browsers.
+
+hyperlinks may cause confusion as the visitor wanders
+away to visit the other site.
+
+When displaying text on-screen, the two main
+factors are typeface and size. Boumphrey 17 notes
+that due to the landscape orientation and the lower
+resolution of computer screens, reading web pages
+is 30 per cent slower than reading printed pages.
+Hence, finely detailed fonts are not practical for use
+in online exhibitions. Also, readers tend to scan
+rather than read, and the retention is about half that
+of reading the printed page, so text should be of
+appropriate length to avoid fatigue. Kalfatovic recommends
+the use of style sheets to achieve consistency in
+typeface and size 15 . Sans serif fonts are preferred
+over serif fonts for accessibility reasons, while bold
+formatting should be used appropriately and italics
+formatting should be used sparingly as it is difficult
+to read on screen. Underlining text is not commonly
+used on web pages to avoid confusion with hyperlinks
+which are displayed by browsers as underlined text.
+Colours can be used creatively for text, with proper
+contrast with the background colour for readability.
+
+Besides generic metadata frameworks such as
+the Dublin Core, there are also metadata standards
+that are designed for museums and archives-CDWA
+(Categories for the Description of Works of Art),
+CIMI (Consortium for the Computer Interchange of
+Museum Information), CIDOC Information Categories,
+Open Archives Initiative Protocol for Metadata Harvesting,
+etc. Metadata such as Dublin Core are often embedded
+in the home pages of online exhibitions to make
+them more visible to Internet search engines.
+
+Online exhibitions are often designed around a
+narrative theme that provides visitors with interesting
+information and images from archival collections. To
+prevent the visitor from leaving the site due to scrolling
+of lengthy text pages, Kalfatovic suggests the division
+of the theme into smaller sub-themes with shorter
+sections 15 . With the help of hyperlinks, navigational
+structures that are used in gallery exhibitions can
+be replicated in online exhibitions, e.g. the arterial
+pattern, whereby visitors browse the collections in
+a linear fashion. Despite the myriad of navigation
+strategies available, it is important to keep the narrative
+of the online exhibition in mind so that the theme
+fits the design of the exhibition. To the visitor, their
+first experience with an online exhibition is that it
+tells a story. Hence, unless absolutely necessary,
+hyperlinks that bring the visitor to another site should
+be placed in the list of suggested links for further
+study at the end of the exhibition, the misuse of
+12
+
+4. METADATA IN ONLINE EXHIBITIONS
+Online exhibitions are used by museums or
+archives to showcase their collections on the World
+Wide Web. There is a need to classify the works
+or artifacts using structured information that describe
+their attributes 18 . This is where metadata is useful
+in annotating artifacts or collections so that they
+can be accessed to gain more information and repurposed to produce new knowledge.
+
+A major challenge is the development of metadata
+to describe multimedia content (images, audio, video,
+virtual reality, etc.). Glushko highlights two potential
+problems in the form of sensory gaps and semantic
+gaps 19 . There is a limit in the computer's ability to
+sense and describe the object, as an object to
+generate infinite representations-this is the sensory
+gap. The semantic gap arises due to the fact that
+instruments (e.g. digital cameras) tend to capture
+and encode data in a way that is optimised for
+automated processing, but results in semantically
+opaque content cannot be easily processed to understand
+the meaning of the object. Hence there is a need
+to develop metadata to describe multimedia content.
+Besides the traditional metadata standards, Trant
+has carried out an experiment that allows social
+tagging of resources by visitors to an online museum,
+i.e. when browsing the online exhibitions, visitors
+have the facility to input words that reflect their
+interpretation of the artifacts viewed 20. The study
+found that such "social" metadata improve upon the
+existing museum documentation by providing unique
+access points not found in traditional cataloguing.
+These "folksonomic" terms represent the actual interests,
+perspectives and passions of visitors, further narrowing
+the semantic gap between the curators and the
+public.
+With metadata, the casual visitor will be able
+to appreciate better the artifacts, while information
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+interchange standards that facilitate exchange of
+information between cultural institutions will help to
+foster research and collaborations in the study of
+their respective collections.
+
+5. AUTHORING TOOLS
+Since online exhibitions are essentially multimedia
+websites, the authoring tools used for creating websites
+can also be used to create online exhibition sites.
+However, digital archive collections have special information
+management and delivery requirements, which have
+resulted in the development of specialist tools. Generally,
+these tools have features that streamline the creation
+of metadata for the collections, search engines with
+flexible options, support for the standard digital file
+formats, and integration with other systems via information
+storage and interchange standards.
+CONTENTdm is a digital collection management
+software used by archival organisations to develop,
+manage and deliver their digital items through web
+browsers 21 . It supports most common file types like
+images, audio, video, portable document format (PDF)
+and web links, and can store and index efficiently.
+Adding an item and its metadata is simplified through
+the use of wizards, templates and batch processes.
+Metadata is stored in XML format using Dublin Core
+fields, which can be mapped for searching by other
+systems, e.g. digital libraries. Items can be searched
+with a text-based search engine with advanced options,
+and interoperability with other archival information
+systems is supported via standards such as Open
+Archives Initiative Protocol for Metadata Harvesting,
+XML, etc. The metadata collection is extensive and
+pertinent keywords can be added to provide more
+access points to the collection. Customised interfaces
+can be designed for online exhibition sites, with
+good user interface features such as cool colours
+and a comfortable layout.
+Multi MIMSY 2000 is a museum management
+system. The interface is based on item catalogue
+cards, which have detailed activity history and expanded
+content, and can be linked to form a knowledge
+management system. A master catalogue provides
+standard data entry templates to simplify data creation
+and accuracy. The items in several collections can
+be linked to form a theme for an exhibition. The
+integrated Internet interface provides the capability
+to quickly publish collections to the web as online
+exhibitions. Compliance with standards such as Dublin
+Core and MDA's SPECTRUM allows the interchange
+of metadata with other compatible museum information
+systems.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+Re:discovery Proficio is a system for the management
+of archival collections implemented on a relational
+database. It has tools to simplify data entry, management
+and retrieval, create forms and generate reports,
+export data for use by other applications, and provide
+user access to its collections. A web interface called
+Re:discovery for Internet (RFI) allows visitors to browse
+and view the collections stored in the Re:discovery
+Proficio system through the Internet. Standard template
+forms with style sheet support help users to easily
+enter their search terms and retrieve the information
+needed, via the use of the search engine provided
+by the Re:discovery Proficio system 22 .
+
+6. TYPES OF ONLINE EXHIBITIONS
+Kalfatovic has classified online exhibitions into
+five major types 15 :
+(i)
+
+Notable events: Major events are perfect topics
+for online exhibitions. Libraries and archives
+often hold substantial materials related to significant,
+interesting, or entertaining events. An eventcentric exhibition allows the library or archives
+to draw on a range of materials and collaborate
+with other institutions such as historical societies,
+museums, or businesses to develop this type
+of exhibition. One such example is The Great
+Chicago Fire that is put up by the Chicago
+Historical Society with the Northwestern University.
+
+(ii) Anniversaries: Centennials, bicentennials, and
+jubilees can be the impetus for an online exhibition.
+An exhibition created around an anniversary will
+allow visitors to revisit the past, highlight current
+collections or programs, and look forward to the
+next few years. From Smithson to Smithsonian:
+The Birth of an Institution an exhibition by the
+Smithsonian Institution Libraries, is a prime example.
+(iii) Themes: Perhaps the most common exhibition
+idea is a theme. Themes can include individuals,
+professions, poetry, social movements or phenomena,
+collections, and media. Dr Seuss Went to War:
+A Catalogue of Political Cartoons by Dr Seuss
+from the Mandeville Special Collections Library,
+University of California, San Diego, is a very
+specific theme-based exhibition.
+(iv) Treasures: Texas A&M's Cushing Library took
+a unique approach to the "treasures" concept.
+In its exhibition Fruits of a Research Collection,
+the uses of a special collection for non-traditional
+research are highlighted. Steven E. Smith, special
+collections librarian, noted that the "collections...have
+also been used by many people for many other
+13
+
+purposes, for example, journalists writing articles
+for national magazines, film producers creating
+documentaries, student groups making T-shirts,
+and book editors in search of cover art."
+
+This is actually an image map with clickable areas
+representing the various types of can labels (Fig.1).
+
+(v) Special Collections: Though all of the above
+types make wonderful topics for online exhibitions,
+sometimes it is the odd and the unusual that
+will both educate and entertain visitors. For examples,
+Los Vegas could come the exhibition "Dino at
+the Sands: Dean Martin, 1917-1995" an exploration
+of the life and career of Martin from the Sands
+Hotel Collection in the Special Collections of
+the University of Nevada, Las Vegas Libraries.
+
+Geographic online exhibitions cover both regional
+cultures including Quilts and Quiltmaking in America
+and Scottish Cultural Resources Access Network,
+and geographic regions such as The Illustrating
+Traveller: Adventure and Illustration in North America
+and the Caribbean 1760-1895 and the Old Fort Lowell
+Neighborhood, and Traders: Voices from the Trading
+Post.
+
+7.2 Geographic Online Exhibitions
+
+7.1 Commercial Online Exhibitions
+
+Quilts and Quiltmaking in America (http://memory.
+loc.gov/ammem/qlthtml/qlthome.html) provides a glimpse
+into America's diverse quilting traditions. It showcases
+materials from two American Folklife Center collections,
+the Blue Ridge Parkway Folklife Project Collection
+(1978) and the "All-American Quilt Contest" sponsored
+by Coming Home, a division of Lands' End and Good
+Housekeeping. These materials document quilts and
+quilting within the context of daily life and reflect a
+range of backgrounds, motivations, and aesthetic
+sensibilities. This site is more like a directory site
+for browsing rather than an exhibition site. Users
+can browse by quiltmaker names, by quiltmaking
+subjects, or by sound recordings of oral interviews.
+(Fig. 2)
+
+Commercial art is celebrated with the exhibitions,
+for example, Salmon Label Art (http://www.library.ubc.ca/
+spcoll/displays/salmon.html) is an exhibition of salmon
+can labels originally mounted in the 5th floor display
+case (outside Ridington Room) of the main library
+of the University of British Columbia (during 1 February
+1996 and 30 April 1996). This is the simplest online
+exhibition in this review. It consists of just a central
+picture, which shows a selection of assorted British
+Columbia salmon cans on and around an old gill net.
+
+Scottish Cultural Resources Access Network (http:/
+/www.scran.ac.uk) is an online multimedia resource
+base for the teaching and celebration of the history
+and culture of Scotland 23. SCRAN has a summary
+feature called PathFinders short introductions to
+five categories of Scottish culture and heritage (people,
+places, things, events and ideas). Each section has
+links to more detailed resources. There are two
+types of educational resources-Resource Packs and
+Teaching Packs. Resource Packs are compilations
+
+Figure 1. British Columbia salmon can labels online
+exhibition.
+
+Figure 2. Quilts and quiltmaking in America 1978-96 online
+exhibition.
+
+7. REVIEW OF ONLINE EXHIBITIONS
+The following is a review of online exhibitions
+that are available on the Internet. They cover a wide
+range of topics, ranging from art, geography, history,
+literature and science in general. Most of them were
+created by libraries, archives and historical societies
+to commemorate notable events, celebrate anniversaries,
+feature periodic themes, or to showcase treasures
+or special collections. The online exhibitions reviewed
+in this study cover many different areas in the fields
+of art, geography, history, literature and science.
+
+14
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+of records packaged for a subject area that is
+downloadable by licensed users to create new information
+resources (i.e. resource re-usability). Teaching Packs
+contain teacher guides, background notes and student
+worksheets. SCRAN is a good site to visit for finding
+information on Scottish culture and heritage. However,
+despite the use of Internet technology, access to
+SCRAN is limited to Scottish schools and companies
+only (Fig. 3).
+The Illustrating Traveller: Adventure and Illustration
+in North America and the Caribbean 1760-1895
+(http://www.library.yale.edu/beinecke/illus.htm) is a
+rare book and manuscript library exhibition organised
+by William S. Reese and George Miles in 1996. The
+story of travellers and migrants in North America
+and the Caribbean in the 17th century is told through
+the books and illustrations of the collections. This
+exhibition provides a convenient resource for students
+doing research on migration and travelling in North
+and Latin America in the 17th century.
+The Old Fort Lowell Neighbourhood (http://
+parentseyes.arizona.edu/ftlowell/) examines the history
+of the Old Fort Lowell Neighbourhood in terms of the
+various ethnic groups that have lived in the district
+since 300 A.D. The exhibition covers the Hohokam
+Indians, the Settlers between the years 1500-1850,
+the establishment of the Fort Lowell Military Camp,
+the Mexican settlers of El Fuerte (the Fort), the
+Anglo families who moved to the area after the
+1920s, and Fort Lowell as it is today. This site
+would be useful for those visitors who need great
+amounts of text information; although the lack of
+suitable graphics may mean that the visitor would
+have to go to the host library for picture resources.
+
+Traders: Voices from the Trading Post (http://
+www.nau.edu/library/speccoll/exhibits/traders) is an
+online exhibition organised by the Northern Arizona
+University Cline Library, in co-operation with the
+United Indian Traders Association (UITA). It focuses
+on late nineteenth-century and twentieth-century trading
+posts in the Four Corners region, encompassing the
+Navajo and Hopi Reservations, and is the web companion
+to the CD-ROM version of the same name. This site
+contains a good mix of multimedia and text elements,
+although some of the paragraphs are too long for
+easy on-screen reading. The inclusion of text transcripts
+for the oral interviews is a thoughtful gesture for
+visitors who are aurally handicapped (Fig. 4).
+
+7.3 Historical Online Exhibitions
+Online exhibition sites are often designed as
+history narratives, covering symbolic events, such
+as The Great Chicago Fire; maritime history such
+as Life Along the Manitou Passage and Voyage of
+the St Louis; nation building such as Forging The
+Nation and Hearts at Home: Southern Women in the
+Civil War; oral history such as JUKEBOX; public
+infrastructure such as Down the Drain, Chicago's
+Sewers: The Historic Development of an Urban
+Infrastructure and Make the Dirt Fly; public services,
+such as Putting Out Fires; and sports events, such
+as 1956 Melbourne Olympics.
+The Great Chicago Fire and the Web of Memory
+(http://www.chicagohs.org/fire) is organised by the
+Chicago Historical Society. Through the use of journalistic
+essays of that period, this exhibition provides a vivid
+description of the historic fire at Chicago.
+
+Figure 3. SCRAN—an online learning resource exhibition.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+15
+
+where the visitor can do something, e.g. trace the
+steps of particular passengers, and learn about the
+subject background at the same time, possibly without
+being aware that learning is taking place (Fig. 6).
+Forging the Nation (http://www.awm.gov.au/forging)
+is an online exhibition set up by the Australian War
+Memorial to celebrate the first twenty years of Australia's
+independence. This site is helpful for studies in
+Australian nationhood with interesting resources,
+e.g. cartoon illustrations from early Australian newspapers
+(Fig. 7).
+
+Figure 4. Traders: Voices from the trading post online
+exhibition.
+
+Life Along the Manitou Passage (http://www.
+schoolship.org/maritime/) is about the history of the
+Great Lakes in Michigan in the era of schooners.
+The website was created using a National Maritime
+Heritage Grant provided by the Michigan Department
+of State and the State Historic Preservation Office.
+This is a good site to visit for students doing research
+on maritime history during the age of schooners. In
+particular, the detailed glossary in which terms are
+cross-linked to where they were used in the main
+text is a valuable hypertext resource in its own right
+(Fig. 5).
+Voyage of the St Louis (http://www.ushmm.org/
+stlouis/index.htm) is an online exhibition of the United
+States Holocaust Memorial Museum to commemorate
+the journey of the ill-fated refugee ship, the St Louis,
+during the Second World War. Various information
+sources have been provided to help users to reach
+their conclusions. The Teacher Resources section
+contains tips and steps and pointers to resources
+on the website and how to incorporate them into
+their teaching syllabus. This is a hands-on site
+
+Hearts at Home: Southern Women in the Civil War
+(http://www.lib.virginia.edu/exhibits/hearts/) is an exhibition
+held in the Tracy W. McGregor Room from 2 August
+1997 to 15 October 1997. The story is told through
+archival papers, and personal and special collections.
+However, the pictures appear to be more for illustrating
+the social life of the period rather than for reinforcing
+the text. For a better view of the books and other
+manuscripts, visitors would still have to visit the
+physical exhibition.
+Fønss-Jørgensen24 described an online audio archive
+prototype system code-named Jukebox (which was
+active between 1993 and 1996). Project Jukebox
+allowed public library users to gain online access
+to historical sound recordings held in European national
+archives. The test libraries were located in Denmark,
+Italy and the United Kingdom, with technological
+support from Norway. Streaming audio technology
+was used to prevent downloading of the digitised
+sounds in public access computer terminals in the
+test libraries. Some rather extreme precautionary
+measures were also taken, e.g. the soldering of
+audio plugs to the sound card connectors to prevent
+illegal recording via Walkmans. Jukebox demonstrated
+aptly that with technological advances, audio recordings
+can be delivered from the dusty corners of archives
+to reach a wider audience. This applies to other
+historical materials too.
+Down the Drain, Chicago's Sewers: The Historic
+Development of an Urban Infrastructure (http://
+www.chipublib.org/digital/sewers/sewers.html) describes
+the history of the Chicago sewer system, and is
+maintained by the Chicago Public Library. This exhibition
+has managed to turn a mundane and socially disagreeable
+(but very essential) part of public service into an
+interesting presentation by its innovative use of multimedia,
+especially in the use of QuickTime movies for the
+sewer cam clip (Fig. 8).
+
+Figure 5. Life along the Manitou passage online exhibtion.
+16
+
+Make the Dirt Fly (http://www.sil.si.edu/Exhibitions/
+make-the-Dirt-Fly/) is a Smithsonian Institution Libraries
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+Figure 6. Voyage of the St Louis online exhibition.
+
+Figure 7. Forging the nation online exhibition.
+
+exhibition on the building of the Panama Canal that
+links the Pacific and Atlantic Oceans. The exhibition
+starts with a series of stylised photographs with
+fade filters and descriptive text incorporated into the
+corners of the feathered images, which subsequently
+move on to the more conventional main exhibition
+pages.
+
+1956 Melbourne Olympics (http://pandora.nla.gov.au/
+pan/42638/20040611-0000/www.statelibrary.vic.gov. au/
+slv/exhibitions/olympics/index.html) is the State Library
+of Victoria's exhibition site on the 1956 Melbourne
+Olympic Games. This site explores the history of
+Australia's first experience of hosting the Olympic
+Games in 1956, and the impact it had on Australia
+as a nation. This exhibition would be very useful for
+students doing projects about the 1956 Melbourne
+Olympics because of the copious amount of textual
+information available. Moreover, it has a well-annotated
+bibliography with links to more detailed information.
+
+This exhibition shows the experience of the
+Smithsonian Institution in putting up engaging exhibitions
+(whether virtual or physical). The design and content
+(e.g. the trivial pursuit section) of the site appeal
+to both scholarly research as well as casual
+browsing (Fig. 9).
+
+7.4 Literary Online Exhibitions
+
+Putting Out Fires (http://www.saskatoon.ca/org/
+clerks_office/archives/gallery/exhibit/fire/fireintro.htm)
+is an online exhibition put up by the City of Saskatoon
+Archives to commemorate the city's fire fighting
+service. The history section showcases the history
+of the major fire fighting equipment companies in
+Saskatoon. This exhibition is a good site to visit,
+especially for students doing research in the history
+of fire fighting equipment, since there is a fairly
+large collection of photographs of vintage fire engines.
+
+Literature is another area where online exhibitions
+can be used to reach out to the public. Some examples
+are Anthem for Doomed Youth: Writers and Literature
+of the Great War 1914-1918 covering period literature,
+and social commentaries such as Elderberry Wine:
+Selected Radio Commentaries by Peter Wotton.
+
+Figure 8. Down the drain, Chicago’s sewers online
+exhibition.
+
+Figure 9. Make the dirt fly online exhibition.
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+Anthem for Doomed Youth: Writers and Literature
+of the Great War, 1914-1918 (http://net.lib.byu.edu/
+english/WWI/main.html) is an exhibit commemorating
+
+17
+
+the 80th anniversary of the Armistice (11 November
+1918), which signaled the end of World War I. This
+website complements the physical exhibit held at
+the Special Collections Reading Room, Harold B.
+Lee Library, Brigham Young University from 1 September
+1998 to 31 December 1998. This exhibition is great
+for doing research in the literature of the First World
+War period. The social mood of that turbulent period
+is captured succinctly in the words of the featured
+poets and writers (Fig. 10).
+Elderberry Wine: Selected Radio Commentaries
+by Peter Wotton (http://www.lanecc.edu/archives/
+Wotton.html) is a tribute to Peter Wotton, who broadcast
+over 700 weekly commentaries on KLCC-FM radio
+in Eugene, Oregon, from 1982 until his death in
+1996. His commentaries focused on different issues
+of interest to older people, such as health and
+recreation, as well as national political, environmental,
+and social issues. This exhibition offers Wotton's
+philosophical views on general social issues, which
+is useful for social science research but may not
+attract junior students due to its heavily textual
+layout.
+
+7.5 Scientific Online Exhibitions
+Science is one of the most popular topics for
+online exhibitions. There are online exhibitions about
+general science, such as The Virtual Smithsonian
+and The Year 1000; information science, such as
+Keeping Our Word: Preserving Information Across
+the Ages and ZYX: An Exhibition of Selected ABC
+Books from the Jean Trebbi Collection; medicine,
+such as Needles in Medical History; and naval science,
+such as Fast Attacks and Boomers: Submarines in
+the Cold War.
+The Virtual Smithsonian (http://2k.si.edu) is an
+online exhibition that displays more than 360 artifacts
+from 14 of the 16 Smithsonian museums 25 . The
+website is based on the travelling exhibit, Celebrating
+
+150 Years, America's Smithsonian. Some of the
+exhibition features are images, digital video, sound
+clips, and objects which can be manipulated and
+transformed into other objects. Most of the exhibits
+are based on web multimedia technologies that are
+designed for visitors with high connection speeds.
+There is also a version for low bandwidth users, with
+less of the digital bells and whistles. This site is
+good for students doing research in general history
+(e.g. human inventions) and natural history (e.g.
+dinosaurs). The exhibits are very engaging if the
+visitor has the bandwidth to access them.
+The Year 1000 (http://www.lindahall.org/events_exhib/
+exhibit/exhibits/y1k/) is an online exhibition organised
+by the Linda Hall Library of Science and Technology.
+It traces the development of selected scientific inventions
+from 1000 A.D. to the present day, e.g. the use of
+the horse collar from early applications in agriculture
+to industrial uses today. This is a simple exhibition
+that can be useful for students researching on the
+history of selected human inventions since 1000
+A.D.
+Keeping Our Word: Preserving Information Across
+the Ages (http://www.lib.Uiowa.edu/exhibits/keeping/
+contents.htm) is the virtual version of the University
+Libraries', University of Iowa exhibition, "Keeping
+our Word: Preserving Information Across the Ages"
+(from October 1998 to January 1999). The virtual
+exhibit forms a continuing research page for the
+study of library preservation. This exhibition is a
+good resource not only for information studies students
+(from the point of view of library preservation) but
+also for the general public, because it provides interesting
+snippets on the history of writing methods and instruments.
+ZYX: An Exhibition of Selected ABC Books from
+the Jean Trebbi Collection (http://www.broward.org/
+library/bienes/lii03700.htm) brings to the public's
+attention an area of book collecting that is seldom
+seen and infrequently appreciated: alphabet books.
+It begins by briefly exploring the history of the alphabet,
+moves on to children's ABC books, shifts to alphabet
+books for adults, and concludes with pop-up and
+movable titles. This exhibition provides an alternative
+glimpse into alphabet books; some visitors may be
+surprised to learn that alphabet books are not just
+for children alone there are versions for adults too.
+Needles in Medical History (http://www.wellcome.ac.uk/
+en/old/MISexhHOMnee.html) takes an eclectic look
+at the role of needles in medicine and at their
+psychological and cultural contexts. The information
+provided in this exhibition may be too short for
+
+Figure 10. Anthem for doomed youth online exhibition.
+18
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+student school project work, although the still images
+are still useful. Nevertheless, the designer has managed
+to present an intimidating medical instrument in
+ways that may not be directly apparent to the visitor,
+such as the use of needles in acupuncture.
+Fast Attacks and Boomers: Submarines in the
+Cold War (http://americanhistory.si.edu/subs/) is
+the companion website of the fast attacks and boomers
+exhibition at the National Museum of American History.
+It showcases the development of the nuclear submarine
+in the US Navy. This exhibition has something appealing
+for every visitor: for the technically inclined, there
+are details of how submarines work; for casual visitors,
+there is information on life aboard the submarines
+and life onshore (Fig. 11).
+
+8. FUTURE TRENDS IN ONLINE
+EXHIBITIONS
+As technology becomes ubiquitous, reliable, cheap
+and easier to maintain, more museums are expected
+to exploit them to provide information to provide a
+better service and content especially for researchers,
+academics and museums information seekers.
+Multi-modal and multimedia systems integrate
+a number of modes and media such as hypertext,
+audio, video etc., into higher-bandwidth communication
+interfaces. These are used for virtual reality, interfaces
+for users with special needs, etc. Virtual reality is
+an example of non-command based interface, which
+can immerse the user in a simulated highly interactive
+world in which the user can move about in the same
+way as in the physical world. Visitors are immersed
+in a virtual environment through the use of 3-D realtime computer graphics and advanced display devices
+such as head mounted displays. Visitors (particularly
+young students) can learn by active participation in
+performing some tasks with the system, such as
+manipulating objects in a scene. In this way, the
+
+Figure 11. Fast attacks and boomers.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+subject being taught will be better absorbed by the
+learners since they have played an active role in
+acquiring it 13 .
+Speech-based interfaces that apply non-speech
+objects (such as auditory icons, ear icons), gesture
+recognition, and eye tracking technology are some
+of the scientific advances that may be also used by
+museums to focus on users with special needs 26 .
+Eye tracking has traditionally been considered an
+esoteric and very expensive technique, but is now
+becoming more affordable and practical. Embedded
+help is another area that next generation interfaces
+are focusing on that may provide true embedded
+help via the use of animated and auditory icons,
+making the computer interface easier to use.
+Wireless computing and handheld devices are
+other technologies that have penetrated into the
+museum galleries space. Tools such as electronic
+guidebooks (portable devices that use a wireless
+web-based network) help to extend the museum
+experience. As these devices become smaller, more
+affordable and more capable, museums will soon be
+able to count on them to facilitate the delivery of
+complex multimedia information to their visitors.
+
+9. CONCLUSION
+With the convergence of multimedia computing
+and broadband digital telecommunications, the two
+major barriers to the accessibility of archival collections
+have eliminated-physical distance and the walls (i.e.
+opening hours) of the archival institution 7 .
+Museums viewers may be less likely to make
+a special trip to museum to see the original object
+when facilities are available to see a quite reasonable
+facsimile at their homework station. But Anderson
+feels that the demand for the original work will increase
+rather than decrease, following repeated exposure
+at an institutionally authorised site on the worldwide
+web. And "the growth of wired museums of all kinds
+may provide a younger generation steeped in this
+technology with more reasons to connect to us. It
+seems likely that it will contribute less to our eclipse
+as institutions than our transformation" 5 .
+Galani, et al. 27 observed that the number of
+digital visitors is steadily growing and in some cases,
+outstripping the number of visitors to the corresponding
+physical museums. This helps to encourage a
+geographically distant digital visitor to become a
+physical visitor, and encourage physical visitors to
+maintain a relationship with the museums after they
+walk out of its doors.
+19
+
+The rise of community-oriented web-based tools
+that promote information sharing, such as blogs,
+wikis and photo-sharing services will be of interest
+to museums. These so-called 'Web 2.0' tools 28 can
+help to broaden the communication channels for
+online exhibitions. For example, the museum can
+put up an online version of an existing physical
+exhibition quickly as a wiki website, with multimedia
+resources such as videos, pictures and links to
+other sites with additional information. Online visitors
+will be able to share their experiences with others
+by writing about their visits in their personal weblogs (blogs), e.g. as a class assignment if the
+visitors are school children, highlighting to other
+visitors which are the more interesting exhibits.
+Physical exhibition visitors who visit the actual exhibition
+may also share their experiences with the online
+exhibition visitors through the use of online photosharing services such as Flickr. These tools will
+open up more exciting communication opportunities
+for the museum and bring its collections closer to
+its visitors, making their visits more personal and
+memorable.
+
+REFERENCES
+1. Galler, S.R. et al. Museums today. Science,
+1968, 161(3841), 548-51.
+2. Dudley, J.W. Successful exhibiting. Kogan Page
+Limited, London, 1990.
+
+9. Sparacino, F. The museum wearable: Real-time
+sensor-driven understanding of visitor's interests
+for personalized visually augmented museum
+experiences. http://www.archimuse.com/mw2002/
+papers/sparacino/sparacino.html
+10. McKenzie, Jamie. Digital nativism, digital delusions
+and digital deprivation learning authentically in
+the language arts classroom. From now on the
+educational technology journal, 2007, 17(2).
+http://fno.org/nov07/cov.html
+11. Semper, R. & Spasojevic, M. The electronic
+guidebook: Using portable devices and a wireless
+web-based network to extend the museum experience,
+2002. http://www.archimuse.com/mw2002/pap ers/
+semper/semperfig6.html
+12. Ramaiah, Chennupati K. Case for virtual Salar
+Jung museum. Deccan Chronicle , 5 Nov 2007,
+p 9.
+13. Myers, J. Heritage, classrooms and the World
+Wide Web: A teacher educator's perspective on
+the Gateway to Learning Materials Project, 2000.
+http://www.archimuse.com/mw2000/papers/myers/
+myers.html
+14. Sumption, K. Beyond museums walls— A critical
+analysis of emerging approaches to museum
+web-based education, 2001. http://www.archimuse.
+com/mw2001/papers/sumption/sumption.html
+
+3. Velarde, G. Designing exhibitions. The Design
+Council, London,1988.
+
+15. Kalfatovic, Martin R. Creating a winning online
+exhibition. American Library Association, Chicago,
+2002.
+
+4. Bowen, J.P.; Bennett, J. & Johnson, J. Virtual
+visits to virtual museums. Museums and the
+web. In Archives and museuminformatics, Toronto,
+Ontario, Canada, 1998. http://www. archimuse.com/
+mw98/papers/bowen/bowen_ paper.html
+
+16. Weinman, Linda. Designing web graphics, 3rd
+Edition. New Riders Publishing, Indianapolis,
+1999.
+
+5. Teather, L. A museum is a museum is a museum.
+Or is it? Exploring museology and the web,
+2000. http://www.archimuse.com/mw98/papers/
+teather/teather_paper.html
+6. Rayward, W. B. & Twidale, Michael B. From
+docent to cyberdocent: Education and guidance
+in the virtual museum. Archives and Museum
+Informatics , 1999, 13, 23-53.
+7. Kassay, M. Interactive multimedia in museums.
+http://online.anu.edu.au/CNASI/pubs/On Disc95/
+docs/ONL21.html
+8. Rowley, J. Multimedia kiosks in retailing. International
+Journal of Retail and Distribution Management ,
+1995, 23(5), 32-40.
+20
+
+17. Boumphrey, Frank. Typography on the web. http://
+www.Hypermedic.com/style/typog/typindex.htm
+18. Chen, Arthur & Chen, Sophy. Metadata for works
+of art—The application of CDWA. PNC-2002,
+Osaka, Japan. http://pnclink.org/annual/annual2002/
+pdf/0921/9/m210902.pdf
+19. Glushko, Bob. Metadata for multimedia, 2007.
+http://www2.sims.berkeley.edu/courses/is202/f05/
+Lecture Notes/202-20050929.pdf
+20. Trant, Jennifer. Social classification and folksonomy
+in art museums: Early data from the steve. Museum
+Tagger Prototype, 2006. http:// www.archimuse.com/
+papers/asist-CR-steve-0611.pdf
+21. CONTENTdm. Overview. 2007, http://www.contentdm.
+com/products/overview.html
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+22. Re:discovery software. Collections Management,
+2007. http://www.rediscoverysoftware.com/default.
+aspx?include=proficio.htm
+23. SCRAN guide, 2000. http://www.scran.ac.uk/help/
+scran_ guide.pdf
+24. Fønss-Jørgensen, E. Network access to the
+audiovisual cultural heritage-possibilities and
+problems. Inter lending and Document Supply,
+1998, 26(4), 171-74.
+25. Smithsonian. The virtual Smithsonian home, 2000.
+http://2k.si.edu
+
+26. Dix, A. J.; Finlay, J. E.; Abowd, G.D. & Beale,
+R. Human-computer interaction, Second Edition.
+Pearson Education Limited, Harlow, England,
+1998.
+27. Galani, Areti & Chalmers, Matthew. Can you see
+me? Exploring co-visiting between physical and
+virtual visitors. I n Museums and the Web, 2002.
+http://www.Archimuse.com/mw2002/papers/galani/
+galani.html
+28. O'Reilly, Tim. What is web 2.0? http://www.
+oreillynet.com/pub/a/oreilly/tim/news/2005/ 09/
+30/what-is-web-20.html
+
+About the Authors
+
+Leong Chee Khoon is a Systems Analyst with the Educational Design and Technology Division
+of Institute of Technical Education (ITE) Headquarters. He supports users of the e-learning
+system used by ITE campuses in Singapore. His formal education includes a Master's degree
+in Information Studies from the Nanyang Technological University, Singapore.
+
+Dr Chennupati K. Ramaiah is working as Professor and Head, MJCET Central Library, Muffakham
+Jah College of Engineering & Technology, Hyderabad. Prior to joining the college, he worked
+as Professor and Director, Centre for Information Science, and Librarian of MGNIRSA, Hyderabad.
+Before that Ramaiah worked as an Assistant Professor, Nanyang Technological University,
+Singapore for 6 years from 1999 to 2005. Prior to that Dr Ramaiah was Deputy Director at
+DESIDOC, a national information centre in Defence Science and Technology in India. He has
+worked for 14 years in the Defence Research & Development Organisation, India, as Scientist,
+and worked in various areas including conducting research, heading A-V division and Defence
+Science Library. He was a Commonwealth Scholar for PhD in Information Science in 1989.
+Soon after obtaining his PhD, he set up a multimedia lab and worked several years in designing
+multimedia applications, presentation and training materials. His formal education includes
+Master’s degrees in Chemistry and in Library and Information Science. He is a member of
+many international professional bodies/societies such as the Institute of Information Scientists,
+LA, ASIST, and ACM. Dr Ramaiah's research interests include multimedia and hypertext technologies,
+human-computer interaction, user interfaces, e-books and e-publishing, archival informatics
+and bibliometrics.
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+21
+
+

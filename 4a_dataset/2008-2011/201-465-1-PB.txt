@@ -1,0 +1,705 @@
+DESIDOC Journal of Library and Information Technology, Vol. 28, No. 4, July 2008, pp. 83-91
+© 2008, DESIDOC
+
+Implementation of a Virtual Archives System using Virtual Reality
+Technology: A Case Study of the National Archives Administration
+Taiwan (ROC)
+Wen-Hsi Chang
+Archives Information Division, National Archives Administration
+No. 10, Lane 59, Yitong St., Taipei 10486, Taiwan (ROC)
+E-mail:whchang@archives.gov.tw
+
+ABSTRACT
+The article describes the virtual archives system developed using virtual reality technologies in National
+Archives Administration (NAA), Taiwan, Republic of China. The project was launched in 2004 and consisted
+of three parts: a projected virtual reality system; a virtual archives website; and a virtual archives kiosk. This
+paper also discusses related issues during system development along with concepts, criteria and solutions.
+Finally it provides the experience of how to implement a virtual reality system for the archives.
+Keywords: Virtual archives, virtual reality, virtual museums, online museums, NAA.
+
+1. INTRODUCTION
+The intention of implementing a virtual archives
+system was to simulate mandatory functionalities
+of a public records preservation repository employing
+computer technologies, instead of expanding existing
+property. After conducting a year of feasibility study
+for establishing a virtual archives system, Virtual
+Archives Project was launched in 2004. The system
+was opened to the public in the month of June
+2005.We took advantage of computing technologies
+to create innovative archival services without any
+physical restrictions such as shelving, locations
+and opening hours, etc.
+Conceptually, we designed an ideal virtual archival
+system that was able to satisfy users' individual
+demands, share archival information and hold online
+exhibitions in cyberspace. Besides, we operated
+the system as an experimental marketing tool, which
+was able to attract potential users to access archival
+resources. The combination of virtual reality technologies
+and archives would be an ideal alternative for promoting
+archives application.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+One of most attractive features of virtual reality
+is that users can interact with objects in cyber
+space1 . Furthermore, every user can organise his
+personal interests profile to design the system the
+way he/she likes. For instance, the way a user
+using a car driving simulator can emulate to control
+handler, to accelerates, to change direction, to
+read indicators on dashboard and so on. All detailed
+driving behaviours during roaming in a virtual space
+are same as steering a real car on the road. Furthermore,
+there are successful instances on high-level learning
+behaviours, which include motion control, perception
+for a real world, etc. As for retrieving records, it
+seemed to be more sophisticated than driving in
+mind. Generally, information retrieval is complicated
+and hard to be programmed. A proposal to draw a
+blue print for an ideal archives house was submitted
+as the very beginning of our virtual archives construction.
+Then groups of virtual human figures and related
+events were created in advance. Just like to compose
+a movie script, the scriptwriter made possible reactions
+of all characters. Lastly, characteristics of every
+virtual figure reactions were deliberately designed
+83
+
+so as to make the virtual archives more realistic 2 .
+These included:
+(i)
+
+What types of high-level behaviours regarding
+intelligence, motivation, social communication
+and decision-making can be presented in the
+virtual archives?
+
+(ii) What kinds of sensors does a user receive
+message from the real world?
+(iii) How to control motions of virtual figures flexibly?
+(iv) How to use graphics to present every aspects
+of a real world object?
+
+2. TYPES OF VIRTUAL REALITY
+TECHNOLOGIES
+There are many definitions of virtual reality 3-10
+in the literature. Whereas, virtual reality is a synonym
+to immersive reality in which users are surrounded
+by artificial 3-D images created by computers 3 . In
+practice, there are lots of obstacles for accepting
+a fully immerse virtual reality solution for archives.
+Most of archives do not have an appropriate room
+suitable to set up related equipment. Besides, most
+sensory devices require isolation from noisy signals
+of other electric appliances and carriers, or it won't
+work properly. It is also very difficult for existing
+archives to expand for accommodating extra equipment.
+In addition, it is arduous for regular users to
+distinguish the reflection on drape whether from a
+virtual reality system or a 3-D animation program.
+In fact, both of them are able to provide similar
+stereo visual effects. Users don't care what a virtual
+reality is. Technically speaking, whether the system
+has an interactive interface or not is the distinguishing
+feature. Since a virtual archives system is not merely
+for applying virtual reality technologies, it should
+also create more attractive environment for users.
+Virtual reality can be classified into four basic categories:
+(i)
+
+Fully Immersive: A user who wears particular
+display devices is a part of the virtual environment.
+Display devices like head-mounted display and
+stereo spectacles; provide a 3-D virtual space
+in user's vision. The user never feels himself as
+an outsider or audience in the virtual environment.
+It is necessary to block any other visual contacts
+from the real world for approaching absolute
+immersive.
+
+(ii) Semi-immersive: There are attached 3-D display
+devices that augment on existing objects. For
+instance, a pilot seat of an actual airplane was
+84
+
+set up as the position for a virtual reality system.
+To keep the feeling of authentication is to use
+part of real objects. The view of a user created
+using computers. A number of vehicle control
+simulators, such as car driving, ship steeling
+and airplane controlling use this kind of environments
+to practice manipulating skills.
+(iii) Projected Visions: A system projected 3-D images
+to a glass-beaded draper on the wall from different
+directions, which can serve a group of people
+view the same content simultaneously. Sometimes,
+it can allow multi-screens to surround users for
+obtaining better visual effects.
+(iv) Desktop Display: A system merely displays a
+virtual environment on the screen of a user's
+monitor. Applying Flash is one of popular solutions
+to provide dynamic pages on websites with
+which player can be easily integrated with other
+browsers to offer animation features. Even it
+does not provide real immersive or semi-immersive
+interaction. Sometimes, we still convey significant
+messages in the virtual world without a real
+virtual reality. It is more important to suffice
+user's requirements than to apply a fancy technology.
+For example, R. Schmidt created "Virtual Reality
+Moon Phases" by ray-traced images of the Moon.
+A Clementine spacecraft mosaic of the lunar
+surface was mapped onto a sphere, and scenes
+were rendered as a virtual Sun "orbited" the
+Moon 11 . It is also categorised as a kind of
+virtual reality application.
+
+3. THE VIRTUAL ARCHIVES IMPLEMENTATION PROJECT IN NAA
+The initiative of the project was to add values
+to public records in virtual ways to satisfy individual
+requirements, instead of simply creating archives
+online exhibitions. Apparently, personalisation is a
+trend for application development in software industry.
+An advanced virtual reality environment depends on
+various sensory devices to collect and respond users'
+reactions with respect to stimuli from the virtual
+environment. However, there are some non-technical
+problems concerning the application of those devices
+in practice. Part of the users are not willing to share
+devices with others, such as left perspiration on
+head-mounted display helmet, electronic tracker
+and electronic gloves, etc., because of their personal
+hygiene and healthcare reasons. However, it is easier
+to employ visual simulation without expensive equipment
+for archives. Unfortunately, there are technical constraints
+for transmitting virtual reality images via Internet at
+present, because of bandwidth and additional devices
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+requirements. With the result, we adopted relatively
+cost saving alternatives were adopted to construct
+NAA virtual archives in the following three facets.
+(i) Multi-users Projective Environment: Setting a
+multi-users environment on existing space is
+the most economic solution. For the reason of
+saving cost, we set up related equipment in our
+lecture hall, which can accommodate 60 people
+to view virtual reality shows, instead of using
+a dedicated presentation room (Fig. 1).
+(ii) Virtual Archives Website: Is a desktop virtual
+reality website using Flash technology to drive
+virtual objects dynamically. It is ubiquitous service
+on the Internet (Fig. 2), with sub-titles in English,
+on the bottom right of the screen, to translate
+what the virtual figure says in Mandarin
+synchronically (http://va.archives.gov.tw).
+(iii) Virtual Archives Kiosk: A virtual reality kiosk
+was positioned in front of information desk at
+the lobby of NAA (Fig. 3) It provides users doit-yourself services that make users roam freely
+with a 3-D track ball instead of mouse clicks,
+just as using an automatic cashier machine.
+
+4. CONSTRUCTION OF A VIRTUAL
+REALITY ENVIRONMENT
+The main reasons for the construction of a
+virtual archives house include: (a) to present the
+physical structure of ideal archives house and interior
+decoration design in details; (b) presentation of
+preserved digital collections; and (c) to offer virtual
+archives services.
+Construction of a virtual building is the skeleton
+of the project. There are two types of constructive
+
+Figure 1. Viewers with 3-D glasses viewing VR archives
+system.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+frameworks: geometric and image models. Generally
+speaking, a geometric model was produced, which
+sometimes was created by designers without any
+real objects for reference. The similarity of simulation
+corresponds to the quality of models presentation.
+Both the delicacy of interoperation between objects
+and the visual granularity of images were associated
+with creativity and developing time. Basically, modelling
+is a matter of technology as well as synthesis of
+art. Fortunately, there are proprietary tools that
+assist to build 3-D solid geometric models quickly.
+All virtual objects can freely rotate without restrictions
+of movement angles for observing and modifying
+easily. Meanwhile, users can interact with any other
+objects in the space. Geometric modelling method
+was applied to build the main building as shown in
+Fig. 4.
+Instead of building a 3-D geometric object, creators
+can apply scanned existing object images to model
+virtual objects. Definitely, it is an efficient solution
+for modelling with a 3-D scanning camera to capture
+the surrounded images of an object. Usually, there
+are not many event driven components on an imagemodelled object. In business applications, the measure
+of image modelling is good at demonstrating the
+appearances of merchandises for marketing. It is
+also applicable for the quick usage directions of a
+product, such as how to assembly and disassembly
+it. In Taiwan, there are many virtual reality agents
+to build their clients' selling property 3-D models
+in this way. Compared with other kinds of virtual
+reality technologies, obviously it has weaker functionality.
+But, it is appropriate for visitor to introduce static
+features related to a building, such as interior
+compartments and organisational allocations. As a
+consequence, a hybrid model to construct virtual
+objects, which includes assembling the images of
+
+Figure 2. Virtual archives website of NAA.
+85
+
+Figure 3. A virtual archives kiosk with records exhibition
+windows.
+
+Figure 4. The geometric model of virtual archives house.
+
+real objects, and rendering virtual objects generated
+by geometric models was used at NAA. After completing
+the modelling, subsequently interactions among
+objects were started.
+
+role to introduce all services. In the other themes,
+demonstration avatars being used instead. Whatsoever,
+all actions of virtual figures have got to depend on
+scripts, including background settings? In principle,
+there are three kinds of avatar operations:
+
+One of historic event settings made by hybrid
+model in NAA system is a real historic building
+photograph on painted marble floor behind virtual
+objects (Fig. 5). Similarly a virtual figure was modelled
+with real images of the Director General of the
+institution (Fig. 6) with a menu of themes behind
+him.
+
+4.1 Figures Creation
+It is important for visitors whom they meet in
+a virtual world, just like audience expects to see
+certain roles in a cinema. These virtual figures are
+similar to actors in a film who keep the storyline
+going, whether they are fully created by computers
+or transformed from real figures' images. In NAA
+system, both kinds of figures have been used. The
+image of Director General, NAA plays the major
+
+Figure 5. A virtual historic wall setting.
+86
+
+(i)
+
+An avatar is a guide of the system, which
+directs a user to surf in virtual environment
+(Figs 7 and 8).
+
+(ii) It is a substitute of a user, and manipulates
+all operations in the virtual archives.
+A user is an audience who cannot manipulate
+figures in the system. An avatar is surfing automatically
+for presenting featured functions.
+
+4.2 Interaction Design in Virtual
+Environment
+It is too complicated to simulate all human
+reactions corresponding to what happens in a real
+world12 . Therefore, it is necessary to narrow down
+
+Figure 6. A virtual figure.
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+Figure 7. A user is controlling an avatar by a 3-D mouse in
+the lobby of NAA virtual archives house.
+
+Figure 8. An avatar, named as Archives Gnome, is guiding
+the second floor of our virtual archives house in
+front of an elevator.
+
+the scope of simulation in applications. On the
+contrary, a simulated environment has to remain
+the minimum essences of the real world. It is a
+dilemma for a system designer to trade off what the
+minimum is? The critical components of a virtual
+reality are how virtual figures in scenes react corresponding
+to the events. Just as filmmaking, all characters
+and settings have to follow a well-defined script to
+go through till the end. An archivist could play the
+role of a director to make the virtual system keep
+storyline forward. This includes where and when
+virtual figures are placed, what kind of events would
+be triggered, and their corresponding reactions.
+Theoretically, reactions are relations among virtual
+objects that have to be arranged in advance. They
+are also the presentation of objects interaction in
+a virtual reality environment. In details, there are
+different presentation layers of an event and corresponding
+responses. Generally, the quality of simulation affects
+users' perception. Since all interactions of avatars
+depended on existing definitions in a database, of
+which all movements and scenes require huge computing
+resources. It is necessary to restrict the number
+of reaction modes for obtaining performance efficiency.
+Hence, several types of working templates for presenting
+different themes were generated. In short, a virtual
+archives system at NAA is not just an application,
+but also provides a general framework for virtual
+exhibits. Therefore, contents can be easily modified
+in virtual exhibitions.
+
+virtual environment have to be assisted by auxiliary
+devices. BOOM (Binocular Omni Orientation Monitor)
+is one of very famous output devices for watching
+virtual reality environment. It is very similar to a
+head-mounted display, but is like a binocular to
+observe images. Display screen and related devices
+were integrated into a viewing box with an arm like
+sensor to perform all movements.
+
+4.3 Selection of Auxiliary Devices
+
+5. THEMES DESIGN IN THE VIRTUAL
+ARCHIVES SYSTEM
+
+The source for triggering events among real
+objects is not only from human vision, but also from
+their other sensory organs. However, current multimedia
+technologies still focus on audio and visual effects
+primarily. That implicated that extra senses in a
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+Nowadays, there are tangible devices capable
+to response specific stimuli form the real world. In
+manufacturing industry, people use haptic operation
+mechanism such as robotic arms to deal with dangerous
+works. It is helpful for some of learning activities
+to apply haptic simulation equipment 13 . If a virtual
+archives user can feel to flip pages of virtual records,
+it would be more realistic than just viewing the
+content of a record. However, this kind of device
+allows one user at a time. Therefore BOOM solution
+was not implemented at NAA even though it provides
+a higher resolution. It is less practicable for archives,
+especially for a non-profit oriented organisation. If
+there is an advanced virtual reality environment in
+which several users can involve simultaneously with
+their bare eyes, it would be much more convenient
+for viewers. Unfortunately, it is necessary to use
+additional devices for achieving high visual effect at
+present, so 3-D spectacles were used to generate
+optical 3-D visual effects. It is the simplest way to
+reach visual virtual reality.
+
+If a computer could utilise historic records to
+simulate parts of facts, it would be most fascinating
+for researchers. For instance, Revival of Life in
+Ancient Pompeii14, which is a very attractive application.
+87
+
+It successfully emulated ancient Pompeian life in
+Italy with the virtual reality technologies. The results
+filled the gap of historic records, and then made
+viewers cross over historical lags consequently.
+Similar concept was followed to select historic incidents
+at NAA as themes to demonstrate in the system.
+One of the merits for simulation is that the system
+never makes a real event happened. So a video war
+game is not a real war. But all scenes inside the
+game absolutely make user realise what a war is
+like. The users of a war game also get some exact
+experience without casualties. For instance, the
+921-earthquake occurred on 21 September 1999. It
+was a catastrophe in Taiwan's history; thousands
+of casualties took place in that earthquake. No one
+can ever think of this kind of earthquake to happen
+again, but simulation technologies were used for
+reminding people and to preserve such important
+incidents in Taiwan's memory by using partial investigation
+data to synthesize artificial imagination, subsequently
+to simulate certain phenomena, such as instantaneous
+earth surface contour changes. For the reason of
+simplifying system implementation, core collections
+at NAA were extracted as descriptive targets of
+which attributes decided what would be in the virtual
+world. Finally, decided were themes to be presented.
+In practice, simplifying colour pixels would make
+the environment easier for readers to understand.
+Moreover, abstracting records also shrinks storage
+space effectively. Since the simulation was treated
+as a simplified abstract of real object reactions, it
+might be useful for some educational purposes to
+refine some complicated concepts.
+The system simulated the earthquake of Richter
+scale 7.3 which destroyed Shih-Kang Dam, one of
+hydroelectricity plants in Tai-Chung County, Taiwan,
+on 21 September 1999(Fig. 9). Themes in the virtual
+archives system are filled with educational intentions.
+
+In other words, the virtual archives system is also
+a new instrument for archives education; however,
+developing an educational system is different from
+a general one. As per our experience, there are six
+factors for designing educational virtual reality software:
+(i)
+
+Verbal Linguistic: In the real world, only concise
+semantics are able to express sophisticated
+mind. Textual messages may not be a key
+point for implementing a virtual reality system,
+but it would be unavoidable to convey some
+complicated concepts. Especially in archives,
+most of collections are textual records. Therefore,
+less or more, it cannot help using words to
+present certain intents. It is useful for enhancing
+system's accessibility to refine verbose description.
+For example, we put on some subtitles into
+parts of scenes to make foreign users understand
+easier.
+
+(ii) Logical Deduction: All events and propositions
+have to be inferable logically in virtual scenes.
+It would make users feel more realistic in the
+cyber world. Usually, pattern-matching methods
+are used as mathematical thinking processes
+to artificially simulate themes in real archives.
+Basically, it is difficult to define event patterns
+to express intents of archives even in spoken
+languages. All events in themes have to be
+reviewed by archivists for sure.
+(iii) Spatial Allocations: All objects in virtual reality
+are represented in 3-D modes. Therefore, all
+messages among objects should be considered
+a spatial interactive relationship. Therefore,
+allocations of characters and triggered events
+would influence accessibility and friendliness
+to users.
+(iv) Bodily Kinesthetic: Default object procedures
+should be designed by reasonable manipulation
+schemes. The closer the movements of real
+objects, the more users feel realistic. Even
+certain actions of an avatar could be much
+better than what an ordinary person can do.
+(v) Musical: Dub in appropriate background music
+could make the system more attractive. A good
+incidental music always accompanies with a
+perfect atmosphere 12 .
+
+Figure 9. Simulated earthquake picture.
+88
+
+(vi) Interoperation: It is difficult to define general
+interoperated reaction rules with respect to
+individuals. In principle, the defined behaviours
+among users and avatars have to follow regulations
+in human societies by default. For generating
+reasonable results, all interoperated behaviours
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+have to be designed and validated in advance.
+Subsequently, essence of large size contents
+is beneficial for education; it should be encapsulated
+in related themes during the phase of system
+designing.
+
+6. DIFFICULTIES IN IMPLEMENTATION
+OF VIRTUAL ARCHIVES
+There are lots of difficulties in implementing a
+virtual archives system. For instance, there are
+many actions that are permitted in the virtual world,
+but illegitimate in the real world. Since a virtual
+archives system is without physical restrictions,
+the result of simulation might be different from what
+happens in the real world 15 . Apparently you cannot
+jump from the rooftop of a skyscraper and kill somebody
+you dislike, but you can do it in the virtual cyberspace.
+On the other hand, doing what you cannot do in a
+real world is the key attraction for regular users.
+It is considerately difficult to create appropriate
+events and scenes for constructing a virtual reality
+application. A virtual reality system is an aggregation
+of triggered events, scenes and scenarios. Circumstance
+information surrounded users that provided by sensory
+devices for transmitting human sensation reaction
+to events. All virtual scenes are actually created by
+experience, including the estimation of each avatar's
+movement duration and located positions during
+process. If a virtual scenario is embedded with
+human experience, it would make viewers feel friendlier.
+Highly recommended is to pay attentions to the
+differences between natural human senses and sensor
+devices, which might influence how to design triggering
+points but it seems not to exist in any standard to
+make decisions.
+The first step for building up a virtual archives
+system is to define accurate requirements. It is
+very difficult for a system developer, because user's
+requirements always fluctuate. Lots of concepts
+were adopted at NAA from computer game designs,
+especially in scenario planning. The features which
+impressed game users were applied to attract users
+to archives. For example, a series of virtual training
+courses for archivists and regular users were established
+in this way. The critical points of success on a
+virtual archives system are: (i) functionality should
+exactly satisfies users' requirements; (ii) expectation
+is not over technical limitations of virtual reality,
+such as levels of behaviours of a virtual figure, and
+similarity to real characters; and (iii) reusability of
+virtual objects, including behaviours, collections and
+services, for keeping contents updated easy. In
+addition, the effective sensory area of sensor devices
+is different from each other. For example, fingertip
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+touching control would be more concise than a
+mouse pointing to trigger an event on screen. In
+contrast, it is more natural for using footstep-control
+movement directions to advance or step back in
+immersive environment. Sensory devices have to
+send back the result they have sensed during environment
+changes. Some devices pass signals via serial ports,
+such as RS232, of which metal carrier would be
+influenced by the distance of sensors and host.
+That means the location of a virtual reality system
+has to overcome existing possible transmission
+noise. Moreover, some equipment will occupy huge
+amount of space and consume high electricity. Archives
+might not afford those extra expenses to operate
+the system, without previously planning budget.
+Theoretically, a perfect 3-D image was generated
+by six-directional projections such as a cube. In
+contrast, every projector has corresponding demand
+for space and cost. For remaining, the functionality
+of the lecture hall coexisted with the fundamental
+visual effects in our virtual reality archives system.
+We designed an elevated rack on the ceiling to
+place two projectors, which projected different directional
+images for generating 3-D visual effects instead.
+Consequently, we spared an extra space for dedicating
+the related equipment. Certainly, we scarified the
+quality of virtual reality (Fig. 10).
+
+7. CONCLUSION
+The reasons for employing virtual reality technologies
+in archives are: (i) simulation is cheaper than constructing
+a real building; (ii) capability of offering new services
+that are not provided in a physical archives; (iii) a
+virtual archives system could partly substitute during
+suspension of real services; (iv) online visitors can
+browse and retrieve records in a virtual 3-D space
+without physical restrictions such as transportation,
+opening hours, allocation and so on; (v) an alternative
+
+Figure 10. 3-D image projection facility at NAA.
+89
+
+to satisfy readers to apply precious records without
+any possibility of any malicious or coincidental
+violation; (vi) it is easy to change exhibits arrangement
+in a virtual archives without schedule conflicts for
+different themes. A virtual reality system can integrate
+with digital contents management, which saves
+coordination of labour works. Even we can use it
+to promote a real exhibition; and (vii) a user can
+play any roles in archives, such as an archivist to
+make his own online exhibition.
+
+5. Mannetta, C. & Blade, R. Glossary of virtual
+reality terminology. International Journal of Virtual
+Reality, 1995, 1(2). http://www.ia.hiof.no/~michaell/
+home/vr/vrhiof98/whatisvr/ What1.html
+
+Establishing a virtual archives system is to
+fulfill the existing service gaps instead of replacing
+completely, even though a virtual archives system
+might provide better services under certain situations.
+The virtual archives system cannot diminish the
+value of existing archives. In fact, the purpose of
+the project was to advance virtual circumstances to
+demonstrate eminent archival contexts inside collections
+and complement traditional archival functionality in
+virtual ways. A wholesome strategy will shorten the
+time of implementation, including what kinds of
+activities should described in the system, how to
+present featured collections with respect to virtual
+objects, and what kinds of solutions for virtual reality
+technologies and so on. If your institution intended
+to implement a virtual archives system using virtual
+reality, it would be proper to draft your strategy for
+the first step.
+
+7. Mitchell, Keith. Virtual reality. http://ei.cs.vt.edu/
+~history/Mitchell.VR.html.
+
+REFERENCES
+1. Esmerado, J.; Vexo, F. & Thalmann, D. Interaction
+in virtual worlds: Application to music performers.
+Virtual Reality Lab, Swiss Federal Institute of
+Technology, http://ligwww.epfl.ch/Publications/
+pdf/Esmerado_Vexo_CGI02.pdf
+2. Thalmann, Daniel. Simulating a human society:
+The challenges. Virtual Reality Lab, Swiss Federal
+Institute of Technology. http://ligwww.epfl.ch/
+Publications/pdf/Thalmann_CGI_02.pdf
+3. Beier, K.P. Virtual reality: A short introduction.
+University of Michigan, Virtual Reality Laboratory
+at the College of Engineering. http://wwwvrl.umich.edu/intro/#Terminology
+4. Beier, K.P. Virtual reality: A short introduction.
+University of Michigan, Virtual Reality Laboratory
+at the College of Engineering. http://wwwvrl.umich.edu/intro/#NonImmersive
+
+90
+
+6. Sherman, B. & Judkins, P. Glimpses of heaven,
+visions of hell: Virtual reality and its implications
+Hodder and Stoughton, London, 1992. http://
+www.ia.hiof.no/~michaell/home/vr/ vrhiof98/whatisvr/
+What1.html
+
+8. Pemberton, Lyn. Virtual reality. http://
+www.it.bton.ac.uk/staff/lp22/CS133/vr.html
+9. Beier, K.P. Virtual reality: A short introduction.
+University of Michigan, Virtual Reality Laboratory
+at the College of Engineering. http://wwwvrl.umich.edu/intro/#Shared.
+10. Louka, Michael. What is virtual reality?
+http://www.ia.hiof.no/~michaell/home/vr/vrhiof 98/
+whatisvr/ What8.html
+11. Schmidt, R. Virtual reality moon phase pictures,
+USNO. Time Service Department. http://
+tycho.usno.navy.mil/vphase.html
+12. Ressler, Sandy; et al. When worlds collideinteractions between the virtual and the real.
+National Institute of Standards and Technology.
+http://ovrt.nist.gov/twlt15/collidea4.htm
+13. Ressier, Sandy; et al. Integrating active tangible
+devices with a synthetic environment for collaborative
+engineering. National Institute of Standards and
+Technology, http://www.itl.nist.gov/iaui/ovrt/people/
+sressler/tangible3.pdf
+14. Papgiannakis, George; et al. LIFEPLUS: Revival
+of Life in Ancient Pompeii. MIRALab, University
+of Geneva. http://www.miralab.unige.ch//repository/
+papers/80.pdf
+15. Pantelidis, Veronica S. Virtual reality in education
+and Howard Gardner's Theory of Multiple Intelligences.
+Virtual Reality and Education Laboratory, College
+of Education, East Carolina University. http://
+vr.coe.ecu.edu/gardner1.htm
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+About the Author
+Wen-Hsi Chang is a PhD candidate in information management, Graduate Institute of Management
+Sciences, TamKang University, Taiwan. He was the Chief of MIS division, Taipei Municipal Library
+during April 1996-May 2000. Afterwards, he joined Archives Information Division of National
+Archives Administration, Taiwan (ROC) where he is currently in charge of developing archives
+related information systems.
+
+DESIDOC Jl. Lib. Inf. Technol., 2008, 28(4)
+
+91
+
+
