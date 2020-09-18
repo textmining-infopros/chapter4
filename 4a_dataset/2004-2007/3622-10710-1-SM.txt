@@ -1,0 +1,159 @@
+DESIDOC  Bulletin of Information Technology , Vol. 24, No. 2, March 2004, pp. 17-21 
+© 2004, DESIDOC 
+Managing Intellectual Property in Digital Environment through Digital Object Identifier (DOI) 
+Rochna Srivastava 
+Abstract 
+Paper discusses use of digital object identifier (DOI) for managing intellectual contents in a networked environment. Highlights components, features, aims, standards, and benefits of DOI. How DOI can be used in reference linking, citations and in print is discussed with examples. Stresses the need for building further features compatible with the existing implementation and emerging standard activities such as ISO, NISO, IETF, W3C, Dublin Core, Indecs, etc.  
+1. INTRODUCTION 
+The digital object identifier (DOI) is a system for identifying and exchanging intellectual property in digital environment. It provides a framework for managing intellectual content, for linking customers with content suppliers, for facilitating electronic commerce, and enabling automated copyright  management for all types of media. Using DOIs makes managing intellectual content in a networked environment much easier and more convenient, and allows the construction of automated services and transactions for e-commerce.  
+International DOI Foundation, created in 1998, supports the needs of the intellectual property community in the digital environment  by the development and promotion of the DOI  system as a common infrastructure for content management. The foundation, a non-profit organisation, manages development, makes policies, and licensing of  the DOI system to registration agencies. It is controlled by a Board, elected by the members of the Foundation. Activities of the Board are controlled by its members, operating under a legal charter and formal by-laws. Its membership is open to all organisations with an interest in electronic 
+DESIDOC  Bulletin of Inf Technol , 2004, 24(2) 
+publishing, content distribution, rights management, and related enabling technologies. Today the Foundation has over 200 companies using several million DOIs. 
+2. COMPONENTS OF DOI 
+DOI is made up of two components, the prefix and the suffix. There is no limitation on the length of a DOI. A prefix is assigned to an organisation that wishes to register DOIs. It is assigned to an appropriate grouping of content such as the publisher, label, or imprint  by a registration agency. All prefixes begin with 10 followed by a number designating the organisation who has obtained that prefix. Any organisation may choose to have multiple prefixes for each of their imprints or product lines or they might use a single prefix. 
+Following the prefix is given suffix which is  preceded by forward slash. 
+Prefix   Suffix 
+10.10001/123456 
+DOI 
+In the above example 10.10001 is called the prefix and is administered by the authority  that creates and manages the DOI; currently The International DOI Foundation itself. Suffix  is provided to identify the entity. This unique 
+17 
+
+========1========
+
+suffix is provided by the registrant and may be  assigned to entries of any size and granularity  (such as a book, article, abstract, chart, album, song, or melody) or any film type (such as text, audio, video, image, or software). This way combination of a prefix for  the registrant and unique suffix avoids any necessity for the centralized allocation of DOI numbers.  
+An existing standard identification number such as ISBN may also be used as the suffix. Thus DOI is a system that can incorporate existing identifiers: for example, physical bar codes used to express ISBNs.  
+10.1000/ISBN 07645 48891 
+McGraw Hill, Penguin Putnam Inc., Snapshots, Rand, Humana Press, and Scientific and Medical Publishers are some of  the customers who have registered DOIs through content directions.  
+3. BEN E FITS  OF DOI 
+(a) Ac tion able Iden ti fier 
+DOI is an actionable identifier that can be used by a user to do some thing. The technology, which underlies the DOI, facilitates much more complex applications than simple location finding. The best thing about DOI is that it identifies the intellectual property entity itself rather than its location.  (b) Per sis tent Iden ti fier 
+If ownership of the entity or the rights in the entity change, the identification of that entity should not (and does not) change. In case of DOI the responsibility for managing the DOI changes, but not the DOI itself. (c) Interoperable Iden ti fier 
+DOI system has been designed to be able to interoperate with past, present and future technologies. 
+4. FEATURES OF DOI 
+Resolution, metadata, and policy are the three features of DOI and the value of the DOI system lies in the combination of all the three. 
+18 
+4.1 Res o lu tion  Sys  tem 
+Resolution System is used in DOI ensuring persistence by resolving the DOI to a current associated value such as a URL. It means users of DOI need not be aware of changes to URLs in order to use the system. This system is a Handle System, an open standard scalable architecture. Resolution may be to multiple pieces of data. DOI, in fact, is a URI and URN implementation. 
+4.2 Metadata Sys tem  
+Since there is no intelligence system built into the DOI itself, the ability to retrieve descriptive metadata about DOI named objects and related services is an essential component of the DOI system. Metadata system is based on the <indecs>activity. <Indecs> is interoperability of data in e-commerce system. It is consistent with metadata systems such as ONIX and MPEG-21 RDD. The DOI mandates a minimum level of publicly available structured metadata, known as Kernel metadata, which serves a role similar to a telephone directory entry. The Kernel metadata include: 
+q Identifiers such as an ISBN 
+q Title a name by which the entity is known q Type (an abstract, a performance) q Mode visual, audio, and audio visual q Primary agent normally first-named creator 
+of the object 
+q Agent role—the role that the primary agent 
+played in creating the object. 
+4.3 Pol icy and Gov er nance 
+This feature is related to rules and mechanisms for implementation which achieve practical implementation in a similar way to ISBN, EAN/UCC codes, visa numbers,  etc., by means of a number of registration agencies which operate under the same rules  as an operational federation. 
+Added value services like use of multiple resolution (associating DOIs with several items of data); associating related pieces of intellectual property (versions, derivations, etc.); and use with other tools (e.g., open URL  
+DESIDOC  Bulletin of Inf Technol , 2004, 24(2) 
+
+========2========
+
+for contextual local use) may be built using DOI features. 
+5. AIMS OF DOI 
+DOI aims at providing:  
+q A persistent identifier of intellectual 
+property, and  
+q A mechanism to resolve that identifier to 
+some useful information or service. 
+Thus the aim of DOI is to be independent of specific applications - an identifier that can be freely used in many contexts and by many users. 
+6. DEFINITIONS 
+p Persistent Identifier 
+Persistent Identifier may be a ‘name’ provided by DOI for a resource or entity. This way an entity may directly be designated unlike URL used by the web for designating a location. This way DOI manages digital objects independent of location.  
+p Uniform Resource Names (URN) 
+Uniform Resource Names (URN) is global in scope not implying a location but has same  meaning throughout the world. The same URN can never be assigned to two different sources. This way it is globally unique forever.  It can easily be used for reference to a resource as long as that resource is there. One of the characteristics of URN is that it can be assigned to any resource that might be available on the network. General form of URN is: 
+Urn:nid:nss 
+In the above example nid represents a defined namespace identifier (e.g.), whereas nss stands for namespace-specific-string within that nid. Optionally, URN may include a  si (specific scheme identifier) e.g. 
+Urn:si:nid:nss 
+This way it moves from left to right in hierarchical naming structure. 
+Urn:doi:10.1000/123456789 
+One of the qualities of URN is that they can equally be applied to telephone numbers or ISBN numbers for books, etc. 
+DESIDOC  Bulletin of Inf Technol , 2004, 24(2) 
+p Uni form Re source Iden ti fier (URI) 
+The Internet Engineering Task Force (IETF) and World Wide Web Consortium (W3C) use another term known as Uniform Resource Identifier (URI). It is used for overall  scheme for standardising unique identifiers in designated name spaces. URIs encompass both URLs and URNs. DOIs are consistent with the requirements laid out for URNs and URIs. 
+p 
+Ref er ence Linking 
+Reference Linking is a mechanism that easily and accurately takes readers of electronic journals from one document into another. “CrossRef” is the most significant successful application of the DOI. An example is reference 36: 
+36. S.S.Magani, B.R.Leavitt, J.D.Macklis, Nature 405, 951 (2000) 
+   [CrossRef [ISI] Medline] 
+Behind the display text of “CrossRef” is the  URL:  
+http://www.sciencemag.org/cgi/external_ref?a ccess_num=10.1038/35016083&link_type=D OI 
+This link sends the DOI for the reference through the local High Wire System that resolves outgoing links and passes them to the DOI Proxy (http://dx.doi.org) 
+p DOI Dis played in Print 
+If a DOI is assigned to the electronic version of an article then it should also be included in the print version of that article. DOI system can be made transparent to the readers if it is given on the home page along with citation. For example, 
+Structural Biology of HIV 
+Pp 1-32 (doi:10.1006/jmbi.1998.2354) 
+Brian G. Turner, Michael F. Summers 
+In order to show users how to resolve a DOI, DOI can be followed by “available via http://dx.doi.org/” 
+p DOI Used in Citations 
+Though DOIs can not replace traditional bibliographic citations but can prove to be very useful if added in articles published online with volume, issue, and page numbers. 
+19 
+
+========3========
+
+“Cell biology: A cat cloned by nuclear transplantation” Nature AOP, Published online:14February2002, doi:10.1038/nature723 
+p DOI Sys tem- Open Stan dards 
+The DOI brings together two major fundamentals which ensure long term extensibility and interoperability of various types of intellectual property within various systems, wireless applications, broadcasting and Internet applications. 
+p Han dle  Sys  tem 
+The Handle System is a distributed, scalable system based on open protocols developed by the Centre for National Research Initiatives (CNRI) in the United States. It manages digital intellectual property as first class entities. Both the handle system resolution and the DOI metadata components are structured, consistent and manageable so  it is possible to apply DOIs to any content and  to develop further tools for content management. 
+p <indecs>Frame work 
+The <indecs> Framework is a broad multi-industry effort which defined principles for metadata and how existing metadata system can be mapped into a standard interoperable form. On an open standards basis, this frame work is currently being expanded to create <indecs> rdd, a Rights Data Dictionary for multimedia rights management, because unlike kernel metadata, rights data is transient and dynamic. 
+p DOI Sys tem-Standards Tracking 
+The DOI is one component of the fast developing technological infrastructure for the  management of intellectual property in the network environment. There are many different players involved in the development of that  infrastructure, ranging from technical organisations to the ‘content industries’ themselves. 
+§ WIPO (World Intellectual Property 
+Organisation) 
+§ 
+ISO (International Standards Organisation) 
+20 
+§ 
+§ § § § 
+NISO (National Information Standards Organisation) 
+IETF (Internet Engineering Task Force) W3C (World Wide Web Consortium) OeBF (Open eBook Forum) 
+MPEG21 (Moving Picture Experts Group) 
+6. FU TURE DE VEL OP MENTS 
+Though rapid developments are taking place in DOI but still much is needed to be done in this direction. There is a need to further improve the availability of information about the DOI, DOI manual and other supporting documentation. A basis for open application development can be provided by building further features compatible with the existing implementation such as metadata registration and devising mechanisms for local resolution, defined services, etc. It is important to ensure that emerging standards activities such as ISO, NISO, IETF, W3C, Dublin Core, and INDECS are aware of the DOI’s aims. Several issues such as services, metadata, registration agency requirements, user guidelines, implementations, future financial and operational basis are still to be dealt with if the DOI is to succeed. 
+REF ER ENCES 
+1. Atkins, Helen, et al.  Reference linking 
+with DOIs: A case study. D-Lib Magazine,  
+2000, 7(2). 
+[doi:10.1045/february2000-risher] 2. DOI Handbook  
+[www.doi.org/handbook/] 
+3. IETF Network Working Group. Uniform 
+resource identifiers (URI): Generic 
+syntax. August 1998. 
+4. IETF URN Working Group. Uniform 
+resource names (URN). [Modified 31 July  
+2001, concluded 22 October 2002]. 5. Paskin, Norman. DOI: A 2003 progress 
+report. D-Lib Magazine, June 2003, 9(6). 
+[doi;10.1045/june2003-paskin] [a 
+summary of DOI progress as of 
+mid-2003]. 
+6. Paskin, Norman. Toward unique 
+identifiers.  Proceedings of the IEEE, 
+1999, 87 (7), 1208-27. 
+DESIDOC  Bulletin of Inf Technol , 2004, 24(2) 
+
+========4========
+
+7. 
+8. 
+9. 
+Payette, Sandra; Blanchi, Christophe; Lazoze, Carl & Overly, Edward. Interoperability for digital objects and Repositories, D-Lib Magazine, May 1999,  5(5). 
+[doi:10.1045/may99-payette]. 
+Rey, Catherine A. A system for persistent  names. Web Techniques, June 2001. Rust, Godfrey & Bide, Maek. <indecs> Summary Final Report. 2000. 
+ Contributor: 
+10. Sid Man, David. Digital object identifiers: 
+Not just for publishers.  MS Watch, 31 
+March 2002. 
+11. Sun, Sam & Lannom, Larry. Handle 
+system overview. CNRI, July 2003. 12. Sun, Sam X. Establishing persistent 
+identity using the handle system. Tenth 
+International World Wide Web 
+Conference, Hong Kong, May 2001. 13. Warlock, David. DOI: Starting a new 
+generation. Reproduced from EPS 
+Update, 8 May 2003. 
+Dr. Rochna Srivastava, Commonwealth Fellow, Department of Information Science, Loughborough University, Leicestershire LE11 3TU UK. e-mail: rochna1@rediffmail.com 
+DESIDOC  Bulletin of Inf Technol , 2004, 24(2) 
+21 
+
+========5========
+

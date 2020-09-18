@@ -1,0 +1,316 @@
+DESIDOC  Bulletin of Information Technology , Vol. 26, No. 1, January 2006, pp. 3-16 
+© 2006, DESIDOC 
+Virtual Walkthrough  System for Library 
+Sumit Goswami, Hemu Agrawal, Ashok Kumar, SC Saxena, Dr Mohinder  Singh 
+Abstract 
+The world wide web infrastructure has brought a revolutionary change in the organisation and presentation of information. Such a change resulted in the concept of virtual libraries. Of the numerous virtual library applications, we envision a virtual walkthrough  application. Here, a user, with access to the internet  or  intranet, can explore a specific place of interest without having to travel physically. The place of interest is modelled as a virtual world, containing a  
+vast number of virtual objects. 
+This paper describes the two modules of our project 'virtual walkthrough  for Defence Science Library': (a) Module 1—General Browsing, provides the user with the interface to view the virtual tour of the DSL  that allows users to visit the library and its services virtually through the web and (b) Module 2—Guided Tour, complements the text-based search of the user for the books with an extended multimedia interface for retrieval of books in the library. 
+1. INTRODUCTION 
+Virtual  walkthrough  can be useful in libraries, galleries, museums, educational institutions, visitor information booths, or in short any location where simple, easy, access  to information is desirable. This technology can be used to provide an interactive virtual tour of any library and information services organisation like Defence Science Library (DSL) of Defence Scientific Information and Documentation Centre (DESIDOC) which has  a preponderance of collections of journals, monographs, technical reports, patents, standards and specifications, etc., in major disciplines like aerospace, lasers, rockets, missiles, electronics, and computer science which are of interest to the DRDO  scientists and other users. 
+At present, if a user desires to refer a book  or wants to get a book issued, he/she has to first find the availability of that book in the library using  Online Public Access Catalogue 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(1) 
+(OPAC), thereby finding the class number/call  number of the printed document.With this class number the user has to first reach the specific floor (if known), then go through every rack on that floor and ultimately on a particular shelf he/she can find the book. This  method is very time consuming. Besides, if the user is not well conversant with the class number scheme then he/she has to seek help  from the library staff, which may consume his useful time. 
+A solution to this problem is a virtual walkthrough  system integrated with OPAC that guides the user in a visual manner by using the library images and movie clips, thereby assisting him/her in locating the book easily. 
+Another module provides the user with an OPAC  independent virtual walkthrough interface meant for general browsing of any library. 
+3 
+
+========1========
+
+1.1  Virtual Reality 
+“A computer system used to create an artificial world in which the user has the impression of being in that world with the ability to navigate through it and manipulate objects in that world”: defines the preliminaries of Virtual Reality (VR). VR can be seen as a way for humans to visualize, manipulate and interact with computers and extremely complex data. The visualization part refers to a computer generating visual, auditory or other sensual outputs to the user of a world within the computer. Applications developed for  VR run a wide spectrum, from games to architectural and business planning.  Different people use the term 'Virtual Reality' with different meanings. There are some people to whom VR is a specific collection of technologies, which is a head mounted display, glove input device, and audio. Some people stretch the term to include conventional books, movies or pure fantasy and imagination. The term is also used for applications that are not fully immersive. The boundaries are becoming blurred, but all variations of VR will be important in the future.  This includes mouse-controlled navigation through a three-dimensional environment on a computer monitor, stereo viewing from the monitor via stereo glasses, stereo projection systems, and others. As the technologies of VR evolve, the applications of VR become literally unlimited. It is assumed that VR reshapes the interface between people and information technology by offering new ways for the communication of information, the visualisation of processes, and the creative expression of ideas.   
+1.2  Virtual Tours/Walkthrough 
+Two-dimensional photography is now a thing of the past! A virtual tour is a series of videos that are played in a sequence and that  provide a complete field of view to the user. The users can navigate through the video by simply using their mouse. By clicking on ‘hot spots’ embedded in the video or on an interactive floor plan, the user can move around the virtual space from one location to another. 
+4 
+Virtual tours are better than video tours, which some companies currently offer. A video tour, though it provides background music, running commentary and takes the user through the property, it doesn’t give the user any control over the direction of the tour, and rushes the user through the property. Virtual tours are completely user interactive that means that user can control the tour. He can take the tour at his own pace and can stop in each room and have a good look around. He can choose where to go and can return to any room in the tour at any time. The  files are picked up as requested by the user by clicking on the 'hot spots'. The videos can be hyperlinked  through the  Macromedia  Flash  player which offers a round-about view of the video, continuously looping through it. 1.2.1  User Interface Requirements  
+The user interface for a virtual environment needs to be carefully designed to take into account the functional requirements of the application and limitations  of current technology. Following questions are  to be considered while developing a virtual walkthrough  system: 
+q How should the user interact with virtual 
+environment?  
+q 
+How should computer provide feedback?  q What symbols and metaphors can be used 
+to improve the user interface?  
+q 
+What is the most meaningful way to 
+visualize an   abstract 
+object/process/structure?  
+q What does cyberspace (internet/intranet) 
+look like?  
+q How do we improve navigational and spatial  
+awareness? 
+1.2.2 Technology Requirements q 
+Hardware capable of rendering real-time 3D  
+graphics and high-quality stereo sound. q Input devices to sense user interaction and 
+motion. 
+q Output devices to replace user’s sensory 
+input from the physical world with 
+computer-generated input. 
+q Software that handles real-time input/output  
+processing, rendering, simulation, and 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(1) 
+
+========2========
+
+access to the world database in which the 
+environment is defined.  
+1.2.3  Hardware Technology 
+q More realistic graphics and audio  q Greater processor power 
+q Less lag in case of large numbers of users 
+simultaneously using the system  q Less obstructive input/output devices q Better display technology. 
+2. CONCEPT OF VIRTUAL 
+WALKTHROUGH  FOR  DSL 
+The virtual walkthrough  system for  DSL culminates in a web-based technology that provides a computerized solution to the need of exploring the information contained in the DSL  without taking the help of library staff. The system operates electronically all by itself  and helps the user, standing otherwise in a manual system, to browse the DSL  simply by using the virtual walkthrough  software. 
+The proposed system provides better information dissemination services together with knowledge-based methods of information  searching. It delivers complete information to the user about the location of content in  DSL within a fraction of second. The user can then  easily acquire the content of his/her choice. It provides a virtual video path generation to complement the search of each book or printed matter, which enables the user in reaching his/her destination without wasting any time. And if the users are not well conversant with the library structure, the library virtual tour using hyperlinked interactive videos acquaint them with every nook and corner of the library. This virtual tour  for general browsing gives the user an enhanced view of the entire library without having to actually move throughout the entire physical space of library. As the user has full control over the view they can move about the  virtual space according to their convenience and requirement and hence this facility would encourage visitors to visit the library more often while not actually burdening the library staff. The library staff then can be available for other substantial works. However, one of the disadvantages to the end users would be 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(1) 
+that they would be restricted from actually browsing a book and surfing its contents as they could in reality.  
+In short, the proposed canonical form of the solution transparently provides the advantages of: (a) modelling users’ inherent browsing behaviour as a spatial and visual mode of searching the library and; (b) capabilities of virtual walkthrough  software to build a virtual library world from the data sent across a network. 
+2.1 Objective of the Virtual 
+Walkthrough  System for  DSL 
+The two main objectives that the system fulfills are:  
+q This  system provides interactive virtual tour  
+to the users of DSL. A  virtual tour is a series 
+of Flash videos that are interlinked with 
+each other through hot spots provided on 
+appropriate frames of the videos, which 
+enable the user to get completely immersed  
+in the video. The user can easily move from 
+one location to another according to his/her 
+choice just by clicking on the hot spots, thus 
+providing him or her a complete virtual 
+experience as if he/she is actually present 
+over there. Virtual tours can be viewed from 
+any location in the world without any time or 
+place constraints. Users can view the library  
+and its services together at a leisurely pace. q This system complements the text-based 
+search for books using OPAC  software, by 
+adding a new multimedia interface. This 
+interface enables the users to retrieve the 
+visual location of their required books in the 
+library within no time by making use of the 
+directed virtual video tours. The path of the 
+book is searched during run-time which is 
+based on the search criteria entered by the 
+user and the sequence of appropriate video 
+files is played back one after the other and 
+hence leading the user to the exact location 
+of the book. 
+2.2  Advantages of the Virtual 
+Walkthrough  System 
+The advantages of the proposed candidate system are as follows:  
+5 
+
+========3========
+
+q 
+q 
+q 
+q 
+q 
+Technical development - The virtual walkthrough  system ensures a big leap ahead on the technical front. The technology developed can be used for virtual modelling of any system/object/location by integrating an image database with effective content- based image retrieval system. The present system would be used to provide virtual tour to the users of the DSL  by means of: m 
+Featured expansion of OPAC  (with 
+graphical/multimedia interface) m Complete virtual tour software of DSL This technology relieves the library personnel of less important but time consuming tasks, making them more available for more substantial work. It increases the productivity and promptness of the library staff to cater to the informational needs of users across different floors of the library.  
+Virtual  walkthrough  guides the user in  a visual manner using the library images and videos. The user, thus has an accurate instant access to information/books in the library. Besides, it helps new users in browsing all general information of DSL This system supports the maintenance of DSL  and thus saves the precious time of both, the library staff as well as the users.  
+3.  SYSTEM DESIGN 
+The system provides a web-based application responding to the access by multiple users. The virtual tour user-interface is available on all the client computers connected to the local intranet  and the data is  retrieved from the centralised database maintained on the server. In between the two,  the application server handles the requests from the client, process the request on database server and sends the data back to the client as a response object.  
+System has been basically partitioned into two modules: (1) Virtual tour is for general browsing and (2) Guided virtual tour for leading the user to the location of the book. Further the design of these modules is also carried out in a modular fashion according to the different functions they are going to 
+6 
+perform. This have the advantage of seamless integration of different modules in the end, which lead to a complete 'web-based  virtual walkthrough' system. 
+3.1 Module 1—General Browsing 
+This module for general browsing provides  the user with the interface to view the virtual tour of the DSL. The user controls this virtual tour and the videos are played one after the other as requested by him/her, this means it is a type of controlled browsing or undirected browsing in which the destination location where the user wishes to go is not known. Hence the module has been designed in such  a way that it supports the random moving behaviour of the user.  
+r Linking of Different Videos 
+The various videos are linked through hot spots in the video file at the specific locations which are identified by careful examination of the library structure. These specific areas are referred to as 'Target Locations'. These target locations in the video file are anchored to other files to lead the user to a complete diversified view of that location. In a sense it provides behind-the-scene view of the target location. The software used for this is Macromedia  Flash Player MX (version 6). With the aid of this flexible software, the individual frames of a video can be edited, selected, manipulated, and linked through hot  spots easily. The frame rate at which the videos are played back can also be adjusted. While importing (figure 1), various attributes or properties can be set so that the flash file is obtained with the required settings. The attributes that can be manipulated include quality, key frame interval, scale and synchronization with the frame rate. Frame by  frame editing of the video can give the desired results. 
+The hot-spots should be embedded in the *.fla  file at the target locations by editing the frames. The file should be handled in layers, which prevent the different functions/hot-spots/actions embedded, to interfere with each other. This layering is important so that a clearly defined boundary exists between the different overlapping 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(1) 
+
+========4========
+
+scenes that play simultaneously, though in different time intervals. The layers should be locked when they are not edited in order to keep them from affecting each other. The main layer contains the frames of the actual video. Target locations need to be identified from the video frames and correspondingly the hot-spots need to be embedded in those locations. As stated earlier, a separate layer named, say, links is added on top of the main video layer. Then the hot-spots can be inserted in the specific forms where in the target locations are visible and the other frames can be deleted by inserting key frames. The insertion of these hot-spots is 
+Fig 1. Importing video in Macromedia  Flash 
+possible through embedded objects such as symbols which can be programmatically anchored to the next video file in sequence to be played. This link is provided in terms of a relative path of the files that play the next video file in sequence. The programming is carried through action script programming language available within the Flash MX software. The hyperlink works on the click event of the button by default. Special care has been taken in selecting the frames on the  timeline  wherein the links are to be inserted. 
+r Adding Interactivity 
+As mentioned this module supports the random browsing nature of the user which can be only possible if the user is provided with the facility of enough interaction with the video files being played. Hence, for this purpose the buttons for controlling the videos are also embedded and relevant 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(1) 
+programming is done for them. These include buttons for playing, pausing stopping, forwarding and rewinding. Programming for these also needs to be carried out through action script language. This provides the user  with an interactive virtual tour. As shown in the figure 2, the coding can be done in Flash through Action Script. 
+The programming mode used in this system is normal mode instead of expert mode which is for high-end users. As is shown in the figure 3, the encircled area can be clicked and then appropriate actions can be attached to it through programming by specifying the URL. 
+r Publishing Files for Virtual Tour 
+The work is saved as *.fla  file and then it is  published. The file can even be tested before publishing. Publish settings can be changed if  required. Publishing the *.fla  file makes  a *.swf  file and the corresponding *.html file. The code for playing this flash video in the browser can be extracted from the *.html file that was correspondingly made. This code plays the *.swf  file in the browser. The different videos need to be carefully edited identifying the target locations that require the  diversified view, correspondingly identifying the frames where the target area lies, inserting button symbols at the appropriate locations, and then programming for them for providing linking. The publish settings can also control the looping behaviour of the video, its quality can be adjusted, the size of the stage can also be manipulated. Password  protection, formats, scale, alignment, etc., can  
+Fig 2. Coding through Action Script 
+7 
+
+========5========
+
+Fig 3. Hot spot creation 
+be adjusted. Figure 4 shows the publishing settings of *.fla  file. 
+3.2  Module 2—Guided Tour 
+This module complements the text-based search of the user for the books with an extended multimedia interface. No special input is required from the user for its running. It is the user’s wish to see the virtual tour or not. The structure is simple. As usual the user  enters the search criteria for the book, based on which he/she gets the results. When the user sees the details of the book, a link for the  virtual  walkthrough  is provided over there. Clicking on the link leads the user to the virtual walkthrough  of the path leading to the location of the book. The location information of the book is picked up from the location database based on the class number of the book retrieved from the OPAC  database. Hence this module is integrated with the OPAC  database for retrieval of the class 
+Fig 4. Publishing settings 
+8 
+number. Once the location attributes are picked up from the database, the appropriate videos are searched from the video library based on those. Then these videos are played one after the other leading to the exact  location of the book. Now this module can also be further disintegrated into finer modules according to the functions to be performed. These are: 
+q Understanding of the arrangements of the 
+books in the library 
+q Location database design 
+q 
+Software for the  content-based video 
+retrieval (CBVR) system 
+q Location database administration q Capturing of the videos of the library q Integration of the CBVR  system with the 
+OPAC  database. 
+r Arrangement of Books in DSL 
+The books are arranged in shelves of the racks. The racks are arranged in rack rows, which are arranged in a hall on each floor. Figure 5 shows the schematic description of the arrangement of books in the library and figure 6 shows the structure for three floors of the DSL. 
+r Location Database Design 
+After understanding the arrangement of the books in the library, it is clearly understood that the location attributes to be taken into consideration include the floor no., the rack row no., and the rack no. All these location attributes are also displayed during 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(1) 
+
+========6========
+
+the guided tour. The key idea in mind while designing the database was that the information in it should be easy to extract so that the exact location can be retrieved. For this purpose another attribute that was taken into the database was that of the general class number representing the collection of books in a single rack row. Based on this value being matched with the class number retrieved from the OPAC  database, the location attributes was retrieved from the database and passed on to the CBVR  system  to retrieve the videos corresponding to the 
+location attributes. Figure 7 shows Location database schema. 
+Record Class Floor Rack  Rack ID No. Row Fig 7. Location database schema 
+The number of entries in the database is very less compared to the number of books in  the library. One to many mapping exist from the Location database and OPAC  database. This is because the class number field in the database is the general one representing a range of books located in a single rack row. 
+Fig 5. Schematic description of the arrangement of books in the library 
+Hea d DSL 
+Fig 6. Library structure for three floors 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(1) 
+Digitizatio n Room 
+Ne w Arrivasl 
+J AB 
+CDR 
+Lift 
+E ntra nce 
+Circ. co unt er 
+Series P ub. Roo m 
+AAccqq 
+uuisisiittiioonn 
+9 
+
+========7========
+
+Hence the size of the database is comparatively very small. Now the values contained in the Class Number field may include the following characters: 
+A-Z, a-z, 0-9, @, :, /, (, ), =, +, *,  
+Hence the data type of this field is text in MS Access to allow it to include all the characters. Floor value and rack row field are declared as numeric as they contain valid values only if they are numbers without any special characters or alphabets. Record ID field was also declared as numeric. It is just used to keep a record of the number of entries. Rack number field was declared as text because books with class number in a certain range may be located in two or more racks. So this has to be clearly represented by including a hyphen sign (-). Figure 8 shows  the location database design. 
+record_id class_no Floor 
+Numeric Text Numeric 
+Rack_row Rack 
+Numeric Text 
+Fig 8. Location database design 
+r Software for Content Based Video 
+Retrieval 
+The software for CBVR  has the main functionality of retrieving the appropriate videos from the video library based on the values extracted from the location database after matching the class number value with the value retrieved from the OPAC  database. Hence the information flow can be explained as class number taken from OPAC  database sent to the program module for finding corresponding match from the location database and retrieving the location attributes, then passing these on to the program module which will retrieve the videos  in a sequence from the video library. Then this sequence of videos is passed on to the program module for playing them one after the other and thus leading to the exact rack row where the book is located. Hence two 
+10 
+databases are used in this viz. Location and OPAC.  
+The information retrieved is processed in three different program modules having completely different functionality, these are: (a) Checking in succession the availability of the class number retrieved from the OPAC  in the Location database by slicing it after each failed match; (b) Picking up the videos from the video library in a sequence based on the values retrieved from the location database; and (c) Playing the videos one after the other in a sequence so that the exact path is shown  to the user.  
+Figure 9 shows the block diagram representation of CBVR  system. 
+r Location Database Administration 
+The location database has to be updated whenever any changes will be made in the arrangement of the books in the library; or range of books is added that may lead to the addition of new rack row, etc. This requires the authority to perform all the database operations be provided to the administrator who would be a member of the library staff. He/she has the administrator rights to accomplish all the necessary changes in the database and no one else will be able to modify the database. The forms have been developed for this purpose which includes interfaces for insertion, updation, deletion and  viewing. The regular updation  of this database is necessary so that correct location  attributes can be extracted from the database. 
+Figures 10, 11, and 12 show the database administration module of the system. 
+r Capturing of the Videos 
+The videos of the DSL  have been captured  and integrated with both the modules to complete the project of web-based virtual walkthrough  system. A big collection of library  videos is required for the virtual tour. For this purpose latest videos of library have been captured. The location of the books will be described in terms of the location attributes like floor 1, rack row 5, rack 212 and the graphic display of the videos. Further, in order  to facilitate the streamlined retrieval of the 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(1) 
+
+========8========
+
+Fig 9. Block diagram representation of CBVR  s ystem 
+library videos from the video library and to reflect the random nature of user movement (turning left, right, front or back from a point), a definite strategy has been followed. For this purpose, the way in which the library videos are integrated stands as a very crucial factor. The central theme of this strategy is to divide the video clips of the library into as many smallest, standalone clips, as can be best used for 'random way finding'. Further hot spots are provided linking videos with each other so that user’s random moving behaviour  is completely supported. The videos are shot such that minimal amount of redundancy is there in the locations' shot.  
+These video files are arranged in a video library according to their precedence in the path being generated. For example, as the entry into the library is from 2nd floor, the video file for the 2nd floor will be common for each location. Hence it is placed in a common  folder along with the sub-folders for floor1, floor2, floor3 and floor4. Further the videos for  
+DESIDOC  Bulletin of Inf Technol , 2006, 26(1) 
+reaching the first floor is also common for the books arranged in first floor, so that video is placed in the folder for floor1 along with the folders for different rack rows arranged on that floor. Similarly, the videos for reaching the individual rack rows can be placed in their  folders. This creates a hierarchy and from this  video library it is very easy to retrieve the correct videos using our second program as stated in the software for CBVR  system section. Properly placing the files in their respective folders is very critical as the algorithm for retrieving the video files is based  on this hierarchical file structure. 
+The virtual path that is generated for the book searched cover the videos from the library entrance to the appropriate floor, then to the appropriate rack row. The particular rack containing the book will not be included in the video shoot. So the user can just be shown the location of the specific rack row wherein the book is located rather than getting into the details of the ever-changing 
+11 
+
+========9========
+
+Fig 10.  Database administration module 
+Fig 12. Delete pages 
+shelf or rack position for the book. This makes  the things much simpler to handle and of course the user can locate the book easily once the rack row location is known. In fact if the location of the book in the specific racks is  taken into account and any user carelessly changes its place from one rack to another then the virtual user viewing the video tour may be misled. So to avoid this scenario and make the things simpler to handle we have omitted the rack location from the video tour. But this concept can be implemented in future  version. 
+r 
+Video Library Structure 
+The video library is just a combination of folders and sub-folders. The common videos are placed in the main folders according to hierarchy and the specific videos are played in the corresponding sub-folders. For example, the main entrance video is common to all the virtual paths and is thus top-most in the hierarchy. It is contained in the main folder  videos_mod2. This folder also contains the sub-folders for each floor. And the folder for 
+12 
+Fig 11. View pages 
+each floor contains the common video file for that floor plus the sub-folders for each rack row. Finally, the rack row contains the final video file leading to that row. The video library  is scanned for picking up the correct video files on the basis of the location attributes extracted from the location database. These folders are recursively searched according to the hierarchy in which they are arranged and the video files are picked up simultaneously. 
+4.  USER INTERFACE DESIGN 
+The user interface design of this system holds great significance because this is going to provide the end user with a virtually enhanced view of the text-based search thus complementing in an efficient manner. Also justification must be done to the resources viz. the video files, and the large memory required for this system. Main user interfaces have to be developed for the independent virtual tour of the DSL, the guided tour of the virtual path that complements the text-based search, and for the location database administration. The main notion to be kept in 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(1) 
+
+========10========
+
+mind is that the user interfaces designed should be simple to use. The user interactivity  and satisfaction should be given top priority. Only if the interfaces are easy to use and the user gets pleasure in viewing and using them,  the user is attracted to comeback again and again to that. The different interfaces are kept  consistent with each other. This is because the uniformity and consistency in the user interface design lets the user get well acquainted with it and can use the interface with much ease. For this reason the interfaces for the guided virtual tour and the independent virtual tour have been kept almost same. With these things in mind, the following user interfaces have been designed,  as shown in figures 13, 14, 15 and 16. Mainly these include: welcome home page, search page, interface for independent virtual tour, interface for guided tour. 
+5. OBSERVATIONS/EXPERIENCES 
+The virtual walkthrough  system developed for the DSL  is a second attempt towards building a virtual library system. The system is  developed with a vision of providing a digital library application through an interactive virtual  walkthrough  system to the users of DSL  on the  intranet  throughout the country. The system will allow the user to experience the presence in a virtual environment, allow him/her to access the virtual objects, hence providing a useful interaction. The current system is developed using flash videos carved out from the  mpeg  videos instead of panoramas as was used in the first attempt for the project.  
+To customize this system at another location we have to follow some steps like during the shooting the videos care must be taken to keep the duration of the videos approximately same. This will enable the videos to be played uniformly without interfering with each other. The flash videos for the guided tour module are not bulky and can be rendered on the client system within an acceptable response time but the ones for the general browsing module is bit bulky and will take time to download on the client system. The videos shot will be retrieved from  the video library by recursively searching for 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(1) 
+the flash files corresponding to the location attributes retrieved from the database. The files are searched based on their names. This  is a convenience and a constraint also. Convenience in the sense that the video files can be named as per the location they depict and hence enabling the developer to easily identify the files for modifications in future and  a constraint also exists while naming when any mistakes occur during the naming scheme.  
+The virtual objects in the virtual environment should be modelled effectively to  keep the size of the videos under control and hence to reduce the storage space requirement and the time required to transfer the objects from the server to a client under the constraints of intranet  bandwidth.  A compact modelling of virtual objects also has the benefit of fast retrieval from secondary storage both at the server and at the client. With the limited bandwidth of the  intranet, we need to reduce the amount of data requested over the network for faster response time.  
+Caching of the bulky flash videos on the client side will reduce the dependency on the network and thus, could reduce the response time. This can be done by using the client’s memory and the local storage to cache the objects that are likely to be visible in the near future. A good caching mechanism can retain objects with high affinity and predict those which will most likely be used in the near future. If a client can provide unbounded disk storage and can tolerate a possibly very long pre-loading time, we could transmit all virtual objects to the client before starting the walkthrough.  
+However, a more realistic situation is that the available storage for caching and the available pre-loading time are limited. A cache replacement policy must be employed to retain only frequently accessed objects for best performance. 
+The  intranet  often suffers from various degrees of disconnection. For instance, it is not uncommon that data transfer is stalled due to various loading reasons. A very slow network is almost equivalent to disconnection in this respect. A caching mechanism that 
+13 
+
+========11========
+
+allows objects to be cached with at least their minimum resolution will be useful to provide at least a coarse view of the objects to the viewer. One step in this direction can be to allow streaming of those video files on the client side, which are being displayed during the video tours; instead of first downloading the complete  clips on the client and then displaying them. Once again, the local storage cache of a client can be used to provide partial information to support a certain  degree of disconnected operation. For example a viewer may still be able to see a coarse resolution of objects in the virtual world if the minimal approximated models of the objects are cached. The software required  for playing the flash videos on the client side is  Macromedia  Flash Player. To view the virtual tour this software is required and to download this one can use the internet  or it can be provided on the intranet  server. 
+Figure 13.  Welcome Page 
+Fig 15. OPAC 
+14 
+6. FUTURE SCOPE 
+High technology products promise to revolutionise something or other in the DSL but what are needed are solutions to existing or future challenges. Finding these solutions is the focus of the project 'Virtual Walkthrough for DSL'. Committed to helping the user solve the challenges facing the library, Virtual walkthrough  for  DSL  presently provides the novice user firstly with the facility of independently touring the library thus allowing  the initiative of a search to be rested with the user, rather than the system. Secondly, the system provides the user the location of the required book in terms of the rack number in the rack row it is placed in and the floor number it is placed at. This location information is coupled with a visual guided tour of reaching this destination. 
+Fig 14. Virtual walkthrough  page (Module1) 
+Fig 16.  Detail page showing link for virtual 
+              walkthrough 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(1) 
+
+========12========
+
+The future scope of the project lies in: currently the user is being provided with guided tour up to the rack row, we can extend  the video tours by also covering the rack within that rack row, which would give the user a precise idea of the location of the book. Another recommendation is allowing the user to search a book and before reaching its location, explore the contents of the book so as to make himself sure that this is exactly the book required by him. Here lies the scope of integrating virtual  walkthrough with e-books modules of the library, which can  provide this service of browsing the contents of books the user is interested in. With virtual walkthrough  being one among the several steps in the direction of automation of DSL, its  concept can be further extended for making operations of library much simpler in which staff will receive materials that can be easily sorted by using RF system. Shelves will be instantly scanned into proper order. Collections will be actively managed to quickly meet changing demands. Users will be able to check materials in and out by themselves and find what they want almost instantly. All of this will leave library staff with more time to give users the personal attention  so many of them need, to plan and launch promotional and educational activities for their  library, and to keep up with the avalanche of new information and materials being created every day.  
+Virtual walkthrough  system for  DSL  being developed is based on the VR. In practice, VR systems are implemented through virtual reality modelling language (VRML ). It is the current standard for specifying, viewing, manipulating, exploring virtual worlds and 3D graphics on the internet. Using  VRML  it is possible to create a network of linked virtual worlds which can be traversed and explored much in the same way we explore a normal HTML page through the use of  hyperlinks. Basically,  VRML  is not a programming language as such; it is a scene description language and deals with statically describing all the objects and the attributes which make up a 3D scene. VRML  supports dynamic features, scripting and complex user interaction by allowing an interface to either 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(1) 
+JavaScript  or VRML  Script code (both practically identical). So, one can use VRML to define the 3D VRML  world, then either JavaScript  or  VRML  Script to control how the world behaves or how it reacts to the user’s interactions. Hence,  a real implementation of digital library based on VR can be implemented through VRML  in which each of the objects in the virtual environment like books, rooms, doors, stairs, rack rows, racks, even the user, etc., are modelled graphically.  
+ACKNOWLEDGEMENT 
+Our special thanks to the under mentioned  students and their colleges who worked in this  project: Ms Manmeet Kaur, B.Tech (IT), GNDEC, Ludhiana; Sh. Vinay  Kumar, B.Tech (CSE), NIT Jalandhar; Ms. Alka Tyagi, MCA, SRMIMT Gaziabad; Ms. Swati Diwan, MCA, Panjab University, Chandigarh. 
+A special thanks to Multimedia Division of DESIDOC, specifically to Ms.  Vinod Kumari, Head of the Division along with her team for this project comprising of Sh  RK Bhatnagar and Sh SK Sinha  for supporting the videography  of the library. 
+REFERENCES 
+1. Dahlberg,  Ingetraut. Major developments 
+in classifications. Advances in 
+librarianship, 7, 42-103. 
+2.  Potter, William Gray. Access to electronic  
+information: Exploring the options. 
+Advances in librarianship, 17, 61-77. 3.  Small, Margaret. Virtual universities and 
+their libraries.  Advances in librarianship, 
+21, 25-46. 
+4. Terry, James L. Automated library 
+systems: A history of constraints and 
+opportunities.  Advances in librarianship, 
+22, 21-38. 
+5. Doll, Carol A. Audio-visual materials and 
+programming for children. Encyclopaedia  
+of Library & Information Science, V. 56, 
+pp. 29-43. 
+6. Sieverts, Eric G. End user software. 
+Encyclopaedia of Library & Information 
+Science, V. 57, pp. 154-75. 
+15 
+
+========13========
+
+7. 
+8. 
+9. 
+Yee, Martha M. &  Layme, Sara Shatford. Online Public Access Catalogue, Encyclopaedia of Library & Information Science, V. 58, pp. 149-238. 
+Barker, Philip. Electronic libraries of the future.  Encyclopaedia of Library & Information Science, V. 59, pp. 119-53. Reiterer,  Harald. Users interface evaluation.  Encyclopaedia of Library & Information Science, V. 60 supp 23, pp. 364-84. 
+ Contributors: 
+10. Denning, Rebecca & Smith, Philip J. 
+Techniques to increase system usability: 
+Interface design concepts in ELSA, an 
+electronic library search assistant. 
+Encyclopaedia of Library & Information 
+Science, V. 63, pp. 312-23. 
+11. Goswami,  Sumit  & Kumar, Ashok. Web 
+based technology for email and virtual 
+walkthrough.  DRDO  Science Spectrum, 
+2003, pp. 75-90. 
+Sh Sumit Goswami,  Sc 'C', Defence Scientific Information and Documentation  Centre (DESIDOC), Metcalfe House, Delhi - 110 054 
+Sh Hemu Agrawal, STA  'B',  DESIDOC, Metcalfe House, Delhi - 110 054 Sh Ashok Kumar, Sc 'F',  DESIDOC, Metcalfe House, Delhi - 110 054 Sh SC Saxena, Sc 'D', DESIDOC, Metcalfe House, Delhi - 110 054 
+Dr Mohinder  Singh,  Director,  DESIDOC, Metcalfe House, Delhi - 110 054 
+16 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(1) 
+
+========14========
+

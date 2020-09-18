@@ -1,0 +1,343 @@
+DESIDOC  Bulletin of Information Technology , Vol. 26, No. 2, March 2006, pp. 41-47 
+© 2006, DESIDOC 
+From Card Catalogue to Web OPACs 
+Rashid Husain & Mehtab Alam Ansari 
+Abstract 
+The Online Public Access Catalogue (OPAC) changed the traditional card catalogue system. In the new system, data can be spread within computer and then the required entry can be retrieved immediately through OPAC system in any format. Now, user can search for information via OPAC and most recently, 
+the internet.  
+This paper describes what is OPAC, discusses about the OPACs & Web OPACs technology in libraries and explains various features, applications and 
+advantages of Web OPACs. 
+1. INTRODUCTION 
+Gone are the days of searching through endless drawers of the card catalogue, trying to perform cross-references on a topic through different subject-headings typed on index cards. Information technology changed the entire environment of the library including resources, techniques, services, etc. OPAC (Online Public Access Catalogue) changed the traditional card catalogue system. In the new system, data can be spread within computer and then the required entry can be retrieved immediately through OPAC system in any format. Now, user can search for information via OPAC and most recently, the internet. Keyword searching and Boolean operators have made this feat even easier to find relevant information according to our needs. 
+2. OBJECTIVE 
+Nowadays information technology changed the whole library services. In this paper an attempt has been made to discuss about the OPACs & Web OPACs technology in libraries and try to explain various features, applications and advantages of Web OPACs. 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(2) 
+2.1 
+What is OPAC? 
+OPAC stands for Online Public Access Catalogue. An OPAC contains all the bibliographic information of an information centre or we can say it is a gateway to information centre‘s collection. OPAC is the modern and flexible form of the catalogue, usually instantaneous and sophisticated access to any recorded information within a computer. Online Dictionary for Library and Information Science (ODLIS) defines OPAC as, “An acronym for online public access catalog, a database composed of bibliographic records describing the books and other materials owned by a library or library system, accessible via public terminals  or workstations usually concentrated near the reference desk to make it easy for users to request the assistance of a trained reference librarian. Most online catalogs are searchable by author, title, subject, and keywords and allow users to print, download, or export records to an e-mail account.”1 
+SIRSI: Glossary of terms defines OPAC as, “A computer workstation used to search a library's catalogue. OPAC can refer to either the actual workstation in the library, or to the 
+41 
+
+========1========
+
+interface provided by the library that is accessible from anywhere”2. 
+ALA Glossary defines OPAC as, "A Computer based and supported library catalog (bibliographic database) designed to be accessed via terminals so that library users may directly and effectively search for and retrieve bibliographic records within the assistance of a human intermediary such as a  specially trained member of the library staff.”3 
+2.2 Card Catalogue Vs OPAC 
+There are many big differences between the OPAC and the card catalogue:  
+Users have more access points with the OPAC in comparison to the card catalog, e.g.,  standard numbers like ISBN and ISSN; keywords, etc. Almost every single part of the bibliographic record is accessible through keyword searching; this capability helps users  find data contained in notes, including contents notes. Right now, most OPACs provide Author, Title, Author/Title, Subject Heading, Call Numbers, ISBN, ISSN and Keywords, etc., access points. 
+A number of academic libraries' OPACs also provide other access points, e.g., government document numbers, music numbers, reserved book lists by courses or by  instructors, etc.  
+Users can broaden up or narrow down their search through use of Boolean operators  OR, AND, and NOT in the OPACs. They also can limit search results by language, date of publication and type of document but these facilities are not available in card catalogue.4 
+In brief, OPACs provide users with many more means of searching and accessing information in various formats than the traditional card catalogues. With OPACs, for 
+the first time in the history of libraries, users can interact with the catalogues; alter search methods and information displays in order to optimize search results, based on their own information needs. The OPAC-user interface design is of utmost importance since it can have a decisive influence on the relationships  between the OPAC and its users.  
+2.3 What is Web OPAC 
+Web OPAC is an OPAC, which is provided  on the web and with the help of internet anybody can access it from anywhere. According to Washington University in St. Louis, “A Web OPAC interfaces, which uses the World Wide Web protocol to act as an OPAC.” 5 
+According to ODLIS, “An Online Public Access Catalogue (OPAC) that uses a graphical user interface (GUI) accessible via the World Wide Web, as opposed to a text based interface accessible via telnet." 
+Web OPAC is an independent program designed separately from the library program.  It is programmed to facilitate members to access the OPAC, through their own search, for the ease of borrowing, instead of searching through the card catalogue. In addition members can also request for the information about borrowing, reservation, etc. related to their own library profile, as well as to make automatic reservations. 
+2.4 OPAC Vs Web OPAC 
+OPAC and Web OPAC are same in some aspects like searching and browsing in both the cases provides pre-coordinated as well as  post-coordinated phrases options. They differ from each other in some aspects. The following table gives the comparison between the two.6 
+Table. Difference between OPAC and Web OPAC 
+OPAC 
+Web OPAC 
+OPAC (LAN/Intranet) usage is limited, only the The usage is global, a person can access it 
+persons in LAN can use it. 
+from anywhere. 
+Users have to follow the program of the Web OPAC, html files are used which hyperlink  
+particular OPAC software in that library. 
+42 
+to the subject areas or disciplines. 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(2) 
+
+========2========
+
+2.5 OPAC Generation 
+OPAC stages are most often described in terms of 'generations'. The first generation of OPAC appeared in the early 1980s as crude finding lists, often based on circulation system  records or based on simple MARC records, perhaps with a circulation, serials, or acquisitions module. Based on card catalogue  and early online information retrieval system, their searching capabilities were limited to author and title searches, using only left anchored searching (i.e., all searches must be based on the first word or words of a particular text string starting at the left; for example, in left anchored searching the title "organisation of information” must be searched starting with the word “organization”  and cannot be found under “information”). The interface was menu based and fairly primitive. These early systems had no subject  access and no reference structures.7 2.5.1 First Generation OPACs 
+First generation OPACs were little more than poor imitations of print retrieval tools. Some system were programmed to respond to commands in which a code (e.g. “a” for author, “t” for title, etc.) was to be followed by an exact string of characters that would be matched against the system's internal index. In some others, derived key searching was supported (i.e., taking parts of names and/or titles to create a search string). In many early systems, the display of results was by the “last in, first out” principle (i.e., the last records entered into the system were those listed first in the display). These first generation systems were highly intolerant of user mistakes. There was little or no browsing  and title or no keyword searching, with or without Boolean operators. Access points were limited only to those that were available in the card catalogue, that is, left-anchored searches. First generation OPACs were primarily book finding lists and worked best for known-item searching. 
+2.5.2 Second Generation OPACs 
+The second generation OPACs in the late 1980s showed major improvements. This generation was marked by significantly 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(2) 
+improved user interfaces. Keyword searching,  with its use of Boolean operators, was introduced, thus increasing the number of access points available for searching. This meant that searches were no longer required to be exact word or phrase, left-anchored searches; words could now be matched, even  if they were in the middle of a text string. Also  greatly enhancing the searching process were truncation and wild card support, browsing capabilities (including index term browsing), use of full MARC records, interactive search refinement, and subject access to items. Second generation OPACs also provided greater manipulation of search results and provided better help systems with more informative error messages (although there is still a lot of work to be done in this area). 
+Up to second generation of OPACs, the characteristics distinguishing each generation  are fairly clear. As we move beyond the second generation, however, there are differences in how the profession refers to the  more recent developments in OPACs. Some consider the systems that are currently in use (Web OPACs with GUI interfaces, Z39.50 compliant system, etc.) to be third-generation OPACs. Others describe the third generation as catalogues that are still in experimental stages. 
+2.6 Feature of Web OPACs 
+The important features of Web OPACs are8: 
+q It is accessible through internet. 
+q It is possible to search independently by 
+Author, Keyword, Title or Year. 
+q 
+Displays complete bibliographic 
+information as appeared on reprints. q Graphical user interface (GUI), which is 
+typically thought of as a combination of 
+windows with pull-down or drop-down 
+menus, icons and a pointing device such as 
+mouse or trackball to manipulate 
+information is available. 
+q Features of traditional OPACs such as 
+storing bibliographic and sometimes full text  
+databases; providing direct access to a 
+43 
+
+========3========
+
+library’s bibliographic database by means of  
+terminal or PC; search result in readily 
+understandable form; sometimes remote 
+access from the library’s location; 
+information about community events; links 
+to circulation files, reference help, etc.; 
+search through a variety of access points 
+such as author, title, keyword, subject, 
+periodical title, class number, series, ISSN, 
+ISBN, etc., are available.  
+q 
+It has ability to use hypertext links to 
+facilitate navigation through bibliographic 
+records. 
+q A move towards emulation of the 
+appearance and search features similar to 
+those found in search engines is on. q Linking to full text when available is there q 
+Ability to help bring a convergence in 
+searching of all electronic information 
+available through one interface. e.g., 
+catalogues, CD-ROMS, internet sources, 
+etc. 
+2.7 Advantages of Web OPACs 
+Following are the advantages of the Web OPACs :9 
+q It is world wide and all the time accessible. q The status of any book may be known as 
+book issued or not, lost/transferred, etc. The  
+status of an acquisition order may be 
+available at both staff and public terminals 
+located throughout the library. 
+q It is possible for users to send reprint 
+requests immediately by e-mail. 
+q Compilation of various lists of reprints 
+becomes very easy. 
+q There is no limitation of space and time for 
+searches of any documents. Any person 
+can search a document of not only his/her 
+library but also any networked library. 
+2.8 Web OPAC Interface 
+Since the introduction of online catalogue, the librarian has become aware of the importance of the interface. Until recently, user interfaces for catalogues have been frequently based on traditional menu or command structures with only some attention paid to user’s requirements. Since a Web 
+44 
+OPAC serves an even more varied and diverse population, the interface must address the problems created by increasingly different skills and knowledge of the users.  
+2.8.1 Salient Characteristics of 
+Interface 
+Following are the necessary characteristics of web Interface: 
+q An interface exists to provide access to the 
+system functions in a manner that is 
+complete, efficient and acceptable to users. q It must therefore be effective, giving access 
+to all functions and it displays must be in a 
+form, which is intuitively accessible. q It must be efficient requiring minimum user 
+effort to invoke functions and offer easy 
+recovery from errors and wrong choices. q It must be aesthetically pleasing, use 
+comprehensible language, technologies 
+and hardware (e.g. keyboard and mouse) 
+that are manageable by the user. q 
+It must be accessible for all levels of users' 
+skills and knowledge and should encourage  
+users to increase their knowledge about 
+what clues or knowledge fragments are 
+critical for the efficient and effective use of10 
+the front-end. 
+The salient characteristics of interface features are that they are generally created in  a layer of software that lies between the user at terminal and the actual search and retrieval  mechanism of the catalogue. Some existing Web OPAC interfaces are Talis, INNOPAC, Webcat, Voyagar, GeoWeb and ALEPH, etc.11 
+2.9 Subject Access in OPACs 
+According to Mandel,12  the subject access in an online catalogue can be viewed as “A system with following four independent component” 
+12. 
+q Design of the online catalogue 
+q Bibliographic records acted upon by the 
+catalogue 
+q 
+Users who bring subject searches to the 
+catalogue and 
+q Tools we can load into the catalogue to 
+facilitate subject searches such as an online  
+DESIDOC  Bulletin of Inf Technol , 2006, 26(2) 
+
+========4========
+
+authority file or an online classification 
+schedule.”13 
+According to Markey 
+14, subject Access to OPAC is significant due to the following reasons: 
+q The preponderance of subject searches 
+input by library patrons 
+q Unfavourable experience with subject 
+searching at the online catalogue q Heavy volume of subject searches input by 
+library patrons that result in no retrieval or 
+too much retrieval 
+q Library patrons’ and staff needs for 
+improvements to online catalogue for 
+subject searches. 
+3. WEB OPAC IN INDIA 
+Following are some existing Web OPACs in India: 
+q 
+Indian Institute of Science Library, 
+Bangalore  
+http://anagha.library.iisc.ernet.in/ q Indian Statistical Institute Library, Delhi 
+http://www.isid.ac.in/~library/new_search_l 
+ib.html 
+q American Centre Information Resource 
+Centres in India 
+http://americanlibrary.in.library.net/ q British Council Libraries in India 
+http://library.britishcouncil.org.in/simplecat 
+search.asp 
+q Cochin University of Science and 
+Technology Library  
+http://opac.cusat.ac.in/ 
+q Health Education Library for People   
+http://www.healthlibrary.com/search.html q 
+Indian Statistical Institute Library, Kolkata  
+http://library.isical.ac.in/ 
+q Indian Institute of Technology Library, 
+Mumbai 
+http://www.library.iitb.ernet.in/pustak/Displ 
+ay5.jsp?common=&pcommon=HI&field=TI 
+TLE&joinas=AND 
+q Indian Institute of Technology Library, 
+Kharagpur 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(2) 
+http://www.library.iitkgp.ernet.in/lssearch.h 
+tml 
+q Indian Institute of Technology Library, Delhi 
+http://www.iitd.ernet.in/search/index.html# 
+site 
+q Indian Institute of Management Kolkata 
+http://203.197.126.103/BCRoylibrary/catal 
+og.asp 
+q Indira Gandhi Institute of Development 
+Research Library, Mumbai 
+http://www.igidr.ac.in/lib/opac.htm q NAL Information Centre for Aerospace 
+Science and Technology, Bangalore 
+http://www.icast.org.in/opac.html q 
+National Institute of Bank Management 
+Library, Pune 
+http://www.nibmindia.org/searchbooks.asp q National Law School Library, Bangalore 
+http://www.nls.ac.in/lib/opac/index.html q 
+National Science Library, New Delhi 
+http://www.niscair.res.in/InformationResou 
+rces/nsl/BookSearch.asp 
+q Punjab University Library, Chandigarh  
+http://library.puchd.ac.in/opac.html q Rajiv Gandhi University of Health Sciences,  
+Bangalore 
+http://203.200.41.70/cgi-bin/lssearch.html q Tata Institute of Fundamental Research 
+Library, Mumbai 
+http://158.144.68.87/lssearch.html q Tata Institute of Social Sciences Library 
+Mumbai 
+http://202.141.154.107/slim/Default.php 
+4. LIMITATIONS OF WEB OPAC 
+Despite the increasing use of OPACs nowadays, there are many limitations of OPACs. These are listed below.15 
+q Do not provide sufficient assistance in the 
+translation of the query terms into the 
+vocabulary used in the catalogue. q Do not provide online thesaurus aids useful 
+for subject focussing/identifying terms that 
+broader or narrower than the topic of 
+search. 
+q Do not automatically assist the user by 
+providing alternative formulation of the 
+45 
+
+========5========
+
+search statement when the initial approach 
+fails. 
+q Do not lead the search from successful free 
+text search terms (e.g. title words) to the 
+corresponding subject headings or class 
+numbers assigned to a broader range or 
+related materials. 
+q Do not provide sufficient information in the 
+retrieved bibliographic records (e.g. table of 
+contents, abstracts and book reviews) to 
+enable the user to judge the usefulness of 
+the documents. 
+q Do not rank the retrieval sets in decreasing 
+order of probable relevance to the user‘s 
+search criteria. 
+q Do not provide open-ended, explanatory 
+browsing through pre-established linkages 
+between records in the database to retrieve 
+materials related to those already found.  
+5. CONCLUSION 
+OPAC is an interactive search module of an automated library management system. Any record is searched directly from a node within a database of the organisation or remotely through national and international networks. Thus finally we see that a lot of cataloguing work due to availability of various Web OPACs is reduced. Web OPACs improve the quality, speed and performance of the services offered by the libraries. The inter-library loan becomes easier with the use of e-mail and web. Members can see the collection and issue status of each document of the information centre. They could reserve or request online for the document of their interest. 
+REFERENCES 
+1. Online Dictionary for Library and 
+Information Science (ODLIS). 
+http://lu.com/odlis/odlis_o.cfm#opac  2. SIRSI: Glossary of Terms. 
+http://www.sirsi.com/glossary.html  3. The ALA Glossary of Library and 
+Information Science. American Library 
+Association, Chicago. 1983. 
+4. Vinh-The Lam, Technical Services 
+Division, University of Saskatchewan 
+46 
+Libraries, Canada 
+http://www.leaf-vn.org/newsletter4.htm  5. Washington University in St. Louis, 
+University Library. 
+http://library.wustl.edu/~listmgr/webcat-l/0 
+218.html 
+6. Sonewane, S. Shashank. Retrieval 
+aspects of OPACs. Paper presented at 
+Caliber-99 on Academic Libraries in 
+Internet Era,  edited by  PSG Kumar & CP 
+Vashishth, INFLIBNET, Ahmedabad, 
+1999, pp 288-95. 
+7. Taylor, G. Arlene. The organization of 
+information. Libraries Unlimited, 
+Westport, 2004, pp 109-11. 
+8. Ramesh Babu, B. & Ann o’ Brien. Web 
+interfaces: An overview. The Electronic 
+Library,  2000,  18(5), 316-27. 
+9. Mangeram & Sharma, S.K. Online Public 
+Access Catalogue. University News, 
+41(34), 9-10. 
+10. Flower, C.J.H.; Murphy, F.J. & White P. 
+Matching OPAC user interfaces to user 
+needs: The product requirements 
+document. The Polytechnic of 
+Huddersfield, Huddersfield (British 
+Library R & D Report 6041). 1991. 11. Lawrence, G.S.; Matthews, J.R.; & Miller, 
+C.E. Cost and features of online 
+catalogs: The state of the art. Information  
+Technology and Libraries,  1983, 2(4), 
+409-49. 
+12. Mandel, Carol A. Enriching the library 
+catalog record for subject access. Library  
+Resources and Technical Services, 1985,  
+29(1), 5-15. 
+13. Ramesh Babu, B & Tamizhchelvan, 
+Subject access in OPAC interfaces in 
+Tamilnadu: A survey. First International 
+Convention on Mapping Technology on 
+Libraries and People. Caliber 2003, 
+INFLIBNET, 2003, pp 43-57. 
+14. Markey, Karen. Users and the online 
+catalog: Subject access problems. In The  
+Impact of Online Catalogs,  edited by 
+Joseph R Methews, Neal-Schuman 
+Publishers Inc, New York, 1986, pp 
+35-70. 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(2) 
+
+========6========
+
+15. Aruna, A. Online Public Access 
+Catalogue.  DESIDOC Bulletin of 
+Information Technology,  1998,  18(5), 3-8. 16. Hussain, Rashid. Information sharing and  
+knowledge building using web services. 
+Research project submitted in partial 
+fulfilment of the course leading to the 
+award of Associateship in Documentation  
+and Information Science (2003-2005), 
+Documentation Research and Training 
+Centre, Indian Statistical Institute, 
+Bangalore. 
+17. Pandey, S.K. Encyclopaedia of Library 
+Automation System and Networks, Vol. 2:  
+Library Information Retrieval, Anmol 
+Publishers, New Delhi, 1999. 
+  Contributors: 
+Rashid Husain,  ADIS, Documentation Research & Training Centre, 
+Bangalore.  
+Dr. Mehtab Alam Ansari,  Lecturer, Dept. of Library & Information Science, Aligarh Muslim University, Aligarh. e-mail: mehtaba@rediffmail.com 
+DESIDOC  Bulletin of Inf Technol , 2006, 26(2) 
+47 
+
+========7========
+

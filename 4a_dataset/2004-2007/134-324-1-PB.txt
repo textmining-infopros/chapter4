@@ -1,0 +1,431 @@
+DESIDOC Bulletin of Information Technology, Vol. 27, No. 3, May 2007, pp. 31-38
+© 2007, DESIDOC
+
+Customised Web-based Services at SERC Library
+with Special Reference to Alert Services
+A. Hariharan*, Chitra M Hariharan, M. Mymoon
+A. Abdunnasar and S. Suryakala
+Structural Engineering Research Centre Library
+CSIR Campus, Taramani, Chennai- 600 113
+*E-mail: hariharan_ah@yahoo.com
+
+ABSTRACT
+The primary aim of any library is to provide timely and quality services to its
+users. Advent of new technologies have made it imperative for libraries to absorb,
+adopt, adapt, and to provide IT-based services to the users. Libraries are now
+providing customised web-based services at the users’ desktops. Users, particularly,
+scientists, who are engaged in time-bound research and development projects,
+need to be alerted about the nascent literature in their respective fields. Librarians
+are providing current awareness services to meet these requirements. A few
+libraries and many e-publishers are providing alert services to keep the users
+informed about the latest additions to their collections and other information relating
+to the users’ areas of interest.
+This paper describes the experiences in using the AutoLib library software
+and explains in brief the various innovative and useful web-based library and
+information services and the alert service being provided at the SERC library.
+Keywords: SERC library, Web OPAC, JAPAR, Greenstone library software
+
+1. INTRODUCTION
+Technology is playing an ever increasing
+role in all organisations today and libraries
+are no exceptions. The volume and complexity
+of information is increasing exponentially
+causing librarians to use IT tools to access,
+organise and disseminate information more
+efficiently. Library users expect customisation
+and to meet their changing needs and
+expectations, Web-based services are being
+Received 5 June 2006, Revised 30 September 2006
+
+built integrating traditional and modern practices.
+Customised Web-based library services being
+provided in the Structural Engineering Research
+Centre (SERC) library have been designed
+to be used in real-time high-availability web
+sites. The interfaces provided help to make
+the best use of the library’s resources and
+facilitates provision for interactive searches.
+SERC library in addition to web OPAC, offers
+customised services such as auto reminder,
+research alert, current awareness service,
+31
+
+online project research profile service (OPRPS),
+online project research diary (OPRD), Journal
+article performance analysis reporter (JAPAR)
+and institutional repository through Greenstone
+digital library software.
+
+Auto overdue reminder service (AORS)
+Research alert service (RAS)
+Cover and contents page services
+Articles published by the scientists
+
+2. WEB-BASED SERVICES
+Present-day library services have not
+only metamorphosised as automated systems,
+but have also specialised by providing services
+through the library Web pages. Web services
+are being offered using various Web softwares
+and tools such as RDBMS (MS-SQL, Oracle,
+MySQL), mark-up, scripting and programming
+languages (html, asp, jsp ) and Web servers
+(IIS, Tomcat). SERC is using AutoLib library
+software, which integrates all the above
+technologies to provide Web-based services
+to its users.
+The library automation has provided
+integrated solutions for the in-house operations
+and Web-enabled services on the campus
+Intranet using the modern Web tools
+and techniques.
+SERC library has about 1,05,017 records.
+The library has created and maintaining the
+following databases
+Technical books, reports and theses,
+Journal articles,
+Journal issues,
+Back volumes,
+Standards (codes),
+Compact discs, and
+Microfiche on the intranet.
+The library is providing following webbased services using all the above databases:
+Library portal
+Web OPAC
+Online project research profile service
+(OPRPS) and online project research
+diary (OPRD)
+Auto alert service (AAS)
+32
+
+Institutional repository
+
+2.1 Library Portal
+SERC library provides various services
+through its library portal (Fig.1)–a single
+window to access library resources – through
+Intranet. The portal gives a brief description
+of the library. It provides information about
+collection, staff, library committee, rules and
+regulations, services offered, journals subscribed,
+building, floor plan, publication, membership,
+useful websites, etc. It also provides direct
+links to home pages of important journals in
+the area of civil and structural engineering
+published by Elsevier, ASCE, Blackwell,
+ACS, ASTM, Wiley, Springer, Royal society
+of Chemistry, Oxford University Press, and
+ASME, etc.
+Several free e-resources available on
+the internet are being collected, consolidated
+and made available through the SERC portal.
+Link to the database of articles published by
+the SERC scientists has also been provided.
+
+2.2 Web OPAC
+Web-based online public access catalogues
+(Web OPAC) is one of the Web- based services
+offered by SERC library. As a catalogue,
+Web OPAC demonstrates advances on traditional
+OPACs, especially in terms of remote access
+by users and their potential to integrate
+many document types and sources via a
+single interface. A Web-based hypertext OPAC
+holds the promise of easy search interaction
+with the databases and retrieval of relevant
+information.
+SERC library Web OPAC has various
+links like personalised service, books, book
+reports, journal articles, search report, journal
+issues, standards, back volumes, conference
+articles, non-book materials (CD ROMS and
+microfiche), general search, useful websites.
+DESIDOC Bull. Inf. Technol., 2007, 27(3)
+
+Figure 1. SERC library portal.
+
+The service is made available at the users’
+desktop on Intranet. More than 150 desktops
+are connected to the server through the Intranet.
+The web OPAC provides the following
+search interface to access library resources:
+Simple Search: Simple search allows the
+users to search based on all the mandatory
+fields of the documents such as author,
+title, subject, accession number, keyword
+separately and also in combination of these
+fields.
+Advanced Search (Query Builder): The
+web OPAC helps to search resources using
+Boolean and other logical operators on access
+points like title, keyword, year, etc. on an
+Intranet environment from any where in the
+campus. The Web module has advanced
+query builder, which allows users to search
+the database using a field or combination of
+fields based on any conditions (search string
+in a character field such as author, title etc.
+or any where in the field starting with a word
+or in a numeric field such as accession
+number, price, etc. by using operators like
+>,>=,<,<=,= combined with Boolean operators
+AND, OR, NOT. This module helps to generate
+DESIDOC Bull. Inf. Technol., 2007, 27(3)
+
+various types of search reports in various
+formats like MARC, CCF, etc. Users can
+generate reports in customised formats (user
+can choose fields to be displayed in search
+out put). The search result can be sorted in
+any desired order at multiple level.
+Restricted Search: Restricted Search allows
+to search the documents based on all the
+mandatory fields by typing letter by letter.
+Dictionary-Based Search: The Web module
+has dictionary for author, subject and publisher.
+By clicking the link, users can access the
+required information.
+
+2.3 Online Project Research
+Profile Service and Online
+Project Research Diary
+Online Project Research Profile Service
+(OPRPS) is one of the personalised service
+that serves as a tool to collect and organise
+resources for use by individual users and
+helps scholars stay informed of the new
+resources added by the library. Users no
+longer need search the online catalogue regularly
+to be aware of new resources. The Web33
+
+based user interface program with their login
+and password has been made available on
+the Intranet. This allows the users to create
+and maintain their dynamic user profiles,
+hitherto maintained by the library staff. Users
+can judge, by both the number and
+appropriateness of the resources retrieved,
+just how broad or narrow, and also how
+relevant, are their search profiles. Once the
+user is satisfied with a particular search
+profile, he can then save the profile (though
+it can be edited again at any time). The user
+can run their profile against the records added
+and retrieve these documents filtered by the
+date in which records have been added,
+document types, etc. (Fig. 2).
+With the proliferation of full-text journals
+and the availability of e-resource repositories
+and sophisticated integrated library system,
+the process of providing current awareness
+service has been re-emphasised and reshaped.
+The concept is simple, but powerful and
+personalisation of services is the key to
+institutional engagement for the digital library.
+OPRD is a unique feature, which allows
+the users to search the databases of the
+library for a particular research topic and
+
+make personal research notes on the retrieved
+documents after referring/reading the same.
+The information put into the system remains
+private and OPRD enables them to keep
+track of the referred literature, modify comments
+or notes for each document referred. This is
+of vital use for future research activities,
+writing research papers, project proposal
+presentations, reports writing, etc. OPRD
+works on a login and password and is individualcentric. The users have largely benefited
+from both the OPRPS and OPRD.
+
+2.4 Auto Alert Service
+A software tool has been developed to
+provide auto alert service which automatically
+runs all user search profiles (described above
+in OPRPS) against the records added every
+day. The system then e-mails, to each scientist,
+a report of the new records that meet the
+criteria in his or her saved profile (Fig. 3).
+
+2.5 Auto Overdue Reminder
+Service
+It is very difficult to keep track of the
+overdue documents and inform the user as
+and when documents fall due for return, even
+
+Figure 2. OPRPS research profile.
+34
+
+DESIDOC Bull. Inf. Technol., 2007, 27(3)
+
+Figure 3. Article alert service through e-mail.
+
+in an automated system. Therefore, an auto
+overdue reminder service (AORS) has been
+designed and implemented. This program
+keeps track of the overdue books daily in
+the morning when the system is booted. It
+identifies overdue documents on the day
+and sends a reminder to the users’ mail box
+(Fig. 4).The alert overdue reminder messages
+are sent daily until the overdue documents
+are returned. The overdue collection has been
+considerably reduced after introduction of
+this service.
+
+2.6 Research Alert Service
+Research Alert—a monthly Central Alert
+Service (CAS) is being offered as an inhouse alert service, primarily to cater to the
+needs of the engineer/scientists of the Centre.
+Core periodicals have been identified and
+articles are keyed into the database regularly.
+These articles are grouped under 21 main
+areas covering core Research and Development
+areas of the Centre.
+Users have seamless access to the research
+alert database from any PC that is connected
+to the campus Intranet. In-house studies
+have shown that this service is being used
+DESIDOC Bull. Inf. Technol., 2007, 27(3)
+
+extensively. This service is also being offered
+on a subscription basis, since 1997.
+
+2.7 Cover and Contents Page
+Service
+The cover and contents pages of books
+are being scanned as and when bought in
+the library and linked to the respective record
+at the time of cataloguing the books. The
+user can view the content pages in the Web
+browser along with the bibliographical details
+while searching at his work place itself. This
+helps the user to browse the contents of
+books easily from his terminal anywhere in
+the campus.
+
+2.8 Articles Published by the
+Scientists
+A database of articles published in journals
+by the scientists of SERC since 1969 has
+been created using the Web-enabled software
+called journal articles performance analysis
+reporter (Fig. 5). Users can search the database
+based on author, article title, journal name,
+year of publication, subject, country, impact
+factor, etc. Many reports and statistics, such
+as number of articles published by a scientist
+in a journal or in a given year, can be generated.
+35
+
+Figure 4. Auto overdue reminder service.
+
+Figure 5. JAPAR.
+36
+
+DESIDOC Bull. Inf. Technol., 2007, 27(3)
+
+2.9 Institutional Repository
+An institutional repository has been set
+up to archive all the publications acquired
+by the SERC using Greenstone library software
+(Fig. 6). At present, articles published by
+the SERC scientists in the Journal of Structural
+Engineering, published by SERC, have been
+identified and archived, Metadata for the identified
+articles based on Dublin Core has been created.
+A full-text index has also been created for
+all the articles available in the repository
+which is available on the Intranet for full-text
+searching and browsing.
+
+3. CONCLUSION
+Users expect seamless access to library
+resources in multiple contexts outside library
+systems. Web-based services act as vehicles
+in an otherwise depersonalised digital
+environment. The personalised web-based
+services developed and offered at the SERC
+library accept the reality that people are
+finding information on the Internet. These
+services provide a way to integrate other
+
+resources with the library resources, which
+have been evaluated and selected by the
+library professional. This will encourage the
+use of the local collection and will also
+provide easier access to digital holdings.
+
+ACKNOWLEDGMENTS
+The authors wish to thank the Director,
+SERC for his consent to publish this paper
+and also the Chairman, Library Committee
+for his constant encouragement.
+
+BIBLIOGRAPHY
+1. Henrickson, H. & Hofman, S. IIS 6: The
+complete reference. Tata McGraw Hill,
+New Delhi, 2003.
+2. Gunderloy, M. & Jorden, J.L. Mastering
+SQL server 2000. BPB Publication, New
+Delhi, 2005.
+3. Powell, T.A. Web design: Complete
+reference. Ed.2. Tata McGraw Hill, New
+Delhi, 2003.
+
+Figure 6. Instititional repository.
+DESIDOC Bull. Inf. Technol., 2007, 27(3)
+
+37
+
+4. Smith, E.A. ASP 3 programming bible.
+IDG Publishing, New Delhi, 2000.
+
+5. Autolib User manual. 2006 Autolib Software
+Solutions, Chennai, 2006.
+
+Contributors
+
+Mr A. Hariharan is presently working as a Senior Technical Officer
+at Structural Engineering Research Centre, Chennai. He received degrees
+in MA, BLiSc, AIS (INSDOC), and Diploma in German. He has over 30
+publications to his credit, has delivered more than 50 lectures on various
+topics and conducted more than 50 training programmes on various
+topics such as CDS/ISIS, Internet, digital library, web technology, network
+technology, library automation, RFID technology, GSDL, DSpace, etc. His
+main areas of interests are library automation, e-learning and information
+portal, web-based library and information services, digital libraries, information
+literacy and professional activities.He is the president of Society for
+the Advancement of Library and Information Science (SALIS).
+Ms Chitra M. Hariharan obtained her BSc from the Bangalore University,
+BLiSc from the Kerala University, and MLiSc from the University of
+Madras. She is at present working as Officer-in-Charge (Scientist) at
+Structural Engineering Research Centre, Chennai. Her notable achievements
+are establishment of a completely automated modern library, initiation
+of programmes and services for enhanced usage of library resources
+including research alert, introduction of customised Intranet services,
+development of database of papers published by Scientists of the Centre
+since inception, and development of institutional repository.
+Dr (Ms) M. Mymoon obtained her BSc, BLiSc and MLiSc from the
+University of Madras. She completed her PhD in 2001. Her areas of
+interest are scientometrics, library management, reference service and
+application of IT in LIS. Presently she is working as Technical Officer
+in the Structural Engineering Research Centre, Chennai.
+
+Mr A. Abdunnasar obtained his MLiSc from Kerala and passed the UGC
+NET examination. After working as a librarian in the Spring Valley School
+from 1997 to 2001, he moved to Structural Engineering Research Centre,
+Chennai as Junior Technical Assistant. His areas of interests include
+IT applications, web designing, etc.
+
+Ms S. Suryakala graduated from the Madras University, and obtained
+BLiSc and MLiSc from the Annamalai University. She is working as
+senior library assistant since 1991 at the Structural Engineering Research
+Centre, Chennai. Her areas of interests are library management, and
+IT applications in the library services.
+
+38
+
+DESIDOC Bull. Inf. Technol., 2007, 27(3)
+
+

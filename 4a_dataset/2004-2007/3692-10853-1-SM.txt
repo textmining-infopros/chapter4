@@ -1,0 +1,119 @@
+DESIDOC Bulletin of Information Technology, Vol. 26, No. 5, September 2006, pp. 17-21 
+© 2006, DESIDOC 
+Automated Library Stock Verification with 
+Barcode and LibSys 
+P. Rajendiran and Indu Bhushan 
+Raja Ramanna Centre for Advanced Technology, Indore-452 013 
+E-mail: praj@cat.ernet.in 
+ABSTRACT 
+The paper describes the use of the barcode technology and LibSys 4 (Release 5.0)–library automation software, for stock verification in the library of Raja Ramanna Centre for Advanced Technology. The complete procedure, ie, barcode generation for labels, data capturing, downloading, modification and uploading along with data processing and report generation and advantages and disadvantages using these facilities for stock verification have been described. 
+Keywords: Stock verification, barcode technology, inventory analysis, LibSys 
+1. INTRODUCTION 
+The modern technology has enabled automation and integration of the various processes of  libraries and information centres to reduce or avoid human intervention and to increase the efficiency and speed. As the libraries provide open access service to make the holdings available to the users, the loss, damage, and misplacement of books are inevitable. To know and replace the lost books, and to maintain balance between various subjects, and to take adequate precautionary measures, it is necessary to do periodical inventory and accounting of the library collection of the library. The term stock verification thus came into existance with regard to libraries. It is also referred as stock taking, physical verification or checking, stock inspection, 
+Received on 20 March 2006, revised on 26 June 2006 
+and inventory, taking meaning physical check- up of any article on record1. 
+Libraries of Govt. of India and its other organisations has to do a mandatory physical verification of all their holdings as per the following guidelines2: 
+◎ 
+Complete annual physical verification of books should be done every year in the case of libraries having not more than 20,000 holdings and not fewer than one qualified library staff. In case there is only one qualified staff, the verification may be done as per sub-para (vi) 
+◎ 
+Complete physical verification at intervals of not more than three years should be done in the case of libraries having more 
+17 
+
+========1========
+
+than 20,000 but not more than 50,000 volumes 
+◎ 
+Sample physical verification at intervals of not more than five years may be done in the case of libraries having more than 50,000 volumes. If such sample verification reveals unusual or unreasonable shortage, complete verification shall be done. 
+Libraries traditionally perform the periodic stock verification by adopting any one of the following methods: Verification by accession register; using a separate register with accession numbers; slips containing accession numbers; numerical counting; and  shelf register cards or shelf list cards.  The above methods are cumbersome, time-consuming, and error- prone as these are done manually. 
+The automated stock verification procedure adopted at Raja Ramanna Centre for Advanced Technology (RRCAT) library by employing barcode and LibSys facilities library stock verification could be performed easily with less manpower; one person scanned the barcode label (accession number) of documents and other person marked the documents by putting month and year stamp at the inside backcover to ensure that the document was physically verified. Besides, identification of damaged and wornout documents for repair, binding of obsolete volumes, and rearrangement and cleaning can also be done simultaneously. During the stock verification period, the returned (check-in) documents were also verified before shelving. Once the data capturing was over, the verification and generation of report with LibSys could also be done in a short period of time. 
+2. IMPLEMENTATION OF 
+BARCODE TECHNOLOGY 
+AND LIBSYS AT RRCAT 
+LIBRARY 
+To improve the library service and to have an efficient control over the entire operation, the LibSys, which is a commercially available integrated multi-user library automation package, was implemented at RRCAT in 1995.  To improve the services further, the barcode 
+18 
+technology (print-related automatic identification technology) was implemented in 2000. The hardware installed to implement these technologies at RRCAT are:  Laser barcode scanner for reading labels (at circulation counter); portable data capturing terminal with build-in laser scanner for inventory (stock verification); and accessories such as cradle, cable, battery and other items. The softwares for interfacing the data capturing terminal with computer are: PowerGen (2000 trial version), SysTools(version 1.2.14) and LabelWorks (version 2.07)  for Windows for label designing. 
+3. BARCODE & BARCODE 
+SCANNER 
+The barcodes are being used effectively to speed up, avoid human error, and automate the processes in industry for production planning control, materials management, purchase/ sale, and inventory control. In libraries, barcode is being used to automate the data-capturing process, for stock verification, and in the circulation counter for issue/return of documents. 
+A barcode is a sequence of dark bars on a light background or the equivalent of this with respect to the light-reflecting properties of the surface. The coding comprises in the relative widths or spacings of the dark bars and light spaces. 
+A barcode scanner is an optical device that reads the code by scanning a focused beam of light, generally a laser beam, across the barcode and detecting the variations in reflected light. The scanner converts these light variations into electrical variations, which are subsequently digitised and fed into the decoding unit programmed to convert the relative widths of the digitised dark/light spacings into numbers and/or letters3. 
+4. BARCODE LABELLING 
+Each document in a library should be uniquely identified for barcode labelling purpose. Most of the libraries in India use accession number for this purpose. RRCAT has also used the same for printing barcode labels. 
+DESIDOC Bull. of Inf. Tech., 2006, 26(5) 
+
+========2========
+
+Figure 1.  Barcode label design specifications 
+The labels  designed using LabelWorks (version 2.07) for Windows, which supports major barcode symbologies. Code 128, a high- density linear symbology that can encode text, numbers, several functions and the entire 128 ASCII character set was selected for designing the labels. Figure 1 shows the barcode label design specifications. 
+of each document and automatically displays the document number for a moment. 
+If a data scanned is wrong, it can be manually updated or rescanned, and if a document has been inadvertantly scanned multiple times, the terminal simply stores the documents with duplicate accession numbers. 
+5. DATA CAPTURING, 
+MODIFICATION AND 
+UPLOADING 
+The downloaded data in the PC shows a vertical bar '|' (pipe) character after each 
+The datalogic formula 732 wizard terminall (Fig. 2),  was used to capture the data4. The portable data collection laser scanner terminal scans the encoded data and automatically decodes and stores up to 128 KB of data in the memory. As the accession number differs from one to other, the terminal stores approx. 2500 accession numbers. The data was downloaded into the PC using Systool's (software utility for data exchange) and was saved in a data file (*.dat). Later downloads were also appended to the same file. The PowerGen (2000 trial version) was the other software utility used to build personalised settings as per the requirements. 
+Each document was scanned and stamped (month and year) manually at the inside backcover  to avoid duplication. During scanning, the terminal stores the accession number 
+Figure 2.  Datalogic formula 732 wizard terminal 
+DESIDOC Bull. of Inf. Tech., 2006, 26(5) 
+19 
+
+========3========
+
+accession number. The '|' characters were manually removed from the file using the windows text editor. The comprehensive file was then moved to LibSys work file ('wfilexx' directory). 
+6. DATA PROCESSING 
+As the entire collection of RRCAT was catalogued in the LibSys, the data analyses and report generation was carried out through the LibSys cataloguing stock verification module. The initiation of stock verification function is executed at once. This operation sets the system for the big exercise on inventory entails4. 
+6.1 Data Analysis 
+The LibSys provides data verification in two ways;  accession numbers one by one, and list of accession numbers in a file. All accession numbers are stored in a file. The system registers accession numbers for verification in the database. After matching the accession number from the file, the LibSys 
+Installation Barcode and LibSys 
+Barcode Procedure 
+Barcode Labelling 
+Data Capturing/ Downloading to PC 
+LibSys Procedure 
+Data Analysis (Initiation of  Verification) 
+Data Analysis (Verification of  captured data) 
+Submission of 
+automatically generates an exception case file with extension "*. exp" and saves it in the work file path, ie, in the wfilexx directory. This file enlists the list of mis-matching accession numbers and wrongly scanned numbers. 
+6.2  Report Generation 
+As the term stock verification implies only on stock, a list of missing accession numbers is generated against the captured data file.  After several cross checkings, the final verification report is prepared in a text (*.txt) file. The flow chart is presented in Fig. 3. 
+7. CONCLUSION 
+Barcode technology is reliable and easy to use. It improves accuracy and accelerates the processing time, eliminates the typing errors, decreases the costs and improves the services. During the stock verification period, routine library activities can be carried out without any disturbance. Data-capturing terminal is handy and portable, and there 
+Modification/ Uploading 
+Report  Generation 
+Report 
+Figure 3.  Flow chart of automated stock verification 
+20 
+DESIDOC Bull. of Inf. Tech., 2006, 26(5) 
+
+========4========
+
+is no problem of scanning the data multiple times. 
+The only disadvantage being like libraries assign simple accession numbers 1 to n for books, R1 to Rn for reports, and S1 to Sn for stnadards (R and S are the accession series of specific publication type). If libraries carry out stock verification for books alone LibSys has no option to carry out stock verification by an accession series wise. It process as the data and generates a report for all records available in the cataloguing module. 
+Overall, the technology is benficial for carrying out stock verifications in libraries. Since there is no human intervention, the verification report generated by the system is perfect and accurate. 
+Contributors 
+REFERENCES 
+1. Dhiman, A.K. Stock verification: Some 
+problems of electronic publications. 
+DESIDOC Bull Infor Technol, 2000, 20(6), 
+3-5. 
+2. Government of India, Ministry of Finance 
+(Dept. of Expenditure) O.M. No. F.23 
+(7)-E-II(A)/83 dt. 7.2.1984 and Dept. of 
+Supply U.O.No.I.D.No.P III-3(5)/82 dt. 
+17.1.1983, and C.A.G's U.O. No. 1964- 
+TA.II/21-83 dt. 23.12.1983. 
+3. Dickson, LeRoy D. & Sincerbox, Glenn 
+T. Holographic scanners for barcode 
+readers. In Optical scanning, edited by 
+Gerald F Marshall. Marcel Dekker, New 
+York, 1991. 
+4. LibSys User's Guide, Cataloguing System, 
+1998, 91-92. 
+Shri P. Rajendiran  received his BSc from the Bharathidasan University in 1989, and MLISc and MA from the University of Madras, Chennai in 1992 and 1994, respectively. From 1992 to 1994 he was a Graduate Trainee in the Central Library at the Indian Institute of Technology, Chennai. Since 1994, he is working in the library at RRCAT, Indore, 
+as Scientific Officer ‘C’. 
+Shri Indu Bhushan  received BSc in 1997 from Lalitpur (UP), BLIS and MLIS from Jiwaji University, Gwalior, and PGDCA from RCC, Delhi. Prior to joining RRCAT, Indore in 2002, he has worked at IGNOU and Amity School of Engineering and Technology, both in Delhi, and Saha Institute of Nuclear Physics in Kolkata. His areas of interest include website development and web-based library services. 
+DESIDOC Bull. of Inf. Tech., 2006, 26(5) 
+21 
+
+========5========
+
