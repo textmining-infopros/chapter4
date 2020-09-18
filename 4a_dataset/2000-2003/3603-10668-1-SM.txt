@@ -1,0 +1,1624 @@
+﻿DESIDOC Bulletin of Information Technology , Vol. 23, No.4, July 2003, pp. 3-17
+© 2003, DESIDOC
+
+Online Patent Searching Techniques: An Overview
+Qutbuddin Siddiquee & P Bhattacharya
+Abstract
+During the year 2000, European Patent Office (Espacenet), United States Patent
+& Trademarks Office (USPTO), and Japanese Patent Office (JPO) began offering
+online patent search capabilities on their websites free of charge. Some other
+websites of organisations like World Intellectual Property Organisation (WIPO
+[PCT]), SIPO (Chinese), KIPO (Korean), orgainisations from Australia, and New
+Zealand also provide free search facility. This has resulted in patent information
+being readily available to people than ever before due to the revolution in
+information technology (IT). Researchers, who never previously considered using
+patent data to supplement the basic literature, might be surprised at the wealth of
+under utilized information now available at no cost. Free patent databases on the
+Internet are useful, particularly as they allow users in numerous locations to
+quickly access information. To search these sites searchers should be aware of
+the search techniques of boolean operations, truncation, and wildcards. What
+skills are required for online searching? This paper tries to provide online search
+techniques to the people who want to do a patent search on the internet free of
+cost.
+
+1. INTRODUCTION
+The advent of internet has made changes
+in almost every body's life. It is useful for all
+types of people - professionals, scientists,
+researchers,
+scholars,
+industrialists,
+businessmen, teachers, and students.
+
+service. These sites make one to think that
+one can get an adequate search cheaply and
+quickly, and that no legal opinion is needed in
+interpreting the results.
+
+The area of patent has undergone a
+number of changes because of the internet.
+Some aspects of patents have become
+simpler, such as finding patent information,
+and some have become more difficult, such
+as the whole issue of business patent.
+
+Most IT professionals know the advantage
+of using the internet for hosting databases.
+These include swift potential updating and
+amendment of files, and swift searches
+through huge amounts of data. Searching can
+be portable now due to internet rather than
+dedicated to particular machines or in patent
+offices or libraries.
+
+The changes in the website to provides
+free searches made every user able to do
+free and payable search cheap on the web.
+However, the main concern raised was the
+quality. Many predicted that quality would
+suffer as the number of free search sites
+increase. Everyone is concerned about the
+fact that there are many new, cheap internet
+based search sites that are providing a bad
+
+After the existence of internet, online
+searching provides many advantages to the
+searcher over manual searching which is
+listed below:
+n Speedy searching and high quality search
+n Attractive functions, such as selective
+dissemination of information (SDI), PDF
+(Portable
+Document
+Format)
+and
+document delivery.
+
+DESIDOC Bulletin of Inf Technol, 2003, 23(4)
+
+3
+
+n Multiple searches
+n User friendly interface, friendly helpdesk,
+
+an easy to use system
+n Provide patent information directly to the
+end-user through web based technologies
+n Inexpensive service and cost.
+
+2. OBJECTIVES
+The main objective of this paper is to
+provide awareness about the techniques of
+patent searching and the listing of freely
+available patent databases on the websites
+with their types of searches for the patent
+professionals and information professionals
+who are indulged in patent searching
+manually and wasting their time and also to
+those who are changing their searching
+platform from manual platform to internet or
+online.
+
+3. SOME TERMINOLOGIES OF IPR
+Intellectual Property Rights (IPRs) allows
+every citizen of the country to own their
+creativity and invention in the same way that
+they can own physical property. IPR generally
+grant monopoly over the creation using
+intellectual labour. IPR laws include
+prosecution or securing protection litigation
+and rendering of advice. The owner of IPR
+can control and be rewarded for his creation,
+and this encourage further innovation and
+creativity to the benefit of all.
+1. Patents
+Patents are grants of property rights by the
+government to an inventor, which prevents
+others from making, using, or selling an
+invention for the term of the patent.
+2. Copyrights and related rights
+Copyright is concerned with protecting
+work of the human intellect. These include:
+literary and artistic material, writing,
+sculptures, technology based work, music,
+films and recordings and broadcast, including
+software and multimedia. Related rights are
+rights that in certain respect resemble
+copyright. The purpose of related right is to
+protect the legal interests of certain persons
+and legal entities who contribute to making
+works available to the public. Traditionally,
+4
+
+related rights have been granted to three
+categories of beneficiaries: performers,
+producers and broadcasters
+3. Trademark
+Today trademarks (often abbreviates as
+TM in English) are in commercial usage and
+most people could distinguish between the
+trademarks for the two soft drinks PEPSI
+COLA and COCA COLA. For brand identity of
+goods and services allowing distinctions to be
+made between different traders, trademarks
+are used.
+4. Industrial designs
+An industrial design is that aspect of a
+useful article which is either functional or
+aesthetically pleasing such as surface
+decoration, pattern or ornament. It may
+consist of three-dimensional features such as
+the shape or surface of the article, or
+two-dimensional features such as patterns,
+lines or colour.
+5. Trade secretes
+Trade secretes is information that the
+owner chose not to divulge at all. Formula;
+business methods and blueprints are some
+types of information which some businesses
+choose to keep as trade secretes. An
+example of trade secrete is the formula of
+COKE.
+6. Lay out of designs of integrated circuits
+Layout-design is synonymous With
+'Topography'
+and
+means
+the
+three-dimensional
+disposition,
+however
+expressed, of the elements, at least one of
+which is an active element, and of some or all
+of the interconnections of an integrated
+circuit, or such as three-dimensional
+disposition prepared for an integrated circuit
+intended for manufacture."
+Integrated circuit means a product, in its
+final form, or an intermediate form, in which
+the elements, at least one of which is an
+active element and some or all of the
+interconnections are integrally formed in
+and/or on a piece of material, and which is
+intended to perform an electronic function.
+7. Protection of undisclosed information and
+trade secrets
+DESIDOC Bulletin of Inf Technol, 2003, 23 (4)
+
+Undisclosed
+information
+is
+such
+information which must be secret, i.e., not
+generally known or readily accessible to
+‘persons within the circles that normally deal
+with the kinds of information in question.’
+Also, the information must have commercial
+value because it is secret and the information
+must be the subject of reasonable steps by its
+owners to keep it secret.
+8. Geographical indication
+A geographical indication (GI) is basically
+a notice strategy that a given product
+originates in a given geographical area. GI's
+can be protected nationally either by decree
+or by a register.
+
+4. PATENT SEARCH
+We can search patents for the wealth of
+technical information they contain. They often
+contain valuable information, which is not
+available in either journal articles or
+conference
+papers.
+Researchers
+who
+overlook the patent literature run a serious
+risk that they will miss important documents
+and waste time and money by duplicating
+previously conducted search. To overcome
+this duplicating problem, researcher conduct
+the novelty search.
+Online patent search is not an easy task. A
+searcher should be a subject expert and
+should have knowledge of advanced search
+techniques. An online searching charges
+depend on the time duration. For a subject
+expert the searching of patents relating to
+his/her subject becomes easy as well as
+cheap in monetary terms. Also it is necessary
+to compile a list of search methods and
+databases, which will help the searcher for
+online searching. An online searcher may
+always ask requester to give the answers of
+the following questions whenever the
+searcher gets a search request.
+1. What information already exists on the
+search subject?
+2. Why do you want this information?
+3. How do you hope to use the information?
+4. What are you trying to achieve? For
+example, to replicate an existing process;
+DESIDOC Bulletin of Inf Technol, 2003, 23(4)
+
+to research new product; to monitor patents
+in specific industry, and so on.
+Here are some instructions, which make
+search organised, quicker and easier:
+n Prepare for online searches with the right
+n
+n
+n
+
+n
+n
+
+hardware, software, and computer skills
+Access online patent searching resources
+Narrow online patent searches with
+keywords and boolean logic
+Perform database searches at Patent
+websites which are providing free search
+facility
+Search International Patent Offices
+Do advanced searches at patent websites
+like USPTO (American), EPO, JPO
+(Japanese), IP Australia (Australian),
+IPONZ (New Zealand), WIPO (PCT),
+Delphion, CIPO (Canadian), KIPA (Korean)
+and SIPO (Chinese), etc.
+
+Always remember: "To do a good search
+you should get a good search," so, before
+going to patent search, every online searcher
+must prepare the strategy of patent
+searching. Step-by-step patent searching
+strategies is mentioned in the flow diagram
+given below:
+Th ink o f te rms o r ph ra ses t hat are rel evant
+Look upwa rd s i n c atch wor d Index to identify classification
+Use p hrase to con duct keywo rd search
+P ate nt docum ent set # 1
+Find class i fi cat io n a nd keywo rds of i nterest
+L ist fr eq ue nt cla ssification
+I den tify a nd sele ct all classifica ti on s of inte rest
+List al l classificat ion
+C on du ct se ar ch
+P ate nt docum ent set # 2
+R evie w and r efin e
+
+Figure 1: Flow diagram of search strategy
+for patent search
+5
+
+n Enter into database (BEGIN INSPEC), if
+
+Background Search for Patent Search
+Strategy
+A background survey/research of the
+innovation is conducted to ascertain its
+classification, expertise identification of the
+operating principle, any previous work done in
+this area, and its virginity. This study also
+helps in reducing some technical problem, if
+any, for commercial exploitation.
+Simultaneously, through a search strategy,
+a patent search is conducted to further check
+for the novelty. There are three types of
+patent search methods:
+n Landscape Search
+m General search on particular topic
+m Latest research progress in a particular
+area
+n Patentability Search
+m Novelty, non-obviousness, inventive
+step
+m Cover patent and research articles
+n Freedom to Practice
+m Only patents
+m Searching for infringement of any patent
+Process for novelty search
+n Collect the background information on the
+search request
+n Ask requester about his research details
+n Ask requester his/her definition of a
+relevant reference
+n Get a list of all possible keywords
+n End use of the search results
+This helps to design a search strategy for
+more relevant and comprehensive search
+Designing of search strategy
+n Browse some handbooks/websites
+more understanding and keywords
+n Select the database and online host
+Design Search Strategy
+n Use
+
+for
+
+Index command to find out the
+databases or by experience
+n Use Boolean and Proximity operators
+n Use Wild cards
+Conduct the search
+n Login
+6
+
+you know the databases otherwise use
+INDEX command (INDEX PHYSICS) to
+find out the name of the database, and
+then enter into that database
+n Search the search strategy (SEARCH
+Keywords)
+n Display (DISPLAY L# ALL 1-20)
+Go through abstracts of some references
+and refine search strategy, if needed.
+To develop the search strategy we use the
+background information and try to get a list of
+all possible keywords by asking the requester
+for his/her definition of relevant references.
+We also browse through handbooks/websites
+to increase our understanding of the
+keywords. Thereafter, we select a particular
+online host/website and run a search with the
+help of index commands specific to the
+database. Generally, boolean operators,
+proximity operators and wild cards are used
+during the search process. To refine our
+search, if needed, we go through abstracts of
+some references and refine our search
+strategy.
+
+4.1 Techniques for online
+searching
+(a) Boolean Logic
+Internet is a vast computer database. As
+such, its contents must be searched
+according to rules of computer database
+searching. Much database searching is based
+on the principles of boolean logic. Boolean
+logic refers to the logical relationship among
+search terms, and is named for British
+mathematician George Boole. Boolean logic
+allows the use of AND, OR and NOT (see
+figure 2 (a, b, c)) to search for items
+containing both terms, either term, or a term
+only if not accompanied by another term.
+(b) Wildcards and Truncation
+This involves substituting symbols for
+certain letters of a word so that the search
+websites will retrieve items with any letter in
+that spot in the word. The syntax may allow a
+symbol in the middle of a word (wildcard) or
+only at the end of the word (truncation). This
+makes it easier to search for related word
+DESIDOC Bulletin of Inf Technol, 2003, 23 (4)
+
+word. In order to successfully search for a
+term like "Turbine Blade" it is important that
+the search website allow syntax for phrase
+searching. Otherwise, instead of getting
+documents about turbine blades one could be
+getting documents about the words "turbine"
+and "blade" both appear but have nothing to
+do with a turbine blade.
+(d) Field Searching
+
+EDDY OR CURRENT
+
+Figure 2(a):Boolean search for OR operator
+
+All database records are divided into
+fields. Almost all patent CD-ROMs or online
+database
+products
+and
+the
+more
+sophisticated patent search sites allow users
+to search for items appearing in a particular
+field. This can help immensely when you are
+looking for a very specific item. Say that you
+are looking for a particular title ‘Electronic
+Anti-theft device’ of patent in USPTO. We can
+do search in USPTO (www.uspto.gov),
+searching for “Electronic" AND "Anti-theft" in
+title field.
+Example:
+
+EDDY AND CURRENT
+
+Figure 2(b): Boolean search
+operator
+
+for
+
+AND
+
+Problem: Material used to quench circuit
+breaker arc
+
+n Strategy
+Concept 1
+(Circuit(1W)
+break?) (2A)
+(arc? OR spark)
+
+Concept 2
+quench?
+
+Concept 3
+Material? OR
+Plastic? OR
+thermoplastic?
+
+n Selection of website and online database
+EDDY NOT CURRENT
+
+vendor like USPTO, Espacenet, STN,
+DIALOG, etc.
+
+Figure 2(c) : Boolean search for NOT
+operator
+
+STN: PROCESS
+
+groups, like ‘Woman’ and ‘Women’ by using a
+wildcard such as ‘Wom*n’. Truncation can be
+useful to search for a group of words like
+‘invest,
+investor,
+investors,
+investing,
+investment, investments’ by submitting
+‘invest*’ rather than typing in all those terms
+separated by OR's. The only problem is that
+‘invest*’ will also retrieve ‘investigate,
+investigated,
+investigator,
+investigation,
+investigating.’
+(c) Phrase Searching
+
+INDEX 'CAPLUS, CONFSCI, ELCOM,
+ENERGY, FEDRIP, GEORIP, IFIPAT, INIS,
+INSPEC, INSPHYS, JICST-EPLUS, MATH,
+NTIS, PASCAL, RUSSCI, SCISEARCH,
+SIGLE, SOLIDSTATE, USPATFULL, USPAT2'
+
+In Phrase searching many concepts are
+represented by phrase rather than a single
+DESIDOC Bulletin of Inf Technol, 2003, 23(4)
+
+n INDEX PHYSICS
+
+ENTRED AT 09:13:52 ON 22 DEC 2002
+20 FILES in the list in STNINDEX
+n SEARCH (circuit(1W) break?) (2A) (arc?
+
+OR spark?)
+148
+FILE CAPLUS
+6
+FILE CONFSCI
+36
+FILE ELCOM
+7
+
+Figure 3. STN Home page for online patent
+searching
+114
+FILE ENERGY
+245
+FILE IFIPAT
+23
+FILE INIS
+2361
+FILE INSPEC
+9 FILES SEARCHED …………….
+10
+FILE INSPHYS
+40
+FILE JICST-EPLUS
+1
+FILE MATH
+17
+FILE NTIS
+87
+FILE PASCAL
+1
+FILE RUSSCI
+62
+FILE SCISEARCH
+4
+FILE SIGLE
+6
+FILE SOLIDSTATE
+703
+FILE USPATFULL
+19 FILES SEARCHED…………….
+5
+
+FILE USPAT2
+
+18, FILES HAVE ONE OR MORE
+ANSWERS, 20 FILES SEARCHED IN
+STNINDEX
+Maximum citation was found in INSPEC
+database, so searcher must begin with
+INSPEC database.
+t BEGIN INSPEC
+n SEARCH (circuit (1W) break?) (2A) (arc?
+OR spark?) = L1
+355975
+CIRCUITS
+296998
+CIRCUITS
+493744
+CIRCUIT
+(CIRCUIT OR CIRCUITS)
+136194
+BREAK?
+8
+
+246556
+ARC?
+5
+SPARK
+L1
+2361 (CIRCUIT (1W) BREAK?)
+(2A) (ARC? OR BREAK?)
+n SEARCH L1 and quench?
+54534
+QUENCH?
+L2
+239 L1 AND QUENCH?
+n SEARCH L2 and (Material? OR Plastic?
+OR thermoplastic?)
+790171
+MATERIAL?
+106921
+PLASTIC?
+4410
+THERMOPLASTIC?
+L3
+49
+L2 AND (MATERIAL?
+AND PLASTIC? AND THERMOPLASTIC?)
+Similarly we can search other databases
+individually and simultaneously (Begin
+INSPEC and USPATFUL)
+n Display L3 all 1-20
+t Begin USPTO
+
+Circuit AND break$ AND (arc OR arcs)
+AND quench$ AND (Material$ OR plastic$
+OR thermoplastic$)
+In QUICK Search menu
+Search in all fields
+Searching 1976 to present...
+Results of Search in 1976 to present db
+for:
+((((Circuit AND break$) AND (arc OR
+arcs)) AND quench$) AND ((Material$ OR
+plastic$) OR thermoplastic$)): 894 patents.
+REFINEMENT OF SEARCH
+Relevancy increased by searching
+claims only
+
+in
+
+Searching 1976 to present...
+Results of Search in 1976 to present db
+for:
+ACLM/((((Circuit AND break$) AND (arc
+OR arcs)) AND quench$) AND ((Material$ OR
+plastic$) OR thermoplastic$)): 45 patents.
+REFINEMENT OF SEARCH
+Relevancy increased by searching in IPC
+only
+Searching 1976 to present...
+DESIDOC Bulletin of Inf Technol, 2003, 23 (4)
+
+Results of Search in 1976 to present db
+for:
+(((((Circuit AND break$) AND (arc OR
+arcs)) AND quench$) AND ((Material$ OR
+plastic$)
+OR
+thermoplastic$))
+AND
+ICL/h01r$): 36 patents.
+
+4.2
+
+Free Internet Patent Websites
+
+There are many websites, which provide
+free patent information. In which some
+provide bibliographic information, abstract,
+images and full text of patents and some
+provides bibliographic information and
+abstract free of cost and full text on payment
+basis.
+
+database contain only US patents from
+January 1976. Images were added from
+March 1999. It is available only in English
+language. USPTO also provides the facility of
+Electronic Filing System (EFS) via internet.
+USPTO site provides information on both
+the granted patents and patent application.
+Searching process is same for both. In figure
+4 shows the home page of USPTO site for
+patent search.
+
+Full text: USPTO, Espacenet (EPO), WIPO
+(PCT), Japanese (PAJ), Canadian (CIPO) and
+Australia (IPAustralia)
+Bibligraphic and Abstract: Chinese (SIPO),
+Korean (KIPA) and NewZealand (IPONZ),
+Delphion
+Some leading free database websites
+(table 1) and their searching techniques:
+1. United States Patent and Trademark
+Office (USPTO)
+The main changes from the perspective of
+the websites providers are that the searchers
+will be free. Every user will be able to do his
+or her own search free on the web. USPTO is
+currently providing free search at its websites
+at http://www.uspto.gov. There are already
+other free sites that are on the internet and
+more are likely to follow suit. The US patents
+Table 1: Comparison of some free patent websites
+URL
+
+Full
+Text
+
+Abstract Bibliogr- Images
+aphic
+
+USPTO
+
+Y
+
+Y
+
+Y
+
+Y
+
+Delphion
+
+N
+
+Y
+
+Y
+
+N
+
+EPO
+
+Y
+
+Y
+
+Y
+
+Y
+
+JAPIO (PAJ)
+
+N
+
+Y
+
+Y
+
+N
+
+PCT
+
+Y
+
+Y
+
+Y
+
+Y
+
+CIPO
+
+Y
+
+Y
+
+Y
+
+Y
+
+New Zealand
+
+N
+
+N
+
+Y
+
+N
+
+Australia
+
+Y
+
+Y
+
+Y
+
+Y
+
+Chinese (SIDO)
+
+N
+
+Y
+
+Y
+
+Y
+
+Korean (KPA)
+
+N
+
+Y
+
+Y
+
+Y
+
+HPO
+
+Y
+
+Y
+
+Y
+
+Y
+
+DESIDOC Bulletin of Inf Technol, 2003, 23(4)
+
+Figure 4: Home page of USPTO website
+There are three types of search:
+(a) Quick Search
+For quick search user may enter a
+Keyword in the text box labeled Term 1 (see
+below) and Select the field to apply to Term 1
+by using the Field 1 drop-down menu located
+to the right of the Term 1 box. Select a
+boolean operator (AND, OR, or ANDNOT)
+from the menu located between the two Term
+boxes. Enter a term in the text entry box
+labeled Term 2. Use $ (dollar sign) for
+Truncation (as shown below). Select which
+field to apply to Term 2 by using the Field 2
+drop-down menu located to the right of the
+Term 2 box. Select a year or range of years to
+search from the Select years to search
+drop-down menu. Hit the Search button.
+
+9
+
+(b) Advanced Search
+In advanced Search user must know about
+the Field Code. For advanced search, select
+a year or range of years to search from the
+Select years drop-down menu. Enter search
+statement into the Text box marked Query.
+Click on the Search button. For above both
+searches user can refine his search also by
+using the same search syntax. The refine
+search is automatically conducted in the
+same year range as your original search.
+Syntax is:
+TTL/simulation
+AND
+ABST/"random
+Numbers" AND TTL/"Chaos theory"
+
+(c) Patent/Publication Number Search
+The patent number search page allows to
+search for patents by their number. For patent
+application Number year range is up to latest
+date. Enter the patent/publication number or
+numbers into the box. If you include more
+than one number, they should be separated
+by a space. It is not necessary to include
+commas or to capitalize the prefix. Click on
+the search button.
+
+Worldwide patents. So, user may search here
+according to the category-wise search page:
+1. European Patent Office (EPO)—covers
+European countries patents
+2. World Intellectual Property Organisation
+—PCT covers all PCT filing countries
+patents
+3. Worldwide - 30 million documents—covers
+the patents world wide
+4. Japan—PAJ covers Patents Abstract of
+Japan.
+EPO cover bibliographic data from 1920 to
+present on a comprehensive collection of
+patents published in Europe and worldwide.
+Coverage varies by country. It covers 20
+European countries. This site is available in
+three languages: English, French and
+German. Approximately 30 million patents are
+available on this site. EPO also provides EFS
+facility via internet. Figure 5 (a) and 5 (b)
+show the first page of Espacenet and the
+search page of Espacenet for different patent
+databases respectively.
+
+Publication Number Utility: 20010000044
+Patent Number Utility: 5,146,634
+Query
+
+Figure 5 (a): Home page of Espacenet
+
+After search, result will appear with patent
+number and title. Click on the patent number
+or title to get the fulltext information regarding
+that particular patent.
+State Intellectual Property Office (SIPO)
+(http://www.sipo.gov.cn/) of China have a
+same search strategy like USPTO website.
+2. European
+Patent
+ESPACENET
+
+Office
+
+(EPO):
+
+European
+patent
+websites
+(http://ep.espacenet.com) cover all European
+as well as WIPO (PCT), Japanese (PAJ) and
+10
+
+Figure 5 (b): Patent search
+databases
+
+page for
+
+DESIDOC Bulletin of Inf Technol, 2003, 23 (4)
+
+Here in all categories search process is
+same according to their field. In search
+section there are ten fields for patent
+searching (given in table 2). Searcher may
+search any fields and also combination of
+different fields.
+Title
+
+Sterile AND Mediacl
+
+Inventor:
+
+in the title field and
+in the inventor field
+
+Guha
+
+Boolean Operators and Wildcards Used in
+Espacenet:
+User can combine search terms using the
+Boolean operators AND, OR or NOT to refine
+your searches. Examples of combining
+search terms:
+Any of the words Encryption, Random, or
+Chaos
+Title
+
+Encryption OR Random OR Chaos
+
+All of the words Spun, Yarn, Torsional and
+Rigidity
+Title
+
+Spun AND Yarn AND Torsional AND Rigidity
+
+The word Security but not the word Chip
+Title
+
+Security NOT Chip
+
+There are three types of basic search
+1. Single word :
+
+Turbine
+
+2. Multiple words with phrase:
+Turbine AND blade
+
+and
+
+“Turbine blade”
+
+3. Truncation and wildcards:
+Car?
+
+,
+
+Car*
+
+and
+
+Car#
+
+n There can be no alphanumeric characters
+
+following a wildcard (colo?r is not allowed,
+but colo?? is)
+n Wildcards are only supported in the fields
+Title, Title and abstract, Inventor and
+Applicant
+n There must be at least two alphanumeric
+characters preceding a ? or # symbol
+n If two alphanumeric characters preced a ?
+or # symbol, then a maximum of 3
+truncation symbols is allowed
+
+n If three or more alphanumeric characters
+
+preced a ? or # symbol, then up to 7
+truncation symbols are allowed.
+There must be at least three alphanumeric
+characters preceding a * symbol
+In all four categories what types of fielded
+search available is listed in table 2.
+Table 2: Types of fielded search available
+on Espacenet
+Fielded
+search
+Title
+Abstract
+Publication
+Number
+Application
+Number
+Priority
+Number
+Publication
+Date
+Applicant
+Inventor
+IPC
+Classification
+EC
+Classification
+
+EPO PCT World Japan
+wide
+Y
+Y
+Y
+Y
+N
+N
+Y
+Y
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+Y
+Y
+
+Y
+Y
+Y
+
+Y
+Y
+Y
+
+Y
+Y
+Y
+
+N
+
+N
+
+Y
+
+N
+
+After getting results, click on the patent
+number or title for bibliographical information
+and abstract. For full text (claims, abstract,
+drawing and specifications) click the buttons
+for claims bibliographic information, drawing,
+etc.
+3. World
+Intellectual
+Organisation
+(WIPO):
+Cooperation Treaty (PCT)
+
+Property
+Patent
+
+In PCT website (http://pctgazette.wipo.int
+or http://ipdl.wipo.int) user may register as a
+guest user, and after that he may search by
+applying login ID and password. Total number
+of PCT member status was 115 as on
+October 15, 2001). The database is available
+from 1981. This site is available in French,
+Spanish, English languages (See figure 6 for
+search page). It also provides EFS via
+internet.
+There are three types of search in PCT:
+
+DESIDOC Bulletin of Inf Technol, 2003, 23(4)
+
+11
+
+Results must contain: Any of these words
+User may also use the wildcards for
+truncation of the words e.g., Detect* (see
+Appendix - II)
+(c) Structured Search Page
+
+Figure 6:PCT (WIPO)
+search page
+
+patent
+
+database
+
+(a) Advanced Search
+In advanced search, first of all select the
+database from the Search list. After that there
+are two button, ‘All’ and ‘Week of’ button. 'All'
+button will search the entire database and
+'Week of' button will allow to specify a week to
+search. Enter your query into the Text box
+labeled ‘Query’. User must know about the
+field code which is mentioned in the website
+and is useful for the advanced search. Also
+one may select the results ranked by
+selecting either the ‘Chronologically‘ or By
+Relevance’. Select display formats using the
+Presentation. Press the Search button.
+
+(b) Simple Search
+In simple search user may enter the term
+or terms (separated by spaces) into the box.
+Choose any one option from drop down menu
+which are ‘All of these words’, ‘Any of these
+words’ and ‘This exact’.
+Then click on the Search button.
+Search for:
+12
+
+Structured Search provides a simplified,
+two-term search interface to the PCT
+Database. Enter a Keyword or Phrase in the
+box labeled Term 1. Select what field to apply
+Term 1 to from the menu labeled Field 1.
+Select Boolean operator from the menu
+labeled Operator between the two Term
+Boxes. Enter a second term in the box
+labeled Term 2. Select what field to apply
+Term 2 to from the menu labeled Field 2 press
+the Search button.
+
+In PCT website there are some things to
+note that is:
+search is not case-sensitive.
+n The
+(searching for ‘Turbine’ or ‘turbine’ will
+produce the same results)
+n The Refine Query box uses the same
+search syntax as the PCT Gazette search
+page. The refined search is automatically
+conducted in the same database as the
+original
+search.
+ET/Erbium
+AND
+ET/Doping AND ABE/"Gain Flattening"
+n The Start At box allows one to enter a
+number to skip to in your search results
+list. For long search results lists, entering
+'250' in the Start At box is easier than
+hitting the 'Next 50 Hits' button 5 times.
+4. Canadian Intellectual Property Office
+(CIPO)
+CIPO (http://patents1.ic.gc.ca/) database
+allow user to access over 75 years of patent
+descriptions and images. One can search,
+retrieve and study more than 1,400,000
+patent documents (Figure 7). CIPO hosts the
+Canadian patents database that has
+Canadian patents information dating back to
+1920. Full patent images of all patents
+DESIDOC Bulletin of Inf Technol, 2003, 23 (4)
+
+(d) Advanced Search
+
+Figure 7: Search page for Canadian patent
+database
+starting from the Jan 1, 1920. Abstract and
+Claims are available in textual format from
+August 15, 1978. This site is available in
+French and English.
+
+In advanced search field name is available
+before the text entry box. Just enter search
+words in the text box. User can search
+through PCT or Non PCT documents, by
+default; the search is conducted through all
+patent documents. User may select the
+language and also do date search.
+After getting the results press on the
+patent title and see the full text of the patent.
+
+In Canadian sites patent search is divided
+into four categories
+(a) Basic Search
+In basic search, user may simply enter the
+search words or title and press the search
+button for process.
+Enter search words, e.g. Elevator, robot,
+twin-engine, smith john:
+(b) Number Search
+In patent number search User may simply
+enter the patent number and press the search
+button.
+Enter patent document number:
+Examples: 2172863, 2173965, etc.
+(c) Boolean Search
+In boolean search user may enter the
+search words or phrases according to their
+query in one or all text entry boxes. Select the
+patent fields to be searched with the selector
+to the right of each entry area. When using
+both areas, choose the boolean connector
+(OR or AND). User may also truncate their
+query by using the wildcards. Searcher may
+also narrow their search by specifying the
+time interval.
+
+DESIDOC Bulletin of Inf Technol, 2003, 23(4)
+
+13
+
+5. Japan Patent Office (JPO): Patent
+Abstract of Japan (PAJ)
+Japan Patent office is providing the patent
+information of Japanese patent only by their
+PAJ database (http://www1.ipdl.jpo.go.jp/
+PA1/cgi-bin/PA1INIT?1015432823879).
+User can retrieve more than 4 million
+patents from 1976 onward by keywords,
+publication numbers, etc. This site is also
+available in two languages English and
+Japanese. As shown in figure 8, basically
+there are two types of search technique (a)
+text search and (b) number search.
+(a) Text Search
+In text search user may search the
+applicant name, title of the invention and the
+abstract in first section, in second section he
+may search by date of publication of
+application and lastly by IPC number.
+
+"Electric Vehicle". The OR operation will be
+performed.
+n The maximum number of characters that
+can be entered is 200.
+n One letter word or Stopwords are not
+searchable.
+Enter the relevant keyword in the box.
+Kelvin
+Electric
+If multiple keywords were entered in one
+box, then the OR operation is performed.
+Electric Vehicles
+The AND operation is performed between
+the boxes.
+All documents containing the keywords in
+the Applicant, Title of invention or Abstract
+field hit.
+n Text search (Publication date)
+
+For publication date search there are four
+date range criteria:
+t Particular Date: If you want to find
+
+documents published on July 1, 1993
+Date
+
+19930701
+
+-
+
+19930701
+
+t Between the Date Range: If you want to
+
+find documents published between July 1,
+1993 and August 10, 1993
+Date
+Figure 8: Text search page of IPDL
+Japanese patent database PAJ
+n Text
+
+Search (Applicant,
+invention, Abstract)
+
+Title
+
+of
+
+In PAJ database, searcher may enter the
+search word to find documents relating to a
+particular applicant or technical subject, he
+may enter keywords that describe the
+applicant's name or the subject into the
+"Applicant, Title of invention, Abstract" boxes.
+The search will be performed within the range
+of the applicant's name, title of invention and
+abstract.
+n User
+
+can enter multiple keywords
+separated by a SPACE in one box like
+
+14
+
+19930701
+
+-
+
+19930810
+
+t After Specific Date: If you want to find
+
+documents published after July 1, 1993
+Date
+
+19930701
+
+-
+
+t Before Specific Date: If you want to find
+
+documents published before August 10,
+1993
+Date
+19930810
+n IPC
+
+User may enter the Japanese IPC number
+for this type of search.
+(b) Number search (Application/
+Publication/ Patent number)
+n Application/Publication Number
+
+DESIDOC Bulletin of Inf Technol, 2003, 23 (4)
+
+In PAJ databases, Before 1999, please
+use the 2 digits of the Japanese emperor's
+year, and after 2000, please use the 4 digits
+of the Gregorian year.
+Ø If User wants to search for a document
+whose application number is 000005 in
+1996,
+Ø
+
+08-000005
+
+If user wants to search for a document
+whose application number is 000005 in
+2002,
+
+Ø
+
+2002-000005
+
+Zeros that are placed at the beginning of
+each serial number to adjust the digits can
+be omitted to put serial number into the box.
+08-002001 -> 08-2001
+
+n Patent Number
+
+If user wants to search for a document
+whose patent number is 1435677 1435677
+n Number
+
+of appeal against examiner's
+decision of rejection
+
+Before 1999, please use the 2 digits of the
+Japanese emperor's year, and after 2000,
+please use the 4 digits of the Gregorian year.
+Ø
+
+If user wants to search for a document
+whose appeal number is 00002 in 1997,
+09-00002
+
+Ø
+
+If user wants to search for a document
+whose appeal number is 00002 in 2002,
+2000-00002
+
+Figure 9: Number search page of PAJ
+DESIDOC Bulletin of Inf Technol, 2003, 23(4)
+
+Ø
+
+Zeros that are placed at the beginning of
+each serial number to adjust the digits can
+be omitted to put serial number into the box.
+08-02001 -> 08-2001
+
+5. TECHNOLOGY INFORMATION,
+FORCASTING AND
+ASSESSMENT COUNCIL
+Technology Information, Forcasting and
+Assessment Council (TIFAC), an autonomous
+organization under Department of Science &
+Technology, Government of India, is working
+in the field of Technology information,
+Forecasting for the last one decade. It has a
+Patent Facilitating Cell (PFC), which is very
+active in patent related activities in India, also
+publishing a newsletter (Intellectual Property
+Rights Bulletin), advisory Services, Case
+studies.
+Database on Indian patents are now
+available with Patent Facilitating Centre on
+the CDROM discs. The databases relate to
+patent applications filed and patent
+applications accepted and notified for
+opposition. The CDROMs can be run on the
+Windows 95 and advanced versions. The
+databases are quite user friendly and
+equipped with latest search tools and logical
+operations. Value addition has been done in
+the databases to make the information easily
+accessible. The required information for the
+databases has been compiled from the
+Gazette of India Part III Section 2. Ekaswa-A
+and Ekaswa-B. Now Indian patent database
+
+Figure 10 (a): Ekaswa
+A
+for
+application search
+
+patent
+
+15
+
+REFERENCES
+1.
+
+2.
+3.
+
+4.
+5.
+Figure 10 (b): Ekaswa B for patent granted
+search
+is
+available
+on
+http://www.tifac.org.in/
+
+internet
+
+7.
+
+CONCLUSION
+Twenty years ago a preliminary search
+was often conducted by looking through
+abstracts in books and on microfilm. But in
+the last two decades patent abstract have
+been put into computer databases. More
+recently the full text and images of the recent
+patents have been put into computer
+databases as well. The paper has explained
+in detail the various techniques of the patent
+searching. The important patent sites such as
+USPTO, Espacenet, PCT database, PAJ
+database are described comprehensively
+along with their searching techniques. A query
+searching on the basis of patent number is
+possible which can help in locating the patent.
+The paper also lists out the patent sites where
+searches could be carried out without any
+cost involvement (Appendix -I).
+
+Contributors:
+
+6.
+
+at
+
+United State Patent and Trademark
+Office
+http://www.uspto.gov/
+European Patent Office
+http://ep.espacenet.com/
+Japan Patent Office
+http://www1.ipdl.jpo.go.jp/PA1/cgi-bin/PA
+1INIT
+World Intellectual property Organization
+http://pctgazette.wipo.int/
+Thomson & Thomson
+http://www.delphion.com/
+Canadian
+Intellectual
+property
+Organization
+http://patents1.ic.gc.ca/srch_bool-e.html
+Korean Intellectual Property Office
+http://211.173.78.101/
+
+8.
+
+State of Intellectual Property
+Organization
+http://www.sipo.gov.cn/
+9. Technology Information Forecasting
+Assessment Centre
+http://www.tifac.org.in/
+10. Rossco's WWW Corner
+http://www.tip.net.au/~rossco/psearch.ht
+m
+11. NIC (National Informatics Centre)
+http://patinfo.nic.in/
+12. Siddiquee, Q. An evaluation of internet
+as resource for information on patent and
+intellectual property rights (IPRs),
+INSDOC (CSIR), New Delhi, 2001.
+(Dissertation submitted to INSDOC, for
+the award of AIS)
+
+Mr. Qutbuddin Siddiquee, Project Staff (Info. and Doc. & IPR Div.), FITT, IIT
+DELHI, Hauz Khas, New Delhi.
+Mr. P Bhattacharya, Executive Consultant (Info. & Doc.), FITT, IIT DELHI,
+Hauz Khas, New Delhi.
+
+16
+
+DESIDOC Bulletin of Inf Technol, 2003, 23 (4)
+
+APPENDIX - I
+The following are list of patent sites, which are freely available:
+Delphion(IBM Intellectual Property Network
+http://www.patents.ibm.com/
+Esp@cenet - EPO
+http://www.european-patent-office.org/espacenet/info/access.htm
+US Patent Database - USPTO
+http://www.uspto.gov/patft/index.html
+Australian Patent Database - IP Australia
+http://www.ipaustralia.gov.au/patents/P_srch.htm
+Canadian Patent Database - CIPO
+http://patents1.ic.gc.ca/intro-e.html
+New Zealand Patent Database
+http://www.iponz.govt.nz/search/cad/DBSSITEN.main?p_access_no=&p_option=IPSEARCH
+Search the Gazette of Patents and Trademarks - HPO
+<http://www.hpo.hu/English/szkv/ekerform.cgi>
+TIFAC<
+http://www.tifac.org/>
+
+APPENDIX - II
+Wildcards and Boolean Operators used by patent websites
+Website
+Operator
+USPTO
+
+EPO
+
+SIPO
+
+AND, OR, AND NOT, XOR
+(either/or but not both)
+
+AND, OR, NOT
+
+OR, AND
+
+Wildcards
+
+$ : Truncate Any Number of Characters
+" " : Around several word of phrase matching
+* : Substitutes for a string of characters of any
+length
+? : Substitutes for zero or one Characters
+# : Substitutes for Exactly one Characters
+* : Truncate Any Number of Characters
+
+IBM/
+AND, OR, AND
+Delphion
+
+* : Truncate Any Number of Characters
+" ": Exactly One Character
+
+CIPO
+
+*: Specifies zero or more alphanumeric characters
+
+AND, OR, NOT, NEAR,
+ACCRUE
+
+? : Specifies one Alphanumeric
+
+WIPO
+(PCT)
+
+AND, OR, ANDNOT, XOR,
+NEAR (within 20 characters) () * : Any Number of characters to the right
+to indicateprecedence A @ - for
+exact phrase matching
+
+JPO
+
+AND, OR, OR-is implied
+between terms if no operator is
+used
+
+DESIDOC Bulletin of Inf Technol, 2003, 23(4)
+
+Automatic truncation - implied wildcard
+
+17
+
+

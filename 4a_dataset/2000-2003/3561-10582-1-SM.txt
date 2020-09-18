@@ -1,0 +1,1721 @@
+﻿DESIDOC Bulletin of Information Technology , Vol. 22, No. 2, March 2002, pp. 27© 2002, DESIDOC
+
+A Sketch of a Code for Developing Computer-Based
+Library Information Systems Based on Classified
+Catalogue Code of Ranganathan (Part - II)
+Madan Mohan Kashyap
+Abstract
+This paper proposes a code for developing library information systems or their
+databases for converging the techniques belonging to the domain library and
+information science and the domain of information technology for designing,
+developing and implementing computer-based library information systems and
+services. The paper explains briefly, various concepts relating to specifying
+conceptual schema of a library database; identify and describe the attributes and
+data elements of entities that are relevant or needed for creating the library
+database records; and finally examines and restates some of the rules of
+classified code.
+
+1. SELECT RULES OF CCC IN
+AMENDED FORM
+1.1 Types and Structure of Entries
+An entry has been defined by
+Ranganathan as ‘a unit-record in a card
+catalogue or printed list’ (cf., Ranaganathan’s
+CCC. 5th ed. Chapter FN. A main entry or
+book index entry of a bibliographic item of a
+classified catalogue generally consist of a or
+leading element or access element, such as
+name of an author, call number, specific
+subject statement, class number, title of a
+work, etc., followed by a complete or optimum
+bibliographic description about an item. We
+shall call this portion of main or book index
+entry as descriptive segment of the entry. The
+descriptive segment of an entry contains the
+primary bibliographic description of a
+bibliographic item and can be considered as
+basic or unit-record of a bibliographic item to
+be displayed on a computer screen or online
+catalogue or forming part of a main or added
+entry of classified catalogue.
+
+DESIDOC Bulletin of Inf Technol, 2002, 22(2)
+
+1.1.1 Definitions
+Entry: An entry is a unit-record that contains
+information (or data) about a bibliographic
+item on a card or displayed on computer
+screen. A bibliographic record displayed on a
+screen, in a card catalogue or documentation
+list that provides general or specific
+information about a bibliographic item or
+items.
+Specific entry/record: Entry or record
+providing information/data about a specific
+bibliographic item.
+General entry/record: Entry or record
+providing general information/data-not related
+to specific bibliographic item(s).
+Consolidated
+specific
+entry:
+Entry
+mentioning two or more specific bibliographic
+items.
+Consolidated general entry: Entry replacing
+two or more general entries.
+Basic entry/record: A unit-record giving
+complete or optimum primary information or
+data about a bibliographic item, presented in
+the form by which the item is to be uniformly
+identified and cited. It forms descriptive part
+3
+
+of main entry or book index/added entries of a
+bibliographic item in a card catalogue.
+Main Entry: Specific entry giving complete or
+optimum catalogue record of an item. All
+other entries—specific or general—relating to
+the item, are normally derived from the main
+entry.
+Book index entry: A specific added entry,
+additional to the main entry, by which an item
+is represented. It contains an alternative
+access element under which a bibliographic
+item may be searched, followed by the
+complete or optimum bibliographic description
+of the item.
+Analytical entry: An entry for a part of or
+independent contribution in an item (host
+document) for which a comprehensive entry is
+made referring to it locus that is, the host
+document and the place of occurrence in it.
+Cross reference index entry: General
+added entry referring from one word or set of
+words to another synonymous words or set of
+words. See and See also entries.
+Subject entry: Entry giving information about
+subject.
+Specific subject entry: Subject entry that
+mentions a bibliographic item in which subject
+is treated.
+Class index entry: Subject entry that refers
+from the name of a class to its class number.
+
+1.2
+
+Sources of Information for
+Data Entry
+
+The information found in the title page of
+an item and its over-flow pages should be the
+chief source of information for data entry in an
+electronic record or an entry of a card
+catalogue (excluding its leading section). It
+implies that the choice, rendering and
+description of various bibliographic data
+elements should be the reproduction of
+information exactly provided on the title-page
+of bibliographic item, modified according to
+prescribed rules, utilising, if necessary, any
+relevant information given in the overflow of
+the title page. In case of access elements, as
+in the case of variant names of an author
+(personal or corporate author), collaborators,
+subject headings, etc., the data to be entered
+and rendered according to the prescribed
+rules and based on an authority list
+maintained within a library system.
+4
+
+1.3 Organisation of Bibliographic
+Description in a Main Entry or
+Book Index Entries
+One can refer: CCC-chapter FQ: sections
+of entry and IS: 2381 - 1978. The description
+about a bibliographic item in a main entry or
+book index entry (specific added entry) in a
+card catalogue is divided into two broad
+segments:
+(i) Leading segment
+(ii) Descriptive segment
+In addition to these segments, the feature
+heading segment shall also constitute as a
+component of a bibliographic list or printed
+catalogue.
+
+1.3.1 Leading Segment
+Leading segment of a main or added entry
+is to consist of an access element-call
+number, class number, name, term, code,
+etc., under which bibliographic items are
+organised in a card catalogue and accessed
+by users. The access element constitutes the
+leading part of a main or book index entry and
+is followed by the descriptive segment
+containing descriptive information about a
+bibliographic item.
+Access elements
+constitute search elements and form part of a
+dictionary or inverted file of an online
+catalogue or bibliographic database. For
+example, call number of a monograph, or
+class number of a periodical publication
+constitute component of the leading section of
+a main entry of the classified part of a
+classified catalogue. Name of an author,
+collaborator, and subject heading, etc. form
+the leading section of a main entry in a
+dictionary catalogue or a book index entry in a
+classified catalogue.
+
+1.3.2 Descriptive Segment
+A descriptive segment of a main entry or
+book index entry that contains detailed
+descriptive information about a bibliographic
+item and consist of the following sections
+containing values of specified data elements:
+(refer CCC - Chapter FQ):
+DESIDOC Bulletin of Inf Technol, 2002, 22 (2)
+
+(a) Heading section
+The heading section is the leading part of
+a basic-entry or unit-record.
+(i) In case of a monograph heading section or
+a contribution in a monograph, heading
+section consists of name of an author or
+collaborator, or names of two joint authors
+or joint collaborators.
+(ii) In case of a serial, heading section consists
+of title of the serial, and sponsor, if it is not
+part of the title.
+(b) Title Section
+The title section of a basic-entry or
+unit-record consists of title of the bibliographic
+item followed by the statement of
+responsibility.
+(c) Publication Section
+The publication section is to comprise of:
+(i) Volume and/or part, if the entry or record
+contains description of a specific volume
+or part of the multi-volume publication,
+followed by colon (:), space and title of
+the specific volume
+(ii) Edition number or other specification of
+edition. (edition number need not be
+mentioned in the case of the first
+edition)
+(iii) Year of publication of the specific volume
+or part of the multivolume item, or
+single-volume item
+(iv) Name(s) of publisher(s) followed by
+comma (,) space and places of
+publication.
+(d) Physical Description Section
+This section is to comprise of:
+Extent of the item i.e.,
+Number of physical units followed by
+number of pages in circular brackets, if
+multi-parts/volume item
+Number of pages (collation), with a “+”
+inserted between the different pagination
+and the information about unpaged
+plates, maps an other items, if
+single-part
+(ii) Other physical data-other than extent
+and dimension
+(iii) Dimensions
+(iv) Accompanying
+material
+(loose
+attachments)
+(v) International standard number(s),
+including terms of availability price (i.e.,
+(i)
+
+DESIDOC Bulletin of Inf Technol, 2002, 22(2)
+
+price, etc.) terms of availability, if no
+standard book number.
+(e) Periodicity Section
+The periodicity section of a serial is to
+consist successively of frequency of the serial
+followed by full stop and chronological
+designation (the term V/No followed by the
+number of first issue; a dash; some space or
+number
+of
+last
+volume/year
+of
+commencement; a dash; some space or year
+of last issue.
+(f) Locus Section
+This section is to consist of:
+Connecting word, such as ‘In‘ or other
+equivalent, and following items of
+information of the host document
+(ii) Heading (name(s) of the author(s)), in
+case of monograph
+(iii) Title of the host monograph or serial
+along with the name of sponsor - may be
+in abbreviated form
+(iv) Volume number, part/issue number
+(v) Edition of monograph
+(vi) Year, date of publication
+(vii) Publisher, place of publication
+(viii) Specification of place of the occurrence
+of matter referred to in its host
+document, that is, the place of
+occurrence of the micro document in a
+serial, a monograph or web pages. The
+matter referred to can be an article
+published in a serial, a contribution to a
+composite monograph or web pages, a
+chapter, a section or a paragraph
+forming part of a monograph.
+(g) Series Section
+(i)
+
+This section is to consist of information or
+note(s) relating to any of the following:
+(i) Series, an interdependent series (i.e.,
+series and subseries), or two or more
+independent series and/or two or more
+interdependent series
+(ii) Thesis or dissertation note
+(iii) Pseudo-series note.
+(h) Holdings Section
+This section is to consist of statement
+such as, “This library has: V1-31; 1931-1961
+or V1-C; 1931-C (i.e., C ontinuously being
+received from V1;1931). Gaps: V2;1932.
+Incomplete Volumes: V5; 1936.
+5
+
+(i)
+
+General Note Section
+
+Note about special features or formats of
+the item, about bibliographical relationship
+with other item or related work(s). This
+section is to consist of information or note(s)
+relating to other manifestation of same work
+in the form of translation, adaptation,
+abridgement, extract, reprint, reproduction,
+merger with other work, change in title, etc.,
+or having association with other work(s), and
+special features or formats of the item.
+(j)
+
+Content Note Section
+
+If the entry or record contains description
+about a single-volume monograph or single
+volume or part of the multi-volume
+monograph. or specific information about
+each volume of multi-volume set of a
+monograph, if the entry or record contains
+description of about a set of a multi-volume
+monograph. (e.g., the description may consist
+of - volume number (e.g., V1): Special title of
+the volume, statement of responsibility.
+Edition and/or year of publication, if different
+for the volume.
+(k) Annotation Section
+This section is to consist of annotation,
+synopsis or abstract of the work or document.
+(l) Unique Identifiers Section
+This section is to consist of call number
+and accession number of the item, and
+master file number (MFN) of the item’s record
+in the computer files.
+(m) Tracing Section
+This section is to consist of information as
+to what additional entries have been made for
+the item, viz., (1) Cross Reference Entries, (2)
+Cross Index Entries, (3) Book Index Entries,
+and (3) Cross Reference Index Entries.
+
+1.3.3
+
+Feature Heading Segment
+
+The feature-heading segment shall consist
+of feature heading at the top of a printed list
+or list bibliographic records displayed on a
+computer screen.
+
+2. STRUCTURE OF BASIC-ENTRY
+OR UNIT-RECORD
+2.1 Single Monograph, Ordinary
+Composite Monograph and
+6
+
+Individual Volume of a
+Multivolume Monograph
+The basic-entry or a unit-record containing
+information or data about a single volume
+monograph, ordinary composite monograph
+or a volume of a multivolume monograph is to
+consist successively of the following items of
+information or data items. ( Refer CCC,
+Chapters FQ: Sections of Entry, MB & SE):
+(a) Heading consisting of name(s) of
+author(s)
+or
+collaborator(s)
+of
+monograph or title of a serial and
+sponsor, if name of sponsor is not part of
+the title
+(b) Title and associated statement of
+responsibility
+(c) Specific volume/part number: Author and
+title of the specific volume, if different
+from the set
+(d) Edition
+(e) Year of publication
+(f) Name of publisher(s) and place(s)
+(g) Extent of the item
+(h) Other physical data - other than extent
+and dimension
+(i) Dimensions
+(j) Accompanying
+material
+(loose
+attachments)
+(k) International
+Standard
+Number(s),
+including terms of availability (i.e., price
+etc.), or terms of availability (i.e., price,
+etc.), if no standard book number
+(l) Series note
+(m) Bibliographical relationship note or
+related works note, giving the names of
+associated documents, change of title
+note, etc
+(n) Content note, giving contents of the
+monograph
+(o) Annotation or abstract of the work
+(p) Unique identifiers, namely: Call number
+and accession number of the item, and
+MFN of the item’s record in the computer
+file
+(q) Tracing elements, namely, (a) cross
+reference entries, (b) cross index
+Entries, (c) Book Index Entries, and (d)
+Cross Reference Index Entries, giving
+Information as to what additional entries
+have been made for the item.
+
+DESIDOC Bulletin of Inf Technol, 2002, 22 (2)
+
+2.2
+
+A basic entry or unit-record of a serial is to
+consist of the following items of information or
+data items:
+(a) Heading consisting of title of the serial
+The name of sponsor, if any, within
+circular brackets, if it does not occur in
+continuation of the title on the title page
+(b) Edition
+statement
+within
+circular
+brackets
+(c) Name of publisher(s) and place(s) of
+publication
+(d) Extent of the item
+(e) Other physical data - other than extent
+and dimension
+(f) Dimensions
+(g) Accompanying
+material
+(loose
+attachments)
+(h) Periodicity
+(i)
+International standard number(s),
+including terms of availability (i.e., price,
+etc.), or terms of availability if no
+standard book number
+(j) Series Note, enclosed in circular
+brackets
+(k) Holdings statement (e.g., This library
+has: V1-31; 1931-1961 or V1-C;
+1931-C (i.e., continuously being
+received from V1; 1931). Gaps: V2;
+1932. Incomplete Volumes: V5; 1936.)
+(l) Notes regarding complexities of various
+kinds. (Refer CCC Chapter PA). For
+example, irregularity in publication,
+change
+of
+title
+and
+sponsor,
+amalgamation of two or more serials,
+splitting up into two or more periodical
+publications, etc.
+(m) Unique identifiers, namely: Class
+Number of the item and MFN of the
+item’s record in the computer file.
+
+2.3
+
+information of the host composite
+monograph/webpages
+(i) Heading of the host composite
+monograph/url of web pages
+(ii) Title of the host monograph/web
+pages domain/homepage
+(iii) Volume number
+(iv) Year/date of publication or date the
+web pages visited
+( v ) Publisher, and place of publication
+(vi) Specification of place of occurrence
+of the matter referred to, in the form
+of ‘P’, or ‘Sec’, or Part, or ‘Directory’
+or any other appropriate term
+followed by the number(s)
+concerned pages.
+
+Serial
+
+Contribution to a Composite
+Monograph/Web Page
+
+Refer
+to
+CCC,
+chapter
+NA62:
+contributor-index entry. A basic entry of a
+contribution to a composite monograph/web
+pages is to consist of the following items of
+information or data items:
+(a) Heading of the contribution consisting of
+name(s) of author(s) or collaborator(s)
+(b) Title of the contribution
+(c) Connecting word ‘in‘, ‘Available at‘ or
+equivalent and the following items of
+DESIDOC Bulletin of Inf Technol, 2002, 22(2)
+
+2.4
+
+Contribution to a Periodical
+Publication
+
+A basic entry of a contribution to a
+periodical publication/serial is to consist of the
+following items of information or data items:
+(a) Heading of the contribution in a serial
+consisting of name(s) of author(s) or
+collaborator(s)
+(b) Title of the contribution
+(c) Followed by the following items of
+information of the host periodical
+publication:
+(i) Title of the periodical publication/
+serial/web pages* along with the
+name of the sponsor if inseparable
+from the title, abbreviated according
+to IS: 2381 - 1978 [32]
+(ii) Volume number, issue number; a
+semicolon and space
+(iii) Date/month, year of publication; a
+semicolon and space
+(iv) Page(s)-first and last page in
+inclusive notation or specification of
+place of occurrence of the matter
+referred to.
+
+3. SINGLE-VOLUME MONOGRAPH
+AND INDIVIDUAL VOLUME OF A
+MULTI-VOLUME MONOGRAPH
+3.1 Main Entry
+A main entry a single-volume monograph
+(simple or ordinary composite) or an
+individual
+volume
+of
+a
+multivolume
+monograph (simple or ordinary composite), of
+the classified part of a catalogue or for online
+display of bibliographical record in classified
+7
+
+order is to consist successively of the
+following items of information or data items.
+(a) Call number-access element
+(b) Heading consisting of name(s) of
+author(s)
+or
+collaborator(s)
+of
+monograph or title of a serial and
+sponsor, if name of sponsor is not part of
+the title
+(c) Title and statement of responsibility
+(d) Specific volume/part number: Author and
+title of the specific volume, if different
+from the set
+(e) Edition
+(f) Year of publication
+(g) Name of publisher(s) and place(s) of
+publication
+(h) Extent of the item
+(i) Other physical data - other than extent
+and dimension
+(j) Dimensions
+(k) Accompanying
+material
+(loose
+attachments)
+(l) International standard number(s),
+including terms of availability price (i.e.,
+price, etc.) or terms of availability, if no
+standard book number
+(m) Series note
+(n) Bibliographical
+relationship
+notes,
+giving the names of associated
+documents, change of title note, etc.
+(o) Content note, giving contents of
+monograph.
+(p) Annotation or abstract of the work
+(q) Unique identifiers, namely: Call number,
+MFN of the item’s record in computer file
+(r) Tracing elements, namely, (a) cross
+reference entries, (b) cross index
+entries, (c) book index entries, and (d)
+cross reference index entries, giving
+information as to what additional entries
+have been made for the item.
+
+3.2
+
+Book Index Entry
+
+A book index entry or specific added entry
+single-volume monograph (simple or ordinary
+composite) or an individual volume of a
+multivolume monograph (simple or ordinary
+composite), of the classified part of a
+catalogue or for online display of
+bibliographical record in classified order is to
+consist successively of the following items of
+information or data items:
+(a) Access element-word entry.
+8
+
+Data items (b)-(q) are same as given in
+section 3.1. Data item (r) of section 3.1 is not
+to be included in this entry.
+
+4. RULES FOR CHOICE AND
+RENDERING OF ITEMS OF
+INFORMATION IN AN ENTRY
+We are suggesting the following changes
+that may be implemented and followed in the
+rules of CCC of Ranganathan for the choice
+and rendering of various items of information
+in an entry:
+The data elements shown in Italics in the
+above stated entry formats are optional in the
+sense that their contents may or may not be
+displayed or included in the entries of a
+printed list, in an entry of card catalogue or in
+a bibliographic record to be displayed on
+monitor.
+When the contents (or value) of a access
+element has one to one correspondence with
+the contents of the item of information
+heading then no data may be entered in the
+leading section of the book index entry to
+avoid repetition of same data in both the
+sections, while producing a printed list or
+catalogue cards.
+While bringing out a printed list, in a
+classified order, the leading section may
+contain feature heading in place of call
+number, and the group of records falling
+under a feature heading may be arranged in
+alphabetical order. However, information
+about the call number of a bibliographic item
+may be added at the end of an entry.
+Statement of responsibility part of title
+section shall contain the name(s) of author(s)
+in addition to Collaborators (refer CCC, chap,
+FC & FD). If the title page contains the names
+of three or more joint authors (both personal
+author and/or corporate authors) and/or
+collaborators, omit all but the first of each
+group of such authors and/or collaborators
+and add the term ‘and others’, to indicate the
+omission.
+Follow
+the
+Canon
+of
+Ascertainability, i.e., the information found in
+the title page of the bibliographic item and its
+over-flow pages should determine the choice
+and rendering of contents of this field at input
+DESIDOC Bulletin of Inf Technol, 2002, 22 (2)
+
+stage. However, we must generate the name
+of all authors and collaborators associated
+with a bibliographic item as access elements
+or create added book index entries.
+The names of all the personal authors,
+collaborators, corporate bodies and meetings
+(conferences,
+congresses,
+symposia,
+exhibitions, etc.), responsible for or contribute
+to the creation of the intellectual or artistic
+contents of a work contained in the item or its
+realisation, may be entered for the purpose of
+generating book index entries (i.e., added
+entries or searchable term), in their respective
+fields, which must be defined in addition to
+the heading field. The data values of the
+heading field need not be extracted to built
+dictionary of searchable terms for a database.
+Heading field shall be treated as local field
+and the names of
+personal authors,
+corporate
+authors,
+pseudonyms,
+collaborators, title, subject headings (treated
+as headings) may be displayed as per CCC
+rules in bold letters. The names of personal
+authors or collaborators may be displayed or
+printed in bold letters in the form
+Ranganathan, S R not in the form
+RANGANATHAN (S R).
+We find that the CCC allows entering the
+name of two authors - personal or corporate
+or collaborators in the Heading Section, or the
+name of one principle author or collaborator, if
+a work is authored by more than three
+authors or collaborators. AACR-II allows up to
+one author.This is an old practice and
+perhaps followed keeping in view the
+convenience of representing the information
+about authors in a printed bibliographic list or
+catalogue cards as well as for remembering
+or recalling the name or names of authors of
+a document (One can not remember names
+of all authors. It is however recommended
+that the names of all the personal authors
+responsible for or contribute to the creation of
+the intellectual or artistic contents of an
+independent contribution in a bibliographic
+item (i.e., article published in a serial or a
+contribution in a composite monograph), or its
+realisation, may be entered as heading (This
+practice is followed by the scientist while
+
+DESIDOC Bulletin of Inf Technol, 2002, 22(2)
+
+citing the articles, etc., in their works for
+obvious reasons).
+It is also desirable to enter names of
+authors and collaborators (persons, corporate
+bodies, meetings, etc.) in such a manner that
+we can generate search terms in all possible
+access forms. Very often, the names of
+persons are rendered different manners by
+different cataloguers. Electronic catalogue
+environment enables us to generate, with
+least efforts all the possible forms. The rule
+and directions provide by CCC and/or
+AACR-II for rendering the name of persons
+belonging to different cultures, region and
+locality, institutions, geographical name, etc.
+may be used to provide every possible
+access approach in a online catalogue. For
+example:
+Case I
+If the names of the authors say- Manjit
+Kaur, Man Mohan Singh, Ram Kumar are
+rendered (or entered) in bibliographic records
+by a cataloguer in the form
+^aKaur^bManjit
+^aKumar^bRam
+^aSingh^bMan Mohan
+Treating Kaur, Kumar, and Singh as entry
+elements, and to print or display the names in
+the form , as shown below:
+Kaur, Manjit
+Kumar, Ram
+Singh, Man Mohan
+Then we must generate additional access
+points in the form:
+Manjit Kaur
+Ram Kumar
+Man Mohan Singh
+Case II
+If the names of the authors say- Manjit
+Kaur, Man Mohan Singh, Ram Kumar are
+rendered (or entered) in bibliographic records
+by a cataloguer in the form:
+^aMan Mohan Singh
+^aManjit Kaur
+^aRam Kumar
+To displayed or print them in the form, as
+shown below:
+9
+
+Man Mohan Singh
+Manjit Kaur
+Ram Kumar
+Then it is desirable that we must make
+additional entries in the form:
+^aKaur^bManjit
+^aKumar^bRam
+^aSingh^bMan Mohan
+To generate additional
+elements in the form:
+Kaur, Manjit
+Kumar, Ram
+Singh, Man Mohan
+Alternatively
+
+access/search
+
+We ignore the concept of entry element
+and treat the name of a person constituting of
+three parts of the name or data elements,
+namely, ^aFirst part of the name, ^b Middle
+part of the name, ^cLast part of the name and
+enter the names of persons in the form:
+^ aMan ^bMohan^c Singh
+^ aManjit ^cKaur
+^ aRam^cKumar
+^aG.^bC.^c Chowdhury
+^ aKondanda ^b Ramaiah^ cChenapati
+It may be observed in the name listed
+above the entry elements are:
+Man Mohan Singh
+Manjit Kaur
+Ram Kumar
+Chowdhury
+Ramaiah
+and as these name can be rendered in an
+entry a headings, in the form:
+Man Mohan Singh
+Manjit Kaur
+Ram Kumar
+Chowdhury, G. C.
+Ramaiah, Kondanda Chenapati
+We can conveniently generate the
+following access/search elements from this
+type of input
+Chowdhury, G. C.
+Chenapati, Kondanda Ramaiah
+G. C. Chowdhury
+Kaur, Manjit
+Kondanda Ramaiah Chenapati
+10
+
+Kumar, Ram
+Man Mohan Singh
+Manjit Kaur
+Ram Kumar
+Ramaiah, Kondanda Chenapati
+Singh, Man Mohan
+Case III
+The names of the corporate bodies and
+titles of serials as per CCC rule may be
+entered in the form shown below:
+Data Entry Format
+^aUniversity
+of
+Delhi^6Department
+of^2Library and Information Science
+^aHimachal
+Pradesh^2District
+Court^c(Dharamshala)
+^aIndia^2Governor
+General^cC
+Rajagopalachari
+^aIndia^6Ministry of ^2Labour ^3Labour
+Bureau
+^aMadras^1City^2Mayor^cS Satyamurty
+So that the heading or the names of the
+corporate bodies and title of serials are
+printed or displayed as in the form shown
+below:
+University of Delhi, Library and Information
+Science (Department of-)
+Himachal
+Pradesh,
+District
+Court
+(Dharamshala)
+India, Governor General © Rajagopalachari).
+India, Labour (Ministry of-), Labour Bureau.
+Madras (City), Mayor (S Satyamurty).
+Then we must also produce additional
+access points as shown below:
+University of Delhi, Department of Library and
+Information Science
+Department of Library and Information
+Science, University of Delhi
+Library and Information Science (Department
+of-), University of Delhi
+District Court (Dharamshala), Himachal
+Pradesh
+Himachal
+Pradesh,
+District
+Court
+(Dhramshala)
+Governor General © Rajagopalachari), India
+Labour Bureau, India, Labour (Ministry Of-)
+Labour (Ministry Of-), Labour Bureau, India
+India, Ministry of Labour, Labour Bureau
+Labour Bureau, India, Ministry of Labour
+Ministry of Labour, Labour Bureau, India
+Madras (City), Mayor (S Satyamurty)
+DESIDOC Bulletin of Inf Technol, 2002, 22 (2)
+
+Mayor (S Satyamurty), Madras (City).
+It is recommended that we do away with
+the practice dividing names into two parts,
+namely, entry element and other name
+element for rendering a name-of-person or a
+name-of-corporate body at the time of
+entering the data values of these attributes or
+items of information in an electronic record.
+The attribute ‘name-of-person’ may be
+deemed to constituted of data elements - a.
+first-name, b. middle-name , and c. last-name.
+Similarly the attribute name-of- corporate
+body may be deemed to constituted of
+number of data elements, namely, a. primary
+unit, level 1 (may be parent body), b. sub-unit,
+level 2, c. sub-unit, level 3., and so on.
+It is useful or functionally valuable to trace
+the various lingual forms or other variations in
+the name of a person, corporate body or
+meeting, as well as the alternative names
+(including pseudonym) used by a person or
+other people associated with the person and
+enter these to generate additional access
+points (book index entries or added entries).
+We find that the names of authors and
+collaborators, be a personal author or
+collaborator or a corporate body, are rendered
+and accessed in varying forms. Cataloguing
+codes also have different rules for the choice
+of the entry element, and the form and order
+of presentation of other name elements. It is
+therefor suggested that the name of an author
+or collaborator must be entered in heading
+field in the form as it appears on the item. It
+must also be displayed in the same form in
+printed catalogue or card as heading. The
+various other forms of presentations,
+alternative names by which a person or
+corporate body is known or referred, including
+the one actually given on the title page of a
+bibliographic item may be included to
+generate access elements in the repeatable
+fields defined for this purpose.
+
+5. ATTRIBUTES AND DATA
+ELEMENTS
+We know that various type of entities
+possess certain common attributes. For
+example, the attribute ‘name’ is an attribute
+that is commonly possessed by all entity
+DESIDOC Bulletin of Inf Technol, 2002, 22(2)
+
+classes. However, the terms used to refer to
+certain common or identical attributes of entity
+classes may differ, but mnemonically, they
+refer to similar attributes possessed by certain
+entity-types. For instance, we use the term
+title in place name or provide unique code to
+identify an entity-type document. The terms,
+such as, ‘title’, ‘name’, ‘height’, ‘weight’,
+‘price’, ‘date of birth/origin’, and so forth, all
+represent the attributes commonly possessed
+by various type of entities.
+Keeping above factor in mind and based
+on the identified attributes and data elements
+of the entity classes listed in appendix 1 to
+10, a general list of common fields and their
+constituent sub fields will be prepared. We will
+also designate the fields and sub field as
+mandatory or optional, and provide them
+unique codes called field tags and sub fields
+identifiers. This generalised list of fields and
+their codes can be used for purpose of
+defining the Field Definition Table (FDT) or
+database structure of library information
+systems.
+
+6. LIST OF FIELDS AND SUBFIELDS
+FOR DEFINING FDT OF A
+LIBRARY DATABASE
+The attributes or data elements of entities
+or objects about which we are interested to
+collect data for use are usually defined in the
+form of FDT or data dictionary of a database
+system. The related attributes and data
+elements of entities of interest constitute
+fields and subfields of their physical records in
+a database. In a FDT, for each field certain
+attributes are specified, e.g., a field tag (or
+address) and name (or label), sub field
+identifiers and their names or labels, the type
+of data or characters the field may accept,
+length or size of field, etc.
+An integrated database is made of records
+describing different types of entities. There is
+advantage in integrating the different
+databases for the different types of entities
+associated with an enterprise or organisation
+into single database. This can be done by
+listing in a single field definition table FDT all
+the fields required for creating records of
+different types of entities. We can shorten the
+11
+
+list by identifying the common one. For
+example, The field, say ‘200: Name of the
+entity’ can be commonly used to define the
+field for the entry of ‘title of a bibliographic
+Item’, ‘name of an employee’, ‘name of a
+library member’, ‘name of a institution’, name
+of library vendor, order no., and so for
+creating records of entity-types - bibliographic
+Item, library employee record, library
+member, institution, library vendor, library
+order, etc. For convenience of data entry,
+separate electronic worksheets can be
+prepared for each entity-type, one for creating
+monograph record, another for creating serial
+record, another for creating profile of
+institution, and so on. The common fields will
+appear in each of them.
+In an integrated database, there is no
+need to include information, redundantly, such
+as user’s name and address in the records of
+borrowed bibliographic Items on loan.
+Because, these facts can always be displayed
+or referred to at output stage by linking the
+records of bibliographic Items with the records
+of library users to whom items are loaned or
+issued. However, in certain cases we may not
+create distinct database or records of certain
+entity-types in an integrated database. For
+example, a library may decide not to create
+individual records of (or distinct database) of
+authors, collaborators and publishers of
+bibliographic documents. In such a case
+‘name of author’, name of collaborator’, and
+‘name of publisher’ may be treated as an
+attributes of the entity-type ‘bibliographic
+document’ acquired due to its relationship
+with these entity-types. However, in case of
+other entity-types, such as, vendor, bill, order,
+user, staff of a library system, etc., we may
+create different databases and inter link the
+records to get required relationship data,
+wherever necessary.
+A common list of fields and their subfields
+(data
+elements)
+that
+may
+constitute
+components of entity records, in an integrated
+library database, is given below: (This list is
+not comprehensive and provisional, and
+needs to be further extended and moulded).
+
+12
+
+6.1 Data Fields
+The fields, as defined below, are
+represented in numerical order by three-digit
+tag of; CCF: Common Communication
+Format 4,5,9,13,15,18,27 . The subfields or data
+elements that form the fields are represented
+by (a) to (z).
+
+« Field 150: Heading (mandatory and
+repeatable)
+
+It is a data field of a bibliographic record
+whose value is placed at the head of other
+descriptive information of a bibliographic item
+as displayed in a catalogue entry or in an
+output of bibliographic record electronically.
+The value of this field is not to be used to
+generate search terms or added entries
+(general definition). This field is to consist of
+the name(s) of author(s)/collaborator(s) (i.e.,
+a person(s) or corporate body (or bodies)
+chiefly responsible for the creation of the
+intellectual or artistic contents of a
+bibliographic
+item
+or
+its
+realisation.
+Alternatively, in some cases, it may consist of
+the title of a work or bibliographic item.
+The heading field is to be treated as a
+local field, whose contents may vary from one
+library to another, depending upon the
+catalogue code or practice being followed by
+a library for the choice and rendering the
+headings of a bibliographic item.
+Subfields:
+
+(a) Entry element: That part of a person’s or
+corporate body’s name under which
+it would be entered/displayed in a
+record in accordance with the
+practice of an agency preparing the
+record.
+Or
+Title of a bibliographic item/name of
+object /URL (uniform resource locator)
+of web page.
+(In case of non-bibliographic item or other
+objects, a given number, label, code, term or
+any other nomenclature such as bill number,
+order no., letter no., chair no., table no., etc. is
+to constitute component of this subfield ).
+(b) Other name elements: Other parts of
+the name of a person or corporate body
+excluding the entry element
+
+DESIDOC Bulletin of Inf Technol, 2002, 22 (2)
+
+(c) Qualifier or additional elements to name
+of a person (e.g., honorific titles
+represented by term such as: Mr., Mrs.,
+Sh., Ms., Kumari, Prof., Dr., and so on)
+(d) Date(s). A date or dates relating to
+genesis and end of entity. (e.g., year or
+date of birth of a person followed by
+dash ‘-’ and date of death. year/date of
+origin of a corporate body, or start date
+of conference/ meeting followed by dash
+‘ - ‘ and end year/date, etc.)
+(e) Role: A word or phrase designating the
+role of the corporate body or conference
+Location (country) of corporate body/
+meeting/conference
+(f) Number of meeting
+(g) Individualising element
+(h) Name of chairperson of a commission
+(i)
+Pseudonym of person
+(j)
+Acronym/Abbreviated form of a name
+(k) Role, a word or phrase designating the
+role of the entity
+(l)
+The term ‘and others’ or ‘et al’.
+« Field 200: Name of entity (mandatory
+and not repeatable)
+This field is to consist of name of the entity
+by which it is known or identified and other
+specifications (details) necessary for its
+unique identification.
+The name, number, title of a work, label,
+code, term or any other nomenclature by
+which the entity is identified is to constitute
+component of this field along with other
+distinguishing elements. For example, title of
+a bibliographic document appearing on its title
+page is to constitute component of this field or
+invoice number for entity-type invoice.
+Subfields:
+
+(a) First part of the name of a person or
+corporate body
+Title of a document
+Name or unique code/number of objects
+(b) Middle part of the name of a person or
+corporate
+(c) Last part of the name of a person or
+corporate body, including the name of
+personal or corporate author chosen as
+heading
+(d) Qualifier or additional elements to name
+of a person (e.g., honorific titles
+represented by term such as: Mr., Mrs.,
+Sh., Ms., Kumari, Prof., Dr., and so on)
+DESIDOC Bulletin of Inf Technol, 2002, 22(2)
+
+(e) Date(s). A date or dates relating to
+genesis and end of entity. (e.g., year or
+date of birth of a person followed by
+dash ‘-’ and date of death. year/date of
+origin of a corporate body, or start date
+of conference/ meeting followed by
+dash ‘ - ‘ and end year/date, etc.)
+(f) Location
+of
+corporate
+body/
+meeting/conference
+(g) Number of meeting
+(h) Individualising element
+(i) Pseudonym of person
+(j) Acronym/Abbreviated form of a name
+(k) Role, A word or phrase designating the
+role of the entity
+(l) Language of title of the bibliographic
+item
+(m) Script if title of bibliographic item.
+« Field 230: Variant names of the entity
+(mandatory and repeatable)
+This field is to consist of all the alternative
+names the entity for which it is useful to
+provide access. The value of each repeated
+field is to be used to generate access point or
+search elements under which record of the
+entity may be searched.
+Subfields:
+
+(a) First part of the name of a person or
+corporate body
+Title of a bibliographic item
+(b) Name or unique code/no. of other
+objects
+(c) Middle part of the name of a person or
+corporate body
+(d) Last part of the name of a person or
+corporate body
+(e) Qualifier or additional elements to name
+of a person (e.g., honorific titles
+represented by term such as: Mr., Mrs.,
+Sh., Ms., Kumari, Prof., Dr., and so on)
+(f) Date(s)-relating to genesis and end of
+entity. (e.g., year or date of birth of a
+person followed by dash ‘-’ and date of
+death. year/date of origin of a corporate
+body, or start date of conference/
+meeting followed by dash ‘-‘ and end
+year/date, etc.)
+(g) Location
+of
+corporate
+body/
+meeting/conference
+(h) Number of meeting
+(i) Individualising element
+(j) Pseudonym of person
+(k) Acronym/abbreviated form of a name
+13
+
+(l)
+
+Role, a word or phrase designating the
+role of the entity.
+« Field 300: Name of person associated
+with the entity
+
+This field is to consist of name(s)
+person(s) associated with the entity, and
+whose independent record(s) do not exit in
+the integrated database. For example, In a
+bibliographic record this field can be used to
+represent the name(s) personal author(s) and
+collaborator(s) of a work or bibliographic item
+and their variant names (i.e., alternate names
+or forms of names, by which an author or
+collaborator has been known). The value of
+each repeated field is to be used to generate
+access point or search elements under which
+a bibliographic record may be searched, and
+to generate added entries for a card
+catalogue.
+Similarly, while creating record of
+entity-type: library employee, library member,
+record this field can be used to represent the
+names of parents, children and other relations
+of concerned entity. Name of a guide of a
+research scholar, Originator of an invention,
+manager/chief of a unit, and so forth may
+form components of this field. This field shall
+be mandatory and repeatable in case of a
+bibliographic record, optional and repeatable
+in all other cases.
+Subfields:
+
+(a) First part of the name of a person
+having relationship with the entity
+(b) Middle part of the name of a person
+(c) Last part of the name of a person
+(d) Additional element to name (honorific
+title represented by term such as: Mr.,
+Mrs., Sh., Ms., Kumari, Prof., Dr., etc.
+(e) Year/date of birth and death of a person
+of a person
+(f) Role, a word or phrase designating the
+function, association or role of the
+person in relation to associated entity.
+For example, Ed., Tr., etc.; or father,
+mother, son daughter, etc.; or employer,
+manager, employee, guide; project
+director, etc.
+« Field 310: Name of corporate body
+associated with the entity
+A corporate body, with whom an entity may
+have relationship can be a government, an
+14
+
+institution, an organisation, association,
+business enterprise, or a group of persons
+identified by particular name .
+While creating a record of a bibliographic
+item this field is to consist of name(s) of a
+corporate body or bodies responsible-for or
+contributing-to the creation of the intellectual
+or artistic contents of a work contained in the
+bibliographic item or its realisation and
+elements of specification (detail). It shall
+comprise of all the names of the corporate
+bodies associated with a bibliographic item,
+as an author, collaborator, or sponsor, and
+their variant names (i.e., alternate names or
+forms of names, by which they have been
+known). In addition, the value of each
+repeated field is to be used to generate
+access point or search element under which
+record may be searched, or to generate
+added entries for a card catalogue.
+This field can also be used to represent
+the names of corporate bodies with whom the
+entity has relationship, and whose records do
+not exit in the integrated database. For
+example, names of associations/institutions a
+person is or has been member/employee may
+be represented in this field in absence of their
+records in the integrated database.
+This field shall be mandatory and
+repeatable in case of a bibliographic record,
+optional and repeatable in all other cases.
+Subfields:
+
+(a) First part of the name of corporate body
+higher level
+(b) Middle part of the name of corporate
+body - middle level
+(c) Last part of the name corporate body lower level
+(d) Additional element to name/qualifier
+(e) Year/date of origin and closer of a
+corporate body
+(f) Abbreviated form, if any
+(g) Individualising element (location)
+(h) Role, type/category of organisation: A
+word or phrase designating the role of
+the corporate body (e.g., sponsorship,
+professional association; trade union)
+(i) Address
+(j) Designation and name of the Head
+
+DESIDOC Bulletin of Inf Technol, 2002, 22 (2)
+
+(k) In what capacity one is associated with
+the body (e.g., as life member or
+ordinary member)
+(l) Since when and up to when one shall
+be associated with the body (i.e., start
+and possible end date of association)
+(m) Special roll in the body (e.g., member
+executive body)
+(n) Membership fee and type - life, annual
+(o) Date membership payment is due.
+« Field 320: Name of conference or a
+meeting associated with the entity
+(mandatory and repeatable)
+Conference or meeting is a generic term
+for any group meeting occasionally or at
+regular interval; it covers congresses,
+symposia, diplomatic conferences, festival,
+fairs, exhibitions, expeditions, etc. This field
+shall constitute of the name(s) of a
+conference(s) or meeting(s). For example, a
+conference or meeting may be responsible-for
+or contributing-to the creation of the
+intellectual or artistic contents of a work
+contained in the bibliographic item or its
+realisation. In this case, the field shall contain
+the name of one conference, or names of two
+or more conferences associated with a
+bibliographic item as an author, collaborator,
+or sponsor and their variant names (i.e., its
+alternate names or forms of names, by which
+it has been known). The value of each
+repeated field is to be used to generate
+access point or search elements under which
+record may be searched. Each entry can also
+be used to generate added entries for a card
+catalogue.
+Subfields:
+
+(a)
+(b)
+(c)
+(d)
+(e)
+(f)
+(g)
+(h)
+
+«
+
+Name of a conference
+Starting and last date of conference
+Location of conference/meeting
+Number of meeting
+Abbreviated form of the name
+conference, if any
+Role of the body in bibliographic item
+In what capacity the entity is
+associated with the body
+Special roll of the entity in the body.
+Field 430: Address/location of entity
+(optional and repeatable)
+Subfields:
+
+(a) Building /institution
+DESIDOC Bulletin of Inf Technol, 2002, 22(2)
+
+(b)
+(c)
+(d)
+(e)
+(f)
+(g)
+(h)
+(I)
+(j)
+(k)
+(l)
+(m)
+(n)
+(o)
+(p)
+(q)
+
+Street, locality
+Geographical location/ village/town/city
+Block, taluk/tehsil
+District, region
+State/province
+Country
+Postal/zip code
+Post office box
+Telephone number
+Mobile telephone number
+Pager number
+Fax number
+Telegram address
+Telex
+E-mail address
+Web pages (URL) address.
+« Field 448: Date and place of
+genesis/birth/start, etc. of an entity
+(mandatory and not repeatable)
+Subfields:
+
+(a) Date of genesis/origin/creation/birth/
+start of an entity
+(b) Place/location of genesis/origin/
+creation/birth/start
+(c) Reference number/title of the record
+(i.e., document, certificate, etc.) about
+the genesis/origin/creation/birth/start
+of the entity and date
+(d) Name of authority/official/person, etc.,
+which created/built the record/document
+or issued the certificate
+(e) Address of the authority/office/person
+(official), etc.
+« Field 449: Date and place of end/
+closer/cessation, etc., of an entity
+(mandatory and not repeatable)
+Subfields:
+
+(a) Date of end/closer/cessation, of an entity
+(b) Place of end/closer/cessation, etc.
+(c) Reference number/title of record/
+document/certificate, etc. regarding the
+end/closer, etc. of entity and date
+(d) Name of authority/office/person, etc.
+that created/built the record/document
+or issued the certificate
+(e) Address of the person/authority/office.
+« Field 705: Equipment and other
+resources of organisation or person
+(mandatory and repeatable)
+Subfields:
+
+(a) Name of entity owned (car, computer,
+house, land, gun, etc.)
+15
+
+(b)
+(c)
+(e)
+(f)
+(g)
+(h)
+(i)
+
+Make
+Model/year
+Number
+Date of purchase
+Cost
+Capacity, size, area, etc.
+Related purchase document’s title no.
+and other data
+(j) Issued to or in possession of (name of
+unit/person)
+(k) Date of issue
+(l) Discarded or written of on
+(m) By the authority of.
+« Field 706: Legal document relating to
+resources of organisation or person
+(mandatory and repeatable)
+Subfields:
+
+(a) Name of resource document (e.g.,
+telephone, passport, driving license,
+ration card, gas connection, electric
+connection, gun license, etc.)
+(b) Issuing authority
+(c) Name and designation of officer
+(d) Date of application
+(e) Initial charges paid
+(f) Receipt number and date
+(g) Recurring charges, period
+(h) Bill no. and date
+(i) Date of payment
+(j) Receipt number and date
+(k) Issue/start date - end date
+(l) Number of object
+(m) To apply for renewal on.
+« Field 800: Nationality (citizenship) of
+person, habitat of entity (mandatory and
+repeatable)
+Subfields:
+
+(a) Name of country of birth of person
+(nationality by birth). Place of root.
+Natural home, location, habitat of other
+objects
+(b) Name of country of the nationality of the
+person, present place, location or
+habitat of animals or physical objects
+(c) Status held by person/entity in the
+country of migration
+(d) Status in the country/entity of birth/origin.
+« Field 801: Gender of entity (mandatory
+and not repeatable)
+Subfields:
+
+(a) Sex (male/ female, etc.).
+16
+
+« Field 801: Language/dialect of entity
+(mandatory and repeatable)
+Subfields:
+
+(a) Name of language/dialect known
+(b) Proficiency (read writes or speaks)
+(c) Qualifier (e.g., mother tongue).
+« Field 802: Physical impediments and
+impairments of entity (mandatory and
+repeatable)
+Subfields:
+
+(a)
+(b)
+(c)
+(d)
+(e)
+
+«
+
+Name/type of impediment or
+impairment
+Degree/level of impediments or
+impairment
+Cause of impediment or impairment
+Special facilities or privileges required
+Special facilities or privileges offered by
+state.
+Field 803: Environmental/social
+impediments or disadvantages to
+entity (optional and repeatable)
+Subfields:
+
+(a) Name/type
+of
+impediment
+or
+disadvantages
+(b) Degree/level of impediments
+(c) Cause of impediment or disadvantages
+(d) Special facilities or privileges required
+(e) Special facilities/privileges offered by
+state.
+Field
+803: Hobby of person (optional
+«
+and repeatable)
+Subfields:
+
+(a) Name of hobby, field of interest
+(b) Inclination, talent, proficiency level
+(c) Additional facts (e.g. if hobby is reading
+and writing then mention subjects of
+interest).
+« Field 810: Educational qualification of
+person (mandatory and repeatable)
+Subfields:
+
+(a)
+(b)
+(c)
+(d)
+(e)
+(f)
+(g)
+(h)
+
+Standard/certificate/degree
+Examining body (university/board)
+Result date/year
+Roll no
+Marks
+Division
+Subject(s) of study and marks obtained
+Distinction.
+« Field 820: Experience of person
+(mandatory and repeatable)
+
+DESIDOC Bulletin of Inf Technol, 2002, 22 (2)
+
+A description of the post/jobs held by a
+person (service record of a person).
+Subfields:
+
+Subfields:
+
+(a)
+(b)
+(c)
+(d)
+(e)
+(f)
+(g)
+(h)
+(i)
+
+Name of the organisation served
+Address of the organisation
+Title of job/post
+Grade
+Service start and end date
+Charge/designation
+Designation and name of the head
+Work or responsibilities assigned
+Additional information, i.e., expertise
+gained, etc.
+(j) Reason for leaving or relinquishing the
+job (promotion resigned, retired, etc.)
+(k) Last salary drawn.
+« Field 821: Appointment and promotion
+components of a person (mandatory
+and repeatable)
+Subfields:
+
+(a)
+(b)
+(c)
+(d)
+(e)
+(f)
+(g)
+(h)
+
+Initial appointment - job/post title
+Appointment number and date
+Joining date
+Grade
+Next promotion/demotion - job/post title
+Order and date
+Joining date
+Grade.
+« Field 821: Promotion and transfer
+components (mandatory and repeatable)
+
+Contributor:
+
+A description of the promotion and transfer
+record of a person in an organisation.
+(a) Unit
+(b) Date of posting in the unit
+(c) Reason of posting (e.g., first
+appointment, promotion/ routine transfer)
+(d) Order number and date
+(e) Post assigned
+(f) Charge/designation
+(g) Date of joining the unit
+(h) Name and designation of unit head
+(i) Work or responsibility assigned
+(j) Date relieved from the unit
+(k) Reason of relieving (e.g., routine
+transfer, promotion, retirement, etc.).
+
+CONCLUDING REMARKS
+It is hoped that the topics discussed in this
+paper and the proposals made about the
+subject matter to be covered in the proposed
+code will be well received and critically
+examined by other experts in the profession.
+Possibly, some useful comments will be
+forthcoming, so that in due course of time,
+good amount of literature is available to us for
+bringing new and up to date Code for
+Developing
+Computer-Based
+Library
+Database Systems on the line of CCC of
+Ranganathan.
+
+Prof Madan Mohan Kashyap has retired from Dept. of Library & Information
+Science, University of Delhi. His residential address is 201 Kadambari Niwas,
+Kadambari marg, Sector-9, Rohini, New Delhi-110 085. Tele (R): 786 2699;
+e-mail: mmkashyap@bol.net.in; kashyap1@indiatimes.com
+
+DESIDOC Bulletin of Inf Technol, 2002, 22(2)
+
+17
+
+

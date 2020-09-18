@@ -1,0 +1,888 @@
+DESlDOC Bulletin of Information Technology, Vol. 20, Nos. 1&2, January & March 2000, pp. 29-36
+
+O 2000, DESlDOC
+
+Neural Networks and their Applications in Industry
+Dhruba J Sarma
+Confederation of Indian Industry, New Delhi
+and
+
+Susmita C Sarma
+Triune Projects Pvt. Ltd., New Delhi
+ABSTRACT
+The article looks at the necessity of artificial intelligence and more specifically
+neural computing systems in today's competitive business world. Some
+fundamentals of neural network architecture are discussed, followed by advantages
+of such networks. The domains of commercial applications of neural technology are
+highlighted. The various applications that neural networks have been put to and the
+potential possibilities that exist in a variety of civil and military sectors are
+tremendous. The national and international scenario and what neural technology
+holds for us in the future are also covered.
+
+1. INTRODUCTION
+
+define accurately. Patterns need to be
+recognised that are complex and imperfect.
+Nature is chaotic and we need something to
+decode this chaos.
+
+Over the past few years, technology has
+become very dynamic. It is fuelling itself at an
+ever increasing rate. Computers are a prime
+component of this whole revolution. Computers
+that can help fight diseases by designing new
+drugs, computers that can design better
+computers, computers that simulate reality and
+what not! This is a very exciting time for
+technology as the traditional boundaries are
+now becoming blurred.
+We often tend to think that computers can
+only decide on whether a statement is true or
+false. Such logical statements are then linked
+together to form a series of rules. To program a
+computer, all that is needed is to precisely
+define the problem, write a specification and
+use these rules. The program tells the computer,
+rule by rule, exactly what to do. But it is difficult
+to program a computer for morq '+~bjective'
+tasks, like predicting what the weaiher is going
+to be, or what the price of gold will be
+tomorrow. These tasks are in fact impossible to
+
+A different approach is needed to give
+computers
+more
+'human-like'
+abilities,
+capability to make judgements, guesses and to
+change opinions. We humans learn by example
+and do not need to see every examples to
+make a guess, a judgement based upon what
+we have been taught.
+
+'
+'
+
+With the growing emphasis on autonomy,
+intelligence and an increased amount of
+information required by businesses, traditional
+processing technology can only cope through
+faster hardware with more complex bespoke
+software. With this approach, some of the
+questions raised are:
+
+How long is it going to write this software?
+0 H o w many different versions for each
+variation are required?
+Having been written, how safe is it from bugs?
+--
+
+DESIDOC Bulletin of Inf Technol, 2000,20(1&2)
+
+---
+
+29
+
+The problem growing throughout the 1990s
+and into the millennium is that engineers no
+longer have the luxury in development to
+calculate all the algorithms or identify all the
+rules in these complex systems. In fact, most of
+these systems are so chaotic that doing so
+would be futile and prone to failure.
+Given the high stakes and intense
+competition within all areas of industry,
+intelligent business decisions are more
+important than ever. Even more important is the
+case for military applications. Data analysis
+plays an important role as a critical strategic
+weapon in business and operations of the
+armed forces (both peace-time and war-time).
+The inherent limitations of existing statistical
+technology makes normal data analysis a very
+tedious and often costly process-requiring
+assumptions, rigid rules, force fitting of data, as
+well as extensive trial and error experimentation
+and programming. Interpreted errors, biases and
+mistakes are introduced. Valuable competitive
+insights are lost. Technology based on artificial
+intelligence (Al) will soon become the only way
+to generate such systems economically.
+
+2. WHY ARTIFICIAL
+INTELLlGENCE/NEURAL
+COMPUTING?
+The rapid pace of change and a climate of
+competitiveness, in which the profoundly and
+speedily informed gain the advantage and
+demand a more incisive consideration and
+induction of emerging IT than has hitherto been
+the case.
+There are a range of Al technologies
+available now-each with its own strengths and
+weaknesses. These are:
+
+n Expert systems
+
+n
+n
+n
+n
+
+Fuzzy logic
+Case-based reasoning
+Neural networks
+Genetic algorithms
+
+3. NEURAL NETWORKS
+Neural computers are based on the
+biological processes of the brain (human neural
+systems). Terms like can learn brain-like,
+30
+
+massively parallel, learning machines and
+revolutionary have been used to describe
+neural computing. And these are true! It is not
+surprising that most industries believe that
+taking a neural approach will require special,
+expensive neural integrated circuits, big parallel
+computers, or very high powered computers.
+This is not true!
+Conventional computers concentrate on
+emulating human thought processes, rather
+than actually how they are achieved by the
+human brain. Neural computers, however, take
+an alternative approach in that they directly
+model the biological structure of the human
+brain and the way it processes information
+(although at a much simpler level). This
+necessitates a new kind of architecture, which,
+like the human brain, consists of a large number
+of heavily interconnected processing elements
+operating in parallel manner. Such an
+architecture is now both technically and
+commercially feasible to be deployed on a
+standard computer (from the laptop and
+desktop to the mainframe) and is certain to
+increase in general usage.
+Neural computing is a relatively new but
+rapidly expanding branch of computing whose
+origin dates back to the early 1940s. Though it
+has been largely overshadowed since the 1960s
+by conventional computing, it has experienced
+an upsurge in popularity in the late 1980s as a
+result of new developments in the field and
+general advances in computer hardware
+technology.
+Neural networks are mathematical models,
+originally inspired by biological processes in the
+human brain. They are constructed from a
+number of simple processing elements
+interconnected by weighted pathways to form
+networks. Each element computes its output as
+a non-linear function of its weighted inputs.
+When
+combined
+into
+networks, these
+processing elements can implement arbitrarily
+complex non-linear functions which can be
+used to solve classification, prediction or
+optimisation problems.
+
+3.1 Basic Theory
+In this Section, neural networks are
+considered from an analytical viewpoint, so as
+DESIDOC Bulletin of Inf Jechnol, 2000,20(1&2)
+
+function with no single circuit topology
+applicable to all problems, the same is also true
+for neural networks. The easiest to understand
+and most used architecture is the globally
+connected feed-forward network-sometimes
+called multilayer perception (MLP ), which is
+generally trained with the backpropagation
+of error algorithm, learning vector quantisation, radial bas$ function, Hopfield, and
+Kohonen, etc.
+
+to dispel any notions that neural networks are
+'magical devices'. In fact, a neural network is
+little more than an example of fairly specialised
+parallel processing architecture. A point which
+should be noted is that neural computing is not
+to be viewed as a competitor to conventional
+computing, but rather as a complementary
+technique. The
+most successful neural
+computing applications to date have been
+those which operate in conjunction with other
+computing techniques. For example, using a
+neural network to perform a first pass over a set
+of incoming data, then passing the results over
+to a conventional system for subsequent
+processing.
+
+Global interconnectivity means that all the
+neuron outputs of one layer connect (through
+their weights) to every neuron input in the next
+layer and only to these neurons. The inputs to
+the neurons on the input layer are from the
+external world. Such networks perform
+classification and optimisation operations very
+well. The neuron output values can be
+expressed mathematically, but due to the
+built-in non-linear operators, these equations
+provide little in the way of an intuitive feel for
+how neural networks perform their tasks.
+
+3.2 What is a Neural Network?
+Neural networks can be taught to perform
+complex tasks and do not require programming
+as conventional computers. They are massively
+parallel, extremely fast and intrinsically
+fault-tolerant. They learn from experience,
+generalise from examples, and are able to
+extract essential characteristics from noisy data.
+They require significantly less development time
+and can respond to situations unspecified or
+not previously envisaged. They are ideally suited
+to real-world applications and can provide
+solutions to a hos' of currently impossible or
+commercially impractical problems.
+In simple terms, a neural network is made
+up of a number of processing elements called
+neurons, whose interconnections are called
+synapses. Each neuron accepts inputs from
+eitl~erthe external world or from the outputs of
+other neurons. Output signals from all neurons
+eventually propagate their effect across the
+entire network to the final layer where the
+results can be output to the real world. The
+synapses have a processing value or weight,
+which is learnt during training of the network.
+The functionality and power of the network
+primarily depends on the number of neurons in
+the hetwork, the interconnectivity patterns or
+topology, and the value of the weights assigned
+to each synapse.
+
+3.3 Classification of Neural Networks
+There are a number of art~ficial neural
+networks (ANNs). lust
+as there are many ways
+to connect circuits to pqrftQm,_a specrf19
+DESIDOC Bulletrn of Inf Technol, 2000,20(1&2)
+
+There are some additional features for this
+type of network which generally apply to all
+neural networks, regardless of architecture.
+Firstly, a neural network tends to be
+over-specified, meaning that there are many
+more unknowns than equations describing the
+system. Secondly, usually there are many weight
+sets (perhaps an infinite number) that will solve
+the same problem. Lastly, the weight sets are
+generated from training algorithms and are not
+programmed like conventional algorithms. This
+training process relieves the designer of
+developing an algorithmic solution for the
+problem at hand.
+
+-
+
+Some ANNs are classified as feed-forward
+while others are recurrent (i.e., implement
+feedback) depending on how data is processed
+through the network. Another way of classifying
+ANN types is by their method of learning (or
+training), as some ANNs employ supervised
+training while others are referred to as
+unsupervised or self-organising. Supervised
+training is analogous to a student guided by an
+instructor. Unsupervised algorithms essentially
+perform clustering of data into similar groups,
+based on the measured attributes or features
+servlng as Inputs to the algor~thms. This is
+analogousto a student who derives lesson
+31
+
+totally on his or her own. ANNs can be
+implemented in software or in specialised
+hardware.
+
+4. ADVANTAGES O F NEURAL
+NETWORKS
+As seen already, neural computers have the
+ability to learn from experience, to improve
+their performance and to adapt their behaviour
+to new and changing environment. Unlike
+conventional
+rule-based
+systems,
+neural
+networks are not programmed to perform a
+particular task using rules. Instead, they are
+trained on historical data, using a learning
+algorithm. The learning algorithm changes the
+functionality of the network to suit the problem
+by modifying the values of the connection
+weights between processing elements. Once
+trained, the network interprets new data in a
+way that is consistent with the experience
+gathered during training.
+Neural networks can provide highly accurate
+and robust solutions for complex non-linear
+tasks, such as fraud detection, business
+lapse/churn
+analysis,
+risk
+analysis
+and
+data-mining. One of their main benefits is that
+the method for performing a task need not be
+known in advance; instead it is automatically
+inferred from the data. Once learned, the
+method can be quickly and easily adjusted to
+track changes in the business environment.
+
+A further advantage of neural networks over
+conventional rule-based systems and fuzzy
+systems is that, once trained, they are far more
+efficient in their storage requirements and
+operation; a single mathematical function can
+replace a large number of rules. An added
+benefit of this more compact mathematical
+representation is that it introduces a natural
+form of regularisation or generalisation. This
+makes neural systems extremely robust to noisy,
+imprecise or incomplete data.
+The time needed to develop a neural
+application is often less than that in a
+conventional approach, since the interaction
+between the analyst and the expert is
+minimised-there are no algorithms or rules to
+define. The scope and accuracy of the finished
+application is improved since the neural
+32
+
+computer can be exposed to many more
+examples than can be assimilated by a single
+human.
+Early criticisms relating to the lack of
+explanatory information on how a neural
+network performs its task have now been
+largely overcome. Techniques such as sensitivity
+analysis can be used to identify which input
+variables have the largest effect on a particular
+decision or prediction. Furthermore, neural
+networks can now be structured to incorporate
+prior expert knowledge and present results in a
+form that is meaningful to human users.
+
+5. APPLICATIONS OF NEURAL
+NETWORKS
+Artificial neural networks have become an
+accepted information analysis technology in a
+variety of disciplines. This has resulted in a
+variety of commercial applications (in both
+products and services) of neural network
+technology (The applications that neural
+networks have been put to and the potential
+possibilities that exist in a variety of civil and
+military sectors are tremendous.)
+Given below are domains of commercial
+applications of neural network technology.
+
+*
+
+Business
+0
+
+*
+
+Marketing
+Real Estate
+
+Document & Form Processing
+0
+
+Machine printed character recognition
+Graphics recognition
+
+0
+
+Hand printed character recognition
+
+o Cursive
+
+handwritten
+
+character
+
+recognition
+
+*
+
+*
+
+Finance Industry
+
+o
+
+Market trading
+
+0
+
+Fraud detection
+
+o
+
+Credit rating
+
+Food lndustry
+Odour/aroma analysis
+Product development
+DESlDOC Bulletin of Inf Technol, 2000,20(1&2)
+
+0
+
+*
+*
+
+Quality assurance
+
+Energy Industry
+0
+
+Electrical load forecasting
+
+o
+
+Hydroelectric dam operation
+
+o
+
+Natural gas
+
+Manufacturing
+Process control
+0
+
+*
+
+Quality control
+
+Medical & Health Care Industry
+
+o
+
+Image analysis
+Drug development
+
+.O
+
+*
+
+Resource allocation
+
+Science & Engineering
+
+o Chemical engineering
+
+o
+o
+
+*
+
+Electrical engineering
+Weather forecasting
+
+Transportation & Communication
+Some applications of naural networks are:
+
+5.1 Forecasting the Behaviour of
+Complex Systems
+It is a broad application domain for neural
+networks. Specific examples include: electric
+load forecasting, economic forecasting, and
+forecasting natural and physical phenomena.
+One of the recent applications being studied
+is the river-flow forecasting. It is an important
+application that can have significant economic
+impact. It can help in predicting agricultural
+water supply and potential flood damage,
+estimating loads on bridge, etc.
+
+5.2 Signal Processing
+Over the past decade or so, neural network
+approaches have been successfully combined
+with other signal processing techniques to
+produce a wide variety of applications. It can
+very well be argued that the commercial
+success of neural networks has been from its
+ready incorporation into other information
+processing approaches, such as pattern
+recognition and statistical inference, as well as
+symbolic processing.
+DESIDOC Bulletin of lnf Technol, 2000,20(1&2)
+
+5.3 Data Compression
+A class of neural networks called the backpropagation network (BPN) is useful in
+addressing
+diverse
+problems
+requiring
+recognition of complex patterns and performing
+non-trivial
+mapping
+functions.
+Data
+compression is a common problem in today's
+world. Specifically, one would like to find a way
+to reduce the data needed to encode and
+reproduce accurately a moderately high
+resolution video image, so that these images
+may be transmitted over low-to-medium
+bandwidth
+communication
+equipment.
+Although
+there
+are
+many
+algorithmic
+approaches to perform data compression, most
+of these are designed to deal with static data,
+such as ASCII text, or with display images that
+are fairly consistent, such as computer graphics.
+Because video data rarely contains regular,
+well-defined forms (and even less frequently
+contain empty space), video data compression
+is a difficult problem from an algorithmic
+viewpoint. On the other hand, a neural network
+approach is ideal for a video data-reduction
+application, because BPN can be trained easily
+to map a set of patterns from an n-dimensional
+space to an m-dimensional space. Since any
+video image can be thought of as a matrix of
+picture elements (pixels), the image can be
+conceptualised as a vector in n-space. If we
+limit
+the video
+to
+be encoded
+to
+monochromatic, images can be represented as
+vectors of elements, each representing the gray
+scale value of a single pixel.
+
+5.4 Paint Quality Inspection
+Visual inspection of painted surfaces, such
+as automobile body panels, is currently a very
+time consuming and labour-intensive process.
+To reduce the amount of time required to
+perform this inspection, one of the major US
+automobile manufacturers reflects a laser beam
+off the painted panel and on to a projection
+.screen. Since the light source is a coherent
+beam, the amount of scatter observed in the
+reflected image of the laser provides an
+indication of the quality of the paint finish on
+the car. In the past, inspection of scatter-pattern
+would have been performed primarily by
+humans, because conventional computer
+
+programming techniques that could be used to
+automate the observation and scoring process
+suffered from a lack of flexibility, and were not
+particularly robust.
+By using a backpropagation type of neural
+network to perform the quality-scoring
+operation, a system can be constructed that
+captures the expertise of human inspectors, and
+is relatively easy to maintain and update. To
+improve the performance of the system,
+algorithmic techniques can be coupled with the
+above approach to simplify the problem.
+
+results into practical applications, be they
+industrial, medical or otherwise. A similar
+approach needs to be adopted in India also. A
+list of major real-world applications for which
+neural network solutions have been developed
+by the Institute are:
+0 Prediction of rainfall based on radar images.
+0 Prediction of traffic flow on highways.
+0 Contributions to the control of rotary blood
+
+pumps.
+0 Identification of coronary artery disease from
+stress ECG.
+
+5.5 D N A Sequence Analysis
+
+0 Recognition of hand-written characters.
+
+In the 45 years since the discovery of DNA's
+helical structure, scientist have made great
+strides in exploring human DNA's structure and
+locating human genes. As a part of this effort,
+advanced recombinant DNA and gene-mapping
+techniques, developed over the last two
+decades, have led to an unprecedented effort to
+map and sequence the entire human
+genome-the collection of 1,00,000 human
+genes.
+
+0 Alarm detection in cardiotocograms (CTG)
+for foetal monitoring.
+
+The huge amount of data the human
+genome project (presently going on in the US
+with scientists all over the world participating)
+produced will require high performance
+computing and more intelligent computer
+algorithm for analysis and inference. Recently,
+the neural network model has been recognised
+as a promising Al technique because such
+approaches might well embody important
+aspects of intelligence not captured by symbolic
+and statistical methods.
+These knowledge-based neural networks,
+called expert networks in some cases, perform
+as well as human experts (and often exhibit
+characteristics of a traditional symbolic expert
+system).
+
+6. WORLD SCENARIO
+Many organisations are carrying out
+commendable work in the area. The Neural
+Network Group at the Austrian Research
+lnstitute for Artificial Intelligence, for example,
+has alwavs aimed at turning their research
+
+International Business Machines (IBM) has
+integrated neural network and A1 technology
+into software applications, such as data mining
+packages. Such techniques enable business
+users to sift through vast quantities of raw data
+to spot hidden trends or anomalies which might
+IBM's
+business
+otherwise
+be
+missed.
+intelligence and data mining software can
+mimic human thought when processing
+information called the verification model-or go
+beyond human logic to discover correlations
+and similarities between seemingly disparate
+data-called the discovery model.
+Before neural networks and artificial
+intelligence were used in business intelligence
+applications, companies lacked the ability to
+leverage information they were collecting in
+data warehouses. They were unable to connect
+consumer
+buying
+patterns,
+customise
+promotions to target a range of customers with
+different
+needs, or
+identify potentially
+fraudulent insurance claims based on past
+behaviour.
+Cadbury's saw its market share of the
+chocolate market slip from 33 per cent to 28
+per cent, but a business intelligence solution
+helped the company focus attention on those
+product lines that appealed to customers, and
+as a result Cadbury's market share is now much
+more.
+Neural computing and Al techniques also lie
+behind many of the sophisticated search
+engines and intelligent agents found on the
+DESlDOC Bulletin of Inf Technol, 2000,20(1&2)
+
+Internet and corporate intranets. Who can deny
+the fact that in business today, the ability to
+access the right information at the right time is
+absolutely critical! They are used in case-based
+reasoning tools such as those developed by
+Inference (California, USA) for intelligent
+problem solving in the help desk, customer
+support and other computer telephony
+integration packages.
+Other Al and neural intelligence systems are
+used for credit scoring and to help pinpoint and
+prevent fraud in areas as diverse as equity
+trading and cellular telephony networks.
+
+7. NEURAL NETWORKS- INDIAN
+.SCENARIO
+Lot of opportunities exist in the country for
+Al technologies, especially neural computing
+applications. Though most of the work is being
+done around robotics and expert systems, there
+are also people and organisations capable of
+developing neural system products. The
+potential sectors of application range from
+manufacturing, banking and finance, defence,
+telecommunications, pharmaceuticals to holiday
+industry.
+Substantial amount of work is being done at
+the Centre for Artificial Intelligence and
+Robotics (CAIR, Bangalore) and the Institute for
+Robotics and
+Intelligent Systems (IRIS,
+Bangalore). They have developed a neural
+network for optical character recognition. The
+project
+is
+complete
+and
+awaits
+commercialisation. IRIS is working on functional
+electrical simulation using neural networks to
+simulate the muscles of a handicapped person
+and allow him to walk.
+Scientists at the Indian Statistical lnstitute
+(Machine Intelligence Unit), Calcutta, have
+figured out computer simulated models, more
+advanced than human brain, for creating
+artificial entities more intelligent than present
+day systems in performing cognitive tasks. This
+project will have far reaching implications on
+medical research and robotics.
+
+8. COMPETITIVE EDGE
+The progress of neural computing industry
+worldwide is limited by a general lack of
+DESIDOC Bulletin of Inf Technol,2000,20(1&2)
+
+awareness. Commercial companies and their
+customers are unaware of the technology. With
+any new technology, there is a danger of false
+expectations being raised, especially by
+breakthroughs in research. When these
+expectations are not met, the technology may
+become discredited. It can take a long time to
+undo this kind of damage. Recovery and
+industrial/commerciaI take up will be longer
+than) would otherwise have been the case.
+Clearly, this is a scenario that must be avoided.
+Managers have, for some time, been
+subjected to a confusing technological clamour;
+OOPS, 4GLs, CASE, OLAP, genetic algorithms,
+KBS, virtual reality, etc, all have high current
+visibility. The claimed benefits of these
+technologies
+sometimes
+overlap-the
+technologies themselves sometimes overlap.
+The general market for neural computing
+products is still in its infancy. Worldwide sales
+of neural computing-based systems were
+estimated to be of the order of $1000 m in
+1997. The growth in UK alone has been
+confirmed by UK DTI findings that 8 out of 10
+times about 100 companies are either
+investigating neural technology or developing
+neural applications.
+Pure research does not remain pure
+indefinitely. Sooner, it turns up as applied
+research, and finally as technology. Theory
+becomes
+industrial
+practice,
+knowledge
+becomes competitive
+power.
+Television,
+computer technology and biotechnology have
+undergone a metamorphosis and emerged as
+an industry-changing force.
+The neural computing industry now has the
+impetus of an expanding market. It is the right
+time to encourage it by identifying new
+applications and promoting them. There is a
+danger, however, that the rate at which the
+technology is taken up will be constrained by
+inappropriate neural computing technology.
+This danger needs to be guarded against by
+ensuring that neural computing research is
+undertaken in collaboration with business. It
+will only be through the implementation of
+such research that industry can benefit from the
+technology and become world-leaders.
+
+9. CONCLUSION
+
+REFERENCES
+
+Neural computers perform very favourably
+in business and military applications. They do
+not require explicit programming by an expert
+and are robust to noisy, imprecise or
+incomplete data. Furthermore, knowledge is
+encapsulated in a compact, efficient way that
+can easily be adapted to changes in business
+environment.
+
+1.
+
+Freeman, James A. & David, M. Neural
+networks: Algorithms, applications, and
+p r o g r a m m i n g techniques. Skapura
+Addison-Wesley Longman, Inc.
+
+2.
+
+Yuhas, Ben P.; Goldstein, Moise, H.;
+Sejnowski, Terrence J & Jenkins, Robert E.
+Neural network models of sensory
+integration for improved vowel recognition.
+(Proc. IEEE, October 1990).
+
+3.
+
+Widrow, Bernard & Lehr, Michael, A. Thirty
+Years of adaptive neural networks:
+Perceptron,
+madaline
+and
+backpropagation. (Proc. IEEE, September
+1990).
+
+4.
+
+Amari,
+Shun-ichi.
+Mathematical
+foundations of neurocomputing; (Proc.
+IEEE, September 1990).
+
+As with all technologies, there is a window
+of opportunity for exploitation-and
+that
+window is here today. You cannot afford to
+ignore the fact that your competitors are
+already investigating the opportunities and
+realising the significant business benefits that
+neural technology brings to a range of
+applications.
+The reason one should use neural
+computing technology is the competition!
+
+Contributors
+
+Shri Dhruba J Sarma is working in the Technology Division
+(Technology Information Centre) of the Confederation of Indian Industry
+(CII), New Delhi.
+Ms Susmita G Sarma is working in the Instrumentation Division of
+Triune Projects Pvt. Ltd., New Delhi.
+
+DESIDOCBulletin of Inf Technol, 2000,20(1&2)
+
+

@@ -1,0 +1,1066 @@
+﻿DESIDOC Bulletin of Information Technology , Vol. 22, No. 4 & 5, July & September 2002, pp. 17-27
+© 2002, DESIDOC
+
+Compact Disks: What, Why and How
+Alka Bansal & Dipti Arora
+Abstract
+This article introduces the basic concept of compact disks (CDs), their types and
+uses. The technology behind CDs and CD burner is discussed in brief. It
+describes in detail how to use CD burning software Adaptec Easy CD Creator 4
+to burn various types of CDs like data CD, audio CD, and multisession CD. Other
+features of the software are also introduced.
+
+1.
+
+INTRODUCTION
+
+The compact disks (CDs) were introduced
+in 1980’s to hold music in a digital format.
+Now CDs are everywhere. They have
+become the standard medium for distributing
+not only large quantities of music, but data,
+video,
+computer
+software,
+multimedia
+presentations, etc.
+
+2.
+
+RECORDING INFORMATION
+ON CDs
+
+According to their recording behaviour,
+there are mainly two type of CDs (a) CD
+ROMs and (b) Recordable CDs. In
+CD-ROMs, user can’t change data in
+CD-ROMs itself, he can only download it to
+computer hard disk and make changes but
+can’t save back on CD-ROMs. Recordable
+CDs are also of two types:
+q
+q
+
+CD-R (CD-Recordable) or writable
+CD-RW (CD-ReWritable)
+
+CD-R media can be read by virtually all
+CD-ROM,
+CD-Recordable,
+and
+CD-ReWritable drives. CD-R is excellent for
+permanent data storage and is used if one
+does not need to erase the data. They are
+less expensive per CD than CD-RW. But
+unlike tapes, floppy disks and many other
+data-storage
+mediums,
+users
+cannot
+
+DESIDOC Bulletin of Inf Technol, 2002, 22(4 & 5)
+
+re-record on CD-R disc once they have filled
+it up.
+CD-RW media can only be used in
+CD-ReWritable drives or newer MultiRead
+CD-ROMs. It can be used when users need
+to erase the data and re-write new information
+(for example, updating files). It can be used to
+make a practice CD or to test the contents of
+a CD before making a permanent one.
+Blank recordable CD-R and CD-RW are
+currently available in two capacities: 74
+minutes (both CD-R and CD-RW) and 80
+minutes (CD-R only at this time).
+The actual capacity of blank CDs can vary
+slightly; some 74-minute CDs can hold up to
+two minutes more than their stated capacity.
+CDs of all types share certain features:
+they all have the same physical dimensions,
+are made at least partially from clear
+polycarbonate plastic, and have a metallic
+layer to reflect the laser beam that reads the
+data. All CDs are ‘groovy’— they have a
+microscopic spiral groove pattern molded into
+the polycarbonate plastic. The lines of this
+spiral are so small and close together that
+they act like a diffraction grating. The spiral
+groove is continuous on writable CDs
+because it’s needed to guide the laser during
+writing.
+
+17
+
+The major identifying difference between
+currently manufactured read-only discs
+(CD-ROM) and writable CD discs can be
+seen at first glance: CD-ROMs have a silver
+metallic sheen on both sides, whereas
+writable CDs are typically metallic gold on the
+top and green or green-golden on the bottom.
+The top of a CD bears a label, logo, or other
+printed information. The bottom has no
+markings except in the area near the center
+hub. The laser reads the disc from the
+bottom, so the bottom is always unobstructed,
+its overall color—whether silvery (CD-ROM)
+or green/green-golden (writable CD or
+CD-Recordable)-provides quick identification.
+
+CD-ROMs:
+A CD-ROM is a simple piece of plastic,
+about four one-hundredths (4/100) of an inch
+i.e., 1.2 mm thick. Most of a CD-ROMs
+consist of an injection-molded piece of clear
+polycarbonate plastic. During manufacturing,
+this plastic is impressed with microscopic
+bumps arranged as a single, continuous,
+extremely long spiral track of data. Then a
+thin, reflective aluminum layer is sputtered
+onto the disc, covering the bumps. Then a
+thin acrylic lacquer layer is sprayed over the
+aluminum to protect it. The label is then
+printed onto the acrylic. (Fig 1)
+A CD-ROM has a single spiral track of
+data, circling from the inside of the disc to the
+outside. The data track is approximately 0.5
+microns wide, with 1.6 microns separating
+one track from the next. (A micron is a
+millionth of a meter.) The elongated bumps
+L acqu er Layer
+
+Chrome
+Alumin ium Layer
+
+Bumps
+L ase r Be am
+
+La nd
+
+Polycarbona te
+Substra te
+
+Figure 1. Cross section of CD-ROM
+18
+
+that make up the track are each 0.5 microns
+wide, a minimum of 0.83 microns long and
+125 nanometers high. (A nanometer is a
+billionth of a meter.). If users could lift the
+data track off a CD and stretch it out into a
+straight line, it would be 0.5 microns wide and
+almost 3.5 miles (5 km) long.
+Users will often read about ‘pits’ on a
+CD-ROM instead of bumps. They appear as
+pits on the aluminum side, but on the side the
+laser reads from, they are bumps.
+The molded polycarbonate substrate layer
+is on the bottom of a CD (the side from which
+the laser reads the data). The pits must be
+read through it. This part of a CD’s design
+helps make it tolerant of scratches. The lens
+of the reading laser focuses the beam directly
+on the pits, through the 1.2-millimeter
+thickness of the polycarbonate. The beam
+‘looks past’ scratches on the bottom of the
+disc, unless they are really deep. This first
+line of defense against scratches is not the
+only one. There is a second in the software
+that decodes the data stored on the disc.
+Known as ’error detection and correction,’ this
+technology is able to deal with errors in the
+data because some degree of redundancy
+and cross-checking is built into the encoded
+data in the first place. This technique is
+generally more effective for images and
+music.
+Together, the acrylic layer, the out-of-focus
+scratches, and software error correction adds
+more life to CDs.
+
+Writable CDs or Recordable CDs:
+The physical structure of a writable CD
+differs from that of a CD-ROM. A writable CD
+is molded from polycarbonate too, but without
+pits. Like a long-playing phonograph record, a
+writable CD has a smooth spiral groove
+running over most of its surface. This groove,
+molded into the top side of the polycarbonate
+substrate, serves to guide the powerful laser
+beam that does the writing.
+Just as in a CD-ROM, the bulk of the
+substance of a writable CD is a clear
+polycarbonate substrate about one millimeter
+thick. The layer above this one is something
+writable CDs have but CD-ROMs don’t have:
+DESIDOC Bulletin of Inf Technol, 2002, 2 2(4 & 5)
+
+a layer of light-sensitive green organic dye.
+Above this dye layer is a thin film of metallic
+gold. The gold layer has the same purpose as
+the aluminum-chromium layer in a CD-ROM,
+namely, to reflect the reading laser beam
+back into the photodetector (Fig. 2). In its
+original state, the dye isn’t dark enough to
+block light reflection from the gold layer
+above. But when the dye has been ‘zapped’
+by the writing laser (which has about ten
+times the power of the reading laser), a dark
+discoloration is created that blocks reflections
+and forms a permanent, readable mark. The
+dye molecules absorb enough energy during
+the writing process to break down physically
+and chemically, leaving an area that no longer
+reflects light. The marks made by the writing
+laser follow the same encoding scheme as
+the pits in a CD-ROM, so writable CDs can be
+read by CD-ROM drives.
+
+CD-ROM, but it takes a fair bit of energy for
+the laser beam to make a ‘mark’ on a writable
+CD. That’s why scratches, fingerprints, dirt,
+etc., are much more dangerous to a writable
+CD before writing than afterward. The
+fingerprint, dirt, or smudge can scatter the
+beam of the writing laser, perhaps weakening
+it to the point where the mark it makes is too
+small or too light to be read. So extra care
+must be taken in the handling of writable CDs
+before the data is written.
+
+A writable CD starts out blank. A laser
+‘writes’ data on it by creating discolored areas
+in a layer of greenish dye. The areas of
+discolored dye on a writable CD act like the
+pits in a CD-ROM: they interrupt the beam of
+the reading laser. Writable CD technology
+makes it possible for people to create their
+own CDs, which then can be read by
+computers equipped with CD-ROM drives or
+(providing the data is written as music) on
+home audio CD players.
+
+On CD-RW discs users can erase old data
+and record new data. These discs are based
+on phase-change technology. In CD-RW
+discs, the phase-change element is a
+chemical compound of silver, antimony,
+tellurium and indium. As with any physical
+material, this compound’s form can be
+changed by heating it. When the compound is
+heated above its melting temperature (around
+600 degrees Celsius), it becomes a liquid; at
+its crystallization temperature (around 200
+degrees Celsius), it turns into a solid.
+
+Both reading and writing are done from the
+bottom side of the disc, through the full
+thickness of the polycarbonate substrate. This
+provides scratch resistance as it does for the
+
+Me ta llic Gold Layer
+
+Green Or ganic
+Dy e
+
+Bumps
+La se r Be am
+
+Land
+Dis c Substrate
+
+Figure 2. Cross section of CD-Recordable
+DESIDOC Bulletin of Inf Technol, 2002, 22(4 & 5)
+
+All writable CD products are made with a
+unique factory-applied serial ID number. They
+are used in managing a collection of digital
+information. Located near the center hub of
+the disc, this number is both human-readable
+(alphanumeric) and machine-readable (bar
+code).
+
+Erasable CD-RW Discs:
+
+In a CD-RW disc, the reflecting lands and
+non-reflecting bumps of a conventional CD
+are represented by phase shifts in a special
+compound. When the compound is in a
+crystalline state, it is translucent, so light can
+shine through to the metal layer above and
+reflect back to the laser assembly. When the
+compound is melted into an amorphous state,
+it becomes opaque, making the area
+non-reflective.
+In the compound, used in CD-RW discs,
+the crystalline form is translucent while the
+amorphous fluid form will absorb most light.
+On a new, blank CD, all of the material in the
+writable area is in the crystalline form, so light
+will shine through this layer to the reflective
+metal above and bounce back to the light
+sensor. To encode information on the disc,
+19
+
+the CD burner uses its write laser, which is
+powerful enough to heat the compound to its
+melting temperature. These ’melted’ spots
+serve the same purpose as the bumps on a
+conventional CD and the opaque spots on a
+CD-R: They block the ‘read’ laser so it won’t
+reflect off the metal layer. Each non-reflective
+area indicates a 0 in the digital code. Every
+spot that remains crystalline is still reflective,
+indicating 1 in the digital code.
+As with CD-Rs, the read laser does not
+have enough power to change the state of the
+material in the recording layer — it’s a lot
+weaker than the write laser. The erase laser
+falls somewhere in between: While it isn’t
+strong enough to melt the material, it does
+have the necessary intensity to heat the
+material to the crystallization point. By holding
+the material at this temperature, the erase
+laser restores the compound to its crystalline
+state, effectively erasing the encoded 0. This
+clears the disc so new data can be encoded.
+CD-RW discs do not reflect as much light
+as older CD formats, so they cannot be read
+by most older CD players and CD-ROM
+drives. Some newer drives and players,
+including all CD-RW writers, can adjust the
+read laser to work with different CD formats.
+But since CD-RWs will not work on many CD
+players, these are not a good choice for
+music CDs. For the most part, they are used
+as back-up storage devices for computer files.
+The reflective and non-reflective patterns
+on a CD are incredibly small, and they are
+burned and read very quickly with a speeding
+laser beam. In this system, the chances of a
+data error are fairly high. CD burners
+compensate for various encoding problems.
+
+t A drive mo tor spins the disc. This drive mo tor
+
+is pre cisely con trolled to ro tate be tween 200
+and 500 rpm depending on which track is
+be ing read.
+t A la ser and a lens sys tem fo cus in on and
+read the bumps.
+t A tracking mechanism moves the la ser
+as sem bly so that the la ser’s beam can fol low
+the spi ral track. The track ing sys tem has to
+be able to move the la ser at mi c r o n
+res o lu tions.
+The fundamental job of the CD player is to
+focus the laser on the track of bumps. The
+laser beam passes through the polycarbonate
+layer, reflects off the aluminum layer and hits
+an opto-electronic device that detects
+changes in light. The bumps reflect light
+differently than the ‘lands’ (the rest of the
+aluminum layer), and the opto-electronic
+sensor detects that change in reflectivity. The
+electronics in the drive interpret the changes
+in reflectivity in order to read the bits that
+make up the bytes.
+The hardest part is keeping the laser
+beam centered on the data track. This
+centering is the job of the tracking system.
+The tracking system, as it plays the CD, has
+to continually move the laser outward. As the
+laser moves outward from the center of the
+disc, the bumps move past the laser faster—
+this happens because the linear, or tangential,
+speed of the bumps is equal to the radius
+times the speed at which the disc is revolving
+(rpm). Therefore, as the laser moves outward,
+the spindle motor must slow the speed of the
+CD. That way, the bumps travel past the laser
+
+L ase r L ens
+
+The established form for music CDs,
+called ISO 9660, was the foundation for later
+CD formats.
+
+3. CD EQUIPMENT
+3.1
+
+CD Player
+
+The CD player has the job of finding and
+reading the data stored as bumps on the CD.
+The drive consists of three fundamental
+components (Fig. 3):
+
+Disk
+Drive
+
+L ase r P ick- up Assem bly
+Figure 3. Internal view of CD drive
+
+20
+
+DESIDOC Bulletin of Inf Technol, 2002, 2 2(4 & 5)
+
+at a constant speed, and the data comes off
+the disc at a constant rate.
+Data storage on a normal CD is simple.
+The surface of the CD contains one long
+spiral track of data. Along the track there are
+flat reflective areas and non-reflective bumps.
+A flat reflective area represents a binary 1,
+while a non-reflective bump represents a
+binary 0. The CD drive shines a laser at the
+surface of the CD and can detect the
+reflective areas and the bumps by the amount
+of laser light they reflect. The drive converts
+the reflections into 1s and 0s to read digital
+data from the disk. Normal CDs can’t be
+modified—they are read-only devices.
+When users write data to a CD-R, the
+writing laser (which is much more powerful
+than the reading laser) heats up the dye layer
+and changes its transparency. The change in
+the dye creates the equivalent of a
+non-reflective bump. This is a permanent
+change and both CD and CD-R drives can
+read the modified dye as a bump later on.
+It turns out that the dye is fairly sensitive to
+light—it has to be in order for a laser to
+modify it very quickly. Therefore one should
+avoid exposing CD-R disks to sunlight.
+
+3.2
+
+CD Burner or CD Writer
+
+CD Burner is an external writable CD drive
+with which user can take music or data files
+from their computer and make their own CDs.
+A CD burner’s job is to burn the digital pattern
+onto a blank CD. Now writable CD drives (CD
+burners) are standard equipment in new PCs,
+and more and more audio enthusiasts are
+adding separate CD burners to their stereo
+systems.
+CD burning is very simple. once users
+have the right software and know the general
+procedure. The CD burner has a moving laser
+assembly, just like an ordinary CD player. But
+in addition to the standard ‘read laser,’ it has a
+‘write laser.’ The write laser is more powerful
+than the read laser, so it interacts with the
+disc differently: It alters the surface instead of
+just bouncing light off it. Read lasers are not
+intense enough to darken the dye material, so
+simply playing a CD-R in a CD drive will not
+destroy any encoded information.
+DESIDOC Bulletin of Inf Technol, 2002, 22(4 & 5)
+
+The write laser moves in exactly the same
+way as the read laser: It moves outward while
+the disc spins. The bottom plastic layer has
+grooves pre-pressed into it, to guide the laser
+along the correct path. By calibrating the rate
+of spin with the movement of the laser
+assembly, the burner keeps the laser running
+along the track at a constant rate of speed. To
+record the data, the burner simply turns the
+laser writer on and off in synch with the
+pattern of 1s and 0s. The laser darkens the
+material to encode a 0 digit and leaves it
+translucent to encode a 1 digit.
+The machinery in a CD burner looks pretty
+much the same as the machinery in any CD
+player. There is a mechanism that spins the
+disc and another mechanism that slides the
+laser assembly.
+Most CD burners can create CDs at
+multiple speeds. At 1X speed, the CD spins at
+about the same rate as it does when the
+player is reading it. This means it would take
+users about 60 minutes to record 60 minutes
+of music. At 2X speed, it would take users
+about half an hour to record 60 minutes, and
+so on. Actually 2X, 4X, 8X, etc., are data
+transfer rates. To convert data transfer rates
+into kilobytes, the number with X should be
+multiplied by 150. For example, if we have 4X
+drive then data transfer rate will be 600kb/s.
+For faster burning speeds, users need more
+advanced laser-control systems and a faster
+connection between the computer and the
+burner. users also need a blank disc that is
+designed to record information at this speed.
+Blank CD-R of 8x speed and CD-RW of 4X
+are available in the market.
+The main advantage of CD-R discs is that
+they work in almost all CD players and
+CD-ROMS, which are among the most
+prevalent media players today. CD-Rs are
+relatively inexpensive also.
+These days, most burners are packaged
+with one or more music programs which
+convert songs to the correct format for
+burning. It controls the encoding process for
+writing to the CD, but users can also buy
+programs or download them over the Internet.
+Some CD burning software packages are:
+21
+
+t Titanium Gear Pro 5.0
+
+storage. It can also be played on just about
+every computer that has a CD-ROM drive
+using a program such as the Windows CD
+Player, etc. It can typically hold up to 74
+minutes of music.
+
+4. ADAPTEC EASY CD CREATOR 4
+
+Mixed-Mode CD
+
+Easy CD Creator 4 (Fig. 4) lets users
+record as much data or audio as the CD can
+hold. To see a blank CD’s capacity in sectors,
+megabytes, or minutes, insert the CD into
+their CD-Recorder and select CD Information
+from the CD menu.
+
+A Mixed-Mode CD is a single session CD
+that contains both computer data and audio
+tracks, and is typically used for entertainment
+and educational programs. Data is written to
+the first track on the CD followed by one or
+more audio tracks. Mixed-Mode CDs are used
+with CD-ROM or drives only and cannot be
+played in home or car stereo CD players.
+
+t Nero Burning ROM
+t Adaptec Easy CD Creator 4
+t Platinum Toast 5
+
+When we create a Mixed-Mode CD, the
+CD Layout contains both a data and an audio
+section. First add files and folders to the Data
+CD Layout section; then add the tracks, WAV
+or MP3 files to the Audio CD Layout section.
+
+Multisession CD
+
+Figure 4. Adaptec Easy CD Creator 4
+
+4.1
+
+Types of Burned CDs
+
+Using Easy CD Creator 4, we can create
+the following four types of CDs:
+
+Data CD
+A Data CD is used to store computer data
+such as the files and folders. Unlike an Audio
+CD, it is used for data storage only and
+cannot be played on home stereo CD player
+or car CD player. It can typically hold upto 650
+MB of data and can be accessed on any
+computer that has a CD-ROM or
+CD-Recorder drive. It is used for backing up
+and archiving files such as spreadsheets, tax
+records, and financial data, multimedia
+presentations, graphics, CAD files, internet
+downloads, etc.
+
+Au dio CD
+An Audio CD is used to record music from
+tracks and audio files (WAV, MP3, etc.) that
+can be played on home or car stereo CD
+player. An Audio CD can’t be used for data
+22
+
+A multisession CD contains both audio
+files (tracks, WAV, or MP3) and computer
+data. The first session contains the audio
+files, so a home or car stereo CD player can
+play them. The second session contains data
+intended for CD-ROM drive. Many music CDs
+are created as multisession CD to provide
+music CD tracks and a music video all on the
+same CD.
+When users add files or tracks to a Data or
+Audio CD Lauserst, the Status Bar shows the
+amount of data or audio in the CD Lauserst,
+and how much space remains on the CD. The
+‘Estimated space free’ amount is based on a
+74-minute CD; however, users can still record
+80 minutes on an 80-minute CD. For Data
+CDs, the space is shown in MB; for Audio
+CDs, it is shown in minutes:seconds.
+
+4.2 Using CD Creator 4
+To create any type of CD, users must
+select the files, folders, or tracks that they
+want to record from the Explorer section and
+then add them to the CD Lauserst (as
+explained below).
+
+« Explorer Section
+The Explorer section in Easy CD Creator
+Program is where users select the files,
+DESIDOC Bulletin of Inf Technol, 2002, 2 2(4 & 5)
+
+folders, and tracks users want to add to the
+CD Lauserst. In the Explorer section, users
+can see how folders are organised on their
+computer and all the files and folders in each
+selected folder. If users click a hard disk or
+folder in the left box of the Explorer section,
+the right box displays its contents. If users
+click a CD-ROM drive that has a music CD
+inserted, the right box displays the tracks.
+
+« CD Lauserst
+The CD Lauserst in Easy CD Creator is
+where users assemble and organise the files,
+folders, or tracks that they want to record. The
+CD Lauserst must contain all of the files
+and/or tracks before users can create a CD.
+When creating a Data CD, the CD Lauserst is
+called a Data CD Lauserst (Fig. 5). When
+creating an Audio CD, the CD Lauserst is
+called an Audio CD Lauserst.
+Users may want to save their CD Lauserst
+so that users can use it to record the same
+CD at a later time. Once saved, users can
+add or remove items from the CD Lauserst.
+This is especially useful if users want to
+create the same CD at a later time.
+A Data CD Lauserst can consist of files
+and folders, as well as audio files (such as
+WAV or MP3 files, but not music CD tracks).
+To create a CD that includes files and folders,
+as well as music CD tracks, use the advanced
+features of Easy CD Creator for creating a
+Mixed-Mode CD or a CD Extra CD.
+An Audio CD Lauserst can contain tracks
+from multiple music CDs. Insert their music
+CD into their drive and then add the track
+
+CD Browser
+
+CD Lauserst
+
+CD Gu ide
+
+from the Explorer section to the Audio CD
+Lauserst. Repeat for each track users want to
+record. When the actual recording begins,
+Easy CD Creator prompts users to insert the
+appropriate music CD in their drive.
+The CD Lauserst acts like a pointer only it
+does not store the actual data. When users
+add files or tracks to the CD Lauserst, the CD
+Lauserst keeps track of where the information
+is located and uses this information when
+recording a CD.
+
+« CD Guide
+The CD Guide is the animated character
+that assists users in creating their CDs. When
+displayed on their screen, the CD Guide
+offers instructions or tips for the specific task
+users are performing . To show or hide the CD
+Guide, click the CD Guide button on the
+toolbar.
+
+4.3
+
+Creating Data/Audio CDs
+
+(a) Open Easy CD Creator from the Start
+menu. Click Start, point to Programs, point
+to Adaptec Easy CD Creator 4. Screen in fig
+4 will appear.
+(b) Click the Audio or Data button accordingly
+whether to create audio or data CD
+(c) Data/Audio browser and lauserst screen
+will appear
+(d) Users can use any of the following two
+ways to add the files, folders, and music
+tracks from the Explorer section to the CD
+Lauserst:
+m Se lect the item us ers want to re cord in the
+Explorer sec tion, and then click the Add
+but ton on the toolbar. The item is added to
+the CD Lauserst or
+m Se lect the item us ers want to re cord in the
+Ex plorer sec tion, and then drag and drop
+it into the CD Lauserst
+(c) Once all the files are added in Lauserst that
+we want to add in our CD, click Create CD.
+The CD Creation Setup box appears. ( Fig.
+6)
+(d) Click OK to start recording
+(e) When CD is created ‘CD Created
+Successfully’ appears on the screen.
+
+Figure 5. Data CD Browser and Lauserst
+DESIDOC Bulletin of Inf Technol, 2002, 22(4 & 5)
+
+23
+
+4.4
+
+Creating a CD Extra CD
+
+When users create CD Extra CD, the CD
+Lauserst contains both an Audio and a Data
+section. First add the tracks, WAV or MP3
+files to the Audio CD Lauserst; then add files
+and folders to the Data CD Lauserst.
+(a) Open Easy CD Creator from the Start
+menu. Click Start, point to Programs, point
+to Adaptec Easy CD Creator 4, point to
+Features, and then select Easy CD Creator.
+(b) Open an CD Extra CD Lauserst. Click the
+small arrow next to the New button on the
+toolbar and select CD Extra from the
+drop-down list. A CD Extra CD Lauserst
+appears.
+(c) Insert a blank CD into the destination drive
+(d) Add the audio files users want to record to
+the audio section of the CD Extra Lauserst.
+m Select the Audio CD Lauserst icon in the
+
+left pane of the CD Extra Lauserst
+window.
+m If users are recording tracks from an
+existing music CD, insert the music CD
+into their CD-ROM drive (the source
+drive). If users are recording WAV or MP3
+files, continue with the next step. Note:
+users can record any combination of
+tracks, WAV, or MP3 files to an Audio CD.
+m In the left pane of the Explorer section,
+select the CD-ROM drive containing the
+music CD; a list of the tracks on the CD
+appears to the right. If users are recording
+WAV or MP3 files, select the folder where
+their files are located.
+(e) In the right pane of the Explorer section,
+select the track, WAV, or MP3 file that users
+want to record, and then click Add. Repeat
+until the Audio CD Lauserst contains all of
+the tracks and files that users want to
+record.
+
+m After adding all the audio files that users
+
+want to record into the Audio CD
+Lauserst, click the Data CD Lauserst icon
+in the left pane of the CD Extra Lauserst
+window. The icon is labeled with the date
+(year:month:day).
+m In the Explorer section, select the data
+files or folders users want to record, and
+then click Add. Repeat until the Data CD
+Lauserst contains all of the files and
+folders that users want to record.
+(g) Click Create CD. The CD Creation Setup
+box appears.
+(h) Click OK to start recording.
+
+4.5 Write Method on CD
+When we click ‘Create CD’ (Fig. 6), one of
+the following options can be chosen for
+creating a CD:
+Track-at-Once: Click this option to record a
+single track at a time. Tracks recorded in
+Track-at-Once mode are separated by gaps.
+If a data track is followed by an audio track,
+the gap is 2 or 3 seconds. The gap between
+audio tracks is usually 2 seconds.
+m Leave Session Open: Click this option to
+
+add more songs to the CD at a later time.
+By keeping the session open, we can
+record additional songs to the first
+session at different times. Once all the
+songs are added, for listening to it on a
+home or car stereo CD player, we must
+close the session. (For Audio CDs only)
+
+Note: If users have tracks on other music
+CDs that users want to record, repeat steps
+3-5 for each music CD from which users want
+to record from. During the actual record
+process, Easy CD Creator prompts users to
+reinsert the appropriate music CD for the
+music track being recorded.
+(f) Add the data files users want to record to
+the data section of the CD Extra Lauserst.
+24
+
+Figure 6. CD creation setup
+DESIDOC Bulletin of Inf Technol, 2002, 2 2(4 & 5)
+
+m Close Session and Leave CD Open:
+
+Click this option to close the session so
+that audio tracks (if in the first session)
+can be played back in home or car CD
+players. This option is the default option
+and is applicable for most CD recording
+purposes. Because the CD remains
+open, we can continue to record
+additional sessions to the CD until it is full.
+m C l o s e C D : Click this option to
+write-protect the CD. When this option is
+selected, no more data can be recorded
+to the CD.
+Session-at-Once: Click this option to record
+a single session and leave the CD open. For
+example, we can use Session-at-Once to
+make CD Extra CD. First record the audio
+tracks in the first session and leave the CD
+open. Then record a second (data) session
+and close the CD.
+Disc-at-Once: Click this option to write and
+close a CD in one operation without turning
+the writing laser on and off between tracks.
+This eliminates the two second-gap between
+tracks and write-protects the CD. We can
+select this option if we are recording WAV or
+MP3 files stored on hard disk, or music CD
+tracks.
+Set as Default: We can click this button to
+change the CD Creation Setup default
+options.
+
+4.6
+
+Erasing Contents of a CD
+
+To erase the contents of a CD disc, follow
+these steps:
+³ Open CD Eraser Menu (Fig. 7)
+³ In Windows Explorer, select the files to be
+erased
+³ Select Delete from the File menu, or press
+the Delete key.
+³ Click Yes to confirm erasing of the files
+from the CD.
+
+Figure 7. CD-RW Eraser
+
+4.7
+
+Making Copy of a CD
+
+To copy directly from a source CD to a
+blank CD in CD-Recorder, users must have a
+CD-R drive to use.
+t In sert the orig i nal CD from which cop ies are
+
+to be made into CD-ROM, CD-R, or CD-RW
+drive.
+t Select the drive con tain ing the orig i nal CD in
+the Copy from drop-down list box. (Fig. 8)
+t Click Copy (CD Copier tem po rarily re cords
+the CD contents to hard drive as an image
+file, then a mes sage prompt ing to in sert the
+destination drive appears, insert the blank
+CD then it will re cord all data to the blank CD.
+CD Copier au to mat i cally re moves the im age
+file af ter the CD has been cop ied).
+t When the CD is finished, a final message
+
+box appears notifying that the copying is
+complete.
+
+DirectCD erases the selected files from the
+CD.
+Note: Only CD-RW drives can read from,
+write to, and erase data from CD-RW discs.
+Figure 8. CD Copier
+DESIDOC Bulletin of Inf Technol, 2002, 22(4 & 5)
+
+25
+
+4.8
+
+Creating Label for a CD
+
+Jewel Case
+A jewel case feature is provided by the
+Adaptec CD creator to indicate the contents
+of a CD. Both the front and inside covers of
+the insert are printed on a single sheet of
+paper that is folded in half and slides into the
+top lid of a jewel case (a plastic case that
+holds the CD). (Fig. 9)
+
+6. HANDLING OF CDs
+t Do not fold, spindle, or mutilate
+t Use good en clo sures. Cheap plas tic sleeves
+
+(those some times used to hold CDs in the
+backs of books or in some types of mul ti ple
+CD holders) are not suitable for long-term
+storage. Upon exposure to extremes of
+temperature, direct sunlight and humidity,
+the disc and sleeve may adhere to each
+other.
+t Pro tect the in di vid u ally cased CDs fur ther by
+placing them in a closed box, drawer, or
+cabinet. This gives additional protection
+from light, dust, and cli mate fluc tu a tions.
+t Never allow CDs to remain out of their
+
+en clo sures for long pe ri ods of time.
+t Al ways han dle discs by their edges.
+t Don’t eat, drink, or smoke around CDs.
+t Don’t write with sharp point to the top
+
+Figure 9. Jewel Case
+
+surface. These actions wipe out pits and
+caus ing ar eas of the disc to become
+un read able. This can hap pen to both
+CD-ROMs and writable CDs
+t Don’t peel off a la bel.
+
+5. CD RECORDING TIPS
+
+t Don’t ap ply sol vents.
+
+t No run ning pro grams in the back ground
+
+t User-applied la bels of any kind may
+
+If we have Windows 9X, we can check this
+by pressing and holding Ctrl+ Alt + Del which
+will bring up a close program window.
+t Disable power management
+
+Ensure that all power management is
+disabled on the computer. If the computer or a
+computer component goes into power saving
+mode during the recording process this can
+cause issues.
+t PC defrag and scandisk hard disk drive
+
+Run defrag and scandisk on hard drive
+recently which will help prevent the computer
+from having to search the hard disk drive
+longer.
+t De vice con flicts
+
+Get to device manager by clicking Start/
+Settings/Control panel/double click the
+System icon/click the Device manager tab.
+Ensure within device manager there are no
+conflicts.
+26
+
+un bal ance the CD and make it dif fi cult for the
+player to read. La bels may peel off in hu mid
+con di tions.
+t To clean a CD, use lens cleaner and lens
+
+tissue from a qual ity man u fac turer. Al ways
+wipe from the cen ter hub to ward the out side
+edge. The motion should be in a radial
+di rec tion, not in a cir cumfer ential di rec tion.
+t Store CDs in cool and moderately dry
+
+environments for greater life expectancies.
+In general, storage temperatures for CDs
+should not be any warmer than about 25°C
+(77°F) when archival permanence is
+desired. Cooler temperatures (down to
+about 10°C or 50°F) will help ensure the
+longest possible life expectancy. At present,
+no national or international standards for
+long-term storage conditions for CDs have
+been published by ANSI or the International
+Standards Organization (ISO).
+DESIDOC Bulletin of Inf Technol, 2002, 2 2(4 & 5)
+
+7. CONCLUSION
+Introduced in 1980, CDs were intended for
+musical recordings; but now with their ability
+to hold large amount of music, data, audio,
+video, etc., they have brought revolution in
+library and information science field,
+multimedia industry, education, entertainment
+industry, and so on.
+CDs as a storage and dissemination
+medium have become a necessity in library
+market all over the world. This technology has
+provided new avenues to store and retrieve
+library’s vast bibliographical as well as full text
+data. CDs have been extensively used by the
+library professionals in numerous services
+such as cataloguing support (bibliofile), online
+public
+access
+catalogue,
+collection
+development (bibliographical sources, full text
+
+journal articles, reports, standards, patents,
+etc.) and reference services, and so on.
+With the growth of CD manufacturing
+industry, we may expect compact disks which
+will be less vulnerable of temperature,
+humidity, etc., and can store larger amount of
+data.
+
+FURTHER READINGS
+1.
+
+http://www.kodak.com/global/en/professio
+nal/products/storage/pcd/techInfo/perma
+nence2.shtml
+
+2.
+
+Samsung CD-RW Drive Manual
+
+3.
+
+http://cds.com/cdtypes.htm
+
+4.
+
+Neelima Vaid. Born to Burn. PC Quest,
+May 2002, 36-42.
+
+5.
+
+http://www.cdconnection.com
+
+6.
+
+Inventors.about.com/library/blcompact
+disk.htm
+http://www.footslog.com
+
+7.
+
+Contributors:
+
+Smt Alka Bansal is Scientist C at Defence Scientific Information and
+Documentation Centre (DESIDOC), Delhi - 110 054.
+Smt Dipti Arora is STA at DESIDOC, Delhi - 110 054.
+
+DESIDOC Bulletin of Inf Technol, 2002, 22(4 & 5)
+
+27
+
+

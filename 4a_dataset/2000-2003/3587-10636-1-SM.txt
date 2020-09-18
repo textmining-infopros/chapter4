@@ -1,0 +1,556 @@
+﻿DESIDOC Bulletin of Information Technology, Vol. 23, No. 1, January 2003, pp. 19-24
+© 2003, DESIDOC
+
+Portable Document Format (PDF): Standardizing
+Document Files for Publication
+John R Craft
+Abstract
+Just a few years ago, publishers used to send camera-ready copies of their
+manuscripts to printers who then used process cameras to copy those pages
+onto film, make proofs, create plates, and print the books. That scenario has now
+completely changed. Publishers are presently sending what would be considered
+‘print-ready’ manuscripts files on diskettes or CD-ROMs or uploading the files
+electronically to commercial printing companies. The printing companies work
+with those files in creating proofs and producing the final products. In this
+scenario, the Portable Document Format (PDF) is playing a significant role in the
+production and distribution of both electronic and printed books. The PDF is
+emerging as a stable standard file format for the publishing industry.
+
+1. INTRODUCTION
+One of the problems with electronic
+document files is that publishers tend to use a
+variety of platforms, multiple word-processing,
+layout, and graphics softwares in creating
+their press-ready files. Examples of the
+platforms include Windows, Macintosh, and
+Unix operating systems. Word-processing
+software include Microsoft Word or Corel
+WordPerfect;
+layout
+software
+includes
+PageMaker,
+Adobe
+FrameMaker,
+QuarkXPress, etc.; graphics software include
+Adobe Photoshop; and illustration software
+include Adobe Illustrator and MacroMedia
+FreeHand,
+etc.
+This
+complexity
+is
+compounded by the fact that different
+publishers are likely to have different updates
+or versions of these tools. In addition,
+publishers
+employ
+virtually
+unlimited
+hardware configurations, which include
+different computer processors, computers,
+printers, and associated peripherals.
+Such complexity creates headaches for
+the printers. Some of the print-ready files, for
+instance, behave differently with different
+DESIDOC Bulletin of Inf Technol, 2003, 23(1)
+
+hardware—e.g., page breaks may occur at
+different places than intended or the images
+may be misaligned. Because of these
+problems, there is a need for standardising
+the print files that will remain robust when
+loaded into different computer platforms and
+configurations.
+One of the solutions for this dilemma is the
+development of a standardised and stable file
+format that facilitates the management of
+information. One of these stable file format
+standards is the Portable Document Format
+(PDF) file. PDF was developed in 1985 by
+Adobe Systems, Inc. as a means to produce
+electronic documents that are device
+independent. The PDF was derived from
+another Adobe innovation, PostScript, a page
+description language. PDF is highly effective
+as a prepress tool for managing files for
+printing production.
+PDF files are created from Acrobat Distiller
+or PDF Writer. Once a PDF file is created, it
+can be distributed electronically via the web
+or as a file accessible from storage media.
+The file can then be opened in Acrobat
+19
+
+Reader, a program that can be downloaded
+free from Adobe (http://www.adobe.com). In
+contrast, Acrobat Distiller, PDF Writer (both of
+which are used to produce PDF files), and
+Exchange (a PDF editing program) are
+licensed programs. Purchasing the full
+version of Acrobat presently costs about $180
+or more for a single license. For educators
+and students, the current price is slightly over
+$100. The package also includes an easy to
+follow tutorial.
+Version 5 is the most recent version of
+Adobe Acrobat. This version includes Acrobat
+Distiller, which is used to produce PDF 1.4.
+The source of the PDF file can originate from
+a word-processed document, a desktop
+published document, a CAD drawing or a
+graphic image file and PDF maintains the
+quality of the original form containing text and
+pictures.
+The PDF file facilitates publishing in a
+number of ways. These include document or
+book production, eBook production, archiving,
+and exchange by e-mail or fax. Another
+capability of PDF documents is in adding
+hyperlinks to extend the content options. For
+instance, in a technical document containing
+specific terms or references to other
+documents, the reader would have the option
+of using a mouse to point to the hyperlink.
+The browser icon (in the shape of a hand)
+
+appears on the computer screen when the
+mouse pointer cursor passes over the
+hyperlink. Clicking on the link would take the
+reader to a web page, a presentation, a
+video, another PDF file or any file that is
+compatible with Acrobat’s system of access.
+
+2. DOCUMENT PRINTING OR
+BOOK PRODUCTION
+Commercial printing companies have
+specific expectations in the preparation of
+files. The condition of the file must be
+‘print-ready’ or ‘press-ready’. Ideally, that
+means having a file prepared with all of the
+fonts and graphics included. The state or
+condition of the file should be in a completed
+form so that it can be RIPed (where RIP is a
+Raster Image Processor, a hardware that
+digitally produces the layout directly on film,
+plate or press) without additional files. Most
+printing companies prepare guides that
+provide recommendations for electronic
+document preparation for printed reproduction
+when using Adobe Acrobat Distiller.
+When distilling a file in page layout
+programs, there are optimization options for
+the preparation of files for printed
+reproduction. By choosing the Job Options
+command in the Settings menu, preset
+options from Adobe or customized settings
+can be applied to the distilled file. (Figure 1)
+
+Figure 1. Dialog box after starting Adobe Distiller and clicking on the Settings menu
+command—Job Options.
+20
+
+DESIDOC Bulletin of Inf Technol, 2003, 23(1)
+
+Figure 1 displays the dialog box that
+appears after starting Adobe Distiller and
+clicking on the Settings menu command, Job
+Options. The other options—Press, Print,
+Print-Book, and Screen are pre-set by the
+software manufacturer. Custom settings can
+be applied based on the equipment being
+used at the printing plant.
+
+3. DOCUMENT DISTRIBUTION AS
+eBOOKS
+Acrobat, version 5.0.2, also provides an
+option for the production of eBooks, thus
+making it possible to store electronic
+publications. When producing a document
+using page layout applications such as
+QuarkXPress, Adobe PageMaker, Adobe
+InDesign, or Adobe FrameMaker, options for
+converting the document file into an eBook
+file (or other PDF files) are present since
+Acrobat Distiller is included in the software
+package. The Acrobat version 5.0.2 prepares
+documents for access from Palm Pilots
+computer technology also.
+The portability and storage of eBook
+documents provide enormous flexibility to the
+publishers, authors, users, and libraries.
+eBooks allow the publishers to save on
+printing costs especially on books containing
+fast-changing information. For instance, it is
+expensive to anticipate the demand for
+manufacturers’ catalogs, print thousands of
+paper copies, and distribute them by mail.
+Typically, information contained in those
+catalogs is outdated by the time they are
+printed. On the other hand, making those
+catalogs available as eBooks allows the
+manufacturers to keep their catalogs current.
+The same is true with book publishers. Book
+publishing is risky from the perspective of
+anticipating the demand. More often than not,
+publishers overestimate the demand for the
+publications and end up having to discard
+unsold copies of their books. eBooks help the
+publishers avoid that problem. In addition, at
+a nominal cost, the eBooks can be updated in
+terms of changing obsolete information and
+correcting errors. For the authors, eBooks
+provide an independent avenue of making
+their publications available to the public. They
+DESIDOC Bulletin of Inf Technol, 2003, 23(1)
+
+can load the files on their own websites and
+make them available for free or for a fee.
+eBooks offer significant benefits to the
+libraries also. Some of these benefits are:
+q
+
+Reduced need for physical infrastructure in
+the form of buildings and square footage for
+ever-growing print information
+
+q
+
+Accessibility of information to users on
+twenty-four-hours-a-day and seven-days a-week (24/7) basis
+
+q
+
+Ability to access information from remote
+location by internet–i.e., freedom from
+having to be present in a physical location
+
+q
+
+Improved search and retrieval capabilities
+
+q
+
+Improved ability on the part of users to
+integrate the information from multiple
+sources (cut and paste of information)
+Flexibility in meeting the needs of library
+clientele. For instance, specific content
+could be made available to the users on
+internet.
+
+q
+
+4. DOCUMENT SHARING
+THROUGH E-MAIL AND FAXING
+Many libraries offer document delivery
+services to their clientele such as mailing or
+faxing journal article or book chapters.
+Likewise,
+many
+corporations
+and
+governmental organisations need to share
+their documents with their customers. For
+instance, US taxpayers have a need to
+access US Internal Revenue Service forms at
+the tax-filing time. PDF allows individuals and
+institutions to make such documents easily
+accessible to those who need them. In many
+instances,
+fill-in-the-blanks
+forms
+are
+available on the internet making it easy to
+fill-in the forms and mail or e-mail them to the
+appropriate offices.
+PDF files containing high quality text and
+graphics can be sent as efficiently as an
+e-mail attachment and just as easily as a fax.
+Anyone who has access to Adobe Acrobat
+Reader can easily open the PDF e-mail
+attachment. Upon opening the PDF file in
+Acrobat Reader, he or she may read it on the
+screen or print it directly. Notably, the
+versatility of the PDF file is evident in viewing
+it from a web browser. This efficiency of
+21
+
+preparing and sending PDF files as an
+attachment to e-mail messages, in fact,
+supersedes the necessity of sending them by
+fax.
+Once a person receives a PDF file, it is
+viewable from Acrobat Reader directly or
+viewable from a web browser containing
+Acrobat Reader as a plug-in. (The plug-ins
+are additional files that extend the capabilities
+of the existing software program.) When
+viewing on a Web browser, such as Microsoft
+Explorer or Netscape Navigator, the Acrobat
+Reader plug-in becomes active, allowing the
+person viewing the document to read it
+on-screen, save it as a file or print it on paper.
+Organisations, such as the Digital Printing &
+Imaging Association (DPIA) are distributing
+news to their members on the web as a PDF
+file. Archives of past issues are also available
+as PDF files that show the layout, text,
+graphics and color as they appeared in print.
+
+5. CREATING PDF FILES
+Following are the three methods for
+generating PDF files:
+(a) Generation from the application directly
+(b) Creation from a Postscript file, and
+(c) Printing to a PDF printer driver.
+Some of the softwares needed for
+producing PDF such as Acrobat Distiller and
+PDF Writer must be installed on the computer
+hard drive. PDF files can also be produced
+from Web browsers such as Microsoft Internet
+Explorer and Netscape, Computer-Aided
+Design (CAD) software, and word and image
+processing applications. Any program that
+features a Print command can produce a PDF
+file.
+For preparing a PDF file, the following
+three methods can be used:
+
+5.1 Adobe PageMaker
+(a) PageMaker has a useful plug-in for quick
+imposition of book layout files. Located in
+the Utilities menu, the Build Booklet
+command can be used to apply book
+imposition settings. Once the book file is
+prepared and ready for conversion to PDF,
+the Build Booklet utility can be applied to
+22
+
+the book layout file. If the production is done
+in-house, customised or specific settings
+that are necessary to achieve high quality
+must be determined through a series of
+pre-production tests. Using the most recent
+version of PageMaker (version 7), save the
+completed layout file and choose, from the
+File menu, the Export command.
+(b) The Export command launches Acrobat
+Distiller—an application that will generate
+the PageMaker layout into a PDF file. It
+should be noted that in the dialog box, we
+will see a Save command button. Be alert
+for the drive and directory our PDF file will
+be saved to. This makes it easy to locate
+the PDF file when sending it as an e-mail
+attachment.
+(c) The Distiller dialog box opens.
+(d) Preview the PDF version of our page layout
+in Acrobat Reader to make sure that our
+document is formatted properly.
+
+5.2 Adobe InDesign
+Adobe InDesign features the quickest
+solution to producing a PDF file.
+(a) Choose the Export command from the File
+menu.
+(b) Point and click on the PDF option. This will
+produce the PDF file directly without having
+to have Acrobat Distiller. Notice the drive
+and directory where the PDF file is saved.
+(c) Preview the PDF version of InDesign layout
+in Acrobat Reader.
+
+5.3 QuarkXPress
+(a) While the Quark document is open, click
+open the Chooser dialog box from the
+Apple System’s menu.
+(b) Point and click on the Acrobat PDF Writer
+printer driver icon in the Chooser dialog
+box. Doing this will make PDF Writer the
+active printer driver whenever choosing the
+Print command from QuarkXPress.
+(c) Choose the Print command and examine
+the contents of the Print dialog box. We can
+see an Acrobat PDF Writer dialog box
+appear over the QuarkXPress Print dialog
+box.
+DESIDOC Bulletin of Inf Technol, 2003, 23(1)
+
+(d) Decisions about the number of pages
+needed and options such as automatically
+launching Acrobat reader to view the PDF
+file or naming it using the DOS file naming
+conventions are presented in the PDF
+Writer dialog box. The DOS file naming
+conventions are useful when sending files
+from the Macintosh to Windows users.
+(e) After naming the PDF file and saving it to
+the hard drive, open the file in Acrobat
+reader to make sure the document
+formatted properly. Then we can close
+QuarkXPress and send the PDF file as an
+e-mail attachment.
+
+6. PRODUCING PDF FILES
+For the time being, PDF files produced
+today are distributed and accessed in a
+variety of methods—downloads from a web
+server or accessed from CD-ROM.
+The Job Options setting in Acrobat Distiller
+presents four options: eBook, Press, Print,
+and Screen. Each has Adobe’s recommended
+settings that are accessible from the Distiller
+menu bar by choosing the Job Options menu.
+The first step in preparing PDF files for use as
+an eBook is set the Acrobat Distiller Job
+Options section of the Distiller dialog box.
+Adobe recommends using the eBook PDF
+Job Options setting instead of the Screen
+option for a higher quality display setting.
+Once we have installed Acrobat, producing
+a PDF file becomes quite easy using tools
+that are part of our daily routine. Most of us
+are using word processors, desktop
+publishing programs, drawing programs, or
+other applications running on graphical
+systems such as Windows or Macintosh.
+PageMaker features an Export command that
+will launch Acrobat distiller to produce a PDF
+file. Adobe’s latest page layout program,
+InDesign, produces a PDF file directly when
+using the Export command without having to
+have Acrobat Distiller. Adobe also has
+FrameMaker 7.0. This page layout application
+has been around since 1987 and offers
+WYSIWYG authoring as found in current
+publishing applications. It is designed for
+commercial publishers that produce extensive
+documents for the web, print, CD-ROM and
+DESIDOC Bulletin of Inf Technol, 2003, 23(1)
+
+PDA. Since FrameMaker is an Adobe
+product, PDF file generation is included as an
+option.
+Quark includes a PDF file option available
+with QuarkXPress (versions 5 and 6). This is
+indicative of the trend that other software
+manufacturers outside of Adobe are
+accepting PDF as a file format standard.
+Aside from archiving documents as a
+purpose for producing PDF files, the PDF files
+would be a source to pull files from archives
+for the production of books as needed. The
+concept of on-demand printing works
+hand-in-hand with the PDF file. Frequent
+revisions of books or overstocked inventories
+contributed to high expense areas that can be
+minimized by storing books as PDF files.
+
+7. CONCLUSION
+The PDF file is an effective method of
+preparing documents that are independent
+from the original program used to create
+them. For instance, a file, which was originally
+created in PageMaker, when distributed as a
+PDF version, can be viewed and printed
+without having access to the PageMaker
+program.
+Moreover, the PDF format provides
+researchers a means to store, retrieve, and
+distribute reports and increases the efficiency
+of electronic document handling.
+As Acrobat matures, it will be useful in
+reproducing high quality colour documents for
+the printing industry. It is currently effective for
+soft proofing colour page layouts from the
+computer monitor or highly effective for
+archiving and distributing books. Another
+application is in the production of documents
+for cross media publishing. This is an
+emerging segment of the printing and
+publishing industry. For example, softwares
+such as InDesign, FrameMaker, or XPress
+not only are capable of producing PDF
+documents but also are capable of preparing
+files for web distribution by having Extensible
+Markup Language (XML) as an option. The
+repurposing of electronic documents for cross
+media publishing as a means for distribution
+using print on paper, CD-ROM, PDA, and
+23
+
+web, is now in place in the software design of
+each of these major page layout programs.
+There are user groups that deal with such
+issues as providing digital content from the
+web. Open eBook Forum is an excellent
+resource for those managing digital content.
+However, the question persists—will the
+PDF file created today be readable from
+computer systems in the future? The answer
+to this question is dependent on Adobe
+maintaining a system that recognizes
+generations of PDFs with a ‘fail safe’ plan that
+will maintain the integrity of historical
+electronic documents and publications for
+future viewing and printing.
+
+REFERENCES
+1.
+
+Adobe Systems, Inc. PageMaker 7.0
+user manual. Adobe, San Jose, CA,
+1996.
+
+3.
+
+Craft, J.R. The fax about PDF: Why send
+a fax when you can PDF it! Tech
+Directions, 2002, 61(8), 23-26.
+
+4.
+
+Dennis, A. Real world PDF with Adobe
+Acrobat 5. Peachpit Press, Berkeley, CA,
+2002.
+
+5.
+
+Deubert, J. PDF: The coming evolution.
+High Volume Printing, 1998, 16(1),
+18-25.
+
+6.
+
+Romano, F. Delmar’s dictionary of digital
+printing & publishing. Delmar Publishers,
+Albany, NY, 1997.
+
+7.
+
+Romano, Richard. Press ready: PDF is
+firmly ensconced in the print production
+workflow. CrossMedia,
+September/
+October 2001, 1(2), 28-9.
+
+8.
+
+Vincour, M.D. PDF: Is it soup yet?
+American Printer, 1998, 221(1), 36-42.
+
+Adobe Systems, Inc. Acrobat 5.0 user
+manual. Adobe, San Jose, CA, 1999.
+
+Contributor:
+
+24
+
+2.
+
+Dr John R Craft, Appalachian State University, Boone, North Carolina 28608.
+
+DESIDOC Bulletin of Inf Technol, 2003, 23(1)
+
+

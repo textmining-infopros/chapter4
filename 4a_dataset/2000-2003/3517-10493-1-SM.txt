@@ -1,0 +1,426 @@
+DESIDOC Bulletin of Information Technology, Vol. 20, No. 3, May 2000, pp. 15-19
+CI 2000, DESlDOC
+
+Barcoding for Faster Library Transactions
+V.K.J. Jeevan
+ABSTRACT
+The utility of barcoding for faster library transactions is time-tested, and more
+and more computerised libraries in our country are using this technology. The paper
+briefly outlines the applications of this technology for library work. The barcode data
+transfer works in perfect harmony with library databases and can be used for faster
+and efficient library transactions. Various hardware, software, and symbologies are
+explained. A case study on application of barcode technology at the Central Library
+of Indian institute of Technology, Kharagpur, is elaborated. The paper also highlights
+the future applications of this technology in the information workplace. An indicative
+list of local barcode solution providers is also provided.
+
+1. INTRODUCTION
+
+2. BARCODE DATA TRANSFER
+
+The circulation work in an automated library
+involves keying in a large amount of data.
+Sometimes, the library staff at the counter has
+to retype the same information due to error in
+data entry. All this results in long queues at the
+circulation desk in our libraries. This voluminous
+work can be handled in a smooth manner in a
+much less time by the application of barcoding,
+one of the simplest coding technologies
+available in the market. The speed of data
+capture is three times faster than the speed at
+which a skilled data entry operator can input
+data' and also the error rate is negligibly small2.
+
+The information that can be encoded on the
+barcodes is rather limited and hence it is up to
+the individual libraries to decide what
+information they need to barcode for efficient
+handling of collection and for better operation
+of services. Libraries can use accession
+numbers of books, the unique information that
+distinguish their collection, as the vital
+information entity to barcode their collection.
+Similarly, the identification number of a user
+stands distinct for each member, which can be
+used to barcode the user's cards. Accession
+number/borrower number exported from the
+database/borrower
+database
+is
+library
+converted to a series of black and white lines
+by the barcode software. This can be printed by
+a dot-matrix/laser printer and pasted on all
+books and borrower cards.
+
+The barcode technology originated out of
+the need of retail stores and big industries to
+track down their inventory errors in a faster way.
+Due to the cheap human labour available in our
+country, the estimated barcoding market was a
+mere 12 crores in 1995-96', out of which
+libraries and miscellaneous services accounted
+for only 1 crore. Libraries need to adopt this
+technology as it helps retrieve and collect data
+quickly and efficiently.
+
+DESIDOC Bulletin of Inf Technol,2000,20(3)
+
+The light beam flashed from the bar.code
+scanner on the barcode label undergoes
+reflection at the white lines and absorption on
+the dark bands. This reflected light is collected
+back and is converted into electric pulses by
+the photoelectric circuitry of the scanner.
+Further, these pulses are converted into binary
+information by the interface circuitry of the
+15
+
+scanner before they are fed to the computer,
+for further processing. So, the information read
+from barcode acts as a substitute for the same
+information entered through keyboard, to
+handle circulation/other routines of the library
+database.
+The barcode technology is essentially a data
+transfer device and hence it works in perfect
+harmony with any of the computerised
+database systems. Any customisation needed at
+the user end can be done either by the in-house
+system personnel or by local solution providers.
+The barcoding setup includes the barcode
+scanner to read the barcoded information, its
+interfacing with the library computer (normally
+done through a keyboard interface cable), the
+software to convert the requisite information to
+barcodes, and the printer.
+The barcode scanners may be classified into
+different groups like (a) as per design (handheld and fixed-mount) and (b) as per light
+source (infrared or visible).
+Hand-held scanners contain no moving
+parts. They are compact, light and cheaper as
+compared to fixed-mount models. Hence, they
+are of interest to libraries desiring to optimise
+their budgetary resources. Infrared scanners can
+read mutilated labels; however, they need
+special printers. But recent times saw the
+dominant categorisation, as per technology, into
+CCD and laser scanners.
+In CCD scanners, light from the LEDs is used
+to read the barcode information, whereas laser
+light is used in the latter. Accordingly, laser
+scanners have increased scan width and range
+(distance from which the labels are scanned),
+but they are comparatively expensive. The
+vendors used to offer requisite software to
+generate barcodes from suggested fields of
+library database. Since materials and readers are
+added only in prescribed number in a library, it
+will be better to avoid commercial printing of
+barcode labels. All required lables can b e
+printed either on normal paper or on purchased
+blank labels on a dot-matrixllaser printer, as per
+their availability in the library. While generating
+lables, provision may also be made to print
+some other fields like author/title/user riame in
+
+normal text to identify the labels easily, as one
+is more comfortable with text than numbers like
+accession/identification number.
+The user cards are normally laminated and
+to ensure long life of the labels on books
+(defective labels always lead to wrong/no
+reading of data), transparent cellotape can be
+pasted over these.
+
+3. CODING FORMATS/
+SYMBOLOGIES
+The different code formats and how the
+information is encoded in bars is available in
+the literature4. The same information can be
+encoded by different schemes; however, at the
+user and application level, it doesn't make
+much distinction and the user may use any of
+the schemes. The same information can be
+encoded to and satisfactorily decoded from
+more than one scheme without hampering
+efficiency or time. orm mall^, limitations are
+imposed by the barcoding software one uses,
+and it is better to consult the individual
+operational manual for such information. Some
+of the common formats are:
+(a) Universal Product Code (UPC): US standard
+to encode only digits, UPC-A to encode 12
+digits or UPC-E to encode 6 digits.
+(b) European Article Number (EAN): European
+code to encode digits, available in two
+variations:. EAN-8 to encode 8 digits and
+EAN-13 to encode 13 digits.
+(c) Interleaved 2 of 5 . (ITF): Supports only
+numeric characters but can be used for
+variable length.
+(d) Code-39:
+Encodes capital alphabets,
+numerical and few special characters like $, +,
+%. Asterisk (*) must be used as the start and
+stop character. Lowercase alphabets cannot
+be encoded.
+(e) Code-1 28: Encodes both the lower and the
+upper case letters, numeric and special
+characters found on the keyboard.
+
+(f) Codabar: Encodes only numeric and few
+special characters and is the most widely
+used coding format. Generally, libraries use
+this symbology to encode books and
+borrower cards.
+DESIDOC Bulletin of Inf Technol, 2000,20(3)
+
+4. BARCODING AT THE IIT
+KHARACPUR CENTRAL LIBRARY
+The Central Library of the Indian Institute of
+Technology, Kharagpur, is one of the few
+libraries in the country to have a huge database
+of their entire collections. Initially, the
+computerised issue return of books6 was done
+by keying in the accession number of books
+and identification number of borrower, but this
+mechanism was prone to errors and. also
+resulted in long queues at the circulation grant
+desk. Out of the project of Rs 10 lakh received
+from AlCTE in 1994 for the conversion of the
+conventional central library into the electronic
+library, the Library procured 5 CCD barcode
+scanners (Scanteam-3000 manufactured by
+Welch Allyn, USA) and one HP-5Si Mx Laser
+Printer. It was decided to barcode books and
+hence, the details of books brought for
+issue/return were exported from the library
+database for generating barcode labels with
+accession number as the key field and the
+labels were printed on the laser printer using
+'Softbar v l ' software supplied by the vendor.
+The Library also received a consignment of
+'Nashua Laser Labels' in 30 labels per page
+format as gift from one of its alumni settled in
+US. The system generates three labels for each
+book to be pasted on the back of title page,
+secret page and last page. To fasten the
+process, personnel were given honorarium and
+encouraged to work overtime/on holidays to
+barcode the entire book collection. Side by
+side, new books processed by the technical
+processing section were also barcoded before
+release. Out of a special operating fund of Rs 1
+lakh received from the Institute in 1998, all the
+pending old books were also barcoded. Now,
+the entire collection of over 2 lakh books is
+barcoded.
+From the academic year 1998-99, all B.Tech
+and M.Tech students were given a laminated
+barcoded library identity card (with Roll No. as
+the key field), and the practice of issuing
+separate borrower cards as per the entitlement
+was discontinued. This facility will be further
+extended to faculty, researchers, and other staff
+in near future. This practice not only resulted in
+saving a large amount of stationery for printing
+numerous borrower cards but also a total savirig
+DESlDoC Bulletin of Inf T i n o / , 2000,20(3)
+
+of staff time which would have otherwise been
+spent for filing those cards. The user can have a
+book in one third of the pre-barcode issue time.
+The faculty, students and the personnel
+manning the circulation desk find the barcode
+technology user-friendly, efficient and fast.
+
+5. ADOPTION IN OTHER .LIBRARIES
+IN I N D I A
+Few of the computerised libraries in the
+country like American Center, British Council,
+other ItTs, some R&D libraries have already
+started barcoded circulation.
+With an investment of less than a lakh, the
+computerised libraries can procure barcode
+related hardware and software. A CCD scanner
+can be purchased for Rs 15,000 and a laser
+scanner for Rs 25,000 (approximate prices in
+1998) with comparable costs for relewnt
+software. It is always better to have a feedback
+from the nearby libraries who use this
+technology before procuring one. Also, the
+potential vendors may be called to give a
+demonstration of this technology. The
+procurement may be carried out in one go or
+in stages, so that those required for barcoding
+active collection may be purchased first and on
+completion of that work, more scanners may be
+bought. The accrued savings for the first few
+years will be more than what has been invested.
+Further, it will also improve the status of the
+library which will move one step closer to
+realise the fourth law of library science.
+
+6. APPLICATIONS O F BARCODING
+Barcoding offers a lot of comfort and ease
+to handle bulk routine tasks efficiently. The
+application of this technology for issue/return of
+books is widely identified and practiced in the
+developed countries of the world. A few of the
+computerised libraries in our country have also
+started experiencing the fruits of this
+technology. It is important to emphasise that
+this technology is not limited to circulation
+work. Newnham7 describes the barcoding of
+DNA samples in Britain. It is not out of place to
+ponder over future barcoding applications in a
+library. With the help of a data gathering
+device, the barcodes can be used to verify
+stock, as libraries have to resort to stock
+
+verification, at intervals. If the provision for
+multiple
+barcodes
+or
+multidimensional
+barcoding is incorporated to handle call
+number information also, wrong shelving of
+books can be autodetected which would help
+the staff to rectify the same. The individual
+journal volumes are handled in a library with
+lots of intricacies. Many a time these issues
+have to be taken out of the display area for
+Xerox work. There are also chances of their
+shelving in wrong cabinets. These problems are
+tackled by using a control number for the
+current journal issues and barcoding them
+accordingly. A database of journal issues can
+thus be generated so that their management
+through cards can be avoided. If the parent
+institution also has a computerised accounting
+system, all the bills can be routed after
+barcoding (use transactionlany other inventory
+number as the key field) so that their follow up
+and processing are done efficiently.
+
+REFERENCES
+1.
+
+Bhaskar Raj, A.S. The barcode technology
+and applications. Electronics For You, April
+1995, 99-105.
+
+2.
+
+Pradeep, C. & Rama Reddy, E. Applications
+of barcode technology for library
+operations-experiences at IGM library,
+University of Hyderabad. University News,
+36(35), 6-9.
+
+3.
+
+Counting the bars. Dataquest, 1-15 March
+1995, 95-99.
+
+4.
+
+Newnes communication technology
+handbook. Butterworth Hienemann, 1994.
+
+5.
+
+jagajeevan, V.K., et a/. Integrating library
+applications/datab'ases w i t h Web.
+Proceedings of SIS 98 Conference on
+Virtual Libraries. Central Library, IIT,
+Kharagpur, 1998, pp. 26-39.
+
+6.
+
+Katna, A.K. O n designing an automated
+circulation system for Indian environment.
+Program, 30(2), 171-75.
+
+7.
+
+Newnham, John. The world's first DNA
+database. Electronics for You, Oct 1995,
+46-48.
+
+Barcoding has come a long way and it is
+here to stay for faster and efficient library work.
+
+ACKNOWLEDGEMENTS
+The author gratefully acknowledges the
+encouragement received from Ms Mita Das
+Gupta and Prof S.B. Sinha for writing this paper.
+
+Contributor
+
+18
+
+Shri VKJ Jeevanis working as Assistant Librarian at the Central
+Library, Indian Institute of Technology, Kharagpur, West Bengal
+- 72 1302,
+e-mail: vkj(@library.iitkgp.ernet.in
+
+OESIDOC Bullelin of lnf Technol,2000,20(3)
+
+Appendix
+
+Vendors
+(This list of vendors is only illustrative, as a lot of companies function in different cities as agents of
+international barcode solution providers.)
+
+1.
+
+Great Eastern lmpex Pvt. Ltd.
+Pragati Tower,
+10th Floor, 26 Rajendra Place,
+New Delhi 110 008
+Phone: 571 1751
+Fax: 5754185
+
+2.
+
+'~fficientData Processing Pvt. Ltd.
+4fi2/4D, Shriram Bhuvan,
+N.P. Marg, Matunga
+Mumbai 400 019
+Phone: 4097092,
+Fax: 91-22-4096323
+
+3.
+
+Symbol Systems of India
+PB No 12002,
+Azad Nagar P.O.
+Andheri (W),
+Mumbai 400 053
+Phone: 6237152,
+Fax: 91-224239650
+
+DESIDOC Bulletin of Inf Technol, 2000,20(3)
+
+4.
+
+5.
+
+Mangalam Enterprises
+18, Panchu Dhobani Galli (2nd Floor)
+Calcutta 700 007
+Phone: 2397765,
+Fax: 91-33-2322260
+Datamatics Ltd.
+Unit No. 38/39, SDF II, SEEPZ,
+Andheri (E)
+Mumbai 400 096
+Phone: 832051 1,
+Fax: 91-22-8366368
+
+19
+
+

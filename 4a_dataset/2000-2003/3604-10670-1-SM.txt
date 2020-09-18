@@ -1,0 +1,843 @@
+﻿DESIDOC Bulletin of Information Technology , Vol. 23, No.4, July 2003, pp. 19-26
+© 2003, DESIDOC
+
+Multimedia and Data Transfer Technology: The
+Challenges and Delivery
+M Natarajan
+Abstract
+This article deals with multimedia data, which combines basic functions with high
+quality graphics, sound, video and animation and definitions of multimedia. Also
+deals with multimedia characteristics, network technology – Ethernet,
+Provisioning and ATM, bandwidth needs and multimedia networking along with
+data transfers protocols. Right issues for multimedia content like ownership,
+general right issues, use of photographs, film clips, music works have been
+discussed. Also multimedia delivery has been discussed with applications of
+multimedia. Several implications of bandwidth for large transmission have been
+explained. Multimedia applications are also highlighted in this article along with
+the patent issues for multimedia products.
+
+1. INTRODUCTION
+In every area of information technology
+computing, communications and content,
+there has been tremendous development
+over the last decade. In the area of content,
+the society is witnessing the growth both in
+size and in number of massive public and
+private databases – bibliographic first, then
+numeric and now multimedia. This boom is
+principally technology driven, which arises
+from the development of optical disc
+technology, the availability of high quality
+graphics and imaging, developments in
+networking and the falling cost of computing
+power and storage capacity. In the area of
+communications, there has been enormous
+development
+in
+electronic
+digital
+communications
+via
+which
+multimedia
+information can be transmitted worldwide at
+an incredible speed. Also seen the
+convergence
+of
+all
+new
+information
+technologies with conventional media.
+Information seekers are no longer satisfied
+with only print based information. One desires
+to have the information in any form viz. text,
+DESIDOC Bulletin of Inf Technol, 2003, 23(4)
+
+data, still image, motion picture and sound.
+Multimedia systems are applied to a broad
+range of applications from education to
+entertainment and specialized systems for
+military, research and other purposes. This
+article deals with the data transfer technology
+and the bandwidth requisites and the
+challenges for LIS professionals.
+
+2. DEFINITIONS
+Multimedia systems combine the digital
+form of images, graphics, audio, electronic
+signals or video and hypertext with traditional
+text data.
+Multimedia is more than the text and
+simple graphics of a regular computer. It
+combines basic functions with high-quality
+graphics, sound, video, and animation all in
+one computer. Multimedia is ideal for things
+like presentations. Instead of making
+black-and-white printouts, for example, one
+can present information on-screen using
+colour video and graphics accompanied by
+sound.
+
+19
+
+The working definition of multimedia is as
+follows:
+‘Hypermedia extends the hypertext
+concept to non-linear and non-sequential links
+of textual material to all forms of material that
+may be digitally encoded for storage and
+retrieval through computer-based systems,
+including images, sound, graphics and
+animation. Thus, multimedia refers to a
+synthesis of text, data, graphics, animation,
+optical storage, image processing and sound.
+Clearly, multimedia technology is not a single
+technology and there is no single product or
+definable market. It emphasizes technology
+integration. (Chen, June 1989a; Nov 1989a).
+
+3. CHARACTERISTICS OF
+MULTIMEDIA
+Multimedia can be as simple as a few
+images with some accompanying text to a
+multimedia presentation using video clips,
+sound,
+images,
+animation
+and
+text.
+Multimedia files use a lot of data when in a
+digital format. Video is the most demanding. A
+PAL signal when digitised can require a data
+rate of 170 Mbps. Audio is less demanding
+but still requires 1.3 Mbytes for a 1 minute clip
+using a Sound Blaster Pro system at 22 kHz
+sampling rate. Still images require and use
+more space proportional to their size.
+Synchronisation of sound and video are
+important. Sound is likely to brake up if parts
+of it are lost or delayed in storage or
+transmission.
+To
+accommodate
+these
+characteristics, techniques used by the
+telecommunication
+networks
+include
+compression of data and methods of timing
+the transmission and replay of multimedia.
+Data networks and computers have been built
+in a different way (they are asynchronous) to
+telephone and TV networks (which are
+isochronous).
+
+4. NETWORK TECHNOLOGY
+Multimedia computers common features
+include CD-ROM playback, audio processing,
+front-panel access for most audio connections
+and a set of loudspeakers. It should be
+assumed that many peripherals are required
+for multimedia data and its transfer. The first
+20
+
+step to optimized input/output performance is
+choosing the right networking technology for
+the application. Some applications need raw
+available bandwidth, while others need
+dedicated bandwidth. When the network
+becomes congested, packets can be
+dropped. Servers are forced to retransmit
+data to clients, further congesting the network
+and degrading performance. Having the right
+amount of networking bandwidth and being
+able to allocate it as needs dictate is crucial.
+The appropriate configuration is critical to
+meeting the needs of the application, whether
+it is transmitting small or large packets.
+Ethernet - With a wide range of capabilities,
+such as ease of connectivity and a stable
+installed base, ethernet is ubiquitous,
+inexpensive and easy to deploy. Available in
+10Mbps, 100Mbps (Fast Ethernet) and 1Gbps
+(Gigabit Ethernet), with future trends
+promising 10Gbps, Ethernet provides a
+scalable
+platform
+on
+which
+many
+environments can succeed.
+Provisioning - Sometimes a source of
+strength can also be a failing. While
+ethernet’s single fat pipe approach enables
+high performance for single applications, it
+prohibits multiple applications from sharing
+bandwidth simultaneously. As a result,
+applications may have to get in line to send
+data. This dilemma can be solved by
+provisioning - allocating bandwidth, setting
+priorities and bounding delays. Ethernet
+supports this capability only with additional
+software, while ATM supports it natively.
+Understand the alternatives and associated
+overhead and make appropriate trade-offs.
+ATM - A network technology based on cell
+switching, ATM uses small, fixed-sized cells
+and high-bandwidth, low-latency switches.
+ATM can deliver approximately the same
+performance as Gigabit Ethernet for many
+data centre applications. This technology
+offers a deterministic quality of service and
+the mixture of multimedia data. ATM enables
+the network to be tailored to the application.
+ATM LAN interfaces are available at 155Mbps
+and 622Mbps.
+
+DESIDOC Bulletin of Inf Technol, 2003, 23 (4)
+
+4.1
+
+Bandwidth Needs
+
+Simply selecting a networking technology
+and topology is not enough. Maximizing the
+effective bandwidth is essential to ensure that
+servers
+can
+adequately
+supply
+the
+organization with information and resources.
+Most networks transfer information using
+TCP/IP, a protocol that supplies a logical
+client/server communications structure that
+transparently
+handles
+inter-process
+communication details. The protocol of choice
+for the internet and intranet, TCP/IP consists
+of a network layer (IP) and a transport layer
+(TCP).
+These
+layers
+have
+unique
+characteristics and limitations that need to be
+considered when maximizing bandwidth. The
+transport layer limits the TCP packet size to
+the maximum network interface frame size to
+avoid fragmentation.
+There are many techniques that one can
+use to reduce the problem, in case of limited
+bandwidth, which are as follows:
+Compression is one easy solution for the
+limited bandwidth. One can apply even
+data-specific compression eg. Still pictures
+can be compressed with JPEG, Wavelet
+compression or GIF. Moving pictures can be
+compressed with MPEG, Motion JPEG,
+Cinepak or one of the other QuickTime
+codecs. Audio can be compressed with
+dictionary-based compression algorithms.
+Different
+users
+require
+different
+compression methods. Video conferencing
+must be done in real time so fast encoding
+and decoding is needed. Video film
+distribution via cable networks, radio or CD is
+essentially a playback process, so encoding
+is not time critical and decoding should be
+easy to implement to reduce consumer costs.
+The MPEG standards address these
+applications.
+Another way to cope with limited
+bandwidth is to write programs that take care
+not to waste bandwidth. To reduce packet
+size, wherever possible Bolo uses bytes
+instead of 16-bit or 32-bit words.
+A third way to cope with limited bandwidth
+is simply to send less data. One can use
+lower resolution also.
+DESIDOC Bulletin of Inf Technol, 2003, 23(4)
+
+Regardless of the network, higher data
+speed may encourage greater take-up of
+wireless application protocol (WAP) services
+and other forms of mobile content delivery.
+Version 2.0 of WAP will include push
+capabilities, enabling organisations to use it to
+send short message service - style alerts or
+other time-sensitive data. It also provides
+support for colour and greater use of
+multimedia, as well as a wider range of user
+interface elements. Use of the Extended
+Hypertext Markup Language (XHTML) rather
+than the Wireless Markup Language (WML)
+for content brings WAP applications closer to
+their conventional HTML-based equivalents.
+The use of WAP may begin to deliver more
+usable applications, both for business and
+consumer use, helping some of the original
+expectations of WAP.
+Use of ISDN is another way of controlling
+the limited bandwidth as
+q ISDN is scalable, flexible; voice, data &
+video traffic are easily accommodated.
+q ISDN is not a point-to-point circuit but a
+switchable, dial-up circuit via PBX or router.
+q ISDN can be folded into current and future
+LAN/ WAN technologies.
+Also, there are economies of scale due to
+the ability to combine voice, data, and video
+traffic over the same facilities.
+
+5. MULTIMEDIA NETWORKING
+Computer networks were designed to
+connect computers on different locations so
+that they can share data and communicate.
+Animation, voice and video clips become
+more and more popular on the Internet.
+Multimedia networking products like Internet
+telephony, Internet TV, video conferencing
+have appeared on the market. Now people
+are using multimedia products in distance
+learning, distributed simulation, distributed
+work groups and other areas.
+For multimedia networking one has to
+build the hardware and software infrastructure
+and application tools to support multimedia
+transport on networks so that users can
+communicate in multimedia. Multimedia
+networking will greatly boost the use of
+21
+
+computer as a communication tool and
+dramatically change our life in future.
+
+another network hardware and building the
+interface between two networks.
+
+5.1
+
+Presently, IP and Ethernet seem to be
+more favoured in the desktops and LANs,
+with ATM in wide area networks.
+
+Real-Time Challenge
+
+In multimedia networking, one can expect
+at least three difficulties, which are as follows:
+(a) Compared
+with
+traditional
+textual
+applications,
+multimedia
+applications
+usually require much higher bandwidth. A
+typical piece of 25-second 320x240
+QuickTime movie could take 2.3MB, which
+is equivalent to about 1000 screens of
+textual data.
+(b) Most multimedia applications require the
+real-time traffic. Audio and video data must
+be played back continuously at the rate
+they are sampled. If the data does not arrive
+in time, the playing back process will stop
+and human ears and eyes can easily pick
+up the artifact. In addition to the delay,
+network congestion also has more serious
+effects on real-time traffic.
+(c) Multimedia data stream is usually bursty.
+Just increasing the bandwidth will not solve
+the burstiness problem. For most
+multimedia applications, the receiver has a
+limited buffer. If no measure is taken to
+smooth the data stream, it may overflow or
+underflow the application buffer. When data
+arrives too fast, the buffer will overflow and
+some data packets will be lost, resulting in
+poor quality. When data arrives too slow,
+the buffer will underflow and the application
+will starve.
+
+5.2
+
+Multimedia over internet
+
+There are other ways to transmit
+multimedia data, like dedicated links, cables
+and ATM. ATM was said to be the ultimate
+solution for multimedia because it supports
+very high bandwidth. It is connection-oriented
+and can tailor different level of quality of
+service to different type of applications.
+The well-established LAN and WAN
+technologies based on IP protocol suite
+connect bigger and bigger networks all over
+the world to the internet. Another benefit of
+running multimedia over IP is that users can
+have integrated data and multimedia service
+over one single network, without investing on
+22
+
+Multimedia means extremely dense data
+and heavy traffic. The hardware has to
+provide enough bandwidth.
+Multimedia applications are usually related
+to multicast, i.e., the same data stream, not
+multiple copies, is sent to a group of
+receivers. For example, in video conference,
+the video data need to be sent to all
+participants at the same time. Live video can
+be sent to thousands of recipients.
+The price tag attached shared network
+resources is unpredictable availability. But
+real-time applications require guaranteed
+bandwidth when the transmission takes place.
+So there must be some mechanisms for
+real-time applications to reserve resources
+along the transmission path.
+Internet is a packet-switching data network
+where packets are routed independently
+across shared networks. The current
+technologies cannot guarantee that real-time
+data will reach the destination without being
+jumbled and jerky. Some new transport
+protocols must be used to take care of the
+timing issues so that audio and video data
+can be played back continuously with correct
+timing and synchronization.
+There should be some standard
+operations for applications to manage the
+delivery and present the multimedia data.
+
+6. RIGHTS ISSUES IN MULTIMEDIA
+CONTENT
+(a) ‘Ownership’ may not be enough
+Even the outright purchase of a portfolio of
+works, such as motion pictures, may not
+provide the right of unrestricted use of the
+contents of such works in multimedia
+products. An assignment of all right, title and
+interest in a copyrighted work, i.e., a transfer
+of ownership, may leave residual rights to be
+dealt with such as:
+
+DESIDOC Bulletin of Inf Technol, 2003, 23 (4)
+
+q
+
+Moral rights such as the right to prevent
+changes to a work that could harm the
+author’s reputation or honour
+
+q
+
+Payments may be required for reuse rights
+under production agreements or group
+contracts
+
+q
+
+Music sound track rights are a property
+separate from a movie itself
+
+(b) General rights issues
+The general legal rule in copyright
+licensing is to assume that the owner
+reserves any right not expressly granted in
+the license language. If the right is needed it
+should be expressly included in the license
+language. The commercial rights needed for
+multimedia content may include copying, in
+whole or part; performance rights; public
+display rights; the preparation of derivative
+works (modifications); and publication and
+distribution by any variety of methods on all
+media whether now known or invented
+hereafter.
+Content providers known as ‘stock houses’
+and media libraries are an alternative to
+obtaining the rights to specific works through
+rights clearance agencies. The ‘stock houses’
+maintain libraries of video clips, photographs,
+illustrations, music and sound effects that can
+be licensed for use in a multimedia product.
+
+the photograph: minimum size, resolution,
+number of copies, time period, etc. Thus, a
+developer of a multimedia product may need
+to negotiate with the photographer to obtain
+rights to the photograph.
+(e) Use of film clips
+Films and related works are loosely
+divided into motion pictures and other films.
+Film libraries other than commercial motion
+pictures often have fee schedules for
+traditional uses of content. Thus, special
+negotiations may be required to cover the
+exact usage in the multimedia product.
+(f) Use of music works
+Music encompasses a number of different
+licensing rights. The good news is that
+procedures and policies for obtaining rights to
+use a musical composition are well
+established. It is also usually clear who owns
+the rights being sought. The bad news is that
+one normally has to negotiate with several
+different parties to obtain all needed rights for
+use as multimedia content.
+q
+
+q
+
+(c) Use of literary and other written works
+The Copyright Clearance Centre, Inc.
+(’CCC’) was established primarily to protect
+the rights of owners of printed materials
+against unauthorized photocopying. The CCC
+collects and distributes royalties to publishers.
+The CCC has also begun to address the
+electronic use of printed works protected by
+copyright. Thus, the CCC could be a
+candidate for the administrator of the
+multimedia clearinghouse.
+(d) Use of photographs
+A book may also contain photographs of
+interest to the developer of a multimedia
+product. A publisher of a work that contains a
+photograph may have only a one-time use
+right rather than outright ownership of the
+photograph. The publication agreement may
+also impose additional restrictions on use of
+DESIDOC Bulletin of Inf Technol, 2003, 23(4)
+
+q
+
+A mechanical license is needed for the right
+to make and distribute material objects in
+which a recording of a musical composition
+is embodied such as a record, tape or CD.
+A synchronization license is needed to
+authorize the synchronization of a musical
+composition with visual images of a
+multimedia work. No compulsory license is
+available for this right. Rights must be
+obtained through a clearing agency.
+Another exclusive right of the owner of a
+musical composition is to control public
+performances. A multimedia product may
+need a public performance license.
+
+7. MULTIMEDIA DELIVERY AND
+APPLICATIONS
+The main problem with multimedia data is
+just delivering it where needed. Because of its
+bulkiness, multimedia is often best archived at
+a few sites and retrieved from there. That can
+entail logistical problems in delivering all
+those bits efficiently since networks are
+generally optimized for text data. Multimedia
+delivery systems are being explored for digital
+23
+
+multimedia libraries, video meetings, video
+medicine, distance learning, multimedia mail
+and interactive television.
+Multimedia delivery is typically intensive in
+input/output and communications resources
+as opposed to processor resources. Network
+architectures and software need to be
+optimized for large transmission ‘bandwidth’
+(bits per second). This has several
+implications:
+q
+
+System architectures should be chosen for
+fast input/output. Parallel ports are
+desirable (although not currently common).
+
+q
+
+Star and fully connected topologies are
+desirable. That may only be feasible with
+local-area networks for many applications.
+
+q
+
+Switches should be preferred to routers on
+network connections since the routers have
+lower bandwidth and higher delays.
+
+q
+
+Experimentation with the packet size for
+multimedia data may improve performance
+since the best size is hard to predict.
+
+q
+
+Data-compression techniques should be
+used where possible to minimize the
+necessary bandwidth; typical compression
+ratios range from 2:1 for audio to 20:1 for
+images and 50:1 for video.
+
+q
+
+Caching of frequently used data can help
+efficiency, but not all multimedia
+applications so benefit. A simple and
+popular alternative to caching is a CD-ROM
+optical disk at the end-user site containing
+commonly needed media data.
+
+7.1
+
+Real-time multimedia delivery
+
+Many multimedia applications have
+real-time constraints, such as those delivering
+audio and video and those supporting
+real-time simulations. But bandwidth over
+networks is a problem. A single MPEG-1
+compressed video of current television-picture
+quality needs around 2 megabits per second
+(though video conferencing and video
+interviews can be adequate with less);
+compact-disk music audio requires 1.4
+megabits/second. Standard (ISDN) telephone
+lines
+provide
+0.064
+megabits/second,
+nowhere near adequate for either (though
+several lines can be used in parallel, what is
+24
+
+called ‘bonding’). Without careful design there
+can be serious problems in quality of service
+in real-time multimedia delivery, problems
+suggesting negotiation both beforehand and
+in real time.
+
+7.2 Multimedia Applications
+Networked multimedia applications will
+give users the possibility to interact all kind of
+media like text, graphics, images, audio,
+video and animation. When adding network to
+connect users it has the capabilities to new
+merging applications. When added to the
+networked multimedia environment where
+telephone, computer, television, publishing,
+education, movie and consumer electronics
+industries are converging to the new digital
+information industry and provide new ways to
+use telephones, computers, televisions and
+all kind of home electronics. It offers new
+possibilities to interact and cooperate.
+Using together the internet and the world
+wide web, mobile phones, high resolution TV,
+high quality VCR and DVD, one can draw a
+light glimpse what the future can offer when
+converging of different media will continue
+and the network speed and bandwidth will
+increase. Also when one interacts with the
+large screen, it gives the natural
+three-dimensional space, the virtual reality.
+The multimedia applications provide to
+interact the proper media and to be
+connected to other people so that one can
+share ideas, thoughts and create new ones.
+Collaboration and sharing ideas is ideal for
+developing new products and services and
+rearranging processes to create better new
+flexible and virtual environments. Interaction
+will increase our pleasure. Different kinds of
+entertainment, edutainment, infotainment and
+sociotainment applications and products are
+coming.
+The interactive networked multimedia (e.g.
+internet/intranets/extranets)
+is
+a
+good
+expedient to come closer to customers and to
+penetrate deeply into customer’s processes,
+so that people can make productive
+co-operation. These products and services
+bring added value to customers, which
+creates totally new services to new media
+DESIDOC Bulletin of Inf Technol, 2003, 23 (4)
+
+business.
+The
+deregulation
+of
+telecommunication and digitalisation will burst
+new operators and end-user customers.
+Networked multimedia offers us interaction by
+sending and receiving multimedia e-mails.
+Multimedia products demand is for
+educating students and training employees in
+classrooms those are remote from teachers.
+There is also demand for accessing a wide
+variety of movies, sports, news, and other
+video programming at times that users select,
+along with the demand for business video
+conferences. Customers will use and pay for
+multimedia only if it provides better solutions
+at lower costs than available alternatives.
+Relatively few multimedia solutions now have
+higher quality and lower cost than alternative
+solutions.
+From a user’s point of view, an application
+is everything that user sees of both the
+software and the hardware, including the
+delivery network and any other support
+services. Programs should be build-in to help
+a user navigate through the author’s media
+(besides tables of contents and indexes that
+merely assist page flipping).
+A successful multimedia application must
+be both economical and easy to use.
+
+9. PATENT ISSUES
+Patents are also important intellectual
+property in multimedia products even when
+the primary element is copyrighted content.
+There are many patent issues and potential
+disputes involving compression technology. In
+addition, while MPEG is an open compression
+standard, it is still proprietary and it remains to
+be seen if there will be adequate cooperation
+to achieve licensing at reasonable royalty
+rates. There may also be patented processes
+for presentation or retrieval that must be
+embedded in the content itself. Even if
+clearances are obtained for copyrighted
+content, the process of presenting that
+content as part of a multimedia product could
+infringe a patent. Content developers will
+have to deal with this issue.
+
+DESIDOC Bulletin of Inf Technol, 2003, 23(4)
+
+CONCLUSION
+Digitized multimedia data such as images,
+video, and audio is rapidly becoming
+commonplace and will soon replace
+conventional alphanumeric data as the
+primary data format. New techniques are
+needed to access, manage and search these
+new multimedia data types. This article has
+given an overall idea of the multimedia; data
+types and data transfer methods available
+with the rights for multimedia content. Library
+and information professionals should take
+these as a challenge and act upon to the
+latest developments on multimedia data
+transfer. The expectations of the current
+technology
+of
+integrated
+multimedia
+information system inevitably greatly expand
+the traditional system and functions and have
+increased sharply information access for its
+users.
+A comprehensive information system of
+tomorrow will be one of that is evolving far
+beyond a text and/or data base system. It will
+definitely be multimedia with capabilities for
+non-sequential linking of not only related, but
+also non-related information sources.
+
+REFERENCES
+1.
+
+Chen, Ching-Chih. The challenge to
+library and information professionals in
+the visual information age. 45th FID
+Conference, 18–21 September 1990,
+Havana, Cuba.
+
+2.
+
+Flickner, F. Understanding networked
+multimedia: Applications and technology.
+Prentice-Hall International, UK, 1995.
+
+3.
+
+Multimedia i.t.magazine, July 1995, 27.
+
+4.
+
+Paul,
+Andre.
+The
+future
+of
+communication formats. National Library
+News, January 1997, 29(1).
+
+5.
+
+Rowe, Neil C. Multimedia systems.
+
+6.
+
+Special issue on Distributed Multimedia
+Systems and Technology. IEEE Journal
+on selected areas in communications,
+September 1996, 14(7).
+
+7.
+
+What’s multimedia? Computers Today.
+July 1995, 50–63.
+25
+
+8.
+
+www.celeom.com.my/fixedservices
+
+10. www.davidfincher.net/multimedia.htm
+
+9.
+
+www.cs.ucl.ac.uk/staff/jon/mmbook/book/
+book.html
+
+11. www.networkmagazineindia.com/200104/
+access1.htm
+12. www.oxsemi.com/articles/art001.html
+
+Contributor:
+
+Shri M Natarajan, Scientist, NISCAIR Regional Centre, Chennai – 600 113.
+e-mail: m_natarajan@hotmail.com
+
+Re a d e rs’ Fo ru m
+Dear Readers
+We welcome the readers of DESIDOC Bulletin of Information Technology (DBIT).
+We intend to start a column entitled ‘Readers’ Forum’ in which the comments and
+suggestions of the readers regarding the coverage, quality of papers and other
+aspects of DBIT will be published.
+This will help in further improving the bulletin and making it more educative and
+interesting.
+Readers of DBIT are invited to write to the Editor, DBIT on aspects mentioned
+above. They can send their comments by e-mail also at dirdesidoc@vsnl.net
+
+— Editor
+
+26
+
+DESIDOC Bulletin of Inf Technol, 2003, 23 (4)
+
+

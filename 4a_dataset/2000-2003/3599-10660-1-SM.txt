@@ -1,0 +1,872 @@
+﻿DESIDOC Bulletin of Information Technology , Vol. 23, No.3, May 2003, pp. 3-9
+© 2003, DESIDOC
+
+Wireless Media: A New Paradigm
+Ashwani Kush & R K Chauhan
+Abstract
+In this review we have tried to represent knowledge about wireless media, which
+is fast emerging as a new area in the field of computer science. Wireless
+networks are emerging fast as latest technology, to allow users to access
+information and services via electronic media, without taking geographic position
+in account. Mobile hosts and wireless networking hardware are becoming widely
+available, and extensive work has been done recently in integrating these
+elements into traditional networks such as the Internet. We have tried to present
+the basic knowledge required for a layman to know about Wireless media
+starting from History to most current trends and trends still to come. This effort is
+a part of research work by authors in mobile computing. The review is divided
+into four parts as history, evolution of cellular networks, wireless devices and
+types of wireless media. A tabular representation based on comparative study is
+shown for wireless media attributes such as frequency range, cost, installation,
+bandwidth and node capacity, etc.
+
+1. HISTORY
+Starting from Graham Bell to modern day
+telephone a very long distance have been
+traversed. We just take a peep into the past to
+see how the development process in wireless
+media has taken place.
+Most closely connected with success of
+Wireless communication is Gulielmo Marconi
+in 1895 using long wave transmission with
+very high transmission power (> 200 KW).
+First transatlantic transmission followed in
+1901. In 1907 first commercial transatlantic
+connections were set up6. First radio
+broadcast took place in 1906 when Reginald
+A Fessendan transmitted voice and music for
+Christmas. In 1915 first wireless voice
+transmission was set up between New York
+and San Francisco. First commercial radio
+station started in 1920. In 1920, discovery of
+short waves was done by Marconi. This
+reduced size of antennas and high
+transmission towers. In 1926 first telephone in
+train was available (wires parallel to the
+DESIDOC Bulletin of Inf Technol, 2003, 23(3)
+
+railroad track worked as antenna). First radio
+for cars was commercially available in 1927.
+1928 was year for many trials for Television
+broadcasting. First telecasting started in 1932
+from CBS station. Up to this all wireless
+communication used amplitude modulation
+which offered relatively poor quality due to
+interference. In 1933 Edvin H Armstrong
+discovered frequency modulation. In 1958
+Germany has first network as analog A. Netz
+using a carrier frequency of 160 MHz. In
+1979, Denmark, Finland, Norway and
+Sweden agreed upon NMT (Nordic mobile
+telephone) system. It used 45 GHz carrier. In
+1983 US started AMPS (advanced mobile
+phone system) at 850 MHz. In 1984 Cordless
+telephone came. Early 1990 marked use of
+fully digital systems. In 1991 came DECT
+(digital European cordless telephone) at 1800
+2
+MHz. In 1991 GSM (global system for mobile
+communication) was standardized as a
+document of more than 5000 pages. GSM
+works at 900 MHz and uses 124 full duplex
+channels. It offers full international roaming,
+3
+
+automatic location services, authentication,
+encryption, high audio quality, etc., and also
+S MS (short message service). Again more
+efficient in bandwidth systems were
+3
+5
+developed as TDMA (time division multiple
+access) in 1996 and CDMA (code division
+multiple access) in 1997 4 working at 1800
+MHz. GSM has been switched to 1800 MHz,
+now called DCS (digital cellular system). In
+1997 IEEE 802.11 for LAN at 1.4 GHz was
+standardized. 1998 marked the beginning of
+mobile communication using satellites, also in
+same year European agreed on UMTS
+(universal mobile telecom system). UMTS
+combined GSM with more efficient bandwidth
+efficient CDMA solution.
+
+2. EVOLUTION OF MOBILE
+CELLULAR NETWORKS
+(a) First Generation Mobile System: It
+included
+AMPS8 (advanced mobile
+telephone system) made available in 1983.
+It was first deployed in 1974 in Chicago,
+with a service area of 2100 square miles.
+Data rate of 10 kbps (Kilo bytes per second)
+with 832 channels was offered. Also in
+Europe
+TACS
+(total
+access
+communications system) was introduced
+with 1000 channels and data rate of 8 kbps.
+First generation supports voice traffic,
+paging data and fax services.
+(b) Second Generation Mobile System:
+Second generation uses digital multiple
+access technology, such as TDMA and
+9
+CDMA. GSM was introduced in this
+category. Examples of second generation
+systems are GSM, cordless telephone
+second generation (CT2), Personal Access
+Communication systems (PACS) and
+10
+DECT,
+PHS (personal handy phone
+system). Second generation systems are in
+current use around the world. Second
+generation systems support voice, limited
+data communications, fax, SMS.
+(c) 2.5 G Mobile Systems: The move into 2.5
+G world will begin with GPRS (general
+packet radio service). GPRS is a radio
+technology for GSM. Network based on this
+technique is known as EDGE (enhanced
+data rate for GSM evolution). GPRS will
+4
+
+support flexible data transmission rates as
+well as continuous connection to network.
+11
+
+(d) Third Generation Mobile systems : It is
+faced with several challenging technical
+issues, such as provision of seamless
+services across both wired and wireless
+networks and universal mobility. Advanced
+multiple
+access
+techniques
+are
+investigated in this connection, one based
+on wideband CDMA and another that uses
+a hybrid TDMA/CDMA/FDMA approach.
+Here new network technologies like ATM
+(asynchronous transfer mode) backbone,
+network management, and service creation
+are integrated into existing second
+generation core networks. Air interfaces
+like Wideband CDMA (W-CDMA) and
+CDMA2000 are major third generation
+radio standards.
+(e) UMTS
+(universal
+mobile
+telecommunication system): UMTS is
+commonly referred to as a Third generation
+system and is targeted to be deployed in
+2003. UMTS uses an ATM based switching
+network architecture and aims to provide
+service for both mobile and fixed
+subscribers by common call processing
+procedures. UMTS will provide at least 144
+kbps for full mobility, 384 kbps for limited
+mobility applications and 2048 Mbps for low
+mobility applications. UMTS terminals will
+be multiband and multimode so that they
+can work with different standards.
+Cellular, cordless and PCS (personal
+communication services) systems follow
+different design guidelines. 12
+Under cellular telephony comes AMPS
+(advanced mobile telephone system), GSM,
+DCS (digital cellular system) as major
+designs.
+Under Cordless category are CT2, DECT,
+etc.
+Under Low tier category are PHS, PACS,
+etc.
+Characteristics of Cellular, cordless and
+13
+low tier PCS are shown in table 1.
+
+DESIDOC Bulletin of Inf Technol, 2003, 23 (3)
+
+Table 1. Charateristics of cellular, low tier purchase, and Cordless systems
+System
+Cellular
+Low Tier PCS
+Cordless
+Cell Size
+
+Large (few Km)
+
+Medium (30-600 ft)
+
+Small (30-60 ft)
+
+User Speed
+Area Covered
+
+High
+Large
+
+Medium
+Medium
+
+Low
+Small zones
+
+Handset Complexity
+
+High
+
+Low
+
+Low
+
+Power Consumption
+Delay
+
+High (100-800 mW)
+High<=600ms
+
+Low (5-10 mW )
+Low<=10ms
+
+Low (5-10 mW )
+Low<=20ms
+
+Speech Coding Rate
+
+Low (8-12 kbps)
+
+High (32 kbps)
+
+High (32 kbps)
+
+Palmtop/Pocket Computer: Tiny keyboard,
+color displays, simple programs like text
+processing, spread sheets, etc.
+Laptop/Notebook: More or less same as
+desktop computer. Uses same software, only
+technical difference being size, weight and
+ability to run on a battery.
+
+3. WIRELESS AND MOBILE
+DEVICES
+Sensor: A very simple wireless device is
+represented by a sensor transmitting state
+information. e.g. Switch sensing the office
+door
+Embedded
+Controllers:
+Applications
+containing simple or complex controllers of
+some type as Keyboard, Mouse, Washing
+Machine, etc.
+Pager: Simple receiver, a tiny display shows
+text messages
+
+Wireless media does not use an electrical
+or optical conductor. For the data, the earth’s
+atmosphere is the physical path for most
+cases. When distances, obstructions make
+bounded media difficult, then the wireless
+media is very useful.
+
+Mobile Phones: Simple phones, small size,
+light weight. They are able to handle text,
+graphics, color, audio and video
+PDA
+(Personal
+Digital
+Assistance):
+Accompany a user and offer simple versions
+of office software (calendar, mail, notepad,
+etc.)
+100
+
+102
+
+104
+
+106
+
+108
+
+r adio
+
+4. WIRELESS MEDIA TYPES
+The main types of wireless media are:
+radio wave, microwave and infrared. Figure 1
+shows the frequency pattern7:
+
+1010
+
+1012
+
+Mic rowave
+
+101 4
+
+inf rared
+
+1016
+UV
+
+10 18
+
+10 22
+
+X-ra y
+
+Visible L ight
+
+4
+
+10
+
+5
+
+10
+
+6
+
+10
+
+7
+
+8
+
+10
+
+10
+
+Twisted Pai r
+
+9
+
+10
+
+10
+
+10
+
+11
+
+10
+
+12
+
+10
+
+Sat ellite
+
+AM
+R adio
+
+FM
+Radio
+
+13
+
+10
+
+14
+
+10
+
+15
+
+10
+
+Fiber Optic s
+
+T errest rial
+Mi crow ave
+
+TV
+
+Ba nd
+
+LF
+
+MF
+
+HF
+
+VHF
+
+UHF
+
+SHF
+
+EHF
+
+TH F
+
+Figure 1. Frequency Pattern
+DESIDOC Bulletin of Inf Technol, 2003, 23(3)
+
+5
+
+For computer network applications, radio
+waves fall into three categories:
+t Low power, sin gle fre quency
+t High power, sin gle fre quency
+t Spread – spec trum
+
+4.1 Radio Wave Transmission
+Systems
+Radio waves frequency range is 10 KHz
+and 1 GHz. In electromagnetic spectrum
+range between 10 KHz and 1 GHz is also
+called therefore (radio frequency). Radio
+waves are of following types:
+
+Table 2 represents basic features of three
+14
+types.
+For all tables in this paper, the term Freq.
+Range refers to frequency range. Cost refers
+to cost of equipments and is evaluated
+against performance it provides. Installation
+refers to install guidelines, Installation may
+depend on individual situation, general
+comparison between media are taken.
+Bandwidth capacity is data rates, the range of
+frequencies
+that
+a
+medium
+can
+accommodate. Bandwidth is measured in
+terms of the number of bits that can be
+transmitted across a given medium per
+second. Node capacity refers to how many
+computers you can easily attach to the
+network. EMI refers to immunity from
+electromagnetic interference. It is caused by
+outside electromagnetic waves affecting the
+
+³ Short wave
+³ Very high frequency (VHF) and FM radio
+³ Ultra high frequency (UHF) radio and
+Television
+Most radio frequency are regulated.
+Regulated frequencies ensure clear radio
+transmission. Radio waves can be broadcast
+omni directionally or directionally. Various
+types of antennas can be used for
+broadcasting.
+Some of most commonly used antennas
+are (figure 2):
+1.
+2.
+3.
+4.
+
+Omni directional towers
+Half wave dipole
+Random length wire
+Beam
+
+Radio Tower
+
+Half W ave Dipole
+
+Wir e
+
+Beam
+
+Figure 2. Commonly Used Antennas
+Table 2. Basic features of three categories of radio waves
+Freq. Range
+Low power
+single freq.
+High power
+single freq.
+Spreadspectrum
+6
+
+All radio
+(low GHz)
+All radio
+Low (GHz)
+All radio
+(MHz)
+
+Cost
+
+Installation
+
+Bandwidth
+
+Attenuation
+
+EMI
+
+Moderate
+
+Simple
+
+1 – 10 Mbps
+
+25 meters
+
+Poor
+
+Higher
+
+High
+
+1-10 Mbps
+
+Low
+
+Poor
+
+Moderate
+
+Moderate
+
+2-6 Mbps
+
+High
+
+Fair
+
+DESIDOC Bulletin of Inf Technol, 2003, 23 (3)
+
+desired signal, making it difficult for receiving
+computer to decode it.
+
+4.2
+
+Microwave Transmission
+System
+
+Microwave system uses lower gigahertz
+frequencies of the electromagnetic spectrum.
+These frequencies are higher than radio
+frequencies.
+They
+produce
+better
+performance and throughput.
+Microwave data communication systems
+are of following types:
+t Ter res trial
+t Satellite
+
+Terrestrial use directional parabolic
+antennas to send and receive signals.
+Microwave links connect separate buildings
+where cabling is difficult or expensive.
+Satellite systems transmit signals between
+directional
+parabolic
+antennas.
+Main
+difference between satellite system and
+terrestrial system is that in a satellite system
+one antenna is on a satellite in
+geosynchronous
+orbit
+about
+50,000
+kilometers above the earth. Because of this,
+satellite microwave systems can reach the
+most remote places on earth and
+communicate with mobile devices. LAN sends
+a signal through cable media to antenna,
+which beams the signal to the satellite in orbit
+above the earth. The orbiting antenna then
+transmits the signal to another location on the
+earth or, if the destination is on the opposite
+
+side of the earth, to another satellite, which
+then transmits to a location on earth. There
+are some propagation delays which may
+range from .5 to 5 seconds. Table 3 shows
+some features of the two microwave data
+communication systems.
+
+4.3
+
+Infrared Systems
+
+Infrared media uses infrared light to
+transmit signals. Light emitting diodes (LED)
+transmit the signals, and photodiodes receive
+the signals. From electromagnetic spectrum,
+infrared uses terahertz range (high frequency
+range). The remote controls of different
+electronic devices uses this technology.
+Though infrared signals have a good
+throughput, but problem is that they cannot
+pass solid materials, also they are diluted by
+strong light sources. Infrared allows both
+point to point and broadcast transmission.
+Point to point allows better transmission rate,
+but devices must be within its location, and on
+other side, broadcasting gives more flexibility
+but rate of data transfer is slow. Table 4
+represents basic features of two types of
+infrared transmission.
+Point to Point: Infrared beams can be tightly
+focused and directed at a specific target.
+Careful alignment of transmitter and receiver
+is required.
+Broadcast: Broadcast infrared systems
+spread the signal to cover a wider area and
+allow reception of the signal by several
+
+Table 3. Basic Features of the Two Microwave Data Communication Systems
+Freq. Range
+
+Cost
+
+Installation Bandwidth capacity Node capacity EMI
+
+Terrestrial Low GHz
+Microwave 21-23 GHz
+
+Moderate
+
+Difficult
+
+1-10 Mbps
+
+2
+
+Poor
+
+Satellite
+Low GHz
+Microwave 11-14 GHz
+
+High
+
+Difficult
+
+1-10 Mbps
+
+2
+
+Poor
+
+Table 4. Basic Features of Two Types of Infrared Transmission.
+Freq. Range
+Point to
+Point
+
+100 GHz to
+1000 THz
+
+Broadcast
+
+100 GHz to
+1000 THz
+
+Cost
+
+Installation Bandwidth capacity Node capacity EMI
+
+Moderate
+Precise
+to expensive alignment
+Expensive Very simple
+
+DESIDOC Bulletin of Inf Technol, 2003, 23(3)
+
+100 Kbps to 16 Mbps
+
+Depends on
+application
+
+I Mbps
+
+Depends on
+application
+
+Good
+Poor
+7
+
+receivers. One of the major advantage is
+mobility.
+
+5. MOBILE APPLICATIONS
+Future Wireless communication is going to
+help the user in a lot of ways. A few future
+applications are projected here.
+n With help of mobile devices you will be
+able to download e-mails, update
+schedules, change meeting times,
+transfer files thus helping in office
+environment.
+n Most flight reservations can be done
+online. Next step will be, when you enter
+airport, the airline reservation system
+would be able to respond to your mobile
+device. When you enter the terminal, your
+device will communicate to airline system
+and all your formalities regarding,
+boarding pass, etc. will be taken care of.
+n Home devices could also be wirelessly
+enabled.
+A
+user’s
+device
+could
+communicate with home devices to
+unlock doors, activate lights and home
+audio and video entertainment units,
+adjust heating/cooling settings to preset
+preferences and also deactivate security
+alarms.
+n User driving a car in a foreign state can
+receive e-mail messages via wide area
+wireless system installed in the car.
+n Wireless RF (radio frequency) tags can
+be used in shopping malls and can be
+used to provide pricing, sale and stock
+information. This will enhance shopping
+lifestyle
+and
+increase
+inventory
+productivity.
+n Also in modern battlefield wireless
+communication
+has
+become
+very
+important.
+
+CONCLUSION
+This technical review gives a brief
+reference about, what is a wireless
+environment and how have we reached to the
+current small, presentable cellular devices. A
+lot of technological revolution has taken place
+in the span of time to reach at modern
+wireless media. This media can now transmit
+8
+
+audio, video and text and that too with much
+faster speed and accuracy. We studied
+different range patterns for wireless medium
+and assigned metric parameters such as cost,
+installation, frequency range, bandwidth
+capacity, node capacity and EMI (immunity
+from electromagnetic spectrum ).
+It was inferred that:
+t Com puter net works ap pli ca tions uses Ra dio
+
+frequency range (from 10 KHz to 1 GHz),
+which falls into three categories as Low
+power-single fre quency, High power-Single
+fre quency and Spread-spectrum.
+t Microwave data com mu ni ca tion syst e m
+uses lower GHz frequency range for
+transmission, uses terrestrial medium and
+sat el lite me dium.
+t Infrared uses terahertz frequency range
+(high range) for trans mis sion, uses point to
+point and broad cast sys tem.
+Taking maximum metrics into account, is
+was seen that Satellite medium is better
+option than Terrestrial and Point to point
+transmission is better than Broadcast
+transmission. Future use of mobile devices in
+daily life has also been discussed and it is
+further emphasized that all this still need a lot
+of security features to implement and also a
+better QOS (quality of service). Our future
+study is based on these parameters.
+
+REFERENCES
+1.
+
+2.
+
+Bah, S. Wireless system installed in the
+car. Supporting Digital Video in Wireless
+Networks. IEEE, 1999, 36 (6).
+GSM Data. Intel Corp. 1998.
+gsmdata.com
+
+3.
+
+Halsall, F. Data communication,
+computer networks and open system.
+Addison Wesley, 1996.
+
+4.
+
+Keshov, S. An engineering approach to
+computer networks. Addison Wesley,
+1997.
+
+5.
+
+TIA. TDMA cellular radio mobile station
+base structure compatibility. 136 A,1996
+
+6.
+
+Schiller, J. Mobile
+Addison Wesley, 2001.
+
+communication.
+
+DESIDOC Bulletin of Inf Technol, 2003, 23 (3)
+
+7.
+
+TanenBaum, Andrew. Computer
+networks. Prentice Hall of India, 2002 .
+
+11. Toh, C. K. Ad hoc mobile wireless
+Networks. Prentice Hall, 2002
+
+8.
+
+Young, W. R. Advanced mobile phone
+service. Bell sys technical journal, 1979,
+58.
+
+12. Lin.Y, Chlamtac, I. Wireless and mobile
+architectures. Wiley Computer Publ.,
+2001.
+
+9.
+
+Garg,Vijay & Wilkes J. Principals and
+applications of GSM. Prentice hall, 1999.
+
+13. Cox,
+D.C.
+Wireless
+personal
+communications what is it. IEEE, April
+1995.
+
+10. DECT Forum. DECT forum web page,
+2000.
+
+Contributors:
+
+14. Chellis. J., Perkins, C. Networking
+essentials study guide. BPB Publ., 1997.
+
+Shri Ashwani Kush, Lecturer, Department of Computer science, University
+College, K.U.Kurukshetra. E-mail: akush20@rediffmail.com
+Dr R K Chauhan, Reader, Department of computer science & Applications,
+K.U. Kurukshetra.
+
+DESIDOC Bulletin of Inf Technol, 2003, 23(3)
+
+9
+
+

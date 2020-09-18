@@ -1,0 +1,2410 @@
+﻿DESIDOC Bulletin of Information T e c h m y , Vol. 21. No. 6, November 2001, pp. 3-24
+Q 2001, DESIDOC
+
+Building Digital Libraries: An Overview
+Jagdish Arora
+Abstract
+Tools, techniques and protocols necessary for building up digital libraries have
+now fully evolved with computing power that allows parallel processing,
+multitasking, parallel consultation and parallel knowledge navigation and
+sohare tools that facilitate artificial intelligence and interadivity. Coincided with
+availability of sofhvare, hardware and networking technology, the advent of world
+its ever increasing usage and highly evolved browsers have
+wide web 0,
+paved the way for creation of digital libraries. With rapid developments in
+technologies necessary for developing digital libraries, the world of digital
+information resources has expanded rapidly and exponentially. Increasing
+number of publishers are using the internet as a global way to offer their
+publications to the international community of scientists and technologists. With
+the technology available at an effordable cost, the libraries are initiating small
+digitisation projects as an individual library or as a group of libraries. Building-up
+digital collection and the infrastructure required to access them is a challenge
+that every library has to deal with. The article delves into technological evolution,
+cultural revolution and contents enrichment that led to revolution in growth and
+development of digital libraries. The artide has two distinct parts, while the first
+part deals with various aspects of building, accessing and organising digital
+resources and collection, the second part elaborates on the process, technology,
+formats, compression techniques and tools used in digital imaging. The article
+describes optical character recognition (OCR) and advocates for hybrid solution
+for preservation of digital information.
+
+1.. INTRODUCTION
+Computerisatioo of the library during past
+
+few decades has focused heavily on creation
+of surrogate records of printed documents
+available in a library or for providing
+computerised services through secondary
+databases held locally on CD-ROM or
+magnetic tapes. The integrated library
+packages have served well in providing
+access to documents at bibliographic level.
+Similarly, secondary services like MEDLINE,
+INSPEC, COMPENDEXplus and CAS have
+proved themselves as effective tools for
+bibliographic control of research information.
+However, since these databases provided
+only bibliographic information on research
+DESlDOC Bulletin of Inf Technol,2001.21(6)
+
+articles, users had to depend heavily on
+physical collection available either in their
+institutional library or on interlibrary loan from
+other libraries for references retrieved from
+the secondary services. Attempts were made
+in past to make the full text of research
+articles available through online search
+services, although technology available till
+late 1980s and early 1990s supported only
+simple text (ASCII) without graphics. Tools,
+techniques and protocols necessary for
+building-up digital libraries evolved with
+availability of computing power that allows
+parallel processing, multitasking, parallel
+consultation
+and
+parallel
+knowledge
+navigation and software tools that facilitate
+-.- - -.-
+
+3
+
+artificial intelligence and
+interactivity.
+Coincided with the availability of software,
+hardware and networking technology, the
+advent of world wide web (WWW), its ever
+increasing usage and highly. evolved
+browsers have paved the way for creation of
+digital libraries. With rapid developments in
+technologies necessary for developing digital
+libraries, the world of digital information
+resources has expanded quickly and
+exponentially. A large numbers of STM
+(science, technology and medical) electronic
+journals are appearing on the web. Digital
+information resources include not only rapidly
+growing collection of electronic full text
+resources, but also images, video, sound, and
+even objects of virtual reality.
+The most significant shift in building digital
+coflections is greater interoperability among
+information systems across the country and
+internationally. Wtth the technology available
+at an effordable cost, the libraries are
+initiating small digitisation projects as
+individual library or as a group of libraries.
+
+Building-up digits\ collection and infrastructure
+required to access them is a challenge that
+every library has to deal with. Today's digital
+libraries are built around Internet and web
+technologies with electronic journals as their
+building blocks. The increasing popularity of
+lnternet and
+developments in web
+technologies are catalyst to the concept of
+digital library. Fig.. 7 is a pictorial
+representation of digital library infrastructure
+and services that can be generated from
+them.
+
+2. DIGITAL LI6RARY:VHISTORICAL
+PERSPECTIVES
+Although the term digital library has gained
+popularity in recent years but they have
+evolved along the technological ladder for
+past more than thirty years. In early 19?0s,
+digital libraries were built around mini and
+mainframe computers providing remote
+access and online search and retrieval
+services to users using computer and
+communication technology available at that
+
+Library Sewices
+- 0 P A C to WebPAC
+sCDR0.M to Web Databases
+-Manual to Digital Reference
+
+Infrastructure
+
+infrastructure
+
+Library SEwkes
+.Virtual Library T o r n
+.Librsry Wrb Site
+.Library Ponalr
+
+.Library Calndar
+
+Standards,Protocols
+
+.Web F a m a
+.Bmlklin Bomrds, Dbcurrion
+
+Figurn 1. Digital Library Infrastructure and Services
+4
+
+DESIDOC Bulletin d l n f Technol, 2001,21(6)
+
+time. The earliest application of digital library
+concepts involved character-coded storage
+and full text indexing of legal and scientific
+documents. The legal information through
+electronics
+(LITE) system was first
+implemented by the US Air Force in 1967.
+Several software packages were released
+during mid-1970s and late 1970s for
+computer-based storage, indexing and
+retrieval of documents in character-coded
+form. Some of the better known text storage
+and retrieval packages included: IBM's
+storage and information retrieval system
+(STAIRS),
+battelle automated search
+information system (BASIS), INQUIRE,
+BRSBEARCH, DOCUAUASTER, ASSASSIN,
+STATUS, CAIRS, etc. By 1980s, text storage
+and retrieval programs were available from
+dozens of vendors for major computing
+environment
+including
+main-frame,
+microcomputers and local area network
+(LAN).
+Sophisticated information storage and
+retrieval systems were built during 1980s
+using state-of-the-art technology of distributed
+database management system linking
+different . remote systems. These online
+information retrieval services used data files
+generated in the process of electronic
+phototypesetting of printed abstracting and
+indexing services and other primary journals.
+As such, online hosts like DIALOG and STN
+were not only offering online databases, but
+also full text online journals for past several
+years, although as a simple ASCII or text files
+without graphics and pictures. In 1989, there
+were almost 1700 full text sources available
+through'sixteen online systems. Availability of
+CD-ROM in late 1980s as a media with high
+storage capacity, longitivity, and ease of
+transportation triggered production of several
+CD-ROM information products which were
+earlier available through online vendors or as
+conventional abstracting and indexing
+services in printed format. Moreover, several
+full text databases also started appearing in
+late 1980s and early 1990s leading tb
+beginning of digital era. Some of the
+important full text digital collections available
+on CD-ROM include: ADONIS, lEEG7EE
+Electronic Library (IEL), ABIANFO, UMl's
+DESIDOC Bulletin of Inf Technol, 2001,21(6)
+
+International Business Database, UMI's
+General Reference Periodicals, Espace
+World, US Patents, etc.
+Digital document imaging system, which
+employs computer hardware and software to
+scan and store images of documents in
+digitized formats, evolved in early 1980s to
+overcome the limitation of text storage and
+retrieval systems which could only store
+textual information. The earliest application of
+a document imaging system was the Optical
+Disk Pilot Project at the Library of Congress.
+Several
+document
+imaging
+software
+packages are currently available in the
+market. OmniDoc (Newgen) and Datascan
+(Stacks India) are two important document
+imaging software from India.
+The beginning of full text digital library
+involved building-up several client systems
+usable in a multitude of environments, such
+as MS Wndows, MS DOS, Apple Macintosh
+and a diversity of UNlX systems as well as for
+terminal-oriented mainframe systems, notably
+VT-100 and VT-220. Upscaling of digital
+library in those days entailed huge
+maintenance problems because all clients
+system had to be upgraded and scaled for
+new facilities and emerging new techniques
+and processes.
+However, 1990s brought in a true
+revolution in digital library system. The advent
+of WWW offered a crucial advantage with the
+availability of ready-to-use, publicly available,
+user-friendly graphical web browser for all
+prevalent platforms. Standard WWW clients
+such as Netscape Navigator and Internet
+Explorer are being upgraded regularly for
+added functionality such as e-mail client,
+support for JAVA, Active X and the ability to
+view important document formats without
+having to install plug-ins for them. These
+browsers solved the maintenance problem
+allowing developers to concentrate fully on
+the server side and not to bother with the
+ctient side. These browsers are available
+freely and are easy to use eliminating the
+need of extensive support and user's training.
+The internet and associated technologies,
+made it possible for digital libraries to include
+multimedia objects such as text, image, audio
+5
+
+and video. These internet and web
+technologies thus brought-in the graphical
+components to the digital library which was
+missing
+in
+earlier
+digital
+library
+implementation. There has thus been a
+steady move up the technological scale for
+the digital libraries from previous (late 1980s)
+low-end electronic publications available as
+ASCII files, to being organised and
+searchable on gophers (1992), and to being
+tagged and graphically viewable on WWW
+sites (1994). Recent growth and development
+in digital Libraires can be attributed to
+availability ~f the internet and web technology
+as a media of information presentation and
+delivery and convenience it offers.
+
+3. BUILD1NG-UP D1GITAL
+COLLECTIONS
+,
+
+The most important component of a digital
+library is the digital collection it holds or has
+access to. Viability and extent of usefulness
+of a digital library would depend upon the
+critical mass of digital collection it has. A
+digital library can have a wide range of
+resources. It may contain both paper-based
+conventional documents or information
+contained in computer-processible form.
+Information contents of a digital library,
+depending on the media type it contains, may
+include a combination of structured/
+unstructured text, numerical data, scanned
+images. graphics, audio and video recordings.
+Different types o f resources need to be
+handled differently in a digital library.
+us bridge'^ divided resources for a digital
+library in following four distinct categories, i.e.,
+legacy, transition, new and future.
+Legacy resources. these are largely
+non-digital resources, including manuscript,
+print, slides, maps, audio and video
+recordings. lnspite of the fact that large
+investments are being made in the process of
+digitisation of resources, vast majority of
+existing legacy resources will remain outside
+the electronic domain for many years to
+come. These legacy resources are the major
+resources of existing libraries
+Transition resources: primarily designed for
+another medium (mostly print), are those
+which are being or have been digitised,
+6
+
+making the transition into the digital world.
+Such resources are converted for increased
+access and to reduce reliance on physical
+libraries. The transition resources are either
+digitized images or images that are converted
+to text by the process of OCR.
+New digital resources: these are either
+expressly created as digital or are created in
+parallel to print. Publishers are increasingly
+moving to XML or SGML format. These
+formats are used to generate datafiles
+required for producing printed outputs. The
+SGMUXML databases are also used for
+generating HTMLIPDFIXHTML or postscript
+file dynamically using appropriate DTDs. New
+digital resources are designed with a
+particular use in mind employing new Internet
+and web technologies embodying a great
+variation and value addition.
+Future digital resources: there is an
+increasingly wide range of digital resources
+from formally published electronic journals
+and electronic books through databases and
+datasets in many formats, i.e., bibliographic,
+full text, image, audio, video, statistical and
+numeric datasets. Future resources may
+contain data sets which are not formally
+specified.
+A digital library is not a single entity
+although if may have digital contents created
+in-house or acquired in digital formats stored
+locally on servers. A digital library may also
+act as a portal site providing access to digital
+collections held elsewhere. The digital
+constituents of a digital library are shown in
+fig. 2 and are described below:
+
+3.1 Acquisition of Collections
+available in Digital Formats
+Thousands of CD-ROM databases are
+currently available from multitude of CD-ROM
+producers including Silver Platter which alone
+produces more than 250 information products
+on CD-ROM. Moreover, several full text
+databases also started appearing in late
+1980s and early 1990s, launching the
+beginning of a new digital era. CD-ROM
+networking technology is now available for
+providing weta-based simultaneous access to
+CD-ROM databases on the LAN as well as on
+wide area network (WAN). More evolved
+DESIDOC Bulletin of Inf Technol,2001,21(6)
+
+Acquiring
+
+:
+
+Di~italMedia
+
+Content Creation
+Born Digital
+
+Buying Access
+
+Digital Library
+
+Content Creation
+Scanning
+
+-.
+
+,
+
+Portal Sites
+--.-.
+
+Integrated
+Access
+
+Figure 2. Collection Infrastructure of a Digital Library
+technology allows caching of the contents of
+CD-ROMs on to a server, which, in turn,
+provides web-based simultaneous and faster
+access to the information contents of
+CD-ROMs. The libraries have an option to
+subscribe to these full text databases as a
+part of their digital library.
+The Silver Platter's Electronic Reference
+Library (ERL) technology facilitates uploading
+of contents of ERL-complaint CD-ROM
+databases on the hard disc of an intranet
+server, which, in turn, provides integrated
+access and search on ERL-complaint
+databases. Moreover, individual research
+articles in the ERL-complaint database are
+linked to their full text research articles using
+Silver Platter's Silver Linker.
+
+3.2 Buying Access to External
+Digital Collections
+The libraries will not become digital
+libraries, but will rather acquire access to ever
+growing digital collections on behalf of their
+users. Majority of these collections would be
+provided by external sources like commercial
+publishers, collections mounted by scholarly
+societies, resources at other libraries,
+electronic journal sites, etc. Internet has long
+been a favorite media for experimenting with
+electronic publishing and delivery.
+DESIDOC Bulletin of Inf Techno!. 2001.21 (6)
+
+The technology is now available for
+creation of fully digitised multimedia products
+and make them accessibe through the
+internet. Technological changes, especially
+the internet and web technology, continue to
+attract more and more traditional players to
+adopt it as a global way to offer their
+publications to the international community of
+scientists and technologists. Most of the
+important publishers now have their
+web-based interfaces to offer full texts of their
+journals.
+The current electronic publishing market
+consists of traditional players offering
+electronic versions of their print journals as
+well as several new enterprises offering new
+products and services that are 'borne digital'.
+The market also has several subscription
+agents in their new role as aggregators.
+These players include:
+
+3.2.1 Publishers and Scholarly
+Societies
+Most well-known commercial publishers of
+traditional journals such as Elsevier Science,
+Kluwer Academic Press, Academic Press,
+Springer Verlag, Wiley Interscience and
+scholarly societies such as SIAM, ACM,
+IEEEIIEE are making their publications
+available online through their web sites.
+7
+
+Several
+universities
+host
+specialised
+collections on their web sites. Several
+universities, as members of the networked
+digital library of theses and dissertations
+(NDLTD) initiative, host doctoral dissertations
+submitted to their respective universities.
+
+3.2.2 Aggregators
+Third party aggregators provide access to
+numerous journals from a variety of
+publishers. Aggregators include organisations
+like JSTOR 4hat offer extensive backfiles for
+more than 100 academic journals and OCLC
+Electronic Collection Online which offer full
+text access to more than two thousand titles
+via their First Search service. Other
+aggregators like Lexis-Nexis, Bell and Howell
+(UMI) and Web of Science (ISI) offer
+searchable indexes with links to full text
+journals on publisher's site. EBSCOHost, IAC
+Trac SearchBank and Blacbell's Electronic
+Journal Navigator (EJN) provide common
+search interface for the journals aggregated
+by them from assortment of publishers.
+Growing number of susbcription agents are
+working with publishers to provide aggregated
+services for packages of titles or for full text
+databases.
+
+3.3 Pricing Model
+Total number of electronic journals
+available on the web has grown steadily from
+less than 10 in 1989 to 8500 in April, 2000.
+One of the major issue that the publishers
+are concerned with is to save their economic
+interest in the process of providing electronic
+access to their printed publications. The
+publishers make a significant investment in
+the process of production of a journal which
+involves
+activities
+like
+peer-review,
+administration, editing, layout design,
+production, subscription management and
+distribution. Most activities that are performed
+for publishing a journal are common to both
+electronic and paper media, except for
+production and distribution where the cost
+involved is relatively low. Moreover, electronic
+version of journals generally provides
+additional features like link to corrections, link
+to additional materials, e-mail link to
+author(s), etc., which require additional work
+8
+
+on part of the publisher. Tenopir and King
+(1997) in a study concluded that the cost of
+electronic journals can not be substantially
+lower than their printed versions.
+Journals are made available through the
+web at varying price models. In a survey of
+8001 peer reviewed electronic journals
+conducted by EBSCO, it was found that 50%
+of electronic journals are free with their print
+journals, 34% require additional payment over
+their print subscription and 16% are available
+online only without their print counter-part.
+Overall, 84% of joumals require a print
+subscription to journals as a prerequisite for
+online access to their electronic version3.
+Following are prevalent pricing models:
+
+3.3.1 Electronic Subscription linked
+to Print Subscription
+The electronic subscription Do journals in
+most of the cases are linked to their printed
+counterparts, i.e., it may be offered free with
+print subscription (e.g. publications of
+American Society for Physics and ASCE) or
+priced at a fixed percentage over the print
+subscriptions (e.g. IEEE's ASPP package).
+
+3.3.2 Electronic Subscription with
+Campus Licenses
+Electronic publishers facilitate campus
+wide unlimited access to subscribed journals
+on payment of a fixed amount of platform fee.
+Example: Elsevier Science (ScienceDirect).
+
+3.3.3 Electronic Subscriptions are
+Bundled
+Several electronic publishers offer access
+to the entire range of their electronic journals
+and other publications bundled into one. For
+example IEL and AGM Digital Library offer
+access to their entire site on subscription.
+Access to individual journals or a subset is
+not permissible. Similarly, Academic Press
+offer all journals available on their site
+(Academic's Project IDEAL) for 10% more
+than the print subscription to library consortia.
+Publishers and aggregators have started
+experimenting with models wherein a user
+can search a database online for a modest
+DESlDOC Bulletin of Inf Techno/,2001,21(6)
+
+usage fee, identify articles of interest, and
+then call up such aftides in full text on a
+per-look basis.
+
+3.3.5 Electronic Only
+A few publishers and aggregators have
+started offering only electronic version of their
+journals providing a modest discount for those
+who forego print versions.
+
+3.3.6 Consortium Licensing
+Consortia provide union strength to
+negotiate with electronic publishers for the
+best possible price and rights. Most
+publishers already have well-defined policies
+and offer for libraries subscribing as
+consortia. The consortia licensing is widely
+used the world over by the libraries. It is
+slowly pickingup in India also.
+
+3.3.7 Nati~nalLicensing
+National licenses can atso be negotiated
+with electronic publishers for core collections.
+Singapore, Taiwan and UK have arranged
+national licenses for some of the important full
+text resources.
+Besides, electronic journals, there are
+several online databases that are now
+available through.the web including Medline
+(several versions), AGRICOLA and ERIC (all
+free). Most online search services like STN
+and DIALOG also have their web-based
+interfaces.
+Reference
+works
+like
+encyclopedia,
+dictionaries,
+handbooks,
+atlases, etc., are also making their electronic
+appearance on the web. Electronic resources
+created exclusively for the web include
+web-based educational tutorials called 'online
+courseware'.
+The online courseware are proliferating the
+web as a strong contender for distant
+education.
+Telecampus,
+Canada
+(www.telecampus.edu/) lists more than
+12,000 online courseware available on the
+web. Moreover, highly specialised web sites
+are now coming-up in various disciplines
+khich offer information in totality including all
+kinds of resources in electronic format, El
+Engineering Village (http://www.ei.org/), ISI
+Nectronic Library (http:/lwww. isinetxom), /EL
+(http:l/www.ieee.org/), Engineering Sciences
+DESlDOC Bulletin of Inf Techno/,2001,21(6)
+
+Data Unit (http:/hww.esdu.com) are some of
+the important examples.
+Electronic resources accessible on the
+web for free or for a fee are undeniably major
+and important constituent of a digital library.
+
+3.4 Converting Digital Datasets
+The
+libraries or
+the
+institutions
+implementing digital libraries may have
+datasets that are originally created in digital
+format. Doctoral dissertations submitted to
+universities and research institutions are
+undisputedly highly valuable documents that
+qualify to be an important component of any
+digital library. Moreover, institutions may have
+in-house journal(s), annual reports, technical
+reports, or other datasets, that may be
+included in digital collection. Items listed
+above are invariably composed in one of the
+word processing programme or in a desk-top
+publishing package.
+The documents composed on word
+processing packages or desktop publishing
+packages can be converted into HTML,
+Postscript and PDF using tools like Acrobat
+4.0 or Acrobat Exchange. Online converters
+are also available through Adobe's site.
+HTML, as a defacto language of the web and
+PDF as a defacto standard for online
+distribution of electronic information, can be
+employed to facilitate transition from
+computer processible files to a format
+accessible on the web.
+For regular publications, the institutions
+may adopt SGML or XML to provide structure
+and functionality to their publications. Most
+electronic publishers are increasingly using
+SGMUXML to ripe the benefit that the format
+offer. SGML (or XML) documents provide
+benefit of a database management system
+without being one. Publishers code the
+accepted submissions in SGMUXML in a
+semi-automated process using assortment of
+sotWaf8 packages available b them or using
+custom-made software specially designed for
+this purpose. The database of SGML
+documents are used for providing search by
+authors, keywords, etc., and browse the
+content pages of journals. Behind the web
+interface lies a relational database like Oracle
+9
+
+that store SGMLIXML documents. Search
+and browse operation on highly strctured
+XMLISGML datasets provides dynamically
+generated web pages (HTML-on-fly). These
+HTML. files provide link to full text of
+documents in HTMLIPDFIPostScript, all
+formats are generated dynamically from the
+same SGMLIXML datasets using pre-defined
+DTDs.
+
+3.5 Conversion of Existing Print
+Media into Digital Format
+Several digital library projects are
+concerned with providing digital access to
+mateials that already exist with traditional
+libraries in printed media. Scanned page
+images are practically the only reasonable
+solutions for institutions such as libraries for
+converting existing paper collection (legacy
+documents) without having access to the
+original data in computer processible formats
+convertible into HTMLISGML or in any other
+structured or unstructured text. Scanned
+images are natural choice of large-scale
+conversions for major digital library initiatives.
+Printed text, pictures, and figures are
+transformed into computer-processible forms
+using a digital scanner or a digital camera in a
+process called document imaging or
+scanning. The digitally scanned images are
+stored in a file as a bit-mapped page image,
+irrespective of the fact that a scanned page
+contains a photograph, a line drawing or text.
+A bit-mapped page image is a type of
+computer graphic, litera!ly an electronic
+picture of the page which can most easily be
+equated to a facsimile image of the page and
+as such they can be read by humans, but not
+by the computers, i.e.. 'text' in a page image
+is not searchable on a computer using the
+present-day technology. An image-based
+implementation require a large space for data
+storage and transmission. There are several
+large projects using page images as their
+primary storage format, including project
+(www.jstor.org)
+at
+Princeton
+JSTOR
+University, USA funded by the Melon
+Foundation. The project JSTOR has a
+complete set of more than 120 journals
+scanned and hosted on web servers that
+reside at the University of Michigan-..and is
+10
+
+mirrored at Princeton University, USA. Using
+technology developed at Michigan, high
+resolution (600 dpi) bit-mapped images of
+each page are linked to a text file generated
+with OCR software. Linking a searchable text
+file to the page images of the entire published
+record of a journal along with newly
+constructed table of contents, indexes,
+permits high level of access, search and
+retrieval of the journal content previously
+unimaginable8.
+Capturing page image format
+is
+comparatively easy and inexpensive, it is
+reproduction of a page maintaining page
+integrity and originality. The scanned textual
+images, however, are not searchable unless it
+is OCRed, which, in itself, is highly error
+prone process specially when it involves
+scientific texts.
+
+3.6 Creating Portals or Gateways
+to the Electronic Collection
+available on the Web
+The web has become the most successful
+networked hypermedia-based system that
+allows rapid access to a wide variety of
+networked information resources. It allows
+linking amongst electronic resources stored
+on servers dispersed geographically on
+distant locations. The portal sites or gateways
+redirect a user to the holders of the original
+digital material. It may provide its own
+indexing and search services or may combine
+original resources from a number of different
+providers. The portal sites or the gateways
+restrict their operation to providing linkages to
+independent third party sources. Home pages
+of all the major education and research
+institutions, specially in developed world,
+provide an organised and structured guide to
+electronic resources available on the internet.
+Some of the major portal sites or gateways
+that provide access to electronic resources on
+the internet are as follows:
+WWW Virtual Library
+http:liwww.edoc.comi
+Internet Publ~cLibrary
+http:l/www.ipl.org/
+Michigan Electronic Library
+http://mel.lib.mi.us/
+DESlDOC Bulletin of Inf Technot,2001.21 ( 6 )
+
+Penn Electronic Library
+http:llwww.library,upenn.edulresourcesl
+BUBL lnformation Service
+if?http:l/bubl.ac.uk/
+Argus Clearing House
+http:llwww.clearinghouse.net/
+Internet Index
+http:llsunsite.berkeley.edu/lnternetlndex/
+
+3.7 Integrated Access Interface
+Digital libraries typically integrate multitude
+of resources and media types. Constituents of
+a digital library may have:
+(a) Collection acquired in digital form
+(b) Collections digitised in-house
+(c) Buying access to electronic resources
+including e-journals
+(d) Subject gateways and the library OPACs.
+In effect, a digital library may not only have
+multitude of resources but also multitude
+mechanism to access these resources. Most
+libraries having sizable coHections in digital
+forms and have adopted two-fold strategy that
+include: (a) provide access to resources
+through the library catalogue wherever
+possible; and (b) provide access to electronic
+resourc5s and specialised collections through
+the library home page.
+In cases of electronic journals, web access
+via an alphabetical listing and/or subject index
+of all titles, offers a quick and simple means
+of inventory and direct hypertext links to full
+text sources. Similarly, access to other
+specialised collection can also be provided
+through a set of menus that serves as rough
+and ready finding aid. It is particularly useful
+for institutions that have not implemented
+web-based catalogues and cannot offer
+hypertext links from a catalogue record. On
+the other hand, access to e-journals is
+separate from the online catalogue and other
+journals that are part of the library's collection.
+Web-based catalogues can enable users to
+connect directly to the full text source via
+hypertext links in the catalogue record.
+Acquisition of Endeavour's lnformation
+system by the Elsevier Science, marks
+integration of Elsevier's contents into
+Endeavour's digital library technology. A- new
+DESIDOC Bulletm of Inf Technol, 2001.21 (6)
+
+product called 'ENCompass' from Endeavour
+would come up as a single, seamless search
+across disparate remote and local collections
+(Science Direct Connections, 2000).
+
+4. PRINT TO DIGITAL: OPTIONS
+FOR CONVERSlON
+The digital imaging technology offers a
+number choices that can be adopted
+depending on the objective of scanning, end
+users, availability of finances, etc. There are
+four basic approaches that can be adapted to
+translate from print to digital:
+
+o Scanned as image
+u OCR
+
+o Retaining page layout using acrobat
+capture
+o Re-keying the data.
+
+4.1 Scanned as lmage
+lmage only is the lowest cost option in
+which each page is an exact replica or the
+original source document. Since OCR is not
+carried out, the document is not searchable.
+Most scanning software generate TIFF
+format, by default, which can be converted in
+to PDF using a number of software tools.
+Scan to TIFFiPDF format is recommended
+only when the requirement of project is to
+make documents portable and accessible
+from any computing platform. The images can
+be browsed through a table of contents
+composed in HTML provid~nglink to scanned
+images.
+
+4.2 Optical Character Recognition
+(OCR)
+The latest versions of both Xerox's
+TextBridge
+and
+Caere's
+Omnipage
+incorporate technology allow the option of
+maintaining text and graphics in their original
+lay6ut as well as plain ASCII and
+word-processing formats. Output can also
+include HTML with attributes l~ke bold,
+underline, and italic retained.
+
+4.2.1 Retaining Layout After OCR
+Several software packages now offer
+facil~tyof retaining the page layout after it has
+
+been OCRed. The process for retaining the
+page layout is software dependent. Caere's
+Omn~prooffers two ways of retaining page
+layout following OCR. It calls them True Page
+Classic and True Page Easy. True Page
+Classic places each paragraph within a
+separate frame of a word processor into
+which the OCR output IS saved. If one wishes
+to edit anything subsequently, then the
+relevant paragraph box may need to be
+r6sized. However, 'Easy Edit' facilitates
+editing of pages without the necessity of
+resizing the boxes although there is a greater
+chances of spillage over the page. Xerox Text
+Bridge offers similar feature called DocuRT
+which is broadly equivalent to True Page
+Easy Edit. The process of OCR dismantle the
+page, OCR it, and then reassemble it in such
+as way that all the component parts such as
+tabs, columns, table, graphics can be used in
+a text manipulation package such as word
+processor.
+The process of OCR results in
+computer-processible file that is less accurate
+than rekeying-in the data. At an accuracy ratio
+of 98%, a page having 1800 characters will
+have 36 error per page on an average. It is
+therefore, imperative to cleanup after OCR
+unless original scanned image will be viewed
+as page and OCR being used purely for
+creating a searchable index on the words that
+will be searched via a fuzzy retrieval engine
+like Excalibur which is highly tolerant to OCR
+errors.
+Another possibility for cleaned-up OCR is
+use of specialist OCR system such as Prime
+Recognition. With production OCR in mind,
+Prime OCR licenses leading recognising
+engine and passes the data through several
+~f them using voting technology along with
+artificial intelligent algorithms. The use of
+multiple OCR engines improves the result
+achieved by a single engine by 65-80 %. The
+technology is available at price depending
+upon number of search engine that one would
+like to incorporate. Michigan Digital Library
+production services used Prime OCR for
+placing more 'th$n two million pages of
+SGML-encoded text and the same number of
+page images on the web.
+--- ---.
+12
+
+.
+
+.- --.
+
+4.3 Retaining Page Layout Using
+Acrobat Capture
+The Acrobat Capture 2.0 provides several
+options for retaining not only the page layout
+but also the fonts, and to fit text into the exact
+space occupied in the original, so that the
+scanned and OCRed copy never over- or
+under-shoots the page. Accordingly, it treats
+unrecognizable text as pasted-in images,
+which are perfectly readable by anyone
+looking at the PDF file, but which will be
+absent from the editable and searchable text
+file. In contrast, ordinary OCR programs treat
+unrecognised text as tildes or some other
+special character in the ASCII output. Acrobat
+Capture can be used to scan pages as
+images, image+text and as normal PDF, all
+the three options retain page layout.
+lmage Only: lmage only option has already
+been described in option 1.
+Image+Text: In image+text solutions, a
+OCRed text is generated for each image
+where each page is an exact replica of the
+original and left untouched, however, the
+OCRed text sits behind the image and is used
+for searching. The OCRed text is generally
+not corrected for errors since it is used only
+for searching. The cost involved is much less
+than PDF Normal. However, the entlre page is
+a bitmap and neither fonts nor line drawings
+are vectorised, so the file size of lmage + Text
+PDFs is considerably larger than the
+corresponding PDF Normal files and pages
+will not display as quickly or cleanly on
+screen.
+PDF Normal: POF normal gives the clearest
+on-screen display, is searchable, and yet with
+significantly smaller file size than Image+Text.
+The result is not, however, an exact replica of
+the scanned page. While all graphics and
+formatting are preserved, substitute fonts may
+be used where direct matches are not
+possible. It is a good choice when files need
+to be posted to the web or otherwise
+delivered online. If, during the capture and
+OCR process, a word cannot be recognised
+to the specified confidence level, capture, by
+default, substitutes it with a small portion of
+the original bitmap image. Capture's 'best
+guess' of the suspect word lies behind the
+bitmap so that searching and indexing are still
+
+--
+
+DESlDOC Bulletin of lnf Technol,2001,21(6)
+
+possible. However, one cannot guarantee that
+these bit-mapped words are correctly
+guessed. In addition, the bit-map is somewhat
+obtrusive, detracting from the 'look' of the
+page. Further, capture provides option to
+correct suspected errors left as bit-mapped
+image or leave them untouched.
+
+A classic solution of this kind would
+comprise of keying-in the data and its
+verification. This involves a complete keying
+of the text, followed by a full rekeying by a
+different operator, the two keying-in operation
+might take place simultaneously. The two
+keyed-in files are compared and any errors or
+inconsistencies are corrected. This would
+guarantee at least 99.9% accuracy, but to
+reach 99.955% accuracy level, it would
+normally require full proof-reading of the
+keyed-in files, plus table lookups and
+dictionary spellchecks.
+
+5. STEPS IN THE PROCESS OF
+DIGITISATION
+The following four steps are involved in the
+process of digitisation: scanning, index~ng,
+storage, and retrieval. Software, variably
+called document image processing (DIP),
+electronic filing system (EFS) and document
+management systems (DMS) provides all or
+more of these functions:
+
+5.2 Indexing
+Indexing of a document converted into an
+image or text file is the second step in the
+process of document imaging. The process of
+indexing scanned image ~nvolveslinking of
+database of scanned images to a text
+database. Scanned images are just like a set
+of pictures that need to be related to a text
+database describing them and their contents.
+An imaging system typically stores a large
+amount of unstructured data in a two file
+system for storing and retrieving scanned
+images. The first is traditional file that has a
+text description of the image along with a key
+to a second file. The second file contains the
+document location. The user selects a record
+from the first file using a search algorithm.
+Once the user selects a record, the
+application keys into the location index, finds
+the document and displays it.
+Most of the document imaging software
+packages. through their menu driven or
+command driven interface, facilitate elaborate
+indexing of documents. While some DMS
+facilitate selection of indexing terms from the
+image file, others allow only manual keying in
+of indexing terms. Further, many OMS
+packages provides OCR capabilities for
+transforming the images into standard ASCII
+files. The OCRed text then serves as a
+database for full text search of the stored
+images.
+
+5.1 Scanning
+
+5.3 Storage
+
+The process involves acquisition of an
+electronic image through its original that may
+be a photograph, text, manuscript, etc. into
+the computer using an electronic image
+scanner. An image is read or scanned at a
+predefined resolution and dynamic range. The
+resulting file, called 'bit-map page image' is
+formatted and tagged for storage and
+subsequent retrieval by the software package
+used for scanning. Fax card, electronic
+camera or other imaging devices may also
+employed for acquisition of an image,
+however, image scanners are most important
+and most commonly used component of an
+imaging system for transfer of normal
+paper-based documents into an image.
+
+The most tenacious problem of a
+document image relates to its file size and,
+therefore, to its storage. Every part of an
+electronic page image is saved regardless of
+presence or absence of ink. The file size
+varies directly with scanning resolution, the
+size of the area being digitised, compression
+ratio, content and the style of graphic file
+format used to save the image. The scanned
+images, therefore, need to be transferred
+from the hard disc of scanning workstat~onto
+an external large capacity storage devices
+such as an optical disc, CO-ROMfDVD-ROM
+disc, cartridge tapes, etc. While the smaller
+document imaging system use offline media,
+which need to be reloaded when required, or
+
+DESIDOC Bulletin of Inf Techno/,2001.21(6)
+
+13
+
+fixed hard disc drives allocated for image
+storage, larger DMS use auto-changers such
+as optical jukeboxes and tape library systems.
+The image storage device may be either
+remote or local to the retrieval workstation
+depending upon the imaging systems and
+DMS used.
+
+characterised by multiple core and peripheral
+systems that includes:
+
+5.4 Retrieval
+
+(scanners, computers data
+storage and data output peripherals)
+n Software
+(image
+capturing,
+data
+compression)
+n Network (data transmission)
+a Display technologies.
+
+Once scanned images and OCRed text
+documents have been saved as a file, a
+database is needed for selective retrieval of
+data contained in one or more fields within
+each record in the database. Typically, a
+document imaging system uses at least two
+files to store and retrieve documents. The first
+is traditional file that has a text description of
+the image along with a key to the second file.
+The second file contains the document
+location. The user selects a record from the
+first-file using a search algorithm. Once the
+user selects a record, the application keys
+into the location index, finds the document
+and displays it. Most of the DMS provide
+elaborate search possibilities including use of
+Boolean and proximity operators (and, or, not)
+and wild cards. Users are also allowed to
+refine their search strategy. Once the required
+images have been identified their associated
+document image can quickly be retrieved
+from the image storage device for display or
+printed output.
+
+Digital images, also called 'bit-mapped
+page image' are 'electronic photographs' or
+set of bits or pixels (picture elements)
+represented by '0"and '1'. A bit-mapped page
+image is a true representation of its original in
+terms of typefaces, illustrations, layout and
+presentation of scanned documents. As such
+information contents of 'bit-mapped page
+image' cannot be searched or manipulated
+unlike text file documents (or ASCII).
+However, an ASCII file can be generated from
+a bit-mapped page image using an optical
+character recognition (OCRJ software such as
+Xerox's TextBridge and Caere's Omnipage.
+The quality of digital image can be monitored
+at the time of its capture by the following
+factors:
+Bit depthldynamic range
+Resolution
+8 Threshold
+Compression
+Image enhancement.
+
+6. DIGITAL IMAGING
+TECHNOLOGY
+
+6.1 Bit Depth or Dynamic Range
+
+Digital imaging IS the process of converting
+paper documents including text, graphics, or
+pictures into digital images that can be made
+accessible over electronic networks. A digital
+image, in turn, is composed of a set of pixels
+(picture elements), arranged according to a
+pre-defined ratio of columns and rows. An
+images file can be managed as regular
+computer file and can be retrieved, printed
+and modified using appropriate software.
+Further, textual images can be OCRed so as
+to make its contents searchable. Digitat
+imaging is an inter-linked system of hardware,
+software image database and access
+sub-system with each having its own
+. .-- - -- .- systems
+.- .. .- .. . - . .-. Digital
+components.
+are
+-14
+
+n Hardware
+
+The number of bits used to define each
+pixel determines bit depth. The greater the bit
+depth, the greater the number of gray scale or
+colour tones that can be represented.
+'Dynamic range: is the term used to,express
+the full range of total variations, as measured
+by a densitometer between the lightest and
+darkest portion of a document. Digital images
+can be captured a1 varied density of bits per
+pixel depending upon: (a) the nature of
+source material or document to be scanned;
+(b) target audience or users; and (c)
+capabilities of the display and print subsystem
+that are to be used. Bitonal or black & white
+or binary scanning is generally employed in
+libraries to scan pages containing text or the
+drawings. Bitonal or binary scanning
+DESlDOC Bulletin of Inf Techno!,2001, 21 (6)
+
+represents one bit per pixel (either '0' (black)
+or '1' (white). Gray scale scanning is used for
+reliable reproduction of intermediate or
+continuous tones found in black & white
+photographs to represent shades of grey.
+Multiple numbers of bits ranging from 2-8 are
+assigned to each pixel to represent shades of
+grey in this process. Although each bit is
+either black or white, as in the case of bitonal
+images, but bits are combined to produce a
+level of grey in the pixel that is black, white or
+somewhere in between. Colour scanning can
+be employed to scan colour photographs. As
+in the case of grey-scale scanning, multiple
+bits per pixels typically 2 (lowest quality) to 8
+(highest quality) per primary colour are used
+for representing colour. Colour images are
+evidently more complex than grey scale
+images, because, it involves encoding of
+shades of each of the three primary colours,
+i.e. red, green and blue (RGB). If a coloured
+image is captured at 2 bits per primary colour,
+each primary colour can have 2' or 4 shades
+and each pixel can have 44 shades for each
+of the three primary colour.
+Evidently, increase in bit depth increases
+the quality of image captured and the space
+required to store the resultant image.
+Generally speaking, 12 bits per pixel (4 bits
+per primary colour) is considered minimum
+pixel depth for good quality colour image.
+Most of today's colour scanner can scan at
+24-bit colour (8 bit per primary colour).
+Table 1 provides binary calculation for no
+of shades represented by bit depth.
+
+SI. No.
+
+No. of No. of No. of
+No. of
+bitsl shades shadeslpixel
+Bits shade
+
+6.2 Resolution
+The number of pixel in a given area
+defines the resolution of an image. It is
+measured in terms of dot per inch (dpi) in
+case of an image file and as ratio of number
+of pixel on horizontal line x number of pixel in
+vertical lines in case of display resolution on a
+monitor. Higher the dpi set on the scanner
+the better the resolution and quality of image
+and larger the image file.
+Regardless of the resolution, image quality
+of an image can be improved by capturing an
+image in greyscale. The add~tionalgray-scale
+data can be processed electronically to
+sharpen edges, fill-in characters, remove
+extraneous dirt, remove unwanted page
+strains or discoloration, so as to create a
+much higher quality image than possible with
+binary scanning alone. A major draw back in
+gray scale is the large amount of data
+captured. Continuing increase in resolution
+will not result in any appreciable gain in image
+quality after some time, except for increase in
+file size. It is thus important to determine the
+point at where sufficient resolution has been
+used to capture all significant details present
+in the source document.
+The black and white or bitonal images
+(textual) are scanned most commonly at 300
+dpi that preserve 99.9% of the information
+contents of a page and can be considered as
+adequate
+access
+resolution.
+Some
+presewation projects scan at 600 dpi for
+better quality. A standard SVGANGA monitor
+has a resolution of 640 x 480 lines while the
+ultra-high mon~torshave a resolution of about
+2048 x 1664 (about 150 dpi).
+
+1
+
+1
+
+1
+
+1
+
+1
+
+6.3 Threshold
+
+2
+3
+
+2
+4
+
+2
+3
+
+22=4
+23=8
+
+43=@
+
+a3=512
+
+4
+
+8
+
+4
+
+2'=16
+
+163=40$6
+
+5
+6
+
+16
+32
+
+5
+6
+
+25=32
+26=64
+
+323=32768
+643=262144
+
+The threshold setting in bitonal scanning
+defines the point on a scale, usually ranging
+from 0 to 255, at which gray values will be
+interpreted as black or white pixels. In bitonal
+scanning, resolution and threshold are the
+key determinants of image quality. Bitonal
+scanning is best suited to high-contrast
+documents, such as text and line drawings.
+For continuous tone or low contrast
+documents such as photographs, gray scale
+or colour scanning is required. In gray
+
+64
+7
+2'= 128 1 283=2097152
+8
+128 8
+2'=256 25â¬i3=167772 16
+Table 1: Binary Calculation for No. of Shades
+Represented by Bit Depth
+7
+
+DESIDOC Bulletin of Inf Technol,2001,21(6)
+
+15
+
+scalelcolour scanning both resolution and bit
+depth combine to play significant roles in
+image quality.
+
+6.4 Compression
+lmage files are evidently larger than
+textual ASCII files. Lt is thus necessary to
+compress image files so as to achieve
+economic
+storage,
+processing
+and
+transmission over the network. A black &
+white image file of a page of text scanned at
+300 dpi is about 1 MB in size where as a text
+file containing the same information is about
+2-3 KB. Image compression is the process of
+reducing size of a image by abbreviating the
+repetitive information such as one or more
+rows of white bits to a single code. The
+compression algorithms may be grouped into
+the following two categories:
+
+6.4.1 Lossless Compression
+The tzonversion Process converts repeated
+information as a mathematical algorithm that
+can decompressed without loosing
+- any- details
+into the original image with absolute fidelity.
+No information is 'lost' or 'sacrificed' in the
+Lossless
+process
+of
+compression.
+compression is primarily used in bitonal
+images.
+
+6.4.2 Lossy Compression
+Lossy compression process discards or
+averages details that are least significant or
+which may not make appreciable effect on the
+quality of image. This kind of compression is
+called 'lossy' because when the image
+compressed using 'lossy' compression
+techniques, is decompressed, it will not be an
+exact replica of the original image. Lossy
+compression is used with gray scale/colour
+scanning, and in particular with complicated
+images.
+Compression is necessary in digital
+imaging but more important is the ability to
+output uncompressed t h e replica of images.
+This is especially important when images are
+transferred from one platform to another or
+are handled by software packages under
+different operating system.
+Uncompressed images often work better
+than compressed images for different
+16
+
+reasons. It is thus suggested that scanned
+images should be either stored as
+uncompressed images or at the most as
+lossless compressed images. Further, it is
+best to use one of the standard and widely
+supported compression protocols than a
+proprietary one, even if it offers efffcient
+compression and better quality. Attributes of
+original documents may also be considered
+while selecting compression techniques. For
+example ITU G 4 is designed to compress
+text where as JPEG, GIF and ImagePAC are
+designed to compress pictures. It is important
+to ensure migration of images from one
+platform to another and from one hardware
+media to another. It may be noted that highly
+compressed files are more susceptible to
+corruption than unwmpressed files.
+
+6.5 Compression Protocols
+Following protocols are commonly used
+for bitonal, gray scale or colour compression:
+
+6.5.f ITU-G4
+ITU G4, a standard developed by
+International Telecommunication Union (ITU),
+is considered as de facto standard
+compression scheme for storing black & white
+bitonal images. An image created as a TlFF
+and compressed using ITU-G4 compression
+technique is called a Group4 TlFF or TlFF
+G-4. TlFF G 4 is a lossless compression
+scheme. Joint Bi-level lmage Group (JBIG)
+(ISO-11544) is another standard compression
+technique for bitonal images.
+
+6.5.2 JPEG (Joint Photographic
+Expert Group)
+JPEG (Joint Photographic Expert Group)
+is an ISO-10918-1 compression protocol that
+works by finding areas of the image that have
+same tone, shade, colour or other
+characteristics and representing this area by
+a code. Compression is achieved at loss of
+data. It is generally observed that
+compression of about 10 or 15 to one can be
+achieved without visible degradation of image
+quality.
+
+6.5.3 LZW (Lenpel-Ziv Welch)
+LZW compression technique uses a
+table-based lookup algorithm invented by
+DESIDOC Bulletin of Inf Techrwl,2001.21(6)
+
+Abraham Lempel, Jacob Ziv, and Terry
+Welch. Two commonly-used file formats in
+which LZW compression is used are the
+graphics interchange format (GIF) and the tag
+image file format (TIFF). L N V compression is
+also suitable for compressing text files. A
+particular U W compression algorithm takes
+each input sequence of binary digit of a given
+length (for example, 12 bits) and creates an
+entry in a table (sometimes called a
+'dictionary' or 'codebook') for that particular bit
+pattern, consisting of the pattern itself and a
+shorter code. As input is read, any pattern
+that has been read before results in the
+substitution of the shorter code, effectively
+compressing the total amount of input to
+something smaller. The decoding program
+that uncompresses the file is able to build the
+table itself by using the algorithm as it
+processes the encoded input.
+
+6.5.4 Wavelet and Fractal
+
+Compression
+Fractal, wavelet and flaxpix file formats
+offer advantages for providing access to
+digital images of oversized materials on the
+web. Unlike JPEG and LZW compression that
+maintain images as array of pixels, wavelet
+and fractal compression convert images into
+mathematical models in order to save s t o ~ g e
+space. Both compression techniques are
+lossy. Some applications are combination of
+both wavelet and fractal compression.
+
+(a) Wavelet Compression
+Wavelet compression is a method of
+mathematical modeling of images that breaks
+the image down into small waves that
+represent the frequency analysis of a
+function. The shapes and patterns in an
+image are identified and then described using
+mathematical functions or formulas. The
+function that models or describes the image is
+contained within the compression and
+decompression
+software.
+Wavelet
+compression is very efficient, with ratio upto
+50:1, depending upon the images being
+compressed. In comparison JPEG images are
+usually compressed between 10: 1 & 20: 1 and
+LZW around 2: 1.
+
+DESIDOC Bulktin ofInf Technoi,2001,21(6)
+
+Wavelet compression can take a longer
+time to compress images due to the complex
+mathematics involved. However, the time
+required to decompress wavelet or fractally
+encoded image is usually comparative to
+decompressing a JPG image. Wavelet
+compression is used in varied digital
+applications, photographic images, audio &
+video recordings, 2D & 3D rendering,
+multimedia, finger-prints imaging, medical
+imaging (radiography MRI, etc.), satellite and
+remote sensing imaging, GIs, maps &
+document imaging. Multi-resolution Seamless
+lmage Database (MrSID) from Lizard Tech
+uses wavelet compression technique.
+
+(b) Fractal Compression
+Mathematically, a fractal describes a
+structure that has many repeated forms
+regardless of scale. Fractal Compression
+works by using variety of methods to identify
+features within an image and then breaking
+down the image into mathematically modeled
+series of repeating shapes and patterns.
+Compression ratio of upto 250:l can be
+achieved
+using
+fractal
+compression
+depending
+upon
+the
+image
+being
+compressed. Fractal compression take longer
+time to compress images than wavelet
+compression but the decompression is
+relatively quick.
+
+6.6 lmage Enhancement
+lmage enhancement process can be used
+to improve scanned images at a cost of
+image authenticity and fidelity. The process of
+image enhancement is, however, time
+consuming. It requires special skills and
+would invariably increase the cost of
+conversion. Typical image enhancement
+features available in a scanning or image
+editing software include filters, tonal
+reproduction,
+curves
+and
+colour
+management, touch, crop, image sharpening,
+contrast, transparent background, etc. In a
+page scanned in grayscale, the textiline art,
+and half tone areas can be decomposed and
+each area of the page can be filtered
+separately to maximize its quality. The text
+area on page can be treated with edge
+sharpening filters so as to clearly define the
+
+character edges, a second filter could be
+used to remove the high-frequency noise and
+finally another filter could fill in characters.
+Gray scale area of the page could be
+processed with different filters to maximize
+the quality of the halftone.
+
+7. FILE FORMATS
+The digitally scanned images are stored in
+a file as a bit-mapped page image,
+irrespective of the fact that a scanned page
+contains a photograph, a line drawing or text.
+The scanned image can be formatted and
+tagged in dozens of different formats to
+facilitate easy storage and retrieval depending
+upon the scanner and its software. National
+and international standards for image-file
+formats and compression methods exist to
+ensure that data . will be interchangeable
+amongst systems. An image file stores
+discrete sets of data and information allowing
+a computing system to disptay, interpret and
+print the image in a predefined format. An
+image file format consists of three distinct
+components, i.e., header which stores
+information on file identifier and image
+specifications such as its size, resolution,
+compression protocols, etc.; image data
+consisting of look-up table and image raster;
+and lastly footer that signals file termination
+information. While bit-mapped portion of a
+raster image is standardised, it is the file
+header that differentiate one format from
+another. The display software of a raster
+image picks up the details, like resolution,
+compression technique, etc., from the file
+header and displays an electronic replica of
+the original page. File formats also define the
+compression protocol used for compressing
+or decompressing an image.
+Most of the scanning sohare allow saving
+of scanned images in a number of formats.
+TlFF (Tagged Image File Format) is the most
+commonly used file format and is considered
+de facto standard for bitonal scanning. TlFF is
+a truly multi-platform protocol and is a good
+candidate for scanning projects. Some image
+formats are proprietary, developed and
+supported by a commercial vendor and
+require a specific software or hardware for
+displaying the printing scanned images.
+18
+
+Annexure - 1 lists file formats used for digital
+images.
+It would be appropriate to store a high
+resolution image as a TlFF master (archival
+format) and distribute the image as JPEGI
+GIF file (access' format). Soffware are. now
+available that would generate a JPEG or GIF
+files 'on the fly' from a master TIFF file.
+
+8. TOOLS OF DlGlTlSATlON
+An image scanning system may consist of
+a stand-alone workstation where most or all
+the work is done on the same workstation or
+as a par! of a network of workstations with
+imaging work distributed and shared amongst
+various workstations. The network usually
+includes a scanning station, a server and one
+or more editing, and retrieval stations. A
+typical scanning workstation for a small,
+production level project, could consist of the
+following:
+B Microcomputer-Pentium IIIIPentium IV
+8 Scanner and scanning software
+Storage system
+Network
+Display system
+Printer.
+This section will concentrate on scanners
+and scanning software as important
+components of scanning workstation.
+
+8.1 Scanners
+Digital scanners are used to capture a
+digital image from an analogue media such as
+printed page or a microfichelmicrofilm at a
+predefined resolution and dynamic range (bit
+range). There are following two types of
+image scanners:
+
+8.1.1 Vector scanners
+These scanners scan an image as a
+complex set of x, y coordinates. Vector
+images are generally used in geographical
+information systems (GIs). The display
+soitware for the vector image interprets the
+image as function of coordinates and other
+included information to produce an electronic
+replica of the original drawing or photograph.
+Vector images can be zoomed in portion to
+DESIDOC Bulletin of Inf Tihnol,2001,21(6)
+
+display minute details of a drawing or a map.
+Maps,
+engineering
+drawings,
+and
+architectural blueprints are often scanned as
+vector images.
+
+8.1.2 Raster scanners
+Raster images are captured by raster
+scanners by passing lights (laser in some
+cases) down the page and digitally encoding
+it row by row. Multiple passes of lights may be
+required to capture basic colours in a
+coloured image. Raster scanners are used in
+libraries to convert printed publications into
+electronic forms. Majority of electronic
+imaging system generate raster images.
+The scanners used for digitising analogue
+images into digital images come in a variety
+of shapes and sizes. There are following
+types of scanners:
+Flatbed Scanners-right angle, prism and
+overhead flatbed
+Sheet-Feed Scanners
+Drum Scanners
+Digital Cameras
+Slide Scanners
+8 Microfilm Scanner
+Video Frame Grabber.
+The type of scanner selected for an
+imaging project would be influenced by the
+type, size and source of documents to be
+scanned. Many scanners can handle only
+transparent material, whereas others can
+handle only reflective materials.
+
+8.1.3 Flatbed Scanners
+Flatbed scanners are most common and
+look like photocopiers and are used in much
+the same way. Source material is placed face
+down for scanning. The light source and CCD
+move beneath the platen, while the document
+remains stationary as in the case of
+photocopying machine. Flatbed scanner
+comes in various models like right-angle,
+prism and planetaryloverhead to handle
+bound volumes and books.
+'
+
+Examples: HP ScanJet 6300C, Ricoh
+IS420, Bell & Howell 1000FB Fujitsu 3097G,
+Minolta PS3000, Xerox Oocu CS620. Flatbed
+
+DESIDOC Bulletin of Inf Tmhnol.2001 ,21(6)
+
+scanners can accept both reflective as well as
+transparent media over a glass platen.
+
+8.1.4 Sheet feed Scanners
+In a sheet-feed scanner, as is indicated in
+the name, document is fed over a stationary
+CCD and light source via roller, belt, drum, or
+vacuum transport. Like flat-bed scanner,
+sheet-feed scanner also have optional
+attachment to auto feed uniformed-sized
+stacks of documents to be scanned.
+Example:
+CCS300-SF.
+
+Kodak
+
+500S,
+
+Tangent
+
+8.1.5 Drum Scanners
+Source material, in a drum scanner is
+wrapped on a drum, which is then rotated
+past a high-intensity light source to capture
+the image. They offer superior image quality,
+but require flexibte source material of limited
+sized that can be wrapped around the drum.
+They are specially targeted for graphic art
+market as they offer highest resolution for
+grey scale and colour scanning. Drum
+Scanner use Photo-Multiplier (Vacuum)
+Tubes (PMTs) instead of CCDs, which offer a
+greater bit depth (12 to 16 bits).
+Example: Juno CP-4000, Scan graphics
+ScanMate5000, ColorGetter .
+
+8.1.6 Digital Cameras
+Digital cameras mounted on copy cradle
+resemble microfilming stand. Source material
+is placed on the stand and the camera is
+cranked up or down in order to focus the
+material within the field of view. Digital
+cameras are most promising scanner
+development for library and archival
+applications.
+Example: Zeutschel Ominiscan 3000,
+Minolta PS 3000.
+
+8.1.7 Siide Scanner
+Slide scanners have a slot in the side to
+accommodate a 35mm slide. Inside the box
+the light passes through the slide to hit a CCD
+array behind the slide. Slide scanners can
+generally scan only 35mm transparent source
+materials.
+
+Example: Kodak PCD Scanner 4045,
+Nikon LS3510, Leaf Systems Leafscan 45.
+
+8.1.8 Microfilm Scanner
+Specially targeted to librarylarchival
+application, microfilm scanners have adapters
+to convert roll film, fiche, and aperture cards
+in the same model.
+Example: Mekel MSOOXL, SunRise
+SRI-50, Lenzpro 2000 Multimedia Digitiser.
+
+8.1.9 Mdeo Frame Grabber or Video
+Digitiser
+Video digitisers are circuit boards placed
+inside a computer, attached to a standard
+video camera. Any thing that is filmed by the
+video camera is digitised by the video
+digitiser.
+
+8.2 Image
+CapturinglScanning
+Sohare
+The process of converting a paper
+document into a computer-processible digital
+image is done using a software variably called
+document imaging system, electronic filing
+system or DMS, etc. Scanning softwares also
+come with the scanners. Important document
+imaging soflware are:
+Altris Software
+http://www.aItris.com/
+OPTlX
+http://www.blueridge.com/
+Documentum
+http://www.documentum.corn/
+Poweroffice
+http://~ww.expower.com/
+FileNet
+http://www.fiIenet.com/
+LAVA Systems
+http://www.lavasys.com/
+NovaManage
+http:lIwww.novasoft.corn1
+LiveLink
+http://www.opentext.comllivelink/index.html
+Docs Open
+http:llwvuw.pcdos.com1
+Parlance Ambassador
+http:l/www.xyvision.com/
+DMS Products from India
+20
+
+Data Scan, (Stacks Sohare Pvt. Ltd.)
+http:/www.stex.com/
+OmniDocs (NewGen)
+http:lhrvww.newgensoft.com/
+
+9. ORGANlSlNG DIGITAL IMAGES
+A disc full of digital images without any
+organisation, browse and search options may
+have no meaning except for one who created
+it. Scanned images need to be organised in
+order to be useful. Moreover, images need to
+be linked to the associated metadata to
+facilitate their browsing and searching. The
+following steps describe process of organising
+the digital images:
+
+(a) Hierarchical storage
+Organise the scanned image files into disc
+hierarchy that logically maps the physical
+organisation of the document. For example, in
+a project on scanning of journals, create a
+folder for each journal, which, in turn, may
+have folder for each volume scanned. Each
+volume, in turn may have a subfolder for each
+issue. The folder fur each issue, in turn, may
+contain scanned articles that appeared in the
+issue along with a content page, composed in
+HTML providing links to articles in that issue.
+
+(b) Nomenclature
+Name the scanned image files in a strictly
+controlled manner that reflect their logical
+relationship. For example, each article may
+be named after the surname of first author
+followed by volume number and issue
+number.
+For
+example,
+file
+name
+'smithrkamv5nl.pdf' conveys that the article is
+by 'R.K. Smith' that appeared in volume 5 and
+issue no.1 of Applied Mechanics. The file
+name for each article would, therefore,
+convey a logical and hierachial organisation
+of the journal.
+(c) Description
+
+Describe the scanned images file
+internally, using image header and externally
+using linked descriptive metadata files. Most
+software packages provide for storing
+'administrative data' regarding image, i.e.,
+date of creation, format type & version,
+compression technique, name of creator, etc.
+in the image header. 'Structured' or
+DESIDOC Bulletin of Inf Technol, 2001,21(6)
+
+'descriptive' metadab for images are the
+keywords assigned io each image.
+
+(d) Table of contents
+The simplest and most effective method
+for providing access is through a table of
+contents and links each item to its respective
+objectlimage. Content pages of issues of
+journals, done in HTML, would offer browsing
+facility. full text search to HTML pages or
+OCRed pages can. be achieved by installing
+one of the free internet search engines like:
+Oingo Free Search
+http:I/www.oingo.wmloingo~free~search/prod
+ucts.html;
+Swish-E
+http:llwww.berke\ey.edulSWSH-â¬I
+Whatyouseek
+http:Ilintra.whatuseek.com/
+Excite
+http://exlcite.corn/
+
+Large scanning projects would, however,
+require a backend database storing images
+or links to the images, metadata (descriptive1
+administrative). Backend database used by
+most DMS holds the functionality required by
+most web applications. important document
+management systems like File Net have-now
+integrated their database with HTML
+conversion tools. Further, some of the OMS
+have also signed up with Adobe to
+incorporate Acrobat and Acrobat capture into
+their web-based DMS. These databases
+entertain queries from users through 'HTML
+forms' ahd generate search results on the fly.
+OCR does not actually convert an image
+into text but rather creates a separate file
+containing the text while leaving the image in
+tact. There are four types of OCR technology
+that are prevailing in the market. These
+technologies are: matrix matching, feature
+extraction, structural analysis and neural
+network.
+(a) Matrixrremplate matching: Compares
+each character with a template of the same
+character. Such a system is usually limited
+to a specific number of fonts, or must be
+'taught' to recognise a particular font.
+DESfDOC Bulletin of lnf Technol.22001,21(6)
+
+(b) Nature extraction: Can recognise a
+character from its structure and shape
+(angles, points, breaks, etc.) based on a
+set of rules. The process claims to
+recognise all fonts.
+(c) Structural analysis. Determinescharacters
+on the basis of density gradations or
+character darkness.
+
+(d) Neural networking: Neural networking is a
+form of artificial intelligence that attempts
+to mimic processes of the human mind.
+Combinedwith traditional OCR techniques
+plus pattern recognition, a neural
+network-based system can perform text
+recognition and learn from its success and
+failure. Referred to as intelligent character
+recognition (ICR), a neural network-based
+system is being used to recognise
+hand-written text as well as other
+traditionally difficult source material.
+Neural network ICR can contemplate
+characters in the context of an entire word.
+New ICR combines neural networking with
+fuuy logic.
+
+fO.
+
+Hybrid Solution
+
+It would be imperative to consider
+producing a more reliable media like microfilm
+simultaneous to the process of digitisation if
+archival preservation is one of the objectives.
+The process of microfilming produce a
+high-resolution image on the microfilm1
+microfiche that equates to approximately
+1000 dpi in digital binary scanning. In
+comparison, a bitonal digital image can at
+best be scanned at 600 dpi for archival
+storage.
+The microfi\m/microfiche can be used for
+conversion to electronic image. format.
+Moreover, future improvements in scanning
+technology can be utilised by rescanning a
+microfilm to obtain high-reso!ution images. It
+is expected that ultimately electronic scanning
+wit1 reach or exceed photographic quality.
+Durability and reliability of computers, storage
+media and formats used for electronic image
+files may also increase and stabilise.
+21
+
+11. CONCLUSION
+N t h the technology available at an
+effordable cost, the libraries can initiate small
+digitisation projects as individual library or as
+a group of libraries. Building-up digital
+collection and infrastructure required to
+access them is a challenge that evei$'library
+has to deal with.
+Recent growth and development in digital
+libraries can broadly be grouped into three
+broad categories, i.e., (a) digitisation of
+traditional printed-resources and their
+integration with secondary sources of
+information like Medline. Most of the
+secondary services now incorporate link to
+the full text articles on the publisher's site.
+Developments of platforms l i e Crossref, Web
+of Science, Silver Linker, etc. are indication of
+trends towards gradual merger of full text
+resources and secondary services; (b) digital
+library derived from the datafiles generated as
+a byproduct in the process of printing of
+primary journals or major reference works.
+Most of the publishers of STM journals have
+launched their digital collections consisting of
+electronic counter-parts of . their printed
+journals; and (c) new information sources that
+are created specially for the web imbibing
+frills of technological advances. The numbers
+and variety of resources in the last category
+are expected to increase as the users
+respond to technologically advanced products
+and services. The meaning of digital library is
+in the process of evolution as it climb along
+the technological ladder. It can thus be
+concluded that further advances in the area of
+digital libraries would rest upon further
+technological developments as well as
+conceptual foundation that is being laid down
+presently.
+
+.
+
+Unlike microfilming, digital imaging
+technologies present a preservation solution
+for the documents in libraries with increased
+accessibility over the electronic networks,
+highquality output, OCRed text, electronic
+links to individual pages, etc. However,
+imaging technologies are still in a continuous
+flux of change. New standards and protocols
+are being defined on a regular basis for file
+formats, compression techniques, hardware
+22
+
+components, network interfaces, etc. The
+librarian should be aware of constant threat of
+'techno-obsolescence'
+and
+transitory
+standards. Magnetic and optical discs as a
+physical media are re-engineered to store
+more and more data. There is a constant
+threat of backward compatibility for the
+products that were used in the past. Acquiring
+an imaging system with all its peripherals
+capable of enhancing access to the library
+resources is quite a simple task specially now
+that the cost of all computing systems and
+peripherals are crashing down. However, the
+libraries must be concerned with all aspects
+of imaging technologies, as well as new
+demands that the technology will place on
+them as an organisation.
+Digital images will have to be constantly
+migrated converted to new formats computing
+devices, storage media and software as new
+forms of storage devices, updated formats
+and software and improved computing
+systems are released. lnspite of the fact that
+this constant migration conversion of digital
+images would not only be expensive it would
+also direct valuable manpower resources into
+a constant re-invention of wheel, it would be
+essential to do so otherwise valuable images
+data would be left behind an obsolete
+machinery which will eventually break down
+rendering data inaccessible.
+
+1. Association of Research Libraries.
+Proceedings of 126th ARL Annual
+Meeting, 1995.
+http:/larl.cni.org/arllproceedings/l26/2defn.html
+2. ~esser, H & Trant, J. Introduction to
+imaging: Issues in construction of an
+image database. Gery Art History
+Information Program, Santa Monica,
+1995.48 p.
+
+3.
+
+4.
+
+Boteler, J. E-mail dt Feb. 28, 2001 to
+listserv:
+DIG-REF@LISTSERV.SYR.EDU
+Conway, Paul. Preservation in digital
+world. Microform and Imaging Review,
+1997, 25(4), 156-71.
+DESlDOC Bulletin of Inf Technol,2001,21(6)
+
+Cox, John E.. Publishers, publishing and
+the Internet: how journal publishing will
+survive and prosper in the electronic age.
+Nectmnic Library, 1997, 15(2), 125-31.
+Davis, Eric T. An overview of the access
+and preservation capabilities in digital
+technology.
+http:Ilwww.iwaynet.net/-lscildiglibldigpapf
+f.html
+Fox, E. & Marchionini, Gary. Towards a
+worldwide digital library. Communication
+of the ACM, 1998, 41(4), 29-32.
+Guthrie, Kevin M. JSTOR: From project
+to independent organisation. D-Lib
+Magazine, JulylAugust, 1997.
+http:/lwww.dlib.org/dlib/july97/07guthrie.
+html
+Hulser, Richard P. Digital library: Content
+preservation in a digital world. DESIDOC
+Bulletin of Information Technology, 1997,
+17(6), 7-14.
+Lynch, Clifford & Hector, Garcia-Molina.
+llTA Digital Library Workshop, Reston,
+VA, 18-19 May 1995.
+Kenney, A.R. & Chapman, S. Digital
+imaging for libraries and archives. Cornell
+University, New York, 1996. 198 p.
+Marchionini, G; Plaisant, C. & Komlodi,
+A. Interfaces and tools for the Library of
+Congress National Digital Library
+Program. lnformation Processing and
+Management, 1998, 34(5), 535-55.
+Noerr, P. The digital library toolkit. Ed. 2.
+Palo Alto, Sun Systems, 2000. 186 p.
+Paepcke, A.;
+Chang, C-C.K.;
+Garcia-Molina, H. & Winograd, T.
+Interoperability for digital libraries
+
+Contributor:
+
+worldwide. Communications of the ACM,
+1998, 41(4), 33-43.
+Payette, S.; B m i , C.; Lagoze, C.; &
+Overly, E.A. Interoperability for digital
+objects and repositories. D-Lib Magazine,
+1999, 5(3).
+http://www.dlib.or~$lib/May99/payette/05
+payette.html
+Rusbridge, Chris. Towards the hybrid
+library. D-Lib Magazine, JulylAugust;
+1998.
+http:llwww.dlib.org/dIib/july98/rusbridge.
+html
+School of Scanning, 3-5 Nov., 1997,
+New York. Papers and presentations.
+Northeast Document Conservation
+Center, Andaver, MA, 1997.
+Science Server Software. Products and
+services from a company dedicated to
+innovative devetopment of digital library
+software. Scienceserver LLC, McLean,
+1999.
+http:I/www.scienceserver.corn/
+Sloan, Bernard G Services perspectives
+for the digital library: Remote reference
+services. Library Trends, 1998,47(2).
+Smith, T.R. Meta information in digital
+libraries. Int.J.Digital Libraries, 1997, 1,
+105-07.
+Waters, D. Electronic technologies and
+preservation. European Research
+bbran'es Cooperation, 2(3), 285-93,
+1992.
+W~llis,Don. A hybrid systems approach to
+preservation of printed materials.
+Commission on Preservation and
+Access, Washington, D.C., 1992.
+
+Dr Jagdlsh Arora is deputy librarian at Central Library, Indian Institute of
+Technology (I IT), Delhi.
+
+DESIDOC Bulletin of Inf TwhnoI,2201,21(6)
+
+23
+
+Annexure - I
+File Formats in Digital Libraries
+Abbreviation
+
+File Extention
+
+Format
+
+File Format for UnstructuredText
+ASCII
+
+American Standard Code for Information Interchange
+
+File Format for Structured Text
+SGML
+HTMt
+XML
+PDF
+PS
+TEXT
+
+sgml
+.html or .htrn
+.xml
+.pdf
+
+Standard Generalised Markup Language.
+Hypertext Markup Language
+Extended Markup Language
+Portable Document Format (Adobe)
+Postscript (Adobe)
+Texture Format
+
+.ps
+.txt
+
+File Format for Images
+PDF
+BMP
+IMG
+JPEG
+JFlF
+PCP
+PCX
+PSD
+TGA
+PNG
+
+TIFF
+
+TIFF-G4
+SPlFF
+PCD
+
+Portable Document Formal
+Bit Map Page (Mndaws)
+Ventura Publisher
+Joint PhotographicExpert Group
+JPEG File Format
+PC Paint (BBW Mode)
+PC Paint Brush {Color & B&W)
+Photoshop
+True Vision Targa
+Portable Network Graphic
+Tagged Image File Format
+Tagged Image File Format with Group 4 Fax Compression
+Still Picture Interchange File Format.
+Photo CD (Kodak)
+
+.pdf
+.bmP
+.img
+.jp9
+
+.jfif
+.PCP
+
+.pcx
+
+.psd
+.tga
+.prig
+
+.tior .tiff
+.ti
+.spf
+.pa
+
+Web-Compatible lmage File Format
+GIF
+Graphics Interchange Format
+JPEG
+Joint Photographic Experts Group
+Audidvideo File Format
+WAVE
+Waveform Audio (Microsoft)
+AlFF
+Audio Interchange Format
+JPEG
+File Format
+VoC
+Creative Voice
+MIDI
+Musical Instrument Digital Interface
+SND
+Sound
+AU
+Audio (Sun Microsystems)
+Real Audio Format (ProgressiveNetworks)
+RA
+AVI
+Audio Visual Interleave
+FIA
+Macromedia Flash Movie
+AutoDesk FLIC Animation
+FLC
+MOV
+Quicktime for Wlndows Movie
+MPEG
+Motion Picture Expert Group
+MP2
+MPEG Audio Layer 2
+MP3
+MPEG Audio Layer 3
+24
+
+.wav
+.aif
+.jff
+.VOC
+
+.midi
+.snd
+.au
+.ra
+.avi
+.Ra
+
+.flc
+.mov
+mpeg
+.mp2
+.mp3
+DESIDOC Bulletin of Inf Techno!,200?,21(6)
+
+

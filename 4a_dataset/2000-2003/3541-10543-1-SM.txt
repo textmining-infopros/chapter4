@@ -1,0 +1,1465 @@
+﻿DESlDOC Bulletin of Information Technology, Vol. 21, No. 3, May 2001, pp. 3-16
+Q 2001, DESIDOC
+
+Similarity Between the Ranganathan's Postulates for
+Designing a Scheme for Library Classification and
+Peter Pin-Sen Chen's Entity Relationship Approach to
+Data Modelling and Analysis
+Madan Mohan Kashyap
+Abstract
+This paper describes the theoretical framework of Ranganathan's postulates for
+designing a scheme for library classification and Peter Pin-Sen Chen's
+entity-relationship approach to data modelling and analysis techniques to see the
+similarity between their concepts and applications, in their respective domains. It
+also emphasises the importance of Ranganathan's postulates in organising and
+searching the World Wide Web resources.
+
+1. INlRODUCTION
+We find that there is a similarity between
+the Ranganathan's Postulates for Designing a
+Scheme for
+Library
+Classification and
+Entity-Relationship Data Modelling Concepts
+stated by Chen, Peter Pin-Sen. These
+technologies are further modified by other
+experts. Both of the theoretical approaches are
+concerned with the organisation of information
+and apply almost similar theoretical principles,
+concepts,
+and techniques for effective
+organisation and retrieval of information in their
+respective domains. Postulational approach to
+classification based on a set of postulates or the
+principle o f facet analysis and synthesis
+formulated by Ranganathan can be applied for
+(a) designing a facet scheme of library
+classification, (b) classifyng and organising
+documents possessed by the libraries in a
+helpful classified order, and (c) organising
+records of the bibliographic items as Jibrary
+catalogues to enable the library users to search
+and identify the bibliographic items of their
+interest through various access points.'" The
+Entity-Relationship
+[ER]
+data
+modelling
+technique is used to specify a conceptual
+DESIDOC Bulletin of Inf Technol, 2001,21(3)
+
+model of a database or to formulate a data
+structure design to organise the data or data
+records about a real world entities (such as
+animal, plants, documents, people, etc.).
+This paper describes the theoretical
+framework of Ranganathan's postulates for
+designing a scheme for library dassification and
+Peter
+Pin-Sen
+Chen's
+entity-relationship
+approach to data modelling and analysis
+techniques to see the similarity between their
+concepts and applications, in their respective
+domains.
+Both of these theoretical approaches in our
+view are complimentary and supplementary
+and are used as means for designing,
+developing and searching databases of all types
+of organisations, irtcluding libraries.
+We find that the faceted classification
+systems and subject indexing systems based
+upon Ranganathan's postulational approach or
+faceted analysis technique have been found, in
+some respect, superior to other techniques of
+online retrieval of information from the
+databases of information systems. This point of
+view is demonstrated by Codert' by three
+3
+
+examples, the first one is based on a short
+classification system derived from B. Bachnan,
+the second is built upon the classification
+systeni used by Library and Information Science
+Abstracts (LISA), the third example is concerned
+with sonie possible consequences which could
+be derived from retrieval with PRECIS strings.
+Ellis and Vasconcelos' have also pointed out the
+continuing relevance of facet analysis as a
+technique for searching and organising World
+Wide Web based documents. They argue that
+facet analysis, which is essentially a concept
+based approach to indexing is an excellent
+approach to searching and organising the
+WWW resources rather than using either
+search engines or search directories. Finally,
+they argue that the underlying philosophy of
+facet analysis is better suited to the disparate
+nature of WWW resources and searches than
+the assumption of current IR research.
+Neelameghan in one of his paper indicated that
+"the process of developing the conceptual
+schema, which involves identifying, delimiting
+or description of various entity-types, their
+attributes and the relationships among them
+and mapping them on to a data model is similar
+to the process of designing a scheme for
+knowledge or subject classification by
+Ranganathan. "'-'
+
+2. ENTITY RELATIONSHIP (ER)
+APPROACH
+The (ER) approach as a data analysis and
+modelling technique was first introduced by
+Chen, Peter Pinssen, in 1976." Since that time,
+many experts in the field of information
+technology
+have
+suggested
+several
+modifications to the ER m ~ d e l . ' ~ "It has
+presently evolved into one of the most
+important data analysis and database design
+technique. Database design is fundamentally a
+task in data modelling and a data model is
+architecture for data. It describes the general
+structure of how data is organised.
+The
+purpose of data analysis is to represent data as
+it is perceived by its users and referred to as
+semantic modelling technique.''
+This database modelling approach is an
+analytical technique, which is based on three
+fundamental concepts namely: (i) Entities, the
+
+objects or things about which one wants to
+keep data or fact in a database, (ii) Attributes
+which represent the properties of the entities,
+and (iii) Relationships, which represent the
+association between entities and the entities
+acquire or possess certain attributes or
+properties due to their relationships with other
+entities. These concepts are the foundation of
+the ER model, with the help of which we can
+outline a conceptual model (also called logical
+view) of a database. The conceptual level
+model or design of a database relates to the
+representation of that part of the real world that
+the database is about.
+Prior to the introduction ER approach, data
+requirements of an enterprise were determined
+by analysing the processes, transactions,
+outputs, or data flow of a system, or data
+element presumed to be needed by users, or by
+examining forms, files, reports of the enterprise
+or
+organisation
+whose
+computer-based
+information system was being designed.
+
+ER approach preempts, identifying and
+describing of the real world, that is the universe
+of the enterprise or problem area, that is the
+objects or things associated with it, whose
+database is to be built. This approach was
+based on the assumption that examining only
+processes, transactions, outputs, or data flows
+of a system, or examining of all factors gives
+partial of the environment. Without a proper
+understanding of entities, objects or things
+themselves and their environment, one can not
+make reasoned decisions as to what data was
+needed about those objects or things.
+
+2.1
+
+ER Approach
+Databases
+
+for
+
+Building
+
+ER approach helps us to get true or
+complete picture of the real world or universe
+whose database is to be built and involves:
+(i) Identification and definition of entities of the
+concerned real world -the problem area or of
+the enterprise,
+(ii) Entity grouping and description, and
+(iii) Enterprise or problem area context
+Each of these steps are explained below:
+DESIDOC Bulletin of Inf Technol, 2001,21(3)
+
+2.1.7 Entity identification and definition
+This step involves recognising various
+entities whose database is to be built,
+determining why they are important to the
+organisation, researchers or users of database,
+and naming them.
+
+2.1.2 Entity grouping and description
+
+entity-type, to be of importance for creating a
+database of library .system, would be too
+general or broad, as it can be fragmented into
+too many subsets. Where as, to consider
+'Library Users', 'Library Employees' and so on,
+as the entities of interest is more precise and
+relevant selection. O n the other hand, to
+consider 'Temporary Members' and 'Per~iianent
+Members' as entities of interest w o i ~ l d too
+specific, particularly if niernber of each group is
+given equal status or privileges accordi~igto the
+rules of a library system. In this case,
+'temporary' and 'permanent' are the attribute
+or status of a user, and can alternate between
+the two positions and still user having is tlqual
+status.
+b t b
+
+This step involves grouping of entities of
+interest (i.e., the given population) into broad
+and narrowly. defined classes, identifying,
+describing the . relevant attributes of the
+entity-types (or entity classes) for creating the
+records of entities in the given context.
+Each group or class, broad or narrow,
+constitutes of a number of entities that have a
+set of attributes in common. Thus, the entity
+description consists of identifying which
+attributes of an entity-type (or entity class) are
+relevant for creating the records of entities in a
+given context.
+.
+Broadly, we can group entities around us
+into persons, organisations, things, places,
+events, etc. However, these groupings are too
+general to handle in meaningful manner.
+Therefore, we must form subgroups of each of
+these classes into subtypes, i.e., into different
+kinds of people, things, places, etc., for ease of
+handling. The categorising of entities may be
+based on criteria, such as, what the entities are,
+what purposes they serve, what they do, how
+they look like, how they are used, etc.
+The entities sharing common attributes are
+grouped together and form a class. In other
+words, an entity class could be considered as
+an aggregation of attributes. Similarly, an entity
+or object could be considered as an
+aggregation of its properties. Selecting
+appropriate differentiating attribute(s) or
+characteristics does the further division of entity
+classes into sub groups. The cannon for
+characteristics and cannon of succession of
+characteristics of Ranganathan" are helpful in
+this process.
+One has to specify the recognised entities
+and entity groups and subgroups at the exact
+level of precision that ensures that it not so
+general as to be meaningless, and yet not too
+specific. For example to consider 'person', as an
+DESlDOC Bulletin of Inf Technol, 2001,21(3)
+
+It is sometimes necessary to tiivicitl
+entity-types into sub-groups. For exnnlple,
+Professional
+Staff,
+Semi-professional,
+Non-professional Staff might all be declared as
+subtypes of entity-type Library Employee. Like
+wise Library Manager, Deputy Library Manager,
+and Assistant Library Manager would be
+declared as subtypes of the entity-type
+Professional Staff. While forming groups of
+entities, it is necessary that we attempt to use
+the most general, yet niost meaningful,
+grouping possible. The important consequenctA
+of forming generalised hierarchy of entities or
+entity groups or classes is that - entities lower
+down the hierarchy inherit the attributes ant1
+relationships of entities higher up in the
+hierarchy. Hence, a deputy library manager
+would inherit attributes of deputy library
+managers in general, and of eniployees in
+general. Likewise, a deputy library manager
+would inherit the relationship of a library
+employee to a department.
+The broad group of an entity set or the first
+level group is called family or super-class. E,lc:h
+super-class or family constitutes of subgroups,
+and the groups higher level can he further
+subdivided in subgroups. (The term - type and
+subtype is also used in place of group ;~ntJ
+subgroup, respectively). Each subgroup within
+the family or super-class has a comnlon
+characteristic that differentiates i t from other
+groups of the family, and shares all the
+attributes of the family as whole. (A
+5
+
+characteristic is some property or attribute that
+distinguish one thing from other).
+An entity, entity family, entity-type or group
+is defined within the context of the organisation
+or the library system whose database is
+supposed to be built. Thus, an entity belonging
+to a broad group in one context may belong to
+subclass/subgroup/subtype of entities in
+another context.
+Entity groups, at family level and below, are
+primarily formed based on role which member
+of each group plays in the organisation. Further,
+the et3tii.j qrouping may be created in the form
+of a mutually exclusive (disjoint) type of
+subclasses or mutually inclusive
+(partially
+disjoint or overlapping) type of subclasses.
+In some instances however, an entity can
+play a multiple role. For instance, a member of
+a university library system can be a teacher, a
+student, and a library staff member. In real
+world, a tedcher, a student, and a library staff
+member belong to mutually exclusive sub
+classes. In case the library rules do not provide
+equal loan facilities or other privi!eges to the
+members each group, then in this case, each
+group must be treated mutually exclusive
+group. However, if member o i each group is
+given equal status or privileges according to the
+rules of a library system, then though the roles
+of each entity-type or group are distinct in the
+context of university set up, all these entity
+groups be merged in one family type - Library
+Member. Their roles (as teacher, as student, or
+staff member) may however be treated as their
+attributes. The subgroups of entity-type Library
+Member, namely Teacher Member, Student
+Member, and Employee Member are to be
+treated as its overlapping or mutually inclusive
+subclasses.
+While classifying entities into families (super
+classes), groups and subgroups, the following
+factors need to be kept in mind:
+(a) If the roles are mutually exclusive, i.e., if the
+entities can play one role i n the organisation
+and not other, define separate entity families,
+groups, or subgroups.
+
+(b) If the roles are distinct, but not mutually
+exclusive, merge the entities into a single
+entity family or a broader group.
+
+2.1.3 Enterprise Context
+Enterprise context involves identifying and
+defining the relationships that exists between
+the identified and defined entities, their relative
+importance to the enterprise as a whole, and
+each specific part/sub-unit/subsystem of the
+enterprise. The enterprise or problem context
+also involves identifying the role or function of
+each of the entities or entity-types within the
+enterprise or organisation. For example, the
+Entity-type 'bibliographic item' has different
+perspective in the context of a library system in
+comparison to its as~ociationwith a business
+enterprise (e.g., publisher). The specific
+description of bibliographic entitjes and their
+relationships with other entities within a library
+system are relevant only within the context of
+the library system.
+
+2.2
+
+Entity Relationship (ER) Diagrams
+
+Entity models are usually mapped out as
+entity-relationship diagrams (ER diagrams). The
+product of entity-relationship diagramming is a
+model of entities (objects of interest), the
+relationships between entities, and attributes
+associated with entities in some domain of
+discourse. An ER diagram illustrates the data to
+be stored in an information system, which
+constitutes a database of the information
+system. The data to be stored in a database
+pertains to an entity or a set of entities in real
+world, sometimes called the mini-world. The
+data about an entity are essentially the values
+of its attributes (or attribute set) and their
+relationships with other entities, that is the
+attributes the entity acquires or attains due to
+its
+relationships
+with
+other
+entities.
+Relationships represent connections between
+entities and meaningful dependencies between
+them.
+An entity or an entity-type (i.e., the object
+set about which one wants to keep data or fact
+in a database) is represented on a diagram by a
+rectangular box in which written the meaningful
+name ior entity. A relationship between entities
+is represented by drawing a line (some time
+labelted) between relevant entity boxes, on the
+diagram. An attribute is represented an oval
+attached by a line to the appropriate entity. The
+entity identifier (attribute) is underlined.
+DESIDOC Bulletin of lnf Jechnol, 2001,21(3)
+
+Gets on Loan
+
+User
+
+Document
+
+Figure 1. An illustration of ER Diagram
+
+ER diagrams show data at rest, i.e., data
+being stored or to be stored in the proposed
+system, independent of how that data will
+eventually be processed or used. ER diagrams
+complement data flow diagrams or flow charts,
+which show data in motion i.e., as data flows.
+System analysts use this tool to develop
+implementation-independent data
+models,
+which allow them communicate with end users
+in
+non-technical
+language.
+The
+implementation-independentmodels are usually
+called conceptual, logical or essential models.
+The conceptual model (also called conceptual
+or logical view of a database) is a concise
+description of the data requirement of end user
+or users of computer-based information system.
+It describes the various entity-types, their
+attributes and the relationship between them.
+The conceptual schema might be regarded
+as an ovtr all logical database description or a
+global model representation of a database as
+conceived by the library database administrator
+or systems analyst.and is entirely independent
+of physical storage organisation of a database.
+A coriceptual schema can be defined using ER
+model concepts and can be displayed by means
+of the graphica) n~tation.""~
+An ER diagram is conventionally referred to
+as a conceptual model of a database system.
+From this conceptual model, we derive an
+implementationdependent
+logical
+model
+(expressed in the form of as a series of tables
+structured in third normal form Tor a relational
+database system), which may be mapped on to
+or converted into the database structure of a
+Database Management System (DBMS). The
+final step in database development is to
+produce a physical model. That is, a series of
+DESlDOC Bulletin of Inf Technol, 2001,21(3)
+
+record structures expressed in the syntax of
+some programming language or DBMS.''
+
+A database conceptual schema is specified
+during database design of an information
+system and is not expected to change
+frequently.
+
+3. DEFINITIONS OF KEY CONCEPTS
+
+OF ER APPROACH
+3.1
+
+Entity
+
+An entity or ot,ject is defined as anything
+(physical or abstract) in the real world about
+which one wants to keep data, facts or store
+descriptive information in a database record. An
+entity may be a tangible object with physical
+existence, such as, a particular person, an
+employee, a library member, a book, n serial, a
+chair, or a table. It may be a non-tangible object
+with conceptual existence or an abstract
+concept, such as, an event, a transaction, a job,
+a procedure, a subject of study, or a kniversity.
+All entities are distinct from one another in
+the sense that each possesses a particular set of
+properties, attributes or values i:~osedistinguish
+it from the others. Thus, a hibliographic item
+has properties such as title, sire, price, cost,
+etc.; a library user possesses attributes such as
+name, age, educational qualification, place of
+residence, etc.; and a library employee has
+attributes such as name, address, basic salary,
+etc.
+The entities may exist in large homogeneous
+groups where all members are capable of.beinp
+described in the same manner having identical
+attributes, or they may be fragmented or
+considered into many subtypes, each with a
+description which are either slightly different, or
+7
+
+in some cases radically different, from the other
+members of the same group.
+We contrast or differentiate between
+entities, for some purpose, based on some
+characteristic or characteristics, wen if in the
+real world they are from the same class of
+objects. For example, library members and
+library eniployees are both persons, but library
+member is a person who niakes use of library
+collection, while library employee is a person
+who organises and maintains the library
+collection for the use of the library members. A
+monograph and a serial are both bibliographic
+items, but a monograph is a non-serial
+bibliographic item (i.e., it can complete in one
+part or iinite number of parts, or intended to be
+completed in a finite number of parts), but a
+serial is a periodical publication or bibliographic
+item published/issued in successive parts
+bearing
+numeric
+and/or
+chronological
+designations and intended to be continued
+indefinitely. Each part is generally made up of
+distinct and independent contributions, not
+forming a continuous exposition.
+The manifestation we referred to above as
+entities can be called entity-types (or entity
+classes) because each denotes a set of objects
+(individual entities), each of which exhibits the
+properties/attributes described for the class and
+about which one may be interested in collecting
+facts or data for use. An entity-type is a
+category and an entity, strictly speaking, is an
+instance of a given entity-type. The data
+collected about an entity is descriptive data
+about attributes of the entity. Thus, the
+entity-type 'library member' i s made up of
+individual entities, each of which has attributes,
+name, age, and educational qualification, place
+of residence, etc. Every individual entity
+belonging to this class possesses all the
+attributes of the class but differ from one
+another in the values of data elements or items
+associated with their attributes.
+
+3.2 Attribute
+An attribute is a characteristic, a property, or
+a fact of an entity, entity class or entity-type,
+and a set attributes describe an entity or
+entity-type. An attribute associated with an
+entity or entity-type can be intrinsic or natural,
+such as 'size' of a book, or extrinsic (or
+8
+
+associative, assigned to it or acquired by an
+entity due to its relationship with another
+entity), such as 'written-by', 'accession number'
+of a book. An attribute may also describe, why
+a relation exist, how long it will exist or has
+existed, or under what condition it exists.
+The value of an attribute of an entity
+provides a piece of information or elementary
+data about an entity or about its relationship
+with other entities. Title, for example, is the
+attribute of the entity bibliographic item (a
+monograph, a serial or an article), and so is
+edition, date of publication and extent. From
+the values of attributes: title, date of
+publication, extent, bibliographic item, type,
+etc., we can identify a barticular bibliographic
+item, know whether the item is a monograph,
+serial, or component of a serial or composite
+monograph. A string o f symbols used to
+represent an attribute of particular entity is
+called a value of the attribute. Thus, 2nd ed.,
+1998 and xx+200p are the value of the
+attributes - edition, year, date of publication,
+and extent respectively, of a particular book.
+A value of an attribute is often divided into
+elementary parts or units called data elements.
+For example, we represent the attribute name
+of an author is into following parts (or data
+elements) - entry element, other part the name,
+role, etc. Thus, a defined attribute of an
+entity-type has one or more data elements
+associated with it.
+
+3.3
+
+Relationship
+
+A relationship represents associations or
+connections among the entities. in real world
+entity does not stand-alone and acquires certain
+attributes due to its relationships with other
+entities, or due to actions performed on by
+other entities or agents those bring changes in
+its state or conditions. A particular bibliographic
+item in a library, say a monograph is writtewby
+an author(s), published by a publisher, sold by a
+vendor, is bought by a library, is classified by a
+staff member, etc. Each of these is an example
+of a relationship, a logical connection between
+two or more entities. For example, the terms
+'written by' and 'edited by' show relationship
+between the entity-types MONOGRAPH (i.e., a
+published work of an author) and the
+AUTHOR. Thus, we can say that the name of
+DESJDOC Bulletin d l n f Technd, 2001,21(3)
+
+author or editor of a 'Monographf is the
+attribute acquired by an entih/ 'Monograph'
+because of its association or link with the entity
+'Author'.
+It may be pointed out that
+relationships exist only between entities, not
+between attributes of entities.
+
+3.4
+
+Domain of Attribute
+
+To facilitate the correct construction and
+efficient operation of a database, we not only
+recognise and define the entity sets with which
+we are concerned,.their relevant attributes, but
+also state the domain of each attribute. The set
+of valid values of an attribute is called the
+domain of the attribute. For example, a designer
+of a bibliographic database system must make
+decisions about matters, such as: (a) what
+elements of information about the bibliographic
+items to include-the name(s) of the principal
+author($, the name(s) of collaborator(s), title,
+edition, so forth! (b) how to determine who is
+the principal author of the work? (c) whether an
+author's name should be recorded as it appears
+on the document, or should be recorded in the
+form described or restated in an authority file,
+and so forth.
+
+4. RANCANATHAN'S POSTULATES
+FOR DESIGNING A SCHEME FOR
+LIBRARY CLASSIFICATION
+According
+to
+Ranganathan,
+library
+classification is concerned with "classification of
+subjects or universe of subject^."^ A subject i s
+the theme of a work, an organised or
+systematised body of ideas, facts, data, or
+information concerning some thing or things, or
+exposition of theoretical construct(s) embodied
+in a tiibliographic item. The content of a
+bibliographic item is product of intellectual,
+transintellectual, creative activity or imagination
+of man recorded in an intelligible, coherent and
+communicable form. The focus of study and
+description in a work or document can be
+about a conceptual (abstract) or concrete
+(physical) entity or entities, or their properties.
+A subject of study is itself something created by
+man that encompasses a body of knowledge
+about some thing or things and is governed by
+a set of fundamental laws, hypothesis,
+postulates, and principles.
+DESIDOC Bulletin of Inf Techno!,2001,21(3)
+
+A work comprises the thought contents,
+information, or knowledge contained in a
+document or package of information, plus the
+language in which the thought contents are
+expressed or communicated. A work i s equal to
+thought contents, which is soul of a docunient
+and language or any other means of
+communication of thoughts, which is subtle
+body of a document.
+
+4.1
+
+Definition of Document
+
+Ranganathan defines a document as "record
+of a work on paper or other material, fit for
+easy physical handling, transport across space
+and preservation through time". The term
+'Documenf' includes any bibliographic item or
+the record of any kind of work-macro or
+micro-and
+the physical embodiment i s
+exclusively of one work or is shared by more
+one than one work. It constitutes of subject (i.e.
+thought contents, knowledge, information, or
+message
+it
+holds),
+plus
+language
+(comrnunjcation medium or thought channel),
+and plus recording material (paper, electronic
+media-tape, disk, and so forth)." The subject i s
+the soul of a document, language subtle body,
+and recording material represent gross body of
+a document.
+He defines entity as "any existent, concrete
+or conceptual, that is, thing or idea." Any entity
+has distinct personality comprising of a set of
+characteristics or attributes. An attribute being
+"any property or quality or quantitative
+measure of an entity.""
+If we perceive or know about the attribute
+or attributes possessed by an entity or entity set
+we know about it or them. We can also
+distinguish one entity or entity set from another
+because of
+certain characteristic(s) or
+attribute(s) possessed by one and not by other.
+For example, we know that the entity tree i s
+distinct from the entity tiniher. Because we
+know that for a living tree i t is essential that i t s
+root to be in soil and for its branches to have
+access to water, light and air. The 'tree-ness'
+(the personality of tree) of living tree is distinct
+from the dead tree as 'timber' or 'wood'. If soil,
+water, light and air are removed, there can be
+no tree left and it turns into timber or wood.
+The 'tree-ness' of tree is energy (water, light and
+air) depended and tied to matter (soil). Further,
+9
+
+a tree or specific type of tree can exist in
+certain conditions and places, or live up to
+certain time. Thus, 'tree-ness' of tree is related
+to matter, energy, space and time in specific
+way and none of these elements can be
+excluded from it. The description of the
+properttes of the tree, its relationship with or
+dependence on water, soil, air, light and
+specific environmental conditions, and that it
+exists in particular place, and !ive up to certain
+time, provides us knowledge or information
+about the entity tree, or portrays its total
+pers~n~~lity.
+Soil, water, air, light, place and time are also
+entities in their own right, having their own
+personalities that are distinct from the entity
+tree. Tree i s living thing; where as soil, water, air,
+light are non-living physical things. Space and
+time, per se, are conceptual entities.
+Ranganathan divided the universe of
+knowledge into traditional 'basic subjects' or
+'main ciasses of subjects' followed by a
+sub-division of these bask subjects or classes
+through the application of 'trains of
+Characteristics' or 'facets'. The term 'facet'
+refers to a manifestatim of any one of the five
+fundamental categories - Personality [PI, Matter
+or Property [MI,Energy or Action [El, Space IS]
+and Time IT].
+
+4.2 Postulates for Designing a
+Scheme for Library Classification
+The set of postulates formulated by
+Ranganathan for designing a scheme for library
+classification as well as classifying the
+bibliographic documents according to their
+specific subject put the theory of classification,
+and the work of classifying and indexing the
+bibliographic documents on firm scientific basis.
+These postulates or principles of facet analysis
+and synthesis were first time formally stated by
+Ranganathan in his paper presented to the
+International Study Conference on Classification
+for Information Retrieval, held at Dorking in
+1957." Though, the explicit statement of the
+postulates or principle of facet analysis and
+synthesis was first time made by Ranganathan
+in his paper presented to the Dorking
+Conference, yet these were actually applied by
+him, implicitly, in designing his Colon
+10
+
+Classification Scheme published in 1933." The
+fourth edition of Ranganathan's Colon
+Classification is the first version of Colon
+Classification, whose design is based on his
+explicitly stated postulates or principles for
+facet analysis and synthesis for library
+classification, which were first time stated by
+him in paper presented at the lnternational
+Study Conference on Classifjcation for
+Information Retrieval, held at Dorking in 1957.
+Ranganathan,
+later
+incorporated
+these
+postulates, somewhat in an elaborated form, in
+his Prolegomena of Library Classification.
+Edition 2." The enunciation and application of
+the postulates became more sharpened, clear
+and simple in his later works, particularly
+Prolegomena of Library Classification. Ed. 3."
+One of the major contributions of
+Ranganathan in the field of Library and
+Information Science is chain procedure, the first
+version of which was published in 1939." It is a
+subject indexing technique to derive subject
+headings from a class number mechanically.
+The method is based upon Ranganathan's
+theory of symbiotic nature of classification and
+cataloguing.
+Ranganathan was of the view that once the
+class number of a bibliographic item is
+determined on the basis of a classification
+system, the specific subject heading of a
+document can be derived by verbal
+interpretation
+of
+class
+number
+and
+consequently deriving other related subject
+headings for a subject catalogue, with the help
+of the chain indexing technique. However, later
+he suggested that specific subject heading of
+each bibliographic item can be derived
+independent of a class number based on the
+'Postulates of Facet Analysis'. In Ranganathan's
+own words: "the .postulates for facet analysis
+and principle for Facet Sequence are as much
+help in finding out the names of the Subiect
+Heading, as they are in establishing its Class
+Number. The tasks of cataloguing and of
+classifying are equal beneficiaries of these
+postulates and principles. The use of one and
+the same procedure in cataloguing and
+classifying does not warrant the assumption of
+subject heading being derived from class
+number or class number being derived from
+DESIDOC Bulletin of Inf Techno/,2001,21(3)
+
+subject heading, of two different branches say
+A and B of m e and same tree, we do not say
+either A stems from B or that â¬3 stems from A."%
+
+4.2.1 Postulates of Different Kinds of
+Subjects
+Ranganathan postulated that a sul?ject of a
+work or a document can be Basic Subject,
+Compound Subject or Complex Subject, that is,
+three types of subjects exist namely: Basic,
+Compound, and Complex Subject.
+Basic or Simple Subject
+
+A subject without any isolate idea or
+concept as a component is called a basic or
+simple subject. A basic subject represents a
+field of study, a discipline or subdiscipline
+(branch of learning, e.g., Algebra) or any
+aggregate of fields
+of
+studies (e.g.,
+Mathematics), mutually exclusive and totally
+exhaustive first order array of subjects of a
+scheme for classification. A basic subject forms
+the Basic Facet of a compound subject. It
+encompasses a body of knowledge that is
+concisely governed by a set of fundamental
+laws, hypothesis, postulates, and principles.
+Mathematics, Arithmetic, Algebra, Biology,
+Botany, Cytology, Social Sciences, Political
+Science, Literature, Sanskrit Literature, Physics,
+Space Physics, Logic, etc. are examples of basic
+subjects.
+According to Ranganathan, "if a work or
+document contains overall description of an
+entity or an entity set, which are the central
+theme of a work, or contains an exposition of a
+theoretical concept or concepts about some
+phenomenon/phenomena or thing(s) then the
+subject of the work is deemed to be of type
+simple subject."
+Compound Subject
+A compound subject is a subject having a
+basic subject (basic facet) and one more isolate
+ideas or concepts (isolate facet) as its
+components. For example, each of the
+following subject statement or title of a
+monograph indicates that the subject matter of
+the monograph is compound subject. Examples
+of compound subjects: Mining of gold,
+Chemistry of gold, Bibgical study of animals,
+Botanical study of flows, T i t m e n f of cancer
+DESIDOC Bulletin of lnf Technd, 200 1,21(3)
+
+in Ayurvedic System of Medicine, represent
+compound subjects. (The terms in bold letter
+represent the basic subject or facet and a term
+in bold and italics represents an isolate idea or
+facet of the compound subject). Each Isolate
+is
+facet/idea
+of
+compound
+subject
+manifestatron of one of the five fundamental
+category.
+According to Ranganathan "if in a work or a
+document, one describes only part or portion
+of the personality of an entity or an entity set,
+nr gives description of one or some attributes
+possessed by an entity or entities, and/or
+actions on it by or through other entities, in a
+particular space and time context, then the
+subject of the work is deemed to be of type
+compound subject."
+Ranganathan postulated that make up of a
+compound subject constitutes of one or more
+five mutually exclusive fundamental categories:
+Personality [PJ, Matter [MI or Property, Energy
+[El or Action, Space [SJand Time (TI. This set of
+fundamental category for brevity denoted by
+initionym PMEST. i l e also introduced an
+extended version of these in the form of levels
+and rounds of their manifestations.
+Complex Subject
+
+A complex subject is two or Inore phased
+subject. It is represented by a subject statenlent
+which shows some relation (e.g., bias,
+comparison, influence etc.) between two or
+more simple subjects or compound subjects,
+for example: Physics compared to Chemistry or
+Psychology for Doctors.
+According to Ranganathan, "if in n
+document or a work deals with or contains
+description of interrelationship, cornparison,
+etc. among two or more basic suhjects or
+compound then such a subject of the work or
+document is deemed to be of type complex
+subject."
+Postulates of Isolate Idea or Concept
+An Isolate Idea (or concept) is any idea or
+concept which itself cannot deemed to he
+subject but fit to be a component of a
+compound subject or complex subject. Isolate
+concepts or terms such as: Gold, Animal, Child,
+Air, Flower, Cell, Hardness, Goodness, Red,
+Blue, etc. do not convey us any meaning unless
+11
+
+we associate them with some basic subject.
+Further, each isolate idea of a compound
+subject is deemed to be manifestation of one
+and only one of the five fundamental categories
+of ideas, defined below:
+
+4.2.2 Postulates of Five Fundamental
+Categories
+There are five and onJy five fundamental
+categories of isolate, concepts or ideas namely,
+Personality (Entity), Matter (Attribute or
+Property), Energy (Action), Space, and Time. An
+isolate idea or concept belongings to any one
+of these five fundamental categories.
+The fundamental category (FC) 'Personality',
+'Matter', 'Space' and 'Time' can manifest many
+hierarchical levels or may comprise of facets of
+different levels.
+The FC 'Energy' may manifest itself in one
+and same subject more than once. The first
+manifestation of the FC 'Energy' is taken as end
+of round one of the manifestation of the three
+fundamental categories 'Personality' [I PI,
+'Matter' [ I M), and 'Energy1 [IE]. The second
+manifestation of FC 'Energy' is taken to end
+round two
+(represented by symbol (2Ej),
+followed by /2P], [ZM], [2E],and so on.
+
+An isolate idea belonging to the
+fundamental category 'Personality', 'Matter',
+'Space' or 'Time' may pertain to any one of the
+hierarchical level of the category.
+PERSONALl7Y [PI
+The fundamental category 'Personality' (PI i s
+the most crucial or essential category among
+the five categories. There was time when many
+scholars in the field of library science,
+particularly western scholars,
+felt
+that
+"Ranganathan has not attempted strict
+definition of personalities."'"'
+It appears that Ranganathan chose the term
+'Personality' to represent the focal point of
+description or key object or objects of study or
+description in a work. A basic subject or
+domain of study is concerned with the study
+and description of a conceptual or physical
+object or a set of objects. The domain of study
+Botany i s concerned study and description of
+plants (found in nature). Physics i s concerned
+with physical phenomena - Heat, Light, Sound,
+12
+
+-
+
+etc. Medicine Human body, and its organs.
+As DahlbergWM points out "man is always
+concerned with two realities:
+(a) Entities or being such as inanimate beings
+(e.g., gold, earth, water, and so on), animate
+beings (plant life, animals life), divine beings
+and mental beings, and
+(b) Predications (knownjestablished facts)about
+the entities or beings, i.e., determinations of
+beings."
+Correspondingly, Ranganathan divides the
+subjects dealing with the various kinds of
+entities, that is, the living or non-living natural
+beings (systems), or the material, intellectual,
+cultural, and spiritual products of man and
+society, into different 'Basic Classes' or
+'Subjects'. Further, he postulated that the study
+and description of the subsets of entities,
+including their parts, constituents, or organs,
+etc., falling within the domain or perview of a
+'Basic Class' or 'Subject' (i.e., a field of study or
+any aggregate of fields of study) are deemed to
+be the component of the 'Personality' facet of
+that 'Basic Class' or 'Subject'. Where as, the
+predication
+about,
+or
+perceptions of
+entity-types, or the description of discovered,
+established or known attributes or facts about
+the entity types or their subsets falling within
+the domain or preview of a 'Basic Classes' or
+'Subject' are deemed to be the component of
+one or more of the remaining four facets or
+fundamental categories-Matter
+(Property),
+Energy (Action), Space and Time. J l appears
+that the Ranganathan picked up the terms for
+these four fundamental categories from the
+domain of physical sciences.
+The category 'Personality' or 'Personality
+Facet of Compound Subject' stands for as any
+physical or conceptual entity or entity set,
+object or object set, phenomenon or
+phenomena or theoretical construct(s) about
+which
+facts,
+information,
+explanation,
+knowledge, or mental images as formed in the
+mind of a person, and described or embodied
+in a work or a document. When we collect and
+outline or explain facts about an entity, we
+actually give description about its whole
+personality or part personality, i.e., we describe
+its attributes, character, nature, relationships
+with other entities (i.e., influence, impact,
+DESIDOC Bulletin of Inf Techno/, 2001,21(3)
+
+control, etc. on it, of or by some other entity or
+entities), or its interaction or symbiosis with
+some other entity or entities, as well as about
+its being present or existing in certain
+space-time context.
+
+MAlTER (Attribute or Property) [ M I
+The isolate ideas or concepts representing
+the intrinsic matter, material, properties,
+attributes, of entity /object or entity/object set,
+that is, qualities, quantities, functions, activities,
+processes, growth, change of state, behaviour
+or characteristics of entities or objects belong to
+this category. Morphology, Defect, Disease,
+Colour, Inflammation, Reliability, Weight, State,
+Harmony, Authority, Constitution, Structure,
+Hardness, etc. are some examples.
+
+ENERGY (Action) [El
+The category 'Energy' (or Action) covers the
+isolate ideas or concepts that represent the
+attributes attained or acquired by the focal
+entity due to its relationships with other entities,
+or action, operation (mental or physical) or
+impact on a the focal or core entity (i.e., the
+object or thing affected by action on it, by or
+through another entity), which brings change i n
+the property or characteristics of the entity. This
+category demarcates isolate ideas or concepts
+of the attributes relating to the energetic actions
+or interactions that may take place among and
+by all kinds of entities - inanimate, animate,
+conceptual, intellectual and initiative."
+Isolate concepts such as Measurement,
+Treatment, Evaluation, Diagnosis, Calculation,
+Critical Evaluation, Control, Influence, Impact
+and so forth belong to this category. As pointed
+out earlier that the fundamental category
+Energy may manifest itself in one and same
+subject more than once. The first manifestation
+of the fundamental category (FCJ 'Energyr is
+taken as end of round one of the manifestation
+of
+the
+three
+fundamental
+categories
+'Personality' [IP], 'Matter' [IM], and 'Energy'
+[IE], which is followed by second round of
+'Personality' [2P], 'Matter' [2M], and 'Energy'
+[2E], and so on. For example, the result (value)
+of measurement (action) [IE] is the property
+(1 MI of an entity or object [ I Pj measured with
+the aid of yardstick or instrument/tool/agent of
+measurement (2P], another entity. It may be
+DESIDOC Bulletin of Inf Technol, 200 1,21(3)
+
+observed that the concept of relationship as
+defined by the ER modelling approach has
+correspondence with the Ranganatha:lJs
+postulational approach. In the example, we find
+that the tool of measurement (entity) has
+relationship with the entity being measured and
+the result of the connection is the finding of the
+specific value of the attribute possessed by the
+entity measured.
+SPACE [S]
+
+The category 'Space' denotes concepts,
+isolate ideas such. as geographical location, or
+place where the entity resides, or where some
+event or action takes place in relation to an
+entity or entity set. Location of an entity is also
+a distinctive property or attribute of an entiiy.
+Examples:
+Geographical .Space - continents
+Countries - India, Districts, etc.
+
+-
+
+Asia,
+
+Population Clusters - Cities, Towns and Villages,
+etc.
+
+-
+
+Physiological Formations Mountains, Deserts,
+Rain-Forests, Rivers, Lakes, etc,
+Water Formations - Oceans, Seas, etc.
+TIME [TI
+The category 'Time' includes isolate ideas or
+concepts, such as, Mitlennium, Century,
+Decade, Years, Day, Night, Winter, Rainy day,
+Dry day, Hour, Second and so on. Presence or
+existence of an entity in specific timc is also its
+distinctive property or attribute of an c. ~tity.
+
+CONCLUDlNC REMARKS
+As can be seen from above presentation
+that the theoretical approach of defining the
+conceptual level schema or an over all logical
+database description of an information system
+of a problem area is related in characteristics to
+the theoretical approach of Ranganathan for
+designing a scheme for subject or knowledge
+classification. Ranganathan, also recommended
+that the work of designing a scheme for subject
+classification may be divided into three planes
+of work - idea plane, verbal plane, notational
+plane. ~eelameghan' points out that "this
+approach can also be applied usefully to the
+designing of databases. The major steps in the
+13
+
+Table: Steps of designing a database and designing a scheme for subject classification
+
+Designing a database
+Idea Plane
+
+Designing a scheme for subject classification
+Idea Plane
+
+1.
+
+Identifying data entities (objects about Identifying/defining the subject domains for which
+scheme for classification is to be designed
+which data is to be collected)
+
+2.
+
+Selecting attributes of data entities of Selecting attributes of the entities constituting the
+interest to potential users
+subject
+
+3.
+
+4.
+
+5.
+
+Selecting classification model (hierarchic, faceted,
+Selecting data model, a schema to map
+freely faceted) for mapping information about the
+the entities and their attributes
+entities (concepts /isolates)
+Grcilping/dividing the data entities by Grouping/dividing the concepts/isolates by their
+their
+common
+attributes
+and common attributes and differentiating attributes
+differentiating attributes (characteristics)
+(characteristics)
+Organising,
+arranging
+the
+groups, Organising arranging the groups, subgroups and
+isolates d e f i e d at step 4
+subgroups, and units derived at step 4
+Verbal Plane
+
+[ Work on the Verbal Plane ]
+
+6 . Naming fields and data elements
+Notational Plane
+
+7.
+
+Assigning tags to fields, coding, etc.
+
+three planes of work are again similar as shown
+in above mentioned table:
+Library classification and indexing systems
+based upon the theory of knowledge
+classification of Ranganathan or his facet
+analysis and synthesis approach are formal
+devices, which have been used very effectively
+for organising the documents in helpfui order
+(i.e., according to APUPA arrangement? and
+indicate their subject matter with a purpose of
+identifying the documents on specific subjects
+and related subjects available in a library). Facet
+analysis and synthesis approach of Ranganathan
+(also called concept based indexing approach)
+can also be effectively used to organise and
+search huge volume of information being
+generated on the Internet or on the Web (or
+the WWW), the multimedia part of !he Internet.
+The utility of using facet analysis to organise
+and search WWW resources is well
+demonstrated by Ellis and ~asconcelos.' They
+also point out that "if Ranganathan were alive
+today he would be aware of the potential of his
+ideas for searching and organising WWW
+14
+
+[Work on the Notational Plane]
+
+material. Indeed, the genius of Ranganathan is
+attested to be the very portability of his ideas
+acrdss time, technology and culture, simply
+because they address the very foundation of
+effective information storage and retrieval.
+
+BIBLIOGRAPHIC REFERENCES
+1.
+
+Kashyap, Madan Mohan. Algorithm for
+analysis and representation of subject
+contents of documents in a documentary
+language. Library Herald, 1983, 22, 1-29.
+
+2.
+
+Ranganathan, S.R. Prolegomena to library
+classification. Madras Library Association,
+Madras, 1937.
+
+3.
+
+Godert, Winfried. Faceted classification in
+online retrieval. International Classification,
+1991, 18(2), 98-109.
+
+4.
+
+Ellis, David & Vasconcelos, Ana.
+Ranganathan and the net: Using facet
+analysis to search and organise the World
+Wide Web. Aslib Proceedings, 1999, 51(1),
+3-10.
+
+5.
+
+Kashyap, Madan Mohan. A proposal for
+the introduction of an integrative approach
+DES/DoC Bulletin of Inf Techml, 22001,21(3)
+
+in the study and teaching of library
+procedures, cataloguing and database
+organisation and designing techniques. In
+Towards the New lnformation Society of
+Tomorrow: Innovation, Challenges and
+Impact, edited by N M Malwad. Paper
+presented at 49th FID Conference and
+Congress, 11-17 October 1998, New
+Delhi. (FID Publication, 719). 1998. pp.
+15969.
+6.
+
+Neelameghan, A. A p p l i c a t i o n of
+Ranganathan's general theory of
+knowledge classification in designing
+specialized databases. Libri, 1992, 4(3),
+202-26.
+
+7.
+
+Neelameghan, A. Concept categorization
+and knowledge organisation in specialized
+databases: A case study. International
+Classification, 1991, 18, 92-97.
+
+8.
+
+Chen, Peter Pin-Sen. The entity-relationship
+model-towards a unified view of data.
+ACM Transactions on Database Systems,
+1976, l(l), 9-36.
+
+9.
+
+Chen, Peter Pin-Sen, Ed. Entity-Relationship
+approach to information modelling and
+analysis. North-Holland, Amsterdam, 1 983.
+
+10. Teorey, T I et a/. Logical design
+methodology for relational database using
+the extended entity-relationship model.
+ACM Computing Survey, 1986, 18(2),
+197-222.
+11. Codd, E.F. Extending the database
+relational model to capture more meaning.
+ACM Transactions on Database Systems,
+1979, 4(4), 397-434.
+12. Codd, E.F. Relational database: A practical
+foundation
+for
+productivity.
+Communications o f the ACM, 1982, 25(2),
+109-17.
+13. Codd, E.F. The relational data model for
+database management system. Ver. 2.
+Addison-Wesley, Mas., 1990.
+14. Mair, D. The theory of relational database.
+Computer Science Press, Rockville, Mary
+Lands, 1983.
+DESlDOC Bulletin of Inf Technol,2001,21(3)
+
+15. Date, C.]. An introduction to database
+systems. Vol. 1. Ed. 5. Addison-Wesley,
+Mas., 1990.
+16. Ranganathan, S.R. Prolegomena to library
+classification. Asia Publishing House,
+Bombay, 1965. Part El F.
+
+17. Kashyap, Madan Mohan. Computer-based
+library information system designing
+techniques. Sterling Publishers, New Delhi,
+1 999. pp. 259-60.
+18. Kashyap, Madan Mohan. Ranganathan's
+postulational approach to classification, its
+development and impact. In Ranganathan's
+Philosophy, Assessment, Impact, And
+Relevance, edited by T.S. Rajagopalan.
+Paper Presented at the International
+Conference 'on Ranganathan's Philosophy,
+11-14 November 1985, New Delhi. 1986.
+pp. 200-15.
+19. Howe, D.R. Data analysis for database
+design. Ed. 2. Edward Arnold, London,
+1986.
+20. Ranganathan, S.R. Prolegomena to library
+classification. Assis by M.A. Copinath. Ed.
+3. Sarda Ranganatban Endowment for
+Library Science, Bangalore, 1989. pp. 94
+
+21. Ranganathan, S.R. Prolegomena to library
+classification. Assis by M.A. Gopinath. Ed.
+3. Sarda Ranganathan Endowment for
+Library Science, Bangalore. 1989. pp. 53.
+22. Ranganathan, S.R. Library classi-cation a
+discipline. Paper presented at International
+Conference o n Classification for
+lnformation Retrieval, 17 , Dorking.
+1957. pp. 3-14.
+
+23. Ranganathan, S.R. Colon Classification.
+Madras, 1933. pp. 8.
+24. Ranganathan, S.R. Prolegomena to library
+classification. Ed. 2. Library Association,
+London, 1957.
+25. Ranganathan, S.R. Theory of library
+catalogue. Chap. 11. Madras Library
+Association, Madras, 1938.
+26. Ranganathan, S.R. Postulational approach
+to facet classification. Annals of Library
+Science, 1958, 5, 33-51
+
+.
+
+15
+
+27. Vickery, B.C. Classification and indexing in
+science. Ed. 2. Butterworths, 1958.
+28. Roberts, Norman. A n examination of
+personality concept and its relevance to
+the colon classification scheme. Journal o f
+Librarianship, 1969, 1{3), 131-40.
+
+-
+
+pntributor:
+
+-- -
+
+29. Dahlberg, Ingeraut. Optical structures and
+universal classification. Sarda Ranganathan
+Endowment for Library Classification,
+Bangalore, 1978. pp. 11-17
+
+-
+
+ada an
+
+Prof.
+Mohan Kashyap retired as Professor from Dept of Library &
+Information Science, University of Delhi. His residential address is 201 Kadambri
+Niwas, Kadarnbri Marg Sect~r-9,Rohini, New Oelhi-110085. Tele: 7862699 (R);
+*
+e-mail: kashyapl @indiatimes.com
+
+

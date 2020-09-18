@@ -1,0 +1,834 @@
+﻿DESIDOC Bulletin of Information Technology , Vol. 22, No. 6, November 2002, pp. 3-12
+© 2002, DESIDOC
+
+Networking of CD/DVD-ROMS–An Overview
+K. Satish Kumar & P.O. Jayaraman
+Abstract
+As the collection of CDs/DVD ROMs increases in a library, it becomes important
+for the librarian to manage and share them effectively. This article discusses the
+benefits of sharing CD/DVD-ROMs over a network and introduces device called
+CD libraries/servers for sharing CD title discs over a network. It takes a look at
+architecture and available technologies for above purpose and concludes by
+giving an overview of technologies and facilities available at LRDE library.
+
+1. INTRODUCTION
+Today CD-ROM has become a popular
+e-media for archival, retrieval and distribution
+of information. Now every possible title on
+commercial
+and
+technology
+products,
+entertainment, databases, education and
+business applications are available on
+CD-ROMs.
+The
+raising
+demand
+for
+multimedia applications, due to easy
+accessibility of PCs is also fuelling its growth.
+
+2. BENEFITS OF CD/DVD ROMS
+The success of CD/DVD-ROM over
+traditional removable storage media such as
+floppy disks, tapes can be attributed to
+following key factors:
+Cross-Platform Standard—The ISO 9660
+format for CD-ROM and Universal Data
+Format (UDF) for CD/DVD provides common
+file system specifications for these media to
+be read from multiple platforms and operating
+systems (Windows, Mac, Unix flavors, etc).
+Capacity—A single CD-ROM can store up to
+700-MB of data equivalent to 486 floppy discs
+and DVD storage capacity range from 4.7 to
+17 GB.
+Durability—Due to its physical write once
+nature; CD/DVD-ROM media are very durable
+and have extremely long shelf life. It can store
+DESIDOC Bulletin of Inf Technol, 2002, 22(6)
+
+data for significant period of time and are
+stable media for future access.
+Portability—CD/DVD-ROM
+media
+is
+removable, compact and lightweight and can
+be transported inexpensively making it
+extremely cost-effective for software and data
+distribution.
+Inexpensive— CDs
+are
+cheaper
+and
+replicating media is also simple and
+inexpensive making it most favourable media
+for software marketing.
+Random Access— CDs/DVD ROMs provide
+random and quick access to information.
+Multimedia
+Capability—CD/DVD-ROM
+allows different data types such as text, audio
+and video to be played in synchronized
+fashion. For example, an encyclopaedia
+CD/DVD-ROM can simultaneously show text
+and video clip while playing sound track.
+As collection of CD-ROMs increase with in
+an organisation, for example in a library, the
+question now arises on how to effectively
+manage
+and
+control
+its
+information
+dissemination. The conventional method is to
+lend the disc to user or member to work on
+his PC, but this approach poses a number of
+problem such as keeping track of large
+number of users, to whom, and when it is
+issued, when to recall, replace the disc if
+3
+
+damaged
+or
+lost,
+etc.
+From
+librarian/administrator point of view, important
+aspect is of effective utilisation of disc
+information.
+The objective of this article is to introduce
+CD/DVD networking technology and solutions
+to overcome above problems. By libraries,
+which are automated and have Local Area
+Network (LAN).
+
+3. TERMS AND DEFINITIONS
+Definitions of some terms used in this
+article are from Microsoft Press Computer
+Dictionary, Ed.3.
+File server—file-storage device on a LAN
+that is accessible to all users on the network.
+Unlike a disk server, which appears to the
+user as a remote disk drive, a file server is a
+sophisticated device that not only stores files
+but manages them and maintains order as
+network user requests files and make
+changes to them. To deal with the tasks of
+handling
+multiple
+requests
+for
+files
+(sometimes simultaneous), a file server
+contains a processor and controlling software
+as well as a disk drive for storage. On LANs,
+a file server is often a computer with a large
+hard disk that is dedicated only to the task of
+managing shared files.
+IDE—Acronym
+for
+Integrated
+Device
+Electronics. A type of disk-drive interface in
+which the controller electronics reside on the
+drive itself, eliminating the need for a
+separate adapter card. The IDE interface is
+compatible with the computer but offers
+advantages such as look-ahead caching.
+SCSI—Acronym for Small Computer System
+Interface, a standard high-speed parallel
+interface defined by the X3T9.2 Committee of
+the American National Standards Institute
+(ANSI). A SCSI interface is used to connect
+microcomputers to SCSI peripheral devices,
+such as many hard disks and printers, and to
+other computers and LANs.
+
+4. CD/DVD NETWORKING
+4.1
+
+Benefits
+
+The benefits of CD/DVD networking are as
+follows:
+4
+
+« Accessibility
+By networking, the CD/DVD-ROMs, are
+made accessible on local area network (LAN)
+or intranet and the users/members have no
+longer to wait for their turn for using the disc
+until available as in the case of books in a
+library.
+Users
+on
+a
+network
+can
+simultaneously
+access
+the
+same
+CD/DVD-ROM and a single user can
+concurrently
+access
+multiple
+discs.
+CD/DVD-ROM networking solution provides
+the convenience of accessing multiple discs
+under single network.
+
+« Management and Control
+CD/DVD-ROMs are managed from one
+central location and upgrades or revisions can
+be administered easily and quickly.
+Administrator has full control over the data
+that network clients are accessing. Periodic
+updates of discs are instantly available to
+everyone at the same time.
+
+« Security
+As stated above central management
+gives
+administrator
+full
+control
+over
+CD/DVD-ROMs that provides increased
+security. Expensive discs and important data
+is not lost as the disks remain in charge of
+administrator and as a result damage, loss or
+theft can be avoided. By storing and sharing
+discs through CD/DVD-ROM libraries, the
+administrator can also control the access to
+information regarding whom to permit or not
+to permit.
+
+« Cost Sav ing
+CD/DVD-ROM networking eliminates the
+requirement of multiple copies of same disc.
+An organisation can save money by
+purchasing
+‘n’
+network
+licenses
+to
+CD/DVD-ROM database or software instead
+of ‘n’ individual copies. The hidden benefits
+include cost savings from having individual
+disc-drive at each PC, reducing the need to
+replace the damaged or lost discs and hence
+increase in user productivity.
+
+« Productivity
+Productivity of a user is increased, if he no
+longer has to wait for his turn for using the
+disc until available. A single user can access
+DESIDOC Bulletin of Inf Technol, 2002, 22 (6)
+
+multiple discs simultaneously without having
+to swap discs (as in his local CD-ROM drive).
+A single title may require multiple discs, for
+example some encyclopaedias require two
+discs and Bureau of Indian Standards require
+more than two discs depending on what
+standards library has purchased; imagine the
+time spent on changing discs for browsing
+each standard.
+
+« Performance
+With available high speed network
+hardware
+and
+increased
+bandwidth,
+networked CD/DVD-ROMs are capable of
+achieving higher performance than the local
+disc drives by providing multiple users
+simultaneous access at hard disk speeds.
+The data on disc are mirror copied on to hard
+disk of a file server or imaging server
+(discussed later) and this data is accessible to
+user over the network.
+
+4.2 Copyright
+Not all CDs come with network license,
+hence license should be read before using
+the disc. Sharing disc on a network should not
+violate single user disc license agreement, if
+required extra network license should be
+purchased. Single-user license agreement
+allows using the disc information on a single
+computer by one person at a time and copy it
+solely for backup purposes. Also some
+CD-ROM applications may not run from
+CD/DVD-ROM library as they may rely on
+calls, which require access to an internal
+CD-ROM drive.
+
+5. LIBRARY APPLICATIONS
+Few examples of shared disc resources
+for library applications are:
+t S u p p l e m e n t of doc u ments s u c h a s
+t
+t
+t
+t
+t
+t
+
+books/journals/conference, etc.
+Encyclopaedias
+Courseware/tutorials
+Prod uct manuals/catalogues
+Photos and clip art collections
+Stan dards
+Vendor information.
+
+DESIDOC Bulletin of Inf Technol, 2002, 22(6)
+
+6. CD/DVD NETWORKING
+ARCHITECTURE
+The hardware and software technology
+together for sharing CD/DVD-ROMs are
+called CD/DVD libraries or CD/DVD servers.
+The solution for CD networking can be
+differentiated by the way they are attached to
+a network and the technology that they
+deploy in order to deliver data across the
+network. There are basically two methods of
+connecting a CD/DVD-ROM networking
+solution to a network. These are: Server
+Attached Storage (SAS) and Network
+Attached Storage (NAS).
+
+6.1 Server Attached Storage (SAS)
+In SAS technology CD-libraries are
+connected to a network via general-purpose
+machine for file serving purpose (Figure-1).
+The clients then have to communicate with
+this file server for accessing information from
+CD-libraries. In this architecture, CD-libraries
+can be connected easily to existing servers
+via the SCSI interface. The benefits include
+high performance as the hard-disk is used to
+cache the CD/DVD-ROM contents hence the
+information is shared at hard-disk speed, i.e.,
+the shared CD/DVD-ROM act as the
+extension of hard-disk. Maintenance and
+control is easy as the user is already familiar
+with the network operating system. As it
+depends on the general-purpose server, user
+requests have to compete with the server
+tasks, such as database serving, mail serving,
+print serving and many other house keeping
+functions, which may slow down the file
+serving. But this problem can be eliminated if
+the general-purpose machine is solely
+dedicated for file serving purpose. The
+CD-library has to be located close to the file
+server, and library software may be tightly
+coupled with a particular network operating
+system, which a user may not be
+having/using, for example we may be using
+Unix operating system but CD-library software
+could have been designed for Windows
+operating system. Also the CD-libraries
+become inaccessible when the file server is
+down.
+
+5
+
+Figure 1. Server attached storage architecture
+
+6.2
+
+Network Attached Storage
+
+In NAS technology, CD-libraries can be
+directly connected to the existing network as it
+is designed solely for file serving purpose
+(Figure-2). It comes with its own operating
+system, hardware and file system software for
+sharing storage resources. These are
+plug-and-play devices, which can be
+connected to any network port on LAN. NAS
+is optimized for only serving, storage, and
+protecting files. As it is not dependent on any
+other system, the control and management of
+CD-libraries can be done from client system
+on the network via a web browser. Client
+license for using CD-libraries is built-in with
+usually no restrictions on number of users but
+as in case SAS it depends on the file server
+(for example a Windows NT server with
+license of 20 users allows not more this
+number for accessing discs, extra license has
+to be purchased).
+
+7. CD/DVD NETWORKING
+TECHNOLOGIES
+A variety of approaches to CD/DVD-ROM
+networking solutions have been developed
+over the years. They can be broadly classified
+6
+
+as optical disk and more recently hard disk
+based solutions. These are internal CD-ROM
+drives, Changers, Towers, Jukeboxs, Towers
+of Changers and Caching Servers.
+
+7.1 Internal CD-ROM Drives
+This is the most basic and the simplest
+possible approach. Librarians can connect a
+CD/DVD-ROM drive to computer via IDE,
+SCSI, EIDE or parallel port. There are two
+IDE drives on a computer’s motherboard, first
+allocated to hard disk and second IDE can be
+used to connect two CD/DVD drives. The
+more reliable SCSI adapter card can support
+up to seven disc-drives. These disc-drives,
+when shared acts as a host for other
+computers on the network. Today’s popular
+operating system supports these many drives.
+It is an inexpensive method and all the disc
+titles are available instantly and response is
+fairly good. Using internal CD/DVD-ROM
+drives is generally not a complete solution for
+networking as it lacks standard management,
+control and security. Multiple users may slow
+down the system and it is quite cumbersome
+to handle so many drives on a single system.
+DESIDOC Bulletin of Inf Technol, 2002, 22 (6)
+
+Figure 2. Network attached storage architecture
+
+7.2
+
+Changers
+
+It is similar to multiple audio/video
+changers, the same technology has migrated
+to computer based discs. It is a physical unit
+with single disc drive and can hold a small
+number of CDs internally in slots for example
+five to six. These devices are typically
+connected to a SCSI or EIDE interfaces.
+These devices avoid shuffling of discs
+manually and they are fairly economical and
+reliable where the requirements are not too
+demanding. The disadvantage is that despite
+holding multiple discs there is still one drive
+and so only one disc title can be read at a
+time. There are time delays in swapping the
+discs in drive and performance can degrade
+in network environment with several client
+trying to accessing different discs.
+
+7.3
+
+Towers
+
+It is separate unit with fixed number of
+individual CD/DVD-ROM drives arranged
+vertically or horizontally enclosed with power
+supply with drive-to-disc ratio 1:1. It is one of
+the popular solutions for sharing several CD
+DESIDOC Bulletin of Inf Technol, 2002, 22(6)
+
+titles. These tower supports discs in multiples
+of seven. These are excellent for networks
+since
+all
+the
+discs
+are
+available
+simultaneously to the clients on the network.
+These towers are connected to networks in
+two ways first connecting to server via SCSI
+controller and second directly connecting to
+the network. The tower comes in two physical
+shapes with drives arranged horizontally or
+vertical. The drives arranged horizontal are
+called racks, the advantage of this is that it
+takes less space and user can stack rack one
+above another with growing requirement
+(similar to left picture in figure 6). The
+network-ready
+towers
+are
+plug-n-play
+devices, which are connected directly to
+network
+port
+(Figure-3).
+These
+run
+independently from file server as it has in-built
+hardware and software for sharing devices
+and administration and management of a disc
+can be done remotely via web browser.
+Disadvantages of towers include limitations in
+number of discs and poor access time when
+more than one user tries to read the same
+disc. The head has to constantly move to
+different locations of the same disc resulting
+7
+
+in thrashing. Internally towers are provided
+with caches (RAM) to minimize this thrashing.
+
+7.4 Jukebox
+This is an excellent technology for
+accessing large number (over 200) of
+CD/DVD-ROMs. These are similar to
+changers except that they have more number
+of drives/readers and can store support up to
+600 discs in a single enclosure (Figure-3).
+These devices provide the cost-effective
+means
+of
+handling
+large
+storage
+requirements. Jukebox are connected to
+computer by a special CD-server software for
+controlling the robotics that move discs from
+slot (also called cartridge) to drive or reader,
+providing single volume for multiple discs and
+hard disk caching for speeding disc access
+time. Pioneer jukebox comes with optional
+in-built CD/DVD-recorder for archiving
+purpose and JVC jukebox with optional disc
+label printer. As it is connected to the network
+server it can slow down the server with
+increased number of users because its
+performance depends on network server
+resources. Maximum number of users who
+can access the jukebox depends on the
+network server license (Windows NT, Novell,
+etc).
+
+Figure 3. JVC jukebox and Todd’s CD
+tower at LRDE library
+8
+
+7.5 Towers of Changers
+This device contains multiples of five
+disc-changers with a reader (Figure 4). These
+are available in various configurations from 7
+changers and 35-disc combination to 58
+changers and 280-discs. A tower of changers
+with 280-disc capacity has 58 readers
+allowing 58 users to access simultaneously
+58 unique disc titles. As these are
+combination of tower and changers hence the
+name. Having a relatively high drive-to-disc
+ratio (1:5) allows a large number of clients on
+network to use discs without waiting for along
+time and by providing many-to-many
+accessibilities to users. The difference
+between tower of changers and jukebox is
+that the former places the disc to drive in its
+respective changer where as later can place
+disc to any drive. Jukebox software is
+complex and expensive, which controls the
+robotics and manages a large number of
+discs. A tower of changers does not require
+expensive software for management. Tower
+of changers can be connected to network in
+two ways—connecting to server via SCSI
+controller; directly connecting to the network
+
+Figure 4. Towers of changers from M/S
+Kintronics CD-ROM technology
+DESIDOC Bulletin of Inf Technol, 2002, 22 (6)
+
+port. The cost/performance ratio of this device
+falls between the jukebox and tower.
+
+7.6 Caching Server
+With falling cost of hard disks, hard disks
+can be utilised for sharing CD/DVD-ROM
+information and this is what these systems
+do. They provide most cost-effective and
+highest performance solution for CD/DVD
+networking as they dramatically increases the
+speed, which facilitates multiple users on a
+network to access disc concurrently. Network
+client need not wait for disc to come to
+reader/drive as in the case of jukebox and
+towers of changer and there is no limitation
+on number of readers as in towers. Here
+sector by sector of CD/DVD is copied to hard
+disk and then it is used to deliver the disc
+information over the network. After copying
+the disc information on hard disk, discs can
+be locked for safekeeping. Access time and
+data transfer rates of hard disk are higher
+than that of optical solutions. Caching server
+technology is limited by capacity of hard disk
+rather than the number of CD/DVDs.
+Hundreds of users can concurrently access
+the same or multiple disc information without
+adversely affecting its performance. These
+devices
+usually
+consists
+of
+single
+CD/DVD-ROM drive and IDE or SCSI
+compatible hard disk with disc caching facility
+from 20 to 1000 CD/DVD volumes (Figure 5).
+Some vendors provide multiple disc drives
+(Figure 6), which can be attributed to: user
+can load several CD/DVD titles concurrently
+at a time; user may require combination of
+readers like CD drive, DVD drive, etc. These
+
+devices provide complete scalability, as
+storage requirements grow over time, this
+type of servers is readily expandable. These
+are network ready plug-n-play devices,
+operating
+independently
+from
+server.
+Management and control can be done from
+remote workstation via browser or client
+software. Physical space is required by bulk
+CD-tower and jukeboxes. The only down side
+is the time required copying the entire
+CD/DVD-ROM content to the hard disk.
+Approximately 2-5 minutes is the copying time
+for each CD, which is also a one-time
+process.
+
+8. TECHNOLOGY AT LRDE
+Electronics Research & development
+Establishment (LRDE), Bangalore library has
+collection of more than 450 CDs. CD
+collection keeps growing every year
+(Figure-7). Most of the CDs come as
+
+Figure 6. Cyclone Z from M/S Excel
+Meridian Data, Inc.
+
+Figure 5. ServStation from M/S Prime
+Array System, Inc.
+DESIDOC Bulletin of Inf Technol, 2002, 22(6)
+
+supplement to books and journals. Apart from
+this, the library has a good collection of CBT
+CD-ROMs, standard/specifications like BIS,
+JSS,
+ITU,
+conference
+proceedings,
+encyclopaedia, catalogues, etc.
+As the
+collection of CD-ROMs grew, the need for
+the jukebox, which helps any one connected
+to LRDE intranet to access any of the CDs,
+9
+
+Figure 7. Year wise CD-ROM collection for books and journal supplements
+there by eliminating the physical issue, was
+felt.
+Some of jukebox’s features are discussed
+below to know the working principle rather
+than to promote the product, this shall help
+readers appreciate technology much better.
+t Jukebox is designed as a peripheral of a
+
+com puter. The fea tures in clude: Six
+CD-ROM drives, high-speed disc chang ing
+op er a tion, com pact de sign and large
+ca pac ity al lows max i mum of 600 discs to be
+l o a d e d . J u k e box is soft w a r e - b a s e d
+CD-ROM server, re quir ed to be con nected
+to Win dows NT work sta tion (or server) via
+SCSI con trol ler. Spe cial CD-server soft ware
+is required to be in stalled on Win dows NT
+PC, which in turn con verts it to a ded i cated
+CD-ROM server. SmartStor Ac cess ver sion
+3.0 from M/s Smart Stor age is the soft ware
+that came along with Jukebox. It creates a
+file sys tem from all the avail able discs (from
+the juke box) and this file sys tem is avail able
+to network clients as a sin gle drive. This
+makes jukebox full of discs looking like a
+very large net worked hard disk.
+t Caching - SmartStor Ac cess soft ware al lows
+data to be cop ied from disc to the hard disk,
+and sub se quent re quests are quickly ful filled
+from the hard disk as data transfer rate of
+hard disk is faster than the CD-ROM. This
+facility also allows the disc-drive to fulfil
+request for other CD ti tles. Given be low are
+the types of caching supported by this
+soft ware:
+m File system cache—Here the files and
+
+directory listing of CD-ROM contents are
+stored statically on hard disk for faster
+10
+
+information retrieval without loading disc
+on to drive, avoiding unnecessary delays
+and swapping.
+m Read-ahead caching—Here additional
+
+amount of data is cached on the hard
+disk along with requested data as user is
+likely to retrieve information that is
+located near his previous requests.
+m Express caching—This feature speeds
+
+up access to most frequently used or
+popular disc by caching its entire
+contents to hard disk
+m Selective slot caching—Software allows
+
+overriding the default cache settings of
+the disc that is not required to cache or to
+change the read-ahead amount.
+t Statistics report helps in monitoring the
+
+sys tem, pin point the prob lems and mod ify
+the soft ware set tings. The fea tures in clude
+num ber of times disc mounted/dis mounted
+on disc-drive, mounting and dis mounting
+er rors, e t c . T h e s e f e a tures help in
+generating disc-usage re port on num ber of
+time a disc is used, most used disc, etc.
+which can be generated daily, weekly or
+monthly ba sis as per re quire ment.
+Our director, who is very much-concerned
+about user interface, suggested to make CDs
+accessible via web browser. So we created a
+web site with search and browsing
+capabilities as shown in figure 8. VB Script
+was used to design web site and MS Access
+for database. CD catalogue is stored in MS
+Access with each record having link to
+jukebox corresponding to its title. If the CDs
+are browser compatible means that the
+contents of the CDs can be viewed from
+DESIDOC Bulletin of Inf Technol, 2002, 22 (6)
+
+Figure 8. CD-ROM library website at LRDE
+Internet Explorer or Netscape Navigator) then
+contents are accessible by clicking on the
+hyperlinks as shown in figure 9. Some CDs
+require installation on client PC to view its
+
+contents (like database, tutorials, etc.). The
+procedure for CD installation is to logon to
+remote PC, that acts as a CD server by
+searching the CD server in network
+
+Figure 9. CD-ROM listing of standards
+DESIDOC Bulletin of Inf Technol, 2002, 22(6)
+
+11
+
+neighbourhood. Browse the CD server
+contents, which shows the CD titles. Map the
+required CD title to local drive by right clicking
+on the CD title. Unallocated drive letter is
+automatically selected. Then we can start
+using that mapped drive as local CD-ROM
+drive, computer allows us to map up to 26 CD
+titles (out of which first few are utilised for
+local disk drives e.g., A: floppy disk, C: for
+hard disk D: for local CD/DVD drive, etc).
+Mapped drives are available only when the
+host computer/CD server is available. You
+can assign a mapped drive to a different drive
+letter by disconnecting from the drive and
+then re-mapping it to a new drive letter.
+
+9. CONCLUSION
+Networking of CD-ROMs provides
+significant
+benefits
+such
+as
+easier
+accessibility, management and control, cost
+savings with increased security and
+productivity and so on. Libraries can benefit
+from CD libraries with their increasing budget
+and familiarity with automation. Librarians
+should understand their requirement, which is
+crucial in selecting the right technology; even
+combination of products can be used.
+Vendors can also help in choosing the
+product. Please note that we had shown each
+product from different vendor unbiased, these
+vendors actually sell all products (7.3-7.6)
+discussed, some of them are manufacturers
+themselves. Hence giving customer more
+room for customising.
+
+ACKNOWLEDGEMENT
+We are grateful to Mr. Abdi Bazleh of M/s.
+Excel/Meridian Data, Inc., Mr. Bob Mesnik of
+M/s. Kintronics, Inc. and Mr. Willard K Rice of
+M/s. PrimeArray Systems, Inc., for providing
+information and granting permission of using
+the photographs of their products for this
+
+article. We also thank Col. MN Kadapatti,
+LRDE for his detailed comments and
+suggestions, that has enabled us to
+substantially improve this article.
+
+REFERENCES
+(1) www.smartstorage.com
+(2) www.kintronics.com
+(3) www.primearray.com
+(4) www.amsstorage.com
+(5) Gary N. Walker. Evolution of a PDS
+jukebox architecture. Science Information
+Systems Interoperability Conference. 8
+November, 1995.
+www.ddl.jpl.nasa.gov/ddl/technology/juke
+box.pdf
+(6) Brainard, Robert.
+Microtest CD-ROM
+networking overview. SMS White Papers
+www.itpapers.com
+(7) The evolution of CD-ROM and DVD
+networking technology. White Paper.
+www.nas.uk.com/html/info_pages/Evoluti
+on_of_CD_DVD_Technology.htm
+(8) CD Jukebox systems–market sizing.
+www.netwokbuyersguide.com/search/105
+322.htm
+(9) CD technology–The standard for
+secondary storage. Strategic Research
+Corp. Jun 1996.
+http://access.globalknowledge.com/
+(10) SmartStor access & archive Windows N–
+administrator’s Guide.
+(11) Michael Nadeau. Byte guide to CD-ROM.
+Osborne Mcgraw-Hill, Berkeley, 1995. p
+631.
+(12) Microsoft Press Computer Dictionary.
+Ed.3. Microsoft Press, Washington,
+1997, p 539.
+
+Contributors: Sh. K.Satish Kuma r is Senior Technical Assistant ‘A’ at Information Processing
+Group, LRDE, C.V. Raman Nagar, Bangalore-560 093. E-mail: lrde@vsnl.com
+Sh. P.O. Jayaraman, Technical Officer ‘C’ is head of Information Processing
+Group, LRDE, Bangalore-560 093. E-mail: lrde@vsnl.com
+12
+
+DESIDOC Bulletin of Inf Technol, 2002, 22 (6)
+
+

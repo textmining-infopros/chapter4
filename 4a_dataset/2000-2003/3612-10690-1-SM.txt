@@ -1,0 +1,214 @@
+DESIDOC  Bulletin of Information Technology , Vol. 23, No.6, November 2003, pp. 9-16 
+© 2003, DESIDOC 
+Open Source Software and Growth of Linux: The 
+Indian Perspective 
+Yogesh Suman & A K Bhardwaj 
+Abstract 
+The purpose of this article is to present and analyse the recent trends in development of Linux as operating system. It identifies the problems encountered and examines the factors, which might play an important role in its future growth. It is pointed out that while proprietary software like Windows dominates the market in desktop personal computers (PCs), Linux is fast becoming a popular choice as number one server operating system for enterprises because of its flexibility and low cost of ownership. It is predicted that  by year 2005, Linux will capture almost 50% of global market as enterprise operating system. The authors conclude that because of its cost effectiveness and flexibility to change, Linux can be a powerful tool in bridging the gap of digital  
+divide in India. 
+1. INTRODUCTION 
+Information technology is currently a major  concern of developing countries. It is a technology vital for development but the cost is high and implementation is not easily achieved. A related issue, which few developing countries are fully confronted, is that of copyright and illegal copying of software. Complying with international standards means ending widespread copying of software endemic in most developing countries and the prospect of very high and recurrent software costs. Other problematic issues are security and virus problems.  
+A recent development, which is attracting much interest, especially in developing countries, is that of open source software (OSS) and the Linux operating system (OS) in  particular. This type of software goes a long way in helping to resolve such issues.1 
+In OSS the source code (human readable set of instructions which makes a software) is distributed along with the executable form (the computer readable set of instruction 
+DESIDOC  Bulletin of Inf Technol , 2003, 23(6) 
+which makes a software, also known as compiled form of a computer software). Once software has been ‘compiled’ into a computer readable form, it is practically impossible to understand the internal functioning of it. It is also not possible to modify it. 
+All commercial software companies distribute their software products in compiled form. By doing so they gain monopoly on improving their software by adding features or  fixing bugs. This power encourages them to behave the way monopolists often do: bugs do not get fixed unless this brings a profit, and upgrades become expensive. 
+By following this practice these companies  have gained a monopolistic market share of the strategic system and application software for personal computers. Their strategy is described as one that has included predatory pricing (cutting prices to drive rivals out of business); cross-subsidies (using one part of a large company to underwrite loss-making activities in another); and technological predation (using inside knowledge of the 
+9 
+
+========1========
+
+operating system to make rival’s software run badly). One example of this is the ‘browsers war’, (the rivalry between Microsoft and Netscape to capture internet browsers market). In this Microsoft was at advantage since it controlled the source code of Windows and both Internet Explorer and Netscape had to run under Microsoft2 
+Windows. 
+These strategies adopted by commercial software companies, has given rise to unhealthy dependence on proprietary software, huge expenditure on licensing fee, growth of gray market in pirated software, troublesome environment in local software industries and most importantly discouraged innovation in the software industry at global level. The freedom of research and development offered by OSS has to be understood against this background. 
+The purpose of this paper is to understand  the freedom of research and other advantages of OSS particularly Linux. The paper also describes the recent growth trends  in adoption of linux by individual, enterprises and government. It also highlights crucial factors, which might play a role in its future growth. 
+2. HISTORY OF OSS AND RISE OF 
+LINUX 
+History of OSS can be traced back to early  eighties when Free Software Foundation (FSF) was founded in USA. It’s objective was to provide a platform to software developers who were willing to share the source code of their software with fellow developers. This resembled scientific environment where the publication of one’s research work and data results in improvement of the research due to feedback by peer groups. General Public Licensing (GPL) policy was also formulated. According to this policy any software controlled by FSF was supposed to have following four degrees of freedom: 
+t Freedom to run the software for any purpose t Freedom to study it’s internal functioning t Freedom to make changes to it 
+t Freedom to distribute changes. 
+10 
+The FSF also started spreading awareness about ethical and political issues of freedom in the use of software. Its founders  also started working towards the development  of new free software known as GNU (an abbreviation for ‘GNU not Unix’) whose objective was to eliminate the need to use proprietary software. Still today FSF distributes copies of GNU software and manuals for a distribution fee, which is used to support GNU development. Most of the FSF’s funds come from its distribution service. ‘Open Source’ is a marketing name for Free Software coined in 1998 as an attempt to overcome confusion over the word ‘free’ in the English language.3 
+Linux came into being on August 25, 1991,  when Linus Torvalds, (a 21 year-old computer  science graduate from Finland) released the source code of his software on internet. This software represented a kernel, which formed the core of an operating system. Torvald left it  open for the software developers all around the world to study it and contribute to it, their collections of software, which they think will enhance its functioning. In the process this kernel became a full-fledged operating system known as Linux.  
+Since Linux had contributions from software developers all over the world it came  to be known as the product of a community consisting of people who believed in the freedom of sharing the source code of the software.4 
+2.1 Strengths 
+Linux has very low total cost of ownership (TCO) through reduced or no licensing fees. An International Data Corporation (IDC) study  found that companies that migrated from UNIX/RISC could save up to 45 –85% of their  infrastructure costs. Amazon.com saved $17 million after migrating majority of its applications to Red Hat Linux. 
+On technical side Linux represents a software product that has gone through a process of ‘brutal meritocracy’ in which every line of  code is tested from every angle by software developers belonging to vast open source community. It keeps passing through 
+DESIDOC  Bulletin of Inf Technol , 2003, 23(6) 
+
+========2========
+
+so many eyes that no hacker has a chance to slip in anything unnoticed. It is widely seen that Linux has had no high-level security defect remain open for more than 48 hours. An input from tens of thousands of independent developers, ensures that highly creative, innovative development, is constantly happening. The race to outdo each  other ultimately benefits Linux and customer. 
+Since it is not owned or controlled by any one developer or vendor, Linux offers a high degree of freedom and flexibility where enterprises can retain the choice of deciding on support and development partners either from a large pool of in-house or external resources.  
+It provides cross platform interoperability through interfaces available for integration with any other product. It is easily manageable and scalable running on almost all hardware platforms, from a wristwatch to a mainframe. Migrating from a low-end x86 server to a higher-end server is easy. 
+It has been seen that some version of Linux can run on obsolete 386/486 machines smoothly at significantly higher speed. This can help bridge the gap of digital divide. There are examples where a 486 installed with Linux is used in networks as proxy, gateway, mail server. It is a very robust GUI operating system. A typical Linux web server which hosts several dynamic web sites, handles well over a million hits a month, can run non-stop for over a year without a single reboot. 
+It is now widely accepted that Linux can deliver levels of stability, reliability and efficiency that are higher than many other traditional operating systems. 
+Apart from Windows NT, it is the only operating system supporting preemptive multitasking and can be easily integrated with existing LAN.5 
+2.2 Weaknesses 
+Despite these strengths Linux still has a long way to go before becoming the platform of choice for computer users. There are many  issues, which might play a crucial role in 
+DESIDOC  Bulletin of Inf Technol , 2003, 23(6) 
+adoption of Linux by users at both enterprise and individual levels. One of the most critical is the availability of post installation support. In most of the cases it is downloaded from internet so there is no identified company, which can provide the support. In case of other software products like Windows NT or Unix, generally the supplier of the system provides the post installation support therefore users of these products are assured  of support at a call.  
+There are companies like Red Hat, Caldera, United Linux ( Turbo Linux, Conectiva, SCO, and SuSE) which provides support but most businesses don’t want to pay for support, when this is for freely available software. Yet this is precisely the revenue model that Linux distributors have adopted. Corporate IT users tend to be more comfortable with fixed costs than with variable  costs.  
+Another issue is the number of Window based applications available in the market. Linux lags behind Windows in this area. So even if a user is ready to install Linux as an operating system he has to search applications, which run on Linux while for Windows, it is very easy to find them. 
+In terms of symmetric multiprocessing (SMP) which allows multiple processors (CPUs) to work in parallel while using a single  operating system image, common memory, and disk I/O resources, Linux doesn’t match up to a traditional Unix capability. The latest Linux kernel (version 2.5) can handle SMP mode up to 8 CPUs, well short of the 24-way capability IBM offers with its AIX version of Unix. 
+4 
+Standardization is another issue. With so many companies provide Linux, user is generally confused about which version of Linux is to be used. Windows has the advantage of being preinstalled on most personal computers shipped by large firms, which has resulted in development of large skill sets with operational knowledge of Windows, in case of Linux these skill sets are yet to evolve. Organisations have to build skill  sets before switching to Linux. 
+11 
+
+========3========
+
+2.3 Growth Trends 
+The current economic recession at global level has forced enterprises to look for cost effective solutions making low TCO of Linux a  competitive advantage. Today it is the world’s fastest-growing server operating system (Figure 1). 
+Figure 1. Recent trends in growth of 
+                Linux as server operating system Source: International Data Corporation (IDC) 
+*Figures for years 2003 and 2005 are estimates 
+As a result of its growth rate Linux has acquired number two position after Microsoft Windows (Table 1). 
+But much of Linux’s growth has come at the cost of other operating systems like Unix and Novell Netware. Unix unit shipments fell from 17 per cent in 1999 to 14% in 2000. Novell Netware dropped from 23 per cent in 1998 to 19% in 1999, which fell further to 174 
+percent in 2000 . According to IDC estimates Linux market share will reach to 30% in 2003 and by 2005 it will become 47% of the global market by 2005. 
+However Linux has not been able to make serious inroads in desktop market, which is dominated by Microsoft Windows. According to IDC estimates Windows recorded a gain in 2000 taking its share to 94%. It is estimated 
+by 2003 Linux will cover less than 4% of market share.6 
+3. FUTURE PROSPECTS 
+Big firms who have already started taking initiatives to support Linux development might  solve the issues which hampers the growth of  Linux. Red Hat and United Linux (Collaboration of Turbolinux, Conectiva, SCO and SuSE) offer their own versions of Linux and provide  support. Red Hat sells Linux based products like Linux Advanced Server, Content & Collaboration Management and Stronghold Enterprise Secure Web Server. Other big companies like IBM and Oracle, have started offering solutions based on packaged Linux OS. IBM products like WebSphere, DB2, Tivoli and Lotus are already compatible with Linux.  
+IBM Research is involved in Linux related projects and it is now a recognised leader in Linux community for its complete Linux solutions. It has made Linux an integral part of its e-business corporate strategy. It is being  used as the platform that integrates with other  components to produce vibrant new solutions.  Besides it has also planned to spend 20% of its research and development budget, to set up new projects around Linux. It has made Linux available on all of its servers, trained 300 consultants to design Linux systems and reworked 2,800 software created by other companies.7 
+Oracle has launched its commercial database on Linux. It has made all its major products like 9i database, application server, Oracle Developer and e-Business suites available on Linux. It’s latest version of the 9i database software can run on a cluster of Linux servers, which can be a major breakthrough, because it allows enterprises to  
+Table 1: Global market share of different server operating systems for the years 1999-2000 
+Global Market Share (in %) 
+Year Windows Unix 
+1999 38 17 
+2000 41 14 Source: International Data Corporation (IDC) 
+12 
+Novell Netware 
+19 
+17 
+Linux 25 27 
+Others 
+1 
+1 
+DESIDOC  Bulletin of Inf Technol , 2003, 23(6) 
+
+========4========
+
+manage multiple servers and very large databases with relative ease. The best thing is that customers are getting the same enterprise-class features available in proprietary solutions at the lowest cost in terms of hardware and platform.  
+Strong Unix supporters like Sun are also taking steps to incorporate Linux in their business strategies. It has developed many Linux compatible products like Star Office, and Sun Grid engine. Sun has planned a three-pronged Linux strategy. In India, the Sun LX series has been launched. The company intends to forge partnerships with Indian ISPs. It has come out with its own Linux-based solutions. This removes the need  of third parties making support availability easy. 
+Hewlett Packardhas also developed Linux  compatible products like HP secure, Process Resource Manager (PRM), HP Open View, Linux Multisystem Management and HP Storage Linux. 
+With major companies supporting Linux development, its popularity is all set to rise at least at enterprise level. 
+3.1 Indian Perspective 
+India is talent-rich, resource-poor powerhouse of immense software skills. But it  also finds itself ironically unable to afford the prices of ‘legal’ software that it very badly needs for itself. If legal software becomes mandatory, most people would cease to use computers and usage would go down harming the Indian IT industry. One of the many commitments, which India has to fulfill as a WTO member nation, is to check software piracy. So given that piracy is not going to be a sustainable solution in long-term, low cost of ownership of Linux can prove to be a boon for Indians who are squeezed between astronomical software prices, the falling value of the rupee, and allegations that those who cannot afford to pay are ‘pirates’. For India Linux represents generous scientific altruism over exclusive, profit-driven business compulsions.8 
+The other important factor is the availability of source code, which means it 
+DESIDOC  Bulletin of Inf Technol , 2003, 23(6) 
+can be easily customized according to the local needs. This makes it possible for the software developers to develop local language versions for people who don’t understand English. Its source code can help in development of local language contents spurring internet adoption in India. At present for more than 950 million Indians lack of Indian language interface hampers the adoption of internet. There are more than 500  dialects in use in this country and developing local language contents is a big challenge. With source code available Linux can be easily customized to local language versions. Availability of source code makes it an ideal operating system for the development of low cost IT devices having embedded software. One such example is simputer, which is a low-cost, hand-held, portable, easy-to-use computing device that can provide internet connectivity and perform a host of computing functions. It runs on simple batteries or direct power supply and being heralded as the invention that will finally take information technology to the common man. Indian Institute of Sciences, Bangalore has developed this Rs. 9000 device in collaboration with Encore Software Ltd (Bangalore). It is based on Information Markup Language (IML), a language based on iconic images that is capable of working on small and large screens, on mobile phones and a range of other devices4. People  who are neither literate nor conversant with English can use it. IML has been created to provide a uniform experience to users and to allow rapid development of solutions on any platform. Simputer runs on Linux operating system, which is embedded in it.  
+3.2 Adoption by Indian 
+Government 
+There are around 2,450 government departments spread across 170,000 sites. Automating these departments calls for around 26,500 copies of application software. So if proprietary software are used the total cost will be enormous. 
+Low total cost of ownership (TCO) of Linux  can save a lot of government money. 
+13 
+
+========5========
+
+Realizing this the government of India has started taking precise, wide-reaching steps to promote Linux usage in India.  
+Government tenders may soon stop specifying Microsoft or any other vendor’s name while floating software tenders, thus throwing open the way for Linux vendors to grab lucrative government contracts hitherto barred from them. 
+The government is thinking in terms of setting up support and resource services, and  call centres for Linux users. It is also looking at setting up pilot sites, where Linux applications can be touched and felt.9 
+The Department of Information Technology  has devised a strategy to introduce Linux and open source software as a de-facto standard in academic institutions, especially in engineering colleges through course work that encourages use of such systems. Research establishments would be advised to  use and develop re-distributable toolboxes just as central government departments and state governments would be asked to use Linux-based offerings.10  
+India’s Centre for Development of Advanced Computing (C-DAC), which makes supercomputers used for heavy-duty data processing had decided to use open source Linux software in a high-performance computing lab. The Pune-based state agency,  whose machines are used for advanced computing functions in activities such as oil exploration and weather forecasting, will use a Linux platform customised by International Business Machines (IBM).11 
+3.3 Adoption in Indian States 
+ In Goa, Red Hat’s GNU/Linux is used in Goa Schools Computers project (GSCP). Whereas Madhya Pradesh has decided to use Linux in all the government schemes. Andhra Pradesh has started using Linux in one of its government departments. The government has automated the state secretariat by using a solution called Secretariat Knowledge Information Management System (SKIMS). The solution was designed on the Oracle Linux database. SKIMS delivers an electronic workplace by 
+14 
+creating an office management system that cuts down duplication of work and enhances productivity by providing a policy based processing. In Kerala the Thiruvananthapuram Telephones secondary switching area of BSNL has chosen Linux for its online telephone bill payment solution. The  solution apart from providing a user-friendly interface for payment of bills also allows users  to download and print unpaid bills as well view their bills for the past two years. Tamilnadu government has set up a committee to shortlist on the kind of operating  systems and applications government departments should adopt.12  
+The Supreme Court has a few pilot projects underway. So have High Courts in Karnataka and Andhra Pradesh. The Central Excise Department has moved 1,000 desktops to Linux. The Delhi Road Transport Office (RTO) has implemented a pilot (program) to examine its viability. C-DAC, the government’s supercomputing arm, has moved lock, stock and barrel to Linux.13 
+3.4 Adoption by Indian 
+Enterprises 
+In case of Indian corporate sector, Linux usage stands at 24 percent among Indian companies.14  Its  adoption by Indian Corporates like the ICICI group, Mahindra-British Telecom and Reliance could be a powerful trigger for further acceptance of  Linux by corporate India. With the growing availability of a number of mission-critical enterprise commercial applications such as SAP, Oracle, Core Banking solutions for Linux, growth in the traditional high-end enterprise market can be anticipated. This is critical, as it presages the penetration of Linux  into corporate back-offices opening a far wider market for support services and for GPL-developed applications.4 
+TCS has been working on IBM’s flagship Linux S/390 server platform since its launch in  the late 1990s. It has also installed Red Hat and SuSE Linux. The company has developed a system administration tool in Linux, which provides an interactive environment for creating user IDs, 
+DESIDOC  Bulletin of Inf Technol , 2003, 23(6) 
+
+========6========
+
+user-specific reports and monitoring groups. The tool encapsulates the system administration knowledge and provides complex functionality through a user-friendly interface. The company, at its state-of-the-art Sholinganallur facility near Chennai, carries out benchmarking, and load and stress testing of various Linux applications. The center has developed an application called Webstore, which runs on WebSphere and uses Oracle on Linux. This application is being used for training performance-engineering consultants within the company and has so far been tested for a 1,000 concurrent users. The company also plans to port its UNIX-based application development and re-engineering products like  Mastercraft and Revine to the Linux platform. 
+The National Stock Exchange is among the early adopters who used Linux to implement a solution unique to stock exchanges anywhere in the world. Corporates  like Asian Paints and IDBI are cheerleading the free source OS. Others like Reliance, Texas Instruments, the Times of India group (publishers of The Times of India), Raymond, Bombay Dyeing, Godrej Infotech, HDFC Bank, Hindustan Dorr Oliver, Central Railways and Air-India have deployed Linux to power at least a part of their backends.13 
+3.4 India’s Contribution to Linux 
+Development 
+Indian contribution to the development of Linux has been very low so far. In fact no Asian country—apart from Japan and Korea—really contribute to the development of Linux. The reason for low Indian contribution is low internet penetration in India. The biggest developer base consists of students from universities and colleges but in the absence of decent internet link they are not able to get in touch with the open source community engaged in development of Linux. 
+Though there are some efforts put in by enterprises like Pacific Hitech, GT Enterprise C&B Consulting (Banglore) & HCL, but people in India have been consumers of the efforts of others. As the internet connectivity in schools and colleges improves, more and 
+DESIDOC  Bulletin of Inf Technol , 2003, 23(6) 
+more students - who are the primary source of innovation - would start contributing to the Linux effort in India.15  However a non-profit organisation known as Linux-India.org has been set up to foster Linux growth in India. The group includes engineers, corporate users, consultants, journalists and normal computer users as well. It has got its centers in almost every Indian city working to promote  Linux. It organises workshops and seminars to disseminate information about Linux. Indian software developers engaged in developing OSS can also post their software at this platform.16 
+The IBM Linux Development Center in Bangalore - one among only seven such IBM facilities worldwide - supports business partners and independent software vendors across the Asian and South Asia regions. The  center brings key IBM enterprise-class strengths to Linux, especially in areas such as reliability, availability and serviceability, clustering, file journaling systems, etc.17  
+CONCLUSIONS 
+Growth of OSS concept and Linux can be viewed as an opportunity for computer users and software developers to get out from under the  yoke of proprietary platforms and high software license fees and move into a much more flexible and evenhanded negotiating position. This becomes even more important in view of the expected shift in  software distribution policy of major companies where they will give the license to use software, which will have to be renewed every year. This will be in contrast to their present policy where the consumer gets the right to use the software for whole life by paying once. There are indications of this and  one of the leading software companies has already announced it. Linux represents a big opportunity for people who believe in freedom  of using, developing and distribution of software. For India it can be a powerful tool in  bridging the gap of digital divide. But will it replace Windows as a first choice operating system or remain a second choice is still an open question. Looking at its present market share in desktop arena it seems it will take long time before it seriously pose a threat to 
+15 
+
+========7========
+
+Windows. The number of applications based on it has to grow. User friendliness and support system are other issues to be resolved if it has to reach the critical mass. Pressure on India to check software piracy may also force people to shift towards Linux and Linux based solutions. Prospects seem bright, as Government of India has taken initiatives to boost its adoption and big companies are also coming forward to support its development.  
+REFERENCES 
+1. Open source, Linux and their importance 
+for developing countries: A very brief 
+introduction. 2001. 
+http://www.sdnp.org.gy/whyopen.html 2. Baker Thomas. The open source 
+movement.  
+http://www.server.tiac.or.th/tiacweb/Ba 
+ker/Section1_6.html.). Technical 
+Information Access Center (TIAC), 6th 
+Floor, Vidyabhathana Building # 602 
+Chulalongkorn University Soi 12 Phya 
+Thai Road, Bangkok 10330  
+3. Free Software (Open Source). 
+http://www.free-soft.org. 
+4. Jayadev K.; & Srinivas R. Linux: Now we 
+turn 10. Computers Today, September 
+2001, 35-45. 
+5. Bhargava, Kishore. General Linux FAQ. 
+2001. 
+http://www.pcquest.com/content/search/s 
+howarticle.asp?artid=7125 
+6. Nagraj, Sudha. Open IT: Govt to rewrite 
+source code in Linux. Times News 
+Network, 9 October 2002. 
+http://economictimes.indiatimes.com/cm 
+s.dll/html/comp/articleshow?artid=245983 
+39 
+7. Big Blue’s big bet on FreeIt’s pouring 
+cash into an all-out effort to promote 
+Linux. 18 February 2002. 
+  Contributors: 
+8. 
+http://www.dqindia.com/content/search/s howarticle.asp?arid=32320&pageNo=1 Fredrick, Noronha. Open source lures tal ent rich, re source poor South Asians. 
+http://www.linux-india.org/articles/fred.sht 
+ml.2002 
+9. Bhattacharya, Prasenjit. Govt move on to  
+let in Linux. The Economic Times  (25 
+December 2002). Accessed 27 
+December 2002). 
+10. Nagaraj, Sudha. Open IT: Govt to rewrite 
+source code in Linux. The Economic 
+Times,  9 October 2002.  
+11. Reuters. India’s supercomputing agency 
+goes for Linux. CNET News.com (12 
+August 2002). .  
+http://news.cnet.com/investor/news/newsi 
+tem/0-9900-1028-20260575-0.html?tag= 
+ats. Accessed 18 August 2002. 12. Shrikanth, G. Is Linux enterprise-ready? 
+January 2003. 
+http://www.dqindia.com/content/search/s 
+howarticle.asp?arid=42112&way=search  13. The war for India’s software soul. 
+http://www.linuxjournal.com/article.php?si 
+d=6450. 
+14. Tham, Irene. More Asian companies 
+adopting Linux. 2002.  
+http://news.com.com/2100-1001-821073. 
+html 
+15. Frederick, Noronha. Linux-Why not in 
+India? 
+http://www.linux-india.org/articles/whynoti 
+ndia.html 
+16. About Linux India. 
+http://www.linux-india.org.about.html 17. Linux Ahoy.  February 2002. 
+http://www.dqindia.com/content/search/s 
+howarticle.asp?arid=32289&way=search. 
+Sh. Yogesh Suman,  Scientist, National Institute of Science Technology and Development Studies (NISTADS), K.S.Krishnan Marg, New Delhi-110 012,  e-mail: geetyogesh@yahoo.com 
+Sh.A K Bhardwaj, Engineer, NISTADS, K.S. Krishnan Marg,  
+New Delhi-110 012 
+16 
+DESIDOC  Bulletin of Inf Technol , 2003, 23(6) 
+
+========8========
+
