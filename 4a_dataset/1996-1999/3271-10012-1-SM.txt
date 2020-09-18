@@ -1,0 +1,575 @@
+DESiDOC Bulletin of information Technology, Vol. 16, No. 4, luiy 1996, pp. 3-8
+0 1996, DESIDOC
+
+Expert Systems and their Application in Library and
+lnformation Science
+Yogendra P Dubey*
+Abstract
+The article explains the concept of expert systems and how they function.
+The components of an expert system: the knowledge base, the inference
+engine, user interface and the knowledge acquistion module are explained.
+The various activities in the LIS field where such systems can be put to use
+are also discussed.
+
+Expert Systems have evolved from a long
+tradition of Artificial Intelligence (Al) research.
+Almost all types of organisations have
+recognised the enormous potential of expert
+systems which have forced the frontier of
+knowledge forward at a rapid pace. Expert
+systems are no longer confined to the research
+laboratory. Although, still in an evolutionary
+stage, these have added a new dimension to
+information processing. Having achieved
+remarkable success in both industry and
+commerce, expert systems are now denuding
+the frontiers of library and information systems.
+There is a significant surge in activities on
+assessing and debating the likely impact of
+expert systems on library and information
+profession.
+Artificial lntelligence technology introduces
+a new paradigm for dealing with knowledge
+
+and reasoning process in human experts. This
+new paradigm emerged from the research
+* Professor Yogendra P Dubey
+Professor (Computer Application)
+Department of Library and lnformation Science
+Banaras Hindu University, Varanasi-221005
+-
+
+efforts of Newell and Simon I , who together
+had designed 'Logic Theorist', a programme
+that could prove the validity of theorems in
+Russell and Whitehead's Principia Mathematica.~
+There was however, no intelligence in Logic
+Theorist; it worked on brute force trying every
+possible connection of symbols until something
+worked, but in one case the system discovered
+a more elegant proof than the one set forth by
+Ruseell and Whitehead. Logic Theorist laid the
+foundation for Newell and Simon's next project,
+the General Problem Solver (GPS), which they
+began in 1957..
+The idea behind the GPS project was to
+build a machine incorporating problem solving
+techniques that could be applied to a broad
+range of problems. In the process of developing
+the GPS model, Newell and Simon investigated
+the information processing behaviour of human
+subjects. They discovered that people use
+domain specific knowledge as a basis for
+solving significant problem; and that the
+knowledge incorporates a large amount of
+fragmentary,
+judgmental,
+and
+heuristic
+knowledge. People reason with this knowledge
+forward and backwards at the same time,
+keeping track of the current status of the
+problem
+while
+simultaneously
+thinking
+
+--
+
+DESDOC Bulletin of Inf Technd, 1996.16(4)
+
+3
+
+Dubey r Expert Systems and their Application in Library and Information Science
+
+backwards from the goal they are trying to
+reach. This technique used by Newell and
+Simon for learning the way people reason is
+used today by knowledge engineers to create
+expert systems to solve complex problems.
+By 1965, work in Artificial Intelligence had
+progressed to the point at which Edward A
+Feigenboum and Joshua Ledenberg, both from
+Stanford University, could join forces to develop
+a system for determining the structure of an
+organic molecule based on the input obtained
+from mass-spectrograph. The problem was the
+one that taxed the abilities of an expert organic
+chemist: there were too many possibie solutions
+to allow the use of pure logic, and chemistry
+experts solved the problem using a
+combination of intuition, rules of thumb, and
+just plain good yess-techniques that were
+known as heuristics .
+By interviewing organic chemists on the
+methods they used to develop a picture of a
+molecule's
+structure,
+Feigenbaum
+and
+Lederberg developed a combination of rules
+and heuristics for interpreting spectrographic
+data. The result was a programme called
+'Dendral'; its descendants are used today in
+laboratories all over the world. Dendral marked
+the beginning of a new branch of inquiry for
+researchers in Artificial Intelligence--that is
+expert systems. Bendral's immediate successor
+was 'Mycin" an expert system which has been
+even more influential. Mycin diagnoses bacterial
+infections of the blood, and prescribes suitable
+drug therapy.
+
+2.
+
+FEATURES
+
+Although, expert systems are the subject of
+much discussion these days, their definition is
+somewhat vague. If basic definitions from some
+introductory texts on expert systems are
+examined
+(such as those of Barr and
+~ e i ~ e n b a u m~~o; r s ~ t hHarmon
+~;
+and IGng5;
+art^; and lackson') then it is found that
+only two elements are consistently cited:
+1.
+
+An expert system embodies some
+representation of knowledge about a given
+task domain.
+
+2.
+
+The expert system emulates the capabilities
+of a human within the given task domain at
+
+4
+
+a level of .performance equivalent to an
+'expert'.
+Whitaker and Ostbergs have observed that
+these requirements presuppose that the task
+domain is of such a nature that consistent facts
+about it can be derived, i.e., there is knowledge
+about the domain and that there is differentia!
+distribution of said knowledge among some
+population (there are individuals possessed of
+greater relative expertise). Such presumptions
+address the character of the task domain into
+which an expert system is inserted.
+In contrast, much of the literature emphasise
+on the expert system's structure. Most
+commonly the discussion on an expert system's
+structure concentrates on two discrete
+components-a
+knowledge base, and an
+inference engine carrying out logical operations
+over that base. Occasionally a discussion
+extends to the four essential components of a
+full-fledged expert system.
+
+3.
+
+C O M P O N E N T S O F EXPERT
+SYSTEM
+
+A detailed discussion of the components of
+an expert system is presented here to clarify this
+further.
+
+3.1
+
+The Knowledge Base
+
+The knowledge base in an expert system
+contains codified knowledge that is structured
+very differently from book knowledge. Typically,
+the knowledge base of an expert system
+contains 'facts' and the relation between them.
+There are two kinds of facts : public facts and
+heuristics. Public facts are defined as published
+rules
+(generally available) and
+agreed
+knowledge, e.g. cataloguing rules. Heuristics are
+the personal (and often unwritten) knowledge
+of the human expert (e.g., skill in cataloguing).
+In addition to facts, heuristics imply several
+features of human decision making based on
+experience, perhaps acquired on a trial-and
+-error basis, 'rules of thumb', and inability to
+take all possible factors into account due to
+cognitive limitations.
+The major difference between 'conventional'
+database and expert system database
+DESIDOC Bulletin of Inf Techno/,1996.16(4)
+
+Dubey :Expert Systems and their Application in Library and Information Science
+methodology is that a knowledge base of an
+expert system is more creative. Facts in a
+database are normally passive; they are either
+present or not present. A knowledge base on
+the other hand, actively tries to fill in the
+missing information. Production rules are a
+favourite means of encapsulating 'rule-of-thumb'
+(heuristics) knowledge. These have a familiar
+(CONSEQUENCE)
+IF (CONDITION)-THEN
+format, for example:
+IF frequency of word < = upper threshold
+AND frequency of word > = lower threshold
+THEN use word as index term.
+There are other methods also to encode the
+facts
+and
+relationships
+that
+constitute
+knowledge. They include: semantic net;
+object-attribute-vaiue
+triplet;
+frames
+and
+predicate calculus. It might be inferred from
+some texts that the methods are alternatives;
+one or the other is used exclusively. In fact, they
+can be used in association with each other.
+Different methods have different advantages
+and disadvantagesg.
+
+3.2 The inference Engine
+lnference engine stands between the user
+and the knowledge base. It performs two major
+tasks: first, i t examines existing facts and rules,
+and adds new facts when possible; second, it
+decides the order in which inferences are made.
+In doing so, the inference engine conducts the
+concl~ssionwith the user.
+The inference strategies used in expert
+svstems are:
+C] Modusponens
+
+Reasoning about uncertainty
+Resolution
+Engine part of the system means i t is used to
+drive around amongst the various inferences it
+might make. This means it allows to pursue
+reasoning strategies or control strategies as they
+are sometimes called, to decide what operators
+to apply at each stage of the search. The most
+common control strategies used in expert
+systems are forward chaining, backward
+chaining and bidirectional. Broadly speaking,
+forward chaining involves reasoning from data
+to hypotheses, while backward chaining
+DESIDOC Bulletin of lnl Techno!, 1996, 16(4)
+
+attempts to find data to prove, or disapprove, a
+hypothesis. Pure forward chaining leads to
+unfocused questioning in a dialogue mode
+system, whereas pure backward chaining tends
+to be rather relentless in its goal-directed
+questioning. Most successful expert systems use
+by-directional reasoning method".
+Whether inferencing procedure works
+primarily backwards or forwards, it will have to
+deal with uncertain data. There are too many
+ways of dealing with uncertainty. There is Fuzzy
+logic, Bayesian logic, rnulti-valued logic and
+Certainty Factor, to name only four.
+
+3.3 User linterface
+User interface is the component which
+enables the user to communicate with the
+expert system. Most expert systems are
+interactive; they need'users to input information
+about a particular situation before they can
+offer advice. Most of the existing user interfaces
+of expert systems are rnenudriven, accepting
+single words or short phrases from the human
+user. A few have natural language capabilities. A
+good user interface i s an expert system that will
+allow the user' :
+a to ask question, such as why an advice has
+been given, how a conclusion has been
+reached or why certain information i s needed
+
+e to volunteer information before being asked
+
+e to change a previous answer
++E
+
+to ask for context-sensitive help on demand
+
+e
+e
+
+to examine the state of reasoning at any time
+to save a session in disk for later perusal, and
+
+at to resume a session previously abandoned
+mid-way.
+The expert system aims to assist or advise
+the non-expert users, but it will be consulted
+only if it helps the users to perform that task
+more easily. Thus, expert systems must meet all
+the requirements of good rnterface design.
+
+3.4
+
+The Knowledge Acquisition
+Module
+
+acquisition is the
+mos;
+Knowledge
+challenging and important element in e w e r i
+E
+"
+
+Dubey : Expert Systems and their Applicration in Library and Information Science
+
+system development. It i s the process of
+eliciting
+knowledge
+from
+experts
+and
+converting it into facts and rules that are
+compatible with the knowledge representation
+form of the chosen development tool.
+~ e i ~ e n b a u m 'calls
+~
+those who build
+knowledge-based expert systems as 'Knowledge
+Engineers', and refers to their technology as
+'Knowledge Engineering'. Knowledge engineers
+are concerned with identifying the specific
+knowledge that an expert uses in solving a
+problem. Initially, the knowledge engineer
+studies a human expert and determines what
+facts and rules-of-thumb the expert employs.
+Then the knowledge engineer determines the
+inference strategy that the expert uses in an
+actual problem solving situation. Finally, the
+knowledge engineer develops a system that
+uses similar knowledge and inference strategies
+to simulate the expert's behaviour.
+
+4.
+
+SCOPE OF EXPERT SYSTEMS
+IN LIBRARY AND
+INFORMATION SYSTEMS
+
+Expert systems are knowledge intensive
+computer programmes. They contain lot of
+knowledge about their speciality. They use
+rules-of-thumb or heuristics, to focus on the key
+aspects of particular problem domain and to
+manipulate symbolic descriptions in order to
+reason about the knowledge they are fed with.
+They often consider a number of competing
+hypotheses simultaneously, and they frequently
+make tentative recommendations or assign
+weights to alternatives. The best expert systems
+can solve difficult problems within a very
+narrow domain, as well as or better than human
+experts can.
+All this suggests that expert systems are
+confined to welCcircumscribed tasks. They are
+not able to reason broadly over a field of
+expertise. They cannot reason from axioms or
+general theories. They do not learn and thus,
+are limited to using the specific facts and
+heuristics that are 'thought' by a human expert.
+They lack common sense, they cannot reason
+by analogy, and that their performance
+deteriorates rapidly when problems extend
+beyond the narrow task domain they are
+
+designed to perform. A suitable domain should
+have clearly circumscribed borders and contain
+a limited number of entities and relations.
+Now the question is whether the library and
+information science (LIS) field is suitable for
+application of knowledge engineering to build
+expert systems? ~ r o o k s 'and
+~ Sparck )ones14
+claim that subdomains of LIS field are suitable
+for application of knowledge engineering as
+they possess clear-cut boundary with lots of
+public and heuristics knowledge which can be
+identified, elicited, codified and formalised in
+the knowledge base. Their claim i s vindicated
+by a study reported in Poulter and others1'
+which has identified i.59 expert system projects
+in the LIS domain.
+However, systems are usually grouped in
+literature by the sub domain je.g., online
+intermediary, reference work, cataloguing,
+indexing, classification, etc.) that they address.
+Some particular LIS sub domains have received
+relatively little attention (e:g., abstracting) while
+others (e.g., acquisition of new stock) are hardly
+represented at all. A breakup of the avilability of
+expert systems in LIS field is given below:
+reference work
+
+32 percent
+
+online retrieval
+
+28 percent
+
+indexing, cataloguing,
+or classification
+
+1 2 percent
+
+library management
+application, and
+
+7 percent
+
+abstracting
+
+1 percent
+
+Within each sub domain, systems tend to be
+restricted to even more limited domain to avoid
+problems associated with ill-defined borders
+and large number of entities and relationships.
+For example, 'Plexus' by Vickery and ~ r o o k s ' ~
+of expert system devoted to a very narrow
+domain of gardening while 'Pointer' by smith1'
+is limited to US Government publications and
+'Maper' by ~ r c e ~ o v a c "which advises novice
+map cataloguers.
+
+5.
+
+CONCLUSION
+
+We are witnessing gradual Increase in the
+development and research activities in the LIS
+expert systems. However, as already stated,
+
+DESlDOC Bulletin of Inf Jechnol, 1996, 16(4)
+
+Dubey :Expert Systems and their Application in Library and Information Science
+
+some areas such as reference and online
+intermediaries are more appealing to
+researchers than others. In Western countries,
+knowledge engineers are gearing up for the
+production of commercial expert systems in LIS
+domain, but most work is still in experimental
+stage. It is however, expected that expert
+systems may find increasing application in
+special libraries (such. as DESIDOC) which may
+collect and codify knowledge within their areas
+of specialisation.
+
+REFERENCES
+4.
+
+2.
+
+Newell, A. and ~ i m o n H.
+, Human problem
+solving. Prentice Hall, Englewood Cliffs, Nj.
+1972.
+Williamson, M. Artificial intelligence for
+microcomputers: The guide for business
+decision maker. Brady Communications
+Company, New York. 1986.
+
+3.
+
+Barr, A. and Feigenbaum, E.A. (Ed.). The
+handbook of artificial intelligence. AddisonWesley, Reading, MA. 1987.
+
+4.
+
+Forsyth, R. (Ed.) Expert Systems: Principles
+and case Studies. Chapman and Hall, New
+York. 1984.
+
+5.
+
+Hermon, P. and King, D. Expert systems:
+Artificial intelligence in business. John
+Wiley, New York. 1965.
+
+6.
+
+Hart, A. Knowledge acquisition for expert
+systems. McGraw-Hill, New York. 1986.
+
+7.
+
+jackson, P. introduction to expert systems.
+Addison-Wesley, Warkingham, England.
+1986.
+
+8.
+
+Whitaker, R and Ostberg, 0. Channelling
+knowledge:
+Expert
+systems
+as
+communications media. A I & Society. 1988,
+(2), 197-208.
+
+DESIDOC W e t i n of lnf Technol, 1W6,16(4)
+
+Dubey, V.P. Knowledge representation and
+reasoning. In
+Encyclopaedia
+of
+Microcomputers, edited by Allen Kent and
+lames G Williams. Marcel Dekker, New
+York, Vol.15.
+Kemp, D.A. Computer-based knowledge
+retrieval. ASLIB, London. 1988. pp.103-10.
+Ref. 4
+Ref. 5
+Brooks, H.M. Expert systems and intelligent
+information retrieval. lnformation Processing
+Management1987, 23(4), 36 7-92.
+Sparck jones, K. lnformation retrteval. In
+Encyclopaedia of artificial intelligence.
+Edited by Shapiro, SC. John Wiley & Sons,
+New York. 1987, Vol. 1, 419-21.
+Poulter, A. and others. LIS professionals as
+knowledge engineers. In Annual review of
+lnformation Science and Technology
+(ARIST). The American Society for
+Infomation Science. Medford, NJ, Learned
+Information, Inc. 1994, Vo1.28.
+Vickery, A. and Brooks, HM. PLEXUS: The
+expert system for referral. lnformation
+Processing and Management. 198 7, 23(2),
+99-117.
+Smith, K F. Pointer vs. Using government
+publications: Where is the advantage!
+Reference Librarian. 1989, 23, 19 1-205.
+
+Z.
+Research
+on
+Ercegovac,
+knowledge-based descriptive cataloguing
+o f cartographic publications: An
+experimental advice-giving system-mapper.
+Ph.D. Dissertation. 1990, UCLA, Los
+Angeles, CA.
+
+7
+
+

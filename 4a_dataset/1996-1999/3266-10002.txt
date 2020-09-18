@@ -1,0 +1,1497 @@
+﻿ 
+  
+   
+ 
+  
+   
+  
+   
+   
+   
+   
+ 
+   
+  
+  
+  
+ 
+    
+    
+   
+  
+
+described.
+
+ODUCTION
+
+'internet connects thousands of
+and computer networks worldwide.
+a relatively easy way to communicate
+j' . ge information. However, as the
+ continually increasing both in size
+plexity, it is becoming more difﬁcult to
+'Internet’s resources. As a result, a
+fsoftware tools have been developed
+users to navigate the Internet and its vast
+formation. Librarians and information
+‘als use the Internet for various
+. _ a reference tool, the Internet offers
+'of resources, up-to-date, accurate, and
+e in any bound volume.
+
+- Internet gives direct access to specialists
+I of disciplines, who are quite willing
+'th both the most mundane and the
+i cult problems faced by librarians and
+us. As a communications device, the
+allows librarians to send messages and
+“Is to each other without being
+ by mail, telegraph, or fax. Different
+- been developed over the years for
+
+ 
+
+Scientiﬁc Officer
+
+_ Centre for Science Information
+limm of Science
+
+- 560 012
+raiaOncsr‘stcemetinJ
+
+' of information Tedtnology, Vol. 16, No. 3, May 1996, pp. 11-20
+
+Internet Services : An Introduction
+TB Raiashekar"
+
+ABSTRACT
+This article provides information on the various segments of Internet, and
+
+also on how to go about various protocols needed for acquiring information
+from this vast ’networks of networks’. A sample browsing session is also
+
+accessing the variety of resources on the
+
+Internet. These.include basic tools like e-mail,
+telnet and ftp and also the advanced
+navigational tools like archie, gopher, Wide Area
+Information Servers (WAIS), and the World
+
+Wide Web (W). The following provides a
+
+brief description of each tool. Other Internet
+resources such as discussion lists, online library
+catalogues, and electronic journals are also
+described.
+
+2. INTERNET ACCESS TOOLS
+
+2.1 Electronic Mail (e-mail)
+
+Email is the oldest method of
+communication on Internet. Using e—mail, one
+can send messages (or even ﬁles) to anyone on
+the Internet. In order to send e-mail to a person,
+you need his/her email address. Internet e-mail
+addresses are of the form: userﬂhostdomain.
+The ’hosLdomain’ unambiguously identiﬁes a
+host.
+
+Example : raia®ncsi.iisc.emetin. where ’raja’
+is the user name, ’ncsi’ is the host name and
+’iiscernetin’ is the domain.
+
+Other example: garﬁeldﬂauroracismpenn
+edu, amohindruﬂcascrg. Here, ’in’, ’edu' and
+’org’ are top level domain names indicating
+’India’, ’educational institution' in USA and
+
+ 
+
+1 Salem oflnfTechnoi. 1996. 16(3)
+
+  
+
+Raiashekhar — Internet Services : An introduction
+
+‘organisation' in USA, respectively. Following are
+
+some more top level domain names :
+com - Commercial sites in USA
+
+gov - US Government sites
+
+net - Network administrative organisations
+
+mil - US military sit’es
+fr - France
+
+au - Australia
+
+uk - United Kingdom
+
+Different e-mail interface programs exist for
+sending and reading mails. These include ’mail’,
+‘mailx', 'pine’, ’elm’ for Unix computers, and
+
+'eudora’, ’pcpine‘, 'ccmail’ for Windows.
+
+In addition to personal-messages, e-mail has
+been used for operation of discussion forums
+(listservs or mail servers), electronic newsletters,
+electronic journals and e-mail based information
+
+servers. PACS-L (Public Access Computer Stan_upthe Telnet program
+
+Systems List) operated at University of Houston, ‘ 7
+USA (to subscribe send e-mail message G'Ve the “ith Pr°3f3m 3" ad
+’subscribe pacs~l your name' to fonned to: Mal“? a "0‘9 Of
+Iistserv©uhupvm1.uh.edu) and LlS-FORUM escape Charade" '5
+
+(e-mail forum for L & | services in Asia) operated
+at NCSI, Indian Institute of Science, Bangalore
+(to subscribe send e-mail message ’subscribe
+listservﬂncsiiisc.
+ernetjn) are two examples of discussion forums
+
+lis-forum your name’ to
+
+'II
+
+  
+  
+  
+ 
+ 
+  
+  
+ 
+  
+ 
+ 
+ 
+ 
+  
+  
+ 
+  
+ 
+  
+ 
+ 
+
+that you have accessed. You can tel -'
+huge databases to do research, or even
+into libraries around the world to check’ '
+have a certain book that you are looki
+Telnet also offers easy entry into the w,
+gophers and the World Wide Web (d'
+below) for those people who may not 0
+have access to these tools. Telnet a
+look something like this:
+
+a) domain name: melvyl.ucop.edu
+IP address : 192.35.222.222 (Un' “‘59
+California library catalogue)
+
+b) domain name : locis.loc.gov
+IP address 140.147.2543 (Li if-
+Congress)
+
+It may be seen that Telnet addresses mi: .
+in domain name format or in IP addres
+There are seven steps to a successful
+session :
+
+Log into the remote computer
+'terminal emulation’
+
+Play around on the remote computer 1
+
+Quit
+
+in library and information science. PACS-Forum
+and PACS-Review are similar examples in this
+area fur electronic newsletters and journals,
+managed by the same group in University of
+Houston that operates PACS-L list. Examples of
+e—mail based info/ database servers include
+cancernet©icicb.ncsi. nih.gov (operated by the
+National Cancer Institute, USA) which provide
+email users with search and retrieve facility. An
+e-mail 'help’ message to these addresses will
+provide more details for accessing these servers.
+E-mail gateways also exist for providing Ftp,
+
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+ 
+ 
+ 
+
+A sample session showing access 
+Melvyl library catalogue is shown in Ann 
+
+2.3 File Transfer through File
+Transfer Protocol (Ftp)
+
+As the name suggests, ftp is a tool to
+files from a remote computer on lnte
+your computer and vice versa. What t
+ﬁles are available through ftp? These ‘
+computer software, games, documents '
+etc. One can also ﬁnd files containing
+
+Gopher and WW access through e-mail.
+2.2 Telnet
+
+Telnet is a utility which will allow you to log
+on to another system and use various services
+the t0
+commands that you type on our keyboard are
+sent from your terminal to the remote computer
+
+available on that host. With telnet,
+
+about the Internet itself.
+
+The basic steps in a ftp Session are: r
+
+ 
+
+Start-up y0ur ftp client programme
+
+Give your ftp client an address to "‘ET'
+
+Identify yourself to the remote site
+
+ 
+
+12
+
+ 
+   
+  
+  
+ 
+ 
+ 
+ 
+     
+  
+   
+    
+   
+  
+   
+   
+   
+  
+   
+   
+   
+   
+ 
+   
+
+' ‘ remote site your password
+v und the directory for files
+directories
+
+transfer mode
+
+ﬁle(s) you want
+
+ ftp session is shown in Annexure 2.
+bus ftp
+
+made it possible to set up publicly
+archives on Internet with all kinds of
+and software, true to the spirit of
+through what are known as
+it's ftp sites. Most of the academic
+‘ ake available material, which they
+'I be of interest to others, on their
+The material is held online on the
+and can be accessed by anybody
+ernet connection. Ftp access is
+to everyone under the user name
+
+Anonymous ftp has thus become
+with accessing, browsing and
+material from these sites.
+
+its ftp servers on the Internet. Archie
+ntain an index of directory listings of
+‘nymous ftp servers and the index
+rched using archie client programs.
+
+list of Internet addresses of ftp sites
+the sub-directories where the ﬁle is
+These ﬁles can then be downloaded
+. Archie servers access all the known
+' from time to time and get the listing
+d directories to maintain the indexes.
+
+far is a c0mputerised agent working
+lntemet to bring all sorts of useful faCts
+pser’s desktop. It was started at the
+of Minnesota as a way to deliver
+on online. The inventors of gopher
+everyday users to be able to find text
+y and display them on their deskt0p
+, without having to know the entire
+
+osaooc Buieﬂn of mi Technol. 1   . ‘
+
+ 
+
+Raiashekhar - internet Services : An Introduction
+
+process of connecting and disconnecting to
+other computers. The gopher universe includes
+over 1100 servers around the world, each with
+a collection of menus and documents.
+
+Gopher divides the digital world into clients
+and sewers. A ’client' may be any sort of
+computer-a PC, a Macintosh, a workstation, or
+a UNIX box. Gopher’s client software runs on
+your desktop computer. Local Area Networks
+(LANs) and the Internet connect the desktop
+computers with gopher ’servers’. The client
+software determines how a ﬁle will look on the
+screen. Electronic bookmarks can be created to
+help users keep their place in menus or
+doouments; documents can be saved and
+printed as required.
+
+Gopher works in a world of ﬁles and menus.
+When a user connects to a gopher server, a set
+of messages tells the server what the user wants
+to view. For example, the user may see a menu
+with several sub menus. The server reads the
+message from the user’s computer, sends the
+information about the menu and sub menus,
+and disconnects. The user can open up a menu
+and see that document of interest. To scan the
+document, the user re—opens the connection to
+read or print the document. At present, these
+documents are usually simple text ﬁles with0ut
+special components, so they are easy to
+maintain and retrieve. The next version, the
+gopher + software, will handle other formats
+also. Gopher is a tool for browsers, and it can
+work in the background while your computer
+does other work. Gopher servers around the
+world handle millions of questions a week due
+to simple design.
+
+There is a wide variety of gopher
+documents, and there are descriptions for each
+kind of document. These descriptions point to
+information that might be stored on the hard
+disk of a machine right around the corner, or a
+machine halfway around the world. Gopher
+might be used to access a database of
+telephone numbers or to download ﬁles
+archived in a variety of formats. Gopher handles
+all of the network details, so a user can go from
+the Library of Congress catalogue to an online
+thesaurus to a weather report with a few clicks
+of a button. Sample gopher menus from the
+
+ 
+
+mun of in! Tochnoi. 1996. “(3)
+
+  
+  
+  
+   
+  
+   
+   
+  
+ 
+   
+   
+   
+ 
+   
+  
+ 
+    
+  
+   
+   
+   
+   
+   
+  
+  
+   
+ 
+  
+
+ e remote site your password
+ ,und the directory for ﬁles
+"- directories
+
+transfer mode
+
+-- ﬁle(s) you want
+
+1.‘ ftp session is shown in Annexure 2.
+nus ftp
+
+made it possible to set up publicly
+' archives on Internet with all kinds of
+and software, true to the spirit of
+through what are known as
+ftp sites. Most of the academic
+inake available material, which they
+the of interest to others, on their
+e material is held online on the
+and can be accessed by anybody
+nternet comection. Ftp access is
+to everyone under the user name
+using the e-mail address as the
+Anonymous ftp has thus become
+with accessing, browsing and
+, material from these sites.
+
+. hie
+
+system enables locating ﬁles on the
+wt ftp servers on the Internet. Archie
+ntain an index of directory listings of
+onymous ftp servers and the index
+hed using archie client programs.
+search for a particular ﬁle or program
+w of Internet addresses of ftp sites
+.I the sub-directories where the ﬁle is
+
+These ﬁles can then be downloaded
+Archie sewers access all the known
+from time to time and get the listing
+- directories to maintain the indexes.
+
+n.
+
+#418
+
+stiller
+
+er is a computerised agent working
+internet to bring all sorts of useful facts
+r’s desktop. It was started at the
+of Minnesota as a way to deliver
+.n online. The inventors of gopher
+ereryday users to be able to ﬁnd text
+and display them on their desktop
+, without having to know the entire
+
+13
+
+Raiashekhar — Internet Services :An Introducdon
+
+process of connecting and disconnecting to
+other computers. The gopher universe includes
+over 1100 servers around the world, each with
+a collection of menus and documents.
+
+Gopher divides the digital world into clients
+and servers. A ‘client’ may be any sort of
+computer—a PC, a Macintosh, a workstation, or
+a UNIX box. Gopher's client software runs on
+your desktop computer. Local Area Networks
+(LANs) and the Internet connect the desktop
+computers with gopher ‘servers’. The client
+software determines how a ﬁle will look on the
+screen. Electronic bookmarks can be created to
+help users keep their place in menus or
+documents; documents can be saved and
+printed as required.
+
+Gopher works in a world of ﬁles and menus.
+When a user connects to a gopher server, a set
+of messages tells the server what the user wants
+to view. For example, the user may see a menu
+with several sub menus. The server reads the
+message from the user’s computer, sends the
+information about the menu and sub menus,
+and disconnects. The user can open up a menu
+and see that document of interest. To scan the
+document, the user re—opens the connection to
+read or print the document. At present, these
+documents are usually simple text ﬁles without
+special components, so they are easy to
+maintain and retrieve. The next version, the
+gopher + software, will handle other formats
+also. Gopher is a tool for browsers, and it can
+work in the background while your computer
+does other work. Gopher servers around the
+world handle millions of questions a week due
+to simple design.
+
+There is a wide variety of gopher
+documents, and there are descriptions for each
+kind of document. These descriptions point to
+information that might be stored on the hard
+disk of a machine right around the corner, or a
+machine halfway around the world. Gopher
+might be used to access a database of
+telephone numbers or to download ﬁles
+archived in a variety of formats. Gopher handles
+all of the network details, so a user can go from
+the Library of Congress catalogue to an online
+thesaurus to a weather report with a few clicks
+of a button. Sample gopher menus from the
+
+ 
+
+Bu'Bﬂn ofinf Technol. 1 996. “(3)
+
+ 
+ 
+
+Raiashekhar _ internet Services : An introduction
+
+University of Michigan gopher server are given
+
+in Annexure 3.
+
+Finding sources like these in gopher can be
+very difﬁcult because of its menu and sub menu
+Nevada created
+’veronica’ to address this problem. Veronica
+stands for 'Very Easy Rodent Online Network
+Information by Computer Access’. Veronica is a
+keyword index to all the menu titles, sub menu
+titles, and document titles in gopher, and it is
+updated monthly. It can be searched via gopher
+
+structure. Researchers in
+
+menu selection.
+
+Besides reference works, gopher also offers
+access to electronic texts, thus providing digital
+access, say to the complete works of ’Lewis
+Carol’. For example, in the 'Electronic Books'
+sub menu of the University of Minnesota
+lnternet gopher, there are books by Thomas
+
+Hardy, Herman Melville, and Willa Cather.
+2.6 WAIS
+
+WAIS, or Wide Area Information Servers,
+allows users to search indexed text on a number
+of servers. WAIS servers are identified by using
+a directory. There are some 340 WAIS servers
+providing access to some 200 databases. One
+or two databases are added to WAIS each day
+from around the world; there are servers in at
+least eight countries, and users in over 25
+
+different countries.
+
+With WAIS, one uses a computer to search on the
+in natural language among all the servers and
+indexed documents. The computer returns a list
+that sets out the relevancy of each hit in against
+the user’s search terms. The relevancy is based
+on the difference between the keywords given
+by the user and the frequency of their
+The
+search query can be repeated to different
+servers. News, science, and literature are the
+strengths of WAIS. Indexed files may fill only
+ten megabytes on a personal computer or
+include hundreds of megabytes and reside on a
+parallel super computer. WAIS is less effective
+with very specific questions, or with questions
+on topics not yet covered by any server. WAIS
+is different from gopher in that it connects the
+user directly with indexed documents, and in
+that its directory of servers gives you some idea
+
+appearance in an indexed document.
+
+I3
+
+  
+   
+  
+   
+    
+      
+ 
+
+of the kind of resources available to,
+advance.
+
+2.7 The World Wide Web
+
+The World Wide Web, referred to as)":-
+or simply the Web, is a client-servers.
+distributed hypertext multimedia in a-‘ji‘e'
+system on the Internet. It was nil};
+developed at the European Particle *9:
+Laboratory (CERN), Geneva. It has now ri=~
+the most popular navigation tool 5:"
+Internet. The National
+Supercomputing
+
+CERN work by developing a graphical I
+the Web named Mosaic for Unix X-W
+platform, which was later made 
+MS-Windows also. Now a number or
+clients are available for different 
+
+HTTP (hypertext transfer protocol
+transferring documents from Web se 
+Web clients. ‘
+
+The Web servers maintain informativ -
+Web pages, which are simple ASCII -_.'_
+the text marked-up with HTML ( 3;;-
+Mark-up Language) tags. HTML has 
+providing references to other Web 
+can be on the same server or any othen‘.’
+Internet. Web pages can 7
+references to images (in GIF and JPEG l'
+audio files (AU format) and video ﬁles (in:
+format) which gives multimedia dimen’
+the information provided on the W,
+clients access the Web pages on the 
+render and format them according to the:
+tags for display on the client’s system. if:
+user selects a hypertext link (indicated {9'
+underscore or an icon) on the Web pal 
+can follow the link and fetch the “‘7‘”
+
+USing a standard format for locating im'__
+on the Internet. The format ,1»,
+
+ 
+
+Id
+
+  
+   
+    
+  
+   
+ 
+ 
+   
+
+"n of the resource preceded by the
+
+" ..sura.net
+[lgOphenmicrosochom
+.byte.c0m
+
+e web browsers provide facilities like
+ng the history of the hyper links across
+bookmarking the URLs of information
+or later reference, saving the web page,
+a a string within the displayed web
+nfiguring the Web browser for playing
+ia document objects, etc.
+
+images of a session with the NCSTRL
+
+science technical report server
+.ncstrl.org) using the Netscape
+:5 shown in ﬁgures 1 to B at the end of
+
+ 
+   
+  
+ 
+   
+ 
+  
+ 
+   
+ 
+   
+  
+   
+  
+ 
+    
+   
+  
+  
+   
+
+yTERNET RESOURCES
+
+inline Library Catalogues
+
+" her menu offers access to libraries
+. catalogues in different countries.
+prevides prompts that permit a user to
+library catalogue.
+
+rt'ternet gives access to the bibliographic
+of millions of books, and details on the
+of academic and research libraries
+the world. With these resources, a
+can verify bibliographic information,
+obscure title or paper for a user,
+“ct bibliographies, and compare subjects
+n of libraries in different countries.
+also check on new titles, and even
+em from a number of university presses.
+North America makes available a
+: e of books in print, and the inventories
+bookstores are also available online.
+
+' 1, iscussion Lists
+
+are hundreds of electronic discussion
+conference proceedings available over
+met. They give users direct access to
+in disciplines as different as folklore,
+n, medieval history, climatology, and
+I Ics. More than 100 discussion lists are
+
+ossrooc Bulletin onnr Technol. 1 r '
+
+ 
+
+Raiashekhar — lnternet Services : An introduction
+
+available specifically for librarians. The Special
+Library Association, the American Library
+Association, and other organisations support
+electronic conferences devoted to topics as
+diverse as rare books, maps, difﬁcult reference
+questions, and conservation. It would be
+impossible to subscribe to all discussion lists. A
+recent survey indicated that special librarians on
+an average subscribe to a little more than three
+discussion lists per person.
+
+Discussion lists give users an opportunity to
+ask or offer help. Librarians can post
+complicated referenca questions to listservs and
+have access to the expertise of librarians located
+in institutions across the United States, Europe,
+Central and South America, and Australia. A
+reply may appear in minutes. In the discussion
+related to e-mail in section 2.1 above, we
+referred to two discussion lists PACS—L and
+LlS-FORUM.
+
+3.3 Electronic Journals and
+Newsletters
+
+There are hundreds of electronic journals
+and newsletters on the Internet. They cover
+such diverse topics as beans, ancient Greece,
+astronomy, tourism, medicine, and philosophy.
+These journals are like their printed counterparts
+in that they appear on a regular schedule, have
+a team of editors and reviewers, and focus on a
+speciﬁc topic. Many also publish original
+research. Some electronic journals appear in
+both paper and electronic editions, including
+the biweekly newspaper The Scientist and the
+journal Postmodern Culture. Only six electronic
+journals charge a subscription, although printed
+editions of many journals carry a fee while their
+electronic counterparts do not. Traditional
+newspapers are becoming available in certain
+networks but they are not yet accessible on the
+larger Internet. For instance, the National
+Capital Freenet in Ottawa, Canada, makes The
+Ottawa Citizen available electronically, and the
+Cleveland Freenet provides USA Today. The
+Mercury-News from San Jose, California and
+other newspapers can also be found on
+America Online.
+
+For librarians, electronic journals such as
+Public-Access Computer Systems Review (which
+grew out of a discussion list) and Current Cites
+
+ 
+
+  
+
+Elem oflnr Technol. 1996. 16(3)
+
+Raiashekhar ._ Internet Services :An introduction
+
+give the latest information on the use of
+
+technology in libraries.
+
+4. CONCLUSION
+
+The Internet offers possibilities for interactiOn
+
+15
+
+ 
+ 
+ 
+ 
+
+surprising that the Internet is being em
+librarians around the world.
+
+5. REFERENCES
+
+This paper has been prepared lar
+material available Over the Intern
+
+not available through any other technology. A
+librarian can take advantage of materials that
+may be physically located thousands of
+kilometres away. It can decrease demands of
+distance and time, and bring together
+intellectual and physical resources. It is not
+
+ 
+
+_t.... -
+
+ 
+
+‘ Elle Edlt View s ﬁookmarks thions
+
+t
+
+   
+ 
+
+ 
+
+from the distribiuad collection.
+
+ 
+
+Fig. 1 N03 THL — Portion of Opening Screen (http://www .ncstrl.org)
+
+g Netscape—rNetworkéibiiiiiiiiléflinens[animal‘iiéimisiiiséarvj' ‘  ' to:
+nlrectory
+
+ 
+
+  
+ 
+
+ Technical Reports Library
+
+wcsrg {pronounced ’bncestral ‘9 is an international collection of
+computer science technical reportsme Csdepartmertts and industrial and government 1
+research laboratories. The NCSI‘RL collection is distributed wrung a set of interoperaiing -' ‘
+server: operated by ,wrrtrcipptigg institutions. You may search for and access documents
+
+Search the NCSTRL collection
+
+0 The. Fit-tried Search Form allovirs you to perform a search on several ﬁelds of the
+bibliognmlnc data, and/or to limit the search to speciﬁc institutions,
+
+    
+ 
+ 
+
+course material on ’lnternet for In ,
+Professionals (lFlPl’, prepared by N.
+
+workshop on the same topic conduct
+July and September, 1995.
+
+ 
+
+     
+   
+  
+    
+   
+ 
+
+   
+ 
+
+ 
+
+l6
+
+ 
+
+Rajashekhar -— lnternet Scrvices : An introduction
+
+ ' ‘ r.  i7 Netscape  
+ It: Edit Miew .60 Bookmark thlons Directory
+‘7 a» "  ’  ~ '  ' ’
+
+     
+
+   
+
+ 
+ 
+    
+
+ 
+
+   
+ 
+
+i Fielded Search or the Collection
+
+Bibliographic keywords: ((9 AND keyword ﬁelds 0 OR. keyword fields)
+
+Author:
+
+lsairan l
+' Title
+
+[text retrieval 1
+
+Abstract
+
+I j
+Select one or more organizations ﬁ‘om this list:
+
+‘ Auburn University
+
+. Boston University
+
+Caltech Computer Science
+
+Carnegle Mellon
+
+ct-ilcago Journal of Theoretical Computer Science
+Comeil
+
+5 or E search all organizations
+
+ 
+
+ 
+
+ 
+
+ 
+
+g; .,,-.,. .—
+
+   
+ 
+   
+
+Searcti fields:
+organization = all
+Bibliogaphic keywords ("and"ed together):
+
+I 0 author = sailor!
+0 title = text removal
+
+Search Summary:
+
+0 ('7lgi'vmcff
+
+ 
+
+ 
+
+0 figurine!
+0 (USU'Ni’oi Bu (do
+Heal 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Organizatith you selected are listed below by mnber oftitics found.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Fig. 3 — NCSTHI. - Search Result Screens
+
+ 
+
+ 
+
+ 
+
+Bulletin of Inf Technol. I996. 16(3)
+
+Rajashekhar — Internet Services : An introduction
+
+    
+   
+   
+  
+   
+  
+   
+ 
+ 
+ 
+ 
+ 
+  
+
+530 Bookmarks ,thions
+
+Gerard Salton, James Allen and Chris Buckley
+"111924286
+June 1992
+
+‘ collection browsing and information retrieval.
+
+ 
+
+Automatic Structuring and Retrieval of Large Text Files ~—
+
+3 In many operational environments. large text files must be processed severing n wide variety
+I ofdlﬂ'erent topic areas. Aids must then be provided to the user that permit collection
+browsing and make it possible to locate particular items on demand. The conventional text
+
+f analysis methods based on preconstructcd imowledgvbues and other vocabulary-control
+
+. tools are difficult to apply when the subject coverage is unrestricted. An aitcmativc
+
+j: approach. applicable to text collections in any subject area, is introduced which uses the
+
+2 docutltenl collections dicmstlvcs as a basis for the text analysis. together with sophisticated
+
+: text matching operations carried out at several levels ofdetail. Methods nrc described for
+
+2 relating semantically similar pieces oftcxt. and for using the resulting hypertext structures for
+
+l7
+
+ 
+
+ 
+
+ 
+
+ 
+
+in
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+T5im—wfﬁﬁuﬁﬁliﬁiiﬁiéiié"si‘ni'é'iiiliﬁiland Retrieval gr I. .ag'iaiiiiggrf‘test"  I
+
+   
+
+ 
+
+ 
+
+Help
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+121 Overview of thumbnail pages
+El Structural overview
+
+ 
+
+I Print or download all or selected Egg. es.
+
+   
+   
+ 
+     
+    
+
+0 Display an overview oftbc document in one of the following formats.
+
+0 DiSplay a selected page in one of the following formats (documctll has 58 pages).
+
+ 
+
+0 Display the whale doctunent in one ofthe following funnels.
+
+D OCR text (produced by OCR, may have errors) 87323 bytes.
+
+ 
+
+ 
+
+ 
+
+i».
+
+ 
+
+ 
+   
+
+Fig. 5 —NCSTFIL - Document View 0pm
+
+ 
+
+ 
+
+ 
+
+18
+
+   
+     
+   
+ 
+  
+   
+   
+   
+  
+   
+  
+  
+  
+   
+   
+  
+   
+  
+   
+   
+ 
+ 
+
+_7 RN for the MELWL System:-
+
+f'e' to the University of California's MELWL‘
+SYSTEM
+
+f books for UC and California State Library
+1 of periodicals titles for UC and academic
+of California
+
+‘ article information, abstracts, and text in
+‘Iiject areas
+
+access to databases and systems across the
+
+egistered trademark of The Regents of the
+of California.
+
+U Databases and Systems
+
+ELVYL Ten-Year Catalog—books, music,
+iovisuals, etc.)
+
+LWL Full Catalog—books, music, maps,
+als, etc.)
+
+General—book catalogues and article
+
+(Biomedical databases)
+
+urnanities)
+
+Vusiness), SCI: (Science/Engineering), GOV:
+ment/Legal), SOC (Social Sciences),
+:(Alphabetical list of all databases and
+l, and DBTYPE: (Databases and systems
+.ine}
+
+the name of the database or system you
+, the name. Otherwise, select an option 1
+L-llst. Type HELP for assistance.
+
+being issued: START TEN
+to the MELVYL TEN-YEAR Catalog
+
+niversity of Califomia libraries, and the
+t -- State Library
+
+DESIDOC Bulletin ollnfl'echnob 
+
+ 
+
+Raiashekhar - lnternet Services : An introduction
+
+Annexure -i
+
+Searching the Melvyl Library Catalogue Database
+
+OPTIONS: Type an option and press RETURN, or
+type any command.
+HELP - For help in getting started.
+E GUIDE ~ For a brief guide to using the Ten-Year
+database.
+START - To start over or change databases.
+END - To end your session.
+TEN=>heIp
+You can use the TEN-YEAR database with two basic
+commands:
+FIND [index] [search words]: to begin a search
+DISPLAY: to display the results of a search.
+For example: FIND SUBJECT JOB STRESS
+For more information, type EXPLAIN FIND or
+EXPLAIN DISPLAY.
+For a list of indexes in the TEN-YEAR database, type
+EXPLAIN INDEXES.
+For a list of commands in the TEN-YEAR database,
+type EXPLAIN COMMANDS.
+
+OPTIONS: Type an option and press RETURN.
+EXP TEN - For an explanation of database
+
+a database for searching: press RETURN contents.
+getting started: type _HELP and press EXP GUIDE - For a guide to searching the
+database.
+
+START - To start over or change databases.
+
+END - To end your session.
+Or type any command.
+TEN=ﬁnd subject neuroscience
+Search request: FIND SUBJECT NEUROSCIENCE
+Search result: 81 records in the TEN-YEAR Catalog
+.l database '
+Type D to display results, or type HELP.
+
+TEN=sd
+
+Search request: FIND SUBlECT NEUROSCIENCE
+Search result: 81 records in the TEN-YEAR Catalog
+database
+
+Type HELP for other display options.
+
+. DISSERTATION
+Aboitiz, Francisco Dominguez.
+Quantitative morphology and histology of the
+human corpus callosum and its relation to brain
+lateralisation/by Francisco Dominguez Aboitiz.
+
+- 1991.
+As of 2/20/95, approximately 1,63 7,652 UCLA Biomed W4C A154q I991
+.. nting 3,497,100 holdings for materials Ten=send
+
+ 
+
+ 'amorin orinrrechnoi. 1996. 16(3)
+
+Raiashekhar — internet Services : An introduction
+
+A Sample Ftp Session
+
+Here is a sample anonymous ftp session in which a
+file called library guide is retrieved from
+samba.oit.unc.edu Commands typed by the user are
+shown in bold italics.
+
+S ftp samba.oir.unc.edu
+
+Connected to samba.oit.unc.edu.
+
+220 samba.oit.unc.edu Ftp server (Ultrix Version
+4.36 Thu Dec 29 22:53:11 EST 1992) ready.
+
+Name (samba.oit.unc.edu:pjones): anonymous
+
+331 Guest login ok, send your email address as
+password.
+
+Password:type your e-mail address here—it will be
+hidden
+
+230 Guest login ok, access restrictions apply.
+
+ftp is
+
+200 PORT command successful.
+
+150 Opening data connection for /bin/ls
+(1 23109.1 5170,4260) (0 bytes).
+
+bin
+
+pub
+
+uploads
+
+226 Transfer complete.
+
+36 bytes received in 0.23 seconds (0.15 Kbytes/s)
+ftp cd pub
+
+250 CWD command successful.
+
+ftp Is
+
+200 PORT command successful.
+
+University of Michigan Gopher
+
+URL : //g0pher.umich.edu
+Gopher Menu
+About GopherBLUE
+Information Technology Policies and Guidelines
+Job Postings
+Phone Book (X500)
+News and Weather
+Library Resources (ULibrary)
+Computing on Campus
+U of Michigan and Ann Arbor
+Software Archives
+Internet Resources
+Other Gopher Servers
+Gopher Menu
+About Using the ULibrary Gopher
+Contents of the ULibrary Gopher
+About University Michigan Libraries and
+Information Resources
+News Services and Government Information
+
+19
+
+An  .
+
+   
+
+150 Opening data connection for . 
+(128.109.157.70,4261) (0 bytes). '
+docs
+
+msdos
+
+unix
+
+vms
+
+226 Transfer complete.
+
+103 bytes received in 0.21 seconds (0.48 
+ftp co‘ docs 
+250 CWD command successful. '
+ftp is r
+200 PORT command successful. 7
+150 Opening data connection for,"J
+(128.109.157.70,4262) (0 bytes). I
+hitchhiker
+
+libraryguide
+
+other.anonymice
+
+tcpipintro
+
+226 Transfer complete. A
+188 bytes received in 0.1 1 seconds (1.64 
+ftp gel librarjaguide V ‘
+200 PORT command successful. .
+150 Opening data connection for lib. "
+(128.109.157.70.4263) (4517.2 bytes).
+226 Transfer complete.
+
+local: librarygur'de remote: libraryguide
+46571 bytes received in 0.66 seconds:
+Kbytes/sj ' 
+ftp quit
+
+Dissertations and Other Indexes
+
+General Reference Resources
+
+Humanities Resources
+
+Science Resources
+
+Social Sciences Resources "
+
+Library Catalogues ‘
+
+University Michigan Campus info; 
+
+(GopherBLUE)
+
+Other Gophers and Veronica
+
+What’s New and Featured Resources
+Gopher Menu
+
+Search Phone Book
+
+About Phone Book ' ,
+
+Add Your Electronic Mail Address
+
+View and Change Your X500 Entry
+
+Finger Services at the University'of Mic
+
+X.500 Gateway (search other places)
+
+Phone Books at Other Institutions
+
+More Information on X500
+
+In.
+
+ 
+
+20
+
+DESIDOC Bulletin of Inf TechnOli‘T:
+
+ 
+

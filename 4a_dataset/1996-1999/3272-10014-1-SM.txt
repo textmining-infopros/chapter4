@@ -1,0 +1,436 @@
+DESIDOC Bulletin of Information Technology, Vol. 16, No. 4, july 1996, pp. 9-1 2
+0 1996, DESIDOC
+
+Expert Systems and their Application in Library and
+Information Systems
+Dewendra K Singh*, Bhupendra K Singh* and Dr Yogendra P Dubey*
+Abstract
+This article describes the concept of expert. systems, its origin, features,
+advantages and its application in various areas of library and information
+system environment.
+
+1.
+
+INTRODUCTION
+
+One of the most rapidly ,growing and
+fascinating topic in computer science,
+psychology, linguistics and information science
+is expert systems. Expert systems are of recent
+origin barely mentioned in literatures just a few
+years ago. Now there is an extensive Literature
+with hundreds of books and artides on the
+subject. Several reviews have been published in
+the series of Machine Intelligence (published by
+Wiley and Elis Horwood) and in various
+volumes of ARIST.
+Expert systems belong to the broader
+discipline of Artificial Intelligence (Al) which has
+as
+been characterised by Barr and ~ei~enbaum'
+'the part of computer science that is concerned
+with designing intelligent computer systems;
+that is, systems that exhibit the characteristics
+we associate with intelligence in. human
+behaviour-understanding language, learning,
+reasoning, solving problems, and so onn. Al
+focuses on symbolic, nonalgorithmic problem
+solving methods. Of all the branches of artificial
+intelligence, expert systems hold the greatest
+potential.
+Department of Library and Inbrmation Science
+Banaras Hindu University,
+Varanasi-221005
+
+2.
+
+DEFINITION
+
+The field of expert systenls i s so new and
+rapidly evolving that defining the term is not an
+easy task. However, broadly speaking, "expert
+systems are computer programmes composed
+af ,bowledge base that contains the
+information supplied by the expert, and an
+inference engine that applies the appropriate
+information from knowledge base to a specific
+problem"2. The key feature of expert systems is
+that they involve modelling of the thought
+process of human experts who are very familiar
+with the given problem domain. For example, if
+an expert system is to be built that will serve as
+reference assistant, i t must be done by sitting
+down with expert reference librarians and
+asking them to codify the heuristics or 'rules of
+thumb' that guide them in their decision
+making. Thus, an expert system incorporates the
+knowledge of human experts (which is not
+otherwise available other than by consulting
+them), a human faculty of reasoning, and the
+modes of reasoning of those human experts3.
+
+3.
+
+FEATURES
+
+An alternative way of describing an expert
+system, as a series o i distinctive features; rather
+than a strict definition, is offered by ~ o r s ~ t h ~ .
+
+Singh et a1 :Expert Systems and their Application in Library and Information Systems
+
+According to him the expert systems have the
+following characteristics:
+
+e
+
+2.
+
+Expertise can be pooled when more than
+one expert contributes to the system
+development. The pooling exercise can
+assist in the refinement of the procedures
+and help to make them more consistent.
+
+3.
+
+Knowledge can be safeguarded, developed
+and distributed. Enormous sums of money
+are spent on training individuals, yet all their
+knowledge and expertise is lost when they
+die or leave the company. Expert systems
+offer a way of capturing this expertise and
+knowledge and at the same time making it
+available to other people.
+
+4.
+
+Expertise can be available. Since expert
+systems provide explanations for advice
+given they can be used 24 hours a day
+without the presence of the expert.
+
+5.
+
+Expert systems can be used for training
+purposes. The- problem-solving and
+explanation capabilities of expert systems
+are particularly useful in training.situations.
+Training can also be distributed throughout
+a company and done on an individual basis
+at times suited to the employee.
+
+Limited to a specific domain of expertise.
+
+a Able to reason with uncertain data.
+a Able to explain itself in a sensible way.
+
+*
+
+Deliveringadvice as output.
+
+e Designed to grow incrementally.
+te Having a clear separation of knowledge and
+inference mechanism.
+
++
+
+Typically (not necessarily) rule-based.
+
+* Always
+
+restricted to a narrow domain of
+expertise.
+
+e The expertise is acquired and codified during
+lengthy' interviews with ohe or .more experts
+in the.relevant domain.
+9 The expertise is codified as a collection of fscts
+
+and rules, which together constitutes the
+knowledge base. %
+
+The rules may be held as discrete production
+rules, or as a semantic network, or
+occasionally in some other way.
+
+It is sometimes assumed that an expert
+system should .be capable of 'natural languag&
+dialogue'. with the user. This view is however
+highly debatable, atid certainly many existing
+systems have no such features. Until computers
+begin to accept continuous spoken input, it is
+likely that the most efficient form of input will
+involve selection from menus, perhaps using a
+touch-sensitive screen; most systems will also
+require a facility for the input of words or
+numbers through a keyboard, and the
+appropriate 'mix' will depend on the problem
+domain.
+
+4.
+
+ADVANTAGES
+
+The motivation to use expert systems must
+lie in the benefits obtained. What then are the
+possible benefits? These would depend on
+individual situations but the general advantages
+summaried by orris' are listed below:
+1.
+
+10
+
+Experts can be freed from routine tasks and
+made available for more exciting, creative
+and demanding work.
+
+6.
+
+Expert systems can provide a standardised
+approach to problem solving.
+
+7.
+
+The development of an expert system offers
+the expert with an opportunity to critically
+assess and improve his problem-solving
+behaviour.
+
+8.
+
+The performance of non-experts can be
+improved over a period of time and they
+may eventually even reach expert status.
+
+9.
+
+In many situations, expert systems can
+provide solutions to problems far more
+quickly than a human expert.
+
+10. Expert systems have the potential for saving
+companies a vast amount of money, thus
+increasing profits.
+
+5.
+
+APPLICATION IN LIBRARY
+A N D INFORMATION
+SYSTEMS
+
+Expert systems have been used successfully
+in economic and industrial sectors, and
+increasingly they are being employed in service
+DESDOC Bulletln of Inf Technol, 1996,16(4)
+
+'
+
+Singh et ai : Expert Systems and their Appiicadjon in Library and Information Systems
+
+sectors including medical health care. Against
+this background, it is not surprising that the
+library and information services (LIS) sector may
+also explore the potentials of expert systems.
+Today the technology can boast a wide range of
+application areas in the field of library and
+information systems, some of which are
+discussed below:
+
+5.1 Administration
+Library administration must deal with
+complex problems on a day-to-day basis.
+Problems with budgeting, staff, and planning
+are just a few of the difficulties they face every
+day. During budget cuts, the administrator mGst
+determine what items to cut and by how much.
+Should staff be reduced? Should serials be
+cancelled? Will there be any money to buy
+books or equipment? An expert system could
+be helpful in assisting the administrator in
+making these decisions. One could develop a
+system
+composed
+of
+the
+heuristics
+(rules-of-thumb) that librarians use to make
+these decisions.
+
+5.2
+
+Staff Management
+
+In hiring, promoting and placement of the
+staff, an expert system might be useful. By using
+criteria such as qualifications required for the
+job and experience, an expert system could be
+used to assist in the hiring process. An expert
+system could be developed to determine which
+staff members should receive raises, disciplined,
+or dismissal.
+
+5.3 Planning
+An expert system using information from
+patterns and material usage could help plan for
+remodelling or new facilities. The system would
+help the administrator to determine where the
+circulation desk should be located, where the
+copy machine should be piaced, and where the
+OPAC terminals would get the most use.
+
+5.4 Technical Services
+More efforts have been in developing expert
+system applications for technical services. The
+focus of research efforts are witnessed in the
+
+DESlDOC Bulletin of lnf Technol, 1396,16(4)
+
+areas of cataloguing,
+collection development.
+
+classification
+
+and
+
+5.5 Cataloguing
+Expert systems have been developed to
+create MARC record6 and to apply some of the
+rules in AACR-2 for cataloguing. Roy chang7
+developed a cataloguing expert system based
+on the rules in AACR-2. H e determined that its
+usefulness was limited because the system had
+no means of interpreting the rules. In this
+opinion 'cataloguing problems today are too
+widespread For employing an expert system'.
+
+Classification is also a difficult area for an
+expert system. While there are guides to
+determine classification numbers and subject
+headings, there are no strict rules available, and
+the relationship between objects and classes
+are often ambiguous. Research is progressing in
+the development of systems for assigning
+subject headings and class numbersa' '.
+
+5.7 Collection Development
+There are only two possible responses when
+one considers new materials for acquisition or
+old materials for discarding; yes or no. With
+only two possible responses, it is easier to
+develop an $expert system. There has been at
+least one successful attempt at building expert
+system for collection development at Applied
+Physics ~ i b r a r ~ " .
+
+5.8 Reference Service
+Expert systems would be useful for assisting
+patrons in locating materiafs and information.
+Expert systems may prompt the user for the
+type of information needed and display
+materials that may contain it.
+
+CONCLUSION
+The usefulness of expert systems in library
+and information systems will depend on
+increasing power and efficiency of hardware
+and software. To be able to offer expert systern
+services to their clients, libraries will have to be
+involved in the following areas:
+
+11
+
+Singh eta/ : Expert Systems and their Application in Library and lniormation Systems
+9.
+
+Development of prototype'systems.
+
+9.
+
+Cevelopment of knowledge representation
+schemes.
+
+o Experimentation w i t h knowledge-based
+indexing, abstracting, and classification.
+
+o Experimentation
+
+with
+development environments
+domains of knowledge.
+
+specialised
+for specific
+
+As knowledge based exper: systems
+become more acceptable in the library
+community, libraries will begin to develop,
+purchase
+and
+maintain
+interactive
+knowledge-based expert systems for their
+clients.
+
+Reirieval. lournal o f Documentation. 1987,
+5. Morris, Anne. Overview of Expert Systems
+In The application of expert systems in
+libraries and information centres, edited by
+Morris, A, Bowker-Saur, London, 1992.
+p.3-4.
+6.
+
+Epstein, t i . An expert system for novice
+MARC cataloguers. Wilson Lib Buli 1987,
+62(5), 32-36.
+
+7.
+
+Chang, R. Developing a cataloguing expert
+system 111. Libr., 1990, 72(8), 592-96.
+
+8.
+
+Gibbs. Taylor Graham, New York, 1986.
+p.53-66.
+
+REFERENCE
+9.
+1. Barr, A. and Feigenbaum, E.A. The
+handbook of artificial intelligence. Morgan ,
+Kaufwaam, Los Altos, California, 1981.
+
+2.
+
+Holthoff, Timothy N. Library expert systems
+in encyclopaedia of library and information
+science. Marcel Dekker, New York. 1985.
+U. 38; 9. 158-75.
+
+3. Kemp, D. Alasdair. Compu.ter-based
+knowledge retrieval. Aslib, London. 1988.
+4.
+
+12
+
+Burton, P.F. Expert systems in classification.
+In Expert Systems in Libraries edited by F.
+
+Iravis, I. Applications of knowledge-based
+system to classification in libraries in expert
+systems in libraries edited by R. Aluri and
+D.E. Riggs. Ablex, orw wood, N.1, 1990.
+p.222-93.
+
+10. Debrower, A.M. and Jones, D.T. Application
+of an expert system to collection
+development : Donation processing at a
+special library. Libr. Software Rev. 1991.
+10(6), p.385-89.
+
+Bovey, J.D. and Brown, P j. Interactive
+document display and its use in Information
+
+DESlDOC Bulietin of Inf Technol, 1996,16(4)
+
+

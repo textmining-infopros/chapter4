@@ -1,0 +1,412 @@
+DESIDOC Bulletin of Information Technology, Vol. 19, No. 6, Nov 1999, pp. 9-15
+@ 1999, DESIDOC
+
+Software for Ranking lndian scientists Based on
+Citations to Their Publication$
+SC Saxena, Sonia Relan and SS Murthy
+ABSTRACT
+The paper describes the software developed at DESIDOC for ranking lndian
+scientists and technologists based on the c~tationsto their publications as
+covered in Science Ciktion lndex (SCI). The software projides facilities for
+generating reports on highly cited authors, highly cited journals, highly
+productive institutions, weightage of authorship etc. quickly. This measure
+could be one of the important parameters'for rating the performance' of
+scientists for giving awards, promotions or other career incentives and for
+making appointments to important positions.
+
+1.
+
+INTRODUCTION
+
+Citation counting is one of the often used
+methods of ranking' the performance of
+scientists and technologists in their subject
+fields. Presently, Science Citation lndex (SCI)
+published by lnstitute for Scientific lnformation
+(ISI), Philadelphia is the best source usually
+available for carrying out such citation studies
+but subscription of SCI is very expensive and
+data is also spread on many CD-ROMs. By
+using the SCICDs, one can firfd citation counts
+of different papers and other contributions
+made by scientia and technologists, and of
+their institutions and of the journals publishing
+these contributions. However, the search
+software provided in the SCl-CDs only facilitates
+search name after name for finding the citation
+counts of their publications and for making
+comparison among them. Such approach is a
+very time consuming and laborious process. In
+India, a few institutions like lndian National
+Scientific Documentation Centre (INSDOC),
+New Delhi; National Institute of Science,
+' Technology
+and Developments (NISTADS),
+New Delhi; lndian National Science Academy
+(INSA), New Delhi; etc carried out some
+bibliometric studies and they have also faced
+
+the same problems. Since it would be more
+convenient to have listings of rank-wise
+coctributions of cited authors, institutions and
+journals, it was decided to develop an
+application software for this purpose.
+For developing a software for quickly and
+almost automatically getting the desired citation
+counts, a project proposal was submitted to
+National Science and fechnol~gyManagement
+lnformation System (NSTMIS), Dept of Science
+and Technology (DST), New Delhi by Defence
+Scientific lnformation and Documentation
+Centre (DESIDOC), Delhi. The project was
+sat~ctionedby NSTMIS to DESIDOC in August
+1994. The software was developed as a
+part-time activity of the authors (in addition to
+the regular acitivities in their' respective jobs)
+and was capleted by the end of 1997 and it
+was demonstrated in early 1998. The software
+provides an automated method for determining
+and. listing the authors, and their institutions
+andthe iournals publishing their contributions
+in the order of their ranking in terms of their
+citation counts.
+
+1
+
+2.
+
+METHODOLOGY
+
+First, a close study was made of the
+structure of the SCI database and the search
+facilities available in the SCI search software.
+Then detailed specifications were drawn for the
+development of the so6are which would
+provide the following functions:
+(a) Identify the contributions by lndian scientists
+covered in the SCI database.
+(b) Download the bibliographic details of these
+contributions.
+
+3.
+
+LIMITATION OF THE SCI-CD
+SEARCH SOFTWARE
+
+The following limitations of the SCI-CD
+search software were observed during
+downloading the data from SCI-CDs :
+(i) Publications of lndian scientists who did not
+give the addresses of their affiliated
+organisation in India, could not
+downloaded, because lndia doesn't app
+as a search term in the corporate author fie
+
+(c) Arrange the down loaded details in
+alphabetical order by author, by title, by
+name of journal, by specific subject, by
+institution, etc.
+
+(ii) ~ublic"ationsof the foreigners who cite
+lndian scientists' work could not
+downloaded because in their addresses a
+lndia doesn't appear in the corporate auth
+fietd.
+
+(d) Generatingthe list of maximumcited authors,
+journals, maximum productive institutions,
+etc., both subject-wise and across different
+subject fields in the order of decreasing
+number of citations.
+
+(iii) Publications of .foreign scientists who g
+addresses ,of affiliated.organisations in In
+were downloaded because lndia appeare
+their addresses.
+
+(e) Append new data frorn various updated
+SCICD-ROM discs.
+
+3.1
+
+(f) Create various indices on various fields like
+author, title, journal name, corporate source,
+year, etc. to provide for faster search.
+
+After completing the system analysis, the
+software was developed in C++; as it is an
+object-oriented programming language with
+facility for fast retrieval from large databases.
+After the development of software, the data
+from SClCDs was down loaded. The data on
+lndian scientists from SClCD was searched by
+giving "India" as the search term, which is
+present in the field "corporate author" in the
+record of SCI. Except this key, there is no way to
+downtoad all the records on lndian scientists
+from the SCI at one time. The downloaded
+records contain the following fields, viz., author,
+tide of article, language, address of the scientists
+(corporate source), journal name, year of
+publication, type of document and cited
+author/reference details. Then using the
+software developed, the downloaded data was
+rearranged in the defined database structure
+and various indices were created on .different
+fields for conducting faster searches on
+individual fields or by combining two or more
+fields using Boolean logic operators.
+10
+
+Limitations of the SCICD for
+this study
+
+(1) Coverage of lndian contributions in SCI-CDis
+very low because SCI covers only 4500
+
+iournals and out of which the lndian journals
+are only twelve. For example, a subset
+SCI-CD on chemistry citation Index, whic
+was also used for this study, covers only
+lndian journals i.e. lndian Journal
+Chemistry
+Section
+Bio-Inorganic, Physical Theoretical
+Analytical Chemistry, lndian journal
+Chemistry Section &Organic Chemis
+Industry Medicinal Chemistry, Journal
+Scientific & Industrial Research an
+Proceedings of the lndian Academy
+Sciences-Chemical Sciences.
+(2) The structure of SClCD is so complexth
+is not possible to break the links among
+citations when data is download
+selectively. All the fields and subfieldscan n
+be downloaded separately because they
+are inter linked.
+
+(3) Lack of standardisation in some fields. For :
+example, if user wants to search or download j
+records for a particular institution say, lndian ;
+lnstitute of Technology, Delhi, it is not 2
+possible from the database to download
+DESrooC Bulletin of Inf Technol, 1999,19(6)
+
+k
+
+i
+
+,
+
+4.
+
+because of lack of standardisation in using
+the irames of the institutions and their
+abbreviations. Secondly, place name of the
+institutions is not indexed. Because of these
+problems the correct ranking of the
+institutions in terms of their productivity
+become difficult in many cases.
+
+SOFTWARE TESTING
+
+5.
+
+IMPORTANT OUTPUTS OF
+THE SOFTWARE
+
+The software provides facilities' for
+manipulating the downloaded data in different
+ways and generating various outputs. Some of
+the important reports generated by the software
+are as follows:
+
+'
+
+The software developed in C++ was 'tested
+at DESIDOC by downloading about 9400
+records of lndian authors (scientists) from
+SCUD database covering data for the period
+Jan-June 1993. Listings were created for
+answering some sample questions as :
+(a) who are the most cited lndian authors in
+physical chemistry, and their ranking?
+
+(b) which
+
+are the
+institutions whose
+authors(scientists) are most cited and what
+are the ranks of the institutions?
+
+(c) which are the journals whose papers are most
+
+cited and what are the ranks of these journals.
+Results of the searches conducted showed
+good performance of the software and meeting
+the objectives of the project.
+The project was reviewed in February 1997.
+Lt was decided in the project Review meeting of
+NSTIMS that DESIDOC should purchase a
+subset of science citation index viz. Chemistry
+citation index for further testing the software.
+DESIDOC purchased this subset in 1997 and
+downloaded the lndian contributions from
+1991 to 1997 from 7 CD discs of chemical
+citation index by conducting- search on
+corporate source field. The downloaded data
+was rearranged and searches were conducted.
+The results of the searches conducted showed
+good performance on this sample also.
+
+-
+
+(i) Ranking scientists, journals,
+discipline-wise
+
+institutions-
+
+- highly cited authors (Appendix-2)
+- highly cited journals (Appendix-3)
+
+- higlily productive institutions.
+
+'
+
+(ii) Weightage of authorship.
+
+6.
+
+EXPECTED BENEFITS FROM
+THE SOFTWARE
+
+The software provides a quick ' and
+automated method for ranking scientists and
+technologists for various purposes such as
+according recognition of their work and giving
+awards, and other career-based incentives. This
+software could be distributed by the
+Department of Science and Technology (DST)
+who sponsored this project, to the institutions
+receiving the SCI-CD for providing information
+on the contributions of lndian scientists,
+institutions and highly reputed journals, etc. It
+would also be useful to the scientists and
+institutions .studies and in the mapping of
+science in lndia. This software can also be used
+for providing useful information as mentioned
+above, even for relating other countries. In
+addition, the data downloadecl can be
+accumulated over the years and used for many
+bibliometric studies.
+
+lhe authors ue Scientists in ~ehnce>ienttific Infinnation and Davrncnktion Centm
+(DESIDOC), Metcalk House, Delhi 110054.
+
+-
+
+DESlDoC Bulletin of Inf Tecbnol, 1999,19(6)
+
+11
+
+Science Citations Retrieval System
+
+DESIDOC Bulletin of Inf Technol, 1999,19(6)
+
+Science Citafions Retrieval System
+
+DESIDOC Bulletin d l n f Technol, 1999,19(6)
+
+13
+
+Science Citation Index
+---.
+
+Highest Cited Authors
+First 25 ranks
+Citations
+
+537
+430
+322
+22 1
+192
+172
+152
+145
+139
+134
+130
+129
+118
+115
+113
+11 1
+110
+
+14
+
+.
+
+Name
+
+VOGEL A1
+SHELDRICK GM
+W A N MMT
+NAKAMOTO K
+COTTON FA
+LEVER ABP
+MEHROTRA RC
+
+I
+
+RAO CNR
+
+COREY EJ
+MATHUR P
+DEWAR MJS
+CHOUDHARYVR
+KUMAR A
+MEHTA G
+AMINABHAVI TM
+JOHNSON CK
+SINGH K
+DASH AC
+BROWN HC
+PEARSON RG
+SINGH B
+BHATTACHARYA S
+PERRIN DD
+GEARY WJ
+FIGGIS BN
+
+DESIDOC Rulletin of lni Technol, 1999,19(h)
+
+Science Citation Index
+Highest Cited Journals
+First 19 ranks
+
+INORG CHEM
+J PHYS CHEM US
+J ORG CHEM
+TETRAHEDRON LETT
+PHYS REV B
+J CHEM SOC CHEM COMM
+CHEM PHYS LETT
+TETRAHEDRON
+INDIAN J CHEM A
+PHYS REV LETT
+J CHEM soc
+J Ar'PL POLYM SCI
+J INDIAN CHEM SOC
+PWYTOCHEMISTRY
+INDIAN J CHEM B
+ANAL CHEM
+
+---
+
+DESIDOC Bulletin of Inf Tedrnol, 1999,19(6)
+
+:5
+
+

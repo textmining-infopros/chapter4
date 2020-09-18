@@ -1,0 +1,2058 @@
+DESIDOC Bulletin of information Technology, Voi. 18, No. 6, Nov 1998, pp. 5-23
+0 1998, DESIDOC
+
+Theoretical Aspects of Multimedia
+Ewald M Jarz*
+Abstract
+This article considers multimedia from three view points. The first comes
+from a science theory where the definition of the term and of the
+environment associated with it is defined. The second point of view is
+concerned with the knowledge acquisition through multimedia systems and
+the educational and psychological aspects are considered. The third point
+of view gives concrete instructions for designing multimedia systems.
+
+1.
+
+INTRODUCTION
+
+The strong technical orientation of the
+multimedia evolution shows a lack of
+theoretical foundation. Both during the
+evolution and application of multimedia
+technology, well-founded theoretical concepts
+are missing3'. Approaches for a new, yet
+unreflected multimedia paradigm can already
+be recognized in literature.
+On one hand, the chance for a higher
+quality of information representation is seen:'
+on the other hand scenarios with dramatic
+social effects of the multimedia technique are
+made''59.The intention of this contribution is to
+consider multimedia from three perspectives.
+The first point of view comes from a science
+theory, The definition of the term and of the
+environment associated with it is marked out. A
+classification of multimedia information and
+interaction types is given also as an overview of
+the problem fields of multimedia. The second
+perspective moves the human being as users of
+multimedia systems into the foreground. In this
+case my assumption is that information is
+transported by multimedia systems. The term
+information is nonetheless ambiguous. It stands
+for the process of information and it also stands
+for information itself as an entity. The term
+information system is normally used in the first
+DESIDOC Bulletin of Inf T i n o l , 1998,18(6)
+
+sense. However, the function of information
+always requires a human being as interpreter of
+information. From this viewpoint, information is,
+in the final analysis, knowledge which is stored
+in some form in the human brain. Therefore the
+second point of view is concerned with the
+knowledge acquisition through multimedia
+systems. The third point of view frees itself of
+theoretical considerations and gives concrete
+instructions for designing multimedia systems.
+
+2.
+
+WHAT I S MULTIMEDIA?
+
+2.1
+
+Multimedia in a broader sense
+
+The term multimedia i s defined differently
+by many authorsz8.Extensive consensus i s that
+the processing of the medias must occur
+completely in a integrated manner on a digital
+electronic basis and independent from each
+other.
+Medium in the material sense designates an
+'agent' between two or more communication
+partnersz0.The sender of a message must use a
+medium in order to send the message. A
+medium is first an information carrier. A sender
+produces a message by acting on a specific
+medium. For example sound is a medium which
+is formed by a speaker to be received by a
+listener. Further medias are for instance light,
+liquids, surfaces, solid matter bodies and so on.
+5
+
+Within the medias, one can distinguish between
+concrete medias and abstract medias".
+
+suitable as a valid multimedia definitions, since
+the human being is implied only in them.
+
+Concrete medias are carrier medias. For
+instance light could be a carrier media. Abstract
+medias use these carrier medias for
+communication like a reflecting surface.
+Abstract medias shape concrete medias in a
+way that these concrete ones contain
+information.
+
+A division of the medias by the human
+sense organs appears quite useful since the
+human being occupies a central position here.
+The stimulus arriving from the environment can
+only be received through the sense organs and
+processed
+for
+information
+about
+the
+modifications of the environment. Figure 1
+represents the communication form between
+human and machine.
+
+Abstract medias (e.g. graphics) can in turn
+be a foundation for even more abstract medias
+(e.g. writing), therefore also becoming a
+concrete medium and so on. These connections
+result in a hierarchy of using medias. After the
+structuring of different medias with a sender,
+receiver and medium, it becomes clear that
+there can be as many medias as desired,
+depending on the level of detail and the
+intended purpose.
+The question, when one can speak of
+different medias as 'multi' media, leads to
+infinitely many solutions after this division. As
+an alternative, the distinction of tfie medias after
+the human sense organs can be used.
+If 'medium' is an information carrier for
+communication--however information can only
+be activated by a subject (the human being,
+unlike the opinion in the information concept of
+Shannon)-only the perception medias are
+
+But this point of view is incomplete. The
+information, which the machine supplies to the
+human being, comes initially from a human
+being too. Consequently, Figure 1 is actually
+only
+one
+part of a human-rnachinehumancommunication.
+If the Information supplied by the computer
+is produced from itself and not from another
+human as a sender then it is actually a
+nature-machine-human-communication,
+because the computer processes data of the
+reality for the human in this way that it
+represents
+information
+for
+him
+(e.g.
+measurements, balance sheet analysis, statistical
+evaluations and so forth). Figure t is incomplete
+here too.
+If the transmitting and receiving human is
+the very same person (as for example, during
+text processing) one can not speak of a pure
+
+information
+
+ceiver
+Figure 1. Human-machinecommunication
+6
+
+DESIDOC Bulletin of Inf Techno!, 1998,18(6)
+
+human-machinecommunication since
+this
+constellation is nothing other than a
+human-machinehumancommunication, where
+the sender and receiver is the same person.
+However, the human-machine communication form can be used for theoretical
+considerations. The most important feature i s
+the action that initiates the machine to produce
+information. This action is either a command,
+that can also consist of a series of commands,
+or a temporal event. Due to this command,
+other command chains (programs) can be read
+back, which makes the machine send
+information. It is decisive that the action-or the
+command has nothing to do with the
+information itself. The command only causes
+the representation of information. This
+reciprocal action is described as interaction. For
+example, the interaction that occurs with the
+computer (keyboard, mouse, data glove, body
+location and so on), can be called an
+interaction type.
+The representation of
+information (such as text, image, movie, speech,
+and movement in the flight simulator and so
+forth) can be called an information type.
+Multimedia in a broader sense is therefore
+the completely digital,
+integrated and
+independent processing of different information
+types, which can be controlled interactively by
+the user through one or several interaction
+types. This definition still approves a large
+bandwidth of application areas.
+
+2.2
+
+Multimedia in a Narrower Sense
+
+The support of perception medias by input
+and output devices has been improved by
+developments the field of virtual reality
+(especially the development of datagloves with
+tactile feedback and so on in the medicine and
+flight simulators for pilot training). But mainly
+lowcost and market-maturity systems are
+available for the visual and auditory perception.
+The restriction of multimedia in these two fields
+is therefore a bimedia. However 'multi' is the
+way of the codification of information. Text,
+graphics, image, movie and animation are all
+different codification's
+within the same
+perception media: the visual perception; only
+the representation of information is different.
+Therefore multimedia can be seen as a
+combination
+of
+different
+information
+DESlDOCBulktin of lnf Technol, 1998,18(6)
+
+representations-the
+information
+types.
+Multimedia in a narrower sense refers only to
+audiovisual information types and the standard
+communication equipment like keyboard,
+mouse and its derivatives.
+
+2.2.1 Audiovisual Information Types
+If the term information type, takes the way
+of transmission between sender and receiver
+into consideration, then the essential distinction
+between continuous and discreet information
+can be made. Continuous information is
+timecritical or dependent from information
+sections following. on each other; the message
+is only valid and correct when time factor is
+includeds8.
+Discreet
+information
+is
+non-timecritical. The user can determine
+moment and duration of consideration.
+Auditory information representations are
+timecritical (continuous), image information is
+non-timecritical (discreet). But if several images
+follow each other (moving image), this result is
+timecritical again. Consequently, moving image
+is a separate information type.
+In addition to human language, there is even
+further (timecritical) auditory information, for
+example, noise (engine noise, bird chirp and so
+on) or music.
+The corresponding information type could
+be designated subsequently as a general term
+for language, noises and music either
+comprehensively as audio or there is a separate
+information type for human language and a
+further for noises and music. Since language is
+very important for the human being and a lot of
+study on the field of language input and output
+has been done (in particular in the field of
+artificial intelligence), it seems useful to see the
+human language as a .separate type of
+information. Accordingly, noise and qusic must
+be taken as a further information' t b ) at least
+together. The word 'soundf can seive as a
+general term for it (The border betyveeh noice
+and music is not very sharp anywai>spaciafly
+with respect to different subjective, aesthatical
+sensation). In the case of the discreet visual
+information types, the alphanumeric text seems
+to occupy a special position since it is the visual
+expression
+of
+the
+most
+essential
+communication form between people: the
+language. Therefore, alphanumeric text can be
+seen as its own information type. If text is the
+
+discreet counterpart for language, the score can
+be understood as a discreet counterpart to
+music and/or noise (sound) and therefore a
+separate information type. In this case, the note
+values of a score are comparable with the
+alphabetic characters of a text. The
+representation form score does not appear
+suitable to represent the information noise (or
+better: all other auditory information except the
+human language and music) at the first sight.
+The existing possibility of MID\-and synthesizer
+technique allows the codification o f several
+noises as note values. Like text compared to
+language causes a loss in the value of
+information (keyword rhetoric/accentuation),
+the loss of information of the score compared
+to music and noise can be seen.
+Any other discreet, visual information
+representation can be described as an image
+where one distinguishes often between graphics
+pro zessing (and/or graphic data processing)
+and image processing". This distinction refers
+to the different processing technology: Vector
+orientation in the case of graphics and point
+orientation at images. Despite o f the already
+strong mixing of both processing techniques at
+corresponding graphic programs 'image' is
+described as an arranged amount of picture
+elements (pixels) and "graphics" as drawned,
+schematic chart representation of information
+even if with vector oriented graphic
+photorealistic images can be made already. The
+retention of the division image/graphics is
+reasonable if a photorealistic representation is
+meant by image and a schematic representation
+is meant by graphics even if the image was
+made vector oriented and the graphic point
+oriented. Under this aspect, a visual, discreet
+information is represented either as inforniation
+type image in a (photo) realistic way or as
+information type graphics in a schematic way.
+The continuous counterpart for the discreet
+information type image is the moving image.
+Photorealistic moving images are in general
+described as movies. The term for schematic
+moving images is trick movie or animation.
+Therefore,
+in
+continuous,
+information,
+representations can be distinguished between
+the (photo)realistic information type movie and
+the schematic information type animation even
+if the movie is made vector oriented and the
+admation point oriented.
+
+The second essential distinction in the way
+of information representation is-in addition to
+the temporal dimension-the spatial dimension.
+People receive audiovisual information also
+spatially because of the two by two
+arrangement of the sense organs eye and ear.
+Traditional visual output devices like monitor
+and paper support only two dimensions.
+Perspective representations try to simulate the
+third dimension.
+However, real spatial visual representations
+are only possible with stereoscopic output
+devices2. The auditory information reception
+can be seen as analog. The most auditory
+output devices provide only a two-dimensional
+representation. Stereo sound systems try to
+simulate the third dimension but real spatial
+hearing experience can be produced only by
+sound systems beyond quadrophony which
+support sound sources from lefvright, front/rear
+and abo~e/below~~.
+The third essential distinction in information
+representation is the inclusion of the acting
+human being. In the case of the information
+types described up to now, representation of
+information is independent o f the actions of the
+user. On\y the viewing moment, duration and
+time sequences can be determined by the user.
+These information types can be designated as
+passive. If the representation of information
+changes depending on the actions of the
+observer, one can speak of an active
+information type. This form can be found in
+multimedia applications above all at spatial
+visual representations.
+If a body (e.g. a die) is represented, three
+faces are at the most simultaneously visible. If
+the die can now be turned by the observer, the
+already existing but hidden information of the
+remaining three faces is available for the
+observer. This information representation can
+be designated as an object. In this case, the
+viewpoint of the observer (perspective) is fixed
+and the position of the object can be modified
+in relation to it. This information type is to be
+taken as discreet, because there is no time- or
+order-critical continuum necessary for the
+modification of the position. If the position of
+the object during information representation
+does not change but the viewpoint of the
+observer changes, then this is a further
+DESlDOC Bulletin of Inf Technol, 1998,18(6)
+
+information type. During the representation of
+only one object, no essential difference to the
+information type object-with the exception of
+shadows-is
+recognizable. Only if several
+objects are represented simultaneously, the
+change in the perspective of the observer
+becomes important. The information can be
+experienced only by a continuous change in the
+perspective of the observer. This information
+type can be designated as 'world' and is in
+particular used on high performance systems in
+architecture and in the game sector+3g.
+The multimedia information types for
+audiovisual information representations can be
+listed as shows in Figure 2.
+The (vertical) convertibility of an information
+type to another one of the same perception
+media can be seen as a criterion for the
+selectivity of this division. If an information type
+can be converted simply, this information type
+is not unambiguous.
+The textual description of an image, for
+instance, is only very difficult to convert into an
+image and vice versa. In all cases of the
+classification in Figure 2-with the exception of
+pure numeric values of the information type
+text-is the convertibility within z perception
+media hardly attainable. The conversion
+between image and graphics seems to be the
+most possible. But the pattern recognition
+process necessary for it is quite complex here
+too and the present work to this supply only
+results at comparably simple examples (ref. 16;
+ref. 8). The (horizontal) convertibility of
+information types from discrete to continuous is
+easier between different perception medias.
+Text conversion into speech (speech
+synthesis) is as available as speech recognition
+(ref. 58, p. 39ff & p. 45ff). Score conversion into
+music or noise is manageable through MIDI
+engineering (ref. 58, p. 33ff) and also tone
+recognition with automatic notation is available
+for several instruments". However, continuous
+information types also include information
+which must get lost by the conversion.
+Language reduced to
+text
+loses the
+accentuation and rhetoric, sound reduced to
+score loses the musical expression.
+The representation of information mostly
+occurs not only in just one information type. All
+DESIDOC Bulletin of lnf Technol, 1998,18(6)
+
+Time representation
+
+Figure 2. Classification of audiovisual
+information types
+information representations can yet be traced
+back to single informatioh types or their
+combinations. The classification is built up
+hierarchically from bottom to top. That means
+that every information type can include the
+information type lying under it and/or is built
+up from them. Every information type yet offers
+a representation of information, which contains
+more than the sum of the information types
+contained in it. In such a way, an image, for
+example, can also contain graphics, score and
+text or a movie also language and sound (e.g. a
+musical).
+The classification of the proposed systematic
+of information types is selective and has the
+advantage that during the design of multimedia
+information systems it clearly shows which
+basic (combination-) possibilities for the
+representation of information exists. The
+structure replaces the term 'medium' in
+previous multimedia definitions by the term
+'information type'. On this basis, a theoretical
+multimedia paradigm can be developed, in
+which statements about mutual reciprocal
+actions of the single information types during
+the audiovisual information reception of the
+user are possible.
+
+2.2.2
+
+Interaction Type
+
+caused (how for example pressing the escape
+key can cause the termination of a movie) or
+virtual symbol generators or pointing devices
+can be addressed. The most frequent case is
+clicking a-virtual--button with the mouse and
+therefore the release of specific actions.
+
+The techniques of the human-machine
+interface developed maturity, where the results
+o f the research in different approaches are
+summarized in the first theoretical conceptsq.
+Another classification is presented here, which
+illuminates less technicai but more functional
+aspects, shows a stronger degree of abstraction
+and defaults a framework for the design of
+multimedia applications,
+
+A virtual button can also be pressed with the
+keyboard as for instance by hitting the
+return-key for confirming the request for saving
+a file in a dialog box. However, other symbol
+generators as for instance voice or &sture
+controllers can also call this choice. Activating a
+virtual pointing device such as a control dial
+can also occur either through physical pointing
+devices (setting with the mouse) or through
+physical symbol generators (adjustment with
+key combinations).
+
+The type o f donator, the type of control and
+the type of action possibility can determine the
+possibilities of data entry of the user. The type
+of donator can be either a pointing device,
+which produces spatial references, or a symbol
+generator which causes predefined planned
+reactions. The type of control can be either
+physical or virt"ai2" The type of action
+designates those variants which the user has in
+communication with the machine: either the
+selecfion of predefined items and/or the calling
+of predefined functions (static) or the varying of
+already available objects and/or input of new
+values (dynamic). Figure 3 shows the
+connections.
+
+The different interaction types can cause a
+planned reaction. The planned reaction is
+identical, however, it becomes amenable to the
+user in different ways which are differently
+suitable depending on the function of the
+planned reaction.
+
+The variants in the individual fields represent
+the interaction possibilities. The communication
+with the computer first occurs ''a a p h ~ i c a {
+jnterface
+That can be either a
+8enerator-aS for instance the ke~b0ard4r a
+pointing device as for example the mouse. In
+this way, either an action can immediately be
+'
+
+In this case, two ways of experiences of the
+user which are caused bv communication with
+the computer can be distinguished (ref. 35; ref.
+36, p. 1 12ff):
+~ i ~ ~ t
+wherethe
+has
+the feeling to release an action directly. A user
+has for instance while activating a button on
+
+Figure 3. interaction type
+DESIDOC BuNetin of Inf Techno!, 1998,18(6)
+
+Touch-Screen the feeling to press the button
+directly and itself.
+
+Second person experience: Where the user has
+the feeling that by his action a planned reaction
+i s releases indirectly. While activating a button
+with a mouse, the user has the feeling that the
+button was pressed via clicking the button on
+the mouse.
+In this way, it becomes clear that the
+experiences, which a user has during the use of
+different input devices, are different, although
+the result of the action is identical. This
+distinction aliows the division into direct
+(possibility of the first person experience) and
+indirect (possibility of the second person
+experience) physical donators.
+By interactions events arise which in turn
+supply the corresponding results. Table 1 shows
+the list from user-controlled events and its
+result. Activated means that the corresponding
+donator was released. A button is activated for
+example if it is pressed. At pointing devkes
+activated means 'that the position, which the
+pointing device supplies, is marked. In such a
+way, pressing the mouse button on a specific
+place is the activation. Pointing devices can be
+activated and/or in motion.
+If a pointing device is activated and if it is
+moved simultaneously then the interaction type
+'adjust' or 'set' can be caused. In this case, a
+drag-anddrop event is ako caused in some
+systems. An object becomes marked, taken to
+another place (drag) and put there (drop). This
+went provides a field code within which the
+movement occurred.
+
+If a pointing device is not activated and only
+moved it causes a movement event. This event
+provides a movement code, which indicates
+position, position modification rate and
+direction. Not all pointing devices provide a
+movement code. Touchscreen and illuminated
+pointer cannot generate an enter-and leave
+event since this is in their case always an
+activated event. If the position indicator
+achieves virtual objects (e.g. a button on the
+screen), it causes an entry event. If it leaves the
+object, a leave event i s caused.
+If the pointing device is not moved but only
+activated, so the interaction type click is
+caused. The event down (activated) provides
+the position code of the click. By combination
+of down and up (down, up,'down+up = click,
+doubleclick, triple click and so on) different
+functions can be called at a position. If the
+pointing device i s neither moved nor activated,
+only a temporal event (timer) can occur, that
+provides a time difference. If a symbol
+generator becomes activated, it causes the
+interaction type 'select' or 'input'. The event
+down (=pressing of a key) provides the key- or
+symbol code, depending on the type of the
+y m b o l generator. Different functions can be
+caused by combination of keys (e.g. shift key +
+key a = A).
+If the symbol generator is not activated, also
+in turn only a temporal event (timer) can release
+2 function and supply a time difference as a
+result. With the classifications of Figure 3 and
+Table 1, the interaction variants of the users and
+their effects can be described completely. This
+division represents the basis for
+the
+Not Activated
+
+Activated
+Event
+
+Result
+
+Event
+
+Result
+
+In m t i o n
+
+Control
+drag & drop
+set
+
+Area code
+
+rnove
+enter
+leave
+
+Motion code
+
+Not in motion
+
+Click Doubleclick
+down
+
+Position code
+
+timer
+
+Time
+difference
+
+Pointing
+Device
+
+UP
+
+!
+
+i
+
+Symbol Generator
+
+1 Down
+I UP
+
+Wahl
+Eingabe
+
+Key code,
+Symbol code
+
+Time
+difference
+
+Table 1: Interaction events and results
+DESlDOC Bulktin of Inf Technol, 1 998,18(6)
+
+11
+
+development of multimedia applications.
+Development-4and application environments
+must support the interaction events and the
+processing of its results.
+
+3.
+
+MULTIMEDIA THEORY
+
+3.1
+
+Educational Aspects
+
+At the constuction of multimedia learning
+systems and mass information systems-in case
+of the technical-systemic point of view-the
+transported information is in the center of
+interest. In other paradigms (social, behavior
+oriented, psychological, didactic ones and so
+forth), this information is designated as
+knowledge. Knowledge is here the way people
+understood and stored informationa9.From the
+learn-theoretical point of view, the disciplines
+pedagogy, education and didactics observe the
+multimedia evolution in part critical.
+Knowledge psychology supplies concrete
+action instructions from the cognitive point of
+view."
+is
+for
+media
+science
+and
+media-psychology Multimedia the fusion of
+computer, television and telephonez'.
+The multimedia technique is meanwhile
+available on low-cost personal computers and is
+no longer a major problem. The width of the
+abilities in order to make and edit all
+information types, which are necessary, is much
+more difficult. Table 2 shows a selection from
+occupational groups into which competence
+the variety of multimedia information types
+plays a role. For a multimedia production,
+additional
+comprehensive
+network-and
+programming techniques, dramaturgical, media
+didactic and learn-psychological knowledge are
+required. Lopuck says to this: "A jack of all
+trades is a master of none"".
+Therefore, the evolution of a multimedia
+application is, from the beginning condemned
+for failing since billing is too little available for
+professionalization either or on the other hand
+forces the-authorized-question on it, whether
+such massive resource effort has in fact a
+corresponding benefit?
+The answer of this question applies to
+benefit and this is based again on the scope.
+Above all, in two fields, multimedia technique is
+forced: in the field of the mass information
+
+medias (electronic newspaper, pay television,
+kiosk systems, presentations, advertising and so
+forth) and in the field of (virtual) learning. In the
+first field a benefit can easily be found, but in
+the field of learning systems this is much more
+difficult. However, both fields have many
+common characteristics. In both cases, the
+objective
+is
+to
+transport
+information
+(knowledge) to people and to prepare it in such
+a way that acquisition and application of this
+knowledge i s supported.
+In the 17th century, Comenius thought
+about the efficiency of the teachirig/learning
+process. In his book Orbis Sensualium Pictus,
+which appeared in 1658 in Nuremberg, he
+argued that the subject should be provided via
+as many senses as possible. His fundamental
+book Magna Didactics influenced the design of
+teaching machines over centuries. Skinner
+developed the idea of 'programmed learning'
+and formulated, in 1958, seven rules which
+were the basis of computer-assisted teaching
+machines developed in the sixties and
+seventies. These didactic software became
+known as CBT (computer-based training) and
+were, in the beginning, not very user friendly
+and required a connection to a mainframe. CBT
+developed a new market, that was flooded with
+monotonous and pedagogic useless programs.
+Therefore, i t was not amazing that the initial
+euphoria deviated fast to a reasonable.
+skepticism and the approach failed to a large
+extent.
+With the evolution of high-powered
+hardware at small prices, new technical
+possibilities
+seemed
+to
+balance
+the
+shortcomings. The multimedia technique
+already comes close to the thought of
+Comenius on using several medias. But
+regardless of the way of information
+representation didactic conception stuck to the
+behavioristic approach. Many multimedia
+programs are still teaching programs.
+
+3.2
+
+Psychological Aspects
+
+The combination of different representation
+possibilities in only one system inspired the
+multimedia euphoria at the end of the Eighties.
+Especially in the case of learning systems, the
+expectations were particularly high. Figure 4
+shows the naive expectations about the effect
+DESIDOC Buktin of Inf Technol, 1998,18(6)
+
+Occupational group
+Discreet
+Information type
+* Setter
+Text
+* Printer
+* Writer
+
+* Composer
+* Arranger
+
+Score
+
+Continuous
+Information type
+Speech
+
+1 Occupational group
+'I
+
+: * Speaker
+
+-
+
+/ * Sor~ndengineer
+Sound
+
+* Sound Technician/rnixer
+* Musician
+1 * Singer
+* Sound Effects
+* Animator
+* Modeller
+* Computer animator
+* Digital assistant
+
+1
+
+1
+Layout man
+
+Graphics
+
+Movic
+
+* Desktop publisher
+'
+
+Image
+
+1
+
+* Painter and draughtman
+* Graphics designer
+* Illustrator
+* Photographer
+* Retoucher
+* Image editor
+
+* Director
+
+* Scriptwriter/dramatic adviser
+* Cameraman
+* Actor
+* lllurninator
+* Cutter
+* Digital effects & assistant
+
+i
+Object
+I
+
+" Architect
+* Modeller
+" Computer illustrator
+
+World
+
+* Architect
+
+* Computer graphics
+Real-time specialist
+
+I * VR Oesipner
+Table 2: Competence of traditional occupational groups in the case of multimedia information
+types
+
+of sense modalities and learning activities on
+memory performance. This representation is
+very popular in many publications, however a
+source founded scientifically has not been
+found.
+Such expectations are based on a
+summation hypothesis. According to that the
+memory performance of hearing and seeing is
+the sum of the two channels (20% + 30% =
+SO%), very according to the motto: "A lot hejps
+a lot!" For this totalization hypothesis, two
+theories are stated as an argumentation: the
+dual coding theory of ~ a i v i o ~ ~ a
+the
+n dtheory of
+hemisphere specialization. Both theories start
+from the assumption that information
+depending on codification is processed by
+different -cognitive systems. However, the
+summation hypothesis was not confirmed by
+empirical works but falsified in so far that even
+further factors like pre-knowledge, order,
+content and so forth play a decisive role at
+memory performance (see ref. 62, p.69ff).
+DESlDOC Bulletin of Inf Technol, 1998,18(6)
+
+However, the different ways of information
+representation advise the suspicion that they
+are suitable for different purposes. For this
+purpose, a serles of experiments were
+undertaken, to classify them according to one
+or several features and to assign them to
+didactic functions. In this case, the information
+representations were designated as medias. So
+a number of media taxonomies have been
+developed with different feature categories,
+those were based on general pedagogic
+knowledge about direct and indirect and/or
+media mediated experience processes. Most of
+the ideas represented today for the use of
+multimedia information representations are
+based on origins from the postwar years.
+Dale in his work about audio-visual
+education methods, which appeared for the
+first time in 1946, proposed to divide the
+process of knowledge acquisition according to
+i t s concrete steps". As one of the first media
+taxonomies the media-rating table of Gagne
+13
+
+Figure 4. Naive assumptions about the effect of sense modalities and learning activities on
+memory performance {ref. 62, S.68)
+
+from 1965 is known, where a selection of
+medias has been rated concerning their
+suitability for adoption of teaching functiondJ.
+The Gagne model is tested empirically
+comparably well, however, it already shows
+strong
+indefiniteness
+within
+individual
+information types. This is an indication that not
+only the information presentation is important
+for remembering and the thesis of "A lot helps a
+lot" is not tenable here too.
+
+A lot of further media taxonomies have been
+developed (for example see ref. 18, p.186)
+however they have been proven theoretical as
+well as practical as unsatisfactory at all. The
+classifications were too general both with
+respect to medias and to teaching functions and
+learning aims in order to provide a
+psychologicdidactical frame theory for the use
+of medias (see ref. 24, p.536). They
+concentrated on the didactic functions but
+neglected the learning processes. Moreover
+than
+factors like costs,
+organization, time requirement and so forth
+have
+been
+their real influence.
+
+in accordance with
+
+The
+Aptitude-Treatment-lnteractionapproach (see ref. 24, S.537f) (ATI) attempts to
+include the learning processes and the personal
+structure of the learner. The assumption here is,
+that learning in general and learning effects in
+particular are the result of reciprocal actions
+14
+
+between instructional measures (treatment),
+including the use of medias, and individual
+features
+of
+the
+individual
+learner
+(aptitudes/traits). But the AT1 research only
+brought little findings-concerning the media
+aspect-which can clainl certain universality
+(ref. 24, p. 537).
+If the individual structure of the learner is
+decisive for the memory performance it
+appears only natural that each person
+experiences the information representations
+differently and therefore no universa\ statement
+can be made. With that, the way of information
+representation becomes secondary and the
+instructional method gains importanceb2.The
+basic setting of the application, the fixing of the
+user role, of the tasks and of the situation is
+primarily decisive. Only after these points are
+determined, the information presentation i s
+im~ortant.
+How can the information representation be
+correctly for the jnstructjon
+if
+different persons are to be assigned to very
+different learning types? It would be the logical
+consequence of this to represent every content
+in all .information types 'and to let .the user
+choose which representation form corresponds
+best to him. However, this consequence i s more
+a fear scenario for every producer and designer
+of a multimedia application, because in this
+way, neither a harmonized screen design can
+DESIDOC Bullelin oilnf Technol, 1998.18(6)
+
+be maintained nor a cost framework can be
+kept. Only user classes can still be defined and
+maybe some few sections can be presented in
+accordance with the user classes. But the
+expenditure is
+enormous because the
+production of multimedia applications is very
+highcost.
+If there is no unambiguous generalizeable
+correlation between memory performance,
+personality structure or pre-knowledge of the
+learner and the information types, it can now
+be presumed that it is just in reverse. The
+individual information types themselves have
+very specific strengths and weaknesses. If they
+are combined reasonably, they can support
+mutually themselves either or else destroy the
+effect.
+The strengths and weaknesses of the
+information types then encounter the individual
+strengths and weaknesses of the user ('learning
+type') and can, depending on the constellation
+(strength encounters weakness, or vice versa),
+cause positive or negative effects. What can the
+strengths of the individual information types be?
+Kracauer supports an idea to this with his
+concept of the 'aesthetically principle': the
+performance within a certain medium is artistic
+all the more satisfactory, the more it comes
+from the specific qualities of this medium."
+Accordingly, it is possible that there are specific
+qualities for each information type, by means of
+them its use in every case in every application
+can always be decided again. In the following
+list are particular qualities of the information
+types pointed out.
+
+3.2.7 Text
+Specific quality of the information type text
+
+is the individually settable studying rate. Every
+reader has his own rhythm. He can read
+sentences again, think the formulation over and
+so forth. Text i s a redundant language. Through
+this redundancy, it i s possible that the contents
+can be understood flexibly. It is suitable as
+hollow studying. In multimedia applications, a
+longer reading of text is made more difficult by
+the small screen resolution. Consequently, text
+appertains better into printed formats, e.g. into
+a book in which one can become immersed.
+Text in multimedia applications has more
+decorative and symbolic
+character for
+DESIDOC Bulletin of Inf Technol, 1398,18(6)
+
+statements or denotations in graphics.
+
+3.2.2 Speech
+Speech is continuous. Even if the spoken
+sentence can become repeated, no thorough
+studying is yet possible. Speech can introduce,
+give surveys, stimulate, and tell. Since the
+speech between people requires a dialog and
+the computer is (still) not capable of a
+natural-language dialog, it can only be used in
+such systems as additional information;
+particularly where the visual system would be
+superloaded by additional text reading. Speech
+is ideal as an explanation of animation if it is
+synchronized with the events on the screen.
+Speech as a voice melody (e.g. as a rhyme) can
+cause strong memory effects.
+
+3.2.3 Score
+The score has its strength at the composing
+or the analyzing from music and/or sound. It is
+the text of the melody and is suitable for those
+who reproduce or want to study i t in widest
+sense for musicians. Ideal is the combination
+with sound if in this case the sounds played
+currently are emphasized or characterized
+visually.
+
+3.2.4 Sound
+The sound, as music or noisei is able to
+wake emotions. Music can stimulate moods or
+cause relaxation of mind and body. Sound can
+become the sign of recognition, the leitmotiv,
+or through combination with interaction types
+develop a 'feelingf for the corresponding
+actions (e.g. audible button clicking). The
+combination of sound with animation, movie,
+object and world to produce realistic effects is
+ideal.
+
+3.2.5 Graphics
+Strength of graphics is to represent a
+context, if this can not be preserved in reality or
+if it is too complex to recognize it. Graphics are
+discreet. The user himself determines viewing
+moment and duration. In this way, graphics are
+very suitable for the individual studying and
+analyzing of connections. The combination with
+text is good since both are discreet
+representations and if the text refers exactly to
+the
+graphics.
+Graphics approve
+more
+
+interpretations than the image and can be used
+better for the support of mental models.
+
+effect of small flexibility: so how the movie
+shows it, it is and not different.
+
+3.2.6 Animation
+
+3.2.9 Object
+
+The animation has its strength in
+representation of temporal dependences, that
+in reality either can not be preserved or are too
+complex to understand their connections.
+Compared to graphics the advantage is at
+connections where only movement explains the
+function. In such a way, the functional
+representation of a motor i s for instance very
+suitable for an animation representation. The
+combination with speech and/or sound is ideal.
+Synchronous speech helps to understand the
+representations and compared to addjtional text
+there i s no change of the view of the user
+necessary. A further strength of animation is the
+decoration function. Through effects combined
+with sound interest and attention can be
+woken. Animation supports like graphics the
+foimation of mental models.
+
+The strength of the object lies in approvrng
+of many possibilities, in trying out, in combining
+
+3.2.7 Image
+The image represents an integrated
+connection. The image is very much related by
+its photorealistic representation to the concrete
+contents. Unlike text, the contents are
+non-flexibly interpretable. It is the question that
+how the image shows a thing. Image has the
+strength in the good situation function. Because
+of the reality proximity, recognition of the
+contents represented in the image is slightly
+possible. Moods can also be influenced by
+images. In this case, the combination of image
+with sound i s very effective. Images are just as
+well suitab!e for the extensive considering and
+the recognition of details as for joining of
+associations.
+
+3.2.8 Movie
+The movie shows temporal dependencies in
+realistic form. Its strength is the authenticity as
+fact movie or the waking of emotions in the
+feature film. Through the possibilities of fixing
+technique, temporal and spatial distances are
+deliverable without linguistic communication.
+Ideal is the combination with speech and sound
+to produce either more reality or stronger
+emotions. The memory effect and the situation
+function i s very high here too but also with the
+
+elements. Complex units, wh~chcan only be
+experienced by a person oneself, are
+reasonable contents. The interactivity is high
+here. In this way, constructivistic paradigms can
+be put into action. All discreet information
+types can be available with h e i r respective
+strengths and their weaknesses as an object.
+The combination with sound can still increase
+the empirical values if actions are coded
+auditory.
+
+3.2.10 World
+The strength o i the world lies in the spatial
+visualization and the orientation. Strong
+emotional and playful references can be built
+up by tridimensional representations. Impressive
+scenarios, which can lace the user emotionally,
+can be made by combination with objects and
+all other information types.
+However, there is mostly no exclusive
+information representation through nonlinear
+techniques. Through hyperlinks, additional
+information can be called as text, an animation
+or graphics for an explanation. The effort and
+the combination of information types are
+dependent from many factors. Some are
+pointed out, many'-ones still lie in the field of
+the
+future
+research.
+The
+always-new
+combination or performance of information
+types always let new possibilities appear.
+However, a specific mix can often become a
+'trademark' of a producer and information
+types can be used 'alien' by violation of the
+aesthetic principte yet achieve reasonable
+effects.
+
+4.
+
+DEVELOPMENT OF
+MULTIMEDIA SYSTEMS
+
+The characteristic feature o i multimedia
+developments is its interdisciplinary nature. To
+meet the bandwidth of ail fields a
+comprehensive approach is necessary. A
+purposeful planning can develop multimedia
+systems, which also place the program in the
+DESlDOCBulletin of Inf Technol, 1998,18(6)
+
+entire environment. The environment in that
+system should be used and the reference
+framework must be considered too. The
+conception is to be checked depending on
+application and is to be created again.
+However, heart of planning is the multimedia
+Storyboard. Scenes and action possibilities of
+the user are recorded in this document. The
+development of the Storyboard is a process in
+which a lot of creativity and media didactic
+knowledge is necessary. The Storyboard is then
+the basis for the programming and production
+of the individual information types (movie,
+sound, speech, image, text and so forth). At the
+beginning of the work on the storyboard users
+should be involved continuously and their
+suggestions from the accompanied evaluations
+on prototypes should be included. A
+multimedia
+director
+coordinates
+the
+harmonization of the information types with the
+didactic setting. Multimedia applications show
+many similarities with film and television. In
+such a way, editing guidelines are here also
+necessary for the preparation and above all
+maintenance and/or updating of the contents.
+In
+the
+Storyboard
+educational
+and
+psychological aspects of multimedia manifest itself.
+Interaction types and information types are
+combined together in an evolutionary, creative
+process. In the Storyboard appear the
+environment the frame story as well as the
+individual information representations and its
+triggers.
+Basic principles can be used for the design
+of the Storyboard. These basic principles
+presented here are abstractions worked out by
+me inductively both from own experiences
+during the development of multimedia systems
+and of different sources of literature which
+more or less explicitly refer to these principles.
+However, these basic principles are in the final
+analysis heuristic theses. In Table 3, the basic
+principles described in the next two sections
+are summarized.
+The basic design and technical principles are
+comparable with necessary conditions, which
+are important for acceptance of a multimedia
+application. However, they are no sufficing
+conditions for success of the application. In this
+way, a comparison can be set up with the
+
+DESIDOC Bulletin of Inf Techno!, 1 998,18(6)
+
+two-factor-theory from Herzberg: the basic
+principles are a kind of hygiene factor, which
+influences only a dissatisfaction scale. If they
+are sufficiently fulfilled,
+only a small
+dissatisfaction results, if they are disregarded,
+dissatisfaction
+increases.
+Completely
+independent of the dissatisfaction scale i s the
+satisfaction scale, which can be seen as
+motivation factor. The entire contents-related
+and didactical setting influences the motivation
+factor.
+
+4.1
+
+Basic Design Principles
+
+The basic design principles (see ref. 40, p.
+52) are already needed at the first Screen
+design. They are to be understood in such a
+way that there are exceptions to the basic
+principle which can lead consciously to specific,
+desired-even often very creative+ffects.
+
+4.1.1 Multiple Codification
+The simultaneous responding of several
+input channels can increase the memory effect
+of
+information
+representations. Essential
+elements should be multiple coded. A multiple
+codification can be achieved.
+
+Within the information type: Different content
+fields (information connections), which are
+represented with the same information type,
+are coded differently by varying of general
+design parameters (e.g. color or element order).
+So the colour of the background in an
+information connection for instance can be red
+and in another one green.
+By different information types: In accordance
+with the dual coding theory of Paivio (see ref.
+50) and the learning model of Vesterq it is
+reasonable to offer the identical information
+contents by a combination of different
+codification (information types). The choice of
+the right combination of the information types
+should occur in accordance with their strengths
+and weaknesses.
+
+4.1.2 Interaction Transparency
+The
+basic
+principle
+of
+interaction
+transparency is that the user can realize at any
+time, both the interaction facilities which are
+available in a scene and their effects after the
+interaction. An example to this is pressing a
+virtual button with the mouse. If the user
+
+Basic technical principle
+Basic design principles
+User control
+* Multiple codification
+* Interaction transparency
+* Acceptable quality of information representation
+* Metaphor consistence
+* System feedback at acceptable respons time
+* Interaction consistence/functional coherence
+* Expectation mapping
+.* Active orientation support
+* Fewer is more
+* Transparency
+* lnteraction minimization
+Table 3: Overview of the basic principles of multimedia applications
+announced for the user that an activatable
+information chunk is available here. If the user
+has pressed the button, he immediately sees the
+effect of his interaction e.g. that the button i s
+represented inverted, which looks like 'pressed'.
+
+4.1.3 Metaphor Consistence
+The basic principle of metaphor consistence
+says that the stylistic devices, which are used in
+the application, should match the cognitive
+models from the everyday life environment of
+the users. The literary terms, which emboss the
+connotative importance of the metonymy and
+of synekdoche, are fundamental for metaphor
+formation. Metonymy is a turn of speech in
+which an associated detail is used to represent
+an idea or a notion. Therefore maybe the crown
+is a sign for a kingship.
+Synektoche is a turn of speech, where a part
+stands for the whole and the whole stands for a
+part (e.g. the car for the engine or the wheel for
+the car4@).
+Thus, if a virtual button is pressed in
+an application,
+a reasonable metaphor
+consistence is a sound, which simulates the
+clicking of a physical key. As a result, the
+metaphor becomes consistent.
+The user has the impression to have really
+pressed a key. The visual codification is above
+all essential for metaphor consistence. The
+graphic symbols must be 'guessable'. However
+it is different from cutture to culture what a
+correct metaphor for users is.
+
+4.1.4 Interaction Consistence/Functional
+Coherence
+Same functions should always be presented
+within an application at the same place and in
+the same information representation. Similarly,
+
+same information representations (e.g. a
+symbol) must also always make the same
+function available. For example, if sound
+elements are used for example in order to mark
+those fields which are 'active' ones, (where
+planned reactions occur), a non active place
+should occur in the entire application, that is
+not marked with a sound.
+The
+basic
+principle
+of
+interaction
+consistence/functional coherence can also be
+applied to the consistence of function calls
+between applications. For example, users of
+graphic operating systems of the company
+Microsoft used to get a helpfunction by
+pressing the Fl-key. Accordingly, in multimedia
+applications, which run on these operating
+systems, pressing the Fl-key should also activate
+the helpfunction. Applications, which run on
+different platforms, should be considered so
+that user groups of every operating system of
+different manufacturers form an own culture
+and expect different functions. Thus, an
+application is closed in Windows- environment
+with the key combination 'Alt-F4' in applications
+of Apple operating system, this function is
+achieved
+by
+the
+key
+combination
+'CommandQf.
+
+4.1.5 Expectation Mapping
+The basic principle of expectation mapping
+says that users have a certain notion or
+expectation of an application. Expectation
+mapping is then successful if the expectations
+are met or outdone. The basic principle of
+expectation mapping results in multimedia
+applications achieving a higher and higher
+standard. What the user expects, depends on
+what he has already seen. In this way, the
+evolution spiral and the lifecycle model also
+
+are met or outdone. The basic principle of
+expectation mapping results in multimedia
+applications achieving a higher and higher
+standard. What the user expects, depends on
+what he has already seen. In this way, the
+evolution spiral and the lifecycle model also
+becomes clear here: lnformation types like 2
+112 h b j e c t s and worlds, which are to be
+found still rather rare, will soon raise to standard
+and will be in the not too distant future almost a
+necessity.
+
+4.1.6 Active Orientafion Support
+While navigating in complex systems
+continuous information representations should
+be provided, which indicate the user at any
+time where he is and offer him simultaneously
+the possibility to jump to neighboring or
+preceded hierarchically elements.
+
+4.2
+
+Basic Technical Principles
+
+The following basic technical principles can
+be derived for the Storyboard as guidelines for
+the development
+
+4.2.7 User Control
+The user must be able to attain control of
+the system at any time. Particularly in the case
+of continuous information types, the user must
+be able to control and/or break off this linear
+process.
+
+4.2.2 Acceptable Quality of Information
+Representations
+
+The basic principle of 'fewer is more' means
+the reduction of the functions to those important
+elements, which a user needs in a scene at the
+same time. Overcrowded and overloaded
+screens confuse more than they are useful. This
+basic principle is comparable with the concept
+of the KISS (keep it simple and short).
+
+The technical perfection of the information
+types has an essential role to play in the case of
+user
+acceptance.
+Especially
+continuous
+information types do not have that quality in
+standard PC systems, that people are used to
+from film and television. Quality depends here
+strongly on the expectations of the users too. In
+1990, an alldigital information representation
+as movie on traditional PC-systems was a
+sensation, even with acceptance of the
+stamp-size format and the not very synchronous
+sequence. Meanwhile the expectations of the
+users increased, so not fluently movies are felt
+as not up-todate.
+
+4.1.8 Transparency
+
+4.2.3 System Feedback at Acceptable
+Response Times
+
+Transparency means that a good interface
+design remains unnoticed. If users must invest a
+lot of time in order to find out the possibilities
+of the interface, they are distracted from the
+contents. Transparency means that the system
+works to a large extent also i n a selfexplanatory
+form and makes help functions actually
+unnecessary.
+
+The system must supply a feedback at
+acceptable response time to the user to his
+interactions. If the response times are
+surpassed, the system response for the user is
+no more clearly allocateable to his interaction
+and an interference of the interaction process
+occurs. The attention of the user is diverted and
+the train of thought is disturbed.
+
+4.1.7 Fewer is Mom
+
+4.3
+4.1.9 Interaction Minimization
+Not more than three interactions (e.g.
+mouse clicks) should be required for attaining
+important, often required functions. (ref. 48, p.
+5 2 ) Hierarchies interleaved too deep often
+offend against this basic principle if they allow
+no direct possibilities to jump from (e.g. layer 3
+in part 2 to layer 4 in part 1). So five
+communications would be necessary in this
+example.
+
+OESIrxlC 6ulIetinof Inf T d n d , 1998,18(6)
+
+Cultural influences
+
+The development of the Storyboard is
+embossed by creative, personal elements. Every
+developer has a particular cultural background,
+which is embossed, both from the geographical
+culture area and from the social background.
+Supplementary influences still result from the
+respective specific organization cultures.
+It also depends whether or not the user has
+the same complex cultural background as the
+developer.
+If the
+cultures
+correspond
+
+themselves to a large extent in their state of
+mind, their values, their norms, their rites and
+voice habits, problems of acceptance of a
+multimedia application will be minimized. If the
+cultural background of developer (team) and
+user are only low congruent, a lack of
+communication occurs. The possibilities of
+these difficulties are represented plastically in
+Watzlawick's concept of the trisection of
+confusiondisinformation- communicationb'.
+During the development of multimedia
+applications, i t is important to pay attention to
+this cultural difference. The analysis of the user
+role and of the reference framework in the
+process of the Storyboarding is used for this
+purpose. The gained insights into cultural
+special features of the user role have effects in
+the following essential fields:
+
+4.3.1 Screen Layout and Screen Design
+Both elements are dependent essentially on
+the writing and reading habits.
+
+4.3.2 Effect of Colours
+Colours have very particular meanings in
+many culture areas, which must in the final
+analysis be synchronized semantically with the
+contents.
+
+4.3.3 Effect of Language
+Every culture area has a particular language
+with particular idiomatic expression (dialect)
+that identifies speakers of other culture areas as
+'foreigners' and therefore the corresponding
+defense attitudes or total communication
+barriers can be cause.
+
+4.3.4 Effect of Graphics
+
+can lead to forming a front very fast, because
+they are mostly engaged emotionally. Since
+many symbols (e.g. Icons), are used in
+multimedia applications
+the at'tention to
+differences at the symbol display become
+important.
+
+4.3.5 Metaphor Consistence
+Users have specific schemes according with
+their cultural area. The essential metaphors of
+an application must be adapted to these
+schemes in order to maintain the basic principle
+of metaphor consistence.
+
+4.3.6 lnferaction Consistence/Functiond
+Coherence
+Accustomed interaction peculiarities exist
+not only within a geographical but also within
+an operation system-specific culture area. Users,
+who swear on 'their' operating system, also
+expect accustomed functions with usual
+control.
+Consequently, the development of an
+application is not simply translatable from one
+culture area into another one. A check should
+always at least occur, whether and which
+cultural differences exist. The effort to a larger
+market and therefore the export into other
+cultural areas is to be taken as a legitimate
+objective of efficiency since the development
+of multimedia systems is at highcost. Under this
+diction a cultural adaptation i s mostly
+renounced. However, this shortcoming is
+relocated through the possibilities and the
+effects from international mass media.
+
+4.3.5 Recognition of Symbols
+
+The advertisements, which have to consider
+cultural peculiarities, are therefore no more
+developed country-specific (with the exception
+of language), but more according to customer
+segments which don't differ from each other
+independent of the country5'. The user
+becomes a cosmopolite, culture does not grow
+in a country but almost always becomes
+defaulted by a company's philosophies.
+
+Symbols are very specific cultural. Even
+traffic signs differ from country to country.
+Symbols are deeply linked to a culture and
+therefore, their correct interpretation is
+significantly dependent on the cultural
+background. Symbols with different meaning
+
+The market strategy of Coca Cola is the best
+example for it. However, cultural influences can
+not yet be negated and are to be considered in
+the design or adaptation stage of a good
+multimedia learning or mass information
+system.
+
+The composition of graphics for decorative
+functions is embossed essentially by the
+peculiarity of the cultural background. In
+particular setup and style of a picture let
+inferences to the cultural origin.
+
+DESlDOC Bulletin of lnf Techol, 1998,18(6)
+
+5.
+
+FURTHER PERSPECTIVES
+
+The development of multimedia applications
+requires a very broad and highly qualified
+knowledge. However, systems, which really
+guarantee a more efficient knowledge transfer
+process, can be developed in this waq7.
+Technology is the main problem no more. The
+contents-related design is the challenge in order
+to offer support for the information transfer that
+must be used reasonably in a framework of
+action so that the personal information
+requirement can hold step with the increase of
+knowledge in the society. For this purpose, the
+concepts described in this paper can show the
+variants of the representation and interaction.
+forms and allow its reasonable combination in a
+storyboard according to the basic technical and
+design principles.
+
+Ambron, S & Hooper, K. Learning with
+interactive multimedia: Developing and
+using multimedia tools in education.
+Microsoft Press, Redmond, WA, 1990.
+Aukstakalnis, S & Blatner, D. Cyberspace:
+Die Entdeckung kunstlicher Welten. Vgs,
+Koln, 1994.
+Babu, GP; Mehtr, BM & Kankanhalli, MS.
+Color indexing for efficient image retrieval.
+Multimedia Tools and Applications, 1995,
+1(4).
+Bauer, W & Riedel, 0. VR in space-and
+Building-planning. In Virtual Reality. F
+Brody & RF Morawetz. Wien, Vienna,
+1993. S. 34f.
+Blattner, MM & Dannenberg, RB.
+Multimedia
+interface
+design.
+Addison-Wesley, Wokingham U.A., 1992.
+
+C. Multimedia.
+
+Brauner, J & Bickrnann, R. Die multimediale
+Gesellschaft. Campus, Frankfurt am Main,
+1994.
+Cakmakov, D & Davcev, D. Information
+retrieval and filtering of multimedia mineral
+data. Multimedia Tools and Applications,
+1995, 1(4).
+Card, SK; Mackinlay, JD & Robertson, G.
+The design space of input devices. in
+Multimedia Interface Design. MM Blattner
+-
+
+-
+
+10. Charwat,
+HI.
+Lexikon
+der
+Mensch-Maschine-Kommunikation, 2.
+Auflage. Oldenbourg, Munchen, Wien,
+1994.
+11. Dale, E. Audiovisual methods in teaching.
+Holt, Rinehart & Winston, New York, 1946.
+12. Forster, HP & Zwernernann, M.
+Multimedia-Die
+Evolution der Sinne!.
+Luchterhand, Berlin, 1993.
+
+13. Frater, H; Ruliben, D. Das gro-e Buch zu
+multimedia. Data Becker, Dusseldorf,
+1994.
+14. Gagni; RM. The conditions of learning.
+Holt, Rinehart & Winston, New York, 1965.
+15. GagnC, RM. Instructional technology:
+Foundations. Erlbaurn, Hillsdale, NJ,1987.
+16. Gertler, N. Multimedia lllustriert. Markt und
+Technik, Haar bei Munchen, 1995.
+
+REFERENCES
+
+Borner, W 8r Schnellhardt,
+te-wi Verl, Munchen, 1992.
+
+& RE3 Dannenberg, Addison-Wesley,
+Wokingham U.A, 1992. p.224f.
+
+-
+
+DESlDOCBulletinof lnf Technof, 1998,18(6)
+
+17. Haak, G & Issing, L. Multimedia-Didaktik state of the art. In Multimedia, und
+.Computeranwendungen in der Lehre; Das
+Computer-lnvestitions-Prograrmm (CIP) in
+der Nutzanwendung. K Dette; D Haupt &
+C Polze. Mikrocomputer-Forum fur. Bildung
+und Wissenschaft 5. Springer, Heidelberg,
+1992
+18. Hasebrook, J. Multimedia-Psychoiogie: Eine
+neue
+perspektive
+menschlicher
+Komrnuni-kation. Spektrum, Heidelberg,
+1995.
+19. Heinrich, LJ; Lehner, F & Roithmayr, F.
+Informations-und Komrnunikationstechnik
+fur
+Betriebswirte
+und
+Wirtschafts-informatiker, 4. Auflage.
+Oldenbourg, Munch en, 1994. p. 216.
+20. Heinrich,
+LJ &
+Roithmayr,
+F.
+Wirtschaftsinformatik-Lexikon, 3. Auflage,
+Miinchen Wien, 1995. p. 341.
+21. Hickethier,
+K & Zielsinski,
+S.
+Medien/Kultur. Schnittstellen zwischen
+Medien-wissenschaft, Medienpraxis und
+gesellschaftlicher Komrnunikation.
+Wissenschaftsverlag Volker Spiess Berlin,
+Berlin,l991.
+22. Hoogeveen, M. Towards a new multimedia
+paradigm: Is multimedia assisted instruction
+really effective?. In Educational Multimedia
+and Hypermedia. H Maurer. Graz, 1995. p.
+351f.
+
+23. ISO/IEC JTCl/SC29/WG12. Information
+technology: Coded representation of
+multimedia and hypermedia objects
+(MHEG). I S 0 Commitee Draft, 1993.
+ISO/IEC CD 13522-1.
+24. Issing, LJ. Wissensvermittlung rnit medien.
+In Wissenspsychologie. H Mandi & H
+Munchen,
+Spada. Psychologie-Verl,
+Weinheim, 1988.
+25. Issing, LJ. lnstruktionsdesign fur
+Multimedia. In lnforrnation und Lernen mit
+Multimedia. LJ lssing & P Klimsa.
+Psychologie-Verl., Weinheim, 1995.
+26. Issing, LJ & Klimsa, P. lnforrnation und
+Lernen mit multimedia. Psychologie-Verl,
+Weinheim, 1995.
+27. Jarz, EM; Kainz, GA Rr Walpoth, G.
+Multimedia-based case studies i n
+education: Design, development, and
+evaluation of multimedia-based case
+studies.
+28 Jarz, EM. Entwicklung multimedialer
+Systeme. Gabler, Wiebaden, 1997. p. 12ff
+29. Jarz, E;, Kainz, GA & Walpoth, G. The
+design
+and
+development
+of
+multimedia-based case studies. I n
+Educational Multimedia and Hypermedia,
+H Maurer. Graz, 1995.
+30. Jarz, E; Kainz, GA & Walpoth, C.
+Multimedia based case studies in
+education. Proceedings of the ED-Media,
+1996, Boston.
+31. Kerres, M. Entwicklung und einsatz
+computergestiitzter lernmedien; Aspekte
+des Software-Engineerings multimedialer
+Teachware), In Wirtschaftsinformatik, 32.
+Jahrgang, Heft 1, Februar f 990. p. 71 f
+32. Klimsa, P. Multimedia aus psychologischer
+und didaktischer Sicht. In lnforrnation und
+Lemen mit Multimedia, Lj lssing Rc P Klimsa
+Psychologie-Ver\, Weinheim, 1995.
+33. Klingberg, KD. ABC der MultimediaTechnologie. Multikom-Verl.,
+Bergheim,
+1993.
+34. Kracauer, S. Theorie des Films: Die
+Errettung der auperen Wirklichkeit.
+Suhrkamp, Frankfurt am Main, 1985.
+
+35. Laurel, B. Interface as mimesis. In User
+Centered System Design:
+New
+Perspectives o n Human-Computer
+Interaction, DA Norman & S Draper.
+Lawrence Erlbaum, Hillsdale, NI, 1986.
+
+36. Laurel, B. Computers as theatre.
+Addison-Wesley, New York U.A, 1993.
+37. Laurel, B. New directions. In The art of
+humancomputer interface design. B.
+Laurel, Addison-Wesley, Mountford, 1994.
+38. Laurel, B. The art of humancomputer
+interface
+design,
+8.
+printing.
+Addison-Wesley, Mountford, 1994.
+39. Coeffier, CE. Virtual polis. In Virtual Reality,
+F Brody & RF Morawetz. Wien, Vienna
+1993, S. 6 f.
+40. Lopuck, L. Designing multimedia. Peachpit
+Press, Berkeley, CA, 1996.
+41. Marmolin, H. Multimedia from the
+perspectives of psychology. In Multimedia:
+Systems, Interaction and Applications, L
+Kjelldahl. Springer, Stockholm, 1992.
+42. Maschke,
+T.
+Faszination
+der
+Schwarzweip-Fotografie; 4. Auflage.
+Augustus, Augsburg, 1995.
+43. Mathis, T. Evahierung van multimediaanwendungen. Diplomarbeit, Innsbruck,
+1994.
+44. Maurer, H. Educational multimedia and
+hypermedia. Proceedings of ED-Media
+95-World
+Conference on Educational
+Murtimedia and Hypermedia. AACE, Graz,
+1995.
+45. Messina, C. Was ist multimedia? Eine
+allgemeinverstandliche Einfuhrung. Wien,
+Miinchen, 1993.
+46. Meyer-Wegener K. Multirnedia-Datenbanken. Teubner, Stuttgart, 1991. p. 20f
+47. Mikunda, C. Kino spiiren. Filmland Presse,
+Munchen, 1986.
+48. Monaco, J. Film verstehen, 2. Auflage.
+rororo, Hamburg, 1980. p. 143.
+
+49. Muller-Merbach, H. Perspektiven einer
+inforrnationsorientierten betriebswirtschaftslehre. In C Conegen-Grenier & W
+Schlaffke. Praxisbezug und soziale
+Kompetenz, Kolner Texte & Thesen, S. 375
+ff.
+50. Paivio, A. Imagery and verbal processes.
+New York, 1971.
+5 1. Phillips, RL. Opportunities for multimedia
+in education. In Interactive Learning
+Through Visualization: The Impact of
+Computer Graphics in Education.
+Heidelberg, Berlin, 1992.
+
+52. Postman, N. Wir amusieren uns zu Tode:
+U r t e i l s b i l d u n g i m Zeitalter d e r
+DESIDOC Bulletin of Inf Technol, 1 998,18(6)
+
+Unterhaltungsindustrie.
+Frankfurt am Main, 1988.
+
+Fischer
+
+TB,
+
+53. Preece, J, et a/. Human-computer
+interaction.
+Addison-Wesley,
+Loughborough, 1994.
+54. Schweiger, G & Schrattenecker, C.
+Werbung: Eine Einfuhrung; 3. Auflage.
+Fischer, Stuttgart, 1992. p. 174ff
+55. Shannon, C & Weaver, W. The
+mathematical theories of communication.
+University of Illinois Press, Illinois, 1949.
+56. Shneiderman, B. Designing the user
+interface: Strategies for effective
+human-computer interaction, Ed. 2.
+Addison-Wesley, Reading, MA, 1992.
+57. Skinner, BF. Science and human behavior.
+Free Press, New York, 1953.
+58. Steinrnetz, R. Multimedia-Technologic.
+Heidelberg, Berlin, 1993.
+59. Titze, H. Das philosophische Gesamtwerk;
+Band 4: Theorie der Information. Berlin,
+1993. p. 15
+60. Vester, F. Denken, Lernen, Vergessen, 5.
+Auflage. DTV, Munchen, 1980.
+
+61. Watzlawick, P. Wie wirklich ist die
+Wirklichkeit? Wahn, Tauschung, Verstehen;
+20. Auflage. Piper, Munchen, 1995.
+62. Weidenmann, B. Multicodierung und
+Multimodalitat im Lernprozess. In
+I~~formation
+und Lernen mit Multimedia. LJ
+lssing & P Klimsa. Psychologie-Ver1.-Union,
+Weinheim, 1995.
+63. Weizenbaum, J. Die Macht der Computer
+und die Ohnmacht der Vernunft, 8.
+Auflage. Suhrkamp, Frankfurt am Main,
+1990. p. 268ff
+64. Wenzel, EM. Three-Dimensional virtual
+acoustic displays. In Multimedia Interface
+Design. M M Blattner & RB Dannenberg.
+Addison-Wesley, Wokingham u.a, 1992.
+65. Wodaski, R. Multimedia fur insider. Markt
+und Technik, Haar bei Munchen, 1995.
+66. Wratil, P & Schwampe, D. Multimedia fur
+Videa u n d PC: Techniken u n d
+Einsatzmoglichkeiten. Markt & Technik,
+Haar bei Munchen, 1992.
+67. Yazdani, M & Pollard, 0. Multilingual
+aspects of a multimedia database of
+learning materials. In MultilingualMultimedia. M Yazdani. Cromwell Press,
+Wiltshire, 1993.
+
+*Dr. Ewafd J u z , born on 15 August 1965, educated at School for Engineering, Master of business
+administration at the University of Innsbruck, Ph. D. 1996. Presently Assistant Professor at the Department
+
+of Information Systems, University of ~nnsbruck.
+Special research area: Multimedia and Software Design.
+
+DESIDOC Bulletin of Inf Technol, 1998,18(6)
+
+23
+
+

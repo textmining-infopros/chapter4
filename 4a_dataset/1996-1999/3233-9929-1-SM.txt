@@ -1,0 +1,594 @@
+DESIDOC Buk* of
+01 9 9 7 , ~ E S l ~
+
+Technobgy, Vd. 17, No. 5, September 1997, pp. 17-22
+
+Bibliographic Databases and Exchange Formats
+
+Abstract
+Computers play an important role in the development of bibliographic
+da&ases. For generation and exchange of bibliographii data at defferent
+lwels-international, national, regional and local-exchange formats are
+needed. This paper discusses about the formats available at national and
+international level for adoption by national, international agencies and,
+individuals/organisations as per their requirements.
+
+1.
+
+INTRODUCTION
+
+The advantage of computer is that it can
+rapidly and efficiently manipulate, retrieve any
+information/data
+which
+is
+stored
+in
+machhe-~eadableform. Their use in creation
+and development of bibliographic databases has
+raised the hope of dewloping a universal
+bibliographic system through the cooperation of
+several national and international organisations.
+Generation and exchange of biblioraphic data
+takes place at d i i t levels, i.e., international,
+nations\, rewd and M.Thus there is need
+for exchange h a t s that are designed
+specifikalty for the transfer of machinereadable
+bibliographic data between systems.
+
+2.
+
+BIBLIOGRAPHIC RECORD
+FORMAT
+In the Unisist Reference Manual, a
+
+(machinereadable) bibliographic reuxd is
+defined as a collection of information which
+pertains to a single ctocument and which is
+stored in machinereadable form as a
+selfcontained and unique bgical structure.
+'Nationd Infarmatior) S y s m Ibr Science &
+Technology (NISSAT), New Delhi
+
+Format conveys the notion of a formalised
+framework or structure w h i i will hdd records
+of varying content according to certain set of
+rules or
+conventions controlhng the
+representation of the data. These rules may be
+unique to. a system, or shred with other
+systems.
+
+Bibliographic record formats are used to
+describe the arrangement or structure of
+computer readable record of bibliographic
+items.
+
+Formats can be of two types: hr&m&lod
+k
+t and w - i
+
+Cwmat
+
+2.1 Internal Format
+Intemal formats am so called because they
+are internal/kml to a sohware system. They can
+be changed smc+
+as per the n&
+of the
+local system and do not haw to conformto any
+external standards.
+
+2.2
+
+Ex&ange/Communication
+Interchange Format
+
+Exchange formats are ako known as
+interchmge/c~municationformats. M a n g e
+formats are used for exchange of records
+between systems. Systems should be sufficiently
+
+flexible to cope with the needs of many
+different software systems.
+
+International
+Standards
+Description ISBD(G).
+
+A major problem for Mignws of exchange
+format is the lack of international agreement on
+standards COT constmcting bibliographic records.
+Although IS00 is amkbk, it is not accepted by
+many wganisations.
+
+tSBD(C) lists within its frame, all
+bibliographic elements which are required to
+describe and identify all types of materials
+which are likely to appear in library colkttrbn. tt
+assigns an order to these elements and
+prescribes 9 distinct punctuation system to
+differentiate them from each other. It also serves
+as the basis for speciaiised ISBDs.
+
+2.3
+
+Exchange Fonnab
+
+Bibli4raphic data formats adopted for
+exchange of data consist ot three basic
+components.
+(a) A defined physical structure: rules for the
+arrangement [on a computer storage
+
+medium) of data to be exchanged.
+
+(b) Content designators: codes to identify the
+diHerent data element in the records (e.g.,
+author, tit&, scale of map, starting date of
+jourml, etc)
+
+fc) Content of the record: w r n e d by rules for
+the formulation of the different data elements
+very closely tied up ~4th
+content designators.
+The data elements ~ r a t e i identified
+y
+by the
+codes in the exchange format are to be
+& f d , not only in tenns of content but also
+in form, if the records are to be suitable for
+use by another agency.
+
+3.
+
+STANDARDS fOR RECORD
+FORMAT
+
+Stadadisation of the record format implies
+standardisation of the rrecod structure,
+directwy, content designator a t national,
+regional and international levels. Design and
+implementation of a standard record format is
+uniformty acceptable to all bibliographic
+agencies involved in inhmation transfer i s very
+essential and urgent but it is very difficult to
+reach a consensus in this regard.
+
+The lntematlonal Conference of
+Cataloguing Principles (ICCP) held in Paris 1961
+has set up standards kw the headings of author
+and title f i l s in catalogues and bibliographies.
+The first standard dedoped in 1974 was meant
+for the description of monographs. It was
+foliowed by a series of qxcidised SBDs for
+various forms of documents, caHed General
+
+Bibliographic
+
+Development of lSBD may be termed as the
+greatest achievement contributing to the
+standardisation of bibliographic records for the
+following reasons:
+
+O
+
+It facilitates records from various sources interchangable
+
+D It assists in the interpretationof records across
+language barriers
+
+D It assists in the conversion of bibliographic
+records to machine-readable form
+
+3.1
+
+I S 0 2709-The International
+Standard Exchange Format
+
+I S 0 2709 is an international standard format
+for bibliographic information interchange on
+magnetic tape. It was developed for the
+exchange of bibliographic records on magnetic
+tape, originally in the Library of Congress (LC)
+MARC format.
+
+3.2 Machine-Readable Record
+Format
+MARC is an acronym for Machine Readable
+Catalogue or Cataloguing. This general
+description is misleading, implying that MARC is
+a kind of catalogue or method of cataloguing
+whereas MARC is more accurately defined as a
+group of formats employing a particular set of
+conventions for the identification and
+arrangement of bibliographic data for handling
+by computer.
+
+The original MARC format, from which
+current formats originated was developed at the
+LC in 1965-66. Since then more than 20 formats
+have appeared which are known as MARC.
+Their common characteristics are: ,
+
+0 Adherence to Ehe Is0 2709 record stfuckrre,
+or its e q u h k n t national standard inchding
+option which dlows use of indicators and
+SUM
+identifiers in data fields.
+0 Most are national formats based on national
+l i i or national bibliographic agency and
+are designated communication formats for
+exchange of bibgraphic reuords with other
+similar organisations.
+MARC records have many other library and
+nodibrary related uses, though it is generally
+identified. with the produaion of library
+catalogues & n a t h d bibliographies.
+LC was the first to design and experiment on
+a MARC record format for the purpose of
+communicating bibkgraph'i information to a
+hrge number of libraries. When MARC4
+commenced as a pibt project in 1966 in LC,
+there were no established MARC formats
+available. Libraries had reached no consensus as
+to what all access points were required to take
+full advantage of an aukmated cataloguing
+system.
+
+The MARC-II format was considerably
+improved in the light of experiences and
+opinions of important libraries and a specific
+survey was carried out for studying the
+requirements of the users. MARC-II format
+developed in 1968, was the result of
+Angk&nerican cooperation. The new format
+was intended to be hospitable to all kinds of
+library materials, sufficiently flexible for a
+variety of applications in additions to catalogue
+production, and usable in a range of different
+computer systems. Despite AngkbAmerican
+cooperation, there were tm, versions of MARC
+i.e., LC MARC II and BNB MARC II.
+
+USMARC Format
+
+3.3
+
+There are three USMARC communication
+formats:
+(a) USMARC Format for BiMigraphic Data
+(UFBD)
+(b) USMARC Format for Authority Data (UFAD)
+(c) USMARC Format for Holdings & Locations
+(UFHL)
+-
+
+-
+
+DES/DoCBuUetin d l n f T c d n d , 1997,17(5)
+
+All the three USMARC formats are
+implementaaiom of ANSI Z39.2, American
+national standad for bibliographic information
+interchange on magmafc tape which conforms
+physical structure of the
+with the IS0 2709UKMARC recordalthough there are some
+differences in tennindogy and in definition of
+fields.
+
+3.4
+
+UKMARC Fonnat
+
+British National Biiography has shown
+active interest in the possibilities of MARC from
+1966. Cooperation with Aslib and OSTI within
+the country and with U abroad, enabled it to
+develop a MARC format in 1968. There were no
+considerable changes in the format until the first
+edition of UKMARC Manual appeared in 1975.
+But later, the advent of BLAISE and the
+increased use of n o h k materials in the
+educational field and publication of lack of
+standardisation in cataloguing as the major
+obstacle to a standard MARC format.
+UKMARC is a single, unitary format
+designed to accommodate all types of material
+with some material s p e d i i fiekls. The physical
+structure of UKMARC is based on I S 0 2709
+and BS 4748. UKMARC format specifications
+and structure are set out in UKMARC Manual,
+Ed.2, 198067.
+
+3.5
+
+Other Formats
+
+After the joint work of BNB and LC on the
+MARC format, other countries quiddy started
+development of their national formats. They are
+Canada (CANMARC), Australla (AUSMARC),
+Italy (ANNAMARC),
+Germany (MABI),
+Denmark (DENMARC), Spain (IBERMARC),
+Sweden (SWEMARC), etc
+Growing enthusiasm on the part of national
+bibliographic agencies to develop their own
+MARC records resulted in the wide-spread use
+of the MARC format. But the only area of
+standardisation in these national formats was
+the r e c d structure effected through the
+adoption of I S 0 2709. They still showed wide
+variations in respect' of content and content
+designators. These differences necessitated
+suitable programmes to be written for one
+agency to use the records of another. Within
+
+the LC MARC lbelf the vuiety of material
+
+added
+
+b
+
+dre u m p h d t y
+
+of interchamge of
+
+records.
+
+Federation of
+Library
+lnsaitutions (IFLA) Committee
+on Mechanisation spwKared the IFLA Working
+Group on Content Designators, and as a result
+an international standard iw content designators
+was taken up and this led to the development of
+UNIMARC
+International
+
+Asociatiom
+
+3.6
+
+and
+
+UNlMARC
+
+IFLA W d n g Group on Content
+Designators recommended in 1973 a
+SUPERMAUC which was based on ISBD. This
+was later called MARC lntemational Format
+(MIF) from which the UNIMARC was
+developed. The final format was published in
+7977. The grwp fecopised the hck of
+standardisation in catatoguing as the major
+obstacle to a standard MARC format.
+UNIMARC is a communication format which
+necessitates writing and maintaining of only two
+conversion program5--one from the national
+format to the UNIMARC and the other from the
+UNlMARC to the national format It was
+decided that each country can have its national
+format but, it should be the responsibility of the
+national bibliographic agency in a country to
+-translatethe records from the national format to
+the UNIMARC for purposes of interchange.
+ISBD was accepted as the basis of descriptive
+data elements within this f m a t The second
+edition of UNIMARC was published by IFLA
+International Off- for UBC handbook with the
+intention of guiding the usen in its application.
+
+4.7 UNISIST Reference Manual
+The UNISIST-tCSU/AB Working Group on
+bibliographic Description, set up in 1967 as part
+of the UNlSlST programme, decided and
+developed the UNlSlST Reference Manual for
+machine readable bibliinraphic
+- . descriptions.
+The major feature of the format is that it
+gives equal prominence to bibliographic
+records whether they relate to a n w ~ c s(i.e.,
+journal artide and contributions in journal, work
+published somewhere also), monographs or
+serial tides.
+20-
+
+The h a t was designed to do thk because
+it was devebped from the secondary sources
+which nive wual importance b the different
+bibliog&phical' levels.- The record contains no
+distinctive feature to permit a hierarchy to be
+indicated; instead, different tags are allocated to
+Fidd at a partkular kvel.
+
+3.8 Common Communication
+Format
+Although Unesco had developed the
+Reference Manual with the Mp of \CSU/AB, it
+had not been accepted by many organlsations.
+These organisations continued to approach
+assistance in developing
+Unesco for
+bibliographic information system.
+In April 1978, the Unesco General
+Information
+Programme
+(Unesco/PCI)
+sponsored an lnternational Symposium on
+Bibliographic Exchange Formats which was held
+in Taormina, Sicily, organised by the UNISIS
+lnternational
+Centre
+for
+Bibliographic
+Description (UNIBID) in cooperation with
+others to study the desirability and kasitrility of
+etablishing maximum compatibility between
+existing bibliographic exchange formats. As a
+result of this symposium, a resolution passed at
+the symposium for Unesco to set the ad hoe
+group for the establishment of the Common
+Communication Format (CCF).
+The objective of CCF was stated to provide a
+detailed and structured method for recording a
+number of mandatory and optional data
+elements in a computer readable bibhographic
+record for exchange purpose between two or
+more computerised systems. It is also useful to a
+single bibliographic agency engaged in
+structuring its own format and simultaneously
+CCF.
+keeping compatibility with
+the
+No~omputerisedsystems also can use CCF
+data
+elements
+because,
+it
+simplifies
+computerisation at a later state.
+The first edition of CCF was pubhshed in
+1984 and the second edition in 1988.
+Bibtiographic agencies around the world
+dveloped national & local formats based on the
+CCF. The first CCF User's Croup meeting was
+hekl at Geneva in 1989 and users
+recommended some minor changes in the later
+OESIDOC Bulletin of Inf Technol, 1997,17(5)
+
+editions. The CCF dso contains mechanisms for
+providing three kinds of links between or within
+records and two different types of
+vwtical/horizantal rdatiomhip. The record
+structure of the CCF constitutes a spec if^
+implementation of the international standard
+I S 0 2709.
+
+3.8.1 CCF/F: Common Communication
+.Fumwat (Factd'
+This is Common Communication Format
+for Factual Information, published in 1992. For
+this, there is separate set of data elements
+identifd, as shown in the CCF(F) document:
+
+3.8.2 Evaluation of CCF
+ReJathsMp with existkg fonmtr: CCF is
+not meant for record of an institution for
+internal storalpe and processing purposes.
+Processing formats vary from institution to
+institution and also within the same institution. It
+is based on major exisiting international
+exchange formats and specially designed for
+transfer of records between systems which were
+already capable of providing output in these
+major exchange formats.
+
+CCF am an exchanv format: The CCF is
+intended as an exchange format and as such has
+to contain bibliographic data for exchanging
+between systems.
+
+The CCF is intended for exchange of
+bibliographic records that were needed for the
+identification of a document in a catalogue or
+bibliography. It does not contain fields that
+would be required for library circulation systems
+or inter-library ban, etc Any system that wants
+to exchange data elements other than those
+provided by CCF, is free to allocate unused tags
+to those data elements.
+By using an exchange format like CCF, each
+system has to design onty one conversion
+between its format and the common exchange
+format and back again.
+
+4.
+
+INDIAN STANDARD
+
+Standardisation of record format has not
+received due attention in lndian libraries. At
+national level, lndian Standards Institution (ISI),
+now renamed as Bureau of Indian Standards
+
+(BIS), had wolved a standard for bibliographical
+references in 1963 for use in noncomputerised
+systems.
+In Juty 1986, IS1 pubiished a standard IS:
+11370.1985 titled 'Guide for Data Elements and
+Record
+Format for
+Computer
+based
+Bibliographic Description of Different Kinds of
+Documents! During the late 1980's NISSAT
+organised a tripartite meeting (CALIBNET,
+DELNET, INFLIBNET) to sort out the difference
+in choice of formats: Comon Communication
+Format (CCF) visa-vis UNIMARC. Finally it was
+decided that a database producer can use
+either.
+NISSAT also constired a group to draft the
+INDIMARC guidelines based on the framework
+prescribed by the CCF. The progress made by
+the group is very slow.
+Another effort by INSDOC, as SAARC
+national focal point on information, had
+produced a format lor use by the participating.
+countries of SAARC. Further progress on this is
+not known.
+
+5.
+
+FUTURE TRENDS
+
+During the last 25 years, a radical change
+has occured in the mechanism for transfer of
+bibliographic data. The current situation is both
+success and failure; success, because millions of
+records structured according to I S 0 2709 are
+now available for exchange, and failure, because
+there is multiplicity of implimentation of I S 0
+2709 and the full potential of computing has
+not been harnessed to make the necessary
+conversion between each.
+Among national formats, UNIMARC is a
+prious contender for the role of international
+format, but has been accepted only by library
+community. Some national formats, for example
+USMARC, have become virtually international.
+I S 0 2709 will remain as a universally
+recognised standard for MARC. It is however a
+standard available in tape and the use of tape
+for bibliographic data exchange will decrease as
+time passes. Finally any change in record
+structure will lead to the change in conversion
+softwares from exchange format to systems
+internal format and vice-versa, but will be of
+little concern to MARC users where MARC is a
+
+set of codes defining the data dements of a
+record in automated systems.
+It is estimated that MARC and other
+exchange formats will continue for some time.
+As bng as organisations wish to exchange
+record or derive bibliographic data from central
+agencies, and until computer technologists
+devise cost effective and relatively simple ways
+of transferring bibliographic data in different
+formats between systems, exchange formats
+remain necessary.
+
+10. FURTHER READINGS
+t. Credley, Ellen and Hopkinson, Alan.
+Exchanging bibliographic data (MARC &
+other International formats). 1990.
+2. Simmons, Peter and Hopkinson, Alan. The
+common communication format for bibliographic information. 1992.
+
+3. Lahiri, Abhijit An Indian model for database
+services. 1991.
+
+

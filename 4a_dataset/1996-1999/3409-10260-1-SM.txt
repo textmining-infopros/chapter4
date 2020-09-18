@@ -1,0 +1,1143 @@
+DESIDOC Bulktin of lnfonnation Tedmology, Vol. 18, No. 5, September 1998, pp. 9-17
+0 1998, DESiDOC
+
+Evaluation of Library Software Packages Available in l ndia
+SC Saxena* and RK Srivastava
+Abstract
+Some of the important library software packages such as Granthalaya,
+Libsys, Sanjay, Suchika, Basisplus-Techlibplus, etc, have been evaluated by
+the authors. Parameters selected for evaluation of software packages
+include facilities provided in the software packages, hardware requirements,
+operating system platforms, language of software development, search
+facilities, etc The author concludes that tor mall libraries, Sanjay (ver 2.0)
+and for big libraries Suchika, Granthalaya, and Libsys are the most suitable
+software packages.
+
+1.
+
+INTRODUCTION
+
+Design and development activity of library
+software packages in India started in a big way
+during mideighties with the introduction of
+CDS/ISIS software package of UNESCO in
+Mian libraries by the National Information
+System on Science and Technology (NISSAT),
+New Delhi. NlSSAT organised a number of
+short term training courses on applications of
+CDS/ISIS on library and information activities to
+make senior professionals aware of the benefits
+of amputerisation in libraries, to train library
+staff to make it operational in the libraries and
+to develop computer culture among the
+librarians and information scientists From the
+experience of use of CDS/ISIS, MINISIS, etc.,
+m e of the libraries and information centres
+dcweloped/got developed their own software,
+such as DESIDOC developed Defence Library
+Management System (DELMS) during 1988 in
+COBOL language under multiuser Unix
+environment and implemented it at Defence
+'Scientist
+Defence Scientific Information & Documenlation Centre
+(DESIDOC)
+Metcak House
+Oelhi 1 10054
+DESIDOC BuUetin d l d Techol, 1 998,18(5)
+
+Science Library (DSL) in DESIDOC. Also
+Catman was developed by the lndian National
+Scientific Documentation Centre (INSDOC),
+New Oelhi and implemented at National
+Science Library (NSL) in INSDOC. Sanjay
+package was developed for small libraries by
+DESIDOC under NISSAT project to popularise
+COS/tSIS and to develop a model automated
+library by implementing it at Technology
+Bhawan Library in DST, New Delhi, etc. Now,
+libraries are fully aware about the needs of
+computerisation and many software packages
+are available for their use depending upon the
+needs. However, selection of a suitable
+software for library is a problem because of lack
+of good, and uptodate comparative studies on
+software packages. Thus, some attempts have
+been made here to evaluate some of the
+software packages used ih indian libraries and
+information centres based on published
+literature, demonstration in conterences.
+practical experience, personal discussions, e:c
+This study may help other libraries in selectir:g
+the software for their automation.
+
+2.
+
+LIBRARY SOFTWARE
+PACKAGES IN INDIAN
+LIBRARIES
+
+Besides CDS/ISIS, Minisis, etc., a number of
+library software packages have been designed
+and developed indigenously'd
+and these are
+
+being used in various Indian libraries a*
+information centres. Some of the libran,
+software packages are given in Table 1.
+Since there are many software packages and
+mav not be possible to
+all the
+software packages in detail) only a few selected
+software packages including recently developed
+ones are discussed below i n brief:
+11
+
+Table 1: Some library software packages and their developing agencies
+-.
+
+No. Software Package
+1. Archives(l,2,3)
+2. Acquas, Ascat, Ascir, Asire, Seras
+3. Basisplus & Techlibplus
+4.
+
+5.
+6.
+7.
+
+8.
+9.
+10.
+11.
+12.
+
+Catman
+Defence Library Management System
+Golden Libra
+Granthalaya
+
+Developins Agencv
+Microfax Electronic; Systems, Bombay
+Ober Information System, Calcutta
+lnformation Dimention Inc (IDI), USA (Marketed in
+lndia by NIC)
+INSDOC, New Delhi
+DESIDOC, New Delhi
+
+Krvger Library Manager
+Libman
+
+Golden Age Software Technologies, Bombay
+INSDOC, New Delhi
+Blitz Audio Visuals, Pune
+Datapro Consultancy Services, Pune
+
+Libra
+Librarian
+
+Ivy System Ltd., New Delhi
+Soft-Aid, Pune
+
+Library Management
+13. Library Manager
+14. Libris
+15. Lib Soft
+16. Libsys, Micro-Libsys
+
+Raychan Sysmatics, Bangalore
+System Data Control Pvt Ltd., Bombay
+Frontier Information Technologies Pvt. Ltd.,
+Secunderabad
+ET & T Corpn., New Delhi
+Libsys Corpn., New Delhi
+
+17. ListPlus
+
+Computer Systems, Bangalore
+
+18. Loan Soft
+19. Maitrayee
+
+22. Nirmals
+
+Computek Computer Systems, Hyderabad
+CMC, Calcutta (for the CALIBNET Project)
+MECON, Ranchi
+Asmita Consultants, Bombay
+Nirmal Institute of Computer
+
+23. Salim
+
+Expertise, Tiruchirapalli, Uptron lndia Ltd., New Ddhi
+
+24. Sanjay
+
+DESIDOC, Delhi (Under a NISSAT Project)
+Algorythms, Bombay
+
+20. MECSYS
+21. NlLlS
+
+25. Slim 1.1
+26. Suchika
+
+DESIDOC, Delhi.
+
+27. Trishna
+28. Tulib
+
+NISTADS, New Delhi. (Under NISSAT Project)
+Tata Unisys Ltd., Bombay
+
+29. Ulysis
+
+WlPRO Information Technology Ltd., ~ecunderabad
+
+30. Wilisys
+
+Wipro India, Bangalore
+
+2.1
+
+Basisplus and Techlibplus
+
+Basisplus software9, designed and developed
+by Information Dimensions, Inc (IDI), USA, is
+being marketed in India by the National
+informatics Centre (NIC), New Delhi. The
+asi is plus provides facilities for the storage,
+retrieval and electronic management of
+documents. It is based on relational technology
+and supports client-server architecture. The
+software has the following integrated features:
+
+Cr Relational Database Management System
+(RDBMS)
+Cr Full text capabilitywith free text searching and
+thesaurus
+& Object management
+Cr Converter technology for document
+interchange
+& Library automation
+Techlibplus is built on Basisplus and
+designed to streamline and facilitate all the dayto-day operations of a fully electronic library.
+Techlibplus provides patron access, catalogue
+maintenance, circulation, serials management,
+acquisition, processing and MARC cataloguing.
+
+2.2
+
+Delsis
+
+Del~is,'~ the networking software, is an
+integrated modular package developed on
+Basisplus by DELNET to undertake complex
+cataloguing and union cataloguing functions in
+the libraries, library networks and information
+centres. Some of its special features include:
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+
+Enquiries through OPAC by author/title/
+subject/call no./series/keyword, etc.
+Boolean enquiries
+Full text search retrieval
+Display records in AACR II format
+Data irnportlexport
+Automatic index generation
+Input format: Comrnon Communication
+Format (CCF) developed by UNESCO
+Duplicate checking of records
+Creation of bibliographic records in lndian
+languages for 13 languages ( using GlSTcard)
+Interface to CDS/ISIS
+
+All
+DELNl3 databases and online
+inter-library loan facility, etc., are functioning on
+this software presently.
+
+2.3
+
+Granthalaya
+
+It is a complete library automation package
+designed and developed in Foxpro by the
+Indian National Scientific Documentation
+Centre (INSDOC), New Delhi". This package is
+available in MS-DOS. Salient features of the
+package are as follows:
+
+D ModularitpThe package comprises seven
+modules (Data administration, query,
+circulation, acquisition, serials control,
+technical processing and library
+administration) designed to handle all
+functions of a library and information centre.
+Since the package has different modules, the
+library can implement complete package or
+acquire stand-alone module(s) depending
+upon the needs of library to implement, and
+remaining mod,ules can be implemented and
+integrated with the existing module(s) as and
+when need arises.
+
+0 Object Oriented Design-The package has
+been developed based on object-oriented
+design which offers qualitatively superior end
+product.
+
+a CCf Compatibility-The
+
+package adopts
+common communication format (CCF). It
+incorporates all mandatory fields of CCF
+which facilitates irnportlexport of data from/
+to Granthalaya to/from various platforms.
+Export and import of data to and from ISO2709 and ASCtl format is possible.
+
+a Dictionary Concept--Dictionary facility is
+providedin the package for data elements like
+publishers, keywords, accompanying
+materials, etc.
+
+a Powerful Query and Search Facilifies-The
+package is provided with sophisticated tools
+for retrieval of information by different search
+parameters. Search can he conducted by
+using boolean logic operators. Search terms
+can be typed or selectedthrough dictionaries.
+
+o Ease of use-The package is easy to learn and
+use. It provides on screen nlessages to help
+users.
+INSOOC is marketing and promoting this
+package for library automation in India. The
+11
+
+package has already been implemented at
+National Science Library, INSDOC, New Delht.
+Its UNlX version has been implemented at the
+Nuclear Science Centre Library, N m Delhi.
+
+2.4
+
+Libsys
+
+I-ibsbs is an integrated library management
+~ f t w a r epackage designed and developed by
+L ibsys Corporation, New Delhi". It was initially
+developed in Cobol language but now
+converted into C language: and covers all the
+activi!ies of library related to acquisition,
+circulation, catalogu!ng, serials con!rd, articie
+indexing and abstracting pius online publlc
+access inrerfxe. Libsys follows international
+standards such as CCF, MARC, etc., i.ibsys has
+been installed at about 70 libraries in the
+country. Libsys has the following special
+features: interactive and screen oriented, menudriven, powerful editing facility, user-defined
+security, flexible operations, variable field
+length, help and multiiingual use, etc. The
+package is available under CJNIX, VMS, LAN on
+PC-ATs and minis. Micro-Libsys, a subset of
+Libsys can be operated under XENlX and
+MS-DOS. The package can be made available
+.based on any preferred RDBMS such as
+ORACILE, INGRES, erc.
+
+2.5
+
+Maitrayee
+
+The package has been developed by CMC,
+Calcutta for Calcutta Libraries Network
+(CALIBNW with the support of NISSAT, N w
+Delhi. The package ha; been developed on
+INGKES as the underlying framework and works
+~n UNlX environment. It is the first package
+wh~chhas been developed in India for a library
+network programme, providing specific network
+and communication facilii~es uslng TCP/IP as
+the communication software with X.25 protocol
+in addition to library management functions.
+
+2.6 Sanjay
+Sanjay is a library autornation software
+package which has been designed and
+developed by DESIDOC, Delhi, with the
+support of NISSAT, by augmenting CDS/ISIS
+(ver 2.3) to cater to the need of library
+management. Special features of the package
+are as follows:
+
+Q User-friendly for library housekeeping
+operations;
+
+Q Has a set of 70 pascal programs and 25
+special menus;
+Q Faster response time-1 minute for a q u q
+on 12,000 documents;
+Q Effective interlinking of database;
+St Modified COS/ISIS augmented to cover
+several additional applications.
+The package is md&eted by
+Delhi, at a nominal price. The
+already been implemented at
+including Technology Bhawan
+Indian Oil Corporation (R&D)
+Delhi.
+
+NISSAT, New
+package has
+15 libraries
+Library a d
+Library, New
+
+2.7 Suchika (ver 1.O)
+Suchika is an integrated software package
+for library automation, designed and developed
+during 1996 by the Defence Scientific
+Information
+&
+Documentation
+Centre
+(DESIDOC), Delhi for its Defence Science
+Library and other libraries/technical information
+centres (TICS) of Defence Research &
+Development Organisation (DRDO), scattered
+ail over India. The purpose of developing this
+software is to auiomate all the DRDO
+fibraries/rlCS, to create and maintain a DRDO
+libtaries holdings' database and help the
+libraries to folbw uniform standard practices.
+The package has been developed in C*
+languzge in MSDOS and UNiX versions
+keeping in view the requirements of big and
+small libraries of DRDO. The package is menudriven and user-friendly. The package conforms
+to international standards like Common
+Communication Format (CCF), lS0-270%
+AACR2 and allovrs data conversic;n from
+CDS/ISIS, etc.
+Suchika has powerful search facilities
+Search can be conducted on any field by
+specifying the field(s) or through the various
+indexes like author, subject, keywords, report
+no., patent no., etc. Query may be typed or
+selected by using the concerned index. Boolean
+search operators can also be used. Suchika also
+provides facility for free text searching. search
+results can be displayed according to desired
+format, and after s k ~ e c t i nthe
+~ relevant record?
+printouts can also be taken. Suchika has inbull1
+
+facility for data validation and data-duplication
+checking. This package has been developed in
+modular form, such as acquisition, circulation,
+OPAC, serials control modules. Therefore, its
+implementation is quite easy. Either all the
+modules may be implemented at one time, or
+module-wise implementation can also be made
+depending upon the needs of library. The
+package (both DOS and UNlX versions) has
+been implemented at Defence Science Library
+and it is under implementation in other DRDC!
+IibrariesfllCs. DESIDOC, being a Government
+agency, has decided to offer this software
+package to non-DRDO libraries also at nominal
+price to help them in their automation.
+
+3.
+
+EVALUATION OF SOFTWARE
+
+Evaluation of library software package is a
+very complex process. For evaluation of
+packages, all the packages must be used by the
+evaluation team under the same conditions but
+it may not be possible practically due to various
+factors. CDS/4SIS and MlNiSlS are not included
+here for evaluation because these software
+packages are well known internationally and a
+lot of literature has already been published on
+these software packages. Some attempts have
+been made earlier on the evaluation of library
+software pa~kages"~'but after that many
+software packages have been added and their
+evaluation is not available. Thus, attempts have
+been made here to evaluate a few important
+software packages on the basis of published
+literature, demonstration of software packages
+in conferences/exhibit~ons and practical use,
+etc The software packages are evaluated here
+from the aspects of hardware requirements,
+operating system platform, language of
+development, various facilities available related
+to library activities, search technique, data
+storage technique, etc. The main purpose of
+evaluation of software packages is to provide
+some idea to libraries for selecting a suitable
+sof tware.
+
+3.1
+
+Hardware and Operating
+Systems
+
+For implementing software in a library, a
+suitable hardware is needed according to
+operating system (0s) of the software.
+
+Availability of suitable hardware in Indian
+libraries i s a problem mostly due to
+non-availability of funds or non-priority to
+libraries. Thus, a library selects software either
+according to hardware facility available at the
+institute or the software which requires less
+costly hardware. Operating system of software
+is also selected according to the needs of
+library, skill of manpower, availability of
+hardware, etc. Hardware requirements and
+operating systems for some of the software
+packages are given in Table 2.
+
+3.2
+
+Programming Language of
+software
+
+Programming language is elso t a k n into
+consideration at the tirne of deveioprnent or
+procurement of software because many
+facilities such as fixed field, variable field
+length, variable format, search facility, etc, are
+provided in the software by using suitable
+programming , language. Every language or
+RDBMS has some special features. Software
+packages for libraries written in older, higher
+programming languages, such as Cobol,
+Fortran, Basic, etc. generally face problems
+in their
+maintenance,
+upgradation,
+customisation, etc., due to non-availability of
+suitable manpower, not niuch interest of young
+computer scientists in these languages, e!c.
+Thus selection or development of software
+should be made properly. Table 3 shows some
+of the software packages and their language of
+development.
+
+3.3
+
+Search Response Time and Data
+Storage Techniques
+
+Response time of the search module of a
+software depends on the foliowing factors:
+(a) File organisation, file access
+
+(b) Operating system
+(c) Hardware platform
+(d) Rackend sofhvare used
+(e) Number o i records in the database
+Data storage techniques also play a vital
+role in search response time. It' has been
+experienced that invert file structure is faster
+than B-tree structure and B-tree structure is
+faster than RDBMS. Thus sottware's search
+
+--
+
+13
+
+Table 2: Library software packages, their operating systems and minimum hardware
+requirements
+
+--
+
+No.
+
+Software Packages
+
+1.
+
+Basisplus and Techlibplus UNlX SVR 4.0 or above
+
+2.
+
+Granthalaya
+
+3.
+4.
+5.
+
+Minimum hardware requirements
+
+Operating system
+
+1. MS DOS 6.0 and above
+2. SCO UNlX ver 5.3.2
+
+3. lngres ver 6.2 or above
+4.0racle ver 6.2 or above
+Krveger Library Manager MS DOS
+XENlX
+Librarian
+LAN
+Libsys
+1. MS DOS 6.0 and above
+2. SCO XENlX
+3. SCO UNlX
+4. VMS or ULTRIX
+
+6.
+7.
+
+Maitrayee
+Sanjay (ver 2.0)
+
+8.
+
+Suchika
+
+5. NOVEL LAN
+UNlX 3.2
+1. MS DOS ver 3.2 or
+above (developed by
+augmenting CDS/IStS (V
+2.3)
+1. MS DOS 6.0 on higher
+
+2. UNlX
+
+9.
+10.
+
+Tulib
+Ulysis
+
+11.
+
+Wilsys
+
+3. LAN
+UNlX
+XENlX
+UNlX
+UNlX
+
+response time can be measured only when aH
+the oftw ware packages are tested o n the same _
+samples under same conditions. Data o n
+search .response time of software packages
+are not available in the literature. However, in
+case of Sanjay, it has been measured as 1
+14
+
+1 Basis server
+Intel 80x86, Pentium
+RAM 16MB,150MB
+Cartridge
+2. Basis Client
+Intel 80386
+MS-Window 3.1
+RAM 4MB but 8MB preferred
+HD16MB, 20MB, TCP/IP, PC-NFS
+PC-AT 486
+RAM 8MB
+H D 540MB
+PC XT/AT
+PC-AT 386
+PC-AT
+PC-AT
+PC-AT 386/486, Motorola 68000/
+tntel 386/486 based mini
+Micro VAX
+PC-AT 386
+PC-AT,
+1M B RAM and
+40MB H D
+PC-AT 486,
+8MB RAM
+540 M B H D
+PC-AT 486 or above
+8MB RAM
+540MB HD
+PC-AT 386
+Wipro PC-AT
+Wipro S-682 & Wipro 5.386
+PC-AT 386
+
+minute for query on 12000 documents. For
+quick glance, data storage techniques of some
+of the software packages are given i n Table 3-
+
+DESiDOC Bulletin of Id kchnd, 1998, lNS)
+
+Table 3: Some of the library software packages, their programming language/RDBMS
+and data storage techniques
+No.
+
+Software Package
+
+Programming Language
+
+I.
+
+Archives
+
+FOXPRO
+
+2.
+
+Basisplus & Techlibplus
+
+3.
+
+DELMS
+Delsis
+Granthalaya
+
+Visual Basic
+Cobol
+
+4.
+
+5.
+6.
+7.
+8.
+
+9.
+10.
+
+Libman
+
+Visual Basic ( developed on Basisplus)
+FOXPRO
+dBase Ill
+
+Librarian
+Libris
+
+Clipper & Foxbase
+Ingres, C
+
+Libsys
+Maitrayee
+
+C
+
+14.
+
+Sanjay
+Suchika
+Tulib
+1Jlysis
+
+15.
+
+Wilisys
+
+11.
+
+12.
+
+13.
+
+lngres
+CDS/ISIS, PASCAL
+
+C*
+Oracle with C
+
+C
+Unify RDBMS and C
+
+Coverage of Library/lnformation
+Activities
+Superiority of
+the software packages
+depends
+upon
+their
+capabilities and
+versatility. Software providing more facilities to
+automate different activities in library and
+information centres may be treated most
+suitable for libraries as compared to those
+having limited facilities. Table 4 shows the
+facilities provided in a few software packages.
+
+3.5
+
+Software Upgradation/
+Customers' Support
+
+Software maintenance, its customisation and
+upgradation depending upon the needs of
+library are very important. This service may be
+good in case of software package like Libsys,
+LIBRIS, etc. developed and marketed by a
+private company, for their survival in the market.
+However, in case of software packages
+developed and marketed by Government.
+agencies like DESIDOC, INSDOC, NIC, etc., i t
+may not be possible to pay serious attention on
+these asDects unless some urivate comDanres
+DESIOOC BuUetin of M Techol, 1998,l q.5)
+
+1
+
+Data Storage
+Techniaue .
+Relational database
+Relational database
+E tree
+Relational database
+Relational database
+Relational database
+Relational database
+Relational database
+Inverted file and €5-tree
+Relational database
+Inverted file
+B-tree
+Relational database
+€5-tree
+Relational database
+
+are involved to maintain the software on some
+payment basis, but cost-wise, the so.ftware
+packages developed by the Government
+agencies may be cheaper and procurement of
+such software may be easier.
+
+4.
+
+CONCLUSION
+
+Till now rnany library software packages
+have been developed in India as mentioned in
+Table 1, to cover more and more areas of
+library automation and information retrieval
+functions in a single-user, multiuser, and LAN
+environment. Among these software packages,
+the recently developed software packages, such
+as Suchika and Granthalaya are found to be
+quite user-friendly, versatile and cheaper for
+library automation, specialiy in case of big
+libraries and ~nformdtroricentres because they
+cover almost all the aspects o i Ilbraiy
+automation in an integrated manner
+f-lowever, Libsyps is also very powerful
+because it provides tacility for articles indexing,
+abstracting, SDI, etc, also in addition to library
+automation but ~t may be costlier than Suchilia
+IS
+
+Table 4: Facilities provided in the selected library software packages
+No. Software package
+
+CatAguins OPAC Online AcqrPisition
+
+Circuhtisn
+
+help
+1.
+2
+
+N
+
+Y
+
+Y
+
+Y
+
+N
+Y
+N
+Y
+
+N
+Y
+N
+Y
+
+N
+Y
+N
+Y
+
+Y
+
+Y
+Y
+Y
+Y
+Y
+'Y
+Y
+Y
+Y
+Y
+Y
+
+Y
+Y
+Y
+Y
+
+Y
+Y
+Y
+Y
+
+Archives
+Y
+Basisplus and Techlibplus Y
+
+4.
+
+DELMS
+Delsis
+
+5.
+6.
+
+Golden Libra
+Granthalaya
+
+Y
+
+7.
+
+Krvger Library Manager
+Libra
+
+N
+
+3.
+
+8
+9.
+
+10.
+11.
+
+Librarian
+Libris
+Libsys
+
+12. Maitrayee
+13. Mecsys
+14. Nirmals
+15.
+16.
+
+Sanjay
+Suchika
+17. Tulib
+18. Ulysis
+19. W~lisvs
+
+Y
+Y
+Y
+Y
+
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+Y
+
+N
+Y
+
+Y
+
+Y
+
+Y
+Y
+N
+
+Y
+
+Y
+N
+N
+
+Y
+N
+Y
+
+8
+
+y
+
+Y
+Y
+Y
+Y
+Y
+Y
+
+-
+
+Ser&
+conttol
+Y
+Y
+Y
+N
+Y
+Y
+N
+N
+Y
+Y
+Y
+Y
+
+Y= Yes; N = NO
+
+and Granthalaya as it is developed by a private
+company.
+Sanjay is the cheapest one covering all the
+aspects of library automation, but it is suitable
+for small libraries only. Basisplus and Techlibplus
+is also suitable for big libraries but its hardware
+requirement is costlier. Now there is a need of
+more powerful software packages with more
+iacilities in view of many libraries networks
+coming up in the country in near future.
+
+5.
+
+1.
+
+Chowdhury, GG & Chowdhury, Sudana
+Text retrieval and library management
+software in India. Program, 1994, 28(3),
+253-261 and NISSAT Newsletter, 1994, 3,
+13-18.
+
+2.
+
+Singh, Shankar. Selection of library
+software for library a u t o m a t i o M critical
+study and evaluation. In Proceedings and
+Souvenir of National Seminar on Library
+Automation--f'roblems
+and Prospects,
+held during 2426 May 1997. UP Library
+Association, Roorkee.
+
+3.
+
+Seth, MK & Dalai, BK. Library automation
+in India. DESIDOC Bulletin of lnfoma~on
+Technology, 1995,15(3), 29-34.
+
+4.
+
+Patel, DR & Bhargava, ~ a c h n a Comparative study of software packages
+available in the Indian market for library
+
+ACKNOWLEDGEMENTS
+
+The authors are thankful to Or SS Murthy,
+Director, DESIDOC for his inspiration,
+encouragement and guidance in the
+preparation of this paper and granting
+~ermissionto ~ublishit. Also thanks are due to
+j / ~ h r i Satpal kngh, K Sathiyarnoorth~and RK
+Saxena for extending their help in the
+preparation of this paper.
+16
+
+REFERENCES
+
+OESlOOC Bulletin of lnf Technd, 1998,18(5)
+
+automation. OESIDOC Bulletin o f
+Information Technolow, 1995, 15(3), 3-12.
+
+5. Srivastava, RK & Saxena, SC. Software
+
+9.
+
+Booklet on Basisplus & Techlibplus-software product profile. National
+Informatics Centre, New Delhi.
+
+requirements and existing software in India
+for library automation. Paper Presented at
+the Indo-British Meet on Library
+Networking, 1415 Jan 1997, DELNET,
+New Delhi.
+
+10. Pamphlet on DELNET. Delhi Library
+Network, New Delhi, 15 April, 1997.
+
+6.
+
+Saxena, SC & Mehta, SN. Software
+packages for libraries. In Advances in
+Library and lnformation Science, edited by
+CD Sharma & DC Ojha, Vol 3. Scientific
+Publishers, jodhpur, 1992. pp. 143-56.
+
+7.
+
+Vyasmoorthy, P. Software packages in India
+for library and information work In
+Advances in Library and Information
+Science, edited by CD Sharma & DC Ojha,
+V d 3. Scientific Publishers, Jodhpur, 1992.
+p ~ 157-66.
+.
+
+12. Antony, Jose. Libsys-a selection for library
+automation a n d networking. In
+Proceedings and Souvenir of National
+Seminar on Library Automation-Problems
+and Prospects, 2426 May 1997, UP
+Library Association, Roorkee.
+
+8.
+
+Sinha, AK. Information management in 21st
+century. Annds of Library Science and
+Documentation, 1.992,39(3), 106-12.
+
+11. Brochure on Granthalaya-a library
+automation package (ver 1.0), INSOOC,
+New Delhi.
+
+13. Bhargava, JK, Srivastava, RK & Murthy, SS.
+Sanja-n
+Indian library automation
+package based on CDS/ISIS. Program,
+1993, 27(1), 51-66.
+14. Brochure on Sanjay (ver 2.0). NISSAT, New
+Delhi.
+
+
