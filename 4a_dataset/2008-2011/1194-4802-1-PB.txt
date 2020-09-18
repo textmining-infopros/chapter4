@@ -1,0 +1,1749 @@
+DESIDOC Journal of Library & Information Technology, Vol. 31, No. 5, September 2011, pp. 371-376
+© 2011, DESIDOC
+
+Simple Technique to Normalise Impact Factor of Journals
+K.C. Garg, Suresh Kumar, and Bharvi Dutt
+CSIR-National Institute of Science, Technology and Development Studies, New Delhi-110 012
+E-mail: gargkc022@gmail.com
+
+ABSTRACT
+Various methods have been suggested in the literature to normalise the impact factor of journals. However,
+these methods have their own limitations. Present communication suggests a simple alternative method to
+normalise the impact factor of journals based on average impact of journals.
+Keywords: Impact factor, normalised impact factor, standardised impact factor
+
+1. INTRODUCTION
+The impact factor of a journal is basically a ratio
+between citation and citable items published in a journal
+and indicate the relative standing and influence of the
+journal within its disciplinary boundaries. It is calculated
+by dividing the number of citations a journal receives for
+papers published during the last two years by the number
+of articles this journal published during the same time.
+However, Moed1, et al. and van Leeuwen & Moed2 have
+questioned the accuracy and validity of the impact factor
+of journal.
+
+The methods suggested by Sen5 & Fromter6 exclude
+review journals, while Marshakova-Shaikevich7 takes into
+consideration five journals with highest impact factor of the
+specialty in the calculation of the NIF. According to Pudovkin
+& Garfield,8 the methodologies suggested by Sen5 and
+Marshakova-Shaikevich7 are not quite satisfactory, as these
+involve either the maximal impact factor or a few of the
+highest impact factors in a speciality. The champion values
+are not always characteristics of impact factor values of the
+majority of journals within the specialty, and thus, introduce
+fortuitous elements in the NIF.
+
+Due to diversity of citing behaviour in different
+disciplines, Balaban3 and Makino4 argued that direct
+comparison between impact factor of journals dedicated
+to different disciplines is inadequate. Using the same
+rational it is not advisable to use impact factor of journals
+for an inter-institutional or inter-country assessment of
+research performance in different disciplines. To
+overcome this problem, use of normalised impact factor
+(NIF) has been suggested. Different authors5-11 have
+suggested different methods to normalise the impact
+factor of the journals.
+
+Moed9, et al. suggested normalised impact factor of
+journal, that takes into account both the citation
+characteristics in the sub-fields covered by a journal, as
+well as the composition of the journal in terms of types of
+documents, particularly ‘normal’ research articles, notes,
+and review articles. In the methodology suggested by
+Moed9, et al. one has to examine the citations of all the
+documents published in a journal X under the category C
+for a particular year. Examining the citations of all
+documents published in a journal is not only cumbersome
+but also a time-consuming process and necessitates the
+use of citation index.
+
+According to Sen5 the impact factor of the publishing
+journal is divided by the highest impact factor of the
+journal within the sub-field excluding review journals,
+which is then multiplied by a constant number. Fromter6
+suggests another method, according to which the impact
+factor of the publishing journal is divided by the arithmetic
+mean of all impact factors of the category excluding
+review journals.
+
+Pudovkin & Garfield8 have suggested the use of ranknormalised impact factor to compare journal performance
+across subject categories. Egghe & Rousseau10 also
+suggested relative impact factor to compare the impact of
+journals belonging to different fields. The methods
+suggested by Pudovkin & Garfield8 and Egghe &
+Rousseau10 are simple to use but have practical
+difficulties. The calculation of rank-normalised impact
+371
+
+factor requires the use of Journal Citation Report (JCR) for
+recording the rank of the journal in the specialty. Similarly,
+for calculating the relative impact factor, one needs JCR
+for recording the citations and the source items for a
+specified journal in the field.
+In view of the above limitations in the methods
+suggested by different authors, a simple alternative
+method for calculating NIF is suggested.
+
+2. METHODOLOGY
+In the suggested procedure, average impact factor of
+the journals in the sub-disciplines is calculated. Based on
+the average impact factor of the journals, the journals in
+the sub-discipline are divided into three categories as low
+impact factor journals, medium impact factor journals,
+and high impact factor journals. Piecewise linear mapping
+technique has been applied to calculate the normalised
+impact factor. Stepwise procedure for computations of NIF
+by the suggested procedure is as follows:
+Step 1: Arrange the journals within a sub-discipline in
+ascending order of impact factor (column 2 of
+Table 1).
+Step 2: Calculate the average impact factor of the
+journals
+in the sub-discipline using the formula
+n
+1
+n
+IF
+( ) ∑ j , where, IF denotes the impact factor of
+j =1
+the journals and n denotes the number of journals
+in the sub-discipline. In the set of journals
+given in
+n
+1
+n
+IF
+=
+73.619 .
+(
+)
+∑
+j
+the Appendix 1, n=139 and
+j =1
+Average impact factor is thus 73.619 /139 =
+0.530.
+Step 3: Based on the average impact factor of the
+journals, divide the journals into three categories
+as low impact factor journals, medium impact
+factor journals, and high impact factor journals.
+In the present case, low impact factor journals
+are those whose impact factor is ≤ average
+impact factor of the sub-discipline, i.e., ≤ 0.530;
+medium impact factor journals are those whose
+impact factor is more than average impact factor
+but less than or equal to twice the average impact
+factor, i.e., > 0.530 ≤ 1.06; and high impact factor
+journals are those whose impact factor is more
+than twice the average impact factor, i.e.>1.06.
+Step 4: Calculate the average impact factor for each
+category of the journals as illustrated in Table 2
+for the list of journals given in the Appendix 1.
+Step 5: Calculate pre-normalised impact factor (PNIF)
+values for each journal by piecewise linear
+mapping technique using the following formula:
+⎡( AIFr − AIFr −1 ) ( IFj − Max ( IFr −1 ) ) ⎤
+⎦
+PNIFj = AIFr −1 + ⎣
+⎡⎣ Max ( IFr ) − Max ( IF r −1 ) ⎤⎦
+
+372
+
+Table 2. Calculation of average impact facor
+
+Category
+{r}
+
+Number of
+journals
+
+Total
+impact
+factor (IF)
+
+Average impact factor
+(AIF)
+
+1
+
+86
+
+18.163
+
+18.163 / 86 = 0.211
+
+2
+
+34
+
+25.524
+
+25.524 / 34 = 0.751
+
+3
+
+19
+
+29.932
+
+29.932 / 19 = 1.575
+
+where, PNIFj denotes the pre-normalised impact factor of
+the journal j; and Max (IFr) denotes maximum impact
+factor of corresponding category.
+In case of r = 1, i.e., the Ist category, the value of IFr-1
+would assume the value of zero, since there is no
+category prior to the Ist category. Hence, in case of Ist
+category the values of AIFr-1 and Max (IFr-1) would be zero.
+Calculation for PNIF for different categories of journals
+given in the Appendix 1 are:
+⎡ ( AIFr − AIFr −1 ) ( IF j − Max ( IFr −1 ) ) ⎤
+⎦
+PNIFj = AIFr −1 + ⎣
+⎡⎣ Max ( IFr ) − Max ( IF r −1 ) ⎤⎦
+Example for calculation of PNIF for different
+categories:
+st
+⎣⎡( 0.211 − 0 )( 0.012 − 0 ) ⎦⎤
+(1 category ) PNIF6 = 0 +
+
+[0.514 − 0]
+
+= 0.005
+
+Step 6: Normalise the PNIF to the scale of 10 using the
+following formula:
+⎛
+PNIFj
+⎞
+NIFj = ⎜⎜
+⎟⎟ *10
+Max
+PNIF
+(
+)
+⎝
+⎠
+
+3. ADVANTAGES
+The advantages of using the suggested method for
+calculating the NIF are:
+(a) It does not exclude review journals or any other high
+impact factor journal in the calculation of NIF as
+suggested by Sen5 and Fromter6, and thus takes
+into consideration the wide variations in the range of
+impact factors.
+(b) It does not take into consideration only the journals
+with highest impact factor as suggested by
+Marshakova-Shaikevich7.
+(c) It does not require the tools like JCR for obtaining the
+ranks of the journals in a speciality as suggested by
+Pudovkin & Garfield8 and data on source items and
+number of citations as suggested by Egghe &
+Rousseau10 as well as the Science Citation Index for
+examining citations for different types of citable items
+as pointed out by Moed9, et al.
+
+ACKNOWLEDGEMENTS
+Authors are thankful to Dr Gangan Prathap, Director,
+National Institute of Science Communication and
+DESIDOC J. Lib. Inf. Technol., 2011, 31(5)
+
+Information Resources, New Delhi, for his valuable inputs
+and advice that has been of immense help in the
+preparation of the present paper.
+
+7. Marshakova-Shaikevich, I. The standard impact factor
+as an evaluation tool of science fields and scientific
+journals. Scientometrics, 1996, 35, 283-90.
+
+REFERENCES
+
+8. Pudovkin, A.I. & Garfield, E. Rank-normalised impact
+factor: A way to compare journal performance across
+subject categories. In American Society for
+Information Science and Technology Annual Meeting,
+17 November 2004. http://www.garfield.library.upenn
+.edu/papers/asistranknormalization2004.pdf
+
+1. Moed, H.F.; van Leeuwen, Th.N. & Reedijk, J.
+Towards appropriate indicators of journal impact.
+Scientometrics, 1999, 46, 575-89.
+2. van Leeuwen, Th.N. & Moed, H.F. Development and
+application of journal impact measures in the Dutch
+science system. Scientometrics, 2002, 53, 249-66.
+3. Balaban, A.T. How should citations to articles in highand low-impact journals be evaluated, of what is a
+citation worth? Scientometrics, 1996, 37, 495-98.
+4. Makino, J. Productivity of research groups–Relation
+between citation analysis and reputation within
+research communities. Scientometrics, 1998, 43, 8793.
+5. Sen, B.K. Normalized impact factor. Journal of
+Documentation, 1992, 48, 318-25.
+6. Fromter, E., et al. Evaluierung publizierter
+forschungsbeitrage in der medizin. Deutsche
+medizinische wochenschrift,1999, 124, 910-15. In
+Citation rates, knowledge export and international
+visibility of dermatology journals listed and not listed
+in the Journal Citation Reports, edited by J.
+Stegmann & G. Grohmann. Scientometrics, 2001,
+50, 483-02.
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(5)
+
+9. Moed, H.F.; van Leeuwen, T.N. & Reedijk, J. A new
+classification system to describe the aging of
+scientific journals and their impact factors. Journal of
+Documentation, 1998, 54, 387-19.
+10. Egghe, L. & Rousseau, R. A general framework for
+relative impact indicators. Canadian J. Infor. Libr.
+Sci., 2002, 27, 29-48.
+11. Ramirez, A.M.; Garcia, E.O. & Del Rio, J.A.
+Renormalised impact factor. Scientometrics, 2000,
+47(1), 3-9.
+About the Author
+Dr K.C. Garg presently holds the position of Scientist ‘G’
+at CSIR-National Institute of Science Technology and
+Development Studies (NISTADS), Council of Scientific
+and Industrial Research, New Delhi. Before joining
+NISTADS in 1983, he worked at Defence Science
+Library, DESIDOC from 1975 to 1983. He is working in
+the area of scientometrics for more than 20 years and
+has published more than 50 papers on various aspects of
+scientometrics in national and international journals.
+
+373
+
+Appendix 1
+S. No.
+
+374
+
+Journal
+
+IF
+
+PNIF
+
+NIF
+
+1.
+
+Sharp Tech J
+
+0.000
+
+0.000
+
+0.000
+
+2.
+
+Izv Vuz Radioelectr
+
+0.000
+
+0.000
+
+0.000
+
+3.
+
+Electronics
+
+0.003
+
+0.001
+
+0.006
+
+4.
+
+Electron Prod
+
+0.007
+
+0.003
+
+0.019
+
+5.
+
+IFIP Trans C
+
+0.010
+
+0.004
+
+0.025
+
+6.
+
+Electron Eng
+
+0.012
+
+0.005
+
+0.032
+
+7.
+
+Siemens Rev
+
+0.014
+
+0.006
+
+0.038
+
+8.
+
+Int J Elec Eng Edu
+
+0.014
+
+0.006
+
+0.038
+
+9.
+
+Electronica
+
+0.015
+
+0.006
+
+0.038
+
+10.
+
+Control Eng
+
+0.016
+
+0.007
+
+0.044
+
+11.
+
+Telecomm Radio Eng
+
+0.017
+
+0.007
+
+0.044
+
+12.
+
+Comput Des
+
+0.018
+
+0.007
+
+0.044
+
+13.
+
+Onde Elect r
+
+0.019
+
+0.008
+
+0.051
+
+14.
+
+Electron World Wirel
+
+0.021
+
+0.009
+
+0.057
+
+15.
+
+Electron Inform Plan
+
+0.024
+
+0.010
+
+0.063
+
+16.
+
+NEC Res Dev
+
+0.025
+
+0.010
+
+0.063
+
+17.
+
+EDN
+
+0.027
+
+0.011
+
+0.070
+
+18.
+
+Electron Des
+
+0.031
+
+0.013
+
+0.083
+
+19.
+
+Electr Commun
+
+0.035
+
+0.014
+
+0.089
+
+20.
+
+Brit Telecommun Eng
+
+0.037
+
+0.015
+
+0.095
+
+21.
+
+Mic rowave Rf
+
+0.038
+
+0.016
+
+0.102
+
+22.
+
+Electr Pow Syst Res
+
+0.044
+
+0.018
+
+0.114
+
+23.
+
+Electr Mach Pow Syst
+
+0.049
+
+0.020
+
+0.127
+
+24.
+
+Fujitsu Sci Tech J
+
+0.050
+
+0.021
+
+0.133
+
+25.
+
+Hewlett Packard J
+
+0.056
+
+0.023
+
+0.146
+
+26.
+
+IEE Rev
+
+0.062
+
+0.025
+
+0.159
+
+27.
+
+IEICE T Fund Elect r
+
+0.088
+
+0.036
+
+0.229
+
+28.
+
+NTT Review
+
+0.091
+
+0.037
+
+0.235
+
+29.
+
+Int J Elect Power
+
+0.093
+
+0.038
+
+0.241
+
+30.
+
+Compel
+
+0.101
+
+0.041
+
+0.260
+
+31.
+
+IEEE T Educ
+
+0.104
+
+0.043
+
+0.273
+
+32.
+
+Eur T Elect r Pow
+
+0.119
+
+0.049
+
+0.311
+
+33.
+
+Comput Electr Eng
+
+0.133
+
+0.055
+
+0.349
+
+34.
+
+J Micriwave Power Ee
+
+0.145
+
+0.060
+
+0.381
+
+35.
+
+Mic roprocess Mic ros y
+
+0.149
+
+0.061
+
+0.387
+
+36.
+
+Mic roelectron Reliab
+
+0.152
+
+0.062
+
+0.394
+
+37.
+
+GEC – J Res
+
+0.156
+
+0.064
+
+0.406
+
+38.
+
+IEE P Commun
+
+0.167
+
+0.069
+
+0.438
+
+39.
+
+IEICE T Electron
+
+0.170
+
+0.070
+
+0.444
+
+40.
+
+Radiotekh Elektron
+
+0.173
+
+0.071
+
+0.451
+
+41.
+
+Arch Electrotech
+
+0.181
+
+0.074
+
+0.470
+
+42.
+
+J Electrostat
+
+0.184
+
+0.076
+
+0.483
+
+43.
+
+Contr Theor Adv Tec h
+
+0.185
+
+0.076
+
+0.483
+
+44.
+
+Frequenz
+
+0.190
+
+0.078
+
+0.495
+
+45.
+
+IEEE T Broadcas t
+
+0.194
+
+0.080
+
+0.508
+
+46.
+
+Int J Adapt Cont rol
+
+0.211
+
+0.087
+
+0.552
+
+47.
+
+Mic rowave J
+
+0.213
+
+0.088
+
+0.559
+
+48.
+
+Appl Artif Int ell
+
+0.217
+
+0.089
+
+0.565
+
+49.
+
+Electron Commun Eng
+
+0.239
+
+0.098
+
+0.622
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(5)
+
+50.
+
+Analog Integr Circ S
+
+0. 239
+
+51.
+
+IEEE T Energy Conser
+
+0.243
+
+0.100
+
+0.635
+
+52.
+
+IEICE T Commun
+
+0.247
+
+0.101
+
+0.641
+
+53.
+
+Mechatronics
+
+0.250
+
+0.103
+
+0.654
+
+54.
+
+IEEE T Consum Electr
+
+0.252
+
+0.104
+
+0.660
+
+55.
+
+Int J Elecron
+
+0.258
+
+0.106
+
+0.673
+
+56.
+
+Electromagnet ics
+
+0.260
+
+0.107
+
+0.679
+
+57.
+
+IEEE Circuit Devic
+
+0.274
+
+0.113
+
+0.717
+
+58.
+
+IEE P- Elect Pow Appl
+
+0.291
+
+0.120
+
+0.762
+
+59.
+
+IEEE T Ind Appl
+
+0.292
+
+0.120
+
+0.762
+
+60.
+
+IEE P- Gener Transm D
+
+0.310
+
+0.127
+
+0.806
+
+61.
+
+Int J Microwave Mill
+
+0.318
+
+0.131
+
+0.832
+
+62.
+
+Mic row Opt Techn Let
+
+0.320
+
+0.131
+
+0.832
+
+63.
+
+IEEE T Power Deliver
+
+0.346
+
+0.142
+
+0.902
+
+64.
+
+Circ Syst signal Pr
+
+0.357
+
+0.147
+
+0.933
+
+65.
+
+Expert Syst Appl
+
+0.366
+
+0.150
+
+0.952
+
+66.
+
+Bt Technol J
+
+0.370
+
+0.152
+
+0.965
+
+67.
+
+AEU- Arc h Elektron Ub
+
+0.374
+
+0.154
+
+0.978
+
+68.
+
+IEEE T Instrum Meas
+
+0.402
+
+0.165
+
+1.048
+
+69.
+
+IEE P – Sci Meas Tech
+
+0.403
+
+0.166
+
+1.054
+
+70.
+
+Kvant ovaya Elektron
+
+0.409
+
+0.168
+
+1.067
+
+71.
+
+Mic roelctron Eng
+
+0.414
+
+0.170
+
+1.079
+
+72.
+
+Multidim Syst Sign P
+
+0.419
+
+0.172
+
+1.092
+
+73.
+
+Int J Soft w Eng Know
+
+0.420
+
+0.173
+
+1.098
+
+74.
+
+IEE P- Circ Dev Syst
+
+0.424
+
+0.174
+
+1.105
+
+75.
+
+Signal Proces s
+
+0.440
+
+0.181
+
+1.149
+
+76.
+
+Int J I nfrared Milli
+
+0.442
+
+0.182
+
+1.156
+
+77.
+
+J Mat er Sci- Mater El
+
+0.443
+
+0.182
+
+1.156
+
+78.
+
+IEEE T Compon Hybr
+
+0.447
+
+0.184
+
+1.168
+
+79.
+
+IEEE T Reliab
+
+0.450
+
+0.185
+
+1.175
+
+80.
+
+IEEE T Aero Elec Sys
+
+0.459
+
+0.189
+
+1.200
+
+81.
+
+IEEE T Knowl Data En
+
+0.461
+
+0.189
+
+1.200
+
+82.
+
+IEEE T Ind Electron
+
+0.471
+
+0.194
+
+1.232
+
+83.
+
+Comput Networks ISDN
+
+0.479
+
+0.197
+
+1.251
+
+84.
+
+IEE P Cont r Theor Ap
+
+0.500
+
+0.205
+
+1.302
+
+85.
+
+Concurrency Pract Ex
+
+0.500
+
+0.205
+
+1.302
+
+86.
+
+J Electromagnet Wave
+
+0.514
+
+0.211
+
+1.340
+
+87.
+
+IEEE T Circuits II
+
+0.540
+
+0.240
+
+1.524
+
+88.
+
+IEEE T Elect ronagn C
+
+0.549
+
+0.250
+
+1.587
+
+89.
+
+Solid St ate Technol
+
+0.571
+
+0.274
+
+1.740
+
+90.
+
+IEEE T Power Syst
+
+0.577
+
+0.280
+
+1.778
+
+91.
+
+IEEE T Oceanic Eng
+
+0.577
+
+0.280
+
+1.778
+
+92.
+
+IEEE T Semiconduct M
+
+0.581
+
+0.285
+
+1.810
+
+93.
+
+Math Control Signal
+
+0.595
+
+0.300
+
+1.905
+
+94.
+
+Image Vision Comput
+
+0.602
+
+0.308
+
+1.956
+
+95.
+
+IEEE Spectrum
+
+0.623
+
+0.331
+
+2.102
+
+96.
+
+Int J Circ Theor App
+
+0.627
+
+0.335
+
+2.127
+
+97.
+
+IEEE Expert
+
+0.629
+
+0.337
+
+2.140
+
+98.
+
+IEEE T Syst Man Cyb
+
+0.649
+
+0.359
+
+2.279
+
+99.
+
+J Supercomput
+
+0.656
+
+0.367
+
+2.330
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(5)
+
+0.098
+
+0.622
+
+375
+
+100.
+
+Pattern Recogn
+
+0.691
+
+0.405
+
+2.571
+
+101.
+
+Sensor Actuat A- Phys
+
+0.704
+
+0.420
+
+2.667
+
+102.
+
+IEE P – Optoelectron
+
+0.727
+
+0.445
+
+2.825
+
+103.
+
+IEEE T Circuits –I
+
+0.732
+
+0.450
+
+2.857
+
+104.
+
+Radio sci
+
+0.753
+
+0.473
+
+3.003
+
+105.
+
+IEEE T Magn
+
+0.758
+
+0.479
+
+3.041
+
+106.
+
+Solid St ate Electron
+
+0.759
+
+0.480
+
+3.048
+
+107.
+
+IEEE T Elect r Insul
+
+0.776
+
+0.498
+
+3.162
+
+108.
+
+IEEE T Veh Tec hnol
+
+0.796
+
+0.520
+
+3.302
+
+109.
+
+IEEE T Ant enn Propag
+
+0.806
+
+0.531
+
+3.371
+
+110.
+
+IEEE Commun Mag
+
+0.840
+
+0.569
+
+3.613
+
+111.
+
+IEEE T Aut omat Cont r
+
+0.867
+
+0.598
+
+3.797
+
+112.
+
+IEEE J Solid St Circ
+
+0.903
+
+0.638
+
+4.051
+
+113.
+
+IEEE T Comput
+
+0.904
+
+0.639
+
+4.057
+
+114.
+
+IEEE T Parall Distr
+
+0.905
+
+0.640
+
+4.063
+
+115.
+
+IEEE t Ultrason Ferr
+
+0.927
+
+0.664
+
+4.216
+
+116.
+
+Adv Mater Opt Electr
+
+0.957
+
+0.697
+
+4.425
+
+117.
+
+IEEE J Sel Area Comm
+
+0.964
+
+0.705
+
+4.476
+
+118.
+
+IEEE T Commun
+
+0.969
+
+0.710
+
+4.508
+
+119.
+
+IEEE T Mirowav e Theory
+
+1.004
+
+0.749
+
+4.756
+
+120.
+
+IEEE T Robotic Autom
+
+1.006
+
+0.751
+
+4.768
+
+121.
+
+Sensor Actuat B- Chem
+
+1.074
+
+0.785
+
+4.984
+
+122.
+
+IEEE T Sof tware Eng
+
+1.117
+
+0.807
+
+5.124
+
+123.
+
+Electron Lett
+
+1.159
+
+0.829
+
+5.263
+
+124.
+
+IEEE T Nucl Sci
+
+1.183
+
+0.841
+
+5.340
+
+125.
+
+Network Comp Neural
+
+1.196
+
+0.848
+
+5.384
+
+126.
+
+IEEE t Signal Proces
+
+1.234
+
+0.867
+
+5.505
+
+127.
+
+J Electron Mater
+
+1.238
+
+0.869
+
+5.517
+
+128.
+
+Opt Quant Electron
+
+1.303
+
+0.903
+
+5.733
+
+129.
+
+IEEE T Geosci Remote
+
+1.356
+
+0.930
+
+5.905
+
+130.
+
+Semicond Sci Tech
+
+1.389
+
+0.947
+
+6.013
+
+131.
+
+P IEEE
+
+1.494
+
+1.000
+
+6.349
+
+132.
+
+IEEE Electr Dev ice L
+
+1.610
+
+1.060
+
+6.730
+
+133.
+
+IEEE T Elect ron Dev
+
+1.630
+
+1.070
+
+6.794
+
+134.
+
+Prog Quant Electr
+
+1.818
+
+1.166
+
+7.403
+
+135.
+
+IEEE T Neural Network
+
+1.941
+
+1.229
+
+7.803
+
+136.
+
+IEEE T Inform Theory
+
+1.971
+
+1.244
+
+7.898
+
+137.
+
+IEEE T Pat tern Anal
+
+2.006
+
+1.262
+
+8.013
+
+138.
+
+IEEE J Quantum Electr
+
+2.595
+
+1.564
+
+9.930
+
+139.
+
+Semiconduct Semimet
+
+2.618
+
+1.575
+
+10.000
+
+Total
+
+73.619
+
+AIF1 = 0.211 for journals at S.No.
+AIF2 = 0.751 for journals at S.No.
+
+1- 86
+
+(86 journals)
+
+87-120 (34 journals)
+
+AIF3 = 1.575 for journals at S.No. 121- 139 (19 journals)
+Source: Science Citation Index Journal Subject Category listing 1994 (Electrical and Electronic Engineering)
+
+376
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(5)
+
+

@@ -1,0 +1,205 @@
+DESIDOC Journal of Library & Information Technology, Vol. 35, No. 2, March 2015, pp. 132-137 
+  2015, DESIDOC 
+Integrated Silicon Photonics: Visualisation of Patent Datasets for Mapping  
+Technology 
+Nidhi Sandal and Avinash Kumar 
+Directorate of  ER & IPR, DRDO Bhawan, Rajaji Marg, New Delhi-110 011, India 
+E-mail: nidhisandal@hqr.drdo.in 
+ABSTRACT 
+Analysing patent information is considered to be one of the most systematic and logical methodology  to get an insight into the progress of technologies.  Patent statistics can be used to ascertain the maturity  of  specifc  technologies  or  to  identify  technological  trends.  Similarly,  it  is  possible  to  identify  whether  research activities are clustered or scattered by comparing the number of applications with the number of  applicants. Visualization technique is considered to be most eloquent and illustrative way of representing  patent information and its analysis results to get insight into various aspects of any particular technology1.  Statistical  analysis  of  the  relevant  patent  dataset  is  carried  out  using  patent  maps  in  the  visualisation  techniques.  Different  patent  maps  help  in  understanding  various  aspects  about  the  searched  system/ technology like top patent assignees, top Inventors. Time based analysis provides the trends of technology  on the time scale, while cross-mapping of the patent documents provides further useful information. All the  above analysis can be illustrated in patent maps to make it more presentable, structured and customised.  In the present paper, the patent maps have been exploited to understand technologies and other aspects  
+related to the Integrated Silicon Photonics. 
+Keyword:  Patent, search, patent map, visualisation, silicon photonics, database 
+1.    INTRODUCTION 
+Patents are useful sources of knowledge about  technical progress and innovative activity2   and thus  have commonly been examined in R&D planning2,3.  Searching patent documents, either on paid professional  databases  or  freely  available  databases,  results  in  huge  number  of  documents  which  may  amount  to  thousands and therefore extracting useful information  from  such  datasets  could  be  quite  a  challenging  job.  However,  analysis  of  the  unstructured  data  of  patent datasets may be simplified using visual tools  like patent maps. There are different types of maps  which could be prepared for analysis purposes suiting  any  particular  requirement.    In  general,  statistical  analysis maps include rate map, number map, trend  map,  relation  map,  radar  map,  portion  map,  etc.  Broadly, patent maps provide useful information for  identifying  and  planning  research  work,  promoting  research/technology  and  technology  management5 (Fig.  1). 
+2. 
+LITeRATURe  ReVIew 
+The increased quantity of publications, patents,  reports, books and other literature has built a huge  reservoir of the information base and there are more  than  250  million  published  research  papers  and  approximately 80 million published patent documents6,7.  
+These published documents provide researchers an  opportunity to search for further research, although  managing these documents for search is a challenging  task. The rise of computers and advanced analytical  software  has  played  an  important  role  in  effective  utilisation  and  analysis  of  this  information  base.  Several  analytical  techniques  and  models  have  
+Figure 1. Advantages from patent mapping. 
+been  discussed  for  deducing  useful  information  from such huge database8. Citation analysis is one  of  the  most  frequently  used  methods9.  Network  analysis,  clustering,  network  models,    neuronal  model,  keword-vector  analysis,  co-word  analysis,  
+Received 4 February 2015, Revised 2 March 2015, Online published 20 March 2015 
+
+========1========
+
+SANDAL  & Ku MAR: VISuALISATION OF  P ATENT  D ATASETS FOR  T EChNOLOgy MAPPINg 
+Bayesian network models, etc., have been also been  explored in the literature to extract desired information  from  the  published  literatures10-13.  Scientometrics  is  a  dedicated  branch  for  the  study  of  measuring  and  analysing  science,  technology  and  innovation  through  databases14. 
+As compared to published research papers, the  published patent documents are easy to search and  extracting  information  from  it  is  simpler  because  patent  documents  are  systematically  recorded  and  updated  and  therefore  it  plays  a  key  role  in  analyzing and forecasting future technological trends,  conducting strategic technology planning, detecting  patent  infringement,  determining  patents  quality  and  the  most  promising  patents,  and  identifying  technological hotspots and patent vacuums15. Each  patent  document  contains  data  under  two  types  of  attributes:(1)  Structured  attributes  also  referred  as  bibliometric  data  and  (2)  unstructured  attributes  which include detailed description, summary, claims  and  drawings  of  the  invention.  All  these  attributes  are  searchable  and  systematically  presented  in  a  patent  document.  Deducing  information  from  the  structured attributes is easier that the unstructured  attributes. However, the structured attributes serve  as  extremely  useful  vehicle  for  R&D  management  and  technoeconomic  analysis.  The  visualization  of  the  huge  patent  dataset  based  on  the  structured  data  is  called  patent  graph  and  if  it  is  based  on  the  unstructured  data,  then  is  called  patent  map  but the general term patent maps can refer to both  cases16.  Although  different  forms  of  patent  maps  have been developed, most conventional ones use  information  extracted  from  the  bibliographic  fields  of  patent  document  to  provide  simple  statistical  results17.  The  present  paper  explores  the  potential  of  the  visualisation  of  the  huge  searched  patent  dataset  through  patent  maps  to  provide  useful  information  to  the  researchers. 
+3.    PATeNT  MAPS  FOR  INTeGRATeD  SILICON  
+PHOTONICS 
+3.1  Integrated  Silicon  Photonics 
+Silicon  photonics  is  the  study  and  application  of photonic systems which use silicon as an optical  medium. Silicon photonic devices can be made using  existing  semiconductor  fabrication  techniques,  and  because  silicon  is  already  used  as  the  substrate  for  most  integrated  circuits,  it  is  possible  to  create  hybrid  devices  in  which  the  optical  and  electronic  components are integrated onto a single microchip18.  These  devices  have  wide  applicability  as  optical  interconnects, optical routers and signal processing,  long  range  telecommunications  etc.  Researchers  are  actively  involved  in  developing  and  improving  the  potentials  of  silicon  photonics  to  enhance  its  applicability  like  harnessing  the  data  explosion  
+where  data  is  growing  exponentially  at  a  rate  of  tenfold every five years. Researchers interested to  work in the field of integrated silicon photonics may  use patent documents to extract useful information  such  as  actively  involved  companies,  their  patent  profile, key inventors in this field, highly progressing  technological  fields  in  this  area,  vacancies  or  unexplored  areas,  etc.  
+3.2  Data  Collection 
+For  the  Integrated  silicon  photonics,  patent  search based on keyword and IPC classification was  conducted on gPI, an EPO developed database of  patents19.  The  relevant  classes  for  the  integrated  silicon photonics were identified and then search was  carried out based on classification alone as well as  in combination with the keywords. The patent maps  of  the  broadest  patent  dataset  were  prepared  and  analysed  to  understand  the  technology  pertinent  to  integrated  silicon  photonics.  Further  as  desired  the  company  specific  and  inventors  specific  patent  search was carried out to extract detailed information  about  the  both  using  patent  documents.    3.3  Technology  Trend  Map 
+The  trend  patent  map  of  the  broadest  dataset  with the year of priority/filing/publication on x scale  and  inventors/assignee  name  on  y  scale  provided  a  key  insight  of  the  technology.  Figure  2  provides  the  time  scale  map  of  the  international  patent  classification (IPC). As evident from the trend map,  the patents in various fields had been filed over the  years. However, the key focus area for this particular  technology  is  defined  by  a  set  of  classifications:  h01L, h01S, g02B, g01T, g01F and g01N.  These  set  of  IPC  codes  can  be  described  
+h01L - Semiconductor Devices; Electric Solid State  
+      Devices  Not  Otherwise  Provided  For 
+h01S-  Devices  using  Stimulated  Emission 
+g02B-  Optical  Elements,  Systems,  or  Apparatus  g01T-  Measurement  of  Nuclear  or  X-Radiation G01F-  Measuring Volume, Volume Flow, Mass Flow,  
+      or  Liquid  Level;  Metering  By  Volume  g01N-    Investigating or Analysing Materials by Determining  
+      Their  Chemical  or  Physical  Properties 
+g02F-  The  Optical  Operation  of  Which  is  modified   
+      by  Changing  the  Optical  Properties 
+It  is  evident  that  the  definitions  of  all  these  above mentioned classes are very broad. However,  these technology areas are of prime interest for the  researches and lot of patents have been generated  in  these  technology  areas.  The  class  g02B  and  ho1L  encompasses  patents  in  the  area  of  optical  elements, systems and apparatus & semiconductor  
+133 
+
+========2========
+
+DJLIT,  VOL.  35,  NO.  2,  MARCh  2015 
+devices  respectively.  These  two  are  found  to  be  most relevant IPC classification for integrated silicon  photonics.  Also  the  IPC  classification  h01L  and  h01S relates to patents in the area of devices using  simulated  emission  which  is  another  very  relevant  class  for  the  present  system.  The  classes  h01L  and  G02B,  which  were  maximally  exploited  by  the  
+classification  were  prepared  using  statistical  tools  of gPI database (Fig. 3 (a&b)). These patent maps  were  useful  in  analysing  the  growth  of  technology  with  respect  to  each  applicant/inventor  over  the  years. The time scale map of the applicants depicted  that hamamatsu  Photonics  KK,  Koninklijke  Philips  Electronics,  Institute  of  Semiconductor, hitachi  
+researches  as  seen  in  the  Fig.  2,  require  further  Ltd,  Acron  Technologies,  DCg   systems,  France  detailing  to  understand  the  relevant  aspects  of  the  telecom, Philips IPR, etc., are among top applicants  
+Figure  2.  Technology  Trend  Map:  Patent  map  showing  
+date of fling vs IPC classifcation. 
+present  Integrated  Silicon  phtotonics.  Apart  from  these  classifications,  other  IPC  classes  also  show  quite  a  good  number  of  patents  over  the  years.  These  IPC  classes  are:  
+C30B:   unidirectional solidification of eutectic material   
+       or unidirectional demixing of eutectoid material;   
+      refining  by  zone-melting  of  material 
+C23C:  Coating  metallic  material 
+B28D:  Working stone or stone-like materials (machinery  
+      for,  or  methods  of,  mining  or  quarrying) B23K:  Soldering  or  unsoldering;  welding;  cladding  
+or  plating  by  soldering  or  welding;  cutting    
+      by applying heat locally, e.g., flame cutting;  
+      working  by  laser  beam 
+A61N:  Electrotherapy;  magnetotherapy;  radiation    
+      therapy;  ultrasound  therapy  
+Although, patents have been filed in these areas  of  technologies,  the  focus  of  the  researchers  has  not  been  much  in  these  areas.  
+4.    MARKeT   Re SeARCH   M AP 
+Study of patent maps over one another, is useful  technique to understand the applicants’ technology  
+in  this  area  of  technology.  The  IPC  classification- based  patent  map  showed  that  the  technology  area  of  the  patents  filed  by  these  applicants  may  be  understood  by  the  IPC  classes  B23K,  B28D,  g01T, h01L, g02F. 
+(a) 
+(b) 
+Figure  3.  Patent  map  showing  top  20  applicant  vs  (a)   
+date of fling and (b) IPC classifcation. 
+Like-wise for the inventors, the time scale showed  that  all  the  top  twenty  inventors  of  this  technology  
+focus,  their  research  work,  strategy,  planning  in  area  are  very  active  as  shown  in  the  patent  map  
+a  particular  area  of  technology.  Overlapping  the  information, deduced from one patent map over the  another, yields useful results and provide interesting  facts  not  only  about  the  technology  but  also  about  the assignees/inventors. In the present study, patent  
+Fig. 4 (a). The scattered bubble diagram shows not  peculiar  trend,  however,  it  shows  the  fairly  good  amount of work done by each inventor as measured  by the number of patents filed by them. Further, on  analysis  of  the  technology  focus  area  in  map  (Fig.  
+map  overlapping  was  carried  out  to  understand  4  (b)),  it  is  observed  that  similar  to  applicants  key  the  inventors’  research  area  with  passage  of  time.  interest area and the technology trend as shown in  
+Patents  maps  of  the  top  20  applicants/inventors  over  the  time  scale,  i.e.,  date  of  filing  and  IPC  
+134 
+trend map (Fig. 2), the technology are of inventors’  interest  are  B23K,  B28D, g01T, h01L, g02F. 
+
+========3========
+
+SANDAL  & Ku MAR: VISuALISATION OF  P ATENT  D ATASETS FOR  T EChNOLOgy MAPPINg 
+6.    HIGHeST   P ATeNT   F ILeR:  APPLICANT AND 
+INVeNTORS 
+(a) 
+(b) 
+Figure  4.  Patent  map  showing  top  twenty  inventors  vs  
+(a) date of fling and (b) IPC. 
+5.    ReLATION   M AP 
+Another  patent  map  to  understand  the  relation  between the inventors and the applicants was prepared.  The  relation  map  as  shown  in  Fig.  5  provided  an  interesting piece of information. Thirteen among the  top  twenty  inventors  (Fig.  5)  had  affiliations  to  the  top applicants like hamamatsu Photonic, Kniniklijke  Philips,  Philips  IPR,  Sirica  Corp.,  France  telecom  and  Frach  Thomas.  This  is  a  very  useful  piece  of  information  in  case  any  collaboration  of  joint  development/venture  has  to  be  worked  out. 
+After  studying  these  patent  maps,  it  may  be  concluded  that  hamamatsu  Photonics  Ltd  is  one  the  most  active  company  in  the  area  of  integrated  silicon  photonics.  Therefore  a  detailed  study  of  this company was done using the IPR search tools  of  GPI  and  an  attempt  was  made  to  corroborate  the  patent  information  with  the  company’s  profile.  hamamatsu  Photonics  Ltd.  is  approximately  50  years  old  Japanese  company  working  the  area  of  advance  photonic  technologies.  It  has  more  than  1500 products in the area of optical sensors including  microPMT, Photomultiplier tubes, PMT modules, PMT  Assemblies,  color  sensor,  IR  detectors  etc.  This  company  has  also  been  very  active  at  protecting  its innovations by filing patents. A patent search at  GPI for the applicant ‘Hamamatsu Photonics’ showed  more than 19,000 patents. The technology focus of  this company could be identified by the IPC classes  in  which  it  had  filed  maximum  number  of  patent  applications  and  it  primarily  included A61B,  B23K,  g01J, g01N, g01T, g01B, h01J, h01L, h04N and  h01S. Out of these, B23K, h01L, h01S, g01B are  the common technology areas between the searched  results of applicant name hamamatsu Photonics and  keyword search results for “silicon photonics”. This  shows that, the company Hamamatsu Photonics Ltd  is one of the major players in this area in terms of  products  as  well  as  patents.  Another  useful  piece  of  information  was  drawn  using  GPI  search  tools  wherein  the  active  researchers  of  the  Hamamatsu  Photonics  Ltd  were  identified.  Fukuyo  Fumitsugu,  uchiyama Naoki, Muramatsu Masaharu, Fujita Kazuki  are  among  the  top  researchers/inventors  of  the  hamamatsu  Photonics  Ltd. 
+6.  CONCLUSIONS 
+Figure 5. Patent map showing top twenty inventors vs  
+applicants. 
+Patent documents used as an information source  for research can't be analyzed directly because they  consist  of  natural  language.  In  extracting  valuable  information from these searched huge patent document  datasets,  advanced  analytical  techniques  need  to  be  applied,  therefore  making  useful  patterns  and  visualization  of  the  resulting  patent  data  has  been  used  in  treating  the  intellectual  property  from  the  information retrieval point of view21-23.  Patent  maps  represent  an  excellent  tool  to  present  complex  patent  datasets  in  simplest  and  eloquent  graphs  which  may  be  customised  as  per  the  information  requirement.  In  the  present  study,  patent  maps  of  patent  dataset,  selected  from  gPI  developed  by  European Patent Office, were prepared and analysed  to understand the entire gamut of technology pertinent  to integrated silicon photonics. Patents maps of the  top  20  applicants/inventors  over  the  time  scale,  i.e.,  date  of  filing  and  IPC  classification,  prepared  
+135 
+
+========4========
+
+DJLIT,  VOL.  35,  NO.  2,  MARCh  2015 
+using statistical tools of gPI database have helped  in  identifying  the  major  players  in  this  technology  segment in a very illustrative, eloquent and structured  manner.  Similarly,  patent  relation  map,  prepared  to  capture  the  relationship  between  the  inventors  and  the  applicants  of  patents  related  to  Integrated  Silicon  Photonics,  has  successfully  demonstrated  the linkages between the inventors and applicants.  Further, the highest patent filer was identified using  patent  maps.  Hamamatsu  Photonics  Ltd.  was  one  of the most active company in developing products  and  filing  patents  in  the  area  of  Integrated  silicon  photonics.  Like  this,  patent  search  tools  represent  an  advanced  tool  in  analysing  and  forecasting  future  technological  trends,  conducting  strategic  technology planning, detecting patent infringement,  determining patents quality and the most promising  patents, and identifying technological hotspots and  patent  vacuums. 
+ReFeReNCeS 
+1.   y oung, g.K.; Jong, h.S. & Park, S.C. Visualization  
+of  patent  analysis  for  emerging  technology.  
+Expert  Sys.  with Appli., 2008,  34,  1804-812. 2. Suh, J. h. & Park, S.C. Service-oriented Ttchnology  
+roadmap  (SoTRM)  using  patent  map  for  R&D  
+strategy  of  service  industry.  Expert  Sys.  with  
+Appli.,  2009, 36,  6754-772. 
+3. Lee,  S.;  yoon,  B.  &  Park.  y.  An  approach  to  
+discovering new technology opportunities: Keyword- 
+based  patent  map  approach.  Technovation,  
+2009, 29(6-7),  481-97. 
+4. Patent visualisation. http://en.wikipedia.org/wiki/ 
+Patent_visualisation    (accessed  on  22  Sept  
+ember  2014). 
+5. Patent  Map  (PM)  presentations  (WIPS  Co.  
+Ltd).  http://www.wipo.int/edocs/mdocs/sme/en/ 
+wipo_ip_bis_ge_03/wipo_ip_bis_ge_03_16-annex1. 
+pdf  (accessed  on  2  September  2014). 6. Ge, Ling. How to organise 250 million research  
+papers. http://www.ft.com/intl/cms/s/2/8a12f4d8-fc74- 
+11e1-ac0f-00144feabdc0.html#axzz3IevLd6vC 7. European Patent Organisation. http://www.epo. 
+org/searching/free/espacenet.html 
+8. Abercrombie, R.K.; udoeyop, A.W. & Schlicher,  
+B.g. A study of scientometric methods to identify  
+emerging technologies via modeling of milestones.  
+Scientometrics, 2012,  91(2),  327-42 
+9. Narin,  F.  Patent  Bibliometrics.   Scientometics,  
+1994, 30(1),  147-55. 
+10.   y oon, B. & Park, y. A text-mining-based patent  
+network:  Analytical  tool  for  high-technology  
+trend.   J.  of  High  Technol.  Manag.  Res. ,  2004,  
+15,  37-50. 
+136 
+11. Mote, J.E. R&D ecology: Using 2-mode network  
+analysis to explore complexity in R&D environments.  
+J.  Eng.  Technol.  Manag.,  2011,  22,  93-111. 
+12. Jun,  S.  &  Lee,  S.J.  Patent  analysis  using  
+Bayesian  network  models.  Inte. J.  of  Software  
+Engg.  and  Its Appli.,  2013,  7(3),    205-12. 
+13. Abbas, A.;  Zhang,  L.  &  Khan.  S.u. A  literature  
+review on the state-of-the-art in patent analysis.  
+World  Patent  Inf.,   2014,  37,  3-13. 
+14. Scientometrics.  http://en.wikipedia.org/wiki/ 
+Scientometrics 
+15.   y oon,  B.;  Phaal,  R.  &  Probert,  D.  Structuring  
+technological  information  for  technology  
+roadmapping:  Data  mining  approach.  Paper  
+presented at 7th   WSEAS  Int.  Conf.  on Artificial  
+Intelligence,  Knowledge  Engineering  and  Data  
+Bases (AIKED'08), 20-22 Feb 2008, Cambridge  
+uK. In Proceedings  of  the  WSEA  Conference,  
+Cambridge, uK,  2008.  pp.  417-22. 
+16. Liu,  S.J.  A  route  to  a  strategic  intelligence  of  
+industrial  competitiveness.  Pape  presented  at  
+the  first  Asia-Pacific  Conference  on  Patent  
+Maps,  Oct.  29,  2003,  Taipei.  In  Proceedings  
+of  the  First Asia-Pacific  Conference  on  Patent  
+Maps,  2003,  pp.  2-13. 
+17. Kim, y. g.; Suh, J.h. & Park, S.C. Visualization  
+of  patent  analysis  for  emerging  technology.  
+Expert  Sys.  with Appli.,   2008,  34,  1804-812. 
+18. Lipson,  M.  guiding,  modulating,  and  emitting  
+light  on  silicon-challenges  and  opportunities.  
+J.  of  Lightwave  Technol.,  2005,  23(12),  4222- 
+238. 
+19.   g lobal  Patent  Index.  EPOs’  advanced  online  
+patent search tool. http://www.epo.org/searching/ 
+subscription/gpi/about.html  (accessed  on  22  
+September  2014). 
+20. International  Patent  Classification  (IPC)  
+Official  Publication.  http://web2.wipo.int/ 
+ipcpub/#refresh=page (accessed on 11 September  
+2014). 
+21. Feldman,  R.;  Fresko,  R.;  hirsh,  M.;  Aumann,  
+H.;  Schler,  Y  &  Rajman,  L.Y.M.  Knowledge  
+management: a text-mining approach. Proceeding  
+of the 2nd  International Conference on Practical  
+Aspects  of  Knowledge  Management,  1998. 
+22. Lee,  S.;  Kang,  S.;  Oh,  M.;  Kim,  K.;  Park,  E.  
+S.  &  Park, Y.  Using  patent  information  for  new  
+product development: Keyword-based technology  
+roadmapping  approach.  Paper  presented  at  
+Conference on Technology Management for the  
+global Future, 8-13 July 2006, Istanbul Turkey.  
+PICMET    Proceedings,  Istanbul,  Turkey,  2006.  
+pp.  1496-502. 
+
+========5========
+
+SANDAL  & Ku MAR: VISuALISATION OF  P ATENT  D ATASETS FOR  T EChNOLOgy MAPPINg 
+23. Losiewicz,  P.;  Oard,  D.  &  Kostoff,  R.R. Textual  
+data mining to support science and technology  
+management. J.  of  Intell.  Inf.  Sys.,    2000,  15,  
+99-119. 
+About  the  Authors 
+Mr. Avinash Kumar  is presently employed as Additional  Director,  Directorate  of  ER  &  IPR,  of  Defence  Research  & Development Organisation under Ministry of Defence,  New Delhi. He is M.Sc in Physics from BHU & M.Tech in  applied  Optics  from  IIT,  Delhi.  Prior  to  this  assignment,  he  has  worked  as  Examiner  of  Patents  &  Designs  in  Delhi  Patent  Office  and  as  an  Assistant  Engineer  in  HAL  Korwa  Div,  and  then  as  Optical  Designer  in  IRDE  Dehradun. During his tenure at IRDE, Dehradun, he was  involved  in  optical  design  of  day  vision  sights,  optics  for  laser  range  finders,  CPS  of  MBT,  etc.  Presently,  he  is  leading  the  IPR group  and  handling  entire  range  of  IPR-  related  issues  of  DRDO  including  IPR-related  provisions  in  collaborative  R&D  agreements. 
+Dr. Nidhi Sandal is presently employed as Joint Director,  Directorate of ER & IPR, IPR group of Defence Research  
+& Development Organisation under Ministry of Defence,  New Delhi. She is M. Pharm from University of Delhi and  Ph.D. in Pharmaceutics from Guru Jambheshwar University,  hisar.  She  holds  a  Post-graduate  Diploma  in  Intellectual  Property Rights from Nalsar, Law University, Hyderabad.  Prior to joining DRDO, she worked as Research Scientist  form  2006  to  2008  in  the  IP  Department  of  Wockhardt  Research  Center,  Aurangabad,  India.  She  is  a  recipient  of Best Published Paper Award by Indian Pharmaceutical  Congress in 2006. She was awarded Thangam Vasudevan  Award  in  2003  and  India  Vasudevan  Award  in  2005  by  Indian Association of Bio-medical Scientists. She holds 4  granted Indian Patents and 4 under prosecution. She has  presented  several  papers  in  International  and  National  conferences. She also has 8 papers published in national  and  international  journals.  She  is  Executive  member  of  IABMS and lifetime member of IPgA and IhPA. She has  an experience of about 8 years in the area of Intellectual  property  Rights.  her  areas  of  interests  include:  use  of  patent  information  for  defence  R&D  projects,  Freedom  to  operate,  patentability,  patent  validity  and  opposition,  Freedom  to  operate  analysis,  discovery,  litigations. 
+137 
+
+========6========
+

@@ -1,0 +1,299 @@
+DESIDOC Journal of Library & Information Technology, Vol. 36, No. 2, March 2016, pp. 65-96 DOI: 10.14429/djlit.36.2.9504 
+ 2016, DESIDOC 
+ Searching and Analysing Patent Document to Solve R&D Problems 
+Nidhi Sandal* and Avinash Kumar** 
+Directorate of ER & IPR, DRDO, DRDO Bhawan, Rajaji Marg, New Delhi - 110 011 
+E-mail: *nidhisandal@hqr.drdo.in; **avinash@hqr.drdo.in 
+AbStRAct 
+The task of analysing patent data using automated tools to dig out the desired information through visualisation,  citation analysis, and other techniques are gaining importance. Patent information is presented and recorded in a very  systematic manner which simplifes the task of searching relevant information for various purposes like technology  forecasting. Patent documents help in drawing a baseline, identifying vacuums and then providing leads to fll these  vacuums. The present paper is focused on fnding patent documents as leads for an R&D problem, utilising various  tools pertaining to patent literature including patent searching, text mining, and patent analysis to zero down the  key patent documents as leads. A practical R&D problem related to the development of a drug delivery device for  releasing the vapours of drug was imposed by scientists for which a systematic search was performed to extract  most relevant patent documents using various patent analytical tools towards solving a practical R & D problem.     
+Keywords: Patent analysis, network model, search, keywords, drug delivery                   
+1. IntRoDuctIon 
+Technical information is growing at a very fast rate  with  continuous  publication  of  huge  number  of  articles,  patents,  reports,  thesis,  etc.,  and  there  are  variety  of  information  sources  having  different  features  and  tools  to  access  this  publicly  available  information.  Out  of  all  the available storehouse of information, patent documents  represent the most promising data in terms of being most  structured,  systematic,  and  updated. A  patent  document  has  abundant  information  about  developed  technology1 which  includes  title,  abstract,  claims,  inventors,  and  drawings,  date  of  publication,  and  date  of  grant2.  It  is  a  techno-legal  document  which  provides  systematic  disclosure  of  the  invention  and  in  return,  the  assignee/ inventor is granted 20 years of monopoly rights. Patents  are  the  richest  source  of  technical  information  which  often  can’t  be  found  anywhere  else.  As  per  a  report  from  EPO,  upto  80  %  of  current  technical  knowledge  can only be found in patent documents3.  Moreover,  this  information  is  available  in  public  domain,  as  patent  applications are published 18 months after the first filing,  irrespective of their country of origin. Further, after the  grant,  a  granted  patent  document  is  also  published  for  the benefit of public4. The present paper is an endeavour  to showcase the utility of patent documents in providing  useful  information/leads  to  solve  R&D  problems.  The  paper  also  describes  in  detail  the  techniques  and  steps  to  achieve  the  desirable  results.  
+2. LIteRAtuRe  RevIew  
+Patent  documents  represent  a  huge  reservoir  of  information which is presented systematically and updated  
+almost  on  weekly  basis  by  patent  offices  of  different  countries5,6. Another important advantage of patent documents  is  that  these  could  be  searched  with  the  help  of  logic  gate  operators  on  freely  available  databases  as  well  as  paid databases7. Patent search is the foremost step to start  any  R&D  project  for  any  regulated  markets.8   However,  there  could  be  different  reasons  of  conducting  a  patent  search  which  may  include  finding  technology  trend,  building  strategy  for  a  project,  infringement  analysis,  patent  validity  opinion,  identifying  niche  segments  in  a  technology,  technology  hotspots,  finding  collaborators/ inventors for joint development or finding suitable licensee,  etc.9-,11.   Depending  upon  the  requirements,  the  entire  orientation  of  the  patent  search  is  modified  to  reach  at  the  desired  goal. Among  all  these  reasons,  using  patent  information  is  to  take  a  jump  start  in  a  project  may  sound fascinating to scientists who are always engrossed  in their research work. Patent documents consist of most  advanced technological information than any other form  of literature12.  However,  searching  patent  literature  is  a  skilled  job  where  the  use  of  appropriate  keywords  or  classification or a combination of both may be required.  Selection  of  keyword  and  classifications  ultimately  decides the quality of search report13,14. Another important  aspect  of  patent  search  is  the  noise  that  remains  very  high  in  almost  all  searches15.Several  means  and  tools  have  been  advised  by  the  researchers  to  overcome  the  problem  of  noise  in  patent  searches.  Again,  deducing  the right information from this huge information is very  tedious  and  tools  like  patent  maps,  citation  analysis,  co-word  analysis,  Bayseian  models,  network  models,  clustering  coefficients,  etc.,  have  been  suggested  by  
+Received 9 November 2015, revised 17 January 2016, online published 28 March 2016 
+
+========1========
+
+DJLIT, VOL.  36,  NO.  2,  MARCH  2016 
+several researchers16-18. Various software are available to  implement these analytical techniques, viz, Aureka from  Thomson Reuter; IPMap Documents from Dolcera Patent  Matrixs;  and  Spores  Search  Patents  from  Neopatents;  InvengineTM   Patents  from  Invengine;  and  like.  3. R&D  PRobLem 
+Scientists needed to develop a drug delivery device  which  can  first  actuate  the  release  of  drug  from  distant  location  and  then  release  the  drug  in  a  predetermined  manner. For this purpose, an appropriate delivery system  is required so as to keep the drug dissolved in a suitable  volatile  vehicle,  for  ultimate  release  of  the  same  as  vapours. Further, the dose and release rate of drug vapours  from delivery device has to be controlled and monitored  thoroughly. Thus, to sum up, a drug delivery device which  can first actuate the release of drug from distant location  and  then  release  the  drug  in  a  predetermined  manner  is  required  to  solve  this  R&D  problem.  The  problem  may  be  summarised  as  ‘providing  leads  for  delivery  system  to  deliver  drugs’. 
+4. DAtA coLLectIon AnD AnALYSIS 
+For  the  present  problem,  OrbitTM   a  patent  database  from M/s Questel, has used for a thorough patent search  which  has  several  features  that  help  in  refining  the  search. OrbitTM  is a platform specialised in patents which  gathers information from more than 90 patent authorities  worldwide  and  offers  many  unique  modules,  data,  and  functions  (http://orbit.com/#WelcomePage)19. 
+4.1  Keyword  
+Selection  of  judicious  keywords  affects  the  patent  search significantly20. Brainstorming for the selection of  appropriate  keyword  is  very  important  and  it  is  the  key  step in retrieving patent documents. If the keywords are  not  chosen  properly,  then  results  bring  up  too  many  or  too  few  patents,  therefore,  an  appropriate  strategy  for  patent  search  for  the  present  problem  was  prepared.  In  the  present  case,  after  discussion,  keyword  search  was  considered  a  relatively  better  option  wherein  all  the  features  of  the  present  problem  could  be  searched.  Following important features of the drug delivery system  were  identified: 
+• Delivery system should be able to initiate the release  
+of  drug  from  a  distant  location. 
+• Delivery system should be able to control the release  
+rate  of  drug. 
+Based on these requirements, a search strategy was  made  and  a  comprehensive  patent  search  was  carried  out.  The  essential  feature  of  the  present  problem  may  be  converted  in  a  list  of  keywords  as  provided:  (a)  Drug;  (b)  Drug  delivery;  (c)  Inhalation;  (d)  Remote;  (e)  Control 
+Once  these  features  were  identified,  a  matrix  of  keywords including synonyms, broad/generic words, and  narrow words was developed, followed by the combinations  
+66 
+of  keywords  (Table  1).  All  the  possible  combinations  were  made  and  searched  on  the  OrbitTM   which  resulted  in  hits  ranging  from  thousands  to  zero.  
+table 1. Searched keywords and the hits 
+S. no. Searched algorithm (searched part of Results (no. of  
+patent document) patent documents) 
+1. 
+INHALATION AND DEVICE (Desc)  
+204152  
+2. 3. 
+A61K-009/22/IC (Classifcation Search)  delivery system AND remote (Desc)  
+8024 1768  
+4. 
+inhalation AND delivery system  (Desc)  
+1741  
+5. 
+inhalation AND delivery  system(title;abstract;key content)  drug delivery device AND  remote(title;abstract;key content)  drug delivery system AND remote  (title;abstract;key content)  drug delivery AND timer  
+334  
+6. 
+102  
+7. 
+84  
+8. 
+51  
+9. 
+incapacitating AND A61K-009/22/IC  
+26 
+10. 
+INHALATION AND DELIVERY  SYSTEM AND MASS  drug delivery AND time control  
+24  
+11. 
+8  
+12. 
+inhalation AND delivery system AND  fentanyl  
+6  
+4.2  Data  Screening 
+A preliminary observation was done for each result  and  the  most  relevant  sets  of  patents  were  selected  for  the  Level  I  screening. 
+Level I:  Titles of inventions in patent documents form a  useful secondary source of information, provided that they  are  reasonably  informative.  Titles  of  inventions  impart  first impression about the main content of the invention  and  appropriate  sets  of  patent  documents  were  selected  based on the titles (http://www.wipo.int/export/sites/www/ standards/en/pdf/03-15-01.pdf )21. The searched keyword  combinations  resulted  in  patent  datasets  having  patent  documents  ranging  from  zero  to  lakhs.  To  scrutinise  these  datasets,  titles  were  used  and  appropriate  datasets  were  chosen  for  level  II.  Table  2  shows  most  relevant  patent  datasets  and  their  keywords. 
+Level II:  An abstract is a brief summary of the invention,  and should include all of the important technical features  of  the  invention.  It  is  useful  to  both  the  Intellectual  Property Office and to the public searching in the particular  technical field of the application.22  Abstracts are written  in  a  way  to  make  the  invention  easily  understood  by  persons  working  in  that  area  of  technology.  Therefore,  selected  sets  of  the  patents  were  screened  on  the  basis  of abstracts. All the abstracts were downloaded and read  to analyse the relevance of each abstract for the subject.  Patent documents of high relevance were shortlisted and  taken  to  level  III. 
+
+========2========
+
+SANDAL & KUMAR: SEARCHING AND ANALYSING PATENT DOCUMENT TO SOLVE R&D PROBLEMS  
+table 2. most relevant patent datasets and their keyword 
+S. no. Searched keyword combinations Results 1. Drug delivery + Inhalation+ fentanyl6 
+2. Delivery system + inhalation 334 
+3. Drug delivery system+ remote 84 
+4. Drug delivery device +remote 102 
+total 526 
+Level  III:   68  shortlisted  patent  documents  of  level  II  were  subjected  to  further  patent  analysis  using  patent  maps  and  network  analysis.  
+4.3  Data Analysis  
+A  typical  patent  analysis  scenario  includes  tasks  of  identification,  searching,  segmentation,  abstracting,  clustering,  visualisation,  and  interpretation23,24.  For  the  purposes of the present paper, patent analysis was performed  using  various  tools. 
+4.3.2.1  Keyword  Vector 
+After the data collection, raw patent documents are  transformed into structured data. Text mining that extracts  keywords  from  patent  document  is  used  to  determine  the  keyword  vector.  The  process  of  keyword  extraction  includes  identification  of  the  keywords  to  be  extracted  from each patent document of the selected patent dataset.  This removes the synonyms, generic name, prefixes, and  suffixes from each selected keyword. Precise and accurate  keywords are included followed by their frequency analysis  in  each  patent.  Finally,  keyword  vector  is  constructed.  If  a  specific  keyword  is  included  in  a  patent  document,  then the corresponding keyword vector field is filled with  frequency of occurrence. Likewise, in the present paper  keywords  vectors  for  the  selected  list  of  keyword  were  constructed  and  each  patent  document  was  presented  in  terms  of  keywords  and  the  keyword  vectors. 
+4.3.1  Patent  Maps 
+Patent  maps  of  68  shortlisted  patent  data  were  made. The shortlisted patents were placed as one set and  various features were studied. Top assignees are found to  provide a clue to the scientists for their work. Details of  each assignee as required by the scientists was included.  Patent  maps  of  the  patent  documents  were  generated  using  the  Global  Patent  Index  tool  with  respect  to  date  of  publication,  assignees  and  IPC  classification.  The  two-dimensional  trend  patent  maps  of  patent  document  with  the  year  of  priority/filing/publication  on  x  scale  and  inventors/assignee  name  on  y  scale  were  generated  using analytical tools (Figs 1-3). These maps provided a  key insight of the technology. Figure 1 provides the time  scale map of the international patent classification (IPC).  As  evident  from  the  trend  map,  the  patents  in  various  fields  have  been  filed  over  the  years.  However,  the  key  focus area for this particular technology is defined by a  set  of  classifications:  A61M,  A61B,  A61K,  and  G01N.  These  set  of  IPC  codes  can  be  described25 as:  A61K-  Preparations  for  Medical,  Dental,  or  Toilet  Purposes:  A61M- Devices For Introducing Media Into, Or Onto, The  Body;  A61B-Diagnosis;  Surgery;  Identification;  G01N-  Investigating or analysing materials by determining their  chemical or physical properties.This shows a considerable  concentration of the technology in few selected areas as  described  by  the  IPC  codes. Also  the  time  scale  shows,  major  filing  in  this  area  took  place  between  the  year  2000  and  2010. 
+4.3.2  Patent  Network Analysis 
+Patent  network  analysis  of  the  shortlisted  patent  documents  was  performed  using  UCINET  6.0.  In  the  context  of  patent  analysis,  individual  patents  account  for nodes and the relationships among patents represent  edges  in  the  network.  The  network  analysis  comprises  several  steps  which  include  pre-processing  the  patent  dataset  to  construct  keyword  vector  for  each  patent  and  then formation of the matrix and finally generating patent  network  using  the  data  of  incidence  matrix.  
+Figure 1.   Technology trend map: Patent map showing date of fling   
+vs IPC classifcation of the broadest patent dataset. 
+Figure 2. Patent  map  showing  top  20  applicant  vs  date  of  
+fling.  
+Figure 3. Patent  map  showing  top  20  inventors  vs  IPc 
+classifcation.  
+67 
+
+========3========
+
+DJLIT, VOL.  36,  NO.  2,  MARCH  2016 
+4.3.2.2  Construction  of  Matrix 
+The  keyword  vectors,  keywords  and  the  patent  documents  were  used  to  build  the  matrix  which  is  a  prerequisite  to  generate  a  network  model.  Each  patent  document  was  quantified  as  keyword  vectors  which  is  the  frequency  of  occurrence  of  a  keyword  in  a  patent  document26.  For  a  keyword  “a”,  the  keyword  vector  is  “a1”  and  Keyword  “b”,  the  keyword  vector  is  “b1”  in  patent  number  1  then  for  the  patent  number  1,  the  keyword  vectors  are  defined  as  (a1,  b1,  .  .  .,  z1)  and  like-wise  for  the  patent  document  2,  keyword  vectors  are  (a2,  b2,  .  .  .,  z2).  
+4.3.2.3  Generation  of  Patent  Network 
+Once  the  matrix  is  developed,  it  is  easy  to  develop  network model by using various commercially available  statistical tools. The input data is the matrix developed by  subjecting the data to 1-mode affiliation using UCINET  6.0.  In  the  present  paper,  UCINET  6.0  version  was  used  for  the  generation  of  network  model  and  graphs.  The  network  models  were  generated  using  the  1  mode  affiliation  matrix.  A  well  constructed  network  model  provides  a  comprehensive  outlay  of  the  interconnection  between  all  the  node  and  edges.  The  interconnections  between the edges and nodes in present research represent  the  patent  documents  and  the  keywords  respectively.  Further,  the  interconnection  between  these  two  factors  is determined in term of the keyword vector. The matrix  is  more  concentrated  on  few  keywords  which  establish  strong  and  dense  correlation  between  patent  documents  and  keywords.  Network  model  for  the  broad  set  of  patent  documents  comprising  68  patent  documents  is  shown  in  Fig.  4. 
+Figure 4. Patent network of relevant patent documents. 
+4.3.2.4  Quantitative Analysis  of  Patent  Network 
+Patent analysis involves a series of steps, including  extracting  patents  from  patent  databases,  extracting  the  information from the patents, and analysing the extracted  information  to  infer  the  logical  conclusions.  Keyword-  based  quantitative  approaches  to  generate  networks  and  then the quantification of the various network parameters  help  to  deduce  useful  information  about  the  complex  patent documents. Overlapping the quantitative parameters  with  the  graphical  presentation  of  patent  datasets  is  an  
+68 
+extensively used methodology and it has been illustratively  used in many research works27. Similarly, for the purposes  of  understanding  the  present  R&D  problem  and  among  various  tools  to  solve  it,  quantitative  parameters  of  the  network  model  were  calculated  using  the  calculus  of  UNICET  6.0  version. 
+4.3.2.5  Technology  Centrality  Index  and  Closeness  
+Centrality  Measures 
+In  graph  theory  and  network  analysis,  centrality  refers  to  an  indicator  which  provides  intuitive  values  for  finding  the  central  focal  point  of  a  network.  The  centrality index, is the measure of the degree of centrality  in  network  analysis,  defined  as: 
+CD(ni)=  d(ni)/g-1 
+where d(ni) is the number of lines that are incident with  patent i and g is the total number of patents. The centrality  index in patent network is interpreted as the ratio of the  number of tied links to all g-1 other patents28. Therefore,  the  higher  the  centrality  index,  the  greater  the  impact  on  other  patents. The  centrality  indexes  of  patents  with  more  than  0.5  value  are  presented  in  Table  3.  table  3.   technology  centrality  indexes  of  some  important  
+patents 
+Patent number US5694919 US2011004188 US2008114299 US8002700 US6464687  US5928195 
+centrality measures 0.857 
+0.667 
+0.750 
+0.750 
+0.667 
+0.667 
+4.3.2.6  Density/Average  Matrix  Value 
+Another main indicators of a network model analysis  are  density  and  geodesic  paths  which  are  measured  to  understand  the  network  structure  more  efficiently29.  In  the  network  analysis,  density  of  a  network  is  the  total  number  of  ties  divided  by  the  total  number  of  possible  ties. The density of a graph is defined as the number of  links  divided  by  the  number  of  vertices  in  a  complete  graph  with  the  same  number  of  nodes.  Density  index  of  the  present  matrix  resulted  in  a  considerable  higher  values,  i.e.,  29.9  for  the  network  model  of  Fig.  4.  Such  a  high  density  or  matrix  value  represents  the  higher  degree of relevance among the patents with respect to the  keyword. The shortlisted group of patents is also having  high cohesiveness among each other. The patents of this  group  could  be  clustered  as  they  belong  to  minimally  varying  technologies  involved  in  the  remote  control  operated  drug  delivery  devices. 
+4.3.2.7  Geodesic  Distance 
+The relationship between patents should be quantified  in terms of either distance or similarity. Among various  indexes,  the  common  Geodesic  distance  is  used  in  
+
+========4========
+
+SANDAL & KUMAR: SEARCHING AND ANALYSING PATENT DOCUMENT TO SOLVE R&D PROBLEMS  
+this  research.  In  mathematics,  particularly,  differential  geometry, a geodesic is a generalisation of the notion of  a  "straight  line"  to  "curved  spaces".30  In  simple  word,  Geodesic distance in a patent network analysis measures  the  distance  between  two  nodes. The  Geodesic  distance  values assume real numbers from 0.0 to 1.0. The degree  of connectivity, whether strong or weak, is decided based  on this value that the analyser is supposed to determine.  That is, the connectivity between two node is considered  strong  if  the  value  of  geodesic  distance  is  closer  to  1  and if this value between two nodes is lesser, i.e., closer  to  0,  the  connectivity  is  considered  weak.  
+5. DIScuSSIonS 
+In the present research, the projected R&D problem  was: ‘A remote control operated drug delivery device which  should  be  able  to  deliver  the  drug  in  a  predetermined  manner’ 
+Defining  the  problem  crisply  is  a  very  important  aspect  of  patent  searching.  Meaningful  keywords  help  to to capture most relevant patent database, as the broad  keyword provide an overall information about a problem  and  at  the  same  time  narrow  keywords  help  to  confine  patents  to  gather  required  information.  In  the  present  work, keywords were drawn which could explicitly define  the  problem  and  followed  by  extending  the  keyword  to  include  the  synonyms,  prefixes,  suffixes,  broad  as  well  as  specific  keywords,  etc.,  were  included  to  make  a  comprehensive  list  of  keyword.  In  the  subsequent  step,  to  collect  patent  data,  the  keyword  and  the  appropriate  algorithm  of  these  keywords  were  used  as  query  on  the  patent  search  engine,  i.e.,  OrbitTM.  A  huge  number  of  patent  document  hits  were  achieved  ranging  from  thousands  to  zero  (in  some  cases).  The  conventional  text  mining  of  the  appropriate  patent  dataset  was  done.  Extracting  relevant  information  is  only  possible  by  the  manual text mining. Nevertheless, the chances of misses  are  also  there  but  the  probability  of  such  is  defined  by  the  query/queries  of  the  keywords  generated  in  the  previous  steps  and  also  the  search  engines  capabilities.  However,  when  analysing  the  searched  patent  datasets  by using various advanced software-run analytical tools,  there  is  addition  of  one  more  factor  in  the  probability  of the misses which can be overcome in the manual text  mining. However, many researches recommend to combine  text-based and software run retrieval methods in case of  some  specific  searches  like  invalidity  patent  search  and  freedom  to  operate  search31,32.  These  kinds  of  high-end  searches  cannot  afford  the  misses  as  the  penalties  in  terms  of  finance  and  reputations  are  very  high.  
+In  this  study,  the  R&D  problem,  is  so  specific  that  finding a lead for solving this problem was equivalent to  finding  a  needle  in  hay  straw,  therefore  the  researchers  used  manual  text  mining  along  with  advanced  patent  analytical tools. At first, the text-mining of the searched  patent  databases  was  performed  and  the  most  relevant  patent documents were extracted from the huge information  
+gathered  in  terms  of  patent  documents  through  patent  map  analysis  and  network  model  analysis.  
+Patent  map  analysis  was  done  to  understand  the  technology  trend  in  the  area  of  interest.  Patent  maps  were generated for the selected set of patent documents.  The technology trend map of the broad patent dataset, as  shown in Fig. 1, showed that remote control drug delivery  device is a field wherein a lot of patent documents have  been filed over the years. The key areas of interest could  be defined by the extensively explored technologies like  as  defined  by  the  IPC  classifications  code  where  heavy  clustering  of  the  patents  was  seen  in  Fig.  1.  Further,  to  understand  the  interest  of  the  inventors/assignees,  patent maps of assignees/inventors over the IPC classes  were generated (Fig. 2 & Fig. 3). As evident from these  maps, the focus of the research by the various assignees  as  well  as  inventors  is  defined  by  IPC  classes  A61B,  G01N and H01L. Although extremely useful information  and an overview of the technology is provided by these  patent maps, patent maps are subject to some limitations  in  terms  of  their  limitation  providing  information  only  from  the  bibliographic  data  thereby  limiting  the  extent  of explanatory and creative capacity for the unstructured  data/information  of  a  patent  document.  Therefore,  for  the  purposes  of  the  present  research  work,  the  scope  of  extracting information from patent documents was further  strengthened  by  the  advanced  patent  analytical  tools.  
+Keywords  were  identified  for  the  purposes  of  text  mining  followed  by  finding  the  keyword  vector  of  each  keyword in each patent document. The patent document  dataset  comprising  68  most  relevant  patent  documents,  screened  by  the  manual  screening,  was  quantified  and  an  intrinsic  matrix  was  developed.  The  intrinsic  matrix  comprising  the  keyword  vector  for  each  patent  was  converted from 2 mode matrix to 1 mode matrix for the  better understanding of the network of patents with respect  to  the  keyword  vectors.  1-mode  analysis  examines  the  interrelations between the same set of patent documents33.  The 1-mode matrix was converted into a dense network  model using the UCINET 6.0 version software (Fig. 4). A  2-mode matrix can be transformed into a 1-mode matrix  by taking similarities among the rows (or columns) and  then  one  can  visualise  the  network  using  all  the  usual  techniques  for  visualisation  of  valued  networks.  
+The  unstructured  data  of  the  patent  documents  was  analysed  by  using  the  network  model  of  Fig.  4.  The  network analysis has dual advantage of visual expression  and  quantitative  values  of  patents  in  terms  of  degree  of  importance, degree of newness, and degree of similarity.  The network model of Fig. 4 substantiated the relevance of  searched 68 patent documents. The selected set of patents  is most influential among the other searched documents  as  the  network  was  very  dense  with  a  density  of  more  than 1. It further assisted users in determining the relative  importance of individual patents. The patents in the most  dense  part  of  the  patent  network  model  included  patent  number 55, 63, 13, 46, 30, 24, 54, 68, etc. These patents  
+69 
+
+========5========
+
+DJLIT, VOL.  36,  NO.  2,  MARCH  2016 
+were  further  studied  in  detail  and  14  patents  from  the  densest part of the network were chosen as the leads for  the  R&D problem. The network analysis of the network  model assisted the research to move forward wherein the  concentration  of  above  network  model  helped  to  isolate  14  patents  from  the  above  group. 
+Patent maps and network-models provided a holistic  view  of  the  patent  documents.  The  nodes  were  well  connected  and  the  network  was  fully  formed.  Analysis  from  the  network  model  would  provide  useful  leads  to  proceed  ahead  in  the  present  research  work.  Another  quantitative  patent  index  verifying  the  correctness  of  the network model is Geodesic Distance34  The  geodesic  distance between two nodes is the length of the shortest  path.  Average  geodesic  distance  between  all  pairs  of  nodes  in  the  present  network  model  was  1.0  and  the  Distance-based  cohesion,  i.e.,  "Compactness"  of  the  network  model  was  0.595  indicating  a  fairly  networked  nodes  and  edges.  This  is  the  characteristic  value  of  a  network model and in the present research, the Geodesic  distance,  and  distance  based  cohesion  values  indicate  a  well  connected  network. 
+The centrality index in patent network is interpreted  as the ratio of the number of tied links to other patents.  Therefore,  the  higher  the  centrality  index,  the  greater  the  impact  on  the  network35.  The  centrality  indexes  of  some  patents  are  presented  in  Table  3.  It  measures  the  patent  documents  on  the  scale  of  0  to  1.0  and  higher  value  of  the  centrality  index  indicates  better  relevance  of  the  document.  The  centrality  index  of  US5694919  was  0.857,  indicating  a  high  closeness  of  this  patent  document  to  our  problem  or  keywords.  Also  for  many  other  patent  documents,  the  centrality  index  was  quite  significant.  Among  the  dataset,  the  patent  documents  with  centrality  index  of  more  than  0.5  were  considered  significant  and  discussed  in  detail.  
+table 4. Leads (patent documents) to solve R&D problem 
+title 
+The US 5,694,919 with highest centrality index was  found  to  be  most  relevant  for  present  R&D  problem.  This document had highest value of the keyword vectors  for  all  the  selected  keywords.  When  studied,  it  was  found  to  disclose  an  aerosol  drug  delivery  of  a  drug  from  a  system.  The  device  is  designed  for  the  release  of  fentanyl  in  a  predetermined  manner  and  with  a  lock  and  key  arrangement.  This  was  a  very  useful  finding  of  the  present  research  work  as  the  document  was  extremely  relevant  for  the  present  work.  Other  patent  documents also disclose highly relevant technologies for  the  present  problem.  The  patent  map  analysis  of  these  patents  indicated  the  clustering  of  these  patents  based  on  the  applicants.  
+A majority of these patents were owned by M/s Novo  Nordisk,  M/s  Animas/Johnson  &  Johnson,  M/s  radigm  Copro, and M/s Ball Semiconductor. The remotely control  drug delivery was the key focus of these patents. Insulin  delivery was another major technology discussed in many  of the sorted patent documents. All the patent documents  and  their  technology  focus  is  provided  in Table  4. 
+6.   c oncLuSIonS 
+The  main  objective  and  contribution  of  current  research  was  to  provide  leads  solving  R&D  problem  of  a  remotely  controlled  drug  delivery  device  having  capability to deliver the drug in a predetermined manner  as patent documents. The combination of patent analysis  narrowed down the result of the patent search to 14 most  relevant  patent  documents.  Out  of  these  14  shortlisted  patent  documents,  US  patent  5694919  (Title  -:  Lockout  device for controlled release of drug from patient-activated  dispenser Assignee: Aradigm Corporation) disclosed the  most relevant aspects of the problem. This patent document  was  identified  from  a  very  narrow  set  which  included  keyword  combination  of  “Drug  delivery  +  Inhalation+  
+S. no. Patent number Assignee 
+1. US5694919 ARADIGM 
+2. US5928195 University of pennsylania 3. US6464687 Ball semiconductor 4. US8002700 Medtronic 
+5. US2011004188 
+6. US20080147041 Novo nordisk 
+7. US2008114299 Novo nordisk 
+8. US2011264033 Novo nordisk 
+9. WO2009112513 Novo nordisk 
+10. US2009105646 Animas 
+11. US8502662 Animas 
+12. US2007233051 Johnson & Johnson 13. WO200053243 Ball semiconductor 14. US2009326722 Johnson & Johnson 
+Lockout device for controlled release of drug from patient-activated dispenser 
+Remote control drug delivery device 
+Implantable drug delivery system 
+Communications system for an implantable medical device and a delivery device Nilimedix, avraham shekalimDrug delivery system with wireless monitor 
+Device for providing a change in a drug delivery rate 
+Remote commander to be used with a drug delivery device 
+Medical device with value sensor 
+Drug delivery system with two communicating devices providing continuous drug  
+Multi-frequency communication system for a drug infusion device 
+System for using status indicators in wireless communications with medical devices 
+Drug delivery systems and methods 
+Implantable drug delivery system 
+System for using status indicators in wireless communications with medical devices 
+70 
+
+========6========
+
+SANDAL & KUMAR: SEARCHING AND ANALYSING PATENT DOCUMENT TO SOLVE R&D PROBLEMS  
+fentanyl”. The important part of this patent is that it is a  commercially available product. ‘AERx iDMS’ from M/s  Aradigm  Corporation.  It  was  concluded  that  technology  for  remotely  controlled  drug  delivery  exists  and  actual  products, from reputed company are available in market.  However,  the  filling  trend  of  the  most  relevant  patents  also show that it is a comparatively new area of activity  and  technology  is  still  maturing. 
+ReFeRenceS 
+1. Camus,  C.  &  Brancaleon,  R.  Intellectual  assets  
+management:  From  patents  to  knowledge.  World  
+Patent  Inf.,  2013, 25(2),  155-59. 
+2. Hunt, D.; Nguyen, L. & Rodgers, M. Patent searching  
+tools  &  techniques, Wiley,  2007. 
+3. http://ec.europa.eu/invest-in-research/pdf/download_en/ 
+patents_for_researchers.pdf (accessed on 1 November  
+2015). 
+4. Trajtenberg,  M.  Innovation  in  Israel  1968–1997: A  
+comparative  analysis  using  patent  data.  Research  
+Policy,  2001, 30,  363-89. 
+5. Graevenitz, G.V.; Wagner, S. & Harhoff, D. Incidence and  
+growth of patent thickets: The impact of technological  
+opportunities and complexity. The J. of Indus. Econo.,  
+2013, 61(3),  521–63.  
+6. Abercrombie,  R.K.;  Udoeyop,  A.W.  &  Bob,  G.  A  
+study of scientometric methods to identify emerging  
+technologies  via  modeling  of  milestones  related  
+information. Scientometrics,  2013, 91(2),  327-42. 7. Burhan,  M.  &  Jain,  S.K.  Tools  for  search  analysis  
+and  management  of  patent  portfolios.   J.  of  Lib.  &  
+Inf.  Tech.,  2012, 32(3),  204-13. 
+8. Lee. C.; Kang, B. & Shin, J. Novelty-focused patent  
+mapping for technology opportunity analysis. Tech.  
+Forec.  and  Soc.  Chanc.,  2015, 90,  355-65. 9. Lee,  C.;  Song,  B.  &  Park, Y.  How  to  assess  patent  
+infringement risks: A semantic patent claim analysis  
+using dependency relationships. Tech. Anal. & Strat.  
+Manag.,  2013, 25,  23-38. 
+10. Yoon,  B.  &  Phaal,  R.  Structuring  technological  
+information for technology roadmapping: Data mining  
+approach. Tech. Anal. & Strat. Manag., 2013, 25(9),  
+1119-37. 
+11. Park,  H.;  Ree,  J.J.  &  Kim,  K.  Identification  of  
+promising  patents  for  technology  transfers  using  
+TRIZ evolution trends. Exp. Sys. with Appli., 2013, 
+40(2),  736-43. 
+12. Jeong, Y. & Yoon, B., development of patent roadmap  
+based on technology roadmap by analysing patterns  
+of  patent  development. Technovation ,  2015, 39-40,  
+37-52. 
+13. Wolter,  B.  It  takes  all  kinds  to  make  a  world–  
+Some thoughts on the use of classification in patent  
+searching. World  Patent  Inf.,  2012, 34(1),  8-18. 14. Tannebaum,  W.  &  Rauber,  W.  Learning  keyword  
+phrases from query logs of USPTO patent examiners  
+for automatic query scope limitation in patent searching.  
+World  Patent  Inf.,  2015,  41,  15-22. 
+15. D’hondt, E.,  et al.  Dealing  with  temporal  variation  
+in patent categorisation. Information Retrieval, 2014,  
+17(5),  520-44. 
+16. Sandal, N. & Kumar, A. Integrated silicon photonics:  
+Visualisation of patent datasets for mapping technology.  
+J.  of  Lib.  &  Inf.  Tech.,  2015,  35(2),  132-37. 17. Yoon,  J.  &  Kim,  K.  Trend  perceptor:  A  property- 
+function  based  technology  intelligence  system  for  
+identifying  technology  trends  from  patents.  Exp.  
+Syst.  with Appli.,  2012, 39(3),  2927-38. 
+18. Lee,  C.;  Park,  H.  &  Park,  Y.  Keeping  abreast  of  
+technology-driven business model evolution: A dynamic  
+patent analysis approach. Tech Anal. & Strat. Mang.,  
+2013, 25(5),  487-505. 
+19. http://www.questel.com/emailing/2015_December_ 
+Orbit_release_1.9.5_EN.html  (accessed  on  15 
+October  2015). 
+20. Li, Y.  R.;  Wang,  L.H.  &  Hong,  C.F.  Extracting  the  
+signifcant-rare  keywords  for  patent  analysis.  Exp.  
+Syst.  with Appli.,  2009, 36,  5200–04. 
+21. http://www.wipo.int/export/sites/www/standards/en/ 
+pdf/03-15-01.pdf  (accessed  on  1  November  2015). 22. http://www.ipo.gov.uk/factabstract.pdf  (accessed  on  
+1  November  2015). 
+23. Tseng,  Y.H.;  Wang,  Y.M.;  Juang,  D.W.  &  Lin,  C.J.  
+Text  mining  for  patent  map  analysis.  In  IACIS 
+Pacific  Conference  Proceedings,  2005,  1109. 24. Abbas,  A.;  Zhang,  L.  &  Khan,  S.U.  A  literature  
+review  on  the  state-of-the-art  in  patent  analysis.  
+World  Patent  Inf., 2014, 37,  3-13. 
+25. http://web2.wipo.int/classifications/ipc/ipcpub/ 
+#refresh=page.  (accessed  on  10  November  2015). 26. Kim, Y.G.; Suh, J.H.; & Park, S.C. Visualisation of  
+patent analysis for emerging technology. Exp.  Syst.  
+with Appli.,   2008,  34,  1804-12. 
+27. Lee, S.; Yoon, B. & Park, Y. An approach to discovering  
+new technology opportunities: Keyword-based patent  
+map  approach. Technovation,  2009, 29,  481–97. 28. Magdy,  W.;  Lopez,  P.;  &  Jones  G.J.F.  Simple  vs.  
+sophisticated approaches for patent prior-art search,  
+advances  in  information  retrieval,  edited  by   Paul  
+Clough, et al.,  Springer Berlin Heidelberg, pp. 725- 
+28. 
+29. Otte, E. & Rousseau, R. Social network analysis: A  
+powerful strategy, also for the information sciences.  
+J.  of  Inf.  Sci.,  2009,  28   441-53. 
+30. Balconia, M.; Breschic, S. & Lissoni, F. Networks of  
+inventors  and  the  role  of  academia: An  exploration  
+of  Italian  patent  data.  Research  Policy,  2004, 33,  
+127-45. 
+31. Na, S.H.; Kim, J. & Jong-Hyeok Lee, J.H. Cluster- 
+based patent retrieval. Inf. Process. & Manag.,  2007, 
+71 
+
+========7========
+
+DJLIT, VOL.  36,  NO.  2,  MARCH  2016 
+43(5),  1173-82. 
+32. Sandal, N. & Kumar, A. Role of freedom to operate  
+in  business  with  proprietary  products.  J.  of  Intell.  
+Prop.  Rights,  2011, 16(2),  204-09. 
+33. Mote,  J.E.  R&D  ecology:  Using  2-mode  network  
+analysis to explore complexity in R&D environments.  
+J.  Engg.  Tech.  Manag.,  2011,  22,  93-111. 34. Yoon,  B.  &  Park,  Y.  A  text-mining-based  patent  
+network: Analytical  tool  for  high-technology  trend.  
+J.  of  High  Tech.  Manag.  Res., 2004,  15,  37–50. 35. Yeap, T.;  Loo,  G.  &  Pang,  S.  Computational  patent  
+mapping:  Intelligent  agents  for  nanotechnology. In 
+Proceedings of the International Conference on MEMS,  
+NANO  and  Smart  Systems,  2003,  pp.  274–78. 
+contributors 
+Dr nidhi Sandal  is presently working as Jt Director, Directorate  of  ER  &  IPR,  IPR,  DRDO,  Ministry  of  Defence,  Delhi.  She  obtained  MPharm  from  University  of  Delhi  and  PhD  in  Pharmaceutics  from  Guru  Jambheshwar  University,  Hisar.  She  holds  a  Post-graduate  Diploma  in  Intellectual  Property  Rights  from  Nalsar,  Law  University,  Hyderabad.  Prior  to  joining  DRDO,  she  worked  as  Research  Scientist  in  the  IP  Department of Wockhardt Research Center, Aurangabad, India.  She  is  a  recipient  of Best  Published  Paper  Award   by  Indian  Pharmaceutical Congress in 2006. She was awarded Thangam  Vasudevan Award  in 2003 and India Vasudevan Award in 2005  by  Indian  Association  of  Bio-medical  Scientists.  She  holds  4  granted  Indian  Patents  and  4  under  prosecution.  She  also  has  8  papers  published  in  national  and  international  journals.  Her  areas  of  interests  include:  Use  of  patent  information  for  defence R&D projects, freedom to operate, patentability, patent  validity and opposition, freedom to operate analysis, discovery,  and  litigation. 
+72 
+mr Avinash Kumar  is currently Additional Director (IPR) in  Directorate of ER & IPR of Defence Research & Development  Organisation, Ministry of Defence, New Delhi. He is responsible  for handling entire range of IPR related activities of DRDO. His  responsibilities include providing legal protection to innovations  made  by  DRDO  scientists  and  handling  IPR  related  provision  in  agreements  on  Collaborative  R&D.  He  is  MSc  in  Physics  from BHU & MTech in applied Optics from IIT, Delhi. Prior  to  this  assignment,  he  has  worked  as  Examiner  of  Patents  &  Designs  in  Delhi  Patent  Office,  as  an  Assistant  Engineer  in  HAL  Korwa  Div,  and  as  a  Scientist  in  IRDE,  Dehradun.  He has a vast experience of about 18 years in the area of IPR  and  he  has  been  a  part  of  evolution  of  IPR  culture  not  only  in  DRDO  but  also  in  India.  He  is  lifetime  member  of  Indian  Science  Congress  Association  and  Optical  Society  of  India.  His  team  was  awarded Best  Techno-managerial  Award   in  the  year  2012  for  their  excellent  contribution  towards  innovation  culture  in  DRDO.  There  are  several  awards  to  the  credit  of  DRDO due to its patent portfolio which include the prestigious  National  Intellectual  Property  Award  2015   in  the  category  “Top  R&D  Organisations  for  Patents”  and  Thomson  Reuters  India Innovation Award  twice, in the year 2011 and recently in  2014, based on size of patent portfolio, success rate, extent of  globalization and influence of innovation. His area of interests  include;  Use  of  patent  information  for  defence  R&D  projects,  freedom  to  operate,  patentability,  patent  validity,  IPR  issues  in  collaborative  R&D,  etc. 
+
+========8========
+

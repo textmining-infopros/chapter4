@@ -1,0 +1,121 @@
+DESIDOC Journal of Library & Information Technology, Vol. 35, No. 6, November 2015, pp. 417-421 
+  2015, DESIDOC 
+Discovery Service for Engineering and Technology Literature through  
+Google Custom Search: A Case Study 
+Rajashree Gavali 
+Sardar Patel Institute of Technology, Bhavans Campus,  
+Munshi Nagar, Andheri (West), Mumbai - 400 058 
+E-mail: rgavali@gmail.com 
+AbSTrACT 
+Discovery service in libraries has gained momentum in recent years owing to the infuence of search  giants like Google. Library users are expecting one search solution in similar lines with Google search  engine  to  retrieve  information  from  different  sources,  viz.,  library  catalogue,  bibliographic  and  full  text  databases, open access resources, etc. To meet this demand, new age discovery tools such as Summon  and Knimbus have emerged and libraries are increasingly subscribing to such services to maximise use  of electronic resources. There are also some open source tools, but their deployment is not widely seen  in  libraries.  In  this  paper  an  attempt  has  been  made  to  explain,  how  Google  Custom  Search  Engine  (GCSE) can be used as discovery service for subscribed, un-subscribed and open access resources.   
+Keywords: Search engine, custom search engine, discovery service, google custom search engine 
+1.  InTroDuCTIon 
+Today,  the  ubiquitous  Internet  has  become  a  de-facto  starting  point  for  people  in  locating  any  kind  of  information.  It  holds  huge  quantity  of  information,  the  size  of  it  goes  beyond  anyone’s  imagination.  To  facilitate  searching  of  available  information,  search  engines  like  Google,  Bing,  Yahoo,etc, have emerged, which has made access  to  information  on  the  Internet  a  child’s  play.  Apart  from general search, using specific search features  of these search engines one can easily obtain near  accurate  results  on  a  particular  topic.  However,  the  number  of  hits  still  remains  at  higher  side.  This creates an information chaos, especially while  looking for scholarly information. In order minimise  the inconvenience, now scholarly search engines like  Google Scholar, BASE (http://www.base-search.net)  are helping researchers to locate scholarly literature  published  in  academic  and  research  journals  and  stored  in  digital  repositories  with  limited  access  to  full-text  articles.  
+To  enhance  searchers  experience,  new  age  discovery  tools  such  as  Summon  (http://www. proquest.com/products-services/discovery-services/ The-Summon-Service.html),  Knimbus  (http://www. knimbus.com) have emerged as new age scholarly  search  tools,  which  restrict  patron’s  access  only  to  the  resources,  which  are  available  within  the  library  and  subscribed  by  the  library.  However  
+cost of such tools, is enormous for a small college  library  looking  into  the  availability  of  budget  and  even  if  some  tools  are  available  in  open  source  implementation  of  such  tools  is  difficult  owing  to  limited computer knowledge of library staff. Alternate  to  such  discovery  tools,  is  Google  Custom  Search  Engine (CSE) which helps to create search engine  or  discovery  tool  which  limits  searches  only  to  the  resources  subscribed  by  the  library  and  selected  sources available in public domain and thus saving  patrons  from  information  chaos.  In  this  paper  an  attempt  has  been  made  to  explain  what  is  Google  CSE. How it can be implemented in a college library  discussing  case  study  of  Sardar  Patel  Institute  of  Technology and Sardar Patel College of Engineering,  Mumbai,  India. 
+2.  LITErATurE rEvIEw 
+There  are  good  number  of  studies  undertaken  on  the  topic  of  search  engines,  federated  search  and their usefulness for libraries. However, there are  very a few specific studies in respect to adoption of  Google Custom Search Engine (GSE) in enhancing  the library search experiences. Jain and Saraf1   have  analysed  usefulness  of  Google  search  engine  for  libraries. Brophy and Bowden2  in their paper ‘Whether  Google is enough’ in finding out relevant information  and its effectiveness with library systems have found  that,  given  training,  library  systems  fetch  better  
+Received 10 June 2015, revised 24 August 2015, online published  November 2015 
+
+========1========
+
+DJLIT,  VOL.  35,  NO.  6, NOVEMBER   2015 
+results,  but  argue  that  use  of  both  would  provide  better results owing to difference in their coverage.  Kumar,  Sanaman  and  Rai3   have  discussed  about  federated  search  engines  and  their  usefulness  for  libraries  in  searching  e-resources  from  one  search  box. Craven4  dealt about implementation of federated  search in Western health library and its usefulness  in providing cross search to various databases. Enge  and Biundo5  have given overview of Google Custom  Search  engine.  Usefulness  of  Google  Co-Op  for  businesses and libraries in harnessing the power of  web  is  quintessential.  Bassett  and  Kumaran6   have  highlighted  about  how  to  implement  this  tool  and  usefulness  of  its  features  in  libraries.  
+3. whAT IS   Goo GLE   CSE? 
+Google Custom Search (formerly known as Google  Co-op)  is  an  online  platform  provided  by  Google  that  allows  web  developers  to  feature  specialised  information in web searches, refine and categorise  queries  and  create  customised  search  engines,  based  on  Google  web  search.  Google  launched  this  service  on  May  10,  2006.7 
+Google  Custom  Search  [GCSE]  allows  anyone  to create their own search engine. In GCSE creators  can  specify  list  of  websites  to  search,  prioritise  or  restrict  search  results.  This  GCSE  can  be  shared  through link or also can be made part of website or  blog using specific code generated by Google CSE.  This  is  free  and  easy-to-use  service,  anyone  with  Google  account  (Gmail  or  other  Google  Services)  can  easily  create  and  customise  specific  search  engine  for  their  organisation.  
+4. nEED   of  CSE  for  L IbrArIES 
+Libraries  apart  from  print  sources  subscribe  to  different online and offline databases in the subject  areas  of  their  organisations  study,  teaching  and  research.  They  may  also  be  harnessing  resources  available in public domain, which are useful for their  faculty, researchers and students. The library users,  who  are  interested  in  searching  information  from  these databases, have to either individually search  each  of  these  databases  or  use  search  engines  to  locate  the  information,  which  often  cost  on  their  time and creates information chaos. This often calls  for  the  need  to  have  a  one  search  box  to  locate  everything,  especially  for  searching  information  from  the  online  databases.  Even  though  there  are  many  commercial  and  open  source  applications  software/platforms  available  to  develop  and  offer  federated  or  discovery  services  to  users,  but  it  may  not  be  possible  for  all  types  of  libraries  to  implement  such  tools  owing  to  budget  constraints  and  technical  knowhow.  In  such  cases  free  tools  like  Google  CSE  will  be  helpful  in  developing  a  discovery  service/federated  search  engine,  which  
+418 
+will  help  in  simultaneously  searching  information  from  online  databases  or  sources. Thus  the  library  users  can  save  their  valuable  time  in  searching  topic  of  interest.  
+4. how LIbrArIES CAn  hArnESS   CSE? 
+CSE, is a very easy and useful tool to work on.  Libraries  can  easily  harness  CSE  using  its  simple  administration interface and customise its look and  feel. In order undertake this work, libraries, first need  to enlist different databases subscribed by them and  find  whether  the  contents  of  these  databases  has  been indexed by Google, which is a prerequisite in  setting  up  a  discovery  service  using  Google  CSE.  In addition to subscribed sources, libraries can also  identify  open  access  resources  indexed  by  Google  in  the  subject  areas  of  interest  to  their  clientele  and  add  to  the  list  of  resources  to  be  included  for  discovery services. In the second step, library staff  needs  to  create  a  Google  account,  preferably  in  the  name  of  library  to  add  resources  to  CSE  and  customise  it  as  per  the  needs  of  the  library.  Using  its public URL or customised webpage library users  would be able to find relevant resources from both  subscribed  and  open  access  resources.  Following  are  the  steps  followed  by  SPIT-SPCE  library  to  develop  its  CSE  ‘Search  Databases@SPIT-SPCE  Library’,  which  explains  in  detail  the  modalities  involved  in  its  development.8 
+4.1 resource  Identification  in  Engineering  
+Technology 
+Engineering  is  the  application  of  scientific  and  practical  knowledge  towards  undertaking  new  inventions,  designs  and  research  and  engineering  technology  is  the  practical  application  of  science  and  engineering  to  a  wide  range  of  real  world  problems (Wayne, 2015).9  The faculty and students  undertaking study and teaching in engineering require  resources,  which  help  them  in  keeping  updated  with latest developments. Library being core center  responsible for acquisition of resources in the form  of books, journals and databases, plays an important  role  in  furthering  their  teaching  and  research  and  acquisition  of  new  knowledge.  SPIT  and  SPCE  library  caters  to  around  2000  students  and  faculty  across  engineering  branches  such  as  Mechanical,  Civil,  Electrical,  Computer  Science,  Electronics,  Electronics and Telecommunication acquiring various  resources both in print and electronic format to meet  the information needs of its users. In addition, it is  also striving hard to identify open access resources,  which  are  useful  for  its  clientele.  
+Library  has  provided  links  to  both  subscribed  and  open  access  electronic  resources  including  library  catalogue  from  its  website  for  easy  access.  However,  realising  the  limitations  of  such  links  
+
+========2========
+
+GAVALI: DISCOVERY SERVICE FOR ENGINEERING AND TECHNOLOGY LITERATURE THROUGH GOOGLE CUSTOM SEARCH 
+in  providing  search  functionality,  it  embarked  on  developing  a  common  search  or  discovery  service  for the following subscribed, unsubscribed and open  access  resources  using  Google  CSE  to  enhance  the  users’  experience. 
+ACM  Digital  Library 
+ASCE  Library 
+Arxiv  (E-Prints) 
+Directory  of  Open Access  Journals  (DOAJ) IEEE 
+JSTOR  (up  to  abstract  level) 
+Nature  (up  to  abstract/first  page  level) 
+Science  Direct  (up  to  abstract  level) 
+Wiley  Online  Library  (up  to  abstract  level) ASME  Library 
+4.2  Developing  Discovery  Service@SPIT-SPCE  
+Library  using  Google  CSE 
+The  library  in  order  to  develop  a  discovery  service  for  the  identified  resources,  created  an  account  on  Google.  On  signing  into  Google  CSE  account @ https://www.google.com/cse/, it provided  with  the  following  interface,  which  was  used  to  develop  a  discovery  service  for  SPIT-SPCE  library  (Figure  1). 
+Using  the  interface  of  CSE,  a  basic  discovery  service was created by adding one website address  for search under ‘Sites to Search’ and name for the  
+figure 1. Google CSE interface. 
+search engine was assigned as ‘Search Databases@ SPIT-SPCE  Library’  under  ‘Name  of  the  search  engine’.  To  mark  the  successful  creation  of  CSE,  site displayed a congratulatory message as depicted  in  Fig.  2,  along  with  further  options  for  adding  search  to  site,  view  it  on  the  web  or  undertake  modifications. 
+To  undertake  further  modifications  of  ‘Search  Databases@SPIT-SPCE  library’  discovery  service,  ‘Control  Panel’  of  search  engine  was  used  to  add  
+figure 2. Successful creation of CSE. sites, change its look and feel and search features.  The  basics  options  available  under  ‘Setup’  were  used to provide description, keywords, enable image  search,  speech  input,  set  language  of  the  CSE  and  add  sites  for  searching  to  enhance  the  users’  search  experience.  
+Using  the  ‘Add’  option  under  ‘Sites  to  search’,  list  of  identified  websites  were  added  individually  
+figure 3. Control panel of search engine. 
+one  by  one  and  assigned  labels  for  some  of  the  sites in order to enable end users to find out search  results  emanating  from  specific  resources.  Certain  sites were also selected from the list of ‘Suggested  Sites’  provided  by  Google.  Admin,  indexing  and  advanced setup options were not used to incorporate  any  changes  (Figure  3). 
+While  adding  site  URL  addresses,  at  the  end  
+figure 4. CSE add search site interface. 
+419 
+
+========3========
+
+DJLIT,  VOL.  35,  NO.  6, NOVEMBER   2015 
+of  each  address  ‘/*’  is  being  used  to  enable  CSE  to  include  all  the  pages  and  sub-folders  derived  from  the  particular  web  address.  For  example,  the  site  address  dl.acm.org/*  would  include  all  contents  emanating  from  this  URL  address.  Also,  while  adding  sites,  ‘Include  just  specific  page  or  URL  pattern  I  have  entered’  option  was  chosen  to  restrict searches only from the specific URL address  instead  of  results  appearing  from  other  websites,  which  has  linked  some  of  its  resources. 
+In  ‘Look  and  feel’  settings,  it  was  decided  to  keep  the  default  options  of  CSE  and  no  changes  were  incorporated.  In  case  of  ‘Search  features’,  refinements were added in the form of ‘labels’ such  as ACM  DL, ASCE,  JSTOR,  etc.,  for  specific  sites  to  enable  clientele  to  find  out  search  results  on  a  specific topic from a respective resources. However,  other  options  such  as  promotions,  auto-complete,  synonyms and advanced were not used and it was  left  to  their  default  settings.    
+It  is  possible  to  check  the  usage  of  discovery  
+Figure 5. Search features-refnement. service through its ‘Stats and logs’ option to judge its  usefulness. However, this option was left untouched  to  default  settings  and  ‘Business’  option  was  not  used as CSE being a free edition, as per Google’s  policy, by default ads gets displayed on the search  results  page.  
+A public URL of CSE (https://www.google.co.in/ cse/publicurl?cx=010120612263752258457:ppg3ypzt sjy) was used to beta test the working of discovery  service and seek feedback from some of the library  users.  On  successful  beta  testing  of  CSE,  it  was  added  to  library  website  for  use  of  library  users.  Using ‘Add this to your site’ option the code of CSE  was  copied  from  control  panel  and  included  it  in  one  of  the  library  webpage’s  to  make  it  available  from  library  website  to  enable  users  to  search  for  the  contents  from  the  selected  databases  and  websites. 
+420 
+figure 6. Search databases@SPIT-SPCE library discovery  
+service interface. 
+figure 7. Search results from ‘search databases@SPCET  
+library’ discovery service. 
+5.  LImITATIonS 
+Google  CSE  even  though  is  an  excellent  free  service  to  develop  a  discovery  service  is  not  free  from  limitations.  Some  of  the  limitations  include 1. It  may  not  be  able  to  search  some  sites,  if  
+webmasters  do  not  allow  to  index  sites  by  
+Google; 
+2. Free  edition    is  offered  as  per  Google’s  terms  
+and  conditions,  which  include  advertisements;  
+and 
+3. In  case  of  subscribed  databases,  search  for  
+whole  site  is  specified. 
+6.  ConCLuSIonS 
+Enhanced search to domain specific resources  has  become  a  need  of  the  hour  owing  to  ever  increasing  quantum  of  information.  To  fulfill  this  objective  libraries  are  increasingly  striving  hard  to  increase  users  experience  by  subscribing  to  services  such  as  Knimbus.  However,  many  small  libraries find it difficult to subscribe for such services  for  non  availability  of  funds  and  not  having  many  subscribed resources. Here, GCSE well fits in, as it  is  a  zero  cost  solution,  fast,  very  easy  to  use  and  efficient,  which  can  be  effectively  used  to  build  a  discovery  service.  This  is  economical,  time-saving  
+
+========4========
+
+GAVALI: DISCOVERY SERVICE FOR ENGINEERING AND TECHNOLOGY LITERATURE THROUGH GOOGLE CUSTOM SEARCH 
+application powered by Google which is very useful  for  librarians  who  have  to  deal  with  overwhelming  information.  Library  professionals  need  to  put  in  efforts in using such new age tools to enhance the  users’  experience.  
+Acknowledgements 
+I would to thank Dr S.M Pujar, Deputy Librarian,  IGIDR, Mumbai for his suggestions in improving the  draft  of  this  paper. 
+rEfErEnCES 
+1. Jain, Vivekanand & Saraf, Sanjiv. Google search  
+5. 
+6. 
+engine and its usefulness to library professionals.  
+2. 
+3. 
+4. 
+DESIDOC  Bull.  of  Infor.  Techn.,   2006,  26(5),  23-25.  http://publications.drdo.gov.in/ojs/index. php/djlit/article/view/3693/2105  (accessed  on  15  July  2015). 
+Brophy,  John  &  Bawden,  David.  Is  Google  enough?  Comparison  of  an  internet  search  engine with academic library resources. ASLIB  Proceedings: New Information Perspectives,  2005,  57(6),  498-512.  https://www.city.ac.uk/__data/ assets/pdf_file/0010/79822/Is-google-enough pdf  (accessed  on  25 August  2015). 
+Kumar, Shailendra; Sanaman, Gareema & Rai,  Namrata.  Federated  search:  New  option  for  libraries  in  the  digital  era.  In   Proceedings  of  International  CALIBER-2008.  Paper  published  in  6th   International  CALIBER,  28-29  February  &  1  March  2008.  Ahmedabad.  pp.  267-285.  http://ir.inflibnet.ac.in/bitstream/1944/1233/1/27. pdf  (accessed  on  25 August  2015) 
+Craven, Vanessa. Federated Search Engines –  the  Unified  Search  Environment:  The  Western  Health  Library  Experience  In  Proceedings  of  ALIA conference, 2007. Paper presented at 13th 
+7. 
+8. 
+9. 
+Exhibition and Conference, 30 January – 1 February  2007, Sydney. Australian Library and Information  Association,  Sydney,  2007.  http://conferences. alia.org.au/online2007/Presentations/30Jan. C3.federated.search.engines.pdf  (accessed  on  25 August  2015) 
+Enge, Eric & Biundo, John. Google Custom Search  Engines (Google CSEs). http://www.stonetemple. com/articles/google-custom-search-engines.shtml.  (accessed  on  10  February  2015). 
+Bassett, Dawn & Kumaran, Maha. Libraries and  Google co-op. Journal of Library Administration, 2008, 46(3-4), 181-89. http://ecommons.usask. ca/bitstream/handle/10388/349/libraries_Google_ sec_Coop2.pdf?sequence=3  (accessed  on  5  February  2015). 
+Wikipedia.  Google  Custom  Search.  http:// en.wikipedia.org/wiki/Google_Custom_Search.  2015,  (accessed  on  14  January  2015). Google Support. Google custom search. http:// support.google.com/customsearch/?hl=en  (accessed  on  22  January  2015). 
+Wayne. What is engineering technology? http:// engineering.wayne.edu/et/about/what-is-et.php  (accessed  on  17  February  2015). 
+About  the Author 
+ms rajashree Gavali  is working as Librarian, Sardar Patel  Institute of Technology, Bhavans Campus, Munshi Nagar,  Mumbai.  She  has  done  MLISc  and  cleared    UGC-NET.  She has published one paper  in conference proceedings  She has also received scholarship for international training  program  STIMULATE  10   (October  to  December  2010)  by  VLIR. 
+421 
+
+========5========
+

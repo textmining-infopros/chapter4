@@ -1,0 +1,1481 @@
+DESIDOC Journal of Library & Information Technology, Vol. 31, No. 4, July 2011, pp. 262-274
+© 2011, DESIDOC
+
+REVIEW PAPER
+
+Web Interface in Library Management Software Systems
+Shailendra K. and Namrata Rai
+University of Delhi, Delhi-110 007
+E-mail: shail3@yahoo.com; namrtarai@gmail.com
+
+ABSTRACT
+Though a variety of softwares are available in software market, but only few of these are fully
+compatible with Web. This is a review of the research on library automation software and their
+compatibility with the recent advancement of Web as an interface used for accessing the software in www
+environment. It also focuses on the growth and development of library automation software way back to
+their origin. It also discussed standards, both in terms of library and Web technology. Finally, the topic on
+Web interface used in library management software system (LMSs) is covered including the technological
+implication, Web-based technical services, security issue, database used and evaluation of LMSs.
+Keywords: Library automation, software, Web, standards, databases, networking architecture
+
+1. INTRODUCTION
+The advent of Internet literally opened up a pilthora
+of opportunities for the library professionals, who reacted
+by seeking to leverage the Web to enable better delivery
+services to their clients. For libraries, the Web is one of
+the several networked-based systems to be pressed into
+service at the same time as the Internet was changing the
+rules for widespread communications1.
+During 1994, libraries began to show their presence
+on the Internet setting up their websites. Now Web has
+become a dynamic platform for information delivery over
+the Internet and very useful for libraries to provide
+various types of information. Library management
+softwares came into existence in all parts of the world,
+from mid 1970s. These may be broadly divided into four
+different generations.
+Library management softwares of the ‘first
+generation’ were ‘module-based’ with no or very little
+integration between various modules. Circulation module
+and cataloguing module were the priority issues for these
+systems and were developed to run on specific hardware
+platforms and proprietary operation systems.
+The ‘second generation’ of library management
+softwares became portable between various platforms
+with the introduction of UNIX and DOS-based systems.
+The LMS of this generation offered links between
+Received 15 April 2011
+
+systems for specific functions and were commanddriven or menu-driven systems.
+The ‘third generation’ of LMS were fully integrated
+library systems based upon relational databases
+structures. These embodied a range of standards which
+were a significant step to an open system
+interconnection (OSI). Colours and graphic user
+interface (GUI) features such as windows icons, menus,
+and direct manipulation became standards and norms in
+this generation of LMS.
+The ‘fourth generation’ of library management
+softwares are fully Web-centric architecture and facilitate
+access to other server-over the Internet. These systems
+allow accessing multiple sources from one multimedia
+interface2. In this paper, a review of the research on the
+Web interface in LMS system is reported with the aim of
+identifying the development, standards, technological
+implication, etc.
+
+2. GROWTH AND DEVELOPMENT OF
+LIBRARY MANAGEMENT SOFTWARE
+SYSTEMS
+After a long period of gestation, the libraries in India
+are now in a take-off stage of automation and
+modernisation. Financial and technical inabilities are the
+major issues these have to tackle during modernisation.
+
+Though funding appears as the biggest problem faced by
+the libraries in India, the technical issues of manpower
+training, procurement of hardware and software, creation
+and maintenance of databases, etc., also raises serious
+hindrances in the way of automation. But despite all these
+hurdles, the growth of library automation softwares in
+India is increasing day-by-day.
+Seneviratne and Amaraweera3 gave the outlines of
+the historical background about the use of software for
+library automation, particularly in Srilanka with special
+reference on the use of CDS/ISIS. They also described
+the implementation of a prototype low-cost Web-based
+library automation system. Ebenezer4 explained the
+development of integrated library systems (ILSs) and also
+identified and evaluated the significant trend in LMSs in
+relation to library services. Assimilation of Web-based
+technology in library automation software made the
+drastic change in earlier module-based ILSs. In Web
+environment, the scenario is totally changed and all ILS
+are driven by Internet. The paper also includes the
+Application Services Provider (APS) and how it
+subscribes the Internet services in the software. Haravu5
+described the growth and development of LMSs in
+libraries for performing various library operations. Library
+automation was in its infancy during 1954-70. First half of
+the period saw a trend towards the application designed
+primarily for the benefits of users. The second half saw a
+trend towards the applications that used computer for
+performance of library routine tasks.
+The period of 1970-90 is known as the adolescence of
+library automation. The first phase of automation had
+helped in the development of technical specification,
+requirements analysis, and functionalities desired from
+automated library system. The opening up of the Internet
+in the late 1980s was responsible for the development of
+protocols, software and hardware. The standards, which
+makeup the World Wide Web (WWW), added completely
+new dimensions to the information world. Now libraries
+prefer to use fully Web-compatible library software in
+which all functionalities are based on Web.
+Mukhopadhyay6 gave a different perspective about the
+development of LMSs. Over the years, open source
+software solutions for library management have emerged
+as a viable alternative to commercial close product. The
+paper discusses the open source and Web-compatible
+software KOHA and its distinct features.
+Bailey7 discussed the operational definition of ‘Webhosted software’ and ‘Browser-based Software’ and
+software applications hosted on a Web server instead of
+PC or within the organisation. This kind of developments
+gives emphasis to the third party suppliers like APS. This
+paper examined the pros and cons for small institutes,
+e.g., charities of engaging application service providers to
+Web host their online catalogue. It explains how this form
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+of outsourcing works and offers lower cost, maintenance
+and better performance, subscription pricing, data
+ownership, and interoperability. Haravu8 discussed the
+evolution of library management systems (LMS) and how
+changes in technology, information environment, user
+expectations and searching behaviours, competition from
+related application streams, and the availability of
+enterprise wide systems particularly in academic and
+research environments have influenced changes in LMS
+functionality and design. The drawbacks of current LMS
+offerings, both commercial and open source, are then
+described followed by a description of major new
+initiatives that have taken place in the last two or three
+years leading to new ways of freeing the LMS from its
+monolithic nature into one which supports new workflows
+via services-oriented architectures (SOA) and Web
+services. These initiatives, particularly that of the OLE
+Project, eXtensible catalogue, the recommendations of
+the Digital Library Foundation (DLF) and National
+Information Standards Organisation (NISO), and the
+recent proposal of OCLC to move LMS into a Web-spaced
+platform using cloud computing paradigms have also
+been discussed. Koneru9, Shafique and Mahmood10,
+Moorthy11, Lynch12, and Breeding13 have discussed about
+the growth and development of library automation
+softwares from their beginning till date.
+
+3. STANDARDS
+We live in an increasingly globalised and
+interconnected world. Globalisation also means
+increased dependency on one another in various
+domains. Computers, telecommunication infrastructure
+and the Internet are not only desirable but indispensible
+in the world we live today. The library and information
+world has traditionally been borderless long before
+others. However, Internet and the WWW have pushed
+libraries to became even more interdependent than
+before because of the bewildering array of sources and
+providers of information from which they draw their
+information. So, for libraries to maintain interconnectivity
+to such a diversity of systems and to enable mutual
+sharing of resources and exchange of data between
+them requires that all of these follow internationally
+agreed upon standards.
+
+3.1 Library Automation Software Standards
+The one element, in all library automation and
+networking today that has assumed highest priority, is the
+use of international standards. Some of these are:
+
+
+Metadata standards: Dublin Core, EAD, LOM, VRA
+Core Categories, etc.
+
+
+
+Information exchange standards: AACR, LCSH,
+ISO10160&10161, ISO2709, etc.
+263
+
+
+
+Communication Standards: MARC, UNICODE, TCP/
+IP, Z39.50, Z39.71, OPEN URL, etc.
+
+
+
+Content representation standards: PDF, HTML,
+WORD FILE, XML, etc.
+
+
+
+Interoperability standards: OAI-PMH, etc.
+
+Sherbini and Klim14 explained the metadata
+standards, which depend in the large part, on the
+resources for which they were created. The paper reviews
+the different kinds of metadata standards and their uses in
+cataloguing practices and how these standards are
+applied in libraries. Metadata is basically ‘data about
+data’. This standard is widely used for cataloguing in
+electronic environment and use of metadata standards
+with cataloguing provides consistency and exhibits
+tremendous flexibility. The OHIOLINK electronic theses
+and dissertation (ETD) are an example how AACR2 (Rev)
+and MARC21 are used as metadata standards to store,
+describe
+and
+access
+information
+resources.
+Chandraker15 has discussed how Unicode standard came
+in to light and what kind of other standards were used
+place of Unicode. From the start of automation, in the
+absence of proper standards, professionals tried to
+romanise documents as computer used to accept only
+binary digits of Roman script to represent the English
+language. Later, the development of new technology,
+ISCII, which is an extended form of ASCII, values from 126
+to 255, helped library professionals in developing bilingual
+databases or bilingual text files on DOS or UNIX-based
+applications. Gradually, fonts for window-based
+applications were developed for creating websites or
+document files. But now with the requirement of different
+languages in the world, there is a forum available called
+Unicode Incorporation, which provides a solution to the
+localisation of problems of world language. Unicode is a
+multilingual standard and technology for localiation of the
+Indian language materials.
+Z39.50 protocol also promotes centralisation of
+resources shared by libraries situated worldwide. This
+protocol is implemented in bibliographic databases in
+libraries. Nowadays, personal bibliographic managers
+such as Reference Manager, End Note, Procite, help in
+accessing bibliographic database via Z39.50 protocol16,17.
+Wu18 gave detailed description of Open URL standards.
+Recently, growth and development of electronic
+information have progressed rapidly. Therefore, their
+proper architecture and organisation of electronic
+information required some standards. The open URL
+standards solve this problem. Open URL provides a
+standardised format for transporting bibliographic
+metadata about objects between information services.
+The purpose of such research was to define context
+sensitive linking for ensuring users access to the
+appropriate copy of materials based on the subscription of
+264
+
+their institution or libraries. This standard is also useful for
+libraries, because it provides appropriate ways to link
+across information sources, irrespective of their providers.
+Aliprand19 gave details about the structure of
+MARC 21. MARC 21 records may be encoded in
+individual character sets including ASCII and ANSEL or
+in Unicode. He considered the effect of the use of
+Unicode without any constraints on the structure and
+data content of MARC 21. The case of a model where
+Latin was the preferred script was examined in detail.
+Haravu20 discussed the need of standardisation in library
+automation software as well as for establishing
+networking among the group of libraries so that they can
+work under similar environment as well as resource
+sharing can be made possible. Yu21 suggested the
+standards regarding digital archives. Basically, digital
+libraries stow huge amounts of data, including text,
+image, map, audio, video and illustrations via electronic
+formats. Furthermore, digital libraries could be
+conveniently accessed through the Internet. The
+traditional library automation systems, applying
+technologies and protocols, such as MARC, Z39.50 and
+ISO 2709, could not completely match the requirement of
+digital archives. The purpose of this study was to find out
+how to effectively manage and apply the related
+technology of digital archives to handle the existing
+operation processes in library and the management
+requirement of digital archives. This paper discusses an
+evolution model of the related technology of library
+automation systems.
+
+3.2 Web Technology Standards used in Library
+Management Systems
+Web services are the set of technologies and
+standards for interoperability well adapted to exploit the
+characteristics and potential of the Web environment.
+Web services refer to a network-addressable software
+component that can receive a call and provide a given
+behaviour on behalf of the calling system, application or
+component. Web technology is being used in LMSs to
+make these compatible for working in Web environment.
+Some of these technologies are: HTML, XML, XUL, Open
+URL, HTTP, SOAP, etc. There have been some studies,
+which gave the detailed description of Web technology
+standards now being used in library automation software.
+Ryno22 explained the advent of Web and how the
+system librarians find themselves managing or facilitating
+a wealth of mainstream technologies. System work
+revolves around many resources that live outside the
+library walls, security access for our patrons and
+pushing access to the desktop users. XML is the Web
+technology that is tying together the system, applications
+and formats and the possibilities for component-based
+applications seems revolutionary. Banerjee23, Chang,24,
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+and Wusetman25 described the use of XML technology in
+libraries in different ways like used in OPAC, and
+suggested a prototype OPAX and XML to manage
+information in digital environment.
+Cordiero26 introduced the main ideas and concepts
+underlying Web services, and their potential for a new
+generation of Internet-based distributed applications. A
+summary of the key standards that are the foundation of
+Web services technology and its underlying basic model
+was provided, exploring the potential for interoperability
+among independently managed systems. This is of
+special importance for libraries, along with the advantage
+of reducing the development and deployment costs of
+distributed applications, and of leveraging the value of IT
+and data legacy assets. The paper explains
+developments in Web services technology in the library
+field and underlines its significance for changes in the
+library information systems paradigm. Contreras27 has
+discussed changing needs and expectation of the users
+and from the example taken from the Penn State
+University libraries, which are using Web technology in
+reference service, which included synchronous and
+asynchronous references, by working with vendors to
+support services across various system platforms.
+Jayakanth, Sharada and Minj28 elaborated the OAIbased approaches to build and maintain union
+catalogues. In this approach, the individual OPACs (data
+providers) expose their metadata for harvesting. The
+OAI-based service providers harvest the exposed
+metadata automatically. The metadata thus harvested is
+ingested into a centralised database, which serves as an
+online union catalogue, supporting search, browse, and
+other value-added functionalities for the end-users. The
+OAI-based approach eliminates the manual work involved
+in getting the OAPC updates and also in updating the
+union catalogues.
+
+4. USABILITY OF WEB INTERFACE IN
+LIBRARY MANAGEMENT SYSTEMS
+This section discusses the use of Web in library
+automation software, technological developments, which
+make software compatible with changing demands of
+users, and Web as a interface used for management
+modules, etc.
+
+4.1 Databases used in Library Management
+Systems
+In early days computing, data was kept into the data
+files and programs were written to interact with these data
+files to produce reports. This type of environment led to a
+situation in which every new application required the
+services of an experienced programmer, who usually took
+a fairly long time to study, design, develop, and test his
+software. There were some other factors also, which gave
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+birth to file management systems, in which most of the
+common
+file
+management
+programmes
+were
+incorporated, thereby eliminating the need of writing
+separate writing programmes for them. So the 'database'
+concept is a more systematic approach in a database
+management system.
+A database is an organised collection of structured
+data, unit of information or data records, independent of
+any application in a computer memory that serves the
+need of the multiple users. So, the database
+management system is a collection of programs that
+enables one to store, modify, and extract information from
+the database.
+Ravindran29 gave the overview of various library
+management softwares and also described the
+management of their bibliographic databases. Because
+the success of any information centre not only lies on
+their resources but also in identifying and enlisting various
+information sources and develop the requisite tools for
+maintaining these information resources. This paper gives
+the important criteria for selection of library software also.
+Mishra30 explained the importance of computers in
+generation of different bibliographic databases at
+international, national, regional and local levels, and for
+different levels of exchange formats needed for
+exchanging information. He also suggested different
+national and international exchange formats of
+bibliographic databases such as UKMARC, USMARC,
+CCF, UNISIST reference manual, etc., and suggested
+certain national and international standards for the
+generation of exchange formats. Chandraker31 gave
+detailed description about the character encoding
+because everything associated with the Web requires
+character encoding by the developers. Library and
+information networks of India hold the responsibility to
+digitise all these valuable resources stored in print media
+and make them accessible to users through the Web.
+Chandrakar tried to explain the limitations and the
+problems being faced in this regard and highlighted the
+issues involved with multi-script databases creation and
+the required state-of-the-art technology.
+Rhyno22 described relational database management
+system (RDBMS), as best suited for storing and
+managing many different forms of digital content and new
+strategies defined to provide RDBMS solution for XML.
+Some of the relational databases now offer special
+mechanism to accommodate XML while several
+technologies have emerged to facilitate the use of XML
+representation of data housed within an RDBMS. This
+paper highlights that XML and XML-enabled technologies
+may find new application for libraries by combining
+RDBMS concept with Web-based services. Matoria and
+Upadhayay32 have discussed about various library
+automation software packages that are lacking the Web
+265
+
+interfaces and thus do not provide library access
+databases (e.g., OPAC) through Web. These packages
+provide less flexibility to the librarians for making desired
+changes in the existing databases and to publish same
+on the Web. So, designing in-house databases using
+common relational database tools like MS-Access, SQL,
+and DB2, etc., can be a back-end solution. They
+discussed the merits and demerits of the currently
+available RDBMS software for library applications as
+back-end solutions, and the various tools/technologies
+required/available for publishing the library databases over
+Web. They also emphasised to use the technologies that
+are more user-friendly, easy to design, require less
+programming skill, and thus suitable for librarians to setup Web-enabled solutions in the libraries.
+Sridhara, Makhija, and Pandey33 discussed the
+advent of database connectivity to the Web servers and
+possibilities to generate dynamic webpages using
+database as the back-end and a Web browser as the
+front-end. This article focuses on implementation of
+WINISIS and WWWlSlS on Microsoft Windows XP using
+professional Microsoft’s Web server (Internet lnformation
+Server 5.1) for generating an information retrieval system
+for defence science and technology articles database
+developed by Defence Scientific Documentation and
+lnformation Centre (DESIDOC). The database provides an
+instant access to information on defence-related articles
+to the scientists of Defence Research and Development
+Organisation (DRDO).
+The paper also focuses about generating a current
+awareness service, Current Literature in Defence
+Science and Technology using defence science and
+technology articles database. Buxton34 suggested a
+variety of software solutions for putting CDS/ISIS
+databases on the Internet. He briefly described the
+origin, history, characteristics, and availability of
+software packages and identified the type of skills
+required to implement the packages and the kind of
+applications that will suit. It covers CDS/ISIS UNIX
+version, Java ISIS, WWW-ISIS Versions 3 and 5, Genisis,
+IAH, and Open ISIS. This paper concluded that CDS/
+ISIS databases provide a range of options to their users
+for putting their databases on the internet, so that it
+provides ease to the users who are residing at remote
+locations. CDS/ISIS provides various options, which are
+free but the choices may well depend upon the users’
+capabilities and ease of use with CDS/ISIS, HTML, open
+source software, and programming.
+
+4.2 Technology Interface in Library and
+Management Systems
+Librarians have a special seat at the table of the 21st
+century, now that we live in the age of information.
+Librarians have traditionally been the keepers of
+266
+
+society’s knowledge. While the challenges are
+considerable, the tools that are presently available
+provide views of information at levels of granularity
+previously unavailable at any price. That power is not
+automatically a good thing—we suffer from information
+overload—but it is a reality that must be managed. There
+are several technologies that are already or will very soon
+be impacting the library and may offer advice on how to
+live in relative harmony with most of them.
+There are several technologies being used in library
+automation software for the ease of staff and users also.
+Some of these are:
+
+
+Radio Frequency Identification Device (RFID): This
+technology is used for stock checking, circulation,
+and security systems, using RFID tags instead of the
+traditional barcodes and magnetic strips to identify
+and track items (e.g., VTLS’s FASTRAC).
+
+
+
+Application Programmer Interface (API): API is a
+feature of several of the new generation ILMSs.
+These allow systems staff in libraries to modify the
+vendor’s software to fit local requirements, and also
+faster upgrading of software.
+
+
+
+Virtual Reference Service (VRS): This is a relatively
+new component of the ILMS. It can be associated
+with the Web OPAC when an “Ask a Librarian” link is
+made available from the OPAC page to a Web form.
+The most advanced use of VRS is chat room
+technology, which users can use to interact with a
+reference librarian in real time.
+
+
+
+Personal Digital Assistant (PDA): PDA is the
+computing and storage device which is mobile in the
+hand-held sense, which means it cannot be carried
+easily but is designed to be used with the user’s
+bare hands without need of desk, study carrel, etc.
+(e.g., innovative interface facilitated PDA devices).
+
+
+
+Computer Integrated Telephony: Used for sending
+reminders and information on reservations to users,
+and enable them to conduct circulation-related
+transactions such as book renewals, checking of
+account status and cancellations or reservations
+over the telephone (e.g., Dynix’s horizon telephone
+messaging).
+
+
+
+Smart Card and Reader: Smart cards have an
+intelligent, single-chip microcontroller embedded
+within the plastic. This facilitates the implementation
+of a very high level of data security and means that
+data can be securely updated or written to the card
+after it has been issued. The key development in
+recent years has been the integration of reusable
+memory–Electrically Erasable Programmable Read
+Only Memory (EEPROM)–onto a single-chip
+microcontroller.
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+
+
+Biometric Devices: These comprise finger print
+reader, voice recognition, etc.
+
+Lee35 described the cutting-edge hardware and
+software for multimedia information storage and access.
+Lee will focused on the NeXT computer as the innovative
+hardware platform and introduced the VTLS InfoStation as
+the new generation software that offers user-friendly
+multimedia information access using expert systems,
+natural language processing, direct manipulation
+graphical techniques and retrieval of full text, images, and
+audio data.
+Singh36 discussed the concept of multimedia and its
+use in library automation software. It also states that
+compatibility of library software to store, organise and
+properly displayed multimedia materials. Mc Cullough 37
+draws attention towards the recent technological changes
+in library automation software marketplace. So, one of the
+barometers of the level of demand placed on libraries to
+evolve their services is the rate at which the library
+automation vendors release enhancements, new features
+and entirely new product lines to serve the library
+marketplace. An area in which new technology and library
+need intersect is in the area of development for PDAs and
+other hand-held devices for wireless communication.
+PDAs in the hands of patrons and staff offer a number of
+opportunities to improve interactions within the library.
+PDAs for patron provide all libraries-related information
+like reminder of due date; checked out item, date and
+time; information of upcoming events; name and address
+of branch libraries; etc. Library system vendor
+demonstrated ‘innovative interfaces’ at ALA 2000 and their
+ability to send pertinent information from a library
+workstation directly to PDA using infrared data
+transmission. So, this capability used third-party software
+and hardware on the PC workstation, in particular, an
+infrared device which would actually transmit the specified
+information sent to the PC from the library server, to a
+waiting IR-capable device.
+Kern38 gave a detailed description of RFID system
+and its uses in libraries as well as the standards required
+for RFID chip. Muir39, Butters40, Shahid41 have highlighted
+the use of RFID in library for anti-theft, inventory control,
+etc. Lambrinoudakis42 pointed out the continuously
+increasing need of de-centralised information system
+offering data to the people who need it, irrespective of
+their physical location, as well as the requirement for
+exchanging information between different interoperable
+systems. The concept of a ‘secure portable information
+file’ that can nowadays be easily implemented through
+the available smart card technology, can significantly
+ease information management and ensure maximum data
+protection wrt their integrity, confidentiality and
+availability. This paper presents the use of smart cards in
+an educational environment as a case study for
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+demonstrating the above-mentioned benefits, focusing on
+the utilisation of the smart card’s cryptographic functions
+for implementing mechanisms capable of providing an
+extremely secure operational framework in terms of user
+and application provider authenticity, management of
+access privileges and data integrity, and confidentiality.
+Library automation software incorporates various
+technologies to facilitate their users and library personnel
+also. RFID, smart cards, biometric devices, PDAs, etc.,
+are the example of these technological changes, which
+enable libraries to provide value-added services to its
+users.
+
+4.3 Implication of Web Interfaces used in
+Technical Services
+Library automation is a generic term used to denote
+the various activities related to the location, acquisition,
+storage, update, manipulation, processing, repackaging
+or reproducing, dissemination or transmission or
+communication. Libraries that have always been active in
+the information and knowledge access arena cannot
+afford to ignore either the threats or opportunities that the
+evolving Web provides. It would be reasonable to predict
+that more and more libraries in the near- and mediumterm will turn to applications that will be Web-based.
+Recently, libraries have started using some Webbased interface in their library automation software
+systems. The most common areas where Web interfaces
+used are:
+
+
+Web OPAC
+
+
+
+Web-based ILL system
+
+
+
+Online library portals
+
+
+
+Common user interface
+
+
+
+Copy cataloguing
+
+
+
+Digital reference services
+
+
+
+Web-based document delivery services, etc.
+
+Foo and Lim43 discussed the integrated Web-based
+ILL system used by the Singapore libraries. They
+described the system requirements that must be
+supported to make it a viable and acceptable solution to
+all participating libraries, and presented the client-server
+Web-based system architecture, database design and
+Java development platform that are used to implement the
+system. The new system exhibits a host of advantages
+over the manual system including the minimising of
+human resources by eliminating form filing and other
+forms of paper work completely, improving the access and
+267
+
+speed of the ILL process by allowing participating libraries
+to update each others databases directly ensuring data
+integrity, simplifying status tracking and also provide
+statistical reporting. Anderson44 described the multiple
+and redundant access to new media in the form of
+catalogue entries and separately maintained list
+(prepared by public service librarians). Now the debates
+have raged which method of access serves users best.
+This pattern persists as libraries provide access to
+electronic sources via Web list and the OPAC.
+Rameshbabu and Brian45 enumerated various features of
+the WebOPACs. Web-based OPACs began to appear in
+the late 1990s and many libraries are currently
+considering its implementation. As catalogues, they
+demonstrate advances on traditional OPACs, especially
+in terms of remote access by users and their potential to
+integrate many document types and sources via a single
+interface. Their paper highlights some of the features and
+functions of WebOPAC interfaces. But yet, very little
+evaluation of systems and users has taken place, and
+until more such literature appears, a general approach to
+products available will be considered of any value. In other
+comparative studies about OPAC Joint46, Bordeianu,
+Carter and Dennir47; Kapoor and Goyal48; and Bernrad49
+also showed the similar results. Dorner and Curtis50
+explained the online portals, also called Common User
+Interface, which replace the multiple interfaces found
+among individual electronic library resources, reducing
+the time and efforts spent by the user in both searching
+and learning to use a range of databases, although the
+primary purpose of Common User interface is to simplify
+the search process such as user authentication and site
+branding. Their paper covered the detailed summary of
+software that incorporate this feature such as MetaLib,
+ZPORTAL, Muse Search, Single Search, Meta Find,
+CPORTAL, WebFeat, etc.
+Bandhopadhyay explained the concept of copy
+cataloging and its benefits and suggested that the
+national library should take a leading role in organising
+online copy cataloguing programme in India so that all
+libraries in the country can use its bibliographical
+information to prepare their catalogue entries without
+wasting manpower and money. In online copy cataloguing
+one may search in the database for the bibliographic
+record using keywords and then compare with the
+existing record item, and if it matches then the record
+may be processed for the local library. Modification facility
+is also available in this copy cataloguing. OCLC also
+provided CatExpress used for simple and fast copy
+cataloguing solution. Cat Express is a fast and easy
+Web-based copy cataloging solution. CatExpress also
+gives access to WorldCat, the world's most
+comprehensive bibliographic database, and provides the
+power of Dewey through the Web as an add-on service.
+Hariharan52, et al. explained the current awareness
+51
+
+268
+
+services to meet users' requirements at SERC library. A
+few libraries and many e-publishers are providing alert
+services to keep the users informed about the latest
+additions to their collections and other information
+relating to the users' areas of interest. This paper
+described the experiences in using the AutoLib library
+software and explained the various innovative and useful
+Web-based library and information services and the alert
+service being provided at the SERC library. SERC library
+maintains portal in which different kind of Web-based
+alert services are provided to the users with the help of
+AutoLib software where users may create their own
+profile and post their query to the portal and get updated
+through new alerts regarding the publications,
+collections, research activities, etc.
+
+4.4 Security Measures used in Library
+Automation Software
+With the growing dependence on network for smooth
+communication and increased outputs, information
+technology industry must become more concerned about
+the possible security threats that can breach network
+security resulting in costly damages. A network or
+Internet work perimeter is a secure boundary of a network
+that may include some or all of the following:
+
+
+Firewalls
+
+
+
+Routers
+
+
+
+Intrusion detection system (IDS)
+
+
+
+Virtual private network (VPN) mechanism
+
+
+
+Screened sub-nets
+
+Suman and Lal53 explained the security aspects in
+computer network environment. In the paper, concept of
+'Firewall' came. Firewalls are hardware and software
+combination built using routers, servers, and a variety of
+software. Firewall basically used for packet filtering-a
+screening examines the header of every packet of data
+travelling between the internet and corporate network. So
+along with fencing of network and working with firewalls,
+the paper also described the Worms and Bugs and some
+recent developments in the area of networking security.
+Prevelakis and Keromytis54 explained the purpose of
+drop-in firewalls/VPN gateway, called Sieve, which can be
+inserted between the mobile workstation and the network
+to provide individualised security services for the
+particular station. Sieve is meant to be external modem;
+the users only need to plug it in. Its existence is
+transparent to the users, requiring no modification to the
+workstation configuration. Sieve has been designed to be
+compact, low cost, requiring little administration or
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+maintenance. Gupta55, et al. discussed the demands of
+networking among the organisations and what kind of
+security threats they faces while networking. Not only
+this, paper also discussed the designing of a secure and
+robust network infrastructure. Secure connectivity also
+must for the protection of information. For this, digital
+signatures can be used for encrypted information.
+Basically ‘Encryption Technology’ converts network
+messages into formats that are specially designed to
+prevent third parties from accessing their contents. This
+paper explored the process of building and implementing
+a successful, secure and robust network infrastructure
+and discussed various techniques to overcome possible
+security threats. The security process required constant
+monitoring of the network along with the measurement of
+staff knowledge and awareness levels to ensure that
+there is a continuous improvement in their level of
+security knowledge and awareness. Braid56 defined the
+Digital Right Management (DRM) System and its use in
+secure document delivery services in libraries. The
+digital management of rights means the technical
+protection measures that are added to a piece of content.
+This usually involves the use of some form of encryption
+and access control mechanism as well as preventing
+unauthorised access. The controls can limit various
+aspects of the use of the contents. Such limitations
+include the number of copies that can be printed,
+whether the file can be copied, the length of time file can
+be accessed, and whether the content can be ‘cut and
+pasted’. At least three major document suppliers, namely
+British Library (BL), CISTI and Infotrieve, implemented
+this kind of secure electronic document delivery system.
+The paper also gave the following reasons for applying
+this security:
+
+
+Publishers are not in direct control when supply is
+through a third party,
+
+
+
+They fear that inappropriate use might result and,
+
+
+
+They fear erosion of their subscription base.
+
+Although DRM very early made confident predictions
+but this technology makes system too secure in that it do
+not permits intermediaries to carry out any form of
+checking of supplied items before forwarding them to end
+users. So DRM should help in maintain the stability of
+scholarly publishing; it may well be the users and not
+suppliers, who will derive need. Kush and Ram Kumar57
+discussed the need of the security and gave emphasis on
+wireless networking which having large bandwidth and a
+range of several feet. Moreover, multiple wireless access
+points can be easily installed on same network to cover
+more areas. So the main challenge is to design these
+networks is their exposure to security attacks. The paper
+categorised security measures as logical, organisational,
+procedural, and physical by tactics which are preventive,
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+detective, corrective and repressive. As well there is no
+single standard routing protocol which prevent security
+attacks.
+Roedig and Schmitt58 have described about the
+firewalls. Firewalls are well-established security
+mechanism to restrict the traffic exchanged between
+networks to a certain sub-set of users and applications. In
+order to cope with new applications like multimedia, new
+firewall architectures are necessary. The performance of
+these new architectures is a critical factor because
+Quality of Service (QoS) demands of multimedia
+applications have to be taken into account. This paper
+discussed how the performance of firewall architectures
+for multimedia applications can be determined. It
+presents a model to describe the performance of
+multimedia firewall architectures. This model can be used
+to dimension firewalls for usage with multimedia
+applications. In addition to this, results of a lab
+experiment, used to evaluate the performance of
+distributed firewall architecture and to validate the model
+was also discussed.
+Lekkas and Lambinoudkis59 gave detailed description
+about the digital signatures which are very useful from
+security point of view. A digital signature preserves basic
+security characteristics of the digital documents, such as
+integrity and authenticity of binary data. Digital signatures
+are only enjoying a gradual and reluctant acceptance,
+despite the long existence of the relevant legal and
+technical frameworks. One of the major drawbacks of
+client-generated digital signatures is the requirement for
+effective and secure management of the signing keys and
+the complexity of the cryptographic operations that must
+be performed by the signer. Outsourcing digital signatures
+to a trusted third party would be an elegant solution to the
+key management burden. This paper aims to investigate
+whether this is legally and technically feasible. It also
+discussed the weakness and security threat that implies
+on client side management and compared the basic
+features of client generated digital signature and
+outsourcing of digital signature and finally the technical
+approach for the outsourcing of digital signature.
+Hudomalj and Jauk60 point out the current state of
+authentication and authorisation in satisfying the
+academic library users’ mobility and instant access to
+use of digital information resources and proposed that
+libraries strongly support effort to establish a global
+authentication and authorisation infrastructure. A global
+authentication and authorisation infrastructure will enable
+users to use a single username and a password for all
+local and remote library services. It will consist of
+interconnected authentication/authorisation servers
+where each institution will be responsible for a local user
+database. This paper also discussed the practical
+implication of this global authentication and authorisation
+269
+
+infrastructure because this service can improve services
+for their user’s who are reside at remote places from their
+institution and enable users to access new services
+faster. Herzog and Shahmehri61 discuss about concrete
+and verified guidelines for enhancing the usability and
+security of software that delegates security decisions to
+lay users and captures these user decisions as a security
+policy. Setting up a security policy or security rules for a
+personal firewall, for application surveillance on one’s
+computer, or for how one Web browser should interact
+with the privacy policies of visited Web sites, is a difficult
+task. So to solve this problem is required to establish at
+least one security tool for setting up security policies at
+run time succeeded. Firewalls are used by many users
+and allow and disallow the network connections. Firewalls
+are not complex in their run time rule syntax.
+
+4.5 Networking Architecture used in Library
+Management Softwares
+Due to knowledge explosion or enormous growth in
+volume of published information, it is necessary for
+libraries to satisfy the diverse need of users and establish
+network among the group of libraries. Not only this,
+libraries always faced budgetary constraint, staff pressure
+and increased cost of printed resources. Networking can
+help libraries overcome these problems.
+A compelling advantage of using Web-based
+solutions is the possibility to leverage the Web to create
+an effective network for libraries. The various libraries
+could be belonging to the same organisation but
+distributed across the number of locations. So, webbased networking provides solution for establishing
+effective network among these distributed libraries.
+Networking among libraries is of the following types:
+
+
+Single-user system
+
+
+
+Multi-user system
+
+
+
+Local area network
+
+
+
+Client- server architecture
+
+Evans62 draws the attention of globalisation of library
+systems. Libraries are using virtual union catalogue
+enabled by Z39.50 standard which allows libraries a
+common research purpose. e-lending and MARC
+databases, etc. are some examples of these technology.
+Web and various standards compel librarians to ‘think
+locally act globally’ so that group of libraries distributed
+across the world can easily communicate and share their
+resources. Application service provider is yet another
+technology which is highly applicable in networking. ASP
+models look in future in which application runs remotely
+somewhere in world, it matters not where. Dzuriniko63
+elaborated the various features of ASP. Integrated online
+library system ASP is an Internet-based service, which
+270
+
+allows to rent software or service on per-use or
+subscription basis. The software sits on the ASP server
+and the connection is established via Web. All the data
+stored on ASP server is available for anybody at any part
+of the world belonging to that firm. The paper also
+discusses the advantages and disadvantages of ASP.
+Kaula64 explained the Web architecture, i.e., twolevel architecture and three-level architecture. Two-level
+architecture is a client/server architecture where many
+computers behave as a client connected to the server
+computer. In three-level architecture, a database level is
+added which is DBMS software. The third layer is called
+the application layer, which manages the interaction of
+the Web server with the DBMS. The three-level
+architecture is very useful for the management of
+RDBMS on Web. Haravu5 discussed the technology of
+client-server architecture. The main difference between
+client-server architecture and LAN architecture is that
+client server use a relational database management
+system on the database server and users query are
+answered directly. Earlier, file server was used in LAN
+architecture. The client-server architecture thus reduces
+network traffic by providing a query response rather than
+file transfer. It improves multi-users updating through a
+GUI front end to a shared database. In client server
+architecture, remote procedure calls (RPCs) or standard
+query language statements are typically used to
+communicate between the client and server.
+There are two kinds of client server architecture,
+namely two-tier architecture, and three-tier architecture or
+n-tier architecture. Earlier two-tier architecture was used
+in LAN or intranet environment. The two-tier architecture
+allocates the user system interface exclusively to the
+client. It places database management on the server and
+splits the processing management between the client and
+the server, creating two layers. In n-tier architecture, a
+middle tier added between a client and a database
+management server. The middle-tier performs queuing,
+application execution and database staging. The middletier accesses the data and gives answer to client.
+Li65 described the Web-based library information
+architecture, outlining the ubiquitous library’s most
+relevant concepts and features tied up with the Internet
+platform. Utilising successful library projects and
+applications from the real world, this paper explores
+primary technical solutions for the ubiquitous library in the
+digital age, which could be utilised to transform the
+concept of ‘Ubiquitous Library’ (ubiquity here define as
+‘the capacity of being everywhere or in all places at the
+same time”) into a real “dynamic engine for the
+knowledge and information society.’ Also discussed is the
+future of Web-based ubiquitous library information
+architecture. This paper intends to draw a clear road
+map for librarians, instructors, IT specialists, managers,
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+executives, and other professionals to utilize cutting-edge
+technologies and emerging technologies to design,
+develop, integrate, enhance, and implement ubiquitous
+library services and projects in the 21st century.
+
+4.6 Evaluation of Library Automation Systems
+In any endeavour in which we make a substantial
+investment of money, energy, and time or other
+resources, we like to know what kind of return we get.
+The ability to evaluate the return on our investment gives
+us the basis on which to choose between alternative. So
+an evaluation is basically a judgment of worth. It is a
+matter of comparison of actual result with external
+standard, in the light of existing institutional realities
+which may be relevant to evaluating the future trajectory
+of the program or services and provide an objective basis
+for decision making. Software evaluation is quite a
+difficult task.
+Francis66 elaborated important software problems
+faced by the library professionals in India and points out
+various compatibility and suitability issues in the
+selection of library software. The paper also highlighted
+that these problems have affected the progress of
+computerisation of libraries. Up-to-date and detailed
+information on softwares available in India can prevent
+several issues that may arise in the course of
+computerisation. An agency/mechanism to continuously
+evaluate the softwares may be formed to meet this
+requirement.
+Saxena and Srivastava67 evaluated important library
+software packages such as Granthalaya, Libsys, Sanjay,
+Suchika, Basisplus-Techlibplus, etc. Parameters
+selected for evaluation of software packages include
+facilities provided in the software packages, hardware
+requirements, operating system platforms, language of
+software
+development,
+search
+facilities,
+etc.
+Mukhopadhyay2 discussed the development of library
+management softwares over the past decades, traced out
+the characteristics and trends of software with special
+reference to packages available in Indian environment and
+compares services and facilities incorporated in library
+automation packages available in India against various
+checklists and with the help of tables and appendices.
+For evaluating number of software, author prepared
+one checklist, which is broadly divided into following
+categories: hardware and backend software requirement,
+intrinsic features of LMS, services and activities, core
+services, user oriented services, enhanced services, and
+value-added services. The present study indicates that
+the SOUL developed by the INFLIBNET has most of the
+features of a third generation LMS. Goh, et al.68 described
+open source software packages available for
+organisations and individuals to create digital libraries. To
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+evaluate digital software packages author prepared a
+12-point checklist.
+Evaluation of library software package is a very
+complex process. For evaluation, all the packages must
+be used by the evaluation team under the same
+conditions, which is not possible practically due to
+various factors. But with the help of evaluation one can
+know about the merit and demerits of software and also
+choose the best software according to the requirement
+and budget of the library.
+
+5. CONCLUSION
+The above studies revealed that information and
+communications technology plays a very important role in
+our society. It has influenced the every aspect of human
+society and libraries as a part of the society are not the
+exceptional one. The library community is largely made
+up of not-for-profit, publicly funded agencies, which hardly
+command a major voice in today’s high tech information
+industry. Libraries today face the challenges of
+implementing the latest technologies, keeping their data
+and resources secure and providing their users access to
+the resources, while coping with shrinking budgets,
+increased competition and rising demand for more
+consumer-like-services. With information technology
+remaining an ever changing landscape, libraries
+increasingly need to pay more attention to total cost of
+ownership issues. They must choose the very best, most
+future proof products for IT investments and
+developments.
+Earlier every task in libraries was performed by the
+library personnel manually, which used to take lots of time
+and manpower. But after a long period of gestation, the
+libraries in India are now in take off stage of automation
+and modernisation. Now in ICT environment, most of the
+technical works in libraries are being performed with the
+help of computers and new technologies without losing
+much time and efforts. The use of computers for all library
+operation and services began during the mid 1950s. The
+advent of Internet in the 1980 was responsible of the
+protocols, software, hardware and standards that make
+up the WWW, added a completely new dimensions to the
+information world. Now libraries prefer using Web-based
+library automation system rather than using window
+based automation software. Earlier libraries used windowbased softwares for automation but these softwares are
+not affordable by every library due to financial constraint.
+Web-based Library Automation Software Systems which
+use Web as a platform have solved this problem. After
+seeing the steady growth in library automation drastic
+changes came, not only in terms of library activities but in
+terms of increase in the working efficiency of library
+personals. Now library softwares are hosted on a Web
+server instead on PC or within the organisation.
+271
+
+Now when the softwares are hosted on Web server,
+they required certain national and international standards
+for communication. Certain standards develop by
+national
+and
+international
+organisation
+for
+communication and acceptable to all over world, are
+Z39.50, AACR-2, ISO2709, ISO10160 and 61, etc.
+Nowadays we are dependent on networking for smooth
+communication. Earlier for networking, libraries were
+using peer-to-peer model but now client-server
+architecture provides much ease for establishing network
+among terminals to Web server. Information industry
+must become more concerned about the possible
+security threats that can breach network security
+resulting costly damages. Firewalls, routers, screened
+subnets etc. provide various options for preventing these
+kinds of threats. Not only this, content security is also
+necessary because all content are hosted on Web
+server. Softwares incorporate various facilities like DRM,
+water marking, guest right, password authentication, etc.
+for secure document delivery.
+There are several technologies that are already or will
+very soon be impacting the libraries and provide ease to
+staff and users like PDA, barcode reader, smart card,
+biometric devices, etc. Advancements in Web technology
+have impacted technical services of libraries. Now with
+the help of copy cataloguing libraries can outsource the
+information from other libraries as well. Not only this, Web
+OPAC, ILL, Web-based document delivery accelerated
+the working efficiency of library staff. Though in India the
+development of Web-based software is still in its infancy
+stage but it is already in steady growth. Web-based
+automation software are the good example of sharing
+resources worldwide and satisfying the users need ever
+at remote location.
+
+REFERENCES
+1. Rhyno, Arthur. From library system to mainstream
+software: How web technologies are changing the role
+of system librarians. Library Hi-Tech, 2003, 21(3),
+289-96.
+2. Mukhopadhayay, Parthasarthi. Progress of library
+management softwares: An Indian scenario.
+Vidyasagar Univ. J. Lib. Inf. Sci., 2002, 1-15.
+3. Seneviratane, Gihan P. & Amaraweera, J.P.
+Automation of library operation in SriLanka: A costeffective
+web-based
+solution.
+Information
+Developments, 2002, 18(2), 111-15.
+
+6. Mukhopadhyay, Parthsarthi. Five laws and ten
+commandments: The open road in library automation
+in India. In Proceeding of the National Seminar on
+Open Source Movement–Asia Perspective, IIT,
+Roorkee, 2006. pp. 27-36.
+7. Bailey, Penn. Let someone else provide your online
+catalogue. Library+ Information Update, 2006, 5(10),
+39-41.
+8. Haravu, L.J. Emerging initiatives in library
+management systems. In International Conference
+on Academic Libraries-Technology, Policy and
+Innovation, University of Delhi, Delhi, 2009. pp.
+239-48.
+9. Koneru, Indra. Integrated library system: Selection
+and design. DESIDOC Bull. Inf. Technol., 2005,
+25(5&6), 3-9.
+10. Shafique, Farzana & Mahmood, Khalid. Integrated
+library Software: A survey of Lahore. Library Hi-Tech
+News, 2008, 6, 6-13.
+11. Moorthy, A.L. Library automation in India. In Horizon
+of information technology: New age, new wage trend
+and impact of library science. A Festschcrift, Vol. 1,
+edited by Suryanath Singh, 2004. pp. 288-300.
+12. Lynch, Clifford. From automation to transformation:
+Forty years of libraries and information technology in
+higher education. EDUCASE Review, 2004, 60-68.
+13. Breeding, Marshall. Automation system marketplace
+2002: Capturing the migrating customers. Library
+Journal, 2002.
+14. Sherbini, Magada El. & Klim, George. Metadata and
+cataloguing practices. The Electronic Library, 2004,
+22(3), 238-48.
+15. Chandraker, Rajesh. Unicode as a multilingual
+standard with reference to Indian languages. The
+Electronic Library, 2004, 22(5), 422-24.
+16. East, John W. Z39.50 and personal bibliographic
+software. Library Hi-Tech, 2003, 21(1), 34-43.
+17. Banka Bihari Chand. Z39.50: The standard for
+information reterival and its application in libraries.
+SRELS J. Inf. Manage., 2001, 38(4), 317-26.
+
+4. Ebenzer, Catherene. Trends in integrated library
+system. VINE, 2002, 32(4), 19-45.
+
+18. Wu, Carol H. Keeping pace with Open URL: A
+perspective. The Serials Librarian, 2004, 47(1&2),
+117-28.
+
+5. Haravu, L.J. Library automation: Design, principles
+and Practices. Allied Publishers (P) Ltd, Hyderabad,
+2004.
+
+19. Aliprand, John M. The structure and content of
+MARC 21 records in the UNICODE environment. Inf.
+Technol. Lib., 2005, 24(4), 170-79.
+
+272
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+20. Haravu, L.J. Standards in library automation and
+networking, 2006. https://drtc.isibang.ac.in/bitstrea
+m/1849/291/1/Standards%2 0in%20Library%20Auto
+mation%20and%20Networking.pdf
+
+with special refrence to RDBMS: Selection tools and
+technologies. DESIDOC Bull. Inf. Technol., 2002,
+22(4&5), 9-15.
+33. Sridhara, B.; Makhija, Veena & Pandey, Ajay Kumar.
+Application of WWWISIS: Web-based CDS/ISIS
+bibliographic database for journal article. DESIDOC
+Bull. Inf. Technol., 2006, 26(4), 17-30.
+
+21. Yu, Shin-Chian. Study on digital archives standards
+for library automation systems. In Asia-Pacific
+Conference on Library and Information Education
+and Practice, edited by C. Khoo; D. Singh & A.S.
+Chaudhary, School of Communication and
+Information, Nanyang Technological University,
+Singapore, 2006. pp. 288-93.
+
+34. Buxton, Andrew. Opinion for putting CDS/ISIS
+databases on the Internet. Program: Electr. Lib. Inf.
+Syst., 2006, 40(3), 286-95.
+
+22. Rhyno, A. XML and relational databases: Uses and
+oppurtunities for libraries. OCLC Syst. Serv., 2002,
+18(2), 97-103.
+
+35. Lee, Newton S. Infostation: A multimedia access
+system for library automation. The Electronic Library,
+1990, 8(6), 415-21.
+
+23. Banerjee, Kyle. How does XML help libraries?
+Computers in Libraries, 2002, 22(8).
+
+36. Singh, Anil. Compatibility of library automation
+software packages with multimedia. Herald of Lib.
+Sci., 1998, 37(3&4), 184-87.
+
+24. Chang, Naicheng. Data manipulation in an XMLbased digital image library. Program: Elect. Lib. Inf.
+Syst., 2005, 39(1), 62-72.
+25. Wusteman, Judith. About XML: From ghostbusters
+to libraries—the power of XUL. Library Hi-Tech, 2005,
+23(1), 118-29.
+26. Cordeiro, Maria Ines & Carvalho, Joaquim de. Web
+services: What they are and their importance for
+libraries. VINE, 2002, 32(4), 46-62.
+27. Contreras, Paula. Expansion of web-based library
+services in large research libraries: A Penn State
+case study. https://www.educase.edu/ir/library/pdf/
+EDU0370.pdf
+28. Jayakanth, Francis; Sharada, B. & Filbert, Minj. An
+OAI-based approach to build and maintain union
+catalogue of OPACs. In International Conference on
+Semantic Web and Digital Libraries, edited by A.R.D.
+Prasad & Devika P. Madalli, 2007. pp. 451-58.
+29. Ravindaran, Sreedevi. Bibliographic databases:
+Software issues. DESIDOC Bull. Inf. Technol., 1997,
+17(5), 11-16.
+30. Mishra, Kamini S. Bibliographic databases and
+exchange formats. DESIDOC Bull. Inf. Technol.,
+1997, 17(5),17-22.
+31. Chandraker, Rajesh. Multiscript bibliographic
+database: An Indian perspective. Online Infor. Rev.,
+2002, 26(4), 246-51.
+32. Matoria, Ram Kumar & Upadhayay, P.K. Design and
+development of Web-enabled databases in libraries
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+37. McCullough, John. Redesigning library applications
+for PDAs: ILS vendor perspective. Library Hi-Tech,
+2003, 21(4), 393-99.
+38. Kern, Christian. Radio-frequency identification for
+security and media circulation in libraries.The
+Electronic Library, 2007, 25(4), 430-39.
+39. Muir, Scott. RFID security concerns. Library Hi-Tech,
+2007, 25(1), 95-107.
+40. Butters, Alan. RFID systems, standards and privacy
+within libraries. The Electronic Library, 2007, 25(4),
+430-39.
+41. Sahid, Syed Md. Use of RFID technology in Libraries:
+A new approach to circulation, tracking inventorying
+and security of library materials. Lib. Philos. Prac.,
+2005, 8(1).
+42. Lambrinoudakis, Costas. Smart card technology for
+deploying a secure information management
+framework. Inf. Manage. Compu. Secu., 2006, 8(4),
+173- 83.
+43. Foo, Schubert & Ee-Peng Lim. An integrated Webbased ILL system for Singapore libraries. OCLC Syst.
+Serv., 1999, 15(1), 24-34.
+44. Anderson, Barbara. Web lists or OPAC: Can we have
+our cake and eat it too? Library Computing, 1999,
+18(4), 312-17.
+45. Ramesh Babu, B. & Brian, Ann O’. Web OPAC
+interfaces: An overview. The Electronic Library,
+2000, 18(5), 316-27.
+
+273
+
+46. Joint, Nicholas. URLs in the OPACs: Comparative
+reflections on US vs UK practice. Library Review,
+2007, 56(3), 182-93.
+
+management burden. Inf. Manage. Compu. Secu.,
+2006, 14(5), 436-49.
+
+47. Bordeionu, Sever; Carter, Christina E. & K. Dennis,
+Nancy. Delivering electronic resources with web
+OPACs and other web-based tools: Need of reference
+librarians. Ref. Serv. Rev., 2000, 56(3), 111-19.
+
+60. Hudomalj, Emil & Avgust, Jauk. Authentication and
+authorisation infrastructure for the mobility of users of
+academic libraries: An overview of developments.
+Program: Electr. Lib. Infor. Syst., 2006, 40(1), 6373.
+
+48. Kapoor, Kanta & Goyal, O.P. Web-based OPACs in
+Indian academic libraries: A functional comparison.
+Program: Electr. Lib. Inf. Syst., 2007, 41(3), 291-309.
+
+61. Herzog, Almut & Nahid Shahmeri. Usable setup of
+runtime and security policies. Inf. Manage. Compu.
+Secu., 2007, 15(5), 349-407.
+
+49. Bernard, Harmsen. Adding value to web OPACs. The
+Electronic Library, 2000, 18(2), 109-13.
+
+62. Evans, Peter. Trends,pressure and realities in the
+library system marketplace. American Libraries,
+2000, 50-53.
+
+50. Dorner, Danniel G. & Curtis, Anne Marie. A
+comparative review of common user interface
+products. Library Hi-Tech, 2004, 22(2),182-97.
+
+63. Dzuriniko, Mary K. Application service providers.
+Integ. Lib. Syst. Rep., 2000.
+
+51. Bandhopadhyay, Ratana. Copy cataloguing and
+national library. IASLIC Bulletin, 2005, 50(2), 69-73.
+
+64. Kaula, Rajeev. Internet and PL/SQL server pages.
+INICAE, 2004, 23(1), 45-52.
+
+52. Hariharan, A. et al. Customised web-based services
+at SERC library with special refrence to alert
+services. DESIDOC Bull. Inf. Technol., 2007, 27(3),
+31-38.
+
+65. Li, LiLi. Building the ubiquitious library in the 21st
+century. World library and information congress. In
+72nd IFLA General Conference and Council, 22-24
+August 2006, Seoul, Korea, 2006. pp. 72-84.
+
+53. Yogesh Suman & Banwari Lal. Network and
+intenetwork security: An overview. J. Lib. Inf. Sci.,
+2000, 25(1), 47-58.
+
+66. Fransis, A.T. Software problems in library automation
+in India. In information management in academic and
+research libraries, edited by Mahapatra, et al.
+INFLIBNET/UGC, Ahmedabad,1998. pp. 60-64.
+
+54. Prevelakis, Vassilis & Keromytis, Angelas. Drop-in
+security for distributed and portable computing
+elements. Internet Research: Electr. Networking
+Appli. Policy, 13(2), 107-15.
+55. Gupta, Vaibhav, et al. Networking and Security
+measures. DESIDOC Bull. Inf. Technol., 2004, 24(2),
+9-16.
+56. Braid, Andrew. The use of digital right management
+systems for document supply services. Interlending
+Docu. Supply, 2004, 32(3), 189-91.
+57. Kush, Ashwini & Ram Kumar. Wireless network
+security issues. DESIDOC Bull. Inf. Technol., 2005,
+25(1), 13-18.
+58. Roedig, Utz & Schmitt, Jen. Multimedia and firewall:
+A performance perspective. Multimedia Systems,
+2005, 11(1),19-33.
+59. Lekkas, Dimitrios & Costas Lambrinoudakis.
+Outsourcing digital signatures: A solution to key
+
+274
+
+67. Saxena, S.C. & Srivastava, R.K. Evaluation of library
+software packages available in India. DESIDOC Bull.
+Infor. Technol, 1998, 18(5), 9-17.
+68. Goh, Dion Hoe-Lian, et al. A checklist for evaluating
+open source digital library software. Online inf. Rev.,
+2006, 30(4), 360-79.
+
+About the Authors
+Dr Shailendra K is Associate Professor in the Department
+of Library and Information Science, University of Delhi since
+2001. Earlier, he worked as Lecturer at Indira Gandhi National
+Open University and as Faculty at National Institute of Science
+Communication and Information Resources during 1982 to 1998.
+He has received Young Information Scientist Award and
+Fellowship Award of Society for Information Science in 1993
+and 2008, respectively.
+Ms Namrata Rai is Research Fellow in the Department of
+Library and Information Science, University of Delhi.
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+

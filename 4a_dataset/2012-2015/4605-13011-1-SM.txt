@@ -1,0 +1,378 @@
+DESIDOC Journal of Library & Information Technology, Vol. 33, No. 3 May 2013, pp. 199-207 
+  2013, DESIDOC 
+Wistfully Waiting No More: An Open Source,  
+Exhibition Building Case Study 
+John A. Alexander 
+SHANTI Sciences, Humanities & Arts, Network of Technological Initiatives 
+PO Box 400 600, Alderman Library, Rm 323, University of Virginia 
+ABSTRACT  
+The  promise  of  virtual  exhibitions  has  been  attractive  to  faculty  and  staff  at  the  University  of  Virginia (UVa1) for well over a decade.The use of Virtual Exhibitions is threefold: (i) ‘Exhibitions’ is a  useful metaphor for publishing; (ii) ‘Exhibitions’ suggests curated collections and mixed media; and  (iii)  ‘Virtual’  suggests  that  this  new  form  of  publication  is  accomplished  online. This  case  explores  the current ways faculty and graduate students at UVa are meeting their needs as well as an earlier  development effort of the Virtual Exhibition Tool (VET). Development on the VET continued for more  than a year as part of UVa’s response to the appeal of virtual exhibitions. At UVa, a large part of this  need is now met using Omeka VisualEyes and WordPress.Several other solutions are also in use  currently at UVa. All these solutions are being recommended by SHANTI (Sciences, Humanities and  Arts Network of Technological Initiatives), a faculty-led center at UVa. Omeka is an open source tool  for building online exhibitions. At UVa, Omeka is chosen to meet this need for online virtual exhibitions  rather than to continue development of the VET. There are at least two other solutions being used  for online exhibitions building at UVa that are also briefy analysed here. This paper explores these  current  solutions  in  use  at  UVa  and  outlines  the  lessons  learned  from  them  and  from  the  earlier  
+development effort on the VET. 
+Keywords: Virtual online exhibitions, virtual exhibition tools, omeka, WordPress 
+1. INTROduCTION 
+Virtual  exhibitions  have  been  proven  to  be  appealing  to  university  of  verginia  (UVa)  faculty  and  staff  with  a  desire  to  build  and  publish  virtual  archives of their research often integrating a variety  of  media  into  their  presentations.  
+1.1  Publishing 
+The  metaphor  of  publishing  is,  of  course,  a  central  one  in  higher  education.  Several  related  and  unrelated  pressures  are  making  conventional  publishing  difficult  for  scholars.  As  Dan  Cohen,  Director  of  the  Center  for  History  and  New  Media,  notes,  new  alternatives  to  traditional  publishing  and  peer  review  allow  a  number  of  things  that  are  attractive  to  traditional  scholars  and  are  actually  hampered  under  the  more  conventional  publishing  and  peer  review  system1.  Thus,  scholars  have  begun  to  explore  alternative  online  venues  that  meet  these  needs  and  allow  them  for  some  of  the  things  that  conventional  publishing  supported:  exploring  ideas,  inviting  feedback,  engaging  with  colleagues,  debating,  and  focusing  expert  and  academic  conversation,  etc. 
+Received 28 January 2013, online published 20 May 2013 
+1.2  Curation  
+Curation is at the heart of a scholar’s work.  It  encapsulates all of Unsworth’s ‘scholarly primitives’2 discovering, annotating, comparing, referring, sampling,  illustrating,a nd representing. Those scholarly primitives  describe the essential activities of scholars. Unsworth’s  analysis sought to identify those essential elements of  scholarly activity to assess the power and usefulness  of  web-based  and  digital  approaches2.  Curation,  then,  is  an  essential  metaphor  that  invokes  those  most  fundamental  activities3.  Many  scholars  are  now  finding  web  and  digital  tools  are  useful  as  a  complement  or  an  alternative  to  conventional  scholarly work. If nothing else, the ability to curate  a  virtual  exhibition,  whether  as  a  part  of  a  class  presentation  or  a  presentation  to  colleagues  or  to  the  general  public  can  free  the  individual  scholar  to  make  arguments  and  support  them  effectively  without  the  cumbersome  delays  and  roadblocks  of  actually  having  to  make  a  physical  display.  The  virtual exhibition can be a quicker and more effective  alternative.  In  addition,  the  virtual  exhibition  can  last  longer  than  a  physical  one  as  well  as  having  greater  reach. 
+
+========1========
+
+DJLIT,  VOL.  33,  NO.  3,  MAy  2013 
+1.3  Mixed  Media 
+Many  scholars  are  exploring  the  ways  that  digital media enrich their scholarly work. Text-based  and  traditional  scholars  find  that  adding  images,  sound  files,maps,  etc.,  to  their  publications  and  presentations greatly enhances their work.  Not only  new questions can be asked and new arguments can  be made, but also even traditional scholarly analysis  and  presentation  can  be  made  more  compelling  by  integrating  other  media.  Ben  Ray,  for  example,  has  published  work  making  new  arguments  about  the  ‘Salem  Witchcraft  Trials’  by  interrogating  and  displaying  maps  of  the  localities  that  include  rich  layers  of  data  about  the  subjects  involved4. 
+1.4   d igital  Revolution 
+It is a commonplace to note that much of what  happens in the academy is unchanged by the digital  revolution. Academicians frequently joke that Socrates  himself  would  feel  much  at  home  in  most  of  the  classes  currently  underway  in  higher  education. At  the  same  time,  though,  digital  technologies  have  been  a  vital  part  of  the  work  of  a  select  group  of  scholars.  The  recent  change,  however,  is  that  digital  technologies  have  become  both  ubiquitous  and  easier  to  use  so  that  increasing  numbers  of  scholars  want  to  integrate  them  into  their  ongoing  research,  teaching  and  outreach  activities. 
+1.5  Virtual  Exhibition  Tool  (VET) 
+In 2007, a collaborative group representing the  library, faculty projects and the organisation responsible  for  computer  support  at  UVa  (ITC—Information  Technology  and  Communication)  came  together  to  leverage  their  common  interests  in  making  virtual  exhibitions  easier  at  UVa.  At  the  same  time,  they  wanted  to  leverage  their  respective  expertise  and  resources. 
+1.6  Statement  of  the  Problem 
+Faculty  members  need  to: 
+• Support lectures and new kinds of publications  
+that they can use when collaborating or conferring  
+with  colleagues.  This  tool  should  be  usable  in  
+• 
+two  ways:  
+(i) A linear ‘ballistic’ presentation for making an  
+argument;  and  
+(ii) A more free-flowing presentation that providers  
+responses to questions from the audience and  
+• 
+spontaneous explorations of the complexities  
+of  the  issue; 
+• Assemble,  repurpose  and  store  digital  
+materials; 
+• Actively  collaborate  with  colleagues; 
+• Create research environments for their students;  
+and 
+• Maintain  version  control  as  they  publish  their  
+evolving  thoughts  and  discoveries. 
+200 
+2. CuRRENT dELIVERABLES  FOR  VIRTuAL  
+EXHIBITIONS AT uVa 
+As  the  VET  project  was  being  suspended,  a  new faculty led center was being established.  That  center  is  called  as  SHANTI5 (Sciences,  Humanities  and Arts Network of Technological Initiatives) which has  taken  leadership  (still  in  close  coordination  with  the library and ITC) in delivering tools to meet this  ongoing  needs. 
+2.1 SHANTI  and  digital  Ecology 
+SHANTI  was  created  in  2008,  growing  in  part  from  a  groundswell  of  support  from  faculty  who  wanted  better  support  for  digital  work  at  UVa.  The  Vice President and CIO along with the Provost then  made  a  strategic  short-term  investment  to  support  this  experiment,  empowering  this  faculty  center  to  see  whether  it  is  guided  by  faculties’  inputs  and  priorities  could  find  ways  to  grow  the  technical  infrastructure  more  quickly  and  thereby  free  up  the  creative  energies  of  faculty  members.  The  metaphor  that  has  emerged  from  this  experiment  is  a  ‘digital  ecology  of  tools’.  This  metaphor  is  meant  to  invoke  a  variety  of  things,  among  them  dynamic  change,  tools  that  are  both  scalable  and  sustainable  as  well  as  invoking  a  new  model,  an  alternative  to  conventional  service  provider/client  relationships.  As  part  of  the  work  that  SHANTI  has  undertaken,  it  has  collaborated  closely  with  the  library  and  ITC  in  delivering  several  good  and  well-supported  solutions  for  virtual  exhibitions  at  UVa. These solutions are introduced in the SHANTI  portal at www.shanti.virginia.edu. Examples can also  be  found  in Appendix  1. 
+The tools for online exhibitions include: Omeka6;  VisualEyes;  and  WordPress,  which  is  branded  at  UVa as ‘SHANTI Pages’. In addition, UVa continues  to explore related solutions that would complement  this  need: 
+• ArtStor,  in  particular  the  ‘Shared  Shelf’  
+initiative. 
+An  externally  hosted  server  was  necessary  
+to  make  these  tools  available  quickly,  while  
+UVa  worked  out  the  challenges  of  integrating  
+the  open  source  tools  into  its  primary  content  
+management  system,  UVaCollab7. 
+UVa’s use of Sakai8  as CMS branded as UVaCollab.  
+This  tool  meets  much  of  the  needs  for  storage  
+and  authentication. 
+• Kaltura  for  projects  that  need  audio/video  as  
+part  of  their  virtual  exhibition. 
+Support  needs  are  handled  by  a  combination  of: 
+• UVa  knowledge-base  and  forum  (wiki-based  
+community-driven  documentation) 
+• Traditional  documentation  by  library  and  ITC 
+
+========2========
+
+ALExANDER: WISTFULLy WAITINg NO  M ORE: AN  O PEN  S OURCE, ExHIBITION  B UILDINg CASE  S TUDy 
+• 
+• 
+Workshops  offered  by  SHANTI,  as  well  as  by  the  library,  ITC  and  schools 
+SHANTI  cohorts.  Seminar-style  groupings  of  
+UVa faculty, staff, graduate students, or undergraduate  student groups will help users explore the advantages  of  the  digital  revolution  in  their  work. 
+collaboratively  to  both  advance  their  skills  and  
+faculty,  staff  and  graduate  students  working  
+3.3  uVa  Community  Knowledge  Base 
+If  one  is  stuck  or  want  to  share  new  insights,  
+appropriate  digital  tools 
+Web-based  resources  maintained  by  the  sites  themselves  and  their  user  communities 
+complete their individual projects while exploiting  
+go  to  the  Knowledge  Base  (www.uvakb.org).  The  
+• 
+3. ECOLOGY  OF  TOOLS—SHANTI 
+The tools mentioned in Section 2 are part of an  ecology of tools that SHANTI is integrating into the  technical infrastructure at UVa. This effort, focused  around the OM (Omniscient Metaframework) initiative  as  described  here.  
+This project led by SHANTI and in close partnership  with  ITC  and  UVa  library.  The  OM  initiative  aims  to  open  up  our  university’s  digital  ecology  to  the  vitality  of  the  world  wide  web.    
+Playfully  invoking  OM  and  the  most  sacred  of  Indian  syllables,  the  OM  Initiative  signifies  intent  to think holistically about our smaller community as  embedded  within  the  broader  social,  intellectual,  and  digital  universe  (Fig.  1). 
+Figure 1. OM initiative fyer, November 2010. 
+Reflected  in  the  following  six  aspects,  the  OM  Initiative  seeks  to  maintain  the  advantages  of  current computing environment-security, consistency,  ease of maintenance, common space-while opening  the  gates  to  the  most  powerful  and  exciting  tools  available  to  scholars  on  the  web  for  new  levels  of  innovation  and  efficiency.  The  UVa  OM  initiative:  6  aspects  of  a  transformative  digital  ecology  for  higher  education  are: 
+3.1  Welcome  to  New  Collab 
+go  to  www.uvamist.org.  It’s  simple  and  powerful:    
+• One  web  address  for  UVa  digital  tools  and  
+worksites. 
+• One  ID  and  one  password  to  use  for  digital  
+technology  and  online  site  access. 
+• One  login  to  access  multiple  tools  and  sites • One way for forming groups who work on sites  
+with  shared  tools. 
+• Endless  possibilities. 
+3.2  SHANTI  Consultations  and  Presentations 
+One-time consultations with or presentations to  
+Knowledge  Base  is  intended  to  be  a  user-driven  community-based  reflection  of  local  tools  and  situations.  Just  sign  in  using  UVa  computing  ID  to  solve  problems  and  contribute  solutions. 
+3.4  Community  Tools  and  Platforms 
+Whether  the  work  requires  audio-video,  online  collaboration, mapping, blogging, language learning,  or website creation, the OM initiative provides digital  tools  that  are  at  the  same  time  powerful,  reliable  and  easy  to  use-at  your  fingertips.  The  following  tools/facilities  are  available  for  users  to  exploit  the  authoring  tool  optimally: 
+• Audio-Video: (Kaltura and the forthcoming Drupal  
+Media  Base) 
+• O n l i n e   d i s c u s s i o n   a n d   c o m m e n t a r y :    
+(NowComment) 
+• Bibliography  maintenance:  (Zotero) 
+• E-Conferencing,  online  communication,  and  
+Online  teaching:  (Elluminate) 
+• Group  social  networking:  (Drupal  Commons  
+Project) 
+• Interactive  syllabus:  (iSyllabus) 
+• Interactive  visualisations:  (VisualEyes) 
+• Ontologies:  Creating  structured,  hierarchical,  
+multilingual  and  annotated  ‘maps’of  areas  of  
+knowledge  for  their  own  sake,  and  to  index  
+other  resources  (Knowledge  Map) 
+• Place documentation: Dynamic mapping (GIS),  
+map catalogs, gazetteer, essays on places, rich  
+structured  descriptions  of  places. 
+• Textual  editions  comparison:  (Juxta) 
+• UVA language learning platform: (A combination  
+of  tools  within  the  new  Collab) 
+• UVa  profiling  system:  (Fathom) 
+• Website creation:  Three powerful systems with  
+different  virtues  for  creating  and  maintaining  
+websites,  from  the  simple  to  the  complex  
+(WordPress,  Omeka,  Drupal). 
+•        Wiki Collaborative Text Production: (Confluence) 
+3.5 SHANTI  Workshops  
+ It offer beginners and advanced workshops in how to  use digital technologies in academic work. One may work  into  the  schedule,  or  make  a  special  request. 
+201 
+
+========3========
+
+DJLIT,  VOL.  33,  NO.  3,  MAy  2013 
+3.6  SHANTI  Cohorts SHANTI,  in  close  consultation  with  our  colleagues  
+groups of faculty, staff and students engage in  
+in the library, is recommending Omeka to meet the  ongoing  exploration  of  specific  digital  technologies  
+faculty member’s needs for online virtual exhibitions.  for  their  work.  www.uvashanti.org  covers  a  full  list  
+Here  is  an  example  of  the  splash  page  in  the  UVa  of  Cohorts. 
+Knowledge  Base  regarding  Omeka. 
+Many faculty members are interested in alternatives  3.6.1  SHANTI  Partners 
+to  Omeka,  especially  when  those  alternatives  give  
+SHANTI  partners  are  organisational  units  and  
+greater  flexibility  or  greater  speed  in  developing  sectors of the university community (including ITC,  
+an  online  exhibition.  One  of  the  more  popular  the  UVa  library  and  technology  groups  in  schools  
+alternatives  has  been  WordPress,  with  its  ability  such as the Engineering School, faculty centres like  
+to  support  quick,  nicely  formatted  web  pages  and  NINES  and  the  Tibetan  Himalayan  Library,  ASCIT,  
+blogs.  Faculty  members  have  found  that  with  over  and  many  individuals). 
+400 new faculties and graduate student pages were  
+created in the last two years at UVa since this new  3.6.2  Options  to  Participate  
+alternative has been available as a supported solution  •      Going  to  www.uvamist.org  to  explore  the  new  
+there. Faculty and graduate students are also using  
+tools. 
+other  tools  in  the  SHANTI  ecology  of  community  • Contributing to the ever-expanding UVa Knowledge  
+tools  as  they  mount  virtual  online  exhibitions. 
+Base. 4. LESSONS  LEARNEd 
+• If  you  are  a  technologist,  contacting  us  with  
+your  interests  and  ideas. 
+4.1  Community  
+Although the OM initiative is obviously designed  
+When SHANTI was first being formed, a conference  to meet a much larger set of needs than just virtual  
+call  was  set-up  with  the  Center  for  New  Media  online  exhibitions,  it  nevertheless  meets  that  need  
+and  History  from george  Mason  University  that  with  several  others.  First  and  foremost  in  meeting  
+was  developing  Zotero  and  Omeka.  It  was  learned  this  need  for  virtual  online  exhibitions  is  Omeka.  
+that  over  20  coders  were  contributing  to  the  core  The  case  for  the  uses  of  Omeka  was  made  by  
+application,  Zotero.  In  contrast,  it  was  learned  Trevor Owens when he articulated the hard budget  
+that  Pachyderm10,  one  of  the  key  components  of  choices that higher educational institutions are being  
+our  approach  to  the  VET,  had  only  one  developer  
+contributing  to  the  core  code.  Furthermore,  that  forced  to  make  and  the  appeal  of  open  source  
+developer was not working on it full-time. The result  tools  like  Omeka  in  that  environment9 (Fig.  2).  
+was that Omeka was both making more substantial  
+progress  and  attracting  more  contributions  from  
+others  who  had  begun  extending  the  usefulness  
+of  the  applications  by  writing  plugins.  Omeka,  
+therefore, became a much more compelling choice  
+to  meet  this  need. 
+4.2  Open  Source  
+Not  all  open  source  coding  projects  are  equal.   
+In  this  particular  case,  the  sheer  fact  of  so  many  
+more coders working on Omeka meant that crowd- 
+sourcing  factors  emerged.  In  contrast,  our  primary  
+coder  working  on  Pachyderm  was  several  times  
+hampered by having to wait for the only person who  
+could  help  her,  the  principle  coder,  who,  in  turn,  
+was being distracted by others who also needed his  
+undivided  attention  as  well  as  by  other  tasks  that  
+could  give  him  more  immediate  financial  return. 
+4.3  80/20  
+Since UVa had defined the use-case and had the  
+resources to allocate a coder full-time to supporting  
+exactly  the  use-case  we  had  defined,  we  were  
+enthused  about  realising  our  vision,  which  would  
+have  met  100  %  of  the  use-case.  Instead,  we  now  Figure 2. Omeka splash page in uVa knowledge base. 
+have incremental parts of the solution that meet less  
+202 
+
+========4========
+
+ALExANDER: WISTFULLy WAITINg NO  M ORE: AN  O PEN  S OURCE, ExHIBITION  B UILDINg CASE  S TUDy 
+than 100 % of the use-case. By embracing Omeka, we had to abandon one of the more visionary parts  of  the  use-case,  ubiquitous  working  storage.  This  compromise,  though  frustrating  and  even  painful,  provides  a  concrete  example  of  the  80/20  rule,  generally stated as supporting a solution that meets  80  %  of  the  use-case.  In  practice,  it  is  hard  to  be  precise  about  percentages,  but  nevertheless  clear  that  compromises  are  good  when  they  advance  good  solutions  in  ways  that  are  sustainable  and  scalable. 
+5.  WHAT  IS  MISSING? 
+Although  the  solutions  mentioned  above  are  elegant  and  in  many  ways  very  effective,  but  they  have  not  delivered  on  all  the  necessary  elements  that  were  planned  for  in  the  VET.  The  main  things  that  are  missing  include: 
+5.1  Simple  Workflow 
+  Figure  3  shows  an  elegantly  simple  workflow.   This  planned  workflow  included  the  unlimited  and  ubiquitous  storage  that  would  have  been  built  on  the Fedora infrastructure. Instead, we have delivered  an  interim  solution  while  we  make  incremental  progress towards improvements and simplifications  in  workflow. 
+5.2  unlimited  Storage 
+One of the more innovative aspects of the VET  project  plan  was  unlimited  storage:  Institutional  repository  (IR).  generally,  IR  is  sought  of  as  an  
+Figure 3.  Flow chart for the VET. 
+archival storage space. In the VET, it was considered  as  active  and  ongoing  workspace. 
+5.3  Leveraging  Sakai  and  Fedora 
+11 
+A related innovative idea of the VET was to use the IR to  couple and leverage Sakai (branded at UVa as UVaCollab)  and  Fedora  (an  open  source  infrastructure  for  the  digital  library  that  was  developed  in  part  at  UVa). 5.4  Integrated  Tools 
+Because  the  VET  project  would  couple  and  leverage  Sakai  and  Fedora,  the  tools  that  would  be  offered  to  support  virtual  exhibitions  would,  by  definition,  have  been  integrated  into  those  two  enterprise-wide  systems,  and  would  in  fact,  have  been  the  mechanism  for  that  integration. 
+6. VET  CASE  ST udY 
+It  was  a  multi-year,  Open  Source  Software  Development  Project  at  the  University  of  Virginia.  This is a simplified version of a paper presented at  the  Universitas  21  (U21)  Conference  in  glasgow,  Scotland  in  October  2008.  It  was  delivered  with  two  goals:  
+(i) Inform colleagues about our development goals;  
+and  
+(ii)  Invite  collaborative  partners  to  contribute  to  
+development12.  
+While  the  response  was  warm  and  knowing  regarding  the  first  goal,  no  collaborative  partners  stepped  forward  from  the  U21  community. 
+203 
+
+========5========
+
+DJLIT,  VOL.  33,  NO.  3,  MAy  2013 
+6.1  Background 
+A  small  group  at  the  University  of  Virginia  worked  for  two  years  on  an  open  source  tool  that  leverages  three  other  open  source  tools:  Fedora,  Sakai,  and  Pachyderm.  This  new  tool,  the  VET  was  designed  to  make  it  easy  for  faculty  to  do  more  sophisticated  presentations  in  either  web  pages  or  slide  show  formats  (Fig.  4). 
+                        Fedora Commons 
+with Sakai, these were capabilities that we wanted to  leverage. In initial investigations, it was discovered  Pachyderm, which did many of the things we wanted  our  new  tool  to  do,  so  we  began  to  explore  its  capabilities, in hopes of speeding our development  time.  Our  early  flow  chart  captures  what  we  had  hoped  to  accomplish  with  this  tool. 
+                      Sakai       
+              (http://www.fedora-commons.org/)            (http://sakaiproject.org/)  
+         Pachyderm 
+          (http://www.pachyderm.org/) 
+Figure 4.  Logos of the three open source tools (used in the VET development project). 
+The  case  study  will  analyse  the  progress  to  date  and  the  ways  that  UVa  is  addressing  the  impediments  that  have  arisen.  This  presentation  will  be  designed  to  invite  collaborations  with  other  universities  that  might  like  to  take  advantage  of  and  contribute  to  this  project12. 
+6.2  Project  Details 
+This  project  grew  from  12  years  of  successful  course development projects through UVa’s Teaching  +  Technology  Initiative  (TTI)13   grants  to  faculty.  Despite  the  fact  that  the  vast  majority  of  those  projects  had  depended  on  common  solutions  to  enable a web/database to enrich a particular course,  the individual projects remained prototypical,stand- alone  because  UVa  had  been  unable  with  limited  resources  to  grow  its  infrastructure  and  to  create  scalable  tools  to  support  these  approaches. At  the  same  time  the  Vice  Presidents  who  made  these  awards  wanted  to  see  newer  and  more  innovative  approaches  supported.  So  they  gave  charge  to  a  small  group  of  professionals  with  the  task  of  creating  an  open  source  tool,  dubbed  the  VET,  to  make  this  tried  and  true  approach  to  enriching  the  learning  environment  more  scalable. 
+The  small  group  of  professionals  began  as  a  group  of  four,  two  from  faculty  support  roles,  and  two  with  more  technical  backgrounds.  They  hired  a  programmer  who  began  immediately  to  code  the  solutions  they  planned. 
+6.3 Growing  and  Leveraging  Infrastructure 
+Because UVa was a leader in developing Fedora  and was a collaborative partner actively experimenting  
+204 
+6.4  Feedback  Loops  and  Reviews 
+Nine  faculty  members  (selected  because  they  would  both  understand  what  we  were  up  to  and  stand for the more rank and file faculty) were asked  to  actively  give  us  feedback  on  our  development  process and tools. All of them readily accepted and  we also have added a number of colleagues to this  advisory  group.  We  have  leveraged  the  Sakai  tool  itself  to  support  our  communications  both  for  the  development  group  and  for  the  advisory  group. 6.5  Clarifying  Objectives 
+ The first feedback that was got from that group  of faculty caused  to reprioritise our tasks and to be  clearer  about  goals  for  the  tools  in  development. 
+Some  early  accomplishments  included  a  tool  for  scraping  URLs  that  could  then  be  included  in  collections  of  media  object. 
+These  scraped  URLs  are  then  handed  off  to  an  application  that  was  written  at  UVa  called  ‘Collectus’. Collectus is a ‘shopping cart’ application  that  allows  the  faculty  member  to  not  only  collect  media  objects  from  various  sources  but  also  to  do  simple  slide  shows  with  those  objects15.  The  slide  show  capabilities  will  be  enhanced  in  the  VET  as  that  development  progresses. 
+An  early  win  in  the  project  was  the  realisation  that these saved objects could be saved in the ‘My  Workspace’ portal of UVaCollab that each user was  automatically  granted.  Thus,  IR  could  be  quickly  enabled  (Fig.  3). 
+At  the  same  time,  the  testing  for  the  first  drafts  of  the  tools  has  caused  us  to  realise  the  inadequacies  of  our  processes  about  moving  from  development  to  production.  We  are  now  trying  to  
+
+========6========
+
+ALExANDER: WISTFULLy WAITINg NO  M ORE: AN  O PEN  S OURCE, ExHIBITION  B UILDINg CASE  S TUDy 
+Figure 5. Logo for pagecomber14 
+rapidly  articulate  a  more  clear  and  concrete  plan  for  testing  and  for  how  the  testing  results  will  be  captured  and  addressed  even  as  we  move  ahead  with  development. 
+6.6  Larger Ambitions 
+ As we were reprioritising initial design specifications,  we discovered that this tool lead logically to a much  larger  vision  that  we  refer  to  as  the  ‘Academic  Information  Space’.  We  have  begun  to  pursue  larger funding so that we can speedup this project’s  development. 
+7.  CONCLuSIONS  
+“The  only  thing  that  makes  life  possible  is  permanent,  intolerable  uncertainty:  Not  knowing  what  comes  next”16. 
+SHANTI  will  continue  to  develop  and  refine  its  ecology of tools and to improve the ways that those  tools  interoperate  even  as  we  keep  in  mind  the  items  that  are  missing  from  our  original  use  case.  In the mean time, faculty and students will continue  to  exploit  the  evolving  options  for  mounting  virtual  exhibitions  at  the  University  of  Virginia. 
+given  the  uncertainty  of  the  future,  it  can  be  noted that SHANTI itself is a three-year experiment  at  UVa.  As  of  this  writing,  we  are  currently  in  our  third  and  last  year  of    that  initial  funding.  Among  the  uncertainties  is  the  fact  that  the  Provost  at  UVa is leaving for a new position even as he must  carry the case for ongoing funding for this effort to  the board of visitors. Although early indications are  that  SHANTI  and  its  sister  effort  focused  on  the  Computational Sciences and Engineering, UVACSE,  have far exceeded goals and expectations, when the  future depends on allocations of limited resources,  the  future  is  always  uncertain.  Despite  that,  we  continue  to  be  positive  about  the  future  both  of  SHANTI and of the virtual digital exhibitions that are  so  promising  to  our  faculty  and  graduate  students  at  UVa. 
+REFERENCES 
+1. Cohen, P. Scholars test web alternative to peer  
+review. New  York  Times,  2010. 
+2.  Unsworth,  J.  Scholarly  Primitives:  What  
+methods  do  humanities  researchers  have  in  
+common,  and  how  might  our  tools  reflect  this?  
+2000.  http://www3.isrl.illinois.edu/~unsworth// 
+Kings.5-00/primitives.html/  (accessed  on  2  
+February  2011). 
+3. Alexander,  J.  MDST  blog.  SHANTI  Pages:  
+http://pages.shanti.virginia.edu/mdst3703blog/  
+(accessed  on  2  February  2011). 
+4.  Ray, B.N. The geography of witchcraft accusations  
+in 1692 Salem village, 2008. History Cooperative:  
+http://bit.ly/fjC215/  (accessed  on  2  February  
+2011). 
+5.  SHANTI. http://shanti.virginia.edu/ (accessed on  
+2  February  2011). 
+6.  Alexander, J. Omeka. SHANTI knoweldge base. 
+http://wiki.shanti.virginia.edu/display/KB/Omeka/  
+(accessed  on  2  February  2011). 
+7. UVaCollab.  https://collab.itc.virginia.edu/portal/ 
+Appendix  1  (Accessed  on  2  February  2011). 8. Sakai.  http://sakaiproject.org/  (accessed  on  2  
+February  2011). 
+9.  Owens,  T.  Zotero,  Omeka,  and  ScholarPress:  
+Open-source  tools  for  research,  online  
+e x h i b i t i o n s ,   a n d   c o u r s e   m a n a g e m e n t .  
+Educause: http://www.educause.edu/E09+Hybrid/ 
+EDUCAUSE2009FacetoFaceConfern/ZoteroOm 
+ekandScholarPressOpen/175888/ (accessed on  
+2  February  2011). 
+10. Pachyderm.  2008.  http://www.pachyderm.org/  
+(accessed  on  2  February  2011). 
+11.  Fedora.  Fedora  Commons:  http://www.fedora. 
+info/  (accessed  on  2  February  2011). 
+12. Alexander,  J.  Waiting  for  the  VET:  Virtual   
+exhibition  tool  case  study.  U21  Conference.  
+University  of glasgow,  2008. 
+13. TTI:  The  Teaching+Technology  Initiative.  
+http://tti.virginia.edu  (accessed  on  2  February,  
+2011. 
+14. Pagecomber.  2011,  http://itc.virginia.edu/atg/ 
+public/PageComberBookmarklet.html/ (accessed  
+on  2  February  2011). 
+15. Collectus.  http://www.lib.virginia.edu/digital/ 
+collections/  CollectorHelp.html#ocw/  (accessed  
+on  2  February  2011). 
+16. LeGuin, U.K. The left hand of darkness.  Walker,  
+New york,  1994.  
+205 
+
+========7========
+
+DJLIT,  VOL.  33,  NO.  3,  MAy  2013 
+Appendix  1 
+Tools  for  Virtual  Exhibitions  at  the  
+university  of  Virginia 
+There  are  three  principle  ways  that  faculty  staff  and  students  are  mounting  virtual  exhibitions  currently  at  the  University  of  Virginia.   All  these  examples  were  accessed  on  2/1/11. 
+Omeka 
+Omeka is an open source tool for mounting virtual exhibitions.  The code was first developed by CHNM (Center for  History and New Media).  The University Library has had its coders contributing to the development of the Omeka Code. 
+Examples  of  Omeka  at  UVa  include: 
+• Special  Collections.  http://explore.lib.virginia.edu/exhibits/. 
+• Several  other  projects  are  in  development  and  almost  finished  as  of  this  writing: 
+o Louis  Nelson’s  architectural  exhibition  about  Falmouth,  Jamaica. 
+o A  display  of  the  plugins  that  the  Library  has  been  working  on  and  contributing  to  Omeka. 
+o Student  exhibtions  from  Elizabeth  Bollwerk’s  class  on  the  representations  of  Native  Americans  in  
+museum  holdings. 
+VisualEyes 
+VisualEyes  (http://www.viseyes.org/)  is  an  open  source  tool  for  visualizing  data  easily  and  effectively.   Developed  by  Bill  Ferster  of  SHANTI,  VisualEyes  has  been  used  in  over  a  dozen  projects  at  UVa  including: 
+• Jefferson’s  Travels  to  England:  http://www.viseyes.org/show/?base=jt  
+• Vinegar  Hill:  MemoryScape:  http://www.viseyes.org/show/?base=vh  
+• Notes  on  the  Future  of  Virginia:  http://www.viseyes.org/show/?id=62287  
+• Visualizing  the  1828  University  of  Virginia  Library:  http://www.viseyes.org/show/?base=library  • The  Spaces  of  Khacloe  Drubling  (Noteworthy  because  it  was  developed  in  one  semester  by  an  
+undergraduate  student,  Kate  Hartmann,  as  part  of  a  thematic  research  collection  of  an  undergraduate  
+course):  http://www.viseyes.org/show/?id=62047  
+New  Map  of  the  Empire:  http://www.viseyes.org/show/?id=58231  
+• The  Life  of  Smithson  (for  the  Smithsonian  Institution):  http://www.viseyes.org/show/?base=smithson  
+WordPress  (SHANTI  Pages) 
+WorldPress (branded at UVa as SHANTI Pages) is the easiest to use of the options listed here.  Anyone  at  UVa  can  have  a  WordPress  site  on  request  to  SHANTI.    To  date,  hundreds  of  sites  have  been  created  by  faculty,  students  and  staff.   Among  them,  some  uses  for  virtual  exhibitions  include: 
+• MDST  3703.    Introduction  to  the  Digital  Liberal  Arts.  In  this  ambitious  course,  the  twenty  students  
+created Thematic Research Collections.  Course homepage and the Student’s Exhibitions are available  
+at:  http://pages.shanti.virginia.edu/mdst3703_2010_fall/  
+• Ed Berger and a group of colleagues use a course blog.  Students in that course post exhibitions within  
+that  course  that  do  a  variety  of  things  from  editing  and  distilling  the  most  salient  parts  of  a  professor’s  
+lectures  to  creating  digital  videos  that  capture  a  current  instance  of  the  impact  of  the  course  material  
+in  the  real  world.  The  course  homepage  are  available  at:  http://pages.shanti.virginia.edu/statics2010/  • The  McIntire  School  of  Commerce  uses  a  blog  to  give  students  a  chance  to  present  their  respective  
+experiences  studying  abroad.  The  blog  is  available  at:  http://pages.shanti.virginia.edu/mcintireabroad/  • The Bibliographic Society of the University of Virginia is using SHANTI Pages to present their organization  
+and  activities.  Their  site  url  is  available  at:  http://pages.shanti.virginia.edu/bibsoc/  
+• The Graduate English program at UVa is organizing and conference and using SHANTI Pages as the site to  
+exhibit the conference’s presence.  Their site url is: http://pages.shanti.virginia.edu/2011enggradconference/ 
+cfp/  
+• Paradosis is the site where an ambitious collaborative group displays the results of their work orthodox  
+Christian  theological  texts.  Their  site  address  is:  http://pages.shanti.virginia.edu/paradosis/  
+206 
+
+========8========
+
+ALExANDER: WISTFULLy WAITINg NO  M ORE: AN  O PEN  S OURCE, ExHIBITION  B UILDINg CASE  S TUDy 
+• UVa’s  School  of  Medicine  has  an  online  display  of  words,  sounds  and  images  contributed  by  faculty,  
+staff  and  students.    It  is  available  at:  http://pages.shanti.virginia.edu/hospitaldrive/  
+Other 
+• Confluence  (SHANTI  Wiki) 
+SHANTI  has  secured  a  site  license  for  Confluence  and  is  using  it  for  a  variety  of  purposes.    SHANTI  is  promoting  it  for  projects  where  collaborative  text  production  is  key.    Probably  the  most  noteworthy  exemplar  for  this  list  is  the  Tibetan  Himalayan  Library  available  at:  http://www.thlib.org/ 
+• drupal 
+Drupal  is  an  open  source  package  for  easily  delivering  web  accessible,  content  rich  sites.  SHANTI  is  crafting  several  generic  instances  of  Drupal  to  meet  common  use  cases  that  can  easily  be  replicated  for  similar  projects.    A  first  instance  that  is  currently  being  tested  is  the  UVa  communities  site,  available  at:  https://dev1.shanti.virginia.edu/commons/home 
+207 
+
+========9========
+

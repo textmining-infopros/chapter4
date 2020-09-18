@@ -1,0 +1,697 @@
+DESIDOC Journal of Library & Information Technology, Vol. 32, No. 6, November 2012, pp. 526-532
+© 2012, DESIDOC
+
+Cloud Computing: A Promising Economic Model for
+Library and Information Centers
+Shashi Prabha Singh and R.S.R. Veralakshmi*
+Department of Library & Information Science, University of Delhi, Delhi-110 007
+*Department of Library & Information Science, University of Vishakhapatnam, Andhra Pradesh
+ABSTRACT
+Till 1970s, Indian libraries were mainly dependent upon their own resources to meet their users’ information
+needs. Then came an era of computerisation where libraries started working in a collaborative manner being
+connected through networks or consortia to utilise the resources of participating libraries also. Now cloud
+computing is emerging as a new technology which is becoming popular for scholarly communications in
+different types of organisations, particularly in corporate organisations. In this context, the article reviews
+how far cloud computing is suitable in libraries and the extent to which its applications and services can be
+used. The authors believe that India is self-sufficient now as it has the adequate technology and skills to bridge
+the digital divide. The cloud computing model would enable libraries to maintain better control over the applications
+and the data stores containing sensitive, private information. In addition, it helps the users to maintain their
+personalised information. Infrastructure virtualisation and cloud computing are becoming attractive choices
+being challenged by growth in the size of collection, new formats and dynamic usage. Hence, it is high time
+for the libraries to focus and avail the advantages of cloud computing to offer user-centered multi-level
+services to enable them to achieve greater level of satisfaction.
+Keywords: Cloud computing, architecture, platforms-as-a-service, infrastructure-as-a-service, software as a
+service
+
+1. INTRODUCTION
+Libraries since their inception have been
+disseminating the knowledge by providing different types
+of services but at that time they were totally dependent
+upon their own resources. However, with the introduction
+of technology, the scenario has totally changed as today
+they can provide information 24x7, crossing all the
+geographical boundaries. This was possible because of
+the use of computers and accessing the networking and
+consortia. So libraries are now focusing on appropriate,
+tailored, timely, and multi-level services for their users by
+using different service models such as, WWW, FTP, BBS
+(Bulletin Board Service), and e-mail. However, with the
+fast technological developments, users’ information
+requirements are becoming more and more personalised
+so libraries are entering into a new era of using newer
+technology, i.e., cloud computing which offers usercentred personalised services, leading to greater
+satisfaction among users.
+The buzz around cloud and virtual computing has
+grown almost simultaneously as well as exponentially as
+a revolution to change the use of internet and information
+
+system. Cloud can be used as an environment for
+scholarly communication, collaboration, discovery,
+publication, and dissemination of scholarly works.
+Because of these features, virtualisation, and cloud
+computing are gaining growing acceptance around the
+world to have efficient service delivery in a cost-effective
+manner. It is a landmark development after the integrated
+(networked) computer systems and the internet. Adoption
+of cloud computing is slowly increasing, particularly in
+corporate organisations that require more adaptability and
+flexibility in response to outgrowing needs of IT industry.
+As a result, it is emerging as an extremely popular model
+for providing the demand-based virtualised resource
+service which being internet-based, not location-specific
+and accessible from anywhere 24x7. Virtual advanced
+technology helps to remotely communicate and deliver
+data to clients. Such services are based on virtual
+resources which are networked, independent of common
+location, accessible from anywhere without any concern
+about their ownership and management. Present
+environment raises challenging issues in organising and
+managing the physical resources to explore their efficient
+utilisation in different activities. For this, cloud computing
+
+Received 27 January 2012, revised on 14 April 2012, accepted 26 April 2012, online published 19 November 2012
+
+526
+
+offers individuals to personalise their environment in which
+they work or learn. So this is an accessible resource of
+hardware, software, and the artifacts stored in the cloud
+that can be accessed or shared through Internet from
+anywhere at any time.
+
+add capabilities without investing on new infrastructure,
+training new personnel, or licensing new software.
+
+3. EMERGENCE OF CLOUD COMPUTING
+
+2. WHAT IS CLOUD COMPUTING?
+
+Emergence of cloud computing can be traced back to
+1969, when Leonard Kleinock, the chief scientist of
+ARPANET who invented internet said, “as of now,
+computer networks are still in their infancy, but as they
+grow up and become sophisticated, we will probably see
+the spread of computer utilities which like present electric
+and telephonic utilities will service individual homes and
+offices across the country”9. This vision of Kleinock has
+come true in this economically constrained dynamic
+environment when many organisations are being forced to
+cut down their cost on IT management by adopting cost
+effective tools and technologies like cloud computing.
+
+Cloud computing is a new technology which is an
+improvement of distributed computing, parallel computing
+and grid computing. The basic principle of cloud
+computing is making tasks distributed among large
+number of computers but not in local computers or remote
+servers3. This is a dynamic model, based on pay-per-use
+(subscription) or scalable system in which configuration
+of resources (hardware, platform/services) can be graded
+to suit the needs of the users for optimum utilisation of
+resources. In simple words, it is a subscription-based or
+pay-per-use real time service over the internet4.
+
+Hartig10 indicates that the concept of cloud computing
+is derived from the imagery of the ‘internet cloud’, in which
+the imagery of a cloud is traditionally used to represent
+the internet or some large networked environment.
+According to Sharif11 this is a major revolution, second
+only to the invention of the printing press. According to
+Sanchati & Gaurav3, cloud computing is a completely new
+IT technology, known as the third revolution after PC and
+Internet in IT. Indeed the concept of cloud computing
+emerged from distributed grid and utility computing
+systems.
+
+The vendors of this model also guarantee the
+utilisation of these virtually interconnected resources by
+employing customised-service-level agreements (SLAs).
+According to Geelan5, cloud computing is the userfriendly version of grid computing. However, Buyya6 et al.
+have given much more elaborate definition which reads
+that cloud computing is a kind of “parallel and distributed
+system consisting of a collection of interconnected and
+virtualised computers that are dynamically provisioned
+and presented as one or more unified computing
+resources, based on SLA established through negotiation
+between the service provider and consumer”.
+
+4. CLOUD COMPUTING INFRASTRUCTURE
+
+Cloud computing has greater educational potential at
+affordable cost to advance the scholarship of teaching and
+learning programmes1. India’s problem of vast illiteracy
+and low levels of education at school level can be solved
+by cloud computing2. Dhawan further adds that NCERT or
+ICSE clouds can be there with CBSE courseware and
+books, and the students can download educational
+materials from any place at a far less cost being shared
+by millions of students.
+
+Cloud computing takes the concept of virtualisation
+even further by adding a couple of additional twists. In a
+cloud computing environment, the organisation running an
+application neither typically own the physical hardware
+used for the applications nor usually know exactly from
+where the computation work of the applications is being
+processed. Cloud computing provides an organisation
+with appreciably more flexibility and scalability to satisfy
+computing needs7. Thus cloud computing means sharing
+and use of applications and resources of a network
+environment to get work done without concern about
+ownership and management of the network’s resources
+and applications8. This is a way to increase capacity or
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+The cloud computing infrastructure resides in a large
+data center, managed by service providers who offer
+computing resources anywhere, any time at an
+economically affordable cost i.e. ‘pay-as-you-go basis’11.
+According to Hand12, in cloud computing, not just the data
+but the software also resides within cloud, and one can
+access everything not only through our PCs but also
+cloud-friendly devices, such as smart phones, PDAs, the
+mega-computers
+(supercomputers)
+enabled
+by
+virtualisation and software as a service. The data center of
+hardware and software is called cloud, which when made
+available to public is called ‘public cloud’. Here, multiple
+clients can store their information in a single server and/or
+in the same data centre. On the other hand, the internal
+data center which is not accessible by public is called
+private cloud4,13. These are typically contracted by an
+organisation with a provider on one-on-one basis. Since,
+Private cloud is not shared with others, so it has higher
+level of security7. However, ‘public Cloud’ (also known as
+commercial cloud) and ‘private Cloud’ (also known as
+individual cloud) are already available from Amazon,
+Yahoo, Desktop Two, and Sun Secure Global Desktop,
+etc. However, Google’s efforts in cloud computing have
+generated a great deal of interest14,15.
+
+527
+
+4.1 Characteristics of Cloud Computing
+There are many distinguishing features of cloud
+computing but some important features are1,7.
+(a) Versatility
+(b) Cost-effectiveness (pay-per-use)
+(c) Virtualisation
+(d) Security
+
+application programming interface (API) that enables
+machines to interact with cloud software in the same way
+as the user interface facilitate interaction between
+humans and computers18. There are various computers,
+servers and data storage at the back-end of the system
+that create the cloud of the computing services. A central
+server administrates the system, monitoring traffic and
+client demands to ensure that everything runs smoothly6.
+This follows a set of rules called protocols and uses a
+special kind of software called middleware.
+
+(e) Sustainability
+
+7. COMPONENTS OF CLOUD
+
+(f) Scalability
+
+There are various components present in the
+computing space such as4:
+
+(g) User-friendly
+(h) Resource Optimisation
+(i) Infrastructure and service-level agreements (SLAs)
+
+5. ADVANTAGES OF CLOUD COMPUTING
+From library perspective, cloud computing offers
+following advantages1,16,17.
+(i) There is no need to own all infrastructure facilities as
+cloud computing takes care of it.
+(ii) Provides large amounts of processing power
+comparable to supercomputer level.
+(iii) It can be used as a personal workspace.
+(iv) Since the service is not location specific, it provides
+opportunity for ubiquitous computing.
+(v) Virtualised technologies are a boon to green IT
+companies as virtual servers provide unlimited
+capacity, bandwidth, increased security and disaster
+recovery solution.
+(vi) Capital expenditure is minimised.
+(vii) It is far more economic, as payment is based on
+utilisation of service.
+(viii) No need to copy all stuff from one PC to another when
+buying a new one. Moreover, one can create
+personalised repository of information that keeps
+growing as long as one wants.
+(ix) A convenient tool to engage in the scholarship of
+teaching and learning.
+
+6. CLOUD COMPUTING ARCHITECTURE
+Cloud computing system can be divided into two
+sections-the front-end and the back-end which are
+connected to each other through internet. The front-end
+includes the client’s computer and the applications
+required to access the cloud computing system. To
+explain further, the cloud computing system uses
+528
+
+(a) Infrastructure: The cloud infrastructure is a concept of
+providing the hardware as a service. The virtualisation
+technology allows servers and storage devices to be
+shared. Cloud computing relies on sharing of
+hardware and other computing resources, rather than
+having local servers, thereby reducing the cost of use
+and maintenance, etc.
+(b) Storage: Separating data from processing and storing
+in a remote place is referred to as a cloud storage,
+which as a database, can hold large amount of data.
+(c) Platform: A service for application deployment and
+managing the required hardware and software needs
+is known cloud platform.
+(d) Application: In cloud computing the software
+architecture eliminates the need to install, run and
+maintain an application at the user’s device, thereby,
+avoiding the cost/resource required to maintain or
+support applications.
+(e) Service: An independent piece of software which can
+be used in conjunction with other services to achieve
+an interoperable machine-to-machine interaction over
+network is called cloud service.
+(f)
+
+Client: Cloud client is a requester device (hardware or
+software) which tries to utilise cloud computing
+services over the network.
+
+8. CLOUD COMPUTING AND LIBRARIES
+Libraries have been in transition since their inception
+as they are directly affected with environmental changes.
+There was a time, when biggest library used to be the one
+with largest collection and they were serving their users
+mainly with their own resources in an almost isolated
+manner. Then came an era of computers where libraries
+started getting connected with other collaborating
+libraries through networks and consortia for mutual
+advantage of sharing the resources at divided/shared cost
+with a shift of emphasis from acquisition to access.
+Emergence of electronic resources has an added impact
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+on libraries which forced them to prepare to face different
+kinds of challenges from users to meet their multidimensional requirements. Now, there ia a new phase
+when libraries are adopting and utilising the computing
+resources and services that are not even owned by it.
+Cloud computing and Web collaboration are emerging as
+two major concepts, supporting innovative developments
+in library automation. Cloud computing is emerging to
+help libraries to offer much improved services by
+strengthening the power of cooperation among libraries
+and showing their combined presence on web. This will
+certainly help to enhance the efficiency of libraries by
+enabling them to access information through large global
+network of cooperating libraries and eliminating the ITrelated problems, thereby saving time, money and
+manpower. With these developments, heterogeneous
+resources are accessible to anyone, anywhere because
+of the application of domain independent software.
+Evidence of the library’s active online or digital clients
+can be observed in the growing online social networks. In
+addition, forming of communities of interest among Web
+users indicate a growing movement toward Web
+collaboration which allows users without knowledge of the
+underlying internet’s infrastructure, to create content and
+have a contribution to what is being communicated and
+published daily8. According to Farkas19, it can be useful for
+libraries as web provides opportunities for libraries to
+collect the tacit knowledge (through knowledge
+management) that ‘resides in people’s heads’ (collected
+through interviews/ personal documents) and benefit from
+the library’s ‘community of users’ supplying ‘feedback
+and contributions’.
+Using cloud computing can share the server in many
+application procedures, realises the resource sharing,
+thus also reduced server’s quantity, achieves the effect of
+reducing the cost. Therefore utilising cloud computing in
+the digital library, will give our work, the life and the study
+inevitably obtaining a greater efficiency3.
+Libraries traditionally manage servers with huge
+volumes of data and face critical problems in their
+management due to lack of expertise and the cost
+involvement in acquisition and maintenance of required
+hardware and software. For example the university or
+research libraries hold the data of thousands of electronic
+journal downloads and thousands of digitally converted
+data of rare/heritage documents. In any case there is a
+risk of data security and universal access. Therefore, the
+libraries can apply cloud computing to data integrity,
+upgrade and maintenance, intellectual property
+management, backups, disaster management, and
+failover functions. It facilitates reduced operational costs
+of IT resources; increases operational efficiency; extends
+distributed access through virtualised environment. By
+adopting this change, libraries can accrue increased
+reliability, declined costs due to economies of scale and
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+other production factors. Many library staff members are
+already experienced users of cloud computing – without
+even knowing it. Some are using the cloud in the form of
+GoogleDocs. Staff users of Facebook take advantage of
+cloud, as do those who use photo sharing services such
+as Flickr20. Through Web 2.0 applications, the information
+seekers are shifting much of personal computer usage to
+the cloud. For example, bookmarks are freed from the
+desktop by storing them on social bookmarking websites
+such as Delicious, uploaded and shared videos on
+YouTube, used services such as slideshare to host
+presentations, some have designed applications for
+popular platforms such as Facebook. Under these
+circumstances, the LIS professionals have to catch up
+with the challenges of the IT savvy environment by utilising
+the applicability of following cloud computing service
+models in libraries:
+
+(a) Software-as-a-Service (SaaS)
+This is a software delivery model which remotely
+provides access through Internet to business functions as
+a service. In SaaS, a provider licenses an application to
+customers for use as a service on demand. SaaS
+software vendors may host the application on their own
+web servers or download the application for customers but
+it is disabled after use or after the demand contract
+expires. This type of cloud provides a wide range of
+applications (software) tools to end users. Any web
+application is a cloud application in the sense that it
+resides in the cloud. Google Docs (for word processing
+and spreadsheets), YouTube, SlideShare, Amazon,
+Facebook, Twitter, Flickr, and virtually every other Web
+2.0 application is a cloud application in this sense. It
+offers several advantages like accessibility from any
+location, rapid scalability and bundled maintenance. Its
+applications in libraries are OpenURL resolver, journal
+listing service, instructional guides, reserves statistics,
+and IM/chat service. Its major limitations are threat to
+data security and oppose open source movement.
+
+(b) Platform-as-a-Service (PaaS)
+It offers platform on which software developers can
+build new applications or extend existing ones saving the
+cost of underlying hardware and software. This platform
+typically includes a database, middleware and
+development tools, all are in the form of services through
+the Internet. Its applications in libraries are integrated
+library system, archives management software, initial
+website applications, etc.
+
+(c) Infrastructure-as-a-Service (IaaS)
+This is another model of computing services and
+resources, also called utility computing. For this service,
+users are charged according to usage. This type of cloud
+provides virtual hardware capacity to organisations on an
+529
+
+elastic basis (flexible). Elasticity and scalability are the
+two terms associated with cloud computing that gives the
+ability to expand and reduce resources according to
+specific service requirement. Data Storage/hosting and
+archiving/preservation are important services among
+these. This system of packaging and storage requires
+minimum or no cost for hardware. Amazon was the
+pioneer in this, providing virtual machine instances,
+storage, and computation as innovative services.
+Amazon’s Elastic Computer Cloud (EC2) is a major
+example of IaaS. Other examples include Rackspace’s
+Mosso and GoGrid’s ServePath, etc. IaaS provides
+servers, software, data-center space and network
+equipment, available in a single bundle. Its applications in
+libraries are for hosting institutional repository discovery
+layer, ILS discovery layer. However, Sanchati and
+Kulkarni3 have also suggested some more service models
+which are as follows:
+
+(g) All-people Service
+
+(i)
+
+OCLC Web Scale Management Services: It is from
+traditional ILS systems by offering member libraries
+one unified solution to help streamline routine tasks—
+like acquisitions and circulation. By moving these
+functions to the web, libraries are able to share
+infrastructure costs and resources, as well as
+collaborate in ways that free them from the
+restrictions of local hardware and software. With webscale management services, the libraries will be able
+to:
+
+(d) Unified Search Service
+
+•
+
+Lower total cost of ownership for management
+services;
+
+•
+
+Eliminate format-specific operations;
+
+•
+
+Simplify critical (but routine) back-office operations;
+
+•
+
+Reduce the support costs for disparate systems;
+
+•
+
+Customise and extend library management services
+by using new applications and services available from
+an open, extensible platform;
+
+•
+
+Make your data (and libraries’ aggregated data) work
+harder for better decisions; and
+
+•
+
+Free staff time for high-priority services and local
+innovation.
+
+(ii)
+
+LibLime—Hosted in LibLime’s distributed cloud
+computing data center, hundreds of libraries are able
+to alleviate their internal IT support needs. No software
+is installed on desktops and no servers are required in
+the libraries22.
+
+Although majority of libraries are using OPAC (Online
+Public Access Catalog) but a uniform access platform is
+not available to share the OPACs. However, with the
+adoption of cloud computing, the integrated library
+resources support distributed uniform access interface,
+promote usage of library resources, answers users’
+questions by using high-quality navigation
+
+With this model, libraries can provide services to all
+the people with the help of cloud computing. Anyone who
+can legally identity the network authentication has the
+right to visit the joint resources of libraries on the internet.
+There are some live examples of cloud computing for
+information management.
+
+(e) Real-time Access Services
+Due to innumerable advantages of electronic
+resources, users prefer to access electronic journals and
+electronic databases. However, by introducing cloud
+computing, libraries can establish a shared public cloud
+jointly which can have infinite storage capacity and
+computing power bringing obvious benefits to libraries. It
+can help to reduce the substantial cost involved on
+purchase of electronic databases. Moreover, users can
+visit the shared resources by any terminal equipment,
+such as PC, mobile phone or PDA using internet access.
+
+(f)
+
+Knowledge Service
+
+In the context of knowledge economy, knowledge
+resources are directly affecting the productivity and
+national development. So the mode of dissemination of
+information and knowledge has become the most
+challenging task for librarians today. However, at this
+juncture, cloud computing and establishment of shared
+public cloud can help a great deal to save on manpower
+and resources. Moreover, with cloud computing, librarians
+won’t have to maintain their own equipments or deal with
+users personally which will provide more time and energy
+to librarians to offer their users the needed information and
+knowledge-based services.
+
+530
+
+(iii) Ex Libri—Ex Libris Group is a leading library
+automation solutions provider, offering the only
+comprehensive product suite for the discovery,
+management, and distribution of all materials—print,
+electronic, and digital23.
+
+9. CONCLUSIONS
+With the unlimited growth of electronic resources and
+technological developments, libraries are facing the
+serious problem of budget constraints, which was never
+so acute earlier; moreover users’ demands are multiplying
+and becoming more challenging. Under these
+circumstances, cloud computing which is a metered
+utility service like mobile or electricity, where users pay
+for real time use, is a great ray of hope. It is a broad array
+of web-based services, allowing users to obtain wide
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+range of technology-enabled services on a pay-as-you-go
+basis. As a result, it is becoming popular day by day
+because of its important features such as, costeffectiveness, efficiency, user-friendliness, flexibility, data
+security, scalability, world wide connectivity and
+automatic adaptation, etc. So cloud computing is the
+broad concept of using the Internet to allow people to
+access technology-enabled payment based services that
+are greatly scalable and accessible from anywhere. The
+new trends in the automation spawned by recent web
+development are making libraries to be more reliant on
+software and computing resources provided by outside
+companies in service delivery to users. Therefore, in this
+environment, library should constantly attempt to improve
+user service models by adopting new technologies.
+Although the use of cloud computing is still in its infancy
+but effects of using it are quite obvious. With the
+introduction of Cloud Computing, libraries can certainly
+offer more effective and user-centric services.
+
+REFERENCES
+1. Thomas, P.Y. Cloud computing: A potential paradigm
+for practicing the scholarship of teaching and
+learning. The Electronic Library, 2011, 29(2), 214-24.
+2. Dhawan, Neelam. Cloud computing can counter
+illiteracy. Times of India, 23 July 2011, 21.
+3. Sanchati, Rupesh & Kulkarni, Gaurav. Cloud
+computing in digital and university libraries. Global J.
+Comp. Sci. Technol., 2011, 11(12), 37-42.
+4. Knorr, Eric & Gruman, Galen. What cloud computing
+really
+means?
+Infoworld,
+2008.
+http://
+www.infoworld.com/print/34031.
+5. Geelan, J. Twenty-one experts define cloud
+computing. Cloud Computing J., 2009. http://
+cloudcomputing.sys-con.com/node/612375
+6. Buyya, R.; Yeo, C.S. & Venugopal, S. Marketoriented cloud computing vision, hype and reality for
+delivering IT services as computing utilities. In
+Proceedings of 10th IEEE International Conference on
+High Performance Computing and Communications,
+Dalian, 2008. pp. 5-13
+7. Cervone, H. Frank. Managing digital libraries: The
+view from 3000 feet. OCLC Sys. Serv., 2010, 26(3),
+162-65
+8. Scale, Mark-Shane E. Cloud computing and
+collaboration. Library High Tech News, 2009, 26(9),
+10-13. DOI: 10-1108/07419050911010741
+9. Shivakumar, B.L.; Raju, T. & Revathy, Hannah. Cloud
+computing: A dark lining in the dark clouds of crisis
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+management of economic slowdown. Asia Pacific
+Business Rev., 2010, 6(3), 99-105.
+10. Hartig, K. What is cloud computing? Cloud
+Computing J., 2008. http://cloudcomputing.syscon.com/node/579826 (Accessed on 25 July 2011).
+11. Sharif, Amir M. It’s written in the cloud: The hype and
+promise of cloud computing. J. Enterprise Inf.
+Manag., 2010, 23(2), 131-34.
+12. Hand, Eric. Head in the clouds. Nature, 2007, 449,
+963. http://www.nature.com/news/2007/071024/full/
+449963a.html
+13. Gulrajani, Neck & Bowler, Darryl. Software
+development in the cloud. Dr Dobb’s Journal,
+February 2009, 416, 22-27. http://www.aservo.com/
+fileadmin/user_upload/ag/downloads/downloadcent
+er/developer/SoftwareDevelopmentInTheCloud.pdf
+(accessed on 14 October 2011).
+14. Delaney, K.J. & Vara V. Google plans services to
+store Users’ data. Wall Street J., November 2007.
+http://online.wsj.com/article/SB11961266057350471
+6.html?mod=hps_us_whats_news
+15. Naone, E. Computer in the cloud. Technology Review,
+September, 2007. www.technologyreview.com/Infotec
+h/19397/?a=fOCLC. Web–scale Management Servic
+es. http://www.oclc.org/webscale/ (accessed on 27
+October 2011).
+16. Hamilton, D. Cloud computing seen as next wave for
+technology investors. Financial Post, 4 June 2008.
+17. Aggarwal, Varun. Computing in the clouds. Express
+Compute, 18 February 2008.
+18. http://www.expresscomputeronline.com/20080218/
+technology01.shtml
+19. Farkas, M. Technology goes local: Collecting local
+knowledge with social software. American Libraries,
+September 2008, 50.
+20. The proverbial lone wolf librarian’s weblog, Ohio State
+University Libraries. Cloud computing tech tips for
+libraries.
+http://lonewolflibrarian.wordpress.com/
+(accessed on 28 October 2011).
+21. OCLC. OCLC web-scale management services: The
+first cooperative management services for libraries.
+http://www.oclc.org/webscale/ (accessed on 27
+October 2011).
+22. LibLime. http://www.liblime.com/whatwedo
+23. Ex Libris.
+OurVision
+
+http://www.exlibrisgroup.com/category/
+
+531
+
+About the Author
+Prof (Mrs) Shashi Prabha Singh is a Professor in the
+Dept of Library & Information Science, University of Delhi,
+Delhi. She joined the Department in 1987 and served as
+Head of the Department during 1998-2001 and 2004-2007.
+Under her supervision and guidance, 6 scholars have
+been awarded PhD and 16 MPhil degrees. She has
+published 3 books and more than 60 research articles in
+national/international
+journals
+and
+conferences,
+newspapers, and editorial publications. She is on the
+Editorial Board of two Emerald journals published from
+UK, namely, The Electronic Library and The Aslib
+Proceedings. She had remained Editor of ‘Journal of
+Library & Information Science’, the half-yearly journal
+
+532
+
+published by the Department of Library & Information
+Science, University of Delhi for six years. As a Subject
+Expert, she has been delivering talk on All India Radio and
+TV from time to time. She holds honorary membership of
+the Research Board of Advisors, The American
+Biographical Institute, North Carolina, and USA. She was
+awarded SATKAL Best Women Librarian 2007 Award.
+Her name has been included in Who’s Who in the World;
+International Who’s Who of Professional; Business
+Women published by the American Biographical Institute,
+North Carolina, USA; Who’s Who in America; 2000
+Outstanding Women of the Twentieth Century; Who’s
+Who in Asia and Who’s Who in Asia Pacific, Asian/
+American Who’s Who.
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+

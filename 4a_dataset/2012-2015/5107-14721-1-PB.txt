@@ -1,0 +1,318 @@
+DESIDOC Journal of Library & Information Technology, Vol. 33, No. 5, September 2013, pp. 418-425 
+  2013, DESIDOC 
+Leveraging Access to E-resources through Gateway: A Case Study  
+at St. Stephen’s College, Delhi 
+Raj Kumar Bhardwaj 
+St. Stephen’s College, University of Delhi, Delhi-110 007  
+E-mail: raajchd@gmail.com 
+AbStrACt 
+ The advancement of meta-searching of electronic resources (e-resources) has now become possible  with  the  help  of  gateway,  a  communications  network  technology,  resulting  in  greater  control  over  the  resources presentation to the users. This paper describes the importance of gateway in managing the  e-resources in college’s library system. This paper also highlights the objectives, scope and interdisciplinary  relevance of gateway in academic libraries. The paper explains the steps involved in building gateway,  such  as  preliminary  preparation,  planning  and  designing,  development  of  online  gateway,  testing  and  implementation. Besides this, open archive initiative and protocol metadata initiatives (OAI-PMH) and Z39.50  standards, architecture and features of the knowledge gateway have been discussed in this paper. 
+Keywords: Gateway, electronic resources, college library, open archive initiative, OAI-PMH 
+1. INtrODUCtION  
+In  this  digital  age,  information  occupies  an  important  place  in  our  decision  making  process.  Traditional  mode  of  information  has  been  partially  replaced  with  digital  information.  The  libraries  are  providing information and communication technology  (ICT)-enabled services and developing the gateway,  portals,  institutional  repositories,  etc.,  for  their  clientage. The major purpose of building the gateway  is  to  make  it  convenient  for  users  to  access  the  relevant  material.  It  enables  the  users  to  initiate  the  searches  more  quickly  with  precise  results.  Knowledge  gateway  has  categorised  its  resources  in  five  categories,  i.e.,  e-books,  college  magazine,  course  contents,  videos,  and  reference  sources.  Users  can  start  quickly  with  the  help  of  basic  search  window;  further  the  results  can  be  filtered  to  get  the  desired  hits.  Knowledge  Gateway  at  St.  Stephen’s  College  is  an  attempt  to  construct  a  single  search  service  to  save  the  time  of  users.  Therefore, advancement of a gateway, adding meta  searching  and  other  tools  into  it  have  resulted  in  greater control over the way resources are presented  to  the  user  community1. 
+2. GAtEWAY  
+Gateway  is  a  network  node  in  which  different  e-resources  from  numerous  databases  can  be  searched through a single window on the computer.  Gateway  is  a  service  to  deliver  resources  to  the  
+end  user  through  a  single  search  interface.  The  general  purpose  of  a  gateway  is  to  allow  the  users to find the cross-references information from  different sources by searching and browsing. Lakos2 explained that gateway is a customised transactional  web environment, designed to enable an individual  user  to  ‘personalise’  the  contents  and  look  of  the  website as per his/her own preferences. People are  aware of the fact that electronic information sources  can  be  developed  and  maintained  through  its  own  native interface. Information can be made available  to  users  through  a  single  window  interface  and  many institutions have moved towards such service  by expanding intranet based access of e-resources  to remote access of e-resources. Anderson3  stated  that library and resource centers build the gateway  because they contribute to organisational strategies,  meet  the  needs  of  target  user  groups  and  benefits  outweigh  the  costs. 
+3. NEED Of  KNOWLEDGE  GAtEWAY 
+Library  and  information  resource  centers  have  been benefited with the application of ICT to preserve  the  printed  material  in  digital  form.  Students  and  teachers  need  all  the  relevant  information  at  a  single  place.  The  need  arose  to  archive  all  the  publication of the college so that it gives the users  access to the inter-disciplinary research at a single  place  and  relevant  material  could  be  harvested  and  a  single  interface  could  be  provided  to  the 
+Received 8 April 2013, revised 23 July 2013, online published 17 September 2013 
+
+========1========
+
+BHARDwAJ: LEVERAGING  A CCESS TO  E- RESOURCES THROUGH  G ATEwAy 
+users.  Knowledge  gateway  is  the  natural  outcome  of  these  efforts  and  is  mainly  based  on  concepts  of  ‘sharing’  the  online  material  with  users  spread  across  the  globe. 
+4. 
+ObJECtIVES  
+(i)  Organisation  of  information  sources  in  single  
+window  service 
+(ii) Aggregating information services and web-based  
+tools 
+(iii) Personalising  as  a  digital  environment 
+with  the  following  objectives: 
+•	 To 	 develop 	 a 	 mechanism 	 for 	 collection, 	 storage, 	 
+Gateway  at  St.  Stephen’s  college  was  initiated  
+(iv)  Integrating  data  in  the  gateway  service,  and  
+(v) Construct  a  digital  space. 
+Figure 1 shows the homepage of the knowledge  
+students  and  teachers  
+•	 To 	 bring 	 together 	 significant 	 resources 	 for 	 
+and preservation of relevant study materials for  
+gateway  that  contains  link  of  many  open  access  
+(OA) journals portals, forums, institutional repository  
+like course material, question papers, syllabus,  
+college  magazine,  research  papers,  etc. 
+•	 To 	 facilitate 	 easy 	 availability 	 of 	 content 	 to 	 
+students and teachers encouraging interdisciplinary  
+learning  and  research,  and 
+•	 To 	 enable 	 both 	 the 	 student 	 and 	 teacher 	 communities 	 
+to  share  scholarly  information.  
+education  and  research  on  a  single  platform  
+and  latest  news  for  the  benefits  of  end  users.  for  easy  access  to  various  study  materials  
+table  1. types  of  documents  added  in  knowledge  
+5.  SCOPE Of  GAtEWAY At  St.  StEPHEN  
+COLLEGE  
+The first aim of the project was to establish an  
+gateway 
+S. No. 
+Module 
+Items  
+1. 
+Course contents  
+700 
+2. 
+Course videos 
+250 
+3. 4. 5. 6. 
+institutional repository (IR) and second to develop a  
+7. 
+8. 
+mechanism to access the harvested course contents  through single window. It was decided to use DSpace  on  Centos  (Linux)  for  the  purpose  and  used  PHP  (Hypertext  Preprocessor),  AJAX  (Asynchronous  JavaScript  and  XML),  MySql  technologies  to  build  knowledge gateway. The five aspects of a gateway  defined  are  as  follows: 
+9. 10. 11. 12. 13. 
+Question papers and syllabi e-books 
+Stephanian magazine Kooler talk 
+Ask (Science newsletter) SOUL 
+Research papers Rare photographs E-reference Sources News clipping 
+Misc. 
+200 1217 259 22 3 2 363 133 60 285 50 
+format MS-word, PDF  (Harvested) MOV, AVI  (Harvested) PDF  
+PDF 
+PDF 
+PDF 
+PDF 
+PDF 
+MS- wORD, PDF JPEG,PNG PNG Open access PDF 
+PDF, MS-word 
+figure 1. Screenshot to browse the collection subject-wise (www.kgateway.net). 
+419 
+
+========2========
+
+DJLIT,  VOL.  33,  NO.  5, SEPTEMBER   2013 
+Knowledge gateway was built up to enhance the  inter disciplinary and cross departmental research. The  subject area in its fold has thus imbibed applications  from  diverse  subjects  like;  Psychology,  Statistics,  Linguistics,  Management  Science,  Computer  and  Communication  Technology,  and  also  from  many  others.  It contains e-books, course contents, videos,  question  papers,  syllabi,  etc.,  from  diverse  subject  areas.  Various  OA  reference  sources,  journals,  etc.,  have  been  identified  under  the  project  from  diversified  information  sources. 
+Table 1 shows the documents contains in knowledge  gateway. ASK (Ask seek Knock) is science newsletter  of  St.  Stephen’s  College),  SOUL  (Stephanians  on  Universal Life) are the publications of the students’  societies  in  St.  Stephen’s  College. 
+6.  LItErAtUrE  rEVIEW  
+Several studies have been carried out in various  organisations around the world on gateway. Caswell  &  wynstra1 stated  that  using  the  JAVA  script  and  HTML  search  forms  can  be  created  for  databases  and catalogues. This search interface is very useful  to inexperienced users. Jefcoate4  described that the  project  was  launched  with  the  aim  of  providing  a  well-founded  service  and  building  up  exposure  of  British  Library  services  and  collections  by  adding  home  pages  for  directorates  and  departments.  Caswell  & wynstra1 shared  their  experience  about  library gateway and elaborated that the gateway is  all about providing new opportunities and extends the  functionality of library systems. Achieving simplicity  among  the  complex  array  of  bibliographic  and  full-text  resources  is  critical.  Besides  this,  the  key  features of library gateway are quick searches, A-Z  list of database and categorisation by subject. The  processes  include  mainly  the  query  formulation,  submitting  the  search  terms,  evaluating  the  hits  and  refining,  and  resubmitting  the  search  terms.   Tiefel5   elaborated  the  gateway  goals  as  being:  to  find,  evaluate,  and  select  materials  that  meet  their  needs  regardless  of  format;  and  to  apply  information-seeking  and  critical  thinking  skills  with  a  high  degree  of  independence.  
+Jefcoate4   expressed  his  opinion  about  the  Gabriel  project  initiative  to  access  the  European  national  libraries  represented  in  the  Conference  of  European  National  Librarians  (CENL),  providing  a  single  point  of  access,  resulting  in  for  the  retrieval  of  information  about  their  services  and  collections.  warwick6,  et  al.   found  that  the  university  library  website  was  considered  to  be  the  most  important  resource, even compared to popular search engines.  Reference sources are more significant compared to  the primary sources of information. Munshi7  elaborated  on  the  subject  of  gateway  that  emphasised  on  interoperability  of  digital  repositories  help  to  build  subject  gateways  to  facilitate  one-stop  shop  and  
+420 
+easy  access  to  the  galore  of  resources  contained  in  these  digital  repositories,  to  improve  the  access  to  scholarly  digital  resources  on  world  wide  web.  ward8  discussed the gateway, which was built up to  provide the electronic resources to nurses, midwives,  and  allied  health  professionals  in  UK.  It  provides  speedy access to resources that have been quality  filtered. Usage data for the gateway are incorporated,  which  validates  the  need  for  the  service  and  that  it  is  well  used.  Kotulaal9   described  that  web  2.0  tools play a significant role to share and access the  information  on  the  web  and  subject  gateway  must  use these techniques to make the web bibliographic  resources  more  useful.  Krishnamurthy10   described  that  despite  the  diversity  of  search  engines  in  use  and  the  creation  of  search  tools,  there  is  still  a  need  for  human  intervention  to  direct  the  search  process by adding a subject gateway. He addressed  the issues of metadata integration while developing  the  subject  gateway  for  users.  
+Noh11   recognised  five  elements:  Contributor,  source,  data,  format,  and  relation  as  necessary  input  elements.  It  was  also  found  that  the  most  chosen  elements  when  searching  for  reference  resources were found to be title, subject, description,  and  creator,  in  order  of  frequency.  Besides  this,  researcher  described  that  the  users'  satisfaction  was  relatively  high  in  system  usefulness,  ease  of  system use, ease of understanding information, and  sufficiency of metadata elements. A unique system  was  developed  by  Kim12,  et  al.  which  integrated  digital library (DL) system using the interoperability  as  well  as  harvesting  method  which  integrates  the  federated  search  of  non-OAI  and  OAI  repositories,  it  leverages  the  access  to  digital  resources  using  an  intelligent  system.  This  system  is  very  useful  for  the  users  to  get  timely  and  easy  access  of  the  digital  resources.  
+Sial13 stated that many experts were interviewed  before  developing  a  theoretical  framework  and  a  simplified  software-based  prototype  system  was  constructed. Study found that the distributed resources  are on the web, and stated in order to provide cross- browsing service a middleware service is essential  to integrate technically and semantically the different  terminology resources. Back & Bailey14  shared their  experience  that  various  techniques  for  integration  are  based  on  HTML,  AJAX,  etc.  This  technology  can be implemented without any programming skills  or  expensive  hosting  charges.  
+7. MEtHODOLOGY  
+System analysis is the study of a set of interacting  entities,  including  computer  systems  analysis.  It  is  a  process  of  collecting  information  from  various  sources, identifying problems and providing reasonable  suggestions to improve the system’s functioning. This  method  also  involves  understanding  the  business  
+
+========3========
+
+BHARDwAJ: LEVERAGING  A CCESS TO  E- RESOURCES THROUGH  G ATEwAy 
+processes,  gathering  operational  data,  finding  out  bottlenecks  and  evolving  solutions  to  surmount  the  weaknesses  of  the  system  so  as  to  achieve  the  organisational  goals.  The  system  analysis  and  design  (SAD)  is  used  in  this  project  for  designing  an  online  knowledge  gateway.  Furthermore,  the  methodology  is  divided  into  four  phases:  (a) Preliminary  Preparation 
+This is first phase which focus on the preliminary  preparatory aspects which includes the study of the  target  audience.  Identify  the  useful  websites  and  the  relevant  videos,  news,  college  magazines,  and  various publications of college, research publication  of  staff  and  out-of-copyrights  books.  
+(b) Planning  and  Designing 
+This step covers the various aspects, such as:  selection of programming language, relational database  for backend and searching techniques/procedures/ models,  data  security,  network  security,  and  web  2.0/3.0  tools  to  incorporate  in  the  gateway.  (c) Development  of  Online  Knowledge  Gateway 
+This section includes the preparation of software,  data  structures  metadata,  search  form,  datasheet,  and retrieval of information. An institutional repository  (IR)  was  created  using  open  source  software,  DSpace. 
+(d) Testing  and  Implementation 
+ The testing of proposed gateway related to search  strategy  and  techniques,  bugs  and  implementation  of  designed  knowledge  gateway  for  searching  on  the  internet  (as  an  open  access)  was  taken  up  in  this  phase. 
+8.  GAtEWAY  DEVELOPMENt 
+8.1  Design  tool  Used        
+Based  on  the  first  phase,  i.e.,  preliminary  preparation  and  keeping  in  view  the  technology  requirements  of  the  end-users  in  accessing  the  database,  the  knowledge  gateway  was  developed.  The software tools used for designing and developing  the  knowledge  gateway  are  as  follows: 
+•	 Dreamweaver 	 
+•	 RDBMS 	 MySQL 
+•	 JAVA 
+•	 PHP 
+•	 AJAX 
+•	 DSpace 	 (DL 	 Software) 
+8.2  Knowledge  Gateway  Architecture  
+The knowledge gateway of St. Stephen’s College  
+included  various  pieces  of  functionality,  such  as:  account  creation  and    user  registration,  collection  
+harvesting,  metadata  editing  and  linking  the  full- text documents. Metadata entry of question papers  and  syllabi,  course  contents,  video  contents  are  complex  processes.  Course  contents  were  based  on  the  undergraduate  syllabi  of  the  University  of  Delhi.  Contents  of  the  gateway  can  be  browsed  subject-wise  as  indicated  in  the  Fig.  1. 
+8.3  Standards 
+In  designing  a  gateway,  a  vital  issue  is  to  maintain  the  standards,  whether  it  is  bibliographic  standard  or  citation  standard,  as  this  will  lead  to  cross  reference  search  among  various  databases.  Numerous  available  metadata  schemas  are  being  used as suitable baseline. To build a cross-gateway  searching, there are standards such as Z39.50, for data  export or import, and proxies which query repositories  simultaneously  across  multiple  servers7.  
+Z39.50  enables  computers  to  communicate  to  other  computers  and  helps  to  retrieve  information  from  other  databases.  Z39.50-compliant  database  contents  can  be  imported  directly  and  modified.  Many requests can be made to the Z39.50 gateway  such  as  ExecSearch,    GetState,    Exec  Present,  and  Stop  Search.  
+A  format  of  XML-based  query  is: 
+<Request  Type="ExecSearch"> 
+<Query>someQuery</Query> 
+<RecordSyntax>xml</RecordSyntax> 
+<ElementSet>S</ElementSet> 
+<Targets> 
+<Target> 
+<ID>5</ID> 
+<Host></Host> 
+<dbName></dbName> 
+<Port></Port> 
+</Target 
+</Targets></Request> 
+Z39.50 has a function for search management,  e.g.,  results  sets,  sorting  results  sets,  opening  closing  connections. Attribute  sets  can  be  used  to  describe  the  access  points  and  record  syntax  are  used to transfer records. Lynch15   defined  the  three  approaches of making the client server interoperable  are: 
+(i)  Extend the client to know about the characteristics  
+of  the  new  logical  class  of  information (ii)  Automatically mapping the semantics of attribute  
+set  already  known  to  the  client  to  the  logical  
+access  points  relevant  for  the  new  class  of  
+information,  and 
+(iii) Have  the  client  obtain  automatic  configuration  
+information from the server or a third party which  
+allows similar mappings to be performed at the  
+client. In the server side, the abstract system is  
+mapped  onto  the  interface  and  communication  
+between  client  and  server  is  well  defined16. 
+421 
+
+========4========
+
+DJLIT,  VOL.  33,  NO.  5, SEPTEMBER   2013 
+8.4  Interoperability 
+Caplan17  has defined interoperability as the ability  to  perform  a  search  over  different  databases  and  obtain  meaningful  results.  It  helps  to  connect  the  incompatible  systems.  Paepcke18,  et  al.  classified  the  approaches  of  interoperable  system  as:  (i)  Standardisation  (e.g.,  schema  definition,  data  
+models,  protocols)  
+(ii)  Distributed  object  request  architectures  (e.g.,  
+CORBA) 
+(iii)  Remote  procedure  calls 
+(iv)  Mediation  (e.g.,  gateways,  wrappers),  and  (v)  Mobile  computing  (e.g.,  Java  applets). 
+As far as the interoperable metadata is concern,  Dublin Core metadata elements were defined to search  information on the web in networked environment. It  has attracted a cross section of resource description  communities and support high degree of interoperability  among  communities19. 
+8.5  Metadata  Harvesting  Protocols 
+Metadata  harvesting  protocol  is  a  set  of  rules  for  harvesting  metadata  from  different  sources.  Specified set of protocol guides and helps to harvest  metadata to start service to search it at single place  and  guide  the  users  to  access  the  full-text  from  individual  repository.  The  major  need  of  metadata  harvesting protocols is to finding means to discover  easily  the  already  existing  electronic  contents.  
+Open archive initiative-protocol metadata harvesting  (OAI-PMH) is widely adopted interoperability standard  in metadata harvesting to build gateways. OAI-PMH  is  widely  received,  and  has  mainly  been  applied  to  make  Dublin  Core  metadata  about  scholarly  objects  contained  in  distributed  repositories  and  make  them  searchable.  Maly20   defined  OAI  as  standard,  open  interface  between  data  providers  and  service  providers  to  implement  digital  library  interoperability  based  on  the  harvesting  approach.  Data  provider  needs  to  be  open  in  as  far  as  it  needs  to  support  the  OAI  metadata  harvesting  protocol.  OAI  has  its  roots  to  enhance  access  to  e-print.  OAI-PMH  can  successfully  be  used  as  an  apparatus  to  maintain  state  in  scattered  systems  repositories as a means of increasing the availability  of  scholarly  communication.  
+OAI-PMH metadata formats outcome in a consistent  and attractive approach for incremental harvesting of  resources and used to make the usage information  harvestable. It yields a robust and general solution  to  the  resource  harvesting  problem21. 
+The use of OAI-PMH has simplistic and convenient  features compared to Z39.50. Its centralised search  mechanism  makes  it  apart  from  other  distributed  search  protocols.  It  only  centered  on  the  set  of  
+rules  to  move  metadata  rather  than  contents  of  one  digital  repository  from  another7. 
+8.6  Gateway  Workflow 
+The  workflow  of  the  gateway  includes  seveal  steps  such  as:  
+(i)  Selection of documents, including of copyrights  
+and out-of-copy-rights documents and e-contents  
+need  to  harvest    
+(ii)  Digitise  the  selected  documents  
+(iii)  Metadata  entry  
+(iv)  Verification  of  metadata  
+(v)  Metadata  availability,  and  
+(vi) Publish  the  contents  on  the  knowledge  
+gateway.  
+Each step in the workflow has significant impact  on  each  other  for  successful  design  of  knowledge  gateway  (Fig.  2). 
+9.   f EAtUrES  Of   KNOWLEDGE  GA tEWAY  
+In  view  of  the  students  and  faculty  information  needs,  many  gateway  services  were  started  in  
+Figure 2. Workfow of knowledge gateway. 
+422 
+
+========5========
+
+BHARDwAJ: LEVERAGING  A CCESS TO  E- RESOURCES THROUGH  G ATEwAy 
+western countries but with the advancement of ICT,  this  service  needs  to  be  updated  periodically.  The  knowledge  gateway  developed  at  St.  Stephen’s  College  has  some  general  features  such  as: (a) Interactive  Interface 
+Gateway has interactive interface and assist the  users to search, retrieve and display the contents of  knowledge gateway. GUI helps the users to interact  with  the  system  and  alter  search  methods  and  optimise the search.  Users can login with account  name  and  password  to  make  it  convenient  to  save  the  searches  and  further  strengthen  the  contents  handling  during  the  use  of  this  gateway.  (b) Method  of  Searches 
+Gateway  offers  basic  as  well  as  the  advance  searches. Basic search facilitate the users to search  the  collection  using  the  keyword,  phrase  or  any  indicated  bibliographic  field.  Besides  this,  advance  search  empower  the  users  to  use  the  Boolean  operators, i.e., AND, OR, NOT, wild card operator,  Proximity  operator.  Users  can  broaden  and  widen  their  searches  using  these  operators.  Users  can  filter  the  search  results  by  course  contents,  video,  question papers, etc. Users can browse the collection  subject wise and further under the classified subject  headings.    
+(c) Access  Points    
+Gateway  enables  users  to  search  the  contents  in a variety of ways to conveniently get the desirous  items.  Gateway  has  given  access  to  title,  author,  keyword,  subject,  etc.  Collection  of  IR  can  be  searched  individually  with  title,  creator,  subject,  and  keyword.  Abstract  can  be  searched  through  the  common  interface  of  the  collection.  Controlled  vocabulary  of  IR  is  assigned  using  the  Sears  List  of  Subject  Headings.  Citation  is  indicated  in  each  item  using  the  MLA  7  style  of  standard.    (d) External  Links  
+Using the hypertext several external resources  are linked on the gateway including the open access  reference  sources  such  as  dictionaries,  almanac,  statistical source of information, geographical sources  of  information,  encyclopedias  including  subject  and  general,  patents  and  standards  and  current  information  sources.    
+Knowledge gateway is a comprehensive source of  information for undergraduate students of University  of  Delhi,  wherein  many  open  access  electronic  books  websites  such  as:  
+(i) Techbooks  
+(ii) Project  Gutenberg  
+(iii) PDF  e-books  archive,  and  
+(iv)  Google  e-books  etc  are  linked.  
+E-thesis  and  dissertations  websites  NDTLD  (Networked digital library of theses and dissertations),  ERIC  (Education  Resources  Information  Center),  UMI  database,  ProQuest  dissertations  are  also  linked  on  kgateway.net.  
+(e) Discussion forums  
+Many discussion forums are created to provide  the platform to discuss their area of interests. Virtual  discussion  platform  help  the  users  to  widen  their  knowledge horizons and develop their skills. The alert  of forum can be harvested using rich site summary  (RSS)  web  2.0  tools.    These  forums’  archive  can  be  searched  using  various  descriptors.    
+(f) Question  Papers  and  Syllabi retrieval 
+In  the  first  phase  of  developing  the  retrieval  mechanism of question papers and syllabi module,  the  collection  of  question  papers  and  syllabi  was  digitised.  An  administrative  interface  to  enter  the  metadata was developed and a combo-box helped to  search  and  retrieve  information  from  the  collection  of  question  papers  and  syllabi  simultaneously. (g) Social  Networking  tools  Applications  
+Social networking tools has changed the functioning  of gateway, knowledge gateway is fully compliant with  social  networking  tools  such  as  face  book,  twitter,  disques, etc. Each content can be shared on these  SN tools using the utility. Individual contents can be  discussed  on  Disques’  virtual  platform.  Users  can  also  access  the  discussion  on  individual  content  through  the  RSS. 
+10. HArVEStErS 
+A  harvester  works  as  a  service  provider  to  collect  metadata  from  a  variety  of  repositories;  it  processes the OAI-PMH requests in the scheduled  manner7. Harvesters include resource, item and record  to  the  repositories.  One  of  the  popular  harvesting  open  access  software  is  Public  Knowledge  Project  (PKP);  it  is  open  source,  released  under  the  GNU  General  Public  License.  
+Open  Harvester  System  is  a  open  source  metadata  indexing  system;  it  was  developed  by  PKP.  It  can  harvest  the  different  schemas  and  using  cross  walked  basic  and  advanced  search  can  be  performed.  PKP  harvester  has  the  ability  to  do  granular  harvesting.  It  can  execute  the  post  harvest  and  pre-indexing  filtering.  The  interface  can  be  highly  customisable  using  cascading  style  sheets  and  HTML  templates.  Searching  is  highly  scalable  and  site  can  be  navigated  easily.  OAI  harvester  has  two  additional  fields,  OAI-base  URL  and Meta data format.  It is based on the concepts  of  archives,  records,  entries,  and  schemas,  fields,  and  highly  structured  for  maintainability,  flexibility,  and  robustness.    
+423 
+
+========6========
+
+DJLIT,  VOL.  33,  NO.  5, SEPTEMBER   2013 
+Using the plug-in many features such as filtering  harvested  data  and  extending  metadata  handling  can  be  added  in  the  harvester.  with  the  help  of  harvester  a  common  search  interface  of  various  repositories can be created. OAISTER (http://www. oaister.org) is a perfect example of such service; it  is the collection of harvested open access resources.  Presently,  it  provides  more  than  25  million  records  representing more than 1100 repositories including  a  variety  of  material  including  digitised  books,  journal  articles,  newspapers,  manuscripts,  audio  files,  video  files,  images,  data-sets,  theses,  and  research  papers,  etc.        
+Open  Harvester  System  (http://drtc.isibang. ac.in/sdl/index.php/browse)  at  DRTC  (Documents  Research  Training  Centre)  has  targeted  the  four  digital  repositories  namely:  
+(i) E-LIS:  E-Print  in  Library  and  Information  
+Science  
+(ii) Librarian’s  Digital  Library  
+(iii) Cranfield  CERES,  and  
+(iv)  DLIST  (Digital  library  of  information  science  
+and  technology).  
+It has more than 25000 records. It is a subject  based harvesting service for library and information  science  professionals.  It  can  be  searched  with  the  help  of  title,  contributor,  coverage,  collection,  description,  publisher,  relation,  rights,  source  and  date  wise.      
+11. CONCLUSIONS 
+The  feedback  received  from  staff  and  students  reveal  their  appreciation  of  the  quick  searches  to  find the relevant contents, as it saves a lot of users’  time  that  they  otherwise  spend  visiting  different  databases. Besides this, the use of social networking  tools  empowers  users  to  share  and  comment  on  individual  e-contents.  This  facilitates  to  discuss  particular  course  contents  on  a  virtual  platform.  The  basic  and  advanced  search  features  were  incorporated  in  the  knowledge  gateway  interface,  it  was  also  realised  that  the  concept  search  and  filtering of results have made the search more precise  and  powerful.  Abundance  of  information  created  with  the  help  of  ICT  has  put  the  LIS  professionals  under  tremendous  pressure  to  teach  the  users  accessing  of  resources  efficiently  and  effectively.  Knowledge gateway features demonstrate themselve  as marvelous tools to guide the students and teachers  to  get  the  relevant  information  expeditiously  in  the  shortest  time. 
+rEfErENCES 
+1. Caswell, Jerry. V & wynstra, John D. Improving  
+the search service: Federated search and library  
+gateway.  Library  Hi-tech,  2010,  28(3),  391- 
+92. 
+424 
+2. Lakos, A. Portal in libraries: Portal vision. Bull.  
+Amer. Soc. Inf. Sci. Technol., 31(1). www.asis. 
+org/bulletin.  (accessed  on  10  Oct.  2012) 3. Anderson, S. Portals: what are  they  good for?  
+Paper  presented  at  Gateways  to  Research  
+and Lifelong Learning: Portals in Perspectives,  
+University of London, 2002. www.ull.ac.uk/news/ 
+portals/sheilaanderson.ppt/.  
+4. Jefcoate, Graham. Gabriel: Gateway to Europe's  
+national  libraries.  Program,  2006,  40(4),  325- 
+33.                  
+5. Tiefel, V. The gateway to information: The future  
+of  information  access-today.  Library  Hi-tech,  
+1993, 11(4),  57-65.      
+6.   w arwick,  Claire, et  al.  Library  and  information  
+resources and users of digital resources in the  
+Humanities. Program,  2008, 42(1),  5-27.  7. Munshi,  Usha  Mujoo.  Building  subject  gateway  
+in  shifting  digital  world.  DESIDOC  J.  Lib.  Inf.  
+Technol.,  2009, 29(2),  7-14. 
+8.   w ard,  Rod.  NMAP:  The  UK's  nursing  internet  
+gateway. VINE,  2003, 33(2),  78-82.  
+9. Kotula, Sebastian D.; JaroslawPacek & Piotr G.  
+Zielinski. KINIA: A Polish subject gateway in information  
+science. Bibliotekarz,  2008, 6,  9-11.  
+10. Krishnamurthy, M. Designing a gateway interface:  
+conceptual framework for library and information  
+Science. Information Studies, 2005, 11(3), 195- 
+204.  
+11. Noh, younghee. A study on metadata elements  
+for  web-based  reference  resources  system  
+developed  through  usability  testing.  Library  
+Hi-tech,  2011, 29(2),  242-65. 
+12. Kim,  Hyunki;  Chee-yoong  Choo  &  Su-shing  
+Chen.  Generating  a  meta-DL  by  federating  
+search  on  OAI  and  non-OAI  Servers. J.  Intel.  
+Inf.  Sys.,  2010, 34(2),  177-91. 
+13. Si,  Libo  Eric;  Ann  O’Brien,  &  Steve  Probets.  
+Integration of distributed terminology resources  
+to  facilitate  subject  cross-browsing  for  library  
+portal systems. Aslib Proceedings, 2010, 62(4),  
+415-27.  
+14. Back,  Godmar  & Annette  Bailey. web  services  
+and widgets for library information systems. Inf.  
+Technol.  Lib.,  2010, 29(2),  76-86.  
+15. Lynch, Clifford A., et al. The Z39.50 information  
+retrieval  standard:  Part  I:  A  strategic  view  of  
+its  past,  present  and  future,  D-Lib  Magazine,  
+1997.  http://webdoc.sub.gwdg.de/edoc/aw/dlib/ 
+dlib/april97/04lynch.html/. 
+16. Hammer,  Sebastian  &  Favoro,  John.  Z39.50  
+and the world wide web. D-Lib Magazine, 1996.  
+http://webdoc.sub.gwdg.de/  edoc/aw/dlib/dlib/ 
+march96/briefings/03indexdata.html/  (accessed  
+on  1  March  2013). 
+17. Caplan, Priscilla. Metadata fundamentals for all  
+librarians. American Library Association Editions.  
+2003. 
+
+========7========
+
+BHARDwAJ: LEVERAGING  A CCESS TO  E- RESOURCES THROUGH  G ATEwAy 
+18. Paepcke,  A.,  et  al.  Interoperability  for  digital  
+libraries  worldwide.  Communications  of  the   
+ACM, April  1998, 41(4),  33-43. 
+19. Bearman, D., et al. A common model to support  
+interoperable  metadata.  Progress  report  on  
+reconciling  metadata  requirements  from  the  
+Dublin  core  and  INDECS/DOI  communities.  
+D-Lib  Magazine,  1999,  5(1).  http://www.dlib. 
+org/  (accessed  on  29  March  2013). 
+20. Maly,  K.;  M.  Zubair,  &  X.  Liu.  Kepler:  An  OAI  
+data/service  provider  for  the  individual.  D-Lib  
+Magazine, 2001, 7(4). http://search.proquest.com/ 
+docview/57501944?accountid=10461/ (accessed  
+on  29  March  2013).  
+21. Lagoze, Carl, et al. Resource harvesting within  
+the OAI-PMH framework.  D-Lib Magazine , 2004,  
+10(12).  http://www.dlib.org/  (accessed  on  29  
+March  2013). 
+About  the Author 
+Mr  raj  Kumar  bhardwaj   is  working  as  College  Librarian  in  St.  Stephen’s  College,  Delhi.  Prior  to  his  current  assignments  he  has  served  at  the  Judges Library, High Court of Punjab and Haryana  (Chandigarh). He holds MCA, MLIS &  MPhil in LIS.  He  is  pursuing  PhD  in  Online  Legal  Information  System from University of Delhi. He has contributed  many  research  articles  in  various  journals  and  spoken  at  international  conferences.  His  areas  of  specialisations  are:  Institutional  repositories,  legal  Information  system,  and  digital  library  design  and  development. 
+425 
+
+========8========
+

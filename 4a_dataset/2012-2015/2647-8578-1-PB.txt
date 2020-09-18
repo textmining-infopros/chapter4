@@ -1,0 +1,522 @@
+DESIDOC Journal of Library & Information Technology, Vol. 32, No. 5, September 2012, pp. 388-392
+© 2012, DESIDOC
+
+Open Source Library Management and Digital Library Software
+V.T. Kamble*, Hans Raj**, and Sangeeta*
+*Department of Library and Information Sciences, Gulbarga University, Gulbarga
+**EPKAR, ICAR, New Delhi
+
+ABSTRACT
+In this era of transition from information age to knowledge society, the libraries have much greater
+challenges to face. The whole perception of library has now changed from collection of books to a single
+window knowledge bank. This paper discusses the definition and features of open source library management
+software, criteria of selection of best open source library management software, their, advantages and
+limitations. Open source library management software is a solution to reducing that cost. The paper describes
+in brief about the feature of some of the open source library management software like Greenstone Digital
+Library, DSpace, Koha, E-Prints, NewGenlib. PhpMyLibrary, OpenBiblio, Avanti, etc., which are useful for
+developing digital library and institutional repositories.The paper also highlight the initiatives taken in India to
+make use of open source library management software for developing their digital libraries.
+Keywords: Open source library management software, Greenstone digital library, DSpace, Koha, E-Prints, New
+Genlib, open access initiative, digital library, GSDL
+
+1. INTRODUCTION
+
+2.1 Advantages of OSS
+
+Library automation starts with the adoption of library
+management software in the library. The software should
+have the maximum facilities to automate the library into
+computerised systems. Library automation is the general
+term for information and communication technologies that
+are used to replace manual systems in the library. The
+key functions of the library, which may be automated are
+acquisition, cataloguing, circulation, serials control, and
+reference service.
+
+The OSS offers a radically different and exponentially
+better software development model. OSS provides cheap
+alternatives to expensive commercialised solutions.
+Source code of the software is always open and available
+to the libraries which is not possible in case of traditional
+commercial software. Libraries can modify or develop the
+software according to their requirement and for this they
+do not have to pay license fees to anybody. The OSS
+provides no restrictions on how the software is used. It
+reduces dependence on software vendors. The OSS is
+more reliable than closed source traditional commercial
+software. The OSS also provides security and
+technological independence to the libraries. It also helps
+the library professionals to deliver low cost or free services
+to users. It helps converting their libraries in to digital
+form. Implementation cost of OSS is also more affordable
+to the libraries than traditional commercial software.
+Overall, open source is good for everyone1.
+
+There are many commercial library software are in use
+in the different libraries, but open source library
+management software has generated lot of interest
+among the library professionals over the past years.
+
+2. OPEN SOURCE SOFTWARE
+Open source software (OSS) is computer software
+whose source code is available under a license for users
+to look at and modify freely and permits users study,
+change, and improve the software, and to redistribute it in
+modified or unmodified form1.
+The OSS differs from the closed source or proprietary
+software. The primary difference between the two is the
+freedom to modify the software.
+
+2.2 Limitations with OSS
+For any upgradation/change in the OSS, the library
+needs support. In case of OSS, there is no body to solve
+problem, either one have to hire some expert to solve
+problem or library should make arrangement with some
+company. Open source products require technical
+
+Received 14 May 2012, accepted 14 May 2012, online published 7 September 2012
+
+388
+
+expertise to operate and maintain open source costs
+more to support because the software is typically selfsupporting. Generally, a commercial software company
+will immediately respond on customer requests for any
+problem. With OSS, if one doesn’t do it himself, he is at
+the mercy of a disjoint community of developers.
+
+2.3 Problem Encountered After Taking
+Initiative
+The main problems faced in the libraries are related to
+retraining end-user to get use to new paradigm shift. The
+library professional and user have faced initial difficulties
+adopting to open source technology practice due to nonavailability of proper training. There are not sufficient
+equipments available in the library. Sometimes library
+authority does not agree to adopt new technology and
+therefore it is very difficult to adopt new systems to
+provide library service to the users. Major problem faced
+by the library is to shift data from existing software to
+OSS because library professionals are not well
+acquainted about software programming or source code.
+
+2.4 Selection of Library Management
+Software
+Selection of library management software (LMS) is
+not a simple task. Sometimes librarians go with either
+renowned software or maximum number of usage of the
+library. Selection of LMS may consist the following points/
+steps, which might help the librarians to select the right
+software for their housekeeping operations as well as
+information retrieval.
+There are many LMS, which are very popular and
+being used by number of libraries. Librarians may have
+the comprehensive study about them before taking
+decision in this regard. While examining the software,
+librarian must have the followings information about the
+software which might help to select the right software for
+housekeeping operations as well as information retrieval2:
+
+another, multifunction modules, does it enhance the
+productivity
+
+•
+
+Conforming to standards: MARC, Z39.50, ISO-2709,
+etc.
+
+•
+
+Scalability: Single user-multi use network. Can it be
+used in client server LAN architecture or fully webbrowsing architecture
+
+•
+
+User-controlled customisation
+
+•
+
+Reports that help take decisions
+
+•
+
+Security levels
+
+•
+
+Migration of data or data transfer
+
+3. OPEN SOURCE LIBRARY MANAGEMENT
+SOFTWARE
+Open source LMS is a valuable catalyst for change in
+terms of exploring possibilities and pushing boundaries
+for the community. There are many open source LMS
+being used in the libraries. In India also, some libraries
+like, Delhi Public Library, British Council Library, Mysore
+University Library, etc., are using OSS. Some of open
+source LMS are:
+
+3.1 Koha
+Koha is a promising full featured open source
+integrated library system (ILS) created in 1999 by Katipo
+Communications for the Horowhenua Library Trust in New
+Zealand, and currently being used by thousands of
+libraries all over the world. It includes modules for
+circulation, cataloging, acquisitions, serials, reserves,
+patron management, branch relationships, and more.
+Koha has web-based Interfaces. Koha is built using
+library ILS standards and uses the OPAC (online public
+access catalog) interface. In addition, Koha has no
+vendor-lock in, so libraries can receive technical support
+from any party from they want. It is distributed under the
+free open source general public license (GPL). It supports
+MARC 21 and UNIMARC support, Z39.50. It also has a
+provision for online reservations and renewals,
+
+•
+
+How it matches the library’s requirements
+
+•
+
+Product quality
+
+•
+
+Features and functions
+
+3.2 NewGenlib
+
+•
+
+Staff training and support service
+
+•
+
+Operating system
+
+•
+
+Hardware and software requirements
+
+•
+
+Functionality: What modules are available, value
+addition to existing functions
+
+•
+
+User interface: Navigation, error alerts, intuitive,
+customisation
+
+•
+
+Design: Flexibility, switching from one module to
+
+NewGenLib, an integrated LMS is open source under
+the most widely used free software license, GNU GPL.
+NewGenLib is the result of collaboration between
+specialists in library automation and software specialists.
+The software was developed over a four-year joint effort
+between a professional charitable trust, Kesavan Institute
+of Information and Knowledge Management (KIIKM) and a
+fledgling software development company. Libraries in
+India still do not generally use international metadata and
+interoperability standards (e.g., MARC-2l, Dublin Core,
+OAI-PMH) and it is believed that this puts them at a great
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+389
+
+disadvantage when it comes to sharing metadata and
+building union catalogues and networking. The fact that
+libraries are not networked and hence are handicapped in
+sharing costly bibliographic and full-text resources among
+themselves, the importance of providing a software that
+would allow both library management and the creation of
+institutional open access repositories increases.
+
+3.3 PhpMyLibrary
+PhpMyLibrary is a PHP/MySQL web-based library
+automation application meant for smaller libraries. The
+software has the facilities of cataloguing, circulation, and
+OPAC module. The software also has an import export
+feature. It strictly follows the USMARC standard for
+adding materials. This software is compatible with the
+content management system and have as facility of
+Online reservation system for library and also supports
+import from ISIS database with an ISIS2MARC program.
+
+3.4 OpenBiblio
+OpenBiblio is an easy to use, open source,
+automated library software written in PHP. This software
+has facilities of OPAC, circulation, cataloging, and other
+administrative work. OpenBiblio is well documented, easy
+to install with minimal expertise and designed with
+common library feature.
+
+3.5 Avanti
+Avanti MicroLCS Software is developed by Avanti
+Library Systems in Java language. This is a small,
+simple, and easy to install and use open source software.
+it is a platform independent, and can run on any system
+that supports a Java runtime environment. This software is
+useful for small libraries, it has a powerful and very flexible
+architecture that allows it to be adapted for use in libraries
+of any type. This software incorporate standards such as
+MARC and Z39.50 as modules and interfaces.
+
+3.6 Greenstone Digital Library
+The Greenstone digital library software is an open
+source system for the construction and presentation of
+information collections. Greenstone is a suite of software
+for building digital library collections. It is not a digital
+library but a tool for building digital libraries. It provides a
+new way of organising information and publishing it on the
+internet in the form of a fully-searchable, metadata-driven
+digital library. It has been developed and distributed in
+cooperation with UNESCO and the Human Info NGO in
+Belgium. It is multilingual software, issued under the
+terms of the GNU GPL Greenstone runs on all versions of
+Windows, and Unix/Linux, and Mac OS-X and is very
+easy to install. It has two separate interactive interfaces,
+the Reader interface and the Librarian interface. End
+390
+
+users access the digital library through the Reader
+interface, which operates within a web browser. The
+reader’s interface is available in the following languages:
+Arabic, Armenian, Bengali, Catalan, Croatian, Czech,
+Chinese (both simplified and traditional), Dutch, English,
+Farsi, Finnish, French, Galician, Georgian, German,
+Greek, Hebrew, Hindi, Indonesian, Italian, Japanese,
+Kannada, Kazakh, Kyrgyz, Latvian, Maori, Mongolian,
+Portuguese (BR and PT versions), Russian, Serbian,
+Spanish, Thai, Turkish, Ukrainian, and Vietnamese.
+
+3.7 DSpace
+DSpace was developed by Massachusetts Institute of
+Technology (MIT) libraries and Hewlett-Packard (HP), as
+an open source application that institutions and
+organisations could run with relatively few resources. It is
+to support the long-term preservation of the digital
+material stored in the repository. DSpace accepts all
+manner of digital formats, such as articles, preprints,
+working papers, technical reports, conference papers,
+books, theses, data sets, computer programs,
+visualisations, simulations, and other models, multimedia
+publications, administrative records, published books,
+journals, bibliographic datasets, images, audio files, video
+files, reformatted digital library collections, learning
+objects, web pages, etc.
+
+3.8 E-Prints
+E-Prints has been developed at the University of
+Southampton School of Electronics and Computer
+Science in 2000 and released under a GPL license for
+building open access repositories that are compliant with
+the Open Archives Initiative Protocol for Metadata
+Harvesting (OAI-PMH). It shares many of the features
+commonly seen in document management systems, but
+is primarily used for institutional repositories and
+scientific journals.
+
+3.9 Fedora
+Fedora software gives organisations a flexible serviceoriented architecture for managing and delivering their
+digital content. Digital objects exist within a repository
+architecture that supports a variety of management
+functions. All functions of Fedora, both at the object and
+repository level, are exposed as web services. These
+functions can be protected with fine-grained access
+control policies. This unique combination of features
+makes Fedora an attractive solution in a variety of
+domains. Some examples of applications that are built
+upon Fedora include library collections management,
+multimedia authoring systems, archival repositories,
+institutional repositories, and digital libraries for
+education.
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+4. Open Source Software Initiative in India
+In India there are a number of university and institute
+libraries, which are in the process of conversion into DLs.
+The advantage of having a DL is now well understood by
+librarians, technologists, management and users. The
+situation in India regarding DLs is very peculiar. Generally,
+the use of information technology (IT) and information and
+communication technology (ICT) in libraries in India is
+concentrated in universities, Indian Institutes of
+Technology (IITs), Indian Institutes of Management (IIMs),
+Indian Institute of Science (IISc), ICMR, CSIR, ICAR and
+their research institutes and some special libraries. Some
+government agencies, as well as public-sector
+institutions, are also engaged in digitisation of libraries.
+But the initiatives taken by the Government of India in this
+direction indicate that the potential of ICTs for developing
+DLs has not been fully realised. While one government
+agency is providing support for one particular aspect, the
+other is focusing elsewhere without any coordinated effort
+by a nodal agency3,4.
+In agriculture sector, the beginning of digitisation of
+Indian information was initiated by ICAR5, when, Govt. of
+India took decision to participate in AGRIS database of
+Food and Agricultural Organisation. The ICAR has
+digitized approximately 1.5 lakh bibliographic records of
+research information published in various Indian Journals
+and made available to world agricultural community using
+CDS/ISIS software. Under the National Agricultural
+Innovative Project (NAIP), emphasis would be on
+strengthening of the ICAR-Net, creation of digitised
+content and knowledge management, using open source
+management software and CMS and strengthening of 42
+libraries of the SAUs and ICAR Institutes into fully
+electronic libraries, formation of an ICAR e-journals
+Consortium. Recently, it is decided at UAS, Bangalore in
+September 2011 to Implement Koha LMS in 12 partner
+libraries under (e-Granth) project of NAIP.
+The ICAR also developed its website using an open
+source content management system called Drupal. The
+website is a unique platform for sharing and dissemination
+of information to a wide range of users and stakeholders.
+The ICAR research journals (The Indian Journal of
+Agricultural Sciences and The Indian Journal of Animal
+Sciences) are available in open-access mode and have
+been downloaded in 158 countries6. Journal of Medicinal
+and Aromatic Plants and Fishery Technology of Society of
+Fisheries Technologists (India) are also published as
+open access journals on epubs platform of ICAR.
+The CMFRI has developed open access institutional
+repository, using E-print software. The institute’s
+repository can be accessed from the Institute website and
+users anywhere in the world can download the research
+outputs. This repository was created using OSS
+developed by the University of Southampton at UK.
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+Kerala Agricultural University (KAU) had launched its
+journal, ‘Journal of Tropical Agriculture’ and University of
+Agricultural Sciences, Dharwad made available its
+journal, ‘Karnataka Journal of Agricultural Sciences’
+using Open Journal Systems (OJS), a free open source
+software (FOSS).
+Central Marine Fisheries Research Institute (CMFRI),
+Indian Agricultural Research Institute (IARI), Indian
+Institute of Spice Research (IISR) and Indian Institute of
+Horticultural Research (IIHR) have established open
+access repositories using Eprint, DSpace and other OSS.
+The Sugarcane Breeding Institute (SBI) with the support
+of Department of Scientific and Industrial Research
+(DSIR) had established ‘CaneInfo’ a sugarcane
+knowledge repository. Under the NAIP sub-project
+‘Strengthening of digital library and information
+management’ (e-Granth), 12 institutions in NARS are in
+the process of establishing their institutional repositories
+which would have a digital collection of rare books and old
+journals available in their libraries.
+The Indian Academy of Sciences is one of three
+science academies in India. Apart from various other
+activities, it publishes 11 science journals reporting
+research work both in India and outside. These journals,
+mainly in print, are freely accessible on the web. The EPrint archives of the Indian Institute of Science is an
+online digital repository of research papers, both reprints
+and post prints, technical reports, unpublished findings,
+and journal articles of the faculty. It was set up using EPrint, and is registered in the e-prints registry.
+Eprints@iisc is now part of the worldwide institutional
+e-print archives. The E-prints archives allow the faculty
+and students to submit their publications electronically to
+the campus network. The eprints@iisc website also
+supports metadata for browsing and searching. It is also
+integrated with the Greenstone Digital Library software,
+which enables full-text searching of the e-prints.
+The Raman Research Institute has developed digital
+repository in DSpace which allows research community
+to deposit preprints, post prints, and other publications
+and organises these publications for retrieval. It also
+contains the annual reports of Institute and newspaper
+clippings from its archives. The repository uses DSpace.
+National Chemical Laboratory has also developed the
+institute repository using DSpace. Indian Institute of
+Technology, New Delhi also develop digital libraries.
+Online courseware has been developed and older volumes
+of journals have been digitised, among other projects.
+More than 500 dissertations are available in the
+repository. The Central Library, IIT Kharagpur and
+Bombay, has also created institutional repository. The
+repository at IIT Bombay has bibliographic information
+and abstract for dissertations beginning in 1965. More
+391
+
+than 3,000 full-text theses and dissertations are available
+in the ETD database.
+The repository uses Greenstone. The NISCAIR has
+also developed National Science Digital Library by
+providing Internet access to digital resources related to
+science and technology7.
+
+5. CONCLUSIONS
+Digitisation needs a huge amount of money for
+creation and maintenance. Libraries have a growing role in
+managing the output of their institution due in part of the
+open access movement. The OSS have been found very
+useful in various library operations. The OSS are a
+solution to reduce the cost. Libraries can make use of
+open source software for managing digital contents
+effectively.
+In India automation and networking of library are still in
+their formative stages. Recently, ICAR and its institutes/
+SAUs taken a decision to implement Koha open source
+software initially in 12 Libraries from National Agricultural
+Research System (NARS)8.
+The LIS professionals should keep eyes on
+development and to choose appropriate technology
+depending upon needs. Since numbers of libraries
+worldwide are using OSS for managing their library
+systems more economically and effectively. Librarians
+and programmers may worked together to implement
+open source integrated library systems and at the same
+time, library professional are required to acquire new
+skills for developing and managing the digital library by
+using open source LMS. For taking benefit from OSS
+additional technology, education, and training are
+essentially required.
+
+392
+
+REFERENCES
+1. Annual Report. Indian Council of Agricultural
+Research, New Delhi, 2009-2010. pp. 108-09.
+2. Bankar , C.V.; Dayal, Ram & Gajbhiye, Mrunal. Open
+source initiatives in libraries. In Proceedings of
+National Conferences of Agricultural Librarian and
+User Community 2011, edited by A.K. Jain; H.
+Chandrasekharan; P. Visakhi; Hans Raj & Nabi
+Hasan. Paper presented at Agricultural Libraries in
+Knowledge Web, 24-25 February 2011. Indian
+Agricultural Research Institute, New Delhi. 2011. pp.
+182-85.
+3. Bhatt, R.K. & Singh, K.P. Digital libraries: Emergence,
+features, challenges and opportunities. In Digital
+Libraries 2004: Knowledge, Preservation, Access and
+Management, New Delhi, 2004.
+4. Hans Raj & Roy, Mitali Gosh. Scientific publishing
+and open access in agricultural sciences in India.
+Paper presented at Ist AGRIS-ICRISAT Workshop, 6-7
+November 2006, Hyderabad, ICRISAT, 2006
+5. Harish Chandra. Role of digital libraries in S&T sector.
+In Seminar on Migration to e-World: Challenges &
+Opportunities for Library Professionals, Anna
+University, Chennai, 8-9 December, 2005. pp. 83-100.
+6. http://egranth.ac.in (accessed on 20 January 2012).
+7. Tripathi, Harish & Hans Raj. Library management
+software. In Knowledge Management-Issues and
+Strategies, edited by P. Visakhi; V.K. Bharti; K.
+Veeraneyulu; K.P. Singh; Hans Raj & C.S. Viswanath.
+Udai Publishers, New Delhi, 2010. pp.119-37.
+8. Varatharajan, N. & Chandrashekara, M. Digital library
+initiatives at higher education and research
+institutions in India. Lib. Philoso. Pract., 2007. http://
+www.uihome.uidaho.edu/404.htm
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+

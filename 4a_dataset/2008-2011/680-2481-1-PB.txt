@@ -1,0 +1,1915 @@
+DESIDOC Journal of Library & Information Technology, Vol. 30, No. 6, November 2010, pp. 39-54
+© 2010, DESIDOC
+
+Indian Computer Science Research Output during
+1999-2008: Qualitative Analysis
+B.M. Gupta, Avinash Kshitij, and Yogendra Singh*
+National Institute of Science, Technology and Development Studies
+Dr K.S. Krishnan Marg, New Delhi-110 012
+E-mail: bmgupta1@gmail.com
+*Indian Institute of Technology, Roorkee-247 667, Uttrarakhand
+E-mail: yogi@iitr.ernet.in
+
+ABSTRACT
+The paper analyses research output of computer science, in 11 sub-fields, in India during 1999-2008. The
+parameters studied include total research output, publications growth, citation impact, share of international
+collaborative publications, research communication in productive journals, characteristics of most productive
+institutions, authors, and high-cited papers.
+Keywords: Quantitative analysis, indian publications, productive journals, computer science
+
+1. INTRODUCTION
+The Indian information industry is undoubtdly
+acknowledged as an important player in world. The
+availability of technical human capital, proficiency in
+English, cost competitiveness, quality-training institutes,
+and favourable government reforms have laid solid
+foundations of the information industry and well-sought
+destination of global companies to outsource their
+businesses. India’s most priced resource is its readily
+available technical workforce. It is estimated that India
+has over 4 million technical workers and over 1832
+educational institutes and polytechnics, which train
+more than 67,785 computer software professionals every
+year1.
+The Indian information technology (IT) industry has
+played a key role in putting India on the global map.
+Thanks to the success of the IT industry, India is now a
+power to reckon with. The IT industry may be subdivided into: (i) IT services, (ii) ITES services (ITES-BPO
+services), and (iii) e-commerce. According to the
+Department of Information Technology, (DIT),
+Government of India (GoI), the overall revenue from
+Indian software and service industry is estimated to have
+grown from US$10.2 billion during 2001-02 to US$58.7
+billion during 2008-09, translating to a CAGR of 26.9 per
+Received
+on:J.28
+May
+DESIDOC
+Lib.
+Inf.2010
+Technol., 2010, 30(6)
+
+cent. The export intensity (the share of IT-ITES revenue)
+of Indian software and services industry has grown from
+74.5 per cent during 2001-02 to 78.9 per cent in 200809.The total software and services exports are estimated
+to have grown from US$7.6 billion to US$46.3 billion
+during 2008-09, a CAGR of 28.6 per cent2.
+
+1.1 Government Initiatives
+A number of infrastructures and other policy
+initiatives had been taken by the GoI to develop and
+promote IT as an important engine of economic growth.
+The National Informatics Centre (NIC) was established in
+1975, followed by Computer Maintenance Corporation
+(CMC) Ltd in October 1976.
+During 1986-1997, the GoI embarked upon the
+creation of the following wide-area networks schemes:
+(i)
+
+INDONET (intended to serve IBM mainframes in
+India).
+
+(ii) NICNET (the network for India’s National Informatics
+Centre).
+(iii) ERNET (the academic research oriented network
+education and research network).
+39
+
+In 1991, the Department of Electronics created a
+corporation called Software Technology Parks of India
+(STPI) to provide VSAT communication without
+breaching its monopoly. STPI set up software
+development parks in different cities to provide satellite
+links to firms. The Videsh Sanchar Nigam Ltd (VSNL)
+introduced Gateway Electronic Mail Services in 1991,
+64 kbit/s leased line service and a commercial Internet
+access on a visible scale in 1992. A new ministry,
+namely, Ministry of Information Technology, was
+established in October 1999, which was re-christened
+as Ministry of Communication and Information
+Technology in September 2001 given the increasing
+convergence between communication technology and
+information technology3.
+The government under Shri Atal Bihari Vajpayee
+placed the development of information technology among
+its top five priorities, and formed the National Taskforce
+on Information Technology and Software Development,
+under the Deputy Chairman of Planning Commission in
+May 1998 with the objective of framing a long-term
+National IT Policy for the country. Within 90 days of its
+establishment, the taskforce produced an extensive
+report, in three parts, on the state of technology in India
+and its IT action plan with 108 recommendations. The
+reports finally become a solid base for the present policy
+development to built India’s infotech industry to
+proliferate the use of IT in the country. The New Telecom
+Policy, 1999 (NTP, 1999) helped further liberalise India’s
+telecommunication sector3.
+The GoI enacted the Information Technology Act in
+2000, which provides a legal framework to facilitate ecommerce and electronic transactions. The government
+approved the National e-Governance Plan (NeGP)
+comprising 27 Mission Mode Projects (MMPs) and eight
+components on 18 May 2006, which played an important
+role in increasing Internet penetration in rural India. The
+State governments are also enunciating their IT policies.
+Many States are now vying with each other to develop
+their own brands of Silicon Valleys as hubs of IT
+activities.
+
+1.2 R&D Efforts
+The R&D in computer science is undertaken by
+academic institutions, government-sponsored R&D
+institutions, and industry-sponsored institutions4. Among
+the academic institutions, the major role has been
+played by Indian Institute of Science; Bengaluru; Indian
+Institute of Technology (IITs); Indian Statistical Institute,
+Kolkata; National Institute of Technology (NITs); Indian
+Institute of Information Technology (IIITs); engineering
+colleges with deemed university status; universities with
+engineering and technology faculty; and government and
+40
+
+private engineering colleges. The R&D work is
+undertaken in several R&D institutions under various
+research departments and agencies of Ministry of
+Information and Communication Technology (MoICT),
+Department of Electronics (DoE), Department of Atomic
+Energy (DAE), Department of Space (DoS), Defence
+Research and Development Organisation (DRDO),
+Council of Scientific and Industrial Research (CSIR),
+Department of Science and Technology (DST), etc. In
+addition extra-mural funding has been provided to
+academic and research institutions in computer science
+by agencies such as Ministry of Human Resource
+Development (MHRD), All Indian Council of Technical
+Education (AICTE), University Grants Commission
+(UGC), MICT, DoE, DAE, DoS, DRDO, DST, CSIR, etc.
+from time to time. Among the industry-sponsored
+research, the major R&D work in computer science in
+India is undertaken by Indian companies such as Tata
+Consultancy
+Services
+(TCS),
+Tata
+Research
+Development Design Centre, Infosys Technologies,
+Wipro Technologies, HCL, etc., and foreign companies,
+such as Texas Instruments, IBM Research Centre, GE
+Research Centre, Motorla Inc., Oracle, Intell
+Corporation, Mocrosoft, Dell, and CISCO Systems Inc.,
+etc.
+
+1.3 Professional Bodies
+Few professional associations and bodies such as
+National Association for Software and Service
+Companies (NASSCOM), Manufacturer’s Association of
+Information Technology (MAIT), the Institution of
+Electronics and Telecommunication Engineers (IETE),
+Computer Society of India (CSI) and Indian Association
+for Research in Computing Science (IARCS) have come
+up in the country for promotion of education, research
+and business promotion activities in IT.
+
+2. LITERATURE REVIEW
+Among the few quantitative studies on computer
+science carried out in India, Das and Kranzai5 analysed
+the major Indian institutions publications on computer
+science as covered in Science Citation Index (SCI)
+database during 1991-2000. Gupta and Dhawan6 studied
+computer science publications authored by Indian
+scholars as covered in INSPEC Database during 19942001, with a focus on publication output and impact
+factor quality, areas of strength and weakness, and
+contribution of leading institutions and individual
+scholars. Suresh and Garg7 analysed Indian computer
+science publications of Indian and Chinese scholars as
+covered in specialised bibliographies during 1971-2000,
+in terms of local and international journals, impact factor
+range and coverage in SCI versus non-SCI covered
+journals, the extent of collaboration, etc.
+DESIDOC J. Lib. Inf. Technol., 2010, 30(6)
+
+3. OBJECTIVES
+The main objective of this study was to analyse the
+research performance of India in computer science
+research across 11 major sub-fields, as reflected in their
+publication output during 1999-2008. In particular, the
+study focuses on the publication growth, international
+collaboration share, publication productivity and impact
+of leading institutions and authors, the patterns of
+research communication and the characteristics of highcited papers.
+
+4. METHODOLOGIES AND SOURCE OF DATA
+This study is based on the Indian publication data in
+computer science retrieved from the Scopus Citation
+Database for 10 years (1999-2008). Three-year citations
+window was used for counting the citations received and
+to access the impact of Indian research output, Indian
+institutions and authors, and international-collaborative
+publications.
+The Scopus classified the entire S&T literature
+under four broad fields (physical, life, engineering and
+health sciences) and 20 narrow fields including
+computer science. The study is limited to the literature
+covered under computer science. There is an
+overlapping of journal coverage under the 20 narrow
+subject fields. The authors have identified 11 sub-fields
+using a keyword strategy (Appendix 1).
+The process used for keywords selection was as
+follows. First a general query on Indian computer
+science research during 1999-2008 using the following
+search strategy was made: “affil (india) and pubyear aft
+1998 and pubyear bef 2009 and [limit-to (subjarea,
+“comp”)]”. This query additionally generated a set of 160
+leading keywords with the frequency of their occurrence
+varying from 133 to 2195.
+Then the Indian computer science experts were
+consulted for choosing the most important keywords
+relevant to the 11 sub-fields defined. The list of keywords
+generated from the database was sent to 50 Indian
+experts with a request to relate these keywords to these
+11 sub-fields and to suggest new keywords not existing
+in the list of keywords sent. On the basis of experts’
+advice, the keywords relevant to the 11 sub-fields were
+finalised.
+
+as 1592. The cumulative publications output of India
+increased from 3315 publications to 12609 publications
+from 1999-03 to 2004-08 witnessing a growth of 280.36
+per cent. India’s annual average publication growth rate
+during 1999-2008 was 28.68 per cent. In terms of impact
+and quality, the average citations per paper registered by
+India’s publications output during 1999-06 were 2.10.
+The average citations per paper for India’s cumulative
+publications decreased from 2.31 during 1999-02 to 2.01
+during 2003-06. The h-index registered by all Indian
+publications during 1999-08 was 60 (Table 1). Based on
+the publications data, the total cumulative collaborative
+publications output during 1999-08 comprised of 3173
+publications, which constituted 19.92 per cent share in
+the cumulative output of India in computer science. India
+witnessed a substantial decrease in the share of
+international-collaborative publications from 24.95 per
+cent (827 publications) during 1999-03 to 18.60 per cent
+(2346 publications) during 2004-08.
+Table 1.
+
+Growth and impact of Indian publications in
+computer science during 1999-08
+
+Year
+
+TP
+
+TC
+
+ACPP
+
+Year
+
+TP
+
+TC
+
+ACPP
+
+1999
+
+592
+
+1159
+
+1.96
+
+200 6
+
+2302
+
+2594
+
+-
+
+2000
+
+681
+
+1219
+
+1.79
+
+200 7
+
+3150
+
+-
+
+-
+
+2001
+
+541
+
+1185
+
+2.19
+
+200 8
+
+4777
+
+-
+
+-
+
+2002
+
+622
+
+2077
+
+3.34
+
+1999-03
+
+3315
+
+-
+
+-
+
+2003
+
+879
+
+2279
+
+2.59
+
+2004-08
+
+12609
+
+-
+
+-
+
+2004
+
+1158
+
+3080
+
+2.66
+
+1999-08
+
+15924
+
+-
+
+1.13
+
+2005
+
+1322
+
+3424
+
+2.59
+
+-
+
+-
+
+-
+
+-
+
+TP=Total Papers; TC= Total Citations; ACPP=A verage Citations
+per Paper
+
+5.2 Sub-fields of Research in Computer
+Science in India
+The analysis of Indian research output in computer
+science under 11 sub-fields is discussed in the following
+paragraphs.
+
+5.2.1 Computer Theory
+
+5.1 India’s Publication Output in Computer
+Science
+
+The total Indian research output in computer theory
+comprised 504 publications, accounting for 3.17 per
+cent share in their national publications output in
+computer science. Of the total Indian publications on
+computer theory, 269 were published as conference
+publications, 229 as articles, 3 as reviews, and 1each
+as editorial, article in press, and letter. The number of
+Indian publications in computer theory increased from
+108 in 2003 to 396 during 2004-08, showing a growth
+rate of 266.67 per cent. Of the total publications in
+computer theory, 19.84 per cent (100 Publications) were
+found to be internationally-collaborative.
+
+India’s total cumulative publications output in
+computer science comprised 15924 publications during
+1999-08, with average number of publications per year
+
+The share of Indian international collaborative
+publications in computer theory has decreased from
+27.78 per cent (30 Publications) during 1999-03 to 17.68
+
+5. ANALYSIS
+
+DESIDOC J. Lib. Inf. Technol., 2010, 30(6)
+
+41
+
+per cent (70 publications) during 2004-08. The h-index of
+the total Indian publications during 1999-08 was 17. The
+average citation per paper on a three-year citation
+window registered by the 504 Indian publications in
+computer theory was 1.45. The average citation per
+paper decreased from 1.89 during 1999-03 to 1.34 during
+2004-08.
+The major Indian institutions contributing in terms of
+publications output to computer theory research were:
+Institutes
+of
+National
+Importance:
+ISI-Kolkata
+(57 publications), IISc-Bengaluru (44 publications), IITKharagpur
+(37
+publications),
+IIT-Bombay
+(28 publications), IIT-Delhi (24 publications), IIT-Madras
+(23 publications), IIT-Kanpur (18 publications) and IITGuwahati (13 publications).
+Universities/Deemed Universities: Bengal Engineering
+and Science University (24 publications), Jadavpur
+University (18 publications), Annamalai University
+(9 publications), University of Mysore (6 publications),
+BITS-Pilani (5 publications), University of Hyderabad
+(5 publications), West Bengal University of Technology
+(4
+publications),
+Banaras
+Hindu
+University
+(4 publications) Indian School of Mines, Danbad
+(4 publications) and University of Delhi (4 publications).
+NIT/RECs: Motilal Nehru NIT, Allahabad (7 publications),
+NIT-Tiruchanapally (4 publications) and NIT-Jamshedpur
+(4 publications).
+Industry: IBM-India (6 publications), Honeywell
+International India Ltd (6 publications), Satyam
+Computers (5 publications), TCS (5 publications), and
+Tata Research Development and Design Centre (4
+publications).
+Indian Institute of Information Technologies: IIITHyderabad (6 publications).
+Research Institutes: TIFR Bombay (13 publications),
+IMS Chennai (12 publications) and Chennai
+Mathematics Institute (7 publications).
+Colleges: Madras Christian College (5 publications).
+The most productive Indian authors participating in
+computer theory research were: B.K. Sikdar (Bengal
+Enginering and Science University.; 17 publications);
+P.P. Chaudhuri (N.S. Engineering College, Calcutta, 11
+publications); S.C. Nandy (ISI-Kolkata, 10 publications);
+N. Ganguly (IIT-Kharagpur, 10 publications); B.B.
+Bhattacharya (ISI-Kolkata, 10 publications); S. Das, ISIKolkata, 9 publications); S.N. Krishna (IIT-Bombay, 9
+publications); P. Maji (ISI-Kolkata, 8 publications);
+S. Chattopadhyay (IIT-Kharagpur, 7 publications); and
+K. Krithivasan (IIT-Chennai, 7 publications).
+42
+
+The major journals contributing to computer theory
+research
+were:
+IETE
+Journal
+of
+Research
+(13
+publications);
+Fundamental
+Informaticae
+(11 publications); Theoretical Computer Science
+(9 publications); Lecture Notes in Computer Science
+(8 publications); Information Processing Letters
+(7
+publications);
+Pattern
+Recognition
+Letters
+(7 publications); Electronic Notes in Theoretical
+Computer Science (6 publications); Signal Processing (6
+publications);
+Information
+Technology
+Journal
+(5 publications); and IEEE Transaction on Systems,
+Man and Cybernetics, Part B (5 publications).
+These 504 Indian publications in computer theory
+received 1216 citations (since their publication till
+February 2010) with an average citation of 2.41 per
+paper. Of these total 504 publications, 251 received, 1
+and more citations: 217 publications in citations range of
+1-9; 22 publications in citation range of 20 to 29; 8
+publications in citations range of 20-29; 3 publications in
+citations range of 30-39; and 1 paper in citations range
+of 40-49.
+The top 20 high-cited Indian publications on
+computer theory received 16 to 47 citations. Of these 20
+high-cited publications, 17 were articles, 2 conference
+papers and 1 review paper. Among these 20 high-cited
+publications, 11 involved international collaboration (8
+bilateral and 3 multilateral), 3 national collaborations
+while 6 have no collaboration). Fifteen Indian
+organisations involved in these 20 high-cited publications
+were: ISI-Kolkata (7 publications); IISc-Bengaluru (4
+publications); IIT-Bombay (3 publications); IIT-Kharagpur
+(1 paper); IIT-Guwahati (1 paper); IIT-Delhi (1 paper);
+Jadavpur University (1 paper); University of Kalyani (1
+paper); Bengal Engineering and Science UniversityHowrah (1 paper); IMC-Chennai (1 paper); Chennai
+Mathematical Institute (1 paper); Wipro Technologies (1
+paper); Strand Genomics (1 paper); Price Waterhouse
+Coopers-Calcutta (1 paper) and Delsoft India Pvt
+Limited-Noida (1 paper). These 20 high-cited
+publications were published in 17 journals, including 2
+publications in IEEE Transactions on Systems, Man and
+Cybernetics, Part B, and 1 paper each in 16 other
+journals.
+
+5.2.2 Software Engineering
+The total Indian research output in software
+engineering comprised 516 publications during 19992008. Of the total publications, 310 were published as
+conference publications, 197 as articles, 7 as reviews,
+and 2 as editorials. The number of Indian publications in
+software engineering increased from 96 during 1999-03
+to 420 during 2004-08, showing a growth rate of 337.5
+per cent. Of the total Indian publications on software
+engineering, 18.80 per cent (97 publications) appeared
+DESIDOC J. Lib. Inf. Technol., 2010, 30(6)
+
+as internationally collaborative. The share of
+international-collaborative publications on software
+engineering increased from 16.67 per cent
+(16 publications) during 1999-03 to 19.28 per cent
+(81 publications) during 2004-08. The h-index of the total
+Indian publications on software engineering during 199908 was 16. The average citation per paper on a threeyear citation window registered by the 516 publications
+was 1.24. The average citation per paper decreased from
+2.04 during 1999-03 to 1.06 during 2004-08.
+The major Indian institutions contributing to software
+engineering research were:
+Institutes of National Importance: IIT-Kharagpur
+(25 publications), IISc–Bengaluru (24 publications), IITDelhi (19 publications), IIT-Bombay (18 publications), IITKanpur (17 publications), IIT-Madras (11 publications)
+and IIT-Roorkee (11 publications);
+Universities/Deemed Universities: University of Delhi (17
+publications), Annamalai University (15 publications),
+GGS Indraprastha University (14 publications), Jadavpur
+University (11 publications), Guru Nanak Dev University
+(8 publications), BITS-Pilani (6 publications), and Thaper
+University (6 publications).
+NIT/RECs: NIT-Jamshedpur (9 publications), Motilal
+Nehru NIT (7 publications) and NIT-Kurukshetra
+(5 publications).
+Industry: Infosys Technologies (20 publications), IBMIndia (13 publications), TCS (11 publications), Microsoft
+(9 publications) and Tata Research Development and
+Design Centre (8 publications).
+Select Engineering Colleges-Dhirubhai Ambani Institute
+of Information and Communication Technology
+(7 publications) and Basaveshwar Engineering College
+(5 publications).
+The most productive Indian authors participating in
+software engineering research were: P. Jalote (IIT-Delhi,
+13 publications); R. Mall (IIT-Kharagpur, 11 publications);
+Y. Singh (GGS Indraprastha University, 7 publications);
+S.S. Manvi (IISc-Bengaluru, 7 publications); A. Konar
+(Jadavpur University, 7 publications); S. Ramesh
+(General Motors, 6 publications); S.K. Rajamani
+(Microsoft, 6 publications); S.K. Aggarwal (IIT-Kanpur,
+6 publications); S. Bhattacharya (NIT-Durgapur,
+5 publications); and G.V. Uma (Annamalai University,
+5 publications).
+The major journals contributing to software
+engineering research by Indian scholars were: Lecture
+Notes in Computer Science including subseries Lecture
+Notes in Artificial Intelligence and Lecture Notes in
+Bioinformatics (34 publications, IEEE Software
+DESIDOC J. Lib. Inf. Technol., 2010, 30(6)
+
+(15 publications), IETE Journal of Research
+(10 publications), Information Technology Journal
+(8 publications), Information and Software Technology
+(8 publications), Advances in Software Engineering
+(7 publications), Electronic Notes in Theoretical
+Computer Science (6 publications), Journal of Object
+Technology (6 publications), Wwseas Transaction on
+Computers (6 publications), and International Journal of
+Automation and Computing (5 publications).
+These 516 Indian publications on software
+engineering received 1172 citations (since their
+publication till February 2010) with an average citation
+per paper of 2.27. Of these 516 publications, 180
+received one or more citations: 159 in citations range of
+1-9; 19 in citation range of 20-29; 5 in citations range of
+20-29; 2 in citations range 30-39; 3 in citations range
+651-100, and 1 in citation range of 100-199.
+The top 20 high-cited publications on software
+engineering received citations from 13 to 106. Of these
+20 high-cited publications, 17 were articles, 2
+conference publications, and 1 a review paper. Among
+these 20 high-cited publications, 9 involved international
+collaborations (8 bilateral and 1 multilateral), 1 national
+collaboration, while 11 have no collaboration. Seventeen
+Indian organisations were involved in these 20 high-cited
+publications including 3 publications from IIM-Bengaluru,
+and 2 publications each from IISc-Bengaluru, Infosis
+Technologies Limited, and Tata Research Development
+and Design Centre, Pune. These 20 high-cited
+publications were published in 18 journals including 8
+publications in IEEE Software and 2 publications each
+in Information and Software Technology, and IEEE
+Transactions on Software Engineering.
+
+5.2.3 Database Management System
+The total Indian research output in database
+management system comprised 543 publications during
+1999-08. Of the 543 publications, 288 were published as
+conference publications, 250 as articles, 3 as reviews,
+and 1 each as editorial and a letter. The number of
+Indian publications on database management system
+increased from 133 in 1999-03 to 410 in 2004-08,
+showing a growth rate of 208.27 per cent. Of these
+publications, 23.02 per cent (125 publications) appeared
+as internationally collaborative. The share of
+international-collaborative publications decreased from
+30.82 per cent (41 publications) in 1999-03 to 20.49 per
+cent (84 publications) in 2004-08. The h-index of the
+total Indian publications during 1999-08 was 23. The
+average citation per paper registered by the 543
+publications in database management system was 1.90.
+The average citation per paper on software engineering
+on a three-year citation window decreased from 2.86
+during 1999-03 to 1.59 during 2004-08. The major
+43
+
+institutions contributing
+system research were:
+
+to
+
+database
+
+management
+
+Institutes of National Importance: IISc-Bengaluru (55
+publications), ISI-Kolkata (49 publications), IIT-Delhi (44
+publications), IIT-Bombay (23 publications), IITKharagpur
+(22
+publications),
+IIT-Roorkee
+(21
+publications), IIT-Madras (15 publications), IIT-Guwahati
+(6 publications), and IIM-Calcutta (4 publications).
+Universities/Deemed Universities: Annamalai University
+(16 publications), Jadavpur University (10 publications),
+University of Calcutta (7 publications), University of
+Hyderabad (7 publications), Jamia Millia Islamia
+(6 publications), University of Mysore (5 publications),
+University of Delhi (5 publications), Bengal Engineering
+and Science University (3 publications), and Thaper
+University (3 publications).
+NIT/RECs: NIT-Surathkal (7 publications) and NITJamshedpur (4 publications) (5 publications).
+Industry: IBM-India (16 publications), Microsoft (11
+publications), Alcatel-Lucent-Bell Lab (6 publications),
+and Infosys Technologies (4 publications).
+IIndian Institutes of Information Technologies: IIITHyderabad (14 publications) and IIIT-Allahabad (4
+publications).
+Research Institutes: TIFR-Bombay (7 publications) and
+MIS-Chennai (7 publications).
+Select Engineering Colleges:
+Technology (5 publications).
+
+PSG
+
+College
+
+of
+
+The most productive Indian authors participating in
+database management system research were: P. Jalote
+(IIT-Delhi, 13 publications); R. Mall (IIT-Khar,
+11 publications); Y. Singh, (Guru Gobind Singh
+Indraprastha University, 7 publications); S.S. Manvi
+(IISc-Bengaluru, 7 publications); A. Konar (Jadavpur
+University, 7 publications); S. Ramesh (General Motors,
+6 publications); S.K. Rajamani (Microsoft, 6
+publications); S.K. Aggarwal (IIT-Kanpur, 6 publications);
+S. Bhattacharya (NIT-Durgapur, 5 publications); and G.V.
+Uma (Annamalai University, 5 publications).
+The major journals contributing to database
+management system research by Indian scholars were:
+Lecture Notes in Computer Science including subseries
+Lecture Notes in Artificial Intelligence and Lecture Notes
+in Bioinformatics (80 publications, Bioinformatics (14
+publications), IETE Journal of Research (10
+publications), Pattern Recognition (8 publications), IEEE
+Transaction on Knowledge and Data Engineering (6
+publications), Information Technology Journal (6
+publications), Information Sciences (5 publications),
+ACM Transaction on Database Systems (5
+44
+
+publications), Data and Knowledge Engineering (5
+publications), and SIAM Journal of Computing (5
+publications).
+These 543 Indian publications on database
+management system received 2510 citations (since their
+publication till February 2010) with an average citation
+per paper of 4.62. Of these 543 publications, 278
+received one or more citations: 218 in citations range of
+1-9; 36 in citation range of 10-19; 7 in citations range of
+20-29; 4 in citations range 30-39; 2 in citations range 4049; 8 in citation range of 50-99; and 3 in citation range of
+100-199.
+The top 20 high-cited publications in database
+management system have received citations from 28 to
+177. Of these 20 high-cited publications, 17 publications
+are published as articles and 3 as conference
+publications. Among these 20 high cited publications, 9
+involve international collaboration (7 bilateral and 2
+multilateral), 2 national collaboration while 9 involve zero
+collaboration). Thirteen Indian organisations are involved
+in these 20 high-cited publications including
+5 from ISI-Kolkata, 3 publications from IIT-Bombay and 2
+publications each from Annamalai University, IIScBengaluru, IIT-Delhi, and IIT-Kharagpur. These 20 highcited publications were published in 14 journals,
+including 4 in Bioinformatics and 2 in IEEE Transactions
+on Neural Networks.
+
+5.2.4 Internet and Multimedia
+The total Indian research output in Internet and
+multimedia comprised 1499 publications during 19992008. Of these 1499 publications, 1002 were published
+as conference publications, 464 as articles, 25 as
+reviews, and 18 as editorials. The number of publications
+on Internet and multimedia increased from 198 during
+1999-03 to 1301 during 2004-08, showing a growth rate
+of 557.07 per cent. Of the total publications, 20.15 per
+cent (302 publications) appeared as internationally
+collaborative. The share of international collaborative
+publications in Internet and multimedia decreased from
+36.87 per cent (73 publications) during 1999-03 to 17.60
+per cent (229 publications) in 2004-08. The h-index of
+the total publications in Internet and multimedia during
+1999-08 was 31. The average citation per paper on
+Internet and multimedia on a three-year citation window
+registered by the 1499 publications was 4.41. The
+average citation per paper increased from 3.99 during
+1999-03 to 4.68 during 2004-08. The major Indian
+institutions contributing to Internet and multimedia
+research were:
+Institutes of National Importance: IISc-Bengaluru (88
+publications), IIT-Delhi (66 publications), IIT-Madras (64
+publications), IIT-Bombay (58 publications), IITKharagpur (51 publications), IIT-Kanpur (31 publications),
+DESIDOC J. Lib. Inf. Technol., 2010, 30(6)
+
+ISI-Kolkata (29 publications), IIT-Roorkee (25
+publications), IIM-Calcutta (15 publications) and IITGuwahati (11 publications).
+Universities/Deemed Universities: Annamalai University
+(96 publications), Jadavpur University (25 publications),
+Aligarh Muslim University (15 publications), University of
+Hyderabad (13 publications), University of Delhi (11
+publications), West Bengal University of Technology (9
+publications) and BITS-Pilani (8 publications).
+
+per paper of 2.67. Of these 1499 publications, 504
+received one or more citations: 409 publications in
+citations range of 1-9; 50 publications in citation range of
+10-19; 13 publications in citations range of 20-29; 8
+publications in citations range 30-39; 7 publications in
+citations range 40-49; 14 publications in citation range of
+50-99; and 3 papers on citation range of 100-199.
+
+Indian Institute of Information Technologies: IIITHyderabad (19 publications).
+
+The top 20 high-cited publications on Internet and
+multimedia received citations from 49 to 176. Of these
+20 high-cited publications, 15 were published as
+articles, 2 as reviews and 3 as conference papers.
+Among these 20 high-cited publications, 12 were
+international collaborations (8 bilateral and 4
+multilateral), 2 national collaborations, while 7 as no
+collaboration). Eighteen Indian organisations were
+involved in these 20 high-cited publications including 3
+publications each from Indian Institute of Science,
+Bengaluru and IMTECH-Chandigarh, and 2 publications
+each from IIT-Bombay, IIT-Delhi, and ISI-Kolkata. These
+20 high-cited publications were published in 13 journals
+including 6 publications in Bioinformatics.
+
+Research Institutes: TIFR-Bombay (9 publications).
+
+5.2.5 Artificial Intelligence
+
+The most productive authors participating in Internet
+and multimedia research were: R. Rastogi (Yahoo LabsBengaluru, 18 publications); K. Ramamritham (IITBombay, 16 publications); S.S. Manvi (Reva Institute of
+Technology
+and
+Management-Bengaluru,
+13
+publications); P. Venkataram (IISc-Bengaluru, 13
+publications); A. Kumar (IBM Research Laboratory-New
+Delhi University, 13 publications); V. Vaidehi (Madras
+Institute of Technology-Chennai, 13 publications); D.
+Mukhopadhyay (Calcutta Business School-Bishnupur,
+12 publications); C. Siva Ram Murthy (IIT-Madras, 11
+publications); A. Nanavati (IBM India Research
+Laboratory-New
+Delhi,
+11
+publications);
+and
+K.R.Venugopal (Visvesvaraya College of Engineering–
+Bengaluru, 11 publications).
+
+The total research output in artificial intelligence
+comprised 2394 publications during 1999-08. Of these
+2394 publications, 1140 were published as conference
+publications, 1205 as articles, 33 as reviews, 6 as
+editorials, 4 as articles in press, 3 each as letters and
+erratums. The number of publications in artificial
+intelligence increased from 508 in 1999-03 to 1806 in
+2004-08, showing a growth rate of 223.79 per cent. Of
+these 2394 publications on artificial intelligence, 23.94
+per cent (342 publications) appeared as internationally
+collaborative. The share of international-collaborative
+publications in artificial intelligence decreased from
+16.14 per cent (82 publications) during 1999-03 to 14.40
+per cent (260 publications) during 2004-08. The h-index
+of the total publications in artificial intelligence during
+1999-08 was 40.5. The average citation per paper
+registered by the 2394 publications on a three-year
+citation window was 2.07. The average citation per paper
+on a three-year citation window decreased from 3.09
+during 1999-03 to 1.79 during 2004-08. The major Indian
+institutions contributing to artificial intelligence research
+were:
+
+NIT/RECs: NIT-Tiruchanapally (22 publications), NITJamshedpur (20 publications) and NIT-Rourkela
+(9 publications).
+Industry:
+IBM-India
+(38
+publications),
+Infosys
+Technologies
+(29
+publications),
+Motorola
+(20
+publications), Bell Lab Res (18 publications), TCS (17
+publications), Samsung Electronics (14 publications)
+and Alcatel-Lucent-Bell Lab (10 publications).
+
+The major journals contributing to research in
+Internet and multimedia were: Lecture Notes in
+Computer Science including subseries Lecture Notes in
+Artificial
+Intelligence
+and
+Lecture
+Notes
+in
+Bioinformatics (138 publications), IETE Journal of
+Research
+(25
+publications),
+Bioinformatics
+(24 publications), Information Technology Journal
+(17
+publications),
+Computer
+Communications
+(15 publications), Computer Networks (10 publications),
+Bell Laboratory Technical Journal (9 publications),
+Multimedia Tools and Applications (8 publications),
+IEEE Journal on Selected Areas of Communication
+(8 publications), and Wseas Transaction on Computers
+(8 publications). These 1499 publications on Internet and
+multimedia received 4004 citations (since their
+publication till February 2010) with an average citation
+DESIDOC J. Lib. Inf. Technol., 2010, 30(6)
+
+Institutes of National Importance: ISI-Kolkata (236
+publications), IIT-Kharagpur (137 publications), IIT-Delhi
+(131 publications), IISc-Bengaluru (125 publications), IITKanpur (98 publications), IIT-Madras (90 publications),
+IIT-Bombay (58 publications), IIT-Roorkee (52
+publications), and IIT-Guwahati (21 publications).
+Universities/Deemed Universities: Jadavpur University
+(101
+publications),
+Annamalai
+University
+45
+
+(99 publications), DEI-Agra (32 publications), University
+of
+Hyderabad
+(23
+publications),
+BITS-Pilani
+(22 publications), Bengal Engineering and Science
+University (20 publications), Banaras Hindu University
+(17
+publications),
+J.N.Technological
+University
+(17 publications), BITS-Mesra (17 publications),
+University of Madras (14 publications), Guru Gobind
+Singh Indraprastha University (15 publications) Aligarh
+Muslim University (15 publications) and Thaper
+University (14 publications).
+NIT/RECs: NIT-Rourkela (39 publications), NITTirchnapally (35 publications), NIT-Jamshedpur (28
+publications) and Motilal Nehru NIT-Allahabad (17
+publications).
+Industry: IBM India Research Laboratory
+publications) and TCS (18 publications).
+
+(20
+
+Indian Institute of Information Technologies: IIITHyderabad (27 publications).
+Select Engineering Colleges: PSG College of
+Technology (38 publications), Thiagarajan College of
+Engineering (31 publications), Rashtreeya Vidaylaya
+College of Engineering (21 publications), Pondicherry
+Engineering College (20 publications), and Sri
+Venkateshwara College of Engineering (20 publications).
+The most productive authors participating in in
+artificial intelligence research were: S.K. Pal (ISIKolkata, 40 publications); S. Bandyopadhyay (ISIKolkata, 37 publications); K. Deb (IIT-Kanpur, 36
+publications); B.Yegnanaryana (IIIT-Hyderabad, 35
+publications); G. Panda (NIT-Rourkela, 24 publications);
+S. Mitra (ISI-Kolkata, 21 publications); U. Maulik
+(University of Kalyani, 20 publications); P.K. Kalra (IITKanpur, 20 publications); A. Ghosh (ISI-Kolkata, 19
+publications); and D.K. Pratihar (IIT-Kharagpur, 18
+publications).
+The major journals contributing in artificial
+intelligence research were: Lecture Notes in Computer
+Science including subseries, Lecture Notes in Artificial
+Intelligence and Lecture Notes in Bioinformatics (185
+publications), IETE Journal of Research (72
+publications), Applied Software Computing Journal (63
+publications), Neurocomputing (40 publications), IEEE
+Transactions on Neural Networks (34 publications),
+IEEE Transaction on Systems, Man and Cybernetics,
+Part B (31 publications), Advances in Modeling and
+Analysis (27 publications), Studies in Computational
+Intelligence (26 publications), Pattern Recognition
+(25 publications) and Journal of Institution of Engineers,
+Part
+CP:
+Computer
+Engineering
+Division
+(23 publications). These 2394 publications in artificial
+intelligence received 12056 citations (since their
+46
+
+publication till February 2010) with an average citation
+per paper of 5.03. Of the total publications on artificial
+intelligence, 1054 received one or more citations: 806 in
+citations range of 1-9; 149 in citation range of 10-19; 45
+in citations range of 20-29; 21 in citations range 30-39;
+10 in citations range 40-49; 20 in citation range of 50-99;
+8 in citation range of 100-199; 3 in citation range of 200299; 1 in citation range of 401-499; and 1 above 2000
+citations.
+The top 20 high-cited publications on artificial
+intelligence received citations from 68 to 2245. Of these
+20 high-cited publications, 19 were articles and 1 review.
+Among these 20 high-cited publications, 5 involved
+international collaborations (4 bilateral and 1
+multilateral), 6 national collaborations, while 9 no
+collaboration). Eleven Indian organisations were involved
+in these 20 high-cited publications including 8
+publications from ISI-Kolkata; 5 publications from IITKanpur; 3 publications from Kalyani Government
+Engineering College; and 2 publications from Indian
+Institute of Science, Bengaluru. These 20 high-cited
+publications were published in 14 journals including 4
+publications in IEEE Transactions on Neural Networks,
+2 publications in Pattern Recognition, 2 publications in
+IEEE Transaction of Systems, Man and Cybernetics,
+Part B, and 2 publications in Evolutionary Computation.
+
+5.2.6 Computer Networks
+The total output in computer networks comprised
+3976 publications during 1999-08. Of these publications,
+2476 were published as conference publications, 1432
+as articles, 43 as reviews, 13 as editorials and 3 as
+letters. The number of publications on computer
+networks increased from 600 during 1999-03 to 3367 in
+2004-08, showing a growth rate of 461.17 per cent. Of
+the total publications on computer networks, 20.19 per
+cent (801 publications) appeared as internationally
+collaborative. The share of international-collaborative
+publications on computer networks decreased from
+32.50 per cent (195 publications) during 1999-03 to
+17.99 per cent (606 publications) during 2004-08. The hindex of the total publications in computer networks
+during 1999-08 was 43. The average citation per paper
+registered by the 3976 publications on a three-year
+citation window was 1.39. The average citation per paper
+decreased from 3.12 during 1999-03 to 1.08 during 200408. The major institutions contributing to computer
+networks research were:
+Institutes of National Importance: IISc-Bengaluru (291
+publications), IIT-Kharagpur (238 publications), IITMadras (227 publications), IIT-Delhi (194 publications),
+IIT-Bombay (173 publications)< IIT-Roorkee (101
+publications), IIT-Kanpur (92 publications), ISI-Kolkata
+DESIDOC J. Lib. Inf. Technol., 2010, 30(6)
+
+(39 publications), IIT-Guwahati (62 publications), and IIMKolkata (39 publications).
+Universities/Deemed Universities: Annamalai University
+(204 publications), Jadavpur University (91 publications),
+BITS-Pilani (38 publications), Jawaharlal Nehru
+University-New Delhi (35 publications), University of
+Delhi (31 publications), Aligarh Muslim University (31
+publications), University of Hyderabad (28 publications),
+Bengal Engineering and Science University (21
+publications), and Jayee University of Information
+Technology (20 publications).
+NIT/RECs: NIT-Jamshedpur (51 publications), NITTirchanapally
+(48
+publications),
+NIT-Rourkela
+(37 publications) and Motilal Nehru NIT-Allahabad
+(19 publications).
+Industry: IBM-India (82 publications), IBM India
+Research Laboratory (74 publications), Infosys
+Technologies Ltd (40 publications), TCS (34
+publications), Motorola (32 publications), Bell Lab
+Research Centre (32 publications), Alcatel0Lucent-Bell
+Lab (26 publications), Honewell International India (26
+publications)
+and
+Samsung
+Electronics
+(20
+publications). IIITs: IIIT-Hyderabad (42 publications), IIITAllahabad (32 publications) and IIIT-Bengaluru
+(21 publications).
+Select Engineering Colleges: Pondicherry Engineering
+College (41 publications), Sri Venkateswar College of
+Engineering (32 publications), PSG College of
+Technology (29 publications), Dhirubhai Ambani Institute
+of Communication and Technology (28 publications),
+NSIT-Delhi (23 publications), Rashtreeya Vidayalaya
+College of Engineering (23 publications), and
+Thiagarajan College of Engineering (20 publications).
+Research Institutes: TIFR-Mumbai (38 publications) and
+C-DAC-Pune (19 publications).
+The most productive authors participating in
+computer networks research were: C.S.R. Murthy (IITMadras, 76 publications); A. Kumar (IISc-Bengaluru, 33
+publications); M. Misra (IIT-Roorkee, 28 publications);
+B.S. Manoj (IIT-Madras, 26 publications); S. Nandi (IITGuwahati, 25 publications); S. Shanmugavel (Annamalai
+University, 24 publications); K. Ramamritham (IITBombay, 24 publications); R. Rastogi (Bell Lab
+Research Centre, 23 publications); V. Vaidehi
+(Annamalai University, 21 publications); and A.K. Sarje
+(IIT-Roorkee, 20 publications).
+The major journals contributing in computer
+networks research are: Lecture Notes in Computer
+Science including subseries, Lecture Notes in Artificial
+Intelligence and Lecture Notes in Bioinformatics
+DESIDOC J. Lib. Inf. Technol., 2010, 30(6)
+
+(296 publications), IETE Journal of Research
+(110 publications), Information Technology Journal
+(76
+publications),
+Computer
+Communication
+(66 publications), Computer Networks (29 publications),
+Wireless Networks (24 publications), IEEE/ACM
+Transaction on Networks (24 publications), IEEE
+Journal on Selected Areas in Communication
+(20 publications), Wireless Personal Communication
+(20 publications) and Photonic Network Communication
+(19 publications).
+These 3967 publications on computer networks
+received 10306 citations (since their publication till
+February 2010) with an average citation per paper of
+2.60. Of the total publications in computer networks,
+1403 have received one or more citations: 1142 in
+citations range of 1-9; 143 in citation range of 10-19; 52
+in citations range of 20-29; 20 in citations range 30-39;
+12 in citations range 40-49; 24 in citation range of 50-99;
+8 in citation range of 100-199; and 2 in citation range of
+200-299.
+The top 20 high-cited publications received citations
+from 70 to 285. Of these 20 publications, 17 were
+published as articles and 3 as reviews. Among these 20
+high-cited publications, 17 involved international
+collaborations (15 bilateral and 2 multilateral) and 4
+national collaborations). Nineteen Indian organisations
+were involved in these 20 high-cited publications
+including 5 publications each from ISI-Kolkata and IITDelhi, 3 publications from from IIT-Madras, and 2
+publications each from BITS-Pilani and Tajas Networks,
+Bengaluru. These publications were published in 13
+journals, including 3 in Wireless Networks and 2 in
+IEEE/ACM Transactions on Networking, IEEE
+Transaction in Communication, IEEE Networks, and
+IEEE Journal on Selected Areas in Communication and
+Computers.
+
+5.2.7 Computer Software
+The total research output in computer software
+comprised 4846 publications during 1999-08. Of these
+publications, 2373 were published as conference
+publications, 2389 as articles, 60 as reviews, 15 as
+editorials and 6 as letters. The number of publications
+on computer software increased from 1074 during 199903 to 3772 during 2004-08, showing a growth rate of
+251.21 per cent. Of the total publications in computer
+software, 19.33 per cent (937 publications) appeared as
+internationally collaborative. The share of internationalcollaborative publications on computer software
+decreased from 24.95 per cent (268 publications) during
+1999-03 to 19.33 per cent (669 publications) during
+2004-08. The h-index of the total publications in
+computer software during 1999-08 was 52. The average
+47
+
+citation per paper registered by the 4846 publications on
+a three-year citation window was 2.06. The average
+citation per paper registered by total publications
+decreased from 3.08 during 1999-03 to 1.77 during 200408. The major institutions contributing to computer
+software research are:
+Institutes of National Importance: IISc-Bengaluru (337
+publications), ISI-Kolkata (297 publications), IIT-Delhi
+(289 publications), IIT-Kharagpur (278 publications), IITMadras
+(229
+publications),
+IIT-Bombay
+(195 publications), IIT-Kanpur (176 publications), IITRoorkee (89 publications), IIT-Guwahati (55 publications)
+and IIM-Kolkata (24 publications).
+Universities/Deemed Universities: Annamalai University
+(166
+publications),
+Jadavpur
+University
+(129 publications), University of Delhi (51 publications),
+Bengal
+Engineering
+and
+Science
+University
+(48 publications), University of Mysore (43 publications),
+University of Hyderabad (41 publications), BITS-Pilani
+(39
+publications),
+University
+of
+Calcutta
+(30 publications), GGS Indraprastha University
+(27 publications), Osmania University (24 publications),
+Aligarh Muslim University (24 publications) and
+Dayalbagh Education Institute-Agra (26 publications).
+NIT/RECs: NIT-Jamshedpur (41 publications), NITRourkela
+(39
+publications),
+NIT-Tiruchiarappali
+(38 publications) and Motilal Nehru NIT-Allahabad
+(34 publications).
+Industry: IBM-India (82 publications), IBM India
+Research Lab (77 publications), Infosys Technologies
+Ltd (57 publications), TCS (35 publications), Microsoft
+(34 publications), IBM Thomas J Watson Research
+Centre (28 publications), Tata Research Development
+and Design Centre-Pune (25 publications), Microsoft
+(23 publications) and Alcatel-Lucent Bell Lab
+(20 publications).
+Indian Institute of Information Technologies: IIITHyderabad (60 publications).
+Select Engineering Colleges: PSG College of
+Technology (51 publications), Pondicherry Engineering
+College (28 publications), NSIT-Delhi (28 publications),
+Rashtreeya Vidayalaya College of Engineering
+(27 publications), Sri Venkateswar College of
+Engineering (25 publications), Thiagarajan College of
+Engineering (22 publications); and Dhirubhai Ambani
+Institute
+of
+Communication
+and
+Technology
+(20 publications).
+Research Institutes: IMS-Chennai (34 publications) and
+TIFR-Mumbai (33 publications).
+
+48
+
+The most productive Indian authors participating in
+computer software research were: S.K. Pal (ISI-Kolkata,
+41 publications); S.N. Sivanandam (PSG College of
+Technology, 32 publications); S. Bandyopadhyay (ISIKolkata, 29 publications); R. Kumar (IIT-Kharagpur, 26
+publications); B.B. Chaudhuri (ISI-Kolkata, 25 publications); S. Sumathi (PSG College of Technology,
+25
+publications);
+P.
+Jalote
+(IIT-Kanpur,
+23
+publications);
+C.S.R.
+Murthy
+(IIT-Madras,
+42 publications); R. Mall (IIT-Kharagpur, 22 publications);
+C.V. Jawahar (IIIT-Hyderabad, 22 publications).
+The major journals contributing to computer
+software research were: IETE Journal of Research (140
+publications), Pattern Recognition (88 publications),
+Pattern Recognition Letters (84 publications),
+Information Technology Letters (54 publications),
+Bioinformatics (41 publications), Lecture Notes in
+Computer Science including subseries Lecture Notes in
+Artificial
+Intelligence
+and
+Lecture
+Notes
+in
+Bioinformatics (38 publications), IEEE Transaction on
+Systems,
+Man
+and
+Cybernetics,
+Part
+B
+(33 publications), Signal Processing (32 publications),
+Studies in Communication Intelligence (29 publications),
+Advances in Modelling and Analysis, Part B
+(27 publications) and Computer Communication
+(25 publications). These 4846 publications on computer
+software received 22579 citations (since their publication
+till February 2010) with an average citation per paper of
+4.66. Of these, 2199 received one or more citations;
+1709 in citations range of 1-9; 293 in citation range of
+10-19; 83 in citations range of 20-29; 36 in citations
+range 30-39; 21 in citations range of 40-49; 41 in citation
+range of 50-99; 11 in citation range of 100-199; 2 in
+citation range of 200-299; 1 in citation range of 401-499;
+and 2 above 2000 citations.
+The top 20 high-cited publications on computer
+software received citations from 89 to 2245. Of these 20
+high-cited publications, 16 were published as articles, 3
+as reviews, and 1 as conference paper. Among these 20
+high-cited publications, 7 involved international
+collaborations (4 bilateral and 3 multilateral), 7 national
+collaborations, while 6 have no collaboration. Fifteen
+Indian organisations involved in these 20 high-cited
+publications were: ISI-Kolkata (6 publications), IIScBengaluru (3 publications), IIT-Kanpur (3 publications),
+IIT-Madras (2 publications) and IMTECH-Chandigarh
+(2 publications). These 17 high cited publications were
+published in 14 journals including 3 in IEEE
+Transactions on neural Network and 2 publications each
+in IEEE Transactions on Pattern Analysis and Machine
+Intelligence, IEEE transaction on Evolutionary
+Computation, and Bioinformatics.
+
+DESIDOC J. Lib. Inf. Technol., 2010, 30(6)
+
+5.2.8 Computer Architecture
+The total research output in computer architecture
+comprised 284 publications during 1999-08. Of these,
+154 were published as conference publications, 126 as
+articles, 3 as reviews, and 1 as editorial. The number of
+publications on computer architecture increased from 76
+during 1999-03 to 208 during 2004-08, showing a growth
+rate of 173.68 per cent. Of the total publications on
+computer architecture, 29.22 per cent (83 publications)
+appeared as internationally collaborative. The share of
+international-collaborative publications in computer
+architecture decreased from 34.21 per cent
+(26 publications) during 1999-03 to 27.40 per cent
+(57 publications) during 2004-08. The h-index of the total
+publications during 1999-08 was 15. The average citation
+per paper in computer architecture registered by the 284
+publications on a three-year citation window was 1.76.
+The average citation per paper increased from 1.70
+during 1999-03 to 1.83 during 2004-08. The major Indian
+institutions contributing on computer architecture
+research were:
+Institutes of National Importance: IISc-Bengaluru (30
+publications), IIT-Bombay (17 publications), IIT-Delhi (17
+publications), IIT-Madras (14 publications), IIT-Kharagpur
+(12 publications), IIT-Kanpur (12 publications), ISIKolkata (6 publications) and IIT-Roorkee (4 publications).
+Universities/Deemed Universities: Annamalai University
+(10 publications), BITS-Pilani (8 publications), Jadavpur
+University (5 publications), Bengal Engn and Science
+University (3 publications), Vellore Institute of
+Technology (3 publications), Behampur University (3
+publications) and West Bengal University of Technology
+(2 publications).
+NIT/RECs: NIT-Tiruchiarapalli (5 publications); Industry:
+IBM-India (9 publications), Infosys Technologies Ltd (9
+publications), IBM India Research Lab (9 publications),
+IBM Research (5 publications), Intel Corporation (4
+publications), Alcatel-Lucent-Bell Lab (3 publications),
+Texas Instruments (3 publications), Tata Res Dev and
+Design Centre,-Pune (3 publications), Samsung
+Electronics (3 publications), Emuzed India Pvt Ltd (2
+publications) and Avisere Inc (2 publications),
+Indian Institute of Information Technologies: IIITHyderabad (4 publications).
+Select Engineering Colleges: Dhirubhai Ambani Institute
+of Communication and Technology (6 publications) and
+Sri Venkateswar College of Engineering (4 publications)
+and Research Institutes: TIFR-Mumbai (3 publications).
+The most productive Indian authors participating in
+computer architecture research were: R. Govindarajan
+DESIDOC J. Lib. Inf. Technol., 2010, 30(6)
+
+(IISc-Bengaluru, 10 publications), K. Ramamritham (IITBombay, 5 publications), T.S.B. Sudarshan (BITS-Pilani,
+5
+publications),
+M.
+Balakrishnan
+(IIT-Delhi,
+5
+publications),
+M.
+Chaudhuri
+(IIT-Kanpur,
+4 publications), P. Jalote (IIT-Kanpur, 3 publications), S.
+Reddy (Tata Research Development and Design Center,
+3 publications), S. Gurunarayanan (BITS-Pilani,
+3 publications), P. Goyal (IIT-Bombay, 3 publications)
+and A. Sarje (III-Roorkee, 3 publications).
+The major journals contributing to computer
+architecture research were: Information Technology
+Journal (6 publications), Journal of Systems
+Architecture (5 publications), Microprocessors and
+Microsystems (4 publications), IBM Journal of Research
+and Development (4 publications), IEEE Transaction on
+Very Large Scale Integration VLSI Systems
+(4 publications), International Journal of Computing and
+Applications (4 publications), IEEE Internet Computing
+(3 publications), IEEE Micro (3 publications), IEEE
+Software (3 publications), Journal of Parallel and
+Distributed Computing (3 publications) and IEEE
+Transactions on Computers (3 publications).
+These 284 publications on computer architecture
+received 946 citations (since their publication till
+February 2010) with an average citation per paper of
+3.33136. Of these publications on computer
+architecture, 136 received one or more citations: 104 in
+citations range of 1-9; 24 in citation range of 10-19; 3 in
+citations range of 20-29; 1 in citations range 30-39; 1 in
+citations range 40-49; and 3 in citation range of 50-99.
+The top 20 high-cited publications on computer
+architecture received citations from 12 to 78. Of these
+publications, 16 were published as articles and 4 as
+conference publications. Among these 20 high-cited
+publications, 14 involved international collaborations (12
+bilateral and 2 multilateral), 2 national collaborations and
+5 have no collaborations). Sixteen Indian organisations
+were involved in these 20 high-cited publications
+including 3 publications from IBM India Research Lab,
+New Delhi, and 2 publications each from IBM
+Engineering and Technology Services, Bengaluru, IITBombay, IIT-Delhi and IIT-Kharagpur. These 20 high-cited
+publications were published in 15 journals; including 3 in
+IBM Journal of Research and Development and 2
+publications each in Journal of VLSI Signal Processing
+Systems for Signal, Image and Video Technology and
+IEEE Micro.
+
+5.2.9 Operating Systems
+The total research output in operating systems
+comprised 169 publications during 1999-08. Of these
+publications, 99 were published as conference
+49
+
+publications, 69 as articles and 1 as a review. The
+number of publications on operating systems increased
+from 33 during 1999-03 to 136 during 2004-08, showing
+a growth rate of 312.12 per cent.
+
+(Microsoft, 3 publications), S. Rajamani (Microsoft) (3
+publications), R. Kumar (IIT-Kharagpur, 2 publications),
+M. Balakrishnan (IIT-Delhi, 2 publications) and S. Hangal
+(Sun Microsystem, 2 publications).
+
+Of the total publications, 23.08 per cent (39
+publications) appeared as internationally collaborative.
+The share of international-collaborative publications in
+operating systems decreased from 30.30 per cent (10
+publications) during 1999-03 to 21.32 per cent (29
+publications) during 2004-08. The h-index of the total
+publications in operating systems during 1999-08 was
+10. The average citation per paper registered by the 169
+publications on a three-year citation window was 1.08.
+The average citation per paper has decreased from 2.00
+during 1999-03 to 0.85 during 2004-08. The major Indian
+institutions contributing to operating systems research
+are:
+
+The major journals contributing to operating
+systems research are: IEEE Transaction on Parallel and
+Distributed Systems (5 publications), Operating
+Systems Review (3 publications), Lecture Notes in
+Computer Science including Subseries Lecture Notes in
+Artificial
+Intelligence
+and
+Lecture
+Notes
+in
+Bioinformatics (3 publications), IETE Journal of
+Research (3 publications), Wseas Transaction on
+Computers (2 publications), Software Practice and
+Experiment (2 publications), Journal of Systems
+Architecture (2 publications), Journal of Parallel and
+Distributed Computing (2 publications), International
+Journal of Parallel Programming (2 publications), IEEE
+Software (2 publications), and IBM Journal of Research
+and Development (2 publications).
+
+Institutes of National Importance: IIT-Bombay (10
+publications), IISc-Bengaluru (9 publications), IIT-Kanpur
+(8 publications), IIT-Delhi (8 publications), IIT-Madras (7
+publications), IIT-Roorkee (6 publications), IIT-Kharagpur
+(5 publications), ISI-Kolkata (4 publications) and IIMBengaluru (2 publications).
+Universities/Deemed Universities: Annamalai University
+(8 publications), University of Hyderabad (3
+publications), Sardar Patel University (2 publications),
+Jadavpur University (2 publications) and University of
+Delhi (2 publications); Industry: BM-India (8
+publications), IBM India Res Lab (5 publications), IBM
+Thomas J Watson Research Center (4 publications),
+Microdoft Research (4 publications), IBM Research (3
+publications), Samsung Electronics (3 publications),
+Grid Logistics Technologies (2 publications), Sun
+Microsystems (2 publications), Hewlett-Packard (2
+publications), Tata Res Dev and Design Centre,-Pune (2
+publications), Intel Corporation (2 publications), Texas
+Instruments (2 publications), Satyam Computers (2
+publications) and Philips Electronics (2 publications),
+Select Engineering Colleges:Dhirubhai Ambani Institute
+of Communication and Technology (2 publications) and
+University College of Engineering, Burla (2 publications),
+GZS College of Engn and Technology (2 publications)
+and Pune Institute of Computer Technology
+(2 publications).
+Research Institutes: C-DAC-Pune (2 publications) and
+BARC-Mumbai (2 publications).
+The most productive Indian authors participating on
+operating systems research were: M. Chaudhuri (IITKanpur, 4 publications), S.K. Nandy (IISc-Bengaluru, 4
+publications), A. Chaudhuri (Microsoft, 3 publications),
+P.P. Chakrabarti (IIT-Kharagpur, 3 publications), D.
+Janakiram (IIT-Madras, 3 publications), P. Naldurg
+50
+
+These 169 publications on operating systems
+received 231 citations (since their publication till
+February 2010) with an average citation per paper of
+1.37. Of the total publications on operating systems, 38
+received one or more citations; 28 in citations range of
+1-9; 7 in citation range of 10-19; 2 in citations range of
+20-29; and 1 in citations range 30-39.
+The top 20 high-cited publications on operating
+systems received citations from 3 to 34. Of these, 15
+were published as articles and 5 were conference
+publications. Among these 20 high-cited publications, 15
+involved international collaborations (14 bilateral and 1
+multilateral), 2 national collaborations while 5 have no
+collaboration). Eighteen Indian organisations were
+involved in these 20 high-cited publications including 3
+publications by IIT-Delhi, and 2 publications each by IITBombay and Tata Research Development and Design
+Centre, Pune. These 20 high-cited publications were
+published in 14 journals, including 2 publications each in
+IEEE Transactions on Parallel and Distributed Systems
+and IEEE Software.
+
+5.2.10 Cryptology
+The Indian research output in cryptology comprised
+177 publications during 1999-08. Of the total
+publications on cryptology, 130 were published as
+conference publications, 45 as articles, and 2 as
+reviews. The number of publications in cryptology has
+increased from 18 during 1999-03 to 159 during 2004-08,
+showing a growth rate of 783.33 per cent. Of the total
+publications, 14.12 per cent (25) appeared as
+internationally collaborative. The share of internationalcollaborative publications decreased from 16.67 per cent
+(3 publications) during 1999-03 to 13.84 per cent (22
+publications) during 2004-08. The h-index of the total
+DESIDOC J. Lib. Inf. Technol., 2010, 30(6)
+
+publications on cryptology during 1999-08 was 9.5. The
+average citation per paper registered by the 177
+publications on a three-year citation window was 1.33.
+The average citation per paper decreased from 2.11
+during 1999-03 to 1.24 during 2004-08. The major Indian
+institutions contributing to cryptology research were:
+Institutes of National Importance: ISI-Kolkata (43
+publications), IIT-Kharagpur (12 publications), IIT-Madras
+(7 publications), IIT-Delhi (5 publications), IISc-Bengaluru
+(3 publications) and IIT-Guwahati (2 publications),
+Universities/Deemed Universities: Annamalai University
+(10 publications), Jadavpur University (6 publications),
+Vellore Institute of Technology (2 publications) and
+Osmania University (2 publications);
+Industry: Infosysis Technologies Limited (5 publications),
+TCS (4 publications), IBM-India (2 publications) and
+Microsoft Research (2 publications).
+Select Engineering Colleges: Sidganga Institute of
+Technology–Tumkar (14 publications), National Institute
+of Engineering, Mysore (4 publications) and
+M.S.Ramaiah Institute of Technology (2 publications).
+Research Institutes: TIFR-Mumbai (3 publications) and
+C-MMACS-Bengaluru (2 publications).
+NITS/RECS: NIT-Warangal (13 publications) and NITCalicut (2 publications).
+The most productive Indian authors participating in
+in cryptology research were: A. Maitra (ISI-Kolkata, 23
+publications); P. Sarkar (ISI-Kolkata, 20 publications);
+B.B. Amberker (NIT-Warangal, 13 publications); N.R.
+Sunitha (Sidganga Institute of Technology-Tumkar, 10
+publications); K.C. Gupta (ISI-Kolkata, 8 publications);
+G. Paul (Jadavpur University, 6 publications); D.
+Mukhopadhyay (IIT-Kharagpur, 5 publications); T.K. Das
+(ISI-Kolkata, 3 publications); N. Nalini (Sidganga
+Institute of Technology, 4 publications); and G.
+Raghavendra (National Institute of Engineering-Mysore,
+4 publications).
+The major journals contributing to cryptology
+research were: Lecture Notes in Computer Science
+including Sub-series Lecture Notes in Artificial
+Intelligence and Lecture Notes in Bio-informatics (44
+publications), IEEE Transactions on Information Theory
+(5 publications), Lecture Notes in Computer Science (4
+publications), Wseas Transaction on Computers (3
+publications), IEICE Transaction on Fundamentals of
+Electronics Communication and Computer Science (2
+publications), Information Technology Journal (2
+publications),
+Computer
+Communications
+(2
+publications), Journal of Institution of Engineers. Part
+CP: Computer Engineering Division (2 publications),
+DESIDOC J. Lib. Inf. Technol., 2010, 30(6)
+
+Theoretical Computer Science (2 publications), and
+Wseas Transaction in Information Science and
+Applications (1 paper)
+These 177 publications on cryptology received 315
+citations (since their publication till February 2010) with
+an average citation per paper of 1.78. Of the total
+publications on cryptology, 58 publications received one
+or more citations: 49 in citations range of 1-9; 6 in
+citation range of 10-19; 1 in citations range of 20-29; 1 in
+citations range of 30-39; and 1 in citations range 50-99.
+The top 20 high-cited publications on cryptology
+received citations from 4 to 58. Of these 20 high-cited
+publications, 14 were published as articles, 5 as
+conference publications, and 1 as a review paper.
+Among these 20 high-cited publications, 4 involved
+international collaboration (4 bilateral), 1 national
+collaboration, while 13 have no collaboration). Ten Indian
+organisations were involved in these 20 high-cited
+publications including 14 publications from ISI-Kolkata.
+These 20 high-cited publications were published in 13
+journals including 4 publications each in Lecture Notes
+in Computer Science and IEEE Transaction in
+Information Theory, and 2 publications in Lecture Notes
+in Computer Science including Sub-series Lecture
+Notes in Artificial Intelligence and Lecture Notes in Bioinformatics.
+
+5.2.11 Computer Hardware
+The research output in computer hardware
+comprised 721 publications during 1999-08. Of these
+publications, 409 were published as conference
+publications, 304 as articles, 6 as reviews, and 1 each
+as editorial and article in press. The number of
+publications on computer hardware increased from 181
+publications during 1999-03 to 540 publications during
+2004-08, showing a growth rate of 190.34 per cent. Of
+these, 22.75 per cent (164 publications) appeared as
+internationally collaborative. The share of international
+collaborative publications in computer hardware
+decreased from 27.62 per cent (50 publications) duing
+1999-03 to 21.11 per cent (114 publications) during
+2004-08. The h-index of the total publications on
+computer hardware during 1999-08 was 18. The average
+citation per paper registered by the 721 publications on
+a three-year citation window was 2.54. The average
+citation per paper decreased from 3.35 during 1999-03 to
+2.27 during 2004-08. The major Indian institutions
+contributing to computer hardware research were:
+Institutes of National Importance: IIT-Bombay (10
+publications), IISc-Bengaluru (54 publications), IITKharagpur (51 publications), IIT-Delhi (41 publications),
+IIT-Madras
+(34
+publications),
+IIT-Bombay
+(31
+publications), IIT-Kanpur (18 publications), IIT-Guwahati
+51
+
+(14 publications), ISI-Kolkata (13 publications) and IITRoorkee (8 publications)
+Universities/Deemed Universities: Annamalai University
+(34 publications), Jadavpur University (17 publications),
+BITS-Pilani (13 publications), Aligarh Muslim University
+(11 publications), Bengal Engn and Science University
+(10 publications), Cochin University of Science and
+Technology (8 publications), Vellore Institute of
+Technology (6 publications), University of Delhi
+(5 publications), Osmania University (6 publications),
+Guru Nanak Dev University (5 publications) and Amravati
+University (4 publications);
+Industry: IBM-India (16 publications), Texas Instruments
+(15 publications), Intel Corporation (12 publications),
+IBM
+Thomas
+J
+Watson
+Research
+Center
+(10 publications), Infosysis Technologies Limited
+(10 publications), IBM India Research Lab-New Delhi
+(9 publications), Tata Res Dev and Design Centre-Pune
+(7 publications) and IBM Research (6 publications).
+Select
+Engineering
+Colleges:
+NSIT-Delhi
+(9
+publications),
+Dhirubhai
+Ambani
+Institute
+of
+Communication and Technology (6 publications), G H.
+Raisoni College of Engineering (6 publications) and Sree
+Venkateswara College of Engineering (5 publications).
+Research Institutes: TIFR-Mumbai (6 publications),
+CEERI-Pilani (5 publications), NPL-Delhi (4 publications)
+and DRDO (4 publications).
+NIT/RECs: NIT–Tiruchirapally (6 publications) and NITRourkela (4 publications).
+Indian Institute of Information Technologies: IIITHyderabad (13 publications).
+The most productive authors participating in
+computer hardware research were: R. Govindarajan
+(IISc-Bengaluru, 12 publications); M.B. Srinivas (IIITHyderabad, 8 publications); S.K. Nandy (IISCBengaluru, 5 publications); S.S. Rajput (ABV Indian
+Institute of Information Technology and ManagementGwalior, 7 publications); I. Chakrabarti (IIT-Kharagpur,
+7 publications); B.B. Bhattacharya (ISI-Kolkata,
+7
+publications);
+S.
+Banerjee
+(IIT-Kharagpur,
+6 publications); P.P. Chakrabarti (IIT-Kharapur,
+6 publications); R. Senani (NSIT-Delhi, 6 publications);
+and M.Balakrishnan (IIT-Delhi, 6 publications).
+The major journals contributing to computer
+hardware research were: IETE Journal of Research (27
+publications), IEEE Transaction on Computer Aided
+Design of Integrated Circuits and Systems (11
+publications), Microprocessors and Microsystems
+(11 publications), Information Technology Journal
+(11 publications), Signal Processing (10 publications),
+52
+
+IEEE Transactions on Very Large Scale Integration
+VLSI System (9 publications), Analog Integrated
+Circuits and Signal Processing (8 publications), Journal
+of System Architecture (8 publications), Journal of VLSI
+Signal Processing System for Signal, Image and Video
+Technology (8 publications) and Journal of Circuits
+System and Communication (7 publications).
+These 721 publications on computer hardware
+received 1491 citations (since their publication till
+February 2010) with an average citation per paper of
+2.07. Of the total publications on computer hardware,
+189 publications received one or more citations: 146 in
+citations range of 1-9; 29 in citation range of 10-19; 4 in
+citations range of 20-29; 2 in citations range 30-39; 4 in
+citations range 40-49; and 4 in citations range 50-99.
+The top 20 high-cited publications on computer hardware
+received citations from 28 to 208. Of these 20 high-cited
+publications, 19 are published as articles, and 1 as a
+review. Among these 20 high-cited publications, 16
+involved international collaboration (11 bilateral and 5
+multilateral), 1 national collaboration, while 3 have no
+collaboration). Fifteen Indian organisations were involved
+in these 20 high-cited publications including 5
+publications from IIT-Delhi, 2 publications each from
+BITS-Pilani, IIT-Bombay, and IIT-Kharagpur. These 20
+high-cited publications were published in 67 journals,
+including 3 publications in IEEE Micro and 2
+publications each in IEEE Software, and IEEE Journal
+on Selected Areas of Communication.
+
+6. SUMMARY AND CONCLUSION
+The cumulative publications output of India in
+computer science comprised 15924 publications during
+1999-08, with average number of publications per year
+as 1592. It increased from 3315 publications during
+1999-03 to 12609 publications during 2004-08,
+witnessing a growth of 280.36 per cent. India’s annual
+average publication growth rate during 1999-2008 was
+28.68 per cent. In terms of impact and quality, the
+average citations per paper registered by India’s
+publications output were 2.10 during 1999-06. The hindex registered by all Indian publications during 199908 was 60. The cumulative collaborative publications
+output accounted for 19.92 per cent in the cumulative
+output of India in computer science. For the sub-fields
+cumulative output in Indian computer science research
+during 1999-08, the maximum research priority (4846
+publications, 30.43 per cent share) is assigned to
+computer software in India during 1999-08, followed by
+computer networks (3967 publications, 24.91 per cent
+share), artificial intelligence (2394 publications, 15.03
+per cent share), cryptology and computer hardware (721
+publications, 4.53 per cent share, each), database
+management system (543 publications, 3.41 per cent
+share), software engineering (516 publications, 3.24 per
+DESIDOC J. Lib. Inf. Technol., 2010, 30(6)
+
+cent share), computer theory (504 publications, 3.17 per
+cent share), Internet and multi-media (499 publications,
+3.13 per cent share), computer architecture (284
+publications, 1.78 per cent share), and operating
+systems (169 publications, 1.06 per cent share). Out of
+11 sub-fields identified above, only 3 sub-fields
+witnessed increase in their activities from 1999-03 to
+2004-08 as reflected in their activity index: computer
+networks (from 72.65 to 107.19), software engineering
+(from 89.37 to 102.79), and operating systems (93.80 to
+101.63). While in the remaining, there is a relative
+decline in publication activity.
+In terms of growth from 1999-03 to 2004-08, the
+maximum growth rate (783.33 per cent) was registered
+by cryptology, followed by Internet and multimedia
+(557.07 per cent), computer networks (461.17 per cent),
+software engineering (337.5 per cent), operating
+systems (312.12 per cent), computer theory (266.67 per
+cent), computer software (251.21 per cent), artificial
+intelligence (223.79 per cent), database management
+system (208.27 per cent), computer hardware (190.34
+per cent), computer architecture (173.68 per cent),
+computer networks (20.19 per cent), and Internet and
+multimedia (20.15 per cent). In terms of h-index value
+during 1999-08, the maximum (52) was registered by
+computer software, followed by computer networks (43),
+artificial intelligence (40.5), Internet and multimedia (31),
+database management system (23), computer hardware
+(18), computer theory (17), software engineering (16),
+computer architecture (15), operating systems (10), and
+cryptology (9.5). In terms of share of international
+collaborative publications during 1999-08, the maximum
+(29.22 per cent) wasregistered by computer
+architecture, followed by artificial intelligence (23.94 per
+cent), operating systems (23.08 per cent), database
+management system (23.08 per cent), computer
+hardware (22.75 per cent), computer theory (19.84 per
+cent), computer software (19.33 per cent), software
+engineering (18.80 per cent), and cryptology (14.12
+per cent).
+The impact and quality of research output under
+various sub-fields was also studied in terms of citations
+received on the three-year citations window during 199908. The maximum impact (4.41) was made by Internet
+and multimedia, followed by computer hardware (2.54),
+artificial intelligence (2.07), computer software (2.06),
+database management system (1.90), computer
+
+DESIDOC J. Lib. Inf. Technol., 2010, 30(6)
+
+architecture (1.76), computer theory (1.45), computer
+networks (1.39), cryptology (1.33), software engineering
+(1.24), and operating systems (1.08). In terms of change
+in citation impact from 1999-03 to 2004-08, the subfields, which have improved their impact were: Internet
+and multimedia (from 3.99 to 4.68) and computer
+architecture (from 1.70 to 1.83). In all other fields, the
+impact has gone down from 1999-03 to 2004-08:
+computer theory (from 1.89 to 1.34), software
+engineering (from 2.04 to 1.06), database management
+(from 2.86 to 1.59), artificial intelligence (from 3.09 to
+1.79), computer networks (from 3.12 to 1.08), computer
+software (from 3.08 to 1.77), operating system (from 2.0
+to 0.85), computer hardware (from 3.35 to 2.27), and
+cryptology (from 2.11 to 1.24). India’s strength and
+weakness as reflected in the analysis of 11 sub-fields of
+computer science gives valuable clues to Indian policy
+makers to plan for future research strategies, and to
+funding agencies to plan resource allocation in specific
+areas of national and global interests, which may be
+more crucial for future development of IT industry in
+India.
+
+REFERENCES
+1. http://www.gatewayforIndia.com/technology/informa
+tionper cent20technology.htmlspx.
+2. http://www.ibef.org/industry/informationtechnology.a spx.
+3. http://en.wikpedia.org/information_Technology_in_
+India.
+4. Ramamritham, Krithi. Computer science research in
+India.http://www.fas.org/nuke/quide/india/agency/
+kriti2.html.
+5. Das, A.K. & Karanjai, A. Institutional distribution in
+computer science research in India: A study.
+Annamalails Lib. Inf. Stud., 2002, 49(1), 23-27.
+6. Gupta, B.M. & Dhawan, S.M. Computer science
+research in India: A scientometric analysis of
+research output during the period 1994-2001.
+DESIDOC Bull. Inf. Technol., 2005, 25(1), 3-11.
+7. Suresh Kumar & Garg, K.C. Scientometrics of
+computer science research in India and China.
+Scientometrics, 2005, 64(2), 121-32.
+
+53
+
+Appendix 1
+
+Keywords used for Searching Publication Data for the following Sub-fields
+Computation Theory
+Finite automata, regular and language or
+expression, context-free) and (grammar or language),
+recursive function, turing machine, time complexity,
+automata theory, computation theory
+
+Software Engineering
+Software and engineering, object-oriented design,
+black box and white box and testing), incremental
+testing, software metrics, software reliability, software
+standard, cocomo, capability maturity model, petri net,
+srs or uml
+
+Database Management Systems
+Database management system, data abstraction,
+data definition language” or “ddl, data dictionary, e-r
+diagram, relational database management system” or
+rdbms, query language, sql” or odl or oql, relational
+calculus, bi-relation or multi relation, join algorithm,
+shadow paging, data ware house, data structure, data
+manupulation language or dml, database task group or
+dbtg
+
+Internet and Multimedia
+Internet programming, html, xml, applete
+programming, http*, web server, search engine, crawler
+technology, Internet robot, web mining, e-commerce,
+web security, user interface style, visual design,
+multimedia, ip address, firewall, Internet
+
+Artificial Intelligence
+Artificial intelligence, production system and
+matching, problem reduction, search space, heuristic
+search, knowledge representation, semantic net, fuzzy
+and (reasoning or logic), neural and (network or
+language), pattern directed search, propositional and
+predicate logic, natural language understanding, vision
+understanding, speech understanding, genetic algorithm
+
+LAN, router, congestion and control, inter and
+connection and network, computer and network),
+Asynchronous and transfer and (mode or switch), client
+and server and (system or comput*), wide area network”
+or WAN, broadband), packet and switch*, socket and
+switch*, optical and connection, gateway* and computer
+and network), data transfer, distributed computing, world
+wide web” or WWW, packet OR circuit) and switch*,
+Internet and protocol, proxy and server, TCP-IP
+
+Computer Software
+Computer AND software, computer simulation,
+computer aided” AND (software OR design), compiler
+design, object oriented program*, real time system, data
+mining, data acquisition, pattern and (matching OR
+recognition), image processing, java programming,
+programming language, software and architecture,
+software and (design or engineering or testing), user
+computer interface, computer graphic, graph theory
+
+Computer Architecture
+Computer architecture, (cisc or risc) and
+architecture, sisd, simd, misd, mimd, instruction
+pipelining, cache memory, virtual memory, interleaved
+memory, shared-memory and architecture, computer
+organi*, instruction format, addressing mode
+
+Operating System
+Operating system, interrupt handling, batchprocessing, multiprogramming, demand paging, cpu
+scheduling, concurrent process, deadlock and
+(prevention or avoidance or detection or recovery), spool
+management, directory structure, file system,
+multiprocessing
+
+Cryptology
+Cryptography and cryptanalysis, (private or public)
+and cryptography, linear cryptanalysis, rsa system,
+digital signature, stream ciphers
+
+Computer Networks
+
+Computer Hardware
+
+Network and protocol, wireless and (comm* or
+network), bandwidth and data, local area network or
+
+Computer and hardware, digital signal processing,
+computer architecture, cmos
+
+54
+
+DESIDOC J. Lib. Inf. Technol., 2010, 30(6)
+
+

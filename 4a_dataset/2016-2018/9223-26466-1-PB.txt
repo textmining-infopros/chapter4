@@ -1,0 +1,253 @@
+DESIDOC Journal of Library & Information Technology, Vol. 36, No. 1, January 2016, pp. 56-61 DOI: 10.14429/djlit.36.1.9223 
+  2016, DESIDOC 
+OPAC Module in Open Source Library Management Software:  
+A Comparative Study   
+Gautam Kumar Sarma 
+Gauhati University Institute of Distance and Open Learning, Assam, Guwahati-781 014 
+E-mail: gkslib@gmail.com 
+AbStrACt 
+A  variety  of  open  source  library  management  software  is  (LMS)  available  in  the  library  arena.  However, only a few of them are fully compatible with latest technological changes and support maximum  technological features. The work focuses only on those open source LMS packages which are available  on the web for download freely and still releasing their updated versions and aims to discuss the OPAC  module in those packages to trace the features and characteristics with special reference to searching  and online services provided through web interface of the said packages. The comparative study is made  from  the  review  of  earlier  studies,  information  from  the  web-pages  of  the  LMS  packages  and  hands- on  practice  in  local  installation  done. The  comparative  study  will  be  helpful  for  library  and  information  professionals who are planning to automate their libraries with open source package and also planning  to provide OPAC facility to their users for better use the library documents.   
+Keywords: Library  automation,  open  source  software,  OSS,  library  management  software,  LMS,  
+  OPAC 
+1.  IntrOduCtIOn 
+Library management software (LMS) is software  that has been developed to handle basic housekeeping  functions  of  a  library. An  LMS  usually  comprises  a  relational  database,  software  to  interact  with  that  database, and two graphical user interfaces, i.e., one  for administrator/staff and other for patrons. Basically,  an LMS has three basic functions to perform inside a  library, referred by Koneru1   ‘Housekeeping Operations’,  ‘Public  Services’,  and  ‘Administrative  Planning  or  Decision Making’. Housekeeping operations include  acquisition of documents, technical processing like  classification  and  cataloguing,  circulation  control,  serials  control,  inter  library  loan  (ILL),  etc.  Public  services include online public access catalogue (OPAC),  suggestions  for  book  purchase,  etc. Administrative  planning  or  decision  making  includes  formation  of  transaction  policies,  customisation  of  LMS,  backup  and  restore  database,  etc. 
+An LMS is also known as integrated library system  (ILS) or integrated library management system (ILMS),  because it separates software functions into discrete  programs  called  modules,  each  of  them  integrated  with  a  unified  interface.  Acquisitions,  circulation,  inter-library  loan  and  cataloguing,  though  separate  functions of the library, are interdependent. Library  software  has  evolved  by  fusing  these  functions  in  to  integrated  library  systems. 
+Webber & Peter2  explained ILS as ‘terms used to  describe the software that operates the circulation,  cataloguing,  public  access  catalogue,  reports,  and  other  modules  that  do  the  work  of  typical  library  operations’.  Modules  in  a  LMS  might  include: (a) Acquisitions (ordering, receiving, accessioning,  
+invoicing  materials,  etc.) 
+(b) Cataloguing  (cataloguing,  indexing  materials,  
+etc.) 
+(c) Circulation (patron management, issue materials  
+to patrons, receiving them back, charge overdue,  
+etc.) 
+(d) Serials  control  (ordering,  receiving,  tracking  
+magazine  and  newspaper  holdings,  etc.) (e) OPAC (public interface of users for search and  
+retrieval) 
+(f) Administration  (administrative  interface  for  the  
+administrators) 
+Library and information centres and open source  software  (OSS)  have  a  common  philosophy,  i.e.,  ‘community first’. According to Daniel Chudnov3, ‘The  library community is largely made up of not-for-profit,  publicly-funded  agencies  which  hardly  command  a  major voice in today's high tech information industry.  As  such,  there  is  not  an  enormous  market  niche  for  software  vendors  to  fill  our  small  demand  for  systems’.  
+Received 4 October 2015, revised 30 November 2015, online published 22 January 2016 
+
+========1========
+
+DJLIT,  VOL.  36,  NO.  1, JANuARy  2016 
+The OSS systems cost nothing or very low cost to  use, whether they have one or one thousand users.  On the other hand, few people are engaged with a  commercial LMS package development, whereas a  large  pool  of  community  developers  are  engaged  with  an  open  source  LMS  package.  Hence,  open  source  LMS  are  seen  as  a  solution  in  the  age  of,  economic  global  meltdown  because  many  libraries  experience  with  commercial  LMS  is  that  they  are  slow  to  evolve  and  expensive  to  upgrade.  Rather  than spending lots of money on commercially-licensed  software and also for their maintenance, such funds  might  be  reallocated  for  training,  hiring,  or  support  needs,  areas  where  libraries  tend  toward  chronic  shortfalls.  In  the  last  few  years,  the  development  of  a  number  of  LMS  products  in  the  open  source  world  has  increased.  One  important  trend  in  these  kinds  of  products  is  the  use  of  web-based  client/ server  architecture.  
+2.  LIterAture revIew 
+A  good  number  of  studies  on  OSS  application  in  libraries  have  been  carried  out  by  various  scholars all over the world. Chudnov3  discussed the  necessity and use of OSS in the field of library and  information science and mentioned that community- based services have made OSS more sophisticated  because  participants  from  all  over  the  world  used  to  give  support  as  programmer,  tester  or  user  to  these kind of software. ‘Koha, Evergreen and PMB  demonstrate  very  active  developer  communities  with  secure  institutional  backing’  mentioned  by  Balnaves4.  
+Breeding5’ provided detailed information regarding  four  open  source  LMS  products,  namely,  Koha,  Evergreen, NewGenLib and OPALS and stated that  these  LMS  products  have  emerged  as  the  most  widely  implemented  and  serve  as  good  examples  of  the  current  state  of  the  art  of  the  open  source  LMS.Madhusudhan & Aggarwal6  examined the various  features and components of web-based online public  access catalogues (OPACs) of IIT libraries in India  with  the  help  of  a  specially  designed  evaluation  checklist.  The  study  explored  different  features  of  web-based  OPACs  in  six  IIT  libraries  in  India. 
+The  quality  of  OSS  in  the  field  of  LIS  is  rising  day  by  day,  because  they  go  through  an  informal  
+table 1. Open source LMS packages 
+developer 
+review  process  by  a  strong  user  community  and  LIS specialists. Open source digital library software,  e-learning  management  and  content  management  software have already dominating upon commercial  software. Salve, Lihitkar & Lihitkar7  focused on the  general  and  specific  features  of  the  some  popular  OSS  packages  used  in  library  activities’. 
+Singh & Sanaman8  provided a detailed comparative  analysis both qualitatively and quantitatively of Koha  and NewGenLib open source LMS.yang & Hofmann9 discussed  advanced  features  of  the  OPACs  of  two  open  source  LMS  packages  (Koha  and  Evergreen)  and  one  proprietary  LMS  package  (Voyager).  The  purpose of the study was to determine which OPAC  of  the  three  LMS  packages  offers  more  in  terms  of  services  and  is  more  comparable  to  the  next- generation  library  catalogue. 
+3.  SCOPe  
+Avanti,  Emlida,  Evergreen,  Koha,  Newgenlib,  OpenBiblio, OPALS-NA, PhpMyBibli, PhpMyLibrary, etc.  are some examples of open source LMS packages7.  Among  all  these  packages,  some  are  available  freely  in  the  web,  and  releases  updated  versions  regularly.  update  and  modification  has  become  stagnant  in  case  of  some  packages  like  Avanti,  Emlida,  PhpMyLibrary,  etc.  It  is  not  uncommon  for  OSS  projects  to  last  only  a  few  years  and  falter,  either  because  of  lack  of  ongoing  patronage  or  lack of take-up; this is certainly evident in the case  of  LMS  open  source  projects4.  Again  OPALS-NA  charges  money  for  the  package,  though  it  is  not  for  the  license  fee,  hence  OPALS-NA  is  not  freely  downloadable from the web. So, those open source  LMS are discussed here on the basis of availability  on  their  own  website  with  no  cost. 
+The packages are mentioned in Table 1 and are  found  online  through  their  own  websites  and  they  are  still  releasing  updated  versions.  The  purpose  of  the  study  is  to  determine  which  OPAC  of  the  LMS packages offer more in terms of services and  is  more  compatible  with  the  recent  technological  advancements.  As  the  sample  only  includes  five  open  source  LMS  packages,  the  study  is  limited  in  scope,  and  the  findings  cannot  be  extrapolated  to  all  open  source  packages. 
+Software and web address 
+Evergreen (http://evergreen-ils.org) Koha  (http://koha-community.org) NewGenLib (www.verussolutions.biz) 
+Georgia Public Library ServiceGNu  GPL 
+Horowhenua Library Trust 
+KIIMP & Verus Solution 
+OpenBiblio (http://obiblio.sourceforge.net)OpenBiblio Development TeamGNu  GPL 
+PhpMyBibli (www.pmbservices.fr) 
+PMB Services 
+57 
+Licence Latest release 
+2.8.3 in Aug, 2015 GNu  GPL 3.20.3 in Aug, 2015 GNu  GPL 3.0.4 in Mar, 2013 
+0.7.2 in Aug, 2014 GNu  GPL & CECILL Licence 4.1.2 in July, 2014 
+
+========2========
+
+SARMA: OPAC MODuLE IN OPEN SOuRCE LIBRARy  MANAGEMENT SOFTWARE PACKAGES 
+4.  MethOdOLOgy  
+Comparison in context to OPAC module of open  source LMS packages means finding how the software  packages  provide  sophisticated  search  facility  to  its  users  along  with  maximum  user  services.  The  following  comparison  is  made  from  the  review  of  earlier  studies;  information  obtained  from  the  web  pages of the LMS packages and hands-on practice  in  locally  installed  systems. All  the  packages  other  than  Evergreen  have  been  installed  locally  for  the  study. On the other hand demo site is used by only  installing  client  application  of  Evergreen. 
+5. reSuLtS And dISCuSSIOnS 
+5.1  development  Information  of  Open  Source  
+LMS 
+The LMS packages are distributed applications,  i.e., programs that run on more than one computer  and  communicate  through  a  network  or  server.  Table 2 gives the development information of open  source  LMS  packages.  The  frequency  of  releasing  updated version is very rapid in case of Evergreen  and  Koha. 
+Evergreen  server  installation  is  done  only  in  Linux  platform  but  client  application  is  platform- independent.  Koha  stopped  developing  windows  binaries,  hence  server  installation  is  done  only  in  Linux platform but client application can be opened  through web browser so it is platform-independent.  Openbiblio  and  PhpMyBibli  server  installation  is  platform-independent  and  client  application  can  be  opened  through  web  browser  so  it  is  platform  independent. NewGenLib server and client installation  both  are  platform-independent.  
+5.2  Functional  Modules  
+An  LMS  package  has  different  management  modules to perform different functions used within the  library. The modules are considered by the workflow  in a typical library. Looking at the different functional  modules  (Table  3),  Koha  provides  a  total  solution  
+for all of its functional modules. On the other hand,  Evergreen and NewGenLib also support most of the  functional modules, but Evergreen does not support  inter  library  loan  functionality  and  in  NewGenLib.   one cannot manage multiple libraries from a single  server.  In  Koha  and  Evergreen,  multiple  libraries  can  be  added  and  hence,  one  can  manage  more  than  one  library  with  a  single  server  installation.  
+5.3  OPAC  Module  
+The OPAC of the LMS enables users to search  the library’s collection and take advantage of online  services. Basic functionality of the module includes  the  ability  for  users  to  perform  searches  to  view  the  information  and  status  of  any  given  item.  Most  LMS  packages  have  the  facility  of  patron  login,  book  suggestion,  book  reserve  or  hold,  and  other  similar  services  in  their  OPAC  functionality. 
+5.3.1  State-of-the-Art  Web  Interfaces  of  OPAC 
+All the five OPAC interfaces have the Google-like  simplicity in presentation. All of the user interfaces  table  3.  Functional  modules  in  open  source  LMS  
+ packages 
+Functional  ever- modules green Administration yes Acquisition yes Cataloguing yes Circulation yes Authorities yes Reports gen- yes eration 
+Serial control yes Inter library  No loan 
+OPAC and We- yes bOPAC 
+Manage mul- yes tiple libraries 
+Koha new- 
+genLib yes yes yes yes yes yes yes yes yes yes yes yes 
+Open- biblio yes No yes yes No yes 
+PhpMy- bibli yes No yes yes yes yes 
+yes yes 
+yes yes 
+No No 
+yes No 
+yes 
+yes 
+yes 
+yes 
+yes 
+No 
+No 
+No 
+table 2. development information of open source LMS packages 
+development information 1st  release year 
+Latest release year 
+Operating Platform (Server) Operating Platform (Client) Architecture in latest release Backend database 
+Web server 
+Application server/middle layaer Written in language 
+Work in cloud computing 
+evergreen 2006 
+2015 
+Linux 
+Cross Platform N-tier 
+Postgre SQL Apache 
+OpenSRF Perl, C, XuLRunner  yes 
+Koha 2000 2015 Linux 
+Cross Platform 
+2-tier MySQL Apache No Perl yes 
+newgenLib 2005 2013 Cross Platform Cross Platform N-tier Postgre SQL Apache JBoss Java, JDOM yes 
+Openbiblio 2002 2014 Cross Platform Cross Platform 2-tier MySQL Apache No 
+PHP yes 
+PhpMybibli 2003 2014 Cross Platform Cross Platform 2-tier MySQL Apache No 
+PHP yes 
+58 
+
+========3========
+
+DJLIT,  VOL.  36,  NO.  1, JANuARy  2016 
+are customisable. It largely depends on the library to  make the user interface appealing and welcoming to  users. Figures 1-5 show snapshots from each OPAC  modules of the LMS packages. However, there are  a few differences, for example, navigation between  screens  relies  solely  on  the  browser’s  Forward  and  Back  buttons  in  case  of  Koha,  NewGenLib,  OpenBiblio  and  PhpMyBibli,  while  Evergreen  has  internal navigation buttons that more efficiently take  the  user  between  title  lists,  headings  lists,  and  record displays, and between records in a result set.  Four  OPACs  offer  an  advanced  search  page  with  multiple  boxes  for  entering  search  terms;  they  are  Evergreen,  Koha,  NewGenLib,  and  PhpMyBibli. 
+Figure 1. user interface of evergreen. 
+Figure 2. user interface of Koha. 
+Figure 3. user interface of newgenLib. 
+59 
+Figure 4. user interface of Openbiblio. 
+Figure 5. user interface of PhpMybibli. 
+5.3.2  Searching  Facility 
+The  present  day  OPAC  exposes  their  search  functionality  through  two  broad  approaches—basic  search  or  simple  search  and  advanced  search  or  guided search. The basic search option should allow  user to place the search string without defining the  field of search or the system should allow the user  to browse through filed of choices like title, author,  subject,  call  number,  etc. 
+The advanced search usually enhances search  features. The combining of terms from one or more  fields  with  one  or  more  boolean  operators,  phrase  search,  global  search  (any  of  the  words  placed  in  a  search  string),  narrow  search  (all  the  words  placed in a search string), etc., are the key features  expected  in  advanced  search. 
+5.3.3  Display  of  Items  
+It is expected that the search features, irrespective  of  layout,  should  lead  the  user  to  the  appropriate  documents of his/her interest among the open source  LMS  packages.  The  content  of  each  record  varies  with the kind of display and the availability of features  
+
+========4========
+
+SARMA: OPAC MODuLE IN OPEN SOuRCE LIBRARy  MANAGEMENT SOFTWARE PACKAGES 
+like MARC (MAchine-Readable Cataloging) display,  ISBD (International Standard Bibliographic Description)  display, AACR2 (Anglo-American Cataloguing Rules,  Second  Edition)  display,  etc.  However,  a  common  feature  of  all  the  OPAC  is  that  brief  records  are  displayed  showing  the  title,  author,  call  number,  library  and  location,  and  circulation  status,  etc.  In  some the OPAC it is seen that the displayed fields  are  hyperlinked  to  either  the  full  record  or  related  records(s). Author, subject, class number, publisher  name,  etc  are  the  example  of  such  fields. 
+5.3.4  Download  and  Print  Record 
+The  features  of  the  OPAC  are  not  limited  only  to  the  display  of  the  holding  and  status  of  library  documents. It is expected to support the processing  of  the  search  results  according  to  the  need  of  the  user  or  the  library  staff.  Some  of  the  users  may  expect  the  collection  list  in  print  form.  This  leads  software packages to incorporate the printing option  of  the  search  result  in  the  OPAC.  
+Most of the open source LMS packages enable  options  for  download  of  bibliographic  records  in  machine-readable form freely in the OPAC module.  Those  downloaded  records  can  be  imported  to  another  LMS  easily  and  this  can  reduce  human  errors, costs and time associated with cataloguing,  and  the  records  can  be  created  in  a  standardised  way.  
+5.3.5  Patron  Login 
+From the OPAC, patrons can log in and access  their  account  from  where  the  patron  gets  some  facilities like reservation or hold library documents,  pay  fines,  suggest  a  new  document  to  the  library  for purchase, view and change the personal details,  view  the  checked  items,  etc.  
+5.3.6  Web  2.0  Facility 
+Some  open  source  LMS  packages  incorporate  few  web  2.0  features  in  their  OPAC  module.  RSS  (Rich Site Summary, originally RDF Site Summary,  often  called  Really  Simple  Syndication)  is  one  of  such  features  which  are  allowed  in  the  OPAC  to  alert  patrons  with  any  updates  and  additions  for  items  of  interest.  Search  results  can  be  shared  in  social  networking  sites  like  Twitter  or  Facebook  which  is  also  one  of  the  new  functionality  in  the  OPAC  module  of  few  LMS  packages. 
+5.3.7  Linking  Record  to  External  Databases 
+Search results which can be hyperlinked to the  preview  of  the  Google  Books,  Amazon  Books  etc.  are  also  a  new  functionality  of  the  OPAC  module.  Linking  to  the  Google  Books  preview  helps  the  patrons  to  show  the  book  reviews  and  content  summaries  of  the  search  results  before  they  enter  the  stacks. 
+5.3.8  Comparison  of  OPAC  Functionalities 
+Key  functionalities  in  OPAC  are  identified,   comparison  of  the  open  source  LMS  packages  is  done  and  shown  in  Table  4.    
+table  4.  OPAC  functionality  in  open  source    LMS  
+ packages 
+OPAC function- ever- alities green Basic search 1 Advanced  1 search 
+MARC display 1 ISBD display 0 AACR2 display 0 Book jacket  1 display 
+Download/save  1 records 
+Print records 1 Patron login 1 Patrons sugges- 0 tions via OPAC Hold/Reserve via  1 OPAC 
+RSS delivery of  0 search results 
+Share in Social  0 networking sites Google books  0 preview 
+Link to Amazon  0 books 
+Score (out of  8 15) 
+Koha 
+1 1 
+new- Open- genLib biblio 1 1 1 1 
+PhpMy- bibli 1 1 
+1 1 0 1 
+1 0 0 1 
+0 0 0 0 
+0 1 0 0 
+1 
+1 
+0 
+1 
+1 1 1 
+1 1 1 
+0 0 0 
+1 1 0 
+1 
+1 
+0 
+0 
+1 
+1 
+0 
+1 
+1 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+1 
+0 
+0 
+0 
+14 
+10 
+2 
+7 
+6.  COnCLuSIOnS 
+Table 4 provides the summary of the comparisons  in  this  paper.  These  comparisons  show  that  the  Koha  has  fourteen  out  of  the  fifteen  compared  functionalities and comes in the top. Its full-fledged  functionalities include a simple keyword search box,  advance  search,  user  contribution  through  login,  and  RSS  feeds,  linking  search  results  with  social  networking sites and external databases like Google  Books  and  Amazon  Books,  etc.  NewGenLib  falls  into  second  place,  providing  ten  out  of  the  fifteen  compared functionalities including a simple keyword  search  box,  advance  search,  user  contribution  through  login,  and  RSS  feeds,  etc.  Evergreen  and  PhpMyBibli, come in third and fourth, providing eight  out  of  the  fifteen  functionalities  and  seven  out  of  the  fifteen  functionalities  respectively.  OpenBiblio  supports  only  two  functionalities  out  of  fifteen  and  comes  in  last. 
+60 
+
+========5========
+
+DJLIT,  VOL.  36,  NO.  1, JANuARy  2016 
+As  seen  in  the  comparative  study,  Koha  is  a  true  market  leader  among  the  open  source  LMS  products,  as  in  the  words  of  Haravu10   ‘Koha’s  presence  with  support  services  both  in  the  west  and  increasingly  in  developing  countries  will  be  a  serious  challenge’  for  the  other  open  source  LMS  packages.  
+reFerenCeS 
+1. Koneru,  I.  Integrated  library  system:  Selection  
+and  design. DESIDOC  J.  of  Lib.  &  Inf.  Tech., 
+25(5&6),  3-9. 
+2. Webber,  D.  &  Peters,  A.  Integrated  library  
+systems: Planning, selecting, and implementing.  
+Libraries unlimited.  2010. 
+3. Chudnov,  D.  Open  source  library  systems:  
+Getting started. http://www.oss4lib.org/readings/ 
+oss4lib-getting-started.php 
+4. Balnaves, E. Open source library management  
+systems: a multidimensional evaluation. Australian  
+Acad.  &  Resea.  Lib., 39(1),  1-13.    http://www. 
+tandfonline.com/doi/abs/10.1080/00048623.200 
+8.10721320#.Vl01w5fXSxA 
+5. Breeding,  M.  Major  open  source  ILS  products.  
+Library technology reports, 44(8), 16-31. https:// 
+journals.ala.org/ltr/article/view/4618/5454 
+6. Madhusudhan,  M.  &  Aggarwal,  S.  Web-based  
+online  public  access  catalogues  of  IIT  libraries  
+in  India:  An  evaluative  study. Program, 45(4),  
+415-38.  http://www.emeraldinsight.com/doi/ 
+full/10.1108/00330331111182102 
+7. Salve,  A.;  Lihitkar,  S.R.  &  Lihitkar,  R.  Open  
+source software as tools for libraries: An overview.  
+DESIDOC  J.  of  Lib.  &  Inf.  Tech.,  2012,  32(5),  
+381-87. 
+61 
+8. Singh, M. & Sanaman, G. Open source integrated  
+library management systems: Comparative analysis  
+of Koha and NewGenLib. The Electronic Library ,  
+30(6),  809-32.  http://www.emeraldinsight.com/ 
+doi/full/10.1108/02640471211282127 
+9.   y ang, S.Q. & Hofmann, M.A. The next generation  
+library  catalog:  A  comparative  study  of  the  
+OPACs of Koha, Evergreen, and Voyager. Info.  
+Tech. and Lib., 29(3), 141-50. https://ejournals. 
+bc.edu/ojs/index.php/ital/article/view/3139 10. Haravu,  L.J.  Comparison  of  two  open  source  
+integrated library systems (ILS): Koha (version.  
+3.0) and NewGenLib (version. 2.2 beta). http:// 
+www.verussolutions.biz/files/Whitepaper2.doc 
+About  the Author 
+Mr.  gautam  Kumar  Sarma   is  currently  working  as  Assistant  Librarian  at  Gauhati  university  Institute  of  Distance  and  Open  Learning,  Guwahati,  Assam.  He  has  7  years  of  professional  experience  in  the  Distance  Education Institute library. He has to his credit more than  7 research articles published in national and international  journals, seminar and conference proceedings. His areas  of  interest  include:  Open  source  software  for  libraries,  digitization  and  digital  preservation,  etc. 
+
+========6========
+

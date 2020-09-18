@@ -1,0 +1,695 @@
+DESIDOC Journal of Library & Information Technology, Vol. 32, No. 6, November 2012, pp. 506-512
+© 2012, DESIDOC
+
+Cloud Computing and Libraries
+S.Y. Bansode and S.M. Pujar*
+Department of Library and Information Science, University of Pune, Pune-411 007
+*Indira Gandhi Institute of Development Research, Gen Vaidya Marg, Goregaon (East), Mumbai-400 065
+E-mail: sadanand@unipune.ac.in; pujar@igidr.ac.in
+ABSTRACT
+Cloud computing is a new breed of service offered over the internet, which has completely changed the
+way one can use the power of computers irrespective of geographic location. It has brought in new avenues
+for organisations and businesses to offer services using hardware or software or platform of third party
+sources, thus saving on cost and maintenance. In this paper, an attempt has been made to give an overview
+of this technology, initiatives, advantages and disadvantages and the areas in which libraries can deploy this
+technology for providing services and augment the productivity of library staff.
+Keywords: Cloud computing, Web 2.0, libraries
+
+1. INTRODUCTION
+Till recently, and now too many organisations and
+individuals use computers to work alone, inside a
+business or home by investing on hardware, software and
+maintenance. This scenario is slowly changing owing to
+the emergence of new breed of Internet services popularly
+known as Web 2.0, through which now one can use the
+power of computers at a completely different location,
+what it is popularly called as ‘in the cloud’ or ‘cloud
+computing’. There are many synonyms for cloud
+computing such as, ‘on-demand computing’, ‘software as
+a service’, ‘information utilities’, ‘the internet as a
+platform’, and others1. Cloud computing refers to use of
+web for computing needs which could include using
+software applications, storing data, accessing computing
+power, or using a platform to build applications.
+From e-mail, to word processing or photo sharing or
+video sharing one can use products that live in the cloud,
+which are secure, backed-up and accessible from any
+Internet connection. The best live example of this is
+Gmail, which is increasingly used by organisations and
+individuals to run their e-mail services. Google Apps being
+free for educational institutions is widely used for running
+different applications, especially the email services,
+which was earlier run using their own computer servers.
+This has saved cost for the organisations as they pay per
+
+use for applications and services and time for the
+computer staff, which they can invest on running other
+services and need not worry about upgrading, backup,
+compatibility, and maintenance of servers, which is taken
+care of by Google.
+Libraries are using computers for running services
+such as Integrated Library Management Software (ILMS),
+website or portal, digital library or institutional repository,
+etc. These are either maintained by parent organisation’s
+computer staff or library staff. It involves investment on
+hardware, software, and staff to maintain these services
+and undertake backup and upgrade as and when new
+version of the software gets released.
+Library professionals in most cases not being trained
+in maintaining servers find it difficult to undertake some of
+these activities without the support of IT staff from within
+or outside the organisation. Now cloud computing has
+become a new buzzword in the field of libraries, which is
+blessing in disguise to run different ICT services without
+much of a problem as third-party services will manage
+servers and undertake upgrades and take backup of data.
+Even though there are some concerns in using cloud
+services such as privacy, security, etc., some of the
+libraries have already embraced this new technology to
+run some of their services.
+
+Received 18 January 2012, accepted 30 March 2012, online published
+
+506
+
+2. WHAT IS CLOUD COMPUTING
+Cloud computing is a new technology model for IT
+services which many organisations and individuals are
+adopting. It allows them to avoid locally hosting and
+operating multiple servers over an organisation’s network
+and constantly dealing with hardware failure, software
+installation, upgrades, backup and compatibility issues
+and also enables them to save cost. In other words, it
+refers to “the delivery of computing as a service rather
+than a product, whereby shared resources, software, and
+information are provided to computers and other devices
+as a metered service over a network, typically the
+internet”.2 In this model rather than investing on hardware
+and software, organisations buy and pay for the services
+as needed basis. Cloud computing also helps to increase
+the IT requirements quickly and easily to accommodate
+the changes in demand. In other words, it enables
+organisations to add or remove hardware/software as per
+the needs just by requesting the service provider to do so.
+The Christy & Carina3 of Gartner Group define cloud
+computing as ‘a style of computing in which massively
+scalable and elastic IT-enabled capabilities are delivered
+as a service to external customers using Internet
+technologies’. To simplify the concept, cloud computing
+can be defined as ‘simply the sharing and use of
+applications and resources of a network environment to
+get work done without concern about ownership and
+management of the network’s resources and
+applications’4.
+
+3. TYPES OF CLOUD COMPUTING
+Cloud computing IT model has wider meaning as it
+essentially has three different types of services viz. SaaS,
+PaaS and Iaas.
+
+3.1 SaaS (Software as a Service)
+Saas is popularly known as software on demand. In
+this, applications or software is delivered as a service to
+the end user, who can access the program online using a
+web browser or any other suitable client. Here, service
+provider licenses an application to customers either as a
+service on demand, or through a subscription, in a ‘payas-you-go’ model, or at no charge. Some of such services
+are Google Apps, Salesforce, etc. There is usually little
+customisation or control available with these applications.
+However, subscribers benefit from low initial costs, have
+access to (usually 24/7) support services, and needn’t
+worry about hosting, installing, upgrading, or maintaining
+the software5.
+
+3.2 PaaS (Platform as a Service)
+Cloud computing has evolved to include platforms for
+building and running custom applications, a concept
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+known as ‘platform as a service’ (or PaaS). PaaS
+applications are also referred to as on-demand, Webbased, or software as a service (or SaaS) solutions. In
+this, a computing platform supplies tools and a
+development environment to help organisations to build,
+test, and deploy web-based applications. It helps
+‘organisations not to make investment in the
+infrastructure required for building web and mobile
+applications, but can rent the use of platforms such as
+Windows Azure, Google AppEngine, and Force.com.
+Applications which are built using these provider’s
+services. However, are usually locked into that one
+platform6. This service is delivered the way utilities like
+water and electricity are supplied, users have to simply
+‘tap in’ and take what they need without worrying about
+the complexity. And like a utility, PaaS is based on a
+metering or subscription model so users only pay for what
+they use. With PaaS, one can focus on innovation instead
+of complex infrastructure7.
+
+3.3 IaaS (Infrastructure as a Service)
+IaaS also referred as HaaS or (Hardware as a Service)
+offers both storage and computing power services. It
+delivers computer infrastructure i.e. a platform
+virtualisation environment as a service along with raw
+(block) storage and networking. In this, rather than
+purchasing servers, software, data-center space or
+network equipment, clients instead buy those resources
+as a fully outsourced service. Suppliers typically bill such
+services on a utility computing basis; the amount of
+resources consumed (and therefore the cost) will typically
+reflect the level of activity2. The best example of this
+service is Amazon’s web services viz. Simple Storage
+Services (S3) for data storage and elastic compute cloud
+(EC2) for computing resources. Organisations are using
+Amazon’s web services to host or backup their websites,
+for content delivery, to run high performance computing
+simulations, to host media collections and many other
+services. IaaS is priced on a pay-as-you-go model
+enabling clients to scale up or down the operations
+depending on their needs at any given time and pay only
+for what they use5.
+
+4. CLOUD COMPUTING INITIATIVES
+There are good number of cloud computing initiatives
+undertaken by Amazon, Google, Microsoft and others
+offering various types of cloud computing services for the
+organisations, businesses, and individuals. Some
+services offered by these initiatives are:
+
+4.1 Amazon Web Services (AWS)
+Amazon is perceived as one of the major players in
+the business, offering a wide range of prominent cloud
+computing services such as elastic compute cloud (EC2),
+507
+
+simple storage service (S3), simple DB and simple
+queuing service (SQS). It provides a reliable, scalable,
+low-cost infrastructure platform in the cloud that powers
+hundreds of thousands of businesses in countries around
+the world7. Some of the solutions offered by Amazon
+through cloud computing include application hosting, web
+hosting, backup and storage, enterprise IT, content
+delivery, and databases. To help new users, Amazon also
+offers a free service for a period of one year on all its cloud
+computing services to launch new applications, test
+existing applications in the cloud, or simply gain handson experience with AWS.
+
+4.2 Google Apps
+Google Apps cloud services, a multi-tenant, internetscale infrastructure, offers faster access to innovation,
+superior reliability, and security, and maximum
+economies of scale as compared to on-premises, hosted
+and software plus services technologies8. Google Apps is
+available free for individuals and organisations (limited up
+to 10 user accounts), educational institutions and US
+non-profitable organisations and for a price to businesses
+and organisations. Google apps offer Gmail, Google
+Docs, Google Sites, Google video and other services on
+the cloud. Google Apps helps organisations to move their
+e-mail services, web services and office applications on
+the cloud. In addition to Google Apps, Google also has
+‘Google App Engine’ service, which enables organisations
+and businesses to build and host web apps on the same
+systems that power Google applications. It offers fast
+development and deployment; simple administration, with
+no need to worry about hardware, patches or backups;
+and effortless scalability8.
+
+4.3 Microsoft Windows Azure
+Windows Azure is a cloud platform from Microsoft
+Corporation that empowers organisations to develop and
+run applications with unbounded scalability and ease-ofuse. With this flexible platform one can easily scale up or
+down to meet the demands of business. With the pay-foruse business model, i.e., one is paying for the services
+which are actually used while one is not paying for the
+services which are not used. Windows Azure allows
+developers to develop and run applications quickly, while
+leveraging current skills to develop applications with .NET,
+PHP, or Java9. Some of the scenarios offered by Windows
+Azure for businesses and organisations include SaaS,
+storage, computing, database management etc.
+
+4.4 Rackspace Cloud
+The Rackspace cloud is a cloud computing platform
+that offers three types of services for organisations and
+businesses viz. cloud servers, cloud files and load
+balancers. Cloud servers are available to organisations in
+different sizes and are measured by the amount of
+508
+
+physical memory reserved for an instance and range from
+256 MB up to 30 GB on Operating system of their choice
+to run various web services. Cloud files provides an easy
+to use online storage for organisations to store files and
+media which can be delivered globally using Akamai’s
+content delivery network (CDN). Its third service Cloud
+balancer helps organisations to enhance their server
+capacities and to balance the load factor and this service
+is extended only on-demand10.
+
+5. CLOUD COMPUTING INITIATIVES FOR
+LIBRARIES
+Like all purpose cloud initiatives undertaken by
+giants, there are sizable number of initiatives relevant to
+libraries initiated by organisations and business houses,
+which are in the business of integrated library software,
+digital libraries, search engines, etc. Few major ones are:
+
+5.1 OCLC’s Webscale
+OCLC has set an example for making use of cloud
+computing for libraries. Years together OCLC has been
+functioning as a cloud computing vendor because they
+provide cataloguing tools over the internet and allow
+member institutions to draw on their centralised data
+store11. Now, OCLC has geared to implement the plan of
+library management systems on the cloud in which OCLC
+has web-scale delivery and circulation, print and
+electronic acquisitions, cataloguing and license
+management components. Its worldshare management
+services (WMS) allows libraries to manage entire
+collection management life cycle in a cloud-based
+application. The overall purpose of webscale—sharing
+resources, data, and innovation—is supported by a
+variety of features that work together to save money,
+promote community development and drive better
+services for library users.
+In other words, this will generate cost benefits for
+libraries and efficiencies not possible when utilising
+disparate, specialised systems12. The service promises
+to include privacy, security, scalability and technical
+support.
+
+5.2 Ex-Libris Cloud
+Ex-Libris a leading library software vendor from USA,
+who initially developed most of the current products as
+locally implemented solutions and at a later stage,
+adapted them to a hosted environment. The company’s
+next-generation library system, Alma, was conceived as a
+cloud-based service to transform the traditional
+management of library resources. It besides ensuring
+considerable savings in total cost, involved in the
+implementation of software and the use of a centralised
+cloud service enables libraries to easily influence the
+collaborative efforts of the library community to provide
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+effective services for their users13. To provide worldwide
+cloud-based services; it has opened data centers at
+various locations. The company promises to adhere to
+data security, updates, and standards in implementing
+cloud services to safeguard the interests of customers.
+
+5.3 Duraspace’s DuraCloud
+Duraspace provides open sourse repository solutions
+by undertaking turnkey projects for organisations and
+libraries to enable them to share scholarly literature using
+DSpace and Fedora Commons. It is dedicated in
+sustaining and improving Fedora and DSpace, two of the
+most dominant open source repository solutions. Its new
+service DuraCloud provides digital preservation support
+services in the cloud, which is cost effective and simple
+for libraries. DuraCloud helps libraries to move content to
+the cloud and store it with different service providers to
+eliminate the risk of data loss.
+The cloud solutions offered include online backup,
+preservation and archives, media access, online sharing,
+and cloud broker14.
+
+5.4 OSS Labs
+OSS labs from India is using Amazon’s elastic cloud
+computing platform owing to the various capabilities of
+Amazon such as high durability of data, strong
+information security based on ISO standards, scalability,
+and flexibility. It is expected that the OSS labs will be able
+to provide robust open based solutions to demanding
+customers15. Using Amazon’s cloud services, it is offering
+Koha ILS and DSpace institutional repository hosting and
+software maintenance subscription services for libraries.
+This has enabled cost-saving for libraries and also helping
+library professionals to be free from worrying about
+software updates and maintenance.
+
+6. CLOUD COMPUTING APPLICATIONS IN
+LIBRARIES
+Libraries are in a unique position to experiment with
+cloud computing given their service-oriented mission and
+need to find appropriate solutions using limited
+resources16. According to Fox,11 “one of the key pressures
+that pushes libraries to cloud solutions and proves to be
+an impediment to the migration is the availability of IT
+support services. He also observes that goals and
+policies of organisation might also force libraries in
+making use of cloud computing services”. These factors
+make SaaS and PaaS approaches appealing for libraries.
+However, according to Kroski5, “libraries are experimenting
+with all types of cloud computing services including that of
+infrastructure services, i.e., IaaS”. Libraries are using
+cloud computing in number of areas starting from
+federated search, website hosting, digital libraries, library
+automation, etc. Some of these are:
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+6.1 Automation
+Automation is an area; most of the libraries keen to
+start in order hasten day-to-day operations. Until now,
+automation in libraries is being undertaken on locally
+hosted servers using different types of commercial and
+open source integrated library management software and
+managed either by internal IT or library staff. However, now
+many of the software vendors and third party services
+offering hosting of this service (SaaS approach) on the
+cloud to save libraries from investing on hardware. Apart
+from cost-benefit, the libraries will be free from
+undertaking maintenance such as software updates,
+backup, etc. For example vendors such as Ex-Libris,
+OSS Labs are offering this service on the cloud.
+
+6.2 Digital Library Services
+Digital libraries or institutional repositories have
+become part of modern libraries owing to changing format
+of information. The digital library services are presently
+being offered by libraries mostly using locally hosted open
+source software such as DSpace, EPrints, Fedora
+Commons etc for providing open access to scholarly
+resources. Apart from adding resources, this involve
+libraries to maintain the servers, undertake backup and
+carry on regular updates as and when the new version of
+the software is released thus putting lot of pressure on the
+library or IT staff. To relieve the libraries in undertaking
+this kind work, vendors are now offering digital library
+services on the cloud using SaaS approach. For example
+vendors such as Duraspace, OSS Labs, etc., are offering
+this service.
+
+6.3 Office Applications
+Libraries, at present, use various office applications
+such as word processing, spread sheets, power point
+presentations, etc. using Microsoft Office on the local
+computers. However, now owing to cloud computing there
+are many applications which are made freely available on
+the internet by companies like Google, Microsoft, etc.
+Google Docs, a free office applications suite available on
+the internet may be used in the libraries to undertake
+office operations, which also allows storing and sharing of
+resources with other colleagues, who can remotely work
+on the documents irrespective of their geographical
+location.
+
+6.4 Storage
+Libraries require space to store the electronic files
+and documents. The documents could be official
+correspondence, full text documents, bibliographic
+records, tutorials, etc. At present, these are stored and
+accessed using personal desktops or from servers which
+are locally hosted. The cloud computing has brought in
+plethora of new services, which offer space at no cost to
+509
+
+store the files and documents. For example, Windows
+Sky Drive offers 25 GB to store files and share documents
+online. Similarly, Amazon, DropBox and many more
+initiatives offer storage space on the cloud to enable
+organisations and individuals to store and share their
+documents. Libraries may take advantage of this and
+store some of their documents in order to undertake
+collaborative activities with other libraries. In regard to the
+digital preservation, libraries are making use of services of
+CLOCKSS (http://www.clockss.org/clockss/Home) and
+Portico (http://www.portico.org/digital-preservation/) to
+get permanent access to the subscribed content
+irrespective of the publisher’s existence.
+
+6.5 Search Services
+Libraries have already migrated key services such as
+OpenURL providers, and federated and pre-indexed
+search engines on the cloud either by using commercial
+or open source solutions. For example, hosted Ex-Libris
+SFX Open-URL link resolver service offers libraries to linkup to the subscribed journal full-text articles.
+
+6.6 Website hosting
+Website hosting is one of the earliest adoptions of
+cloud computing as many organisations including
+libraries preferred to host their websites on third party
+service providers rather than hosting and maintaining their
+own servers. This is owing to either organisation’s not
+having the required bandwidth of Internet (with static IPs)
+or technical manpower to maintain the servers. Google
+Sites serves as an example of a service for hosting
+websites outside of the library’s servers and allowing for
+multiple editors to access the site from varied locations.
+
+7. ADVANTAGES AND DISADVANTAGES
+Like any other technology, cloud computing too has
+its advantages and disadvantages as compared to locally
+hosted services.
+
+7.1 Advantages
+
+•
+
+Increased storage
+
+Cloud can hold more storage than a personal
+computer or the servers available in the libraries or
+organisations and it is possible to extend as per the need.
+
+•
+
+Highly automated
+
+The IT or library staff need not have to worry about
+keeping the software up-to-date. The cloud service
+provider takes care of updating software as and when new
+version is released. When the server is updated everyone
+using the service also get access to the new version
+without updating anything on their end17.
+
+•
+
+Flexibility
+
+Cloud computing offers much more flexibility than
+other local network computing systems and saves time
+plus cost for organisations. It is possible for organisations
+like libraries to expand the services anytime, by
+requesting for an additional space on the servers.
+
+•
+
+Better mobility
+
+The staff and the users of the library can connect to
+the library servers from any place or from wherever they
+are, rather than having to remain present at their desks by
+having a PC and Internet access.
+
+•
+
+Shared resources
+
+One of the important components of cloud computing
+is that one can share the resources. It allows people
+within and outside the organisations to have access to the
+resources. A group of libraries can come together and can
+put their resources at one place, which in turn will enable
+them to provide access to more number of resources to
+their end users.
+
+7.2 Disadvantages
+Following are some of the main disadvantages of
+cloud computing:
+
+•
+
+Cost saving
+
+The biggest concerns about cloud computing are
+security and privacy, especially if the organisations are
+dealing with sensitive data such as credit card information
+of customers. If the proper security model is not yet in
+place, then the data stored on the cloud is vulnerable to
+attacks from viruses, theft, etc. In addition to that, since
+the services are offered over the Internet it is very difficult
+to assess the physical location of servers and software
+and security audit is hard to undertake. Also, there is a
+risk of data loss owing to improper backup and systems
+failure.
+
+Easy on installation and maintenance
+
+No longer having to worry about constant server
+updates and other computing issues, organisations will
+be free to concentrate on innovation and the IT staff may
+510
+
+•
+
+Some of the advantages of cloud computing are:
+
+Cloud computing technology is paid incrementally
+thus saving costs for organisations. It offers price savings
+due to economies of scale and the fact that organisations
+such as libraries are only paying for the resources they
+actually use.
+
+•
+
+concentrate on other tasks. There is no need to procure
+any hardware to run the servers.
+
+Data security and privacy
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+•
+
+Network connectivity and bandwidth
+
+Since the cloud computing is offered over the Internet,
+if the connection goes down due to any reason then the
+organisations suffer from loss of data connectivity till the
+time it is set. Also the service requires more bandwidth,
+as it may not work on low-speed Internet connections18.
+
+•
+
+Dependence on outside agencies
+
+modern ICT activities without worrying about technical
+side of it, except adding content of resources. Libraries
+have taken a big leap in adopting this technology
+especially in the West, but surely it will slowly spread to
+developing countries. It is evident from the literature that
+some service providers have already pitched in to help
+libraries to automate and establish digital libraries on the
+cloud.
+
+The cloud services being offered by third party
+services over the Internet, it is virtually difficult to have any
+control on the maintenance levels and the frequency. Also
+it is tough to assess the contingency procedures of the
+service provider in regard to backup, updates, restore and
+disaster recovery. Migration to other service provider is
+also an issue, if the uniform standards are not followed by
+the host.
+
+REFERENCES
+
+•
+
+3. Christy, Pettey & Forsling, Carina. Gartner highlights
+five attributes of cloud computing. 2009. http://
+www.gartner.com/it/page.jsp?id=1035013 (accessed
+on 28/12/2011).
+
+Limited flexibility
+
+Flexibility may be limited in terms of special
+customisation as services on the cloud will be common
+for all the customers.
+
+•
+
+Cost
+
+1. Hayes, B. Cloud computing. Communications of
+ACM, 2008, 51(7), 9-11.
+2. Wikipedia. Cloud computing. http://en.wikipedia.org/
+wiki/Cloud_computing (accessed on 12 December
+2011).
+
+4. Scale, Mark-Shane E. Cloud computing and
+collaboration. Library Hi Tech News, 2009, 26(9), 10-13.
+
+Initially the cost could be higher, but may reduce
+depending on the usage of services. However,
+organisations may end up paying higher charges in the
+future.
+
+5. Kroski, Ellyssa. Library cloud atlas: a guide to cloud
+computing and storage/stacking the tech. Library
+Journal, 2009. http://www.libraryjournal.com/article/
+CA6695772.html (accessed on 15 February 2011).
+
+•
+
+6. Colayer. What is Paas? 2009. http://ex.colayer.com/
+_cached/LINK_whatispaas/LINK_whatispaas.html
+(accessed on 29 December 2011).
+
+Knowledge and integration
+
+Deeper knowledge of cloud computing is essential as
+working of the service is totally dependent on the service
+provider. Similarly, integration is an issue as it will be
+difficult to integrate equipment used in data centers to
+host data with that of peripheral equipments in the
+organisation such as printers, USB drives, etc.
+
+8. CONCLUSIONS
+Cloud computing is a new baby in the computer
+systems technology emerged owing to the developments
+in internet and associated technologies. It is in the
+evolving stage, requires some amount of careful
+considerations before organisations think about hosting
+some of their services. However, this technology has
+certain advantages, which definitely help organisations
+such as libraries in managing their services, which will
+relieve library staff from managing the servers.
+Library professionals many a times find it difficult to
+manage the technologies owing to their skill levels, lack of
+support from IT departments or for not having IT facilities
+within the organisations. This kind of situation always
+hinders library professionals in undertaking automation of
+library activities, developing digital library services, etc.
+Here, cloud computing may help libraries to undertake
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+7. About AWS. 2011. http://aws.amazon.com/what-isaws/ (accessed on 4 January 2011).
+8. Google.com. Google App Engine. 2011. http://
+code.google.com/appengine/ (accessed on 2
+January 2011).
+9. Microsft.com. Cloud Platform. 2011. http://www.mic
+rosoft.com/en-us/cloud/cloudpowersolutions/develo
+pment-and-hosting.aspx?fbid=oaQUdO25BEm
+(accessed on 19 March 2011).
+10. Rackspace.com. The Rackspace Cloud. 2012. http://
+www.rackspace.com/cloud/ (accessed on 1 June
+2011).
+11. Fox, Robert. Libraries in a cloud. OCLC Sys. Serv.,
+2009, 25(3), 156-61.
+12. OCLC. OCLC Worldshare management services.
+2012. http://www.oclc.org/webscale/overview.htm
+(accessed on 6 January 2012).
+13. Kozokin, Sarit. Ex-Libris cloud: Open for business.
+2011. hhttp://www.exlibrisgroup.com/?catid={BC76
+511
+
+D337-FEFA-4603-B827-28AB9F818BDB} (accessed
+on 8 January 2012).
+
+journal.code4lib.org/articles/2510 (accessed on 8
+January 2012).
+
+14. Duracloud.org. Duracloud. 2012. http://www.dur
+acloud.org (accessed on 8 January 2012).
+
+17. Webhostingreport. The advantages of cloud
+computing. 2011. http://www.webhostingreport.com/
+learn/advantages-of-cloud-computing.html (accessed
+on 1 January 2011).
+
+15. OSS Labs. OSS Labs to host its solutions on
+Amazon’s cloud computing platform. 2011, http://
+www.osslabs.biz/news/oss-labs-host-its-solutionsamazons-cloud-computing-platform (accessed on 13
+March 2011).
+16. Mitchell, Erik. Using cloud services for library IT
+infrastructure. Code4Lib Journal, 2010, 9. http://
+
+512
+
+18. Miller, Michael. Cloud computing pros and cons for
+end users. 2009. http://www.informit.com/articles/
+article.aspx?p=1324280&seqNum=2 (accessed on
+20 December 2011).
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+

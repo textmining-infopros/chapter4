@@ -1,0 +1,1244 @@
+DESIDOC Journal of Library & Information Technology, Vol. 30, No. 3, May 2010, pp. 13-22
+© 2010, DESIDOC
+
+Usage and Performance of Various Library Software
+Modules in Engineering Colleges of Karnataka
+K.R. Mulla*, M. Chandrashekara** and V.G. Talawar**
+*
+
+**
+
+HKBK College of Engineering, Bangalore-560 045
+E-mail: krmulla@gmail.com
+
+Department of Studies in Library and Information Science
+University of Mysore, Manasagangotri, Mysore-570 006
+
+ABSTRACT
+In India library automation began in the late 1970s in a few special libraries and has now reached most
+of the university libraries. It has yet to take off in college libraries in Karnataka owing to various problems.
+Many studies on library automation have been undertaken in the developed countries, but few have been
+undertaken in India. This study is a survey of engineering college libraries that have computerised their
+operations and services in Karnataka. The study is limited to the automated libraries of engineering college
+libraries in Karnataka. It gives a status on the software packages used by the various libraries, and opinions
+of the librarians about the performance of the different modules of the software they have used.
+Keywords: Library automation, serial control, Online Public Access Catalogue (OPAC), software modules,
+engineering college libraries, Karnataka.
+
+1. INTRODUCTION
+Library automation, which started in India in late
+1970s in few special libraries, has now reached most of
+the academic libraries.1 Computerisation was started in
+the libraries to increase the efficiency and effectiveness of
+the library operations and services. Development and use
+of information and communication technology (ICT) has
+enabled the libraries not only to offer their clientele the
+appropriate information available within their libraries but
+also provide access to information of other libraries, both
+local and outstations.2 In the current scenario there is a
+greater responsibility on the libraries and information
+centres to provide the latest and timely information to their
+users to facilitate improvement in the quality of education
+in the country and this cannot be done until each
+institution has an efficient library and information
+management systems at its command.3
+Library automation systems are elaborately designed
+and crafted computer applications that require
+considerable programming skills together with an
+extensive knowledge of the functional needs of libraries
+and the exacting standards that are applied in their
+libraries. Software technologies used in library
+Received on 16 November 2009
+
+automation systems include database management
+systems, client-server architecture, search engine
+technology, and, increasingly, software used in webbased applications.4
+
+2. RELATED LITERATURE STUDY
+Most of the literature in this area speculates on the
+integrated library software and their effective use in
+libraries. Design and development activities of library
+software packages began during the mid 1980s in India
+with the promotion of UNESCO’s CDS/ISIS by the
+National Information System on Science and Technology
+(NISSAT). From the experience of its use, some libraries
+and information centres subsequently developed their
+own software. Selection of suitable package is now a
+problem due to lack of good, and up-to-date comparative
+studies. Saxena and Srivastava recommend Sanjay for
+smaller libraries, and Suchika, Granthalaya and Libsys
+for larger ones.5 Another study provides an understanding
+of the challenges confronted by the National Informatics
+Centre (NIC) in the scale and scope of the deployment of
+e-Granthalaya. NIC proposed a web-based online library
+service connecting public libraries in India and integrating
+library services in a “single window access”. There is a
+13
+
+need of a model for the automation, networking, and
+federating of resources for other groups of libraries in
+India.6 Yogendra Singh analysed the various factors that
+directly or indirectly affect the progress of library
+automation such as management issues, resources
+available with the libraries, level of skill of staff, availability
+of suitable software, geographic location, the areas in
+which automation has taken place and role played by the
+INFLIBNET, and found that things were changing for the
+better as library automation in academic libraries is now
+being regarded as an urgent need.7
+Another study, carried out by Husain and Ansari,
+discussed the effectiveness of library services including
+efficient organisation and retrieval of information
+activities.8 Since the application of information technology
+in libraries, one of the greatest challenges before the
+library managers has been the selection of a good library
+automation software, which can cater to the needs of a
+particular library. Authors found that though a number of
+Indian as well as foreign software companies had entered
+the market, only a couple of library automation software
+packages gained success in making their presence felt.
+Their study also discussed the salient features of
+cataloguing module of three such packages, namely,
+Alice for Windows, Libsys, and Virtua and their
+acceptability in a developing nation.8 Harinarayana and
+Raghavan examined the comparative retrieval
+effectiveness of the two packages, viz., CDS/ISIS and
+LibSys. A set of eight well defined parameters were
+employed to compare the two packages. The result
+showed that neither of the two packages provides support
+for all the features expected of an ideal retrieval software.
+They found some significant difference between CDS/ISIS
+and LibSys in terms of their ability to provide desirable
+features; there was a difference of 9.34 per cent in the
+levels of performance of the two packages.9
+Libraries, librarians, and college administrations must
+initiate automation to provide effective and efficient
+services to users. Library professionals must upgrade
+their skills to meet the growing expectations of users from
+libraries. Many studies on library automation have been
+undertaken in the west, but few have been undertaken in
+India. Bansode and Periera tried to identify the status of
+library automation in college libraries of Goa.10 Another
+survey covered various aspects of library automation such
+as information technology infrastructure, in-house
+activities, information services and their usage. Suku and
+Mini briefly described the role of INFLIBNET Centre in
+accelerating the automation activities of university
+libraries, especially in the context of the recently
+introduced UGC-INFONET programme.11 Mukhopadhyay
+discussed the development of library management
+software over the past decades, the characteristics and
+trends of software with special reference to packages
+available in Indian environment and compared services
+and facilities incorporated in library automation packages
+14
+
+available in India against various checklists.12 The
+developments of library management software over the
+years and availability of open source software for library
+management have emerged as viable alternative to
+commercial closed products. Mukhopadhyay found Koha
+as the most feature rich library automation software in the
+domain and report development of Unicode-complaint
+Bengali version of Koha for college libraries and public
+libraries in West Bengal.13 There were many similar
+results in the other studies, however, differences in the
+direction of effects between different studies, attributed to
+different sampling methods or to the methodology
+adopted, should be kept in mind.
+
+3. NEED AND OBJECTIVES OF THE STUDY
+Literature survey showed that there is no detailed
+study carried out on the library software packages in
+engineering college libraries. It was also observed that
+some of the engineering college libraries in Karnataka are
+well equipped and providing better library services to the
+users by using modern library software packages. The
+study was undertaken to collect first-hand data from all
+engineering colleges in Karnataka and present the status
+of their library automation. The study focuses on
+adequacy of library management softwares and brings out
+the inadequacies if any.
+The main aim of the study was to explore the
+problems faced by engineering college libraries in using
+integrated library software packages for automating
+various operations. The specific objectives were:
+±
+
+To know the supportive infrastructure facilities
+available for library automation in engineering college
+libraries.
+
+±
+
+To know which library software was being used by the
+libraries of engineering colleges in Karnataka.
+
+±
+
+To examine the extent of usage and performance of
+various modules of library software in engineering
+colleges of Karnataka.
+
+±
+
+To record the experiences of librarians and library
+staff in accessing these integrated library software.
+
+4. METHODOLOGY
+The opinions of librarians regarding library softwares
+were elicited using a structured questionnaire followed
+with interviews. Opinions on different issues pertaining to
+the library housekeeping operations were sought from the
+respondent libraries. The questionnaires were mailed to
+128 engineering college librarians in the Karnataka. Out of
+these, 102 (79.69 per cent) were received duly filled with
+all the relevant information requested in the questionnaire.
+However, geographically the scope of the study is limited
+to colleges located in the state of Karnataka only.
+DESIDOC J. Lib. Inf. Technol., 2010, 30(3)
+
+Table 1 gives the list of all engineering colleges
+covered under the study. A five-point scale was used to
+measure the opinions of the respondent librarians.
+Hierarchical cluster for variables-cluster method-Ward’s
+method, dendogram were also used for analysing the
+data. The SPSS 15.0 for Windows evaluation version was
+used for statistical analysis.
+
+5. ANALYSIS OF DATA AND DISCUSSION
+5.1 Details of Questionnaires Distributed to
+Librarians and Responses Received
+The study received 102 (79.69 per cent) completed
+responses from librarians of engineering college libraries
+
+Table 1. List of engineering colleges under study
+Acharya Institute of Technology
+
+SJB Institute of Technology
+
+Atria Institute of Technology
+
+SJC Insti tute of Technology
+
+Acharya Patasala College of Engineering
+
+Sambhrama Institute of Technology
+
+Alpha College of Engineering
+
+Saptagiri College of Engineering
+
+AMC Engineering College
+
+Siddag anga Institute of Technolog y
+
+Amritha School of Engineering
+
+Sir MV In stitute of Technology
+
+BMS College of Engineering
+
+Sri Chan nabasveswara Institute of Technology
+
+BMS Institute of Technology
+
+Sri Krishn a Institute of Technology
+
+BNM Institute of Technology
+
+Sri Siddhartha Institute of Technolog y
+
+BTL Institute of Technology
+
+Sri Venka teshwara College of Engineering
+
+Bangal ore Institute of Technology
+
+Sridevi Institute of Engg. & Technolo gy
+
+Basava Academy of Engineering
+
+The Oxford College of Engineering
+
+C M R Institute of Technology
+
+UV College of Engineering
+
+City En gineering College
+
+Vemana Institute of Technology
+
+Dayana da Sagar College of Engineering
+
+Vivekan anda Institute of Technolog y
+
+Don Bosco Institute of Technology
+
+Yellamma Dasappa Institute of Technology
+
+Dr Ambedkar Institute of Technology
+
+Anjuman Engg. College for Men
+
+East Point College of Engineering
+
+BLDEA's College of Engg. & Technology
+
+East-West Institute of Technology
+
+BVB Co llege of Engg. & Technology
+
+Global Academy of Technology
+
+Gogte Institute of Technology
+
+Golden Valley Institute of Technology
+
+Hirasuga r Institute of Technology
+
+HKBK College of Engineering
+
+KLE Society's College o f Engineering
+
+HMS Institute of Technology
+
+K Law Society's VD Rural Int. of Technology
+
+Impact College of Engineering & App lied Science
+
+SDM Col lege of Engg. & Technology
+
+JSS Academy of Technical Education
+
+SECAB Institute of Engineering & Technology
+
+K N S Institute of Technology
+
+Smt KS VM Agadi College of Engg & Technology
+
+KS Institute of Technology
+
+Sri Tontadarya College of Engineeri ng
+
+Kalpataru Institute of Technology
+
+Sri BVVS 's Basaveshwa r Engg. College
+
+MS Eng ineering College
+
+PDA College of Engineering
+
+MS Ramaiah Institute of Technology
+
+Appa In stitute of Engg. & Technology
+
+MVJ Co llege of Engineering
+
+Basava Kalyan Engg. College
+
+Nagarjuna College of Engineering & Technology
+
+Bellary E ngineering College
+
+New Ho rizon College of Engineering
+
+Guru Nanak Dev Engineering Colle ge
+
+NITTE Meenakshi Institute of Technology
+
+KBN College of Engineering
+
+PES Institute of Technology
+
+KCT Engineering College
+
+PES Sch ool of Engineering
+
+Prouda devaraya Institute of Techno logy
+
+RLJ Institute of Technology
+
+Rural En gineering College
+
+RNS In stitute of Technology
+
+Nationa l Institute of Engineering
+
+RV College of Engineering
+
+Adichunchanagiri Institute of Techn ology
+
+Rajeev Gandhi Institute of Technology
+
+Bahuba li College of Engineering
+
+Reva In stitute of Engineering & Tech nology
+
+Bapuji In stitute of Engg. & Technology
+
+Revana Sidd. Institute of Technolog y
+
+BGS In stitute of Techology
+
+SB Mah avir Jain College of Engineering
+
+Coorg Institute of Technology
+
+DESIDOC J. Lib. Inf. Technol., 2010, 30(3)
+
+15
+
+Table 3. Electronic gadgets and other
+accessories in libraries
+
+GSSS In stitute of Engg. & Tech. for Women
+GM Institute of Technology
+
+Description
+
+No. of college Percentage
+libraries
+n=102
+
+JNN College of Engineering
+K VG College of Engineering
+
+Compute rs
+
+Malnad College of Engineering
+
+Pentium-IV
+
+78
+
+76 .47
+
+Manipal Institute of Technology
+
+Pentium-III
+
+24
+
+23 .53
+
+Moodalkatte Institute of Technolog y
+
+Pentium-II
+
+10
+
+9.81
+
+NMAM In stitute of Technology
+
+Printers
+
+PA College of Engineering
+
+Inkjet pr inter
+
+43
+
+42 .16
+
+PES College of Engineering
+
+DeskJet p rinter
+
+33
+
+32 .35
+
+SJ College of Engineering
+
+Dot matrix printer
+
+29
+
+28 .43
+
+St. Joseph Engineering College
+
+Laser pr inter
+
+17
+
+16 .67
+
+UBDT College of Engineering
+
+Barcode Reader/Printers
+
+Vidya V ikas Institute of Technology
+
+Barcode reader
+
+80
+
+78 .43
+
+Vidyava rdhaka College of Enginee ring
+
+Barcode printer
+
+53
+
+51 .96
+
+Vivekan anada College of Engg. & Technology
+
+Scanne rs
+Document scanner
+
+52
+
+50 .98
+
+Scanner (OCR)
+
+49
+
+48 .04
+
+CD NET (CD-ROM
+Tower)
+
+79
+
+77 .45
+
+CD-ROM/DVD
+drives
+
+79
+
+77 .45
+
+UPS
+(online /Offline)
+
+88
+
+86 .27
+
+Windows 2000/
+Professional
+
+46
+
+45 .10
+
+Windows XP
+
+22
+
+21 .57
+
+Windows 2003
+
+15
+
+14 .71
+
+Windows 98
+
+7
+
+6.86
+
+Linux
+
+7
+
+6.86
+
+in Karnataka, which constitutes primary data for analysis
+and interpretation of 128 mailed questionnaires. The
+distribution of responses is shown in Table 2.
+Table 2 shows that 78 responses out of 102 are from
+private colleges, 11 from minority institutions, nine from
+private aided colleges, and four from university constituent
+colleges. These represent 76.47 per cent, 10.79 per cent,
+3.92 per cent and 8.82 per cent of the total respondents,
+respectively.
+Table 2. Details of questionnaires distributed
+Types of
+college
+
+No. of
+No. of
+Percentage
+questionnaire questionnaire
+of
+distributed
+received
+responses
+
+Government
+Colleges
+
+2
+
+Private-a ided
+Colleges
+
+11
+
+9
+
+8.82
+
+Private Unaided
+Colleges
+
+97
+
+78
+
+76.47
+
+5
+
+4
+
+3.92
+
+13
+
+11
+
+10.79
+
+128
+
+102
+
+100.00
+
+University
+Constitu ent
+Colleges
+Minority
+Institution
+Total
+
+0
+
+0.00
+
+5.2 Availability of Electronic Gadgets and
+other Accessories in Libraries
+Both harware and software are essential along with
+some basic component without which it can not function
+smoothly. Keeping in mind the first objective of this study
+the researcher wanted to know the infrastructural facilities
+available for automation at the surveyed colleges. Table 3
+shows electronic gadgets and other accessories available
+at the different libraries under the study.
+
+16
+
+Others
+
+Operating system
+
+Note: Total percentage will not be hundred because
+responses are more than one.
+
+5.3 Technology-based Infrastructure
+Table 4 shows the network status, types of networks,
+and different consortia available at the engineering
+colleges under survey.
+
+5.4 Status of Library Automation in
+Engineering College Libraries
+Automation provides the means to offer new improved
+services to its patrons. The automated library functions
+are acquisition, cataloguing, classification, circulation,
+serials control, bill payment, budgeting, reminders and
+reference services.
+The status of library automation in engineering
+colleges of Karnataka is shown in Fig. 1. Out of 102
+respondent libraries, 88 (86.27 per cent) libraries were
+automated.
+DESIDOC J. Lib. Inf. Technol., 2010, 30(3)
+
+Table 6. Library software used at the engineering
+college libraries in Karnataka
+
+90
+80
+
+Name of the
+software
+
+No. of Libraries
+
+70
+
+No. of
+libraries
+
+Percentage
+
+60
+
+Libsoft
+
+32
+
+36.36
+
+50
+
+EasyLib
+
+20
+
+22.72
+
+40
+
+In-house
+
+8
+
+9.09
+
+30
+
+Nettlib
+
+5
+
+5.68
+
+Smart Campus
+
+5
+
+5.68
+
+LiMS
+
+3
+
+3.40
+
+20
+10
+0
+
+Automated
+
+Not Automated
+
+Figure 1. Status of library automation in engineering
+colleges.
+Table 4. IT-based equipment and facilities
+
+Networking
+status
+
+Types of
+networking
+
+Status of
+consortia
+
+Yes
+
+No
+
+LAN
+
+WAN
+
+Yes
+
+No
+
+88
+(86.27)
+
+14
+(13.73)
+
+21
+(20.59)
+
+67
+(65.69 )
+
+88
+(86.27)
+
+14
+(13.73)
+
+e-Li b
+
+2
+
+2.27
+
+e-G ra nthalaya
+
+2
+
+2.27
+
+SOUL
+
+2
+
+2.27
+
+Libsuite
+
+1
+
+1.14
+
+SLIM ++
+
+1
+
+1.14
+
+Chancellor
+
+1
+
+1.14
+
+Pal Pup
+
+1
+
+1.14
+
+NewGenlib
+
+1
+
+1.14
+
+Libsys
+
+1
+
+1.14
+
+YLAS
+
+1
+
+1.14
+
+IOZEN
+
+1
+
+1.14
+
+Lib-Manager
+
+102 (100.00)
+
+102 (100.00)
+
+102 (100.00)
+
+Note: Figures given in parentheses indicate percentage
+
+5.5 Reasons for Not Automating the Library
+Library automation is an important step for giving
+better services to the users. Table 5 shows the reasons
+for delay in starting automation in 14 libraries.
+Table 5. Reasons for delay in starting automation
+Reasons
+Lack of computer facilities
+
+No. of
+library
+14
+
+Percentage
+n=14
+100.00
+
+Inadequate finance
+
+9
+
+64.29
+
+Management is not interested
+
+6
+
+42.86
+
+Lack of trained manpower
+
+2
+
+14.29
+
+Library collection is very less
+
+2
+
+14.29
+
+5.6 Various Library Software Used for Library
+Automation
+Table 6 shows various library software used at the
+engineering college libraries in Karnataka. It is observed
+from the Table 6 that a large majority of respondents are
+using Libsoft for library automation.
+
+5.7 Status of Functioning Software Modules
+Library automation means not only entering and
+reading the data onto computer, but also automation of
+different functional areas of library. Table 7 exhibits that
+the Administrative module, cataloguing and circulation
+DESIDOC J. Lib. Inf. Technol., 2010, 30(3)
+
+Total
+
+1
+
+1.14
+
+88
+
+100.00
+
+Table 7. Status of functioning software modules
+Modules
+
+No. of
+libraries
+
+Percentage
+n=88
+
+Administrative module
+
+88
+
+100.00
+
+Catalogue module
+
+88
+
+100.00
+
+Circul ation module
+
+88
+
+100.00
+
+OPA C module
+
+80
+
+90.91
+
+Acquisit ion module
+
+22
+
+25.00
+
+Serial s control module
+
+19
+
+21.59
+
+module are functioning 100 per cent in respondent
+libraries, 90.91 per cent of libraries are using OPAC
+module functions. Twenty-two libraries are using
+automated module functions like acquisition, 22 (25.00
+per cent) and 19 (21.59 per cent) libraries are using
+serials control module. The reasons could be attributed to
+different practices followed by respondent libraries.
+
+5.8 Opinions About the Usage and
+Performance of Software Modules
+Opinions of the respondents about the different areas
+of usage and performance of modules, i.e., administrative, catalogue, circulation, OPAC, acquisition and
+serials control were weighted based on the scale for
+usage, like 5 = 30 (high usage), 4 = 25 (good use), 3 = 20
+(fair use), 2 = 15 (average use), and 1 = 10 (least usage).
+Scale for performance, i.e., 5 = 30 (excellent), 4 = 25
+(very good), 3 = 20 (good), 2 = 15 (average), and 1 = 10
+17
+
+(below average) and calculated scales equally distributed
+to calculate weight. Further, these weights were
+subjected to cluster (C1, C2, C3, C4) analysis (Ward’s
+method with Interval Squared Euclidian method) to draw
+Dendograms for the modules. The Dendograms are:
+
+performance of a catalogue module. More parameters
+clustered in the second (C2) group signifies the usage
+and performance of a catalogue module among the
+librarians.
+
+5.8.3 Circulation Module
+5.8.1 Administrative Module
+Different clusters among the respondents were rated
+for usage and performance of administrative modules
+(Fig. 2). Fourth cluster (C4) parameter was rated stand
+independent against usage and performance of
+administrative module. More parameters clustered in third
+(C3) group signifies the usage and performance of
+administrative module among the respondents.
+
+Different clusters rated are shown in usage and
+performance of circulation modules in Fig. 4. In the first
+and fourth clusters (C1, C4), two parameters; issue of nodue certificate and reporting lost items stand independent
+against usage and performance of circulation module.
+More parameters clustered in the second (C2) group
+signifies the usage and performance of library software’s
+circulation modules among the librarians.
+
+5.8.2 Catalogue Module
+
+5.8.4 OPAC Module
+
+Different clusters rated for usage and performance of
+catalogue modules are shown in Fig. 3. In the fourth
+cluster, only one parameter supports the complex
+documents that stand independent against usage and the
+
+Different clusters for usage and performance of OPAC
+modules are shown in Fig. 5. In fourth cluster (C4), two
+parameters are standing independent against usage and
+performance of OPAC module. More parameters
+
+Figure 2. Administrative module: Usage and performance.
+
+Figure 3. Functions of catalogue module: Usage and performance.
+18
+
+DESIDOC J. Lib. Inf. Technol., 2010, 30(3)
+
+Figure 4. Functions of circulation module: Usage and performance.
+
+Figure 5. Functions of OPAC module: Usage and performance.
+
+clustered in the second group signifies the usage and
+performance of OPAC modules among the librarians.
+
+5.8.5 Acquisition Module
+Different clusters rated for usage and performance of
+acquisition modules are shown in Fig. 6. In the fourth
+cluster, only one parameter routing and bindery
+preparation, stands independent against usage and
+performance of acquisition module. More parameters
+clustered in first group signifies the usage and
+performance of acquisition modules among the
+respondent librarians.
+DESIDOC J. Lib. Inf. Technol., 2010, 30(3)
+
+5.8.6 Serial Control Module
+Different clusters rated for usage and performance of
+serial control modules are shown in Fig. 7. It is observed
+from the Fig. 7 that the first cluster parameters stand
+independent against usage and performance of serial
+control module. More parameters clustered in second
+group signifies the usage and performance of serial
+control modules among the respondents.
+
+5.8.7 Impact of Automation on Library Development
+The responses of the respondents on the impact of
+automation on a library’s development have been
+19
+
+Figure 6. Functions of acquisition module: Usage and performance.
+
+Figure 7. Serial control modules: Usage and performance.
+
+summarised and presented in the Table 8. Out of 88
+respondents, 79 (89.77 per cent) librarians have an
+opinion on the increase in number of ILL requests
+because of library automation, whereas 74 (84.09 per
+cent) librarians have expressed that they have increased
+the number of library users followed by 73 (82.95 per cent)
+librarians who have opinions on an increasing number of
+circulation transactions, and 69 (78.41 per cent) librarians
+stated that it was helpful for building an appropriate
+collection because of the library automation system.
+20
+
+Table 8. Impact of automation on library development
+
+Impact of automation
+
+No. of libraries
+
+Percentage
+n=88
+
+Increasing no. of ILL
+requests
+
+79
+
+89.77
+
+Increasing no. of users
+
+74
+
+84.09
+
+Increasing no. of circulation
+transactions at the desk
+
+73
+
+82.95
+
+Helpful to building
+approp riate collection
+
+69
+
+78.41
+
+DESIDOC J. Lib. Inf. Technol., 2010, 30(3)
+
+6. FINDINGS AND SUGGESTION
+±
+
+It was observed that 14 libraries lack computer
+facilities. However, six libraries’ management is not
+interested to spend amount for automation. Only two
+libraries are suffering from lack of trained manpower.
+
+±
+
+It was observed that serial control and acquisition
+modules were being used by less librarians because
+acquisition process was different from software to
+software and from library to library.
+
+±
+
+Most of the libraries were having good IT infrastructure
+and other accessories.
+
+±
+
+To be the part and parcel of library information system
+development process, library staff should respond to
+the developments in technology; they must keep upto-date with technologies available, they must
+evaluate technologies, so that they can make
+informed decisions about using these technologies,
+and are able to develop practical plans for
+implementing these technologies.
+
+±
+
+±
+
+Upgrading the core competencies of staff, alongside
+library’s automation system not only enhances the
+professional competencies of the staff, but also
+thwarts the intrusion of alternative information
+providers into the information profession, and
+The impact of library automation on services of
+responded libraries has increased in terms of ILL,
+users visit to library, circulation, and will be helpful in
+building the appropriate collection.
+
+REFERENCES
+1. Haravu, L.J. Library automation and networking in
+India: An overview of recent developments. Annals
+Lib. Sci. Doc., 1993, 40(1), 32-40.
+2. Singh, Anil. Library Automation and networking
+software in India: An overview. Information
+Development, 2003, 19, 51-56.
+3. Indira, K. Integrated library system: Selection and
+design. DESIDOC Bull. Inf. Technol., 2005, 25(5&6),
+3-9.
+
+5. Saxena, S.C. & Srivastava, R.K. Evaluation of library
+software packages available in India, DESIDOC Bull.
+Inf. Technol., 1998, 18(5), 9-17.
+6. Matoria, Ram Kumar, et al. Automation and
+networking of public libraries in India using the eGranthalaya software from the National Informatics
+Centre. Program: Electro. Lib. Inf. Syst., 2007, 41(1)
+47-58.
+7. Singh, Yogendra. Library automation in academic
+libraries in India: Problems and prospects. In
+CALIBER, 2003. http://dspace.inflibnet.ac.in/bitstream/
+1944/188/3/03cali_19.pdf.
+8. Husain, S. & Ansari, M.A. Library automation
+software packages in India: A study of the cataloguing
+modules of Alice for Windows, Libsys and Virtua.
+Annals Lib. Inf. Stud., 2007, 54(3), 146-51.
+9. Harinarayana, N.S & Raghavan, K.S. Retrieval
+capabilities of CDS/ISIS and LibSys: A comparison.
+Annals Lib. Inf. Stud., 2008, 55(2), 91-100.
+10. Bansode, Y.; Sadanand & Periera, Shamin. A Survey
+of library automation in college libraries in Goa. Lib.
+Philo. Pract. http://www.webpages.uidaho.edu/~mbolin/
+bansode-periera.pdf
+11. Suku, J. & Pillai, Mini G. Automation of university
+libraries in Kerala: Status, problems and prospects.
+J. Acad. Libr., 2005, 31(2), 151-59.
+12. Mukhopadhyay, Partha Sarathi. Five Laws and ten
+commandments: The open road of library automation
+in India. In Proceedings of the National Seminar on
+Open Source Movement–Asian Perspective, IASLICXXII, 2006, IIT Roorkee. https://drtc.isibang.ac.in/
+bitstream/handle/1849/409/open%20road_main_
+theme_ psm_LDL.pdf?sequence=1.
+13. Mukhopadhyay, Partha Sarathi. Progress of library
+management softwares: An Indian scenario.
+Vidyasagar Univ. J. Lib. Inf. Sci., 2001, 6. http://
+drtc.isibang.ac.in:8080/bitstream/handle/1849/189/
+lmss2a.PDF?sequence=2.
+
+4. Ravichandra Rao, I.K. & Abideen, Sainul P. Features
+of library automation software: A comparative study.
+Library Science, 1999, 36(4), 211-28.
+
+DESIDOC J. Lib. Inf. Technol., 2010, 30(3)
+
+21
+
+Call for Papers
+
+DESIDOC Journal of Library and Information Technology (DJLIT) in its endeavour to keep its
+readers up-to-date about the current happenings in the field of library and information science
+is planning to bring out Special Issues on the following subjects. Original ideas, theoretical and
+application-oriented papers and case studies in the context of the themes in the digital form
+(MS Word) may be sent to the Editor, DJLIT. The paper(s) will be published only after peerevaluation by the respective Guest Editors.
+Topics of the Special Issues
+± Methodological Issues and Problems in LIS Research
+± LIS Education
+± Health Information Systems and Services
+± Ontology
+± Virtual Reference Service
+± E-Books
+
+Please send your paper/queries to:
+The Editor
+DESIDOC Journal of Library and Information Technology
+House Bulletin Group, 4th Floor
+Defence Scientific Information and Documentation Centre
+Defence Research and Development Organisation, Ministry of Defence
+Metcalfe House, Delhi-110 054
+E-mail: djlit@desidoc.drdo.in
+
+

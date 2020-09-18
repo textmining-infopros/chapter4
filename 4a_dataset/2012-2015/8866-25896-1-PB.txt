@@ -1,0 +1,610 @@
+DESIDOC Journal of Library & Information Technology, Vol. 35, No. 6, November 2015, pp. 398-407 
+  2015, DESIDOC 
+Success and Abandonment of OSS Library Management Systems  
+Nagesh L. Londhe* and Suresk K. Patil** 
+*Department of Library and Information Science, Jayakar Library,  Savitribai Phule Pune University, Ganeshk Road, Pune-411 007 
+E-mail: nagesh@unipune.ac.in 
+**Symbiosis International University, Gram LevaleTal, Pune-412 115 
+E-mail: librarian@siu.edu.in   
+AbStrAct 
+The  purpose  of  this  article  is  to  study  the  open  source  library  management  systems  (LMSs)  and  to  fnd  the      present  development. The  development  and  community  activity  is  studied  by  examining  ‘release activity’ and ‘mailing list /discussion forum activity by applying different the methodologies. Other  aspects of open source library management systems such as longevity, features, license, documentation,  technology used are also studied. It is found that out of 31 open source library management systems  only  15  systems  are  currently  active.  Maximum  active  open  source  LMSs  have  institutional  support.  Fifty per cent of LMS project are inactive or abandoned. This study covers success and abandonment  aspects  of  open  source  LMSs  and  provides  current  status  open  source  library  management  systems.    
+Keywords: Library management system, integrated library system, success, abandonment 
+1.  IntrOductIOn 
+Richard  Stallman  launched  the  GNU  project  in  1983  and  published  the  first  GNU  Public  Licence  (GPL) in 1989. This leads foundation of free software  development movement. In 1998, another group of  individuals  expressed  problem  with  the  term  ‘free  software’  and  not  with  the  concept,  as  the  term  is  confusing  and  ambiguous  and  advocated  the  term  ‘open source software’1. However, there is difference  of opinion among both groups. Some people use the  term ‘Free and Open Source Software’. Development  of free and open source software (FOSS) for libraries  started  around  1999.  Some  of  initially  developed  software are Prospero, JAKE, MyLibrary, LOCKSS,  Openbook,  Koha,  etc.2 
+Since then there has been continuous development  in  library  related  open  source  software. As  ondate  there are number of software developed in different  area  of  library  such  as  digital  library,  e-resource  management,  library  management  system,  OPAC,  federated searching, link resolves, indexing searching,  etc.  However,  there  is  a  question  that  how  many  projects  have  been  succeeded  and  how  many  are  abandoned. Many project become inactive just after  their  initial  release.  Vast  majority  of  the  available  open source products are not useful for information  technology organisation. Very small portion of them  is useful however, that small portion also represents  
+large  number  of  products  and  therefore  those  products  must  be  assessed  for  their  maturity  for  a  particular  organisation3. 
+2.  LIterAture revIew 
+Extensive  literature  is  available  on  the  area  of  open source software. Schweik & English4 covered  detailed  study  of  factors  that  lead  some  OSS  to  success and other to abandonment. They  also provide  success/abandonment  classification  system4. 
+Khondhu5,  et  al.   has  made  three  categories  of  the  projects,  such  as,  active,  dormant,  and  inactive,  based  on  update  activity  and  presents  an  analysis  of  the  population  of  projects  contained  within SourceForge.net. Piggott & Amrit6  mentioned  time-invariant  and  time-variant  variables  that  can  influence  the  success  of  an  OSS  project6.  Rainer  &  Gale7   have  done  preliminary  evaluation  of  the  quality  and  quantity  of  data  on  open  source  (OS)  projects,  provided  at  the  SourceForge.net  portal7.  Muller8   identified  20  open  source  integrated  library  systems  and  analysed  these  systems  using  three- step  process,  such  as,  licensing,  community  and  functionality. Breeding9  looks open source ILS viability  from four perspectives: Market acceptance, support  options,  product  development  and  functionality,  and  risk  factors9.  Balnaves10   has  evaluated  seven  open  source  library  management  systems  (LMS)  
+Received 29 May 2015, revised 1 September 2015, online published  November 2015 
+
+========1========
+
+LONDHE & PATIL: SUCCESS AND ABANDONMENT OF FOSS LIBRARY MANAGEMENT SYSTEMS 
+on  five  dimensions  such  as  functional  dimension,  architecture dimension, community dimension, code  dimension, and schema dimension. Boss11  identified  12 integrated LMSs with some current development  activity underway as early 2008. DeVoe12   provides  an overview of nine open source systems integrated  library.  
+Boss13  provides criteria such as, current active  development, functional feature, source code, MARC,  scalability for evaluating open source software and  evaluated 12 open source LMSs. Breeding14  provides  detailed information about four LMS. He also provides  information on trends in open source ILS adoption.  Breeding15   gives  up-to-date  information  on  Koha  Evergreen  and  learning  access  ILS.  Breeding16 suggests  that  OSS  should  be  evaluated  for  their  own  merits  in  features,  proven  reliability,  support,  and  vision  and  gives  details  about  Koha,  Learning  Access  ILS,  and Avanti  Micro  LCS  ILS16. 
+2.1  release Activity 
+The  release  activity  shows  the  progress  made  by the developers, i.e., development activity. These  activities reflect in writing or in changing the source  code. Software projects release new versions after  a  certain  period.  The  no.  of  releases  and  their  significance  (feature  additions  release  or  bug  fixes  release) indicate progress made by the developers.  The information about release is available in release  notes,  project  change  log,  etc.  The  open  source  projects have also different types of releases, such  as, stable version and developmental version (‘beta’,  daily builds’ or CVS)17. Release activities measured  by using the release frequency and significance per  releases,  i.e.,  (a)  Number  of  releases  made  per  period  and  (b)  Significance  of  each  release17,18.  
+2.2 community Activity 
+In  case  of  open  source  software,  the  active  community  is  very  important  because  in  most  of  the  cases  community  makes  testing  and  provides  feedback. The support and community are interrelated  because  in  most  of  the  cases  support  is  provided  by  community  members.  There  are  two  types  of  supports—free support and paid support. The community  members mostly provide free support through mailing  list,  discussion  forum,  documentation,  blogs,  etc.,  while paid support is provided by software supporting  company  or  any  other  third  party.  
+The user community of an open source project  
+consists  of  the  people  who  use  the  software  and  participate in some way. One way of participation is  by filing bug reports. Another is giving feedback on  functionality of project. The community defines much  of the activity and reflects in other areas, such as,  support, and documentation17. ‘The community activity  can  be  measured  with  no.  of  posts  per  period,  no.  of  topics,  no.  of  users,  response  time,  quality  of  post  and  replies,  friendliness  in  community17. 
+3.  ObjectIveS 
+The  objectives  of  the  present  study  are  to: 
+(a) Determine  project  status  of  various  available  
+open source LMSs by studying release activity  
+and  community  activity;  and  
+(b) Study the related aspect of the system such as  
+longevity, functionality, documentation, license,  
+and  technology  used. 
+4.  MethOdOLOgy 
+For this study the data about the availability of  open source LMS is taken from the study of survey  conducted by Londhe & Patil19.  The data for release  activity  and  community  activity  is  collected  from  respective  websites  of  the  projects,  available  on  sourceforge.net and from the websites of the projects,  which have their own websites. For release activity  the  data  like,  first  release,  last  release,  number  of  releases  and  date  of  releases  are  collected.  For  community  activity,  the  data  like  the  number  of  posts  in  mailing  list,  forum,  and  dates  of  posts  are  collected.  For  the  classification  and  to  determine  the status of LMSs projects, methodology developed  by  Scheweik  and  English4 is  used  and  for  further  categorization of projects, a methodology developed  by  researchers  on  the  basis  of  available  literature,  is  used. 
+For  the  present  study,  only  the  number  of  releases  is  considered.  Following  formula  is  used  for  calculating  release  activity  score: 
+Release  activity  score=(Number  of  releases)/ ((Year  of  last  release-Year  of  first  release)) 
+For  community  scoring  number  of  messages,  posts  in  mailing  lists  and  forum  are  taken  into  account.  The  number  of  messages  are  manually  calculated,  if  the  total  numbers  of  counts  are  not  available. Release activity and community activity are  measured using five point scale metrics mentioned  in Table  1,  which  is  based  on  Business  Readiness  
+table 1. Metrics for release activity and community activity   
+category Release activity 
+5- excellent  4-very good 2 or more than  2        -------- releases per year 
+More than 300  300-120 posts / posts /messages  messages per  per months month 
+3- Acceptable 1 release per year 
+Community activity  (mailing list &  discussion forum) 
+120-60 Post or  messages per  
+month 
+2- Poor Less than 1  release per year  60-30 posts/ messages per  month 
+1 unacceptable 
+    ------- 
+Less than 30 posts/ messages per month. Or  No mailing list. 
+399 
+
+========2========
+
+DJLIT,  VOL.  35,  NO.  6, NOVEMBER  2015 
+Rating model20. However, figures in community metrics  are  modified.  More  than  300  messages/posts  per  month  are  set  as  excellent  and  other  figures  are  set  accordingly.  These  300  figures  are  based  on  Koha  mailing  list.  In  Koha  general  mailing  list,  on  an  average,  more  than  300  messages  per  month  are  posted.  Koha  is  the  most  popular  open  source  LMS  and  is  worldwide  used  by  library  community. 
+To find methodologies to categorise open source  projects, literature on the topic is searched. Following  some  of  the  methodologies  relevant  to  this  topic  are  found.  
+Khondhu5, et al.   has  made  three  categories  of  the projects, such as, active, dormant, and inactive  based  on  update  activity.  They  define:  ‘active’  project:  whose  activity  is  updated  and  recent;  the  ‘dormant’ project: whose activity is visible in the past  evolution but it has stopped (due to any reason) for  a  defined  period  (e.g.,  one  year,  two  years,  etc.);  ‘inactive’ project: which have been explicitly marked  as inactive by the previous developers5.  They also  argue  that  open  source  software  project  inactivity  should  be  evaluated  on  the  basis  of  pre  defining  an interval time when no development activity such  as commits, messages on the mailing lists or public  releases  have  been  taken  place  in  the  project.  
+‘The  SourceForge.net  maintains  a  system  of  7  status  designations.  Such  as  Planning,  Pre- Alpha, Alpha,  Beta,  Production/Stable,  Mature  and  Inactive6. 
+Schweik  &  English4   identified  two  longitudinal  stages  that  open  source  projects  go  through: (i)  Initiation stage—describes the period from project  
+start  to  the  first  public  release  of  software.  (ii)  Growth  stage—describe  the  period  after  a  
+project's  first  public  release  of  code. 
+They define, both theoretically and empirically, a  method to measure whether a project is successful or  abandoned in these two stages. They have identified  following six categories of success and abandonment.  SI: Success in Initiation; AI: Abandonment in Initiation;  SG: Success in Growth; AG: Abandoned in Growth;  II:  Indeterminate  in  Initiation;  IG:  Indeterminate  in  Growth4,21. 
+As per the Schweik & English methodology, the  project can be placed in to six categories. However,  what  is  status  of  project  after  ‘Success  in  Growth’  phase  if  there  are  no  developments  i.e.,  further  releases  for  longer  period.  
+Wheeler  mentions  that  project  might  stabilise  over the time as it is completed but needs change,  new uses are continuously created, and no program  of any kind is perfect.It is important that a program  is  being  maintained,  and  that  it  will  be  maintained  far  into  the  future22. 
+400 
+To further classify the projects, which are ‘success  in  growth’  phase  and  do  not  have  releases  and  community activity for long period, following metrics  are  applied. 
+In  this,  metrics  projects  having  more  than  5  years inactivity in release and more than two years  inactivity  in  community  are  placed  in  category  of  inactive  or  abandoned.  However,  these  projects  have not been tagged as inactive by developers on  project  website  and  shows  download  activity. 
+5. AnAL ySIS 
+The  analysis  of  all  these  software  gave  the  following  results: 
+The list of available 31 open source LMS along  with their features is given in Table 3. Out of these  thirty-one  systems,  two  are  e-book  management  systems19.    
+5.1  release Activity 
+The release activity is scored on five-point scale,  which is mentionable in Table 1. Table 3 shows that  out of 31 projects, 19 projects have shown excellent  release  activity,  which  has  scored  to  five.  Seven  projects  show  acceptable  release  activity,  which  is  scored to three. Five projects release activity could  not be determined because of unavailability of code  files  on  project  website  and  due  to  restriction  of  downloading.  Out  of  these  five,  only  Gnuteca  and  Open Amaptheque  seem  to  be  active. 
+Figure  1  shows  release  activity.  Out  of  19  projects, which have shown excellent release activity,  three projects, such as, GPL library system, infoCID,  and  Java  cataloguing  system  don’t  have  release  for  long  time.  
+5.2 community Activity 
+The  community  activity  is  scored  on  five-point  scale  as  per  Table  1.  Figure  1  shows  community  activity  of  31  projects.  Out  of  these  31  projects,  community  activity  score  of  eight  projects  is  3  or  more  and  for  remaining  projects  it  is  1.  The  community  activity  score  of  some  of  the  excellent  
+Figure 1. release activity and community sctivity  
+             score. 
+
+========3========
+
+LONDHE & PATIL: SUCCESS AND ABANDONMENT OF FOSS LIBRARY MANAGEMENT SYSTEMS 
+release activity projects, such as, BiblioteQ, Espablio,  KualiOLE, Koblikoha, librarianDB is also one. Among  these active projects, Kuali OLE has recently begun  and  this  is  one  of  the  reasons  for  low  community  activity. Other projects, such as, Espablio, Kobli koha  are language specific projects and this may be the  reason for low community activity. Community activity  of the Firefly and Gnuteca could not be determined  due  to  unavailability  of  data  and  problem  with  registration process of mailing list. In this category,  Koha is having highest score. Evergreen, PMB and  Calibre E book management system have occupied  second  position.  Third  position  has  been  obtained  by ABCD,  NewGenLib,  Openbiblio,  SLiMS. 
+5.3  Project  Score  based  on  release  Activity,  
+community Activity  (combined) 
+Figure 2 shows the total score of LMS projects  based  on  release  activity  and  community  activity.  The  positive  scale  area  of  graph  shows  the  score  of  active  LMS  projects.  The  negative  scale  area  of  graph  shows  the  score  of  inactive  projects.  The  absence  of  bar  shows  unavailability  of  the  release  and  community  data  of  LMS  projects. 
+Among the active projects, only 7 LMS projects,  such  as,  ABCD,  Evergreen,  Koha,  NewGenLib,  PMB,  SLIMS,  and  Calibre  book  management  is  having  more  than  six  score.  All  remaining  LMS  projects  have  six  or  less  than  six  score.  Kuali  ole  and  Next-L  Enju  are  the  viable  candidates  and  both  are  in  initial  development  phase,  therefore  community activity score of both is low and thereby  low  overall  score. 
+In  case  of  inactive  projects,  there  is  not  even  a  single  project,  which  has  scored  more  than  six.  The  score  of  five  inactive  projects  could  not  be  determined  due  to  unavailability  of  data. 
+Figure 2. combined score of LMS projects. 
+5.4  Projects  Status 
+To find present developmental status of the LMS  projects,  two  methodologies  are  used,  which  are  mentioned  in  Table  1  and  Table  2.  Table  4  shows  the  status  the  of  project  on  the  basis  of  Schweik  &  English  methodology  and  Table  2  metrics.  
+table 2.  Project status  
+category 
+Releases gap  
+5- Active   3- dormant  1-Inactive/ 
+abandoned DS- DLR < 2 DS- DLR > 2  DS- DLR >  4  years     and < 4 years   years   
+Date of latest  DS- LFMA < DS - LFMA >1 DS - LFMA  forum or mailing 1 years     and  < 2 years   >2  list activity 
+Date  of  last  release  (DLR);  Date  of  sampling  (DS);  Date  of  latest  forum  or  mailing  list  activity  (LFMA).                                                                   
+5.4.1 Status  of  Projects 
+Table  4  shows  there  are  20  projects,  which  are under the ‘success in growth’ category, and 10  projects are under the ‘abandoned in growth’ category.  
+Figure 3. Status of projects as per Schweik and  
+              english methodology. 
+One project’s status could not be determined. 67%  projects  are  success  in  growth  (Fig.  3). 
+5.4.2 Status  of  ‘Success  in  Growth’  Project  
+As  per  metrics  in  Table  2,  Table  4  shows  that  out of 20 ‘success in growth projects’, there are only  13  projects,  such  as, ABCD,  BiblioTeq,  Espabiblio,  Evergreen, KualiOLE, KobliKoha, Koha, , NewGenLib,  Next-L Enju, Openbiblio, PMB, SLiMS, Calibre E-book  Management  System,  which  has  active  status  in  release  as  well  as  community  activity.  While  the  elibrary’s release activity is dormant and community  activity is active, conversely, Librarian db’s release  activity is active and community activity is dormant.  As one of the activity of these 2 projects is coming  under  active  status.  Therefore,  they  are  included  in  active  status  category.  
+In  all  as  per  both  methodologies  there  are  15  
+ Figure 4. Activeness of projects as per table 2  
+              methodology 
+401 
+
+========4========
+
+DJLIT,  VOL.  35,  NO.  6, NOVEMBER  2015 
+table 3. Open source library management system 
+S.  name of  no. software 
+Functionality 
+release  activity (rA) 
+community  activity mailing  list/forum (cA) Acceptable   
+Project status (PS) 
+total score  = rA+cA 
+1. 
+ABCD 
+Administration, Technical processes,  Statistics, Services, Loans circulation  OPAC, Periodical control 
+OPAC and Catalogue 
+Excellent 
+Active  
+8 
+2. 
+Avanti 
+Acceptable  
+Unacceptable  
+Inactive/abandoned  
+4 
+3. 
+BibioTeq Cataloguing, basic circulation, module, Excellent  Unacceptable 
+and OPAC module 
+Emilda OPAC, circulation and administration  Excellent  Unacceptable 
+functions 
+Espabiblio Circulation, Cataloging, Administration, Excellent  Unacceptable 
+OPAC, Reports, 
+Evergreen Acquisitions, OPAC,  Cataloging,  Excellent Very good 
+Circulation, 
+Administration,  Serials,  
+FireFly --- --- ---- Glibms Acquisition,  catalogue and basic  Acceptable Unacceptable 
+circulation 
+Gnuteca Managerial processes, Technical  ----- ----- 
+processing, Circulation, Consultancy   
+and recovery, Internet- library 
+GPL Library  Catalogue, OPAC and basic circulation Excellent Unacceptable System modules 
+ infoCID Administration, consultation, loan  Excellent Unacceptable 
+repayment, statistics, inventory, etc. 
+(37) 
+Java Book  Catalogue Excellent Unacceptable Cataloguing  
+System 
+Jayuya Catalogue, Circulation, Statistics   -- Unacceptable Kuali  Open  Select and Acquire, Describe and  Excellent  Unacceptable Library  Manage, Deliver, and System  
+Environment Integration  
+Kobli Koha Administration, cataloguing, circulation, Excellent Unacceptable 
+OPAC, Serial etc.  
+Koha Administration, circulation, cataloging,  Excellent Excellent 
+acquisitions, reports,  serials,  patron  
+management, etc.  
+Librarian DB Catalogue, OPAC Acceptable Unacceptable Library Manager Basic catalogue,  OPAC, circulation Excellent Unacceptable MiniSOPULI -- ---- Unacceptable NewGenLib Acquisitions, technical processing,  Excellent Acceptable  
+serials management, circulation,  
+administration, MIS Reports, OPAC,  
+Allow digital attachment to metadata 
+Next L Enju Cataloging, Patron management,  Excellent Unacceptable 
+Circulation, discovery interface. 
+Open MarcoPolo OPAC, Circulation, Administration,   Acceptable  Unacceptable 
+Statistics  
+Open  Cataloguing, Circulation, Budget  Download link  Unacceptable Amapthèque monitoring, management of internal  is not working 
+research publication  etc. 
+Openbiblio OPAC, circulation, cataloging, and staff Acceptable Acceptable 
+administration  
+OtomiGenX Catalogue, loan, Search  modules. Acceptable Unacceptable PhpMy Library Cataloging, circulation, and the web  Excellent  Unacceptable 
+opac etc .module  
+Active 
+6 
+4. 
+Inactive/abandoned 
+6 
+5. 
+Active 
+6 
+6. 
+Active  
+9 
+7. 8. 
+Inactive/abandoned Inactive/abandoned 
+---- 4 
+9. 
+Unknown 
+---- 
+10. 
+Inactive/abandoned 
+6 
+11. 
+Inactive/abandoned 
+6 
+12. 
+Inactive/abandoned 
+6 
+13. 14. 
+Inactive/abandoned Active 
+-- 6 
+15. 
+Active 
+6 
+16. 
+Active 
+10 
+17. 18. 19. 20. 
+Active  
+Inactive/abandoned Inactive/abandoned Active 
+4 6 ----- 8 
+21. 
+Active 
+6 
+22. 
+Inactive/Abandoned 
+4 
+23. 
+Unknown 
+----- 
+24. 
+Active 
+6 
+25. 26. 
+Inactive/Abandoned Inactive/Abandoned 
+4 6 
+402 
+
+========5========
+
+LONDHE & PATIL: SUCCESS AND ABANDONMENT OF FOSS LIBRARY MANAGEMENT SYSTEMS 
+27. 
+Excellent 
+Very good 
+Active 
+9 
+PMB PhpMyBibli Circulation, Cataloguing, Reports 
+SDI, Administration,  Acquisition, Serial  
+management 
+28. 
+Cataloguing,  Loan,  Search  
+29. 
+Seansoft GPL  Library loan  management  system SLiMS      
+Bibliography ( Cataloguing )  Membership, Circulation, Stock taking,  reporting, Serial Control,  OPAC 
+30. 
+mana-gement  system 
+Acceptable 
+Unacceptable 
+Excellent 
+Acceptable  
+Excellent 
+Very good 
+Inactive 
+4 
+Active 
+8 
+Active 
+9 
+31. 
+e-Library 
+Calibre E- book  Library Management, E-book  
+conversion, Syncing to e-book reader  
+devices, E-book editor for the major  
+e-book formats  etc. (52) 
+Books and eBooks library organiser.  
+Catalogte, tag and search your books  
+database 
+Excellent 
+Unacceptable 
+ Active 
+6 
+         table 4. Status of project on the basis of Schweik and english4  methodology  and table 2 methodology 
+remarks 
+S.  Project name  
+no. 
+1. ABCD 
+2. Avanti 
+3. BibioTeq 
+4. Emilda 
+5. Espabiblio 
+6. Evergreen 
+7. FireFly 
+8. Glibms: GNU Library Management  
+System 
+9. Gnuteca 
+10. GPL Library system 
+11.  infoCID 
+12. Java Book Cataloguing System 
+13. Jayuya 
+14. Kuali  Open Library Environment 15. Kobli Koha 
+16. Koha 
+17. Librarian DB 
+18. Library Manager 
+19. MiniSOPULI 20. NewGenLib 21. Next L Enju 22. Open MarcoPolo 
+23. OpenAmapthèque 24. Openbiblio 25. OtomiGenX 
+Status of the project Status of Sg  projects  (Schweik & english) (table 2 methodology) 
+Success in growth Success in growth Success in growth Success in growth Success in growth Success in growth Abandoned in growth Abandoned in growth 
+Active 
+Inactive/abandoned  
+Active 
+Inactive/abandoned Active 
+Active 
+Success in growth Abandoned in growth  
+Unknown 
+Abandoned in growth 
+Abandoned in growth 
+Abandoned in growth 
+Success in growth Success in growth Success in growth Success in growth Abandoned in growth 
+Active Active Active Active 
+Abandoned in growth  Success in growth Success in growth Abandoned in growth 
+Active Active 
+Unknown Success in growth Success in growth 
+Unknown Active 
+Inactive/abandoned 
+No release since 2007 
+No release since 2005 
+3 releases in less than 6 months  and  No release since  2002 
+3 releases in less 6  than months no  release since July 2010 
+2 releases in same month and no  release since 2005 
+3 releases in less 6 months and no  release since    2000 
+Release history not found and No  release since 2006. 
+2 releases in same month and no  release since 2002. 
+ Code is not available  
+2 versions found on website and no  release since 2008 
+------------ 
+2 versions found on website and  no  release since   2009 (3.0 version) 
+403 
+
+========6========
+
+DJLIT,  VOL.  35,  NO.  6, NOVEMBER  2015 
+26. PhpMyLibrary 27. PMB PhpMyBibli 
+Success in growth Success in growth 
+Inactive/abandoned Active 
+ No release since 2006 
+28. Seansoft GPL Library Loan Management Abandoned in growth 
+System 
+29. SLiMS  (Senayan Library Management  
+System) 
+30. Calibre E-book Management System 31. eLibrary 
+Success in growth 
+Success in growth Success in growth 
+projects are active and success in growth out of 31  projects  and  14  projects  are  inactive  (Fig.  4).  The  status of 2 projects—OpenAmaptheque and Gnuteca  (present  activity),  has  not  been  determined  due  to  the  problem  of  download;  therefore,  its  status  has  been  set  as  unknown. This  study  also  reveals  that  the  score  of  the  community  activity  of  all  inactive  projects  is  one,  which  is  unacceptable. 
+Among  inactive  projects,  PhpMyLibrary  was  a  good  project  having  necessary  functionality  with  excellent release activity. However, since 2006 there  has  been  no  further  release.  However,  it  shown  considerable  number  (32)  of  weekly  downloads  on  sourceforge.net.  The  project  Emilda,  OtomiGenx,  Glibms, Java book cataloguing system have shown  9,  12,  26,  and  4  weekly  downloads,  respectively  and  other  4  projects  shown  1  weekly  download  at  time  of  data  collection.  Some  projects  download  statistics  is  not  available.  
+5.5  Longevity  of Active  Projects  (Age) 
+A  key  indicator  of  software  maturity  is  its  age.  Software, which is available for a long period, tends  to be more mature.The longevity of the product can  be  assed  using  version  number,  life  span  of  the  product, and total number of downloads23. Age can  
+table 5. Longetivity of active projects 
+S. no.name of project Year of frst release 
+Only one version is released   no  release since 2001 
+Active 
+Active Active 
+No release since 2011 
+be  established  using  the  date  of  the  first  release  of  the  software. 
+Table  5  shows  age  of  the  project  since  its  first  release.  The  release  history  of  Espabilio  is  not  available;  therefore,  among  the  available  versions  on project website, the oldest version is considered.  Out  of  16  projects,  11  have  more  than  6  years  longevity.  Koha  is  the  one  of  oldest  softwares  and  has  more  than  15  years’  longevity.  Gnuteca,  OpenBiblio and PMB also have more than 10 years  of  longevity.  Among  the  inactive  projects,  only  Avanti  MicroLCS  and  PhpMyLibrary  continued  for  more  than  four  years.All  other  remaining  projects  discontinued  within  a  very  short  span. 
+5.6  Functional  Features  of Active  Projects 
+Functionality is an important aspect of any kind  of  software. Table  6  shows  the  availability  of  basic  main  modules,  such  as,  acquisition,  cataloguing,  circulation,  serial,  OPAC  of  active  projects.  Out  of  16 LMS, Nine systems have all five basic modules.  Two  systems  are  specially  developed  for  e-book  management. BiblioteQ have catalogue, circulation,  OPAC  but  circulation  module  has  very  limited  functionality  and  OPAC  modules  are  separately  
+First Beta version released in September 2008 1.0 Dec. 2009 (Production version) Version 2.00 (Pre-Alpha ) in January 2007 
+Espa 2.2 B-2 in January 2012 
+Alpha version released in Aug. 2005 Version 1.0 released in Sept. 2006  
+---  Feb. 2002 
+Version 0.3 November 2011 (First public release) 
+Kobli 1.4 in June 2011 
+September 1999 : Work starts on Koha.Koha 1.00 put up for download in July 2000  
+Librariandb-0.1 in May 2007 
+1.0 was released in March 2005. In January 2008, it was declared OSS  
+Next-L Enju - 1.0.0.beta in March 2011  Beta version 0.1.020 in April 2002  ---2002 
+1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 
+ABCD Biblioteq Espabiblio Evergreen Gnuteca* Kuali OLE KobliKoha Koha 
+Librarian DB NewGenLib Next-L Enju OpenBiblio PMB PhpMyBibli SLiMS Calibre E-book  eLibrary 
+November 2007 Senayan 3 Stable1 in March 2008 (Public release) Libprs500, 2006 was  renamed as Calibre in mid-2008 
+1.0.0 in November 2008 
+*Status unknown                           
+404 
+Age of project  (as on Dec. 2014) 6.2 
+8 
+3 
+9.3 
+12.9 
+ 3 
+3.5 
+15.2 
+7.6 
+9.8  *7 3.8 
+12.7 
+12 
+7 
+8 
+6 
+
+========7========
+
+LONDHE & PATIL: SUCCESS AND ABANDONMENT OF FOSS LIBRARY MANAGEMENT SYSTEMS 
+table 6. Functional features of active projects 
+S.  no. 1. 2. 3. 
+name of software 
+ABCD BibioTeq Espabiblio 
+Acquisition catalo- 
+guing Yes Yes ---- Yes ---- Yes 
+4. 5. 6. 7. 8. 9. 
+Evergreen Yes Gnuteca* Yes KualiOpen Library EnvironmentYes KobliKoha Yes Koha Yes Librarian DB --- 
+Yes Yes Yes Yes Yes 
+10. 11. 12. 13. 14. 15. 
+NewGenLib Yes Next L Enju Yes** Openbiblio ---- PMB PhpMyBibli Yes SLiMS ---- Calibre E-book Management  ---- System 
+Yes Yes Yes Yes Yes ---- 
+16. eLibrary 
+*Unknown status;** Limited functionality 
+available,  needs  to  be  integrated  with  desktop  version. Acquisition  and  serial  modules  are  absent  in Espabiblio and Openbilio but Espabiblio has CMS  and digital files attachment functionality. Librariandb  has  only  catalogue  and  OPAC  modules.  In  SLiMS,  acquisition module is not available but provision to  add basic acquisition data with record. It shows that  some systems tried to incorporate the new generation  library  management  system  features  but  they  are  at  very  preliminary  level  except  Kuali  OLE.  
+5.7  License 
+It has become apparent that maximum number  of library management systems are released under  GNU  GPL.  Some  systems  are  an  exception,  such  
+table 7. technology used by software 
+S.  no. 1. 
+name of   software ABCD 
+Programming  
+language 
+PHP v.5 and ISIS  Windows and Linux  script, Java script  
+and AJAX, JDK 1.5 
+Operating system support 
+2. 
+BiblioteQ 
+Qt 4 and  C++, etc. FreeBSD, Linux, Mac OSX ,  
+3. 
+Espabiblio 
+4. 
+Evergreen 
+Solaris Windows PHP, JavaScript,  Mac, Linux , windows or  HTML 
+Perl, C, JavaScript, Linux  (Client for window,  XML, X Path, XSLT, Linux) (18) 
+XMPP 
+anything that supports Apache  
+circul- Serial  ation Yes Yes Yes** ---- Yes ---- 
+OPAc 
+new generation feature 
+Yes Yes Yes 
+Yes Yes Yes Yes Yes Yes 
+Yes Yes** Yes Yes Yes 
+Yes Yes Yes Yes Yes Yes 
+ABCD site (CMS) 
+----- 
+CMS based on WordPress, digital fle  attachment to metadata 
+------ 
+------ 
+ERM 
+------ 
+CMS 
+------- 
+Yes Yes Yes Yes Yes ---- 
+Yes Yes --- Yes Yes** ---- 
+Yes Yes Yes Yes Yes ----- 
+Allow digital attachment to metadata ---- 
+----- 
+Digital attachment to metadata Digital attachment to metadata E-book management and conversion,  Syncing to e-book readers, e-book  editor for major e-book formats, etc. E-Books management 
+as, ABCD, Open Marco Polo, and Java cataloguing  system.  These  systems  are  released  under  LGPL.  BiblioteQ is released under BSD license. Gnuteca is  released under CC-GNU GPL. Kuali OLE is released  under Education community license, but now under  AGPL. Next-L Enju are released under MIT license.  PMB was initially released under GNU GPL; now it  is  released  under  CECILL.  Some  software  reuses  several other libraries and modules, these libraries  and  modules  retain  their  original  licenses 
+5.8  documentation  
+The  LMS  such  as,  ABCD,  Evergreen,  Koha,  Kuali Ole, NewGenLib, Next-L, Enju, SLiMS provide  comprehensive documentation on different aspects  of  the  software. 
+database, application/  Other components web server 
+Apache, MySQL MARC, Z39.50, web-based 
+Postgresql or SQLite 
+MySQL, Apache 
+MARC, Z39.50, standalone,  OPAC is web-based. MARC, Z39.50, Web-based 
+Apache, PostgreSQL,  Jabber, OpenSRF 
+MARC, Z39.50, client  server, OPAC web-based 
+405 
+
+========8========
+
+DJLIT,  VOL.  35,  NO.  6, NOVEMBER  2015 
+5. 
+Gnuteca 
+PHP, Perl 
+Linux 
+6. 7. 8. 9. 
+Kuali OLE Java,  maven etc.  KobliKoha Perl, etc. Koha Perl, etc.  Librarian DB PHP 
+Windows, Mac OS X, Linux 
+Linux  Linux  Linux 
+10. 11. 
+NewGenLib Next L Enju 
+Java  
+Ruby on Rails,  Ruby, Java SE 7 PHP, etc. PHP, etc. PHP, AJAX QT 5, Pythan, C,  C++, etc. C++  
+Linux, Window Multiplatform  
+12. 13. 14. 15. 
+OpenBiblio PhpMyBibli SLiMS Calibre  E-book  eLibrary 
+Linux, windows 
+Linux, Windows, Mac OS  
+Windows, Linux/Unix Window , Linux, OS X 
+16. 
+Windows 
+5.9 technology used 
+Table 7 reveals that all active LMSs have MARC  and  Z39.50  functionality.  MySQL  is  the  favourite  database management system among the developers  and  PHP  is  a  preferred  programming  language. 
+6. cOncLuSIOnS 
+This study covers historical overview of development  and  current  status  of  LMS  library  management  systems. Apart from community and release activity,  other technical information about LMS systems, such  as,  functionality,  longevity,  documentation,  license,  technology used is also examined. 31 open source  LMS  projects,  which  are  developed  during  1999  to  2014. However, only 50 % projects are active today.  Most of the projects became inactive or abandoned  within short period after their initial release and mostly  in growth phase. Most of abandoned projects having  2  or  3  release  in  less  than  6  months  after  their  initiation.This  study  reveals  that  maximum  number  of active projects is having an institutional support.  Among active projects, only 7 LMS projects such as  ABCD, Evergreen, Koha, NewGenLib, PMB, SLims,  and  Calibre  book  management  performed  well  as  per  combined  score  of  the  release  and  community  activity.  However,  Kuali  Ole  and  Next-L  Enju  are  viable  candidates  and  have  evolving  community.  This  study  reveals  that  there  are  considerable  number  of  weekly  downloads  for  old  releases  of  some  inactive  projects.  
+reFerenceS 
+1. Raymond,  Eric  S.  Goodbye  free  software  hello  
+open  source,  1998.  http://www.catb.org/~esr/ 
+open-source.html. 
+2. Bretthauer, D. Open source software in libraries,  
+Library Hi Tech News, 2001,18(5), 8-9, http://search. 
+proquest.com/docview/201586034/  fulltextPDF/  
+406 
+Postgresql 
+MARC, Z39.50, web-based 
+Apache tomcat, MySQL  Apache, MySQL Apache, MySQL MySQL 
+MARC, Z39.50, web-based MARC, Z39.50, web-based MARC, Z39.50, web-based Web based 
+Postgresql, Apache ant  MySQL/PostgreSQL/ SQLite  
+MySQL, Apache Apache, MySQL  MYSQL, Apache ----- 
+MARC, Z39.50, web-based MARC, Z39.50, web-based 
+ ---- 
+MARC, Z39.50, web-based MARC, Z39.50, web-based MARC, Z39.50, web-based  Standalone but contents can  be accessed via web Standalone but contents can  be accessed via web 
+DF195202C78841A2PQ/7  ?accountid=61368 3. Golden,  B.  Making  open  source  ready  for  the  
+enterprise: The open source maturity model, open  
+source business resource. 2008. http://timreview. 
+ca  /article/  145  (accessed  on  7  June  2014) 4. Schweik, C.M. & English, R.C. Internet success:  
+A  study  of  open  source  software  commons.  
+2012,  MIT  Press,  Cambridge,  MA  USA. 5. Khondhu,  J.;  Capiluppi,  A.  &  Stol,  K.  Is  it  all  
+lost? A study of inactive open source projects. In 
+Proceedings of the 9th  International Conference  
+on Open Source Systems. 2013. http://staff.lero. 
+ie/stol/files/2013/03/2013-Is-It-All-Lost-A-Study- 
+of-Inactive-Open-Source-Projects.pdf 
+6. Piggott, J. & Amrit, C. How healthy is my project?  
+Open  source  project  attributes  as  indicators  
+of  success.  OSS  2013,  edited  by  E.  Petrinja,  
+et  al.   IFIP  AICT  404,  2013,  pp.  30-44.  http:// 
+ifipwg213.org/sites/flosshub.org/files/ OSSHealth_  
+1.0.pdf 
+7. Rainer, A. & Gale, S. Evaluating the quality and  
+quantity of data on open source software projects’. 
+In   Proceedings  of  1 
+st 
+  International  Conference  
+on Open Source Software, pp. 29-36. http://uhra. 
+herts.ac.uk/bitstream/handle/2299/2076/902200. 
+pdf?sequence=1,2005 
+8. Müller  T.  How  to  choose  a  free  and  open  
+source  integrated  library  system.  OCLC  Sys.  
+&  Serv.,  2011,  27(1),  57-78.  DOI  10.1108/ 
+10650751111106573 
+9. Breeding,  M.  The  viability  of  open  source  ILS.  
+Bull. of Amer. Soc. for Inf. Sci. and Tech., 2009,  
+35(2),  20-5.  
+10. Balnaves, E. Open source library management  
+system: A multidimensional evaluation. Austra.  
+Acad.  &  Res.  Lib.,  2008,  39(1),  1-13.  http://  
+
+========9========
+
+LONDHE & PATIL: SUCCESS AND ABANDONMENT OF FOSS LIBRARY MANAGEMENT SYSTEMS 
+www.tandfonline.com/doi/pdf/10.1080/0004862 
+3.2008.10721320 
+11. Boss, R.W. Open source integrated library system  
+software.  PLA Tech  Notes.  https://alair.ala.org/ 
+bitstream/handle/11213/258/Open%20Source. 
+pdf?  sequence=3&isAllowed=y  (accessed  on  8  
+September  2014) 
+12. DeVoe, K. Innovations affecting us - open source  
+in  the  library: An  alternative  to  the  commercial  
+ILS? Against  the  Grain ,  2007, 19(2),  88-9.  13. Boss, R.W. Open source integrated library system  
+software,  2005.  https://alair.ala.org/bitstream/ 
+handle/11213/258/Open%20Source%20ILS%20 
+Software.pdf?sequence=101&isAllowed=y(acces 
+sed  on  8  September  2014). 
+14. Breeding,  M.  An  update  on  open  source  ILS.  
+Computers  in  Libraries,   2007,  27(3),  27-9. 15. Breeding, M. Major open source ILS products,Library  
+Technology Reports, 2008, 16-31. http://alatechsource. 
+metapress.com/  content/  t  75710j  302n  13447/  
+fulltext.pdf 
+16. Breeding,  M.  An  update  on  open  source  ILS.  
+Information  Today, 19(9),  42-3. 
+17. Van den Berg, K. Finding open options. An open  
+source  software  evaluation  model  with  a  case  
+study  on  course  management  systems.  2005,  
+Master's  thesis,  Tilburg  University.  http://www. 
+karinvandenberg.nl/Thesis.pdf  (accessed  on  2  
+May  2014). 
+18. Chavan, A. Seven criteria for evaluating open- 
+source  content  management  systems.  Linux  
+Journal, 2005, 8301-17. http://www.linuxjournal.com/  
+node/8301/  (accessed  on  2 August  2014). 19. Londhe,  N.  &  Patil  S.K.  Open  source  library  
+management  system:  A  survey  and  present  
+developmental  status.  Int.  J.  of  Lib.  and  Inf.  
+Sci.,  2015, 4(1),  38-54. 
+20. Wasserman, A.; Pal, M. & Chan, C. The business  
+readiness rating model: An evaluation framework  
+for  open  source,  2006.  In  Proceedings  of  the  
+EFOSS  Workshop,  Como, Italy. 
+21. Schweik,  C.M.  Sustainability  in  open  source  
+software  commons:  Lessons  learned  from  an  
+empirical  study  of  Sourceforge  projects. Tech.  
+Innov.  Manag.  Rev.,  2013,  3(1),  13-16.  http:// 
+timreview.ca/article/645 
+22. Wheeler,  D.A.  How  to  evaluate  open  source  
+software/free  software  (OSS/FS)  programs,  
+2011.  http://www.  dwheeler.  com/oss_fs_eval  
+(accessed  on  8  November  2014) 
+23. Golden, B. Succeeding with open source. Addison- 
+Wesley  Professionals,  2005. 
+About  the Authors 
+Mr nagesh L. Londhe  is working as Assistant Librarian in  Jayakar Library, Savitribai Phule Pune University (Formally  University  of  Pune).  He  has  17  years  experience  in  LIS  field.  He  has  completed  MLIS  and  MCM  and  presently,  pursuing  the  PhD  in  Library  and  Information  Science.  His areas of interest include: Digital libraries, digitisation,  open  source  digital  library  software,  and  open  source  library  management  systems. 
+dr Suresk K. Patil  is retired Professor and Librarian of  Savitribai Phule Pune University (Former) and is presently,  working as Professor and Librarian at Symbiosis International  University, Pune. He has guided 21 PhD students andhas  contributed  more  than  43  research  paper.  His  areas  of  interest  include:  Library  management  and  ICT. 
+407 
+
+========10========
+

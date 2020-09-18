@@ -1,0 +1,773 @@
+DESIDOC Journal of Library & Information Technology, Vol. 32, No. 6, November 2012, pp. 516-525
+© 2012, DESIDOC
+
+Application of Information Communication Technology
+to the Management of Library’s Readers’ Desk
+*
+
+O.M. Olaniyi, A. Omotosho, E.A. Oluwatosin, O.K. Towolawi, and G.C. Grant-Ezeronye
+Bells University of Technology, Ota, Ogun-state, Nigeria
+E-mail: *engrolaniyi09@yahoo.com
+ABSTRACT
+The automated library’s readers’ desk management system is a modern innovation that is expected to help
+in the circulation registration of processed books and register users. The existing library management system
+processes in most institutions of higher learning in the developing countries is not fast enough and it is mainly
+manually processed. This paper presents a library readers’ desk management system with the use of fingerprint
+biometric and barcode technology to the activities of a library’s readers’ services. The proposed system is
+capable of reducing the time spent and errors associated with identification and verification of users and
+library books as well as charging-in and charging-out of books to library patrons.
+Keywords: Barcode, biometrics, circulation and classification/readers’ desk, fingerprint, information and
+communications technology, ICT
+
+1. INTRODUCTION
+The capacity of information and communications
+technology (ICT) network has grown faster than any
+technology in history, doubling every two to three years.
+The cost of digital transmission and computer equipment
+has been dramatically reduced and the range of services
+that can be provided by ICT has been continuously
+expanded. The explosion of ICT since the beginning of the
+20th century has been rendering manual-based library
+system in academic, research, special and public
+libraries as less relevant1.
+The library allows people to borrow and gives the
+borrower a time when to return the borrowed item. If the
+item is not returned on the due date, the person pays
+infringements for late or lost book charges. The circulation
+unit is the main public service point found at the main
+entrance of a conventional library. The operations
+performed at the readers’ desk are registration of users,
+lending, charging in, monitoring materials for damage and
+routing them for repair or replacement, among others. The
+existing library system processes in most institutions of
+higher learning in developing countries are still not fast
+enough and are majorly manual in nature. The circulation
+desk unit of a library which is basically the integral part of
+the readers’ service department needs improvement with
+information technology.
+
+The advent of the internet, digitisation, and the ability
+to access the library and research materials from remote
+locations have also created dramatic changes by the end
+of the twentieth century2. The developments of expert
+systems, wireless networks, virtual collections,
+interactive web interfaces, virtual reference services, and
+personal web portals bring about greater changes since
+the start of the new millennium. The significant and fast
+changes in librarianship, where digital and electronic
+libraries are being established to complement, and in
+some cases to completely replace the traditional libraries
+and its associated services cannot be overemphasised3.
+
+2. RELATED WORKS
+2.1 Role of ICT in Library Services
+The library is divided into different housekeeping
+operations: Acquisition control, serials control,
+cataloguing and classification, circulation control, and
+metadata linking. Each of these has its major operations
+it takes care of. The circulation desk is the main public
+service point found at the main entrance of a conventional
+library. The operations performed at the circulation desk
+are: Registration of users, lending of materials, charging
+in materials returned, monitoring materials for damage
+and routing them for repair or replacement, etc.
+
+Received 17 October 2011, accepted 07 February 2012, online published 19 November 2012
+
+516
+
+Automation of the library is a key element for information
+industry. Research and development of library automation
+has grown very rapidly in recent decades and become
+increasingly important for the economic growth of
+librarianship of a developing or developed country4.
+The functions of the circulation desk which is the main
+public service point usually found near the main entrance
+of a library5. It provides lending services and facilities for
+return of loaned items. Renewal of materials and payment
+of fines are also handled and troubleshooting Circulation
+Technology, i.e., library circulation software, scanners,
+printers, etc. and collecting statistics on library use, i.e.,
+patron transactions, material checkouts, etc., Circulation
+staff may provide basic search and reference services,
+though more in-depth questions are usually referred to
+reference librarians at the library reference desk. The
+circulation desk is in most cases staffed by support staff
+or paraprofessional instead of professional librarians.
+Cataloguing and classification is a system of coding and
+organising library materials (books, serials, audiovisual
+materials, computer files, maps, manuscripts) according
+to their subject and allocating a class mark or call number
+to all library resource. Library classification is said to have
+many standard schemes in use, and many more have
+been proposed over the years such as: (a) Universal
+schemes covering all subjects. Examples include Dewey
+Decimal Classification (DDC), Universal Decimal
+Classification (UDC) and Library of Congress
+Classification (LC); (b) Specific Classification (SC)
+schemes for particular subjects or types of materials.
+Examples include Icon class, British Catalogue of Music
+classification, and Dickinson classification, or the NLM
+classification for medicine and National schemes
+specially created for certain countries, example is
+Swedish Library classification system, SAB (Sveriges
+Allmanna Biblioteksfrening)5.
+Academic libraries, to fulfil their mission of supporting
+the educational objectives of their parent institutions,
+which include teaching, learning, research and cultural
+development, have to acquire and maintain core relevant
+books, journals, and audio-visual collections and
+services. Today, academic libraries are faced with
+multifaceted challenges in managing library collection
+and services as a result of inadequacy of financial
+support6. In work done by Faseum7, the operations of a
+library was automated by creating a central database for
+the library, providing reliable security measures for the
+library items and data, keeping and maintaining a save
+record of the library, and making ways of reservation and
+recommendation of books and journals easy for users,
+while improving and reducing human stress.
+The system in described by Faseum 7 also allows
+users to borrow books from the library remotely from a
+computer; this feature becomes unnecessary because
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+the user would still have to manually collect the book from
+the library due to the fact that the library does not provide
+any carrier services. Though rare, the last copy of a book
+can be borrowed by two people caused by network errors.
+The library never lends the last copy of an item because of
+its users who would prefer to use the item in the library
+rather than borrow it. The patron is then faced with
+challenges when he realises what the network has
+caused. Another constraint faced in was the inability of
+the library to monitor users overdue. This challenge is an
+issue that every conventional library faces and tries to
+solve but never gets a total solution because users can
+borrow books and never use the library again and make it
+difficult for the library to track them down.
+Olaniyi & Olusade8 authors point out the opportunities
+provided by ICT to libraries. These are: Organization of
+information for use; provision of value added ICT-based
+information services; library cooperation and resource
+sharing; institutional repositories (digital local content);
+and content building. ICT also provides Value-added ICTbased information services such as: web-based online
+public access catalogues (OPACs); networked digital
+information resources; electronic-based interlibrary loan
+and document delivery services; online user education;
+readers’ advisory and e-reference services; and providing
+facilities for accessing information. Academic and public
+libraries in Nigeria face many challenges when trying to
+take full advantage of the opportunities provided by ICTs.
+They are mainly related to: Financing and sustainability of
+ICT infrastructure; constant change in the ICT industry;
+lack of technical ICT background among library
+administrators; lack of adequate ICT facilities in libraries;
+erratic state of power generation; and low level of
+technical knowledge of ICTs.
+Olaniyi & Olusade8 revealed that the number of library
+software in the Oyo State Library Board was low couple
+with inadequate number of staff and most of the available
+staffs were inadequate in ICT skills. Major factors
+hindering the establishment and management of an
+effective use of ICT in the Oyo State Library Board were
+also identified. It ranged from inadequate funding, to lack
+of ICT hardware and software, and also irregular power
+supply.
+Seeking access to library resources and information
+services in higher education libraries all over the world is
+undergoing tremendous transformation, especially, with
+the advent of ICT as tool and enabler. The application of
+ICT into academic libraries has improved information
+delivery, users can now stay in their homes and
+classrooms to access and interact with the libraries and
+receive information without physically visiting the libraries.
+Manir9 reveals that ICT today is changing the work of
+libraries and information centres more than ever. Libraries
+in Africa institutions need this technology because of the
+517
+
+advantage it brings. Based on reality, ICT application in
+library activities has the ability to change the pattern of
+information resources access and utilisation; it will also
+make research and teaching simpler and easier than
+before.
+With all the aforementioned benefits of ICT to
+academic libraries, the digital divide issue is still
+outstanding. This is the gap between those who have
+access to technology (telephones, computers, and
+internet) and related services and those who donot have
+access to these resources. This digital divide exists at all
+levels of the society, for example in developed countries
+vs. developing countries. ICT application has brought new
+changes in the library activities, but the pleasures
+provided do not seem to pervade the entire members of
+African higher institutions. For academic libraries to be
+effective, specific technology must be carefully matched
+to the need of the environment. It can be said that much of
+what ICT has to offer and its potential to the academic
+libraries has not yet been fully deployed and exploited in
+African Universities8.
+Outdated technologies that were first acquired in early
+1980s, through 1990s are merely guarding libraries,
+thereby creating systemic complexities that are
+increasingly becoming difficult to sustain. Some
+universities have achieved a high degree of development
+with respect to ICT, in particular the acquisition of
+hardware and software and the setting up of local area
+networks (LANs) mainly as donations. Technological
+changes take place very often and there is a clear need to
+follow this trend so as not to lose out of the quality. With
+this process, integration of ICT is enabled in the
+enhancement of library activities.
+
+2.2 Application of Biometric Technology in
+Library Services
+Biometric
+represents
+the
+physiological
+characteristics of a person like fingerprints, hand
+geometry, face, voice, and iris10. Historically, usernames
+and passwords are the most common form of
+authenticating computer users. They are also the worst
+management challenge for IT staff and the biggest
+network security hole in existence. Many help desks
+handle more password related calls than any other
+category. Users routinely share their passwords with one
+another. Over the last several years, biometric devices
+and applications have experienced growth over the world.
+It leads to good security because it combines two
+authentication factors—‘something you know’ (PIN) and
+‘something you are’. It is easy to share ‘something you
+know’ with another user, but reasonably difficult to share
+“something you are”. Since security mechanisms rarely
+have a positive impact on usability, biometrics, through
+templates can indeed make a system easier to use since
+there is no longer the need to remember passwords.
+518
+
+A biometric template is an individual’s sample, a
+reference data, which is first captured from the selected
+biometric device. During the enrollment process, three to
+four samples are captured to arrive at a representative
+template. The individual’s identity is later verified by
+comparing the subsequent collected data against the
+individual’s biometric template stored in the system. The
+biometric templates and the overall enrollment process
+are the key for the overall success of the biometric
+application. The user will need to go through re-enrollment
+again if the quality of the template is poor. Templates are
+stored within the biometric device, remotely in a central
+repository or on a portable card.
+The security of a library with the use of CCTVs and
+biometrics was proposed by Manir7 . Foolproof security
+with the use of CCTV and biometrics can be achieved in
+libraries. Studies have revealed that there is an increase in
+the use of biometric technology because now that there is
+an improved technique of identifying authorised users,
+and users are ready to cooperate. Now nations are
+integrating biometrics technology into their organisations.
+The public population in major continents such as North
+America, Europe, and Asia prefer the use of biometrics.
+Though CCTV would also be an important factor in
+ensuring almost total security, biometric scanners like
+the fingerprint scan and facial recognition gives security a
+greater edge11. Users will no longer make use of ID cards,
+yet access will be simple and reliable. The Fujitsu Library
+System and Naka City Public Library of Japan make use
+of the contactless Palm Vein authentication technology
+which allows lending of library materials without the use of
+cards.
+With the Henry Identification System in use the
+system would work efficiently since we have palm prints
+of all fingers of both hands, but if it is just one fingerprint
+as input print, because of the distinct prints on each
+finger, there will not be any Primary Grouping Ratio (PGR)
+factor (i.e., there won’t be a match anywhere in the
+system). The proposed system stores just one single
+fingerprint instead of 10 prints for an individual, thus
+reducing the amount of memory required to store the
+fingerprint templates. It also finds another method of
+classifying each print into their categories (which are the
+left and right loops, whorl and arch). Though the proposed
+system by Kanth & Nath12 claims to be forty times more
+efficient than the existing system, there is still a problem
+with the system database management. Because the
+database should contain only one fingerprint input, the
+proposed system does not identify the middle and little
+finger, so the purpose to store just one fingerprint is
+meaningless. In this paper, the proposed system stores
+just one thumb fingerprint like the system described by
+Laha13 to save time for registration and space for the
+database; and since it’s a school library and not a
+security conscious company where every piece of
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+information and data has a very tight access. Biometric
+technology, over the years has been applied to different
+parts of the global industry for: physical access, virtual
+access, e-commerce applications, corporate it, aviation,
+banking and financial, healthcare, government, and
+schools. The use of biometrics is very important to
+institutions because many areas in an institution require
+identification. Picture card, pins and visual identification
+which are usually the common kinds of identification
+come with challenges of time and resources of operation.
+With the introduction of biometrics, money and time are
+saved and operations are improved. One can concentrate
+on safety, increase in productivity as well as practical
+ways of implanting biometrics in school environment
+where time and money14. Choosing the right biometric
+solution is also considered depending on the properties
+and factors of the technology.
+
+2.3 Barcode Technology in Libraries
+Barcodes are a series of vertical black lines and
+spaces. The barcode is a simple, compact, graphical way
+to record data15. They are machine readable. Linear (or
+one-dimensional or 1-D) codes, two-dimensional codes
+(e.g. data matrix), and composite codes (a combination of
+1-D or 2-D symbologies) are available. The reported
+advantage of 2-D and composite codes is that they can
+encode more information than one-dimensional bar
+codes. This may be a significant consideration when
+examining the utility of applying barcodes to smaller
+medical devices, such as surgical instruments and
+implants.
+The 1-D linear barcodes typically consist of a series of
+dark and light bars, either dark bars on a light background
+or light on a dark background, and are read by scanners,
+such as laser scanners. The 2-D symbologies use various
+combinations of dark and light shapes such as dots or
+dashes. Barcode information is read by an optical (laser)
+scanner that is part of a computer system. A handheld
+scanner or barcode pen is moved across the code, or the
+code itself is moved by hand across a scanner built into a
+checkout counter or other surface. The computer then
+store or immediately processes the data in the barcode.
+The light beam flashed from the barcode scanner on
+the barcode label undergoes reflection at the white lines
+and absorption on the dark bands. This reflected light is
+collected back and is converted into electric pulses by the
+photoelectric circuitry of the scanner. Further, the pulses
+are converted into binary information by the interface
+circuitry of the scanner before they are fed to the
+computer, for further processing. Hence, the information
+read from the barcode acts as a substitute for the same
+information entered through a keyboard.
+At the heart of each barcode system is the unique
+identification (ID) number assigned to every item being
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+tracked. An ID number in the form of a barcode label is
+attached to every item in the inventory. When a labelled
+item is moved, shipped, used, disposed of, or modified in
+any way that should be recorded, the item’s barcode is
+scanned and the information goes into the information
+tracking system. Databases help you locate and retrieve
+relevant information in a quick and efficient manner.
+The most common barcode application for academic
+libraries is in the tracking of materials as they are charged
+out and received. In some libraries, librarians often allow
+students to scan books out themselves because of the
+efficiency of the technology. Many schools utilise batterypowered portable barcode readers as a cost-effective
+solution to physically take book inventory right on the
+shelf.
+Much like a library, bar-coded student identification
+cards and bar-coded labelled books speed up and provide
+absolute accuracy to the processes of charging in and
+charging out books.
+Barcode technology has been proven very efficient in
+other school applications, such as: Student attendance,
+which usually consumes a lot of time and energy; CTS
+(career technology studies) competency tracking
+system-data specific to the competencies of students
+within vocational training programmes are assembled with
+the use of small, portable, pocket-sized bar code readers;
+fixed asset tracking-with a user-friendly software and
+portable hardware and uniquely-encoded and durable bar
+code labels, desks, computers, lab or AV equipment, etc.
+can be tracked following the asset attributes such as date
+purchased, serial number and product type, and date and
+time it was last seen16.
+
+2.4 Barcoding for Faster Library Transactions
+The circulation desk responsibility in an automated
+library involves keying in large amount of data.
+Sometimes, the library staffs at the counter have to retype
+the same information due to error in data entry. With the
+application of a bar coding system, which is the simplest
+coding technologies available, this voluminous work can
+be handed in a smooth manner in a much less time. The
+speed of data capture is three times faster than the speed
+at which a skilled data entry operator can input data and
+also the error rate is negligibly small.
+Libraries can use accession number or class mark of
+books a unique information that distinguish library
+collection, as the vital information entity to barcode its
+collection. This information is exported from the library
+database/catalogue database and then converted to a
+series of black and white lines by the barcode software.
+The barcode technology is essentially a data transfer
+device and hence it works in perfect harmony with any of
+the computerised database systems.
+519
+
+In16, Barcoding in library offers a lot of comfort and
+ease to handle bulk routine tasks efficiently17. The
+application of this technology for charging-in or out of
+books is widely identified and practiced in the developed
+countries of the world. With the help of a data gathering
+device, the barcodes can be used to verify stock, as
+libraries have to resort to stock verification, at intervals.
+Mishelving and wrong archiving of books are also autodetected which helps the staff to rectify these challenges.
+If the parent institution also has a computerised
+accounting system, all the bills can be routed after bar
+coding so that their follow up and processing are done
+efficiently.
+Rajindran and Bhushan18 reveals method of library
+automation conducted at Raja Ramanna Centre for
+Advanced Technology (RRCAT) library, India by
+employing barcode and LibSys facilities. With these,
+library stock verification could be performed easily with
+less manpower. Laser barcode scanner for reading labels
+was used at the circulation counter; a portable data
+capturing terminal with build-in laser scanner for inventory
+for stock verification; and accessories such as cradle,
+cable, battery, and other items were the hardware
+installed to implement these technologies.
+Barcodes are being used effectively to speed-up,
+avoid human error, and automate the processes in
+industry for production planning control, materials
+management, purchase sale, and inventory control. In
+libraries, barcode is being used to automate the datacapturing process, for stock verification, and in the
+circulation counter for issue/return of books, documents
+or books are scanned and stamped (month and year)
+manually at the inside back cover to avoid duplication.
+During scanning, the terminal stored the accession
+number of each document and automatically displayed
+the document number for a moment. If a data scanned is
+wrong, it can be manually updated or rescanned, and if a
+document has been scanned multiple times, the terminal
+simply stores the documents with duplicate accession
+numbers.
+Barcode technology is reliable and easy to use. It
+improves accuracy and accelerates the processing time,
+eliminates the typing errors, decreases the costs, and
+improves the services. During the stock verification
+period, routine library activities can be carried out without
+any disturbance. Data-capturing terminal is handy and
+portable and there is no problem of scanning the data
+multiple times. Since there is no human intervention, the
+verification report generated by the system is perfect and
+accurate.
+Academic libraries in developing countries need its
+readers’ services activities such as charging-in and
+charging-out of books, registration of books, students,
+staff, etc. This work combines the strengths attributed
+520
+
+with biometric and barcode technology using the library of
+The Bells University of Technology, Nigeria as a case
+study.
+
+3. MATERIALS AND METHODS
+The following scientific approaches were used to
+achieve the central idea of this work. They are:
+requirement definition and infrastructural.
+
+3.1 Requirement Definition of the Proposed
+Service Infrastructure
+(i)
+
+Readers Desk System Management Requirement
+
+This requirement follows from the assumption that to
+automate the library’s reader’s desk system, the system
+should provide:
+(a) Eligibility and authentication: The system should be
+designed in a way that only allows access to
+authorised personnel.
+(b) Uniqueness: Only one user can borrow a book at a
+time.
+(c) Accuracy: Library staff should be able to compute
+records with lesser errors.
+(d) Integrity: Records can only be modified, updated or
+deleted by the administrator.
+(e) Reliability: The system should work robustly without
+any loss of records due to good and reliable database.
+(f)
+
+Flexibility: More modules of library operations can be
+integrated into the system to increase functionality.
+
+(g) Convenience: Users should be able to enter/exit the
+library with minimal sign in/out time. Library staff
+handle borrow and return process faster with less
+errors.
+(ii) Service Provision Requirement
+The infrastructure should allow the readers desk to
+monitor registration of users, lending materials to library
+users, checking in materials returned, monitoring
+materials for damage and routing them for repair or
+replacement, etc.
+
+3.2 Infrastructural Model and Architect
+(i)
+
+Overall System Architecture
+
+The hardware phase integrated into proposed
+automated system involves two technologies, namely: (i)
+Biometric Fingerprint Scanner (Scans the fingerprints of
+users, (ii) Barcode Scanner (Front End), Barcode Verifier
+and Barcode Printer (used during the installation phase.
+The software phase is divided into two sub-phases: (i)
+Front End (application which interfaces the users would
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+interact with (ii) Back End (database where the
+information is stored. In designing the front-and back-end
+of the system, some development tools required are: (i)
+Microsoft Visual Studio (.Net Framework): The
+programming language used is C#, which is structured,
+imperative, object-oriented, and declarative, (ii) Microsoft
+SQL Server 2005: It is a fast, stable and true multi-user,
+multi-threaded SQL database server; SQL (structured
+query language).The main goals of Microsoft SQL are
+speed, robustness, and ease of use. It defines an xml
+data type that could be used either as a data type in
+database columns or as literals in queries.
+
+to borrow/return books. It will also be used during the
+charging-out and charging-in process, where library users
+have to identify themselves as the borrowers of a book.
+The barcode scanner registers the library books on the
+shelf and is used to increase the process of checking-in
+and out of the books. The application software allows the
+user of the system, i.e., the administrator and the library’s
+readers’ desk staff to perform the basic circulation
+operations, i.e., add users, charge-in and out books, as
+well as add more users to access the system (only the
+administrator can add more users of the system) and
+monitor the library users that enter and exit the library.
+
+The system architecture in Fig. 1 shows how the
+system operates and functions. It consists of a
+centralised database server that stores all the information
+about books, library users and their properties and
+processes. The barcodes of the books are stored via a
+barcode scanner in the server as strings, while the
+fingerprint templates of the library users are stored via a
+fingerprint scanner in the server as byte. The fingerprint
+scanner is used to register both the university staffs and
+students to allow them access the library during entry and
+
+(ii) Application Framework Overview
+Figure 2 gives the platform application framework of
+the proposed readers’ desk management system. The
+figure above shows the integration of a barcode process
+and biometric process with a library’s readers’ desk
+process. With the automation of the readers’ desk,
+circulation processes can be done easier and faster, with
+better security when the barcode scanner and fingerprint
+scanner are installed and programmed into the system.
+
+Figure 1. System architecture of proposed system.19
+
+Figure 2. Framework of the Proposed System.19
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+521
+
+Efficiency and effectiveness is improved after this
+synchronised technology.
+
+administrator, student, university staff and Circulation
+Desk staff on each tier of the model.
+
+(iii) Requirement Specification
+
+In Fig. 3, there are four main actors: librarian,
+students, university staff and circulation desk staff. The
+registered student or university staff sign-in into the library
+via a biometric finger print authentication and then
+manually search books. At the circulation desk, with the
+use of a bar coding system, tracking of books on shelves
+and a self maintained record of all books in the library are
+achieved.
+
+From the architecture, two main components are
+required for the development and implementation of the
+architecture:
+(a) User Terminal: The readers’ desk management
+application resides on a terminal device which is a
+computer or laptop with intranet access
+(b) Application Server: The application server ensures
+that the assumptions stated in the readers desk
+system management requirement above are met,
+authorises and authenticate library users.
+(c) Analysis of Model: The structure of the proposed
+system can be analysed using the Use-Case
+diagram, Class diagrams and the behavioural/
+sequence diagram.
+The use case scenario of the proposed system is
+shown in Fig. 3, showing the interactions of the library
+
+Also, the library administrator/circulation desk staff
+can register books, students, charge-in, charge-out
+books, etc. All information here is stored in the
+centralised server and can be used for future reference in
+addition to the report accessible to the library
+administrator.
+
+4. RESULTS AND DISCUSSION
+The impact which biometric and barcode technologies
+could have on the front desk of the library is shown in
+Figs. 7-9. The process of charging-in and charging-out
+
+Figure 3. Use Case scenario for the proposed library readers desk system management.19
+
+Figure 4. Proposed library readers desk system business level activity diagram.20
+522
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+Figure 5. Automated book registration process using barcode scanner.
+
+Figure 6. Generated report showing a list of registered library books.
+
+Figure 7. Automated logbook during entrance into the library.
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+523
+
+Figure 8. Process of checking-in books.
+
+Figure 9. Registration of library users.
+
+both the readers and tracking books available through
+biometric feature of readers is shown in Fig. 6 and Fig. 9.
+
+5. CONCLUSIONS
+It is essential that academic libraries keep up with
+developments in ICT through the application of
+technologies into library services. Much of what ICT and
+its application can offer is yet to be fully deployed and
+exploited in developing nations. Therefore to enable the
+integration of a range of ICT applications in the
+enhancement of the readers’ activities of an academic
+library, biometric and barcode application is a sine
+quanon.These applications of this technology improve
+accuracy and it also takes critical factor of time and cost
+in the activities of the circulation unit of a library. It is easy
+to use and improves the operational efficiency of the
+readers’ desk staff, thereby enabling the library to give a
+timely service to its users.
+
+REFERENCES
+1. Eguavoen, O.E.L. Attitudes of library staff to the use
+of ICT: The case of Kenneth Dike Library, University of
+Ibadan, Nigeria. Ozean J. Soc. Sci., 2011, 4(1), 1-6.
+http://www.ozelacademy.com/OJSS_v4n1_1.pdf
+2. Ostrow, Stephen E. Digitizing historical pictorial
+collections for the internet. 1998. http://www.clir.org/
+pubs/reports/ostrow/pub71.html
+524
+
+3. Ramzan, M. Does level of knowledge impact
+librarians’ attitude toward information technology (IT)
+applications? In 2nd International CALIBER- 2004, 1113 February 2004, New Delhi.
+4. Parmar, Arvind Singh; Kumar, Sanghmitra A.;
+Prakash, Thushara & Kalyane, V.L. Highlights of
+library automation related documents. INSPEC,
+2004. http://wenku.baidu.com/view/a8447f60caaed
+d3383c4d 3c0.html
+5. Wikipedia. Library circulation. 2011. http://en.wikiped
+ia.or g/wiki/ Library _ circulation.
+6. Ifidon, Sam E. Problem of collection development in
+third world countries. In Modern theory and practice of
+library collection development. Justice-Jeco Press,
+Benin City, 2006.
+7. Faseun, O.R. Computerised library management
+system (Case study: Bells University of Technology
+Library, Ota). Bells University of Technology, Ota,
+Nigeria. June 2010. B.Tech Dissertation.
+8. Olaniyi, E.T. & Olusade B. The State of Diffusion of
+ICT in Nigerian Public Library: A case study of Oyo
+State Library Boar. Paper presented at 3rd
+International Conference on ICT ApplicationsAICTRA-08, 21-25 September 2008, Ile-Ife, Nigeria,
+2008. pp. 106-15.
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+9. Manir, A.K. Implication of ICT’s in libraries of higher
+education institutes: A panacea catapulting library
+development in Africa. DESIDOC J. Lib. Inf. Technol.,
+2011, 31(1), 65-71.
+
+17. Jeevan, V.K.J. Barcoding for faster library
+transactions. DESIDOC Bull. Inf. Technol., 2000,
+20(3), 15-19. http://publications.drdo.gov.in/gsdl/coll
+ect/dbit/index/assoc/HASH40cf.dir/dbit2003 015.pdf
+
+10. Sulochana, S.; Ravindra, T. & Balwant, S. Survey of
+biometric recognition systems and their applications .
+J. Theoret. Appli. Inf. Technol., 2010, 11(1), 45-51.
+http://www.jatit.org/volumes/research-papers/Vol11
+No1/6Vol11No1.pdf
+
+18. Rajendiran, P. & Bhushan, Indu. automated library
+stock verification with barcode and LibSys. DESIDOC
+Bull. Inf. Technol., 2006, 26(5), 17-21.
+
+11. findBiometrics. Biometrics for time and attendance.
+2011. http://www.findbiometrics.com/time-attendanc/
+12. Kant, Chander & Rajender Nath. Reducing processtime for fingerprint identification system. Inter. J.
+Biometric Bioinf., 2006, 3(1), 1-9. http://www.cscjour
+nals.org/csc/manuscript/Journals/IJBB/volume3/Issu
+e1/IJBB-5.pdf
+13. Laha, Jasobanta. Biometric techniques- enhancing
+security standards in high performance. 2008. http://
+ezinearticles.com/?Biometric-Techniques—Enhanci
+ng-Security-Standards-In-High-Performance-Enter
+prise&id=1224599.
+14. IdentiMetrics. Biometric student identification:
+Practical solutions for accountability & security in
+school, 2009. http://www.identimetrics.net/articles/
+Practical_Stu_ID_for_schools.pdf.
+15. Wikipedia.Barcode. http://en.wikipedia.org/wiki/arcode
+16. CodeFacts. Bar code technology in schools. 2010
+http://www.aurorabarcode.com/PDFs/Bar%20Cod
+e%20Technology%20in%20Schools.pdf
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(6)
+
+19. Grant-Ezeronye, G.C. Development of a library’s
+readers’ desk management system. Bells University
+of Technology, Ogun State, Ota, June 2011. B. Tech
+Dissertation.
+About the Author
+Mr Olaniyi O. Mikail is currently a Lecturer and Acting
+Head of Department of Computer Engineering, Federal
+University of Technology, and Minna, Niger State. He had
+his First Degree in Computer Engineering at the Ladoke
+Akintola University of Technology, Ogbomosho, Oyo
+State, Nigeria and MSc in Electronic and Computer
+Engineering at Lagos State University, Lagos, Nigeria. He
+is currently a doctoral student at the Department of
+Computer Science and Engineering, Ladoke Akintola
+University of Technology, Ogbomosho, Oyo State,
+Nigeria. He is a Professional member of Institute for
+Electrical/Electronic Engineering (IEEE), Association of
+Computer Machinery (ACM), International Association of
+Engineers and Computer Scientists and Registered with
+the Council of Regulation of Engineering in Nigeria. He
+has published in reputable journals and learned
+conferences. His areas of research include: Intelligent
+systems, computer security, e-governance, and
+telemedicine.
+
+525
+
+

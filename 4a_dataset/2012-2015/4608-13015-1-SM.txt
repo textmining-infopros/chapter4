@@ -1,0 +1,481 @@
+DESIDOC Journal of Library & Information Technology, Vol. 33, No. 3, May 2013, pp. 222-235 
+  2013, DESIDOC 
+3D Virtual Exhibitions 
+Maria Beatriz Carmo and Ana Paula Cláudio 
+Faculty of Sciences of the University of Lisbon 
+Campo Grande, 1749-016 Lisboa, Portugal 
+E-mail: bc@di.fc.ul.pt, apc@di.fc.ul.pt 
+AbstrAct 
+The  virtual  recreation  of  a  physical  three  dimensional  (3D)  exhibition  or  museum  allows  a  visitor  to navigate in this virtual scenario in a way closer to reality. This issue is particularly relevant when the  museum building is by itself a piece of art, as it is often the case. In this paper, the use of virtual 3D  models in the domain of cultural diffusion is analysed, considering the common aspects of its application  either for collections of museum’s or for buildings and artifacts deteriorated or destroyed along the time.  A wide range of applications are presented to exemplify the different requirements and techniques that  can be considered in this domain. Techniques to create 3D models are reviewed as they are the base to  generate a virtual environment and special attention is given to applications devoted to the development  
+of 3D virtual museum exhibitions.    
+Keywords: 3D modeling, virtual exhibitions, virtual museums  
+1.    IntroDuctIon 
+The  creation  of  three  dimensional  (3D)   virtual  exhibitions  is  valuable  in  distinct  contexts,  i.e.,  as  a  medium  to  conceive  exhibitions  and  as  a  way  to  promote museums and cultural places to the public  worldwide  through  the  web  or  in  educative  and  recreational  activities  performed  on-site.  A  curator  of  a  museum  and  his  staff  can  interactively  use  a  3D virtual model to prepare physical exhibitions, for  instance, to essay different locations for the pieces  of  art  or  to  choose  which  pieces  of  a  collection  should be exhibited to the public. This approach is  economically and functionally attractive and supports  remote  collaboration  of  team  members.  Besides,  it  can be used as means to spread art collection of the  museum mainly when some masterpieces cannot be  visited by the public, due to conservation concerns,  space  constraints  or  temporary  unavailability.  
+Software tools associated with creation of virtual  exhibitions should be accessible to the museum staff,  which  is  not  expected  to  be  composed  by  experts  in  information  technology.  Moreover,  these  tools  should  produce  realistic  models  without  requiring  sophisticated  and  expensive  equipment.            
+2. onlInE   Exh IbItIons 
+In the 1960’s, André Malraux, a notable French  intellectual,  in  his  book  ‘Le  musée  imaginaire’  proposed  the  idea  of  a  ‘museum  without  walls’,  a  museum  that  makes  its  contents  available  to  both  on-site  and  remote  visitors.  This  author  based  his  
+idea of museum in photographic reproductions which  made thousands of galleries and exhibitions available  to  visitors  all  over  the  world1.  All  technological  developments  that  took  place  since  then  have  provided the means to raise the concept to a higher  level  and  to  a  broader  scope. 
+ Around the globe, there are open museums to  remote  visitors  through  the  web,  supporting  real- time and interactive access to simultaneous users,  24  hours  a  day,  and  7  days  a  week.  Even  those  visitors who are not able to visit a specific museum  in loco, can get acquainted to its collection through  the  museum  website. This  is,  beyond  any  doubt,  a  democratic  cultural  achievement. 
+A  main  goal  of  most  museum  web  sites  is  to  attract  visitors  to  the  museums.  Consider  the  Louvre Museum in Paris, one of the world’s famous  museums.  It’s  website  received  between  2002  and  2004  nearly  six  million  online  (or  remote)  visitors,  almost  as  many  as  the  local  visitors2.  According  to  this  site,  online  visitors  fall  into  four  categories:  visitors  planning  a  future  visit  to  the  museum  in  Paris;  internet  users  all  over  the  world  that  want  to  find  out  more  about  the  collections  of  the  museum  but  without  necessarily  making  a  trip  to  the  Louvre;  students  and  specialists  looking  for  in  depth  information  about  museum  collections;    and  casual  online  visitors  and  the  young  people.  This  last  category  constitutes  the  main  target  group;  the  website  is  intended  to  encourage  the  visitors  to  visit  the  Louvre  museum.  
+Received 28 January 2013, revised 14 May 2013, online published 20 May 2013  
+
+========1========
+
+CARMO AND  C LáuDIO: 3D VIRTuAL  Exh IBITIONS 
+Besides  this  attracting  factor,  virtual  visits  are  also  valuable  in  other  contexts,  namely: 
+•	 To 	 extend 	 the 	 period 	 of 	 an 	 exhibition: 	 a 	 temporary 	 
+in  the  physical  ambience  of  a  museum. The  digital  reproductions  of  the  artworks  can  be  seen  side  by  side in a 3D environment making possible to get an  
+so-called  ‘exhibitions  on  tour’3. 
+•	 To 	 examine 	 exact 	 virtual 	 replicas 	 of 	 existing 	 
+spaces  or  master  pieces  that  can  not  allow  
+site  visitors  due  to  the  risk  of  deterioration  or  
+simply  because  there  is  not  physical  space  in  
+the  museum  to  expose  them. 
+•	 To 	 provide 	 additional 	 information 	 or 	 experiences 	 
+exhibition  can  survive  longer  if  a  virtual  visit  
+idea of their dimensions. This can not happen when  is  conceived  to  reproduce  it  and  continues  to  
+the  objects  are  shown  individually  as  images  in  a  be  available  after  the  dismantling  of  the  real  
+web  page.  Moreover,  in  the  case  of  a  3D  artwork,  exhibition.  This  can  be  extremely  interesting  
+a virtual navigation allows to view the object in the  when  the  exhibition  involves  seldom  exposed  
+round10. Despite its advantages, creating 3D virtual  pieces, temporarily lent by private collectors or  
+museums is not an easy task. It requires modeling  by  different  museums  probably  spread  around  
+the  3D  virtual  space  and  digitising  the  artworks.  the  world.  Some  of  those  pieces  integrate  the  
+After  that,  it  is  necessary  to  integrate  the  artworks  
+in  the  virtual  space,  either  as  a  reproduction  of  an  
+actual exhibition or as a virtual exhibition conceived  with  the  purpose  of  promoting  the  collection  of  the  museum.  These  tasks  usually  require  specific  tools  and  informatics  expertise,  which  can  be  an  obstacle, as domain experts, like museum curators,  who  should  create  the  contents  of  an  interactive  
+creating  their  own  tour  through  the  museum. •	 To 	 get 	 inside 	 recreated 	 virtual 	 models 	 of 	 cultural 	 
+to on-site visitors before or during their visit to  
+exhibition,  are  not  supposed  to  have  informatics  the  museum.  For  instance,  a  virtual  visit  can  
+skills.  Another  drawback  that  can  be  pointed  to  give  the  possibility  of  looking  at  paintings  on  
+virtual  exhibitions  is  that  they  hardly  achieve  a  the  screen,  finding  out  additional  details  and  
+photorealistic  quality  in  order  to  maintain  a  real  
+time  interactivity.  
+however, some tasks do not demand photorealism  
+without  buildings’4. 
+The  most  common  approaches  to  presenting  museum  collections  are  html  pages  containing  photographs,  text  and  links  to  other  pages.  The  use  of  panoramic  photographs,  like  those  based  on  QuickTimeVR5,  is  frequent.  These  photos  offer  a  360º  view  of  the  space  around  a  fixed  location,  giving a sense of immersion. Immersive photographs  extend further this sensation, offering the possibility  of viewing also 180o  in the up and down directions.  Although  creating  a  feel  of  immersion  inside  the  exhibition  space,  these  photographs  do  not  allow  free navigation inside it. In order to visit the space,  the  user  has  to  select,  in  an  interactive  2D  map,  pre-defined observation points6,7. using such contents,  the  curator  can  highlight  the  best  pieces  and  the  most  attractive  visual  angles,  performing  a  good  marketing task; the user, having no opening hour or  any other time constraints, can visit the best locations  obtaining  a  good  insight  to  the  physical  space  of  the  museum  and  its  master  pieces  of  art. 
+however,  to  achieve  a  more  intense  sense  of  immersion,  allowing  free  navigation  inside  the  exhibition  space,  it  is  necessary  to  create  3D  models  of  the  exhibition8,9. 
+Three dimensional virtual exhibitions provide a  compelling  environment  to  recreate  the  navigation  
+and historical places or buildings that no longer  
+and  can  benefit  from  a  3D  environment  where  the  exist or that have suffered considerable changes  
+relative dimension of objects is kept. This is the case  throughout  time.  This  is  usually  implemented  
+of  the  early  stages  of  conception  of  an  exhibition  using  installations  (kiosks)  on  specific  places.  
+where  it  is  important  to  decide  the  placement  of  When placed outdoors, these installations are a  
+artworks and be aware of object size and available  sort  of  museums  that  can  be  called  ‘museums  
+space.  Thus  an  interactive  tool  for  assisting  the  
+placement  of  artworks  in  selected  locations  is  
+indubitably  a  valuable  tool  for  any  museum  staff  to  mount  a  new  exhibition.  Besides  that,  the  final  result is a virtual exhibition which can be available  on  a  website. 
+In  a  virtual  visit,  the  navigation  inside  a  3D  virtual space should be performed interactively and  in  real  time,  giving  the  participant  the  sensation  of  being  inside  the  recreated  space.  The  intensity  of  this  sensation,  called  immersion,  depends  on  two  main  factors: 
+(i) Imagination  of  the  visitor,  and  
+(ii) Sophistication/quality of the technological device  
+that  supports  the  virtual  visit. 
+There  are  two  kinds  of  immersion  -  mental  immersion and physical immersion, both are important  in order to achieve a successful experience. Mental  immersion is the kind of sensation one may experience  even  when  one  read  a  novel,  a  fiction  book  or  when  one  plays  a  video  game,  that  is,  when  the  imagination  is  being  pushed  and  defied. 
+Physical immersion depends on the technological  installation which exhibits a virtual world. It changes  in  real-time  following  body  movements  or  explicit  interactions like switching off a lamp or using a knob  to open a door. Moreover, one or more senses are  stimulated.  This  total  sensory  immersion  requires  
+223 
+
+========2========
+
+DJLIT,  VOL.  33,  NO.  3, MAy  2013 
+wearing  a  device  like  a  head  mounted  display,  3D  polarising  stereoscopic  glasses,  or  a  glove  to  create  a  feeling  of  control  in  actual  space11.  Gaitatzes12,  et  al.   described  several  examples  of  immersive virtual reality presentations developed by  the  Virtual  Reality  Department  of  the  Foundation  of  the  hellenic  World.  however,  the  most  usual  virtual  reality  presentations  only  relay  on  mental  immersion  and  are  characterised  by  the  display  of  a  3D  environment  on  a  2D  screen. 
+In the cultural domain, 3D virtual environments  can  recreate  historical  sites.  The  virtual  model  of  a  building  is  sometimes  the  only  way  to  view  the  changes  regarding  architecture  of  a  building  over  time  or  its  appearance  before  damage  caused  by  weathering, natural disasters or wars. These virtual  reconstructions have in common with museum virtual  exhibition the aim of cultural diffusion and also the  techniques  used  both  for  3D  reconstruction  and  presentation.  
+3. buIlDIng  3D  VIrtuAl  MoDEls 
+Rendering 3D images can be accomplished without  building an explicit 3D geometric representation. This  is  the  case  of  the  images  generated  using  image- based  rendering  techniques,  which  take  as  input  a  set  of  images.  Although  there  is  a  wide  range  of  image-based  rendering  techniques,  that  justify  its  classification  in  a  continuum  between  images  and  images  combined  with  geometry13,  common  examples  of  this  technique  are  the  panoramic  views  based  on  QuickTime  VR5.  These  views  are  generated  with  computer  rendering  of  panoramic  photography  or  stitching  a  mosaic  of  overlapping  photographs.  In  the  latter  case,  the  pictures  are  taken  with  a  camera,  in  a  stationary  viewpoint,  as  it  rotates  about  its  vertical  axis  in  one  direction  only.  The  adjacent  pictures  need  to  have  some  overlapping  in  order  to  be  matched  and  blended.  Walking  in  space  is  accomplished  by  jumping  to  another  panoramic  view  generated  with  a  different  viewpoint. In addition to panoramic viewing, it is also  possible  to  simulate  the  rotation  about  an  object,  that  is  to  say  viewing  of  an  object  from  different  directions.  This  technique  allows  displaying  high  quality  images  independently  of  scene  complexity,  as  it  uses  real-world  scenery  directly.  
+Nevertheless, the ability to move freely around  the  scene  and  observe  objects  from  any  position  can be limited and, in complex environments, object  occlusions and discontinuities can affect the output14.  Moreover,  it  is  not  possible  to  simulate  different  lightning conditions to recreate other ambiences or  to  insert  new  objects  into  the  scene. 
+hence, to provide an immersive virtual environment,  
+224 
+the  first  step  is  to  create  its  3D  geometric  model.  Different  techniques  can  be  used  to  achieve  this  purpose.  The  model  can  be  built  from  scratch,  using  3D  modeling  tools,  or  it  can  be  based  on  3D  scanning  systems  (range-base  modeling)  or  on  images  of  the  object  (image-based  modeling).  As  they  create  models  from  real  objects  and/or  environments, image-based modeling and range based  modeling allow some sort of automation not possible  with  3D  modeling  tools.  Although  requiring  more  expensive equipment, in range-based modeling the  3D coordinates of the objects’ surfaces are provided  directly  from  active  sensors,  while  in  image-based  modeling  further  processing  is  required  to  obtain  the  3D  coordinates  from  images14.  
+Often none of these techniques can fully satisfy  the  requirements  of  large-scale  environments  for  applications  in  the  domain  of  cultural  heritage.  Therefore, multiple techniques can be combined to  produce detailed 3D reconstruction. That is the case  of  the  virtual  reconstruction  of Abbey  of  Pomposa,  near  Ferrara,  Italy,  described  by  El-hakim15,  et  al.  Laser  scanning  can  provide  all  the  details,  but  for  large  buildings  it  produces  a  huge  number  of  points  even  for  flat  surfaces.  On  the  other  hand,  image-based modeling is less efficient for irregular  or  sculpted  surfaces.  So,  image-based  techniques  were  used  to  capture  the  basic  shapes  and  then  the  detailed  elements,  obtained  by  laser  scanning,  were added to the global model that was previously  created  from  images. 
+3.1 3D  Modeling tools 
+The 3D modeling tools, like CAD software, are  an  option  to  build  3D  models  based  on  drawings,  on  blueprints  and/or  on  site  measurements.  When  dealing with archeological sites, this is actually the  unique  solution  as  the  building  or  object  no  longer  exists.  In  this  case,  paintings  and  text  documents  are valuable sources of information to complement  on  site  measurements.  Although  time  consuming,  these  tools  do  not  require  expensive  hardware.  The  resulting  model  is  often  scarce  on  details,  not  providing  a  realistic  appearance  but  it  can  be  improved  by  applying  texture  mapping.  There  are  several examples of virtual reconstructions using 3D  modeling tools. For instance, Semião and Carmo16  presented  a  virtual  gallery  built  with  Autodesk  AutoCAD17. Other modeling tools are also referred,  like 3DS Max18  used to model the Monastic complex  of St. Andrew, in Norwich, uK19, or Maya20  employed  to  recreate  the  Mosque  of  Córdoba,  in  Spain21,  to  model the Panagia Angeloktisti, a Byzantine church  located  in  Cyprus22,  or  to  reconstruct  the  ancient  Egyptian  temple  of  Kalabsha23. 
+
+========3========
+
+CARMO AND  C LáuDIO: 3D VIRTuAL  Exh IBITIONS 
+3.2   r ange-based  Modeling 
+The  3D  scanners  acquire  the  3D  coordinates  of  numerous  points  on  surface  of  the  objects,  in  a  relatively short period of time, obtaining a ‘cloud of  points’24.  To  obtain  a  3D  model,  these  points  must  be converted into a mesh of triangles. This requires  three  steps:  the  merging  of  different  clouds  taken  from  different  locations  to  complete  the  object;  the  elimination of inaccurate points; and the triangulation  operation, which corresponds to find the best way to  connect the 3D points to create triangles. Finally, to  achieve a photorealistic appearance, it is necessary  to  color  the  surfaces  of  the  triangles  in  a  way  that  mimics the original object. This can be accomplished  with  texture  mapping,  using  textures  obtained  with  digital cameras attached to the scanning device or  from  external  digital  imaging  systems. 
+To  merge  several  ‘cloud  points’  it  is  necessary  to  convert  all  the  points  into  a  unique  coordinate  system–the  registration  process.  This  consists  in  matching common points in the adjacent clouds and  estimating  the  rigid  transformations–rotations  and  translations–needed  to  align  them.  The  matching  process  can  be  based  on  high–reflective  targets  placed  in  specific  points  to  allow  the  estimation  of  the  involved  rotations  and  translations  of  the  equipment25. 
+Data  acquisition  can  be  performed  using  two  different approaches: triangulation based sensors or  time of flight based sensors24.  Triangulation  based  sensors  project  light  in  a  known  direction,  from  a  known  position,  and  measure  the  direction  of  the  reflected light through its detected position15. Since  measurement  accuracy  depends  on  triangle  base  relative  to  its  height  and  triangle  base  is  rather  short  for  practical  reasons,  these  systems  have  a  limited range of less than 10 m. Time of flight-based  sensors  measure  the  delay  between  emission  and  detection of the light reflected by the surface. These  sensors  provide  accurate  measurements  at  long  range and the range accuracy is relatively constant  for  the  whole  volume  of  measurements,  hence  they are the preferred choice for large structures26.  This  means  that  each  scanner  is  intended  for  a  specific  range. 
+Despite  being  an  expensive  technology,  it  is  an  expeditious  way  to  create  a  3D  model  either  of  large  buildings  or  of  detailed  artworks.  Visintini25  et al.   have  described  the  use  of  a  terrestrial  laser  scanning  (TLS)  and  photogrammetric  integrated  surveying to obtain a photorealistic 3D model of the  Church  of  Saint  Anthony  Abbot  in  San  Danieli  del  Friuli,  North-Eastern  Italy,  both  inside  the  church  and  outside  for  the  main  gothic  facade.  Texture  mapping  was  performed  automatically  using  the  photos obtained by the camera. As it was fixed onto  the  TLS  top,  the  position  and  orientation  taken  by  
+each  image  was  known.  The  obtained  model  was  converted to VRML/x3D and organised in two levels  of  detail  (LOD)  to  allow  fluent  web  navigation  with  high  detail  whenever  needed. 
+Data acquisition with 3D lasers scanning technology  is also referred in27   used  to  build  the  virtual  model  of  the  cathedral  of  Notre-Dame  de  Paris,  France.  More  detailed  areas,  such  as  the  three  portals,  the  Kings  Gallery  and  the  Virgin  Railings,  were  acquired  with  two  spatial  resolutions,  both  of  them  were more accurate than the resolution used in the  rest  of  the  monument. 
+As  mentioned  before,  range-based  techniques  can  acquire  very  detailed  surfaces,  which  make  them  suitable  to  build  3D  models  of  small  works  of  art,  such  as  jewellery,  ornaments,  decorated  weapons  or  statues.  This  is  the  case  of  the  work  presented  by  Przybill  and  Peipe28   that  describes  the range based techniques and equipment used to  model several objects, like crosses, swords, crowns  or  statues  belonging  to  the  treasure  of  the  Essex  cathedral,  Germany. 
+3.3 Image-based  Modeling 
+Image-based  modeling  methods  use  2D  image  measurements  or  correspondences  to  recover  3D  geometric  information.  Besides  photogrammetry,  which  means  extracting  measurements  and  3D  data from photographs, 3D models can be obtained  from  images  with  techniques  that  recover  shapes  from  shading,  from  texture,  from  specularity,  from  contour or from 2D edge gradients14. usually, multiple  views  are  required  to  acquire  3D  measurements.  Photogrammetric  applications,  like  Photomodeler,  recommend  to  get  reference  points  at  least  on  three photographs and to get as much overlap ping  between adjacent photographs as possible. however,  accuracy improvements become less significant when  a  point  is  measured  in  more  than  four  images14. 
+Image-based  modeling  process  consists  of  several steps such as design of sensor and network  geometry; 3D measurements; structuring and modeling;  texture  and  visualisation.  
+The  network  of  sensors  should  be  carefully  designed  to  optimise  the  accuracy  of  3D  point  measurements.  This  includes  the  selection  of  the  suitable cameras, the image measurement scheme,  the  imaging  locations  and  orientations.  This  step  defines  imaging  geometry  and  influences  camera  calibration, that is, the setting of camera parameters,  like  focal  length  or  digitising  scale. 
+The measurements step is necessary to obtain  the 3D coordinates of the acquired points. It can be  performed applying manual or automated procedures.  The  latter  usually  rely  on  constraints  and  area- based or feature-based matching techniques. Manual  procedures can produce more reliable measurements  
+225 
+
+========4========
+
+DJLIT,  VOL.  33,  NO.  3, MAy  2013 
+but  recover  a  small  number  of  points  for  each  object, since they are time consuming. After image  measurements,  the  matched  2D  coordinates  are  transformed  into  3D  object  coordinates  taking  into  account  the  parameters  of  the  camera. 
+A  dense  point  cloud  can  be  obtained,  like  in  range-based  methods,  using  stereo  images,  that  is,  a  pair  of  photographs  being  close  to  parallel  but  separated  horizontally,  taken  to  an  object  or  to  a  scene.  This  technology  is  called  photo-based  scanning,  or  photogrammetric  scanning29.  While  laser scanners usually produce their 3D point data  in  real-time,  photo-based  scanning  produces  point  clouds  as  a  computation.  Computer  vision  stereo  matching  techniques  are  used  to  match  the  same  patch on a pair of photographs and 3D coordinates  are  calculated  using  triangulation24. 
+After  obtaining  3D  point  coordinates  by  image  measurements,  it  is  necessary  to  create  a  surface  description of the objects. Commonly, as explained  before,  a  triangular  mesh  is  generated  through  a  triangulation operation. Afterwards, to obtain a more  realistic  appearance,  the  surface  must  be  colored  as  close  as  possible  to  the  object  it  represents  or  texture  mapping  can  be  applied.  
+Photogrammetric  techniques  allow  combining  information from different periods in time using recent  and archive images, as reported by Grussenmeyer  and yasmine30  about the construction of the virtual  model of Beaufort castle, in Lebanon. The goal was  to make a 3D restitution of the structures destroyed  during  the  war.  Photographs  taken  between  1935  and  1937  by  the  French  army  were  combined  with  recent  terrestrial  and  aerial  views  of  the  castle.  
+Due  to  irregularities  of  the  terrain,  acquiring  images is not always an easy task. To surpass this  difficulty, in the restitution of Perlo Castle, Italy, aerial  photographs were taken using an unmanned aerial  vehicle–a mini-helicopter31. The aerial photogrammetric  survey was performed using a camera positioned in  the lower part of the mini-helicopter. It was possible  to orient the camera in different directions during the  flight  and  to  perform  remote  controlled  shoots. 
+Despite the advances in 3D modeling reconstruction,  further  investigation  to  improve  3D  acquisition  is  still  needed,  as  evidenced  by  on-going  research  projects  that  embrace  this  topic,  like  3D-COFORM  (Tools and Expertise for 3D Collection Formation)32.  This  project  aims  to  contribute  ‘for  the  sustainable  deployment of 3D-acquistion, manipulation, analyses  and communication of 3D digital artifacts in real-world  practice’. 
+A  noticed  limitation  in  3D  acquisition,  that  this  project  wants  to  overcome,  concerns  the  range  of  artifacts  that  cannot  be  captured  accurately  due  to  their  material  properties,  like  reflectance. 
+226 
+4.  3D  VI rtuAl  Mo DEls  In  culturAl  
+hErItAgE 
+Virtual  reconstructions  of  3D  models  are  used  both  for  the  museum  exhibitions  and  for  cultural  sites. In cultural site, when the buildings and artifacts  are  severely  damaged,  virtual  models  are  the  best  mean to visualise their former appearance. So there  are  several  examples  of  virtual  reconstructions  of  archeological sites or historical buildings destroyed  along  the  time  by  natural  causes  or  as  result  of  wars. The technologies used depend on: the target  audience–researchers  or  a  broader  audience;  the  medium of the exhibition–through the web or on site  installations; the reconstruction context – architectonical  focus  and/or  reproduction  of  traditional  customs.  For instance, Web3D technologies33 based on VRML  and  x3D  are  often  used  for  diffusion  through  the  web.  however,  when  the  aim  is  to  obtain  realistic  environments similar to real world images, software  with more sophisticated renders is needed. On the  other hand, on-site exhibitions can take advantages  of augmented reality techniques that present virtual  reconstructions  superimposed  on  captured  images  of  the  real  environment. 
+To  provide  interactive  visualisations  of  3D  environments  through  the  web,  several  authors  have been using Web3D technologies. For instance,  3D MuRALE system34, which comprises a large set  of  functionalities  to  deal  with  data  of  archeological  sites,  also  includes  a  component  to  provide  visualisations  through  the  web  based  on  VRML.  This system comprehends tools that support several  tasks  required  in  the  investigation  of  data  from  archaeological  artifacts,  monuments  and  sites,  like  recording,  reconstruction,  encoding,  data  querying  and  visualisation.  The  ancient  city  of  Sagalassos  in  Turkey  has  been  used  as  a  test  case  for  this  system. In the following sections are described works  focused  on  more  specific  problems  related  to  the  use  of  virtual  reality  in  the  cultural  context.  
+4.1 Visualisation  of  temporal  Evolution  
+hetherington et al. have addressed the problem of  displaying temporal evolution of archeological sites35.  They proposed an approach for 3D models using a  single x3D file containing both geometric data, like  structures  and  buildings,  and  data  about  evolution  over time. The temporal data is embedded within the  x3D  file  using  metadata  nodes.  This  solution  was  used to show three different stages of Stonehenge  site,  in uK.  The  model  is  displayed  in  a  webpage  and each state of the model associated with temporal  data is displayed by clicking on hyperlinks. El-hakim  et  al.  have  also  used  a  single x3D  file  containing  all  the  models  from  different  times  but  their  goal  was  to  provide  an  animation  over  time,  that  is,  to simulate  navigation  within  a  virtual  4D  world36.  To  
+
+========5========
+
+CARMO AND  C LáuDIO: 3D VIRTuAL  Exh IBITIONS 
+produce  a  smooth  transition  over  time,  the  levels  of  opacity  or  transparency  of  the  virtual  model  components are adjusted according to what should  be visible in each period in history. The interaction  is  controlled  by  a  time  slider  used  to  select  a  time  period.  Alternatively,  a  static  visualisation  is  also  provided  to  allow  the  user  to  observe  the  different  models.  Video,  audio,  and  images  can  be  linked  to  these  presentations  and  shown  in  a  different  window  to  supply  additional  information. 
+The  use  of  transparency  to  visualise  changes  occurred  along  the  time36,  as  exemplified  with  Stenico  Castle,  in  Northern  Italy,  was  based  on  the  work  presented  by  Zuk37, et  al.   that  suggests  visual  cues  to  communicate  metadata.  They  have  focused  on  techniques  to  express  both  temporal  and  visual  appearance  uncertainty  in  interactive  3D  scene  reconstructions.  The  uncertainty  arises  mainly from missing data and virtual reconstructions  should transmit its speculative nature. Several visual  encodings  are  proposed  to  convey  spatial  and  temporal uncertainty37, such as transparency, wireframe  representation or rising/sinking animation, that is, an  animation that corresponds to a form of displacement  of  the  objects  that  raise  some  doubts.  The  lack  of  complete  data  leads  also  to  the  consideration  of  possible  alternatives19.  So,  in  addition  to  different  representations along the time, Laycock19, et al., have  developed an interactive technique for the exploration  of  alternative  interpretations  of  cultural  heritage.  This  technique  was  applied  to  the  interpretation  of  St. Andrew’s Monastic complex, Norwich. The user  may navigate along the time observing the evolution  of  the  monastic  complex.  Since  the  start  and  end  times  for  an  objects’  time  period  are  not  always  completely determined, different levels of transparency  are  used  to  enable  the  visualisation  of  potentially  overlapping  time  periods  for  the  objects  in  the  scene. Furthermore, to analyse different hypotheses  in  a  given  time  period,  alternative  reconstructions  for  that  time  period  may  be  selected. 
+4.2   r ecreation  of  Ancient  traditions:  Virtual  
+characters 
+Besides  buildings,  cultural  heritage  comprises  also customs. The reproduction of religious or social  traditions enriches virtual reconstruction. Ramic-Bric  et  al.  combined  the  virtual  reconstruction  of  the  Church  of  the  holy  Trinity,  in  Mostar,  destroyed  during war in Bosnia and herzegovina38  with captured  images  of  an  Orthodox  priest.  In  this  case,  the  priest  tells  short  stories  about  the  history  of  the  church  and  important  interior  objects  that  were  there.  his  presentation  was  recorded  against  a  green  screen  background  to  enable  to  process  the  image  and  remove  the  background.  The  3D  model  of the Church was described in x3D format and the  image sequence was associated to an object of the  
+scene that would display it. The sound captured was  synchronised  with  the  images  and,  to  enhance  the  immersion  of  the  viewers,  traditional  church  music  is  also  played  in  the  background. 
+The  recreation  of  the  way  people  lived  in  the  past  can  be  simulated  using  virtual  human  beings.  Maim  et  al.  populated  a  virtual  reconstruction  of  Pompeii,  Italy,  with  crowds  of  virtual  Romans  to  simulate  life  in  the  streets  and  houses  before  the  eruption by the volcano Vesuvius39. The goal was to  generate  a  real-time  simulation  with  virtual  human  beings exhibiting realistic and varied behaviors. To  accomplish this goal, the virtual reconstruction of the  city  was  annotated  with  semantic  data.  This  data  is  automatically  interpreted  by  the  virtual  human  beings to trigger special behaviors, according to the  location of the characters. Their motion is based on  a navigation graph which is automatically generated  from the 3D Pompeii geometry, including in its vertices  the  semantic  data  that  influences  the  behavior.  Seven  human  templates  were  created  to  perform  distinct  roles  and,  to  create  large  crowds,  several  instances  of  these  templates  were  generated.  To  obtain a more compelling result, different techniques  were  used  to  color  their  bodies  and  clothes. 
+Pietroni and Antinucci40  described application of  the  recreation  of  virtual  environments  with  virtual  human  beings  in  the  context  of  cultural  heritage.  Based  on  the  painting  ‘The  Rule  Confirmation’  painted by Giotto in the upper Basilica of St. Francis  of  Assisi,  Italy,  at  the  end  of  the  xIII  century,  a  3D  virtual  environment  with  all  the  characters  in  the  scene  was  recreated.  The  interaction  with  this  environment  helps  in  the  study  of  Giotto’s  perspective  construction  in  comparison  with  the  way one conceives perspective nowadays. Besides  supporting the spatial and perspective investigation  of Giotto’s fresco, this recreation was also the basis  of  an  interactive  installation  to  involve  the  visitors  in  the  scene  portrayed  by  Giotto.  The  scene  was  brought to life with an animation where the characters  performed the action represented in Giotto’s painting.  In addition, when the animation stopped, a tracking  system identified the movements of the visitor who  was  in  front  of  the  projection  area.  As  the  visitor  moved,  the  image  was  updated  according  to  his  new  viewpoint,  simulating  walking  in  the  scene.  
+4.3   r eproduction  of  Ancient lightening  for  
+Visual realism 
+Accurate  virtual  simulations  of  historical  sites  can provide new insights of how these spaces were  used, ‘enhancing our understanding of the conditions  in which our ancestors lived and worked’41. The need  to  create  more  realistic  virtual  environments  led  to  the development of new methods to simulate interior  lighting  of  historical  sites.  More  than  generating  
+227 
+
+========6========
+
+DJLIT,  VOL.  33,  NO.  3, MAy  2013 
+scenes  with  an  authentic  visual  appearance,  it  is  required  that  they  are  perceptually  equivalent  to  the  real  scene  in  the  past.  This  means  that  our  perception of past environments should consider the  lighting  conditions  of  that  time:  the  use  of  natural  daylight  and  the  use  of  flames  with  different  fuel  types41.  The  perception  of  color  is  affected  by  the  amount  and  nature  of  light  reaching  to  the  eye,  so  Devlin  and  Chalmers  conducted  a  study  to  identify  the  characteristics  of  light  sources  used  in  the  past,  such  as  the  olive  oil  lamps.  using  a  spectroradiometer,  they  gathered  data  about  the  spectral characteristics of the light of olive oil lamps  under different conditions, for instance, adding salt  or water to the lamps. After that, the spectral values  were  converted  into  RGB  values  used  in  computer  monitors.  The  effect  of  different  kind  of  lighting  sources  was  tested  in  a  recreation  of  a  room  with  frescoes of the house of the Vetii in Pompeii, Italy.  The perception of the frescoes was noticeably different  when  illuminated  by  simulated  olive  oil  lamps  and  when viewed with simulated modern lights. using a  similar approach, Gonçalves42,  et al.,   analysed  the  spectral characteristics of olive oil manufactured with  old  traditional  methods42.  The  light  obtained  with  this  oil  has  lower  intensity  than  the  one  got  with  oil produced with in a modern mill. They have also  explored the capabilities of high dynamic range displays,  which allow broader ranges of luminance and color,  to  produce  high  quality  images.  As  a  case  study,  they  recreated  a  room  with  frescoes  from  a  house  in  the  Roman  ruins  of  Conimbriga,  Portugal. 
+Kider21,   et  al .,  studied  how  to  reproduce  the  interior  lighting  of  early  Islamic  buildings,  like  the  Mosque of Córdoba through the 8th to 10th century.  Although none of the original lamps of this site had  survived, through information gathered by historian  experts on other contemporary sites, they assumed  that single jar lamps were used. The light produced  by these sources reflects the combination of glass,  water,  fuel  and  flame.  The  authors  conducted  a  series  of  experimental  studies  to  investigate  and  validate  how  various  glass  fixture  shapes,  water  levels  and  different  mounting  heights  could  affect  overall light patterns and downward lighting. Based  on  the  results  of  these  studies,  they  developed  a  technique,  called  Caustic  Cones,  to  simulate  the  light produced by these lamps in a virtual model of  Córdoba’s Mosque, trying to recreate the ambience  of  the  past.  
+Besides  interior  lighting,  outdoor  day  lighting  also  contributes  to  the  total  illumination.  In  dark  interior cultural heritage environments, like Byzantine  temples,  the  majority  of  the  light  inside  the  church  comes  from  inter-reflection  of  sunlight22.  In  this  case, sunlight has a major visual impact generating directly  lit  areas  and  sections  in  deep  shadow.  
+228 
+In  addition,  the  scene  illumination  also  changes  substantially  at  different  hours  of  the  day.  using  a  virtual  reconstruction  of  Panagia  Angeloktisti,  a  Byzantine  church  located  in  Cyprus,  happa,22 et  al.,  investigated an approach to the interior lighting  using  high  dynamic  range  environment  maps  of  photographs  and  interpolated  spectrophotometer  data  collected  on  site22. 
+The  effect  of  day  light  was  also  investigated  by  Sundstedt23,  et  al.   in  the  virtual  reconstruction  of  the  ancient  Egyptian  temple  of  Kalabsha.  When  the Aswan high  dam  was  constructed,  this  temple  was  dismantled  and  moved  to  a  new  location  to  avoid  its  disappearance  under  the  waters  of  the  Nile.  As  the  orientation  of  the  Egyptian  temples  was  carefully  chosen,  the  virtual  reconstruction  allows simulating the orientation of sun rays as they  occurred  in  the  original  position  and  orientation  of  the temple. To achieve a more accurate reproduction,  the texture of the materials used in the temple was  reproduced and the hieroglyphs drawn on the walls  were represented in 3D. To light the interior rooms,  the  authors  reproduced  the  characteristics  of  olive  and  sesame  oil  lamps  as  Devlin41, et  al.   did.  This  kind  of  light  produces  significant  differences  in  the  visualisation  of  colored  hieroglyphs.  The  lighting  model  of  Kalabsha  temple  was  improved  taking  into  account  the  effect  of  light  scattering  due  to  participating media, such as dust in the atmosphere43.  In  rooms  with  small  windows  and  practically  no  direct  sun  light  entering,  the  participating  medium  plays  an  important  role  in  the  transport  of  light  throughout  the  scene.  Despite  increasing  severely  rendering  times,  the  simulation  of  the  influence  of  dust  from  the  sandy  environment  creates  a  new  luminance  distribution  and  a  better  perception  of  the  original  ambiance. 
+Furthermore accurate physically based simulations  of  light  on  virtual  environments  can  be  used  to  investigate about the optical effects of polychromic  buildings, namely on medieval churches27. These authors  conducted a study using a virtual reconstruction of  Notre-Dame  de  Paris,  France,  with  polychromatic  restitution based on the remains found on sculptures,  on some architectural details and on research on the  classical  organisation  of  the  paint  layers  used  for  this purpose. Their aim is to understand the complex  relationships  between  light,  paint,  and  gilt. 
+5. VIrtuAl  MoDEls AnD   Aug MEntED 
+rEAlIty 
+Virtual models can be mixed with images captured  from real world. Augmented reality is a variation of  Virtual  reality  that  allows  the  user  to  see  the  real  world  with  virtual  objects  superimposed  upon  or  composited  with  the  real  world44.  This  technique  has  been  explored  either  inside  the  museums  
+
+========7========
+
+CARMO AND  C LáuDIO: 3D VIRTuAL  Exh IBITIONS 
+or  in  the  open-air  in  archeological  sites.  On-site  virtual reconstructions can be presented outdoor in  real  environments  to  substitute  physical  rebuilding  of  historical  remains,  which  could  interfere  with  archeological  research.  These  presentations  help  the  visitor  to  understand  and  experience  the  past  through  the  representation  of  virtual  reproductions  of  monuments  over  their  archeological  remains.  These  augmented  reality  experiences  have  been  tested  either  using  on-site  kiosks  or  with  mobile  equipments.  
+5.1 Augmented reality outdoor  Experiences 
+At  the  archeological  site  of  Ename  located  in  the province of East-Flanders, in the Dutch speaking  region of Belgium, an on-site kiosk offers the visitors  a  virtual  reproduction  of  the  Benedictine  abbey  over  its  exposed  foundations45:  a  3D  model  of  the  abbey  church  is  superimposed  over  a  real-time  video  of  its  remains.  The  kiosk  can  also  provide  multimedia presentations that convey local historical  information. 
+A  more  challenging  approach  in  augmented  reality  experiences  is  mobile  presentations.  In  this  case,  a  new  problem  arises:  as  the  user  moves  freely,  it  is  necessary  to  track  his  position  and  viewing direction to integrate virtual reconstructions  in  the  user’s  field  of  view  in  their  correct  position.  Therefore, it is necessary to provide a mechanism to  determine location and orientation of the user. This  can be accomplished using a GPS (global positioning  system)  to  obtain  outdoor  location  and  a  digital  compass  to  determine  orientation.  Inertial  sensors  and  gyroscopes  can  also  be  used  to  determine  orientation, but the errors of these sensors tend to  sum up over time46. Another approach to determine  user’s orientation and location is to use a camera to  capture the current view and use vision algorithms  to  identify  what  the  user  is  looking  at46.  however  this  process  is  computationally  more  demanding. 
+Another  concern  in  augmented  reality  mobile  presentations  is  to  provide  equipment  that  can  be  carried by the visitor: it has to integrate sensors to  determine position and orientation and a display to  combine virtual objects with real images. Two main  types  of  equipments  can  be  used:  head-mounted  displays (hDM) or small displays of palmtop devices.  Regarding  head-mounted  displays,  they  can  be  based  on  optical  or  on  video  technologies44.  In  the  first  case,  called  optical  see-through hMD,  the  graphical objects are displayed in front of the user’s  eyes  on  optical  combiners  partially  transmissives,  allowing  the  user  to  see  the  real  world  through  these.  On  the  other  hand,  a  video  see-through  hMD  is  a  closed-view hMD  with  one  or  two  video  cameras that capture images of the user’s  view  of  the  real  world.  The  video  from  these  cameras  is  
+combined  with  the  graphical  objects  and  displayed  on  the  monitors  in  front  of  the  user’s  eyes  in  the  closed hMD44.  When  a  palmtop  device  is  used,  its  display shows the virtual objects combined with real  images captured by the device, corresponding to the  video technology described above. The drawback of  palmtop displays is that they may not have enough  contrast  to  produce  intelligible  images  in  outside  environments  with  bright  sunlight. 
+In  the  scope  of  Archeoguide  project,  a  mobile  unit for outdoor augmented reality tours in cultural- heritage sites was developed and tested at ancient  Olympia in Greece46.  The  mobile  unit  is  composed  of  a  laptop  computer,  a  wireless  network  (WLAN)  antenna,  a  GPS  receiver  in  a  backpack  and  a  video  see-through  hMD  with  a  camera  and  an  electronic compass. The authors preferred this kind  of hMD,  as  it  can  be  worn  and  removed  from  the  user’s  head  during  a  tour  visit  requiring  no  extra  calibrations. Providing a wireless network interface  allows  communicating,  for  instance,  with  a  site- server  to  distribute  contents46. user’s  position  and  orientation  is  obtained  combining  two  techniques.  First,  an  approximate  estimate  is  obtained  using  GPS and the electronic compass. More exact values  are then determined using image based techniques  that compare the captured image of the user’s field  of  view  and  a  set  of  images  of  the  site  indexed  according  to  the  spatial  coordinates  from  which  they  were  taken47.  In  this  project,  real  images  are  combined  with  3D  virtual  models  in  VRML. 
+A similar approach was used in Lifeplus Project to  provide interactive audiovisual guided tours presentations  to  visitors  of  ancient  Pompeii,  Italy48.  In  this  case  a  richer  set  of  communications  infrastructures  was  considered to obtain user’s location inside buildings,  since  GPS  cannot  be  used  in  this  case. 
+5.2 Augmented reality  Indoor  Experiences 
+Augmented  reality  presentations  can  also  be  performed  inside  museums  to  provide  a  richer  and  compelling  experience  to  the  visitor.  hall49,  et  al.  described  an  interactive  activity  using  a  hMD.  The  used  equipment  enables  the  visitor  to  see  simultaneously, real artifacts and virtual embodiments  of related artifacts. This was complemented with audio  information through the hMD headphones. however,  this kind of equipment can raise some difficulties: it  can be obtrusive, is a non-collaborative technology,  and  novice  users  usually  require  assistance  to  manage  it. 
+Instead of real-time images, photographs can be  used as the real world reference to place 3D virtual  models50. At  the  Provincial Archaeological  Museum  of  Ename,  close  to  the  Ename  archeological  site,  referred above, this was achieved using QuickTimeVR  
+229 
+
+========8========
+
+DJLIT,  VOL.  33,  NO.  3, MAy  2013 
+technology5  to show the evolution of the entire village  over  the  past  ten  centuries  considering  12  distinct  periods in time. A 4-D QTVR object was built based  on a two dimensional matrix of images: each column  contained the images representing the evolution of  the landscape along the time from a specific point of  view  and  each  row  fixes  the  images  obtained  from  36 evenly spaced points on a predefined circle. So  a horizontal movement corresponds to a rotation in  turn of a focus of interest and a vertical movement  shows the evolution along the time. Photographs of  the archeological site were taken from a helicopter  flying  around  the  site.  As  is  unlikely  to  obtain  the  images  exactly  from  the  36  target  viewpoints,  the  images  had  to  be  processed  to  create  a  kind  of  interpolated  view  from  each  viewpoint50.  Later  on,  virtual  models  were  combined  with  the  resulting  processed  images  aligning  both  the  coordinate  systems.  
+Taking  advantage  of  softer  lightning  conditions  of  indoor  spaces,  mobile  phones  equipped  with  a  digital  camera  can  be  used  to  display  mobile  augmented reality presentations. As mentioned before,  mobile  presentations  require  automatic  capturing  of  visitor’s  location  and  GPS  cannot  be  used  to  provide indoor location. This is a problem faced by  all  the  multimedia  mobile  museum  guides. 
+In  the  pioneering  multimedia  tour  developed  in  Tate  Modern,  in  London,  visitor’s  location  was  obtained  through  a  wireless  network.  Fourteen  galleries  were  covered  with  seven  access  points,  defining  sixteen  unique  content  zones  which  were  delivered to visitors taking into account their location  in  the  gallery51. 
+To allow the visitor to freely choose information  about an object he is looking at, location detection  techniques  are  not  sufficient,  as  they  only  provide  user’s  location,  not  his  line  of  sight.  A  solution  is  to  recognise  a  special  identification  marker  placed  close to an individual artwork. In Cicero project, RFID  (radio frequency identification) technology has been  used to accomplish this purpose52. The  RFID  tags,  placed close to the artworks, are detected by mobile  devices  equipped  with  RFID  readers. Two  types  of  tags  were  experimented:  passive  RFID  tags  and  active RFID tags. Passive tags can only be detected  within a few centimeters’ range. This feature forces  users to stand too close to the displayed identified  by  them.  To  overcome  this  limitation  active  RFID  were also tested. Nevertheless, there are still some  limitations.  It  is  difficult  to  distinguish  two  or  more  objects that are too close to each other, so a single  tag  must  be  used  to  identify  neighboring  objects.  Moreover,  the  visitor  may  be  close  to  an  artwork  but  not  looking  at  it.  So  user’s  orientation  should  also  be  detected  to  support  a  better  approach  to  detect  his  focus  of  interest. 
+230 
+In augmented reality software applications, each  individual  object  can  be  identified  with  a  special  type  of  marker,  which  is  recognised  analysing  the  images  captured  with  the  camera  of  the  mobile  device.  Besides  identification,  these  markers  are  also used as a spatial reference to place graphical  representations  over  the  images  captured  by  the  camera. On the device’s displayed, visitors can watch  digital  objects  and  animations  superimposed  onto  real exhibits53. however, using tags require additional  space  and  may  disturb  the  visual  concept  of  the  exhibition. Another approach is to use more general  computer  vision  algorithms  to  identify  an  arbitrary  exhibition  object  by  its  features.  This  solution  is  time  consuming  and  is  constrained  by  hardware  limitation  of  the  device,  although  some  advances  have  been  done  on  natural  features  recognition  with  mobile  phones54.  To  lighten  computer  vision  processing,  Bruns,  et  al.  have  combined  location  awareness  to  restrict  the  number  of  objects  to  be  analysed55.  They  have  tested  the  use  of  a  grid  of  Bluetooth emitters to obtain an estimative of user’s  location.  They  have  distributed  eight  Bluetooth  emitters  over  15  rooms  in  two  floors  of  the  City  Museum  of  Weimar,  Germany.  This  ensured  the  partition of the environment into spatial cells, each  one  associated  with  the  set  of  objects  which  are  exhibited  in  that  area.  So  the  recognition  process  is limited to each set of objects. When the museum  visitor  presses  a  button  on  the  mobile  phone  to  take  a  picture,  the  object  recognition  process  is  triggered. Instead of identifying an individual object,  computer  vision  algorithms  can  also  be  employed  to recognise a small area of a painting and provide  contextualised  information  about  it56.  
+6.    t ools  to  buIlD   V IrtuAl  MusEuMs  
+ExhIbItIons  
+Creating  3D  virtual  models  of  exhibitions  may  serve several purposes, such as to offer educative  and  recreational  activities  inside  a  museum,  to  promote  a  museum  collection  through  a  webpage  or  to  help  preparing  an  exhibition. 
+In  any  case,  the  content  of  virtual  exhibitions  should be created by domain experts, like museum  curators and their staff, usually not experts in computer  science. Therefore, interactive software applications,  not  requiring  users'  informatics  skills,  would  help  domain experts to accomplish this task. Some tools  have been proposed, providing not only a means to  develop virtual exhibitions, but also to help a museum  curator  conceive  and  mount  an  exhibition.  
+An example of a tool for this purpose is presented  by  hrk57.  It  provides  a  2D  graphical  editor  that  allows,  on  one  hand,  editing  the  floor  plan  of  a  gallery, including its graphical properties, like color  and  texture  of  each  wall,  and  on  the  other  hand, 
+
+========9========
+
+CARMO AND  C LáuDIO: 3D VIRTuAL  Exh IBITIONS 
+mounting  paintings  on  the  walls.  The  latter  task  is  accomplished  using  two  auxiliary  windows  opened  by double-clicking on a wall in the floor plan: one of  the  windows  represents  the  layout  of  the  paintings  placed on that wall; and the other window presents  the  interface  to  add,  delete,  resize  or  move  the  paintings.  This  tool  deals  only  with  2D  paintings  and  does  not  support  3D  artworks. 
+Within  the  scope  of  the  ARCO  (Augmented  Representation  of  Cultural  Objects)  project  the  creation and management of virtual exhibitions have  been addressed58. A set of tools has been developed  comprising the generation of digital representations  of artifacts, the management of these media objects  and  their  visualisation  in  a  3D  environment.  The  goal  is  to  help  museum  curators  to  build  virtual  exhibitions  for  the  web  and  to  be  used  in  local  interactive  kiosk  displays.  This  goal  is  achieved  using parameterised templates developed by content  designers with knowledge in computer science and  3D technologies59. These templates are developed in  x-VRML which is a high-level xML-based procedural  language that adds dynamic modeling capabilities to  virtual scene description standards, like VRML and  x3D. In an x-VRML template, x-VRML commands are  interleaved with fragments of native scene description  allowing the program to read data from a database  and  use  parameter  values  as  input.  Database  access allows dynamic update of the virtual scene,  and,  reciprocally,  user  interaction  or  programmed  dynamism  of  objects  in  the  scene  may  generate  updates  to  the  database60.  The  actual  content  of  a  presentation  depends  on  the  actual  parameters  of the template which can be preset by the curator  through a content management application, supplied  by  the  user  or  obtained  by  database  queries.  however, the curator depends on content designers  to  update  or  to  create  new  templates. 
+xVM is another xML-based language designed to  describe virtual museum exhibitions61. The scene is  organised in a tree structure whose nodes correspond  to  the  objects  in  the  scene.  There  are  specific  built-in nodes that contain the attributes needed to  describe the basic elements of an exhibition room.  3D models of the artworks are described in VRML/ x3D  documents.  Virtual  exhibitions  are  built  using  an  authoring  tool  that  helps  placing  artworks  into  the  3D  scenario.  Along  with  the  authoring  tool,  a  xMV  server  and  a xMV  viewer  were  developed  to  allow  the  navigation  in  the  3D  virtual  exhibition. 
+A  recent  virtual  recreation  of  the  Museum  of  Contemporary Art of Macedonia in Thessaloniki, Greece,  is described by Patias62, et al.  The  physical  space  of the museum and its collection were digitised and  converted into a Web3D format33  to be disseminated  through the web. Although there is no reference to  a  specific  application  used  by  the  museum  staff,  
+one  of  the  features  created  for  virtual  visitors  is  the  interactive  construction  of  an  art  gallery.  The  artworks are selected by database queries based on  keywords, such as, author or artwork name among  others,  and  then  in  the  virtual  space  by  dragging  and  dropping.  No  specific  details  are  given  about  this  application.  
+In  Katalabs63   a  video  presents  a  3D  gallery  builder  based  in  WebGL. An  editor  allows  the  user  to  place  pictures  on  the  walls  and  adjust  their  positions.  3D  models,  defined  in  the  COLLADA  format,  can  be  inserted  into  the  scene.  No  details  are given about the creation of the 3D environment  and  how  the  3D  models  are  inserted  in  it. 
+The  VEx-CMS  (Virtual  Exhibition  Content  Management  System)  is  a  tool  that  aims  to  help  curators  to  create  3D  virtual  exhibitions  and  on- line  guided  tours  with  explanations  to  visitors64.  Even  though  this  tool  provides  the  arrangement  of  artworks  in  the  virtual  space,  its  main  focus  is  to  help curators to create the more appropriate points  of  view  to  observe  the  artworks  in  a  guided  tour  and to add textual information about them. To place  3D  objects,  it  is  possible  to  specify  the  side  of  the  object that should be attached to a surface and, the  object will move in a direction perpendicular to that  side  until  it  finds  a  surface  to  support  it.  Position  of  the  object  may  be  adjusted  with  translations,  rotations  and  scale  operations.  No  further  details  are  given  about  object  placement64. 
+Based on Web3D technology, the Virtual Art Gallery  tool  was  conceived  as  an  auxiliary  tool    to  assist  museum teams to mount an exhibition16.It  requires  a  3D  model  of  the  exhibition  space  in  an x3D  file  and  access  to  the  digited  database  artworks.  This  tool  has  been  recently  reformulated  to  enable  the  extension  of  the  functionalities  provided.  The  next  section  describes  the  main  features  of  this  work. 
+7.  VIrtuAl Art  gAllEry  tool 
+Virtual  Art  Gallery  tool  was  developed  in  collaboration  with  the  Azores  Institute  of  Culture  (Instituto Açoriano de Cultura), and it was conceived  with  the  aim  to  support  the  creation  of  virtual  exhibitions by the museum curator and his team16.  This tool was designed bearing in mind the following  goals:  to  be  used  by  people  with  no  expertise  in  computer  science,  to  be  capable  of  dealing  with  different exhibition spaces and to produce a virtual  exhibition that could be accessed through the web.  To  attain  these  goals  the  interactive  tool  was  built  based  on  Web3D  technology.  The  tool  handles  scenarios described in an x3D file, it was developed  in  Java,  the  manipulation  of  the  scene  in  the x3D  model  is  done  using  xj3D,  and  information  about  2D  artworks,  such  as  paintings  or  tapestries,  are  stored  in  a  MySQL  database.  The  user  does  not  
+231 
+
+========10========
+
+DJLIT,  VOL.  33,  NO.  3, MAy  2013 
+need  any  knowledge  on  computers  programming  to  build  a  virtual  exhibition:  given  an  x3D  file  with  the  description  of  the  physical  space  of  the  exhibition,  the  user  interactively  selects  paintings  from the database of artworks and chooses, with a  mouse  click  in  the  scenario,  the  appropriate  place  to  display  it.  The  resulting  exhibition  is  described  in  an x3D  file. 
+The tool requires the description of the exhibition  space in an x3D file. however, to allow the user to  select surfaces in the 3D model, this description must  be extended to include a touch sensor associated with  each surface that can display artworks. To accomplish  this goal the tool comprises two applications: Space  Picker, which allows the user to choose the surfaces  that  must  become  available  for  art  display  in  the  x3D  model,  and  the  Virtual  Exhibition  Builder,  the  main  application,  that  uses  the  model  transformed  by  the  Space  Picker  and  permits  the  user  to  place  artworks  on  the  available  surfaces. 
+The Space Picker application prepares the x3D  file  to  be  used  by  the  Virtual  Exhibition  Builder.  It  imports  the  x3D  file  with  the  description  of  the  exhibition  space  and  adds  touch  sensors  to  all  the  surfaces of the scenario. As not all the surfaces are  appropriate to display artworks, due to its area, slope  or localisation, some of these touch sensors should  be  removed  or  deactivated.  To  achieve  this  goal,  the  user  selects  interactively  the  surfaces  that  can  be  picked  by  the  Virtual  Exhibition  Builder,  that  is,  the ones that will keep their touch sensors marked  as  active.  As  the  user  selects  a  surface,  its  color  changes (it turns red) to highlight the selected status.  A  subsequent  selection  of  the  same  surface  will  revert  the  selected  status.  When  the  user  finishes  surface  selection,  he  saves  the  results  in  a  new  x3D  file  that  contains  the  initial  scenario  as  well  as  the  touch  sensors  of  the  selected  surfaces. 
+The Virtual Exhibition Builder application creates  the  virtual  exhibition,  using  the  x3D  file  that  was  modified  by  the  Space  Picker  application  and  the  2D  artworks  in  the  database.  To  place  an  artwork  in the scene it has to be chosen from the database  through  a  graphical  query,  which  filters  the  items  by  author’s  name  and  the  name  of  the  work.  A  thumbnail  of  the  chosen  work  is  shown  in  the  query  area  of  the  interface.  This  artwork  is  added  to  scene  by  clicking  on  any  surface  selected  with  the  Space  Picker  application.  Each  added  object  has  a  touch  sensor  to  allow  its  selection,  either  to  adjust  its  position  or  to  remove  it.  The  position  is  adjusted through interface buttons that apply vertical  or  horizontal  displacements,  whose  coarseness  is  controlled  by  radio  buttons.  After  placing  the  artworks,  the  user  can  save  the  initial  scene  with  the  artworks  to  a  new  x3D  file.  This  file  contains  the  virtual  exhibition  that  can  be  navigated  with  any x3D  browser. 
+232 
+This first prototype had some limitations, namely;  it  supported  only  a  subset  of  all  the  possible  representations  in  x3D  format,  it  did  not  allow  changes  in  a  previous  created  exhibition;  it  only  permitted the placement of 2D pieces. To overcome  these  limitations,  a  new  version  of  the  tool  with  additional features was implemented65, combining in  a single tool the functionalities of the Space Picker  and  of  the  Virtual  Exhibition  Builder.  This  allows  managing  in  a  flexible  way  the  redefinition  of  the  set of surfaces appropriate to dispose artworks and  scene  re-edition.  To  simplify  the  surface  selection  process, a set of filters are available to choose the  surfaces  according  to  its  geometrical  properties. 
+As  there  are  a  wide  variety  of  nodes  in  x3D  to  describe  the  geometry  of  an  object,  the  same  visible result can be obtained with multiple internal  representations. To allow a more general use of the  tool,  it  needs  to  interpret  any  x3D  file  and  deal  with the geometry of the described model. To treat  a  scene  independently  of  its  original  description,  it  was  conceived  a  mechanism  that  transforms  any  x3D model of an exhibition into a generic geometric  description  enabling  a  uniform  treatment  of  any  scene. It creates a layer that abstracts the original  geometry  of  the  scene  and  allows  managing  new  objects  added  to  the  scene,  like  touch  sensors,  to  provide  interaction  with  the  scene,  artworks  or  auxiliary  objects. 
+One  important  feature  of  this  new  tool  is  the  re-edition of previously created exhibitions. It allows  insertion, removal and successive adjustments in the  artwork displacement by all elements that are involved  in the exhibition mounting, comprising the museum  team, artists and external consultants. The re-edition  process  requires  storing  all  the  information  about  the  structure  of  the  virtual  exhibition  model  and  all  amendments  in  order  to  support  future  alterations.  This  information  is  saved  in  a  file–called  the  state  file–that  reflects  the  editing  state  of  the  scene. 
+The types of objects that can be inserted in the  scene  were  extended.  Besides  2D  artworks,  it  is  also  possible  to  dispose  3D  artworks  and  to  insert  removable structures, such as plinths to display 3D  objects  or  diving  walls  that  can  be  used  to  display  paintings  or  tapestries.  The  removable  structures  are  built  by  defining  the  dimensions  and  color  of  parallelepiped  objects  that  are  interactively  placed  in the scene. The surfaces of these objects can be  selected to exhibit artworks. To deal with the placement  of different types of objects in a uniform manner, a  set of basic parameters that characterise an object  were defined, such as the bounding box and the base  of  contact  with  the  surface  where  it  is  placed. 
+This tool was developed based on a modularity  concept to allow the integration of new functionalities  that  could  be  demanded  by  museum  specialists.  
+
+========11========
+
+CARMO AND  C LáuDIO: 3D VIRTuAL  Exh IBITIONS 
+8. conclusIons 
+To  produce  virtual  models  of  museums  and  exhibitions  it  is  necessary  to  model  3D  objects  reproducing  the  real  ones  and  to  compose  them  in  a  3D  interactive  space.  These  tasks  usually  need  informatics’  skills  and  are  time-consuming,  making  them  expensive  and  restraining  its  use.  Even  though  requiring  an  initial  set  of  3D  models,  interactive  tools,  which  could  be  used  without  specialised  informatics  knowledge,  would  allow  a  more widespread use of this technology. This is the  case of interactive tools to build virtual exhibitions.  They can help a museum team in the initial stages  of an exhibition conception as a means to test and  discuss the placement of artworks in the exhibition  space. These tools usually demand, as pre-requisite,  the virtual model of the exhibition space and of the  artworks to be exhibited. In the case of paintings or  tapestries,  the  model  is  created  by  the  application  based on photographs of the objects. The models of  3D objects can be produced with different levels of  detail, ranging from detailed models that accurately  reproduce the real objects to more simplified ones. 
+In the cultural domain, 3D virtual environment and  models are used in a wide range of situations with  different purposes, such as: reproducing destroyed  buildings,  accordingly  to  ancient  images  or  textual  descriptions,  to  provide  a  means  to  discover  their  primitive  appearance  and  sometimes  an  historical  evolution  of  their  architecture;  simulating  ancient  environments, to get insight into the way they could  be  used  once;  integrating  interactive  activities  in  museums  as  a  means  to  attract  visitors,  specially  young people, and enrich their visit offering educational  contents  in  a  recreational  way;  helping  museum  curators  and  their  teams  in  the  preparation  of  new  exhibitions; providing virtual visits available through  the  web  to  spread  collections  of  the  museum.  All  these  applications  have  in  common  the  aim  of  contributing  to  a  global  cultural  diffusion.    
+rEfErEncEs 
+1. Battro, A.M. André Malraux  revisited: From the  
+musée  imaginaire  to  the  virtual  museum.  x 
+World  Congress  Friends  of  Museums,  Sydney,  
+September 1999. http://www.byd.com.ar/xwcfm99. 
+htm/  (accessed  on  9  November  2010). 2. Louvre Museum [1], Paris. http://www.louvre.fr/  
+(accessed  on  13  May  2013). 
+3.   h ermitage Museum. http://www.hermitagemuseum. 
+org/html_En/04/hm4_0.html/  (accessed  on  13  
+May  2013). 
+4. Parry, R. Museums in a digital age. Routledge,  
+Abingdon,  Oxon  Ox14  4  RN,  2010. 
+5. Chen,  S.E.  Quick  time  VR:  an  Image-based  
+approach  to  virtual  environment  navigation. In 
+Proceedings of the 22nd  Annual  Conference  on  
+Computer Graphics and Interactive Techniques,   
+1995.  pp.  29-38. 
+6. Louvre Museum [2], Paris,  http://musee.louvre.fr/visite- 
+louvre/index.html? defaultView=entresol.s489.p01  
+&lang  =ENG  (accessed  on  13  May  2013). 7. NGA (National Gallery of Art), Washington. http:// 
+www.nga.gov/exhibitions/calder/realsp/roomenter- 
+foyer.htm/  (accessed  on  13  May  2013). 8. Baylyl Art Museum, university of Virginia. http:// 
+www2.lib.virginia.edu/artsandmedia/artmuseum/ 
+docs/virtual.html  (accessed  on  13  May  2013). 9.  Polish history Museum. http://www.muzhp.pl/wystawa/ 
+galeria.html  (accessed  on  13  May  2013). 10. White,  M.,  et  al.  Multimodal  mixed  reality  
+interfaces for visualising digital heritage. Int. J.  
+of Architectural  Comp. (IJAC),  5(2),  322-37. 11. Sylaiou, S., et al. Virtual museums: First results  
+of a survey on methods and tools. In  Proceedings  
+of  xx   International  CIPA  Symposium,  2005.  
+pp.  1138-43. 
+12. Gaitatzes, A., Christopoulos, D. & Roussou, M.   
+Reviving the past: Cultural heritage meets virtual  
+reality. In  Proceedings of the 2001 Conference  
+on  Virtual  Reality,  Archaeology  and  Cultural  
+heritage,  VAST  2001,  2001.  pp.  103-10. 13.  Shum,  h.y.  &  Kang,  S.B.  A  review  of  image- 
+based rendering techniques. In  Proceedings of  
+International Conference on Visual Communication  
+and  Image  Processing  (VCIP  00),  2000,  SPIE,  
+4067.  pp.  2-13. 
+14. Remondino,  F.  &  El-hakim,  S.  Image-based  
+3D  modelling:  A  review. The  Photogrammetric  
+Record, 2006, 21(115),  269-91. 
+15 El-hakim, S., et al.  Detailed  3D  reconstruction  
+of  large-scale  heritage  sites  with  integrated  
+techniques.  IEEE  Comp.  Graph.  Appli.,  2004,  
+24(3),  21-29. 
+16. Semião, P.M. & Carmo, M.B. Virtual art  gallery  
+tool.  In   Proceedings  of    GRAPP  2008,  2008.  
+pp.  471-76. 
+17. AutoCAD.  http://www.autodesk.com/products/ 
+autodesk-autocad/overview  (accessed  on  13  
+May  2013). 
+18. 3dsMax.  http://www.autodesk.com/products/ 
+autodesk-3ds-max/overview  (accessed  on  13  
+May  2013). 
+19. Laycock, S.D., et al.  Real-time  visualisation  of  
+multiple time dependent reconstruction hypotheses  
+for a cultural heritage site. In  Proceedings of the  
+9th   International  Symposium  on  Virtual  Reality,  
+Archaelogy  and  Cultural heritage,  VAST  2008,   
+2008.  pp.  93-100. 
+233 
+
+========12========
+
+DJLIT,  VOL.  33,  NO.  3, MAy  2013 
+20. Maya. http://www.autodesk.com/products/autodesk- 
+maya/overview  (accessed  on  13  May  2013). 21. Kider,  J.T.,  et  al.  Recreating  early  Islamic  
+glass lamp lighting. In  Proceedings of the 10 
+th 
+International  Symposium  on  Virtual  Reality,  
+Archaelogy  and  Cultural  heritage,  VAST  
+2009,  2009.  pp.  33-40. 
+22.   h appa, J., et al. The virtual reconstruction and  
+daylight illumination of the panagia angeloktisti. In 
+Proceedings of the 10th International Symposium  
+on  Virtual  Reality,  Archaelogy  and  Cultural  
+heritage,  VAST  2009,  2009.  pp.  49-56. 23. Sundstedt, V., Chalmers, A. & Martinez, P. high  
+fidelity  reconstruction  of  the  ancient  Egyptian  
+temple  of  kalabsha. In   Proceedings  of  the  3 
+rd  
+International Conference on Computer Graphics,  
+Virtual  Reality,  Visualisation  and  Interaction  in  
+Africa,  (AFRIGRAPh   2004),  2004.  pp.  43-47. 24. Ronchi,  A. eCulture, cultural content in the digital age.  
+Springer-Verlag,  Berlin, heidelberg,  2009. 25.  Visintini,  D.,  Siotto,  E.  &  Menean,  E.  3D  
+modeling  of  the  St.  Anthony  Abbot  Church  in  
+S.  Daniele  del  Friuli  (I):  From  laser  scanning  
+and  photogrammetry  to  Vrml/x3D  model.  In 
+Proceedings of  3rd  ISPRS International Workshop,  
+(3D-ARCh)  2009:  “3D  Virtual  Reconstruction  
+and  Visualisation  of  Complex  Architectures”,  
+2009. xxxVIII-5/W1. 
+26. Blais,  F.  Review  of  20  years  of  range  sensor  
+development. J. Electronic Imag.,  2004, 13(1),  
+231-40. 
+27. Callet,  P.,  et  al .  Natural  lighting,  gilts  and  
+polychromy of Notre-Dame de Paris Cathedral.  
+In Proceedings of 11 
+th 
+ International Symposium  
+on  Virtual  Reality,  Archaelogy  and  Cultural  
+heritage,  VAST  2010,  2010.  pp.  63-70. 28. Przybilla,  h.J.  &  Peipe,  J.  3D  modeling  of  
+heritage  objects  by  fringe  projection  and  laser  
+scanning  systems.  In   Proceedings  of  the  xxI  
+International  CIPA  Symposium,  2007. 29. Walford, A. A new way to 3D scan, photo-based  
+scanning saves time and money. A white paper of  
+Eos System Inc. 2007. http://www.photomodeler. 
+com/downloads/ScanningWhitePaper.pdf (accessed  
+on  13  May  2013). 
+30. Grussenmeyer, P. & yasmine, J. Photogrammetry  
+for the preparation of archaeological excavation:  
+A 3D restitution according to modern and archive  
+images of Beaufort Castel Landscape (Lebanon). In 
+Proceedings  of xIx   CIPA  Symposium,  2003. 31. Chianbrando,  F.;  De  Bernardi,  M.L.  &  Curetti,  
+S.  Integration  of  low  cost  geomatic  techniques  
+to support the architectonical project. The Perlo  
+Castle area survey. In  Proceedings of the  xxII  
+CIPA  Symposium,  2009. 
+234 
+32. Arnold,  D.  3D-COFORM:  Tools  and  expertise  
+for  3D  collection  formation. In   Proceedings  of  
+EVA-2009,  2009.  pp.  94-99. 
+33.  Web  3D.  http://www.web3d.org/  (accessed  on  
+13  May  2013). 
+34. Cosmas,  J., et  al.   3D  M uRALE:  A  multimedia  
+system for archaelogy. In  Proceedings of the 2001  
+Conference on Virtual Reality, Archaelogy and Cultural  
+heritage,  VAST  2001,  2001.  pp.  297-306. 35.   h etherington, R.; Farrimond, B. & Presland, S.  
+Information rich temporal virtual models using x3D.  
+Computers  &  Graphics,  2006,  30(2),  287-98. 36. El-hakim, S.,  et al. On the digital reconstruction  
+and  interactive  presentation  of  heritage  sites  
+through  time.  In   Proceedings  VAST  2006,  
+2006. 
+37. Zuk, T., Carpendale, S. & Glazman, W.D. Visualising  
+temporal uncertaninty in 3D virtual reconstruction.  
+In   Proceedings  of  6 
+th  
+International  Symposium  
+on  Virtual  Reality,  Archaelogy  and  Cultural  
+heritage,  VAST  2005,  2005.  pp.  99-106. 38. Ramic-Brkic, B., et al. Augmented real-time virtual  
+environment  of  the  Church  of  the  holy  Trinity  
+in  Mostar, In   VAST  2009,  2009.  pp.  141-48.  39. Maim,  J.,  et  al.  Populating  ancient  pompeii  
+with crowds of virtual Romans. In   Proceedings  
+of  8th   International  Symposium  on  Virtual  
+Reality,  Archaelogy  and  Cultural  heritage,  
+VAST-2007,  2007.  pp.  109-16. 
+40. Pietroni, E. & Antinucci, F. The approval of the  
+Franciscan  rule:  Virtual  experience  among  the  
+characteres of Giotto’s work. In  Proceedings of  
+11th  International Symposium on Virtual Reality,  
+Archaelogy  and  Cultural heritage,  VAST  2010,  
+2010.  pp.  171-78. 
+41. Devlin, K. & Chalmers, A. Realistic visualisation of the  
+pompeii frescoes. In   AFRIGRAP h  2001, edited by Alan  
+Chalmers  &  Vali  Lalioti.  2001.  pp.  43-47. 42. Gonçalves, A.,  et al. Accurate modelling of Roman  
+lamps in conimbriga using high dynamic range.  
+In Proceedings  of  9 
+th 
+  International  Symposium  
+on  Virtual  Reality,  Archaelogy  and  Cultural  
+heritage,  VAST  2008,  2008.  pp.  101-08. 43. Gutierrez,  D.,  et  al.  Modeling  light  scattering  
+for  cultural  heritage.  ACM  J.  Comp.  Cultural  
+Heritage,  2008, 1(2),  1-15. 
+44. Azuma,  R.T.  A  survey  of  augmented  reality.  
+presence: Teleoperators and Virtual Environments,  
+1997, 6(4),  355-85. 
+45. Pletinckx,  D.;  Silberman,  N.  &  Callebaut,  D.  
+Presenting  a  monument  in  restoration:  The  
+Saint  Laurentius  Church  in  ename  and  its 
+role  in  the  francia  media  heritage  initiative.  
+
+========13========
+
+CARMO AND  C LáuDIO: 3D VIRTuAL  Exh IBITIONS 
+In   Proceedings  of  2001  Conference  on  Virtual  
+Reality, Archaelogy and Cultural heritage, VAST  
+2001,  2001.  pp.  197-204. 
+46. Gleue, T. & Dahne, P. Design and implementation  
+of a mobile device for outdoor augmented reality  
+in the ARChEOGuIDE project.  In   Proceedings  
+of  the  2001  Conference  on  Virtual  Reality,  
+Archaelogy  and  Cultural heritage,  VAST  2001,  
+2001,  pp.  161-68. 
+47.  Stricker,  D.,  et  al.  Design  and  development  
+issues  for  ARChEOGuIDE:  An  augmented  
+reality  based  cultural  heritage  on-site  guide.  
+In  Proceedings of the Conference in Augmented  
+Reality  Environments  and  Three-Dimensional  
+Imaging,  EuroImage  (ICAV3D),  2001.  pp.  1-5. 48. Vlahakis, V., et al. Design and application of an  
+augmented reality system for continuous, context- 
+sensitive  guided  tours  of  indoor  and  outdoor  
+cultural sites and museums. In  Proceedings of 4 
+th 
+International Symposium on Virtual Reality, Archaelogy  
+and  Cultural heritage,  VAST  2003,  2003. 49.   h all, T., et al. The visitor as virtual archaeologist:  
+Explorations  in  mixed  reality  technology  to  
+enhance  educational  and  social  interaction  in  
+the museum. In  Proceedings of 2001 Conference  
+on  Virtual  Reality,  Archeology,  and  Cultural  
+heritage,  2001.  pp.  91-96. 
+50.  Vergauwen,  M., et  al.  As  time  flies  by:  Mixed  
+image and model-based rendering of an historical  
+landscape from helicopter images. In  Proceedings  
+of  the  5th   International  Symposium  on  Virtual  
+Reality, Archaelogy and Cultural heritage, VAST  
+2004,  2004,  pp.  241-50. 
+51. Proctor,  N.  &  Tellis,  C.  The  state  of  the  art  in  
+museum  handhelds  in  2003. In Museums  and  
+Web  Conference,  2003. 
+52. Ghiani, G., et al. A location-aware guide based  
+on  active  RFIDs  in  multi-device  environments.  
+In   Proceedings  of  CAD uI-2008,  2008. 
+53. Schmalstieg, D. & Wagner, D. A handheld augmented  
+reality museum guide, In  Proceedings  of IADIS  
+International Conference on Mobile Learning, 2005. 54. Wagner, D., et al. Real-time detection and tracking  
+for augmented reality on mobile phones. IEEE Trans.  
+Visual.  Comp.  Graphics,  2010,  16(3),  355-68. 
+55. Bruns,  E.,  et  al.  Enabling  mobile  phones  to  
+support  large-scale  museum  guidance.  IEEE  
+Multimedia,  2007, 14(2),  16-25. 
+56. Albertini, A., et al. Communicating user’s focus  
+of  attention  by  image  processing  as  input  for  
+a  mobile  museum  guide.  In   Proceedings  of  
+Intelligent  user  Interfaces,  IuI05,  2005.  57.   h rk,  S.  Virtual  art  gallery.  In   Proceedings  of  
+the  Central  Euriopen  Seminar  on  Computer  
+Graphics,  CESCG  2001,  2001. 
+58.  Walczak,  K.,  Cellary,  W.  &  White,  M.  Virtual  
+museum  exhibitions,  IEEE  Computer ,  2006,  
+39(3),  93-95. 
+59.  Wojciechowski,  R.,  et  al.  Building  virtual  and  
+augmented  reality  museum  exhibitions.  In 
+Proceedings  of  9th   International  Conference  
+on  3D  Web  Tecnology,  2004.  pp.  135-144. 60. Walczak, K. & Cellary, W. x-VRML for advanced  
+virtual  reality  applications.  IEEE  Computer,  
+2003, 36(3),  89-92. 
+61. Lu, W.; Zeng, D. & Pan, J. An xML-based scene  
+description language for 3D virtual museum. In 
+Proceedings  of  30th   International  Conference  
+on Information Technology Interfaces, ITI 2008,   
+2008.  pp.  445-50. 
+62. Patias, P., et al. The development of an e-museum  
+for contemporary arts. In  Conference on Virtual  
+Systems and Multimedia Photomodeler, Pro 4.0  
+user  Manual.  Eos  System  Inc.,  2008. 63. Katalabs. http://www.katalabs.com/blog/ (accessed  
+on  13  May  2013). 
+64. Chittaro, L.,et al. A  high  level  tool  for  curators  
+of  3D  virtual  visits  and  its  application  to  a  
+virtual  exhibition  of  renaissance  frescoes.  In 
+International  Conference  on  Virtual  Reality,  
+Archaelogy  and  Cultural heritage,  VAST  2010,  
+2010.  pp.  147-154. 
+65. Gomes, J.C.; Carmo, M.B. & Cláudio, A.P.  Virtual  
+Exhibition Builder. In  Proceedings International  
+Conference on Computer Graphics Theory and  
+Applications,  GRAPP  2011,  5-7  March  2011,  
+Vilamoura,  pp.  330-33. 
+235 
+
+========14========
+

@@ -1,0 +1,483 @@
+DESIDOC Journal of Library & Information Technology, Vol. 38, No. 3, May 2018, pp. 187-191, DOI : 10.14429/djlit.38.3.12620 
+ 2018, DESIDOC 
+Information Technologies for Supporting Administrative Activities  
+of Large Organisations 
+Jamil Al-Azzeh 
+Department of Computer Engineering, Al Balqa Applied University, Amman, Jordan 
+E-mail: azzehjamil18@gmail.com 
+ABSTRACT 
+ Study describes a specifed analytical method and model for the organisational management of a company.  The  proposed  solutions  allow  for  revealing  information  resources,  which  can  be  used  to  support  management  decisions  adoption  and  control  of  plans.  Information  obtained  from  programs  and  information  systems  of  the  electronic document fow of organisations were used as data sources. The result of confguration investigation and  characteristics of information exchange in information systems can be used as administrative decisions support  in the organisation. The conducted research allows for improved approaches to the creation and modernisation of  effective information systems of universities. The offered software of administrative activity support allows us to  increase the fexibility and adaptability of existing information systems and electronic document fow (program  
+complexes) to increase the effciency of their operations. 
+Keywords: Decision support systems; Administrative activity; Information exchange; Document fow; System of  
+mass service 
+1. InTROduCTIOn 
+At the present stage of the development of post-industrial  society,  organisational  management  differs  in  the  universal  introduction  of  information  systems  (IS)  and  information  systems  technologies  (IST),  as  well  as  the  organisation  of  electronic interactions, including interdepartmental electronic  document  fow  among  various  governments  and  private  institutions. The  large-scale  processes  of  the  informatisation  of organisational structures, which began in the 20th  century,  demanded  the  evolution  of  the  usual  IS  in  support  systems  for  administrative  activities1,2.  In  the  last  few  years,  the  implementation  of  the  intellectual  components  in  IST  have  been considerably extended. 
+Traditional methods of using knowledge bases (KBs) in  the  decision-making  support  (DMS)  for  the  management  of  organisations  do  not  always  guarantee  the  relevance  of  the  data. As was shown by Demirkan & Delen3, DMS connected  with  the  resource  intensity  of  problems  of  KB  creation  and  support, the necessity for continuous updating of knowledge,  adaptation of algorithms, etc. 
+Despite  undoubted  success  in  this  area  of  research,  the  problem of the synthesis of methods, models, and algorithms  of  information  support  directed  toward  the  improvement  of  administrative  processes  and  an  increase  in  the  overall  performance  of  large  administrative  organisations  as  the  objects of informatisation is still urgent. 
+Received : 24 January 2018, Accepted : 20 March 2018,  Online published : 04 May 2018 
+2. LITeRATuRe  RevIew 
+The results of the research devoted to the management of IT  infrastructure of organisations are rather discussed4,5. Research  in approaches to management cover the systematisation of the  purposes and tasks of the rational organisation of administrative  processes  in  relation  to  IT  infrastructure6,7.  However,  the  offered  methods  and  models  have  not  yet  developed  into  a  formal  format  to  make  a  complete  hardware  and  software  (SW) decisions. 
+The studies investigated the effciency of organisational  systems  while carried  out  the  strategic  assessment  of  IT  infrastructure  development8-11.  Parameters  for  the  estimation  of  optimal  management  were  reviewed  with  criteria  for  the  evaluation  of  the  management  of  behavioural  systems12,13.  However, today, there is still no completed research that can  provide  the  joint  analysis  of  these  applied  program  systems  to the problems of management DMS in large organisations.  This situation is caused by the separation in the approaches to  solving the problems of information-processing automation in  applied IS and the orientation toward local functions in support  of business processes. 
+The reviews concerned the potential of using data sources  for the DMS of information resources of applied systems and  using data for the expeditious management of organisations14,15.  The research analysed the potential of using models of systems  of mass service (SMS) as the unit for modeling information  fows  in  organisations16-18.  Research  in  this  direction  has  not  yet  yielded  a  fnished  product  for  the  implementation  of  the  algorithms  of  SW  products  for  electronic  document  
+187 
+
+========1========
+
+DJLIT, VOL.  38,  NO.  3,  MAy  2018 
+management systems. 
+Currently,  there  is  a  lack  of  investigation  into  methodologies  for  examining  information  resources,  particularly SW systems to support the management decisions  of  large  organisations14,16,18.  The  implementation  of  methods  in  IS  functions  to  support  management  activities  and  the  methodology  for  the  development  and  modernisation  of  IS  to  support  the  management  activities  of  large  organisational  structures (ISMAS) remains to be studied. Continued research  to address the problems of ISMAS is important to the further  development  of  methods  and  algorithms  of  informational  support of managerial processes to improve the effciency of  organisations. 
+The  purpose  of  this  study  is  the  development  of  methods and models allowing the creation of ISMAS in large  organisations. To achieve the purpose, it is necessary to solve  the following problems: 
+• To develop a method and model of administrative activity  
+support that is based on information resources and allows  
+for the creation and modernisation of the ISMAS of large  
+organisations  while  taking  into  account  the  uniqueness  
+and complexity of these organisations. 
+• To  investigate  the  structure  and  characteristics  of  
+information  exchange  in  ISMAS  for  the  improvement  
+of  approaches  to  creating  effective  IS  for  large  
+organisations. 
+3. MATeRIALS And MeThOdS 
+The  analysis  of  the  information  resources  of  large  organisations  is  reviewed  at:  operating           
+organisation. Therefore, A={A1, A2, …, An}, where A1, A2, A are the data arrays of the applied subsystems of IS, automated n systems, and SDMS.  
+An ={xn1, xn2, …, xnp}, where xn1, xn2, …, xnp  help the blocks  of subsystems tasks. These blocks can be used as data sources  when  developing  services  for  decision-making  support  of  organisational management. 
+The following set of D = {D1, D2, …, Dm}  describes business  processes (operations). Their support demands data acquisition  from  applied  subsystems  of  an  object  of  informatisation.  Coeffcients с , с ,…, с characterise the existence or lack of  information for the corresponding operation. Coeffcients can 1 
+2 m 
+accept a value of 0 or 1. 
+The example of the interrelation of the sets of A and D for an option of business management by processes at large  universities in Jordan is shown in Table 1. The cells flled with  the sign “*” contain coeffcients with a value of 1. Other cells  cost 0. 
+The formal statement of the problem can be represented  as follows.  
+All divisions of large organisations, such as universities,  are defned as objects with many characteristics (OMC), i.e.,  O = {O1…, On}. The activity of the divisions (objects (O)) can  be  estimated  by  following  the  results  of  the  performance  of  tasks, which are recorded in a database and estimated by a set  of criteria, Q = {Q1…, Qm}. Examples of criteria are shown in  Table 2. Each criterion has a scale of assessment17,18,20,21, which  
+Table 1. Interrelation of the Sets of A and d 
+systems, provision of life cycle software (LCSW),               Operations 
+systems  for  decision-making  support  (SDMS),  
+and  applied  functional  tasks  of  organisation  
+management.  We  assume  that  each  information  
+level  (layer)5,19–21   implements  its  functional  
+orientation.  For  example,  the  levels  of  applied  
+functional tasks and the corresponding SW enable  
+          Tasks the accumulation of the data on: information about  
+the processes, the fulfllment of instructions, data  
+on the participants and their experiences, and data  
+on the tasks. 
+The  level  of  SDMS  contains  a  variety  of  
+A1 
+university  KBs and data, as well as repositories of methods  
+and algorithms for data processing that take into  
+account  the  specifcs  of  organisational  work.  
+Personnel  The  level  of  provision  of  LCSW  allows  us  to  
+A2 
+university accumulate  data  about  the  functioning  and  the  
+complexity of an organisation as a whole and of  
+Material  individual  subsystems  within  the  organisation.  
+A3 
+technical  During the implementation of methods and models,  
+university the  analysis  of  the  relationship  of  managerial  
+Financial  functions  and  applications  of  IS,  SDMS,  and  A4 
+automated systems of the organisation aimed to  
+university fnd  data  sources  for  the  support  of  managerial  Scientifc  activities. 
+A5 
+This paper uses the following designations.  
+university 
+A:  a set of tasks (instructions) that correspond  
+to  the  tasks  of  the  functional  divisions  of  an  
+A6 
+processes 
+Documentation  provided by  
+management 
+resources of  
+supplies of  
+resources of  
+research by a  
+Other business  
+188 
+Planning of  
+activities 
+Adoption of  
+operational  
+decisions 
+d 
+evelopment of  
+recommendations 
+Control of  
+implementation  
+of decisions 
+Assessment of  
+processes of  
+implementation  
+of decisions 
+Assessment of  
+workmanship of  
+instructions 
+Control of plans 
+D1 
+D2 
+D3 
+D4 
+D5 
+D6 
+D7 
+c1 
+c2 
+c3 
+c4 
+c5 
+c6 
+c7 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+
+========2========
+
+AL-AzzEH  : I NFORMATION  T ECHNOLOgIES FOR  Su PPORTINg ADMINISTRATIVE  A CTIVITIES OF  L ARgE  O RgANISATIONS 
+can be both quantitative and qualitative. The condition of ordering an object is its proximity to the  
+The  assessment  scale  is  designated  by  conditionally best object in the analysed multisets: 
+Qqe hs m{ 
+es 
+ss=}, 1,..., , 1,...ss==The  estimates  are  sorted  
+δ= +(QlQlQlQi)+(i)/+(i)−(i), 
+            (4) 
+from the best to the worst  
+q12... 
+hs 
+sqsqs 
+Within the offered method, each OMC can be described  
+where lQ lQQ lQ lQQ+ +−− −+(i)=(,& ,)(i)=() 
+by a multiset: The  best  option  for  the  analysed  object Q*causes  
+ 
+kqqkqqOO 
+( 
+11 11 
+,..., 
+() 
+hh;...; 
+min .δ(Qi )    The ranging of the objects is the result of ordering,  
+O = 
+ii 
+11 11) 
+            
+i  
+, 1,..., ,in=hm hm 
+which is the ranking of the objects. The ranking can be made  
+OmmOmm,..., 
+kqqkqq(11) 
+() 
+ 
+        (1) 
+equal or unequal to the importance of the assessment criteria. 
+ii 
+In the working model, a document was considered as a set  
+where kQis the function of the frequency rate of a multiset  of information processes in an organisation. In turn, especially  
+for OMC, which generates the domain  XQQ= 
+1 
+... 
+m, for  
+in large organisations, information fow in terms of quantity is  
+mscales  of  criteria;  
+k( 
+es 
+Oqs) 
+i 
+  is  the  number  of  documents  
+characterised by tens to hundreds of thousands of documents  
+in  IS,  which  allows  the  drawing  of  a  conclusion  on  criteria  
+per year. 
+assessment  Q; and  
+is the designation of the circumstance  
+A schematic of a model of the movements of documents  
+that is in the description of OMC, copies of a sign were used  
+in an organisation is shown in Fig. 1. This model can be used to  
+earlier qe ss . 
+calculate a document management system as a kind of SMS. 
+A  problem  of  the  OMC  regulation  is  a  matter  of  the  
+The model of the movement of documents in an electronic  
+streamlining of the corresponding multisets: 
+document management system of an organisation (EDMSO) is  
+considered as an open stochastic network serving the automated  
+O kq kq kq+ 
+{ 
+111i= 
+1,0,...,0; ,0,...,0;...; ,0,...,0 ,2m 
+} 
+jobs of employees. 
+O−i = { }. 
+     (2) 
+0,...,k qh1; 0,...,0,k q2 
+h2 
+1 
+; 0,...,0,k qm 
+h m 
+The average response time for an application is described  
+    (3) by the expression: 
+It seems obvious that the subtask choice of the unit with  
+the best and worst objects, which are in turn characterised by  
+n n n n 
+Q+i  &  Q−i. 
+     
+U =∑ fi ⋅ti 
+e x 
++∑fi ⋅ti 
+s e 
+=∑fi(ti 
+e x 
++ti 
+s e 
+)=∑f 
+t 
+e x 
+i i 
++1 
+ 
+, 
+     (5) 
+i ==== 1 i 1 i 1 i 1  
+m 
+i  
+Table 2. 
+An example  of  Criteria  for  the estimation  of  an  Object 
+№ 
+Criteria accepted  in the ISMAS  
+model 
+estimates (Accepted by17,18,20,21) 
+Tasks performed 
+Outstanding  tasks 
+1. 
+2. 
+n 
+1. 
+2. 
+n 
+Example: an indicator—“processing of the document” 
+Term was not  
+Condition of  
+Ahead of schedule;  established; term  
+execution  
+in time; violation of  did not expire;  
+term; other.  term expired;  
+other.  
+Effciency  Accepted on day of  
+of document  mailing; accepted  
+acceptance  the next working  The same 
+accompanying  day; accepted in  
+a task 2–3 days;  
+… … … 
+Example: an indicator—“control of decision execution” 
+Removed from  
+control ahead of  
+Term was not  
+Performance of  schedule; removed  
+established;  
+control terms in time; removed  
+term did not  
+with violation of  
+expire; term  
+the term. 
+expired.  
+Not executed;  
+Adjustment of  executed once;  
+control terms executed  
+The same 
+repeatedly. 
+… … … 
+where  fi  is the frequency of receiving an  i-  application knot;  
+tex sei,ti−  are the average time of expectation and servicing for  
+an i-  knot, respectively;  µ=−1/seiti  is the intensity of service,  where i=1 , . 
+n 
+. 
+The average time to pass a document through an EDMSO  
+is calculated by the following formula: 
+n2 
+U=⋅+∑ fϕii 
+1 
+λ⋅ −ϕ µ( 
+1 ) 
+ 
+, 
+                                        (6) 
+i= 1 
+ ii 
+where  ϕ=λiitiλ=ρ⋅ifiρ / 
+se 
+;  ;   is the average intensity of  
+document fow arriving at an i - knot.  
+The stay time for an  i- knot can be defned by: 
+Ti =ϕi 
+(λ⋅ −ϕ 
+               (7) 
+i( 
+1 
+i)) 
+The  received  Eqns.  (6)  and  (7)  were  implemented  in  
+the module of an administrative activity support system of a  
+university. These expressions can be also used in the ISMAS  
+of other big organisational structures to defne problem knots  
+in their EDMSO networks. 
+Figure 1. SMS scheme for modeling of movement of documents  
+in an organisation. 
+189 
+
+========3========
+
+DJLIT, VOL.  38,  NO.  3,  MAy  2018 
+4.   e xPeRIMenT 
+In  the  study  of  a  university,  an  ISMAS  module  was  developed, based on the proposed method and model. The SW  prototype for the ISMAS module was implemented in the Rad  Studio programming environment. The main interface of the  module for simulating the time for performing tasks by units is  shown in Fig. 2. The busiest terminals involved in the system  of data exchange between the structural units of the university  are highlighted in colour from blue (least loaded units) to green  (the most loaded units).  
+Figure 2.  Module of decision-making support in an organisation  
+to model the time taken to complete tasks in the  
+organisation’s departments. 
+Figure 3.  Results of modelling and checking in practice of  
+outcomes  for  time  when  documents  are  staying  in  
+the knot. 
+initial data in the considered example, this size makes 20–23  per workplace. 
+Therefore,  the  operating  infuence  in  the  organisation  
+and its system of document fow must result in an increase in  
+jobs, or as an alternative, the development of measures for the  combination of the tasks solved by a department. 
+5.   dISC uSSIOn OF   SPPR  TeSTIng ReSuLTS 
+And PROSPeCT FOR FuRTheR ReSeARCh 
+The  offered  approach  and  the  results  received  during  the  development  of  a  method  and  model  for  supporting  administrative  activity,  which  are  based  on  the  information  resources  of  large  organisations  and  enterprises,  increased  the effciency of supporting decision-making and estimations  of  management  processes  in  comparison  with  alternative  techniques by 9–12 per cent5,16,20,21. 
+The advantage of the offered methods and model is the  ability to integrate the developed SW into the existing IS. A  certain lack of work is lack of approbation of the developed  SW on many enterprises, since the study was conducted only in  Jordan. Further research provides the possibility of approbation  and expansion of using offered program complexes by large  organisations in other countries of the Middle East. 
+processed documents) with probability “1” ( P=i=In addition, the design of specialised interfaces for various  
+Graphs  automatically  refect  the  time  spent  by  the  documents  in  the  knot  (department  or  terminal)  from  the  intensity of document servicing. 
+As  an  example,  we  consider  the  result  of  a  researched  document fow of an organisation (faculty) for a variant of the  network, including the central offce (knot 1) and several (from  5 to 10) divisions (departments). 
+We assume that the entrance fow of documents arrives  at knot 1 with the following probabilistic parameters:  P 
+01= 
+1 , which is the probability of denying service to the document  at knot 1; P 
+= 0 
+, which is the probability of denying service  to the document on knots 0i 
+i = 2 , 1 0 . 
+ The performed tasks (the  
+i1 
+1 , 2 , 1 0 ) come to knot 1 (the central offce or dean’s offce). In the  calculations, it is accepted that leaving the system happens to  
+probability “0,1”. Figure 3 shows the results of modeling and  
+checking in practice of outcomes for the time when documents  
+are staying in the knot:  
+Λ= =−λitex 0 25 
+ document/h. 
+i 
+In  an  ideal  (standard)  case,  we  believe  that  the  time  to  solve a task, i.e., processing of the document does not exceed  
+20–30 min. From the received schedules, it is possible to judge  
+the rational value of the intensity of documents’ being serviced  by  
+modes of management support is envisaged. In the future, this  will ensure that the preferences of employees are refected in  their interaction with the IS used by the enterprise in which  they work. 
+In general, based on this research study, it is possible to  state  the  effciency  of  the  offered  method,  models,  and  SW  for  SDMS  to  support  managerial  decisions  and  controlling  (correcting)  plans  based  on  the  data  of  the  involved  SW  complexes. 
+6.  COnCLuSIOnS 
+µ=i1/tsei,  which  makes  for  the  accepted  initial  values: A  method  and  model  of  analysis  of  organisational  
+µ=−i 100 150  document/h. Thus, if the terminal productivity  
+management  in  a  large  organisation  was  developed.  The  
+(the  automated  workplace)  is  about  8–10  documents/h,  then  
+proposed solution allows for the identifying of the information  
+the minimum quantity of such jobs can be determined. For the resources  used  in  the  process  of  supporting  managerial  
+190 
+
+========4========
+
+AL-AzzEH  : I NFORMATION  T ECHNOLOgIES FOR  Su PPORTINg ADMINISTRATIVE  A CTIVITIES OF  L ARgE  O RgANISATIONS 
+decisions, as well as controlling, correcting, and coordinating  plans.  The  information  received  from  the  IS  and  electronic  document management systems of organisations were used as  the source of data. 
+  The confguration and characteristics of the information  exchange  in  ISMAS  in  large  Jordanian  organisations  were  investigated  to  improve  approaches  to  the  creation  and  upgrading  of  effective  IS.  This  study  determined  that  the  proposed SW for management support enhances the fexibility  and adaptability of the existing IS of the reviewed organisations,  as well as increases the effciency of their operations. 
+ReFeRenCeS 
+1. Bonczek,  R.H.;  Holsapple,  C.W.  &  Whinston, A.B.  
+Foundations of decision support systems. Academic  
+Press Academic  Press,  Inc.,  2014  
+2. Galliers, R.D. Leidner DE. (Eds.). Strategic information  
+management: Challenges and strategies in managing  
+information  systems.  Routledge,  2014 
+3. Demirkan, H. & Delen, D. Leveraging the capabilities  
+of service-oriented decision support systems: Putting  
+analytics and big data in cloud. Decis. Support Syst., 
+2013,  55,  412-421.  
+doi:  10.1016/j.dss.2012.05.048 
+4. Kerzner, H. Project management: A systems approach  
+to planning, scheduling, and controlling. John Wiley  
+&  Sons,  2013 
+5. Peppard,  J.  &  Ward,  J. The  strategic  management  
+of  information  systems:  Building  a  digital  strategy.  
+John Wiley  &  Sons,  2016. 
+6. Seuring  S.  A  review  of  modeling  approaches  for  
+sustainable supply chain management. Decis. Support  
+Syst.,2013;  54:  1513-1520.  
+doi:  10.1016/j.dss.2012.05.053  
+7. Crone, D.A.; Hawken, L.S. & Horner, R.H.Building  
+positive behavior support systems in schools: Functional  
+behavioral  assessment.  guilford  Publications,  
+2015. 
+8. McKelvey, B.; Tanriverdi, H. & Yoo, Y. Complexity  
+and  information  systems  research  in  the  emerging  
+digital  world.  MIS  Quarterly,  2016. 
+9. Bakanova,  N.  & Atanasova,  Т.  Development  of  the  
+combined  method  for  dataflow  system.  Int.  J.  Inf.  
+Technol.  Knowl.,   2008,  2,  262-266. 
+10. Winch, G. & Leiringer, R. Owner project capabilities  
+for  infrastructure  development:  A  review  and  
+development of the “strong owner” concept. Int.  J.  
+Proj.  Manage., 2016,  34,  271-281.  
+doi:  10.1016/j.ijproman.2015.02.002  
+11. Kelly, Rainer  R.; Brad, Prince &Casey, G. Cegielski.   
+12. Wang,  S.;  Noe,  R.A.  &  Wang,  Z.M.  Motivating  
+knowledge sharing in knowledge management systems:  
+A quasi–field experiment. J. Manag. ,  2014, 40, 978- 
+1009.  
+doi:  10.1177/0149206311412192 
+13.   u rbach,  N.  &  Ahlemann,  F.  Structural  equation  
+modeling  in  information  systems  research  using  
+partial  least  squares. JITTA,  2010,  11,  5. 
+14. Bardhan, I.R.; Demirkan, H.; Kannan, P.K.; Kauffman,  
+R.J.  Sougstad,  R.  An  interdisciplinary  perspective  
+on  IT  services  management  and  service  science. J.  
+Manag.  Inf.  Syst., 2010,  26,  13-64.  
+doi:  10.2753/MIS0742-1222260402 
+15. Kwon, O.; Lee, N. & Shin, B. Data quality management,  
+data  usage  experience  and  acquisition  intention  of  
+big  data  analytics.  Int.  J.  Inf.  Manage.,  2014,  34,  
+387-394. 
+doi:  10.1016/j.ijinfomgt.2014.02.002 
+16.   g iachetti, R.E. Design of enterprise systems: Theory,  
+architecture,  and  methods.  CRC  Press,  2016.  17. Dudin, A.; gortsev, A.; Nazarov, A. & yakupov, R.  
+(Eds.).  Information  technologies  and  mathematical  
+modelling-queueing theory and applications. In  15th  
+International  Scientific  Conference,  ITMM  2016;  
+12–16  September  2016;  Katun,  Russia.  Springer.  
+vol.  638 
+doi:  10.1007/978-3-319-44615-8 
+18. Luo, A.; Fu, J. & Liu, J. An impact analysis method of  
+business processes evolution in enterprise architecture.  
+In   Progress  in  Informatics  and  Computing  (PIC),  
+2016  International  Conference  IEEE. pp.  733-737.  
+doi:  10.1109/PIC.2016.7949595 
+19. Lahno, V. Ensuring of information processes’ reliability  
+and  security  in  critical  application  data  processing  
+systems. MEST  Journal,   2014,  2,  71-79.  
+doi:  10.12709/mest.02.02.01.07 
+20. Pearlson,  K,E.;  Saunders,  C.S.  &  Galletta,  D.F.  
+Managing  and  using  information  systems,  binder  
+ready  version: A  strategic  approach.  John  Wiley  &  
+Sons,  2016. 
+21. Wager,  K.A.;  Lee,  F.W.  &  Glaser,  J.P.  Health  care  
+information systems: A practical approach for health  
+care  management.  John Wiley  &  Sons,  2017. 
+COnTRIBuTOR 
+dr Jamil S. Al-Azzeh  received his PhD (Computer Engineering)   from  Saint  Petersburg  State university,  Russia,  in  2008.  Currently working as an Associate Professor in the Computer  Engineering  Department.  Faculty  of  Engineering  Technology,  
+Introduction  to  information  systems:  Supporting  
+at Al-Balqa’ Applied University, Jordan. His research interests  
+include  :  Image  processing,  computer  system  architecture,  
+and  Transforming  Business  5th  Edition.  Abridged,  2014. 
+parallel  processing  FPgA.  digital  systems  design,  network  operating  system,  and  microprocessors. 
+191 
+
+========5========
+

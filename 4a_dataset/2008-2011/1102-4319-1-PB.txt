@@ -1,0 +1,434 @@
+DESIDOC Journal of Library & Information Technology, Vol. 31, No. 4, July 2011, pp. 234-241
+© 2011, DESIDOC
+
+Semantic Web Model for Design and Operation
+of Network Control Centre
+Chaynika Taneja
+Directorate of Management Information Systems and Technology
+Defence Research and Development Organisation, New Delhi-110 105
+E-mail: chaynika@hqr.drdo.in
+
+ABSTRACT
+The Semantic Web, which represents the next generation of the Web, will be characterised by
+machine-interpretable content, intelligent semantic agents, advanced searches and improved Web
+services. The underlying languages and technologies for Semantic Web are fast evolving. The paper
+discusses model of a network control centre created using OWL, a Semantic Web language.
+Keywords: Ontology, Extra Markup Language, resource description format, Web ontology language, OWL,
+XML
+
+1. WEB TO SEMANTIC WEB
+
+2. SEMANTIC WEB LANGUAGES
+
+The Web, at the time of its conception, was
+envisioned as an information space. It was meant to be a
+huge mesh of data, which would be used not only for
+human interactions but would involve machine
+participation1 also. Today, the Web is no longer just a
+repository of data; it has become a provider of services2.
+However, the inherent structure of the Web and the
+formats used limit the role of the machines to only the
+extent of pasteing the encapsulated data to our computer
+screens3.
+
+The WWW used Hyper Text Markup Language
+(HTML) as the markup language for coding information
+as text. Multimedia objects like images, etc., were
+interspersed within it and the resulting webpage was
+displayed through a Web browser6. However, HTML was
+semantically limited and lacked a rich vocabulary bank to
+read the meaning behind the text7.With the coming of
+XML, data was liberated from these opaque, inextensible
+formats. It provided a way for encoding data in machine
+readable formats, thereby, laying the foundations of the
+Semantic Web applications8. The resource description
+format (RDF) is the language that Semantic Web uses to
+describe data (or resource) so that it can be conveniently
+read and manipulated by a computer program. It builds
+over the Extensible Markup Language (XML) providing
+the semantics. While XML is just a data format, RDF is a
+model6. Web Ontology Language (OWL) further extends
+the concept of the Semantic Web by describing
+additional vocabulary than just formal semantics. Its core
+idea is to enable efficient representation of ontologies9.
+OWL has three flavours, OWL Lite, OWL DL, and OWL
+Full, in order of increasing complexity and availability of
+features6.
+
+The painstaking task of interpreting the data was left
+to humans only4. So although the plethora of information
+on the web was immensely meaningful, it could not be
+read by the machines because the structure of the web
+was not designed to be interpreted by the computer
+without any human intervention5.This gave birth to the
+vision, which we now know by the name of Semantic
+Web. The Web would now be a collection of information
+capable of machine interpretation.
+At this point, the semantics of information became
+more important than its syntactics. So the Semantic Web
+is merely an extension of the World Wide Web (WWW);
+the only improvement being that the semantic of the
+information is well-defined, making it easy to be
+interpreted and processed by a machine.
+234
+
+Figure 1 illustrates the relationship between the
+above technologies and their position in the Semantic
+Web architecture6. All these technologies, namely XML,
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+ 
+
+OWL provides vocabulary 
+Provides a Model 
+
+Provides machine  
+readable formats 
+
+Figure 1. Semantic Web architecture.
+
+RDF and OWL together add semantics or meaning to the
+information on the Web, so that the computers can now
+process not just text but also meaning, resulting in more
+meaningful and relevant searches and applications.
+
+3. OBJECTIVE
+The objective of the study was to create a Semantic
+view of a network control centre (NCC). Most of the large
+organisations have a NCC or the Data Centre that acts as
+a central nervous centre of the network. It is the
+controlling node and is used to manage and monitor the
+health of the network. The intended model was a generic
+one and could represent any network centre. The paper
+also describes how the Semantic Web languages like
+RDF and OWL can be used to model any process, flow or
+framework and hence be made part of the Semantic Web
+dataset.
+The ontology once defined becomes a resource on
+the web, enabling it to be accessed, interpreted and
+processed by Semantic Web applications. The Semantic
+Web heavily relies on ontologies to make data structured
+
+ 
+
+Start 
+
+Reference the Ontologies 
+
+Define the classes 
+
+Define the instances of 
+the classes 
+
+Define the properties 
+
+and hence makes it capable of machine understanding10.
+
+4. PROCESS FLOW
+
+Link the classes 
+
+The steps required for creating the semantic view of
+the NCC are illustrated in Fig. 2.
+
+5. EDITING WITH SEMANTIC WORKS
+Altova’s SemanticWorks 201111, a graphical RDF/
+OWL editor was used for the purpose of modelling. The
+ontology was created in the OWL DL, which is one of the
+flavours of OWL. However, the choice of the version of
+OWL may vary with the complexity of the ontology. The
+process begins with creating a RDF schema file, which
+was used to develop the information model, in this case
+“network_control_centre.rdf”.
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+Ontology 
+Complete 
+Figure 2. Flow chart of process flow.
+
+5.1 Referencing the Ontology
+The first step after creating the RDF Schema file is
+to reference some of the already existing ontologies, so
+that they can be used directly in the proposed model.
+235
+
+Prefixes for these ontologies were also created so that
+these can be conveniently used in the model being
+created.
+Figure 3 shows the ontologies that are referenced in
+the RDF file. The prefixes are also defined, which can be
+used to directly refer to the ontology. The prefix ‘cen’
+shown in the Fig. 3 refers to the NCC ontology that was
+intended to model.
+
+5.2 Defining Classes
+The next step is to define the classes, which can be
+created by clicking new in the ‘Classes’ tab. The next step
+is to describe the classes by going the detail view of each
+class and by providing additional information about the
+class like its sub-class, parent class, its predicates, etc.
+The classes defined for the NCC ontology are illustrated
+in Fig. 4.
+
+Figure 3. Creating the prefixes.
+
+Figure 4. Defining the classes.
+236
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+5.3 Defining Instances
+Instances of classes are defined and associated
+once their classes have been defined. This is done by
+creating the new instances in the Instances Tab and
+linking these to their parent classes. Figure 5
+demonstrates this step.
+
+5.4 Defining Properties
+Properties characterise the classes. Once the
+classes and instances are defined, defining the
+
+properties is the next step. In the ‘Properties’ Tab of the
+main window, click new property and create the required
+properties. The domain and range of each properties is
+suitably pointed out in the details view. Figure 6 lists some
+of the properties of the model discussed here.
+
+6. NETWORK CONTROL CENTRE MODEL
+The virtual NCC may represent any division/working
+unit of an organisation/establishment. The ontology has
+been divided into two parts. Both the workflow as well the
+infrastructural aspects have been modelled. However, the
+
+Figure 5. Defining instances of the classes.
+
+Figure 6. Defining properties.
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+237
+
+scope of the tool and the languages is not limited to these
+and may be extended to model other entities as well like
+objects, concepts, flows, structures, hierarchies, etc.
+
+±
+
+Database management
+
+±
+
+Router configuration
+
+The property, ‘DoneBy’ has the domain as one of
+the Activities and range as any of the following classes:
+
+6.1 Workflow Modelling
+To begin with, a workflow modelling of the network
+was attempted. Various activities that are carried in a
+NCC, the roles or designations of the personnel carrying
+out the jobs, their qualifications, etc., were modelled.
+Figure 7 shows the graphical representation of the
+ontology. The activities class has a predicate one of,
+which implies that Activities can be any of the following
+classes:
+
+±
+
+Network engineer
+
+±
+
+System administrator
+
+±
+
+Web designer
+
+Another property ‘ShouldBe’ has its domain as any
+of the roles defined above and range as any of the
+following:
+
+±
+
+LAN maintenance
+
+±
+
+BTech
+
+±
+
+Website updation
+
+±
+
+MTech
+
+±
+
+Network security
+
+±
+
+CCNA
+
+Figure 7. Workflow modelling.
+238
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+Now that the ontology has been defined, Statements
+like the following can be derived from it.
+“RouterConfiguration is an activity that is DoneBy a
+SystemAdminitrator who Should Be an MTech qualified
+personnel.”
+
+6.2 Infrastructure Modelling
+The ontology defining the infrastructural aspects of
+NCC is explained here. The parent class ‘Infrastructure’
+is the union of two classes ‘NetworkComponents’ and
+‘DatacentreComponents’. Let us now go down the
+hierarchy and analyse the ‘NetworkComponents’ class
+which is further a union of two classes ‘Hardware’ and
+‘Software’.
+Software Class
+±
+Union of classes:
+Antivirus
+Databases
+
+Predicate: Developed
+Microsoft, CISCO}
+
+by
+
+with
+
+Range
+
+{IBM,
+
+These details are specified while describing the
+class in the details view.
+Hardware Class
+±
+Union of classes:
+Router
+Switch
+
+This process is what forms the basis of Semantic
+Web applications and makes the whole Web a huge
+virtual relational database through which information can
+be extracted through the process of querying. If one
+considers the Workflow model in Fig. 7, one can derive
+the following reasoning “If X performs Network
+Monitoring in the Network Control Centre, It can be
+inferred that X is a CCNA”. As is evident from the OWL
+ontology, since X performs network monitoring, he/she
+must be a Network Engineer, and hence should be CCNA
+qualified. The Semantic Web agent will do this reasoning
+in the background and give the user this result thus
+making in an intelligent agent. This is a simplified version
+of the actual processing that runs behind any Semantic
+Web application.
+
+As the Web evolves and inches towards the utopia
+called the Semantic Web, more and more languages and
+tools will be developed by Web developers and
+researchers in this field. However, the widespread
+acceptance of the concept, its understanding and
+contribution from everyone is what will make this dream
+of Semantic Web come true. The paper is an attempt in
+this direction. It tries to demystify the concept using a
+model, which is applicable to almost every setup or
+organisation.
+
+REFERENCES
+
+Server
+±
+
+7. INFERENCES DRAWN ON THE MODEL
+
+8. CONCLUSION
+
+Network Monitoring System
+±
+
+in Fig. 8. The complete ontology of infrastructural
+modeling has been graphically depicted in Fig. 9
+
+Predicate: Manufactured by with Range {Cisco,
+Dlink, Juniper, Sun, IBM}
+
+The relationship between the various classes
+described above can be visualised by the Class Diagram
+
+1. Goswami, Sumit; Sarkar, Sudeshna & Rastogi,
+Mayur. Stylometric analysis of blogger’s age and
+gender. In Third International AAAI Conference on
+Weblogs and Social Media (ICWSM), 17-20 May
+2009, San Jose, California, 2009.
+
+Figure 8. Class diagram illustrating the relationship between classes.
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+239
+
+Figure 9. Infrastructural modelling.
+
+2. McIlraith, Sheila A; Tran Cao Son & Zeng, Honglei.
+Semantic Web services. IEEE Intelli. Syst., 2001,
+16(2), 46-53.
+3. Hendler, J. Agents and the Semantic Web. IEEE
+Intelli. Syst., 2001, 16(2), 32-37.
+4. Goswami, Sumit; Verma, Susheel & Krishnan, N.R.
+Relationship visualization between books and users
+based on mining library circulation data. In ACM
+International Conference on Intelligent Interactive
+Technologies and Multimedia (IITM), 28-30
+December 2010, IIIT, Allahabad, 2010.
+5. Noy, Natalya F.; Sintek, Michael; Decker, Stefan;
+Crubézy, Monica; Fergerson, Ray W. & Musen,
+Mark A. Creating Semantic Web contents with
+240
+
+protégé-2000. IEEE Intelli. Syst., 2001, 16(2), 6071.
+6. World Wide Web Consortium (W3C). http://www.
+w3.org/ (accessed on 7 April 2011).
+7. Cardoso, Jorge. The syntactic and the Semantic
+Web. Semantic Web Services: Theory, Tools and
+Applications, 2007.
+8. XML from the inside out, XML resources, XML
+specifications. http://www.xml.com/ (accessed on 7
+April 2011).
+9. Shadbolt, Nigel; Hal, Wendy & Berners-Lee, Tim.
+The Semantic Web revisited. IEEE Intelli. Syst.,
+2006, 21(3), 96-101.
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+10. Maedche, Alexander & Staab, Steffen. Ontology
+learning for the Semantic Web. IEEE Intelli. Syst.,
+2001, 16(2), 72-79.
+11. XML Editor, Data Management, UML, and Web
+Services Tools from Altova. http://www.altova.com/
+(accessed on 6 April 2011).
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+About the Author
+Ms Chaynika Taneja is working as a Scientist in the
+DMIST, DRDO HQ, New Delhi. She holds a
+Bachelor’s
+degree
+in
+Electronics
+and
+Communication from NIT, Kurukshetra. Her areas of
+interests include networking, web hosting and
+security, biometrics and Semantic Web.
+
+241
+
+

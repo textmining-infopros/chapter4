@@ -1,0 +1,761 @@
+DESIDOC Journal of Library & Information Technology, Vol. 36, No. 1, January 2016, pp. 29-39  DOI: 10.14429/djlit.36.1.9198 
+  2016, DESIDOC 
+Nanotechnology Ontology: Semantic Access to Information in  
+the Nano World 
+Abhishek Sharma  
+CSIR-National Physical Laboratory, Dr K.S. Krishnan Road, New Delhi - 110 012 
+E-mail: sharmaa@np1india.org 
+AbStrAct 
+Scientifc  progress  in  a  domain  depends  greatly  on  making  use  of  results  of  previous  research  activities.  Like  human  beings,  it  is  diffcult  for  computers  to  encode  and  retrieve  the  expanding  web  information. The basic answer to this problem is to describe the information explicitly and semantically  with ontology. The article presents a brief discussion of the study undertaken to design an ontology for  Nanotechnology, which was developed by using the Resource Description Framework (RDF).  This paper  further describes methodology opted to develop the Nanotechnology ontology, where a semantic structure  of Nanotechnology thesaurus was utilised for its creation. The study has further presented the features of  nMap software, which was developed specifcally for the study by using VB.net as front-end tool and MS- access as back-end tool. Outcome of the study offers a semantic knowledge structure to Nanotechnology  researchers in machine readable environment. Further, development of ontology in RDF format serves  interoperability and will further support semantic interpretation by machines to facilitate human understanding.   
+Keywords: Ontology, nanotechnology, knowledge representation, semantic web                
+1.  INtrODUctION 
+The web is a techno-social system through which  interlinked  and  hypertext  documents  are  accessed  through  internet1.  It  was  created  with  an  aim  to  enable  anybody,  anywhere,  anytime  to  retrieve  information.  Sir  Tim  Berners-Lee  was  the  one  who  created  world’s  first  website  in  19912.  Since  1991,  there appeared an immense progress in the manner  
+like  web  1.0,  web  2.0  and  web  3.01,3,4,5,6 .  
+such  that  not  only  documents  are  linked  together  
+also be recognised6. Semantic web is considered as  
+controlled vocabulary tool, it is essential to establish  whether such tools exist for the domain or not8. To  investigate the existence of related works, a check  in the literature particularly current and back issues  of ‘Knowledge Organisation’, a quarterly publication  of ‘International Society for Knowledge Organisation’  (ISKO)  as  was  suggested  by Aitchison,  Gilchrist  &  Bawden9   was  undertaken.  With  the  analysis  of  the  
+in  which  information  is  published  and  accessed  on  
+publication,  it  was  established  that  work  related  the web.  On the basis of characteristics and features  
+with  the  scope  of  this  study  was  not  listed  in  the  added, scholars defined various generations of web  
+publication.  Further,  coverage  of  Nanotechnology  
+concepts in various sources like IET Inspec Thesaurus  
+The  concept  ‘Semantic  Web’  was  envisioned  
+(2010), Library of Congress Subject Headings (32nd by  Tim  Berners-Lee  with  an  idea  to  design  a  web  
+Ed.  2010),  DDC  23rd   edition,  series  of  vocabulary  
+documents developed by the International Organisation  but  meaning  of  information  in  web  documents  can  
+for  Standardisation  (ISO),  and  publicly  available  
+Glossary  of  Nanotechnology  Terms  developed  by  an  extension  of  the  current  web  where  in  addition  
+The Institute of Nanotechnology were also explored.  
+Analysis  of  these  sources  revealed  very  limited  with meta-information such that it can be processed  
+coverage  of  Nanotechnology  aspects.  With  the  aid  with  the  help  of  machines.  Unlike  current  web,  
+of  publicly  available  web  resources,  it  was  further  
+explored  that  the  scholarly  works  available  on  
+to human understanding, the documents are marked  
+it  is  not  just  for  displaying  the  content,  but  for  integrating  and  reusing  of  available  information  across  various  applications.  To  achieve  semantic  web  environment,  ontologies  serve  as  the  central  enabling  technology7. 
+2.  LItErAtUrE rEVIEW 
+Before  initiating  the  work  on  building  a  new  
+internet  was  confined  to  Bio-medical  field  and  not  with  Physical  sciences.  
+Regarding  the  subject  specific  ontology,  there  exists vast literature in the field. Smith & Ceusters10 proposed  ontology  of  biomedical  informatics  to  overcome  the  difficulties  appearing  with  different  naming  conventions  for  genes,  proteins,  and  other  
+Received 3 September 2015, revised 14 December 2015, online published 22 January 2016 
+
+========1========
+
+SHARMA: NANOTECHNOLOGY ONTOLOGY: SEMANTIC ACCESS TO INFORMATION IN THE NANO WORLD 
+molecular structures and to offer a standard terminology  for  the  domain.  Similarly,  Biasiotti  &  Tiscornia11  represented legal concepts in ontological framework  to  support  understanding,  re-use  and  sharing  of  knowledge  in  legal  domain.  Some  other  studies  reflected the development of ontology in various other  disciplines. Esbjorn-Hargens25  proposed an ontology  on climate change. A study by Gokhale, Deokattey &  Bhanumurthy26  reported methodology for constructing  sample domain ontology on energy amplifiers. As a  source for keywords, INIS database was employed  in  the  study.  In  the  same  year,  Thomas,  Pappu  &  Baker27  reported the designing and development of  
+knowledge  in  a  conceptual  manner.  
+• Explicit:  means  that  the  type  of  concepts  used  
+and  the  constraints  on  their  use  are  clearly  
+defined. 
+• Formal:  domain  knowledge  encompassed  in  
+ontology  should  be  machine  readable. 
+• Shared:  ontology  construction  should  be  in  
+shared  agreement.  
+Thus, after analysing these concepts, ontology  can  be  inferred  as,  a  system  having  its  origin  in  Philosophy which involves categorisation of concepts  
+disease  treatment  information  in  machine  readable  environment, Khoo, Na, Wang and Chan30  explained  
+Nanoparticle Ontology (NPO), which is executed in  
+in a field. It proposes an improved environment with  Ontology Web Language (OWL). Further, to encode  
+potential to organise, manage, semantically interpret  
+and process data with the help of machines/ computers  
+to facilitate human-machine-human communication.  
+of  literature  from  the  Medline  database.  Hastings,  &  et  al .,29   presented  developments  of  ontology  in  Chemistry. Similarly, Meenachi & Baba30  discussed  the  development  of  ontology  for  representation  of  nuclear  reactor  knowledge. 
+the  development  of  ontology  based  on  analysis  
+More precisely, ontology is a conceptual and machine  
+executable  model  for  a  subject  domain. 
+3.  ObJEct IVES AND  ScOPE 
+Keeping in view the need of the hour, the present  study  deals  with  the  overview  of  Nanotechnology  and  designing  an  ontology,  which  consists  of  a  semantic  framework  of  Nanotechnology  concepts  that  can  be  inferred  explicitly  both  by  machines  and  humans.  
+Scope of concepts of Nanotechnology ontology  is limited to Physical Sciences in depth and touches  other  associated  areas  in  broader  sense.  
+4.  ONtOLOGY 
+The term ‘ontology’ is frequently appearing in texts.   There  exist  several  definitions  for  ontology: • In  Philosophy  perspective,  ‘Ontology  is  the  
+study  of  kind  of  things  that  exists’8. 
+• 
+4.1  Ontology  components  
+Nguyen  &  Le-Thanh13   listed  following  principal  components  of  ontology: 
+• Classes:  represent  a  set  of  entities  within  a  
+domain  (general  things). 
+• Individuals/Instances:  indicate  the  concrete  
+example of concepts within the domain (individual  
+things). 
+• Attributes: properties those concepts/things may  
+have. 
+• Relations:  specify  the  interaction  among  
+concepts. 
+• Axioms: assertions including rules in a logical form  
+(imposing  restrictions  on  establishing  relations  
+between  concepts). 
+4.2  Importance  of  Ontology 
+Current web which grows from hypertext systems  comprises of huge collection of interlinked documents.  
+between  those  concepts’9. 
+It offers freedom to all to contribute something. With  In  context  of  Computer  Science,  ‘It  is  a  formal  
+such  an  attitude,  quality  of  information  added  to  representation  of  the  knowledge  by  a  set  of  
+Internet and uniformity in information representation  concepts  within  a  domain  and  a  relationships  
+on  internet,  is  not  guaranteed. Thus,  searching  for  
+information  on  the  web  is  becoming  increasingly  
+• 
+In Library and information science perspective,  
+complex. Expecting satisfactory solutions from traditional  
+‘It  is  the  field  of  information  management  that  basically  defines  a  common  vocabulary  for  
+search  engines  is  impractical.  In  this  situation,  Semantic  web  proposes  a  layer  of  intelligence  
+users  who  need  to  share  information  in  a  
+for  gathering,  sharing  and  distributing  relevant  
+domain’10. 
+Further, Guarino, Oberle & Staab11  cited Studer,  Benjamins  &  Fensel12   to  state  that  ontology  is  
+information in a meaningful manner.  Thus, semantic  web  is  an  attempt  to  provide  extension  to  current  web  where  information  is  meaningfully  defined,  
+conceptualisation’. 
+This definition includes following characteristics  of  ontology:    
+• Conceptualisation: ontology represents domain  
+‘a  formal,  explicit  specification  of  a  shared processed  with  the  help  of  machines,  and  people work  in  collaboration.  The  work  of  transforming  
+web  to  semantic  web  can  be  carried  out  with  the  help of ontologies. Ontologies provide a structured  framework for domain concepts, organise concepts  in  hierarchical  and  associative  association  that  
+30 
+
+========2========
+
+DJLIT,  VOL.  36,  NO.  1,  JANUARY   2016 
+permits  reasoning  for  knowledge.  
+Ontologies which are considered as core component  of  Semantic  web  serve  following  purposes: • In  comparison  to  other  member  tools  of  
+controlled  vocabulary,  ontologies  offer  more  
+enriched relationship between domain concepts  
+and  are  appropriate  to  support  rich  structured  
+knowledge. 
+• Offer provision to define metadata about resources  
+which  allow  machines  and  human  users  to  
+recognise,  gather,  process,  and  share  relevant  
+information  semantically. 
+• Show  integration  of  information  from  various  
+to move in material. This is due to the fact that  
+shrinking of bulk structure to nanoscale resulted  
+in  increase  of  band-gaps.  This  quantum  effect  
+results  in  altering  the  electronic  and  optical  
+properties  of  materials. 
+(iii) Random Molecular Motion: At macro level, size  
+of  object  is  comparatively  large  in  comparison  
+to  the  kinetic  energy  of  molecules.  Thus,  the  
+motion  of  molecules  is  not  influential  on  how  
+an  object  moves.  But,  at  nanoscale,  molecular  
+motion is comparable to the size of the particle  
+and  thus  has  great  impact  on  how  particle  
+behaves. 
+sources  and  supports  agreed  communication  
+5.2   r ole  of  Nanotechnology 
+• 
+among  diverse  communities. 
+Allow  interoperability  and  reuse  of  existing  information 
+5.  OVEr VIEW  OF  NANO tEcHNOLOGY 
+The concept ‘Nanotechnology’ is a combination  of  two  sub-concepts,  i.e.,  ‘nano’  and  ‘technology’. 
+The  prefix  ‘nano’  was  derived  from  the  Greek  word dwarf, which has been used since 1960 in the  metric system14. In scientific context, the scale ‘nano’  represents 10-9 where one nanometer is equivalent  to  one  thousandth  of  a  micrometer,  one  millionth  of  a  millimeter,  and  one  billionth  of  a  meter.  It  is  the  size  where  most  of  the  fundamental  chemical,  physical, electrical properties of materials matched  with  those  experienced  at  atomic  and  molecular  scale  like  quantum  effect,  wave  particle  duality,  etc.17.  Further,  describing  the  nature  of  properties  at  nanoscale,  it  was  unanimously  accepted  that  laws  of  Physics  at  nanoscale  are  governed  both  by  classical  as  well  as  quantum  mechanics 19,20,21.  
+The  second  component  of  Nanotechnology,  
+Nanotechnology  is  considered  as  one  of  the  most  revolutionary  technology  that  has  touched  almost  every  aspect  of  mankind.  It  has  promised  great  future  for  diverse  areas.  Some  of  them  are  listed  here  as  under: 
+(a) Agriculture: Nanotechnology helps in enhancing the  
+crop productivity by imparting genetic improvement  
+in  crops. 
+(b) Electronics  and  Communication:  Cost  effective  
+and  capable  modes  for  recording  of  data,  flat  
+panel display, wireless communication technology,  
+etc.,  are  all  due  to  the  overwhelming  research  
+efforts  in  Nanotechnology. 
+(c) Energy: Nanotechnology reduces dependency of  
+mankind  on  fossil  fuels  by  offering  renewable  
+energy  solutions.  It  also  proposes  affordable  
+and efficient energy storage and saving device  
+like  light  emitting  diodes  (LEDS),  etc. 
+(d) Machines: Overwhelming properties and prospects  
+of nanoscale machines and engines offers notable  
+benefits  in  terms  of  sustainable  development,  
+efficient  working  and  energy  saving. 
+science into practical use to develop structures and  tools  that  can  solve  the  problems  of  the  society.  It  holds  true  for  Nanotechnology  also  as  it  is  the  technology  at  nanoscale  having  applications  in  the  development  of  society. 
+i.e.,  ‘technology’  which  refers  to  the  application  of  
+(e) Medicine: Nanotechnology increases the survival  
+5.1 Properties  at  the  Nanoscale 
+As  stated  by  Filipponi  and  Sutherland22,  novel  
+rate  of  human  beings  by  providing  improved  
+biosensors, smart drugs, and advanced diagnostic  
+imaging  techniques.  
+(f) Water  purification:  Detection  and  removal  of  
+impurities  from  water,  and  treatment  of  waste  
+water  through  Nanotechnology  provide  potable  
+water  to  all.    
+properties  at  nanoscale  are  due  to  the  following  
+(g) Space  exploration:  Nanotechnology  offers  
+physical  changes: 
+(i) Increased  Surface  to  Volume  Ratio:    Breaking  
+down of bulk material into number of nanomaterials  
+light  weight,  ultra-small  and  capable  space  vehicles.    
+MEtHODOLOGY 
+resulted in increasing the collective surface area,  
+6. 
+whereas,  its  total  volume  remains  the  same.  
+This  feature  could  help  in  achieving  unique  
+surface  activity,  catalytic  effect,  sensing,  etc. (ii) Quantum Confinement: In nanostructured materials,  
+electrons are confined in space and are not free  
+31 
+6.1 collection  of terms 
+The period considered for the study was 2001- 2012. To obtain adequate number of candidate terms  following  source  categories  were  consulted:  
+
+========3========
+
+SHARMA: NANOTECHNOLOGY ONTOLOGY: SEMANTIC ACCESS TO INFORMATION IN THE NANO WORLD 
+I. Printed resources: Following categories of printed  resources  were  consulted  for  term  collection: (a)  Encyclopedia  
+•  Nalwa, H.S. (Ed.). Encyclopedia of nanoscience  
+and  nanotechnology.  (10  Vol.).  American  
+Scientific  Publishers,  California,  2004.  (b) Standard  Terminologies  for  Nanotechnology  
+•     ASTM  Standard  Terminology  Relating  to    
+Nanotechnology  (ASTM  E2456-06) 
+•     British  Standards  Institution  (BSI)  
+Terminology 
+•       ISO/TS 80004-1 (Nanotechnologies-vocabulary  
+Part1:  core  terms) 
+•    ISO/TS 80004-3 (Nanotechnologies-vocabulary  
+Part3:  carbon  nano  objects) 
+•  ISO/TS 80004-4 (Nanotechnologies-vocabulary  
+Part4:  nano  structured  materials) 
+•       ISO/TS 80004-5 (Nanotechnologies-vocabulary  
+Part5:  bio/  nano  interface) 
+•       ISO/TS 80004-7 (Nanotechnologies-vocabulary  
+Part7:  medical,  health  and  personal  case  
+applications) 
+•        ISO/TS 27687 (Nanotechnologies-terminology  
+different  sources  with  various  output  formats  
+were  utilised  for  term  collection.  Like  INSPEC  
+uses  '-'  as  separator  whereas  in  Scopus  and  
+Web of Science, concepts are separated with the  
+symbol ';'. Thus, to get the concepts in desired  
+format,  i.e.,  single  concept  in  a  single  cell  of  
+Excel worksheet, manual as well as fundamental   
+formulas  of  MS  Excel  were  applied.  Eg:  air  
+may  be  air  gap,  air  bearings,  etc.,  micro  may  
+be  micromachines,  microscopy,  etc. 
+(b) Out  of  the  Scope Terms: Terms  are  defined  as  
+out  of  the  scope  when  they  did  not  fall  under  
+the scope of the study, i.e., Physical Sciences.  
+Eg:  Cameras 
+        Why  out  of  the  scope:  as  the  term  represents  
+an  optical  instrument  that  is  used  to  record  
+images but the study deals with optical devices  
+that  have  nanoscale  resolution. 
+6.3 Development  of  Semantic  Structure  in  
+form  of  Nanotechnology thesaurus 
+Nanotechnology  thesaurus  with  2585  terms,  of  which  2124  are  preferred  terms  and  461  are  approach  terms  has  been  created.  The  thesaurus  served as a semantic structure for ontology creation  
+and definitions for nano objects, nanoparticles,  
+in  the  field  of  Nanotechnology.  
+nano  fibre  and  nano  plate) 
+(c)   Terminological  Sources  in  Standard  Form 
+•       Institution  of  Engineering  and  Technology  
+Inspec  thesaurus.  IET,  United  Kingdom,  
+2010. 
+(d) Conference  Proceedings  and  Handbooks 
+In addition to monographs and journal articles,  conference  papers  and  handbooks  were  scanned  for term collection.   AdMet Conference Proceedings  (A  joint  venture  of  CSIR-NPL  and  Metrological  Society  of  India).  Nalwa,  H.S.  (Ed.).  Handbook  
+6.3.1  Preferred  Term  Selection 
+Preferred  term  in  a  thesaurus  is  a  focal  point  where  related  information  about  the  concept  is  placed.  To  perform  the  task  of  preferred  term  selection,  Hulme’s  principle  of  literary  warrant  in  addition to user warrant was applied, which means  that  terms  were  marked  as  preferred  on  the  basis  of the frequency of their appearance in text and by  considering the views of subject experts who would  be  the  people  to  be  served  with  the  knowledge  structure. 
+Academic  Press,  USA,  2000.  Whitehouse,  D.J.  Handbook  of  Surface  and  Nanometrology.  Institute  of  Physics,  Bristol,  2003. 
+II.  Electronic  resources:  In  addition  to  various  
+of  Nanostructured  Materials  and  Nanotechnology.  
+6.3.2    Semantic  Relationships  between  Concepts 
+Establishing semantic relationship between the  concepts can be described as a practice of assigning  meaningful  linkage  between  two  or  more  entities.  
+web  sources,  three  databases  namely  ‘INSPEC’,  In  the  present  work  following  three  approaches  ‘Scopus’,  and  ‘Web  of  Science’  were  accessed  for  were  applied  for  defining  the  semantic  association  
+term  collection. 
+III. Human resources: The group of Nanotechnology  
+• experts working in Energy Harvesting and Nanometrology  divisions of CSIR-NPL were regularly consulted for  
+• finalisation. The committee approach for term selection  has  also  been  advocated  by  Lancaster34.  
+6.2 Data cleaning  and  Evaluation  of candidate  
+terms 
+This step deals with the removal of incomplete  and  outside  the  scope  terms. 
+(a) Incomplete  word  forms:  In  the  present  study  
+between  the  concepts: 
+Physics  Background  of  the  researcher 
+Literature  available  in  the  field • Subject  expert  approach 
+6.3.3 Standards  and  Guidelines 
+To enter a concept as a member of a Nanotechnology  semantic structure, researcher has to take decisions  regarding the form of terms. Standards and Guidelines  help in determining suitable grammatical forms, singular  and  plural  forms,  variable  spellings,  capitalisation,  
+32 
+
+========4========
+
+DJLIT,  VOL.  36,  NO.  1,  JANUARY   2016 
+abbreviations  and  acronyms.  Following  Standards  and  Guidelines  were  consulted: 
+• National  Information  Standards  Organisation.  
+Guidelines  for  the  construction,  format,  and  
+management of monolingual controlled vocabulary  
+(ANSI NISO Z39.19-2005 (R2010)). NISO, U.S.  
+2010. 
+• Aitchison, J., Gilchrist, A. & Bawden, D. Thesaurus  
+construction  and  use:  A  practical  manual.  (4th 
+ed.).  Europa,  London,  2000. 
+7. ONtOLOGY  ENGINEErING 
+Ontology engineering refers to various approaches,  tools,  and  languages  involved  in  building  ontology.   For  ontology  engineering  Malik,  Prakash  &  Rizvi35 cited Denny36  to elaborate following basic steps for  ontology  modelling: 
+• Attaining deep insight of the discipline in which  
+domain  ontology  is  to  build 
+• Identification  of  concepts  that  represents  the  
+domain  selected  for  ontology 
+• Creation  of  hierarchical  structure  by  creating  
+classes,  and  their  respective  subclasses • Defining  properties  to  establish  relationships  
+between  the  concepts 
+• Verification  of  constructed  ontology  for  
+consistency  
+• Deployment of ontology for transfer and sharing of  
+information  in  machine  readable  environment 
+Steps  for  ontology  creation  can  further  be  denoted  as:  
+7.1  concept  Naming  
+Under  concept  naming,  comprehensive  list  of  terms that represents the domain concepts is created.  According to Roussey, & et al .,37  process of domain  concepts  extraction  is  based  on: 
+• Based  on  text:  Text  is  considered  to  be  a  
+rich  source  of  information.  It  can  be  used  for  
+selecting terms. Further, quantitative techniques  
+like co-occurrence may be used to extract core  
+concepts.  
+• Based  on  thesaurus:  Thesaurus  is  considered  
+as  an  organised  knowledge  structure  and  can  
+be  used  in  developing  ontology. 
+• Based on relational database: Structural nature  
+of  relational  database  can  be  used  to  extract  
+concepts,  relationships  and  properties. • Based on UML diagram: Unified Modeling Language,  
+other  in  level  of  semantics,  but  still  of  the  intrinsic  feature  of  thesaurus  to  represent  the  knowledge  structure,  it  can  serve  as  a  base  for  ontology  development.  In  present  work,  Nanotechnology  thesaurus  developed  by  the  author  served  as  a  base  for  creation  of  Nanotechnology  ontology.  
+7.2 cONcEPt  HIErArcHY 
+Kim  &  et  al .,38 suggested  three  methods  to  develop  concept  hierarchy: 
+(a) Top-down  approach:  (From  generalisation  to  
+specific) process begins with one or more general  
+concepts  in  the  domain  and  successively,  it  
+specialise  the  concepts.      
+(b) Bottom-up  approach:  (From  specialisation  to  
+generalisation) process begins with most specific  
+concepts,  with  subsequent  grouping  of  these  
+classes  into  related  general  concepts. 
+(c) Middle-out  approach:  (From  most  important  
+concepts  to  generalisation  and  specialisation) 
+under  this  approach  most  important  domain  
+concepts  are  extracted  and  then  these  are  
+generalised  or  specialised  as  appropriate. 
+7.3  concept’s  Property  and  concept  
+  Association  
+Each  concept  has  one  or  more  properties  that  define  its  attribute.  Properties  of  domain  concepts  need  to  be  defined  and  documented.  
+Association  between  concepts  denotes  the  meaningful relationships between concepts. Relationship  marked  between  the  concepts  should  explain  how  a concept is semantically related to another. In this  sense, ontology lead over thesaurus, as in ontology,  relationships  are  comparatively  more  refined  and  semantically  enriched.  
+7.4  Formalisation  
+According to Random House Webster’s Concise  College Dictionary39  formalise means ‘to make formal,  especially  for  the  sake  of  official  or  authorised  acceptance: to formalise an agreement with a legal  contract’.  In  context  of  ontology,  it  refers  to  the  process  involved  in  making  the  sematic  domain  knowledge  structure  into  machine  readable  form.  For this transformation, there exist number of Web  technologies to represent semantic knowledge structure  into  machine  readable  form,  and  ontology  editors  designed  for  creating  and  editing  ontologies. 
+•  Web  Technologies  
+Discussing  about  the  markup  languages  used  
+a  graphic  language  designed  for  visualisation  
+in Semantic Web environment Zhang40   cited  Robu,  purpose  can  be  used  by  designers  to  describe  
+Robu  &  Thirion41   to  mention  the  semantic  web  
+their  diagrams. 
+Though, thesaurus and ontology differ from each  
+33 
+technologies  employed  during  different  intervals.   As  stated  in  the  contribution,  in  the  year  2001,  
+
+========5========
+
+SHARMA: NANOTECHNOLOGY ONTOLOGY: SEMANTIC ACCESS TO INFORMATION IN THE NANO WORLD 
+XML  (eXtensible  Markup  Language),  and  RDF  (Resource  Description  Framework)  were  the  two  technologies used for the development of Semantic  Web. The contributor further stated that in the year  2004,  the  revised  RDF  and  OWL  (Web  Ontology  Language)  were  the  two  technologies  announced  by  W3C  (World  Wide  Web  Consortium)  as  the  key  technologies  for  Semantic  Web.  By  2006,  RDF,  RDFS  (RDF  schema),  and  OWL  were  considered  as the W3C approved semantic web technologies42.   
+ontology  editors,  for  analysis.  While  discussing  ontology  development  methodologies  along  with  tools and languages used in ontology construction,  Mizoguchi45  discussed Onto Edit, WebODE, Protege,  and  Hozo  in  the  contribution.  Similarly,  Gokhale,  Deokattey & Bhanumurthy46  have discussed various  tools  and  methods  for  developing  ontology  in  their  study.  The  study  listed  Ontolingua,  WebOnto  and  Cys  under  ontology  development  tools.  Further,  while  discussing  the  role  of  ontology  in  semantic  
+In  the  present  work,  RDF  has  been  utilised  as  a  
+web,  Giri47   covered  Protege,  DOME,  Knoodl,  and  
+base  for  ontology  creation. 
+Table 1. Extended relations for semantic enrichment relationships thesaurus Ontology 
+Hierarchical BT & NT class Subclass 
+Equivalence USE/UF USE UF 
+Associative RT application-for application-of 
+base-for based-on 
+cause Effect 
+determined- used-to- 
+with determine 
+fabricated- used-to- 
+with fabricate 
+has-  parameter-of 
+parameter 
+has-property property-of 
+has-structure structure-of 
+manipulated- used-to- 
+with manipulate 
+measured- used-to- 
+with measure 
+obtained-with used-to- 
+obtain 
+phenomenon Tool 
+present-in may-have 
+removed-with used-to- 
+remove 
+•  Ontology  Editors 
+These are the applications developed to support  the  development  and  manipulation  of  ontologies.  Substantial  efforts  in  this  direction  resulted  in  the  appearance  of  number  of  tools  worldwide.  However, some of tools are available free on Web.  Discussing the tools that can be used for implementing  metadata for ontologies by using ontology languages  Youn  and  McLeod43 briefed  several  applications  in  their  study-  Protege  2000,  OilEd,  Apollo,  RDFedt,  OntoLingua,  OntoEdit,  WebODE,  KAON,  ICOM,  
+• DOE,  WebOnto,  Medius  Visual  Ontology  Modeler,  LinKFactory  Workbench,  and  K-Infinity.  Khondoker  & Mueller44 conducted a survey to compare various  ontology development tools.  This comparative study  covered Protege, SWOOP, Internet Business Logic,  
+• Top Brand Composer, Onto Track, and IHMC Cmap  
+Onto  Edit  in  his  work. 
+8. DEVELOPING  NANO tEcHNOLOGY  
+ONtOLOGY  bY  USING  ‘ NMAP’  SOF tWArE 
+To retrieve the semantic word map of Nanotechnology  in RDF format, nMap application which was developed  specifically for the study was employed. The application  nMap  is  a  graphical  user  interface  (GUI)  software  that  uses  VB.Net  as  front-end  tool  and  MS-Access  as back-end tool. As compared to the other existing  ontology  editors,  nMap  is  more  user  friendly  and  can  be  used  by  a  person  with  little  computer  knowledge.  
+8.1  Features  of  nMap 
+nMap  offers  the  following  features: 
+• term relationship:  This feature helps in defining  
+and  displaying  various  semantic  relationships  
+between  terms.  It  also  offers  flexibility  to  add  
+new associations between terms, i.e., property,  
+attribute,  characteristic,  etc. 
+• Predictive Searching : nMap provide autonomy  
+to users to perform random searching on term/ 
+concepts. This feature offers the dropdown just  
+under the search box which displays selectable  
+suggestions  for  search  query. 
+Figure 1. term relationship feature of nMap. 
+Data  Export  facility:  Output  retrieved  can  be  exported in various semantic machine readable  formats  like  XML  and  RDF.  This  feature  will  support  reusability  of  exported  data  in  other  applications  for  further  research. 
+Data Portability:  nMap  provides  the  facility  to  read the data from file received in the prescribed  
+34 
+
+========6========
+
+DJLIT,  VOL.  36,  NO.  1,  JANUARY   2016 
+• 
+• 
+format. This feature reduces the user(s) efforts  in  data  entry.    
+Graph  Plotting :  Graph  can  be  generated  for  each  approached  concept  and  can  be  saved  as  image. 
+Data Modification : This feature allows the user  to  edit  the  terms/concepts. 
+9.  FINDINGS 
+The  study  comes  out  with  Nanotechnology  ontology  in  RDF  framework  for  which  semantic  structure  of  around  2585  Nanotechnology  terms  was  utilised  in  combination  with  nMap  software.  The  tool  offers  a  semantic  knowledge  structure  to  Nanotechnology  researchers  in  machine  readable  environment.  Further,  development  of  ontology  in  RDF  format  serve  interoperability  and  will  further  support  semantic  interpretation  by  machines  to  facilitate  human  understanding. 
+10. EVALUAtION  OF  rDF  SYNt AX 
+To establish quality assurance for RDF structure  that appeared as the outcome of ontology, World Wide  Web Consortium (W3C) RDF validation platform was  approached.   This  W3C  platform  helps  in  attaining  structural  validation  for  RDF  syntax. 
+Figure 2. Predictive searching feature of nMap. 
+Figure 3. Data export feature of nMap. 
+Figure 4. Graph plotting feature of nMap. 
+Figure 5. Data modifcation feature of nMap. 
+11. SAMPLES  OF  ONt OLOGY 
+In  the  following  section  ontology  samples  for  two  Nanotechnology  concepts,  i.e.,  ‘contact  free  measurement’  and  ‘nano  scopes’  are  represented  in  distinct  formats,  i.e.,  RDF  XML  Syntax,  RDF  Triplet  Table,  and  RDF  Triplet  Graph. 
+11.1  contact  Free  Measurement  
+(a)  RDF  XML  Syntax 
+•  <?xml  version=’1.0’?> 
+•        <rdf:RDF xmlns:rdf=http://www.w3.org/1999/02/22- 
+rdf-syntax-ns#  xmlns:pt=”http://purl.org/pt/ 
+elements/1.1/”> 
+  •      <rdf:Description rdf:about=”localhost/ 
+  pt/contact  free  measurement”> 
+•     <pt:SN>contact  free  measurement  of  nano  
+objects  by  using  cold  atom  scanning  probe  
+microscope</pt:SN> 
+•     <pt:application-of>non  contact  atomic  force  
+microscopes</pt:application-of> 
+•    <pt:application-of>capacitive nano sensors</ 
+pt:application-of> 
+•     <pt:application-of>non  destructive  analytical  
+techniques</pt:application-of> 
+•     <pt:application-of>contactless  techniques</ 
+pt:application-of> 
+•  <pt:application-of>cold atom scanning probe  
+microscopes</pt:application-of> 
+•  <pt:Class>nano  measurement</pt:Class> 
+•  </rdf:Description> 
+•  </rdf:RDF> 
+(b) RDF  Triplet  Table 
+RDF  triplet  tables  as  illustrated  in  Table  2  is  used  to  store  RDF  XML  triplets  for  the  concept  ‘contact  free  measurement’  in  there  columns,  i.e.,  
+35 
+
+========7========
+
+SHARMA: NANOTECHNOLOGY ONTOLOGY: SEMANTIC ACCESS TO INFORMATION IN THE NANO WORLD 
+subject,  predicate  and  object,  where  subject  and  predicate  must  be  resource  URIs  and  object  is  a  constant  value. 
+(c) RDF  Triplet  Graph 
+11.2  Nano  scopes  (a)  RDF  XML  Syntax 
+•  •  
+•  
+uses  a  beam  of  atoms  instead  of  light</ pt:SN> 
+<pt:Class>nano  optical  devices</pt:Class> <pt:has-parameter>numerical  apertures</   pt:has-parameter> 
+<pt:Sub-Class>optical  nano  scopes</pt:Sub-   Class> 
+Table 2. RDF triplet table for ‘contact free measurement’ 
+S. No. Subject 
+1. http://www.w3.org/RDF/Validator/run/ 
+localhost/pt/contact free measurement 2. http://www.w3.org/RDF/Validator/run/ 
+localhost/pt/contact free measurement 3. http://www.w3.org/RDF/Validator/run/ 
+localhost/pt/contact free measurement 4. http://www.w3.org/RDF/Validator/run/ 
+localhost/pt/contact free measurement 5. http://www.w3.org/RDF/Validator/run/ 
+localhost/pt/contact free measurement 6. http://www.w3.org/RDF/Validator/run/ 
+localhost/pt/contact free measurement 7. http://www.w3.org/RDF/Validator/run/ 
+localhost/pt/contact free measurement 
+Predicate 
+http://purl.org/pt/elements/1.1/ 
+SN 
+http://purl.org/pt/elements/1.1/ 
+application-of 
+http://purl.org/pt/elements/1.1/ 
+application-of 
+http://purl.org/pt/elements/1.1/ 
+application-of 
+http://purl.org/pt/elements/1.1/ 
+application-of 
+http://purl.org/pt/elements/1.1/ 
+application-of 
+http://purl.org/pt/elements/1.1/ 
+Class 
+Figure 6. Graph for ‘contact free measurement’. 
+•       <?xml  version=’1.0’?> 
+•  <rdf:RDF xmlns:rdf=http://www.w3.org/1999/02/22- 
+rdf-syntax-ns#  xmlns:pt=”http://purl.org/pt/ 
+elements/1.1/”> 
+•  <rdf:Description rdf:about=”localhost/pt/nano  
+scopes”> 
+•  <pt:SN>nano  scope  is  any  microscope  that  
+has  its  resolution  in  nano  metre  and  which  
+Object 
+‘contact free measurement of nano objects by  using cold atom scanning probe microscope’ ‘non contact atomic force microscopes’ 
+‘capacitive nano sensors’ 
+‘non destructive analytical techniques’ 
+‘contactless techniques’ 
+‘cold atom scanning probe microscopes’ 
+‘nano measurement’ 
+•  <pt:Sub-Class>attosecond  nano  scopes</ 
+  pt:Sub-Class> 
+•  <pt:tool>nano  scopy</pt:tool> 
+•  </rdf:Description> 
+•  </rdf:RDF> 
+(b) RDF  Triplet  Table 
+RDF  triplet  tables  as  illustrated  in  Table  3  is  used  to  store  RDF  XML  triplets  for  the  concept  
+36 
+
+========8========
+
+DJLIT,  VOL.  36,  NO.  1,  JANUARY   2016 
+Table 3. RDF Triplet for ‘nano scopes’ 
+Predicate 
+Object 
+Subject 
+http://www.w3.org/RDF/Validator/ run/localhost/pt/nano scopes http://www.w3.org/RDF/Validator/ run/localhost/pt/nano scopes http://www.w3.org/RDF/Validator/ run/localhost/pt/nano scopes http://www.w3.org/RDF/Validator/ run/localhost/pt/nano scopes http://www.w3.org/RDF/Validator/ run/localhost/pt/nano scopes http://www.w3.org/RDF/Validator/ run/localhost/pt/nano scopes 
+http://purl.org/pt/elements/1.1/‘nano scope is any microscope that has its resolution in nano  
+SN 
+http://purl.org/pt/elements/1.1/‘nano optical devices’ 
+Class 
+http://purl.org/pt/elements/1.1/‘numerical apertures’ 
+has-parameter 
+http://purl.org/pt/elements/1.1/‘optical nano scopes’ 
+Sub-Class 
+http://purl.org/pt/elements/1.1/‘attosecond nano scopes’ 
+Sub-Class 
+http://purl.org/pt/elements/1.1/‘nano scopy’ 
+tool 
+Figure 7. Graph for ‘nano scopes.’ 
+‘nano scopes’ in there columns i.e. subject, predicate  and  object,  where  subject  and  predicate  must  be  resource  URIs  and  object  is  a  constant  value. (c)  RDF  Triplet  Graph 
+15.  cONcLUSIONS 
+Amount  of  Nanotechnology  information  that  is  appearing and added daily on Web make it difficult  for scholars to retrieve all the relevant information.   The  ultimate  solution  to  this  problem  is  to  manage  and chart this widely available information with the  help  of  semantically  rich  structures  like  ontologies  that could enhance the understanding and reasoning  capabilities  of  both  human  and  computers.  
+rEFErENcES 
+1. Aghaei,  S.;  Nematbakhsh,  M.A.  &  Farsani,  
+H.K.  Evolution  of  the  world  wide  web:  From  
+web1.0 to web 4.0. Int. J. Web Semantic Tech. ,  
+37 
+metres and which uses a beam of atoms instead of light’ 
+2. 
+3. 
+4. 
+2012, 3(1), 1-10. http://airccse.org/journal/ijwest/ papers/3112ijwest01.pdf (accessed on 12 June  2014). 
+The Huffington Post. World’s first website, created  by Tim Berners-Lee in 1991, is still up and running  on  21st  birthday, 2012. www.huffingtonpost. com/2012/08/06/worlds-first-website_n_1747476. html?ir=India  (accessed  on  6  February  2015). Patel, K. Incremental journey for world wide web:  Introduced  with  Web  1.0  to  recent  Web  5.0: A  survey paper. Int. J. Adv. Res. Comput. Sc. Softw.  Eng., 2013,  3(10), 410- 17. www.ijarcsse.com/ docs/papers/Volume_3/10_October2013/V3I10- 0149.pdf  (accessed  on  06  February  2015). Meilender,  T.;  Lieber,  J.;  Palomares,  F.  &  Jay,  N.  From  web  1.0  to  social  semantic  web:  Lessons  learnt  from  a  migration  to  a  medical  semantic  wiki. In   the  semantic  web:  Research  and applications, edited by E. Simperl, P. Cimiano,  
+
+========9========
+
+SHARMA: NANOTECHNOLOGY ONTOLOGY: SEMANTIC ACCESS TO INFORMATION IN THE NANO WORLD 
+A. Polleres, O. Corcho, & V. Presutti. Springer,  
+Berlin-Heidelberg, 2012, pp. 618-32. http://link. 
+springer.com/chapter/10.1007/978-3-642-30284- 
+8_48  (accessed  on  11  February  2015). 
+5. Choudhury,  N.  World  wide  web  and  its  journey  
+from  web  1.0  to  web  4.0. Int.  J.  Comput.  Sc.  
+Inf. Tech., 2014, 5(6), 8096-8100. www.ijcsit.com/ 
+docs/Volume%205/vol5issue06/ijcsit20140506265. 
+pdf  (accessed  on  06  February  06,  2015). 
+6. Kuck,  G.  Tim  Berners-Lee’s  semantic  web.  
+S.  Afr.  J.  Inf.  Mgmt.,  2004,  6(1).  https://www. 
+google.co.in/url?sa=t&rct=j&q=&esrc=s&source 
+=web&cd=7&cad=rja&uact=8&ved=0CFIQFjAG 
+&url=http%3A%2F%2Fsajim.co.za%2Findex.ph 
+p%2FSAJIM%2Farticle%2Fdownload%2F297% 
+2F288&ei=n0LYVKujMNO3uASM6IDgDw&usg= 
+AFQjCNEfKtXpBWKuRxxizKVaGiEM49oGfA&s 
+ig2=3ap-DcdoqotJQFW16737dg  (accessed  on  
+09  February  2015). 
+7. Davies,  J.;  Fensel,  D.  &  Harmelen,  F.  van.  
+Introduction.  In   Towards  the  semantic  web:  
+Ontology-driven knowledge management, edited  
+by J. Davies, D. Fensel & F.van Harmelen. John  
+Wiley,  Chichester,  England,  2003,  pp.  1-10.  
+http://khabib.staff.ugm.ac.id/downloads/lecture/ 
+S3/Toward%20The%20Semantic%20Web.pdf  
+(accessed  on  09  February  2015). 
+8. Chandrasekaran, B. & Josephson, R. What are  
+ontologies and why do we need them?. IEEE Intell.  
+Sys.,  1999,  14(1), 20-26. http://www.csee.umbc. 
+edu/courses/771/papers/chandrasekaranetal99. 
+pdf  (accessed  on  01 August  2014). 
+9. Man, D. Ontologies in computer science. DIDACTICA  
+MATHEMATICA, 2013, 31(1), 43-46. http://www. 
+math.ubbcluj.ro/~didactica/pdfs/2013/didmath2013- 
+06.pdf  (accessed  on  01 August  2014). 
+10. Patkar,  V.  A  passage  to  ontology  tool  for  
+information  organisation  in  the  digital  age.  
+DESIDOC  J.  Lib.  Inf.  Tech.,   2011,  31(2),  90- 
+102. http://publications.drdo.gov.in/ojs/index.php/ 
+djlit/article/download/861/362  (accessed  on  1  
+August  2014). 
+11. Guarino, N.; Oberle, D. & Staab, S. What is an  
+ontology? In  Handbook on ontologies, edited by  
+S.  Staab  &  R.  Studer.  Springer-Verlag,  Berlin,  
+2009,  pp.  1-17.    
+12. Studer, R.; Benjamins, V.R. & Fensel, D. Knowledge  
+engineering:  Principles  and  methods.  Data  &  
+Knowledge Engineering, 1998, 25(1-2), 161-197.  
+DOI:  10.1016//S0169-023X(97)00056-6 
+13. Nguyen,  Thi-Hoa-Hue  &  Le-Thanh,  N.  An  
+ontology-enabled approach for modelling business  
+processes.  In  Beyond databases, architectures,  
+and  structures,  edited  by  Stanislaw  Kozielski,  
+et al.,  Springer International, Switzerland, 2014,  
+pp.  139-47.  
+14. Beumer, K. A matter of scale: The visual representation  
+of nanotechnologies. Spontaneous Generations:  
+A  J.  for  the  Hist.  &  Phil.  of  Sci.,   2012,  6(1),  
+65-74.  http://spontaneousgenerations.library. 
+utoronto.ca/index.php/SpontaneousGenerations/ 
+article/view/16139/15602 (accessed on 1 August  
+2014). 
+15. Ratner,  M.  &  Ratner,  D.  Nanotechnology:  A  
+gentle introduction to the next big idea. Pearson  
+Education,  New  Jersey,  2003,  pp.  5. 
+16. Poole,  C.P.  &  Owens,  F.J.  Introduction  to  
+nanotechnology.  Wiley,  New  Delhi,  2006,  pp.  
+9. 
+17. Allhoff, F.; Lin, P. & Moore, D. What is nanotechnology  
+and why does it matter? From science to ethics.  
+Wiley-Blackwell,  UK,  2010,  pp.  8. 
+18. Kaekamnerdpong,  B.  &  Bentley,  P.J.  Computer  
+sciences for nanotechnology: Needs and opportunities.  
+http://citeseerx.ist.psu.edu/viewdoc/download?do 
+i=10.1.1.95.4960&rep=rep1&type=pdf (accessed  
+on  30  June  2015). 
+19. Saxton,  J.  Nanotechnology:  The  future  is  
+coming  sooner  than  you  think.  Joint  Economic  
+Committee, United States Congress, Washington,  
+2007,  pp.1-20.  http://www.thenewatlantis.com/ 
+docLib/20120213_The future is coming sooner than  
+you  think.pdf  (accessed  on  30  June  2015). 20. Filipponi, L. & Sutherland, D. Nanotechnologies:  
+Principles, applications and hands-on activities-  
+a compendium for educators. Publications office  
+of the European Union, Luxembourg, 2012, pp.  
+65-66. https://ec.europa.eu/research/industrial_ 
+technologies/pdf/nano-hands-on-activities_en.pdf  
+(accessed  on  12  February  2015). 
+21. Lancaster, F.W. Thesaurus construction and use: A  
+condensed course. UNESCO, Paris. 1985. http:// 
+unesdoc.unesco.org/images/0007/000703/070359eb. 
+pdf  (accessed  on  09  February  2015). 
+22. Aitchison, J.; Gilchrist, A. & Bawden D. Thesaurus  
+construction and use: A practical manual. Europa,  
+London,  2000. 
+23. Smith, B. & Ceusters, W. Ontology as the core  
+discipline of biomedical informatics: Legacies of  
+the  past  and  recommendations  for  the  future  
+direction of research. In  Computing, philosophy,  
+and cognitive science, edited by G.D. Crnkovic &  
+S. Stuart. Cambridge Scholars Press, Cambridge,  
+2007,  pp.104-122.  ontology.buffalo.edu/medo/ 
+Recommendations_2005.pdf  (accessed  on  09  
+February  2015). 
+24. Biasiotti, M.A. & Tiscornia, D. Legal ontologies:  
+The linguistic perspective. In   Law,  governance  
+and technology series: Vol. 1. Approaches to legal  
+ontologies:  Theories,  domains,  methodologies,  
+edited by G. Sartor; P. Casanovas; M. Biasiotti  
+& M. Fernandez-Barrera. 2010, pp. 143-66. doi:  
+38 
+
+========10========
+
+DJLIT,  VOL.  36,  NO.  1,  JANUARY   2016 
+10.1007/978-94-007-0120-5_9 (accessed on 03  
+June  2015). 
+25. Esbjorn-Hargens,  S.  An  ontology  of  climate  
+change: Integral pluralism and the enactment of  
+multiple  objects. J.  of  Int.  The.  &  Prac. ,  2010,  
+5(1), 143-74. https://foundation.metaintegral.org/ 
+sites/default/files/Esbjorn-Hargens_Ontology.pdf  
+(accessed  on  05  May  2015). 
+26. Gokhale,  P.;  Deokattey,  S.  &  Bhanumurthy,  K.  
+Ontology  development  methods.  DESIDOC  J.  
+Lib.  &  Inf.  Tech.,  2011, 31(2),  77-83.  
+27. Thomas,  D.G.;  Pappu,  R.V.  &  Baker,  N.A.  
+Nanoparticle ontology for cancer nanotechnology  
+38. Zhang,  J.  Ontology  and  the  semantic  web.  
+research.  J.  of  Biomedical  Infs.,  2011,  44(59- 
+74).  doi:  10.1016/j.jbi.2010.03.001  (accessed  
+on  10  February  2015). 
+28. Khoo, C.S.G.; Na, J.C.; Wang, V.W. & Chan, S.  
+Developing  an  ontology  for  encoding  disease  
+Metral,  Jacques  Teller  &  Christopher  Tweed.  
+Springer-Verlag,  London,  2011,  pp.  9-38. 36. Kim, Jung-Min, Choi, Byoung-II, Shin, Hyo-Phil &  
+Kim, Hyong-Joo. A methodology for constructing  
+of  philosophy  ontology  based  on  philosophical  
+texts.  Com.  Std.  &  Interfaces ,  2007,  29(3),  
+302-15.  http://www.sciencedirect.com/science/ 
+article/pii/S0920548906000523  (accessed  on  
+10  February  2015).  
+37. Random  House  Webster’s  Concise  College  
+Dictionary.  Random  House,  New  York,  1999,  
+pp.  329. 
+In  
+Proceeding  of  the  north  American  symposium  
+on knowledge organisation, edited by Joseph T.  
+2007,  pp.  9-20.  https://journals.lib.washington. 
+edu/index.php/nasko/article/download/12830/11311  
+(accessed  on  06 August  2014). 
+treatment  information  in  medical  abstracts.  
+39. Robu, I.; Robu, V. & Thirion, B. An introduction to  
+DESIDOC  J.  Lib.  &  Inf.  Tech.,   2011,  31(2),  
+103-115. 
+29. Hastings,  J.;  Magka,  D.;  Batchelor,  C.;  Duan,  
+L.;  Stevens,  R.;  Ennis,  M.  &  Steinbeck,  C.  
+the semantic web for health sciences librarians.  J.  Med.  Lib.  Assco.,   2006,  94(2),  198-205.  www.ncbi.nlm.nih.gov/pmc/articles/PMC1435839  (accessed  on  07  December  2015). 
+Structure-based  classification  and  ontology  in  
+40. Glowacki,  A.F.  Development  of  taxonomy  for  
+chemistry.  J.  of  Cheminformatics,  2012,  4(8),  
+1-20. DOI:10.1186/1758-2946-4-8 (accessed on  
+07  December  2015). 
+30. Meenachi,  N.M.  &  Baba,  M.S.  Development  of  
+semantic  web-based  knowledge  management  
+for  nuclear  reactor  (KMNuR)  portal. DESIDOC  
+J.  Lib.  &  Inf.  Tech.,   2014,  34(5),  426-34. 31. Schulte, J. Scientific development and industrial  
+application  of  nanotechnology  in  China.  In  
+Nanotechnology:  Global  strategies,  industry  
+indexing  Web-based  mining  safety  and  health  
+research. In  Proceedings of the first international  
+future mining conference and exhibition, edited by  
+Saydam S. The Australasian Institute of Mining  
+and  Metallurgy,  Australia,  2008,  pp.  125-29.  
+http://www.cdc.gov/niosh/mining/userfiles/works/ 
+pdfs/doatf.pdf  (accessed  on  8 August  2014). 41. Youn,  S.  &  McLeod,  D.  Ontology  development  
+tools for ontology- based knowledge management.  
+2006.  http://citeseerx.ist.psu.edu/viewdoc/dow 
+trends and applications, edited by Jurgen Schulte.  
+nload?doi=10.1.1.387.915&rep=rep1&type=pdf  
+John  Wiley,  England,  2005,  pp.1. 
+32. Lancaster, F.W. Vocabulary control for information  
+retrieval. Information Resources Press, Washington,  
+DC,  1972. 
+33. Malik, S.K.; Prakash, N. & Rizvi, S.A.M. Developing  
+an university ontology in education domain using  
+Protege for semantic web. Int. J. Eng. Sc. Tech., 
+2010, 2(9), 4673-81. http://www.researchgate.net/ 
+publication/50346425_developing_an_university_ 
+ontology_in_education_domain_using_protg_ 
+for_semantic_web  (accessed  on  10  February  
+2015). 
+34. Denny,  M.  Ontology  building:  A  survey  of  
+editing  tools.  XML.com,  2002.  www.xml.com/ 
+pub/a/2002/11/06/ontologies.html?page (accessed  
+on  07  December  2015). 
+35. Roussey,  C.;  Pinet,  F.;  Kang,  M.A.  &  Corcho,  
+O.  An  introduction  to  ontologies  and  ontology  
+engineering. In  Advanced information and knowledge  
+processing.  Ontologies  in  urban  development  
+projects,  edited  by  Gilles  Falquet,  Claudine  
+39 
+(accessed  on  08 August  2014) 
+42. Khondoker,  M.R.  &  Mueller,  P.  Comparing  
+ontology development tools based on an online  
+survey. In   Proceedings  of  the  World  Congress  
+on Engineering. 2010, pp. 188-92. www.iaeng. 
+org/publication/WCE2010/WCE2010_pp188-192. 
+pdf  (accessed  on  10  February  2015) 
+43. Mizoguchi, R. Tutorial on ontology engineering:  
+Ontology  development,  tools  and  languages.  
+New  Generation  Compu.,  2004,  22(1),  61-96.  44. Giri,  K.  Role  of  ontology  in  semantic  web.  
+DESIDOC J. Lib. & Inf. Tech.,  2011,  31(2), 116-20.  
+About  the Author 
+Mr  Abhishek  Sharma  is   working  as  Scientist  in  CSIR- National  Physical  Laboratory,  New  Delhi.  He  obtained  his PG in Physics, and Library & Information Science. In  2011,  he  was  awarded  ‘SIS  Young’  Information  Scientist  Award’. 
+
+========11========
+

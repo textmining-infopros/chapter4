@@ -1,0 +1,207 @@
+DESIDOC Journal of Library & Information Technology, Vol. 33, No. 4, July 2013, pp. 295-299 
+  2013, DESIDOC 
+Domain Visualisation Using Concept Maps: A Case Study 
+Sangeeta Deokattey and K. Bhanumurthy 
+Scientifc Information Resource Division Bhabha Atomic Research Centre, Trombay, Mumbai-400 085 E-mail: sangeetadeokattey@hotmail.com; aditya@barc.gov.in 
+AbStrACt 
+In the present study, an attempt has been made to visualise relationships among concepts using  concept  maps.  Identifcation  and  categorisation  of  relationships  is  a  fundamental  process  in  effective  knowledge  organisation  and  retrieval. This  cognitive  process  of  identifcation  of  relationships  can  be  facilitated by generating concept maps. Basic concept maps have been developed for an interdisciplinary  subject  domain;  accelerator  driven  systems  (ADS).  These  concept  maps  can  be  used  as  aids  for  
+conceptualisation in a domain ontology. 
+Keywords: Domain visualisation, domain ontologies, concept maps, interdisciplinary subjects, associative 
+ relationships, accelerator driven systems, INIS database 
+1. INtrODUCtION  
+In  the  area  of  knowledge  organisation  &  retrieval (KO&R), traditionally, indexing tools such as  classification schemes and thesauri have been used,  to  organise,  store  and  retrieve  domain  knowledge.   It’s only recently, that ontologies, particularly domain  ontologies1   are  being  researched  by  information  scientists  as  alternatives,  to  organise  the  vast  amount  of  information  on  the  web  and  make  it  available to their clientele, through various web-based  information  services.  
+The  basic  difference  between  conventional  KO&R  tools  and  ontologies  is  the  ease  with  which  relationships  between  keywords,  either  free-text  or  controlled  can  be  specified.  For  instance,  in  a  thesaurus, only three types of relationships can be  expressed: Hierarchical, Equivalence, and Associative.  Some  basic  differences  between  a  thesaurus  and  a  domain  ontology  are  given  in  Table  1.  
+Through domain ontologies, Associative, Lateral or  Related term relationships2  can be better expressed.  This  is  particularly  important  in  developing  domain  ontologies  in  fast  growing,  interdisciplinary  subject  areas,  where  related  term  relationships  are  very  significant  for  search  and  subsequent  retrieval  of  information. Thus domain ontologies, tailored to the  KO&R  needs  of  a  particular  organisation  or  user  community, can be specifically created by ontology  developers. The process of conceptualisation is at the  core of developing domain ontologies. Conceptualisation 
+Received 20 February 2013, online published 22 July 2013    
+is  done  through  the  identification  and  interlinking  of  keywords/descriptors  in  the  selected  domain.  A  keyword  in  combination  with  other  keywords  semantically related to it is transformed into a more  comprehensive ‘concept’. Using theoretical principles  of classification and facet analysis3,  keywords  can  be converted into semantically-rich concepts through  generation of one-to-many correspondences or linkages  between  them.  These  associations  or  linkages  are  developed  according  to  user  requirements  by  the  ontology  developers.  Thus,  every  domain  ontology  is  unique  since  it  represents  a  part  of  the  reality  of  the  universe  conceptualised  by  it. The  concepts  can  then  be  grouped  into  clusters  for  search  and  retrieval,  based  on  user  requirements.  
+Concept  mapping  is  an  intellectual  process  wherein basic knowledge about the domain as well  as a deep understanding about the needs of the user  community  is  required. As  visual  aids  or  graphical  tools  in  the  process  of  conceptualisation,  Concept  maps4-6   can be used to organise domain knowledge.  They  offer  an  excellent  means  of  conceptualising,  visualising and mapping the entire domain, so that  a  user  can  easily  follow  the  linkages  and  get  a  better  understanding  about  the  domain.  
+2.  ObJECtIVES  
+A case study was undertaken to develop concept  maps  in  the  area  of  accelerator  driven  systems  (ADS).  These  concept  maps  can  form  the  basis  of  a  domain  ontology  on  ADS.  The  ADS  is  an  
+
+========1========
+
+DJLIT,  VOL.  33,  NO.  4, JULy  2013 
+table 1. basic differences between a thesaurus and a domain ontology 
+S. No. 1. 
+               thesaurus 
+subject contents of a resource 
+                      Domain ontology 
+A controlled vocabulary, consists of descriptors, Incorporates both free index terms as well as a controlled vocabulary. Along with  that have been authorised to represent the a listing of terms (not necessarily alphabetical), a set of inference rules are also  
+incorporated in ontology that allow the system or agent, to make inferences about  
+the represented knowledge, to identify connection across resources, or to discover  
+new knowledge. 
+Rigid 
+Unidimensional 
+Totally fexible 
+2. 3. 4. 
+Multidimensional  
+A thesaurus can either be manually created or Ontology can only be created using special software programmes. 
+machine-generated 
+5. 
+Use of a vocabulary is binding, on both the Enables sharing of common understanding of the structure of information among  knowledge managers and knowledge searcherspeople, allows free use of terms 
+6. 
+Controlled vocabulary terms are mostly Ontology incorporates both domain knowledge and operational knowledge 
+restricted to domain knowledge 
+7. 
+Built on the concept of literary warrant. Literary Warrant as well as other problem solving practical tools, devices and  Terminological concepts and their relationships elements are used. Terminological concepts as well as other characteristics and  (including incorporation of new terms) are purely properties are defned in the purpose of the ontology and may be shifted to new  
+slots, or deleted from existing slots, depending on emerging applications. 
+based on Literary Warrant 
+8. 
+Only qualifed descriptors   are used both during  storage as well as retrieval 
+Though a vocabulary is an inherent part of an ontology, other concepts and terms  are freely used, both during storage and retrieval, as well as for other applications 
+9. 
+All descriptors in a thesaurus are slotted or Ontology does not create classes into which domain sources are slotted. Rather,  assigned to mutually exclusive classesontology defnes a set of elements (or slots) as appropriate, represent the physical  
+and conceptual features of a resource.                                                         
+10. 
+Superordinate and subordinate classes are Superordination and subordination of classes mostly decided by the Ontology  determined solely by the knowledge domain or developer depending on the purpose of the Ontology. 
+the subject feld. 
+11. 
+There are only three kinds of relationships The relationships between classes or  properties are potentially polyhierarchical; a  between any two descriptors in a  thesaurus: class may be a  subclass of one, two, three or more  superordinate classes 
+Hierarchical, Equivalence and Associative      
+12. 
+conceptual level.  
+Descriptors in a thesaurus exist purely at a Terms or classes in ontology can be assigned values. Ontology consists of a  
+catalogue of controlled and well-defned slots that are meaningless when applied to  
+a resource, unless they are paired with an appropriate value. 
+interdisciplinary and multidisciplinary subject domain.  It is a part of the broad area of physics, especially  particle  physics  and  atomic  and  nuclear  physics.  It  also  includes  nuclear  and  reactor  engineering,  reactor  fuels  and  radioactive  waste  management.  Basically,  an ADS  is  a  hybrid  system.  It  combines  a  particle  accelerator,  particularly  a  high-power  proton accelerator with a subcritical nuclear reactor  to  accomplish  various  tasks.  R&D  work  on  ADSs  assumes  importance  due  to  their  inherent  safety  features,  their  use  of  thorium  as  fuel  and  their  non-proliferative  advantage.  
+3. MEtHODOLOGY  
+To  develop  the  concept  maps,  concepts  on  ADS  needed  to  be  identified  and  harvested.  For  this  purpose,  the  International  Nuclear  Information  System  (INIS)  database  was  selected.  This  is  a  comprehensive international database in the area of  nuclear science and technology for peaceful uses of  atomic energy. Query formulations on this database  (2008-2012) resulted in the retrieval of 739 records on  ADS. Complete records, each containing data fields  like author, corporate author, title, publication details, language,  abstract  were  downloaded.  Descriptors  
+296 
+(indexer-assigned)  (10-15  for  each  bibliographic  record) were downloaded separately and these were  used in developing the concept maps. A total of 1777  unique  descriptors  on  ADS  were  harvested.  High  ranking, major descriptors (with a threshold level of  more  than  10,  numbering  187)  were  selected.    
+The  following  steps  were  taken: 
+(a) Identification  and  downloading  of  descriptors  
+(a  total  of  1777)  and  additional  keywords/  
+concepts on ADSs (a total of around 300) from  
+the  abstracts  of  the  downloaded  records  using  
+content  analysis. 
+(b) Numerical listing of the selected descriptors on  
+ADSs, based on frequency count and selection  
+of those with a threshold level of 10 and above.  
+A partial list of high-ranking descriptors on ADS  
+is  given  in  Table  2.  
+(c) Developing  a  semantic  network  of  selected  
+descriptors and keywords on ADSs through the  
+creation  of  EXCEL  files 
+All  the  descriptors  and  keywords  were  linked  to  each  other  through  subordinate,  superordinate  and  affinitive  relationships. A  sample  of  one  of  the  EXCEL  files  is  shown  in  Table  3.        
+
+========2========
+
+DEOKATTEy AND  B HANUMURTHy: DOMAIN  V ISUALISATION  U SINg CONCEpT  M ApS 
+table 2. High ranking descriptors on accelerator driven 
+           systems (INIS database 2008-2012) 
+Frequency of occurrence 
+Descriptors 
+123 109 103 101 84 83 79 76 72 69 66 64 60 58 55 54 53 51 49 48 
+spallation- 
+neutron-sources design- 
+proton-beams 
+transmutation- 
+subcritical-assemblies fast-reactors 
+neutrons- 
+actinides- 
+lead- 
+radioactive-wastes nuclear-fuels 
+quantum-chromodynamics protons- 
+cross-sections 
+fuel-cycle 
+liquid-metals 
+reactor-cores 
+neutron-fux 
+computerised-simulation 
+(d) Developing core clusters on the basis of expert  
+advice 
+Certain descriptors were identified as core descriptors  and  clusters  were  developed  around  them  through  the generation of one-to-many correspondences or  linkages using the information from the Excel files.  These  descriptors  were:  
+1. Accelerators 
+2.  Subcritical  assemblies 
+3. Targets 
+4.  Transmutation 
+5. Nuclear  energy 
+6.  Spallation 
+The ADS is a comparatively new area of R&D,  which  gained  world-wide  attention  in  1995,  due  to  the  Nobel prize  winning  work  of  Dr  Carlo  Rubbia.  Rapid  advances  in  the  field  from  1996  onwards  resulted  in  several  publications.  Descriptors  of  the  INIS  thesaurus  proved  inadequate  to  map  the 
+           Keyword accelerator-breeders 
+Table 3. A sample of the interlinked EXCEL fle of keywords/descriptors on ADS 
+Superordinate 
+Subordinate 
+accelerator-driven- transmutation 
+transmutation 
+accelerator-facilities 
+target-chambers 
+accelerators 
+coherent-accelerators; collective- accelerators; cyclic-accelerators;  electrostatic-accelerators; heavy- ion-accelerators; linear-accelerators;  meson-factories; particle-beam-fusion- 
+accelerator 
+Affnitive 
+accelerators-; breeder-reactors; breeding;  fssionable-materials; nuclear-fuels 
+accelerator-breeders; accelerators; radioactive- waste-processing 
+accelerators-; beam-dumps; beam-monitors;  laboratory-equipment; reaction-product-transport- systems 
+acceleration; accelerator-breeders; accelerator- driven-transmutation; accelerator-facilities;  beam-dumps; beam-dynamics; beam-separators;  impact-fusion-drivers; isotope-production; particle- boosters; storage-rings; targets; target-chambers 
+Table 4. Partial list of additional keywords/concepts as identifed from abstracts (INIS database 2008-2012) AAA, Advanced Accelerator Applications aka AFCI (Advanced Fuel Cycle Initiative) 
+ABC, Accelerator Based Conversion (of plutonium) (with 2 blanket regions; inner fast and outer thermal) (subproject of ADTT) under BNL 
+ABR, Actinide Burning Reactor 
+AD-RCNpS, Accelerator driven radiation clean Nuclear power System Concept (China) 
+ACS, Above Core Structure (component of ADS) 
+ACS, Accelerator Coupled System for actinide transmutation ACWL, Argonne Continuous Wave Linac (earlier known as CWDD) ADApT, Accelerator Driven Assembly for pu Transmutation of BNL Accelerator current 
+ACCELERATOR DESIgN CONCEpTS  (Major Concepts) ACCELERATOR SySTEMS AND COMpONENTS  (Major Concepts) 
+ACCELERATOR OpERATIONS AND SySTEMS MODELINg   (Major Concepts) 
+AD-gT-MHR + accelerator subcritical gH-MHR for pu incineration Accelerator Driven gas Turbine Modular Helium cooled Reactor 
+AD-SpR, An accelerator driven sub-critical system based on a swimming pool reactor 
+ADC, Accelerator Driven Core (along with fusion neutron source are proposed as external neutron sources  for fssion products transmutation in  
+SCNES) 
+ADEP, Accelerator Driven Energy Production (subproject of ADTT) comprises fve subsystems:  
+(1)  Target/blanket primary system,  
+(2)  After-heat removal system,  
+(3)  Off-gas collection system,  
+(4)  Fuel salt clean-up system, and  
+(5)  Waste streams 
+ADMAB, Accelerator Driven Minor Actinide Burner (OECD/NEA/NSC) ADONIS, A precursor of MyRRHA (Belgium) (under ADT) 
+ADpT, Accelerator Driven particle fuel Transmuter of BNL 
+297 
+
+========3========
+
+DJLIT,  VOL.  33,  NO.  4, JULy  2013 
+growing field. Therefore to make the concepts more  comprehensive, several keywords were identified from  the abstracts of the downloaded records. These were  very important to the process of conceptualisation. A  partial  list  of  such  keywords  starting  with Alphabet  A  is  given  in  Table  4. 
+(e) Creation  of  concept  maps  for  each  of  the  
+selected  core  descriptors 
+It  would  help  in  visualising  and  mapping  the  domain of ADS. These maps were developed using  the  CMap  Tools  Knowledge  Modeling  Kit  (CMap  Lite).  This  is  a  freely  available  software  and  has  been  developed  by  the  Florida  Institute  of  Human  & Machine Cognition (IHMC), a non profit institute.   Concept  maps  generated  for  each  of  the  selected  core  descriptors  on ADS  are  shown  in  Figs.  1-6. 
+Figure 1. basic concept map on accelerators. 
+Figure 2. Subcritical assemblies. 
+Figure 3. targets. 
+298 
+Figure 4. transmutation.  
+Figure 5. Nuclear energy. 
+Figure 6. Spallation. 
+4.   r ESULtS  AND  CONCLUSIONS  
+Each  of  the  six  selected  core  descriptors  is  in  turn,  linked  with  other  descriptors  both  from  the  thesaural word block as well as from the additional  keywords  identified  from  the  abstracts.  Thus,  a  compact,  basic  concept  map  of  the  entire  domain  of  ADS  can  be  developed.  The  ADS  can  be  used  for various applications such as Energy production,  Waste  transmutation  or  Thorium  breeding.  The  
+
+========4========
+
+DEOKATTEy AND  B HANUMURTHy: DOMAIN  V ISUALISATION  U SINg CONCEpT  M ApS 
+major concepts on ADS in general are Accelerators,  Subcritical  Assemblies,  Targets,  and  Spallation.  The  concept  maps  on  these  terms,  can  be  used  as  basic  ontology  modules  for  developing  more  specific  domain  ontologies.  In  the  present  case  study,  concept  map  on  energy  production  can  be  linked  with  the  four  major  concepts  to  develop  a  unique  domain  ontology  on  energy  production  and  similarly for waste transmutation. Domain ontologies  are very flexible and can be developed in the form  of  several  reusable  modules. 
+The INIS thesaurus, which is the most comprehensive  vocabulary  control  tool  in  nuclear  science  and  technology,  is  very  broad  in  scope  to  represent  an  interdisciplinary narrow domain like ADS. Developing  a domain ontology becomes necessary for harnessing  latest information on the subject. Domain visualisation  which  is  one  of  the  first  steps  in  developing  a  domain  ontology,  becomes  easier  through  detailed  concept  maps.  New  linkages  between  concepts  can  be  developed  and  previous  associations  can  be  removed  on  the  basis  of  literary  warrant  and  institutional requirements. Representation of associative  term  relationships  is  crucial  for  interdisciplinary  domains.  These  relationships  have  the  potential  of  substantially  enhancing  the  search  and  retrieval  processes  and  are  thus  the  backbone  of  a  domain  ontology.  
+rEFErENCES  
+1. Deokattey,  Sangeeta;  Neelameghan, A.  &  Vijai  
+Kumar.  A  method  for  developing  a  domain  
+ontology:  A  case  study  for  a  multidisciplinary  
+subject. Knowl.  Org. ,  2010, 37(3),  173-84. 2. Neelameghan, A. & Raghavan, K.S. Semantics  
+of  relationships  in  knowledge  organisation:  
+Lateral  relationships.  SRELS  J.  Inf.  Manag.,  
+2005, 42(4),  361-82. 
+3. Deokattey, Sangeeta; Dixit, D.K. & Bhanumurthy,  
+K.  Co-word  and  facet  analysis  as  tools  for  
+conceptualisation in ontologies: A preliminary study  
+of a microdomain. In  Categories, Contexts and  
+Relations in Knowledge Organisation. proceedings  
+of the 12th  International ISKO Conference, edited  
+by  A.  Neelameghan  &  K.S.  Raghavan.  Ergon  
+Verlag  gmbH,  Wurzburg,  2012,  pp.  153-58.  4. Skupin, A. Discrete and continuous conceptualizations  
+of  science:  Implications  for  knowledge  domain  
+Visualisation. J. Informetrics, 2009,  3(3), 233-45. 5. Zubrinic,  K.;  Kalpic,  D.  &  Milicevic,  M.  The  
+automatic creation of concept maps from documents  
+written  using  morphologically  rich  languages.  
+Expert  Sys. Appli.,  2012,  39(16),  12709-718. 6. Dang,  y.;  et al.  Knowledge mapping for rapidly  
+evolving  domains: A  design  science  approach.  
+Decision  Support  Sys.,  2011,  50(2),  415-27.  
+299 
+
+========5========
+

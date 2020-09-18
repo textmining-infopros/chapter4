@@ -1,0 +1,251 @@
+DESIDOC Journal of Library & Information Technology, Vol. 36, No. 1, January 2016, pp. 47-55  DOI: 10.14429/djlit.36.1.9271 
+  2016, DESIDOC 
+Online Legal Information System (OLIS) Leveraging Access to Legal  
+Information Resources in Indian Environment 
+Raj Kumar Bhardwaj* and M. Madhusudan**  *Nalanda University, Rajgir, Nalanda, Bihar-803 116 
+E-mail: raajchd@gmail.com 
+ **Department of Library and Information Science, University of Delhi, Delhi-110 007  
+E-mail: madhumargam@gmail.com 
+AbStRAct 
+The study illustrates the functionality of Online Legal Information System (OLIS) developed to suit  the Indian environment. The OLIS perpetrates numerous types of legal information resources in a single  window search so that lawyers, research scholars, students and the common masses can get the information  expeditiously. The OLIS is accessible online at (http://www.olisindia.in). It has provision of citation search  facility, fltering of retrieved records and, online account to keep the selected record. It is also compliant  with Web 2.0 tools and empowers users to contribute their own contents in the system. The architecture  of the system is in fve layers. Data layer handles metadata associated with the contents while storage  layer manages full text contents. Network layer perpetually connects the users and source institutions to  build the system. Presentation layer facilitates display of the retrieved results in clusters. Business layer  consolidates the operation of the system. A number of operations such as, latest news, online help FAQ,  query submission, online discussion form for help and video tutorials have been created under this layer.   
+Keywords: Legal information system, lawyers, courts, system design, testing, India                 
+1.  IntROductIOn  
+Legal  information  resources  in  India  can  be  categorised  into  primary,  secondary  and  tertiary  sources.  Primary  sources  of  information  are  being  generated  by  Courts,  Parliament,  and  State  Assemblies  in  the  form  of  judgments,  acts,  bills  and  rules.  Secondary  and  tertiary  sources  such  as,  commentaries,  digests,  directories,  directory  of  directories,  etc.,  are  published  mainly  by  the  Government  press  and  corporate  publishers.  The  Government  of  India  has  also  initiated  several  projects  such  as,  India  Code  Information  System  (INCODIS), Judgment Information System (JUDIS),  Supreme Court Judges Library (SUPLIS), etc., in this  context to organise the legal information produced by  courts and allied organisations. However, systematic  access  to  legal  information  could  not  be  achieved.  These projects sponsored by the Government do not  have a comprehensive search facility. Unless users  know  exactly  which  contents  they  want  to  locate,  it  is  very  cumbersome  to  retrieve  records.  A  free  text  search  facility  is  totally  ineffective.  Thus,  it  is  not  possible  to  do  legal  research  with  the  help  of  existing  open  access  legal  information  resources  which  are  incomplete  and  not  at  all  user-friendly.  
+Indian  courts  are  prodigious  compared  to  other  countries.  Moreover,  each  court’s  database  has  to  be searched separately for a comprehensive search  of Indian law1. Besides this, state acts are difficult to  locate. No complete search is available comprising  state and central acts in India. Objects and reasons  mentioned  in  bills  are  not  easily  available  to  the  public.  Moreover,  none  of  the  open  access  legal  information  systems  has  developed  a  service  to  search all types of contents in a single shot. A web  based online legal information system is developed  to  plug  the  above  lacunae.  It  is  expected  that  the  online  legal  information  system  (OLIS),  accessible  online (http://www.olisindia.in), will bridge the gap and  highlight  the  nuances  of  online  legal  information.  
+2.  LItERAtuRE   R EvIEw 
+Various  studies  have  been  conducted  on  the  design  and  development  of  information  systems.  Cheng2   postulates  that  to  symbolise  various  laws  and precedent, an apt fundamental logic system is  required to develop information system. Another study  by Shrivastava, Srivastava, Khare & Pai3  found that  legal  research,  in  general,  involves  tasks  such  as,  (i)  locating  primary  sources  of  law,  (ii)  searching  
+Received 03 September 2015, revised 20 November 2015, online published 22 January 2016 
+
+========1========
+
+BHARDWAJ & MADHUSUDAN: ONLINE LEGAL INFORMATION SYSTEM LEVERAGING ACCESS TO LEGAL INFORMATION  
+secondary  authority,  and  (iii)  identifying  non-legal  sources to investigate or support information. Major  legal databases in India were evaluated in the study,  and  it  was  found  that  there  was  no  uniformity  in  contents and converge, and in the format of search  results.  
+Thanuskodi4   in  another  study  conducted  at  Salem  and  Erode  in  Tamilnadu  found  that  using  lawyers face hurdles in finding the information using  digital libraries and majority of respondents are not  aware  of  e-resources.  Kadli  &  Hanchinal5   studied  
+based  information  systems  are  being  developed  in  an  unplanned  way12.  
+The architecture of the system is in five layers.  The data layer handles the metadata associated with  the  contents  while  storage  layer  mainly  does  full  text contents management. Network layer perpetually  connects  the  users  and  sources  institutions  to  build  the  system.  Presentation  layer  facilitates  the  users  to  display  the  retrieved  results  in  clusters  (Figure  1). 
+the information seeking behaviours of law students  
+in two colleges of Mumbai. The study recommended  that  training  programme  should  be  organised  on  frequent  basis  for  law  students.  Rai6   in  her  study  stated that in developed countries several initiatives  
+have been taken related to institutional repositories  
+to  support  the  legal  scholarship.  However,  in  India  no  institution  has  started  open  access  publishing  through  building  a  repository.  
+Henver7  illustrates the three cycle view of science  research, i.e., relevance cycle, rigor cycle and central  design cycle. Relevance cycle inputs the conceptual  environment input, while rigor cycle provides grounding  theories and methods. Central design cycle assists  in the construction and evaluation of design artifacts  and  processes.  In  another  study  Henver8   opined  that behavioral science and design science are two  major characteristics of information systems.  Zhu9 conducted a seminal study on LexisNexis and found  that legal information is entirely different from other  types  of  resources.  
+Chou10   studies  the  role  of  trusts,  and  the  risks  
+figure  1.  data  flow  diagram  of  user  creation  and  
+  managing. 
+(a) data management/submission  layer 
+A  division  of  authorities’  enables  personnel  to  
+in  information-oriented  online  legal  services  using  enter  metadata  in  a  variety  of  modules  in  OLIS.  
+an  integrated  model.  Bhardwaj  &  Madhusudan11 and  found  that  (97.77  %)  respondents  are  aware  of  open  access  resources,  however  only  (71  %)  frequently  use  the  resources  and  (15.55  %)  rarely  use  these  resources.  The  main  purpose  of  using  these  resources  have  been  case  law  searching  (nearly 39 %), followed by project and assignments  (26.66 %) and study and update (24.44 %). Majority of  respondents 40 (21.73 %) revealed that arrangement  of legal information is the main hindrance they face  while  using  these  resources.  
+3.   ARchItEctuRE Of  thE   On LInE   L EgAL 
+InfORmAtIOn  SyStEmS   (OLIS) 
+Web  based  information  systems  deliver  varied  contents  to  a  large  number  of  heterogeneous  user  groups.  The  integration  between  the  interface  and  the  back-end  becomes  more  complex.  In  recent  days,  because  of  web  based  information  systems,  the  expectations  of  users  have  increased  many  folds. Therefore, design and development of online  legal information system has become more complex  and  cumbersome.  It  is  seen  that  a  majority  of  web  
+The ultimate authority remains with the administrator  to manage the functioning of operators. In order to  enter  the  module,  operator  has  to  enter  a  user  ID  and  password.  In  each  module  some  of  the  fields  are  mandatory  and  some  are  optional  (Fig.  1).  In  addition, any number of operators can enter metadata  in OLIS. The division of authority among operators  has  to  be  decided  prior  to  starting  metadata  entry.  Therefore, it is recommended to assign the entry of  each module to individual operator. Besides, this while  entering data, operator has to choose the category  of  information,  i.e.,  judicial  or  legislative.  
+The  administrative  module  (Fig.  2)  entry  is  permissible through the admin when user name and  password are entered. In order to submit documents  user  must  login  through  the  contribute  link  on  the  header.  Once  the  entries  are  authenticated  and  validated, a new page will be opened to perform the  data entry process. Each court and allied institutes  can upload contents in OLIS. Respective institute has  to choose the type of institute, type of information,  type  of  format,  i.e.,  text,  video  or  audio,  prior  to  beginning  the  metadata  entry.  Nineteen  types  of  
+48 
+
+========2========
+
+DJLIT,  VOL.  36,  NO.  1,  JANUARY   2016 
+records  can  be  submitted  in  OLIS.  The  contents  contributed by users are added only after approval  of  the  administrator. 
+In addition, administrator supervises all activities  of  OLIS  including  the  selection  of  open  access  resources, adding these resources in OLIS, updating  the  website,  news  update,  online  help  services,  etc.  Moreover,  policy  regarding  inclusion  of  online  resources, and conducting training and help services  to  use  OLIS,  has  to  be  handled  by  the  manager.  A  team  each  at  each  High  Court,  District  Court,  Supreme  Court,  Tribunals  and  Ministries  shall  be  solely  responsible  to  perform  this  task.  
+Figure 2 shows the provision of various modules  in  OLIS.  The  sources  of  information  are  indicated  such as judicial information origin i.e., Courts, Events,  Report  and  world  wide  web  (www).  The  source  of  legislative  information  is  Parliament  and  State  Assemblies for bills and acts. Gazette and Ministry’s  websites are sources of circulars, notifications and  various  treaties.  Besides  this,  circulars  issued  and  published  in  newspapers  are  indicated  as  well.  In  the  end  of  each  module  a  note  can  be  added  to  understand  the  gist.  The  contents  can  be  edited  in  the  admin  module.  Some  of  the  fields  can  be  selected  in  each  resource  through  combo  box.     
+figure  2. Architecture  of  the  administrative  module  in  
+OLIS. 
+(b)  Presentation  Layer 
+This  layer  is  responsible  for  the  interface  of  OLIS. Presentation layer aids the users to navigate  and  use  various  modules,  helping  them  to  access  the  relevant  contents  using  search  windows.  The  header  contains  the  links  of  OLIS  search,  judicial  
+49 
+search  and  legislative  search.  In  order  to  start  a  search,  user  may  click  on  OLIS  search.  Judicial  search  facilitates  choosing  the  relevant  database.  Similarly, in case user needs legislative information,  search  may  be  begun  either  by  OLIS  search  or  legislative  search  (Fig.  3).  
+(c)  business  Layer  
+This layer is mainly responsible for the functionality  of OLIS. It consolidates the operation of the system.  A number of operations such as, latest news, online  help FAQ, query submission, online discussion form  for  help  and  video  tutorials  come  under  this  layer.  To ensure best use of OLIS resources and to utilise  its  services,  user  can  login  into  OLIS.  Numbers  of  discussion  forms,  useful  websites,  equal  citation  tables,  online  journals,etc.,  are  listed  to  provide  best  legal  information  to  legal  community.  (d)  Storage  Layer 
+ OLIS uses the Relational Database Management  System (RDBMS), with My SQL to store the metadata.  For each record, different worksheets are provided and  stored in separate tables. A number of tables have  been created in My SQL to store the data, such as  ss_cases, ss_loksabhadebate, ss_rajyasabhadebate,  ss_article etc. In addition, a separate table is created  for  common  fields  in  each  database. 
+(e) network  Layer 
+It  moves  the  information  in  the  form  of  bit  and  bytes over the network medium. The functionality of  network layer in OLIS shall remain hidden to the user.  However,  the  working  of  this  layer  is  very  crucial  for OLIS to deliver best results. This layer does not  confine  to  information  transfer  over  network,  but  a  number  of  Web  2.0  tools  applications  come  under  its preview. The Web 2.0 tools (such as, Facebook,  Twitter, Discus etc.) facilitate the users to share their  views with other users. Figure 4 shows the icon of  Web  2.0  tools  below  the  metadata  of  content.  The  system  has  a  provision  to  submit  the  contents  by  21  High  Courts,  10  tribunals,  district  courts  and  Supreme  Court  of  India.  In  addition,  institutions  dealing with legislative information can also submit  contents  using  the  legislative  module.  Therefore,  it  facilitates  the  network  of  all  the  institutions  to  submit  the  contents  in  OLIS. Administrator  module  available  at  http://olisindia.in/manager/  allows  the  personnel of each institution to accomplish the task  to  develop  a  networked  online  legal  information  system.  Furthermore,  users  can  also  contribute  the  articles,  forms,  speech,  audio-video  contents  in  the  system.  
+4.   fEAtuRES Of  OnLInE   L EgAL 
+InfORmAtIOn  SyStEm 
+In  legal  text,  a  Natural  Language  Query  is  
+
+========3========
+
+BHARDWAJ & MADHUSUDAN: ONLINE LEGAL INFORMATION SYSTEM LEVERAGING ACCESS TO LEGAL INFORMATION  
+figure 3. Snapshot of OLIS search form. 
+figure 4. Integration of web 2.0 tools in case law database. 
+one  that  is  expressed  using  normal  conversational  syntax. The benefit of using natural language queries  is  that  it  takes  less  time  than  traditional  Boolean  queries.  The  search  operators  can  be  helpful  in  finding word variants or misspellings in the database.  The  system  has  sample  collection  of  550  full  text  contents  including  the  case  laws  (222),  articles  (13),  legal  forms  (5),  speeches  (11),  audio-video  contents  (12),  commentaries  (5),  acts  (73),  bills  (33), Lok Sabha debates (32), Rajya Sabha debates  (25),  circulars  (21),  treaties  (10),  trade  notices  (10),  press  release  (23),  notifications  (17),  rules  and  regulations  (38).  
+4.1  OLIS  Search:  basic,  Advanced  and  
+Additional 
+OLIS search is categorised into three sections,(i)  OLIS search, (ii) Judicial search, and (iii) Legislative  search.  The  search  is  further  divided  into  three  types,  (i)  Basic  search,  (ii)  Advanced  search,  and  (iii) Additional search. OLIS search is an integrated  search  service  of  all  the  19  databases  namely,  (a)  
+case law, (b) citation search, (c) evidence information  system,  (d)  legal  articles,  (e)  forms,  (f)  speech,  (g)  audio-video,  (h)  commentaries,  (i)  acts,  (j)  Parliamentary bills, (k) Lok Sabha debate, (l) Rajya  Sabha  debate,  (m)  circulars,  (n)  treaties,  (o)  trade  notices, (p) press releases, (q) notifications, (r) rules  and  regulations,  and  (s)  law  related  websites. 
+In  OLIS  search  service,  contents  can  be  retrieved  out  of  all  the  databases  using  a  single  search.  Besides  this,  separate  search  for  judicial  and  legislative  information  can  also  be  performed.  Judicial  information  contains  nine  databases  and  legislative search covers ten databases. In addition,  OLIS  search  results  sorting  can  be  performed  for  a  number  of  parameters  selecting  individual  databases.  
+Sorting  can  be  in  alphabetical  order  of  results  i.e.,  A  to  Z  or  Z  to  A.  Similarly,  order  of  contents  from  latest  to  oldest  and  vice  versa  can  be  opted  in retrieval of results. In basic search, data can be  retrieved using keywords. In case law, user of basic  search can confine the search to (i) Trial Court, (ii)  
+50 
+
+========4========
+
+DJLIT,  VOL.  36,  NO.  1,  JANUARY   2016 
+High Court, (iii) Supreme Court, and (iv) Tribunals.  Keyword  search  is  the  main  focus  in  such  type  of  search.  Figure  2  shows  the  basic  search  form  of  OLIS.  Sometimes,  the  terms  generated  by  the  user may not appear in an OLIS index. In advance  search,  combination  of  parameters  can  be  used  to  retrieve  contents.  Use  of  Boolean  operators  (and,  or,  not),  and  range  operator  can  be  used  to  cull  the  results.  Using  a  combination  of  two  keywords,  improved  results  can  be  achieved.  Some  of  the  fields  which  are  not  covered  in  basic  and  advance  search  are  included  in  additional  search.  
+4.2  Access  to  Judicial  and  Legislative  
+Information  
+Judicial information empowers the user to search  the judicial contents. Such type of information is used  in  the  daily  routine  work  of  the  judiciary.  Research  by  lawyers,  judges  and  academic  community  is  largely  dependent  on  such  information.  However,  it  is  advised  to  prioritise  terms  at  the  time  of  search13.  
+4.3 case  Law  Search 
+Judgments of all courts can be searched with a  single click. All the 21 High Courts are mentioned in  the drop down menu while Tribunals’ dropdown list  covers seven tribunals in India. Users can limit the  results  to  party  name,  judge  name,  advocate  and  case  note.  The  retrieved  results  can  be  filtered  by  the following fields: judge, subject, bench strength,  court  type,  case  type  and  advocate.  The  results  retrieved  can  be  downloaded  and  printed.  Besides  this,  records  can  be  sent  through  e-mail.  A  check  box is provided on each record to send the individual  record  or  list  of  records. The  case  note  mentioned  under each case law can be printed for one record  or  many  in  a  list.  Case  law  advance  search  has  provision to use combination search. Using Boolean  operators ‘and’, ‘or’, ‘not’, records can be retrieved  out  of  the  database. The  fields  which  can  be  used  with Boolean operators are: (i) name of parties, (ii)  name of judge, (iii) name of advocate, and (iv) case  note.  In  addition,  there  is  provision  for  fields  such  as,(i)  applicant,  (ii)  respondent,  (iii)  case  no,  (iv)  judge  name,  and  (v)  subject.  Besides  this,  the  act  referred  in  the  judgment  can  also  be  used  in  the  advance  search  to  identify  the  relevant  records.  The  section  referred  in  case  can  also  be  included  to  search  the  case  law.  The  bench  strength,  i.e.,  single bench, double bench, full bench constitutional  bench  or  bench  with  chief  justice,  can  also  be  used  in  advance  search.  These  are  displayed  in  the  advance  search  window.  
+4.4 citations  Search 
+Lawyers often use citation to identify the relevant  case  law.  Citations  are  mentioned  in  judgments  by  
+51 
+judges  as  well.  Work  of  research  scholars  largely  depends on identifying the relevant citations. However,  identifying the case law based on citation is a tedious  task in legal research. Therefore, OLIS includes the  citation search facility for the benefit of users. In a  single  search,  multiple  citations  can  be  identified.  The  elements  of  search  are:  (i)  Title,  (ii)  Circular  no,  (iii)  Subject,  (iv)  Sub-subject,  (v)  Statute/act,  (vi)  Ministry,  (vii)  Department,  (viii)  State,  and  (ix)  Abstract.  The  filtering  parameters  in  the  circular  database  include,  (i)  Subject,  (ii)  Ministry,  (iii)  Circular state, and (iv) Year. A field specific search  form  is  also  included  in  legislative  search. 
+4.5  Evidence  Information  Search 
+Evidence governs the proof of facts and can have  vital  impact  in  the  decision  of  any  case.  Evidence  law is also concerned with quantity, quality and type  of proof, to influence the decision of litigation. Many  types  of  evidence  exist  such  as,  oral  and  written  statements, documentary material or demonstrative  evidence. In OLIS there is provision to include text,  video evidence file. Information related to evidence  can  be  searched  by  title  of  evidence,  party  name,  witness  name  and  note.    
+4.6  Legal Articles 
+Judges, advocates, teachers and research scholars  are  dependent  on  legal  articles  to  understand  the  progress  in  any  specific  area  of  law.  These  legal  articles  address  the  conflicts  in  law.  Sometime  these legal articles propose solution to the problem.  Besides this, they explore the relationship between  different  disciplines.  However,  the  quality  of  article  depends on several aspects such as, author expertise,  reputation  of  the  journal,  research  and  analysis  component,  etc. These  legal  articles  are  published  in magazines, journals and law reports. A numbers  of online journals have started publications in open  access  mode.  These  journal  articles  are  freely  available.  However,  legal  community  is  not  aware  of  these  legal  articles  published  in  open  access  journals.  Using  the  special  search  form  articles  can be searched based on keyword, journal name,  subject  (drop  down),  volume  and  page  number. 
+4.7 forms 
+A number of forms are used in courts’ proceedings.  Lawyers depend heavily on these forms to perform  daily work. These forms have been assigned particular  numbers.  Therefore,  all  the  forms  in  the  database  can  be  searched  using  title,  form  number,  form  agency,  subject  and  description.  
+4.8  Speech database 
+This database contains speeches of eminent legal  personalities  -judges,  senior  advocates,  teachers  
+
+========5========
+
+BHARDWAJ & MADHUSUDAN: ONLINE LEGAL INFORMATION SYSTEM LEVERAGING ACCESS TO LEGAL INFORMATION  
+and scholars. Speakers sometime refer statute and  particular  section.  Therefore,  all  these  parameters  have been kept in mind in developing this database.  Each record in the database contains abstract, event  where  speech  held,  date  of  speech  and  statutes  referred in the speech.  Besides this, date on which  speech  was  delivered  is  also  mentioned.  
+4.9  Audio/video  contents        
+In view of the importance of multimedia contents,  OLIS has provision to include audio/video contents.  These audio/video contents could be a group discussion  or  a  debate  on  a  specific  topic.  Besides,  this  interviews  of  legal  experts  may  also  be  included  in  this  module  since  such  types  of  contents  are  helpful  for  researchers.  Search  elements  include,  (i)  title,  (ii)  event  place,  (iii)  speaker,  (iv)  subject,  (v)  sub-subject,  (vi)  sponsor,  (vii)  statute  referred,  (viii)  section,  and  (ix)  description. 
+4.10  commentaries 
+Commentaries have been included in OLIS. The  following  search  parameters  are  given  to  explore  the  contents:(i)  title,  (ii)  author,  (iii)  subject,  (iv) sub-subject, and (v) contents. In addition, keyword  
+4.14 notifications 
+The Acts passed by Parliament after President’s  assent must be notified in Gazette of India. Therefore,  notifications have utmost importance for lawyers to  defend  cases  in  court.  Notifications  are  published  in  the  Gazette  which  is  unorganised  and  it  is  a  tedious  task  to  locate  the  relevant  one.  Identifying  the  appropriate  search  field  was  a  difficult  task.  Discussions with experts in the field helped to identify  the  following  search  fields:  (i)  title  of  notification,  (ii)  date  of  notification,  (iii)  subject,  (iv)acts,  (v)  Ministry  and  its  department,  (vi)  Central  act  or  state  act.  Besides  this,  each  record  has  provision  of  note  and  description.  
+4.15 Acts  (State  and central) 
+A  law  passed  by  the  Parliament  comes  into  force  after  President’s  assent.  These  laws  are  chronologically published by the Government. Since  these acts are not arranged subject wise, researcher  face  hurdles  in  accessing  them  when  required.  OLIS  has  included  central  and  state  acts.  These  acts can be searched using the following fields: (i)  title  of  act,  (ii)  act  number,  (iii)  amendment  under  
+search,  date  wise  search  are  also  included  in  the  
+the  act,  (iv)    law,  (v)  industry,  (vi)  state  (centre  or  
+state),  and  (viii)  note  of  the  act.  
+database. 
+4.11  treaties  Search 
+Treaties that help to resolve international disputes  are  also  included  in  OLIS.  Indian  treaties  with  other  countries  such  as,  bilateral,  multilateral,  are  included in OLIS.  The search fields include: keyword  search, title of treaty, country, date of treaty, subject,  sub-subject,  statute/act  referred  in  treaty,  ministry,  department,  state,  note  and  description,  etc.  
+4.12 trade notice  Search 
+Trade notices are instruction issued by various  Ministries  and  Departments.  Such  information  is  useful for traders as well as for general public. The  search  fields  in  the  database  include:  (i)  keyword,  (ii) trade notice no, (iii) file no, (iv) date, (v) subject,  (vi) statute/act, (vii) laws, (viii) industry, (ix) ministry,  (ix)  department,  (x)  state,  and    note.  
+4.13  Press  Release  Search 
+Press  releases  by  Ministries  and  Departments  are  also  incorporated  in  OLIS.  This  database  can  be searched using the following fields: (i) keyword,  (ii) news title, (iii) date of press release, (iv)subject,  (v) laws, (vi) state, (vii) description. Similar to other  databases,  Boolean  operators  can  also  be  used  to  explore  the  database.  It  also  has  provision  to  share  the  results  on  social  networking  sites,  and  start  discussion  with  users  on  a  particular  record  using  Web  2.0  tools.  
+4.16 bills  Information  Search 
+To make any law, a bill is proposed in Parliament.  A bill proposed by Government is called Government  Bill. When a Member of Parliament proposes a bill,  it  is  called  a  Private  Bill.  Bill  could  be  pending  in  Parliament,  passed  by  Parliament  and  withdrawn,  negative, or lapsed. Besides this, bill can be ordinary  bill,  constitutional  amendment  bill,  financial  bill,  money bill etc. Records can be searched using the  following search parameters: (i) date of Presidential  assent,(ii)  date  of  enforcement,  (iii)  bill  no,  (iv)  bill  introduced  in  house,  (v)  bill  type,  (vi)  bill  status,  (vii)  Ministry  in  charge  of  bill,  (viii)  Member  type,  (ix)  act  state,  (x)  bill  date,  and  (xi)  objects  and  reasons. 
+4.17  Lok  Sabha debates 
+Lok Sabha is the lower house of the Parliament of  India. Several suggestions are made during debates  in  Parliament.  These  debates  are  important  for  researchers to enrich their research. OLIS contains  the following parameters to search the contents: (i)  debate title, (ii) member name, (iii) debate type, (iv)  session,  and  (v)  note.  Further,  results  sets  can  be  filtered by, (i) member name, (ii) Lok Sabha debate  type,  and  (iii)  Lok  Sabha  Session. 
+4.18  Rajya  Sabha  debates  
+Debates  in  the  upper  house  of  Parliament,  Rajya  Sabha,  are  equally  vital  for  researchers.  To  
+52 
+
+========6========
+
+DJLIT,  VOL.  36,  NO.  1,  JANUARY   2016 
+search  this  database,  in  basic  search,  seven  field  search elements are specified: (i) title, (ii) member  participated,  (iii)  debate  type,  (iv)  debate  subject,  (v)  debate  title,  and  (vi)  description. 
+4.19  Rules  and  Regulations  
+Social Networking Sites (SNs) have a vital impact on  the  culturally  rich  India  and  that  Web  2.0  tools  are  being  used  to  raise  voices  against  corruption.  
+5.1 facebook, twitter, google+  and  LinkedIn 
+OLIS has integrated these social networking tools  
+Rules and regulation framed under the law are  
+in each module. Social networking tools applications  guiding  lights  for  lawyers  to  defend  their  cases.  
+help to share contents on Facebook, Twitter, Google+  OLIS has provision to search the contents with the  
+and LinkedIn. All content pages in OLIS display icon  following  fields:  (i)  title  of  rules,  (ii)  rule  number, of  these  tools.  All  content  in  OLIS  can  be  shared  (iii) date, (iv) subject, (v) sub-subject, (vi) industry, on  social  networking  sites  using  this  utility.  These  
+(vii)  state,  and  (viii)  note/description. 
+4.20  circular  Search 
+Ministries  and  Department  also  issue  circulars  from time to time. These circulars are a useful source  of  information,  not  only  in  court’s  proceedings  but  also  in  research  work.  Common  man  also  needs  these  circulars.  The  elements  of  circulars  search  are:  (i)  title,  (ii)  circular  no,  (iii)  subject,  (iv)  sub- subject, (v) statute/act, (vi) ministry, (vii) department,  (viii)  state,  and  (ix)  abstract.  
+4.21  Provision  of  useful  websites  in  OLIS  
+The  database  includes  websites  which  give  access to judicial contents and legislative contents.  This database can be explored using keyword, title  of  website,  creator  of  website,  Uniform  Resource  Locator  (URL)  and  subject  of  website.  
+4.22  contribution  of  contents  by  users  
+OLIS  has  the  special  feature  to  allow  users  to  create  contents.  Users  can  submit  five  types  of  contents  in  the  form  of  legal  articles,  legal  forms,  speech,  audio-video  contents  and  websites.  Judges,  advocates,  research  scholars  often  write  articles based on their judicial philosophy and offer  their  opinions.  Their  write-ups  may  help  others  to  understand  complex  legal  issues.  Similarly,  other  types  of  contents  may  have  tremendous  impact  to  build relationships in different legal issues. In order  to  submit  contents  user  needs  to  sign-in  to  OLIS.  Subsequently,  user  can  choose  the  appropriate  form  which  has  a  number  of  fields.  Some  of  the  fields  are  mandatory  to  be  filled  in.  However,  the  administrator of OLIS can edit the metadata prior to  amalgamating  the  contents  in  the  OLIS  database. 
+5.  wEb  2.0  tOOLS In  OLIS 
+Web  2.0  tools  provide  a  virtual  platform  to  share  ideas,  thoughts,  spirit  and  to  review  various  resources.  In  addition,  Web  2.0  tools  also  help  users to locate and share information among other  users14.  A  study  conducted  by  Tyagi15   found  that  a  large  number  of  respondents  have  knowledge  of  social  networking  tools  and  are  inclined  to  use  them.  Another  study  by  Mahajan16   explained  that  
+53 
+tools  have  completely  changed  the  functioning  of  OLIS.  The  respondents  in  the  needs  assessment  survey  were  asked  which  SNS  tools  they  prefer  most.  In  view  of  responses  in  survey  and  keeping  in mind the popularity of Facebook, Twitter, LinkdIn,  and Google+, it was decided to include these tools  in  OLIS.  
+5.2 dISQuS 
+This tool enables users to start discussions with  other  users.  The  discussion  panel  is  embedded  in  each page. Each record has the facility of interaction  of  this  tool.  Using  this  tool,  discussions  can  be  shared  on  Facebook  and  Twitter.  Comments  can  be  sorted  by  the  following:  (i)  best,  (ii)  newest,  and  (iii)  oldest  comments.  
+5.3 blog 
+A blog titled OLIS India is also built up to share  information widely. The blog has a variety of features  and its contents are arranged in chronological order.  It  also  maintains  archives  of  all  posts.  Posts  may  be categorised. RSS (Rich Site Summary) helps to  track  new  posts  on  a  regular  basis.    
+5.4  Online discussion forums 
+Discussion forums have advantages in teaching,  learning  and  research.  At  the  same  time,  it  is  a  platform to discuss new ideas with others. It has a  number of benefits. On the discussion forum students  can clarify all their doubts. In a class, among others,  some  students  may  not  feel  confident  or  may  be  unmotivated  to  speak.  However,  through  online  discussion forum, students can send their messages  to  everybody  on  the  forum.  Lawyers  sometime  also  find  it  difficult  to  identify  the  appropriate  rule  applicable  to  the  client’s  problem.  
+6.  OnLInE hELP fEAtuRES 
+Numbers  of  online  help  features  are  added  in  OLIS  for  optimum  use  of  resources.  Following  are  the  help  features  embedded  in  the  system:  
+6.1  Online chat 
+It  is  a  medium  through  which  users  can  chat  online  anytime,  anywhere.  The  online  chat  section  
+
+========7========
+
+BHARDWAJ & MADHUSUDAN: ONLINE LEGAL INFORMATION SYSTEM LEVERAGING ACCESS TO LEGAL INFORMATION  
+helps users in technical matters as well as in learning  the  nuances  of  OLIS.   A  chat  box  is  embedded  in  the HTML page so that any user can visit and start  chat  with  technical  staff  for  help.  
+6.2 tutorials 
+Keeping  of  respondents’  preference  and  its  popularity,  this  method  is  adopted  in  OLIS  for  online  help.  Four  Tutorials  are  developed  to  clear  doubts  and  resolve  the  queries  of  users,  available  online  at  <http://www.olisindia.in/tutorial.php>.  The  three types of search, OLIS search, judicial search  and  legislative  search,  are  elaborated  in  the  video  tutorials.  
+7. mEtAdAtA   Enc OdIng  StAndARd 
+Courts,  Parliament,  State  Assembly  and  other  institutes yield huge amount of legal and legislative  information and management of information is a herculean  task. Dublin Core (DC) metadata standard is the most  popular schema to manage electronic resources. The  standard  facilitates  high  level  searching  of  textual  documents.  The  metadata  schema  has  simplicity  in  metadata  creation  and  maintenance.  It  helps  in  interoperability, multilingual description. Undoubtedly,  the  simplicity  of  DC  eases  the  interoperability  among repositories.  In all modules, metadata entry  worksheets  have  been  made  to  accommodate  the  Dublin  metadata  schema17.      
+8. dIScuSSIOn 
+A numbers of frequently asked questions (FAQ) are  prepared so that users can benefit. The dichotomous  questions  cover  conceptual  and  technical  queries.  These questions are prepared on anticipation. OLIS  user  can  create  an  account.  The  registration  form  has some fields such as,(i) Name, (ii) User ID, (iii) Password, (iv) E-mail ID, (v) Address etc. Once the  user  submits  the  registration  form,  login-in  system  is  possible.  Once  the  user  logs  into  the  system,  it  is  possible  to  save  the  searches  in  the  account.  User  can  search  the  system  and  save  the  list  with  any  title.  Any  number  of  searches  can  be  saved  in  OLIS.  
+OLIS  has  provision  to  indicate  ruled  out  and  dissent  judgments.  The  ruled  out  judgments  will  be  seen  in  red  colour  and  dissent  judgments  title  will appear in orange. It will help lawyers, research  scholars  to  cite  the  appropriate  case  law.  This  indication  has  to  be  given  in  case  law  metadata  entry  module  manually  by  the  operator.  The  text  refereeing  act,  rules,  section  etc.  are  hyperlinked  in  OLIS.  The  embedded  hyperlink  navigates  the  user  to  the  full  text  document.  Therefore,  user  is  able  to  find  pertinent  rules,  act  etc.  along  with  the  retrieved  record.  A  number  of  useful  websites  such as, law dictionaries, encyclopedia, year book,  
+statistical sources, educational resources, theses and  dissertation,  patents  and  standards,  indexing  and  abstracting sources, geographical information sources,  e-books, subject gateways, current information, are  linked  to  OLIS.  In  addition,  open  access  electronic  journals such Directory of Open Access Resources  (DOAJ),  Electronic  journals  library,  etc.  are  hyper  linked  so  that  user  can  benefit  using  these  public  domain  resources. 
+OLIS  was  tested  to  verify  that  all  modules  function  according  to  expectations  defined  by  the  respondents in the needs assessment survey. Each  module in OLIS functions as per the specifications.  The search results were recorded to observe precision  as  well  as  recall  ratio  of  results.  Black  box  testing  methods  have  been  used  in  the  testing  without  bothering  the  internal  coding  of  OLIS.  Moreover,  designing  a  system  according  to  the  needs  of  the  legal  community  was  a  major  hurdle  in  the  study.  Besides this, maintaining standards and sustainability  was another major task. The testing process of OLIS  included,  (i)  planning  for  testing,  (ii)  defining  for  testing  objectives,  (iii)  appropriate  test  design,  (iv)  testing preparation, (v) debugging, (vi) executing, and  (vii) evaluating18. The major purpose of the test plan  was to overcome limitations and accomplish testing  in an organised way19. A combination of techniques  was  applied  in  the  process  of  OLIS  testing.  
+9. cOncLuSIOnS 
+Undoubtedly,  OLIS  is  useful  for  law  students,  research  scholars,  teachers,  lawyers,  judges,  legislators, civil servants, government officials, library  professionals  and  the  general  public.  It  certainly  benefits  instructors  to  teach  the  subjects.  OLIS  provides case laws of Supreme Court, High Courts,  District Courts and Tribunals. In addition, acts (State  and  Central),  ordinances,  rules,  bills,  notifications,  circulars,  Parliamentary  debates  (Lok  Sabha  and  Rajya  Sabha),  commentaries,  speeches,  video/ audio contents, research articles, legal news, trade  notices,  press  releases,  evidences,  citations,  legal  forms etc., are made available to students, lawyers,  judges  and  research  scholars.  OLIS  contents  will  tremendously  help  in  study,  research  and  practice.   In  addition,  the  legal  fraternity  would  be  able  to  contribute their research papers, speech, legal form  and  audio/video  contents. This  will  help  and  foster  interdisciplinary  research  and  learning.  OLIS  can  be  used  as  a  tool  for  learning  the  basic  concepts  as  well  as  to  deliberate  on  the  emerging  areas  in  the  field  of  law.  
+REfEREncES 
+1. Greenleaf, G.; Chung, P.; Mowbray, A. & Singh,  
+R. Challenges for free access to law in a multi- 
+jurisdictional  developing  country:  Building  the  
+54 
+
+========8========
+
+DJLIT,  VOL.  36,  NO.  1,  JANUARY   2016 
+2. 
+3. 
+4. 
+5. 
+legal information institute of India. SCRIPT-ed ,  2011, 8(3),  292-316. 
+Cheng,  J.  Deontic  relevant  logic  as  the  logical  basis  for  representing  and  reasoning  about  legal  knowledge  in  legal  information  systems.  Knowledge-based  intelligent  information  and  engineering systems. Springer Berlin Heidelberg,  2008,  pp.  517-25. 
+Shrivastava,  R.K.;  Srivastava,  M.;  Khare,  B.B.  &  Pai,  G.  Computer  assisted  legal  research  with special reference to Indian legal contents:  Retrospect  and  prospect.  edited  by  R.  Singh;  S.D.  Rao,  P.  Rai,  &  A.  Singh,  National  Law  University,  New  Delhi,  2012,  pp.  49-65. 
+Thanuskodi,  S.  Information  needs  and  use  pattern  of  district  court  lawyers  of  Salem  and  Erode in Tamilnadu. DESIDOC J. of Lib. & Inf. Tech.,   2010,  30(2),  59-69. 
+Kadli, J.H. & Hanchinal, V.B. Information seeking  
+Strategies, Ed.5, Wolters Kluwer Law & Business,  
+New  York,  2012.    
+14. Farkas, M. G. Social software in libraries: Building  
+collaboration,  communication,  and  community  
+online. Information  Today,  New  Jersey,  2007. 15. Tyagi, S. Use of Web 2.0 technology by library  
+professionals:  Study  of  selected  engineering  
+colleges  in  Western  Uttar  Pradesh. DESIDOC  
+J.  of  Lib.  &  Inf.  Tech.,2012, 32(5),  439-45. 16. Mahajan,  P.  Use  of  social  networking  in  a  
+linguistically and culturally rich India. The Inter.  
+Inf.  &  Lib.  Rev., 2009, 41(3),  129-36.  
+17. Hunter,  J.  &  Lannella,  R.  The  application  of  
+metadata  standards  to  video  indexing,  1998.  
+http://www.itee.uq.edu.au/∼eresearch/ papers/1998/ 
+ECDL2.pdf  (accessed  on  30  June,  2015) 18. Marks, D.M. Testing very big systems. McGraw- 
+Hill,  New  York,1992. 
+environment. DESIDOC  J.  of  Lib.  &  Inf.Tech., 
+2015, 35(1),  61-68. 
+6. Rai,  P.  Electronic  repositories  for  preservation  
+of  legal  scholarships.  DESIDOC  J.  of  Lib.  &  
+Inf.  Tech.,   2014,  34(6),  472-76. 
+7. Hevner, A.R. Three cycle view of design science  
+research. Scandinavian  J.  of  Info.  Sys.,  2007,  
+19(2),  87-92. 
+8. Henver, A.R.H.; March, S.T.; Park, J. & Ram, S.  
+Design science in information systems research.  
+MIS  Quarterly,  2004,  28(1),  75-105. 
+9. Zhu,  X.  The  Access  Right  to  Digital  Legal  
+Information:  A  Historical  Case  Study  of  Lexis.  
+Ph.D  thesis,  University  of  Wisconsin,  2011.    10. Chou, V. A study of the roles of trusts and risks  
+in information-oriented online legal services using  
+an integrated model. Information & Management, 
+2006, 43(4),  502–20. 
+11. Bhardwaj, R. & Madhusudhan, M.  Open access  
+legal  information  and  its  use  by  students  of  
+National  Law  University.  Ann.  of  Lib.  and  Inf.  
+Stud.,  2013, 60(4),  314-19.  
+12. Murugesan,  S.  &  Ginige,  A.  Web  engineering:  
+introduction and perspectives, edited by Daniel  
+M. Brandon. software engineering for modern web  
+applications: Methodologies  and  technologies,   
+Information  Science  Refresher,  Hershey,  PA,  
+2008. 
+13. Sloan,  A.E.  Basic  Legal  Research:   Tools  and  
+behaviour of law students in the changing digital  
+19. Lewis, W.E. Software testing and continuous quality  
+improvement. Ed.3., Boca Raton, Auerbach, 2009.  
+55 
+About  the Authors 
+dr Raj Kumar bhardwaj  is working as Deputy Librarian  in Nalanda University, Rajgir, (India). Prior to his current  assignments  he  has  served  at  St.  Stephen’s  College,  Delhi  and  the  Judges  Library,  High  Court  of  Punjab  and  Haryana (Chandigarh). He holds MCA, MLIS, M.Phil and  PhD. He has contributed many research articles in various  journals.  His  areas  of  specialisations  are:  Institutional  repositories,  legal  Information  system,  scientometrics,  e-resources, information literacy, open access and digital  library  design  and  development.  
+dr m. madhusudhan   is  currently  working  as  Associate  Professor  in  the  Department  of  Library  and  Information  Science, University of Delhi. He has 15 years of teaching  and research experience at the University level. Seventeen  MPhil, 5 PhD and 100+ project reports have been awarded  under his supervision. He has published one book, edited  two  books,  more  than  28  International  research  articles  in  peer-reviewed  journals,  20  Chapters  in  books,  7  national  articles  and  7  international  conference  papers.  He is also editorial member of JLIS, IJLIS  and reviewer  for  five  international  LIS  journals.  His    areas  of  interest  includes: Designing and evaluation of websites, evaluation  of web-OPACs, information communication technology in  libraries,  social  networking  sites,  e-resources,  etc. 
+
+========9========
+

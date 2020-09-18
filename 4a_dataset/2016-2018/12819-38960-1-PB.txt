@@ -1,0 +1,502 @@
+DESIDOC Journal of Library & Information Technology, Vol. 38, No. 4, July 2018, pp. 246-253, DOI : 10.14429/djlit.38.4.12819 
+ 2018, DESIDOC 
+A Step Towards Designing a Model Academic Search Interface 
+Huma Shafq 
+Government Degree College Magam, Budgam- 193401, India 
+E-mail: huma.msgr14@gmail.com 
+AbSTrAcT 
+The study makes an endeavor to assess the search interfaces of leading academic databases, viz Cambridge  Journals, JSTOR, Sage Journals, ScienceDirect, SpringerLink, Taylor & Francis, and Wiley Online Library. The  purpose of the study is to identify various search features and subsequently determine their relative location, with a  view to recommend ideal location of these features based on their utility and users’ ease of mind. Data is harvested  by assessing the search interfaces of seven academic databases subscribed by University of Kashmir. The select  databases are individually assessed to harvest the required information. The study divulges that uniformity is observed  by databases while positioning features like access points, and search box(s). However, no consistent approach is  found while positioning other identifed features. It is imperative to say that the study is frst of its kind where an  emphasis is laid on assessing the positioning of search interface features. The study can prove helpful for academic  database designers while designing user-friendly academic databases. 
+Keywords : Information retrieval; Information retrieval systems; Search interface; Search features; Browsing;      
+Alerting service 
+1. InTroDucTIon 
+Information  Communication  Technology  (ICT)  has  revolutionised the world by producing and disseminating an  endless  amount  of  valuable  and  important  information  for  every activity identifed so far1. To fnd the relevant information  in such a huge mass of information, an effcient and reliable  information  retrieval  (IR)  is  necessary.  IR  is  an  iterative  interactive  process  between  users  and  a  search  system2-5.  It  is  designed  with  a  view  that  right  information  should  be  made  available  to  the  right  user  at  the  right  time. Thus,  the  main objective of an information retrieval system (IRS) is to  collect and organize information in order to provide it to users  whenever they are in need of it6. During the early stages of  IR, there was much role of an information professional than  the users themselves. The professionals used to establish the  information needs of users which were later satisfed using their  expertise. Even though there is still some focus on intermediate  searching, the present day web-based IR systems are designed  in such a way where users can search themselves to fulfll their  information needs7. 
+Users,  while  performing  the  search  process,  come  in  contact with the front end of an information retrieval system.  This front end is called as a search interface. A search interface  is  an  important  aspect  of  information  retrieval  systems.  The term ‘interface’ is used for that part of a system which  comes into direct contact of users while interacting with the  system. Search interface is the medium through which users  interact with an IRS. Every IRS has its own search interface  
+Received : 20 March 2018, Revised : 22 May 2018  Accepted : 25 May 2018, Online published : 25 June 2018 
+246 
+characterised  by  a  number  of  features  which  allow  users  to  interact with the system. It aids to search, browse and explore  valuable information. It also offers features which enable users  to keep track of latest developments and facilitates the optimum  utilisation of services offered by IRS. It is the combination of  various features like display formats, search methods, and help  facility. These features are created in that layer of the system  which lies between the two ends of search process, i.e. user  at one end and the actual searching mechanism at the other.  Search interface is the translating medium for users where it  translates user entries to the system and then again the system  results in such a form which is understandable to the users.  Furthermore, now-a-days there are provisions of customizing  interface features without changing the basic structure of an  information  retrieval  system  (IRS)8.  There  are  a  number  of  search  interface  features  such  as  query  formulation,  query  reformulation,  result  manipulation,  help  mechanism,  and  alerting  services.  Besides  these  features,  two  search  levels,  i.e. Simple search and Advanced search, are used to perform  the  search  processes  through  search  interfaces.  Apart  from  these, a number of search techniques are used while searching  an  information  retrieval  system  in  order  to  retrieve  most  relevant information. These include: keyword search, phrase  search, Boolean search, truncation search, nesting/parentheses,  proximity search, and search limiters. 
+The  present  study  makes  an  effort  to  identify  various  search  interface  features  and  their  relative  positions  on  the  search  interfaces  of  select  online  academic  resources.  This  study  helps  in  understanding  how  information  retrieval  systems are positioning their search features on their respective  
+
+========1========
+
+ShAFIq : A STEp TOWARDS DESIgNINg A MODEL ACADEMIC SEARCh INTERFACE 
+search interfaces and whether these systems show similarity or  dissimilarity  in  positioning  these  features. The  study  further  suggests various recommendations for positioning of different  features on the search interfaces of academic databases. 
+2. LITerATure revIew 
+To accomplish search tasks in online information retrieval  systems (IRS), a number of authors identify various sub-tasks  which  are  realised  in  a  search  interface  (SI)  as  functions:  database  selection;  query  formulation;  query  reformulation;  access  to  help  function;  organisation  and  display  of  results;  and delivery of results9-11. To carry out these tasks, Vilar and  Zumer10 stress the need for various SI functions. Furthermore,  Xie  and  Cool11 add  four  important  structural  elements  that  should support these functions:  
+(a) the  interface  should  be  such  that  users  would  have  no  
+problem while using it;  
+(b) it should have some similarities to the systems that users  
+are used to;  
+(c) it should have a clear search screen; and  
+(d) it should allow users to customise and personalise it as per  
+their needs. 
+It  is  seen  that  users  have  always  been  tempted  by  an  easy access of internet and are not much concerned about the  quality of information they are accessing12. Most of the users  make use of only popular search engines (like Google, as it  has the simplest search interface with a single search box) in  order  to  fnd  relevant  information,  while  a  small  percentage  of users actually explore various available advanced searches.  Users  mostly  prefer  to  limit  their  choices  to  what  is  easily  available to them. It may be because they do not want to take  up the hectic path for gathering any information they might  require. In other words, most of the users sacrifce quality over  convenience 
+13-15.  Moreover,  the  students  fnd  it  diffcult  and  achieve less success using library retrieval systems to complete  their  search  tasks 
+16.  Similarly,  other  studies  are  of  the  same  opinion that even if information revolution and its consequent  growth  has  made  possible  enormous  new  profciencies,  the  effect on search behaviour has not been generally so promising  and assuring 
+17,18. 
+Systems with complex search interfaces need an expertise  of  search  experts  so  that  these  can  be  used  effciently  and  effectively19-21.  Markey opines  that  simplicity  must  be  given  preference while making improvements to the search interfaces22.  There are various studies in which two sets of transaction log  data were used to understand the usability and user-friendliness  of  search  interfaces,  one  before  any  modifcations  in  the  interfaces and the other after the modifcations. Earlier data for  interfaces  without  modifcations  reveal  that  the  users  are  not  fully compatible with the basic search techniques, while the later  show statistically signifcant differences in the results revealing  that  the  modifed  interfaces  are  more  compatible  and  user- friendly as the users show positive effect in their search attitude  while working after the interfaces are being modifed23-25. 
+Designers are more likely to be successful in designing  interfaces if they spend time with users, observing how they  work26. It also gives them (the designers) useful information  on the usability of systems27, or atleast enable them to make  
+decisions about the inclusion or exclusion of specifc features  and  functions  of  the  system28 which  in  turn  is  of  critical  importance  in  achieving  user  satisfaction29.  According  to  Ahmed30, et al. the information seekers who are well versed  with the use of interfaces prefer more control as well as greater  ease of use in their search process. In this respect, prerequisites  of  a  user  and  role  of  a  system  to  ease  the  human-computer  interaction  need  to  be  considered  while  designing  the  web- based information retrieval (IR) interfaces. 
+3.   o bjecTIveS 
+The study is based on the following objectives: • To identify and determine the relative location of different  
+features and facilities at search interface of select academic  
+database. 
+• To suggest various features regarding the positioning of  
+search interface features in select academic databases. 
+4. Scope 
+The  study  is  confned  to  the  assessment  of  seven  full- text academic databases subscribed by University of Kashmir,  Jammu & Kashmir, India, that offer content in different felds of  Science and Technology. These include: Cambridge Journals,  JSTOR, Sage Journals, ScienceDirect, SpringerLink, Taylor &  Francis, and Wiley Online Library. 
+5. MeThoDoLogy 
+Data  is  harvested  through  the  assessment  of  search  interfaces of select academic databases. Seven most popular,  extensively  used,  and  multi-disciplinary  full-text  databases  which are subscribed by University of Kashmir are selected  for  the  study.  The  subscribed  databases  were  given  due  consideration because the content was accessible (to authors).  Each  database  was  manually  accessed  and  the  information  regarding  the  positioning  of  search  features  available  at  the  search interface was gathered. 
+To  examine  the  positioning  of  user-specifc  features,  search interface was divided into nine equal segments. Only  that portion of interface was considered which was visible on  computer/laptop screen without scrolling down when viewed  in full screen mode.  
+(<?>  Full  screen  mode  is  achieved  by  simultaneously  pressing Function Key (fn) and F11 (fn+F11 = Full screen)). 
+Features that exist outside the examined nine segments,  i.e., those for which one needs to scroll down in order to locate  such features, were treated to hold the position called ‘Scroll- Down’, irrespective of whether the features were located at left,  centre or right positions of the screen as shown in Table 1. 
+Table 1. Segmentation of search interface 
+Top Middle Bottom 
+Left Top-left Middle-left Bottom-left 
+centre Top-centre Centre Bottom-centre 
+right Top-right Middle-right Bottom-right 
+6. 
+SeArch InTerfAce feATureS AnD TheIr reLATIve poSITIonS 
+Search  interface  features  are  broadly  examined  under  
+247 
+
+========2========
+
+DJLIT,  VOL.  38,  NO.  4,  JULy  2018 
+following fve major sub-headings. 
+6.1 Access point 
+‘Sign  in/Register’  enables  users  to  have  access  to  the  scholarly  content  and  also  to  create  their  own  profle.  At  institutional  level,  access  to  academic  databases  is  streamed  through  static  IP  addresses  which  institutions  register  with  concerned  vendors  at  the  time  of  their  subscription.  The  subscribed content can be accessed by users within institutional  LAN  environment.  Also  off-campus  facility  is  provided  to  users  accessing  internet  outside  the  institutional  campus.  In  both cases, Sign-in has minimal signifcance for users to get  access  to  the  content.  However,  by  allowing  users  to  build  their profles, it enables them to avail a number of services,  like email updates, save articles, publications and searches to  one’s profle, purchase articles, book chapters, and like. 
+All databases are found to display access point at Top- right position of their respective search interfaces, except for  Taylor & Francis, where it is positioned at Top-Middle position  as shown in Table 2. To access the contents of databases, users  have to frst locate the access point where from they can verify  their credentials. It should be easily sighted within the visible  screen space of the search interface. 
+Table 2. positioning of access point 
+Academic database 
+Access point location 
+Cambridge Journals 
+Top – right 
+JSTOR 
+Top – right 
+Sage Journals 
+Top – right 
+ScienceDirect 
+Top – right 
+SpringerLink 
+Top – right 
+Taylor & Francis 
+Top – middle 
+Wiley Online Library 
+Top – right 
+6.2 Search options  
+This  category  allows  users  to  key-in  search  queries  of  their interest, either in simple or advanced search mode. On  interface, simple search facility is recognised by the presence of  rectangular box(s), while advanced search facility is refected  as a link - ‘Advanced search’. 
+Five  out  of  seven  databases  position  their  search  box  at ‘Top’ of the search interface that runs horizontally across  ‘Left to centre’. In ScienceDirect, search boxes are spotted at  Middle – ‘Left to Centre’ position, while Wiley Online Library  places  search  box  at  Top-left  position. As  evident  from  the  study, there is no specifc position for advanced search link.  Cambridge  Journals,  JSTOR,  and  Science  Direct  have  the  link at Middle-Left position. Sage Journals and Wiley Online  Library provide the link at Top-Left position. In SpringerLink,  it is placed at Top-Centre, while in Taylor & Francis, it is found  at Top-Right position as shown in Table 3. Users mainly avail  advanced  search  facility  only  when  searches  performed  in  simple search mode do not bring satisfactory results. As such  link to Advanced Search facility should be placed in the close  proximity of search box (Simple Search mode). 
+248 
+Table 3. positioning of search features 
+Academic  database 
+Search box 
+Advanced  search (link) 
+Cambridge Journals 
+Top – ‘left to centre’ 
+Middle – left 
+JSTOR 
+Top – ‘left to centre’ 
+Middle – left 
+Sage Journals 
+Top – ‘left to centre’ 
+Top – left 
+ScienceDirect 
+Middle – ‘left to  centre’ 
+Middle – left 
+SpringerLink 
+Top – ‘left to centre’ 
+Top – centre 
+Taylor & Francis Wiley Online  Library 
+Top – ‘left to centre’ 
+Top – right 
+Top – left 
+Top – left 
+6.3   b rowsing features 
+Browsing features are examined with respect to location  of  
+(a)  Browsing Tab;  
+(b)  Alphabetical Title List; and  
+(c)  Discipline categories.  
+Except  for  ScienceDirect,  all  databases  offer  browsing  tab(s) on their respective search interfaces; mostly at Top-left  position. Sage Journals is found to place browsing tabs at three  different  positions  (each  performing  same  function),  while  Cambridge Journals places it at two separate positions. In case  of SpringerLink, one has to scroll down to see the browsing  tab.  
+At  Centre-left  position,  Wiley  Online  Library  displays  all  alphabetical  characters  including  ‘0-9’.  On  clicking  any  character; it lists all journals beginning with the same clicked  character.  In  ScienceDirect,  alphabetical  characters  are  displayed at Scroll-Down position. 
+Four databases display different disciplines under which  these  categorize  their  content.  However,  no  uniformity  is  observed in positioning of discipline categories, as SpringerLink  positions it at Middle-left, ScienceDirect displays four major  disciplines  across  the  Bottom  (from  left  to  right),  Taylor  &  Francis displays all subject areas across Centre (from left to  right),  while  Wiley  Online  Library  positions  it  at  Centre  as  shown in Table 4. 
+Browsing  is  one  of  the  basic  modes  of  access  to  information  and  at  search  interface,  it  guides  users  through  hierarchy  of  subject  headings  or  alphabetical  listing  to  the  resources of potential use. As such browsing features should  fnd space within the visible screen space of search interface,  most preferably in close proximity to search box. 
+6.4   u ser Assistance features 
+User assistance includes those features which help users  to  make  optimum  utilisation  of  the  collection  by  offering  different aids to enhance their searching and browsing skills. To  make information retrieval process easier, academic databases  offer assistance to users either in the form of Frequently Asked  Questions (FAQ), training and tutorial materials, help option,  
+
+========3========
+
+ShAFIq : A STEp TOWARDS DESIgNINg A MODEL ACADEMIC SEARCh INTERFACE 
+Table 4. positioning of browsing features 
+Academic  database 
+browsing tab 
+Alphabetical  Discipline  title list categories 
+Cambridge  Journals 
+1. Top – left 2. Bottom – centre 
+× 
+ ×  
+JSTOR 
+1. Top – left 2. Scroll-down 
+× 
+× 
+Sage  Journals 
+1. Top – left 2. Middle – left 3. Top-centre 
+× 
+× 
+Science  Direct 
+× 
+1. Scroll- down 
+Springer  Link 
+1. Scroll-down 
+× 
+Taylor &  Francis 
+1. Top – middle 
+× 
+1. Bottom  – ‘left to  right’ 1. Middle  – left 1. Centre  – ‘left to  right’ 
+Wiley  Online  Library 
+1. Top-left 
+1. Centre –  left 
+1. Centre 
+× = Feature not available 
+it does not move, whether users scroll up or down. In Sage  Journals, ‘Feedback’ icon is located at Middle-Right position;  SpringerLink features it at Middle-Left, while Science Direct  positions it at Bottom-Right. However, in case of Cambridge  Journals, it is available at Scroll-Down position as shown in   Table 5. 
+Except  for  ‘Contact  Us’  and  Feedback,  user  assistance  facilities should be visible within the screen space of search  interfaces, while Scroll-down positions should be avoided. Links  to FAq  and training & tutorial materials should be placed near  to search box and browsing tabs as they demonstrate optimum  utilisation of these facilities. help/Support, as found in most  studied databases should be placed at Top-right position. There  is common practice among websites to place ‘Contact us’ and  Feedback facilities at the bottom of website. Search interfaces  should also follow the same practice. 
+6.5 Alerting  Services 
+There  are  many  options  which  enable  users  to  remain  abreast with latest developments in the collections of database  providers preferably pertinent to the felds of users’ interest.  It includes email alerts, recent publication lists, news updates,  RSS feeds, Social Networking Sites, and alike. 
+Alerting  services  (such  as  ‘register  for  alerts’,  ‘popular  articles’, ‘recent publications’, ‘news update’) fnd their place  at  respective  search  interfaces  of  select  academic  databases.  However, irrespective of any type, alerting services are poorly  represented  as  these  are  mostly  located  at  Scroll-down  or  Bottom-centre  positions.  Only  one  database  (Sage  Journals)  positions one of its alerting services (Recent Publications) at  top of its interface and two databases (Sage Journals and Wiley  Online Library) have positioned one of their alerting services  (Register  for Alerts  service)  in  the  Middle.  Rest  of  alerting  services offered by select academic databases are either situated  at Bottom or Scroll-down positions  as shown in Table 6. 
+Academic databases should follow a common practice of  
+or by providing contact information on their search interfaces. 
+Cambridge Journals and Taylor & Francis provide ‘FAQ’  link on their respective search interfaces. However, Cambridge  Journals positions it within visible screen space, at Top-Right  position, while in Taylor & Francis, one has to scroll down to  locate it.  
+Except  for  Wiley  Online  Library,  ‘Help’  link  is  visible  within screen space of all other databases, located mainly at  Top-Right position. JSTOR, Sage Journals, SpringerLink, and  Taylor & Francis, each offer two ‘Help’ links on their respective  interfaces. 
+Link  to  ‘Contact  Us’  is  visible  
+within screen space in four databases,  
+while  in  other  three,  it  is  situated  at  
+Academic  
+scroll-down  position.  JSTOR,  Sage  
+database 
+fAQ Journals  and  Taylor  &  Francis  place  
+Cambridge  1. Top- the link at two different locations, one  
+Journals right within  visible  screen  space  and  the  
+other in Scroll-Down position. JSTOR × 
+Regarding  link  to  ‘Training  &  
+Tutorial’  materials,  no  uniformity  is  
+observed.  Sage  Journals  places  it  at  
+Sage Journals × Bottom-Centre  position;  Taylor  &  
+Francis  displays  it  at  Bottom-Right  
+Science  
+Direct 
+× position, while Wiley Online Library  
+positions it at Middle-Right. In case of  
+Springer Link × ScienceDirect, it is located at Scroll- 
+Down position. Taylor &  1. Scroll- 
+Databases which offer ‘Feedback’  
+Francis down facility, are found to display its icon at  
+one static position even if users scroll  
+Wiley Online  
+down  through  search  interface,  i.e.,  
+Library 
+× 
+× = Feature not available 
+Table 5. positioning of different help facilities at search interface 
+help/support 
+contact us 
+Training &  tutorial 
+feedback 
+1. Top-right 
+1. Top-right 
+× 
+1. Scroll- down 
+1. Top-right 2. Scroll-down 
+1. Top-right 2. Scroll-down 
+× 
+× 
+1. Top-right 2. Scroll-down 
+1. Top-right 2. Scroll-down 
+1. Bottom- centre 
+1. Middle- right 
+1. Top-right 
+1. Scroll-down 
+1. Scroll- down 
+1. Bottom- right 
+1. Middle-left 2. Scroll-down 
+1. Scroll-down 
+× 
+1. Middle- left 
+1. Bottom-right 2. Scroll-down 
+1. Bottom-right 2. Scroll-down 
+1. Bottom- right 
+× 
+1. Scroll-down 
+1. Scroll-down 
+1. Middle- right 
+× 
+249 
+
+========4========
+
+DJLIT,  VOL.  38,  NO.  4,  JULy  2018 
+Table 6.    p ositioning of alerting services on search interface of academic  screen space of their respective search interfaces.  
+databases 
+Academic  Database 
+register for  Alerts 
+popular  Articles 
+recent  publications 
+Cambridge  Journals JSTOR 
+× 
+× 
+Bottom-centre 
+× 
+× 
+× 
+Sage Journals 
+Middle-right 
+× 
+Top-right 
+ScienceDirect 
+Scroll-down 
+Scroll-down 
+Scroll-down 
+SpringerLink 
+× 
+× 
+Bottom-centre 
+Taylor &  Francis 
+Bottom-centre 
+× 
+× 
+Wiley Online  Library 
+Middle-left 
+× 
+× 
+× = Feature not available 
+providing alerting services at a particular place. Since alerting  services are not the main focus of users when they access any  IRS,  thus  keeping  this  facility  at  scroll-down  position  does  not  have  a  negative  effect  on  user’s  information  retrieval  processes. 
+7. SuggeSTIonS 
+Search  interface  designers  should  follow  a  common  practice regarding the location of features on the search interface.  position of a feature on search interface should be consistent  with the location of similar feature of other prominent websites/ information retrieval systems. Since users are familiar with the  layout of popular websites, like Google, they would expect the  similar layout of search interfaces (JSTOR Support, personal  communication,  December  30,  2015).  
+With similar designs, users will face least  
+diffculty to locate features on the search  
+interface. It will eventually save time and  
+energy of users which they could exploit  
+for the primary task for which they have  
+consulted the academic database.  
+Below  given  are  some  of  the  
+suggestions  regarding  the  positioning  of  
+different user-specifc features that should  
+be  offered  by  a  Model  Search  Interface  
+as depicted in Fig.  1, which shall add to  
+the  usability  and  user-friendliness  of  an  
+effcient and effective search interface. 
+Major Service providers, be it google, MSN and  news  
+like,  also  provide  access  point  at  the  Top-Right  updates 
+position31,32,  thus  it  is  reasonable  for  database  
+providers to offer access point feature at the same  Bottom-right 
+position. With this, users need not to exert extra  
+efforts to locate this feature. 
+Bottom-left 
+× 
+7.2 Search box 
+The basic purpose of search interface of any  × 
+academic  database  is  to  facilitate  discovery  and  
+optimal  use  of  its  resources. The  frst  task  users  × 
+perform at search  interface is to scan and locate  
+the  search  box  so  that  they  can  express  their  × 
+needs in the form of query term(s). Thus, search  
+box  occupies  the  central  position  on  the  search  
+interface, and as such needs to be placed at a point  × 
+easily visible to users. The search box (in studied  
+academic databases) is mainly available at Top-left  
+position. Most of the scripts, in particular English,  
+are written from left to right so it is obvious that  
+when  users  want  to  search,  they  will  reach  the  left  position  
+to  locate  the  search  box.  Thus,  placing  search  box  at  Top- 
+left  position  adds  to  user-friendliness  of  search  interface.  
+Furthermore, width of search box should be such that it should  
+accommodate multiple words without obscuring parts of the  
+user’s query33,34. 
+7.3 Advanced  Search 
+Advanced Search is opted in situations when users intend  to enhance the precision of retrieved results, or where users are  not satisfed with the results of previously executed search(s).  Advanced  Search  is  mainly  represented  by  a  hyperlink  on  the search interface, and on click, users are directed towards  
+7.1 Access point  
+‘Sign  in’  feature  is  meant  for  verifying  user  credentials  before  he/she  can get seamless access to the contents of  IRS.  Mainly  represented  by  hyperlinked  text  (Login  or  Sign-in),  access  point  is  found  to  occupy  the  extreme  Top-Right  position (of studied academic databases),  
+figure 1. which  remains  prominent  within  the  
+Diagrammatic representation of positioning of search features in a model  search interface. 
+250 
+
+========5========
+
+ShAFIq : A STEp TOWARDS DESIgNINg A MODEL ACADEMIC SEARCh INTERFACE 
+advanced search webpage. The study could not fnd the precise  location  of  advanced  search  option  (in  select  databases),  however, it is found to be in close proximity to search box. The  suitable position of advanced search link may either be at right  side of the search box or below it. With such a coordinative  position, user can easily locate the Advanced search feature. 
+7.4   b rowsing facility 
+Browsing  options  are  represented  mainly  in  the  form  of (a) Browsing tab, (b) Alphabetical listing, and (c) Subject  categories. In addition to search, browsing of content is also  one of the means of information discovery and use, as such it  should fnd space on the search interface where users need not  to scroll down to locate these options. All options should be  kept at one place and in close proximity to search box. 
+7.5   h elp facilities 
+Help facilities are as important as searching and browsing,  and are refected in the form of FAQ, help/support, contact us,  training & tutorial, and feedback in studied search interfaces.  The studies show that users perform searches with higher recall  and precision if they make use of IRS search functions35-37. As  such, it is important to make users aware about different help  facilities offered by IRS. It can be achieved by providing links  to different help facilities on search interface.  
+One of the roles of help/Support and Training & Tutorial  features is to make users aware about the search techniques  supported by the system, and also to emphasize their effective  implementation  in  search  queries.  As  such,  these  features  should be available within the visible screen space of search  interface.  In  studied  search  interfaces, help/Support  feature  is  mostly  found  at  two  places  on  the  same  search  interface;  Top-right and Scroll-down. As such it is suggested that Help/ Support  feature  should  be  offered  at  two  places  on  search  interface. Another feasible option is to make its position static  on  the  search  interface,  either  on  right  or  left  vertical  sides  or bottom horizontal side of search interface. Irrespective of  whether users scroll up or down within the search interface,  Help/Support  feature  shall  always  be  visible  to  them.  Since  Training & Tutorials feature is as important as help/Support  feature,  it  should  also  fnd  a  place  within  visible  space  of  search interface. 
+FAq  feature mostly provides information related to the  accessibility of content, like subscription details, rental details,  and  troubleshoot  information.  Thus,  it  should  be  in  close  proximity to the ‘Sign in’ feature.  
+Search  interfaces,  irrespective  of  their  nature  are  found  to  follow  a  common  practice  to  position  ‘Contact  us’  and  ‘Feedback’  features  at  Scroll-down  position.  There  will  be  less burden on users to memorize their location if academic  databases  also  follow  the  same  practice  to  position  these  features at Scroll-down location.  
+7.6 Alerting  Services 
+Links  to  alerting  services  on  search  interface  fulfll  the  purposes for both content providers and the end users. Alerting  services  allow  IRS  to  showcase  their  products  and  services,  and  for  end  users,  it  enables  them  to  remain  abreast  with  
+the  latest  developments  in  the  respective  felds  and  areas  of  interest. The alerting services (in studied academic databases)  have  mainly  occupied  either  Bottom-Centre  or  Scroll-Down  positions. Since it is not feasible to position each service on  the visible screen of search interface, and alerting services do  not rank high in users’ priority to consult search interface, it is  suggested that alerting services, if any, offered by IRS should  be placed mostly at Scroll-Down position. 
+8.   c oncLuSIon 
+The search interfaces of select academic databases were  evaluated with respect to the availability of different features  that  aid  in  resource  discovery  and  use.  Various  important  search  features  were  found  to  be  common  in  all  academic  databases. However, academic databases do not always follow  the common practice to display and arrange the features across  the  search  interface.  Though  there  was  unanimity  to  some  extent as far as the positioning of search interface features like  access points, search box, etc. is concerned, but no common  practice has been followed for arranging various other select  search interface features. hence, it is suggested that academic  databases should follow a common practice of positioning their  search features on their respective search interfaces in order to  increase the user friendliness of information retrieval systems. 
+reference 
+1. Lalotra, S. & Gupta, S. Information needs and expectations  
+in digital era: A study of select agricultural institutes in  
+Northern India. Trends Inf. Manag.,  2010,  6(2), 113-24. 2. Mu,  X.;  Lu,  K.  &  Ryu,  H.  Search  strategies  on  a  new  
+health  information  retrieval  system.  Online  Info.  Rev., 
+2010, 34(3), 440-56.  
+doi: 10.1108/14684521011054062 
+3. Robins, D. Interactive information retrieval: Context and  
+basic notions. Inf. Sci., Spec. Issue on Inf. Sci. Res.,  2000,  
+3(2), 57-61. 
+4. Ruthven, I. Interactive information retrieval. Annu. Rev.  
+Inf. Sci. Technol.,  2008,  42(1), 43-91.  
+doi: 10.1002/aris.2008.1440420109 
+5. White, R.W. & Ruthven. I. A study of interface support  
+mechanisms for interactive information retrieval. J. Am.  
+Soc. Inf. Sci. Technol.,  2006,  57(7), 933-48.  
+doi: 10.1002/asi.v57:7 
+6. Onwuchekwa, E.O. & Jegede, O.R. Information retrieval  
+methods  in  libraries  and  information  centers.   Int.  
+Multidiscip. J.,  2011,  5(6), 108-20.  
+doi: 10.4314/afrrev.v5i6.10 
+7. Spink,  A.;  Wilson,  T.D.;  Ford,  N.;  Foster,  A.  &  Ellis,  
+D. Information seeking and mediated searching, part 1:  
+Theoretical framework and research design. J. Assoc. Inf.  
+Sci. Technol.,  2002,  53(9), 695-703.  
+doi: 10.1002/asi.10081 
+8. Lawrence,  G.S.;  Matthews,  J.R.  &  Miller,  C.E.  Costs  
+and features of online catalogs: The state of the art. Inf.  
+Technol. Lib.,  1983,  2(4), 409-49. 
+9.   h earst, M.A. Models of the information seeking process.  
+In Search  user  interfaces.  Cambridge  University press,  
+London, 2009. 
+251 
+
+========6========
+
+DJLIT,  VOL.  38,  NO.  4,  JULy  2018 
+10. Vilar, p. & Zumer, M. Comparison and evaluation of the  
+user  interfaces  of  e-journals.  Journal  Documentation,  
+2005, 62(2), 203–27.  
+doi: 10.1108/00220410510585197 
+11. Xie, h. & Cool, C. Ease of use versus user control: An  
+evaluation  of  web  and  non-web  interfaces  of  online  
+databases. Online Info. Rev., 2000, 24(2), 102–15.  
+doi: 10.1108/14684520010330265 
+12. Lubans, J. Summary of graduate student viewpoints about  
+the effect of the internet on students work. 2000. 
+http://www.lubans.org/study5a.html  (accessed  on  8  
+August 2017) 
+13. Jansen,  B.J.  &  Spink,  A.  How  are  we  searching  the  
+World Wide Web? A comparison of nine search engine  
+transaction logs. Inf. Process. Manage.,  2006,  42(1), 248- 
+63.  
+doi: 10.1016/j.ipm.2004.10.007 
+14. Kumar, S. The impact of demographic characteristics of  
+users on patterns of usage on search engines and OpAC.  
+Library Review,  2012,  61(3), 172-87.  
+doi: 10.1108/00242531211259300 
+15. Kumar,  S.  &  grover,  V.K.  Electronic  journals:  Impact  
+on  scholarly  communication,  user  and  library.  Library  
+Herald,  2007,  45(4), 325-36. 
+16. Conner, M. & Browne, M. Navigating the information- 
+scape: Information visualisation and student search. Ref.   
+Services Rev.,  2013,  41(1), 91-112.  
+doi: 10.1108/00907321311300901 
+17. Griffths, J.R.; & Brophy, P. Student Searching Behavior &  
+the Web: Use of academic resources and google. Library  
+Trends,  2005,  53(4), 539–54. 
+18. Spink, A.; Wolfram, D.; Jansen, M.B.J. & Saracevic, T.  
+Searching the web: the public and their queries. J. Am.  
+Soc. Inf. Sci. Technol.,  2001,  52(3), 226-34.  
+doi: 10.1002/1097-4571 
+19. Ahmed,  Z.  Development  of  web-based  IR  System:  A  
+Review. Information Science Today,  2009. 
+http://www.infosciencetoday.org/type/research-type/ 
+development-of-web-based-ir-systems-a-review.html  
+(accessed on 15 September 2017). 
+20. Hawkins,  D.T.  Online  information  retrieval  systems. In 
+Annual review of information science & technology, edited  
+by M.E. Williams. Knowledge industry publications, New  
+york, 1981, 171-208. 
+21. Mischo, W.h. & Lee, J. End-user searching of bibliographic  
+databases. In  Annual Review of Information Science &  
+Technology, edited by  M.E. Williams. Elsevier Science,  
+New York, 1987, 22, 227-63. 
+22. Markey, K. Twenty-fve years of end-user searching, Part  
+2: Future research directions. J. Assoc. Inf. Sci. Technol., 
+2007, 58(8), 1123-30.  
+doi: 10.1002/asi.20601 
+23. Blecic, D.D.; Bangalore, N.S.; Dorsch, J.L.; henderson,  
+C.L.;  Koenig,  M.h.  &  Weller,  A.C.  Using  transaction  
+log analysis to improve OpAC retrieval results.  College   
+Research Libraries,  1998,  59(1), 39-50.  
+doi: 10.5860/crl.59.1.39 
+24. Blecic, D.D.; Dorsch, J.L.; Koenig, M.h. & Bangalore,  
+252 
+N.S. A longitudinal study of the effects of OpAC screen  
+changes  on  searching  behaviour  and  searcher  success.  
+College Res. Lib.,  1999,  60(6), 515-30.  
+doi: 10.5860/crl.60.6.515 
+25. Malliari, A.; Moreleli-Cacouris, M. & Kapsalis, K. Usage  
+patterns in a Greek academic library catalogue: A follow- 
+up study. Performance Measurement Metrics,  2010,  11(1),  
+47-55.  
+doi: 10.1108/14678041011026865 
+26. Kani-Zabihi, E.; ghinea, g. & Chen, S.y. User perceptions  
+of  online  public  library  catalogues. Int.  J.  Inf.  Manag., 
+2008, 28(6), 492–502.  
+doi: 10.1016/j.ijinfomgt.2008.01.007 
+27. Blandford, A.; Stelmaszewska, H. & Bryan-Kinns, N. Use  
+of multiple digital libraries: A case study. In proceedings  
+of  the  1st  ACM/IEEE-CS  joint  conference  on  digital  
+libraries (JCDL ‘01), New York, USA. 2001. pp. 179-88.  
+doi: 10.1145/379437.379479 
+28. Craven, J.; Johnson, F. & Butters, g. The usability and  
+functionality of an online catalogue. Aslib Proceedings, 
+2010, 62(1), 70-84.  
+doi: 10.1108/00012531011015217 
+29. Flavián C.; guinalíu, M. & gurrea, R. The role played  
+by perceived usability, satisfaction and consumer trust on  
+website  loyalty. Information  Management,   2006,  43(1),  
+1-14.  
+doi: 10.1016/j.im.2005.01.002 
+30. Ahmed,  S.M.Z.;  McKnight,  C.  &  Oppenheim,  C.  A  
+review  of  research  on  human  computer  interfaces  for  
+online information retrieval systems. Electronic Library, 
+2009, 27(1), 96-116.  
+doi: 10.1108/02640470910934623 
+31. Google.  Sign  in.  Retrieved  from:  https://www.google. 
+com/ (Accessed on 15 April 2018) 
+32. MSN. Sign in. Retrieved from: https://www.msn.com/en- 
+in/ (Accessed on 15 April 2018) 
+33.   g alitz, W.O. The essential guide to user interface design:  
+An introduction to GUI design principles and techniques.  
+2nd  ed., pp. 199. John Wiley & Sons, New York, 2009. 
+http://ps.fragnel.edu.in/~dipalis/prgdwnl/eguid.pdf  
+(accessed on 10 October 2017). 
+34. Moscato, D.R. & Moscato. E.D. An empirical review of  
+industry  preferences  in  the  design  of  e-commerce  web  
+sites. Communications of the IIMA,  2008,  8(4), Article 1. 
+http://scholarworks.lib.csusb.edu/ciima/vol8/iss4/1/  
+(accessed on 12 October 2017). 
+35. Darmoni,  S.J.;  Soualmia,  L.F.;  Letord,  C.;  Jaulent,  
+M.;  griffon,  N.;  Thirion,  B.  &  Névéol,  A.  improving  
+information  retrieval  using  medical  subject  headings  
+concepts: A test case on rare and chronic diseases. J. Med.  
+Lib. Assoc.,  2012,  100(3), 176–83.  
+doi: 10.3163/1536-5050.100.3.007 
+36. Richter,  R.R.  &  Austin,  T.M.  Using  MeSH  (Medical  
+Subject Headings) to enhance PubMed search strategies  
+for  evidence-based  practice  in  physical  therapy. J.  Am.  
+Phys. Ther. Assoc.,  2012,  92(1), 124–32.  
+doi: 10.2522/ptj.20100178 
+37.   y oo, I. & Mosa, A.S.M. Analysis of pubMed user sessions  
+
+========7========
+
+ShAFIq : A STEp TOWARDS DESIgNINg A MODEL ACADEMIC SEARCh INTERFACE 
+using  a  full-day  pubmed  query  log:  A  comparison  of  experienced  and  non-experienced  PubMed  users. JMIR  Med. Inf.,  2015,  3(3), e25.  
+doi: 10.2196/medinform.3740 
+conTrIbuTor 
+Ms. huma Shafiq has done Masters of philosophy in Library  &  Information  Science.  Currently  pursuing  her  phD  in  the  Department of Library and Information Science, University of  Kashmir, India. Presently working as a Librarian in Government  Degree  College,  Magam,  Budgam.  her  research  interests  include  :  Information  retrieval,  information  retrieval  systems,  search interfaces, query formulation and re-formulation, query  manipulation,  citation  behaviour  of  authors,  citation  patterns.  
+253 
+
+========8========
+

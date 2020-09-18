@@ -1,0 +1,542 @@
+DESIDOC Journal of Library & Information Technology, Vol. 34, No. 2, March 2014, pp. 110-124 
+  2014, DESIDOC 
+New Media Art Projects, Panoramic Images and Live Video as Interface  
+between Real and Virtual Worlds 
+Franc Solina 
+Computer Vision Laboratory, Faculty of Computer and Information Science, University of Ljubljana 
+Tržaška Cesta 25, SI-1000 Ljubljana, Slovenia 
+E-mail: franc.solina@fri.uni-lj.si 
+AbstRAct 
+This paper starts with the concept of a virtual gallery where art works, mainly pictures, are presented  on the world wide web. One of the frst such galleries, the Slovenian Virtual Gallery existing from 1995  is  being  considered. Today,  such  galleries  are  conceptually  not  much  different,  however,  they  typically  contain much more material of higher resolution in 2D and 3D. Several open source tools are available  for development of such virtual galleries. To gain some notion of immediacy, efforts were made to mix  such virtual worlds with live video from actual spaces and locations. A novel user interface was developed  using panoramic images of the location where the internet camera is located. The live video image is  shown overlaid on the static panoramic image so that when a tele-operator manipulates the camera he  gets a much better understanding of the remote location. A new media art installation was produced. First,  successfully the concept of the virtual gallery and the live video panoramic interface and later interactive  art  installations  was  taken  up  where  video  or  images  were  used  as  primary  means  of  interaction  and  feedback.  Five  such  art  installations  are  presented;  the  sixth  project  shows  how  this  concept  can  be  
+applied to adaptive digital signage.   
+Keywords: Virtual gallery, internet video server, panoramic images, Slovenia, CAD 
+1.    IN tRoductIoN 
+This  paper  gives  an  overview  of  work  related  to  art  presentation  and  production  of  new  media  in  the  Computer  Vision  Laboratory  at  University  of  Ljubljana.  Here,  art-related  activities  began  in  the  first half of 1995, at the outbreak of the world wide  web expansion, when the Slovenian Virtual Gallery  (SVG)  was  developed  which  was  a  typical  first  generation  web  multimedia  presentation  consisting  of an interconnected set of texts, images, and video  clips1. An  alternative  way  of  exploring  this  set  was  by  ‘walking’  through  a  virtual  gallery  space.  It  was  a demonstration project to show how Slovenian fine  art could be presented on the internet. At that point  of  time,  there  were  no  tools  yet  for  such  website  design,  own  tools  were  developed.  Now,  there  are  several  open  source  tools  available  for  building  such  web  presentations. 
+“When  SVG was presented  in the fall of 1995  
+The  multimedia  concept  developed  for  SVG  was  reused  in  several  of  Dragan’s  art  projects.  Several  other  technical  solutions were  developed for  their  projects that were challenging from a purely technical  viewpoint. In this way, experiment and new methods  in computer vision were done”. The technical expertise  of  the  Computer  Vision  Laboratory,  especially  in  computer  vision  and  robotics,  was  used  in  several  of Dragan’s art-Internet installations. By adding the  possibility  to  get  real-time  video  from  any  physical  point,  which  can  be  connected  to  the  internet,  one  can  effectively  blend  actual  and  virtual  spaces. 
+Hence, the next  project was the development of  a module for active live video observation over the  Internet.  Live  video  transmission  over  the  internet  and  interactivity  are  becoming  more  and  more  popular. This very moment one can find thousands  of cameras all across the world which are connected  to  the  internet    that  can  be  used  as  remote  eyes.  
+at Infos, the annual information technology trade fair  
+Video offers information that static images can not.  
+in  Ljubljana,  I  met  Srečo  Dragan,  Professor  of  art  
+Therefore,  intelligent  control  of  video  capture  by  
+Video and New Media at the Academy of Fine Arts  
+means of changing the view direction of the camera,  
+at the University of Ljubljana. This was a beginning  of a long and fruitful collaboration2-4. Their attention  was  shifted  from  merely  presenting  art  works  on  the  internet  to  actively  help  in  producing  new  art  in  the  area  of  new  media  and  art  installations.  
+spatial  structuring  of  visual  information,  as  well  as  generation  of  visual  summaries  are  essential  for  successful  application  of  this  technology. 
+To study user-interface issues of remotely operable  cameras  and  provide  a  testbed  for  the  application  
+Received 22 March 2013, revised 28 February 2014, Online published 18 March 2014 
+
+========1========
+
+SOLInA: neW  Me DIA  Ar T  Pr OjecTS, PAnOrAMIc IMAGeS AnD  L IVe VIDeO AS  In TerFAce 
+of  computer  vision  techniques  (motion  detection,  tracking,  security)  the  internet  video  server  (IVS)  system5,6  was developed. The system consists of a  CCD camera mounted on a robot pan/tilt manipulator  that  makes  possible  to  turn  the  camera  in  any  direction.  Using  panoramic  images  assembled  out  of  all  possible  camera  views  as  a  background  for  the  live  video  image  the  user  gets  a  much  better  understanding of the remote location and a proper context  for  selecting  the  new  direction  of  the  camera. 
+The  multimedia  concepts  developed  for  SVG,  
+face recognition is an increasingly important goal in  video surveillance which in turn is becoming a major  focus  of  cultural  production14.  A  video  camera  in  combination with various types of displays has been  used  over  and  over  in  different  art  installations. 
+2.   sL oVeNIAN   V IRtuAL   G ALLeRy 
+The SVG was developed in the first half of 1995  with  the  aim  to  present  Slovenian  fine  art  on  the  internet1. In cooperation with distinguished Slovenian  art-historians an overview of Slovenian art from the  
+along  with  the  IVS  active  observation  system,  gothic period up to the present time was prepared.  were  used  in  a  series  of  interactive  installations  SVG  consists  of  three  main  parts  (Fig.  1(a)): 
+by  Srečo  Dragan. rOTAS-TeneT  (May  1996)  was  dedicated to the architect jože Plečnik by connecting  to  new  technological  means  the  Hradčany  castle  in  Prague  with  the  Prešeren  square  next  to  the  Three Bridges in Ljubljana, both sites enhanced by  Plečnik’s architectural intervention6. neTrOPOLIS- cYBOrG’S  eYe   Project  (1997)  was  prepared  for  the  european  month  of  culture  in  Ljubljana7,8.  It  offered  telepresence  experience  on  the  internet  at  various locations in Ljubljana, combining live video  images  with  navigable  virtual  architectural  space.  neTrOPOLIS-cLAVIS UrBIS (1998) was exhibited  at  U3,  2nd   Triennale  of  Contemporary  Slovene  Art  in Modern Gallery Ljubljana. In addition to previous  
+(a)  Overviews  of  the  main  art  historical  periods  
+that  contain  biographies  of  authors,  each  with  
+an  iconised  index  of  their  works  (Fig.  1(b)). (b)  Permanent  collections  and  current  exhibitions  
+in  selected  Slovenian  art  galleries. 
+(c)  A 3D virtual gallery where the viewer can move  
+through  a  virtual  3D  architecture  and  view  the  
+paintings hung on the walls. By clicking on the  
+paintings  the  user  switches  to  the  works  and  
+their  authors  in  the  first  part  of  the  SVG. 
+The SVG supports search of authors or works of art  by using different keys (names, years, art techniques). 
+The  virtual  exhibition  space  of  the  SVG  was  
+technologies this project featured a camera carrying implemented  using  a  structure  of  inter-connected  
+robot  telecontroled  over  the  internet3,9. 
+clickable-maps1. Each view of the 3D gallery space,  
+collaboration with Srečo Dragan extended to his  which  was  initially  constructed  as  a  classical  CAD  
+students at the Academy of Fine Arts and  the ArtNetLab  initiative  was  started  as  a  production  environment  for new media art installations. Students of fine art  and computer and information science collaborate in  production of new media installations since 19962,4,10. 
+model, was pre-rendered and converted to a clickable  map  by  addition  of  carefully  selected  links  to  the  next possible views. By clicking on the pre-selected  areas  of  the  clickable  map  the  observer  moves  to  the  corresponding  destination.  Thus,  a  selected  
+Three  interactive  installations,  ‘15  seconds  of  sequence  of  such  clickable  maps  forms  a  walk  
+fame’11, ‘Virtual skiing’12  and ‘Dynamic anamorphosis’ 
+13 which  all  use  computer  vision,  has  also  been  produced as these are the main research areas. A  core  task  in  this  people-centered  computer  vision  
+through  the  virtual  gallery.  If  a  visitor  of  the  virtual  gallery  clicks  on  any  of  the  paintings  which  are  hung on the walls he gets to the presentation of the  paintings in the first part of the SVG. In this way all  
+objective  is  face  detection  which  with  succeeding  parts  of  SVG  are  interconnected.  Although  similar  
+(a) 
+(b) 
+Figure 1. (a) Home page of the slovenian Virtual Gallery and (b) biography of the painter France Kralj 
+111 
+
+========2========
+
+DjLIT,  VOL.  34, nO.  2, MArcH   2014 
+result could be obtained using a VRML model, The  present implementation was much faster at the time  and  enabled  much  greater  flexibility  in  connecting  to different parts of SVG since each step in a walk  was  just  a  link  to  another  HTML  document.  Such  predetermined  paths  through  a  virtual  space  are  also  easier  to  handle  for  a  novice  user  who  can  get  quite  easily  lost,  if  a  multitude  of  options  are  open  such  as  in  a  VRML  rendered  virtual  space. 
+SVG was warmly received in Slovenia 
+15 
+ and, as  judged  by  a  high  number  of  visits,  on  the  internet  in  general.  In  1996  the  McKinley  Group’s  online  editorial team rated SVG as a ‘4-star’ site excelling  in ‘Depth of content’, ‘ease of exploration’, and ‘net  appeal’.  Unfortunately,  no  institution  in  Slovenia  at  that  time  showed  any  interest  to  maintain  and  upgrade the SVG system that was a result of student  work and was therefore no longer maintained. While  the  first  part  of  SVG  is  fairly  content  stable,  the  second  part  was  supposed  to  offer  information  on  current  exhibitions  in  several  galleries. 
+In  1999,  the  Union  of  the  Slovene  Fine Artists  Associations  (ZDSLU)  sponsored  a  project  which  was inspired by SVG. A VrML model of the jakopič  Pavilion,  which  was  demolished  in  1962,  was  built  to  serve  as  an  environment  for  virtual  exhibitions  of Slovenian artists on the internet and to celebrate  the anniversary of rihard jakopič16. rihard jakopič  was  the  premier  Slovenian  impressionist  painter  who  in  1908  actually  financed  the  building  of  the  pavilion  in  Ljubljana.  The  virtual  pavilion,  which  closely  follows  the  original  plans  of  the  architect  Maks  Fabiani,  includes  a  3D  model  of  jakopič’s  death mask which was rendered using a structured  light  range  sensor  (Fig.  2). 
+The  SVG,  judged  by  its  implementation,  was  a  typical  first  generation  website.  Due  to  the  lack  of  appropriate  tools  at  the  time  of  development,  all implemented in PerL1. Data was stored in files  
+Figure 2. Jakopiˇc’s death mask 
+112 
+that  were  directly  manipulated.  Since  there  were  just  a  few  typical  types  of  documents  in  the  SVG,  patterns  to  generate  HTML  documents  were  used.  It  was  not  necessary  for  the  administrator  of  the  system,  whose  role  was  to  add  new  content  to  the  SVG,  know  the  html  syntax. Additional  features  of  the  SVG  system  were  a  distributed  database  and  remote  management  of  the  system. 
+In  the  span  of  just  a  few  years,  however,  the  web-related  technology  has  experienced  a  tremendous  growth.  Many  museums  and  galleries  still use custom-built websites. The development and  maintenance  of  such  solutions  can  be  expensive  and  the  future  lies  in  using  one  of  many  general  tools for web content presentation and management.  Various  commercial  and  more  importantly  open  source solutions that make websites of museum and  art galleries much easier and faster to develop and  maintain are available in the market. The resolution  of  images  is  steadily  increasing  and  beside  2D  imagery,  3D  data  and  models  of  3D  artifacts  can  now be easily created and integrated in web presentations. 
+3.   t ooLs  FoR   c ReAtIoN   o F Web  
+PReseNtAtIoNs 
+Four of the more popular state of the art systems  for  creation  of  web  presentation  for  art  galleries  and  art  museums  are  Drupal,  Joomla, Typo  3,  and  Wordpress.  Beside  all  the  functionality  needed  for  such  complex  websites  these  focus  on  aesthetics,  web  standards,  and  usability  also. All  four  of  them  are  free  for  use. 
+3.1 drupal 
+Drupal17,18   is  a  free  and  open  source  content  management  system  (cMS)  written  in  PHP  and  distributed under the GnU General Public License.  It  is  used  for  many  different  types  of  websites,  ranging from small personal blogs to large corporate  and  political  sites,  including  whitehouse.gov.  Basic  features  of  Drupal  common  to  most  CMSs  include  the  ability  to  register  and  maintain  individual  user  accounts  within  a  flexible  and  rich  permission/ privilege system, create and manage menus, RSS- feeds, customise page layout, perform logging, and  administer  the  system.  Drupal  provides  options  to  create a classic brochureware website, a single- or  multi-user  blog,  an  Internet  forum,  or  a  community  website providing for user-generated content. Drupal  was also designed to allow new features and custom  behaviour  to  be  added  to  extend  Drupal’s  core  capabilities.  This  is  done  via  installation  of  plug-in  modules  created  and  contributed  to  the  project  by  open source community members. Although Drupal  offers  a  sophisticated  programming  interface  for  developers,  no  programming  skills  are  required  for  basic  website  installation  and  administration.  The  Indianapolis  Museum  of  Art  website  uses  Drupal  as  its  back-end  system19. 
+
+========3========
+
+SOLInA: neW  Me DIA  Ar T  Pr OjecTS, PAnOrAMIc IMAGeS AnD  L IVe VIDeO AS  In TerFAce 
+3.2  Joomla! 
+Joomla!20  is an open source content management  system platform for publishing content on the world  wide web and intranets. It is written in PHP, stores  data in MySQL and includes features such as page  caching,  RSS  feeds,  printable  versions  of  pages,  news  flashes,  blogs,  polls,  search,  and  support  for  language internationalisation. The Joomla! package  consists of many different parts, which allow modular  extensions  and  integrations  to  be  made  easily.  examples are extensions called plugins that extend  Joomla! with new functionality. In addition to plugins,  more  comprehensive  extensions  are  available  that  allow  webmasters  to  perform  such  tasks  as  build  a community by expanding user features, backup a  website, translate content, create URLs that are more  friendly  to  search  engines  and  add  shopping  cart  functionality for e-commerce website. The Guggenheim  Foundation21  with its international chain of museums  uses  Joomla!  for  creation  of  its  websites. 
+3.3 typo3 
+Typo322   is  a  free  open  source  CMS  written  in  PHP  for  enterprise  purposes  on  the  web  and  in  intranets.  It  offers  full  flexibility  and  extendability  while featuring an accomplished set of ready-made  interfaces,  functions,  and  modules.  It  can  run  on  Apache  or  IIS  on  top  of  Linux,  Microsoft  Windows,  OS/2 or Mac OS X. Along with a set of ready-made  interfaces,  functions  and  modules  Typo3  has  a  large  repository  of  extensions,  allowing  flexibility  and  extendibility.  More  than  4000  extensions  are  available  for  download  under  the  GnU  General  Public  License.  Typo3  has  a  web  frontend,  which  presents a Typo3-based website to its users, along  with a web-based backend, used by authors and site  administrators  to  manage  content  for  the  website.  The  system  is  based  on  templates.  People  can  choose  an  existing  template  and  change  features  such as logo, colors, and fonts, or they can construct  their own templates using a configuration language.  national Museum Del Prado in Spain23  uses Typo3  for  the  creation  of  its  web  presentation. 
+3.4  Wordpress 
+WordPress24  is an open source blog publishing  
+clean permalink structure; the ability to assign nested,  multiple categories to articles; and support for tagging  of  posts  and  articles.  WordPress  has  a  rich  plugin  architecture  that  allows  users  and  developers  to  extend its functionality beyond the features that come  as part of the base install. native applications exist  also for smart mobile platforms (iPhone/iPod Touch,  BlackBerry)  that  enable  content  access  and  also  some  administration.  The  Toledo  Museum  of  Art25 in Ohio selected Wordpress for creation of its web presence. 
+4 LIVe VIdeo  oVeR   t He  INteRNet 
+In 1996, system for active remote video observation  over  the  internet  which  was  named  Internet  Video  Server  (IVS)5   was  developed  by  author.  The  IVS  system  consists  of  a  camera  mounted  on  a  robot  pan/tilt manipulator that makes possible to turn the  camera in any direction. The user of the IVS system  observes the video image and controls the direction  of  the  camera  in  a  browser  window  (Fig.  3). 
+Figure  3.  IVs   user  interface.  buttons  for  moving  the  
+camera were provided. 
+This  initial  IVS  interface  required  the  user  to  press the left/right and up/down buttons to move the  camera. In 1996, due to buffering, slow, and uneven  reaction times of the network,these controls did not  seem to be very predictable from the user’s point of  view. A user would, for example, press the button for  moving  the  camera  one  step  to  the  left.  If  nothing  happened  in  a  few  seconds,  he  would  press  again  
+application powered by PHP and MySQL which can  
+the  same  button  or  try  a  different  operation.  Due  
+to  buffering,  he  would  suddenly  get  a  new  image  
+also be used for basic content management. It has  many features including a user-friendly workflow, a  rich plugin architecture, and an advanced template  
+includes  widgets  that  can  be  rearranged  without  
+that  could  be  a  result  of  just  the  first  command,  or a combination of any number of subsequent commands. 
+The  reaction  time  of  the  system  depended  
+system.  WordPress  has  a  template  system,  which  
+mostly on how the camera and the pan/tilt unit was  editing PHP or HTML code, as well as themes that  
+connected to the Internet. Many types of connections  can be installed and switched between. The PHP and  
+were  tested,  ranging  from  direct  computer  network  
+connections to GSM mobile phone networks. Between  advanced customisations. WordPress also features  
+August  1996  and  May  1998  the  IVS  system  was  
+accessed and used more than 40000 times from more  
+html  code  in  themes  can  also  be  edited  for  more  
+integrated link management; a search engine-friendly,  
+than  1000  different  computers  all  over  the  world. 
+113 
+
+========4========
+
+DjLIT,  VOL.  34, nO.  2, MArcH   2014 
+Another problem with the user interface is more  perceptual.  If  the  viewing  angle  is  small,  one  can  easily loose the notion to which part of the scene the  camera  is  pointing  at.  Observing  a  distant  location  with  the  help  of  the  IVS  or  a  similar  system  gives  a  very  limited  perception  of  that  location  which  is  not  very  different  from  looking  at  our  surroundings  through  a  long  tube.  These  interface  problems  motivated  us  to  design  a  better  user  interface  for  remote  video  observation5.  Due  to  the  precisely  
+At  system  startup,  the  panoramic  image  is  generated first by scanning the complete surroundings  of  the  camera.  When  a  user  starts  interacting  with  the system he is shown the whole panoramic image.  A rectangular frame in the panoramic image indicates  the  current  direction  of  the  camera.  Inside  this  attention window the live video image is seamlessly  superimposed onto the panoramic image. By means  of a mouse the user can move the attention window  and  in  this  way  select  the  direction  of  the  camera.  
+controlled  position  of  the  camera  by  means  of  the When the attention window is at the desired location  pan/tilt unit, individual images acquired by IVS can of  the  user  prompts  this  to  the  system.  From  the  
+be  assembled  into  a  panoramic  360o   view  of  the  
+position of the attention window within the panoramic  
+surroundings (Fig. 4). This panoramic image is then  image of the physical coordinates of the next camera  
+used  as  a  backdrop  for  the  live  video  image,  to  
+direction are computed and the appropriate command  
+give the user the correct context for his observation.  is  issued  to  the  pan-tilt  unit.  When  the  camera 
+The rectangle in the panoramic image indicates the  attention  window  that  in  turn  indicates  the  current  direction  of  the  camera.  By  moving  the  rectangle  the  user  controls  the  direction  of  the  camera.  On  the  bottom  of  the  web  page  the  live  video  image  
+is  moved  to  a  new  direction,  the  last  image  from  the  old  position  is  pasted  to  the  static  panoramic  image. In this way the panoramic image is constantly  updated in the areas of most interest to observers. 
+in  actual  resolution  (left)  and  a  zoomed  panoramic  
+4.1 Generation  of  Panoramic  Images 
+view  (right)  are  shown. 
+Figure 4. The newer ‘GlobalView’ interface for IVS. 
+Panoramic  images  have  been  traditionally  generated  by  special  photographic  cameras  and  photographic  techniques  by  means  of  rotating  the  whole  camera  or  just  the  aperture  in  the  camera  lens. Using a digital camera two general approaches  are  possible,  to  use  conventional  image-based  systems  and  assemble  several  images  or  use  special  omnidirectional  sensors.  Omnidirectional  sensor  setups  use  specialised  cameras  or  camera  systems that are able to acquire omnidirectional visual  information.  Optics  of  such  sensors  use  a  fish-eye  lens or combine standard lenses on a video camera  with  a  conic,  spherical,  or  paraboloidal  mirrors. 
+These images, which cover a complete half sphere,  must  be  mathematically  processed  to  free  them  of  severe  distortions  and  get  a  proper  perspective  view.  The  advantage  of  this  approach  is  that  the  whole panorama is imaged at once and that several  users can move their own ‘virtual camera’ over this  
+  in  horizontal  direction  and  the  
+image  to  observe  the  part  of  the  scene  they  are  
+interested  in.  However,  the  benefit  of  such  single  
+The  commands  for  ‘left’  and  ‘right’  move  the  camera  for  15o 
+commands  for  ‘up’  and  ‘down’  move  the  camera  for  5o 
+camera for 180o 
+for  ‘left’  or  ‘right’  has  to  be  applied  12  times  and  to  move  the  camera  for  45o   in  vertical  direction  the  command  for  ‘up’  or  ‘down’  has  to  be  applied  
+  in  vertical  direction  (Fig.  3).  To  move  the  
+step  image  capture  is  reduced  by  a  very  uneven  
+ in horizontal direction the command  
+resolution of these panoramic images. The majority  
+of the image covers the sky or the ceiling of indoor  spaces  while  the  usually  more  interesting  parts  of  the  image  are  on  the  boundaries  where  the  
+9  times.  These  figures  tell  us  that  if  one  wants  to resolution  is  the  poorest. To  get  useful  information  find  some  object  on  the  scene,  needs  to  preview  from both hemispheres, two such parabolic mirrors  
+the  whole  scene  at  least  100  camera  movements  are  required.  Using  an  updatable  panoramic  view  as  a  part  of  the  user  interface  the  number  of  camera  movements  required  to  find  some  target  can  be  decreased  significantly:  to  one  move  only.  
+and  cameras  must  be  applied  at  once. 
+Assembling several images involves camera rotation  and/or integration of overlapping images taken with  a regular camera. The panoramic images obtained in  this way have a more uniform resolution. By panning  
+In  the  new  ‘GlobalView’  interface  (Fig.  4)  one  
+the camera over a scene and composing the video  
+can  simply  drag  the  live  video  frame  over  the  static panoramic image to define the new camera position. 
+114 
+frames,  large  panoramic  images  of  arbitrary  shape  and detail can be created26. To automatically construct  
+
+========5========
+
+SOLInA: neW  Me DIA  Ar T  Pr OjecTS, PAnOrAMIc IMAGeS AnD  L IVe VIDeO AS  In TerFAce 
+those panoramic images, however, one must derive  of the painter Silvester Plotajs Sicoe in the Gallery  the alignment transformations-based directly on images  of Union of the Slovene Fine Artists Associations in  or some other parameters that are gained automatically. Ljubljana. On the static panoramic images, taken in  
+If the camera direction and the horizontal and vertical  each  room  of  the  gallery  (Fig.  5),  one  could  click  view angles of the camera lens are available then they  on  paintings  to  get  the  corresponding  pre-scanned  can be used as alignment parameters. This makes possible  
+images  of  these  paintings  and  other  information  for the fast automatic panoramic image composition.  
+about  the  painter  (Fig.  6). 
+Using  the  pan-tilt  unit  one  can  know  the  precise  
+From  the  current  position  of  the  IVS  platform,  camera direction within the whole panoramic image. 
+however,  a  web  user  could  receive  live  video  as  
+One can generate static 360o  panoramic views by  
+well  as  control  the  camera  to  observe  not  only  the  turning the camera (in horizontal and, if necessary,  
+sterile static exhibition, but also the visitors moving  also in vertical direction) and assembling the pictures  
+through  the  gallery.  In  case  of  SVG,  one  has  to  into  a  single  slit.  To  get  a  rectangular  panoramic  
+render a virtual gallery space, In the present study  image the individual images must be transformed from  
+panoramic  images  of  the  actual  gallery  spaces  as  sphere  to  cylinder  coordinates.  If  one  is  scanning  
+the backdrop for selecting and viewing of individual  only  the  area  in  the  level  of  the  camera  horizon  
+with a small vertical angle this transformation is not  
+paintings. The IVS system was used also in the context  necessary  since  the  image  distortion  is  small.  In  
+of  several  art  installations  by  Srečo  Dragan. 
+this  case,  the  vertical  angle  of  panoramic  images  
+5. New  medIa  INSTallaTIoNS   o F   Srečo  is  about  90o   and  therefore  the  transformation  is  
+dRAGAN 
+necessary  to  assure  smooth  panoramic  images. 
+To  achieve  smooth  lines  and  at  the  same  time  
+While the efforts of Computer Vision Laboratory  avoid  the  need  of  any  geometric  transformation  of  
+in  promoting  Slovenian  fine  art  over  the  internet  images,  a  brute-force  scanning  approach  can  be  
+did  not  receive  any  institutional  support,  a  very  used.  In  the  brute-scanning  approach  only  a  few  
+stimulating and fruitful collaboration started with the  
+new-media artist Srečo Dragan. Under his influence  
+Figure 5. 360o  panoramic image taken in Z dsLu  gallery during exhibition of  silvester Plotajs sicoe in 1997. center  columns  are  taken  from  each  image  since  
+the distortion increases from the center vertical line  
+outward and only the center column has no distortion  
+at all. Therefore, the brute-force scanning approach  
+increases  the  number  of  images  significantly.  The  
+number  of  center  columns  taken  from  each  image  
+is  a  compromise  between  quality  and  time  that  is  
+needed  for  scanning  the  whole  panoramic  image. 
+In general, several cameras could be controlled,  
+each by a separate attention window, all superimposed  
+on the same panoramic image. Different focal length  
+of  the  lens  would  result  in  attention  windows  of  
+different sizes. even zoom lenses could be controlled  
+interactively  by  resising  their  attention  window.  In  
+such  an  interface  images  form  an  omnidirectional  
+system offering peripheral, low resolution image could  
+be  combined  with  a  high  resolution  focal  image. 
+4.2 Application  of  IVs 
+The  new  ‘Global-view’  IVS  interface  was  used  
+Figure 6. ‘Chair for van Gogh’, Silvester Plotajs Sicoe (oil  for the first time in june 1997 during the exhibition 
+on jute, 100×180 cm) 
+115 
+
+========6========
+
+DjLIT,  VOL.  34, nO.  2, MArcH   2014 
+the  Computer  Vision  Laboratory  shifted  its  art- related  activities  to  new  media. A  short  description  of several of Dragan’s new media installations were  given,  then  the  ArtNetLab  insitiative  is  discussed  that  enabled  the  production  of  more  than  hundred  student  new  media  projects  in  the  past  10  years.  At  the  end  of  the  section  five  new  media  projects  are described where computer vision methods play  a  central  role  (Fig.  7). 
+for  the new  Democracy’  at  the  Hradčany  castle  in  Prague  (Fig.  8).  Plečnik  who  was  also  a  professor  of  architecture  at  University  of  Ljubljana  actually  renovated the Hradčany castle in 1920’s. During the  opening ceremony on Hradčany the IVS camera was  set  up  on  the  Prešeren  square  next  to  the  Three  Bridges (Fig. 9), a demonstration of Plečnik’s mastery  in  urban  development,  to  spiritually  link  Ljubljana  and  Prague  by  new  technological  means.  In  the  
+Figure 7. exhibition of Srečo dragan’s electronic art projects in gallery equrna, ljubljana in 1997. 
+Srečo Dragan is one of the pioneers of video art  
+and conceptual art in Slovenia and now a professor  
+at  the  Academy  of  Fine  Arts  at  the  University  of  
+Ljubljana. Dragan was eager to explore and use any  
+new technological solutions that related to his artistic  
+interests. The  multimedia experience-based on SVG,  
+in combination with our module IVS for active internet  
+video observation, was used in several of Dragan’s art- 
+internet projects and installations27-30. The Computer Vision  
+Laboratory was instrumental in most of his recent work. 
+These  projects  offered,  in  general,  the  visitor  
+a  blend  of  actual  and  virtual  spaces  that  could  be  
+visited  over  the  internet.  Visitors  on  the  web  could  
+control the view direction of the camera to interactively  
+observe actual physical locations that were again in  
+an inventive hypertextural fashion connected to other  
+virtual spaces or other visual or textural information. 
+5.1  Rot As–teNet 
+The  first  joint  interactive  internet  installation  
+ROTAS–TENET was entirely dedicated to the architect  
+jože Plečnik (1872–1957) and his exhibition ‘Architecture  
+Figure 8. Web project RotAs–teNet, 1996. 
+Figure 9. 360o  view of the Prešeren Square at the hearth of  ljubljana. 
+116 
+
+========7========
+
+SOLInA: neW  Me DIA  Ar T  Pr OjecTS, PAnOrAMIc IMAGeS AnD  L IVe VIDeO AS  In TerFAce 
+website  was  included  also  a  computer  model  of  space,  representing  Ljubljana  on  the  internet—  
+Plečnik’s plan for a new Slovenian Parliament which  was never realised. This event in May 1996 marked  
+neTrOPOLIS  (Fig.  10  (a))—and  of  live  video  images,  sent  by  means  of  a  camera  that  could  be  
+also the first occasion when life video from a public  controlled over the Internet from the selected points  
+space in Slovenia was available on the internet6. The  two  most  complex  joint  art-internet  projects  were  Netropolis–Cyborg’s Eye and Netropolis–Clavis Urbis. 5.2 Netropolis–Cyborg’s eye 
+The netropolis–cyborg’s eye project was prepared  for  the  european  month  of  culture  in  Ljubljana  (ecML)  in  the  period  of  15  May/5  july  19978,31.  
+in the city—cYBOrG’S eYe  (Fig. 10 (b)). At these  points  one  can  cross  from  the  (live  or  recorded)  video  images  over  into  the  digital  city  model  and  back  again.  At  selected  locations  in  the  city  360o opanoramic pictures were recorded which could be  viewed  interactively  (Fig.  10). The  conceptual  plan  of an interactive access from one space to another  
+center  of  all  actual  and  virtual  plans  of  space  and  
+The  project  was  dedicated  to  artistic  research  
+is  only  possible  as  a  view  from  the  utopian  site,  a  and  experiment  and  was  supposed  to  serve  as  
+non-existent,  excluded  point  of  view,  which  is  the  third  millennium.  The  project  was  realised  as  an  
+time.  Additionally,  images  of  other  ECML  events  
+a  reference  point  that  enables  art  to  enter  the  
+interactive installation of telepresence on the internet  that  has  at  various  locations  and  at  different  times  
+were  digitised  from  video  clips  prepared  by  TV  Slovenia  and  presented  in  the  chronicle  section  
+connected Ljubljana with the world. The project was  
+of  the  project  web  page.  Unlimited  possibilities  of  
+a  combination  of  a  navigable  virtual  architectural  
+(a) 
+(b) 
+Figure 10. Netropolis–Cyborg’s eye project, 1997. (a) 3d  model  
+of the center of Ljubljana with locations indicating  
+where  panoramic  images  can  be  interactively  
+viewed and (b) Video frames transmitted through  
+IVs  from the opening ceremony. 
+interactive dialogue formed a temporal image of the  whole event that is still available on the internet10. 5.3 Netropolis–clavis urbis 
+netropolis–clavis  Urbis  was  the  title  of  Srečo  Dragan’s  participation  at  the  U3,  2nd   Triennale  of  contemporary Slovene Art in Modern Gallery Ljubljana,  14 november/11 january 1998. The participants of  U3  were  selected  by  the  curator  Peter  Weibel. 
+Netropolis-Clavis  Urbis  is  based  on  a  camera  carrying robot telecontrolled via the internet (Fig. 11).  The robot9  can be directed via the internet to several  locations  in  Ljubljana,  represented  in  the  gallery  space  by  anamorfic  images;  at  the  same  time,  it  sends  a  picture  of  the  actual  gallery  space  to  the  spectator-actor.  But  when  the  camera  settles  on  the  picture  of  the  selected  direction,  the  image  on  the  screen  transforms  into  a  virtual,  computerised  picture of the city. The project thus connects the real  gallery space with both the real and virtual spaces  
+Figure 11. Srečo dragan’s exhibition at U3, modern Gallery,  
+ Ljubljana in 1998. 
+117 
+
+========8========
+
+DjLIT,  VOL.  34, nO.  2, MArcH   2014 
+of the city of Ljubljana and with the dislocated word  of  computer  networks32. 
+6. ARtNetLAb NeW MedIA PRoductIoN 
+In the fall of 1999, Professor Srečo Dragan and  author started a permanent collaboration that we entitled  ArtNetLab. ArtNetLab teams up fine-art students with  computer  science  students  to  produce  art  projects  involving internet, new media, interaction and other new  information technologies2,4. This collaboration resulted  in a new interdisciplinary study program ‘Computer  Science and new Media’ at University of Ljubljana. 
+For the fineart students the main benefit of this  
+6.1 15 seconds  of  Fame 
+The installation ‘15 seconds of fame’ was inspired  by Andy Warhol’s celebrated statement that “In the  future everybody will be famous for 15 minutes” and  his photography derived paintings of famous people.  Warhol took faces from arts and politics from mass  media, banal in their newspaper everydayness, and  transformed them into portraits. The installation tries  to  make  instant  celebrities  by  reversing  Warhol’s  process—making  Warhol-like  celebrity  portraits  of  common  people  and  putting  them  on  the  gallery  walls  to  make  the  portraitees  implicitly  famous11,37.  
+The faces for the portraits made by the installation  collaboration is to get hands-on experience with the  
+are selected by chance out of all people in front of  
+latest new IT and the technical support of computer  science  students  to  build  technically  sophisticated  websites  and  art  installations  that  they  themselves  envisioned.  On  the  other  hand,  for  the  computer  science  students,  it  is  important  to  get  experience  in  negotiating,  designing,  building  and  managing  small but self-contained projects for customers who  are  in  this  case  fine-art  students.  The  experience  of  working  in  teams  is  for  both  kinds  of  students  very  important  since  it  is  the  norm  in  real  life  but  rarely  practiced  during  the  university  education. 
+The most successful projects were exhibited at  the Annual  International  Festival  of  Computer Arts  in Maribor and later in Ljubljana. A selection of best  projects was exhibited also internationally and some  graduates who participated in this initiative are now  internationally known artists. A comprehensive archive of  all projects is available on the ArtnetLab website10. 
+From the 2001 ArtnetLab production the project  ‘Wap Kitchen’ by Dušan Bučar must be singled out  
+the  installation  to  allude  that  fame  tends  to  be  not  only  short-lived  but  also  random  (Fig.  12). 
+Figure 12. A group of people in front of the installation  
+ ‘15 seconds of fame’,  maribor, 2002. 
+The  visible  part  of  the  ‘15  seconds  of  fame’  
+participants to interact with kitchen appliances using  mobile phones and the WAP protocol33. An integral  part  of  the  ‘Wap  kitchen’  installation  was  also  a  mobile  robot  that  was  freely  moving  among  the  visitors  by  avoiding  them  since  the  built-in  sonar  sensors  could  detect  obstacles  in  real-time. 
+Computer vision is now widely used to sense the  presence and actions of humans in the environment.  Novel  surveillance  systems  can  reliably  track  and  classify  human  activity,  detect  unusual  events  and  learn and retrieve a number of biometric features34.  Due  to  the  low  cost  and  the  ubiquity  of  personal  video technology, the research has recently shifted  towards  developing  novel  user  interfaces  that  use  vision as the primary input. In the area of personal  computing,  the  most  prominent  areas  of  research  are  desktop  interfaces  that  track  gestures35.  On  a  wider scale, human motion can be used to interact  with  smart  environments36. 
+because  of  its  technical  excellence  that  enabled  
+installation  consists  of  a  computer  monitor  framed  
+like  a  painting.  A  digital  camera  is  built  into  the  frame  so  that  only  a  round  opening  for  the  lens  is  visible. Pictures of gallery visitors which are standing  in  front  of  the  installation  are  taken  every  seconds  by  the  digital  camera  mounted  in  the  frame  above  the monitor. The camera is connected to a computer  which  detects  all  faces  in  each  picture,  randomly  selects  a  single  face,  makes  a  pop-art  portrait  out  of it and displays it for 15 seconds on the monitor. 
+The ‘pop-art’ filter drastically reduces the number  of different colours by joining similar looking pixels  into  uniform  regions  by  combining  posterise,  color  balance and hue-saturation functions with an additional  process of random coloring. In this way, millions of  different  effects  were  achieved  (Fig.  13  (a-h)). 6.2   s mart  Wall 
+The  main  goal  of  the  Smart  Wall  project2   is  
+to  provide  a  platform  for  a  rapid  prototyping  of  In the next section, short descriptions of five projects computer  supported  interactive  presentations  that  
+produced in the framework of ArtNetLab are given,  all  of  them  using  video  as  means  of  interaction. 
+118 
+sense  human  motion.  The  system  is  composed  by  a front-end application, where the developer defines  
+
+========9========
+
+SOLInA: neW  Me DIA  Ar T  Pr OjecTS, PAnOrAMIc IMAGeS AnD  L IVe VIDeO AS  In TerFAce 
+(a) 
+(b) 
+(c) 
+(d) 
+(e) 
+(f) 
+(g) (h) Figure 13. Pop-art portraits generated by the installation ‘15 seconds of fame’. 
+a number of hot spots in a camera view, a Hotspot  Processor, which senses the activity in each of the  hot  spots,  and  a  Player,  which  displays  interactive  content  triggered  by  the  activity  in  hot  spots.  By  associating  actions  or  sequences  of  actions  in  the  environment to actions in the interactive presentation,  a  variety  of  complex  interactive  scenarios  can  be  developed  and  programmed  with  ease.  Due  to  the  modular architecture, the platform supports distributed  interaction, connecting physical activity and content  display  at  remote  locations  (Fig.  14). 
+The  major  motivation  of  Smart  Wall  framework  is  to  provide  an  open  environment  to  develop  and  
+Figure 14. smart Wall in action, 2005. 
+119 
+
+========10========
+
+DjLIT,  VOL.  34, nO.  2, MArcH   2014 
+experiment  with  interactive  presentations  in  public  space.  The  interactive  area  can  be  any  public  area  that  is  observed  by  a  camera  connected  to  a  computer.  The  field  of  view  of  the  camera  can  then  be  divided  in  a  grid  of  cells  that  define  the  smallest areas where activity will be detected. The  resolution and consequently, the size and the number  of  the  cells,  are  defined  by  the  developer.  Multiple  neighboring cells on the grid can then be joined in  a single ‘hot spot’, representing thus an interactive  entity  that  promotes  its  state  to  other  modules. 
+Each hot spot can define an action that occurs  when  the  activity  in  the  hot  spot  area  exceeds  a  certain  threshold  (i.e.,  a  person  enters  the  area).  The  presentation  on  the  screen  is  controlled  by  such  actions  or  by  a  sequence  of  actions. 6.3 Virtual  skiing 
+Real-time  interaction  of  people  with  virtual  environments is a well-established concept but finding  the  right  interface  to  do  it  is  still  a  challenging  task. Wearing different kinds of sensors attached to  the  body  of  the  participants  is  often  cumbersome.  computer  vision  offers  the  exiting  possibility  to  get  rid  of  such  sensors  and  to  record  the  body  movements of participants using a camera. People,  their appearance (i.e., face), their emotions and the  movements of their bodies are becoming an important  object  of  study  in  computer  vision  research34. 
+The  number  of  application  areas  for  virtual  environments is growing since the cost of technology  for making virtual environments is in general going  down. Sporting games in general are an attractive area  for using virtual technology. Many training machines  for  cycling,  running,  rowing  are  enhanced  with  a  virtual  world  to  make  the  training  more  interesting.  Instead  of  looking  at  a  static  scene  in  a  fitness  room one can get the feeling of moving along a real  scene  or  even  to  race  against  other  real  or  virtual  
+are sophisticated simulations that deliver the demands,  
+Figure  15. skier  performs  the  same  movements  as  
+   on real skis to turn on the virtual ski slope. skier  can  navigate  down  the  virtual  slope  just  by  changing  the  posture  of  his  body.  By  the  degree  of  his  body  shift  right/left  he  controls  the  radius  of  the  right/left  turn.  By  lowering  his  body  center  he  increases  his  speed.  In  the  process  of  navigating  down  the  slope  the  skier  must  avoid  the  sparsely  arranged  trees.  The  video  camera  can  be  seen  at  the  bottom  of  the  projection. 
+The interface is very intuitive since the skier just  repeats  the  actions  that  he  knows  from  real  skiing  and  learns  to  control  his  movement  in  the  virtual  world  in  less  than  a  minute.  The  system  does  not  need any robotic or mechanical devices. The image  processing is also not demanding since no real forces  are involved and therefore no sophisticated motion  analysis is required for biomechanical interpretation  of  the  skier’s  motion. 
+38 
+  presents  a  system  
+competitors. At their most complex, virtual exercisers  
+6.4 Virtual  dance 
+The  Virtual  Dance  project 
+stresses, and sensations of a sport or exercise with  
+that is able to track dance movements and integrates  
+the  motion  in  an  interactive  video.  The  idea  is  to  
+unprecedented  verisimilitude  and  precision. 
+Artists  experiment  freely  with  new  technology  
+provide a flexible framework which allows the artist  
+and try to invent better and new ways of interfacing  
+to set up an interactive virtual dance performance by  
+with virtual world14. The project of virtual skiing was  
+defining markers, videos and interactive visual icons  
+initiated as an interactive art installation which gave  
+associated with markers. The system is then able to  
+more freedom to experiment and to show results to  a  wider  public  in  an  art  gallery  setting13,37. 
+The  installation  for  virtual  skiing  consists  of  a  room  with  white  walls  and  a  floor  covered  with  artificial  snow.  The  skier  stands  on  a  pair  of  skis  that  are  attached  to  the  floor.  The  virtual  slope  is  projected  on  the  entire  wall  in  front  of  the  skier  (Fig.  15).  By  using  the  same  movements  as  on real  snow  the  skier  can  negotiate  also  the  virtual  slope.  The  movements  of  the  skier  are  captured  by  a  video  camera  in  front  of  the  skier  which  in  turn controls the animation of the virtual slope. The  
+120 
+interact between the real movement and the virtual  movement. We used standard tracking methods and  modified them to support fast moving markers, small  markers  and  discontinuous  tracking  of  markers. 
+Consequently, by dancing, the dancer creates two  patterns of movement in two different spaces. The first  pattern is produced in the 3D real world. The second  pattern  is  reflected  in  the  two-dimensional  virtual  space. These  two  representations  are  inseparable.  The  virtual  dance  is  shown  on  the  screen  and  in  this  way  the  real  world  dance  extends  to  a  new  complementary  dimension  of  expression  (Fig.  16). 
+
+========11========
+
+SOLInA: neW  Me DIA  Ar T  Pr OjecTS, PAnOrAMIc IMAGeS AnD  L IVe VIDeO AS  In TerFAce 
+Figure 16. Virtual dance, 2008. 
+The  real  dance  is  recorded  by  a  camera  in  real-time.  While  the  dance  is  limited  by  space,  no  spatial  constraints  should  be  imposed  by  the  camera  and  other  technology  that  processes  the  video.  Therefore,  the  system  must  handle  tracking  of markers that leave the camera field of view and  reappear, or markers that are temporarily occluded  by the dancer, by objects in the scene, or by other  dancers.  In  this  way,  the  dancer  can  also  leave  the  scene  and  reappear  multiple  times  during  the  performance, and the system must be able to robustly  track  the  markers  thorough  the  performance. 
+The virtual dance is produced as a consequence  of  real  dance.  The  user  defines  the  virtual  space  while the dancers dance, so the dancer manipulates  the virtual dance and its presentation. The application  produces a movement of the virtual representations that  is in correlation with markers on the dancer’s body.  The user interactively chooses the representation of a  marker in the virtual video dance. The representation  can  be  a  picture  or  an  animated  two-dimensional  sequence, e.g., a movie clip of the dancer representing  a pre-recorded movement. The user can also choose  the background of the virtual dance and can change  the  size  and  the  color  of  virtual  markers. 
+The  real  dance  and  its  virtual  presentation  are  inseparably  connected  because  of  real  time  video  processing. Every movement in real world immediately  produces a movement in virtual world. Dancers can  observe the virtual dance that is produced by their  movement.  Hence  the  dancers  can  also  interact  with the virtual space through their dance. A dancer  can observe the virtual dance and produce a brand  new story and movement in the virtual world. If the  dancer chooses some particular presentation of her  markers  in  the  virtual  dance  and  if  she  moves  in  some special way, she can produce a new story in  the  virtual  world  which  is  not  focused  on  tracking  the  real  world  movement,  but  it  becomes  a  virtual  story  that  has  no  connection  with  dance  but  is  still  directed  by  the  dancer. 
+6.5   d ynamic Anamorphosis 
+The  concept  of  dynamic  anamorphosis13   can  be  defined  as  a  classical  or  static  anamorphic  image  requires  a  specific,  usually  a  highly  oblique  view  direction,  from  which  the  observer  can  see  the  anamorphosis  in  its  correct  form.  Dynamic  anamorphosis adapts itself to the changing position  of the observer so that wherever the observer moves,  he  sees  the  same  undeformed  image. 
+The  dynamic  changing  of  the  anamorphic  deformation,  in  concert  with  the  movement  of  the  observer, requires from the system to track the 3D  position of the observer’s head and the recomputation  of  the  anamorphic  deformation  in  real  time.  This  is  achieved  using  computer  vision  methods  which  consist  of  face  detection/tracking  of  the  selected  observer and stereo reconstruction of its 3D position  while  the  anamorphic  deformation  is  modeled  as  a  planar homography. Dynamic anamorphosis can be  used  in  the  context  of  an  art  installation,  in  video  conferencing  to  fix  the  problem  of  the  missing  eye  contact  and  can  enable  an  undistorted  view  in  restricted  situations.  Anamorphosis  serves  as  a  model for the concept of the gaze, which suggests  that visual appreciation rather than passive ‘looking’  requires  active  ‘observing’.  The  Big  Brother  from  the  film nineteen eighty-Four  (1956)  after  George  Orwell’s novel of the same name published in 1949.  The  Big  Brother  personifies  complete  surveillance  by  the  authorities  of  all  members  of  the  society,  mainly using telescreens with the image of the Big  Brother. To resolve the anamorphis deformation move  his head to the right and up so that the upper-right  corner  of  the  image  is  the  closest  to  the  eyes. 
+Dynamic anamorphosis disassociates the geometric  space in which the user moves from the visual cues  he  sees,  since  wherever  the  observer  moves,  he  sees  the  same  image.  The  installation  promotes  a  human  face  (Fig.  17)  with  the  eye  gaze  directed  straight  ahead  to  meet  the  eyes  of  the  installation  observer.  It  requires  a  dark  room  with  the  video  projection  over  an  entire  wall  so  that  the  only  visible  cues  seen  by  the  user  are  given  by  the  projection.  The  light  reflected  back  into  the  room  from the projected image must sufficiently illuminate  
+Figure 17. The Big Brother from the flm Nineteen eighty- 
+ Four (1956). 
+121 
+
+========12========
+
+DjLIT,  VOL.  34, nO.  2, MArcH   2014 
+the  scene  that  face  detection  can  be  performed.  Since the installation can truly be experienced only  by a single user, the entrance to the room with the  installation  should  be  controlled. 
+7. 
+AdAPt IVe  dIGItAL sIGNAG e 
+Due to larger size, better quality and lower cost  
+detect and track faces in the audience and to classify  the  faces  into  some  broad  gender  and  age-based  categories.  Other  parts  of  the  systems  are  also  important, for example how to automatically generate  scenarios  according  to  the  material  that  needs  to  be  displayed  and  the  behavior  of  the  audience.  Production  of  appropriate  multimedia  material  is  
+digital flat-panel displays are slowly replacing static also  important  for  the  success  of  such  systems  displays in commercial and public use. Digital signage  since  materials  produced  for  other  type  of  media  has several advantages over static displays. Since  (TV,  internet,  etc.)  can  not  be  directly  reused. 
+digital  displays  are  usually  connected  to  a  central  server, the displayed contents can be changed on the  fly, and much more information can be displayed in  sequence than it can be fitted onto a static display.  Also,  video  and  other  dynamic  visual  effects  can  be  displayed  beside  static  contents39,40. 
+normally, there is just a one-way flow of information  in  these  systems.  From  the  central  server  content  flows to the distributed displays according to some  pre-determined scenario. The system is blind to what is  actually happening in front of the displays. The connection  between  the  display  clients  and  the  central  server  can be used to send some feedback from the displays. 
+The  easiest  way  of  feedback  offers  a  video  camera  mounted  on  the  display  which  shows  what  is  going  on  in  front  of  the  display.  Using  computer  vision methods one can automatically determine not  only  the  number  of  people  in  front  of  the  display  but  estimate  also  their  gender  and  age.  Such  an  automatic  audience  measurement  system  can  offer  much  more  reliable  statistics  on  how  many  people  have  seen  a  particular  message  than  the  usual  estimates  used  in  advertising.  The  feedback  information  on  the  number  and  kind  of  people  in  the audience in front of a particular display can be  used not only for gathering statistics but to actually  adapt  in  real-time  the  scenario  for  displaying  the  available multimedia material. Especially in advertising,  most commercial messages are targeted to specific  groups  such  as  male/female,  youngsters/seniors,  etc. Using digital characterisation to classify people  in such broad categories can substantially increase  the  effectiveness  of  advertising. 
+A  further  step  in  this  direction  would  be  to  engage  the  observers  of  digital  displays  in  some  interaction.  The  usual  technology  for  interaction  in  public  spaces  such  as  touch  screens  or  other  input  devices  are  in  the  context  of  digital  signage  not  suitable  since  screens  for  digital  signage  are  larger  and  often  not  accessible.  One  can  envision  a  visual  interface  where  people  could  interact  with  the displayed contents using gestures or the position  of  their  whole  body  to  make  selections. 
+Such audience adaptive digital signage systems  are on the brink of commercial deployment. The most  critical  part  of  such  an  audience  adaptive  digital  signage  system  is  related  to  computer  vision,  to 
+122 
+Figure  18. Adaptive  digital  signage  system  setup  and  
+  information-fow.  
+A prototype of an audience adaptive digital signage  system to study in particular the computer vision part of  the system has been built41. Changing and sometimes  adverse  illumination  of  the  scene  in  front  of  the  display as well as constant movement of people in the  audience can make the detection and characterisation  of  faces  quite  a  challenge  (Fig.  18). 
+8.   c oNcLusIoNs 
+Several art-related websites and art installations,  ranging from classical presentations of picture galleries  to interactive art installations using computer vision have  been built in cooperation with the new media artists. 
+If a gallery or art museum website serves only  the general public, short information about collections,  some  pictures,  opening  hours,  and  directions  for  finding the museum generally suffice. If, on the other  hand,  a  museum  website  wants  to  serve  also  the  art  specialists,  almost  complete  collections  should  be  available  scanned  in  high  resolution,  together  with all other relevant information. This is of course  a  major,  several  years  long  undertaking,  which  must  be  carefully  planed  and  is  best  organised  in  the  framework  of  digitising  the  collection  in  high  resolution. The accompanying web design must be  more  conservative  with  the  primary  goal  of  finding  the  relevant  information  fast.  Several,  mostly  open  source tools, are available for development of such  multimedia  web  content. 
+
+========13========
+
+SOLInA: neW  Me DIA  Ar T  Pr OjecTS, PAnOrAMIc IMAGeS AnD  L IVe VIDeO AS  In TerFAce 
+Websites devoted to exhibitions of single authors  or  even  art-internet  installations  are  much  less  restrictive  in  design  as  well  as  in  technological  solutions since they are much smaller in content and  usually  short  lived. The  personal  computer  with  its  standard graphic interface is not the only vehicle for  accessing digitised cultural contents. Mobile handheld  devices are gaining in importance which usually require  some restructuring of information due to their small  display size on the one hand and large displays— digital  signage  on  the  other  where  the  possibilities  of  interaction  are  still  evolving.  Mobile  devices  are  important  as  guide  and  navigation  tools,  digital  signage devices can also add an additional channel  for providing information in museum and art galleries. 
+Contemporary  arts  interact  with  science  and  technology  in  many  ways.  The ArtNetLab  initiative  is  a  small  but  for  Slovenia  an  important  forum  and  meeting  space  where  young  inspiring  artists,  scientists  and  engineers  can  collaborate  to  bridge  the traditional divisions of disciplines. The scale of  recent  development  of  media  and  technology  has  affected not only the workplace and the entertainment  industry but also large areas of art (media art, video,  computer graphics, animation, net-art, interactive art,  virtual art, telepresence art, genetic art, etc.). It is,  therefore, imperative for fine-art students to get some  first-hand experience with the technology that enables  the  production  of  these  new  genres  of  art. 
+Mastering technology and off the shelf production  tools  by  artists  themselves  is  often  not  enough  for  advanced projects. new devices or interfaces must be  designed, new software written and enabling them is  one of the main benefits of the interdisciplinary and  collaborative team approach. From an engineering or  
+Zajc,  September  1995,  Portorož,  Slovenija,  
+Slovenian  Section  Ieee,  Vol. A,  pp.  3-6. 2. Peer,  P.  &  Batagelj,  B.  Art—A  perfect  testbed  
+for computer vision related research. In  Recent  
+advances  in  multimedia  signal  processing  and  
+communications, edited by M. Grgić, K. Delać &  
+M. Ghanbari. Studies in computational Intelligence,  
+Springer,  2009,  Vol.  231,  611-29. 
+3. Solina,  F.  Internet-based  art  installations.  
+Informatica,   2000,  24(4),  459–66,  . 
+4. Solina,  F. ArtNetLab:  The  essential  connection  
+between  art  and  science.  In   The  future  of  
+computer arts & the history of the international  
+festival  of  computer  arts,  maribor  1995-2004,  
+edited by M. Grgić, Maska and Maribor, Ljubljana  
+MKc,  2004,  pp.  148-53. 
+5. Prihavec,  B.  &  Solina,  F.  User  interface  for  
+video observation over the internet. J. Network  
+Comp. Appli.,  1998,  21,  219–37. 
+6. Prihavec, B.; Lapajne, A. & Solina, F. Aktivno video  
+opazovanje preko interneta.  In erK’96’, edited by B.  
+Zajc & F. Solina.  In  Proceedings of  5th  Electrotechnical  
+and  computer  Science  conference,  Portoroˇz,  
+Slovenia,  1996,  Vol.  B,  pp.  117–20. 
+7.  Dragan, S.; Solina, F.; Prihavec, B.; Korenč, S. &  
+nemec, B. netropolis—The cyborg’s eye: project.  
+In european cultural Month Ljubljana 1997. 15  
+May-5 july  1997.  Ljubljana  Municipality,  1997. 8.  Dragan, S.; Grabnar, P.; Prihavec, B.; rozman, S.;  
+Solina, F. & Vidmar, Andrej. netropolis—cyborg’s  
+eye. In  Proceedings of 6 
+th 
+ Electrotechnical and  
+computer  Science conference erK-97,  edited  
+by  B.  Zajc,  Portoroˇz,  Slovenia,  September  
+1997. Ieee region 8, Slovenian Section Ieee,  
+Vol.  B,  pp.  11–14. 
+scientific  point  of  view  such  projects  are  also  very  9.   n emec, B.;  Prihavec, B. & Solina,  F. Leonardo—A  
+stimulating  since  they  foster  novel  and  alternative  kinds of using new technology without the pressing  demands for immediate profit. new media art projects  offer a stimulating environment to experiment freely  so  that  a  new  generation  of  artist-researchers  and  researcher-artist  can  emerge  which  will  hopefully  develop  meaningful  art  for  our  times  and  set  new  agendas  in  science  and  technology  that  address  today’s  real  human  needs. 
+From  the  human  resources  point  of  view,  new  educational programs are sorely needed to combine  the  knowledge  of  technology  with  design  skills.  In  2010  the  ArtNetLab  initiative  resulted  in  a  new  interdisciplinary study programme ‘Computer Science  and new  Media’  at  University  of  Ljubljana. 
+ReFeReNces 
+1. Lapajne, A.; Prihavec, B.; ruben, A.; Kranjec, Ž.  
+& Solina, F. Slovenian virtual gallery. In erK’95:  
+Proceedings of 4th  Electrotechnical and Computer  
+Science  Conference,  edited  by  F.  Solina  &  B.  
+mobile  robot  for  gallery  visit  using  internet.   In 
+Proceedings  of  6th   International  Workshop  on  
+Robotics,  edited  by  M.  Ceccarelli,  Alpe-Adria- 
+Danube  region,  26-28  june  1997,  cassino,  
+Italy,  pp.  571–76.  
+10. Art net  Lab.  http://black.fri.uni-lj.si/. 
+11. Solina, F. 15 seconds of fame. Leonardo, 2004, 
+37(2),  105-10. 
+12. Solina, F.; Batagelj, B. & Glamočanin, S. Virtual  
+skiing  as  an  art  installation.  In   ELMAR-2008:  
+50th   International  Symposium,  Zadar,  Croatia,  
+2008,  Vol.  2,  pp.  507-10. 
+13.   r avnik, r.; Batagelj, B.; Kverh, B. & Solina, F.   
+Dynamic anamorphosis as a special, computer- 
+generated user interface. Interacting with Computers,  
+2014, 26(1),  46-62.  
+14.  Levin,  T.Y.;  Frohne,  U.  &  Weibel,  P.  rhetorics  
+of surveillance from bentham to big brother. MIT  
+Press,  ZKM  and  cambridge,  Karlsruhe,  2002. 15.  Lapajne,  A.  Slovene  virtual  gallery.  M’ARS :  
+Magazine of the Museum of Modern Art Ljubljana,  
+1996, VIII(3-4),  90-92,  . 
+123 
+
+========14========
+
+DjLIT,  VOL.  34, nO.  2, MArcH   2014 
+16.  The jakopič  Virtual  Gallery.  http://www.zveza- 
+dslu.si/jakopiceva-virtualna-galerija/. 
+17.  Drupal.  http://en.wikipedia.org/wiki/Drupal/. 18.  Drupal.  http://drupal.org/. 
+19. The  Indianapolis  Museum  of  Art.  http://www. 
+imamuseum.org/. 
+20.   j oomla!  http://www.joomla.org/. 
+21. The  Guggenheim  Foundation.  http://www. 
+guggenheim.org/. 
+22. Typo3.  http://typo3.com/. 
+23. Museo national del Prado. http://www.museodelprado. 
+es/en/. 
+24. Wordpress.  http://wordpress.org/. 
+25. Toledo Museum of Art. http://www.toledomuseum. 
+org/. 
+26. Szeliski , r. Video mosaics for virtual environments.  
+IEEE Comp. Graph. Appli., 1996,  16(2), 22-30. 27. Bovcon, n. Umetnost v svetu pametnih strojev:  
+novomedijska  umetnost  Sreča  Dragana,  jake  
+Železnikarja  in  Marka  Peljhana,  (Acta,  4).  
+raziskovalni  inštitut,  Akademija  za  likovno  
+umetnost  in  oblikovanje,  Ljubljana,  2009. 28. Srečo Dragan 1998. exhibitions 1993/98. Ljubljana,  
+ZDSLU. 
+29.  Dragan,  S.  &    Solina,  F.  new  information  
+technologies  in  fine  arts. In   Proceeding  of  4 
+th 
+International  Multi-Conference  of  Information  
+Society–IS2001 on New Information Technologies  
+in  Fine Arts,  edited  by  F.  Solina  &  S.  Dragan,  
+Ljubljana,  Slovenia,  2001,  pp.  441-44. 30. Strehovec, J. Cybernetic art. (Interactivity, game  
+and holistic immersion). Art Words,  May  1997,  
+39-40,168–72. 
+31.   e uropean cultural Month Ljubljana 1997 Programme,  
+15  May-5  july  1997.  Ljubljana  Municipality,  
+1997. 
+32.  Weibel, P. & Zabel, I. Space is beyond geopolitics  
+1, Parallel institutional spaces, virtual and telematic  
+spaces.  M’ARS:  Magazine  of  the  Museum  of  
+Modern Art  Ljubljana,  1997, IX(2),  23-24. 33.  jogan,  M.;  Bučar,  D.;  Artač,  M.;  Auflič,  M.;   
+10th   Electrotechnical  and  Computer  Science  
+conference, edited by B. Zajc, Portorož, Slovenia,  
+2001,  Vol.  B.,  pp.  139-42. 
+34. Essa, I.A. Computers seeing people. AI Magazine,  
+1999,  20(2),  69-82. 
+35. Kortum, P. (ed.). HcI beyond the GUI: Design for  
+haptic, speech, olfactory, and other nontraditional  
+interfaces. Morgan Kaufmann Press, Burlington,  
+MA,  2008. 
+36. Pentland, A. Smart rooms.  Scientific American,  
+1996, 274(4),  68-76. 
+37. Solina, F. 15 sekund slave in virtualno smucanje/15  
+seconds  of  fame  and  virtual  skiing.  exhibition  
+catalogue. ArtnetLab,  Ljubljana,  2005. 38. Dovgan, e.; Čigon, A.; Šinkovec, M. & Klopčič, U.  
+A system for interactive virtual dance performance.  
+In eLMAr-2008: 50 
+th 
+ International Symposium,  
+Zadar, croatia,  2008,  Vol.  2,  pp.  475-78. 39.  Lundstrom,  L.I.  Digital  signage  broadcasting:  
+Content management and distribution techniques. 
+Focal  Press,  2008. 
+40. Schaeffler, J. Digital signage: Software, networks,  
+advertising,  and  displays.  Focal  Press,  2008. 41. Ravnik, R. & Solina, F. Interactive and audience  
+adaptive digital signage using real-time computer  
+vision. Inter. J. Advanc. Robot. Sys.,  2013, 10,  
+1-7. 
+About  the Author 
+dr Franc solina  is working as Professor of  computer  Science at the Faculty of Computer and Information  Science, University of Ljubljana, Slovenia. He obtained  MSc (electrical engineering) from University of Ljubljana  and PhD (computer and Information Science) from  University of Pennsylvania. Since 1988, he is teaching  at  the  University  of  Ljubljana.  In  1991,  he  founded  the Computer Vision Laboratory with research focus  on range image interpretation, object recognition, and  vision based user interface design. During 2006-2010,  
+Mervar,  S.;  Škarabot,  M.;  Dragan,  V.  &  Solina,  
+he  served  as  the  Dean  of  the  same  faculty. 
+F.  WAP  kitchen.  In erK’01:  Proceedings  of  
+124 
+
+========15========
+

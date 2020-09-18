@@ -1,0 +1,548 @@
+DESIDOC Journal of Library & Information Technology, Vol. 32, No. 5, September 2012, pp. 409-416
+© 2012, DESIDOC
+
+E-learning Experience using Open Source Software: Moodle
+Sadanand Y. Bansode and Rajendra Kumbhar
+Dept of Library and Information Science, University of Pune, Pune-411 007
+E-mail: sadanand@unipune.ac.in; rajendra_kumbhar@unipune.ac.in
+
+ABSTRACT
+The present paper highlights the efforts made by the Department of Library and Information Science,
+University of Pune to use an open source software, viz., Moodle for the promotion of e-learning in the department.
+Various utilities of the Moodle such as development of the course, blogs, wiki, question banks, notification
+to the students, etc., has been used. This article narrates the experience of designing, development and
+implementation of e-learning course for the ‘Information Technology’ paper of the MLISc curriculum.
+Keywords: E-learning, technology-based learning, Moodle, blogs, wiki
+
+1. INTRODUCTION
+Various methods are in existence for imparting
+education such as, lectures, lectures with discussion,
+panels of experts, brainstorming, videotapes, class
+discussion, small group discussion, case studies, role
+playing, report back sessions, worksheets/surveys, index
+card exercise, guest speakers, value clarification
+Exercise, etc. Apart from this list, Jaiswal1 has identified
+various teaching methods adopted for imparting LIS
+education particularly in the LIS schools in India,
+Lectures, on the job training, discussions, project,
+assignments, question-answer, tutorials, class-notes,
+symposium, mock interview, group activity. In addition to
+the above mentioned methods, e-learning is also evolving
+as one method for imparting education and within a short
+span has gained popularity.
+
+2. E-LEARNING
+Terms that are commonly used to denote e-learning
+are ‘online learning’, ‘internet learning’, ‘distributed
+learning’, ‘networked learning’, ‘tele-learning’, ‘virtual
+learning’, ‘computer-assisted learning’, ‘web-based
+learning’, and ‘distance learning’2. E-learning is another
+way of teaching and learning. Different terminologies have
+been used for e-learning, due to which it is difficult to
+develop a generic definition.
+Robert & Piper3 define e-learning as ‘those that
+leverage various internet and web technologies to create,
+enable, deliver, and/or facilitate lifelong learning’.
+
+E-learning has a wide variety of definition, but
+ultimately it is used to describe the fields of online
+learning, web-based training, and technology-delivered
+instruction. E-learning could be interpreted as electronic
+learning; the learning that involves the internet; learning
+from a distance via the aid of the internet and, or other
+electronic gadgets4. More specifically e-learning is
+supposed to increase the rate of learning for the student
+around 20 to 505.
+There are many commercial as well as open source
+software available in the market which can be used for
+developing e-learning contents such as Joomla LMS,
+Studio’09, Saba, Desire2learn, Moodle, sakai webstudy,
+learning LMS and many more. Among these moodle is
+widely used because of its features and characteristics
+supporting e-learning. Moodle stands as one of the most
+popular open source learning management system.
+
+3. OBJECTIVES
+Following objectives were framed for the study:
+(a) To develop a course in library and information science
+using open source software
+(b) To implement the course to the MLIS students of the
+Department
+(c) To analyse the feedback of the students about the
+features of the software and about the e-learning
+process implemented in the Department
+
+Received 14 May 2012, accepted 14 May 2012, online published 7 September 2012
+
+409
+
+4. METHODOLOGY
+This is a product development research. The product
+i.e., a Moodle (Modular Object-oriented Dynamic Learning
+Environment)-based e-learning module is the outcome of
+this research. For developing this product, Moodle, a
+open source software was downloaded and installed with
+necessary modifications. In the next step, course content
+for the ‘Information Technology’ paper of the MLISc 2nd
+year students was designed. Students were given
+orientation for the use of the new designed e-learning
+module. After the initial orientation students started using
+the module, beginning with enrollment, assignment,
+blogs, wikis, and question bank. Feedbacks were
+obtained from time to time and changes were made to
+produce the present product.
+
+5. LITERATURE REVIEW
+According to the Moodle website6, it has a large and
+diverse user community with over 11,31,546 registered
+users on Moodle site alone, speaking over 78 languages
+in 218 countries. Many studies have been conducted
+highlighting use of moodle for imparting education.
+As a courseware package and learning system,
+Moodle has great potential for supporting conventional
+classroom instruction7. It not only supports text-based
+instruction but can also integrates wide range of
+resources such as html-formatted documents, graphics,
+audio, video, multimedia, flash-based application, etc.8,
+because of the facilities provided, it has great potential for
+supporting classroom instruction7 Moodle course platform
+allows: Activities’ monitoring, upgrade to the latest
+technical concepts and specialisation without expense or
+business agreement, discussion groups for the teachers’
+categories and to adjust homework to the levels of the
+students9
+Al-Ajlan & Zedan10 made a comparative study of
+Moodle and other virtual learning environment systems,
+based on the features, capabilities and technical aspects
+and came to the conclusion that Moodle is one of the best
+virtual learning environment system. Moodle is used for
+imparting education in many of the reputed institutions of
+the world such as City university, London11, Library of the
+University of Padua, Italy has developed English course
+for in-service librarians12, and Informatics Engineering
+Department of University of Coimbra has developed a
+module for the Moodle open source e-learning platform
+through which undergraduate students can ‘Build’,
+‘Answer’ and ‘Evaluate’ by blind peer review questions
+related to a course subject13. University of Malaga,
+Malaga, Spain uses Moodle module for teaching
+practicals of basic computer organisation course14.
+Machado & Tao15 compared the user experience
+between the leading proprietary solution, Blackboard, and
+410
+
+the leading open source solution, Moodle and found that
+Moodle learning management system is the more
+efficacious and effective than the Blackboard learning
+management system. Sanchez & Hueros16 surveyed 226
+students of the Business Administration and
+Management (LADE) and Infant and Primary School
+Teaching degree courses of the University of Huelva and
+found that Moodle usage was also directly influenced by
+perceived ease of use and attitude. Whereas Sumak17
+revealed that the actual use of Moodle depends on two
+main factors: Behavioural intentions and attitudes toward
+using Moodle.
+Escobar-Rodriguez & Monge-Lozano18 analysed
+students’ intention to use Moodle platforms to improve the
+teaching-learning process. Undergraduate students of
+Physics of Universidad Politécnica de Madrid feel that
+Moodle has helped them to reinforce their abilities and
+knowledge19.
+Welzer20 presented the analysis of a questionnaire
+and experiences gained through use of Moodle which
+investigate habits and usage of communication features,
+students’ willingness to participate in feedbacks, more
+particularly when they assess teachers, their general
+opinions on e-learning and their experiences with
+technical issues of Moodle. Paragina21, et al. came to the
+conclusion that the activity of managing a Moodle course
+is very complex and delicate both at the educational and
+at the computer programming level.
+
+6. DEPARTMENT OF LIS, UNIVERSITY OF
+PUNE
+The Department of Library and Information Science of
+University of Pune, Pune is one of the oldest and richest
+department in western India. The department was started
+in 1958 and the first diploma course was started in 195859, which was converted to Bachelor’s degree in library
+information science in 1965. Since 2002, the department
+has introduced two years integrated master’s degree in
+library & information science. Apart from these, the
+department is also running MPhil and PhD courses. The
+Department has the credit of producing more than 2000
+library & information science professionals and 57
+doctorates. The department is recognised as one of the
+finest department in maintaining the quality of LIS
+education imparted in the country.
+The department is always trying to give best to the
+students so that they will be in a position to handle library
+as well as technology in a smooth and effective way.
+Years together the department was disseminating
+knowledge to the students by adopting the traditional
+methods of teaching such as lectures, discussion
+method, seminars, assignments, tutorials etc., but since
+the adoption of the technology in almost every field, the
+department felt that they can experiment with the use of
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+technology in imparting teaching of LIS, also it will be
+helpful to the students in getting acquainted with the new
+technology. Hence the Department of LIS came out with
+an idea to go for e-learning on an experimental basis by
+adopting suitable software and after having the results
+further decision regarding adoption of the e-learning may
+be decided. After going through a number of options
+decisions was made to use Moodle.
+
+7. MOODLE AND VIRTUAL LEARNING
+ENVIRONMENT
+
+7.1 Development of Course
+
+File download
+
+Moodle provides a number of options for general
+format of the course. Once can choose to order the
+course chronologically by week, conceptually by topic or
+socially with a big forum as the central organising
+principle. The course format one can choose are: LAMS
+(Learning Activity Management System), SCORN
+(Sharable Content Object Reference Model) Format,
+Social format, Topic format, weekly format. The MLISc
+course at University of Pune is having information
+technology as one of the compulsory paper. Hence, it was
+decided that the course on information technology would
+be developed on experimental basis and if found positive
+response from the students then further it would extended
+for other papers also. The topic format of the Moodle
+allows to create section for each topic, one can add
+content, forums, quizzes and other activities to each topic
+section. Accordingly, the course was developed (Fig. 1 )
+and necessary rights and permission were set for the
+students and the teachers.
+
+Grading
+
+7.2 Enrollment of Students
+
+Instant messages
+
+The administrator was given full rights of the software.
+He was entrusted with a role of enrollment of the students
+of 3rd semester. Another reason of enrolling students from
+3rd semester (Fig. 2) was, that the students of 3rd
+semester were well versed with the technology when they
+
+Moodle is a free source e-learning software platform,
+also known as learning management system it was
+originally developed by Martin Dougiamad to help
+educators to create online courses with a focus on
+interaction and collaborative construction of content and
+in continual evolution and is available under GNU License.
+It is a software package for producing internet-based
+courses and websites. It is a global development project
+designed to support a social constructionist framework of
+education6. The features that are supported by Moodle
+are:
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Moodle was installed on a P-IV with Windows 7
+operating system. After successful installation of the
+software the system was treated as a server were as all
+the systems of the computer laboratory was given access
+through the server. Once the software was fully installed
+and tested for its various facilities, the following e-learning
+activities were carried out using the software.
+
+Assignment submission
+Discussion forum
+Blog
+
+Online calendar
+Online news and announcement
+Wiki, etc.
+
+Figure 1. Information technologies course for students.
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+411
+
+comes to third semester. Once the enrollment of the
+students was completed, they were given orientation of
+the software and was made fully aware about the working
+of the software and their rights as far as Moodle is
+concerned. They were provided with unique login ID and
+password to keep close watch on the activities carried out
+by the individual student.
+
+7.3 Weekly Online Assignments
+The students were provided with the weekly online
+assignments (Fig. 3) also they were instructed to submit
+their assignment online only. The students were
+supposed to login into moodle by using their ID and
+password, accordingly it was assessed by the teacher.
+
+7.4 Blogs
+Blogs have been around for years, but recently they
+have gained popularity. Some of the experts have referred
+
+blogs as a web-based journals.22 They are supposed to be
+one of the most powerful tool to enable collaborative
+learning process. Today many of the institution has
+developed blogs and has kept open for the students to
+have discussion on a particular topic. Moodle supports for
+the creation of blog, hence it was decided to utilise these
+facility as a question and answer board (Fig. 4). The
+students were allowed to open discussion on the topics of
+their interest from the LIS. It has provided an opportunity
+for the students to discuss topics outside the
+classrooms.
+
+7.5 Wikis
+A Wiki is a web technology that allows a users to
+allows anyone to edit, it Promotes collaboration and
+knowledge sharing, fosters feeling of ownership and
+increases participation. Educators has recently explored
+its usefulness in promoting deeper learning and its
+integration of learning experiences in inside and outside
+
+Figure 2. Students enrolled.
+
+Figure 3. Weekly assignments of students.
+412
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+the classroom. They too have realised that Wikis facilitate
+collaborative finding, shaping, and sharing of knowledge,
+as well as communication, all of which are essential
+properties in an educational context. Students were
+encouraged to contribute articles on some of the burning
+topics of LIS by using the wikis facility provided by the
+Moodle (Fig. 5). They were provided with the permission
+so as view, edit and to make a comment so as to improve
+the quality of the article.
+
+7.6 Notifications to Students
+Monthly seminar is the routine activity of the
+department. The 3rd semester students were notified
+regarding their seminars using Moodle. The notification
+were made available to the students (Fig. 6) well in
+advance with the topics on which they were supposed to
+make the presentation (Fig. 7). The whole full months
+activities were notified to the students by using the
+calendar.
+
+7.7 Development of Question Bank
+The students are always in need of the old question
+papers so as to have an idea of what type of questions
+generally appears in the examination. In order to fulfill this
+requirement and to give idea to the students what type of
+questions generally appears in the NET/SET the question
+bank was developed. The question bank generally have all
+types of question ranging from long essay type question
+to short and objective types of questions. (Fig. 8)
+
+7.8 Generation of Reports
+The Department has taken steps to provide education
+in the department by using technology. It was important to
+keep check on the activities of the students. Hence, it
+was decided to keep report of each student and
+accordingly fortnightly report was generated which used
+to highlight what different activities he has performed in
+this learning environment.
+
+Figure 4. Blogs.
+
+Figure 5. Wiki page for editing by students.
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+413
+
+Figure 6. Notification of proposed activities through calendar.
+
+Figure 7. Notification of proposed activities through calendar.
+
+The report not only highlights the areas he has
+viewed, but also highlights about his active participation
+and tasks completed. (Fig. 9).
+
+8. DISCUSSIONS
+Moodle has many advantages and can be modified
+according to the requirements of the course. At the initial
+stage of learning, it was little difficult for the students to
+shift the platform, i.e., from traditional classroom teaching
+towards the virtual environment. Even two students
+commented that it was frustrating to them, but feedback
+of majority of the students seems to be positive as they
+could gain experience of the technology. The positive
+impact can be clearly seen through their active
+participation in the discussion made through the blog.
+Discussion on the blogs has helped the students to build
+414
+
+up their confidence in putting forth their views on a topic.
+Wiki facility has really enhanced the collaborative learning
+of the students. It has promoted critical thinking and
+knowledge construction and the students were able the
+go beyond the traditional boundaries of learning. They
+were having wider access to the information. It has helped
+the students the evaluate a piece of information and share
+their classnotes.
+Wikis have made their way into the classrooms as
+tools for students to perform group authoring and
+collaborative analysis, develop literature review for
+research projects, summarise readings, communicate
+with students and create knowledge bases. Students
+were able to upload their assignments, comments on the
+blogs and contribution the wiki as per their own leisure
+time.
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+Figure 8. Question bank.
+
+Figure 9. Generation of activity report.
+
+Even one of the student has commented that, “Moodle
+has given them a new vision for collaborative writing”. Nine
+students opined that the question bank developed in the
+Moodle has helped them for preparation of examinations
+such as National Eligibility Test (NET) and State Eligibility
+Test (SET) which is supposed to be the most essential
+criteria for joining the profession.
+
+9. CONCLUSIONS
+E-learning as a teaching-learning mechanism offers
+tremendous opportunities for learning beyond boundaries.
+Using e-learning an active teacher can reach to
+thousands of learners. Similarly, the individual learner
+gets opportunity to react to the content delivered to him,
+seek further advice, and communicate his thoughts back
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+to the teacher. The teacher in turn can know to what
+extent his objective sure has been achieved and what
+more is to be done to improve students learning. The elearning modules imparted through the Moodle will also
+help enable students, teachers and other agencies
+interested in education to develop learning material
+collaboratively. Content created through medias like wikis
+enhances quality of the content. Such Moodle-based elearning programmes enable teachers to use, multiple
+teaching tools like question bank, assignments,
+feedback, etc. This certainly enriches students learning
+experience.
+This module, could be adapted for other papers of the
+MLISc course. With little or no modifications, this module
+could be adapted to provide e-learning experience to
+students of other subjects also.
+415
+
+REFERENCES
+1. Jaiswal, Babita. Methods of teaching library and
+information science: An empirical approach. Annals
+Lib. Inf. Stud., 2002, 49(4), 135-39.
+2. Sharifabadi, Saeed Rezaei. How digital libraries can
+support e-learning. The Electronic Library, 2006,
+24(3), 389-01.
+3. Robert, Peterson & Piper, Jaffray. About e-learning.
+http://peoplesoft-lc.hosted.learnframe.com/aboutele
+arning/page2.asp (accessed on 12 February 2012).
+4. Helen, Nneka Eke. The perspective of e-learning and
+libraries in Africa: Challenges and opportunities.
+Library Review, 2010, 59(4), 274–90.
+5. Kumar, Ram & Kush, Ashwani. E-learning
+emergence. DESIDOC Bull. Inf. Technol., 2006,
+26(2), 19-24.
+6. Moodle. About Moodle. http://docs.moodle.org/22/
+en/About_Moodle (accessed on 12 January 2012)
+7. Brandl, Klaus. Are you ready to Moodle. Language
+Learn. Technol., 2005, 9(2), 16-23.
+8. Godwin-Jones, B. Learning objects: Scorn or
+SCORM? Language Learn. Technol., 2004, 8(2), 7-12
+9. Paragina, Florica, et al. The benefits of using
+MOODLE in teacher training in Romania. Procedia
+Soc. Behav. Sci., 2011, 15, 1135-139.
+
+14. Trenas, Maria A., et al. Use of a new Moodle module
+for improving the teaching of a basic course on
+computer architecture. IEEE Trans. Edu., 2011,
+54(2), 222-28.
+15. Machado, M & Tao, E. Blackboard vs. Moodle:
+Comparing user experience of learning management
+systems. http://ieeexplore.ieee.org/stamp/stamp.jsp
+?tp=&arnumber=4417910
+(accessed
+on
+12
+December 2011).
+16. Sanchez, R. Arteaga & Hueros, A. Duarte.
+Motivational factors that influence the acceptance of
+Moodle using TAM. Comp. Human Behav., 2010,
+26(6), 1632-640.
+17. Sumak, B., et al. Factors affecting acceptance and
+use of Moodle: An empirical study based on TAM.
+Informatica, 2011, 35, 91-100
+18. Escobar-Rodriguez, T. & Monge-Lozano, P. The
+acceptance of Moodle technology by business
+administration students. Computers & Education,
+2011. http://www.sciencedirect.com/science/article/
+pii/S0360131511002934
+19. Martin-Blas, Teresa & Serrano-Fernandez, Ana. The
+role of new technologies in the learning process:
+Moodle as a teaching tool in Physics. Computers &
+Education, 2009, 52(1), 35-44.
+
+10. Al-Ajlan, Ajlan & Zedan, Hussein. Why Moodle. http:/
+/ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumb
+er=4683115 (accessed on 21 December 2011).
+
+20. Welzer, T. & Holbl, M. Student’s feedback and
+communication habit using Moodle. Electro. Electri.
+Engg., 2010, 6(102). http://www.ee.ktu.lt/journal/
+2010/6/16__ISSN_1392-1215Students%20Feedb
+ack%20and%20Communication%20Habits%20u
+sing%20Moodle.pdf
+
+11. Susannah, Quinsee & Anise, Bullimore. Creating the
+strategic learning environment at City University
+London. Campus-Wide Inf. Sys., 2001, 28(4), 275-88.
+
+21. Paragina, Silviu, et al. The Moodle course
+management system and its e-learners’ needs.
+Procedia Soc. Behav. Sci., 2011, 15, 1135-139.
+
+12. Matilde, Fontanin. Developing an English course for
+in-service librarians: The advantages of blended
+learning. Library Management, 2008, 29(8/9), 777-88.
+
+22. Kolbitsch J. & Maurer H. The Transformation of the
+web: How emerging communities shape the
+information we consume. J. Univ. Comp. Sci., 2006,
+12(2), 187-213.
+
+13. Mario, Zenha-Rela & Rafael, Carvalho. Work in
+progress: Self evaluation through monitored peer
+review using the Moodle platform. http://ieeexp
+lore.ieee.org/stamp/stamp.jsp?tp=&arnumber=41
+17034 (accessed on 12 December 2011)
+
+416
+
+23. Chen, H.L., et al. Using wikis and weblogs to support
+reflective learning in an introductory engineering
+design course. http://citeseerx.ist.psu.edu/viewdoc/
+download?doi=10.1.1.127.5481&rep=rep1&type=pdf
+(accessed on 23 December 2011).
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+

@@ -1,0 +1,6295 @@
+DESIDOC Journal of Library & Information Technology, Vol. 31, No. 4, July 2011, pp. 275-294
+© 2011, DESIDOC
+
+Content-based Document Recommender System for Aerospace
+Grey Literature: Experimental Testing and User Opinion Survey
+K. Nageswara Rao and V.G. Talwar*
+Defence Research & Development Laboratory, Hyderabad-500 058
+E-mail: nageswararao@drdl.drdo.in
+*Vice-Chancellor, University of Mysore, Mysore-570 005
+
+ABSTRACT
+The study aims to test content-based document recommender system (CODORS) with sample data to
+retrieve most relevant technical documents without necessarily matching title terms and closely related to particular
+search term(s). The CODORS system was put open for users to search and obtain recommendations with weighted
+relevance ranking and also allowed to compare the results obtained through general OPAC search engine for the
+same keywords. Based on the findings of the experimental testing and evaluation, some conclusions have been
+drawn:The results exhibited that the CODORS search provided many more relevant documents and increased the
+recall value as compared to general OPAC search and also revealed documents that were retrieved for a given
+query through OPAC search appeared at different places-top, middle or end of the ranked list of documents generated through the CODORS search for the same query.
+Keywords:
+
+Recommender systems, content-based
+information retrieval, document retrieval
+
+1. THE RESEARCH PROBLEM
+The need for enhancing the recall value of the
+results retrieved motivated the researcher to search for a
+technique that would retrieve more documents for a given
+query, particularly grey literature on aerospace. Some
+retrieval models generally rank retrieved documents as
+relevant to the query according to some criteria and such
+models are called as ranking models1. The study of
+advances made in IR systems, more particularly retrieval
+models such as Boolean model, vector space model, and
+probabilistic retrieval models, showed not only the
+possibility of retrieving more relevant documents for a
+given query, but also ranking of these documents so as to
+facilitate the user to select the relevant documents based
+on the objectivity. It also provided a cut-off point in case if
+large number of relevant documents were retrieved. With
+this aim in mind, the authors chose the research problem
+entitled,
+"Designing
+Content-based
+Document
+Recommender System for aerospace grey literature".
+The authors, hence, developed a test-bed database
+of grey literature on aerospace engineering using 'Dialog
+OnDisc Aerospace Database' brought out by American
+Received 10 January 2011
+
+document
+
+recommender
+
+system,
+
+CODORS,
+
+Institute of Aeronautics and Astronautics (AIAA) for this
+purpose. Further, the authors developed a recommender
+system
+known
+as
+Content-based
+Document
+Recommender System (CODORS)2 using Boolean
+operators. The recommender system so developed was
+put to test using the above database and results of
+CODORS searches were compared with the retrieved
+output of the normal OPAC searches. The major issues of
+concern in designing this recommender system were: to
+increase the search capability and to get ranked list of
+documents retrieved by automatically assigning
+weightage to each document retrieved.
+
+2. OBJECTIVES OF THE STUDY
+The objectives of the study are:
+
+
+To understand and to assess the capability of general
+OPAC to retrieve grey literature relevant to scientists
+working in the field of aerospace engineering and
+allied sciences.
+
+
+
+To design CODORS using first order descriptors in
+aerospace engineering and allied sciences based
+275
+
+on individual user search words (profiles) to
+facilitate easy access to and optimum utilisation of
+relevant information in the form of grey literature.
+
+S7: Calculation of "Boosting Factor" with the help of
+highest ranked document from CODORS results and
+adding to every document in the results.
+
+3. HYPOTHESIS
+
+S8: Displaying the documents retrieved at Step S7 on the
+basis of decreasing order of relevance.
+
+Although the objectives of the study are clear, there
+were chances that the study may deviate from the track
+as the research progresses. Hence, it was necessary to
+have a hypothesis running through the objectives. For the
+present study, the following hypothesis was formulated:
+
+5. SYSTEM TESTING WITH SAMPLE SEARCH
+QUERIES
+
+H+: Use of CODORS as compared to general OPAC
+searches results in retrieving comprehensive, highly
+relevant and ranked documents in the field of aerospace
+engineering and allied sciences.
+
+4. METHODOLOGY OF THE STUDY
+The study adopted was the experimental testing and
+user opinion surveys. It began with the development of
+bibliographic database of papers of conference
+proceedings relevant in the field of aerospace
+engineering and allied sciences. Titles of the conference
+papers and associated descriptors were considered
+essential for the study. As the efficiency and accuracy of
+the system to be developed depended solely on the
+suitable descriptors representing the thought content of
+the documents, the descriptors assigned in the source,
+i.e., Dialog OnDisc Aerospace Database were used as
+these descriptors were assigned using NASA thesaurus.
+The next step was the development of CODORS using
+‘first-order descriptors’. The steps involved in the
+development of CODORS are described.
+
+Exercising formal testing of information retrieval
+systems was carried out initially in Cranfield experiments
+in early 1960s. The aim of Cranfield research was to find
+ways to improve the retrieval effectiveness of IR systems
+through better indexing languages and methods3. For
+performance comparisons, quantitative measures used in
+the Cranfield II experiments were recall and precision,
+which are the derivative of the concept of relevance4. A
+series of IR experiments were conducted on the SMART
+system by Gerald Salton5,6. A series of experiments,
+known as TREC (Text TEtrieval Conference), were started
+in 1992 and were considered as real experimental
+approach to information retrieval evaluation.
+Having designed the CODORS recommender
+system, it was put to test. As many as 124 search tests
+were conducted using different key terms ranging from
+broader to narrower subject fields in the area of aerospace
+engineering. The hit results of general OPAC searches
+and CODORS searches were studied, tabulated, and
+compared to assess the usefulness of CODORS.
+Detailed search queries and results obtained using
+normal OPAC and CODORS are shown in Appendix 1.
+
+S1: Extraction of individual search words (terms)
+entered by the users.
+
+6. SUMMARY OF FINDINGS WITH SAMPLE
+SEARCH QUERIES
+
+S2: Retrieval of titles of all documents having all the
+search words (terms) entered by the users.
+
+The findings of the experiments conducted on the
+test database using CODORS recommender system in
+actual environment are summarised here under:
+
+S3: Retrieval of all descriptors that are assigned to all
+documents retrieved at step S2.
+
+(i)
+
+S4: Formulation of weighted vector of descriptors as it is
+the base of user profile. The elements of the vector
+are termed as 'first-order descriptors'. Weights for
+the descriptors are calculated based on number of
+occurrences of individual descriptors with reference
+to total number of descriptors retrieved at step S3.
+
+General OPAC search could retrieve documents
+ranging between 2 to 10 for a given query. The search
+under CODORS system retrieved 10-500 documents
+and even more for a given query. It, however, depends
+on the subject area of the query. That means the
+recall value of the searches under CODORS is found
+to be much greater compared to that of general
+OPAC searches.
+
+S5: Mining of all documents titles from the database,
+which are having at least any one of the 'First Order
+Descriptors' retrieved at step S3.
+
+(ii) The CODORS searches provided ranking of all the
+documents retrieved and this ranking is based on the
+weightages of the document relevance for a given
+query.
+
+S6: With the help of matching descriptors, calculation of
+the percentage weightage of each document retrived
+at step S5.
+
+(iii) In the ranking order, majority of the documents
+retrieved from the general OPAC are normally placed
+
+276
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+either somewhere in the top, middle or in the end of
+the ranked list of documents which means many
+more relevant documents are left un-retrieved, in case
+of simple OPAC search.
+
+7. OPINION SURVEY OF USERS ON CODORS
+The questionnaire is an importa survey technique for
+gathering data from users during recommender system
+evaluation experiments. Questionnaire is structured
+research instrument which is used to collect research
+data in a face-to-face interview, self-completion survey,
+telephone interview or Web survey. It consists of a series
+of questions, which may be in form, on interview schedule
+on paper, or on a webpage7.
+The system was thrown open to the users to enable
+them to use CODORS searches and thereby test the
+usability of this recommender system in actual
+environment. The scientists were provided URLs of both
+general OPAC and CODORS on Intranet of Defence
+Research and Development Laboratory (DRDL) and
+requested to search their required information relating to
+grey literature. To assess and confirm the usability of the
+recommender system-CODORS-in actual environment an
+opinion survey of users was conducted through structured
+questionnaire. As many as 27 questions relating to
+various aspects of information search including use of
+OPAC and CODORS were provided in the questionnaire
+(Appendix 2).
+The questionnaire comprised closed questions that
+provide a fixed set of responses with which users must
+respond such as more relevant, most relevant and not
+relevant, etc. The questionnaire was distributed to 150
+scientists and technocrats who are the regular users of
+the library. All the 150 users responded to the
+questionnaire. These questionnaires have been tabulated,
+analysed and results have been reported in succeeding
+sections.
+
+respondents mentioned that they are familiar with
+OPACs, 71 (47.33per cent) respondents said that they
+are very familiar with OPACs and 1 (00.67per cent)
+respondent stated that he is not very familiar with OPACs.
+
+8.2 Relevance of Documents Retrieved Using
+Simple OPAC
+Opinions of users about the relevance of documents
+retrieved through OPAC searches were collected under 5
+options as shown in Table 2. Table 2 depicts that 86
+(57.33 per cent) respondents mentioned that the results
+are relevant between 50-74 per cent, 60 (40 per cent)
+Table 2. Relevance of documents retrieved using simple OPAC
+Opinion
+100 per cent
+relevant
+Be twee n 75-99
+per cent relevant
+Be twee n 50-74
+per cent relevant
+Be twee n 25-49
+per cent relevant
+Less than 25 per
+cent relevant
+
+No. of respondents
+
+Percentage
+
+0
+
+00.00
+
+60
+
+40.00
+
+86
+
+57.33
+
+4
+
+02.67
+
+0
+
+00.00
+
+respondents said that the results are relevant between
+75-99 per cent and 4 (2.67 per cent) respondents stated
+that the results are relevant between 25-49 per cent. No
+user mentioned that the results were 100 per cent
+relevant, and they were less than 25 per cent relevant.
+
+8.3 Display of Documents with Relevance
+Ranking in OPAC Search
+To the question whether results of general OPAC
+searches are displayed in ranked order giving their
+weightages of relevance, all 150 (100.00per cent)
+respondents answered that the search results were not
+displayed with relevance ranking.
+
+8. ANALYSIS OF OPINION SURVEY
+8.1 Familiarity of Users with Online Public
+Access Catalogue
+Users were asked to furnish to what extent they are
+familiar with Online Public Access Catalogue (OPAC).
+Table 1 shows users opinion on their familiarity with
+OPAC of libraries. Out of 150 users, 78 (52 per cent)
+Table 1. Familiarity with OPAC
+Opinion
+
+No. of respondents
+
+Percentage
+
+Not very familiar
+
+1
+
+00.67
+
+Familiar
+
+78
+
+52.00
+
+Very familiar
+
+71
+
+47.33
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+8.4 Retrieval of Results in OPAC Searches
+where Key Terms did not Match Titles
+Users were asked to furnish their opinion on results
+of OPAC searches in cases where the key term keyed in
+by them did not match the title of document. All 150 (100
+per cent) respondents answered that there were no hits
+and the search results were not displayed.
+
+8.5 Users’ Knowledge of Filtering Systems for
+Filtering Relevant Information
+To a question about the knowledge of filtering
+systems 125 (83.33 per cent) respondents expressed
+that they were not aware of any filtering system for
+277
+
+filtering relevant information and 25 (16.67 per cent)
+respondents said that they were aware of filtering
+systems. Table 3 depicts the same.
+Table 3. Knowledge of filtering systems for filtering relevant
+information
+
+Opinion
+
+No. of respondents
+
+Percentage
+
+Aware
+
+25
+
+16.67
+
+Not aware
+
+125
+
+83.33
+
+8.6 Users’ Knowledge about Thesaurus and its
+Importance in Information Retrieval
+Table 4 depicts that 119 (79.33 per cent)
+respondents were not aware of thesaurus and its
+importance in information retrieval. Thirty-one (20.67 per
+cent) respondents were aware of the importance of the
+thesaurus.
+Table 4. Knowledge about thesaurus and its importance in
+information retrieval
+Opinion
+
+No. of respondents
+
+Percentage
+
+Y es
+
+31
+
+20.67
+
+No
+
+119
+
+79.33
+
+8.7 Users’ Knowledge about Concept-based
+Searching
+Table 5 shows that 120 (80 per cent) respondents
+were not having the knowledge about concept-based
+searching and 30 (20 per cent) respondents were having
+the knowledge about concept-based searching.
+Table 5. Knowledge about concept-based searching
+
+Opinion
+
+No. of respondents
+
+Percentage
+
+Yes
+
+30
+
+20
+
+No
+
+120
+
+80
+
+8.8 Users’ Knowledge of Recommender
+Systems for Identifying Relevant
+Information
+To a question about the knowledge of recommender
+systems for identifying relevant information, all 150 (100
+per cent) respondents replied that they were aware of
+recommender system.
+
+8.9 Users’ Awareness of Content-based
+Document Recommender System
+To a question whether the users are aware of
+CODORS, all 150 (100 per cent) respondents replied
+positively and said that they were aware of CODORS.
+
+278
+
+8.10 Usage of CODORS for Searching Required
+Information by the Users
+Users were asked whether they use CODORS for
+searching required information. All 150 (100 per cent)
+respondents replied positively and said they were using
+CODORS for searching information of their requirement.
+
+8.11 Usage Frequency of CODORS for
+Searching Required Information
+Opinion on usage frequency of CODORS was
+collected from the respondents. Seventy-seven (51.33 per
+cent) respondents used CODORS 'once in a week',
+followed by 39 (26 per cent) respondents who used it twice
+in a week', 19 (12.67 per cent) respondents who used it
+'once in 2 weeks', and remaining 11 (7.33 per cent)
+respondents who used it rarely (Table 6).
+Table 6. Usage frequency of CODORS for searching required
+information
+Opinion
+
+No. of respondents
+
+Percentage
+
+Daily
+
+0
+
+00.00
+
+Thrice in a week
+
+4
+
+02.67
+
+Twice in a week
+
+39
+
+26.00
+
+Once in a week
+
+77
+
+51.33
+
+Once in 2 weeks
+
+19
+
+12.67
+
+Rarely
+
+8
+
+05.33
+
+Not responded
+
+3
+
+02.00
+
+8.12 Usefulness of CODORS Results
+Table 7 depicts users' opinion about the usefulness
+of CODORS results. Table 8 shows that 148 out of 150
+representing 98.67 per cent of the total found the results
+useful and none have found them not useful. However, 2
+(1.33 per cent) respondents have not responded to the
+query.
+Table 7. Usefulness of CODORS results
+Opinion
+
+No. of respondents
+
+Percentage
+
+148
+
+98.67
+
+Not useful
+
+0
+
+00.00
+
+Not responded
+
+2
+
+01.33
+
+Useful
+
+8.13 Expected Number of Hits from CODORS
+Search
+Users were asked whether they had expected
+specific number of results before they completed their
+search through CODORS and if so whether the results
+obtained were more than the expectation and otherwise
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+less. Table 8 reveals that 134 (89.33 per cent)
+respondents got more results than they expected, 16
+(10.67 per cent) respondents got expected number of
+results. But none of the user experienced hit results less
+than expectation.
+Table 8. Expected number of hits from CODORS search
+
+Opinion
+
+No. of respondents
+
+Percentage
+
+Expected
+
+16
+
+10.67
+
+More than
+expected
+
+134
+
+89.33
+
+Less than
+expected
+
+0
+
+00.00
+
+8.14 Relevance of CODORS Search Results
+Respondents were asked to furnish their opinion
+about the relevance of the results of CODORS search.
+Table 9 depicts that for 72 (48.00 per cent) respondents
+the CODORS search results are relevant 'between 51-75
+per cent', for 66 (44.00 per cent) respondents the results
+were relevant 'between 76-99 per cent', for 11 (7.33 per
+cent) respondents the results were relevant ' between 2650 per cent' and for 1 (0.67 per cent) respondent the
+results were 100 per cent relevant. None of the
+respondent expressed that results are below 25 per cent
+and as well not relevant.
+Table 9. Relevance of CODORS search results
+Opinion
+
+No. of respondents
+
+Percentage
+
+Not relevant
+
+0
+
+00.00
+
+< 25 % relevant
+
+0
+
+00.00
+
+Between 26-50 %
+relevant
+
+11
+
+07.33
+
+Between 51-75 %
+relevant
+
+72
+
+48.00
+
+Between 76-99 %
+relevant
+
+66
+
+44.00
+
+8.15 Ease of use in Searching CODORS
+Users were asked to state whether searching
+information through CODORS is easy and if so to what
+extent? Table 10 depicts that 123 (82.00 per cent)
+respondents expressed that searching for information
+using CODORS is 'very easy', followed by 22 (14.67 per
+Table 10. Ease of use in searching CODORS
+Opinion
+
+N o. of respondents
+
+Not easy
+
+0
+
+00.00
+
+Easy to some
+extent
+
+5
+
+03.33
+
+Moderately easy
+
+22
+
+14.67
+
+Very easy
+
+123
+
+82.00
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+Percentage
+
+cent) respondents who said that it is 'moderately easy', 5
+(3.33 per cent) respondents who opined that it is 'easy to
+some extent', and no respondent who mentioned 'Not
+easy' option.
+
+8.16 Frustration Using CODORS by the Users
+Users were asked to give their opinion if they got
+frustrated while using CODORS. There were 148
+respondents representing 98.67 per cent of the total who
+opined that they were not frustrated. Only 2 (1.33 per
+cent) respondents expressed that they were frustrated
+(Table 11).
+Table 11. Frustration while using CODORS
+
+Opinion
+
+No. of respondents
+
+Percentage
+
+Yes
+
+2
+
+01.33
+
+No
+
+1 48
+
+98.67
+
+8.17 Satisfaction about Display of Relevance
+Ranking of CODORS Search Results
+When asked the users whether they were satisfied
+with the display of relevance ranking of CODORS results,
+all 150 (100 per cent) expressed positively.
+
+8.18 Usefulness of CODORS for Finding
+Relevant Documents on a Particular
+Subject of Interest
+Opinion expressed by the respondents on usefulness
+of CODORS for finding relevant documents on a particular
+subject of interest revealed that all 150 (100 per cent)
+respondents were positive opined that the CODORS is
+useful for finding relevant documents on a particular
+subject of interest.
+
+8.19 Comprehensiveness of CODORS Results
+on a Particular Subject of Interest
+All 150 (100) respondents expressed that CODORS
+search on a particular subject of interest provided them
+comprehensive search output.
+
+8.20 Results of CODORS Searches with Key
+Terms that did not Match Title Terms
+Users were asked to furnish whether they
+experienced hits in CODORS searches where in the key
+terms they used did not match with title of the document.
+One hundred forty-five (96.67 per cent) respondents
+stated they experienced hit results though key terms did
+not match with title of the documents. However, 5 (3.33
+per cent) respondents expressed that they did not
+experienced hit results wherever the key terms did not
+match with terms in the title (Table 12).
+279
+
+Table 12. In CODORS results, key terms that did not match
+title terms
+Opinion
+Obtained hit
+results
+Did not
+obtained
+hit results
+
+No. of respondents
+
+Percentage
+
+145
+
+96.67
+
+5
+
+03.33
+
+8.21 Percentage of Success in CODORS
+Results when Key Terms did not Match
+Title Terms
+The authors collected the opinion under five options
+about the percentage of success in CODORS searches
+when key terms did not match title terms and tabulated
+the same. Table 13 revealed that 93 (62.00 per cent)
+respondents rated the success between 50-74 per cent,
+35 (23.33 per cent) respondents rated the success
+between 75-99 per cent, and 22 (14.67 per cent)
+respondents rated the success between 25-49 per cent.
+None of the respondent has rated the success below 25
+per cent and as well 100 per cent.
+Table 13. Percentage of success in CODORS results when key
+terms did not match title terms
+Opinion
+Less than 25 %
+success
+
+No. of respondents
+
+Percentage
+
+0
+
+00.00
+
+Between 25-49 %
+success
+
+22
+
+14.67
+
+Between 50-74 %
+success
+
+93
+
+62.00
+
+Between 75-99 %
+success
+
+35
+
+23.33
+
+0
+
+00.00
+
+100 % success
+
+8.24 Retrieval of Documents by CODORS
+Ranked Above the One Considered More
+Relevant
+Users were also asked if they had experienced more
+number of hits than that of the one they had considered
+most relevant, did they found such documents still better
+relevant. Table 14 shows that 148 respondents out of total
+150 representing 98.67 per cent expressed positively and
+said retrieval of documents by CODORS were ranked
+above the one they considered most relevant and only 2
+(1.33 per cent) respondents mentioned that retrieval of
+documents by CODORS were not ranked above the one
+they considered most relevant.
+Table 14. Retrieval of documents by CODORS ranked
+above the one considered more relevant
+
+Opinion
+
+8.23 Retrieving More Documents in Ranked
+Order in Addition to the Document of
+Interest.
+User's opinion was sought on the retrieval of more
+relevant references in ranked order in addition to one that
+they considered has highest relevance all 150 (100.00 per
+cent) respondents opined positively.
+
+280
+
+Percentage
+
+Yes
+
+148
+
+98.67
+
+No
+
+2
+
+01.33
+
+8.25 Relevance of Recommendations by
+CODORS Ranked above the Document
+the User Considered Relevant
+User were asked to furnish their opinion on how
+relevant were the documents that were displayed by
+CODOR search and ranked above the document that the
+user considered most relevant. Table 15 presents that 89
+(59.33 per cent) respondents opined that the CODORS
+recommendations ranked above the one considered
+relevant were more relevant and 59 (39.33 per cent)
+respondents opined that CODORS recommendations
+were most relevant and 2 (1.33 per cent) respondents
+mentioned that the CODORS recommendations were not
+better relevant.
+Table 15. Relevance of CODORS recommendations ranked
+above the document the user considered relevant
+
+8.22 Searching CODORS for Document of
+Highest Relevance
+For a question whether they searched for results in
+CODORS keeping in mind a document of highest
+relevance, all (150; 100 per cent) respondents expressed
+positively.
+
+No. of respondents
+
+Opinion
+
+No. of respondents
+
+Percentage
+
+Most relevant
+
+59
+
+39.33
+
+More relevant
+
+89
+
+59.33
+
+Not relevant
+
+2
+
+01.33
+
+9. SUMMARY OF FINDINGS USING OPINION
+SURVEY
+The findings of the survey sought by the users about
+the usability of CODORS recommender system in actual
+working environment are summarised below:
+(i)
+
+All (150; 100 per cent) aerospace users of RDL are
+aware of recommender systems and particularly
+CODORS.
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+(ii) All (150; 100 per cent) users use CODORS to
+search information of their requirement.
+
+of documents retrieved. The remaining 5 (3.33 per
+cent) did not experience this situation.
+
+(iii) Out of 150 users, who use CODORS, 77 (51.33 per
+cent) respondents use it once in a week, 39 (26 per
+cent) use it twice in a week, 19 (12.67 per cent) use it
+thrice in a week, 4 (2.67 per cent) use it once in two
+weeks and 8 (5.33 per cent) users use it rarely.
+Remaining 3 (2 per cent) users have not responded.
+
+(xiii) The percentage of success rate of retrieved results
+from CODORS was 50-74 per cent for 93 (62 per
+cent) users, 75-99 per cent for 35 (23.33 per cent)
+users and between 25-49 per cent for 22 (14.67 per
+cent) users.
+
+(iv) One hundred forty-eight out of 150 representing 98.67
+per cent of the total respondents opined that they did
+found useful and interesting documents through
+CODORS search and remaining 2 (1.33 per cent)
+users have not responded to the query.
+(v)
+
+One hundred thirty-four out of 150 representing 89.33
+per cent of the total respondents have expressed that
+the hit results from the CODORS search were more
+than they expected and for remaining 16 (10.67 per
+cent) respondents the hit results were as expected
+by them.
+
+(vi) For 72 respondents representing 48 per cent of the
+total, the retrieved documents were relevant between
+51-75 per cent, for 66 (44 per cent) users the
+relevancy of documents ranging between 76-99 per
+cent, for 11 (7.33 per cent) users the relevancy was
+between 26-50 per cent and for 1 (0.67 per cent) user
+the relevancy of documents retrieved was 100 per
+cent.
+(vii) One hundred twenty-three users representing 82 per
+cent of the total are of the opinion that the CODORS
+search is very easy as against 22 (14.67 per cent)
+users who opined that it is moderately easy and for 5
+(3.33 per cent) users, CODORS search is not easy.
+(viii) One hundred forty-eight representing 98.67 per cent
+of the total users expressed that they never felt
+frustrated while using CODORS as against 2 (1.33
+per cent) users who felt frustrated.
+(ix) All (100 per cent) users have been convinced with
+display of percentage relevance ranking of the results
+of CODORS search.
+(x) All (100 per cent) users expressed that CODORS is
+useful for finding relevant documents on the subject
+of their interest.
+(xi) All (100 per cent) users opined that CODORS results
+on the subject of their interest were comprehensive.
+(xii) One hundred forty-five users representing 96.67 per
+cent of the total experienced that they could get hit
+results from CODORS search through the key terms
+they used which did not match with terms in the titles
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+(xiv) All users (100 per cent) searched information using
+CODORS keeping in mind its highest relevance. In all
+such cases all (100 per cent) users experienced
+search output of not only those documents in mind
+but also additional documents.
+(xv) One hundred forty-eight out of 150, representing
+98.67 per cent of the total respondents expressed
+that they obtained documents ranked higher than
+that of the one they had considered more relevant.
+Among these 148 users who obtained higher ranking
+documents, 89 (59.33 per cent) expressed that such
+documents were more relevant, 59 (39.33 per cent)
+said they were most relevant and only 2 (1.33 per
+cent) expressed that there was not much difference
+in the relevance between the documents ranked
+higher and the document they considered most
+relevant.
+
+10. CONCLUSIONS
+Designed CODORS converts the terms expressed
+by the user in natural language automatically into subject
+descriptors, carry on search, rank documents and
+retrieve. The document ranking is automatically done by
+the system on the basis of weightages calculated based
+on the occurrences of number of subject descriptors,
+which are assigned to each title of the document in the
+collection. The results are sorted on relative relevance
+ranking and are presented to the user for maximum
+utilization of technical resources that are otherwise
+hidden in the database collection.
+The CODORS was put to test by conducting
+repeated searches using variety of descriptors/key terms
+relating to general and specialized subject areas in the
+field of aerospace engineering. The results exhibited that
+the CODORS search provided many more relevant
+documents and increased the recall value as compared
+to general OPAC search. It also revealed those
+documents that were retrieved for a given query through
+OPAC search appeared at different places - top, middle,
+or end of the ranked list of documents generated through
+the CODORS search for the same query. The system
+having put for use in the actual environment revealed the
+encouraging results. The results of the opinion survey
+covering 150 regular users of DRDL library correlated
+with the results of the experimental test and found highest
+281
+
+usability as it provided not only expected relevant
+documents but also more relevant documents giving
+ranked weightages.
+
+5. Salton, Gerard. The SMART retrieval systemexperiments in automatic document processing.
+Prentice-Hall, Upper Saddle River, NJ, USA,1971.
+
+REFERENCES
+
+6. Salton, Gerard. The SMART project in automatic
+document retrieval. In Proceedings of 14th Annual
+International ACM SIGIR Conference on Research
+and Development in Information Retrieval. ACM
+Press, NY, USA, 1991. pp. 356-58.
+
+1. Harman, D. Ranking algorithms. In Information
+retrieval: Data structures and algorithms, edited by
+W.B. Frakes & R. Baeza-Yates. Prentice-Hall,
+Englewood Cliffs,1992. pp. 363-92.
+2. Nageswara Rao, K. Designing content-based
+document recommender system for aerospace grey
+literature. Department of Studies in Library &
+Information Science, University of Mysore, Mysore,
+2008. (PhD Thesis)
+3. Cleverdon, C.W. The effect of variations in relevance
+assessments in comparative experimental tests of
+index languages. Cranfield Institute of Technology,
+Cranfield, UK, 1970.
+4. Hildreth, C.R. Accounting for users' inflated
+assessments
+of
+online
+catalogue
+search
+performance and usefulness: An experimental study.
+Information
+Research,
+2001,
+6(2).
+http://
+InformationR.net/ir/62/ paper101.html (accessed on
+20.6.11).
+
+282
+
+7. Bulmer, M. Questionnaires, 1. Thousand Oaks, Sage
+Publications, California, USA, 2004.
+About the Author
+Dr K. Nageswara Rao received Masters Degree
+in Physics in 1986 from Sri Venkateswara
+University, Tirupati; PGDCA in 1990 from
+Jawaharlal Nehru Technological University,
+Hyderabad; Masters Degree in LIS in 1992 from
+Annamalai University; and PhD from University of
+Mysore, in 2009. From 1993 to 1995, he worked
+at the NIC, Hyderabad. During 1995 to 1999, he
+worked as Scientist at the NPOL, Kochi. Presently, he is Head
+Knowledge Centre, Defence Research and Development
+Laboratory, Hyderabad. His research interest, encompass
+Internet and information technologies for library applications,
+web mining, design and development of digital libraries and
+recommender systems, personalisation and alerting services.
+He has published/presented a number of technical papers in
+national/ international journals/conferences.
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+283
+
+2
+2
+
+2
+2
+
+3
+
+3
+3
+
+3
+
+3
+3
+
+3
+
+ADVANCED HYPERSONIC
+AIRCRAFT
+
+NDT RELIABILITY
+
+VHDL MODELING
+
+SEMICONDUCTOR X-RAY
+DETEC TORS ASTRONOMY
+
+COMPUTATION AL FLUID
+DYNAMICS MISSILE
+
+PHASED ANTENNA ARRAY
+SATELLITES
+
+HYPERSONIC VEHICLE
+MANEUVERING
+
+FLEXIBLE MANUFACTURING
+SYSTEMS
+
+ACTIVE VIBRATIONAL
+CONTROL
+
+NDT CFRP
+
+COPPER CORROSION
+
+26
+
+22
+
+24
+
+22
+
+29
+
+23
+
+37
+
+15
+
+15
+
+18
+
+16
+
+16
+
+NDE
+
+3.85
+
+4.55
+
+4.17
+
+4.55
+
+3.45
+
+4.35
+
+2.70
+
+6.67
+
+6.67
+
+5.56
+
+6.25
+
+6.25
+
+DEW
+
+57.69
+
+63.64
+
+62.50
+
+59.09
+
+48.28
+
+60.87
+
+54.05
+
+33.33
+
+40.00
+
+33.33
+
+43.75
+
+31.25
+
+BF
+
+2
+(2)
+
+2
+(2)
+
+2
+(2)
+
+1
+(1)
+
+1
+(1)
+
+3
+(2)
+
+1
+(1)
+
+1
+(1)
+
+1
+(1)
+
+1
+(1)
+
+1
+(1)
+
+1
+(1)
+
+95 100%
+
+0
+
+0
+
+5
+
+0
+
+0
+
+22
+4
+(1)
+
+4
+(1)
+
+2
+(1)
+
+12
+
+3
+(1)
+
+1
+(1)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+1
+(1)
+
+0
+0
+
+0
+
+8590%
+
+0
+
+9095%
+
+1
+
+44
+
+110
+
+5
+
+0
+
+38
+
+4
+(2)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+8085%
+
+11
+(1)
+
+241
+
+421
+
+34
+
+1
+(1)
+
+112
+
+7
+
+0
+
+2
+(1)
+
+6
+
+0
+
+0
+
+7580%
+
+49
+
+1395
+
+5137
+
+325
+
+0
+
+448
+
+53
+
+3
+
+3
+
+9
+
+0
+
+0
+
+7075%
+
+CODORS Recommendations
+
+2361
+
+12430
+
+20715
+
+2845
+
+4
+(1)
+
+12014
+
+145
+
+5
+(1)
+
+27
+
+7
+(1)
+
+1
+
+7
+
+6570%
+
+9757
+
+0
+
+0
+
+25310
+
+9
+
+0
+
+1953
+
+0
+
+0
+
+11
+
+26
+
+17
+(1)
+
+6065%
+
+0
+
+0
+
+0
+
+0
+
+1344
+
+0
+
+29524
+
+16
+
+326
+
+59
+
+286
+
+85
+
+5560%
+
+0
+
+0
+
+0
+
+0
+
+18589
+
+0
+
+0
+
+104
+
+3291
+
+0
+
+0
+
+0
+
+5055%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+11795
+
+27489
+
+15658
+
+6300
+
+22905
+
+050%
+
+Note: NOR=Number of OPAC results; NDE=Number of descriptors; DEW=Descriptor weight; BF=Boosting factor; TR=Total CODORS recommendations; Values with in brackets
+indicate number of OPAC results
+
+2
+
+NOR
+
+ROTOR AERODYNAMICS
+MANEUVERING
+
+Search Terms
+
+Comparison of Search Results Pertaining to General OPAC and CODORS
+
+12181
+
+14121
+
+26411
+
+28523
+
+19948
+
+12630
+
+31687
+
+11924
+
+31139
+
+15751
+
+6615
+
+23015
+
+TR
+
+Appendix 1
+
+284
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+4
+
+4
+4
+
+OPTIMAL DISTURBANCE
+REJECTION
+
+ELLIPTICAL ANTENNA
+
+ADAPTIVE ANTENNA AR RAY
+GPS
+
+4
+
+4
+
+NONLINEAR CONTROL
+AUTOPILOT
+
+COMPUTATIONAL FLUID
+DYNAMICS AERODYNAMICS
+
+4
+
+NUMERICAL SIMULATION
+MISSILE
+
+4
+
+4
+
+PROPULSION
+TRANSPOR TATION
+SYSTEMS
+
+KALMAN FILTERING
+TARGET TRACKING
+
+4
+
+MISSILE SYSTEM
+INTEGRATION
+
+4
+
+3
+
+SHOCK TUNNEL SCRAMJET
+
+AIRCRAFT ATTITUDE
+DETERMINATION
+
+3
+
+NOR
+
+SPACE SHUTTLE
+SOFTWARE RELIABILITY
+
+Search Terms
+
+39
+
+34
+
+35
+
+34
+
+27
+
+34
+
+39
+
+37
+
+43
+
+43
+
+40
+
+26
+
+NDE
+
+2.56
+
+2.94
+
+2.86
+
+2.94
+
+3.70
+
+2.94
+
+2.56
+
+2.70
+
+2.33
+
+2.33
+
+2.5
+
+3.85
+
+DEW
+
+69.23
+
+67.65
+
+74.29
+
+70.59
+
+70.37
+
+64.71
+
+71.79
+
+70.27
+
+67.44
+
+62.79
+
+57.50
+
+57.69
+
+BF
+
+1
+(1)
+
+2
+(2)
+
+5
+(4)
+
+3
+(3)
+
+2
+(2)
+
+1
+(1)
+
+2
+(2)
+
+2
+(2)
+
+1
+(1)
+
+1
+(1)
+
+1
+(1)
+
+1
+(1)
+
+95 100%
+
+2
+(2)
+
+0
+
+5
+
+0
+
+3
+(1)
+
+2
+(1)
+
+5
+(2)
+
+1
+(1)
+
+2
+(2)
+
+0
+
+1
+(1)
+
+0
+
+9095%
+
+8
+(1)
+
+9
+(2)
+
+144
+
+37
+(1)
+
+81
+(1)
+
+45
+(1)
+
+26
+
+8
+(1)
+
+3
+
+2
+(1)
+
+1
+
+1
+(1)
+
+8590%
+
+112
+
+45
+
+706
+
+139
+
+215
+
+138
+(1)
+
+529
+
+229
+
+23
+(1)
+
+2
+(1)
+
+1592
+
+1084
+
+32051
+
+3391
+
+894
+
+1502
+
+4912
+
+3868
+
+200
+
+10
+(1)
+
+1
+(1)
+
+12
+
+2
+(1)
+0
+
+7580%
+
+8085%
+
+19366
+
+25411
+
+0
+
+19535
+
+17040
+
+5550
+
+11503
+
+18032
+
+3029
+
+92
+
+4
+
+51
+
+7075%
+
+CODORS R ecommendations
+
+0
+
+0
+
+0
+
+0
+
+0
+
+11331
+
+0
+
+0
+
+18033
+
+37737
+
+100
+
+1697
+
+6570%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+2719
+
+12414
+
+6065%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+18574
+
+0
+
+5560%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5055%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+050%
+
+21081
+
+26551
+
+32911
+
+23105
+
+18235
+
+18569
+
+16977
+
+22140
+
+21291
+
+37844
+
+21401
+
+14178
+
+TR
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+285
+
+4
+
+4
+4
+
+4
+
+4
+4
+
+5
+5
+
+5
+
+5
+5
+
+5
+
+COMPU TED TOMOGRAPHY
+AIRC RAFT
+
+TRUSS STR UCTURES
+GENETIC ALGORITHM
+
+BACK-TO-TURN MISSILE
+AUTOPILOT DESIGN
+
+THRUST VECTOR CON TROL
+AIRC RAFT
+
+SOLID ROCKET MOTOR
+PROPELLANT SIMULATION
+
+COMPOSITE ROCKET
+PROPELLANTS
+
+AIR BREATHING DYNAMICS
+
+COMMUNICATION
+SATELLITES AN TENNA
+
+HYDROGEN PROPELLANTS
+
+COMBU STION MECHANISM
+PROPELLANTS
+
+SUPER SONIC AIRCRAFT
+TRANSPORT RESEARCH
+
+NOR
+
+COMPU TATIONAL FLUID
+DYNAMICS COMPUTERS
+
+Search Terms
+
+61
+
+47
+
+53
+
+39
+
+59
+
+49
+
+40
+
+40
+
+38
+
+32
+
+42
+
+38
+
+NDE
+
+1.64
+
+2.13
+
+1.89
+
+2.56
+
+1.70
+
+2.04
+
+2.50
+
+2.50
+
+2.63
+
+3.13
+
+2.38
+
+2.63
+
+DEW
+
+72.13
+
+70.21
+
+62.26
+
+71.79
+
+67.80
+
+73.47
+
+70.00
+
+60.00
+
+68.42
+
+68.75
+
+69.05
+
+68.42
+
+BF
+
+2
+(2)
+
+1
+(1)
+
+1
+(1)
+
+1
+(1)
+
+1
+(1)
+
+1
+(1)
+
+2
+(2)
+
+1
+(1)
+
+2
+(2)
+
+2
+(2)
+
+2
+(2)
+
+1
+(1)
+
+95 100%
+
+1
+(1)
+
+2
+(1)
+
+0
+
+3
+(2)
+
+0
+
+2
+(2)
+
+0
+
+0
+
+0
+
+1
+
+2
+(1)
+
+2
+(2)
+
+9095%
+
+10
+(2)
+
+33
+(2)
+
+0
+
+23
+(2)
+
+1
+(1)
+
+12
+(2)
+
+7
+(2)
+
+0
+
+6
+(2)
+
+6
+(2)
+
+11
+(1)
+
+2
+(1)
+
+8590%
+
+184
+
+145
+(1)
+
+0
+
+175
+
+4
+(3)
+
+90
+
+164
+
+1
+(1)
+
+195
+
+114
+
+72
+
+69
+
+8085%
+
+5587
+
+530
+
+6
+(4)
+
+2748
+
+90
+
+14484
+
+1717
+
+17
+(2)
+
+2532
+
+916
+
+885
+
+1078
+
+7580%
+
+11941
+
+17102
+
+24
+
+16733
+
+8115
+
+0
+
+0
+
+0
+
+1735
+
+0
+
+23048
+
+0
+
+0
+
+911
+
+75
+22957
+
+0
+
+0
+
+0
+
+0
+
+6570%
+
+22493
+
+40578
+
+19158
+
+25922
+
+7075%
+
+CODORS Recommendations
+
+0
+
+0
+
+13536
+
+0
+
+0
+
+0
+
+0
+
+32584
+
+0
+
+0
+
+0
+
+0
+
+6065%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5560%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5055%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+050%
+
+17725
+
+17813
+
+15302
+
+19683
+
+31259
+
+14589
+
+24847
+
+33589
+
+25228
+
+41617
+
+20130
+
+27074
+
+TR
+
+286
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+5
+
+5
+
+5
+
+MULTIVARIABLE ACTIVE
+CONTROL
+
+NDT AIRCRAFT
+
+HWIL SIMULATION MISSILE
+
+8
+
+5
+
+AIRC RAFT FLIGHT
+CONTROL SIMULATION
+
+C4I
+
+5
+
+CLUSTER C OMPUTING
+
+5
+
+5
+
+CFD SOLVER
+
+HELLFIRE MISSILE
+
+5
+
+BALLISTIC MISSILE
+INTERC EPTION
+
+5
+
+5
+
+BOUNDARY LAYER
+COMPU TATIONAL FLUID
+DYNAMICS
+
+HWIL SIMULATION
+SYSTEMS
+
+5
+
+NOR
+
+OPTIMIZATION
+COMPU TATIONAL FLUID
+DYNAMICS
+
+Search Terms
+
+71
+
+53
+
+36
+
+42
+
+39
+
+50
+
+47
+
+41
+
+43
+
+45
+
+49
+
+43
+
+NDE
+
+1.41
+
+1.89
+
+2.78
+
+2.38
+
+2.56
+
+2.00
+
+2.13
+
+2.44
+
+2.33
+
+2.22
+
+2.04
+
+2.33
+
+DEW
+
+77.46
+
+69.81
+
+72.22
+
+76.19
+
+76.92
+
+76.00
+
+74.47
+
+78.05
+
+72.09
+
+75.56
+
+77.55
+
+76.74
+
+BF
+
+6
+
+1
+(1)
+
+1
+(1)
+
+1
+(1)
+
+4
+(4)
+
+4
+(4)
+
+3
+(3)
+
+2
+(2)
+
+8
+(5)
+
+2
+(2)
+
+4
+(4)
+
+(5)
+
+4
+(3)
+
+95 100%
+
+4
+(3)
+
+1
+(1)
+
+2
+(2)
+
+10
+(1)
+
+7
+
+9
+(2)
+
+7
+(2)
+
+55
+
+4
+
+3
+
+19
+
+22
+(2)
+
+9095%
+
+34
+(2)
+
+4
+(2)
+
+22
+(2)
+
+107
+
+184
+(1)
+
+557
+
+168
+(1)
+
+1086
+
+123
+(3)
+
+21
+(1)
+
+956
+
+476
+
+8590%
+
+9476
+(2)
+
+12
+(1)
+
+394
+
+2589
+
+3486
+
+3856
+
+2039
+
+30049
+
+1076
+
+522
+
+6687
+
+5329
+
+8085%
+
+0
+
+36691
+
+649
+38492
+
+23745
+
+0
+
+0
+
+0
+
+0
+
+0
+
+15514
+
+0
+
+0
+
+0
+
+7075%
+
+2422
+
+20118
+
+15506
+
+31257
+
+31131
+
+0
+
+4954
+
+26646
+
+23045
+
+21242
+
+7580%
+
+CODORS Recommendations
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+6570%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+6065%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5560%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5055%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+050%
+
+48007
+
+37358
+
+26586
+
+22828
+
+19187
+
+35682
+
+33347
+
+31198
+
+21673
+
+27196
+
+30713
+
+27073
+
+TR
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+287
+
+5
+
+5
+5
+
+6
+
+6
+6
+
+6
+
+6
+
+6
+6
+
+6
+
+6
+
+ACCELERATION CONTROL
+DESIGN
+
+HOMING MISSILE
+GUIDANCE LAW
+
+MECHATRONICS
+
+COMBUSTION SOLID
+ROCKET PROPELLANTS
+
+RELIABILITY ANALYSIS
+STRUCTURES
+
+NOZZLE NOISE RED UCTION
+
+MANUFACTURING
+COMPOSITE STRUC TURES
+DESIGN
+
+ADAPTIVE CONTROL TRUSS
+STRUCTURES
+
+PITTING CORROSION
+FATIGUE
+
+SOFTWARE SATELLITES
+
+SPACEBORNE DOPPLER
+LIDAR
+
+NOR
+
+BATTER IES AIR CRAFT
+APPLICATIONS
+
+Search Terms
+
+59
+
+49
+
+52
+
+51
+
+48
+
+57
+
+62
+
+66
+
+51
+
+42
+
+43
+
+39
+
+NDE
+
+1.69
+
+2.04
+
+1.92
+
+1.96
+
+2.08
+
+1.75
+
+1.61
+
+1.52
+
+1.96
+
+2.38
+
+2.33
+
+2.56
+
+DEW
+
+69.49
+
+73.47
+
+76.92
+
+78.43
+
+79.16
+
+68.42
+
+72.58
+
+78.79
+
+78.43
+
+76.19
+
+72.09
+
+74.36
+
+BF
+
+1
+(1)
+
+2
+(2)
+
+2
+(1)
+
+6
+(4)
+
+4
+(4)
+
+1
+(1)
+
+1
+(1)
+
+4
+(4)
+
+3
+(3)
+
+4
+(3)
+
+1
+(1)
+
+4
+(3)
+
+95 100%
+
+12
+(3)
+
+1
+(1)
+
+0
+
+0
+
+20
+(4)
+
+69
+(1)
+
+12
+(1)
+
+1
+
+13
+(3)
+
+201
+(1)
+
+961
+(1)
+
+1331
+(1)
+
+1
+(1)
+
+139
+(1)
+
+5
+(1)
+
+1
+
+1130
+
+900
+
+40
+(2)
+50
+(3)
+
+21
+(2)
+
+48
+
+8590%
+
+3
+(2)
+
+1
+(1)
+
+9095%
+
+12
+(5)
+
+326
+(1)
+
+5113
+
+41948
+
+32428
+
+18
+(3)
+
+459
+(1)
+
+27205
+
+50089
+
+373
+
+54291
+
+14604
+
+0
+
+0
+
+198
+(1)
+
+16051
+
+0
+
+0
+
+20585
+
+8995
+
+766
+6320
+
+14971
+
+7580%
+
+520
+(1)
+
+8085%
+
+42782
+
+0
+
+0
+
+0
+
+0
+
+10713
+
+40268
+
+0
+
+0
+
+0
+
+28706
+
+0
+
+7075%
+
+CODORS R ecommendations
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+6570%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+6065%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5560%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5055%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+050%
+
+43169
+
+54632
+
+19940
+
+42984
+
+33775
+
+10932
+
+56792
+
+27353
+
+51272
+
+27849
+
+38492
+
+15544
+
+TR
+
+288
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+7
+
+7
+8
+
+AIRC RAFT AUTOPILOT
+
+CAD MEMS
+
+MISSILE SYSTEM
+SIMULATION
+
+8
+
+7
+
+SIMULATION VHDL
+
+MISSILE INTERCEPTION
+
+7
+
+BAYES RELIABILITY
+
+8
+
+7
+
+NOZZLE HYPERSONIC WIND
+TUNNEL
+
+GUIDANCE BALLISTIC
+MISSILE
+
+7
+
+SURFACE TO AIR MISSILE
+
+8
+
+7
+
+COMPU TATIONAL FLUID
+DYNAMICS VISU ALIZATION
+
+SPACE PROPULSION
+ROCKET
+
+6
+
+NOR
+
+UNGUIDED MISSILES
+
+Search Terms
+
+68
+
+68
+
+82
+
+72
+
+55
+
+68
+
+60
+
+54
+
+72
+
+53
+
+58
+
+55
+
+NDE
+
+1.47
+
+1.47
+
+1.22
+
+1.39
+
+1.82
+
+1.47
+
+1.67
+
+1.85
+
+1.39
+
+1.89
+
+1.72
+
+1.82
+
+DEW
+
+83.82
+
+80.88
+
+80.49
+
+84.72
+
+78.18
+
+82.35
+
+80.00
+
+81.48
+
+83.33
+
+79.25
+
+82.76
+
+72.72
+
+BF
+
+6
+(6)
+
+2
+(2)
+
+3
+(3)
+
+12
+(7)
+
+1
+(1)
+
+10
+(5)
+
+2
+(2)
+
+3
+(3)
+
+8
+(6)
+
+3
+(3)
+
+10
+(4)
+
+1
+(1)
+
+95 100%
+
+49
+(2)
+
+7
+(5)
+
+27
+(4)
+
+357
+(1)
+
+11
+(4)
+
+143
+(2)
+
+6
+(4)
+
+58
+(4)
+
+220
+(1)
+
+9
+(2)
+
+125
+(3)
+
+2
+(1)
+
+9095%
+
+38538
+
+866
+(1)
+
+566
+(1)
+
+45636
+
+407
+(2)
+
+11063
+
+348
+(1)
+
+7274
+
+6805
+
+112
+(2)
+
+9678
+
+4
+(2)
+
+8590%
+
+0
+
+36123
+
+29232
+
+0
+
+46989
+
+29541
+
+48162
+
+35654
+
+20352
+
+44867
+
+33381
+
+33
+(2)
+
+8085%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+3467
+
+7580%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+22061
+
+7075%
+
+CODORS Recommendations
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+6570%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+6065%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5560%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5055%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+050%
+
+38593
+
+36998
+
+29828
+
+46005
+
+47408
+
+40757
+
+48518
+
+42989
+
+27385
+
+44991
+
+43194
+
+25568
+
+TR
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+289
+
+69
+
+71
+
+79
+98
+
+73
+
+8
+
+8
+9
+
+9
+
+9
+
+9
+
+9
+9
+
+9
+9
+
+9
+
+DETECTION CORROSION
+AIRC RAFT STRUCTURES
+
+MEMS AEROSPACE
+
+FLIGHT PROPELLANT
+PRODUCTION
+
+ATTITUDE DETERMINATION
+GLOBAL POSITIONING
+SYSTEM
+
+COMPOSIT SOLID
+PROPELLANTS
+
+MISSILE NONLINEAR
+AUTOPILOT
+
+ROCKET BOOSTERS
+
+AGILE MANUFACTURING
+
+SOFTWARE RELIABILITY
+ANALYSIS
+
+HIGH ANGLE OF ATTACK
+MISSILES
+
+HARDW ARE-IN-LOOP
+SIMULATION MISSILE
+
+70
+
+91
+
+83
+
+89
+
+69
+
+83
+
+71
+
+8
+
+RAPID PROTOT YPING
+SIMULATION
+
+83
+
+NDE
+
+8
+
+NOR
+
+RAPID PROTOT YPING
+LASER
+
+Search Terms
+
+1.37
+
+1.02
+
+1.27
+
+1.43
+
+1.10
+
+1.20
+
+1.12
+
+1.41
+
+1.45
+
+1.45
+
+1.20
+
+1.41
+
+1.20
+
+DEW
+
+84.93
+
+81.63
+
+82.28
+
+85.71
+
+74.73
+
+86.75
+
+85.39
+
+81.70
+
+84.06
+
+85.51
+
+83.13
+
+84.51
+
+74.70
+
+BF
+
+10
+(7)
+
+3
+(2)
+
+2
+(2)
+
+11
+(6)
+
+1
+(1)
+
+54
+(9)
+
+9
+(7)
+
+4
+(4)
+
+7
+(4)
+
+9
+(7)
+
+16
+(6)
+
+8
+(7)
+
+1
+(1)
+
+95 100%
+
+245
+(2)
+
+35
+(4)
+
+23
+(5)
+
+293
+(3)
+
+0
+
+4296
+
+114
+(2)
+
+25
+(2)
+
+133
+(5)
+
+275
+(1)
+
+98
+(2)
+
+633
+(1)
+
+0
+
+9095%
+
+31797
+
+1780
+(3)
+
+2149
+(2)
+
+27205
+
+3
+(3)
+
+26951
+
+28132
+
+1764
+(3)
+
+16147
+
+42046
+
+10330
+
+56735
+
+5
+(4)
+
+8590%
+
+0
+
+38903
+
+41611
+
+0
+
+37
+(5)
+
+0
+
+0
+
+48480
+
+0
+
+0
+
+40709
+
+0
+
+129
+(3)
+
+8085%
+
+0
+
+0
+
+0
+
+0
+
+41965
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+40503
+
+7580%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+7075%
+
+CODORS Recommendations
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+6570%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+6065%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5560%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5055%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+050%
+
+32052
+
+40721
+
+43785
+
+27509
+
+42006
+
+31301
+
+28255
+
+50273
+
+16287
+
+42330
+
+51153
+
+57376
+
+40638
+
+TR
+
+290
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+11
+
+MISSILE PROPULSION
+
+11
+
+10
+
+HYPER SONIC WIND
+TUNNELS
+
+HIGH TC
+SUPER CON DUCTIVITY
+
+10
+
+SAFETY MANAGEMEN T
+SYSTEM
+
+11
+
+10
+
+GRID COMPUTING
+
+STRUC TURAL ANALYSIS
+AIRC RAFT
+
+10
+
+INCOMPRESSIBLE NAVIERSTOKES FLOW
+
+11
+
+10
+
+MULTISENSOR
+MULTITARGET TRACKING
+
+RELIABILITY COMPOSITE
+STRUC TURES
+
+10
+
+GPS NAVIGATION
+SATELLITES
+
+11
+
+10
+
+SATELLITE TRACKING
+CONTROL
+
+COMPU TATIONAL FLUID
+DYNAMICS MOD ELING
+
+10
+
+NOR
+
+HYPER SONIC AIR
+BREATHING PROPULSION
+
+Search Terms
+
+105
+
+103
+
+109
+
+125
+
+119
+
+102
+
+68
+
+97
+
+92
+
+69
+
+89
+
+83
+
+105
+
+NDE
+
+0.95
+
+0.97
+
+0.92
+
+0.80
+
+0.84
+
+0.98
+
+1.47
+
+1.03
+
+1.09
+
+1.45
+
+1.12
+
+1.20
+
+0.95
+
+DEW
+
+80.00
+
+88.35
+
+84.40
+
+85.60
+
+87.39
+
+84.31
+
+85.29
+
+86.60
+
+84.78
+
+85.51
+
+87.64
+
+87.95
+
+81.90
+
+BF
+
+1
+(1)
+
+91
+(10)
+
+1
+(1)
+
+4
+(3)
+
+8
+(6)
+
+4
+(4)
+
+13
+(5)
+
+79
+(8)
+
+11
+(5)
+
+13
+(6)
+
+17
+(9)
+
+40
+(10)
+
+2
+(2)
+
+95 100%
+
+47221
+
+2951
+(1)
+
+3
+(2)
+
+16400
+(1)
+
+135
+(9)
+
+407
+(8)
+
+973
+(5)
+
+150
+(6)
+
+370
+(5)
+
+3240
+(2)
+
+1002
+(5)
+
+156
+(7)
+
+39046
+
+65838
+(1)
+
+63667
+
+42138
+
+48432
+
+30563
+
+41395
+
+34844
+
+40699
+
+38962
+
+11758
+
+429
+(4)
+
+997
+(2)
+
+8590%
+
+12
+(5)
+
+9095%
+
+32942
+(1)
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+41514
+(1)
+
+8085%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+7580%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+7075%
+
+CODORS Recommendations
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+6570%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+6065%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5560%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5055%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+050%
+
+36102
+
+55537
+
+65974
+
+64078
+
+43119
+
+48586
+
+30946
+
+44714
+
+35857
+
+41141
+
+50189
+
+50760
+
+42525
+
+TR
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+291
+
+11
+
+12
+
+12
+
+12
+12
+
+13
+
+13
+
+13
+
+13
+
+13
+13
+
+13
+14
+
+NUMERICAL SIMULATION
+COMPU TATIONAL FLUID
+DYNAMICS
+
+MICRO AIR VEH ICLES
+
+HYPER SONIC FLIGH T
+CONTROL
+
+AIRC RAFT
+MANUFACTURING
+
+GUIDED MUNITIONS
+
+AEROSPACE PR OPULSION
+
+AIRC RAFT FLIGHT
+DYNAMICS
+
+SIMULATION FLIGHT
+DYNAMICS
+
+MISSILE AUTOPILOT
+DESIGN CONTROL
+
+ADAPTIVE VIBRATION
+CONTROL STRU CTURES
+
+CORROSION RESISTANT
+COATINGS
+
+FLIGHT CONTROL
+SOFTWARE
+
+NOR
+
+HYPER SONIC SHOCK
+TUNNEL
+
+Search Terms
+
+107
+
+150
+
+114
+
+115
+
+124
+
+117
+
+114
+
+114
+
+112
+
+103
+
+106
+
+124
+
+104
+
+NDE
+
+0.93
+
+0.67
+
+0.88
+
+0.87
+
+0.81
+
+0.85
+
+0.88
+
+0.88
+
+0.89
+
+0.97
+
+0.94
+
+0.81
+
+0.96
+
+DEW
+
+89.72
+
+88.67
+
+85.96
+
+87.83
+
+84.68
+
+88.89
+
+89.47
+
+90.35
+
+89.29
+
+88.35
+
+86.68
+
+88.71
+
+87.50
+
+BF
+
+154
+(12)
+
+11
+(9)
+
+4
+(3)
+
+17
+(8)
+
+1
+(1)
+
+74
+(12)
+
+22
+(12)
+
+53
+(12)
+
+108
+(11)
+
+52
+(11)
+
+36
+(11)
+
+93
+(12)
+
+14
+(10)
+
+95 100%
+
+60451
+(2)
+
+4607
+(4)
+
+1653
+(10)
+
+6418
+(5)
+
+103
+(11)
+
+15830
+(1)
+
+55449
+(1)
+
+65365
+(1)
+
+55700
+(1)
+
+13434
+(1)
+
+12716
+(1)
+
+10934
+
+2867
+(1)
+
+9095%
+
+0
+
+44764
+
+60431
+
+41483
+
+72079
+(1)
+
+37966
+
+0
+
+0
+
+0
+
+32309
+
+41271
+
+15032
+
+40662
+
+8590%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+8085%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+7580%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+7075%
+
+CODOR S Recommendations
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+6570%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+6065%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5560%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5055%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+050%
+
+60605
+
+49382
+
+62088
+
+47918
+
+72183
+
+53870
+
+55471
+
+65418
+
+55808
+
+45795
+
+54023
+
+26059
+
+43543
+
+TR
+
+292
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+16
+
+SOLID PROPELLANT
+ROCKET MOTORS
+
+18
+
+16
+
+MISSILE AEROD YNAMICS
+
+VIRTUAL MANUF ACTURING
+
+15
+
+ROBOT SOFTWARE
+
+17
+
+15
+
+AIRC RAFT DRAG
+
+UNSTEADY ROTOR
+AERODYNAMIC S
+
+14
+
+LYAPUNOV EQU ATIONS
+
+16
+
+14
+
+FLIGHT SIMULATION
+SOFTWARE
+
+SAFETY SPACE SYSTEMS
+
+14
+
+FATIGUE AIRFR AME
+
+16
+
+14
+
+FATIGUE LIFE
+ASSESSMENT
+
+AIRC RAFT FLIGHT
+CONTROL SYSTEMS
+
+14
+
+NOR
+
+PROBABILISTIC
+STRUC TURAL ANALYSIS
+
+Search Terms
+
+171
+
+147
+
+142
+
+159
+
+117
+
+164
+
+119
+
+157
+
+103
+
+107
+
+144
+
+137
+
+139
+
+NDE
+
+0.58
+
+0.68
+
+0.70
+
+0.63
+
+0.57
+
+0.61
+
+0.84
+
+0.64
+
+0.97
+
+0.93
+
+0.69
+
+0.73
+
+0.72
+
+DEW
+
+91.81
+
+89.80
+
+87.32
+
+88.05
+
+90.96
+
+87.80
+
+89.92
+
+89.81
+
+88.35
+
+87.85
+
+87.50
+
+90.51
+
+89.21
+
+BF
+
+201
+(18)
+
+132
+(11)
+
+3
+(3)
+
+3
+(3)
+
+55
+(15)
+
+13
+(5)
+
+197
+(11)
+
+23
+(11)
+
+40
+(8)
+
+10
+(6)
+
+22
+(4)
+
+324
+(13)
+
+29
+(11)
+
+95 100%
+
+71778
+
+0
+
+0
+
+45193
+
+700
+(13)
+58736
+(6)
+
+71140
+
+3848
+(13)
+
+0
+
+55762
+
+3239
+(11)
+71592
+(1)
+
+0
+
+69884
+(4)
+
+0
+
+31946
+
+13700
+(6)
+59747
+(4)
+
+57158
+
+55803
+
+0
+
+39686
+
+8590%
+
+4702
+(8)
+
+4256
+(10)
+
+57357
+(1)
+
+20907
+(3)
+
+9095%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+8085%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+7580%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+7075%
+
+CODOR S Recommendations
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+6570%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+6065%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5560%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+5055%
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+050%
+
+71979
+
+58868
+
+45896
+
+74991
+
+71647
+
+59014
+
+70081
+
+59770
+
+45686
+
+61870
+
+60081
+
+57681
+
+60622
+
+TR
+
+Appendix 2
+
+D esigning C ontent-based Docum ent Recom m ender
+S ystem for Aerospace Grey Literature
+(Qu estio nn aire fo r Users/Read ers)
+
+1.
+
+Investigator: K. Nagesw ara Rao
+Supervisor: Prof. V.G. T alw ar
+Nam e & D esignation : … … … … … … … … … … … … … … … … … … … … … … … … … … … ..
+
+2.
+
+Belongs to : … … … … … … … … … … … … … … … … … … … … … … … … … … … .. .… .… … …
+
+3.
+
+How fam ili ar are you with O nline Public Acc ess C atalogs of libraries?
+Not very fam iliar
+Fam iliar
+Very fam iliar
+
+4.
+
+What is your ex perience about m atching of key terms when you entered i nto OPAC while
+searching for docum ents of your interest?
+Got 100% m atching
+Matching betw een 75-99%
+Matching between 50-74%
+Matching betw een 25-49%
+Matched below 24%
+
+5.
+
+When you got hits were the references rank ed in the order of relevance?
+Yes
+No
+
+6.
+
+In O P AC, did you get hits for the key term s that did not m atch?
+Yes
+No
+
+7.
+
+O ther than OPA Cs, have you heard of ‘F iltering S ystem s’ for identifying relev ant inform ation?
+Yes
+No
+
+8.
+
+Hav e you heard of ‘Recom m ender S ystem s ’ for identi fying relevant inform ation?
+Yes
+No
+
+9.
+
+Are you aw are of T hes aurus and its im portance in inform ation retrieval?
+Yes
+No
+
+10.
+
+Are you aware of concept-based searching?
+Yes
+No
+
+11.
+
+Are you aw are of CO DO R S?
+Yes
+
+No
+
+12.
+
+Hav e you ever used CODORS to search inf orm ation of your requirem ent?
+Yes
+No
+
+13.
+
+If you have used CO DO RS , how frequentl y you have searched us ing CO D ORS?
+Daily
+T hric e in a w eek
+Tw ice in a week
+Once in a w eek
+O nce in 2 w eeks
+R alely
+
+14.
+
+While using CO D O RS, did your search find anything useful and interesting?
+Yes
+No
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+293
+
+15 .
+
+W hat was t he re sult of h its fr om yo ur C O D O R S se arch ?
+It w as w h at I exp ected
+Mor e tha n w h at I exp ected
+L ess than w ha t I exp ected
+
+16 .
+
+W hen you use d CO DO RS, how r ele vant
+N ot releva nt
+Be tw ee n 26-5 0% re lev ant
+Be tw ee n 7 6-9 9% rel eva nt
+
+wer e the hits?
+< 2 5% rel evan t
+Be tw een 5 1-7 5 % rel evan t
+10 0% re leva nt
+
+17 .
+
+Ho w ea sy is it to sear ch C O DO RS?
+N ot eas y
+M oder ately ea s y
+
+Ea sy to s om e extent
+Ve ry ea s y
+
+18 .
+
+Did you fee fru strate d wh ile us ing CO D O RS?
+Ye s
+No
+
+19 .
+
+Are you co nvinced with the displa y of p erce ntage re le vanc e ra nking of resu lts in C O DO RS?
+Ye s
+No
+
+20 .
+
+Is C O D O R S u seful fo r fin din g rel evan t a rtic les on a p ar tic ular su bje ct?
+Ye s
+No
+
+21 .
+
+Are CO DO R S re sults com preh ensi ve o n a p articular subj ect your inte rest?
+Ye s
+No
+
+22 .
+
+In C O D O R S, did yo u get hits for th e key term s tha t did not m atch titles?
+Ye s
+No
+
+23 .
+
+If yes, w ha t w as th e per cen tag e of such s ucc ess ?
+<25 %
+Betw e en 25 -49 %
+Be tw ee n 50-7 4%
+Betw e en 75 -99 %
+
+1 00 %
+
+24 .
+
+D id you s ea rch for do cum en ts o f your interest kee pin g in m ind its high es t re leva nce ?
+Ye s
+No
+
+25 .
+
+In su ch ca ses, d id you g et m or e refer ence s in ran ked orde r in ad dition to the o ne you wer e
+lo ok in g fo r?
+Yes
+No
+
+26 .
+
+If yes, were the othe r do cum ents r anke d ab ove the on e yo u co nsid ered m ore re leva nt?
+Yes
+No
+
+27 .
+
+If ye s, ho w d id you find su ch do cum ents, wh ich we re tank ed ab ov e th e do cum ent yo u
+cons ide red re leva nt?
+M ost re leva nt
+Mor e re le vant
+N ot m u ch d iffe ren ce
+N ot re leva nt
+
+294
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+

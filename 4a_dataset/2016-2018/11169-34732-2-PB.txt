@@ -1,0 +1,329 @@
+DESIDOC Journal of Library & Information Technology, Vol. 37, No. 5, September 2017, pp. 313-319, DOI : 10.14429/djlit.37.11169 
+ 2017, DESIDOC 
+Applications of Thesaurus in Digital Libraries 
+Sanjeev K Sunny*  and Mallikarjun Angadi 
+*Centre for Library and Information Management Studies, Tata Institute of Social Sciences, Mumbai - 400 088, India 
+M. G. Central Library, Indian Institute of Technology Roorkee, Roorkee - 247 667, India 
+*E-mail: sanjeev.sunny2012@tiss.edu 
+AbsTRACT 
+The purpose of this paper is to report the fndings of a systematic literature review carried out to investigate  the applications and potential roles of thesaurus in digital libraries. It also describes the process of systematic  literature review (SLR) followed to carry out this study. 321 unique publications from Library and Information  Science Abstracts (LISA) and Scopus had been subjected to SLR, and 29 papers have been analysed. Various  possible applications of thesaurus in digital libraries have been identifed and described. Also different approaches  followed by researchers in choice of the thesaurus have been identifed. Search and browse functionalities offered  by thesaurus to the users of digital libraries are described. The discussion presented in this paper can play as cues  for the digital library administrators in decision making towards implementing thesaurus for enhanced information  retrieval. This study would allow researchers of information retrieval systems, including that of digital libraries,  to proceed from more informed standpoints. Also, the discussion can be used to evaluate and improve education  
+in library and information science. 
+Keywords: Thesaurus; Digital library; Digital information systems; Information retrieval; Knowledge organisation  
+systems; Systematic literature review 
+1. INTRODUCTION 
+Research on digital libraries in last 20 years has thrived  quite signifcantly. A title-abstract-keyword search on Scopus  database (www.scopus.com) with exact phrase ‘digital library’  reveals a dramatic rise in the number of publications from 110  till 1995 to 5573 during 1996-2005; and to 11726 during 2005- 2016 (Scopus). The major contributors to this arena are from  computer  science  (63  per  cent)  and  library  and  information  science (26 per cent)1. An important area of emphasis in digital  library research, over the past decade, has been the issue of  information retrieval. Recent developments in ontologies and  other  semantic  technologies  have  great  potential  to  address  this issue2–6. However, in the context of information retrieval,  traditionally, thesaurus has been successfully used in libraries  and other information services for resource description and in  providing access to resources. In recent years, implementation  of  thesaurus  in  digital  libraries  for  enhancing  information  retrieval has been widely studied. 
+There is a growing body of literature that describes various  applications  of  thesaurus  in  digital  information  systems,  including  digital  libraries.  However,  most  of  the  published  work has been limited to local implementations. A few studies  have investigated the current status of applications of thesaurus  in digital repositories7–11; however, they have been conducted as  part of larger studies on applications of knowledge organisation  systems. There has been no comprehensive study to characterise  the  generalised  potential  applications  of  thesaurus  in  digital  
+Received : 06 February 2017, Revised : 05 June 2017  Accepted : 08 June 2017, Online published : 23 October 2017 
+information systems. Moreover, other aspects associated with  the application of thesaurus in digital libraries like use of other  knowledge  organisation/representation  systems  along  with  thesaurus, choice and availability of thesaurus, etc. have not  been addressed. There has not been any comprehensive study  of literature to capture and explain the potential applications  of thesaurus in digital libraries; and to explain how it works  in  digital  library  architecture  to  assist  users  in  information  retrieval. The current study has been carried out to address the  above issues related to the application of thesaurus in digital  libraries. 
+1.1 Research  Questions 
+The purpose of this research was to carry out a systematic  literature review of the available literature on the applications  of  thesaurus  in  digital  information  systems  with  an  aim  to  identify and to characterise its potential applications in digital  libraries.  Specifcally,  based  on  the  evidences  available  in  literature, it aims to explain how can the potentials of thesaurus  be exploited in digital libraries. The primary research questions  that drove this research are: 
+RQ1: How thesaurus can be used in digital libraries and  what functionalities they can offer to the users? 
+RQ2: Whether readily available thesauri have been used  in digital libraries? What other approaches have been followed  by researchers in choice of the thesaurus?  
+RQ3:  Whether  other  knowledge  organisation  /  representation systems have also been used in digital libraries  along with thesaurus?  
+313 
+
+========1========
+
+DJLIT, VOL.  37,  NO.  5,  SEpTEmbER   2017 
+1.2 Research  Implications 
+The  fndings  of  this  study  should  make  an  important  contribution  towards  the  practice  of  digital  libraries.  Administrators  of  digital  libraries  may  use  the  fndings  in  making more informed decisions towards implementation of  thesaurus for indexing, searching and/or browsing. The fndings  may  also  enhance  the  understanding  of  the  users  of  digital  libraries about enhanced information retrieval functionalities  provided by the application of thesaurus. moreover, this study  would  allow  researchers  of  information  retrieval  systems,  including  that  of  digital  libraries,  to  proceed  from  more  informed  standpoints.  Furthermore,  the  authors  believe  that  a better understanding of above research questions may also  allow educators of library and information science to improve  from more informed perspective.  
+2. METHODOLOGY 
+Pertaining to the aim of the study and to fnd answers to  the stipulated research questions, it was needed to fnd how  thesauri have been used by researchers in digital libraries or in  any other digital information retrieval systems. It was premised  that research publications are one of the best sources to know  the  various  aspects  related  to  implementation  of  thesaurus  in  digital  libraries.  based  on  this  premise,  a  systematic  literature review (SLR) method has been adopted for the study.  Systematic  literature  review  is  ‘a  specifc  methodology  for  conducting  reviews  of  literature’12   which  is  different  from  a  general literature review as it is ‘conducted in a methodical (or  systematic) and unbiased manner, according to a pre-specifed  protocol’13. besides, it also provides a greater understanding  of the current developments of the topic under investigation.  Systematic  reviews  are  primarily  used  in  the  medical  feld,  and medical librarians were among the frst in the library and  information science feld to adopt this methodology and apply  it to library research14.   
+2.1   s election  of bibliographic  Databases 
+To fnd how thesauri have been used in digital libraries,  identifcation  of  relevant  publications  was  essential.  For  this,  it  was  warranted  to  identify  appropriate  bibliographic  databases. Library and Information Science Abstracts (LISA)  (http://proquest.libguides.com/lisa), being the most renowned  and  largest  online  abstracting  and  indexing  platform  for  library  and  information  science  feld,  has  been  selected  as  the  frst  choice.  However,  since  majority  of  research  on  digital  libraries  are  done  by  researchers  and  practitioners  from computer science1, Scopus (www.scopus.com) has also  been  selected  as  it  widely  covers  publications  in  computer  science.  
+Table 1. Numbers of search results from LIsA and scopus  
+search query 
+Results 
+‘Thesaurus’ AND ‘digital library’ in title-abstract-keyword 
+70 
+‘Thesaurus’ AND ‘digital’ in title-abstract-keyword 
+153 
+314 
+2.2 Query  Formulations 
+To fnd relevant results pertaining to the aim of the study,  search terms ‘thesaurus’ and ‘digital library’ were used with  Boolean operator ‘AND’ to search both the selected databases  in  title-abstract-keyword.  To  this,  while  Scopus  returned  suffcient results (248), LISA resulted very less (70). To get  suffcient  references  from  LISA,  the  initial  query  has  been  broadened; one more query has been formulated by replacing  ‘digital  library’  with  ‘digital’  to  search  LISA.  Since  the  number of results to this broadened query from Scopus were  too large to be included in the current study; they were not  included.  
+2.3   s earching 
+Table  1  displays  the  summary  of  the  results  for  the  respective queries searched on LISA and Scopus. After limiting  the  results  to  English  language,  record  were  exported  in  research information systems (RIS) fle format so as to import  and manage in mendeley Reference manager. Total 162 record  were exported from LISA and 238 record from Scopus. 
+2.4 Merging  and  De-Duplication  of  Records  
+Records from both the exported RIS fles were imported  in  Mendeley.  After  automatic  de-duplication  of  records  by  Mendeley,  347  records  were  imported  which  in  turn  became  321  after  manual  de-duplication  using mendeley.  Thus,  321  publications  had  been  subjected  to  a  screening  process.  
+2.5   s creening 
+To  determine  the  relevance  of  above  321  publications  pertaining  to  the  aim  of  the  study,  inclusion  and  exclusion  criteria  were  developed.  The  criteria  used  for  screening  are  presented  in  Table  2.  Initially,  ‘title’  and  ‘abstract’  of  each  record has been reviewed in view of the stipulated criteria and  112 record were included for full-text review. After collecting  full-texts of included 112 publication, they were reviewed in  view  of  the  stipulated  criteria  to  determine  its  relevance  to  the  study;  and  fnally  29  publication  were  selected  for  data  extraction and analysis. 
+2.6 Data  Extraction  and Analysis 
+A  data  collection  schema,  as  presented  in Table  3,  was  designed  in  Excel  worksheet  to  extract  data  from  selected  publications. After extracting data from all the 29 publications,  descriptive content analysis had been carried out. The fndings  towards  answering  the  research  questions  are  discussed  in  detail in the following section. 
+LIsA 
+scopus 
+English 
+Exported 
+Results 
+English 
+Exported 
+60 
+60 
+248 
+238 
+238 
+102 
+102 
+Not included 
+Not included 
+Not included 
+
+========2========
+
+SuNNy & ANgADI : APPLIcATIONS OF  T HESAuRuS IN  D IgITAL  L IBRARIES: A SySTEMATIc LITERATuRE  R EVIEW 
+3. FINDINGs  AND  DI sCUssIONs 
+As mentioned in the introduction of this paper, this study  was set out with an aim to fnd answers to three primary research  questions. Question-wise fndings with necessary discussions  are presented in the following sections. 
+3.1 RQ1:  How  Thesaurus  can  be  used  in  Digital  
+Libraries  and  what  Functionalities  they  can  
+Offer  to  the  Users? 
+The  current  study  found  that  thesaurus  can  be  used  in  three major activities/functions of digital libraries – indexing,  searching  and  browsing.  Whilst  the  majority  of  identifed  literature  (13  paper)  have  used  thesaurus  in  browsing  and  searching  only,  a  signifcant  number  of  literature  (7  paper)  have used in all three functions i.e. indexing, searching and  browsing. Moreover, equally signifcant number of papers (6)  have used thesaurus in searching only; and, three papers have  used in indexing and searching both. 
+potential  applications  of  thesaurus  in  digital  libraries  are  listed  below.  Followings  sections  provide  description  of  various  applications  along  with  examples  from  reviewed  research publications.  
+(i) Indexing: achieving consistency in metadata creation; (ii) Enhanced browsing: browsing digital library collections  
+through thesaurus terms; 
+(iii) Enhanced searching: query formulations using thesaurus  
+terms for high precision information retrieval; (iv) Search term recommendation (STR) system; and (v) Automatic query expansion. 
+3.1.1     Role  of  Thesaurus  in  Indexing 
+Digital libraries describe its resources by using metadata  schemes  like  Dublin core  (Dc)  Metadata  Scheme  (http:// 
+dublincore.org),  Electronic  Theses  and  Dissertations  –  metadata  Scheme  (ETDmS)  (http://www.ndltd.org/ standards/metadata), etc. Each metadata scheme necessarily  provides element to describe subject contents/keywords. For  example,  both  Dc   and  ETDMS  have  element  ‘dc.subject’.  The  current  study  found  that  thesauri  have  been  used  to  achieve  consistency  in  metadata  creation;  primarily  for  subject/keyword description. For example, Shirii15, et al.  used  UNESCO  thesaurus  in  their  High  Level  Thesaurus  (HILT)  project; binding  and  Tudhope16   used  Art  and  Architecture  Thesaurus  (AAT)  to  index  an  extract  of  the  uK  National  museum  of  Science  and  Industry  (NmSI)  collections  in  their  project. Torres  and  Reis17   used  a  textual  thesaurus  in  their conceptual image retrieval system for representing the  conceptual information; and Petrič18, et al.  used three thesauri  to represent the institutional program, ranking keywords and  user  profles  for  their  retrieval  system.  Moreover,  thesauri  have  also  been  used  to  create  consistent  place  names.  For  example,  getty’s  Thesaurus  of  geographic  Names  (TgN)  has been used by Dalmau 
+19, et al. 
+ for place names. Thesauri  have also been used to describe both subject and place names  in the same system. For example, Soo20, et al.  used  mandarin  chinese Thesaurus for describing names of historical fgures,  articles, locations, countries, etc. 
+3.1.2 Role  of  Thesaurus  in  Browsing 
+Perhaps,  the  most  noteworthy  fnding  of  this  study  is  that  thesaurus  can  greatly  enhance  browsing  experience  in  digital  libraries.  Thesaurus  terms  may  be  displayed  on  the  interface  to  assist  users  in  directly  retrieving  documents,  in  query  formulation  and  also  in  query  refnement/expansion.  In  this  context,  the  current  study  identifed  two  different  approaches of presenting thesaurus terms on the interface for  
+Table 2. Inclusion/exclusion criteria for selecting publications for full-text review 
+Exclude 
+Include 
+• Publications that describe practical implementation of  
+thesaurus in digital library/environment. 
+• Publications that describe development of prototype or model  
+for implementing thesaurus in digital library/environment. 
+• Publications that only focus on development of thesaurus. 
+• Publications that describe on only the process of automatic development of  
+thesaurus. 
+• Publications that focus only on interoperability or mapping of thesaurus. • Publications that propose model for implementing thesaurus in  
+• Publications that do not describe application of thesaurus in digital library/ 
+digital library/environment. 
+Table 3. Data extraction schema 
+Fields 
+Identifer (citation) of Publication Implementation Status Choice of thesaurus 
+environment 
+Description 
+Proper citation of publication with detailed reference at other place 
+Whether thesaurus has been implemented; or prototype developed; or model developed or proposed Whether readily available thesaurus has been used; or available thesaurus has been modifed; or new  thesaurus has been developed; or thesaurus has been automatically developed 
+Whether more than one thesaurus have been used 
+It refers to name/s of thesaurus used 
+What is the purpose of thesaurus in digital libraries? 
+Where does thesaurus ft in the digital library or digital information system? It refers to the functionalities  
+offered by thesaurus to the end users 
+more than one thesaurus Name/s of thesaurus purpose/Role of thesaurus Where does it ft and how does it  work on the user interface? Application of other KOS? 
+Whether any other knowledge organisation system (KOS) has been used along with thesaurus. If yes, how? 
+315 
+
+========3========
+
+DJLIT, VOL.  37,  NO.  5,  SEpTEmbER   2017 
+browsing the resources. In frst approach, thesaurus terms are  not displayed on the interface in the frst instance, rather they  are presented along with the results in relation to the search  query. users can either go to the results or can browse through  related terms of the thesaurus displayed as suggested terms on  the  interface21–26.  In  second  approach,  in  addition  to  what  is  achieved in the frst approach, thesaurus terms are displayed  on the interface along with a search window; users can either  start retrieval process by clicking on thesaurus terms or they  can  enter  a  query  in  search  window15-19,27–34. With  respect  to  the implementation of thesaurus in enhanced browsing, it was  found that a representation of thesaurus terms may be presented  as hyperlinks or nodes on the interface27,34; users can see the  associated resources by clicking on a node. These nodes can  also be used to show levels of hierarchy by showing the term’s  classifcation27. moreover, thesaurus can also be used to design  visual interfaces for browsing digital collections17,32,33.   
+3.1.3     Role  of  Thesaurus  in  Searching 
+Another signifcant fnding of the study is that thesaurus  can  be  used  to  signifcantly  improve  searching  mechanism  of a digital library. In this context, two important approaches  have been identifed during the analytic process - ‘search term  recommendation’  system  and  ‘automatic  query  expansion’  which are described below separately. 
+3.1.3.1Thesaurus  in  Search  Term  Recommendation  
+System 
+As mentioned in the previous section, thesaurus terms can  be displayed on the screen before or after a query has been  entered in the search box; users can choose the thesaurus terms  and, in turn, associated results are displayed. Apart from this,  it is also possible to suggest relevant thesaurus terms for users’  consideration in refning a query35; this is known as search term  recommendation (STR). STR is used for query formulation or  query expansion by the users. gordon28  developed a browsing- based  photograph  retrieval  system  where  thesaurus  terms  are  presented  on  the  interface  so  that  users  can  browse  the  collection.  Nakashima30,  et  al.   used  thesaurus  for  document  arrangement  to  assist  users  by  suggesting  which  documents  are  worth  examining.  Digital  libraries  may  also  provide  its  users an option to formulate queries by consulting thesaurus;  and  can  also  suggest  alternatives  from  thesaurus  if  users  do  not use thesaurus in query formulation and if their search term  do not match with thesaurus25. Thesauri have also been used  to identify and display other documents relevant to the query  in context36. moreover, other statistical tools have also been  used in thesaurus-enhance information retrieval. For example,  Shiri and Revie24  have developed a system which shows ‘exact  match’ in response to the initial query if user’s term exactly  matches  thesaurus  term,  or  shows  ‘permuted  index  match’  if there is partial match and if there is no match then shows  ‘statistical match’ through statistical analysis.  
+3.1.3.2 Thesaurus  in Automatic  Query  Expansion 
+In  this  approach,  thesaurus  terms  are  not  displayed  on  the screen rather they are used behind the interface to expand  the  query  automatically.  While  searching,  related  thesaurus  
+316 
+terms are identifed for each query term and are added to the  query terms before searching the database37. In this context,  while use of narrower terms (NT) has been found to be more  common among researchers19,25,29,38, use of broader term (bT)  and associative thesaurus relationships (RT)35  have also been  found.  In  addition  to  using  thesaurus  in  automatic  query  expansion, few researchers have also applied other techniques  related  to  search  algorithms  like  stemming,  vector  space  model, Jaccard similarity measure, etc. For example, Bakar and  Rahman37 have used an in-house developed thesaurus together  with stemming technique. Lüke22, et al. have used a thesaurus  to process the queries and Jaccard similarity measure to rank  the results. Along similar lines, Da Silveira38, et al. have used  the classic vector space model for ranking results along with  a  judicial  thesaurus  in  query  processing. Their  system  maps  the  query  into  the  terms  of  the  thesaurus  and  automatically  retrieves narrower terms (NT) before searching the database;  vector space model is later applied in ranking of results. 
+3.2 RQ2:  Whether  Readily  available  Thesauri  have  
+been  used  in  Digital  Libraries?    
+The  current  study  found  that  readily  available  thesauri  like uNEScO thesaurus, getty Art and Architecture Thesaurus  (AAT),  ERIc   Thesaurus,  A gROVOc,  etc.  have  been  used  in digital libraries. majority of researchers (16 papers) have  used  readily  available  thesaurus;  however,  other  approaches  in choice and selection of thesaurus have also been identifed.  Instances have been found of using in-house development of  thesaurus (4 papers); automatic development of thesaurus (3  papers);  and  modifying  the  available  thesaurus  (3  papers).  Moreover, the review also found that there are nine instances  where  more  than  one  thesauri  have  been  used15-19,26,27,35,39,40,  out of which two16,39  have implemented both readily available  thesaurus and in-house developed thesaurus in single digital  information system.  
+3.3 RQ3:  Whether  other  Knowledge  Organisation  
+/Representation systems  can  also  be  used  in  
+Digital  Libraries  along  with Thesaurus? 
+Ten instances have been found where thesaurus has been  used along with other knowledge organisation/representation  systems. Thesaurus has been used along with other traditional  knowledge  organisation  systems  like  ‘authority  fles’,  ‘taxonomy’,  ‘classifcation  scheme’,  ‘subject  heading  lists’;  and  also  with  relatively  modern  knowledge  representation  systems like ‘ontology’ and ‘semantic web (tools)’.  
+3.3.1 Thesaurus  with  other  Traditional  Knowledge  
+Organisation  Systems 
+Thesaurus and other traditional knowledge organisation  systems have been used by different researchers in different  ways  and  for  different  purposes.  Few  of  them  have  used  traditional KOSs for its simplest possible application in digital  information systems. For example, Dalmau19, et al.  have used  Library  of  congress  Name  Authority  fle  for  personal  and  corporate names and getty’s Thesaurus of geographic Names  (TgN) for place names. Petrič18, et al.  used Universal Decimal  classifcation system to systematically arrange documents and  
+
+========4========
+
+SuNNy & ANgADI : APPLIcATIONS OF  T HESAuRuS IN  D IgITAL  L IBRARIES: A SySTEMATIc LITERATuRE  R EVIEW 
+the pages of a pilot web library and more than one thesaurus to  organize data in the database. moreover, a couple of researchers  have also used these KOSs in automatic processing of query.  For example, a classifcation system – ‘classifcation of social  sciences’ and a thesaurus – ‘TheSoz’ have been used together  by  Lüke22,  et  al.   to  automatically  create  discipline  specifc  document sets. Along similar lines, Nakashima30, et al.  have  used AcM computing classifcation System (ccS), Medical  Subject Headings and ASIS Thesaurus of information science  for  query  and  document  processing  during  automatic  query  processing. Apart from above approaches, Shirii15, et al.  have  used Dewey Decimal classifcation and Library of congress  Subject  Headings  along  with  two  thesauri  -  the  uNEScO  thesaurus and the MeSH thesaurus - for searching and browsing  across digital collections. 
+3.3.2 Thesaurus  with  Modern  Knowledge  
+Organisation/Representation  Systems 
+The current study found a couple of distinctive usage of  thesaurus  in  ontology  building  and  in  developing  automatic  semantic  processes  for  digital  information  systems.  For  example, Alani35, et al.  have developed an ontology by linking  getty AAT and TgN thesauri for thematic descriptors and for  spatial data respectively. Feki41, et al.  have used thesaurus to  develop  an  automatic  semantic  process  to  extract  different  meanings for a given text query in an image retrieval system.  Feki41,  et  al.   have  also  developed  another  semantic  process  which  creates  a  dynamic  list  of  concepts  based  on  earlier  queries entered in to the search system.  
+4. CONCLUsIONs 
+This  study  was  set  out  to  systematically  review  the  available information on the applications of thesaurus in digital  information  systems  in  order  to  identify  and  characterise  the  potential  applications  of  thesaurus  in  digital  libraries.  The  systematic  review  provided  evidences  for  successful  implementation of thesaurus in various types digital information  systems. 
+The  study  has  identifed  three  primary  applications  of  thesaurus in digital libraries – achieving consistency in indexing  digital  resources;  providing  thesaurus  based  browsing;  and  thesaurus enhanced searching. Thesaurus based browsing and  searching  generally  goes  side  by  side.  Two  distinctive  and  signifcant concepts related to the application of thesaurus have  been identifed – search term recommendation and automatic  query expansion. Whilst, thesauri have been used to develop  text-based browsing interfaces for digital libraries, it has also  been used to create visual interfaces for browsing. The study also  found that readily available thesauri like uNEScO thesaurus,  getty  Art  and  Architecture  Thesaurus,  ERIc   Thesaurus,  AgROVOc, etc. have been used in digital libraries. Moreover,  to suit requirements of individual systems, available thesauri  may be modifed; or a new thesaurus may be developed; or  it  can  also  be  generated  automatically.  Thesaurus,  on  one  hand,  can  be  used  along  with  other  traditional  knowledge  organisation systems like taxonomy, subject heading lists, etc.;  and on the other hand, with modern knowledge representation  systems  like  ontology  and  semantic  (web)  tools.  Moreover,  
+thesaurus can also be used to develop ontology to be used in  digital information systems.  
+The evidences found in this study suggest that thesaurus  is equally effective in digital information retrieval systems. It  has great potential to effectively describe and organise digital  resources;  and  to  provide  better  browsing  and  searching  mechanisms  to  the  users  of  digital  libraries.  These  fndings  have signifcant implications for digital library administrators  in deciding to exploit the potentials of thesaurus for enhanced  information retrieval. moreover, it can also serve as cues for  improving education of library and information science. 
+While the fndings of this research provide insights into  what is known about the implementation and applications of  thesaurus in digital libraries, it would be interesting to assess  the  current  status  of  its  applications  in  existing  open  access  repositories.  What  is  now  needed  is  a  cross-national  study  involving  administrators  of  digital  repositories  to  assess  the  current status of its applications in practice. Also, it would be  interesting to carry out another systematic review on evaluating  the effectiveness of thesaurus. 
+REFERENCEs 
+1.  Nguyen, H. S. & chowdhury, g. Library research (1990- 
+2010): A knowledge map of core topics and subtopics. In 
+Proceedings of International conference on Asian Digital  
+Libraries, beijing. 2011. pp. 367–371. 
+2.  Hui, D.; chuanming, y.; ying, J.; Ning, y.; guohu, X. &  
+Hua, Z. Research on the ontology-based retrieval model  
+of digital library (I) - Semantic information acquisition. J.  
+China Soc. Sci. Tech. Inf.,  2006,  25(4), 451–461. 3.  Lizhen,  L.;  chengli,  W.;  Minhua,  W.  &  guoqiang,  H.  
+Research  of  intelligent  information  retrieval  system  
+ontology-based  in  digital  library.  In proceedings  of  
+IEEE  International  Symposium  on  IT  in medicine  and  
+Education, Beijing, china. 2008. pp. 375–379. 4.    c inque,  L.;  Malizia,  A.  &  Navigli,  R.  OntoDoc:  An  
+ontology-based  query  system  for  digital  libraries.  In 
+proceedings  of  the  17th  International  Conference  on  
+pattern Recognition, 2004, Rome. 2004. pp. 671–674. 5.  Xu,  X.;  Zhang,  F.  &  Niu,  Z. An  ontology-based  query  
+system  for  digital  libraries.  In proceedings  of  IEEE  
+Pacifc-Asia  Workshop  on  computational  Intelligence  
+and Industrial Application, Wuhan. 2008. pp. 222–226. 6.  Sodanil,  M.;  Phonarin,  P.  &  Porrawatpreyakorn,  N.  
+An  ontology-based  query  expansion  for  an  agricultural  
+expert  retrieval  system. In proceedings  of  International  
+Conference  on  Information  Integration  and  Web-based  
+Applications & Services, AcM Press: New york, uSA.  
+2013. pp. 358–362. 
+7.    g unjal, B. & Shi, H. A study of knowledge organisation  
+system  in  digital  libraries:  An  IRS  perspective.  In 
+Proceedings  of  2008  International  conference  on  
+Information and Knowledge Engineering, Nevada, uSA.  
+2008. pp. 176–182. 
+8.  Bhojaraju,  g.  &  urs,  S.  R.  Knowledge  organisation  
+systems  in  digital  libraries:  A  comparative  Study.  Inf.  
+Stud.,  2006,  12(4), 229–257. 
+9.  Shiri, A. & chase-Kruszewski, S. Knowledge Organisation  
+317 
+
+========5========
+
+DJLIT, VOL.  37,  NO.  5,  SEpTEmbER   2017 
+Systems in North American Digital Library collections.  
+Program,  2009,  43(2), 121–139. 
+10.  Shiri,  A.  &Molberg,  K.  Interfaces  to  Knowledge  
+Organisation  Systems  in  Canadian  Digital  Library  
+Collections. Online Inf. Rev.,  2005,  29(6), 604–620. 11.  Miao, L. & yue, L. Research on digital library knowledge  
+organisation  methods  based-on  semantic  grid. In  
+proceedings  of  3rd  IEEE  International  Conference  
+on  Computer  Science  and  Information  Technology,  
+chengadu. 2010. pp. 778–780. 
+12.  Dixon-Woods,  M.  &  Sutton,  A.  Systematic  Review.  
+The  Sage  Encyclopedia  of  Social  Science  Research  
+methods,Sage publications, Inc., 2004, 12,1111–1112. 13. Dempster,  M.  Systematic  review.  In  the A-Z  of  Social  
+research  edited  by  Miller,  R.L.  &  Brewer,  J.D.  SAgE  
+publications Ltd, London, 2003, 312–317. 
+14.  Lasda bergman,  E.m.  &  Holden,  I.I.  User  satisfaction  
+with electronic reference: A systematic review. Ref. Serv.  
+Rev.,  2010,  38(3), 493–509. 
+15.  Shirii, A.; Nicholson, D. & Mcculloch, E. user evaluation  
+of  a  pilot  terminologies  server  for  a  distributed  multi- 
+scheme environment. Online Inf. Rev.,  2004,  28(4), 273– 
+283. 
+16.    b inding,  C.  &  Tudhope,  D.  KOS  at  Your  service:  
+Programmatic access to knowledge organisation systems.  
+J.  Digit.  Inf.,   2004,  4(4).  https://journals.tdl.org/jodi/ 
+index.php/jodi/article/view/110 (accessed on 2 February  
+2017). 
+17.  Torres, J. & Reis, L.P. Relevance feedback in conceptual  
+image retrieval: A user evaluation. ArXiv e-prints,  2008.  
+https://arxiv.org/abs/0809.4834  (accessed on 2 February  
+2017). 
+18. Petrič,  K.;  Petrič,  T.;  Krisper,  M.  &  Rajkovič,  V. user  
+Profling on a pilot digital library with the fnal result of  
+a new adaptive knowledge management solution. Knowl.  
+Organ.,  2011,  38(2), 96–113. 
+19.  Dalmau, m.; Floyd, R.; Jiao, D. & Riley, J. Integrating  
+thesaurus  relationships  into  search  and  browse  in  an  
+online photograph collection. Libr. Hi Tech.,  2005,  23(3),  
+425–452. 
+20.  Soo, V.-W.; Lee, C.-Y.; Li, C.-C.; Chen, S. L. & Chen,  
+c. Automated semantic annotation and retrieval based on  
+sharable  ontology  and  case-based  learning  techniques.  
+In proceedings of Joint Conference on Digital Libraries,  
+2003.pp. 61–72. 
+21.    c hen,  H.;  Houston, A.L.;  Sewell,  R.R.  &  Schatz,  B.R.  
+Internet  browsing  and  searching:  user  evaluations  of  
+category map and concept space techniques. J. Am. Soc.  
+Inf. Sci.,  1998,  49(7), 582–603. 
+22.  Lüke, T.; Schaer, P. & Mayr, P. Improving retrieval results  
+with discipline-specifc query expansion. Lecture Notes in  
+Computer Science, Springer, 2012, 7489,  408–413. 23.  Maso-Maresma, g. & Sebastia-Salat, M. The integration  
+of  Folksonomies  within  a  thesaurus  in  a  social  science  
+web  portal:  SIDBRINT.  Inf.  Res.,   2013,  18(3).  http:// 
+www.informationr.net/ir/18-3/colis/paperS04.html#. 
+WJNyI3-QrIU (accessed on 2 February 2017). 
+24.  Shiri, A.A. & Revie, c. The effects of topic complexity  
+318 
+and  familiarity  on  cognitive  and  physical  moves  in  a  
+thesaurus-enhanced search environment. J. Inf. Sci.,  2003,  
+29(6), 517–526. 
+25.  Sihvonen, A. & Vakkari, P. Subject knowledge improves  
+interactive  query  expansion  assisted  by  a  thesaurus. J.  
+Doc.,  2004,  60(6), 673–690. 
+26.  Wu,  S.  &  Witten,  I.  H.  First  person  singular: A  digital  
+library  collection  that  helps  second  language  learners  
+express themselves. Int. J. Digit. Libr. Syst.,  2010,  1(1),  
+24–43. 
+27.  Alonso gaona garcía, P.; Martín-Moncunill, D.; Sánchez- 
+Alonso,  S.  &  Fermoso garcía,  A.  A usability  Study  
+of  Taxonomy  Visualisation user  Interfaces  in  Digital  
+Repositories. Online Inf. Rev.,  2014,  38(2), 284–304. 28.    g ordon,  A.S.  Browsing  image  collections  with  
+representations of common-sense activities. J. Am. Soc.  
+Inf. Sci. Technol.,  2001,  52(11), 925–929. 
+29.  McKay,  D.;  Shukla,  P.;  Hunt,  R.  & cunningham,  S.  
+J.  Enhanced  browsing  in  digital  libraries:  Three  new  
+approaches  to  browsing  in  greenstone. Int.  J.  Digit.  
+Libr.,2004, 4(4), 283–297. 
+30.  Nakashima, M.; Sato, K. & Qu, y.; Ito, T. Browsing-based  
+conceptual information retrieval incorporating dictionary  
+term relations, keyword association, and a user’s interest.  
+J. Am. Soc. Inf. Sci. Technol.,  2003,  54(1), 16–28. 
+31.  Shiri, A. & Revie, c. usability and user perceptions of a  
+thesaurus-enhanced search interface. J. Doc.,  2005,  61(5),  
+640–656. 
+32.  Shiri, A.; Ruecker, S.; Bouchard, M.; Doll, L. & Fiorentino,  
+C. User evaluation of searchling and t-saurus: multilingual  
+thesaurus-enhanced visual interfaces for digital libraries.  
+Can. J. Inf. Libr. Sci.,  2013,  37(2), 137–160. 
+33.  Stafford, A.; Shiri, A.; Ruecker, S.; Bouchard, M.; Mehta,  
+P.; Anvik,  K.  &  Rossello,  X.  Searchling,  user-centered  
+evaluation  of  a  visual  thesaurus-enhanced  interface  for  
+bilingual  digital  libraries.  Lecture  Notes  in  Computer  
+Science, Springer,  2008,  5173, 117–121. 
+34.  Atherton,  L.  seamless uK  -  Building  bridges  between  
+information islands. New Libr. World,  2002,  103(11-12),  
+467–473. 
+35.  Alani, H.; Jones, c. & Tudhope, D. Associative and spatial  
+relationships in thesaurus-based retrieval. Lecture Notes  
+in Computer Science, Springer,  2000,  1923, 45–58. 36.  Thangaraj, M. &gayathri, V. A context-Based Technique  
+Using Tag-Tree for an Effective Retrieval from a Digital  
+Literature Collection. J. Comput. Sci.,  2013,  9(11), 1602– 
+1617. 
+37.  Bakar, Z. A. & Rahman, N. A. Evaluating the effectiveness  
+of thesaurus and stemming methods in retrieving malay  
+translated Al-quran documents. Lecture Notes in Computer  
+Science, Springer,  2003,  2911, 653–662. 
+38.  Da  Silveira,  M.  D.  L.;  Ribeiro-Neto,  B.;  De  Freitas  
+Vale,  R.  & Tôrres Assumpção,  R. Vertical  searching  in  
+juridical  digital  libraries.  Lecture  Notes  in  Computer  
+Science,Springer,  2003,  2633, 491–501. 
+39.  Hienert, D.; Schaer, P.; Schaible, J. & Mayr, P. A Novel  
+combined Term Suggestion Service for Domain-Specifc  
+Digital  Libraries.  Lecture  Notes  in  Computer  Science,  
+
+========6========
+
+SuNNy & ANgADI : APPLIcATIONS OF  T HESAuRuS IN  D IgITAL  L IBRARIES: A SySTEMATIc LITERATuRE  R EVIEW 
+Springer,  2011,  6966, 192–203. 
+40.  Shiri, A. Revealing inter-disciplinarity in nanoscience and  
+technology queries: A Transaction log analysis approach.  
+Knowl. Organ.,  2011,  38(2), 135–153. 
+41.  Feki,  g.;  Ammar,  A.  Ben  &  Amar,  c.  Ben.  Adaptive  
+semantic  construction  for  diversity-based  image  
+retrieval. In proceedings of 6th International Conference  
+on  Knowledge  Discovery  and  Information  Retrieval,  
+INSTICC press, 2014, pp. 444–449. 
+CONTRIbUTORs 
+Mr  sanjeev  K.  sunny,  completed  his  post-graduation  in  Documentation  and  Information  Science  from  DRTC,  ISI  Benglore,  in  2008  and  is  pursuing  PhD  in  LIS  from  TISS,  Mumbai.  Presently,  he  is  working  as  Deputy  Librarian  at  IIT  
+Roorkee.  His  areas  of  specialisations  are  library  automation,  digital  library  services  and  information  retrieval,  web  portals  and  e-resource  management,  user  education  programmes,  and  applications  of  knowledge  organisation  systems.  
+In  the  current  study,  the  systematic  review  of  literature  has  been  carried  out  by  him. 
+Dr  Mallikarjun Angadi   obtained  mLISc  and phD  in  library  science from gulbarga university, gulbarga, Karnataka. currently  he is working at Tata Institute of Social Sciences, Mumbai. He  has published 48 research papers in the national & international  conferences/seminars and national & international journals. He  also has 4 edited books to his credit. His area of specialisation  includes : Library automation and networking, IcT applications  in  libraries,  digital  library  applications,  library  websites  and  portals,  scientometric  studies.  
+In  the  current  study,  the  systematic  review  of  literature  has  been  carried  out  under  his  supervision. 
+319 
+
+========7========
+

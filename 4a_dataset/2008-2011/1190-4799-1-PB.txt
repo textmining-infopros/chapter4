@@ -1,0 +1,972 @@
+DESIDOC Journal of Library & Information Technology, Vol. 31, No. 5, September 2011, pp. 340-347
+© 2011, DESIDOC
+
+Lorenz Curves Determine Partial Orders for
+Comparing Network Structures
+Ronald Rousseau
+Antwerp University, University of Antwerp, IBW, Venusstraat 35, B-2000 Antwerpen, Belgium
+and
+KHBO (Association K.U.Leuven), Faculty of Engineering Technology,
+Zeedijk 101, B-8400 Oostende, Belgium
+and
+K.U.Leuven, Dept. Mathematics,Celestijnenlaan 200B, B-3000 Leuven (Heverlee), Belgium
+E-mail: ronald.rousseau@khbo.be
+
+ABSTRACT
+Networks can be studied from different points of view. In this paper, it is shown that the traditional
+Lorenz curve and some of its generalisations can be used for characterising inequality in network properties.
+Each type of Lorenz curve determines a partial order in a set of networks and a Gini-type index can be
+associated to each of these curves. The following types of Lorenz curves, each related to a different type
+of inequality in network properties and resulting in a different partial order, are briefly discussed: (a)
+Classical Lorenz curves and evenness measures; (b) intrinsic diversity profiles (or k-dominance curves)
+and associated measures of diversity; (c) generalised Lorenz curves as introduced by Shorrocks, that are
+not scale invariant but take absolute numbers into account; (d) weighted Lorenz curves for comparisons
+with an internal or external standard; and (e) Lorenz-type curve introduced to perform source per source
+comparisons of items. This paper claims that the Lorenz curves and the Gini index are universal tools for
+studying inequality, including inequality in network properties.
+Keywords: Inequality, networks, Lorenz curves, Gini index
+
+1. INTRODUCTION
+With the advent of the internet and the world wide
+web, and renewed interest in social networks, business
+networks, and citation networks, the scientific activities
+related to network theory have, over the latest decade,
+grown at an unprecedented scale1-2. Not only the number
+of network studies has grown, but also the size itself of
+the networks studied. As the studied networks have
+become so big visualising them adequately becomes
+almost impossible. In such cases methods of descriptive
+statistics may still provide useful information about
+structural characteristics of the networks. Moreover,
+different approaches, studying various aspects of
+network structure, are necessary. Whatever the
+approach taken, precise definitions are called for.
+Degree centrality (in-degree, out-degree in a directed
+network), closeness centrality, and betweenness
+centrality are all characteristics of nodes2-3. When the
+network is subdivided into groups, the nodes have global
+and local Q-measure values4-5.
+
+In this paper, the general term ‘array of node
+properties’ has been used to indicate the ordered set of
+values of one of these characteristic values. More
+generally, the terminology of sources producing items
+(nodes having certain network characteristic values)
+have been used. For the sake of simplicity, the paper will
+mainly focus on undirected networks and exclude
+networks without any link. It is recalled that the h-index
+has been defined for node properties too6. This aspect,
+however, will not be studied here. Only ‘complete’
+networks-not samples-studied at a precise moment in
+time will be discussed.
+Dynamical aspects and estimation problems fall
+outside the scope of this contribution. Modelling using
+continuous curves is not discussed either. Many of the
+points made here are already made in the sociological,
+economical, and ecological literature. Hence, only most
+appropriate references have been given. The terms
+‘network’ and ‘graph’ are used interchangeably.
+340
+
+Besides giving rise to a partial order satisfying the
+permutation invariance and the scale invariance
+property, this ranking also satisfies the Dalton’s transfer
+principle and the replication property. A short explanation
+of these notions has been included.Any array of node
+properties gives rise to precisely one classical Lorenz
+curve (while the opposite is not true at all). It is assumed
+that the reader is familiar with classical Lorenz curves
+(Fig. 1) but just recall that there are two versions: a
+concave one and a convex one. For the convex form, the
+node properties are ranked from low to high and ranking
+from high to low yields the concave variant (Fig. 2).
+These two approaches are mathematically equivalent.
+The convex form uses the array X = (x1, …, xN) ranked
+from smallest to largest. The corresponding Lorenz curve
+connects
+the
+origin
+(0,0)
+with
+the
+points
+
+⎛ j ∑ j xi ⎞
+⎜ , iN=1 ⎟ for j = 1,.....N .
+⎜ N ∑ xi ⎟
+i =1
+⎝
+⎠
+
+Cumulative proportion of items
+
+The number of nodes in a network and the inequality
+or evenness in their properties are two basic notions
+related to network structures. The number of nodes is a
+simple notion, which is, at least theoretically,
+unambiguous. In practice, however, there might be
+serious difficulties as to when to consider two objects as
+different (what is a webpage?) or whether or not to
+include particular actors (is this author a computer
+scientist, and hence she belongs to the corresponding
+network of computer scientists or is she active in
+information retrieval?). In any case, evenness is an even
+more subtle notion. It is defined as the relative
+contribution of nodes, actually present or assumed to be
+present. The author agrees with Taillie7 and Gosselin8 that
+the classical Lorenz curve9 is the perfect representation
+of evenness ranking, being independent of the number of
+nodes concerned10.
+
+Cumulative proportion of items
+
+2. EVENNESS
+
+Cumulative proportion of sources
+Figure 1. Convex Lorenz curve for evenness. X—Lorenz
+curve of the array (1, 3, 6, 10, 20), while D—diagonal
+representing perfect evenness.
+DESIDOC J. Lib. Inf. Technol., 2011, 31(5)
+
+Cumulative proportion of sources
+Figure 2. Concave form of the same situation as in Fig. 1.
+
+Considering the convex form, one obtains a partial
+order where one Lorenz curve corresponds to a higher
+degree of evenness as another one if it is situated above
+the other. Highest evenness occurs for the diagonal line,
+corresponding with perfect evenness. As Lorenz curves
+may intersect, this construction yields a partial (not a
+complete or total) order, referred to as the Lorenz
+dominance order.
+Permutation invariance refers to the fact that
+evenness is not a property of individual nodes but of a
+network as a whole. Scale invariance means that node
+properties differing by a proportionality factor are
+considered equivalent. As Lorenz curves are drawn
+using proportions they are automatically scale invariant.
+Dalton’s transfer principle11 states that when a node
+property, say the degree centrality of a node with a small
+number of connections decreases in favour of a node
+that has already more connections, evenness must
+decrease. It has been shown that the Lorenz order meets
+this transfer principle. Finally, the replication property,
+also due to Dalton, says that the evenness of any
+replication of a network must be equal to the evenness of
+the original network. In other words, the evenness of the
+node array (2,3,5,8) is equal to that of (2,3,5,8,2,3,5,8)=
+(2,2,3,3,5,5,8,8), which is equal to that of
+(2,2,2,2,2,3,3,3,3,3,5,5,5,5,5,8,8,8,8,8). As replication
+has no influence on the Lorenz curve also this
+requirement is clearly satisfied. It is noted that this
+property is probably of less practical importance in a
+network context. Rings and fully connected networks are
+perfectly even for degree centrality.
+An evenness function E is a function that associates
+a non-negative number to each network array. It must,
+341
+
+Gini Evenness Index
+The Gini evenness index G, is equal to twice the area
+under the convex Lorenz curve, or 1 minus twice the area
+between the Lorenz curve and the diagonal. If X = (xj),
+denotes a network property array, the Gini
+j=1,…,N
+evenness index is calculated as:
+
+G '( X ) =
+
+⎞ 1
+2 ⎛ N
+⎜
+N +1− j) x j ⎟ −
+2 ⎜∑(
+⎟ N
+μ N ⎝ j =1
+⎠
+
+(1)
+
+where, the xjs are ranked from low-to-high and μ
+denotes the mean of the set {xj}.
+The modified Gini-Simpson index, Ë is defined as:
+Λ( X ) =
+
+1
+2
+
+⎛x ⎞
+N ∑⎜ j ⎟
+j =1 ⎝ S ⎠
+N
+
+(2)
+
+where, S denotes the sum of the X-array:
+N
+
+S =∑ xj
+j =1
+
+The reciprocal of the coefficient of variation:
+1/ V.
+1 μ
+This evenness measure is defined as =
+, where,
+V σ
+σ denotes the standard deviation of the set {xj} (the
+components of the array X).
+The adapted Shannon-Wiener index, H’, is:
+
+H '( X ) =
+
+1
+⎛ xj ⎛ x j ⎞⎞
+ln(N ) + ∑ ⎜⎜ ln ⎜ ⎟ ⎟⎟
+j =1 ⎝ S
+⎝ S ⎠⎠
+N
+
+(3)
+
+Note that this index is not defined (or equal to ∞ ) for
+the perfect evenness situation. It can be concluded that
+striving for a total order representing evenness is a futile
+endeavour. A partial order is the best one can achieve.
+
+3. INTRINSIC DIVERSITY PROFILES:
+COMBINING EVENNESS WITH NUMBER OF
+NODES PRESENT
+In many situations one can include the number of
+nodes into a measure describing the whole network. For
+instance, one can make a distinction between different
+fully-connected networks. It has been shown12 that if no
+zeros occur in the property array, then the intrinsic
+342
+
+Cumulative proportion of items
+
+moreover, respect the Lorenz partial order. This means
+that if array X has LX as its Lorenz curve and array Y has
+LY as its Lorenz curve, and if LX is strictly above LY (in the
+convex form) then E(X)>E(Y). The examples10 of
+functions E satisfying this requirement are10:
+
+Cumulative proportion of sources
+Figure 3. Intrinsic diversity profiles for two arrays with the
+same evenness: X = (1,3,5,10) = (10,5,3,1) and X1 =
+(10,10,5,5,3,3,1,1); X -<< X1.
+
+diversity profile as introduced by Patil and Taillie13 in
+ecological investigations is the best possible choice.
+Under the term ‘best possible’, one means that the
+resulting partial order is the strongest one among a
+number of reasonable candidates12. Also note that the
+intrinsic diversity profiles are equivalent to k-dominance
+curves as introduced by Lambshead14 These curves can
+be drawn as follows: assume that node properties are
+ranked from high-to-low. Then the cumulative number of
+nodes is shown (not normalised) on the abscissa. As
+ordinates the cumulative proportion of the network
+property under investigation is used. Figure 3 illustrates
+the concept. These profiles introduce a partial order
+denoted as: -<<. If X -<< X1, then the intrinsic diversity
+profile of X never lies under the profile for X1. In this
+partial order, perfect evenness for N nodes is less
+‘diverse’ (borrowing a term from ecology) than perfect
+evenness for N + 1 nodes (while their evenness is the
+same). A measure respecting the partial order for
+intrinsic diversity profiles (-<<) is obtained by taking
+twice the area between the intrinsic diversity profile, the
+line x = 0 (the ordinate axis) and the line y = 1. This
+measure is called the adapted Gini coefficient (AG). It is
+calculated as:
+AG( X ) =
+
+⎞
+2 ⎛ N
+⎜∑ j xj ⎟ − 1
+S ⎝ j =1
+⎠
+
+(4)
+
+where, X = (x1, x2, …, xN) and the xj’s are ordered
+from high to low; S is the sum of the xj’s as before.
+Applying an atan-transformation yields a normalised
+function (a function taking values between 0 and 1).
+Recall that one requires that no array contains a zero
+value otherwise problems arise with the construction of
+intrinsic diversity profiles. Yet, zeros may occur in
+practice. Indeed, when studying a specified set of nodes
+DESIDOC J. Lib. Inf. Technol., 2011, 31(5)
+
+it may happen that some are not connected at all.
+Consider now, for instance, X = (4, 2, 1, 0) and Y = (4, 2,
+1). The evenness of X is strictly smaller than that of Y;
+hence one would expect that the intrinsic diversity of Y is
+larger than that of X. This does not happen, showing that
+intrinsic diversity profiles cannot cope with null classes.
+Another variation on the Lorenz curve theme, namely
+shifted Lorenz curves, does not have this drawback.
+Here, the Lorenz evenness curve is essentially shifted 1/
+(2N) to the right. Concretely, the shifted Lorenz curve
+connects the origin with the points
+⎛ j + 0.5 ∑ j xi
+⎜
+, ij=1
+⎜ N
+∑ i =1 xi
+⎝
+
+⎞
+⎟
+⎟
+⎠
+
+where j = 0, …, N-1, x0 = 0; the curve ends in the point
+(1,1). Data are ranked from smallest to largest. For more
+details about this construction, one can refer to paper by
+Rousseau15.
+
+4. SHORROCKS’ GENERALISED LORENZ
+CURVES
+In many studies, not only the number of nodes and
+the relative properties are important, but also the values
+of these properties themselves. The previous approaches
+did not take this aspect into account. Economists
+studying household incomes face the same problem.
+Besides, the number of households and the inequality
+between their incomes, also the absolute income plays a
+role. To cope with this problem Shorrocks16 proposed the
+use of generalised Lorenz curves. Rousseau12 referred
+to these curves as intrinsic stability profiles. A
+
+generalised Lorenz curve is simply a convex Lorenz
+curve where each ordinate value is multiplied by the
+average value under consideration, μ (average income
+in Shorrocks’ case). This yields a new partial order
+where situations with a higher average number of
+property values are considered to be more unequal than
+those with a lower average value. This approach clearly
+has the disadvantage that it is not anymore scaleinvariant, but in cases where the counting measure is
+used, as for degree centrality, this is of no importance.
+Also, here twice the area under the convex generalised
+Lorenz curve is an acceptable diversity measure of Ginitype. This Gini measure, however, is not anymore
+bounded by one, but again, one may apply an atantransformation if this is considered desirable (Fig. 4).
+
+5. COMPARISON WITH AN AVERAGE OR
+HYPOTHESISED SITUATION: WEIGHTED
+LORENZ CURVES
+Sometimes one is not interested in the actual
+inequality among node properties, but it is more
+interesting to study how different the distribution of values
+is wrt to an average or a hypothesised situation. An
+average can be considered as an internal standard, a
+hypothesised situation as an external standard. Often this
+external standard is a factor hypothesised to be the main
+factor in explaining observed differences in node
+properties.
+Consider the following hypothetical table of crossclassified data (Table 1): a row classification consisting
+of M rows and a column classification consisting of N
+columns, with M, N ≥ 2, e.g. paper by Rousseau17. It is
+assumed that columns are different types of actors, while
+rows refer to different clusters or regions. Cell values
+give the sum of all node centralities.
+
+Cumulative proportion of items
+
+Table 1.
+
+Hypothetical cross tabulation (3x4) of actors and
+regions
+
+Species
+
+A1
+
+A2
+
+A3
+
+A4
+
+Average: R
+
+R1
+
+20
+
+140
+
+200
+
+140
+
+125
+
+R2
+
+25
+
+10
+
+20
+
+95
+
+37.5
+
+R3
+
+15
+
+90
+
+80
+
+65
+
+62.5
+
+Average: A
+
+20
+
+80
+
+100
+
+100
+
+Clusters or regions
+
+Cumulative proportion of sources
+Figure 4. Generalised Lorenz curves: B corresponds to the
+array (1, 3, 5, 10) with an average of 19/4, while A
+corresponds to the array (2, 6, 10, 20) with an
+average of 38/4=19/2.
+DESIDOC J. Lib. Inf. Technol., 2011, 31(5)
+
+Given the data of Table 1, one might assume that for
+actor type 3 available funding (just as an example) is the
+main factor explaining the observed difference in links
+between regions. In that case, one may use the 3-array
+of available funding (not shown) and compare it to the
+A3-column. Here, funding acts as an external standard.
+On the other hand, one might also be interested in
+studying how the evenness of the actor array of a
+particular region compares with average actor linking.
+This average array plays then the role of an internal
+standard. Note that we are not considering the complete
+343
+
+analysis of a given contingency table. This is another
+type of study. In both cases (external or internal
+standard), one uses weighted Lorenz curves and
+measures respecting the partial order determined by
+these weighted Lorenz curves. Weighted Lorenz curves
+are constructed as follows. Let S= (s1,s2,…,sN) denote
+the standard array and let X= (x1,x2,…,xN) denote the
+studied array. This array is the one we want to compare
+with the standard. Note that indices must correspond and
+that the studied array and the standard, one have in a
+natural way the same number of cells (or sources). If,
+e.g., X denotes the number of links of actors in different
+regions and S denotes funding, then xj and sj must refer
+to the same region. It is assumed, moreover, that none of
+the components of the standard array S is zero. In order
+to construct the weighted Lorenz curve for comparison
+with a standard the components of both arrays are first
+ordered in such a way that
+x1 x 2
+x
+≥
+≥L≥ N
+s1 s2
+sN
+
+(5)
+
+This ranking leads to a concave curve. Using the
+other ranking leads to a convex representation. Next we
+normalise the arrays S and X, leading to arrays W and
+AX, where components are determined as:
+aj =
+
+xj
+
+and w j =
+
+N
+
+∑x
+k =1
+
+k
+
+sj
+N
+
+∑s
+k =1
+
+k
+
+(6)
+
+Figure 5. Weighted Lorenz curve (concave form) for the array
+X = (1, 3, 5, 10) compared with S = (1, 1, 7, 1); after
+re-ranking and normalising the curve based on AX
+= (10/19, 3/19, 1/19, 5/19) and W = (1/10, 1/10, 1/10, 7/
+10) are drawn.
+
+The interpretation of this index is the same as that for
+the (unweighted) Gini index, namely, twice the area
+above the weighted concave Lorenz curve. When the
+weighted Lorenz curve coincides with the diagonal, the
+weighted Gini diversity index is 1.
+(b) Asymmetric (or weighted)
+coefficient of variation:
+
+Note that normalising does not change the order.
+Finally, the weighted Lorenz curve is defined as the
+broken line connecting the origin (0, 0) to the points with
+components
+j
+⎛ j
+⎞
+⎜ ∑ w k , ∑ ak ⎟
+k =1
+⎝ k =1
+⎠ j = 1,K,N
+
+Vw2 ( X ) =
+
+∑
+j =1
+
+6.
+
+Functions that respect this partial order are
+sometimes referred to as measures of asymmetric
+relative diversity18. The term ‘relative’ refers to the fact
+that one compares with a standard. The term
+‘asymmetric’ stresses the fact that the roles of the
+standard and the array under study cannot be
+interchanged. Examples of such measures are:
+(a) Weighted Gini diversity index19:
+GW ' ( X ) = 1−
+
+344
+
+1
+2
+
+N
+
+N
+
+∑∑
+
+i =1 j =1
+
+w i a j − w j ai
+
+(8)
+
+(a
+
+1
+j
+
+−wj )
+
+2
+
+squared
+
+−1
+
+wj
+
+(9)
+
+This measure takes values between 0 and ∞ .
+
+(7)
+
+For a fixed standard, these weighted Lorenz curves
+again introduce a partial order in the set of N-arrays. Fig.
+5 provides an example of a weighted Lorenz curve.
+
+N
+
+inverse
+
+SOURCE PER SOURCE COMPARISON OF
+NODE PROPERTIES: DIFFERENCES OF
+RELATIVE VALUES
+
+In this approach, introduced by Egghe and
+Rousseau20, one directly compares relative arrays.
+Relative contributions of the same sources (nodes), but
+at different times are compared by taking differences.
+These differences may be positive or negative, and one
+compares with the zero-array.
+A type of Lorenz curve adapted to this situation has
+been constructed as follows. Let X= (xj) j=1,…,N and Y = (yj)
+be two N-arrays and let A= (aj) j=1,…,N and B= (bj)
+j=1,…,N
+denote
+their relative arrays (sum of all components
+j=1,…,N
+equal to one). Then the components of the difference
+array D= (dj) j=1,., N with dj = aj-bj are ranked from largestto-smallest. Finally, again using partial sums, one puts:
+DESIDOC J. Lib. Inf. Technol., 2011, 31(5)
+
+j
+
+j
+
+t j = ∑ dk = ∑ ( ak − bk )
+k =1
+
+k =1
+
+(10)
+
+The corresponding Lorenz curve is obtained by
+joining the origin (0, 0) with the points with coordinates
+⎛ j
+⎞
+⎜ N ,t j ⎟
+⎝
+⎠ j =1,L,N
+
+( 11 )
+
+Note that this curve always ends in the point (1, 0).
+For this reason one may call it the Lorenz bridge. (See
+Fig. 6 as an example).
+Similar to the other Lorenz curves also the Lorenz
+bridge leads to a partial order and functions respecting
+this partial order are the ones one is interested in. Such
+functions are sometimes referred to as measures of
+symmetric relative concentration. Here, the term ‘relative’
+again refers to the fact that one compares with a
+standard (the zero line). Examples of such measures
+are:
+Gini diversity (bridge) function:
+1 N
+∑ jd j
+N j =1
+
+(12)
+
+where, the dj are ranked in decreasing order. This is the
+area of the unit square (namely 1) minus the area under
+the Lorenz bridge. The Gini bridge function takes the
+value one in the case of perfect correspondence.
+Another acceptable measure of symmetric relative
+diversity is the adapted Simpson index of relative
+difference:
+Vr2 =
+
+7. OTHER DEVELOPMENTS AND RECENT USE
+OF THESE NOTIONS
+7.1 TIP-and TOP-Curves
+
+Figure 6. Lorenz bridge for the arrays B = (0.6, 0.2, 0.1, 0.1);
+A = (0.1, 0.2, 0.2, 0.5).
+
+Gr' ( X ,Y ) = 1 +
+
+This measure is related to the squared coefficient of
+variation, hence the notation Vr2. It can be concluded that
+the exact relation between different forms of Lorenz
+curves and the appropriate measures follows from a
+general mathematical theory put forward by Egghe21.
+
+1
+N
+
+N ∑ d j2
+
+(13)
+
+In socio-economic studies, scientists have often
+focused their attention on people with the lowest income.
+They introduced the notion of poverty line, a threshold
+line or value such that if someone’s income falls below
+this threshold income, this person is considered to live in
+poverty. Inequality among the poor with respect to the
+whole situation, e.g., the whole country, is then studied
+by an adaptation of Shorrocks’ generalised Lorenz
+curves, the so-called TIP-curves22. In network studies, as
+in research evaluation studies, however, one is usually
+more interested in the most productive sources rather
+than in the low producers. For this reason, the opposite
+of TIP-curves, called TOP-curves has been introduced,
+as these are designed to study the most productive
+sources23,24. Important notions when studying the most
+productive sources are incidence, intensity and
+inequality among the top. For more information one can
+refer to papers by Rousseau23, et al. and Rafols &
+Meyer25.
+
+7.2 There is More to Inequality Measurement
+Than Variety and Evenness
+It has recently been argued25 that besides the total
+number of sources (variety) and their evenness
+(balance) there is another dimension to inequality
+measurement25. This third factor is the disparity. This is a
+measure for the degree to which sources themselves are
+different. The Rao-Stirling measure (or quadratic
+entropy) is proposed when all three aspects are to be
+taken into account26,27. Rafols & Meyer25 used this
+approach in their study on interdisciplinarity. The RaoStirlling measure is further studied by Leydesdorff &
+Rafols28 in order to find out if it can really play a role in
+benchmarking interdisciplinarity on the journal level.
+They found that this measure was rather sensitive to the
+distance measure involved in its calculation.
+
+7.3 Applications of Lorenz-type Curves and
+Gini Index in Informetrics
+The Rafols-Meyer article mentioned above brings us
+to a short review of recent applications of Lorenz curves
+or inequality measures in informetrics, but no attempt is
+made at being complete. These studies are not
+necessarily applicable to networks. Egghe29 showed that
+
+j =1
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(5)
+
+345
+
+the g-index30 is an indicator that respects the Lorenz
+dominance order in the case of a fixed number of
+sources. Liu & Rousseau31 use the Gini index to
+investigate if different h-type indices are able to separate
+classes in a library classification system, and this based
+on book loans, while Chiang32, et al. use a page view Gini
+index to determine the Web 2.0-ness of Web users. It
+turns out that the standard Lorenz curve is a well-known
+tool in the field as shown e.g. in Larivière33, et al. Yet, the
+more special Lorenz-type curves and associated
+measures are rarely used. It is noted though that Egghe
+& Rousseau34 characterise own-group preference by a
+weighted Lorenz curve, while Albarrán35, et al. use the
+idea of incidence, intensity, and inequality (as in TOPcurves) to study high and low citation impacts. Burrell36
+emphasised that concentration studies should
+incorporate a time dimension and illustrated how this can
+be done.
+
+8. CONCLUSIONS
+It is concluded that the Lorenz curve and Gini index
+are universal tools for studying many aspects of network
+theory, or more general, any unequal situation. It is
+important to be precise in stating the aim of diversity or
+evenness measurements, and carefully choose the
+corresponding Lorenz curve and Gini index17.
+
+REFERENCES
+1. Newman, M.E.J. The structure and function of
+complex networks. SIAM Review, 2003, 45, 167256.
+2. Otte, E. & Rousseau, R. Social network analysis: A
+powerful strategy, also for the information sciences.
+J. Infor. Sci., 2002, 28(6), 441-53.
+3. Wasserman, S. & Faust, K. Social network analysis.
+Cambridge University Press, 1994.
+4. Guns, R. & Rousseau, R. Gauging the bridging
+function of nodes in a network: Q-measures for
+networks with a finite number of subgroups. In 12th
+International Conference on Scientometrics and
+Informetrics (ISSI 2009), edited by Birger Larsen &
+Jacqueline Leta. BIREME & Federal University of
+Rio de Janeiro, Rio de Janeiro, 2009. pp. 131-42.
+5. Guns, R.; Liu, Y.X. & Mahbuba, D. Q-measures and
+betweenness centrality in a collaboration network: A
+case study of the field of informetrics.
+Scientometrics, 2011, 87(1), 133-47.
+6. Schubert, A.; Korn, A. & Telcs, A. Hirsch-type
+indices for characterizing networks. Scientometrics,
+2009, 78(2), 375-82.
+
+346
+
+7. Taillie, C. Species equitability: A comparative
+approach. In Ecological diversity in theory and
+practice, edited by J.F.Grassle, G.P. Patil, W. Smith
+& C. Taillie. International Cooperative Publishing
+House, Fairland, MD, USA. 1979. pp. 51-65.
+8. Gosselin, F. Lorenz partial order: The best known
+logical framework to define evenness indices.
+Community Ecology, 2001, 2, 197-07.
+9. Lorenz, M.O. Methods of measuring concentration of
+wealth. J. Amer. Stat. Assoc., 1905, 9, 209-19.
+10. Nijssen, D.; Rousseau, R. & Van Hecke, P. The
+Lorenz curve: A graphical representation of
+evenness. Coenoses, 1998, 13, 33-38.
+11. Dalton, H. The measurement of the inequality of
+incomes. The Economic Journal, 1920, 30, 348-61.
+12. Rousseau, R.; Van Hecke, P.; Nijssen, D. & Bogaert,
+J. The relationship between diversity profiles,
+evenness and species richness based on partial
+ordering. Environ. Ecol. Stat., 1999, 6, 211-23.
+13. Patil, G.P. & Taillie, C. An overview of diversity. In
+Ecological diversity in theory and practice, edited by
+J.F.Grassle, G.P. Patil, W. Smith & C. Taillie.
+International Cooperative Publishing House,
+Fairland, MD, USA. 1979. pp. 3-27.
+14. Lambshead, P.J.D.; Platt, H.M. & Shaw, K.M.
+Detection of differences among assemblages of
+benthic species based on assessment of dominance
+and diversity. J. Natural History (London), 1981, 17,
+859-74.
+15. Rousseau, R. Concentration and diversity measures:
+Dependence on the number of classes. Belgian J.
+Oper. Res. Stat. Comp. Sci., 1992, 32, 99-126.
+16. Shorrocks, A.F. Ranking income
+Economica, 1983, 50, 3-17.
+
+distributions.
+
+17. Rousseau, R. Concentration and evenness
+measures as macro-level scientometric indicators. In
+Keyan pingjia yu daxue pingjia (Research evaluation
+and university evaluation), edited by Z. Wang & J.
+Jiang. Red Flag Publishing House, Beijing, 2001. pp.
+72-89. (In Chinese)
+18. Egghe, L. & Rousseau, R. Symmetric and
+asymmetric theory of relative concentration and
+applications. Scientometrics, 2001, 52, 261-90.
+19. Theil, H. Economics and information theory. NorthHolland, Amsterdam, 1967.
+20. Egghe, L. & Rousseau,
+asymmetric concentration
+
+R. Symmetric and
+theory of relative
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(5)
+
+concentration and applications. Scientometrics,
+2001, 52(2), 261-90.
+21. Egghe, L. Construction of concentration measures
+for general Lorenz curves using Riemann-Stieltjes
+integrals. Math. Compu. Modell., 2002, 35, 1149163.
+22. Jenkins, S.P. & Lambert, P.J. Three ‘I’s of poverty
+curves, with an analysis of UK poverty trends.
+Oxford Eco. Papers, 1997, 49, 317-27.
+23. Egghe, L.; Rousseau, R. & Rousseau, S. TOPcurves. JASIST, 2007, 58(6), 777-85.
+24. Rousseau, S.; Verbeke, T. & Rousseau, R.
+Evaluating environmental and resource economics
+journals: A TOP-curve approach. Rev. Environ. Eco.
+Policy, 2009, 3(2), 270-87.
+25. Rafols, I. & Meyer, M. Diversity and network
+coherence as indicators of interdisciplinarity: Case
+studies in bionanoscience. Scientometrics, 2010,
+82(2), 263-87.
+26. Rao, C.R. Diversity and dissimilarity coefficients: a
+unified approach. Theo. Population Biol., 1982,
+21(1), 24-43.
+27. Stirling, A. A general framework for analysing
+diversity in science, technology and society. J.
+Royal Soc. Interface, 2007, 4(15), 707-19.
+28. Leydesdorff, L. & Rafols, I. Indicators of the
+interdisciplinarity of journals: Diversity, centrality,
+and citations. Journal of Informetrics, 2011, 5(1),
+87-100.
+29. Egghe, L. An econometric property of the g-index.
+Info. Proc. Manag., 2009, 45(4), 484-89.
+30. Egghe, L. Theory and practise of the g-index.
+Scientometrics, 2006, 69(1), 131-52.
+31. Liu, Y.X. & Rousseau, R. Properties of Hirsch-type
+indices: The case of library classification categories.
+Scientometrics, 2009, 79(2), 235-48.
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(5)
+
+32. Chiang, I.-P.; Huang, C.-Y. & Huang, C.-W.
+Characterizing web users’ degree of web 2.0-ness.
+JASIST, 2009, 60(7), 1349-357.
+33. Larivière, V.; Macaluso, B.; Archambault, E. &
+Gingras, Y. Which scientific elite? On the
+concentration of funding, productivity and citations.
+In ISSI 2009-12th International Conference on
+Scientometrics and Informetrics, edited by Birger
+Larsen & Jacqueline Leta. BIREME & Federal
+University of Rio de Janeiro, Rio de Janeiro, 2009.
+pp. 576-85.
+34. Egghe, L. & Rousseau, R. How to measure owngroup preference? A novel approach to a
+sociometric problem. Scientometrics, 2004, 59(2),
+233-52.
+35. Albarràn, P.; OrtunÞo, I. & Ruiz-Castillo, J. Highand low-impact citation measures: Empirical
+applications. Journal of Informetrics, 2011, 5(1),
+122-45.
+36. Burrell, Q.L. Time-dependent aspects of coconcentration in informetrics. Scientometrics, 2007,
+73(2), 161-74.
+About the Author
+Mr Ronald Rousseau is the President of the
+International Society for Scientometrics and Informetrics
+(ISSI). He is a Professor in mathematics at the
+Engineering School of the Catholic College for Higher
+Education Bruges-Ostend. He is also a professor
+associated to the Catholic University of Louvain (Leuven)
+and a Guest Professor at Antwerp University, School for
+Library and Information Science. He holds two
+doctorates: one in Mathematics and one in Library and
+Information Science. He received the Prize of the
+Belgian Academy of Science for his mathematical work
+and the Derek J. de Solla Price award (2001) for his
+work in scientometrics. He received an Honorary
+Professorship from Henan Normal University (China).
+
+347
+
+CALL FOR PAPERS
+DESIDOC Journal of Library and Information Technology (DJLIT) in its endeavour to
+keep its readers up-to-date about the current happenings in the field of library and
+information science is planning to bring out Special Issues on the following subjects.
+Original ideas, theoretical and application-oriented papers and case studies in the
+context of the themes in the digital form (MS Word) may be sent to the Editor, DJLIT.
+The paper will be published only after peer-evaluation by the respective Guest Editors.
+Topics of the Special Issues
+
+
+Methodological Issues and Problems in LIS Research
+
+
+
+Health Information Systems and Services
+
+
+
+Intellectual Property Rights
+
+
+
+Open Source Software
+
+
+
+E-Books
+
+Please send your paper/queries to:
+The Editor
+DESIDOC Journal of Library and Information Technology
+Defence Scientific Information and Documentation Centre
+Defence Research and Development Organisation
+4th Floor, Metcalfe House, Delhi-110 054
+Phone No. 011-23902469, 011-23902470
+E-mail: djlit@desidoc.drdo.in
+
+Prospective author(s) can submit their paper through our online submission system at
+http://publications.drdo.gov.in/ojs in MS Word format for the fast processing of paper.
+
+348
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(5)
+
+

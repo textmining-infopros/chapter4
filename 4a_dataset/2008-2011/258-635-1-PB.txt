@@ -1,0 +1,361 @@
+DESIDOC Journal of Library & Information Technology, Vol. 29, No. 4, July 2009, pp. 28-32
+© 2009, DESIDOC
+
+Enhancing Circulation Services Using E-mail for Alerts and Reminders
+Priyanka Kalbhor and A.K. Tyagi
+Information Centre and Library
+Defence Institute of Advanced Technology (DU), Girinagar, Pune-411 025
+E-mail: draktyagi@yahoo.co.in
+
+ABSTRACT
+The success of information service is more likely to be achieved by adjusting the services to meet specific
+needs of an individual rather than trying to adapt the individual user to match the output of the information
+system. This paper provides an insight into the e-services implemented by the Information Centre and Library
+(IC&L) at Defence Institute of Advanced Technology DIAT (DU), Pune, keeping in view the users’ requirements
+and their valuable suggestions. Paper also discusses the techniques and tools applied in further simplifying
+the functioning of the circulation module and ensuring smooth communication between the staff and the users
+in an otherwise automated library system.
+Keywords: Circulation services, e-mail, alerts, reminders, Suchika, reservation system, overdue reminder
+
+1. INTRODUCTION
+More and more libraries are using computers for
+better administration, maintenance, and to provide better
+services to users. Library automation in the Defence
+Institute of Advanced Technology (DIAT), a Deemed
+University, was started in a big way in March 2003, with
+the implementation of Suchika software. The software
+helped a great deal in taking care of almost all the library
+activities like acquisition, articles indexing, serials
+control, circulation, cataloguing, maintenance and,
+OPAC (Online Public Access Catalog) as well as Current
+Awareness Services (CAS). However, DIAT received
+number of suggestions from the users to make the
+system more user friendly leading to introduction of the
+following new facilities:
+(i)
+
+Reservation of documents by users from OPAC
+during search: User is allowed to reserve documents
+during search, if document is already issued to
+another user.
+
+(ii) E-mail to the present borrower at the time of
+reservation: Once a document is reserved, an e-mail
+is sent to the present borrower informing him about
+reservation of the document.
+(iii) E-mail to user who reserved the document on checkin: Once a document has been returned by the
+Received on 25 November 2008
+
+present user, an e-mail is sent to the user who had
+reserved the document informing him of the
+availability of the document.
+(iv) Alerts of overdue documents: Regular alerts are sent
+to users whose return date is due in a few days. The
+number of days for alerts is specified so as to avoid
+overdue documents.
+(v)
+
+Overdue reminders: Overdue reminders are also sent
+to users using e-mail informing them about the expiry
+of return date and requesting them to return/renew
+the document at the earliest.
+
+(vi) Online fine calculation facility for the users: This
+facility keeps users abreast of their document status,
+i.e., fine calculation for overdue documents, which
+they can check before coming to the library.
+
+2. SUCHIKA: AN INTEGRATED LIBRARY
+MANAGEMENT SOFTWARE
+The Information Centre & Library (IC&L), of DIAT
+started using computers in 2002 with LibSys Ver. 4.x.
+However, proper use of computers started in March 2003
+with the development and implementation of Suchika
+(Fig.1). Suchika is an SRU compliant1 network-enabled
+multiuser integrated software having varied search
+facilities. It is a Windows-based full-featured library
+
+Figure 1. Suchika architecture.
+
+software that provides an efficient and affordable solution
+for automation in any library. Suchika supports the
+following seven modules covering all library activities:
+(i)
+
+Acquisitions control: It includes requisitions from
+users, vendors, approvals, order processing, bill
+processing, accessioning, payment, etc.
+
+(ii) Cataloguing or retrospective conversion of library
+holdings and cataloguing of acquired documents
+through acquisition control. It also facilitates
+maintaining a record of written-off or withheld
+documents, and also allows for recalling the
+documents that have been lost.
+(iii) Circulation
+control
+allows
+easy
+charging,
+discharging, reservation and renewal of documents,
+membership registration, cancellation, and issue of
+‘no dues’ certificate. Further, it also supports issue of
+reminders for overdue documents. There is barcode
+support for issue/return of documents and stock
+verification. Reminders are also sent for overdue
+documents using e-mail. Reservation of documents
+allows users to reserve a document even if it is
+already issued to another user.
+(iv) Serials control module helps in keeping track of
+journals and serials that are on the subscription list of
+any library. It helps maintain records of journals
+received. Reminders are issued for non-supply and
+missing issues. Moreover, it also gives information on
+tentative dates of arrival of next issues. Besides, it
+also helps in effective management of funds by
+regular online budget monitoring.
+(v)
+
+Web OPAC mainly constitutes simple and advanced
+search options for any type of user. This module
+provides all search approaches such as keywords,
+author, title, accession number, class number,
+
+DESIDOC Jl. Lib. Inf. Technol., 2009, 29(4)
+
+Boolean search, etc. OPAC also allows checking
+accounts and history of borrowed documents. Other
+functions include, list of new arrivals in the library and
+password protected account details of every user.
+(vi) Administration allows administrators to maintain
+records of masters, users, and the central database.
+It also permits users to access a particular module.
+(vii) Articles indexing helps in development
+bibliographic and full-text database.
+
+of
+
+2.1 Technical Specifications
+Suchika uses MS Access 2000 database
+management system on a Windows platform. Visual
+Basic is the front end for client-based activities, which
+include acquisitions control, cataloguing, serials control,
+articles indexing, and administration. Circulation control
+and Web OPAC is web enabled, i.e., these can be
+accessed on a network using web browser. Web-based
+activities are based on Java and Java Server Page (JSP)
+using Open Database Connectivity (ODBC), and Tomcat
+Web Application Server.
+
+2.2 Limitations
+All features in Suchika are completely user friendly,
+simple, requires minimum user interaction, and
+comprises features that are meant for efficient data
+handling. However, inspite of all these features, users
+observed limitations like no provision for recommending
+books or other documents as per their requirements, no
+provision to intimate users availability of the document in
+the library, and reservation facility for books limited only to
+the library. The emphasis rested mainly on user and
+library interaction, thereby leading to improvisation in the
+existing circulation module.
+29
+
+3. IMPROVEMENTS IN THE CIRCULATION
+MODULE
+3.1 E-mail Facility
+One of our objectives was to incorporate e-mail
+facility for sending information to users as and when
+required. For this purpose, a specific program has been
+developed using Java2 and JSP, which uses JavaMail API
+(Application Programming Interface); JavaMail libraries,
+i.e., mail.jar3; and JavaBeans Activation Framework
+(JAF), i.e., activation.jar4 files. To implement mail, one
+should have host id (e.g., www.diat.ac.in), and library’s
+mail id (e.g., library@diat.ac.in) to send mail. Also,
+institute should have its own mail server, i.e., SMTP
+(Simple Mail Transfer Protocol) Server that is accessible
+on a network. When an e-mail is sent, the client, i.e.,
+library@diat.ac.in, connects to the SMTP server of the
+sender, i.e., diat.ac.in, providing address of sender,
+recipient, and message details. The SMTP server of the
+sender then connects to the SMTP server of the recipient.
+Recipient’s SMTP server then stores the message in the
+inbox of receipts as shown in Fig. 2.
+
+3.2 Reservation System
+DIAT developed this module with the purpose of
+enabling users to reserve documents from OPAC during
+search in case all copies of the documents required are in
+circulation. In this case, users can reserve documents. If
+reservation of document is successful, an e-mail is sent
+to the present borrower. This facility is restricted to
+authorised users—only those users who have a login
+
+Sends
+Sender
+E-mail
+
+SEN
+Senders
+SMTP
+Server
+
+E-
+
+Connect
+
+name and password. When user comes across a
+document, where all of its copies are in circulation, a
+message ‘Reserve this Document’ is displayed providing
+the option for the reservation (Fig. 3). If user wants to
+reserve a document, he/she can do the same by clicking
+on the ‘Reserve this Document’ link. This link opens a
+new window, which asks for login name, i.e., member
+code and password. After successful login, details of user
+account are displayed showing the number of documents
+already issued to the user (Fig. 4). To reserve a document
+users have to provide the Accession Number of the
+document in the given text box. When user clicks on the
+‘Reserve’ button, the document is reserved. Upon
+reservation, a mail is sent to the present borrower giving
+title and accession number of the reserved document. On
+return of the reserved document, user who had reserved
+the document is informed by e-mail regarding its
+availability. The document is then kept reserved for
+collection for a specified period failing which it is open for
+use by the other users.
+
+3.3 E-mail Alerts Service
+The service is being used to alert the users whose
+documents are due for return in a few days, thereby giving
+the users ample time to return/renew the document within
+the given time period. Library sends daily alerts to those
+whose return date is three days from the date of alert
+sent. This can be done by clicking the Alerts link given
+under ‘E-mail’ service in the circulation home page. Upon
+clicking the Alerts link, the back end goes through a date
+check comparing current date with return date of the
+members. When alert mail is sent, a new window
+
+CONNE
+Receive
+RSMTP
+Server
+
+Receive
+E-mail
+
+RECEIV
+ES
+Receiver
+E-
+
+Figure 2. E-mail facility: work function.
+
+Figure 3. Reservation facility during search.
+
+Figure 4. Details of member account.
+30
+
+DESIDOC Jl. Lib. Inf. Technol., 2009, 29(4)
+
+displays the number of alerts sent and the number of
+documents due for return (Fig. 5).
+
+3.4 Overdue Reminder Service
+It is very difficult to keep track of the overdue
+documents and inform the user as and when documents
+fall due for return even in an automated system. Therefore,
+an Overdue Reminder Service (ORS) has been designed
+and implemented. This program identifies and keeps
+track of the overdue documents every day and sends a
+reminder to the users.
+Overdue reminders are sent daily to those users
+whose documents are overdue. This is done by clicking
+on the Reminders link given under E-mail service in the
+circulation home page. Upon clicking Reminders link, the
+back end goes through a date check comparing current
+date with the return date of the members. An E-mail is
+then sent to those members whose return date has
+
+expired. When the e-mail is sent, a new window shows
+the number of reminders sent to members and the number
+of overdue documents (Fig. 6).
+
+3.5 Online Fine Calculation System
+Fines are only used to get books back on time and
+make them available to others. An online fine calculation
+system has been started with the purpose of keeping
+users informed of their document status before coming to
+the library. The My Account facility gives status of issued
+documents, history of issued documents, reservation
+status, if any, acceptance status, and requisitions for a
+particular document given by other user. My Account of
+every user has an added feature for fine calculation. If a
+particular document has not been returned within the
+given time period, fine is calculated and charged. The
+expected return date and fine details are displayed in red,
+indicating that documents were overdue (Fig. 7).
+
+1. Alerts sent to member IATC 1670 for 3 documents
+2. Alerts sent to member IATC 1807 for 2 documents
+3. Alerts sent to member IATN 0217 for 4 documents
+
+15. Alerts sent to member IATS 0227 for 1 document
+Total 15 alerts sent for 29 documents
+Figure 5. Number of alerts sent.
+1. Reminder sent to member IATC 1421 for 2 documents
+2. Reminder sent to member
+
+IATC 1462 for 1 document
+
+3. Reminder sent to member IATC 1662 for 4 documents
+
+10. Reminder sent to member IATN0180 for 2 documents
+Total 10 reminders sent for 20 documents
+Figure 6. Number of reminders sent.
+
+Figure 7. My account: Fine charges.
+DESIDOC Jl. Lib. Inf. Technol., 2009, 29(4)
+
+31
+
+4. CONCLUSION
+Implementation of the e-mail service in Suchika has
+brought along tremendous benefits to our library users
+and given them more options to take advantage of library
+services. For library staff, it has made our processes
+more efficient and taken away the onerous tasks that
+were often time consuming. The initiative has been
+rewarding in building up rapport, and good customer
+relations among our staff and the users. Efforts are on to
+enhance e-services further to the next level of excellence
+and continue to add value in teaching and learning.
+
+ACKNOWLEDGEMENTS
+The authors thank the Vice Chancellor, DIAT (DU),
+Pune, for his support towards the IDAIR Project, and the
+Directorate of Extramural Research and Intellectual
+
+32
+
+Property Right (ER&IPR), DRDO, for sponsorship and
+financial assistance without which it would not have been
+possible to progress so far. The authors would also like to
+thank the other project team members who assisted in
+achieving success in this endeavour.
+
+REFERENCES
+1. Tyagi, A.K. Development of dynamic client gateway
+for testing and searching SRU servers. DLRL Dept. of
+Computer Science, Virginia Tech University, USA.
+(unpublished research work).
+2. http://www.java.sun.com
+3. http://java.sun.com/products/javamail/
+4. http://java.sun.com/javase/technologies/desktop/
+javabeans/jaf/downloads/index.html
+
+DESIDOC Jl. Lib. Inf. Technol., 2009, 29(4)
+
+

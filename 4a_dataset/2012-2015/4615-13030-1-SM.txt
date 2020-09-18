@@ -1,0 +1,522 @@
+DESIDOC Journal of Library & Information Technology, Vol. 33, No. 3, May 2013, pp. 158-167 
+  2013, DESIDOC 
+Methodology for Design of Online Exhibitions 
+Angeliki Antoniou, George Lepouras and Costas Vassilakis University of Peloponnese, Department of Computer Science and Technology 
+Terma Karaiskaki, 22100 Tripolis, Greece 
+Email: angelant@uop.gr; G.Lepouras@uop.gr; costas@uop.gr   
+AbstrAct 
+The process of designing systems or products largely depends on a number of decisions, like “who  do I design for?”, “what should my product do?”, “what are the user requirements?” etc. The developing  teams usually base their decisions on experience and/or heuristics and this is particularly the case, in the  development of online products and especially online exhibitions. The different solutions are frequently  case studies of specifc museums or institutions that wish to provide online content to actual or possible  visitors. In addition, the interdisciplinary nature of the endeavor, involving museology, technology but also  education, poses important design problems. In the following sections, we present a generic methodology  for the design of online exhibitions, using top-down processes and transferable fndings across museum  types that wish to assist the designers during the early decision stages.   
+This paper provides an introduction to the feld, emphasising its interdisciplinary nature and reviews  related  work  in  the  area  of  online  exhibition  design.  It  also  presents  an  overview  of  the  methodology,  elaborating on the individual methodology steps; in particular, the processes for determining the visitors’  perception of the museum (degree of museumness); the museum needs that require to be supported;  the  educational  approach  to  be  adopted;  the  relevance  to  life-long  learning  activities;  the  approach  to  
+adaptivity; and user involvement have been reviewed. 
+Keywords: Online exhibitions, museums, design methodology 
+1. IntrODuctIOn  
+A  designer  of  online  exhibitions  usually  goes  through  a  series  of  decisions,  some  more  difficult  than others, from the very beginning of the endeavor.  These  decisions  include  a  number  of  quite  diverse  aspects,  such  as  whether  the  application  will  have  a  purely  educational  character  or  an  edutaining  element, whether it will be collaborative or intended  for individual use, which is the most prominent way  to present exhibits, etc. These important aspects of  design are often based on heuristics and experience.  Although such an ad-hoc approach may be workable  for  some  simple  situations,  in  the  general  case  an  explicit and established procedure is needed, such  as  which  are  the  decisions  to  be  made  and  who  and  how  decides  on  design  issues.  In  this  light,  a  methodology  has  been  developed  that  assists  the  designer  of  online  exhibitions  in  the  early  design  stages and especially during concept generation. The  series  of  decisions  are  supported  by  a  number  of  questions the designer is required to answer, as well as  a  set  of  tools  or  techniques  for  each  question.  
+The  design  of  online  exhibitions  is  a  work  of  interdisciplinary  nature.  Insulander1   defines  the  
+Received 28 January 2013, online published 20 May 2013 
+museum as an area of knowledge in which different  disciplines  meet.  The  interdisciplinary  character  of  museum  learning  technologies  imposes  another  problem  in  the  study  of  the  field,  since  different  methods, theories, practices and findings gather from  the  different  disciplines.  Clearly,  the  disciplines  of  museology  and  technology  should  be  considered,  since the former provides invaluable knowledge on  the artefacts to be presented and how the museum  message2  to be conveyed should be shaped, while  the  latter  dictates  the  means  that  are  available  for  artefact presentation. One has to take into account  that  during  the  past  years,  museums  have  moved  from preserving and displaying artefacts to institutions  focused  on  the  education  and  entertainment  of  visitors3,4. At the same time visitors also report that  one of the main reasons they visit physical or online  museums  is  learning,  together  with  entertainment  and  socialisation5.  To  this  end,  museum  curators  strive to design and implement exhibitions that offer  an  educational  and  at  the  same  time  enjoyable  experience. These principles apply to both physical  and  online  environments;  according  to  the  above,  the education discipline is rendered directly relevant  to  the  design  of  online  exhibitions.  Thus,  three  
+
+========1========
+
+ANTONIOu, et al.: METhODOLOGy fOR  D ESIGN Of ONLINE  Exh IbITIONS 
+main  disciplines  are  involved  in  the  design  of  online  exhibitions,  namely  museology,  technology  and  education  (fig.  1).  
+Figure 1. Interdisciplinary nature of the design of online  
+exhibitions.  
+According to the above, online exhibition design  is  a  complex  task  because: 
+(a) The  decisions  that  should  be  taken  spread  
+across  different  disciplines  and  it  should  be  
+ascertained  that  each  decision  is  taken  by  
+appropriately skilled personnel and all pertinent  
+criteria  are  examined. 
+(b) The number of decisions is considerable, and it  
+should be guaranteed that no important design  
+factor  is  overlooked. 
+(c) The  coherence  of  design  decisions  should  be  
+guaranteed;  decisions  should  also  be  taken  in  
+proper sequence, to avoid (or minimise) the need  
+for  reviewing  previously  taken  decisions. 
+2.   rE lAtED   W OrK 
+the  educational  requirements  for  the  designed  exhibitions.  bonis10,11,  et  al.   examine  the  issue  of  providing digital museum installations that adapt to  the users’ preferences, while hong12, et al.  present  an approach where xSL technology is employed to  deliver different presentation styles to different user  groups,  focusing  on  the  implementation  aspects  of  adaptivity and adaptation. Sparacino13, et al.  examined  how new technologies, such as wireless object and  body  tracking  and  wearable  computers,  should  be  incorporated  in  the  design  of  online  exhibits. 
+Marty14  refer to the Spurlock Museum, which is  characterised  as  a  “holistic  approach  to  museum  informatics”,  focusing  on  the  study  on  the  social  impact of information technology on the collaborative  activities of the curators and exhibit designers planning  on the new Spurlock facility. hein15  and Alen 
+16 
+ focus  on how learning aspects should be incorporated into  the  museum  design,  but  technological  factors  that  are  of  particular  importance  for  online  exhibits  are  not  considered  at  the  same  level  of  importance  as  museological and educational aspects. finally, falk17 and hsi18  discuss post-implementation assessment of  visitor’s experience in digital and digitally-enhanced  exhibitions. 
+To  summarise,  it  seems  that  a  large  number  of  previous  studies  have  aimed  at  different  design  aspects  for  the  development  of  online  exhibitions  from  technology  requirements  of  the  users19   to  specific case studies20. Different generic approaches  for  the  design  of  online  exhibitions  have  been  published,  also  attempting  to  assist  the  designers  with different strategic issues21,22. Regarding the very  early  stages  of  the  design  cycle,  our  methodology  aims  at  assisting  the  designer  primarily  at  the  conceptual  level.  
+3. 
+MEthODOlOgy  
+The proposed methodology is based on a series  
+The issue of online exhibition design has attracted  
+the interest of researchers in the past one decade,  
+of  questions  posed  to  the  potential  designer  of  following  the  widespread  of  interactive  multimedia,  
+online  exhibitions.  The  six  main  questions  useful  broadband Internet and virtual reality technologies.  
+Tinkler6,  et  al.   and  Charitos 
+2,  
+et  al.   provide  an  approach on how virtual museums can be designed  and  implemented,  while  in  Lepouras7,  et  al. ,  and  Charitos8, et al.  the issue of creating and employing  online  exhibitions  in  the  premises  of  the  museum  for enhancing the visitors’ experience is examined.  bannon9, et  al. ,  suggest  the  introduction  of  hybrid  artefacts,  i.e.,  installations  that  allow  visitors  to  manipulate physical and digital material in a visible  and  interesting  manner  for  many  museum  visitors,  providing additional tools for the designer to capture  the  interest  of  the  visitors.  yet,  these  approaches  mainly focus on technological aspects, not considering  
+for  the  designers  are  shown  in  Table  1.  
+for each question, we have developed different  tools and techniques in order to facilitate the answering  process. In the following section the questions, the  relevant  techniques  and  tools  will  be  presented. 
+table 1. Main questions related to methodology 
+1. 2. 3. 4. 5. 6. 
+What is the degree of museumness for the specifc exhibition? Which museum needs will I support? 
+What is the optimal educational approach for my purposes? Is life-long learning relevant? 
+Will it be adaptive? 
+how can I involve the user? 
+159 
+
+========2========
+
+DJLIT,  VOL.  33,  NO.  3, MAy  2013 
+3.1  Degree  of  Museumness  for  the  specific  
+Exhibition 
+Recent studies have shown that the way people  define  a  physical  or  virtual  space  seems  to  have  clear implications on learning23. This work explored  how  visitors  view  the  different  museum  types,  and  their expectations with regards to learning or other  activities they might want to be offered in an online  museum. Therefore, the different museum types are  classified  based  on  the  visitors’  perceptions,  and  the  term  museumness  is  introduced  in  order  to  describe  visitors’  perceptions  on  a  certain  physical  or  virtual  space  and  whether  this  space  forms  a  typical  museum  or  not24.  Museumness  does  not  form  a  ‘yes’  or  ‘no’  category;  rather  it  suggests  a  continuum  that  different  museum  types  can  have  higher or lower scores. for example, visitors might  consider  both  an  archaeological  museum  and  an  art  gallery  as  museums,  but  of  different  degree  of  museumness,  since  the  former  collects  all  the  stereotypical  characteristics  that  form  the  notions  of  museums  and  the  latter  contains  fewer  of  those  characteristics.  A  scale  of  the  ‘perceived  degree  of  museumness’  was  produced  and  it  was  further  correlated  to  specific  activities  visitors  want  to  be  offered by the museum (i.e., learning, socialisation,  entertainment).  
+The hooper-Greenhill & Moussouri25,26  classification  of museum types was used in order to produce the  museumness scale. Since each museum type seems  to have unique activity demands and is approached  differently by its users, the authors of this presents  work opted to examine each museum type individually,  rather than the grouping suggested in hooper-Greenhill  &  Moussouri25 (e.g.  archaeological  museums  are  placed in the same category with history museums).  The museum types used are: Zoos, archaeological  museums, art galleries, industrial museums, history  museums,  science  museums,  children  museums,  botanical  gardens,  aquariums,  and  technological  museums.  This  need  to  consider  each  type’s  characteristics  separately  is  also  reflected  in  a  study  by  Dierking  & falk27. 
+To  validate  our  assumptions,  we  conducted  statistical  confidence  tests  on  the  results  of  the  questionnaires. Assumptions were accepted when the  statistical confidence that the assumption holds (formally  termed as confidence interval) was greater than 95 %,  equivalently  denoted  as  p  <  0.05  (the  probability  that  we  have  a  statistical  error  is  less  than  5  %).  The  95  %  confidence  interval  is  a  limit  widely  used  in  applied  practice28.  The  Chi-Square  test29  was  primarily  used  for  validating  our  assumptions.  for more information on statistical confidence tests  and  confidence  intervals,  the  interested  reader  is  referred  to  Snedecor  &  Cochran30. 
+It  has  been  found  that  the  different  degrees  of  museumness highly correlate with the preferred and  the expected activities of their users. More specifically,  by  conducting  statistical  confidence  tests  on  the  results  of  questionnaires  collected  from  potential  museum  visitors,  we  found  that  the  hypothesis  that  “There  would  not  be  any  differences  between  peoples  preferred  activities  for  different  types  of  museums”  is  rejected  with  very  high  confidence31.  The primary activity that visitors expect and want to  perform in institutions they consider typical museums,  is  learning.  When  an  institution  is  not  seen  as  a  museum (i.e., has a low degree of museumness), the  visitors expect and wish to be primarily entertained.   figure  2  summarises  the  results,  partitioning  the  museums  into  three  categories  according  to  their  museumness  (yes/high,  maybe/medium,  no/low).  
+These findings imply that the design of a ‘fun’  activity  in  a  historical  or  archaeological  museum  will  at  least  surprise  the  visitor,  or  some  visitors  might  see  it  as  inappropriate.  In  the  same  way,  institutions  with  low  degrees  of  museumness  require  the  implementation  of  entertaining  and/or  edutaining  applications  in  their  premises  (physical  or online). More specifically, the focus of technology  in  a  zoo  and  an  aquarium  should  be  primarily  on  entertainment, secondly on learning, and thirdly on  socialisation. In children’s museums, people expect  primarily  entertainment,  secondly  socialisation  and  lastly learning. Art galleries and historical museums  
+Figure 2. Degree of museumness and expected main activity23. 
+160 
+
+========3========
+
+ANTONIOu, et al.: METhODOLOGy fOR  D ESIGN Of ONLINE  Exh IbITIONS 
+demonstrate  similar  characteristics  when  it  comes  to  activity  expectations.  In  both  these  museum  types, people  expect  to  learn  first,  socialise  next,  while  entertainment  is  not  considered  necessary.  Due to their high scores on the museumness scale,  museums like archaeological, industrial, science and  technology require applications that enhance learning  mainly and then entertainment and socialisation. The  museumness scale is particularly helpful in showing  the  desired  focus  of  technology  for  museum  use,  according  to  user  expectations,  thus  assisting  the  designer  to  decide  whether  her  application  will  be  strictly  educational,  edutaining,  collaborative  and/ or  allowing  communication  of  users.  
+3.2 support  for  Museum needs 
+Literature reviews32-35  reveal that museums around  the  world  employ  technology  in  order  to  address  needs of the users. Online exhibitions should consider  those needs and attempt to support them. Some of  the  recurring  themes  in  the  technologies  used  by  many  museums  are  the  need  to  support:  (a) A specific population (children)  - for  example,  
+‘Rhodes hall’ was an online hypermedia system  
+that used pedagogical principles of ‘Constructionism  
+and  Problem-based  Learning’  to  assist  the  
+learning process of school students before and  
+after  their  visit  in  a  historic  home.  The  system  
+was designed for the special needs of a specific  
+population36.    
+(b) Navigation and mobility of users both physically  
+and  online  (i.e.,  museum  web-pages  showing 
+different routes)  - To support both visitor navigation  
+Museum needs Audience  
+Issues to consider Who are my users or target groups?  
+navigation -  Mobility 
+What are the characteristics of my audience? 
+Apart from the online usability demands for navigation, will I support onsite  navigation though my online application?  
+Can I support the mobility in the physical space with the help of the online  environment? 
+Interactivity 
+Adaptivity 
+What is the degree of interactivity I will provide to the user?  
+(i.e. Can she enlarge, rotate, etc. the exhibits?) 
+Will my online application adapt to the unique learning characteristics of user?  
+Will this adaptation process be continued to the premises of the museum? 
+communication Shall I allow communication of the users? 
+collaboration 
+What will be the form of this communication? (synchronous, asynchronous,  between whom, etc.) 
+Should I provide collaborative tasks for the users? 
+and mobility, ‘City’ was developed, that combined  
+hypermedia technology and virtual environments.  
+The  application  was  designed  for  on  site  as  
+well  as  off  site  visitors.  On  site  visitors  were  
+equipped  with  a  hand  held,  PDA  device  that  
+supported  their  physical  movement,  whereas  
+off  site  visitors  could  either  use  a  web-only  
+environment  or  a  virtual  environment37. (c) Interactivity  (need  to  define  the  degree  of  
+interactivity with the online exhibits)  - An example  
+of an interactive system is ‘ARCO’ (Augmented  
+Representation of Cultural Objects) that provided  
+a set of tools for the creation of Virtual Reality  
+and  Mixed  Reality  exhibitions.    The  system’s  
+virtual  reality  components  supported  distant  
+visitors,  since  it  was  also  web-based.  The  
+system’s  mixed  reality  components  supported  
+visitor  interaction  with  the  virtual  and  the  real  
+world  simultaneously38. 
+(d) Adaptivity (need for personalised content though  
+adaptive  or  adaptable  applications)   -  ‘A hA’  
+(Adaptive  hypermedia  Architecture)  was  a  
+web-based  adaptive  hypermedia  system  that  
+identified  different  visitor  needs  and  adapted  
+the  presented  content  accordingly39. 
+(e) Communication (socialisation and communication  
+are some of the most important expected activities) 
+- The above mentioned ‘City’ project also allowed  
+the  communication  and  social  interaction  of  
+visitors,  since  co-visiting  between  on  site  and  
+off site visitors was possible. The communication  
+between  the  participants  was  mainly  verbal37.     
+Who is involved Museologists 
+Educators 
+Museologists; educators; technology  experts 
+Technology experts 
+Museologists; technology experts;  educators 
+Museologists; educators 
+Museologists; educators 
+Museologists; educators 
+Museologists; technology experts;  educators 
+Museologists; educators 
+Should I incorporate other needs, like collaborative tasks for specifc  
+populations, or adaptive collaborative tasks, etc.?  What will be the form of the collaborative tasks? 
+Museologists; educators 
+Museologists; technology experts;  educators 
+161 
+
+========4========
+
+DJLIT,  VOL.  33,  NO.  3, MAy  2013 
+(f) Collaboration (Recognising two important issues):  
+(i) technology could be isolating, and (ii)people  
+rarely prefer to visit museums alone, which led  
+to the development of museum applications that  
+enhance  cooperation/collaboration  of  visitors.  
+The ‘Rhodes hall’ application, described above,  supported the collaboration between the students in  order  to  facilitate  learning  and  problem  solving36.     
+The  identification  of  these  needs  will  hopefully  lead  to  the  explicit  recognition  of  the  issues  by  the  designer  and  enable  the  dialogue  between  the  design team and the museum. Table 2 summarises  the museum needs relevant to the design of online  exhibitions,  and  the  issues  to  be  considered  for  each  need. for  each  need,  the  table  also  lists  the  expertise  of  people  who  should  be  involved  in  the  decision-making  process. 
+table 2. Museum needs and issues to consider 
+nature of truth 
+schools of thought 
+behaviourism 
+Cognitivism 
+Empiricism, realism (single truth) 
+Developmentalism 
+Computationalism Constructivism 
+relativism (multiple truths) 
+Constructionism 
+learning theories-models Classical conditioning Operant conditioning Cognitive schemas and models Enaction theory 
+Stage theories 
+Mediation model 
+Sociocultural theory 
+Activity theory 
+Artifcial intelligence 
+Problem-based learning Situated learning 
+Cooperative learning Conversation learning 
+3.3  Optimal  Educational  Approach  for  
+Purposes 
+The team designing an online exhibition should  also take into account the different learning theories  and  their  outcomes.  for  this  reason,  one  employ  a  classification  of  different  educational  theories,  showing their basic principles, outcomes, relation to  technology and examples of educational technologies  that use them; such classifications are described by  Antoniou  &  Lepouras40,32.  for  example,  wishing  to  develop an application that supports communication  and  collaboration  of  visitors,  the  design  team  can  easily  refer  to  the  classification  to  determine:  (a)  What  are  the  main  principles  and  the  scientific  
+background  of  collaborative  learning,  (b) Which previous applications have been used for  
+collaborative  learning  in  museums,  and  (c)  how  it  was  utilised.  for  example,  the  design  
+162 
+team  can  view  ‘NICE’  a  system  that  employed  
+several principles of collaborative  learning  and  
+on  the  same  time  it  also  supported  several  
+museum  needs,  like  audience,  interactivity,  
+communication,  etc.41.  
+Similarly, ‘Mystery in the Museum’ also used the  theory  of  Collaborative  Learning,  but  it  supported  different museum needs, like mobility42.  Employing  a classification scheme of educational theories and  educational  technologies  in  museums,  offers  the  design  team  a  concise  view  of  current  tendencies,  common  practices  and  possible  research  gaps. 
+furthermore, understanding issues of educational  theory  and  learning  practice  is  directly  relevant  to  the  design  process  for  two  main  reasons: (i) There  are  cases  that  the  museum  knows  what  
+will  be  presented  but  has  not  decided  on  how  
+it  will  be  presented,  and 
+Educational goal 
+Effective transmission of knowledge  (i.e. mathematical axioms) 
+Providing tools for the discovery  of own truth and the creation of  meaning 
+(i.e. interpretation of history) 
+(ii) There are cases that the museum has made clear  
+choice on both the what and the how of learning,  
+and the designers need to quickly and effectively  
+understand  the  concepts  involved,  in  order  to  
+specify  in  detail  the  relevant  solutions. 
+Educational theories often follow specific philosophical  and/or epistemological schools of thought, and they  set  trends  for  the  educational  systems.  These  are  distinguished from learning theories, since the latter  are  more  specified  descriptions  and  predictions  of  the  learning  processes  within  certain  educational  systems.  It  is  beyond  the  scope  of  the  present  work  to  elaborate  further  on  issues  of  educational  and  learning  theory.  here  the  main  point  is  that  all  educational  theories  have  a  core  epistemology  they  follow,  thus  shaping  the  different  educational  goals.  Table  3  lists  some  of  the  major  educational  theories  and  their  relation  to  epistemology,  and  specific  educational  goals.  
+In  addition,  all  theories  seem  to  have  some  
+
+========5========
+
+ANTONIOu, et al.: METhODOLOGy fOR  D ESIGN Of ONLINE  Exh IbITIONS 
+table 3. Quick organisation of educational and learning theories44 
+nature of truth 
+schools of thought 
+behaviourism 
+Cognitivism 
+Empiricism,  realism (single truth) 
+Developmentalism 
+Computationalism Constructivism 
+relativism (multiple truths) 
+Constructionism 
+learning theories-Models Classical conditioning Operant conditioning Cognitive schemas and ,models Enaction theory 
+Stage theories 
+Mediation model 
+Sociocultural theory 
+Activity theory 
+Artifcial intelligence 
+Problem-based learning Situated learning 
+Cooperative learning Conversation learning 
+advantages  and  disadvantages.  There  are  certain  aspects  of  learning  that  one  theory  could  explain  and predict better than another. A designer could use  elements from different theories and integrate them  in  order  to  support  design.  According  to  Mergel43 different theories could be used for different learning  situations.  for  example,  behaviourist  principles  could  be  useful  in  memorisation  tasks,  cognitive  elements  in  tasks  of  schematic  organisation  and  constructive principles in complex problem solving.  future  studies  could  identify  different  stages  in  learning  and  propose  the  most  suitable  learning  practices  for  each  purpose.  
+Table 3 summarises the described information in a  concise and comprehensible manner. by allowing the  design team to easily view some important theories  and  associate  each  one  with  its  corresponding  epistemological  origins  and  educational  goals,  it  assists the design team in the process of selecting  the most prominent one for application in the design  of  the  online  exhibition. 
+3.4  relevance  of  life-long  learning 
+Different social and economic factors have made  life-long  learning  a  reality.  Viewing  museums  as  educational institutions implies that museum learning  could  include  anything  from  informal  learning,  to  
+Educational goal 
+Effective transmission of  knowledge  
+(i.e., mathematical axioms) 
+Providing tools for the  discovery of own truth and  the creation of meaning  (i.e., interpretation of history) 
+non-formal (i.e., seminars, school trips) and formal  learning (i.e., museum-issued diplomas)44. The content  of  any  technology  designed  for  online  exhibitions  should consider issues of life-long learning, to cover  the  different  possible  educational  situations  that  might  emerge.  Moreover,  having  reviewed  visitor  studies  literature5,26,  four  major  types  of  visitors  are  identified:  
+(a)  Individuals  that  visit  alone,  
+(b)  Groups,  
+(c) families,  and 
+(d)  Schools.  
+All the above types have unique learning needs  and their behaviour in a museum differs significantly5.  Information  selection  and  presentation  should  be  adapted  to  their  specific  learning  demands.  In  addition, considering issues of life-long learning45,46,  we propose the use of the seven categories/scenarios  for the initial stages of the design of online learning  technologies  for  museum  use  (Table  4).  These  scenarios assist in the decision for the appropriate  learning  content  for  each  circumstance.  Note  that  edutainment  activities  are  included  in  learning  activities, in the informal learning condition; however,  this  depends  on  the  degree  of  museumness  of  the  
+table 4. learning content and life-long llearning in online exhibitions 
+Individuals 
+Families 
+Formal education 
+Set curriculum 
+No existing scenario 
+non-formal education 
+Negotiated   curriculum 
+No existing scenario 
+Informal education 
+Different learning  tasks – edutainment 
+Different cooperative learning  tasks – edutainment 
+schools 
+groups 
+Set curriculum-  cooperative learning No existing scenario 
+No existing scenario 
+Negotiated curriculum–   cooperative learning 
+No existing scenario 
+Different (cooperative)  learning tasks – edutainment 
+163 
+
+========6========
+
+DJLIT,  VOL.  33,  NO.  3, MAy  2013 
+specific  museum.  
+3.5 Adaptivity 
+Adaptivity  is  an  important  museum  need  that  should  be  considered  in  the  process  of  designing  online  exhibitions.  Once  it  is  decided  to  use  adaptivity,  individual  learning  characteristics,  like  learning styles, cognitive styles, type of intelligence,  approaches to learning, motivation type, etc., have  to be considered. Works that are related to different  individual learning characteristics, particularly those  focusing on the study of cognitive style47   could  be  valuable  tools  at  this  stage. Among  other  possible  learning  factors  (i.e.,  learning  style,  intelligence  type,  etc.)  we  focus  on  cognitive  style,  because  previous  research  has  shown  that  it  is  appropriate  for  use  in  the  design  of  learning  technology48   and  online  learning  technologies,  since  it  is  a  rather  constant  personality  characteristic.  Cognitive  style  describes the preferred and optimal way an individual  approaches to learning material. for example, some  users might prefer to view more text, whereas others  might  prefer  pictures  or  sound.  
+In  an  online  environment  a  simple  and  quick  questionnaire can reveal the user’s cognitive style,  when  the  user  first  uses  the  application,  together  with  other  factors  that  affect  learning  like  age,  gender, cultural background, etc. Previous research  has  shown  that  different  cognitive  styles  have  significantly  different  learning  interests,  different  needs and content preferences, as well as different  degrees  of  desired  adaptivity.  
+briefly,  some  people  prefer  to  control  the  application  more  than  others  that  seem  to  accept  recommendations more easily. for the former users  are  suggested  adaptable  solutions  (i.e.,  solutions  where the user can explicitly customise the system  behaviour),  while  for  the  latter  adaptive  solutions  are  proposed  (i.e.,  solutions  where  the  system  observes  the  interaction  with  the  user  and  tailors  itself  accordingly  with  no  explicit  actions  being  needed  on  behalf  of  the  user).  Different  cognitive  styles  highly  correlate  with  the  amount  of  control  provided by the application; by conducting statistical  confidence  tests  on  the  results  of  questionnaires  collected  from  four  museums,  it  is  found  that  the  hypothesis  “There  would  not  be  any  differences  between  the  visitors  style  and  the  desired  amount  of  control”  is  rejected  with  very  high  confidence23. 
+It  is  also  found  that  different  cognitive  styles  have  different  content  preferences.  This  finding  has direct implications for the organisation and the  presentation  of  the  online  museum  content.  for  example, the flexibility provided by online exhibitions  allows  for  the  presentation  of  different  exhibitions  to  the  user  (i.e.,  some  users  might  be  interested  in  history,  aesthetics,  uniqueness  of  objects,  etc.)  
+164 
+depending  on  to  the  individual  interests3.  
+In addition, interestingly enough, cognitive style  correlates with different nationalities, having remarkable  design implications4. Another rather expected result  is  the  high  correlation  found  between  cognitive  style  and  age5,  since  it  is  known  that  although  cognitive  style  is  a  relatively  constant  personality  characteristic,  it  is  however,  affected  by  age.  In  Antoniou  &  Lepouras32   a  full  list  of  guidelines  is  provided  for  the  use  of  cognitive  style  in  museum  adaptive learning technologies. furthermore, previous  research  has  provided  a  list  of  guidelines  for  the  accommodation of all cognitive styles in the design  of adaptable learning technologies49,50. for example,  cognitive styles seem to differ in regards to preferences  in:  bottom-up  or  top-down  presentations,  facts  and  examples  or  symbols  and  abstraction,  individual  learning  or  group  learning,  structured  material  or  less  structured  and  affective  learning,  linearity  or  non-linearity  of  presentations,  etc.  
+3.6 user  Involvement 
+Involving the user can have multiple dimensions, like  concept generation, identification of user requirements  and  usability  demands  or  evaluation  of  the  end  product.  Although  time  and  cost  restrictions  might  apply,  it  is  a  good  idea  to  involve  the  potential  users in the design processes from the early stages  of development. Previous research has shown that  even  quick  ethnographic  techniques  that  collect  qualitative  data  in  a  short  period  of  time  can  be  very  useful51.  It  was  also  found  that  even  children  can effectively participate in the design processes of  museum related technologies, making participatory  design techniques a valuable tool51-53. The potential  benefits of the early involvement of users, require the  development of techniques for collaborative design.  An  online  environment  can  also  allow  for  the  use  of  online  focus  groups  or  the  use  of  a  discussion  forum. In this, it is important to consider the creation  of  an  online  space  that  users  can  contribute  with  new  ideas  and  evaluate  the  existing  practices.  
+4. cOnclusIOns AnD FuturE WOrK 
+users of an online exhibition have a triple role.  They  are  technology  user,  with  certain  usability  demands,  but  also  learners  and  museum  audience  with specific learning and museum needs. All three  roles have discrete characteristics and requirements.  It  is  important  to  consider  all  three  different  roles  both  separately  and  in  relation  to  each  other.  The  proposed methodology aims at assisting the designers  in  considering  all  user  roles  and  pertinent  aspects  and  eases  the  decision  processes  they  have  to  make,  in  regards  to  technology  in  itself,  learning  content,  presentation  style,  etc.  Table  5  provides  the suggested methodology, the steps that one has  to  follow  for  the  design  of  online  exhibitions  and  
+
+========7========
+
+ANTONIOu, et al.: METhODOLOGy fOR  D ESIGN Of ONLINE  Exh IbITIONS 
+table 5. Methodology questions and relevant procedures 
+ Questions 
+1. What is the degree of museumness for  
+the specifc exhibition? 
+2. Which museum needs will I support? 
+Procedure  
+3. 
+What is the optimal educational aroach  for my purposes? 
+Assess the perceived degree of museumness of the specifc museum and determine the  main visitor activity (i.e. learning, socialisation, entertainment)  
+Identify needs to be supported (audience, mobility, interactivity, adaptivity, communication,  cooperation/collaboration) 
+Use the classifcation of educational theories to determine which best fts the museum  needs you wish to support 
+4. 
+Is life-long learning relevant? 
+5. 6. 
+Will it be adaptive? how can I involve the user?  
+Consider issues of life-long learning and the different scenarios that apply in the different  learning situations and determine the appropriate learning content for each one Consider issues of individual learning characteristics and use suitable guidelines use a quick method to involve visitors in design and elicit user requirements 
+suggested  procedures  for  realising  each  step.             
+An extensive evaluation of the proposed methodology  has not been conducted; however, the methodology  has been applied to a limited number of cases, with  very promising results. A more extensive evaluation is  scheduled with diverse museum types and museum  needs.  Assessment  of  learning  outcomes  in  each  case  will  also  be  performed.  for  further  assisting  museums  to  proceed  from  exhibition  design  to  exhibition  implementation,  compilation  of  a  guide  on  which  current  technologies  are  prominent  for  each  design  parameter,  e.g.,  which  technologies  can  be  employed  to  deliver  the  desired  level  of  adaptability  are  being  planned. 
+5.  rEFErEncEs  
+1. Insulander,  E.  Museums  and  learning.  2005.  
+http://www.didaktikdesign.nu/dok_dd/museer_ 
+larande_eng.pdf  (accessed february  2009) 2. Charitos, D., et al. An approach to designing and  
+implementing virtual museums. In   Proceedings  
+of  the  VR-SIG  2000  Conference,  2000.  3.   f alk,  J.h.  &  Dierking,  L.D.  School  field  trips:  
+Assessing their long term impact. Curator, 1997,  
+40(3),  211-18.      
+4. Kelly, L. understanding conceptions of learning.  
+GERG Conference 2000. www.amonline.net.au/ 
+amarc/pdf/research/paper2000.pdf  (accessed  
+October  2008). 
+5.   f alk, J.h. & Dierking, L.D. Learning from museums:  
+Visitor experiences and the making of meaning,  
+AltaMira  Press,  Walnut  Creek,  2000. 6. Tinkler, M. &  freedman, M. Online exhibitions:  
+A  philosophy  of  design  and  technological  
+implementation.  In  Proceedings of the Museums  
+and  the  Web:  An  International  Conference,  
+Toronto,  Ontario,  Canada,  22-25 April  1998. 7. Lepouras, G., et al. building a VR-museum in a  
+museum. In Proceedings of the 3rd  International  
+Virtual  Reality  Conference,  VRIC-2001,  Laval,  
+france,  May  2001,  pp.  6-20. 
+8. Charitos, D., et al.  Designing a virtual museum  
+within a museum. In  Proceedings of the VAST2001  
+Symposium,  November  2001, Athens,  Greece. 9.   b annon, L., et al. hybrid design creates innovative  
+museum  experiences.  Communications  of  the  
+ACM,  2005, 48(3),  62-65. 
+10.   b onis,  b.,  et  al.   Personalisation  of  content  in  
+virtual exhibitions. Proceedings of 2nd  International  
+Conference  on  Semantic  and  Digital  Media  
+Technologies,  SAMT  2007,  pp.  172-84.  11.   b onis, b., et al.  A platform for virtual museums  
+with personalised content. Multimedia Tools and  
+Appli.,  2009, 42(2),  139-59.  
+12.   h ong, J.S.; Chen b.h. & hsiang, J. xSL-based  
+content management for multi-presentation digital  
+museum  exhibitions.  Research  and  advanced  
+technology  for  digital  libraries. In Proceedings  
+of  the  5th   European  Conference,  ECDL  2001  
+Darmstadt,  Germany. 
+13. Sparacino, K., et al.  Technologies and methods  
+for  interactive  exhibit  design:  from  wireless  
+object and body tracking to wearable computers.  
+In   International  Conference  on  hypertext  and  
+Interactive  Museums,  IChIM  99,  Washington,  
+DC,  Sept.1999,  pp.  22-26. 
+14. Marty,  P.  On-line  exhibit  design:  The  socio- 
+technological  impact  of  building  a  museum  
+over  the  world  wide  web.  In   Proceedings  of  
+the  Museums  and  the  Web  1999  conference,  
+New  Orleans,  March  1999. 
+15.   h ein,  G.  Learning  in  the  museum.  Routledge  
+Publications.  1998. 
+16. Alen, S. Designs for learning: Studying: Science  
+museum  exhibits  that  do  more  than  entertain.  
+Science  Education,  2004,  88(1),  17-33. 17.   f alk,  J.h.  Testing  a  museum  exhibition  design  
+assumption: Effect of explicit labeling of exhibit  
+clusters on visitor concept development. Science  
+Education,  1997,  81(6),  679–87. 
+18.   h is, S. A study of user experiences mediated by  
+nomadic  web  content  in  a  museum. J.  Comp.  
+Assisted  Learn.,  2003, 19,  308-19. 
+19. Leong,  C.K.;  Chennupati,  K.R.  &  foo,  S.  The  
+165 
+
+========8========
+
+DJLIT,  VOL.  33,  NO.  3, MAy  2013 
+design and development of an online exhibition  
+for heritage information awareness in Singapore.  
+Program,  2003,  37(2),  85-93.  
+20. Leong, C.K. & Chennupati, K.R. The design and  
+development of an online exhibition for heritage  
+information awareness. Museums and the Web,  
+2002. http://www.archimuse.com/mw2002/papers/ 
+ramaiah/ramaiah.html  (accessed  September  
+2009).  
+21. Liew,  C.L.  Online  cultural  heritage  exhibitions:  
+A  survey  of  strategic  issues.  Program,  2006,  
+40(4),  372-88.  
+22. Kalfatovic,  M.R.  Creating  a  winning  online  
+exhibition:  A  guide  for  libraries,  archives,  and  
+museums.  American  Library  Association  (ALA  
+Editions),  2002. 
+23. Antoniou, A. & Lepouras, G. Modeling visitors’  
+profiles: Adaptation for museum learning technologies.  
+Manuscript  submitted  for  publication.  2009.  24. Antoniou,  A.  &  Lepouras,  G.  Meeting  visitors’  
+expectations:  The  perceived  degree  of  
+museumness.  In   Proceedings  of  the  CSED u,   
+2009.  pp.  187-93. 
+25.   h ooper-Greenhill, E. & Moussouri, T. Researching  
+learning  in  museums  and  galleries  1990-1999:  
+A  bibliographic  review,  Research  Centre  for  
+Museums and Galleries, university of Leicester,  
+Leicester.  2002. 
+26.   h ooper-Greenhill,  E.  The  educational  role  of  
+the  museum,  Routledge,  London.  2004. 27. Dierking, L.D. & falk, J.h. understanding free-  
+choice learning: A review of the research and its  
+application to museum web sites. Museums and  
+the Web, 1998. http://www.archimuse.com/mw98/ 
+papers/dierking/dierking_paper.html  (accessed  
+October  2008) 
+28. Wikipedia.  Confidence  interval.  2009.  http:// 
+en.wikipedia.org/wiki/Confidence_interval (accessed  
+November  2010). 
+29. Wikipedia.  Pearson’s  chi-square  test.  2009.  
+http://en.wikipedia.org/wiki/Pearson%27s_chi- 
+square_test  (accessed  November  2010). 30. Snedecor,  G.W.  &  Cochran,  W.G.  Statistical  
+methods,  Ed.  8.  Iowa  State  university  Press.  
+1989. 
+31. Antoniou, A. A methodology for the development  
+of  museum  educational  applications:  Visitor  
+inspired museum adaptive learning technologies.   
+university  of  Peloponnese,  2009,  PhD  thesis. 32. Antoniou,  A.  &  Lepouras,  G.  Taxonomy  of  
+educational  technologies  for  museum  use,  
+Manuscript  submitted  for  publication.  2009.  33. Damala,  A.  &  Kockelkorn,  h.  A  taxonomy  for  
+the  evaluation  of  mobile  museum  guides.  In 
+Proceedings of the 8th   Conference on  human- 
+166 
+Computer  interaction  with  Mobile  Devices  and  
+Services,  2006.  pp.  273-74.  
+34. Din,  h.W.h.  Play  to  learn:  Exploring  online  
+educational games in museums.  In  Proceedings  
+of International Conference on Computer Graphics  
+and  Interactive  techniques,  ACM  SIGGRAPh 
+2006  Educators  Program. 
+35. Raptis,  D.;  Tselios,  N.  &  Avouris,  N.  Context- 
+based design of mobile applications for museums:  
+A  survey  of  existing  practices. In   Proceedings  
+of  the  7th   International  Conference  on  human  
+Computer  Interaction  With  Mobile  Devices  &  
+Services,  MobilehCI  ‘05,  Vol.  111.  ACM,  New  
+york,  pp.  153-60. 
+36. Cothran, J.T.; Clawson, J. & Moghazy, J. Design  
+and implementation of an educational technology  
+for a historic home. In   Proceedings  of  C hI’01,  
+Extended Abstracts on human factors in Computing  
+Systems,  2001.  pp.  479-80.  
+37. Galani,  A.,  et  al.   Developing  a  mixed  reality  
+co-visiting  experience  for  local  and  remote  
+museum  companions.  In  Proceedings  of  hCI  
+International  2003,  Vol.  1,  Lawrence  Erlbaum  
+Associates,  pp.  1143-147.  
+38. Walczak,  K.;  Wojciechowski,  R.  &  Cellary,  W.  
+Dynamic interactive VR services for education.  
+In   Proceedings  of  ACM  Symposium  on  Virtual  
+Reality  Software  and  Technology,  VRST  ‘06,  
+2006.  pp.  277-86. 
+39. De bra, P., et al.  A hA! version 2.0. More adaptation  
+flexibility  for  authors.   In  Proceedings  of  AACE  
+ELearn  2002  Conference,  2002.  pp.  240-46. 40. Antoniou, A.& Lepouras, G. basic Taxonomy of  
+Educational Theories. Technical report, university  
+of Peloponnese, Department of Computer Science  
+and  Technology.  2006.  http://hci-vr.cst.uop.gr/ 
+tr2006/1.pdf.      
+41. Roussos, M., et al.  Learning and building together  
+in an immersive virtual world. Presence Journal,  
+1999, 8(3),  247-63.  
+42. Cabrera,  J.S.,  et  al.   Mystery  in  the  museum:  
+Collaborative learning activities using handheld  
+devices.  In  Proceedings of the 7th  International  
+Conference on human Computer Interaction with  
+Mobile  Devices  &  Services,  2005.  pp.  315-18. 43. Mergel,  b.  Instructional  Design  &  Learning  
+Theory.  1998.  www.usask.ca/education/ 
+coursework/802papers/mergel/brenda.htm (accessed  
+December  2008) 
+44. Antoniou,  A.  &  Lepouras,  G.  Reflections  on  
+mobile  and  life  long  learning:  Museums  as  
+application  field.  In   Proceedings  of  the  IADIS  
+International Conference, Mobile Learning, 2008.  
+pp.  249-52.  
+45.   u NESCO.  Learning  to  be.  The  faure  Report,  
+uNESCO.  Paris,1972. 
+
+========9========
+
+ANTONIOu, et al.: METhODOLOGy fOR  D ESIGN Of ONLINE  Exh IbITIONS 
+46. Commission  of  the  European  Communities.  
+Education  &  Training  2010.  The  Success  of  
+the Lisbon Strategy hinges on urgent Reforms.  
+Communications from the Commission, brussels.   
+2003. 
+47. Antoniou, A. & Lepouras, G. Adaptation to visitors’  
+visiting  and  cognitive  style. In   Proceedings  of  
+the  3rd   International  Conference  of  Museology  
+&  ICOM-AVICOM Annual  Conference.  2006. 48. Atkins,  h.,  et  al.   Learning  style:  Theory  and  
+computer mediated communication. In Proceedings  
+of  the  ED  MEDIA,  2001. 
+49. Lawrence,  G.L.  Looking  at  type  and  learning  
+styles.  Center  for  Application  of  Psychological  
+Type,  Inc.,  Gainesville, fL.  1997. 
+50. Martin, C.R. Looking at type: The fundamentals.  
+Center  for  Application  of  Psychological  Type,  
+Inc.,  Gainesville, fL.  1997. 
+51. Antoniou, A. & Lepouras, G. A fast pace method  
+for involving children in edutainment: Technology  
+design.   In   Proceedings  of  the  1 
+st 
+  International  
+Conference on Advances in Computer – human  
+Interaction  2008,  pp.  149-57. 
+52. Druin, A. & fast, C. The child as learner, critic,  
+inventor,  and  technology  design  partner:  An  
+analysis  of  three  years  of  Swedish  student  
+journals. Inter. J. of Technol. and Design Edu. ,  
+2002, 12,189-213. 
+53. Taxen,  G.  Introducing  partcipatory  design  
+in  museums.  In   Proceedings  of  8 
+th 
+biennal  
+Participatory  Design  Conference,  ACM  Press,  
+2004,  pp.204-13.  
+About  the Author 
+Dr Antoniou  holds a degree of Preschool Education  from the university of Athens (Greece) and a bachelor  of Science in Social with Clinical Psychology from the  university of Kent at Canterbury (uK). She holds a  Master of Science in human Computer Interaction with  Ergonomics from the university College London (uK)  together with a Piano Diploma from the Metropolitan  Conservatory of Athens and a degree of Music from  the  Orpheio  Conservatory  of Athens. her  PhD  was  completed at the Department of Computer Science  and  Technology  of  the  university  of  Peloponnese.  She is currently a Special and Laboratory Teaching  Staff at the university of Peloponnese, Department  of  Computer  Science  and  Technology.  
+Dr george lepouras  holds a degree in Mathematics  from the university of Athens (Greece) and a Master of  Science in Information Technology from the Department  of Computer Science, university of Strathclyde (uK).  he holds a PhD in human-Computer Interaction from  the  university  of  Athens  (Greece),  Department  of  Information Technology. he has taken part in various  national  and  European  projects  and  has  numerous  publications in international journals and conferences.  At  present  Dr  Lepouras  is  an  Assistant  Professor  at  the  university  of  Peloponnese,  Department  of  Computer  Science  and  Technology.  
+costas Vassilakis  holds a degree in Informatics and  a PhD in informatics from the university of Athens,  Greece. Dr. Vassilakis has published more than 90  scientific papers in international journals and conferences,  and has participated in several European and national  projects. he has been a Special Advisor for the General  Secretariat  for  Information  Systems  of  the  Ministry  of finance, Greece (October 1998 - January 2002).  his  scientific  interests  include  semantic  web  technologies  and  applications,  service-oriented  architectures, distributed systems, e-government and  e-commerce. Currently, Costas Vassilakis is Assistant  Professor  in  Department  of  Computer  Science  and  Technology, university  of  Peloponnese. 
+167 
+
+========10========
+

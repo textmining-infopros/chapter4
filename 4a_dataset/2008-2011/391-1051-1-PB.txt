@@ -1,0 +1,528 @@
+DESIDOC Journal of Library & Information Technology, Vol. 30, No. 3, May 2010, pp. 51-55
+© 2010, DESIDOC
+
+A Library Software Model in 21st Century Network Environment
+R.K. Joteen Singh
+Manipur University Library, Canchipur, Imphal-795 003
+E-mail: joteenrk@yahoo.com
+
+ABSTRACT
+Rapid technological changes have brought a drastic change in the resource sharing activities, especially
+Open Archives Initiatives (OAI) model, enabled the dissemination of research output at international, national
+and regional levels, thus removing the restrictions placed by the traditional scientific model. Z39.50 protocol
+has provided a common platform which helps to develop a Union catalogue. These new developments have
+made resource sharing more practical. Technological changes and development of various systems have
+created compatibility issues in different hardware and software platforms. In such a scenario, the best
+approach is to focus on how software will make it possible for the libraries to utilise networked resources
+for the maximum benefit of their users. This paper presents design of a library software, which is interoperable
+in nature and supports networking and exploitation of web resources apart from automating library operations.
+Keywords: Open access, Open archives initiatives, XML, Z39.50, interoperability, metadata harvesting
+
+1. INTRODUCTION
+Managing information is a usual challenge for many
+organisations. The more information and people, the
+harder and more complex is the control of information
+management projects and initiatives. It is true that,
+effective management of knowledge is now playing a key
+role in wealth creation. World’s most strong economies
+are giving no more emphasis on industrial production but
+rather becoming powerhouses of knowledge. Satpathi has
+identified several organisations all over the world engaged
+in creating new knowledge through research and
+development activities particularly in the field of science
+and technology, which has resulted in “information
+explosion”.1 The exponential growth of literature and ever
+increasing cost of published materials have put great
+financial constraint that has resulted in shrinking
+collections in the library and information centres. On one
+side user demands are increasing and librarians are at
+their wits end to satisfy the needs of users. According to
+Salgar and Murthy2 the only viable solution to meet users’
+demands is to make optimum use of available literature.
+This is being done through pooling and sharing of
+resources. Sharing of resources is also not an easy task;
+the technological changes and development of new
+systems create compatibility issues in different hardware
+and software platforms.
+
+Received on 16 July 2009
+
+Interoperability is a property referring to the ability of
+diverse systems and organisations to work together.
+Interoperability includes the exchange of data, records,
+and messages between computer systems across
+different hardware, operating systems, and networks.
+Interoperability is sought to be achieved by establishing
+standards that different vendors of software and hardware
+can adopt so that they can share data and information. In
+case of software the term interoperability is used to
+describe the capability of different programs to exchange
+data via a common set of exchange formats, to read and
+write the same file formats, and to use the same
+protocols.3
+The lack of interoperability can be a consequence of a
+lack of attention to standardisation during the design of a
+program. During the last couple of decades,
+communications world has witnessed several new
+developments, two of which are the Open Access (OA)
+and Open Archives Initiatives (OAI) whose main objectives
+are to improve transfer and exchange of research
+publications. OA is described as a free availability of
+information on the Internet permitting users to read,
+download, copy, distribute, print full texts of scholarly and
+scientific articles, crawl them for indexing, pass them as
+data to software, or use them for any other lawful purpose,
+without any financial, legal, or technical barriers other
+
+51
+
+than those inseparable from gaining access to the
+Internet itself. The OA model allows for the widest
+dissemination of research output, and maximum visibility,
+while, at the same time, reducing barriers common to
+traditional diffusion methods of scientific literature. It
+provides the means for researchers to avail themselves of
+full text content, using two paths: open access publishing
+journals, which make articles openly accessible
+immediately upon publications, and OA archiving which
+allows authors to deposit a digital document in a publicly
+accessible website, preferably an OAI complaint open
+archive. The OAI develops and promotes interoperability
+solutions that aim to facilitate the efficient dissemination
+of content. The initiative is built on the principle that
+interoperability will federate the distributed open archives,
+thus encouraging the development of value-added
+services such as portals, subject gateways, and
+specialised search engines, with the overall benefit of
+increasing the visibility of the OA.4 The ultimate objective
+is to overcome existing barriers to interoperability by
+using OA for all digital materials.
+
+XML has no specific application; it is designed for
+whatever use that need it for.
+An XML document can be created and retrieve
+information from the document by any XML parser. HTML
+and XML are so popular, for information display and
+exchange, because they are standards. Anyone can
+follow these standards, and the solutions they develop will
+be able to interoperate. XML is platform and language
+independent, which means it does not matter is one
+computer is using for example, Visual Basic on a
+Microsoft operating system, and the other Unix with Java
+code. When it is necessary to communicate between the
+different systems, XML is a potential fit for the exchange
+format. Apart from these XML standards have the following
+advantages:
+
+3.1 Advantages of XML
+±
+
+It supports Unicode, allowing almost any information
+in any written human language to be communicated.
+
+±
+
+It can represent common computer science data
+structure such as records, lists and trees.
+
+±
+
+Its self documenting format describes structure and
+field names as well as specific values.
+
+±
+
+The strict syntax and parsing requirements make the
+necessary parsing algorithms extremely simple,
+efficient, and consistent.
+
+±
+
+It is heavily used as a format for document storage
+and processing, both online and offline.
+
+±
+
+It can be updated incrementally.
+
+±
+
+It allows validation using schema languages such as
+XSD and schematron, which makes effective unittesting, firewalls, acceptance testing, contractual
+specification and software construction easier.
+
+±
+
+Its hierarchical structure is suitable for most types of
+documents.
+
+±
+
+It is platform-independent, thus relatively immune to
+changes in technology.
+
+±
+
+Its forward and backward compatibility are relatively
+easy to maintain despite changes in DTD to Schema.
+
+±
+
+Its processor, SGML, has been in use since 1986, so
+there is extensive experience and software available.
+
+2. WHAT IS OAI-PMH?
+The Open Archives Initiatives–for Metadata Harvesting
+(OAI-PMH) is one of the mechanisms used to achieve the
+interoperability between digital repositories. It provides a
+system to facilitate the harvesting, sharing and discovery
+of distributed resources. This allows materials within
+repositories to be accessed by a greater number of users
+via external services. In addition, data harvested via OAIPMH is now being used for a range of other repository
+applications such as reporting, enhanced user interfaces
+for direct searching of local repositories, and assisting
+with ingest of data into other systems. OAI was formed
+originally with a focus on disseminating content from
+research archives, however, with increasing number and
+types of repositories, it is now being used for other types
+of digital material collections.5 Its main founders are the
+Digital Library Federation, the Coalition for Network
+Information, and the National Science Foundation. The
+OAI-PMH is based on the Hypertext Transport Protocol
+(HTTP) and Extensible Markup Language (XML) open
+standards.
+
+3. WHY HTML AND XML?
+HTML is mainly for displaying text in a desired format
+and XML is designed for data exchange. There are certain
+limitations for both the cases like sometimes, XML will
+not be up to a certain task, just like HTML is not up to the
+task of displaying certain information. But when it comes
+to display, HTML is good most of the time as is XML, and
+those who work with XML believe to communicate
+information.6 The basic difference between HTML and
+XML is: HTML is designed for a specific application to
+convey information to humans through a web browser.
+52
+
+4. WHAT IS Z39.50?
+Z39.50 is the American National Standard Information
+Retrieval Application Service Definition and Protocol
+Specification for open Systems Interconnection. The
+National Information Standards Organization (NISO), an
+American National Standards Institute (ANSI) accredited
+standards developer that serves the library, information,
+DESIDOC J. Lib. Inf. Technol., 2010, 30(3)
+
+and publishing communities, approved the original
+standard in 1988 (Version 1).
+NISO published a revised version of the standard in
+1992 (Version 2). Z39.50 defines a standard way for two
+computers to communicate for the purpose of information
+retrieval, and makes it easier to use large information
+databases by standardising the procedures and features
+for searching and retrieving information. Specifically,
+Z39.50 supports information retrieval in a distributed,
+client and server environment where a computer operating
+as a client submits a search request to another computer
+acting as an information server. Software on the server
+performs a search on one or more databases and creates
+a result set of records that meet the criteria of the search
+request. The server returns records from the result set to
+the client for processing. The power of Z39.50 is that it
+separates the user interface on the client side from the
+information servers, search engines, and databases.
+Z39.50 provides a consistent view of information from a
+wide variety of sources, and offers client implementers the
+capability to integrate information from a range of
+databases and servers. Z39.50 can be implemented on
+any platform. This means that it enables different
+computer systems with different operating systems,
+hardware, search engines, database management
+systems. A Z39.50 implementation enables one interface
+to access multiple systems providing end users with
+nearly transparent access to other systems.7 Users
+access multiple systems with the familiar commands and
+displays of their own local systems. New commands and
+search techniques do not have to be learned. The results
+of the search are presented on the local system again, in
+the formats and styles users are accustomed to. One of
+
+INFLIBNET
+Databases
+
+the strengths of ANSI/NISO Z39.50 is that it is an
+American National Standard. NISO developed and
+maintains Z39.50 using consensus procedures approved
+by ANSI, the principal coordinator of voluntary
+standardisation in the United States. Z39.50 is not a
+proprietary standard and will continue to be responsive to
+the needs of the implementers that use the standard and
+the information consumers that benefit from its
+implementation.
+
+4.1 How to Search and Retrieve Information
+through Z39.50?
+The basic technology of the search and retrieval of
+information based on Z39.50 standard is:
+±
+
+A query is typed into the distributed search screen
+(coming from the Z39.50 server) using a web browser.
+
+±
+
+The browser passes the query to the Z39.50 server.
+
+±
+
+The Z39.50 server distributes the request to member
+library servers, with Z39.50 client installed.
+
+±
+
+The Z39.50 clients responds with a result passed
+back to the initiating Z39.50 server.
+
+±
+
+The Z39.50 server delivers pooled results to the
+initiating browser client.
+
+5. PROPOSED DESIGN OF A LIBRARY
+SOFTWARE
+Providing access to a variety of information resources
+residing on different computer systems with different
+platforms in several parts of the world to a number of users
+
+International Std.
+
+Internet cloud
+
+MARC-21 & DCMES
+
+Supports
+Z39.50 Protocols
+Remote
+Digital libraries
+
+OAI-PM H
+Compliant
+Search interface
+Supports Z39.50
+
+World
+Wide web
+
+Metadata Harvesting
+Interface
+OAI C ompliant
+Repositories
+
+Harvested
+Metadata
+DCMES
+
+Other online
+databases
+
+Local
+Databases
+MARC-21
+
+Software
+interface
+
+Users
+
+House keeping
+Operations Interface
+
+OPAC
+
+Figure 1. Conceptual design of a library software.
+DESIDOC J. Lib. Inf. Technol., 2010, 30(3)
+
+53
+
+of differing natures and needs is a major challenge for
+software designers. Library software, should work on
+different platforms, enable to harvest metadata and store
+locally, make it possible to search multiple disparate
+library catalogues and other resources in one search, and
+bring back one set of results. This involves a number of
+complex issues related to integration and seamlessness.
+Figure 1 shows the basic design of library software.
+As the Fig. shows, users of a library may have access to
+a range of information resources with different modes of
+getting access to these. Alternatively, users may choose
+one or more resources or collections and then formulate
+just one query, which is passed on to the various
+resources or collections by the software interface. The
+results are brought back after the search is carried out.
+The user does not need to search the resources one by
+one, therefore this is a better approach from the user’s
+perspective because he or she formulates only one
+search query and gets results from all the different
+sources. However, technologically this approach is more
+challenging and a number of technical issues need to be
+considered in order to build this model.
+
+5.2 Interoperability Scheme
+One of the major problems faced while developing a
+library software, is the issue of interoperability. How to get
+a wide variety of computing systems to work together
+and/or to talk to one another for accessing and retrieval of
+information? Interoperability and standardisation are the
+most important considerations for library software
+designers.8 Interoperability of library software can be
+achieved by a number of means, such as through
+adopting:
+±
+
+Common user interfaces.
+
+±
+
+Uniform naming and identification systems.
+
+±
+
+Standard formats for information resources.
+
+±
+
+Standard metadata formats.
+
+±
+
+Standard network protocols.
+
+±
+
+Standard information retrieval protocols.
+
+±
+
+Standard measures for authentication and security,
+and so on.
+
+5.1 Suggestions
+
+6. CONCLUSION
+
+The software requirement at various levels like union
+catalogue compilation and database maintenance and for
+individual library automation at local such as circulation
+and serial control operations, are clearly mentioned. For
+application in information retrieval, federated searching
+and metadata harvesting the software should incorporate
+the following special features:
+
+The technological changes and development of
+numerous library networks using contrasting hardware
+and software platforms require library software
+interoperability. The technology also made wandering
+treasured and heterogeneous knowledge in the field of
+science, arts, and commerce in the Internet cloud. The
+basic thing requires use of an interoperable library
+software which can exploit web resources which are able
+to search multiple disparate databases in different
+network and platforms apart from the local repositories
+and databases. If we develop a software in the line of the
+above it will promote software interoperability and
+compatibility. It will also have the capability to integrate all
+the libraries of the world to a single global library.
+
+±
+
+The software package should be an integrated one, to
+support library automation and database construction
+and information retrieval.
+
+±
+
+It should support international data standards such as
+MARC-21 and DCMES.
+
+±
+
+It should work in multi-user and network environment.
+
+±
+
+It should support copy cataloguing authoritative
+MARC-21 cataloguing sources via the web.
+
+REFERENCES
+1. Satpathi, J.N. Resource Sharing of periodicals among
+the medical and biomedical libraries in Calcutta.
+IASLIC Bulletin, 1992, 37(1), 15-21.
+
+±
+
+It should provide high-level language interface to the
+database for the user to write any special routines to
+manipulate the database.
+
+±
+
+It should facilitate federated searching to different
+databases using an interoperability standard such as
+Z39.50.
+
+2. Salgar, S.M. & Murthy, T.A.V. Enhancing access to
+information through document delivery systems–
+INFLIBNET’s approach. In Proceedings of 68th IFLA
+Council and General Conference. Glasgow, 2002.
+
+±
+
+The software should allow the building of an OAI-PMH
+compliant institutional repository of self-archived
+materials.
+
+3. Haravu, L.J. Standards in library automation and
+networking. www.drtc.isibang.ac.in (accessed on 4
+February 2008).
+
+±
+
+It should allow harvesting metadata from other OAIPMH compliant repository.
+
+4. Subirats, I.; Onyancha, I.; Salokhe, G. & Keizer, J.
+Towards an architecture for open archive networks in
+
+54
+
+DESIDOC J. Lib. Inf. Technol., 2010, 30(3)
+
+agricultural sciences and technology. http://www.
+ftp.fao.org (accessed on 14 May 2008).
+5. Sahoo, B.B. Need for a national resource sharing
+network in India: Proposed model. http://www.
+drtc.isibang. ac.in (accessed on 26 February 2008).
+6. Hunter, D.; Cagle, K.; Gibbons, Ozu N.; Pinnock, J. &
+
+Spencer, P. Beginning XML.
+Birmingham, 2000.
+
+Wrox Press Ltd.,
+
+7. Moen, W. Information infrastructure. http://www.cni.
+org (accessed on 20 April 2008).
+8. Chowdhury, G.G. Introduction to modern information
+retrieval. Facet Publishing, Great Britain, 2004.
+
+About the Author
+
+Dr R.K. Joteen Singh is working as Information Scientist in Manipur University. He has 10 years of
+experience in library profession. He has also been teaching IT papers of MLISc since 2003 and involved in
+various automation-related library management functions. His research interests include database
+applications and networking.
+
+DESIDOC J. Lib. Inf. Technol., 2010, 30(3)
+
+55
+
+

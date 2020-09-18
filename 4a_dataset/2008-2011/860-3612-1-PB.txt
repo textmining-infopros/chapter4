@@ -1,0 +1,833 @@
+DESIDOC Journal of Library & Information Technology, Vol. 31, No. 2, March 2011, pp. 77-83
+© 2011, DESIDOC
+
+REVIEW PAPER
+
+Ontology Development Methods
+Pratibha Gokhale,* Sangeeta Deokattey** and K. Bhanumurthy**
+*University of Mumbai, Kalina, Vidyanagari, Santacruz (East), Mumbai-400 098
+**Scientific Information Resource Division, Bhabha Atomic Research Centre, Trombay, Mumbai-400 085
+
+ABSTRACT
+An ontology defines a common vocabulary for researchers who need to share information in a
+specific domain. It includes interoperability of basic concepts in the domain and relations among them.
+The present paper takes a brief overview of different tools and methods for developing ontologies, their
+relationship with artificial intelligence, followed by a review of literature on the same. Method for
+developing an ontology on energy amplifiers is discussed in brief.
+Keywords: Ontology, artificial intelligence, accelerated driven systems, energy amplifiers
+
+1. INTRODUCTION
+In recent years the development of ontologies–
+explicit formal specifications of the terms in the domain
+and relations among them has been moving from the
+realm of artificial intelligence (AI) to the domain experts.
+They have become common in the World Wide Web
+(WWW), which range from large taxonomies categorising
+websites such as subject directories to categorising
+products for sale such as Amazon.com.
+Traditionally, ontology as a subject was the focus of
+philosophers and logicians, who used the term to denote
+the study of what is what, i.e., what exists, the kind and
+structure of objects, properties, and other aspects of
+reality of the universe. Researchers in the field of AI used
+the term Ontologies to denote a theory, concerning the
+kinds of entities and specifically the kinds of abstract
+entities that are to be admitted to a language system. The
+concept was developed and implemented since the early
+1990s. AI researchers use ontologies (in plural) for two
+basic purposes: Problem Solving Methods (PSMs) and
+Knowledge-based Systems (KBSs). Around the same
+time, tremendous developments in the WWW forced Web
+developers to find a solution to the problem of intelligent
+access to the vast resources available on the Internet.
+Thus, the semantic Web Activity was initiated by the
+WWW Consortium, towards the development of enabling
+technologies. This would allow data on the Web to be
+defined and linked in such a way, that it can be used for
+DESIDOC J. Lib. Inf. Technol., 2011, 31(2)
+
+more effective automation, integration and reuse across
+various applications. This led to the development of
+standards and tools for effective information exchange
+such as the XML, SWAD, DAML+OIL and OWL. In the
+field of Library and Information Science (LIS), R&D on
+ontologies began in the late 1990s. The growth of digital
+information resources and their easy accessibility to
+clients have spurred the need for developing new tools and
+techniques. But the multi-dimensional nature of digital
+resources (both in terms of physical formats and
+interdisciplinary and multidisciplinary nature of subjects),
+posed a challenge to information specialists.
+Conventional knowledge organisation (KO) tools like
+classification schemes and thesauri resemble ontologies
+in a way that they define concepts and relationships in a
+systematic manner, but they are less expressive when it
+comes to machine language. Ontologies represent a
+domain of knowledge and permit relationships such as
+the definition of classes, relations, and functions. Despite
+their high level of specification, they allow a great deal of
+flexibility.
+All library and information systems use two distinct
+schema for encoding information embodied in a
+document. One represents the subject contents of a
+document through the use of a classification scheme, a
+thesaurus or a subject heading list; the other provides
+descriptive information about a document like title, author,
+publisher, etc. These are handled by metadata schema
+such as cataloguing codes, MARC and other
+77
+
+bibliographic description formats and more recently
+Dublin Core, FRBR, RDF, and XML. The main problem in
+the context of interoperability is a bibliographic
+description format that in one library may not be
+compatible with the format of another library. If a piece of
+information is downloaded from the Internet, it is
+represented in an entirely different format. Therefore,
+achieving homogeneity in heterogeneous digital
+information resources is a real challenge.
+An ontology incorporates both a subject
+representational vocabulary and a bibliographic
+description format, and can be made compatible with any
+digital information resource in a library or any webpage
+from the Internet. Because at the syntactic level, it uses
+web-enabled bibliographic description formats and at the
+semantic level, apart from standard IS&R tools, an
+ontology also makes use of free index terms, to represent
+the subject contents of a document. In this way,
+interoperability is achieved both at the syntactic and
+semantic levels by applying principle of ontology. Some of
+the reasons for developing ontology are:
+
+
+To share common understanding of the structure of
+information among people or software developers
+
+
+
+To enable optimum use of domain knowledge in a
+specified subject area
+
+
+
+To differentiate domain knowledge from operational
+knowledge
+
+
+
+To do analysis of domain knowledge in the given area
+to make it explicit
+
+2. ONTOLOGY DEVELOPMENT TOOLS
+There are a number of tools available freely on the
+Internet, for developing new ontologies. The important
+ones are:
+Ontolingua (http://ksl.stanford.edu/software/ontolingua):
+It is a set of tools written in Common LISP. It was one of
+the first tools to be developed in the 1990s at the
+Knowledge Systems Laboratory of Stanford University. It
+provides a repository of ontologies to assist the users in
+creating new ontologies and amending the existing ones
+collaboratively.
+WebOnto (http://kmi.open.ac.uk/projects/webonto/): It
+was developed by the Knowledge Media Institute of the
+Open University, UK. It supports creation and editing of
+ontologies and collaborative browsing.
+Cyc (http://cyc.com/): It is an AI project that attempts to
+assemble a comprehensive ontology and knowledge base
+of everyday common sense knowledge with the goal of
+enabling AI applications to perform human-like reasoning.
+78
+
+3. ONTOLOGY DEVELOPMENT METHODS
+As stated earlier, in the field of AI, ontologies have
+been used in PSM and KBS. Hobbs1 proposed a general
+structure for a different underlying conceptualisation of the
+world; one that would be particularly well-suited to
+language as opposed to philosophical ontology, which is
+independent of language. Reynaud and Tort2, Heijst and
+Schreiber3 and Gomez-Perez4 developed ontologies for
+PSMs. O’Leary5 discussed the role of ontology in
+knowledge bases and knowledge management and in
+another paper6, he highlighted the problems in using
+ontologies for KBSs. Two pioneering papers described
+how to develop and build ontologies. One was by Noy and
+McGuinness7 and another by Guarino8.
+A comparative review of the state-of-the-art in
+ontology design was described by Noy and Hafner9. The
+use of specific tools and services to develop collaborative
+ontologies was reported by Farquhar and Fikes10 in their
+study on the “Ontolingua” server. Borst and Ackermann11
+described a formal ontology called PHYSSYS in the
+domain of Engineering. Visser12 made a comparative
+study of four ontologies in the field of law. Valente and
+Russ13 presented a case study in building and reusing an
+ontology in the field of air campaign planning. Lopez and
+Gomez-Perez14, gave guidelines for developing a
+chemical Ontology using two ontology building tools:
+MethOntology and Ontology DEsign (ODE).
+Duineveld and Stoter15 compared various Ontology
+tools available on the Internet for engineering domain.
+Holsapple and Joshi16, provided different approaches such
+as inspirational, inductive, deductive, synthetic and
+collaborative in the design of ontologies. Everett17, et al.,
+described means to resolve issues of synonymy through
+the use of natural language in designing new ontologies.
+Kohler18, et al. paved the way to bridge the gap between
+an HTML-based system and an RDF-based system, by
+linking words in texts to concepts in ontologies. Kim19, et
+al. detailed the development of a methodology for an
+ontology management system, based on philosophical
+texts. Dahab20, et al. described an automatic ontology
+construction method from natural language English text.
+
+4. DIFFERENCES BETWEEN A THESAURUS
+AND AN ONTOLOGY
+Differences between a thesaurus and an ontology are
+shown in Table 1.
+
+5. CURRENT IS&R TOOLS: SOME
+PROBLEMS
+The development of international databases,
+emergence of the Internet, and digital libraries as source
+of vast amount of information have stressed the need to
+DESIDOC J. Lib. Inf. Technol., 2011, 31(2)
+
+Table 1. Difference between a thesaurus and an ontology
+Thesaurus
+
+Ontology
+
+It belongs to post-coordinate indexing era.
+
+Its roots are in philosophy.
+
+It is a controlled vocabulary tool with descriptors to
+reflect subject content of a source and a subject
+domain.
+
+It is a controlled vocabulary tool using free-text terms to describe
+a specific subject domain.
+
+It is somewhat rigid in its construction.
+
+It is totally flexible allowing multiple choice of entries.
+
+It has single dimension.
+
+It is multidimensional in nature.
+
+It can be manually created or machine generated.
+
+It can be created only using high level software programs.
+
+It is built on the principle of literary warrant.
+
+Literary warrant concept as well as problem-solving methods
+and knowledge-based systems form its basis.
+
+Only three kinds of relationships exist BT, RT, and NT.
+
+The relationships are potentially poly-hierarchical in nature.
+
+It does not provide definitions.
+
+It can provide definitions, meanings, and relationships.
+
+The relationships are exhibited in a vertical manner.
+
+N o fixed pattern of representing concepts can be interlinked as
+such.
+
+The super-ordinate and sub-ordinate classes are
+determined solely in accordance with the knowledge
+domain.
+
+The super-ordination and sub-ordination of classes are mostly
+decided by the ontology developer depending on the purpose.
+
+reorganise information in a more effective way. The
+interdisciplinary and multidisciplinary areas cover several
+subject domains simultaneously, making it difficult to
+develop appropriate vocabulary, and control or indexing
+tools for organisation and dissemination of information.
+Construction of both classification schemes and thesauri
+is a highly skilled job. There is, therefore, a need to
+develop a new tool which can address these problems.
+Generally, libraries and information centres use a twopronged approach to information encryption. One system
+for vocabulary control (using classification, and other
+indexing tools) and another for bibliographic data
+description (cataloguing codes, metadata systems, etc.).
+Heterogeneous
+sources
+of
+information,
+(both
+syntactically and semantically), available on the Internet,
+necessitate the development of a standard format for
+digital information exchange. Therefore, ontologies can be
+used for this purpose. An ontology incorporates both a
+vocabulary and a metadata format.
+
+6. LIBRARY AND INFORMATION SCIENCE
+PERSPECTIVE
+Dahlberg21 was one of the first L&IS professionals to
+identify the link between classification structure and
+ontology. In her paper “Ontical Structures and Universal
+Classification”, she described the Ontological foundations
+of modern classification systems. Gopinath and others
+reinforced and corroborated her theories. Hjorland22 has
+delved into the ontological, epistemological, and
+sociological factors, affecting a domain of knowledge.
+According to him, all domains are dynamic, and any KO
+tool should be able to reflect the constant changes in any
+domain and incorporate them in the new ever-changing
+structure of knowledge. An experiment to convert a
+controlled vocabulary into ontology was reported by Qin
+and Poling23. They used the controlled vocabulary of ERIC
+descriptors to develop an ontology on education and
+DESIDOC J. Lib. Inf. Technol., 2011, 31(2)
+
+educational materials. According to them, the major
+difference between the thesauri and ontologies, lies in the
+values added through deeper semantics, in describing
+digital objects, both conceptually and relationally. At the
+7th International ISKO Conference on Knowledge
+Research and Organisation, the second session focused
+on epistemological foundations for knowledge structures
+and analysis. Silva and Rocha24, suggested an alignment
+process at the ontological level for merging ontologies.
+At the same Conference, Negrini and Zozi25, focused
+on the way ontological structures can aid the
+understanding and modelling of works of art. In the
+Networked Knowledge Organisation Systems (NKOS)
+group, Mai26 held a series of workshops in conjunction
+with the Digital Libraries Conference and ACM+IEEE joint
+conference on digital libraries since 2001. At their 6th
+workshop, “Building a Meaningful Web from Traditional
+KO Systems to New Semantic Tools”, all the seven
+presentations focused on how traditional systems for KO
+can be transformed into Ontologies. In another study,
+Gnoli and Poli27, investigated the meaning of ontology as
+a model for KO, in the current Internet scenario, Ding28
+reviewed the importance of ontologies in the development
+of the semantic Web. He discussed the definition of
+ontologies, kinds of ontologies, ontology tools, ontology
+language and some important ontology projects. Ding and
+Foo, in another study, presented a two-part review. In the
+first part of the review29, state-of-the-art techniques on
+semi-automatic and automatic Ontology generation were
+detailed. The second part of the review30 dealt with
+ontology mapping and evolving. McGuinness31 and Kim32
+summarised their comments on the development of
+ontologies and the Web’s growing dependence on them.
+As far as methodologies for developing ontologies is
+concerned, an important study by Poli33, highlights
+ontological sub-theories and the use of domain analysis
+79
+
+for developing an ontology. Ironically, this methodology in
+the field of AI, utilises domain analysis, an integral part of
+L&IS. Similarly, Prieto-Diaz34 also used a domain
+analysis and a faceted approach to build ontologies with a
+software tool called ‘DARE’. Most of the current
+ontological projects, use readily-available ontology tools
+for developing new ontologies. Charlet35, et al. describe a
+methodology to build a medical ontology from textual
+reports, using a natural language processing tool; the
+SYNTEX software. Sanchez and Moreno36 described an
+automatic and unsupervised methodology that addresses
+the non-taxonomic learning process for constructing
+domain ontologies. Roche and Kodratoff37 presented a
+text-mining approach, to extract candidate terms from a
+corpus.
+A clustering-based approach for developing cultural
+ontologies, was reported by Srinivasan38, et al. The study
+concluded that a semi-automated method was useful in
+resolving the twin problems of scalability and
+interoperability in developing ontology. Another study by
+He and Hou39, substantiated Srinivasan’s view that semiautomatic construction of a domain ontology was more
+fruitful. They used a statistical NLP technique for mining
+of the concepts, developing the taxonomic as well as the
+non-taxonomic relationships and formalising the ontology.
+Ziyu and Lei40 reported the development of a domain
+ontology on high-speed railway, combining terms from a
+thesaurus with other key concepts suggested by subject
+experts. The Unified Software Development Process, a
+widely used standard in software engineering, formed the
+basis for developing a methodology for an ontology in the
+e-business domain41. The UMLS meta thesaurus was
+used by Zeng42, to develop an ontology on traditional
+Chinese medicine. Hjorland43 addressed the theoretical
+problem in developing ontologies.
+According to him, a basic knowledge of concept
+theory was essential for information scientists as well as
+KO experts. The best understanding and classification of
+theories of concepts, is to view and classify them in
+accordance with epistemological theories (empiricism,
+rationalism, historicism and pragmatism). The strength of
+an ontology lies in the use of both standard vocabulary
+terms as well as free index terms.
+Dotsika44 reinforced this view, by reconciling an
+ontology with a folksonomy and also proposed a common
+framework for reconciling both a formal descriptive
+system as represented by an ontology and an informal
+descriptive system, represented by a folksonomy. An
+automatic domain ontology construction method based
+on FCA, was reported by Lei Wang45, et al. Using Content
+analysis, facet analysis, and clustering Deokattey46, et
+al., described a method for developing a domain ontology
+in the multidisciplinary area of accelerator driven systems
+in nuclear physics.
+80
+
+7. ACCELERATOR-DRIVEN SYSTEMS
+Accelerator-driven systems is an interdisciplinary
+and multidisciplinary subject domain. It is a part of the
+broad area of physics, particularly particle physics,
+atomic and nuclear physics, and nuclear and reactor
+engineering. Accelerators are huge electromagnetic
+devices that give high energy to subatomic particles,
+which then collide with targets. Particles are being used
+in a variety of ways for the benefit of mankind. Cancer
+therapy, medical and industrial imaging, radiation
+processing, electronics, measuring instruments, new
+manufacturing processes, and materials are some of the
+areas where accelerated particles are being used.
+Another promising use of particle accelerators is in
+producing clean, safe and almost inexhaustible amount of
+nuclear energy. The amount of energy produced is much
+more than energy utilised, hence they are called energy
+amplifiers (EA).
+Accelerator-driven systems are used for several
+purposes. Some of the important applications of ADS are
+for R&D in Particle Physics, for generating nuclear
+energy, for destruction of high-level radioactive waste and
+for breeding or producing additional nuclear fuel.
+
+8. METHODOLOGY
+For the purpose of developing a sample domain
+ontology on EA, INIS database was used for picking up
+keywords. Steps followed were as under:
+
+8.1 Process of Conceptualisation
+This process was initiated through the preparation of
+the final list of keywords and descriptors, which formed
+the basis for developing the ontology. Six hundred seventy
+nine descriptors were downloaded from the bibliographic
+records of the INIS database and saved as an Excel file.
+
+8.2 Grouping and Interlinking of the
+Descriptors
+In the first step, each descriptor was linked to the
+other through a one-to-one or one-to-many
+correspondence between the descriptors depending on
+the type of the descriptor. Table 2 depicts a sample of
+such an interlinked file of descriptors. Among these
+descriptors, 10 descriptors with highest frequency of
+occurrence were identified as core clusters around which
+several minor or smaller clusters were developed. Thus,
+each descriptor was a part of a basic semantic unit,
+consisting of a minimum of three descriptors. These
+descriptors were:
+81
+
+transmutation
+
+73
+
+accelerators
+DESIDOC J. Lib. Inf. Technol., 2011, 31(2)
+
+Table 2. A sample display of one of the main clusters on accelerators
+
+Cyclic accelerators
+Quadrupole linacs
+Synchrotrons
+ECR ion sources
+Cyclotrons
+
+59
+
+nuclear-reactions
+
+56
+
+reactors
+
+55
+
+elements
+
+50
+
+beams
+
+50
+
+metals
+
+49
+
+nucleon-beams
+
+49
+
+particle-beams
+
+49
+
+proton-beams
+
+Beams
+Beam dynamics
+Neutron beams
+Beam emittance
+Beam inje ction
+
+Under these core clusters, other descriptors
+identified and downloaded from the INIS database, were
+grouped to form smaller clusters, on the basis of Facet
+analysis and semantic similarity. Each of the descriptors
+under any of the core groups, could belong to more than
+one core group (Table 2).
+
+8.3 Software for Designing the Ontology
+A special program was written to develop the
+ontology, in a web-based environment. The following
+three-tier architecture was used to develop the domain
+ontology.
+
+
+Active server pages
+
+
+
+Web server (IIS)
+
+
+
+MS Access
+
+8.4 Organising the Keywords/Descriptors File
+In the first step, the interlinked Excel file (the
+semantic network) of all descriptors on EA was fully
+updated.
+
+8.5 Organising the Bibliographic Data File
+The bibliographic records on EA (129) downloaded
+from INIS database formed the core data for the domain
+ontology on EA. These records were downloaded and
+saved as a separate text file. Only certain mandatory
+fields for each bibliographic record were downloaded from
+the INIS database. These fields were Author, Corporate
+Author, Title (both original and translated), Publisher, Year
+of Publication, Language, Collation, Report No. (in case of
+technical reports), Source, Descriptors, and Abstract.
+DESIDOC J. Lib. Inf. Technol., 2011, 31(2)
+
+Targets
+Target chambers
+Thorium 232 target
+Lead 208 target
+Eutectics
+
+Neutrons
+Neutron beams
+Multiplication factors
+Neutron transport
+Ultra cold neutrons
+
+This edited text file of bibliographic data input was then
+saved as an HTML file.
+
+8.6 Uploading Data onto the Web-enabled
+Platform
+Both the keywords/descriptors file and the
+bibliographic file were uploaded onto the Web-based
+platform developed for the domain ontology. The
+methodology for the present domain ontology on EA was
+thus developed using facet analysis techniques, which
+are an integral part of LIS studies. This methodology can
+be used to develop a domain ontology both for pure
+subject domains as well as for interdisciplinary subject
+domains.
+
+9. CONCLUSION
+The focus of much of the research in AI is on the
+emulation of problem solving behaviour. AI applications
+include
+medical
+diagnosis,
+natural
+language
+interpretation, robotics, programming, game playing,
+vision, speech, pattern recognition, and fact retrieval.
+Therefore, most of the work on the design and
+development of ontologies was carried out in the late
+1990s and in the beginning of early 2000s. Apart from
+domain knowledge, ontologies in the field of AI have to
+incorporate operational knowledge, to simulate real-life
+problems and function as Expert Systems.
+Semantic Web initiatives by the W3C, saw a number
+of Web developers designing ontologies for
+interoperability among various systems. Ontologies form
+an integral part of the semantic Web architecture. The
+ontology layer represents the semantic Web’s central
+metadata artery, where simple descriptive to complex
+classificatory schemas are created and registered so that
+agents can intelligently interpret data, make inferences,
+and perform tasks. Ontologies are metadata systems. In
+the context of information science, ontologies are still at a
+nascent stage. There is as yet no consensus on the
+definition of ontology. If an ontology has to be developed,
+the first requirement would be, that it should be based on
+the concept of literary warrant; which means that only
+domain knowledge would be utilised to develop an
+ontology. Secondly, in the present era of reusable
+modules of ontologies for various applications,
+interoperability is a major issue, which means an
+ontology should be flexible and yet be Web-enabled.
+81
+
+Third and the most important area is vocabulary
+control. Information Scientists need to think beyond
+classes, keywords and descriptors to represent
+information, embodied in any document. The basic idea or
+the concept as envisaged by Hjorland, would be the key
+to effective organisation and retrieval of information. A
+concept encompasses keywords, descriptors, and their
+corresponding linkages. These linkages should also take
+into account, institutional, cultural, and national warrants.
+The complexity of evolving subject domains is another
+problem area and innovative methods, including
+webometric techniques, need to be used to harness
+concepts, for developing ontologies in interdisciplinary
+domains. The theoretical foundations of classification,
+rooted in logic and cognitive psychology, would form the
+ideal basis for developing techniques and methods for
+creating new domain ontologies.
+
+REFERENCES
+1. Hobbs, J.R. Sketch of an ontology underlying the
+way we talk about the world. Int. J. HumanComputer Stud., 1995, 43, 819-30.
+2. Reynaud, C. & Tort, F. Using explicit ontologies to
+create problem solving methods. Int. J. HumanComputer Stud., 1997, 46(2/3), 339-64.
+3. Heijst, G.V. & Schreiber, A.T. Roles are not classes: A
+reply to Nicola Guarino. Int. J. Human-Computer
+Stud., 1997, 46(2/3), 311-18.
+4. Gomez-Perez, A. & Benjamins, V.R. Applications of
+ontologies and problem-solving methods. AI
+Magazine, 1999, 20(1) 119-22.
+5. O’Leary, D.E. Using AI in knowledge management:
+Knowledge bases and ontologies. IEEE Intell. Syst.,
+1998, 13(3), 34-39.
+6. O’Leary, D.E. Impediments in the use of explicit
+ontologies for KBS development. Int. J. HumanComputer Stud., 1997, 46(2/3) 327-37.
+7. Noy, N.F. & McGuinness, D.L. Ontology development
+101: A guide to creating your first Ontolgoy. Stanford,
+Stanford University, 2001.
+8. Guarino, N. Understanding, building and using
+Ontologies. Int. J. Human-Computer Stud., 1997,
+46(2/3), 293-310.
+9. Noy, N.F. & Hafner, C.D. The state-of-the-art in
+ontology design: A Survey and comparative review. AI
+Magazine, 1997, 18(3), 53-74.
+
+82
+
+10. Farquhar, A. & Fikes, A.R. The ontolingua server: A
+tool for collaborative ontology construction. Int. J.
+Human-Computer Stud., 1997, 46(6), 707-27.
+11. Borst, P. & Akkermans, H. Engineering ontologies.
+Int. J. Human-Computer Stud., 1997, 46(2/3), 365-06.
+12. Visser, P.R.S. & Bench-Capon, T.J.M. A comparison
+of four ontologies for the design of legal knowledge
+systems. Artificial Intell. Law, 1998, 6(1), 27-57.
+13. Valente, A. & Russ, T. Building and (re)using an
+ontology of air campaign planning. IEEE Intelli. Syst.,
+1999, 14(1), 27-36.
+14. Lopez, M.F. & Gomez-Perez, A. Building a chemical
+ontology using MethOntology and the ontology
+design environment. IEEE Intell. Syst., 1999, 14(1),
+37-46.
+15. Duineveld, A.J. & Stoter, R. Wondertools? A
+comparative study of ontological engineering tools.
+Int. J. Human-Computer Stud., 2000, 52(6), 1111-33.
+16. Holsapple, C.W. & Joshi, K.D. A collaborative
+approach to ontology design. Communications of the
+ACM, 2002, 45(2), 42-47.
+17. Everett, J.O., et al. Making ontologies work for
+resolving
+redundancies
+across
+documents.
+Communications of the ACM, 2002, 45(2), 55-60.
+18. Kohler, J., et al. Ontology-based text Indexing and
+querying for the semantic Web. Knowledge-based
+Systems, 2006, 19(8), 744-54.
+19. Kim, J.M., et al. A methodology for constructing of
+philosophy ontology based on philosophical texts.
+Compu. Stand. Interfaces, 2007, 29(3), 302-15.
+20. Dahab, M.Y.; Hassan, H.A. & Rafea, A. Text onto-Ex:
+Automatic ontology construction from natural English
+text. Expert Syst. and Appli., Feb. 2007.
+21. Dahlberg, I. Ontical structures and universal
+classification. Bengaluru, Sarada Ranganathan
+Endowment for Library Science, 1978.
+22. Hjorland, B. & Hartel, J. Ontological, epistemological
+and sociological dimensions of domains: Afterword.
+Knowledge Organisation, 2003, 30(3/4), 239-45.
+23. Qin, J. & Paling, S. Converting a controlled
+vocabulary into an ontology: The case of GEM.
+Information Research, 6(2), http//:Information R.net/
+ir/6-2/paper94.html.
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(2)
+
+24. Silva, N. & Rocha, J. Merging Ontologies using a
+bottom-up lexical and structural approach. In the 7th
+ISKO International Conference on Challenges in
+Knowledge Representation and Organisation for the
+21st Century. Integration of Knowledge Across
+Boundaries, Granada, July, 10-13, 2002.
+25. Negrini, G. & Zozi, P. Ontological analysis of literary
+works of art. In 7th ISKO International Conference on
+Challenges in Knowledge Representation and
+Organisation for the 21st Century. Integration of
+Knowledge Across Boundaries, Granada, 10-13 July
+2002.
+26. Mai, J.E. Organisation of knowledge in a networked
+environment. Knowledge Organisation, 2002, 30(1),
+36-37.
+27. Gnoli, C. & Poli, R. Levels of reality and levels of
+representation. Knowledge Organisation, 2004, 31(3),
+151-60.
+28. Ding, Y. A review of ontologies with the semantic Web
+in view. J. Inf. Sci., 2001, 27(6), 377-84.
+29. Ding, Y. & Foo, S. Ontology research and
+development, Pt. 1: A review of ontology generation.
+J. Inf. Sci., 2002, 28(2), 123-36.
+
+texts: An experiment for the intensive care units.
+Comput. Biol. Med., 2006, 36(7&8), 857-70.
+36. Sanchez, D. & Moreno, A. Learning non-taxonomic
+relationships from Web documents for domain
+ontology construction. Data and Knowl. Engi.
+37. Roche, M. & Kodratoff, Y. Text and Web mining
+approaches in Order to build specialised ontologies.
+J. Dig. Inf., 2009, 10(4), 1368.
+38. Srinivasan, R.; Pepe, A. & Rodriguez, M.A. A
+clustering-based semi-automated technique to build
+cultural ontologies. J. Amer. Soc. Inf. Sci. Technol.,
+2009, 60(3), 608-20.
+39. He, L. & Hou, H. Research on semi-automatic
+construction of domain ontology based on statistical
+NLP technique. J. China Soc. Sci. Tech. Inf., 2009,
+28(2), 201-07.
+40. Ziyu, L. & Lei, H. Research on construction
+methodology of domain ontology for high-speed
+railway. J. China Soc. Sci.Tech. Inf., 2009, 28(2),
+195-200.
+41. De Nicola, A.; Missikoff, M. & Navigli, R. A. A
+software engineering approach to ontology building.
+Inf. Syst., 2009, 34(2), 258-75.
+
+30. Ding, Y. & Foo, S. Ontology research and
+development, Pt. 2: A review of ontology mapping
+and evolving. J. Inf. Sci., 2002, 28(5), 375-88.
+
+42. Zeng, Z. Practice in construction of traditional
+chinese medicine ontology. Chinese J. Med. Lib.
+Inf. Sci., 2009, 18(4), 1-5.
+
+31. McGuinness, D.L. Ontologies come of age. Stanford,
+Stanford University, 2005. (private communication).
+
+43. Hjorland, B. Concept theory. J. Amer. Soc. Inf. Sci.
+Technol., 2009, 60(8), 1519-36.
+
+32. Kim, H. Predicting how ontologies for the semantic
+Web will evolve. Communications of the ACM, 2002,
+45(2), 48-54.
+
+44. Dotsika, F. Uniting Formal and informal descriptive
+power: Reconciling ontologies with folksonomies. Int.
+J. Inf. Manag., 2009, 29(5), 407-15.
+
+33. Poli, R. Ontological methodology. Int. J. Human
+Computer Stud., 2002, 56, 639-64.
+
+45. Lei, W.; Kuanjiu, Z & Peng, Q. Automatic domain
+ontology construction. J. China Soc. Sci. Tech. Inf.,
+2010, 29(1), 45-52.
+
+34. Prieto-Diaz, R. A faceted approach to building
+Ontologies. (Private communication).
+35. Charlet, J.; Bachimont, B. & Jaulent, M.C. Building
+medical ontologies by terminology extraction from
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(2)
+
+46. Deokattey, S.; Neelameghan A. & Vijai Kumar. A
+method for developing a domain ontology: Case study
+for a multidisciplinary subject. Knowledge
+Organisation, 2010, 37(3), 173-84.
+
+83
+
+Dr (Mrs) Pratibha Gokhale is currently the
+Head of the Department of Library & Information
+Science in University of Mumbai and I/C University
+Librarary. She has more than 33 years of
+wide and varied experience in the field of
+Library management and teaching. She has
+contributed several articles in professional
+journals, national and international conference
+volumes. She received C.D. Sharma Award for the best
+presented and written article at the ILA National Conference
+in 2003. She attended and presented a paper at the 3 rd
+International Conference on Grey Literature at Luxembourg
+in 1997. She is a resource person, a guiding teacher for
+research and has coordinated different continuing education
+programmes, workshops, courses, etc. She is currently on
+the Editorial Board of DESIDOC Journal of Library & Information
+Technology. Her areas of specialsation are: library management,
+organisation of knowledge, IT applications to library.
+Dr (Mrs) Sangeeta Deokattey has been
+working in the field of LIS for the last 25
+years. She developed and organised the scientific
+and technical reports collection at the Small
+Enterprises National Documentation Centre
+(SENDOC) at NISIET, Hyderabad. Later as a
+
+84
+
+Documentation Officer at the Research Centre for Women’s
+Studies, SNDT Women’s University, Mumbai, she organised
+the special collection of Women’s Studies research material
+(including archives) and was one of the first in Mumbai to
+develop a database on Women’s Studies using the CDS/ISIS
+software under a Ford Foundation Grant. Her Research
+interests include: classification, indexing, ontologies, preparing
+state-of-the-art reports and using scientometric techniques
+in knowledge organisation. She did her PhD from the University
+of Mumbai, on the subject, “A Methodology for Developing
+a Domain Ontology in the Area of Accelerator Driven Systems
+in Nuclear Physics: A Study”. She is presently working as a
+Senior Scientific Officer in the Scientific Information Resource
+Division, Bhabha Atomic Research Centre, Mumbai.
+Dr K. Bhanumurthy is a Metallurgical Engineer
+from IIT, Kharagpur. His research interests
+include inter-diffusion studies in metals and
+alloys, similar and dissimilar materials joining
+using advanced solid-state processes, fiction
+stir welding, materials characterisation, and
+phase diagrams study and evaluation. He
+has more than 110 research publications to
+his credit. Presently, he is the Head of the Scientific Information
+Resource Division, Bhabha Atomic Research Centre, Mumbai.
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(2)
+
+

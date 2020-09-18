@@ -1,0 +1,171 @@
+DESIDOC Journal of Library & Information Technology, Vol. 34, No. 1, January 2014, pp. 16-22 
+  2014, DESIDOC 
+Catalogue Interfaces of Integrated Library Management Systems (ILMS):  
+Experiences in a Proprietary and Open Source Software 
+Archana S.N.*, Padmakumar P.K.** and Beena C.*  
+*University Library, Cochin University of Science & Technology (CUSAT), Cochin, Kerala-682 022                 
+E-mail: niharikamanakkil@gmail.com, beenacherukuth@gmail.com 
+**Cochin University College of Engineering Kuttanad (CUSEK), Pulincunnu, Alappuzha, Kerala-688 504 
+E-mail: pappan@cusat.ac.in 
+AbStrACt 
+ The Central Library of Cochin University of Science and Technology (CUSAT) has been automated  by  proprietary  software  (Adlib  Library)  since  2000. After  11  years,  in  2011,  the  university  authorities  decided  to  shift  to  an  open  source  software  (OSS), for  integrated  library  management  system  (ILMS),  Koha  for  automating  the  library  housekeeping  operations.  In  this  context,  this  study  attempts  to  share  the experiences in cataloging with both type of software. The features of the cataloging modules of both  the software are analysed on the badis of certain check points. It is found that the cataloging module  of Koha is almost in par with that of proven proprietary  software that has been in market for the past  25 years. Some suggestions made by this study may be incorporated for the further development and  
+perfection of Koha.   
+Keywords: Integrated library management systems, Adlib library, Koha, cataloguing modules, automated 
+ catalogue, library automation 
+1.  INtrODUCtION 
+Computerisation of library operations in developing  countries  began  in  the  1970s  with  the  automation  of  Catalogue  records.  Library  automation  gathered  momentum  in  the  1990s1   with  the  increased  availability  of  software  and  affordable  hardware.  Indian  libraries  also  started  automation  of  library  operations  by  converting  their  card  catalogues  to  machine readable forms. Software such as CDS/ISIS  was  used  widely  for  this.  By  the  mid  1990s  many  improved  integrated  library  management    software  (ILMS),  viz.,  Libsys,  Alice  for  Windows,  Tech  Lib  Plus, etc., became common in Indian libraries. Along  with  these,  software  packages  developed  in  India  such as Sanjay, Granthalaya, Maithrayee, etc., too  became popular. Lot of studies have been conducted  by library and computer professionals to analyse and  compare  the  performances  of  these  software  and  more  improved  versions  as  well  as  new  advanced  software  occupied  the  market  place. 
+The  new  millennium  witnessed  the  arrival  and  success  of  open  source  software  (OSS).  People  especially  professionals  all  around  the  world  are  now aware of the concept, importance and need of  OSS. Librarians are always enthusiastic about such  developments in the field of information technology  and are ready to embrace it. A lot of OSS for ILMS,  
+Received 8 April 2013, Online published 17 January 2014 
+digital libraries, e-learning, virtual reference services,  etc.,  are  now  available  for  libraries.  In  Kerala,  by  the end of 2010 many libraries—university, college  and  public  have  shifted  to  OSS  for  ILMS.  Since  the concept of OSS is based on the enthusiasm of  several voluntary groups of people scattered around  the world, in many cases there lacks an approachable  authority  to  clear  a  problem  identified  with  such  software.  This  makes  many  library  professionals  to  be  doubtful  about  getting  authoritative  technical  support  for  clearing  future  problems. 
+2.    b ACKGrOUND 
+The Central Library of Cochin University of Science  and Technology (CUSAT) is the first university library  in  Kerala,  to  automate  its  complete  housekeeping  operations  using  an  ILMS,  viz,  the  ‘Adlib  Library’.  The  automation  of  library  was  done  as  a  part  of  a  project  for  computerisation  and  networking  of  the  campus  in  collaboration  with  the  Government  of  Netherlands. The official inauguration of the library  automation was done in 2000. The library continued  to use the software with not much problems identified  till  2010.  As  the  case  with  any  library  software  the  need  for  updation/new  version  of  the  software  arouse  which  in  turn  required  a  huge  amount  for  purchasing  the  latest  version. 
+
+========1========
+
+ARChANA, et al.: CATALOG INTERFACES OF INTEGRATED LIBRARY MANAGEMENT SYSTEMS (ILMS) 
+Trends  and  advances  in  the  OSS  environment  prompted the authorities of the University to explore  its  features  and  feasibilities  and  a  decision  at  the  top-level was made to experiment an OSS for library  automation.  ‘Koha’  was  selected  for  the  purpose  and  was  found  successful.  Then  the  records  from  the  Adlib  Library  software  were  migrated  to  Koha.  Now  all  the  housekeeping  operations  in  CUSAT  Central  Library  are  carried  out  in  Koha. 
+3.  ObJECt IVES 
+This  study  intends  to  share  the  differences  in  working  with  a  proprietary  (Adlib  Library)  and  an  open  software  (Koha).  Librarians  are  aware  that  a  problem/drawback identified with proprietary software  may or may not be cleared in its next version. Even  with  technical  expertise  in  clearing  such  problems,  the  rigid  license  agreements  do  not  permit  it.  On  the  other  hand,  open  software  provides  a  lot  of  space  for  adding,  editing  and  customising  features  in  the  software.  A  comparison  of  both  the  type  of  software  on  different  aspects  may  help  to  identify  the  problems  associated  catalogue  interfaces  of  ILMS with them and suggests improvements. In this  juncture, the objectives of this study are formulated  as  follows: 
+(i)  To compare the cataloging modules of both the  
+software 
+(ii)  To compare the Online Public Access Catalogue  
+(OPAC)  interfaces  of  both  the  software  with  
+respect  to  their  search  features  and  display  of  
+Catalogue  cards 
+(iii) To propose suggestions to improve the cataloging  
+module  of  Koha. 
+Since  an  exhaustive  coverage  of  the  complete  modules  of  the  software  is  of  large  scope,  the  study  is  limited  to  the  cataloging  modules  of  these  software. 
+4.  SOFtWArE  PACKAGES 
+4.1 Adlib  Library 
+Adlib Library is developed by Adlib Information  systems,  Netherlands.  As  its  developers  claim  the  software  is  centered  on  the  catalogue  module.  Other  modules  are:  (a)  Circulation  management,  (b)  Serials,  and  (c) Acquisition. 
+All the modules are integrated with the catalogue  and  thesauri,  so  that  data  entered  is  immediately  available  across  the  whole  system. Adlib  complies  with international standards–ISBD/AACR2 and Z39.50.  The  latest  version  of  Adlib  provides  facilities  for  online  reservations  and  selective  dissemination  of  information  (SDI)  alert  services.  It  has  multilingual  capabilities  and  data  is  stored  as  UNICODE2.  An  important feature of the cataloging module of Adlib 
+is that it provides the ‘Administrative data’ regarding  the  date  of  creation  of  a  particular  record  and  the  dates of editions made to that record. The screens  are  clearly  structured  with  intuitive  menus  and  context  related  help  text. 
+4.2  Koha 
+Koha, the first OSS ILMS, was developed initially  in New Zealand by Katipo Communications Ltd and  first  deployed  in  January  2000  for  horowhenua  Library  Trust.  It  is  currently  maintained  by  a  team  of  software  providers  and  library  technology  staff  from around the globe3.CUSAT Central Library uses  Koha version 3.00.00.107. Different modules in the  software  are:  (a)  Acquisition,  (b)  Cataloging,  (c)  Circulation,  and  (d)  Serials. 
+The software supports uploading of images and  value-added  content  such  as  reviews,  comments,  etc. It also facilitates more advanced user services  like  tagging,  online  reservation,  renewal,  etc. 
+5. ANALYSIS 
+An automated Catalogue has two interfaces: (a)  Librarian interface and (b) Public interface (OPAC).  Data is being entered through the librarian interface  and  output  can  be  viewed  in  both  the  interfaces.  As far as librarians are concerned they accustomed  more to the librarian interface. But OPAC interface  is  also  important  since  it  is  the  service  face  of  the  library. The features of both the catalogue interfaces  of  these  software  are  compared  with  respect  to  certain  check  points  which  are  as  follows: 
+5.1  Librarian  Interface 
+5.1.1 Access  Points  for  Searching 
+Access points are the different metadata elements  like  author,  title,  keyword,  etc.,  by  which  search  queries  can  be  made.  Adlib  provides  18  access  points  for  searching  a  record.  An  item  can  be  searched  by  clicking  any  one  of  these  access  points.  In  other  words,  the  librarian  interface  of  Adlib facilitates a search by only one access point.  The librarian interface of Koha provides 20 access  points  under  14  broad  categories  for  searching  a  record.  It  can  be  noticed  that  there  is  no  provision  to  search  records  by  ‘Class  number’  which  is  an  important  point  of  access  as  far  as  a  cataloger  is  concerned. A  combination  of  upto  3  access  points  can  be  made  to  search  records.  Different  access  points  provided  by  these  software  are  shown  in  Figs.1  and  2. 
+5.1.2  Record/Data  Entry  Format 
+Adlib  provides  a  simple  data  entry  sheet  with  2  pages.  All  the  necessary  fields  required  for  the  ISBD  presentation  of  a  Catalogue  are  present  in  
+17 
+
+========2========
+
+DJLIT,  VOL.  34,  NO.  1, JANUARY   2014 
+Figure 1. Access points for searching in Adlib. 
+Figure 2. Access points for searching in Koha. 
+the  worksheet. The  menu  bar  provides  links  to  the  list/thesauri  of  subjects,  authors,  publishers,  etc.  With  respect  to  compatibility  of  record  structure,  Adlib doesn’t support any international standard and  so  data  migration  from  Adlib  to  other  software  is  really  difficult.  Koha  uses  MARC21  as  record/data  entry format. Even though the default MARC format  is  spread  over  10  pages,  Koha  provides  facility  to  customise  the  format  and  create  convenient  frameworks for books, journals, electronic documents,  etc.,  there  by  limiting  the  number  of  pages  of  the  data  entry  worksheet  to  2  or  3. 
+18 
+5.1.3  Import/Export  Data 
+   Adlib  has  the  facility  of  data  import.  But  that  feature  was  not  been  explored  by  CUSAT. And  so  the problems, if any, associated with it has not been  experienced.  Koha  is  efficient  in  importing  records  to  its  database.  One  can  download  MARC  records  from other library catalogues and upload it in Koha  and  make  necessary  aditions  with  respect  to  class  number,  barcode,  etc.,  and  thereby  save  a  lot  of  work.  But  this  option  cannot  be  applied  for  editing  existing  records.  Data  exporting  facility  is  there  in  both  the  software.  But  in  Adlib,  as  mentioned  
+
+========3========
+
+ARChANA, et al.: CATALOG INTERFACES OF INTEGRATED LIBRARY MANAGEMENT SYSTEMS (ILMS) 
+earlier,  exporting  data  to  an  international  standard  requires  an  intermediate  step. 
+5.1.4 Authority  Files 
+    Adlib  has  a  strong  indexing  base  and  the  authority  files  are  the  backbone  of  an  indexing  system.  Adlib  maintains  authority  files  for  class  numbers,  authors,  corporate  authors,  publishers,  locations, series, and material types. As soon as a  fresh  entry  is  made  in  the  above  mentioned  fields  the systems automatically stores an authority record  of the same. Catalogers depend on these authority  file/thesauri  for  indexing  of  various  fields  at  the  time  of  preparing  the  catalogue  cards.    Koha  also  provides facility for maintaining authority files. If the  feature  is  kept  on,  the  cataloger  will  be  required  to  create  the  authority  file  first  and  then  only  he/ she can add entries in the respective fields. At the  time  of  migration  of  records  from  Adlib  to  Koha,  this was found difficult and the feature was clicked  off.  Right  now  in  CUSAT  Koha  database,  authority  files  are  not  maintained.  Only  the  index  files  are  there  for  reference. 
+Figure 3. Catalogue card in Adlib. 
+Figure 4. Catalogue card in Koha. 
+5.1.5  Display  of  Catalogue  Cards 
+   Adlib displays the catalogue card in the ISBD  format.  Whereas,  in  Koha  there  are  three  modes  of  display  of  Catalogue,  viz,  normal,  MARC  format  and  ISBD.  The  default  display  is  in  the  normal  mode.  One  can  view  the  record  in  other  formats  by  clicking  the  respective  buttons. 
+  With  respect  to  ISBD  format,  Adlib  is  perfect  and in Koha the ISBD punctuations are not displayed  properly. Koha facilitates the addition and display of  enriched  content  such  as  images  of  book  jackets,  table  of  contents,  reviews,  etc. 
+  In  the  catalogue  card,  Adlib  displays  details  regarding the accession number, call number, status,  type  and  location  of  the  title.  Whereas  in  Koha  no  such details except the class number are displayed.  For  viewing  the  items/copies  one  has  to  click  the  items button on the side bar. The ISBD view of the  catalogue  for  a  particular  title  in  both  the  software  is  shown  in  Figs.  3  and  4. 
+19 
+
+========4========
+
+DJLIT,  VOL.  34,  NO.  1, JANUARY   2014 
+5.1.6  Printing  of  Catalogue  Cards  and  Barcode 
+  Adlib doesn’t provide facility to print catalogue  card  directly.  So  while  using  Adlib  software  the  catalogue  cards  are  prepared  separately  by  typing  in Microsoft Excel and printing it from there.  Even  though  Koha  provides  facility  for  developing  and  printing  catalogue  cards,  this  facility  is  not  been  used  in  CUSAT.  Cards  are  prepared  as  it  was  done  earlier. 
+CUSAT Cental Library has been using separate  software  and  hardware  for  printing  barcodes  since  2000. Even though Koha provides facility for developing  and  printing  barcodes  of  accession  numbers,  the  CUSAT  library  continue  with  the  software  and  hardware  in  use  for  developing  barcodes. 5.2  OPAC  Interface 
+The OPAC of both the software is web-enabled. The  OPAC of Adlib is easy to use with ‘instructions/help for  searching’ displayed on the right hand side. A user can go  through  it  first  and  makes  searches  appropriately. 5.2.1  Simple  Search  Interface 
+   Adlib  provides  6  access  points  in  the  simple  search  form.  A  search  can  be  done  either  with  a  
+Figure 5. Simple search interface of OPAC of Adlib. 
+Figure 6. Simple search interface of OPAC of Koha. 
+20 
+single  access  point  or  with  more.  On  using  more  access points, the software automatically convert it  as a BOOLEAN ‘AND’ search. The OPAC interface  of  Adlib  provides  facilitates  to  truncate  the  search  term  on  all  access  points,  limit  the  search  by  item  type such as book, serials, etc. An important feature  of  the  Adlib  OPAC  is  the  provision  of  links  to  the  authority files of authors, organisations and subjects  against the respective search fields. A user can use  these  links  to  choose  the  search  terms  which  in  turn helps to reduce errors of typing. In the simple  search form there is a button ‘Expert Search form’  providing  link  to  the  advanced  search  interface. 
+The simple search interface of OPAC of Koha also  provides  6  access  points  for  searching.  In  Koha,  a  simple search can be made only by a single access  point  and  there  is  no  option  for  limiting  the  search  by  item  type  or  other  entities.  But  one  can  refine  the  search  results  by  availability,  location,  series,  author,  publisher,  class  number,  and  topics. 
+  Koha  also  provides  a  link  to  the  Advance  search  interface  from  the  simple  search  interface.  The  simple  search  interface  of  both  the  software  is  given  in  Figs  5  and  6. 
+
+========5========
+
+ARChANA, et al.: CATALOG INTERFACES OF INTEGRATED LIBRARY MANAGEMENT SYSTEMS (ILMS) 
+5.2.2 Advanced  Search  Interface 
+      The  expert  search  form  of  Adlib  provides  facility  to  use  Boolean  operators  for  different  combinations  of  the  above  mentioned  6  access  points. Links to the authority files of authors, subject,  and  organisations  can  also  be  used  to  assist  the  searching.  All  other  features  are  same  as  that  of  the  Simple  Search  form.  One  can  go  to  Simple  Search,  form  by  clicking  the  respective  button  in  the Advanced  search  interface. 
+ The advanced search interface of Koha contains  3  search  boxes  for  combining  the  different  access  points.  The  access  points  provided  by  Koha  for  advanced  search  are  not  the  same  as  that  in  the  simple  search  interface. Also  a  user  can  make  an  advanced  search  only  with  3  access  points.  This  interface  of  Koha  facilitates  to  limit  the  search  by  availability,  location  and  item  type.  There  is  no  link  named  ‘Simple  Search’  from  the  ‘Advanced  Search’  interface.  One  has  to  click  the  ‘back’  button  or  the  ‘Koha’  icon  in  the  page  to  go  to  
+Figure 7. Advanced search interface of Adlib OPAC. 
+Figure 8. Advanced search interface of Koha OPAC. 
+the  simple  search  interface.  The  advanced  search  interfaces  of  both  the  catalogues  are  displayed  in  Figs.  7  and  8. 
+5.2.3  Display  of  Search  Results 
+  A search made in Adlib retrieves and displays  50 numbers of records per page. One can select the  number of hits as 20, 50, 100, etc., to be displayed  in  a  page  by  clicking  the  concerned  button  in  the  search  form. The  first  search  result  of Adlib  OPAC  is  a  list  of  records  with  the  titles  displayed  in  a  single  line.  One  can  click  the  relevant  title  to  view  its  detailed  ISBD  view.  The  ‘tooglemarking’  button  provided  at  the  end  of  the  page  helps  to  mark  the  items in the list and view the detailed presentation  of the group. The detailed presentation displays the  location and status of an item. Value added services  like online renewal, online reservation, cart and list  facilities,  saving  previous  search,  etc.,  are  totally  absent in Adlib OPAC. (The latest version provides  facilities  for  online  reservation  and  SDI  alerts). 
+21 
+
+========6========
+
+DJLIT,  VOL.  34,  NO.  1, JANUARY   2014 
+In  Koha,  the  search  results  are  displayed  as  20  items  per  page.  The  presentation  of  results  is  much detailed as compared to Adlib. One can view  almost all the metadata elements in the first display  itself.  The  detailed  presentation  can  be  viewed  by  clicking  individual  titles.  By  default  the  display  is  in  normal  mode.  here,  the  details  of  items/copies  for  the  title  along  with  its  location,  status  and  due  date  (for  checked  out  items)  are  also  displayed.  There  is  provision  for  the  online  reservation  of  items  by  authorised  users.  Authorised  users  can  also  post  comments,  tags  and  use  the  cart  facility.  The  OPAC  interface  of  Koha  displays  the  records  in  MARC  and  ISBD  formats  also. 
+6.  SUGGESt IONS 
+Based  on  the  analysis,  the  following  improvements for the OSS ‘Koha’ were suggested: •   The list of access points of the librarian interface  
+•    A  direct  link  to  the  simple  search  form  may  be  
+provided  in  the  advanced  search  interface. 
+7. CONCLUSIONS 
+Efforts have been made to compare the software  and  the  study  reveals  that  the  cataloging  module  of  the  OSS  is  almost  at  par  with  that  of  proven  proprietary software that has been in market for the  past  25  years.  The  strengths  and  weaknesses  of  both  the  software  are  highlighted.  As  seen  in  the  analysis  part  the  OPAC  interface  of  ‘Adlib  Library’  is  a  perfect  one  and  can  be  made  as  a  model  for  the further improvements of Koha. By incorporating  the  suggestions  made  by  this  study,  Koha  can  be  made  the  best  ever  ILMS  that  cater  the  needs  of  any  type  of  library. 
+rEFErENCES 
+most  sought  of  metadata  elements  with  ‘Class  
+number’  being  included  in  the  list. 
+•    In a university library system like CUSAT, creation  
+should  be  made  precise  with  respect  to  the  
+1.    h usain,  Shabahat  &  Ansari,  Mehtab  Alam.  
+Library automation software packages in India:  
+A study of the cataloguing modules of Alice for  windows,  Libsys  and  Virtua.  Annals  Lib.  Inf.  Stud.,  2007,  54(3),  146-51. 
+(accessed  on  3  January  2013). 
+of  a  record  (‘Biblio’  in  Koha)  starts  at  the  time  
+2.  http://www.adlibsoft.com/products/library-software/  of ordering an item from the acquisition section.  
+A  cataloger  can  only  edit  an  existing  record.  
+3.  http://koha.org/  (accessed  on  3  January  
+If  the  import  MARC  data  option  is  used,  a  
+2013). 
+duplicate  of  the  biblio  will  be  created  and  this  
+4.  http://opac.cusat.ac.in/ (accessed on 4 January  
+•  
+may  create  practical  difficulties.  So  the  MARC  import  and  upload  facility  may  be  enhanced  to  edit/update  an  existing  record. 
+Authority files are the backbone of any indexing  
+2013). 
+About  the Authors 
+fresh  item  is  being  entered  in  the  database.  •    In  the  ISBD  view,  the  punctuations  may  be  
+system.  Catalogers  have  been  using  standard,  
+Ms  Archana  S.N.  is  currently  working  as  Junior  indexing  systems/  thesauri  for  decades.  Right  
+Librarian  at  University  Library  of  CUSAT.  She  has  now  the  authority  file  system  of  Koha  is  made  
+13  years  of  professional  experience  in  various  optional  and  if  opted,  the  system  prompts  to  
+libraries  including  the  British  Council  Library,  create  the  authority  of  an  entry  before  adding  
+Trivandrum.  her  areas  of  interest  include:  OSS,  it in its respective field. The study recommends  
+virtual  libraries,  resource  sharing,  professional  that preparation of authorities of personal names,  
+development,  library  automation,  etc. 
+corporate names, publishers and keywords should  
+be  made  mandatory.  Instead  of  prompting  to  
+Mr  Padmakumar  P.K.  is  currently  working  as  create the authority of an entry first, the system  
+Assistant  Librarian  at  Cochin  University  College  of  may be prompted to create the authority when a  
+Engineering, Kuttanad. he has 16 years of professional  
+experience in various libraries including media and  
+medical  libraries.  his  areas  of  interest  include:  
+can  be  made  perfect.  
+•    Instead of using the term ‘barcode’ for referring  
+displayed properly so that catalogue card printing  
+socioinformatics,  cognitive  aspects  of  information,  
+human  computer  interaction,  etc. 
+Dr beena C. is presently working as Deputy Librarian  to an accession number in Koha, a standard term  
+at  University  Library  of  CUSAT.  She  has  23  years  
+•  
+such  as  ‘accession  number’  or  ‘copy  number’  may  be  used. 
+The ‘simple search’ interface of OPAC of Koha  
+of  professional  experience  in  the  university  library  system. She has to her credit more than 20 research  articles  published  in  national  and  international  
+may  be  made  little  more  user-friendly  with  journals, and conference proceedings. her areas of  help/instructions  displayed  some  where  within  interest include: KM, digital libraries, scientometrics,  the  page.  Options  for  limiting  the  search  with  socio-informatics,  cognitive  psychology,  etc. 
+respect  to  item  type,  location,  etc.,  should  be  provided  in  the  simple  search  form  itself.  
+22 
+
+========7========
+

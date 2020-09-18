@@ -1,0 +1,369 @@
+DESIDOC Journal of Library & Information Technology, Vol. 38, No. 5, Sept 2018, pp. 361-368, DOI : 10.14429/djlit.38.5.12425 
+ 2018, DESIDOC 
+Comparative Analysis of Open Source Digital Library Softwares: A Case Study 
+Lakshmi Verma*  and Nishant Kumar 
+DRDO-Defence Scientifc Information & Documentation Center, Delhi – 110 054, India 
+E-mail: laxmi@desidoc.drdo.in 
+ABSTRACT 
+The exponential growth in data generation and subsequent transformation into knowledge has created huge  repositories of knowledge in the libraries. This has revolutionalised the methods and techniques to retrieve the  relevant and useful information for the users. The growth of Information and communication technology (ICT) has  facilitated into achieving this.  In this paper, a study of three open-source digital library management software has  been presented which collects and disseminates information for library-users. This analysis involves the study and  comparison of related software documents and respective technical manuals. Based on the results of the comparison,  the implementation of Digtial Library Management Software at DESIDOC has also been dealt in details. 
+Keywords: Open source; Digital library; Digital library software; DSpace; GSDL; Greenstone; EPrints 
+1. InTRODuCTIOn 
+A  place,  where  collection  of  information  resources  is  stored in print and other forms in an organised and accessible  manner for print or study is referred to as Library. As defned  by International Organisation for Standardisation a library is  “irrespective of the title, any organised collection of printed  books and periodicals or of any other graphic or audio-visual  materials, and the services of a staff to provide and facilitate the  use of such materials as are required to meet the informational,  research,  educational  or  recreational  needs  of  its  users”1. Digital Library is a type of information retrieval system where  the information is stored in digital format which can be accessed  within network of computer users2. It uses online repositories  which  can  store  the  textual  information  systematically  and  can be accessed by users 24X7. There are various such digital  repositories available, which may be open source or proprietary.  Open source describes the method of software development,  which uses the power of review and transparency of distributed  peer-to-peer  progression.  Here  the  codes  of  software  are  available  in  open  domain  which  can  be  customised  by  the  respective  users.  This  technique  helps  in  providing  high  quality  software  through  high  reliablity,  low  cost,  fexibility  and end of traditional seller lock-in. Since, these open source  software come under “Open Source free license”, it allows the  developers / users to change, improve and distribute software  many times.  
+DESIDOC  is  the  central  information  centre  of  DRDO  which  contains  various  types  of  information  repositories  to  disseminate S&T information digitally to the DRDO users. To  create  and  manage  these  information  repositories,  a  suitable  digital  library  software,  DLS  (sometimes  also  called  digital  
+Received : 7 December 2017, Revised : 20 August 2018  Accepted : 28 August 2018, Online published : 5 September 2018 
+library  management  software)  was  required.  Due  to  this,  it  was necessary to analyse the best-suited DLS for DESIDOC  use. This resulted in the comparison of the three most popular  DLS available today i.e. DSpace, GSDL and Eprints. Based  on the comparison, DSpace was found to be the most suitable  LMS in DESIDOC scenario and hence was used to develop the  Institutional Repositories. The repositories which were earlier  running on different Library Management software were also  migrated  into  DSpace  platform  to  create  a  common  unifed  Institutional Repository for DESIDOC. 
+2. MeThODOLOgy 
+To  compare  the  three  digital  library  softwares  (DLS),  various review papers on related subject were analysed. Also  the  technical  details  and  complete  specifcations  were  also  considered  through  the  technical  manuals  available  on  the  offcial websites of the three DLS. To compare the practical  aspects,  the  frontend  and  backend  of  DSpace,  GSDL  and  EPrints were also analysed to fnd their suitability with specifc  requirements of an information repository. The frontend and  backend  of  DSpace  are  JSP  and  PostgreSQL  where  as  for  GSDL it is Perl/ Java and GSDL’s own database. For EPrint  the frontend and backend are Perl and My SQL/PostgreSQL/ Oracle respectively. So DSpace becomes a default choice for  organisations familiar with JSP and PostgreSQL. Furthermore,  there are many more adavantages in DSpace which make it a  suitable choice for implementation of IR in an organisation.  
+3. DIgITAL  L IBRARy MAnAgeMenT 
+SySTeMS 
+The  Open  Source  Digital  Library  software  are  the  software  applications  that  help  in  creating  and  presenting  information repositories. The repositories built with the help of  
+361 
+
+========1========
+
+DJLIT,  VOL.  38,  NO.  5, SEPT   2018 
+these Digital library management systems can be searched and  browsed based on Metadata as these features are inbuilt in such  applications.  Apart from this, they can be easily maintained,  enhanced and re-created. Presently many open source software  (OSS)  applications  are  available  for  library  and  information  management,  for  example  DSpace,  GSDL,  Fedora,  Eprints  etc. Therefore, organisations can choose the one which is the  most  suitable  for  their  requirement  and  implement  them  to  create digital repositories. Focused mainly on three of the most  popular Open source Digital Library software- DSpace, GSDL  and EPrints. 
+4. LITeRATuRe RevIew  
+The  Digital  Library  Management  softwares  (DLMS)  provide  a  user-friendly  and  customisable  architecture  to  create  online  digital  libraries  with  much  ease.  With  help  of  these applications, institutions/organisations can publish their  research  work,  technical  papers,  manuscripts  which  will  not  only be available globally but also preserved as digital items.  The  softwares  discussed  above  (Dspace,  GSDL  &  EPrints)  possess different services and architectures. However, it is not  easy to propose one specifc DLMS system as the most suitable  for all cases. The study can help an organisation to select a  proper DLMS for showcasing their digital repositories based  on  their  own  criteria. These  criteria  can  consist  of  the  type/ format of the content to be uploaded, how the material is to be  distributed, what is the backend and frontend of the software  and the time frame available to setup this digital collection.3 
+Das  compared  the  three  software  (Dspace,  GSDL  &  EPrints)  and  observed  that  current  open  source  digital  library  software  still  lacks  certain  functionalities  apparent  to  be  signifcant,  as  gathered  from  the  literature.  However,  considering the three Dspace, GSDL & EPrints, Dspace and  Greenstone have been found to be most suitable as they have  well-built support to provide the desired functionalities to the  end-users. EPrints is not far behind and it has potential to get  better  as  it  is  going  to  add  usage  monitoring  and  reporting  element in its upcoming version. The shortcomings of E-Prints  as pointed out by the paper were lack of strong support in certain  areas, especially in its search-module. However, this paper also  agrees that each software package has its own strengths and  weaknesses  that  caters  to  the  need  of  various  organisations  with different set of needs16. 
+Seshaiah  and  Veeraanjaneyulu5   presented  some  remarkable features of GSDL, and found that GSDL suits both  Windows and Unix (Linux SunOS) and any of these systems  can be used as a web server.  It also has inbuilt administration  function  that  enables  the  items  to  authorise  new  users  to  build collection, protect documents so that they can only be  accessed by registered users. The collection created by GSDL  possess effective full-text searching as well as metadata-based  browsing facilities. Large volume (upto several gigabytes) can  be built. Despite large data-volume, full-text searching is fast  because of techniques like compression of the indexes to reduce  data sise etc. There is provision of Plug-Ins to accommodate  new document types. The collection can accept multiple type  of data like pictures, music, audio, video etc. It also supports  documents  from  a  variety  of  languages.  Collection  can  be  
+362 
+updated in real time. 
+Another study by Sahu and Kadaria also discussed about  the selection criteria for Open source digital library software.   It  states  that  evaluation  of  open  source  software  is  different  from proprietary programs. The major variation in evaluation  comes from the fact the information available for open source  programs  is  generally  different  than  that  for  proprietary  programs. This information can be like availability of source  code, program design opens for analysis by others, interaction  between users and developers through open platform regarding  the performance issues and many others. The authors are of  view  that  selection  criteria  can  be  Open  source  licenses,  Functional  modules,  Stable  releases,  Developers  and  user  community, User interface and Documentation6.  
+The  paper  titled  “Institutional  repository  software  comparison:  DSpace,  EPrints,  Digital  Commons,  Islandora  and Hydra” supports DSpace as it has proven to be a strong  and reliable repository platform since it was launched in 2002.  With  its  latest  releases,  DSpace  still  maintains  its  position  among the plethora of new DLMS available by providing more  robust support for research data and more extensible back-ends.   Whereas about EPrints, it points out that the main attraction  of EPrints seem to be its user-friendly interface and ease-of  implementation. However, the migration from another system  into Eprints is not that easy The paper also mentions that Eprint  can be an ideal repository solution for implementation in an  institute where resources (fnancial or technical expertise) are  limited7.  
+Rao8  explored some of the reasons for using open source  library  management  software.  The  major  points  that  he  mentioned are like free of cost availability since it can be freely  downloaded from internet and ease of customisation to meet  the organisation’s specifc needs. There are no copyright issues  with this software and they use open standards which allows  easy  interoperability  with  other  software.  This  software  are  regularly updated and there are online manuals available for  technical  support  and  help.  Online  help  through  developers’  community is also available. 
+Madalli9   advocated  that  DSpace  is  a  fairly  powerful  software. Its main strength is that it allows submission of digital  documents  by  it  members  but  presently,  it  does  not  follow  METS (Metadata Encoding and Transmission Standard). If it  follows that, it can become much more powerful. The paper  expects  that  the  upcoming  versions  of  DSpace  will  include  METS also13. 
+Patil & Kanamadi10  compared GSDL and EPrints as two  widely  used  open  source  repository-software  which  mainly  aimed at providing open access to article pre-prints and post- prints, including digital theses. These support a variety of fle  types like video, audio, images and zip fles i.e all these types  of  fles  can  be  uploaded  in  these  repositories.  The  authors  concluded that EPrints is a useful Digital Library system which  also has a large user community. But on the fip side whenever,  there is a need for technical support and training in using the  software, DSpace was found more convenient.  
+5. 
+DSpACe 
+DSpace is an open source  digital library software which  
+
+========2========
+
+VERMA  &  KUMAR: COMPARATIVE ANALySIS OF OPEN SOURCE DIGITAL LIBRARy SOFTWARES: A CASE STUDy 
+allows  us  to  capture  and  store  digital  data  like  text,  video,  audio  etc  into  created  repositories.  It  also  provides  facility  to index, preserve and disseminate the digital material.  Thus  digital libraries use DSpace to manage the digital materials and  publications in professionally maintained repositories. 
+If we see the world-wide scenario, there are more than  1000  digital  repositories which  are  developed  using  the  DSpace  application  for  storing,  distributing  and  preserving  their digital data.  DSpace is more common as a platform to  build an institutional repository  which is a digital collection  of  research  documentation,  intellectual  publications,  library  collections etc. In Indian scenario Dspace is being used in many  reputed organisations and projects like National Digital Library  Programme of GoI, IIT Kharagpur Central Library, DIAT, DU  (Deemed University) Pune, KUVEMPU University other IITs,  IIMs  and  many  other  research  and  academic  organisations. DSpace performs three major tasks to build a repository: • It  captures  and  ingests  the  digital  content  along  with  
+metadata 
+• It lists the content systematically and helps in searching  
+based on keywords and metadata 
+• It  supports  preservation  of  the  digital  data  for  a  long  
+period of time 
+Therefore, DSpace can easily be customised to manage  and  preserve  the  digital  content  and  provide  accessibility  of  this data to the users. Since it is an open source software, an  active community of developers, researchers and users across  the world are collaborating to provide their expertise to enhance  this application. 
+DSpace is capable of storing a wide range of digital data,  which  includes  documents  like  articles,  technical  reports,  conference  papers,  books,  theses,  multimedia  publications,  Administrative records, images, audio-video fles, web pages  etc.  It  also  provides  multiple  features  like  visualisation,  simulation of the stored data etc. 
+5.1 Latest  Features  of  Dspace 
+As DSpace is a continuously growing platform, it keeps  on  releasing  upgraded  versions  from  time  to  time.  6.x  is  the  latest  update  to  the  DSpace  platform11.  It  consists  of  an  upgraded confguration system, upgraded fle storage plugins,  and  better  quality  control  /  health-check  reporting  features  (through  REST API  and  also  through  email).   Furthermore,  DSpace 6 has a Java API refactor that adds support for both  UUIDs and Hibernate in the database layer.This feature makes  it compatible for future challenges. 
+As reported by DSpace offcial website, the new Features  and improvements in 6.x version includes. 
+• Java API refactor, featuring Hibernate and UUIDs • Enhanced (reloadable) confguration system, featuring a  
+new local.cfg confguration fle 
+• Enhanced  fle  storage  plugins,  featuring  support  for  
+Amazon S3 
+• Confgurable site healthchecks via email 
+• XMLUI  framework  for  metadata  import  from  external  
+sources, featuring support for PubMed imports • XMLUI  export  of  search  results  to  CSV  (for  batch  
+editing) 
+• • 
+• 
+• • 
+• 
+XMLUI extensible administrative control panel REST API  Quality  Control  Reports,  along  with  sample  HTML clients and CSV export (for batch editing) REST API support for additional authentication methods  (e.g. LDAP, etc) 
+All searches default to Boolean AND. 
+Enhanced indexing for searches (Excel is now searchable,  as well as right-to-left text in PDFs) 
+OAI-PMH adds compliance for Open AIRE 3.0 guidelines  for literature repositories”12 
+5.2  Limitation  of  Dspace 
+During  implementation  some  limitations  have  been  observed such as Flat File and Metadata structure, poor user  interface,  lack  of  scalability  and  extensibility,  Limited API,  Limited  Metadata  Features,  Limited  Reporting  Capabilities  and lack of support for linked data. 
+6.   gR eenSTOne DIgITAL  L IBRARy 
+Greenstone  Digital  Library  (GSDL)  is  an  open  source,  multilingual  software,  which  has  been  released  under  the  terms of the GNU General Public License and is used widely  for creating repositories and making them accessible online13.  The  development  and  distribution  of  GSDL  is  an  outcome  of  the  joint  efforts  by  the New  Sealand  Digital  Library  Project at the University of Waikato, UNESCO and the Human  Info    hyperlink  “http://humaninfo.org/”  NGO.  The  aim  of  Greenstone software is to enable the users in building their own  digital libraries. It provides a way to organise this information  and publish it on the web or any other digital storage media  like DVD and USB fash drives. In the later case, it will run  on  a  non-networked  environment.  The  digital  libraries  built  by  GSDL  are  fully-searchable  and  metadata-driven  digital  resource14. 
+Infact, this software encourages the effective deployment  of digital libraries to share information and put it in the public  domain. Therefore, it is in itself not a digital library, rather it  provides a platform to build the digital library. 
+In 2004 its developers of GSDL were awarded by IFIP  Namur  award  for  “contributions  to  the  awareness  of  social  implications  of  information  technology,  and  the  need  for  a  holistic  approach  in  the  use  of  information  technology  that  takes account of social implications”14. 
+6.1   g reenStone  Digital  Library versions  
+There  are  two  main  versions  of  GSDL  namely  GSDL2  and  GSDL3.  GSDL2  was  the  earlier  version  and  still  under  wide-use where as GSDL3 is the latest version under active  development.  The  best  thing  is  that  GSDL3  has  backward  compatibility and contains almost all the features of GSDL2.  If a programmer is already working on GSDL2, he can either  work with the latest release of GSDL2 or consider upgrading  to GSDL3. The Greenstone Librarian Interface (GLI) provides  a  feature  to  import  ‘Greenstone2  collection’  which  helps  in  migrating to the new software for existing users of GSDL2.  
+Greenstone3 has been developed in JAVA and uses various  latest web technologies—like XML Transforms (XSLT), and  the Java Authentication and Authorisation Service (JASS). In  
+363 
+
+========3========
+
+DJLIT,  VOL.  38,  NO.  5, SEPT   2018 
+the same context if we see Greenstone2, then it was written in  C++ and was based on many self-developed techniques by the  developers as many latest web technologies were not available  at  the  time. This  made  the  users  totally  dependent  upon  the  documentation by the development team. All these limitations  have been overcome in the latest GSDL version. 
+6.2 Limitation  of green  Stone  Digital  Library 
+Some limitations of GSDL have also been observed like  Interactive content updation and management are not possible,  no  provisions  for  identifying  duplicacy,  metadata  handling  seems  to  be  a  bit  diffcult,  during  the  collection  building  processing of some documents it hangs. Also, Linux Version  looks robust than Windows. 
+7.   epRI nTS 
+Eprints  has  been  one  of  the  popular  Digital  library  software which has been in use for almost last two decades  It has been created at the University of Southampton and the  currently version EPrints 3.3.16 Beta 1 is being used. 
+Being an open source software, it is convenient for use by  any organisation with limited resources also. Initially Eprints  required software-platform like Linux, Apache, MySQL, and  Perl;  now  it  can  also  run  on  Window’s  platform  which  has  made it even easier for users. 
+Just  like  the  other  two  Digital  library  software,  Eprints  is  also  a  good  choice  to  create  an  Institutional  Repository  and  make  it  running.  Documents  along  with  the  necessary  metadata for the records can be uploaded by the users by flling  information into a web form. 
+This  software  links  to  the  SHERPA/RoMEO  database  which helps the authors to verify their rights regarding their  submissions  in  the  repository.  In  this  way  any  unauthorised  submission by the content-publisher is well taken care of.  
+7.1 Features  of eprints 
+Eprintsis  easy  to  use  for  both  the  end-users  and  the  administrators; this is the biggest quality of Eprints. Users can  submit the documents on Eprint in a straight-forward manner  where users can proceed through the submission-process one  step at a time. The metadata information can be provided with  the e-copy of the document. The metadata information is quite  simple like document type, document-title, author’s name, date  of submission etc. and can be submitted using a simple form.   This doesn’t require any knowledge of HTML or XML. For  the administrator, the felds in the metadata are customizable.  Therefore, the administrator can allow only those felds which  are relevant for a particular repository and the end-user needs to  fll only those particular felds.  Users have an added advantage  to manage their submissions as editing, updating, and removal  of documents is possible even after submission. However, the  administrator has the rights to restrict these functionalities. 
+Another  facility  that  Eprints  provide  is  that  the  administrator  can  specify  a  period  only  after  which  the  document is transferred automatically to the archive-section.  
+Eprints  also  provide  very  effective  search  as  well  as  browsing features. Search can be performed based on multiple  options  whereas  the  browsing  feature  is  customizable  and  
+364 
+robust.  This  helps  in  fnding  the  documents  effectively  in  the  archives  (“Repositories  Support  Project”). The  Metadata  Field entered, help in browsing the collection. For example,  a particular document can be browsed year-wise, department- wise, volume-wise etc. Browsing can be done based on any of  the metadata felds within a collection, and multiple browsing  criteria can be used. The browsing category can be customised  by the administrator. Since Eprints is OAI-compliant, Google  indexes  the  documents  which  are  uploaded  on  an  Eprints- archive.  This  helps  in  enhancing  the  visibility  of  Eprint- documents in cyber-space. 
+As  per  the  feedback  provided  by  users  and  other  technical  reviews,  it  has  been  widely  accepted  that  the  installation  and  confguration  of  Eprints  is  simple  and  fast.  ‘Eprints  Services’  is  a  company  formed  by  the  developers  of  Eprints  which  helps  organisations  to  install,  confgure  and  use  Eprint  based  repositories.  Due  to  its  multiple  advantages  today  Eprints  is  being  used  in approximately 300 reputed organisation, the largest being  the  repository  developed  at  the  University  of  Twente  in  the  Netherlands. This repository contains over 60,000 record. This  in  itself  demonstrates  the  capability  of  Eprints  in  handling  large collections.  
+7.2 Limitations  of eprints 
+No doubt there are multiple advantages of using Eprints  to  create  digital  repositories  in  libraries;  still  we  may  count  certain  limitations  like  the  lack  of  the  bulk  upload  feature.  Uploading of fles and creating records is defnitely easy, but  if someone has to upload an existing archive, then there are  no options available to upload multiple records at one time.  Multiple fles can be uploaded in one go, but only when belong  to the same record. 
+To elaborate further, migrating of records from an existing  digital library software to Eprints is not at all a problem but if  the existing collections are not contained within a database, then  the records can’t be uploaded in bulk in Eprints. This means  each record has to be created individually. Also, in Eprints one  can’t  create  common  records  for  multiple  documents  rather  individual records for each document should be created one  by one. 
+Another  limitation  of  Eprints  is  the  limited  features  in  its  search  functionality.  Boolean  search  is  not  available  and  also sometimes the search gives no output at all, which is not  acceptable in today’s time. At least suggestions for alternate  search should be provided. User-created tagging feature is also  missing in Eprints. 
+8.  COMpARISOn OF  D SpACe, gSDL AnD 
+epRInTS 
+Based  on  above  discussion  Features  Comparison  for  DSpace, GSDL and EPrints are given in Table 1. 
+9.    pRACTICAL  I MpLeMenTATIOn OF 
+DSpACe AT  D eSIDOC 
+Defence Scientifc information and Documentation Centre  (DESIDOC) of DRDO which provides information to various  DRDO  laboratories  through  its  information  and  knowledge  
+
+========4========
+
+VERMA  &  KUMAR: COMPARATIVE ANALySIS OF OPEN SOURCE DIGITAL LIBRARy SOFTWARES: A CASE STUDy 
+Table 1. Comparative account of gSDL, DSpace and eprints 
+Features of Open  source Software 
+gSDL 
+Product Type 
+Software 
+year of creation 
+1997 
+License cost/Update  Cost 
+Free 
+License 
+GNU 
+Services 
+Training 
+Plug-in extends 
+yes 
+Resource Identifer 
+No/OAI Identifer 
+OAI-PMH 
+yes 
+Z39.50 Support 
+yes 
+Supported File formats  7 
+doc, pdf, html, ppt, postscript, jpeg, gif,  video, mp3, etc 
+Supported Item  Types(Storage and  rendition) 
+Can store and manage all types of  content 
+Thumbnail Preview  
+Images, Audio, Video 
+Multilingual Support5 
+Greenstone provides ready-to use  multilingual interfaces that are already  translated in many languages. 
+Machine-to Machine  Interoperability.  
+Z39.50, OAIMHP 
+Syndication 
+--- 
+User Authentication  
+User Groups 
+Searching Capabilities4 
+Field Specifc, Boolean Logic 
+Browsing Options 
+Browsing can be done using any feld 
+Metadata formats3 
+Dublin Core, Qualifed DC , METS,  RFC1807’ NZGLS (New Zealand  Government Locator Service), AGLS  (Australian Government Locator  Service) 
+Associated Software3 
+Apache Web server, Java 1.4.0 or  above, Image Magick Software Ghost  scripts and Web Browser 
+Software Platforms3 
+Windows95/98/Me/NT/2000/XP/10  Unix/Linux, and MAC OS-X 
+Statistical reporting  
+yes(Count of Full records) 
+DSpace 
+eprints 
+Software 
+Software 
+2002 
+2000 
+Free 
+Free 
+GNU 
+Service via 3rd part service provider 
+BSD 
+Training, Consultancy, Site  Visits. 
+yes 
+CNRI Handles 
+No 
+yes 
+yes 
+No 
+No 
+doc, pdf, html, ppt, jpeg, gif, audio,  video,etc. 
+Pdf, html, jpeg,tiff, MP3 and  AVI 
+Can store and manage all types of  content 
+Can store and manage all types  of content 
+Images  
+Images, Audio, Video 
+Unicode character encoding, so different  
+languages can be supported 
+Unicode is used 
+OAIMHP, OAIORE, SWORD, SWAP 
+OAIMHP, OAIORE, SWORD,  SWAP,RDF 
+RSS, ATOM 
+RSS, ATOM 
+LDAP Authentication, Shiboleth  Authentication 
+LDAP Authentication 
+Field Specifc, Boolean Logic, Sorting  options 
+Field Specifc, Sorting options 
+By Author, Title, Subject and collection 
+Browsing can be done using any feld 
+Dublin Core, Qualifed DC, METS 
+Dublin Core, METS 
+Java JDK5 or later Apache Ant 1.6.2 or  later, Apache Maven 2.0.8 or later Java  1.4 or later, PostgreSQL 7.3 or later,  Apache Tomcat 4.x/5.x and Web Browser 
+Linux or Unix, Apache, Perl 
+Windows(NT/2000/XP/10) and  
+AllPOSIX (Linux/BSD/UNIX-like OSs),  Linux, Unix, Windows, OSX 
+yes(Count of Full records) 
+yes(Count of Full records) 
+365 
+
+========5========
+
+DJLIT,  VOL.  38,  NO.  5, SEPT   2018 
+Features of Open  source Software 
+gSDL 
+Databases  
+Its Own 
+Programming  Language  
+C++, Perl, Java 
+Web Server  
+Apache/I IS 
+URL for free  downloads10 
+http://www.greenstone.org/download 
+Figure 1. Single window services. 
+based e-services. More than 30 services are being provided to  all the DRDO units country-wide through DRDO Intranet (Fig.  1)  depicts  the  webpage  on  DESIDOC  library-portal  which  contains the list of all these 33 services. 
+9.1 Requirement  of  DLS  at  DeSIDOC 
+The  web-services  used  to  provide  the  information  to  the  users  were  developed  at  different  platforms  in  due  course of time caused varied user experiences and diffculty  in  maintaining  and  hosting  these  33  services. Therefore,  for  uniform  user  experience,  enhanced  search  features  and  for  effective  maintenance  of  these  service,  it  was  decided  to  build these information repositories by using a uniform DLS  platform.  
+9.2    DSpace  at  DeSIDOC 
+Based  on  the  analysis  carried  out  to  compare  the  most  suitable  DLS  platform  to  build  DESIDOC  repositories,  it  was  decided  to  opt  for  DSpace  for  creating  these  digital  repositories.  Few  reasons  to  go  for  it  was  that  it  used  JSP  
+366 
+DSpace 
+eprints 
+Oracle, PostgreSQL 
+MySQL, Oracle, PostgreSQ L,  Cloud. 
+Java and JSP 
+Perl 
+Apache and Tomcat 
+Apache 
+http://www.dspace.org/ 
+http://fles.eprints.org/ 
+and  PostgreSQL  as  frontend  and  backend  
+to build the applications. Both of these are  
+available in open domain and easy to work  
+with. Also, postgreSQL is capable of storing  
+and handling large amount to data which was  
+the requirement of DESIDOC. Furthermore,  
+DSpace  provides  various  features  for  the  
+users  like  full  text  search,  metadata  based  
+search, federated search etc.  
+Furthermore, we can add or change any  
+feld to customise the default dubling core  
+Metadata  of  DSpace.Dspace  application  
+is  capable  of  accepting  &  managing  large  
+no of fle formats like word, pdf, jpg, tiff,  
+jpeg and even unrecognised formats can be  
+registered in Dspace for future identifcation.  
+Dspace has also been designed with fexible  
+storage  &  retrieval  architecture  which  can  
+support variety of data formats & research  
+disciplines.  
+At the same time many more features  
+can be incorporated in these DSpace digital  
+repositories  like  usage  pattern  analysis,  
+implementation  of  business-intelligence  tools etc, to make the services much more effective and user-  friendly. All these features and qualities made DSpace as the  default choice for IR at DESIDOC. 
+The  features  provided  currently  by  DSpace  can  be  summarised as follows. 
+• Uniform user-interface (UI) for all the services  • Specifc search for individual services, available on the  
+home page of each service 
+• Searches from meta data and full text for the service. • Federated  search  facility:  One  common  text  box  which  
+search  full  text  and  meta  data  in  all  the  18  services  
+migrated into DSpace. 
+Figure 2 shows these features in one of the repositories  created using DSpace platform. 
+Figure  3  and  Figure  4  depict  the  search  features  of  repositories built on DSpace platform.  
+In  this  way  DESIDOC  has  successfully  implemented  DSpace platform for 18 of its services like DRDO E-Journals,  DRDO  Knowledge  Repository,  DRDO  Science  Spectrum,  DRDO  Technology  Spectrum,  Newspaper  Clipping  Service,  Institutional repositories of DRDO, Archiving of Newspaper  
+
+========6========
+
+VERMA  &  KUMAR: COMPARATIVE ANALySIS OF OPEN SOURCE DIGITAL LIBRARy SOFTWARES: A CASE STUDy 
+Clipping,  Union  catalogue  of  periodicals, Archiving  of E- journals etc. 
+What is worth-mentioning here is that all these  repositories are actually, different communities of the  same DSPace DLS where as for the users, they appear  as different services provided by the Digital library of  DESIDOC.  This integration of various information- web-services  into  a  common  Dspace  platform,  has  helped  the  IT-administrators  at  DESIDOC  a  lot,  because  now,  instead  of  maintaining  and  managing  multiple backends and frontends of various repositories  they have now to deal with only one DLS i.e DSpace. 
+Figure 2. uniform uI & search facility. 
+9.3 proposed enhancement  in  the  DLS  at  
+        D eSIDOC 
+As  the  current  repositories  built  using  Dspace  have  performed  quite  well  in  meeting  the  user’s  requirements, DESIDOC is in the process to migrate  the remaining repositories also on the Dspace platform.  This  will  help  DESIDOC,  as  an  information  centre,  to  have  all  its  repositories  in  the  common  DLS  i.e.  DSpace. After this is done, there will be an advantage  to search all the repositories through a single search  i.e. federated search. Ease of maintenance and uniform  user experience will be another benefts. 
+Also, it is proposed to analyse the usage pattern  of  these  repositories  through  the  features  provided  in  the  Dspace  DLS.  This  will  help  the  librarians  at  DESIDOC to understand the user’s needs and further  enhance  the  type  and  quality  of  content  delivered  through the DESIDOC repositories. 
+Figure 3. Individual service search results. 
+Figure 4. Federated search result. 
+10. COnCLuSIOnS 
+Therefore,  Digital  Library  software  (DLS)  provides  a  platform  to  the  digital  library-service  providers  to  create  an  easy  to  use,  customizable  architecture  for  its  users.  With  help  of  these,  the  institutional  repositories,  research  documents,  manuscripts, audio-video data of organisations can be  stored, preserved and also disseminated to the targeted  users.  The  three  software  discussed  above,  though  differ in their architecture and presentation, still meet  all  the  broad  requirements  of  digital  libraries. As  a  result, it is diffcult to prefer one specifc DLS over the  other  system.  Instead  of  generalizing  the  suitability,  we should emphasise on specifc needs of a particular  digital library. As explained above, DESIDOC based  on its specifc requirements, has opted for Dspace as  it DLS but Dspace has its own set of advantages and  disadvantages. So, some other Information centre may  prefer GSDLor EPrints for similar purpose. Therefore,  depending upon the specifc needs one DLS may be  preferred over the other. The selection of the software  is  normally  based  upon  on  the  format  of  data  to  be  uploaded, the way it is to be disseminated, the choice  of backend and frontend of the application and time  duration for establishing a Digital Library etc.  
+367 
+
+========7========
+
+DJLIT,  VOL.  38,  NO.  5, SEPT   2018 
+ReFeRenCeS 
+1.  UNESCO  web  archive,  http://portal.unesco.org/en/ 
+ev.phpurl_id=13086&amp;url_do=do_topic&amp;url_ 
+section=201.html   (accessed  on  6Dec  2017) 2.  Presentation  on  digital  library,  https://www.slideshare. 
+net/sandeepsinghsainimba/digital-library-15882846 
+(accessed on 6Dec 2017)  
+3.  EPrints  Software,  http://www.eprints.org/uk/index.php/ 
+eprints-software/  (Accessed on 6 December 2017) 
+doi: 10.14429/djlit.32.5.2660 
+4. Das,  Amiya  Kumar.  Comparing  open  source  digital  
+library software: Special reference to DSpace, EPrint and  
+Greenstone, Int. J. Adv. Res. Comput. Sci. Software Eng.,  
+2015, 5(7), 70-73 
+5.   Seshaiah,  O.  &  Veeraanjaneyulu.  Developing  an  
+institutional  repository  using  Greenstone  digital  library  
+(GSDL)  software,  7th  International  CALIBER-2009,  
+Pondicherry University, Puducherry, 2009, 161-166 6.  Sahu,  Ramani Ranjan &  Karadia, Alekha.  Comparative  
+study of an open source digital library software: Dspace,  
+Greenstone  and  Eprint,  Int.  J.  Comput.  Appl.,   2012,  
+59(16)  
+7. Castagne,  Michel.  Institutional  repository  software  
+comparison:  DSpace,  EPrints,  Digital  Commons,  
+Islandora  and  Hydra,  2013  (https://open.library.ubc.ca/ 
+cIRcle/collections/graduateresearch/)  
+doi: 10.14288/1.0075768  
+8. Rao,  Dhananjaya  Gadgil.  Building  digital  library  using  
+DSpace:  Case  study  of  GIPE’s, DESIDOC  J.  Libr.  Inf.  
+Technol., 2012, 32(5), 417-420. 
+doi: 10.14429/djlit.32.5.2651 
+9.  Madalli,  Devika  P.  A  digital  library  of  library  and  
+information science using DSpace, Research and Training, 
+2003, http://drtc.isibang.ac.in/ldl/handle/1849/56 
+Centre Indian Statistical Institute, Bangalore 
+10.  Patil,  M.S.  &  Kanamad,  Satish.  Digital  library  open  
+source software: A comparative study,  
+http://www.academia.edu/250425/Digital_Library_ 
+Open_Source_Software_A_Comparative_Study 
+(Accessed on 4th December 2017) 
+11.  DSpace  6.X  System  Documentation,  https://wiki. 
+duraspace.org/display/DSDOC6x/DSpace+6. 
+x+Documentation  (accessed on 6 December 2017) 
+368 
+12.  Features  of  DSpace, https://duraspace.org/dspace/about/ 
+features,/  (accessed on 6 Dec 2017)  
+13.  Das, Nabajyoti. Open source software and building digital  
+library using GSDL software, Planner 2007, 430-440 14.  Greenstone  digital  library  software,   http://www. 
+greenstone.org (accessed on 6 December 2017)  15. Ravikumar & Ramana. Comparison of Greenstone Digital  
+Library  and  DSpace:  Experiences  from  Digital  Library  
+Initiatives at Eastern University, Sri Lanka, J. Univ.  Libr. 
+Assoc. Sri Lanka, 2014, 18(2), 76-90. 
+doi: 10.4038/jula.v18i2.7867 
+16.  Saxena, Dr. Sadhna; Singh, Dr. Surendra & Mulchandani,   
+Dr.  V.A.  Comparison  of  open  source  digital  library  
+software  with  special  reference  to  Greenstone,  DSpace  
+and EPrints, 2014, 5(1), 82-86 
+17.  Tramboo, Shahkar; Shaf, S.M. & Gul, Sumeer. A study  
+on  the  open  source  digital  library  software’s:  special  
+reference  to  DSpace,  EPrints  and  Greenstone,  Int.  J.  
+Comput. Appl., 2012, 59(16). 1-9. 
+doi: 10.5120/9629-4272 
+18.  Randhawa, Sukhwinder. Open source software for creation  
+of  digital  library:  A  comparative  study  of  Greenstone  
+Digital Library Software & DSpace. Indian J. Libr. Inf.  
+Sci., 2012, 6(3), 45-52. 
+19.  Lihitkar, Shalini R. & Lihitkar, Ramdas S. Open source  
+software  for  developing  digital  library:  Comparative  
+study, DESIDOC J. Libr. Inf. Technol.,  2012,  32(5), 393- 
+400 
+doi: 10.14429/djlit.32.5.2660 
+COnTRIBuTORS 
+Mrs  Lakshmi  verma  is  Technical  officer  at  DESIDOC,  DRDO Delhi. Her area of expertise includes electronic reource  management,  digital  archiving,  content  management  systems,  webdesign  &  development.  
+She conceptualised the whole idea behind this article and shared  her  experience  related  to  DSpace  to  add  value  to  this  paper. 
+Sh nishant Kumar   is  working  as  Scientist  ‘E’  at  DESIDOC,  DRDO  Delhi.  His  area  of  expertise  includes  Open  source  software, library automation, digital libraries, digital archiving,  computer  networks  and  web  services  &  security.  
+He provided inputs regarding GSDL and E-Prints software and  restructured  the  content  of  the  complete  paper.  
+
+========8========
+

@@ -1,0 +1,385 @@
+DESIDOC Journal of Library & Information Technology, Vol. 32, No. 5, September 2012, pp. 447-451
+© 2012, DESIDOC
+
+Development of Digital Assets Management Software
+for Research Centre Imarat
+N. Venkatesh*, K. Nageswara Rao**, and S. Kalpavalli*
+*Research Centre Imarat, Hyderabad-500 069
+E-mail: venkatesh.n@rcilab.in
+**Defence Research and Development Laboratory, Hyderabad-500 058
+E-mail: knrao_hyd@rediffmail.com
+
+ABSTRACT
+Digital libraries have become integral part of day to day library activities. The ease and fast access to
+information in digital environment has brought drastic changes in information seeking behaviour of the users.
+This paper broadly covers digitisation issues related to open source software (OSS) their merits and demerits.
+The need and role of digital assets management (DAM) system and in-house development of DAM software
+for taking digitisation to various divisions in Research Centre Imarat is also discussed.
+Keywords: Digital library, digital assets management, digitisation, open source software, Greenstone digital library
+
+1. INTRODUCTION
+How you gather, manage, and use information will
+determine whether you win or lose1. This is really true
+since every activity in any sector, be it education,
+research, industry, healthcare, government and so on, is
+based on information technology today. Currently, a large
+number of libraries are providing access to information by
+using digital libraries in their day to day activities. Digital
+libraries are providing enormous opportunities for creation
+of scientific data and knowledge by way of R&D labs,
+universities, government organisations and corporate
+sector. No wonder digital libraries pose tremendous
+challenges both for organisations and library
+professionals.
+This paper broadly covers digitisation issues related
+to open source software (OSS), their merits and demerits.
+It also covers need and role of digital assets management
+system (DAM) and in in-house development of DAM
+software to serve as dual purpose software for library
+applications and also to meet requirements of document
+management system for RCI.
+
+2. CURRENT TRENDS IN OSS
+Digital libraries are organised collections of digital
+information. During the last decade OSS have played
+
+pivotal role in development of digital libraries in India. The
+OSS is a practical description of software and believes
+that by making the source code available to users the
+software can be improved upon.
+Some of the advantages of using OSS are:
+
+•
+•
+•
+•
+
+Rights to use without discrimination
+Source code availability
+OSS permits free modification and redistribution
+No annual license fees and restriction on the number
+of users2
+Some of the drawbacks observed in using OSS are:
+
+•
+
+Lack of formal training and support that a in-house
+software package offers
+
+•
+
+Installing and maintenance of OSS generally requires
+a higher level of technological sophistication
+
+•
+
+OSS is also not known for ease of use as the focus is
+usually on functionality3
+
+•
+
+Documentation manuals of OSS are not user friendly
+and to consider OSS to be free of cost is a
+misconception.4
+
+The RCI has implemented Greenstone software and
+DAM software for building digital library collections.
+
+Received 28 November 2011, accepted 03 January 2012, online published 7 September 2012
+
+447
+
+Hence the comparison is restricted to OSS and in-house
+software only. It is generally observed that OSS is not
+completely free of cost because of additional and indirect
+costs, namely, procurement of additional software,
+training, and documentation support.
+
+3. RESEARCH CENTRE IMARAT INITIATIVES
+The Research Centre Imarat (RCI) library has started
+development of digital library of missiles during last seven
+years. It has a rich collection of 500 made-digital objects
+and 1000 CD-ROMs. It has used Greenstone software for
+building and distributing library collections. It has
+categorised missile literature broadly into six areas,
+namely, lecture notes, conference papers, current topics,
+institutional repositories, ebooks and technical reports.
+Keeping in view the disadvantages of OSS as stated
+above and the need to carry the benefits of digitisation to
+all divisions in RCI has led to in-house software
+development.
+
+4. FEATURES OF DAM
+The DAM can be defined as management,
+organisation, and distribution of digital assets from a
+central respository5. The main aim of DAM is creation of
+digital information exchange environment that is secure
+and accountable.
+
+of information generation, information processing and
+reuse of digital assets by a large number of widely
+dispersed users.
+
+4.2 OBJECTIVES OF DAM
+Keeping in view the need and role of DAM in RCI, a
+study was conducted to see the suitability of OSS
+software for DAM applications. For this purpose various
+features of DSpace, Fedora, and Greenstone were
+studied. It is found DSpace and Fedora to be complex in
+implementation
+and
+academically-oriented
+and
+Greenstone is not designed for meeting the requirements
+of DAM system7. The key features of the in-house
+software development are as follows:
+
+•
+
+Software is developed using SQL server and Asp.net
+
+•
+
+It is web-based and runs on support of IIS web server
+
+•
+
+IIS 7.0 plays vital role in achieving better performance,
+reliability, scalability, and security of websites
+
+•
+
+SQL server is a fully featured RDBMS that offers a
+variety of tools for database development,
+maintenance, and administration8. The main
+components of SQL server include Enterprise
+Manager, Query Analyser, SQL Profile, Service
+Manager and Data Transformation Services (DTS).
+
+•
+
+Enterprise manager is the main administrative
+console for SQL server installation and Query
+Analyser offer easy methods for performing queries
+against SQL server database.
+
+•
+
+The SQL profile provides a window into the inner
+working of the database and the role of Service
+Manager is to control the SQL server.
+
+•
+
+The DTS plays a vital role for import and export of the
+data between SQL server and a large variety of other
+formats. Import and export wizard is commonly used
+data transformation applications.
+
+•
+
+The .NET framework provides environment for
+building, deploying and running web applications.
+Asp.net is a server side scripting technology that
+enables scripts (embedded in webpages) to be
+executed by internet server.
+
+Thus, DAM leads to decision making framework that
+extends time horizon and provides proper platform for
+utilisation of broad range of assets6.
+
+4.1 Need and Role of DAM
+The DAM consists of set of technologies and
+processes designed to manage ever growing digital
+assets storage, retrieval, and reuse of the same.
+The need and role of DAM are:
+
+•
+
+Growth of digital assets is in leaps and bounds
+
+•
+
+Improves returns on assets
+
+•
+
+Decreases costs and increases productivity
+
+•
+
+Improves decision making
+
+•
+
+Provides platform for reuse of digital assets.
+Thus, DAM serves as an efficient process consisting
+
+Table 1 shows the main differences between the
+Greenstone and DAM software implemented in RCI and
+Figure 1 shows architecture of DAM software.
+
+Table 1. Main differences between Greenstone and DAM
+S. No.
+
+Greenstone
+
+DAM
+
+1.
+
+Developed for library applications only
+
+Developed for digitisation needs of various divisions in RCI
+
+2.
+
+Number of steps in adding digital objects are four
+
+Number of steps in adding digital objects are two
+
+3.
+
+Plugins have to be chosen
+
+Plugins are automatic
+
+4.
+
+Training is compulsory and involves payment
+
+Training needs are met in-house and thus free of cost
+
+448
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+Figure 1. DAM architecture.
+
+4.3 Advantages of DAM
+The key advantages of DAM software are:
+
+•
+•
+•
+•
+•
+
+Serves as integrated platform providing access to
+born-digital (CDs/DVDs) and made-digital objects on
+intranet
+CDs/DVDs can be accessed by nested search
+Ability to perform search by author, title, keyword and
+category-wise
+Supports Boolean search
+Choice of plugins is automatic
+
+•
+
+Creation and addition of digital objects is made
+simple
+
+•
+
+Supports text, html, word, pdf document, pictures,
+audio, and video
+
+•
+
+No need to depend on outside agency for software
+installation, maintenance, and upgradation of
+software.
+
+To illustrate the importance of DAM software for
+providing the required information in a suitable way, Figs.
+2-5 show some of the enunciated screen visuals which
+are self-explanatory.
+
+Figure 2. Category-wise search of CD-ROMs.
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+449
+
+Figure 3. Title-wise search of made-digital objects.
+
+Figure 4. Full-text view of digital object.
+
+Figure 5. Category-wise search of made-digital objects.
+450
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+5. CONCLUSIONS
+The DAM system provides the foundation for complete
+control of digital assets. The in-house software
+development is a small step to meet requirements of RCI.
+It is presently deployed in RCI library and various divisions
+of RCI. The implementation of DAM by various
+organisations aligned with a larger vision can provide cost
+savings, revenue generation, and better decision making.
+Lastly, librarians should make a thorough study of their
+environment, opportunities and constraints before
+deciding between open source software and in-house
+software development.
+
+ACKNOWLEDGEMENTS
+The authors are grateful to Shri S.K. Ray, Director,
+RCI, for permitting to submit this paper and Dr S.K.
+Chaudhuri, Associate Director, RCI for his advice and
+guidance.
+
+REFERENCES
+1. Gates, B. Business@ the speed of thought using
+digital nervous systems. Penguin Books, 1999.
+2. Sridhar Reddy, K. Digital libraries-need for adaptation
+of open source digital library software: An overview. In
+11th MANLIBNET-2010: Trends and challenges in
+management and corporate libraries in digital era,
+edited by S. Shyam Sunder Rao, 15-17 February
+2010, Shiva Sivani Institute of Management,
+Hyderabad, 2010. pp. 249-54.
+3. Suresh Babu, M. Open source software for digital
+library development. In MANLIBNET-2010: Trends
+and challenges in management and corporate
+libraries in digital era, edited by S. Shyam Sunder
+Rao, 15-17 February 2010, Shiva Sivani Institute of
+Management, Hyderabad, 2010, pp. 255-59.
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+4. Navilekar, P.N. Open source in India. Digit, 2011,
+11(8), 48-50.
+5. www.digitalassetmanagement.com
+6. Dilli, K.T. Library and information science in a digital
+era. Atlantic Publishers, New Delhi, 2009.
+7. www.opensourcedigitalassetmanagement.org
+8. http://databases.about.com
+
+About the Authors
+Mr N. Venkatesh is working as Scientist F, Head,
+Technical Information Centre (TIRC), RCI, Hyderabad. He
+has published number of research papers in various
+conferences and journals. His areas of work are: Library
+automation, software development for digital library
+applications, etc.
+Dr K. Nageswara Rao received Masters degree in
+Physics in 1988 from Sri Venkateswara University,
+Tirupati, and Masters degree in Library and Information
+Science in 1992 from Annamalai University. From 1993 to
+1995, he worked at the National Informatics Centre,
+Hyderabad. During 1995 to 1999, he worked as scientist
+at the Naval Physical and Oceanographic Laboratory,
+Kochi. Presently, he is Head, TIRC, DRDL, Hyderabad.
+His research interests encompass internet technologies,
+web mining, digital libraries, and recommender systems.
+He has published number of technical papers in national/
+international journals/conferences.
+Ms S. Kalpavalli is working as contract Engineer in
+TIRC, RCI, Hyderabad. She holds MCA from Osmania
+University. Her current areas of work are: Library
+automation, software development for digital library
+applications, etc. She has published two articles.
+
+451
+
+

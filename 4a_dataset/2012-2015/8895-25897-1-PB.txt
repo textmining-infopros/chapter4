@@ -1,0 +1,257 @@
+DESIDOC Journal of Library & Information Technology, Vol. 35, No. 6, November 2015, pp. 408-416 
+  2015, DESIDOC 
+Library Automation in India: Assessment of Library Services Platforms  
+A.K. Tyagi* and V. Senthil** DESIDOC, DRDO, Metcalfe House, New Delhi-110 054 E-mail: *tyagiakdr@gmail.com **senthil@desidoc.drdo.in  
+AbStrAct 
+Automation  efforts  in  libraries  have  moved  from  standalone  database  systems  to  cloud-based  systems, traversing generations of library management system (LMS) and integrated library management  system (ILS) in between. This paper attempts to traverse this transition with emphasis on present-day  technological state-of-affairs in the libraries. The traditional terminologies vis-à-vis the cloud associated  architecture  has  been  touched  upon.  The  paper  introduces  library  specifc  tenant-  based  software  services over the cloud architecture and also the associated maturity model. Apart from ILS, other facets  of library automation have been talked upon with examples from libraries providing such aggregation or  dissemination  services. The  paper  lays    special  emphasis  on  library  service  platforms  in  use  in  India.  An internet search was done to locate the cloud- based library software in use and thereafter a listing  of major vendors and providers promoting these software were made. Questionnaires were sent to such  vendors  and  exploratory  study  was  conducted  to  overcome  the  non-respondent  bias  and  the  usage  statistics extracted.  Koha was found to be the most common open source in use over the cloud through  a paid support from three of the eleven vendors in India. Only two clouds- enabled proprietary software  are available at present, e-Granthalaya and CybrarianTM  with former having the support from Government  and hence has more installations. A detailed analysis on suitability of an ILS for a library indicated that  single-tenant SaaS model suits large libraries while small group of homogeneous libraries can do with  multi-tenet SaaS model. Still, library SaaS is in its infancy in India. 
+Keywords: Cloud  computing,  web  services,  library  automation,  library  services  platforms,  SAAS  
+   model 
+1.  IntroductIon 
+Library automation started in India three decade  ago  and  the  initial  systems  were  stand  alone  applications  for  each  library  activity.  Such  systems  were  hosted  on  main  frame  computers  offered  by  3rd  generation programming languages like COBOL  based on file system. Such applications inherited the  problems  associated  with  file-based  systems,  i.e.,  poor accessibility, data redundancy, poor file access  and  arbitrary  data  organisation.  The  advancement  and  proliferation  of  computer  and  communication  technologies  and  cost  reduction  coupled  with  the  affordable relational database management systems  (RDBMS)  for  data  management  have  resulted  into  the  development  of  library  management  systems  (LMS) more appropriately, integrated library systems  (ILS). Such multi-users ILS applications were based  on client-server architecture and made accessible to  users through local area network (LAN). The advent  of  Web  2.0  semantic  bolstered  the  ILS  vendors’  confidence and offered library services over internet  through a browser. This technology has removed the  lacunae  of  client  -based  applications  and  opened  flood  gates  for  new  generation  ILS. 
+Libraries  do  need  hardware  and  software  for  hosting and accessing their services, and can now  be  achieved  using  either  local  or  cloud  hosting.  In  case  of  local  hosting,  installation  of  hardware  and  software  is  a  prerequisite  and  it  has  to  be  maintained for uninterrupted service, draining out the  meagre  library  budget  and  staff.  Cloud  technology  replaces  this  work  of  in-house  staff  or  IT  people.  Therefore, the staff engaged in manning IT activities  can  be  utilised  for  strengthening  the  entire  gamut  of  library  services.  
+Library systems based on cloud computing differ  substantially from the traditional library systems, and  are called library services platforms (LSPs): a term  coined  by  Marshall  Breeding1.  These  systems  are  developed  on  Service  Oriented Architecture  (SOA)  and also include application programming interfaces  (APIs) for interoperability and extensibility which is  a  prerequisite  for  deployment  through  multi-tenant  SaaS  model.      
+The  deployment  scenario  of  a  traditional  library  management  software  is  depicted  in  Fig.1.  To  remove  ambiguity  in  narration,  if  any,  the  following  definitions  are  used. 
+Received 9 June 2015, revised 21 August 2015, online published  November 2015 
+
+========1========
+
+TYAGI & SENTHIL: LIBRARY AUTOMATION IN INDIA: ASSESSMENT OF LIBRARY SERVICES PLATFORMS  
+figure  1.  deployment  scenario  of  a  typical  library   
+ software system. 
+Application-An application is a coded algorithm with  human computer interface for receiving inputs from the  user to activate or provide data for the application.  The application software cannot interact directly with  the computer hardware but has system software at  the intermediate level which interfaces the application  executes  with  the  processing  and  input-output  hardware. The term in this paper context refer to ILS. 
+Customer-The  term  ‘e-customer’  refers  to  a  library  in context of next generation library system (library  services  platforms).  The  term  is  used  wherever  cloud  technology  is  discussed  for  libraries. 
+Integrated Library System (ILS)-An LMS provides a  group  of  application  software  to  automate  various  library activities related to procurement, circulation,  user management, book management, walkthroughs,  inter-library interactions, indexing, etc., these activities  can  operate  in  silos  or  can  be  integrated  to  work  in coordination like a Library resource management  system.  Such  interlinked  and  coordinated  software  is  also  termed  as  integrated  library  system  (ILS). 
+Library  Services  Platforms  (LSPs)-The  term  was  coined  by  Marshall  Breeding1.  The  next-gen  ILS  is  steered  by  the  rapid  advancements  in  the  area  of  computer  science  and  is  adapting  itself  to  the  state-of-the-art  forthcoming  hardware  architectures  and  software  technologies.  Cloud  computing  is  an  area which leverages the benefits of contemporary  hardware platforms as well as the software paradigms.  
+Provider-The  organisations,  institutions  or  companies,  who  provide  support  for  installation,  
+operation  and  maintenance  of  open  source  library  software (e.g. Koha, NewGenLib) against some fee. 
+User-The  person  uses  the  services  provided  by  a  library and is the person who consumes information.  
+Vendor-Organisations,  institutions  or  companies  those  who  develop  applications  (ILS  or  LSPs)  and  offer  to  libraries  against  payment. 
+2.  cLoud  comPut Ing 
+Cloud computing represents cloud as ‘Internet’ and  computing as ‘computer technology’. For librarians, it  is a library application that is hosted on a remotely  located server on internet. The hosting infrastructure  on  internet  is  called  Data  Centre  and  generally  owned  by  third  party  or  vendors.  The  present  day  web-based internet-enabled library services can be  accessed by the user through a browser. In simple  terms, majority of electronic resources and applications  used  by  libraries  are  hosted  on  internet2.  
+The  use  of  this  technology  provides  a  cost  effective, reasonably secure and reliable data storage,  facilitates data sharing and also guarantee against  accidental data damage and virus attacks. Therefore,  librarians must understand various features of cloud  computing  before  implementing  for  its  effective  use  in  library  system.  Since  security  certification  feature  has  already  been  discussed  in  details  by  Carl  Grant3   the  same  is  excluded  here.  However,  SaaS,  multi-tenancy  and  single  tenancy  shall  be  elaborated  from  libraries  points  of  view. 
+3.  Softw Are  AS A   Serv Ice  (SAAS) 
+SaaS  is  defined,  in  a  simple  way  as,  ‘software  deployed  as  a  hosted  service  and  accessed  over  the  internet4   and  is  a  different  way  of  delivering  it  on  cloud.  In  this  model,  libraries  use  a  remotely  hosted  server  on  internet  instead  of  local  server.   Library  also  hires  the  hosting  services  of  a  remote  server  from  another  vendor  by  paying  some  fee.  The  vendor  deploys  the  application  and  provides  maintenance  service  to  the  library.  Some  vendors  also offer the hosting services either owned by them  or  hired  from  a  3rd   party.  In  these  arrangements  library  has  to  make  single  agreement  for  hiring  server  for  hosting  and  associated  software.  The  services are available to library users on 24x7 basis  through  terminals  connected  to  internet.  In  SaaS  model,  library  staff  is  relieved  from  maintenance  of  the  IT-infrastructure  and  overhauling  activities.  A well-designed SaaS application has the following  features  from  the  architecture’s  points  of  view: 
+(a)  Scaling  
+  It  means  the  capability  of  the  application  to  simultaneously  handle  multiple  requirements  and  
+409 
+
+========2========
+
+DJLIT,  VOL.  35,  NO.  6, NOVEMBER   2015 
+seamlessly provide the same quality of service with  increase in the number of requests with time. Scaling  is  achieved  by  incorporating  a  variety  of  features  like enhancement of cache, optimisation of session  timeouts, peering of resources, data synchronisation,  updates  and  using  special  databases. 
+alteration  in  the  application  and  having  a  common  set  of  rules. 
+(b)  multi-tenancy  
+It  is  a  very  important  issue  in  cloud  system  for  the  software  development.  Multi-tenancy  is  an  architecture  in  which  a  single  instance  of  a  software  application  serves  multiple  customers5.  Each customer is called a tenant. Each tenant may  be  authorised  few  options  of  the  application  e.g.,  color  of  user  interface,  or  business  rules  but  not  in  code.  In  this  model  the  vendor  only  needs  to  update  once  for  all  the  customers.  Carl  Grant  has  discussed  the  importance  of  this  architecture  for  libraries3. The location of data and code in generally  unknown  to  the  customer  and  same  resource  may  be  assigned  to  multiple  users  simultaneously.  The  data,  applications,  and  services  are  hosted  on  shared resources but made available as an isolated  instance  to  each  customer. 
+3.2  Single-tenant  SaaS Architecture 
+‘Single-tenancy  SaaS  architecture  (also  called  multi-instance)  is  where  a  separate  instance  of  a  software application and supporting infrastructure is  
+figure 2. multi-tenant (single Instance) SaaS model. 
+(c)  configurable 
+If a single application instance on a single server  has to accommodate users from several customers  at  once,  one  can  not  simply  write  custom  code  to  customise the end-user experience—anything done  to  customise  the  application  for  one  customer  will  change  the  application  for  other  customers  as  well.  Instead  of  customising  the  application  in  the  traditional  sense,  each  customer  uses  metadata  to  configure  the  way  the  application  appears  and  behaves  for  its  users.  The  challenge  for  the  SaaS  architect  is  to  ensure  that  the  task  of  configuring  applications  is  simple  and  easy  for  the  customers,  without  incurring  extra  development  or  operation  costs  for  each  configuration.  
+used by each customer or tenant7. This architecture  is  suitable  for  libraries  who  require  customisation  for  providing  higher  level  of  data  security.  
+For single-tenancy SaaS environments, depicted  in Fig. 3 every tenant procures its own copy of the  application, customised as per its need. With flexibility  in-built  on  the  model  the  libraries  can  customise  software features such as modification in individual  modules  and  access  approach  to  various  in-house  databases (OPAC) and external databases such as  e-journals  access  and  open  access  journals. 
+3.3  choice  of  Single-tenant  or  multi-tenants  
+SaaS 
+Multi-tenancy model are supposed to be highly  secure  and  provide  adequate  functionality  for  the  
+3.1 multi-tenant  SaaS Architecture 
+‘In  a  multi-tenant  architecture  (also  known  as  single  instance),  data  from  multiple  customers  is  stored  on  the  same  server,  usually  separated  by  a  partition to prevent the data from migrating from one  company to another6. All applications are housed on  the  same  server,  there  must  be  a  standard  SaaS  architecture  that  includes  the  same  configuration  capabilities for the hardware, network, and operating  system  for  all  customers,  known  as  tenants.  
+In  SaaS  model  (Fig.  2)  all  libraries  use  a  replicable instance of program suite to manage and  manipulate  data  stored  in  a  multi-tenant  database  shared by many libraries. Libraries are debarred to  make  any  changes  in  pre-designed  functionality.  It  is useful for libraries having no requirements of any  
+figure 3. Single tenant (multi instance) SaaS model. 
+410 
+
+========3========
+
+TYAGI & SENTHIL: LIBRARY AUTOMATION IN INDIA: ASSESSMENT OF LIBRARY SERVICES PLATFORMS  
+needs of most libraries. Single-tenancy model provide  even greater security since potential danger for data  migration  is  eliminated.  It  is  therefore  imperative  that single-tenancy model is preferred by customers  because of data safety, e.g., that is a legal requirement  and  also  satisfying  government  protocols.  
+4.  SAAS mAturIty modeL 
+SaaS and its two important attributes for making  a  mature  SaaS  application  have  been  discussed.  An  application  may  possess  one  of  the  attributes  and still meet necessary business requirements but  it  may  not  be  cost-effective. 
+SaaS  application  maturity  is  expressed  with  four  distinct  levels8.  Each  level  is  distinguished  from  the  previous  one  by  the  addition  of  one  of  the  three  attributes  (scaling,  multi-tenancy,  and  configuration). 
+•	 Level  I- Ad  hoc/custom 
+This is a traditional delivery model where every  customer is provided a separate copy of the application.  Although  this  level  is  least  cost  effective,  it  allows  vendors  to  reduce  costs  by  consolidating  server  hardware  and  administration.  This  level  lacks  in  all  three  attributes. 
+•	 Level  II- configurable 
+The  base  code  remaining  unchanged,  the  applications  are  configured  and  customised  as  per  user  requirements.  This  level  lacks  in  two  characteristics-scalability  and  multi-tenancy. 
+•	 Level  III- configurable, multi-tenant- 
+efficient 
+To implement multi-tenancy, the vendor provides  a  single  instance  that  serves  every  customer  who  is  allowed  to  using  a  self-service  tool.  This  level  lacks  in  scalability. 
+•	 
+Level  Iv-  Scalable, configurable, multi- tenant-efficient 
+Scalability  is  an  additional  advantage  over  level  3  offering  and  is  achieved  through  a  load  balancer to maximise the utilisation of data storage  and computing power. This permits addition of new  instances  and  merging  them  in  the  dynamic  pool  of instances. These characteristics render this level  highly  scalable. 
+The  service  oriented  architecture  (SOA)  and  application  programming  interface  (API)  play  important  role  in  library  services  platforms. 
+5.    APPLIcAtIon  ProgrAmmIng  InterfAce  
+(API) 
+The  API  consists  of  programming  modules  for  
+figure 4.  four-level SaaS maturity model. 
+accessing  web-based  software  application  and  is  a  software-to-software  interface  only.  Applications  communicate  to  each  other  through  APIs  and  are  user  transparent.  For  example:  product  is  ordered  online through customer credit card, the information  is  transmitted  to  vendor’s  website  using  an  API  for  verification.  Once  done,  API  responds  back  ‘OK’  to  customer  to  confirm  the  order.  Libraries  may  be  able  to  access  the  data  and  functionality  of  their  key  systems  through  all  pervading  APIs,  from  proprietary  to  open  source  software.  Access  and usage of APIs shall be a key characteristic for  forthcoming  library  services  platforms.  Traditional  ILS  products  also  offer  this  feature9. 
+WorldCat Search API is being used by vendors  in their ILS to search WorldCat and retrieve records  for  catalogued  items  such  as  books,  videos  and  more in WorldCat10. This API is used by libraries that  participate in WorldCat.org through their cataloguing  and  FirstSearch  subscriptions. 
+The  OpenSearch  API  of  nature.com  provides  an  open,  bibliographic  search  service  for  content  hosted  on  nature.com,  comprising  around  half  a  million  news  and  research  articles  and  citations11. 
+There  are  numerous  APIs  for  several  tasks  in  ILS.  Z39.50  and  SRU/SRW  are  Koha’s  APIs  to  access  (bibliographic)  databases.  These  do  not  define  how  the  data  is  structured  and  indexed  in  the  database. 
+A  set  of  APIs  (eRail.in)  by  Indian  Railways  is  being  used  in  their  mobile  apps  to  provide  access to trains’ information12. This API is a service  providing information on Indian Railways through an  HTTP request. These applications based on eRail. in  have  helped  immensely  passengers  in  taking  right  decisions. 
+411 
+
+========4========
+
+DJLIT,  VOL.  35,  NO.  6, NOVEMBER   2015 
+6.  ServIce orIented ArchItecture  (SoA) 
+The  SOA  means  of  designing  and  building  software13.  The  model  allows  interaction  among  discrete  services  functioning  in  isolation.  Software  upgradion  and  modifications,  when  needed  can  be  incorporated  in  SOA,  obviating  need  to  develop  services  from  scratch.  Clouds  are  API-driven,  and  therefore are service-oriented. Cloud computing wil  enhance  use  of  SOA  in  library  services. 
+Since,  SOA  architecture  applications  are  built  using services and are open for third party developers  for  carving  out  their  applications.  Therefore,  it  can  be  termed  that  these  are  service-based  APIs.  In  SOA,  a  developer  can  build  a  new  application  using  the  services  of  one  or  more  applications  developed  on  SOA. 
+7.    LIbrAry AutomAtIon 
+Library  automation  in  India  has  matured.  Most  of libraries have already completed the automation  of  all  activities  of  libraries.  The  most  common  is  online  public  access  catalogue  (OPAC).  Number  of  libraries  has  also  made  available  their  OPAC  to  public  through  on  internet  which  anyone  with  internet facility can search. The automation activity  in  libraries  can  be  divided  into  three  categories:  
+7.1 online database  Services 
+Libraries have been using some cloud computing  services  for  over  a  decade14.  DESIDOC  used  to  search online databases of Dialog during 1980s over  Telex15.  This  was  one  of  the  applications  of  cloud  services because application (search software) and  databases were hosted on remotely located servers  (in USA). The availability of PCs and modems (initially  300  bps)  and  PSTN  were  used  in  the  beginning  of  1990s. The  availability  of  e-journals  on  internet,  another  application  of  cloud  services,  has  been  used  by  libraries  in  India  since  beginning  of  21st century.  Therefore,  use  of  cloud  technology  is  not  new for providing library services. However, its use  in  providing  services  from  library  holdings  having  print  and  digital  collections  using  cloud  technology  is  still  challenging  task  world-wide.  In  developed  countries, number of vendors have either upgraded  or  are  in  the  process  of  upgrading  their  traditional  library systems (ILS) to library service platforms to  take  the  full  advantages  of  cloud  technology.  
+7.2 digital collection 
+The library community in India has also started  using IT technologies for managing digital collection.  In India, it is observed that majority of the libraries  preferred  D-Space  or  E-Print  for  this.  Most  of  the  libraries  have  hosted  this  service  on  local  server connected to Internet through LAN and made  
+412 
+available  to  their  users.  These  libraries  also  allow  anyone having a browser and internet connection to  search their digital collection. Efforts have also been  made  for  incorporating  interoperability  features  in  some institutional repositories16. OpenLx, a service  provider for Koha, claims that they have successfully  tested  hosting  of  DSpace  on  cloud  and  have  a  trial  version17. 
+7.3  Print collection 
+Most of the ILS products are largely for managing  print or physical collection and were developed before  the  internet  and  Web  existed.  These  are  generally  closed proprietary systems. These were used initially  for searching OPAC and later extended to cover all  in-house activities such as acquisition, cataloguing,  circulation,  inter  library  loan  (ILL),  article  indexing  ,and  serials  control.  In  India,  implementation  of  SRU  for  interoperability  among  OPACs  of  different  libraries has been demonstrated and achieved long  back18.  
+7.4 union catalogues 
+Some  national  level  institutions  in  India  have  made  efforts  for  development  of  union  catalogues  of  books  and  journals  in  their  respective  domains.  DESIDOC, Bhaba Atomic Research Centre (BARC),  National Aeronautics Laboratory (NAL), Developing  Library Network (DELNET), Information and Library  Network  (INFLIBNET)  are  few  examples  of  them.  However,  DELNET  and  INFLIBNET  have  been  successful in achieving their goals up to some extent.  DELNET  has  a  collection  of  more  than  203  lakhs  bibliographic records pertaining to member libraries  in  their  union  catalogue  of  books  and  more  than  36  thousands  records  of  periodical  titles  in  union  catalogue of periodical titles10. Similarly, INFLIBNET  has    in  developed  IndCat,  online  union  catalogue  of Indian universities, which has a collection of 120  lakh  records  from  157  libraries11. 
+7.5  It   Infrastructure  
+Libraries  host  these  applications  on  a  local  server  connected  to  LAN  for  providing  access  to  their  users  and  library  staff.  Some  of  the  large  libraries  have  also  made  their  catalogue  (OPAC)  available on internet thus extended search facility to  their users round the clock. In case of local hosting  libraries, it needs in-house staff for maintaining the  requisite  computer  hardware  and  software.  This  is  not  a  problem  for  libraries  having  separate  IT  staff  for  supporting  the  IT  services  of  other  activities.  However,  it  is  a  big  challenge  for  libraries  not  having  such  facility.  
+The problem is more serious for larger libraries  or  consortium  of  libraries  that  need  to  provide  access of their union catalogues to libraries spread  
+
+========5========
+
+TYAGI & SENTHIL: LIBRARY AUTOMATION IN INDIA: ASSESSMENT OF LIBRARY SERVICES PLATFORMS  
+all  over  India  and  sometimes  abroad  also.  For  this  they  need  large  servers  with  high  band  width  of  internet  facility  to  serve  their  large  user  base.  This  again  needs  more  IT  staff  for  maintenance  of  requisite  hardware  and  software.  
+According to Jeff Bezos of Amazon ‘businesses  which run applications spend 70 % of their time and  money supporting the infrastructure required to keep  the  business  going19’.  This  only  leaves  them  30  %  of  time  and  money  to  work  on  innovation  and  way  to improve and grow their business. He shows that  when a business moves their core applications to a  cloud-based solution, they can invert this ratio thus  leading  to  improve  and  grow  their  business. 
+8.  cLoud  comPut Ing  for  L IbrArI eS 
+According  to  Library  System  Report  2014  by  Marshall  Breeding20,  there  is  significant  increase  observed in transition to cloud computing by libraries.  This includes the large scale projects involving shared  automation  infrastructure  for  libraries  throughout  a  region,  state  or  country.  Although  there  are  pros  and  cons  of  this  technology  yet  libraries  have  not  only  started  exploring  its  use  but  some  libraries  have  taken  a  lead  in  developed  countries.  Most  popular  products  widely  known  are  WorldShareTM Management  Services  by  OCLC@,  Alma  by  Ex  Libris,  Sierra  by  Innovative  Interfaces,  IntotaTM   by  Serials Solutions, Open Library Environment (OLE)  by  Kulali@,  and  Open  Skies  by  VTLS3. 
+However, use of cloud computing technology is  not  as  easy  as  it  looks. Traditional  library  systems  (ILS/LMS) are generally closed proprietary systems  and  it  is  not  easy  for  these  systems  to  take  full  advantage of this technology21. Use of cloud technology  in  libraries  requires  different  approaches;  each  approach  has  its  advantages  and  disadvantages.  However, to understand these approaches there is a  need  to  make  comparisons  at  the  technical  level.  
+Today,  SaaS  applications  are  expected  to  take  benefits of centralisation through a single-instance,  multi-tenant architecture, and to provide a feature-rich  experience in comparison to locally hosted applications.  SaaS  applications  are  completely  managed  by  the  vendor or SaaS hoster; in fact, the implementation of  management tasks and responsibilities is opaque to  the consumer. Service-level agreements (SLAs) govern  the  quality,  availability,  and  support  commitments  that  the  provider  makes  to  the  subscriber. 
+Carl  Grant3   has  discussed  the  following  three  approaches  of  library  services  platforms  adopted  by  vendors: 
+(i)  Develop  an  Entirely  New  Product    
+These  systems  build  upon  the  advanced  in  architecture  and  therefore  offer  full  advantages  of  new  technologies  including  multi-tenant  operations  
+and incorporate requirements of both digital and print  processes.  The  systems  that  follow  this  approach  are WorldShareTM  Management Services by OCLC@,  Alma by Ex Libris, and IntotaTM  by Serials Solutions.  In  India,  there  is  not  a  single  system  build  on  this  architecture. 
+(ii)    Integrate  New  Technology  Features  with  
+  Existing    
+These systems integrate additional new features  with the existing system such as support for mobile  users, integration of print and digital contents, and  interoperability  with  third  party  systems.  Sierra  by  Innovative  Interfaces  and  Open  Skies  by  VTLS  adopted  this  approach.  In  India,  CYBRARIANTM by  CR2  Technologies  and  E-Granthalaya  by  NIC  use  this  approach.  
+(iii)  Open  Source  Software  Approach  
+Open  source  software  approaches  have  been  gathering momentum not only in developed countries  but in India also. There are providers in the market  to  support  efforts  to  develop  open  source  library  services  platforms.  OLE  by  Kulali  and  Koha  are  the  example  of  this  approach.  It  was  seen  that  development  of  library  services  using  OSS  has  picked up momentum but as far as library services  platforms  are  concerned,  it  is  still  a  long  ways  to  go  in  India.  
+However,  it  is  not  mandatory  to  use  cloud  computing  in  one  go.  Libraries  may  prioritise  their  need  carefully  and  moved  in  this  direction  using  carefully  drawn  road  map.  They  need  to  identify  what are the services that may enhance the quality  of  service  to  users  should  be  adopted  first. 
+9.  LIbrAry  ServceIS   P LAtformSIn  IndIA 
+India is not untouched from the use of this new  technology. Libraries in India have also started taking  advantages  of  cloud  computing.  A  google  search  shows  that  there  are  number  of,  libraries  having  the  presence  of  their  OPAC  or  union  catalogue  on  web.  However,  all  of  these  are  not  using  cloud  technology.  However,  numbers  of  articles  were  found on ‘cloud computing’ and ‘library automation’.  A  total  of  84  articles  were  selected  from  Google  Scholar  search.  Finally  full-text  of  23  articles  on  the  topic  were  found. 
+A  close  scrutiny  of  these  articles  shows  that  most  of  the  information  available  in  these  articles  was about systems developed and used in libraries  of  developed  countries.    
+Collected information have been from websites of  leading 9 vendors (LibSys, CR2 Technologies, Softlink  Asia, Algorhythms, NIC, Total IT Solutions, LibLime  Koha,  NewGenLib  and  Innovatives)  10  providers22 in  India  and  then  sent  one  page  questionnaire  to  
+413 
+
+========6========
+
+DJLIT,  VOL.  35,  NO.  6, NOVEMBER   2015 
+them through e-mail. The library services platforms  were  divided  into  two  categories,  i.e.,  open  source  and  proprietary. 
+9.1  open  Source  ILS  Software  
+users  for  evaluation  and  testing. 
+First  Ray  Consulting,  Pune  has  a  client  base  of more than 25 libraries using Koha13.  They  have  implemented  Multi-tenant  SaaS  model  of  Koha  in  
+5  libraries  so  far.  Kalptru  Library,  Pune  selected  
+It is the only OSS among library services platforms  
+multi-tenant  SaaS  model  of  Koha  for  a  group  of  available in India. Koha is a SaaS offering and not  
+its  six  participating  libraries.  First  Ray  has  also  a true cloud computing system because it does not  
+implemented Single Tenant SaaS model of Koha in  offer  data  management  for  both  print  and  digital  
+7  libraries. They  also  support  libraries  in  providing  collection.  Libraries  must  also  select  their  own  
+information  services  from  their  digital  collection  SaaS hosting. Koha is web-based open source ILS  
+using  DSpace,  and  Eprints. 
+first  released  in  199922.  It  facilitates  access  from  a  computer  having  web  browser  and  connected  to  the  network.    Koha  3.0  was  released  in  2005  with  Zebra  indexing  engine.  Koha  Express  based  on  SaaS  model  was  released  in  Sep  200923.  It  is  reported  that  with  the  help  of  specialised  support  firms  (providers)  more  than  3,000  public,  school  and special libraries in the world are using Koha24.  Its  latest  version  3.18.5  was  released  on  22  Mar  2015.  Koha  supports  consortia,  multi-branch  or  single-branch  libraries  on  cloud  technology.  In  India, most libraries are implementing Koha with the  paid  support  of  providers  for  services.  There  are  ten  such  providers  listed  on  Koha  Community  web  site22. These provide specialised support to libraries  such  as  data  conversion,  implementation,  ongoing  support,  hosting,  training,  and  data  migration.  
+Informatics  Publishing  Limited,  Bangalore  has  reported to have a client base of more than 50 libraries  for  Koha  support.  They  have  already  completed  more  than  30  installations  of  Koha  on  cloud-based  on multi-tenant SaaS model. For example Symbiosis  International  University,  a  family  of  44  academic  institutions,  has  selected  multi-tenant  SaaS  model  of  Koha  for  its  30  libraries  across  India.  Each  of  their  libraries  has  its  own  rules  for  circulation,  etc.  The OPAC has more than 4,00,000 unique records  which is shared by all their libraries25. All  in-house  module  (acquisition,  circulation,  serials  control,  cataloguing, etc.), and OPAC has been implemented.  Mysore University Library is another success story of  Informatics support for cloud hosting of Koha based  on Multi-tenant SaaS model. A centralised database is  used with decentralised in-house activities and Open  Access  OPAC26.  Informatics  has  also  successfully  completed more than 10 installations of Koha based  on  Single  Tenant  SaaS  model  so  far. 
+OpenLx Technologies  Pvt.  Ltd.,  New  Delhi  has  reported  to  have  a  client  base  of  more  than  70  libraries using Koha. They have implemented single  tenant SaaS model of Koha on a central server for  18 libraries of Indian Agricultural Research Institute,  (IARI), New Delhi. They also have a plan to launch  Multi-tenant SaaS model of Koha this year. OpenLx  also  reported  to  have  expertise  in  Dspace  hosting  on  cloud  and  a  demo  version  of  it  is  available  to  
+414 
+9.2  Proprietary  ILS  Software 
+In  India,  there  are  number  of  well  established  vendors of ILS software such as LibSys Ltd., SoftLink  Asia,  Algorhythms,  National  Informatics  Centre,  etc.  However,  only  two  vendors  have  reported  to  have  SaaS  based  solutions.  In  this  approach  a  substantial  portion  of  their  ILS  is  re-utilised  and  coupled  with  new  technology  in  different  ways  to  bring  new  services  and  capabilities  to  users.  This  approach  is  useful  as  designing  and  developing  a  new product from scratch is not only labour intensive  but time consuming also. Todays legacy software is  the hard work of many years and large investments  of  development  and  testing.  Algorhythms  reported  that  they  have  a  plan  to  release  a  cloud  version  of  its  ILS  called  SLIM  in  June  2015. 
+CR2  Technologies  Ltd.,  Ahmedabad27   claimed  to  develop  Asia’s  first  SaaS  based  ILS  solutions  CYBRARIANTM, next generation ILS of LIBRARIANTM.  It  allows  libraries  to  make  their  services  online.  It  also  facilitates  indexing  of  all  library  resources  in  reputed  search  engines  without  compromising  security.  CYBRARIANTM  offers  all  standards  and  protocols such as MARC21, Z39.50 with OPAC, and  all  in-house  activities  of  libraries.  CYBRARIANTM  also  provides  mobile  application  solutions  based  on  iPhone  OS,  Android  OS  and  Windows  mobile  OS  with  latest  mobile  technologies  including  GSM,  CDMA,  GPRS,  3G  and  4G. All  mobile  applications  are  compatible  to  smart  phone,  tablets  and  smart  TVs. Librarian can customise CYBRARIANTM  as per  their  requirements  including  reports. 
+e-Granthalaya 4.0 is cloud ready version of ILS  based on PaaS model by National Informatics Centre,  Government of India (GOI), New Delhi28. The software  is UNICODE compliant, thus, supports data entry in  local languages. It supports a centralised database  for cluster of libraries and uses PostgreSQL, an Open  Source DBMS, and MS SQL server (any version of  free  edition)  as  back-end  database.  e-Granthalaya  4.0 can only be hosted on NIC National cloud free of  cost for Government libraries on request. However,  ILS  version  of  e-Granthalaya  has  3295  user  base  that  makes  the  NIC  largest  vendor  of  ILS  in  India.  They did not have any installation of e-Granthalaya  
+
+========7========
+
+TYAGI & SENTHIL: LIBRARY AUTOMATION IN INDIA: ASSESSMENT OF LIBRARY SERVICES PLATFORMS  
+ver 4.0 so far since this was launched in Apr 2015.  However, number of cloud installations is in pipeline  as  the  ground  work  has  already  been  tested  and  ready. NIC has a plan to host the multi-tenant model  with centralised database for cluster of 20 libraries  of Income-tax Department, GOI in June 2015. They  have  also  hosted  e-Granthalaya  3.0  on  NIC  server  for 15 libraries based on single tenant model where  each  library  has  its  own  database. 
+The  model  offered  by  NIC  seems  to  be  highly  cost  effective  as  software  and  hosting  is  free.  However,  it  is  only  for  GOI  libraries  where  group  of  libraries  from  an  organisation  will  be  provided  a  single  instance  of  the  application  with  central  databases.  Therefore,  cluster  of  libraries  will  have  their  own  instance  of  application  and  sharing  a  central database among them only. The idea behind  this model is co-operative cataloguing and avoiding  data  redundancy  among  the  holdings  of  libraries  where  same  copy  of  a  document  is  available  with  more  than  one  library.  So,  all  small  and  medium  sized  government  libraries  can  feel  relaxed  from  maintenance of hardware and software and concentrate  on enhancing their library services to the satisfaction  of  their  users. 
+10.  dIScuSSI onS  A nd SuggeSt IonS 
+It  is  clear  from  the  available  information  that  developing  an  LSP  from  scratch  using  all  cloud  computing features is still to go a long way in India  as only two vendors and three providers have cloud  solution  and  that  too  based  on  approach  where  vendors  include  new  technology  with  existing  ILS  in  various  ways  to  bring  new  services  to  users.  This  option  is  the  trend  presently  and  it  seems  to  be  more  realistic. 
+For  large  single  libraries,  single  tenant  SaaS  model  is  preferred.  In  this  model  a  library  is  the  sole  owner  of  application  and  database  hosted  on  cloud  and  data  is  not  shared  with  anyone.  In  this  model  the  cost  of  the  application  and  database  shall  be  on  higher  side  because  all  cost  has  to  be  paid  by  one  customer  only.  However,  the  data  migration  and  security  are  the  added  advantages.  The application is highly configurable. Although in this  approach, application and database of each library  is  physically  separate  yet  an  additional  database  having records of all individual databases can also  be maintained for providing single search facility of  all  library  holdings.  This  simple  solution  provides  additional  feature  in  the  existing  application.  This  approach  is  selected  by  OpenLx  for  a  group  of  18  libraries  of  IARI,  New  Delhi. 
+Multi-tenant  SaaS  model  is  more  suitable  for  group of libraries in a single domain. In this approach  one  instance  of  the  application  is  shared  by  all  participating libraries. This model is useful where all  
+libraries agree for same features in the application.  However,  libraries  can  share  their  data  using  any  of the three ways of multi-tenancy approach8  based  on  the  policy  and  agreement  among  the  libraries.  Each library is a customer having its own group of  users  with  different  circulation,  acquisition  policies  that  are  configurable.  This  model  is  selected  by  Informatics for University of Mysore and Symbiosis  group  of  libraries.  National  Informatics  Centre  has  also selected this approach for e-Granthalaya meant  for  Government  libraries  only. 
+11.  concL uSIonS 
+The  cloud  technology  in  libraries  is  still  in  nascent  stage  in  India  yet  efforts  are  being  made  to adopt it. Numerous options should be considered  before coming to a conclusion about an application,  provider/vendor  and  model. This  can  only  be  done  by setting priorities and services offered by libraries.  However,  there  is  no  doubt  the  technology  has  already  made  an  inroad  but  has  been  progressing  with  the  desire  of  libraries  to  adopt  it.  However,  it  is  felt  that  there  is  a  need  to  evaluate  the  existing  models  adopted  by  libraries  along  with  application  in  detail  for  the  benefit  of  library  community  and  users both. It cannot be denied that thinking about  an application without mobile apps is like preferring  a passenger train when mail express train is easily  available. 
+referenceS 
+1. Breeding,  M.  Automation  marketplace  2012:  
+agents  of  change.  Library  Journal ,  2012,1,  
+30-6. 
+2. Corrado, E.M. & Moulaison, H.L. The library cloud  
+pros and cons. 2012, thedigitalshift.com/2012/03/ 
+software/the-library-cloud-pros-and-cons/. 3. Grant, Carl. The future of library systems: Library  
+services platforms. SQ Inf. Stand. Quart.,  2012,  
+24(4),  3-15. 
+4. Software  as  a  service.  October  2006.  https:// 
+msdn.microsoft.com/en-us/  library/aa905332. 
+aspx  (accessed  on  6 April  2015) 
+5. Multi-tenancy. http://whatis.techtarget.com/definition/ 
+multi-tenancy  (accessed  on  6 April  2015). 6. http://blog.goiwx.com/blog/bid/296154/The-Difference- 
+between-Multi-and-Single-Tenant-SaaS-Architecture   
+(accessed  on  18  May  2015). 
+7. The future of software delivery information technology  
+essay.  http://www.ukessays.com/information- 
+technology/  (accessed  on  15  May  2015). 8. Multi-tenant data architecture. Jun 2006. https:// 
+msdn.microsoft.com/en-us/library/aa479086. 
+aspx  
+9. OpenSearch  API.  www.nature.com/developers/ 
+415 
+
+========8========
+
+DJLIT,  VOL.  35,  NO.  6, NOVEMBER   2015 
+documentation/api-references/  opensearch-api/  
+(accessed  on  18  May  2015). 
+10. DELNET.  http://delnet.nic.in/  (accessed  on  13   
+April  2015). 
+11. INFLIBNET.  www.inflibnet.ac.in/  (accessed  on   
+13 April  2015). 
+12. http://api.erail.in/  (accessed  on  18  May  2015).  13. FirstRay  Consulting.  www.firstray.in  (accessed   
+on  13 April  2015). 
+14. Goldner,  M.  Winds  of  change:  Libraries  and  
+cloud computing. Online Computer Library Center,  
+2010. 
+15. Kumar, Ambrish & Tyagi, A.K. Online searching  
+of commercially available databases under dialog  
+search  service.  AGLIS  Journal ,  1989,  7(2-3),  
+28-32.  
+16. Tyagi,  A.K.,  et  al.   The  IDAIR  Project:  Search  
+service  interoperability  using  SRU. In   National  
+Conference on Digitisation and Digital Preservation,  
+New  Delhi,  December  2008,  pp.225-31. 17. OpenLx Technologies. www.openlx.com  (accessed  
+on  10 April  2015). 
+18. Tyagi,  A.K.;  Raghuraman,  A.;  Dhanwantri,  M.  
+&  Kalbhor,  P.  Improving  visibility  of  libraries  
+through  SRU.  DESIDOC  J.  of  Lib.  and  Inf.  
+Tech.,  2009, 29(3),  12-15. 
+19. http://www.slideshare.net/goodfriday/amazon-web- 
+services-building-a-website-computing-architecture  
+(accessed  on  10 April  2015). 
+20. Breeding,  M.  Library  Systems  report  2014:  
+Competition and strategic cooperation. American  
+Libraries,15  April  2014,    
+21. Sanchati,  R.  &  Kulkarni,  G.  Cloud  computing  
+in  digital  and  university  libraries.  Global  J.  of  
+Comp.  Sci.  and  Tech.,  2011, 11(12),  37-41. 
+416 
+22. Koha  library  software.  www.koha-community. 
+org.  (accessed  on  6 April  2015). 
+23. Sun,  Y.  The  development  of  the  library  under  
+the  cloud  computing  era. In   IEEE  Symposium  
+on Robotics and Application (ISRA), 2012, 585- 
+87.  
+24. Informatics.  http://www.informindia.co.in/iil_ 
+productServices.htm#Koha  (accessed  on  10  
+April  2015). 
+25. http://symbiosis-koha.informindia.co.in/ (accessed  
+on  18  May  2015). 
+26. Goudar,  I.R.N.  Koha:  Success  story  of  Mysore  
+University  Library  (LIS-Forum)  (accessed  on  8  
+May  2013). 
+27. Cybrarian.  http://www.cr2.in  (accessed  on  7  
+April  2015). 
+28. E-Granthalaya.  egranthalaya.in  (accessed  on  
+13 April  2015). 
+About  the Authors 
+dr A.K.  tyagi  is working in DESIDOC as Scientist ‘G’. He  has contributed a number of papers in reputed journals in  the areas of library automation, and information technology.  His  areas  of  interests  include:  Library  automation  &  digital  library. 
+mr  v.  Senthil   is  working  as  Scientist  ‘D’  in  DESIDOC.  He  has  obtained  his  MSc  in  Electronics  and  MLISc  in  Library  and  Information  Science.  Presently,  he  is  Head,  Defence  Science  Library,  DESIDOC.  He  has  published  10  papers  in  various  journals  and  presented  papers  in  many  national  and  international  conferences.  
+
+========9========
+

@@ -1,0 +1,2270 @@
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+by
+Bethany McGowan
+December 2017
+
+Presented to the
+Division of Science, Information Arts, and Technologies
+University of Baltimore
+
+In Partial Fulfillment
+of the Requirements for the Degree of
+Master of Science
+
+Approved by: ________________________________
+Gregory Walsh, Thesis Advisor
+
+________________________________
+Lucy Holman, Committee Member
+
+
+
+
+
+
+
+
+ProQuest Number: 10746798
+
+
+
+
+
+All rights reserved
+
+
+
+
+INFORMATION TO ALL USERS
+The quality of this reproduction is dependent upon the quality of the copy submitted.
+In the unlikely event that the author did not send a complete manuscript
+and there are missing pages, these will be noted. Also, if material had to be removed,
+a note will indicate the deletion.
+
+
+
+
+
+
+
+
+
+
+
+
+ProQuest 10746798
+Published by ProQuest LLC (2018 ). Copyright of the Dissertation is held by the Author.
+
+
+
+All rights reserved.
+This work is protected against unauthorized copying under Title 17, United States Code
+Microform Edition © ProQuest LLC.
+
+
+
+
+ProQuest LLC.
+789 East Eisenhower Parkway
+P.O. Box 1346
+Ann Arbor, MI 48106 - 1346
+
+Abstract
+Open Educational Resources (OERs) could provide relief for common issues related to
+the digital divide, particularly issues related to appropriate digital content for classroom
+use, teacher discomfort using digital content, and strategies for moving teachers to
+sustained digital content use. Librarians--already leaders in finding and sharing
+authoritative digital resources, familiar with copyright and Creative Commons licenses,
+and accustomed to using technology to deliver content--should lead in the creation,
+selection, and implementation of continuing education OERs, particularly literacy-related
+OERs. This research project will illustrate the potential for librarians in creating OER
+content that trains K-12 teachers in relaying eHealth literacy competencies for
+adolescents. It will design a prototype for an open education resource that illustrates how
+librarian-teacher collaborations can lead to the creation of tools that alleviate three of the
+issues highlighted in the 2016 State of America’s Libraries Report: 1. difficulty locating
+appropriate digital content for classroom use, 2. teacher discomfort using digital content,
+and 3. unclear strategies for moving teachers to sustained digital content use in the
+classroom.
+
+Acknowledgments
+I would like to thank the friends and family who have supported me through my
+journey for a second graduate degree. I love and appreciate you all. And, thank you to the
+Interaction Design and Information Architecture program faculty at the University of
+Baltimore for providing me with a practical, hands-on learning experience. From working
+in the UB User Research Lab to field work on the streets of Baltimore and the beaches of
+Belize, I have learned so much from you all.
+
+Table of Contents
+List of Figures .................................................................................................................... iii
+Chapter 1: eHealth Literacy, the Digital Divide, and OERs ................................................1
+The State of America’s Libraries .........................................................................................1
+The Digital Divide ...............................................................................................................2
+Open Education Resources ..................................................................................................3
+Growth and Policy Support .....................................................................................4
+Evaluating OERs ......................................................................................................4
+OER Barriers ............................................................................................................5
+Online and In-Person Learning ............................................................................................6
+Cultivating Communities of Practice ...................................................................................6
+Chapter 2: Designing Digital Learning Tools ......................................................................9
+The Transtheoritical Model..................................................................................................9
+Design Considerations .......................................................................................................11
+Summary of Literature Review Findings ...........................................................................12
+Chapter 3: Study Methodology ..........................................................................................14
+Audience Heuristics ...........................................................................................................14
+Observation ........................................................................................................................15
+Assessment .........................................................................................................................16
+Methodology ......................................................................................................................16
+Results ................................................................................................................................17
+Sketches .............................................................................................................................20
+i
+
+Personas .............................................................................................................................22
+Workflow Sketches ............................................................................................................23
+Wireframes .........................................................................................................................24
+Prototypes ..........................................................................................................................25
+Final Design .......................................................................................................................26
+Task Outcomes...................................................................................................................29
+Chapter 4: Findings ............................................................................................................32
+Discussion ..........................................................................................................................32
+Balsamiq Wireframe User Testing Analysis......................................................................33
+Axure Prototype User Testing Analysis ............................................................................33
+Content Analysis ................................................................................................................36
+Chapter 6: Conclusion........................................................................................................37
+
+References ..........................................................................................................................38
+Appendix A: Needs Assessment, eHealth Literacy Teaching Scale..................................45
+Appendix B: Needs Assessment Results ...........................................................................49
+Appendix C: Week 1 Content Prototypes ..........................................................................50
+Appendix D: User Testing Tasks Script ............................................................................66
+Appendix E: Common Design Suggestions .......................................................................67
+Appendix F: Personas ........................................................................................................68
+
+ii
+
+List of Figures
+Figure 1. The Transtheoretical Model, 5 Stages of Change ..............................................10
+Figure 2. Confidence Rating Results .................................................................................19
+Figure 3. Learning Preference Results ...............................................................................20
+Figure 4. Lepore’s Sketch to Design Continuum...............................................................21
+Figure 5. Sample Idea Sketch ............................................................................................21
+Figure 6. Sample Functional Flow .....................................................................................22
+Figure 7. Sample Workflow, Felicity ................................................................................23
+Figure 8. Sample Workflow, Jamie ...................................................................................24
+Figure 9. Sample Workflow, Sarah....................................................................................24
+Figure 10. Home Page Prototype, Axure ...........................................................................25
+Figure 11. Final Marvel Prototype, Main Menu ................................................................26
+Figure 12. Final Marvel Prototype, Week 1 ......................................................................27
+Figure 13. Final Marvel Prototype, Start of Week 1..........................................................28
+
+iii
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+1
+
+Chapter 1: eHealth Literacy, the Digital Divide, and OERs
+
+The State of America’s Libraries
+eHealth literacy--a person’s ability to find, evaluate, and apply health information
+from digital sources-- directly influences the success in which one is able to access health
+information, learn about disease prevention and health promotion, follow health care
+regiments, and communicate health messages with other people. When introduced in
+early adolescence, eHealth literacy competencies can have a life-long influence on
+informed health decision-making. In K-12 education, librarians have traditionally
+collaborated with teachers to provide students with information literacy training and often
+take the lead in integrating digital resources. They support teachers, administrators, and
+students in the training, resource management, and strategic outreach related to
+introducing new educational technologies. However, as information has shifted to
+become more electronically available, evidence shows that literacy education has
+struggled to keep up. The 2016 State of America’s Libraries Report notes significant
+increases, between 2010 and 2015, in the percentage of librarians experiencing
+challenges supporting the digital content needed to teach literacy skills ("School
+Libraries," 2016). These digital divide experiences include insufficient internet access,
+lack of student access to technology at school, difficulty locating appropriate digital
+content for classroom use, teacher discomfort using digital content, and unclear strategies
+for moving teachers to sustained digital content use in the classroom.
+Open Educational Resources (OERs) could provide relief for common issues
+related to the digital divide, particularly issues related to appropriate digital content for
+classroom use, teacher discomfort using digital content, and strategies for moving teacher
+to sustained digital content use. Librarians—already leaders in finding and sharing
+authoritative digital resources, familiar with copyright and Creative Commons licenses,
+and accustomed to using technology to deliver content—should lead in the creation,
+selection, and implementation of continuing education OERs, particularly literacy-related
+OERs.
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+2
+
+The Digital Divide
+Digital divide research reveals disparities in eHealth literacy competencies. These
+issues are complicated in rural areas that experience additional barriers such as limited
+internet access and limited healthcare services (Paek, 2010). Several studies suggest that
+behavioral interventions that use innovative multimedia technology work well when
+designing health informatics tools for adolescent use. Such interventions can be used to
+teach and improve eHealth literacy (Roseman, Riddell, & Haynes, 2011). If these
+behavioral interventions could be designed for classrooms with limited internet access
+and across a range of platforms--desktops, laptops, tablets, mobile phones-- they would
+offer a reliable, interactive teaching platform for middle and high school health teachers,
+especially those in rural and low-income areas.
+Access to computers, the internet, and mobile technologies in homes and schools
+has increased exponentially in recent years. A 2013 report from the U.S. Census Bureau
+found that nearly 90% of adolescents use the Internet, with computer usage and
+communications tools steadily rising; 97% of U.S. schools have computers, and 90% of
+those computers have internet access. In 2011, about ¾ of U.S. households had
+computers (File, 2013). In the early 2000s a digital divide existed, driven by
+socioeconomic status, race, area rurality, and age but as technology became more
+affordable and internet access more widespread, the divide was expected to close. Current
+research suggests that has not been the case and that, particularly amongst adolescents,
+with whom significant differences in digital literacy exist based on socioeconomic status,
+race, and gender (Ritzhaupt, Feng, Dawson, & Barron, 2013).
+Communication technologies, especially mobile technologies, can be useful
+teaching tools for reaching adolescents and their prevalence has grown in the past five
+years, alleviating such issues as tobacco use, the transmission of sexually transmitted
+diseases, alcohol abuse, and teen pregnancy. These interventions have the advantages of
+quickly and reliably providing effective, standardized, and personalized information yet
+they remain underutilized in K-12 education, though they could be particularly impactful
+in middle and high school health education (Manganello & Sojka, 2016).
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+3
+
+This research project will illustrate the potential for librarians in using OERs to
+create digital content that trains K-12 teachers in relaying eHealth literacy competencies
+for adolescents. It will design a prototype for an open education resource that illustrates
+how librarian-teacher collaborations can lead to the creation of such tools to alleviate
+three of the issues highlighted in the 2016 State of America’s Libraries Report: 1.
+difficulty locating appropriate digital content for classroom use, 2. teacher discomfort
+using digital content, and 3. unclear strategies for moving teachers to sustained digital
+content use in the classroom. This literature review seeks to answer two questions: 1. Are
+open education resources (OERs) an effective means for teacher training and 2. How can
+librarians engage teachers in creating eHealth literacy-related OER tools and
+interventions?You can find the style menu in Word 2007 by clicking on the Home tab on
+the standard toolbar; Styles is one of the choices you will see. Click on the arrow icon on
+the right side of the Styles bar, and the drop-down menu of styles will appear. In Word
+2003, look in the upper left corner of your screen, on the formatting toolbar, for the dropdown style menu.
+Open Education Resources (OERs)
+Open Education Resources (OERs) became popularized after schools began
+adopting the Common Core State Standards (CCSS) in 2013, as a means to develop and
+disseminate free online training content and to provide teachers with standards-based
+material for CCSS-aligned instruction. OERs, as defined at a 2002 UNESCO Forum,
+serve as the “technology-enabled open provision of educational resources for
+consultation, use, and adaptation by a community of users for non-commercial purposes”.
+Digital libraries of OERs are available on the public domain and can include resources
+such as open access textbooks, videos, podcasts, teacher’s guides, continuing education
+opportunities, and lesson plans. OERs are a part of the Open Access movement and help
+make educational resources more accessible, affordable, and available than traditional,
+commercially-produced materials. They typically use Creative Commons licenses to
+allow for royalty-free, license-free access to materials. (Welz, 2017)
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+4
+
+The aim of the proposed OER project is to produce an eHealth literacy OER
+training course that librarians can use to train teachers in either distance, face-to-face, or
+hybrid learning environments. This pilot model is intended to be freely adapted and
+revised. Teachers who have completed the pilot course will learn to create eHealth
+literacy content specifically for their student audiences. To make it more accessible for
+audiences with limited internet access, training material will be available for download as
+a PDF document for printing and as a Word Document to encourage adaptation. It will
+consist of 4 units that span a timeline of 1 week/unit and the entire course can be
+completed in four weeks.
+OER Growth and Policy Support. The potential for OERs in revolutionizing
+access to educational resources has been recognized across local, state, and federal
+arenas. OERs, already becoming popular in 2013 with local school districts recognizing
+their potential to provide access to free, shareable instructional content, gained more
+traction in 2015 with the Obama administration’s bipartisan passage of the Every Student
+Succeeds Act, P.L. 114-95 (ESSA). ESSA permits states and local education agencies to
+dedicate grant money to OER technologies and provides OER funding with Student
+Support and Academic Enrichment Grants. In 2016, additional policy regulations
+required that all new intellectual property developed with federal grants from the U.S.
+Department of Education be freely available under an open license (Welz, 2017).
+K-12 school districts across a number of U.S. states have developed control
+policies that guide teachers and administrators in the adoption and implementation of
+OERs by explaining advantages, exploring implementation strategies, and demonstrating
+exemplary OER examples. Considerations are being given for how OERs should
+accommodate special needs students and how OERs can provide professional
+development activities for teachers (Welz, 2017).
+Evaluating OERs. A five-dimensional analysis could be used to evaluate the
+proposed OER (Joyce, 2007):
+1. Scope. On what disciplines, education levels, and intended audiences does the
+OER project focus? Is the focus narrow or broad? A narrow focus provides material for
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+5
+
+one specific topic or subject area, while a broad focus provides material suitable for a
+range of topics.
+2. Authorship. Was the OER created by a single author, or through a collaborative
+effort?
+3. Licensing. Does the OER license allow it to be combined with other OER
+materials or to be used in other contexts?
+4. Granularity. What is the resource size? The smaller a resource is, the more
+granular it is.
+5. Teaching Duration. How much teaching time does the material require? Is the
+material intended for a full course or as a learning object in one class session?
+OER Barriers. OER barriers include issues related to the aforementioned digital
+divide. OERs are digital resources and require access to a computer, tablet, or smart
+device. Most OER libraries are hosted on the internet and require access to reliable, highspeed internet. School districts in resource-poor communities could struggle to provide
+students and instructors with the technology and bandwidth needed to host OERs.
+Security concerns could prove an additional concern, as materials are accessed and
+downloaded through public contributions to open access libraries.
+OER design, creation and sustainability requires funding and support from
+administrators; OER use relies on a commitment from teachers and students. Teachers
+and students, as users, are more likely to use an OER that is customized to their needs
+and is easy-to-use. The recommended level of customization—the creation of and or
+provision of community-specific content and the evaluation of materials—requires a
+significant time investment.
+While contributions to OER libraries have predominantly stemmed from
+volunteer contributions, contributions from commercial publishers is growing and could
+also prove a barrier. The popularity of OERs has led to a decline in the need for physical
+materials and some publishers have responded by creating open resources as cheaper
+alternatives (Welz, 2017).
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+6
+
+Online and In-Person Learning
+OER learning opportunities can be presented online, in-person, or as a
+combination of both. As a web-based intervention, OERs probably have similar outcomes
+as when compared to in-person interventions; or web-based intervention might even
+perform better. This holds true, even for complex health-related issues, as described in a
+meta-analysis on the effectiveness of web-based and non-web based interventions on
+health-related behavioral change outcomes. The study concluded that web-based
+interventions produced such outcomes as “increased exercise time, increased knowledge
+of nutritional status, increased knowledge of asthma treatment, increased participation in
+healthcare, slower health decline, improved body shape perception, and 18-month weight
+loss maintenance” (Wantland, Portillo, Holzemer, Slaughter, & McGhee, 2004). Another
+study comparing internet and traditional interventions suggested that web-based
+interventions are superior to in-person interventions, particularly within rural and lowincome audiences: “clients who have received web-based education are interested in and,
+in fact, prefer … education websites as a method of receiving … education. 83% of webbased participants also reported a willingness to use the website again”. The preference
+for web-based interventions is influenced by such factors as the convenience of
+completing learning modules in a home setting, reduced distraction by being in a
+familiar, comfortable environment, the reduced need for travel, and an appreciation of the
+breadth of electronically available information (Bensley, Anderson, Brusk, Mercer, &
+Rivas, 2011).
+Cultivating Communities of Practice
+Successful OER learning relies, in part, on successfully cultivating a community
+of practice. This pilot project research would rely on a community of librarians to
+manage and update OER content. Wenger, McDermott, and Snyder (2002) define a
+community of practice as “any community of practice which cannot rely on face-to-face
+meeting and interactions as its primary vehicle for connecting members’. Threats to such
+a community include distance, size, organizational affiliation, and cultural differences.
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+7
+
+These threats can be overcome, and a community cultivated with seven principles
+(Wenger et. al, 2002):
+1. Design for evolution. The success of new community efforts rely on volunteer
+efforts and volunteers may have varying amounts of passion and time to commit to a
+project. To encourage accountability, focus on simple structures—provide lists of what
+tasks need to be completed and who will complete them and have as little governance as
+needed. Anticipate the departure of volunteers and be prepared to redistribute work to
+new talent. Throughout the life of the project, work to generate newcomers to balance
+off-boarding and so that work is always evenly distributed.
+2. Open a dialogue between inside and outside perspectives. Communities consist
+of ‘insiders’ and ‘outsiders’. Insiders are experts in a given issue and serve as the core of
+the community. Outsiders have some domain knowledge and the enthusiasm to help.
+They offer new energy, novel ideas, and new perspectives. Successful communities use
+both insider and outsider contributions.
+3. Invite different levels of participation. Communities often need to tackle
+difficult tasks that require expert or insider knowledge, but participation from experts can
+be difficult to acquire and their time commitment limited. Communities of practice
+require a process for creating experts and to allow new community participants to grow
+and gain expertise. To train new community members Wenger promotes legitimate
+peripheral participation, a type of apprenticeship under which the skill sets of new
+practitioners are identified and grown through work with members of the entire
+community of practice. Legitimate peripheral participation is particularly important in
+volunteer communities because it encourages investment from newcomers by allowing
+them to learn and do more, and build on existing skills and interests.
+4. Develop both public and private community spaces. Transparency in an
+organization does not mean having every conversation in public but is a balance of public
+and private conversations. One-on-one, private communication can help build trust in a
+way that multiway communication does not, especially amongst new participants. Private
+conversations can also inform public conversations with insights from participants that
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+8
+
+might not be shared with a broader audience. Private conversations are especially useful
+in conflict resolution. Conversations that relate to actions that impact others should be
+part of a public forum.
+5. Focus on value. Community members should feel that their work is valuable,
+and should be provided an outlet—for example, online forums or regularly scheduled
+meetings, to express and reflect on the value of their work. Ideas for new contributions,
+even experimental ones, should be encouraged.
+6. Combine familiarity and excitement. Simple structures and working processes
+provide stability in the completion of daily tasks. However, new challenges and
+opportunities should be made available to energize established participants and attract
+new ones. The excitement stimulated by new opportunities helps keep volunteers
+motivated.
+7. Create a rhythm for the community. Rhythm is an important consideration in a
+community of practice. It is a delicate balance—moving too quickly lead to participants
+feeling overwhelmed while moving too slowly could result in participants being bored
+and uninterested.
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+9
+
+Chapter 2: Designing Digital Learning Tools
+
+The Transtheoretical Model
+The proposed OER focuses on eHealth literacy training. Ehealth literacy
+interventions should go beyond the simple provision of information and encourage actual
+behavior change. Behavior change models include careful consideration of information
+content and characteristics--such as the delivery of information, its appearance, message
+style, and information architecture (Ritterband, Thorndike, Cox, Kovatchev, & GonderFrederick, 2009). The Transtheoretical Model (TTM) provides a framework for
+developing interventions that help modify behavior. TTM has been successfully applied
+to the cessation of negative behaviors like smoking and delinquent behavior, and the
+acquisition of positive behaviors like safer sex practices and regular exercise. It consists
+of four key elements,
+1. Stages of Change: an individual’s temporal readiness to modify health behavior
+2. Decisional Balance: the perceived importance of the benefits and disadvantages
+of change
+3. Situational Self-Efficacy: the confidence in self-ability to modify behavior
+across social, negative affect, and difficult situations
+4. Processes of Change: the experiential and behavioral strategies used by
+individuals to progress through stages of change.
+The Transtheoretical Model defines stages for a specific process leading to
+behavior change. This stage-tailored change approach promotes measurable, sustainable,
+and lasting improvements in behavior, decisional balance, and self-efficacy. Participants
+are distributed across five stages of change--Precontemplation, Contemplation,
+Preparation, Action, and Maintenance. Interventions include a staging measure to classify
+users into one of these five stages, then an individual’s classified stage is used to
+determines which intervention is appropriate.
+Three dimensions help organize the constructs of TTM (Di Noia, Contento, &
+Prochaska, 2008):
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+10
+
+1. The Temporal Dimension: Stages of Change
+2. The Dependent Variable Dimension: Decisional Balance and Situational SelfEfficacy
+3. Independent Variable Dimension: Processes of Change
+
+Figure 1. The Transtheoretical Model, 5 Stages of Change
+
+The Precontemplation phase incorporates consciousness-raising interventions and
+environmental evaluation processes. An example of a consciousness awareness strategy
+is having participants complete an assessment providing feedback about their eating or
+exercise habits.
+The Contemplation and Preparation phases focus on increasing confidence,
+encouraging commitment to act, and developing specific plans to modify behavior.
+Participants are exposed to actionable self-evaluation and self-liberation strategies, like
+setting a daily goal or developing a weekly plan to achieve a goal.
+The Action and Maintenance phases focus on encouraging relationships,
+counterconditioning, and stimulus control processes. Particularly effective for adolescents
+is involvement in a buddy contact system.
+The intervention in the Di Noia et al study provides an example of the TTM in
+action. The pilot program begins by providing participants with digital intervention
+content and with an introductory session that orients participants to the program and
+describes the benefits of eating fruits and vegetables. The orientation session included a
+staging measure that classified users into three stages: Precomtemplation,
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+11
+
+Contemplation/Preparation, or Action/Maintenance. Stage classifications were then used
+to determine which additional intervention participants would complete:
+“Users in precontemplation completed sessions that incorporated consciousness
+raising, dramatic relief, and environmental reevaluation processes for enhancing
+awareness of lower-than recommended intakes and promoting acceptance of the need for
+dietary change. An example of a consciousness-raising change strategy included in this
+group of sessions was to increase users’ awareness of their intake by having them
+complete an assessment that provided personalized feedback regarding the number of
+daily servings of fruits and vegetables they were in the habit of eating” (Di Noia et. al,
+2008, p. 5) .
+“Users in contemplation/preparation were exposed to self-reevaluation and selfliberation strategies for increasing confidence in the ability to increase intake, resolve
+ambivalence regarding commitment to act, and facilitate the development of specific
+plans for modifying dietary behavior. An example of a self-liberation change strategy
+included in this group of sessions was to help users take steps toward increasing their
+intake by having them set a daily fruit and vegetable goal and develop a 1-week menu
+and action plan for reaching the goal” (Di Noia, et. al, 2008, p. 5).
+“Reinforcement management, helping relationships, counterconditioning, and
+stimulus control processes for helping users sustain recommended intake levels were
+delivered in sessions for users in action/maintenance. An example of a helping
+relationships change strategy included in this group of sessions was to encourage users to
+team up with another person who was also interested in maintaining intake and to
+develop a “buddy contract” identifying strategies for giving each other support” (Di Noia
+et. al, 2008, p. 5).
+Design Considerations
+The proposed OER is intended for high school and middle school health teachers
+and librarians; teachers are students and librarians are instructors. It represents two
+distinct demographic groups--recent graduates/new teachers, age 21-25 and experienced
+teachers, aged 26-70. All groups are college educated, experienced computer users, and
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+12
+
+middle to upper-middle class. Common design suggestions, particularly Nielsen’s Ten
+Usability Heuristics (Nielsen, 1995) and Schneiderman’s Eight Golden Rules of Interface
+Design (Schneiderman, 1998) are considered in designing for the audience of
+experienced teachers. However, it is important to consider how young adults differ in
+their preferences for digital interfaces. A 2016 study from the Nielsen Norman Group,
+“Young Adults/Millennials as Web Users” (Meyers, 2016), found unique behaviors in
+millennials’ use of digital interfaces:
+1. Young adults are confident in their ability to navigate digital interfaces
+2. Young adults embrace new design patterns, but are error prone--’Click first,
+ask questions later’
+3. Young adults see usability issues as design flaws and will criticize the
+organization, not themselves when things go wrong
+4. Young adults will quickly turn to Google as a reference and as an example of a
+simple, easy to use interface
+5. Young adults have different ideas of visual appeal and interpret flat designs as
+more attractive
+6. When using social media, young adults prefer interesting, relevant posts that
+focus on building relationships over time
+7. Multitasking is parallel--done linearly, not simultaneously. Like other users,
+young adults are less efficient when context-switching
+8. Parallel browsing, or using tabs to support several, unrelated tasks is a popular
+habit amongst young adults
+9. Page Parking, or using multiple tabs to support a single task, is also a popular
+practice amongst young adults
+A Summary of Literature Review Findings
+Teachers who can teach eHealth literacy in a way that encourages positive health
+behavior changes and provides standardized and personalized health information can be
+more successful in cultivating adolescents with strong eHealth literacy skills. Librarians
+play an important role in creating and designing eHealth literacy learning interventions
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+13
+
+for teachers and in OER management and implementation. Such OERs can help alleviate
+common issues that librarians experience, particularly difficulty locating appropriate
+digital content for classroom use, teacher discomfort using digital content, and unclear
+strategies for moving teachers to sustained digital content use in the classroom.
+Understanding and adjusting for the limitations of OER interventions in environments
+with limited internet and technology access, and providing sustainable, accessible
+solutions is a challenge that can be alleviated by providing printable and editable versions
+of OER course content.
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+14
+
+Chapter 3: Study Methodology
+
+Audience Heuristics
+This study investigates and pilots a librarian-led, continuing education Open
+Educational Resource (OER) that high school and middle school health teachers can use
+to improve their confidence teaching eHealth literacy competencies. The pilot project is
+intended for two distinct demographic groups--new teachers and recent graduates, age
+21-25 and experienced teachers, aged 26-70. All groups are college educated,
+experienced computer users, and middle to upper-middle class. Common design
+suggestions, particularly Nielsen’s Ten Usability Heuristics, Schneiderman’s Eight
+Golden Rules of Interface Design, and Nielsen Norman Group’s Design Suggestions for
+Millennial Users are considered in designing for this audience. See Appendix E for a
+detailed review of Schneiderman and Nielsen’s design suggestions.
+Nine participants tested the prototype design, having the following characteristics:
+Audience Type
+New Teachers
+Experienced
+Teachers*
+Librarians
+TOTAL
+(participants)
+
+4
+3
+2
+9
+
+Computer Usage
+0 to 10 hrs. wk.
+11 to 25 hrs. wk.
+26+ hrs. wk.
+TOTAL
+(participants)
+
+1
+3
+5
+9
+
+18-25
+26-39
+40-59
+
+5
+2
+2
+
+Age
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+60-74
+TOTAL
+(participants)
+
+15
+
+0
+9
+
+Gender
+Women
+7
+Men
+2
+TOTAL
+9
+(participants)
+* Teachers with more than 5 years of teaching experience.
+
+Observation
+To understand the tools, resources, and training currently available to Health
+teachers, the author subscribed to notices and monthly emails from the Healthy Teacher
+Network. The Healthy Teacher Network assists and empowers teachers to create healthy
+school environments by:
+
+
+creating a network where teachers, service providers, and health experts
+share ideas and best practices
+
+
+
+providing tools, resources, and training for teachers to implement
+activities to promote healthy lifestyles
+
+
+
+supporting teachers advocating for policies, curricula, and programs to
+create a healthy school environment
+
+
+
+sharing research that demonstrates the importance of healthy eating and
+physical activity as integral to student academic success
+
+The Network offers workshops and professional development opportunities for
+teachers in the greater Chicago area--these opportunities are highly-rated by participants,
+with a 4.6 of 5 rating. Workshops cover a range of topics and teaching components
+include interactive presentations, guest speaker lectures, and resource fairs that encourage
+networking with organizations, programs, services. Workshop attendees earn professional
+development credit, meet and connect with service providers that offer free or low-cost
+programs to schools, and become leaders in school health and wellness promotion. To
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+16
+
+date, these highly-rated learning opportunities have only been offered in-person, but
+similar online experiences could be equally beneficial.
+Assessment
+A needs assessment survey was conducted to understand the confidence level of
+health teachers when teaching health literacy, technology literacy, and behavior change
+competencies and to understand how teachers prefer to receive continuing education.
+Assessment competencies were based on those from the eHEALS eHealth Literacy Scale,
+an accepted measure for assessing consumers’ perceived skills at using information
+technology for health and aiding in determining the fit between eHealth programs and
+consumers. An email invite on a jobs listserve for health teachers was used to recruit
+middle and high school health teachers to complete the needs assessment. The email
+included a link to the online survey. Qualtrics survey software was used to create the
+survey and manage responses. 17 teachers completed and submitted the survey. Results
+of the assessment were used to create a framework for instruction units that can be taught
+either online or in-person.
+Methodology
+The Needs Assessment consisted of three parts:
+1. Confidence Ranking
+2. Learning Preferences
+3. Open-Ended Comments.
+Three formats were used for questions—a matrix format, a question where users
+chose from a list, and a paragraph description. The survey was online—participants were
+provided with a link to a Qualtrics survey. Users were recruited through a jobs mailing
+list for new and experienced health and physical education teachers. The survey required
+participants to declare themselves as high school or middle school health teachers before
+participating. No incentives were provided to participants. 17 teachers completed and
+returned the assessment. Survey takers were told that information was being collected to
+understand high school and middle school health teacher confidence teaching health and
+technology literacy competencies and to understand learning preferences.
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+17
+
+In Part 1 of the Needs Assessment, the Confidence Ranking, participants
+selected either Strongly Disagree, Disagree, Somewhat Disagree, Neither Agree nor
+Disagree, Somewhat Agree, Agree, or Strongly Agree for 9 queries. See Appendix A for
+a full list of questions and responses.
+The second part of the Need Assessment asked participants to select how
+they most preferred to learn, given a choice of four options. Multiple selections were
+allowed.
+The third, and final, part of the Needs Assessment was an open-ended
+question: Additional comments or suggestions?
+Results
+Results from the needs assessment show that participants are already confident in
+eHealth literacy competencies related to using the internet to find health information
+resources, but slightly less confident in competencies related to evaluating health
+resources. Findings suggest that teachers are interested in interventions that improve their
+confidence in teaching students to use the internet to answer questions about their health
+and evaluate the health resources they find on the internet. Full survey results are in
+Appendix B.
+1. Over 88% of participants agreed that the internet was useful in helping them
+teach students to make decisions about their health; 12 participants strongly agreed, 1
+participant agreed, and 2 participants somewhat agreed.
+2. Over 94% of participants thought it was important for their students to be able
+to access health resources on the internet, with 13 participants strongly agreeing and 3
+participants agreeing.
+3. Over 88% of participants were confident in their ability to teach students to
+where to find helpful health resources on the internet, with 7 participants strongly
+agreeing, 5 participants agreeing, and 3 participants somewhat agreeing.
+4. Over 88% of participants were confident in their ability to teach students how
+to find helpful resources on the internet, with 8 participants strongly agreeing, 4
+participants agreeing, and 3 participants somewhat agreeing.
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+18
+
+5. Over 88% of participants were confident in their ability to teach students how
+to use the internet to answer questions about their health, with 6 participants strongly
+agreeing, 5 participants agreeing, and 4 participants somewhat agreeing.
+6. Over 76% of participants were confident in their ability to teach students how
+to use the health information they found on the internet to help them make decisions, with
+6 strongly agreeing, 5 agreeing, and 2 somewhat agreeing.
+7. Over 76% of participants were confident in their ability to teach students to
+evaluate the health resources they find on the internet, with 4 participants strongly
+agreeing, 8 participants agreeing, and 2 participants somewhat agreeing.
+8. Over 76% of participants were confident in their ability to teach students how
+to tell high-quality health resources from low-quality health resources on the internet,
+with 6 participants strongly agreeing, 5 agreeing, and 2 somewhat agreeing.
+9. Over 82% of participants were confident in their ability to teach students to feel
+confident in using information from the internet to make health decisions, with 8 strongly
+agreeing, 3 agreeing, and 3 somewhat agreeing.
+The second part of the needs assessment asked participants to indicate how they
+would most prefer to learn about teaching and eHealth literacy, technology literacy, and
+behavior change communication. The most popular preferences were for live workshop
+series and self-paced modules, which received 11 votes each. Reading assigned academic
+articles received 6 votes and completing a series of hour-long videos received 2 votes.
+Full survey results are in Appendix B.
+Three respondents left comments in Part 3 of the Needs Assessment. Those
+responses suggested that participants felt eHealth literacy skills were valuable and would
+prefer an online class or online training as a continuing education opportunity:
+1.
+
+“These are important skills.”
+
+2.
+
+“I would prefer this as an online training opportunity. Evaluating
+
+information sources on the internet is timely.”
+3.
+
+“A Coursera class or something similar would be great!”
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+19
+
+Figure 2. Confidence Rating Results
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+20
+
+Figure 3. Learning Preference Results
+
+Sketches
+The creation of this course prototype followed Lepore’s sketch to design
+continuum (Lepore, 2010), which illustrates the relationship between design
+communication, level of fidelity, and iteration between phases. Following that model, the
+project design began with freehand sketches--ideas that served as the foundation for the
+wireframe and design work. Sketches help generate ideas and possibilities; they are lowstake, low-investment, quick, disposable, and minimally detailed. Figures 5 and 6 are
+examples of sketches. Figure 6 depicts a sample functional flow, a rough approximation
+of how a user would navigate through the course, while Figure 5 is an initial
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+21
+
+approximation of the course home page.
+
+Figure 4. Lepore's Sketch to Design Continuum
+
+Figure 5. Sample Idea Sketch
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+22
+
+Figure 6. Sample Functional Flow
+
+Personas
+Personas are representations of key target audiences, based on qualitative and
+quantitative user research. Personas help define the purpose and vision for a resource,
+describe the user, and describe the user’s motivation. Personas generally include:
+•
+
+a fictional name
+
+•
+
+job title
+
+•
+
+responsibilities
+
+•
+
+demographics such as age, education, and ethnicity
+
+•
+
+goals and tasks when using the resource
+
+•
+
+physical, social, and technological environment
+
+•
+
+a quote that summarizes the user’s goals for the resource
+
+Three personas were designed for this project; one representing a new, inexperienced
+teacher—Felicity Mills, one representing an experienced teacher—Jamie Woodard, and
+one representing a school librarian—Sarah Slater. These personas can be found in
+Appendix F.
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+23
+
+Workflow Sketches
+Testing workflow usability is important because it helps to ensure a workflow process
+runs smoothly and that users feel in control throughout their use of an application.
+Testing a project’s workflow early in its design can reveal undiscovered errors in
+relatedness, can users connect screen A with screen B? It can also reveal issues
+surrounding abandonment, are users giving up because they don’t know what to do? And
+it can reveal areas of potential frustration, is the workflow time and task efficient
+(Nielsen, 2011).
+This project tested three workflows:
+1. The sample workflow for Felicity depicts how a user would navigate when
+starting at the home page, as a new or returning user.
+2. The sample workflow for Jamie depicts how a user would navigate after logging
+in or creating an account.
+3. The sample workflow for Sarah depicts how a user would navigate at the start of
+the first lesson.
+
+Figure 7. Sample Workflow, Felicity
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+24
+
+Figure 8. Sample Workflow, Jamie
+
+Figure 9. Sample Workflow, Sarah
+
+Wireframes
+Wireframes serve as visual guides for a website’s structure and the relationship
+between pages. They outline a site’s structure and flow. Wireframes are a response to the
+best ideas generated during the sketching phase; they are slightly refined sketches that
+should be quick and inexpensive to generate and minimally detailed (Lepore, 2010).
+Balsamiq was used to create the wireframes for this project, then prototypes were
+generated from the results.
+Balsamiq is a rapid prototyping tool that allows for the quick creation and editing
+of mockups. In this preliminary approach, the designer drafted several prototypes for a
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+25
+
+course home page and a course content page. Then, one school librarian and one health
+teacher tested the prototypes and gave feedback. Participants were recruited from a local
+high school and were not compensated. Each prototype test was moderated by an
+experienced designer, was live and in-person, and the user’s navigation was recorded.
+These records, with user feedback, were used to select the most usable designs for
+prototyping testing in Axure.
+Prototypes
+The most usable Balsamiq prototypes, one for the home screen and one sample
+content page, served as the basis for Axure prototype designs. Axure is a wireframing and
+tool that creates highly functional, prototypes. Figure 10 illustrates an Axure prototype
+design for the initial enrollment page--the launch screen for the course. It is a refinement
+of the earlier Sample Idea Sketch, Figure 5, which was slightly edited in its Balsamiq
+wireframe.
+
+Figure 10. Home Page Prototype (Axure)
+
+After the Axure prototypes were created, they were user tested. 9 participants
+were tested over a two-day time period using a Concurrent Think Aloud (CTA) technique
+that encouraged participants to think aloud while completing assigned tasks. The tests
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+26
+
+were moderated by an experienced facilitator who welcomed each participant, explained
+the user testing process, proved a written and verbal assignment of tasks, and took notes
+on participant behavior and success/failure of each task. The tests were conducted using a
+User Testing Tasks Script. See Appendix D for the full document. Data collected
+included task completion rates.
+Final Design
+The Axure prototypes and the results of the user tests, provided the structure,
+flow, and details needed for the final design. Marvel App was used to add elements of
+visual design, branding, and to more fully develop the course.
+Figure 11 illustrates the final design for the course’s Main Menu. After users have
+logged in, the appropriate week is highlighted, so they can easily pick up where they left
+off. This page was created in response to the results of the user testing, where participants
+expressed a need for a page between the homepage and the beginning of the first lesson
+and they needed a means to more easily navigate between lessons. Finally, users desired a
+means to more easily distinguish between lessons, so leach lesson was given an icon and
+unique color scheme.
+
+Figure 11. Final Marvel Prototype, Main Menu
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+27
+
+Figure 12 illustrates what users see when they select Week 1 from Main Menu--a
+summary of the week’s required readings, assessments, assignments, and learning
+activities. From this point, users can return to the main menu, view their account, or start
+the lesson. Week 1 content includes behavior change strategies identified in the literature
+review; it includes a section that reviews course goals, objectives and expectations and
+includes an entry behavior assessment to help participants and instructors measure
+specific student needs. It also uses a course forum and social media, Pinterest, to engage
+participants and create a sense of community.
+
+Figure 12. Final Marvel Prototype, Week 1
+
+Figure 13 represents a content page of required coursework for Week 1. Content
+slides include information that introduces students to the course--for example, grading
+schemes, a code of conduct, and activities. They follow a consistent design and color
+scheme so users have a predictable experience while completing the unit. A Progress Bar
+is included in the upper right corner to help users track where they are in the process and
+keep them motivated by highlighting progress once they’ve completed a task; at the
+bottom of each page is a Back button so users can easily re-visit content on previous
+pages; a Main Menu button returns users to the course’s Main Menu, and a Next button
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+28
+
+allows users to proceed through the unit. In the final page of the unit, a ‘Complete’ button
+replaces the ‘Next’ button and users receive a check mark to indicate they have
+completed the unit. See Appendix C for a full synopsis of Week 1 content.
+
+Figure 13. Marvel Final Prototype, Start of Week 1
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+29
+
+Task Outcomes
+To test the course prototype, 9 participants were given a prompt and a series of task to
+complete. The assigned tasks and results are below.
+Your school librarian and several colleagues have been discussing how much they’ve
+enjoyed a new course training opportunity for health teachers on eHealth literacy.
+Before you enroll in the course, you want to know more about it.
+How much of a time commitment will the course require?
+Number of participants
+Percent successful
+
+9
+9/9
+
+Results
+8 participants completed the task
+with ease (score of “2”) by finding
+the correct information.
+1 participant needed prompting or
+had significant difficulty completing
+the task (score of “1”)
+No participants did not complete the
+task (score of “0”)
+
+Total Score: 17/18
+7 participants found the information by
+reading the text on the home page. 1
+participants used the Q&A button. 1
+participant used the Syllabus button
+before returning to the home page to
+find the information.
+
+Where would you go to find more specific information about coursework and
+assignments?
+Number of participants
+Percent successful
+
+9
+9/9
+
+Results
+9 participants completed the task
+Total Score: 18/18
+with ease (score of “2”) by finding
+9 participants found the information by
+the correct information.
+using the Syllabus button.
+No participants needed prompting or
+had significant difficulty completing
+the task (score of “1”)
+No participants did not complete the
+task (score of “0”)
+Where would you go to find general information about the course?
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+Number of participants
+Percent successful
+
+30
+
+9
+9/9
+
+Results
+9 participants completed the task
+with ease (score of “2”) by finding
+the correct information.
+No participants needed prompting or
+had significant difficulty completing
+the task (score of “1”)
+No participants did not complete the
+task (score of “0”)
+
+Total Score: 18/18
+5 participants found the information by
+reading the text on the homepage. 3
+participants used the About this Course
+button. 1 participant used the Q&A
+button.
+
+You are a new user. How would you register for the course?
+Number of participants
+Percent successful
+
+9
+9/9
+
+Results
+9 participants completed the task
+with ease (score of “2”) by finding
+the correct information.
+No participants needed prompting or
+had significant difficulty completing
+the task (score of “1”)
+No participants did not complete the
+task (score of “0”)
+
+Total Score: 18/18
+9 participants found the information by
+selecting the Enroll Now! Button.
+
+You are a returning user. How would you pick up where you last left off?
+Number of participants
+Percent successful
+
+9
+7/9
+
+Results
+1 participants completed the task
+with ease (score of “2”) by finding
+the correct information.
+
+Total Score: 8/18
+7 participants found the information by
+selecting the Login Button. 2
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+6 participants needed prompting or
+had significant difficulty completing
+the task (score of “1”)
+2 participants did not complete the
+task (score of “0”)
+
+31
+
+participants could not complete the
+task.
+
+Where would you find information about what previous course attendees have to say
+about the course?
+Number of participants
+Percent successful
+
+9
+6/9
+
+Results
+6 participants completed the task
+with ease (score of “2”) by finding
+the correct information.
+No participants needed prompting or
+had significant difficulty completing
+the task (score of “1”)
+3 participants did not complete the
+task (score of “0”)
+
+Total Score: 12/18
+6 participants found the information by
+using the Reviews Button. 3
+participants selected the Q&A button.
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+32
+
+Chapter 4: Discussion and Conclusion
+
+Discussion
+A review of the literature reveals evidence of a digital divide and disparities in
+eHealth literacy competencies amongst adolescents. As information shifts to become
+mostly electronically available, literacy education is struggling to keep up. Librarians in
+K-12 education, responsible for teaching information literacy competencies, struggle with
+issues that include difficulty locating appropriate digital content for classroom use,
+teacher discomfort using digital content, and unclear strategies for moving teachers to
+sustained digital content use in the classroom. Findings from research in behavior change
+communication suggest that the digital divide and eHealth literacy disparities can be
+alleviated with customizable, systemic interventions. The Transtheoretical Model
+provides an example of how such interventions can be designed. This research project
+focuses the development of an Open Educational Resource (OER) that educators,
+particularly librarians and high school & middle school health teachers, can use to design
+lesson plans that combat the digital divide, teach eHealth literacy competencies, and
+encourage behavior change.
+This project included the execution of a needs assessment to determine teacher
+confidence in teaching health literacy competencies and to determine learning
+preferences. 17 surveys were completed and returned, and the results revealed that
+teachers are mostly confident in their ability to teach eHealth literacy competencies, but
+are interested in learning to improve their confidence in teaching students to use the
+internet to answer health-related questions and in evaluating health information. When
+asked how they would prefer to learn, nearly 65% of responses reported a preference for
+learning through self-paced modules, and over 35% responded with a preference to learn
+through reading assigned academic articles. The OER prototype design for this project
+utilized both self-paced modules and assigned readings of academic articles.
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+33
+
+Balsamiq Wireframe User Testing Analysis
+The findings from the initial user tests, the wireframe testing, revealed user
+confusion when navigating between lessons and when attempting to return to the home
+page once a lesson was started. These findings resulted in the creation of a Main Menu, a
+page that allowed users to more easily navigate between lessons and to return to the
+course home page; and also to the creation of a "Home" icon on each lesson page that
+navigated users back to the Home Page. After testing was completed, users were asked
+what might encourage them to register for the course; these verbal responses revealed a
+desire to see a rating system and results from colleagues who had previously completed
+the course. This led to the creation of a "Student Reviews" component, which allowed
+prospective students to see comments and ratings from users who completed the course.
+Finally, during the wireframe testing users expressed the need for one central place to
+find detailed information about the course. This led to the creation of a syllabus that users
+were able to access from the enrollment page prior to registering for the course, and from
+the Home page after they were enrolled in the course.
+Axure Prototype User Testing Analysis
+The results of the wireframe testing informed the design of an Axure prototype of the
+course, which was tested on 9 participants. Starting at the course Home Page, participants
+were asked to complete a series of tasks. Users were encouraged to verbalize questions or
+concerns as they encountered them in their completion of the assigned tasks.
+1. Task 1: How much of a time commitment will the course require?
+With a completion rate of 100%, participants were successful in completing a task
+that required them to find general information, such as time commitment, about
+the course. The most direct method for finding the requested information was by
+reading the text on the home page, and 7 of the 9 participants used that approach.
+1 participant used the Q&A button and 1 used the Syllabus button to retrieve the
+requested information. These results suggest that general information, such as
+time commitment, should be repeated throughout the site. 1 participant had
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+34
+
+difficulty completing the task, overlooking the requested information on both the
+home page and on the course syllabus, but ultimately finding it on the Q&A page.
+2. Task 2: Where would you go to find more specific information about coursework
+and assignments?
+With a completion rate of 100%, participants were successful in completing a task
+that required them to find detailed course information. All 9 participants used the
+Syllabus button to find the requested information, without none having difficulty
+completing the task. The suggestion to include a course syllabus for potential
+students emerged during the paper prototype testing and the results of the Axure
+prototype tests suggest that students, particularly teachers, will navigate to a
+syllabus or similar resource for detailed course information.
+3. Task 3: Where would you go to find general information about the course?
+This task, similar to Task 1, asked participants to find general course information.
+The findings from the results of Task 1—that general information should be
+repeated throughout the site, were confirmed as participants used a range of
+resources to find the information. 5 participants read the information on the home
+page, 3 participants used the About the Course button, and 1 participant used the
+Q&A button. All participants were able to complete the task without difficulty,
+for a completion rate of 100%
+4. Task 4: You are a new user. How would you register for the course?
+Whereas previous tasks asked users to locate information that could be found in
+multiple places, Task 4 required users to find information only available on the
+Home Page. All 9 participants completed the task with ease by selecting one of
+the “Enroll Now” buttons on the Home Page. During Task 1, one participant
+overlooked the requested information on the Home Page, ultimately finding the
+information elsewhere, but that participant was able to complete Task 4 with ease.
+These findings suggested that some information on the Home Page needed to be
+more distinguished, and led to a change in the Home Page layout, where some
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+35
+
+general information such as course instructor, course timeline, and course time
+commitment was more clearly labeled and placed into a separate column.
+5. Task 5: You are a returning user. How would you pick up where you last left off?
+Task 5 required participants to make an intuitive assumption that they would need
+to login to pick up where they last left off. 7 of the 9 participants completed the
+task, but 6 of those 7 needed prompting before being able to complete the task and
+2 participants were not able to complete the task. The 7 participants who
+completed the task all used the Login button. To alleviate this issue buttons were
+relabeled; a New User button allowed participants to create an account, while a
+Returning User button allowed participants to log-in and pick up where they left
+off in a lesson.
+6. Task 6: Where would you find information about what previous course attendees
+have to say about the course?
+Task 6 served as a test of the site’s architecture in testing user’s ability to interpret
+labels. In this task users were asked to find what previous course attendees said
+about the course, information that was located under a button labeled ‘Reviews’.
+This button could only be accessed from the course Home Page. 6 of the 9
+participants completed the task with ease, but 3 participants could not find the
+requested information and failed to complete the task. To alleviate this issue, the
+access to course reviews were placed on other pages as informed by where
+participants looked for information in their completion of other tasks, including
+the Q&A page and the About the Course page.
+7. Task 7: Navigate through Lesson 1.
+In this final task, users began at the start of Lesson 1 and were asked to navigate
+through the entire lesson, to the end. They were asked to verbalize each new
+action taken as they continued through the lesson and those verbal responses
+informed design changes. This feedback focused on implementing changes that
+helped users more easily track their progress through the lesson and resulted in
+the inclusion of a progress bar throughout each lesson page to allow participants
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+36
+
+to see how much of a lesson was completed and roughly how much was left.
+Feedback also led to the inclusion of a check mark and a ‘Complete’ status to
+indicate a lesson’s completion. Other feedback surrounded the ease in
+distinguishing lessons from one another and ultimately led to each lesson being
+color-coded, to allow users to more quickly and easily distinguish between
+lessons.
+The results and modifications from the wireframe testing and the Axure prototype
+testing informed the design of an interactive Marvel Prototype. These Marvel prototypes
+are illustrated in Appendix C.
+Content Analysis
+Course content, activities, and flow utilize an active learning approach based on
+Jerome Bruner’s Constructivist Theory which suggests learning is “an active process in
+which learners construct new ideas or concepts based upon their current/past knowledge”
+(Bruner, 1966). The proposed activities work to engage learners in reflection activities
+that build on existing knowledge and help progress learners toward a greater
+understanding of new knowledge. This approach was particularly relevant as the needs
+assessment revealed that participants self-identified as feeling mostly confident in their
+ability to teach health literacy, technology literacy, and behavior change competencies
+but hoped to develop a greater expertise. Activities were designed to allow participants to
+interpret information, reflect, and build on their existing knowledge. One activity, the
+redesign of an existing lesson plan, threaded throughout the entire course and served to
+tie each of the four units together.
+An entry behavior assessment in Week 1 provides the instructor a basis for
+measuring student need, and when paired with the exit assessment in Week 4, serves as a
+quantitative and qualitative means to measure student learning. Weeks 2 and 3 include
+quiz assessments to incrementally test student knowledge and measure learning
+throughout the course. Further qualitative assessments are provided through student use
+of the course forums.
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+37
+
+Students are encouraged to participate in the creation of course content with a
+requirement to create a Pinterest account and, each week, contribute related content to a
+shared course Pinterest board. They are also required to leave a comment on at least two
+other pins. This approach utilizes social media to allow students to gather related course
+content on a platform that remains accessible after the course’s completion.
+Several measures were implemented to cultivate a community of practice. The
+course structure is simple, with each week following a predictable layout that includes
+required readings, an assessment, two learning activities, and one assignment.
+Expectations are clearly established in Week 1. Students e-introduce themselves at the
+beginning of the course and are organized into groups. Each week, a group leads the class
+in a review of the assigned weekly readings. Throughout the week students are
+encouraged to use the course forum—a private forum and the course Pinterest board—a
+public forum, to ask questions and stimulate conversation. At the end of the course,
+alumni are added to a LinkedIn group, if desired, allowing them to remain connected.
+Conclusion
+The creation and testing of this open educational resource prototype focus on
+training high school and middle school health teachers to integrate eHealth literacy
+competencies into their curriculums using innovative multimedia technology. This focus
+on eHealth literacy aims to minimize the digital divide and to minimize eHealth literacy
+disparities by improving teacher confidence. It highlights the importance of collaboration
+between teachers, designers, and librarians in the creation of digital health interventions.
+User feedback for the need of such a resource was positive--both in the results of the
+literature review and in the user testing process. Potential next steps include collaborating
+with an instructional designer to design the curriculum for the course then finding a home
+for the course, on a home-grown platform or an existing one--such as OER Commons.
+Other steps might include the development of eHealth literacy training materials for
+adolescent use.
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+38
+
+References
+Bensley, R. J., Anderson, J. V., Brusk, J. J., Mercer, N., & Rivas, J. (2011).
+Impact of internet vs traditional Special Supplemental Nutrition Program for Women,
+Infants, and Children nutrition education on fruit and vegetable intake. Journal of the
+American Dietetic Association, 111(5), 749-755.
+
+Bruner, J. S. (1966). Toward a theory of instruction. Harvard University Press.
+
+Di Noia, J., Contento, I. R., & Prochaska, J. O. (2008). Computer-mediated
+intervention tailored on transtheoretical model stages and processes of change increases
+fruit and vegetable consumption among urban African-American adolescents. American
+Journal of Health Promotion, 22(5), 336-341.
+
+File, T. (2013). Computer and Internet Use in the United States. Current
+Population Survery Reports, P20-568. US Census Bureau, Washington, DC.
+
+Jacobson, R. E., & Jacobson, R. (Eds.). (2000). Information design. MIT press.
+
+Joyce, A. (2007). OECD study of OER: forum report. Retrieved from
+https://www.researchgate.net/profile/Alexa_Joyce2/publication/265183257_OECD_study
+_of_OER_forum_report/links/564b064e08ae9cd9c827cf5a.pdf on January 09, 2018.
+
+Lepore, T. (2010). Sketches and wireframes and prototypes! Oh my! Creating
+your own magical wizard experience. Retrieved from
+www.uxmatters.com/mt/archives/2010/05/sketches-and-wireframes-and-prototypes-ohmy-creating-your-own-magical-wizard-experience.php on January 09, 2018.
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+39
+
+Manganello, J. A., & Sojka, C. J. (2016). An Exploratory Study of Health
+Literacy and African American Adolescents. Comprehensive Child and Adolescent
+Nursing, 39(3), 221-239.
+
+McLuhan, M., & Fiore, Q. (1967). The medium is the message. New York.
+
+Meyer, K. (2016). Designing for Young Adults (Ages 18–25). Retrieved from
+https://www.nngroup.com/articles/young-adults-ux/ on November 26, 2017.
+
+Nielsen, J. (1995). 10 usability heuristics for user interface design. Nielsen
+Norman Group.
+
+Nielsen, J. (2011). Workflow expectations: presenting steps at the right time.
+Retrieved from https://www.nngroup.com/articles/workflow-expectations/ on January
+10, 2018.
+
+Paek, H.J. (2010). Adolescent Ehealth Literacy in Rural and Limited Media
+Environments. Paper presented at the National Conference on Health Communication,
+Marketing and Media.
+
+Pettersson, R. (2014). Information Design Theories. Journal of Visual
+Literacy, 33(1), 1-96.
+Riff, D., Lacy, S., & Fico, F. (2014). Analyzing media messages: Using
+quantitative content analysis in research. Routledge.
+
+Ritterband, L. M., Thorndike, F. P., Cox, D. J., Kovatchev, B. P., & GonderFrederick, L. A. (2009). A behavior change model for internet interventions. Annals of
+Behavioral Medicine, 38(1), 18.
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+40
+
+Ritzhaupt, A. D., Liu, F., Dawson, K., & Barron, A. E. (2013). Differences in
+student information and communication technology literacy based on socio-economic
+status, ethnicity, and gender: Evidence of a digital divide in Florida schools. Journal of
+Research on Technology in Education, 45(4), 291-307.
+
+Roseman, M. G., Riddell, M. C., & Haynes, J. N. (2011). A content analysis of
+kindergarten-12th grade school-based nutrition interventions: taking advantage of past
+learning. Journal of nutrition education and behavior, 43(1), 2-18.
+
+Sapire, I., & Reed, Y. (2011). Collaborative design and use of open educational
+resources: a case study of a mathematics teacher education project in South Africa.
+Distance Education, 32(2), 195-211.
+
+Schneiderman, B., & Plaisant, C. (1998). Designing the user interface.
+
+School Libraries. (2016). American Libraries, 47, 9-11.
+
+Spencer, R. A., Rehman, L., & Kirk, S. F. (2015). Understanding gender norms,
+nutrition, and physical activity in adolescent girls: a scoping review. International
+Journal of Behavioral Nutrition and Physical Activity, 12(1), 6
+
+Wantland, D. J., Portillo, C. J., Holzemer, W. L., Slaughter, R., & McGhee, E. M.
+(2004). The effectiveness of Web-based vs. non-Web-based interventions: a metaanalysis of behavioral change outcomes. Journal of medical Internet research, 6(4).
+
+Webb, T. L., Joseph, J., Yardley, L., & Michie, S. (2010). Using the internet to
+promote health behavior change: a systematic review and meta-analysis of the impact of
+theoretical basis, use of behavior change techniques, and mode of delivery on
+efficacy. Journal of medical Internet research, 12(1).
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+41
+
+Welz, K. (2017). School Librarians and Open Educational Resources Aid and
+Implement Common Core Instructional Content in the Classroom. Knowledge
+Quest, 45(4), 62.
+
+Wenger, E., McDermott, R., & Snyder, W. M. (2002). Seven principles for
+cultivating communities of practice. Cultivating Communities of Practice: a guide to
+managing knowledge, 4.
+
+Wodtke, C., & Govella, A. (2011). Information architecture: Blueprints for the
+Web. Pearson Education.
+
+Wurman, R. S., & Leifer, L., Dave, Whitehouse, Karen. (2001). Information
+anxiety 2. Que.
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+42
+
+Appendix A: Needs Assessment, eHealth Literacy Teaching Scale
+I would like to ask you for your opinion and about your experience using the Internet for
+health information. For each statement, tell me which response best reflects your opinion
+and experience right now.
+1. The internet is useful in helping me teach students to make decisions about
+their health.
+ Strongly Disagree
+ Disagree
+ Undecided
+ Agree
+ Strongly Agree
+2. It is important for my students to be able to access health resources on the
+internet.
+ Strongly Disagree
+ Disagree
+ Undecided
+ Agree
+ Strongly Agree
+3. I am confident in my ability to teach students where to find helpful health
+resources on the internet.
+ Strongly Disagree
+ Disagree
+ Undecided
+ Agree
+ Strongly Agree
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+43
+
+4. I am confident in my ability to teach students how to find helpful resources on
+the internet.
+ Strongly Disagree
+ Disagree
+ Undecided
+ Agree
+ Strongly Agree
+5. I am confident in my ability to teach students how to use the internet to answer
+questions about their health.
+ Strongly Disagree
+ Disagree
+ Undecided
+ Agree
+ Strongly Agree
+6. I am confident in my ability to teach students how to use the health information
+they find on the internet to help them make decisions.
+ Strongly Disagree
+ Disagree
+ Undecided
+ Agree
+ Strongly Agree
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+44
+
+7. I am confident in my ability to teach students to evaluate the health resources
+they find on the internet.
+ Strongly Disagree
+ Disagree
+ Undecided
+ Agree
+ Strongly Agree
+8. I am confident in my ability to teach students how to tell high-quality health
+resources from low-quality health resources on the Internet.
+ Strongly Disagree
+ Disagree
+ Undecided
+ Agree
+ Strongly Agree
+9. I am confident in my ability to teach students to feel confident in using
+information from the internet to make health decisions.
+ Strongly Disagree
+ Disagree
+ Undecided
+ Agree
+ Strongly Agree
+Thank you!
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+45
+
+Appendix B: Needs Assessment Results
+eHealth Literacy Needs Assessment for Teachers
+Q1 - Click to select the appropriate response.
+
+#
+
+1
+
+2
+
+3
+
+Str
+Neit
+on
+her
+Some
+Some
+Stro
+gly
+Agre
+Questio
+Disa
+what
+what
+Agr
+ngly
+To
+Di
+e
+n
+gree
+Disag
+Agre
+ee
+Agr
+tal
+sa
+nor
+ree
+e
+ee
+gre
+Disa
+e
+gree
+The
+internet
+is useful
+in
+helping
+me 5.8
+5.88
+0.00
+0.00
+11.76
+5.8
+70.5 1
+17
+teach
+8 1
+1
+0
+0
+2
+1
+%
+%
+%
+%
+8%
+9% 2
+students %
+to make
+decision
+s about
+their
+health.
+It is
+importa
+nt for
+my
+students
+5.8
+17.
+to be
+0.00
+0.00
+0.00
+0.00
+76.4 1
+8 1
+0
+0
+0
+0 65 3
+17
+able to
+%
+%
+%
+%
+7% 3
+%
+%
+access
+health
+resource
+s on the
+internet.
+I am
+confide
+5.8
+29.
+nt in my
+5.88
+0.00
+0.00
+17.65
+41.1
+8 1
+1
+0
+0
+3 41 5
+7 17
+ability
+%
+%
+%
+%
+8%
+%
+%
+to teach
+students
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+where to
+find
+helpful
+health
+resource
+s on the
+internet.
+I am
+confide
+nt in my
+ability
+to teach
+5.8
+0.00
+5.88
+0.00
+17.65
+students
+4
+8 1
+0
+1
+0
+3
+%
+%
+%
+%
+how to
+%
+find
+helpful
+resource
+s on the
+internet.
+I am
+confide
+nt in my
+ability
+to teach
+students
+how to 5.8
+0.00
+5.88
+0.00
+23.53
+5 use the
+0
+1
+0
+4
+8 1
+%
+%
+%
+%
+internet %
+to
+answer
+question
+s about
+their
+health.
+I am
+confide
+nt in my
+ability 0.0
+5.88
+11.76
+5.88
+11.76
+6 to teach
+0 0
+1
+2
+1
+2
+%
+%
+%
+%
+students %
+how to
+use the
+health
+
+46
+
+23.
+47.0
+8
+53 4
+6%
+%
+
+17
+
+29.
+35.2
+6
+41 5
+9%
+%
+
+17
+
+29.
+35.2
+41 5
+6
+9%
+%
+
+17
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+informat
+ion they
+find on
+the
+internet
+to help
+them
+make
+decision
+s.
+I am
+confide
+nt in my
+ability
+to teach
+students
+to 5.8
+0.00
+11.76
+5.88
+5.88
+7 evaluate
+0
+2
+1
+1
+8 1
+%
+%
+%
+%
+the %
+health
+resource
+s they
+find on
+the
+internet.
+I am
+confide
+nt in my
+ability
+to teach
+students
+how to
+tell 5.8
+0.00
+11.76
+5.88
+11.76
+8
+high8 1
+0
+2
+1
+2
+%
+%
+%
+%
+quality %
+health
+resource
+s from
+lowquality
+health
+resource
+
+47
+
+47.
+23.5
+4
+06 8
+3%
+%
+
+17
+
+29.
+35.2
+41 5
+6
+9%
+%
+
+17
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+s on the
+Internet.
+I am
+confide
+nt in my
+ability
+to teach
+students
+to feel
+confide
+5.8
+0.00
+11.76
+0.00
+17.65
+nt in
+8 1
+9
+0
+2
+0
+3
+%
+%
+%
+%
+using
+%
+informat
+ion from
+the
+internet
+to make
+health
+decision
+s.
+
+17.
+47.0
+65 3
+8
+6%
+%
+
+48
+
+17
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+49
+
+Q2 - Please indicate how you would most prefer to learn about teaching eHealth
+literacy, technology literacy, and behavior change communication.
+
+#
+
+Answer
+
+% Count
+
+1
+
+attending a series of one-hour, interactive workshops with a
+64.71%
+school librarian
+
+11
+
+2
+
+completing a series of one hour, recorded videos 11.76%
+
+2
+
+3
+
+completing self-paced modules with videos and assessments 64.71%
+
+11
+
+4
+
+reading assigned academic articles 35.29%
+
+6
+
+Total
+
+100%
+
+17
+
+Q3- Additional comments or suggestions?
+Additional comments or suggestions?
+These are important skills.
+I would prefer this as an online training opportunity. Evaluating information sources on
+the internet is timely.
+A Coursera class or something similar would be great!
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+50
+
+Appendix C: Week 1 Content Prototypes
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+51
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+52
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+53
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+54
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+55
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+56
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+57
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+58
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+59
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+60
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+61
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+62
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+63
+
+Video Tutorial for Using Pinterest
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+64
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+65
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+66
+
+Appendix D: User Testing Tasks Script
+Welcome and Purpose
+Thank you so much for coming in today. I want to give you a little information about
+what you will be looking at and give you time to ask any questions you might have
+before we get started. Today we are asking you to serve as an evaluator of a course
+website and to complete a set of tasks. Our goal is to see how easy or difficult you find
+the site to use.
+Test Facilitator’s Role
+I am here to record your reactions and your successes and/or failures in completing tasks
+related to the website you will view. During this session, I would like you to think aloud
+as you work to complete the tasks. I will be able to offer suggestions or hints if needed. I
+may also ask you to clarify what you have said or ask you for information on what you
+were looking for or what you expect to have happened.
+Test Participant’s Role
+Today I am going to be asking you to look for some information on the site and tell me
+how easy or difficult it was to find the information. These activities are all about how
+easy we have made it for people to use the site. There is no right or wrong answer. If you
+have any questions, comments or areas of confusion while you are working, please let me
+know. If you ever feel that you are lost or cannot complete a task with the information
+that you have been given, please let me know. I will ask you what you might do in a realworld setting and then either put you on the right track or move you on to the next
+scenario. As you use the site, please do so as you would at home or your office. I would
+ask that you to try work through the tasks based on what you see on screen, but if you
+reach a point where you are not sure where or how to find something, please feel free to
+use ‘Search’.
+I may ask you other questions as we go and we will have wrap-up questions at the end.
+Do you have any questions before we begin?
+Tasks
+1.
+Before you enroll in the course you want to learn more about it.
+a) How much of a time commitment will the course require?
+b) Where would you go to find more specific information about coursework and
+assignments?
+c) Where would you go to find general information about the course?
+d) You are a new user. How would you register for the course?
+e) You are a returning user. How would you pick up where you last left off?
+f) Where would you find information about what previous course attendees have to
+say about the course?
+2.
+
+Please navigate through Week 1, Course Introduction.
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+67
+
+Appendix E: Common Design Suggestions
+Nielsen’s Ten Usability Heuristics (Nielsen, 1990)
+1.
+Visibility of system status. Keep users informed of what’s happening by
+providing actionable and timely feedback.
+2.
+Match between the system and the real world. Speak the user’s language by
+using familiar words, phrases, and concepts. Avoid system-oriented terms.
+Information should be natural and logically organized.
+3.
+User control and freedom. Users will inevitably choose a function by mistake.
+Provide an out that will allow users to avoid too much hassle. Undo and redo
+options work well.
+4.
+Consistency and standards. Follow conventions so users don’t question if
+different words or actions mean the same thing.
+5.
+Error prevention. Good design prevents problems from occurring. Get rid of
+situations that easily generate errors and allow users to confirm actions before
+they commit to them.
+6.
+Recognition rather than recall. People generally have trouble remembering
+things—make things easier by making actions and options clearly visible.
+Don’t force users to remember information across dialogs. Provide visible,
+easily retrievable instructions
+7.
+Flexibility and efficiency of use. Allow shortcuts, or accelerators, for expert
+users. Allow users to customize actions.
+8.
+Aesthetic and minimalist design. Get rid of any irrelevant or rarely used
+information.
+9.
+Help users recognize, diagnose, and recover from errors. Use plain language
+to express error messages. Tell the problem, directly, and provide a solution.
+10.
+Help and documentation. Design like you won’t need help documentation, but
+provide it anyway. Help guides should be searchable, task-oriented, and list
+concrete steps.
+Schneiderman’s Eight Golden Rules of Interface Design (Schneiderman, 1998)
+1.
+Strive for consistency.
+2.
+Allow frequent users the option to use shortcuts.
+3.
+Offer informative feedback.
+4.
+Design dialog to yield closure.
+5.
+Offer simple error handling.
+6.
+Permit easy reversal of actions.
+7.
+Support internal locus of control.
+8.
+Reduce short-term memory load.
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+68
+
+Appendix F: Personas
+
+Persona 1. Felicity Mills
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+69
+
+Persona 2. Jamie Woodard
+
+© 2017 McGowan, Bethany
+
+A Collaborative Approach to Improving Adolescent eHealth Literacy
+
+70
+
+Persona 3. Sarah Slater
+
+© 2017 McGowan, Bethany
+
+

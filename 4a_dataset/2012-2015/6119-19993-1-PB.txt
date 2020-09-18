@@ -1,0 +1,402 @@
+DESIDOC Journal of Library & Information Technology, Vol. 34, No. 4, May 2014, pp. 317-324 DOI: 10.14429/djlit.34.6119 
+  2014, DESIDOC 
+Manipal University Digital Repository: A Study 
+Rekha D. Pai* and Sagender Singh Parmar** 
+*Department of Library & Information Science and Central Library, MIT, Manipal University, Manipal-576 104 
+E-mail: rekha.pai@manipal.edu 
+**Manipal Centre for Natural Sciences, Manipal University, Manipal-576 104 
+E-mail: sagenderparmar@gmail.com 
+AbStRAct 
+The  information  and  communication  technology  has  given  various  ways  of  storing  and  providing  scientifc  information  to  the  libraries. A  digital  collection  maintained  by  the  university  or  an  academic  institution to capture and preserve the intellectual output of its staff and faculty members is called as an  institutional repository (IR). The concept of maintaining the IR by academic libraries for the information  created  by  an  institution  in  the  form  of  conference  articles,  journal  articles,  audio-video  lectures,  educational powerpoint presentations, books, patents, etc., is one such way to provide the institutional  scientifc information openly (with some restriction for the copyrighted articles). The IR has been given  a new role to the librarians to be a part of creation of information apart from storing and dissemination  of information. Manipal Usniversity (MU) has used EPrints open source software to maintain its IR. This  paper describes the elaborative study on Manipal University Digital Repository (MUDR) and its collection  growth. Some suggestions that can be implemented to improve the strength and visibility of MUDR are  presented, which can be equally applicable to any institutional repository.   
+Keywords: Manipal university, institutional repositories, EPrints, open-source software  
+1.  IntRoDUctIon 
+Libraries have always adapted themselves and  experimented with new technology developments to  preserve the information and provide better services  to  their  users.  The  advancement  in  information  and  communication  technology  (ICT)  has  brought  tremendous  changes  in  the  function  and  service  of  libraries.  The  growth  in  ICT  has  given  various  method  to  the  libraries  to  create,  store,  maintain,  access,  preserve  and  disseminate  the  information  to  their  users1.  The  concept  of  IR  is  one  of  such  methods developed by academic libraries to preserve  the  scientific  inputs  of  their  institution.  This  has  helped  the  libraries  to  become  the  creator  of  the  information  apart  from  storage  and  dissemination.  Today,  where  Google  can  store  and  index  major  portion  of  the  information,  the  role  of  IRs  cannot  be  neglected  as  the  information  created  by  an  institution  in  the  form  of  conference  articles,  some  copyrighted  journal  articles,  audio-video  lectures,  educational power point presentations, etc., can be  searched  and  accessed  through  IRs  only. 
+Dr  S.R.  Ranganathan’s  five  laws  of  library  science enforce on the thought of providing the right  information to the right users on right time by making  the  document  available  to  the  user  irrespective  of  users and the place of the document. The Budapest  
+Received 7 February 2014, Online published 9 July 2014 
+open  access  initiatives  transformed  and  magnified  the  thought  put  forward  by  Dr  S.R.  Ranganathan  in  a  small  meeting  convened  in  Budapest  Open  Society  Institute  during  1-2  December  2001.  The  idea  behind  that  meeting  was  to  make  available  the  research  literature  of  all  academic  fields  on  the  internet  free  of  cost.  
+Budapest  efforts  have  blessed  the  world  with  wonderful  open  source  solutions  in  the  name  of  open  access  both  for  information  retrieval  and  management. The IR is also a part of open access  initiative2. 
+2.  RevIew  of  LIteRAtURe 
+The literature was reviewed, having three main  objectives: 
+• To understand the basic concept of IRs, its role  
+and  development 
+• To investigate knowledge, practice and opinions  
+about  the  IR  from  the  institutions  having  IRs • EPrints  open  source  software 
+Relevant  literature  on  all  three  aspects  were  consulted. 
+Institutional repository  ( IR) contains the various  scientific outputs of the institution. Usually a library  holds  an  institutional  collection,  and  hence  IR  is  
+
+========1========
+
+DJLIT,  VOL.  34,  NO.  4,  JULy  2014 
+maintained by the libraries. A repository may also be  an instrument of the institution to publish its output.  The IRs give a single platform to the users to search  the  scientific  inputs  of  the  institution.  It  could  be  a  journal  article,  book,  book  chapter,  monograph,  conference paper, audio-video lecture, etc. In short,  institution can preserve and disseminate the worthy  scientific information with its user community through  IR. According to Clifford Lynch3  “A university-based  IR  is  a  set  of  services  that  a  university  offers  to  the members of its community for the management  and  dissemination  of  digital  materials  created  by  the  institution  and  its  community  members.  It  is  most  essentially  an  organisational  commitment  to  the stewardship of these digital materials, including  long-term  preservation  where  appropriate,  as  well  as  organisation  and  access  or  distribution”. 
+The  objective  of  the  IRs  depends  on  the  goal  of  institution  maintaining  it.  Some  of  the  main  objectives  of  IR4   are  to: 
+• Provide the institutional research work through  
+a  single  platform 
+• Provide open access to the institutional research  
+output 
+• Enhance  the  visibility  for  both  institution  and   
+institutional  research  work 
+• Enrich  the  access  to  the  research  literature • Help the researcher to find out the gap by making  
+available  the  grey  literature  beforehand4. 
+In the recent time the implementation of IRs and  the publication on IRs has grown rapidly. Narayana5,  et  al.   in  their  article  have  pointed  out  the  role  of  internet  which  has  given  tremendous  opportunity  to  make  research  result  available  through  digital  communication  to  anyone  at  anytime,  anywhere  in  the  world.  They  have  conducted  case  study  on  National  Aerospace  Laboratory’s  IR  which  has  included  the  repositories  of: Information  Centre  at  NAL (www.icast.org.in) and NAL-IR (www.nal-ir.nal. res.in)  
+within  NAL).  The  Aerospace  Center  is  planning  to  move  to  DSpace  for  archiving  and  maintaining  the  NAL-IR.  The  metadata  harvesting  facility  is  still  in  experimental  stage. 
+Hashim & Rashid6  conducted a research with the  purpose  of  identifying  the  strength  and  limitations  of open access repositories. For their research they  have taken five web-based open access repositories,  using pre-defined standard parameters. They found  that the repositories are credible and are equipped  with rich sets of functionalities to facilitate depositing,  accessing  and  retrieving  scholarly  materials. 
+Thorat7, et al.   discussed  the  concept  of  IR,  its  need,  merits,  software  requirements,  benefits  and  the current trends in India, to propose an IRs model  for  Bharati  Vidyapeeth  Deemed  University,  Pune.  They have studied 42 repositories in India, which are  listed  by  open  DOAR  and  run  by  various  types  of  organisations such as universities, institutes, research  organisations,  government  and  non-government  organisations,  etc.  They  have  studied  the  various  repositories  considering  repository  software  used,  repository type, the operational status of the repository,  content  types  in  the  repository,  languages,  subject  area, meta-data reuse policy, recorded (full-text) data  reuse  policy,  recorded  content  policy,  submission  policy,  preservation  policy,  year-wise  growth  in  the  number  of  repositories,  etc.  They  found  that  the  increase  in  the  number  of  repositories  in  India  is  satisfactory.  There  is  a  number  of  open  source  software available for building repositories. It is found  that 64 % of organisations uses DSpace, 29 % use  EPrints  and  21  %  use  Nitya,  remaining  are  using  unknown software in India. They have proposed the  DSpace for the creation of IR for Bharati Vidyapeeth  Deemed  University  and  the  project  is  named  as  DnyanBharati. 
+Jayakanth8,  et  al.   have  shared  their  NCSI’s  (National Center for Science Information) experiences  in  creating  and  maintaining  the  open-access  IR  of  IISc  (Indian  institutes  of  science,  Bangalore)  using  
+open  archive  software  (version  EPrints  2.3.6).The  staff  of  the  information  center  are  collecting  the  documents  available  both  in  soft  copy  and  hard  copy  form  and  uploading  them  to  IR.  Training  is  provided to scientific staff so that they can contribute  their  publications  and  other  documents  directly  to  IR  by  themselves.  The  high-end  scanners  with  back  to  back  and  batch  mode  facility  have  been  
+GNU  EPrints.org  software.  EPrints@IISc  (http:// They found that NAL-IR has used GNU EPrints  
+EPrints.iisc.ernet.in)  setup  by  IISc  is  the  India’s  
+first  interoperable,  open-access  IR.  Since  early  2002, NCSI has been using this software. With the  passage of the time as per the requirement certain  amount  of  customisation  and  value  additions  to  the  software  has  been  done  by  NCSI  to  meet  the  local  requirements.  The  repository  is  hosted  on  a  Terabyte  server  running  on  the  latest  version  of  
+Red  Hat  Enterprise  Linux.  The  GNU  EPrints.org  deployed in Aerospace laboratories to facilitate the  
+software  version  2.3.13.1  is  being  used.  In  their  
+digitisation job more specifically for the documents  published  earlier. 
+In  their  study,  they  found  that  between  15th January  to  25th   June,  2006,  more  than  13,500  
+study,  they  found  that  GNU  EPrints.org  software  is  an  excellent  tool  for  creating  and  maintaining  OAI-compliant  repositories. 
+Pai9   has  elaborated  the  initial  stage  of  MUDR  
+recorded  (statistics  do  not  include  the  downloads  
+downloads  to  the  full-text  of  NAL-IR  has  been  
+started by Manipal University, Manipal. It has used  
+318 
+the  OSS  Eprints  for  their  repository  creation.  She  
+
+========2========
+
+PAI  & P ARmAR: mANIPAL  U NIvERsITy DIGITAL  R EPOsITORy 
+has lined up the workflow of uploading the article in  an mUDR. According  to  which  the  faculty  member  will  submit  the  document  to  the  library  as  per  the  instructions  and  then  library  staff  will  upload  the  article  on  his/her  behalf.  Finally,  librarian  will  move  the  document  to  the  repository  after  proper  verification. She has simultaneously mentioned the  areas where libraries can implement OSS like: Library  management systems, digital libraries, e-publishing,  etc.  She  has  concluded  stating  that  the  digital  repository  of  MU  is  definitely  going  to  be  of  great  use  to  the  academic  community  all  over. 
+Kumar10  has discussed IRs in India giving reference  to  Indian  Institute  of  Management,  Lucknow  (IIML)  which is using Green Stone software for creation of  digital repositories. IIML has started its repository in  2007 which is accessible on the intranet. They have  restricted the browsing and downloading within the  campus. The IIML is planning to open its repository  for  public  access  and  will  start  uploading  faculty  thesis  and  dissertations.  He  strongly  stated  that  IR  is  a  most  powerful  tool  to  publish  and  provide  the  useful  services  among  the  community  of  the  institution. 
+All these articles, chapters and studies indicate  
+• Find out the total number of publications, document  
+types  in  which  the  collection  is  available  in  
+MUDR. 
+The  terms  used  in  the  study  means:  Digital– Relating  to,  using,  or  storing  data  or  information  in the form of digital signals12, Repository–A place,  building, or receptacle where things are or may be  stored12, study–A detailed investigation and analysis  of  a  subject  or  situation12. 
+4. MAnIpAL   Un IveRSIty  DIgItAL 
+RepoSItoRy 
+The  MUDR  is  an  IR  for  the  Manipal  University  institutions.  This  runs  on  EPrints,  open  source  software.  The  research  output  created  by  the  MU  faculty, students, and staff community are preserved  and  disseminated  in  digital  form  through  MUDR.  The institute community can deposit their pre-prints;  post  prints  and  other  scholarly  publications  using  a  web  interface.  The  MUDR  helps  to  organise  these  publications  for  easy  retrieval.  Presently,  the  university  offers  the  access  up  to  the  abstract  level  to  the  copyrighted  documents.  The  provision  of requesting a copy of the full-text is available via  e-mail.  The  EPrints  at  MU  repository  is  accessible  
+merits, demerits, etc. But as the MUDR was recently  
+that  a  considerable  work  has  been  carried  out  by  
+over  the  internet.  The  submission  of  documents  different  institutions  on  IRs  using  different  open  
+to  this  repository  is  limited  to  the  MU  community  source software available. There is sufficient literature possible  way  for  the  researchers  to  publish  their  
+only13.  This  repository  has  emerged  as  a  best  to understand the IR concept, presenting deep and  
+exhaustive  studies  on  its  history,  developments,  
+scholarly work and make it accessible to the fellow  
+research  community. 
+The EP3.2.7 version of GNU EPrints.org software  
+be  pertinent  for  carrying  out  a  study  on  MUDR. 
+developed  in  the  year  2011,  there  is  no  article,  
+chapter or study that has been made to understand  
+is  used  by  MU  to  develop  their  repository,  which  its  progress,  development,  growth,  its  impact  on  
+is  a  freely  distributable  archive  system  available  Manipal University literature. Thus, this literature will University  of  Southampton,  England14. 
+from EPrints.org. This software is developed by the  
+3.    ob Ject IveS 
+This study may serve as a preliminary guide for  those  (faculty,  staff,  student  of  Manipal  University)  who  want  to  understand  the  concept  of  digital  repositories  and  want  to  become  a  part  of  this  element  of  Manipal  University  (MU)  on  the  way  to  digital  libraries.  This  study  may  also  go  to  serve  as  a  baseline  study  that  can  be  used  over  time  to  assess  the  development,  impact,  and  viability  of  Manipal  University  Digital  Repository  (MUDR)  in  later  studies.  Formerly  Manipal  University  was  known  as  manipal  Academy  of  Higher  Education  (mAHE), branded as manipal University is a deemed  university  located  in  Manipal,  Karnataka,  India11. 
+The  specific  objectives  of  this  study  are  to:  •   s tudy the EPrints software used in the creation  
+of  the  MUDR 
+• Know  the  document  deposit  procedure  in  
+MUDR 
+The MUDR maintains the collection of documents  from  the  three  campuses  of  MU,  i.e.,  Bangalore,  Mangalore, and Manipal. The administrative control of  the MUDR is with all the libraries of three campuses  of  MU.  The  list  of  libraries  includes: 
+• Health  sciences  Library,  manipal 
+• Health  sciences  Library,  mangalore 
+•   m anipal  Institute  of  Technology  (mIT)  Central  
+Library 
+• Welcome  Group  school  of  Hotel  management  
+(WGsHA)  Library 
+•   s chool  of  Communication  (sOC)  Library •   s chool  of management  (sOm)  Library •   m anipal  Centre  for  Philosophy  and  Humanities  
+(mPH)  Library 
+•   m anipal  Centre  for  Natural  sciences  (mCNs)  
+Library 
+Each  library  is  responsible  for  depositing  the  documents  of  their  institution.  Library  staff  and  
+319 
+
+========3========
+
+DJLIT,  VOL.  34,  NO.  4,  JULy  2014 
+the  authors  both  are  responsible  to  maintain  the  copyright  policies  of  the  publishers.  The  visibility  of  copyrighted  articles  is  channelised  through  the  concerned library. However, open access documents  can  be  accessed  directly  from  the  repository. 4.1  Interface  of  MUDR 
+The MUDR can be accessed via the MU website  (Fig. 1) and can also be approached on the intranet  by logging to mU library’s webpages. At present, KmC  Health sciences Library, manipal; manipal Institute of  Technology-Central Library; and Manipal Centre for  Natural Sciences (MCNS), library has given links to  MUDR through their webpages. This is accessible on the  intranet of MU and by selecting the library (Fig. 2). 
+4.2  Document  Uploading  procedure 
+Presently, MU has given the right of submission  of  documents  to  the  librarian/library  staff.  The  willing  faculty  member  of  MU  can  submit  his/her  document  as  per  the  guidelines  and  conditions  (available  on  MUDR)  of  the  MU  through  the  mail.  Then  these  will  be  uploaded  to  the  repository  by  concerned  library  and  notification  will  be  sent  to  the  concerned  person.  One  can  reach  the  home  page of EPrints at http://www.manipal.edu or http:// eprints.manipal.edu. 
+Figure  3  shows  the  five  steps  in  uploading  the  document  in  EPrints: 
+figure 1. Access to eprints under ‘Research’ option on the Manipal University website. 
+figure 2. Manipal University Digital Repository (MUDR) interface. 
+320 
+
+========4========
+
+PAI  & P ARmAR: mANIPAL  U NIvERsITy DIGITAL  R EPOsITORy 
+figure 3. Uploading steps of article in eprints. 
+Once a user (library staff) completes uploading  of  the  article  then  the  administrator  (Librarian)  will  review  the  item  deposited,  by  using  administrator  password.  By  checking  the  correctness  of  all  the  fields  entered,  he  can  move  the  document  to  the  repository. The entry will be visible on IR collection  after 24 hours, as it has to be indexed by websites-  Google,  Google scholar,  and  OAIster. 
+4.3  MUDR  collection 
+Institution-wise  collection  in  MUDR  as  on  6  February  2014  is: 
+table 1. Institution-wise collection in MUDR  
+Subject Allied Health  
+Institution-wise  mCOAHs, Bangalore  
+collection 
+15 
+sOAHs, manipal 
+314 
+mCOAHs, mangalore  
+119 
+Architecture  Communication  Dentistry  
+Engineering  
+msAP, manipal SOC, Manipal MCODS, Mangalore  MCODS, Manipal MMMC, Melaka  MIT, Manipal 
+13 
+53 552 458 
+05 1404 
+European Studies  
+MCES, Manipal 
+07  
+Health sciences  
+KMCIC  
+51 
+Hotel management  
+WGsHA, manipal 
+61 
+Humanities  
+mCPH, manipal 
+32  
+Information Sciences MCIS, Manipal 
+18 
+Life Sciences  
+MLSC, Manipal 
+281 
+MU Libraries  
+Health sciences  Library,  Manipal MIT Library, Manipal 
+29 
+05 
+Management  
+MIM, Manipal T. A. Pai management  Institute  
+24 02  
+Medicine  KMC, Mangalore  
+KMC, Manipal 
+MMMC, Melaka  
+MMMC, Manipal Nursing  SON, Bangalore  
+SON, Mangalore  
+MCON, Manipal Pharmacy  MCOPS, Manipal Regenerative  MIRM, Bangalore  Medicine  
+Departments at MU  Atomic molecular  
+Physics  
+Geopolitics and  
+International Relations  
+Library and  
+Information Science  
+Manipal Centre for  
+Natural Sciences  
+(MCNS) 
+Manipal Centre for  
+Virus Research  
+Public Health  
+Statistics  
+Sciences 
+total      
+1121 2301 
+18 399 
+03  
+10  218 927 
+66 
+56 
+65 
+39 
+39 
+04  
+06 104 
+01 7831 
+4.4 Document-wise  MUDR collection 
+Document-wise  collection  in  MUDR  as  on  6th February  2014  is: 
+table 2. Document-wise collection in MUDR Documents collection  Article  6800 Book  21 Book section  86 Conference or workshop item  810 Teaching resource  03  Thesis  76  Video  35  Monograph 04 Patent 02 
+5.    A nALySIS AnD   S UggeStIonS 
+After studying the mUDR following suggestions are  offered as a guide to MU for their digital repository  development,  which  can  be  equally  applicable  to  any  IR:  
+(a) Enhancing  the self-Archiving 
+The  concept  of  self-archiving  by  authors  (academicians/ researchers) has to be promoted. At  present, only the administrators have the authority to  deposit the materials in the IR. The best practice methods  
+321 
+
+========5========
+
+DJLIT,  VOL.  34,  NO.  4,  JULy  2014 
+such as seminars, workshops and tutorials should be  conducted to make authors more comfortable with the  repository, which will mobilise the scholarly content. (b) Promotion  and  marketing  of  IR 
+The MU library professionals have to adopt certain  awareness programme in making the academicians  and researchers aware of the benefits of IR. During  the study it was found that MU has promoted digital  repository through mU portal. However, mU website  (www.manipal.edu)  is  also  used  to  provide  access  to  its  repository.  This  is  definitely  increasing  the  awareness of the institution’s repository. Librarians  can use ways like handouts, brochures or pamphlets  to  market  and  promote  the  repository  among  their  user  community. 
+(c) Awareness  about  Rss   feed 
+to  stand  out.  A  logo  can  be  a  very  important  
+tool  to  differentiate  the  service  from  other  at  
+first  glance  than  virtually  anything  else15. 
+Having  a  separate  logo  for  IR  will  give  the  ability  to  the  MUDR  to  be  separate,  to  be  easily  identified  by  users. 
+figure 4. Suggested sample logos16  for the MUDR. 
+(e) Separation  of  other  campus  departments 
+The  departments  of  Mangalore  and  Bangalore  
+The  facility  of  RSS  (Really  Simple  Syndication  
+or  Rich  Site  Summary)  feed  is  available  in  MUDR.  
+campuses are together listed in the same sequence  Programme need to be developed to create awareness  
+with  Manipal  campus.  This  creates  confusion  and  among its users for RSS feature. This will provide a  
+disturbs the listing of the departments of a particular  way to MUDR to reach to the email ids/web browsers  
+campus. The user has to scroll through all department  of  the  users.  So  that  the  information  regarding  
+lists  to  find  out  his  campus  department.  It  is  also  every newly added documents to the repository can  
+difficult to know the total collection of those campuses  be  brought  into  the  notice  of  users  of  the  library,  
+other  than  manipal  with  a  glance.  Hence  there  is  which can also be viewed/used by the user through  
+a  need  to  separate  the  page  campus  wise  and  his/her  ID  itself.  These  will  definitely  increase  the  
+to  provide  links  to  various  departments  of  those  
+campuses. 
+usage  of  documents  of  the  MUDR. 
+(d) MUDR  logo 
+Humans  place  a  great  amount  of  reliance  on  
+(f) E-mail  configuration 
+In MUDR, access is restricted to the copyrighted  
+their  sense  of  sight.  For  that  simple  reason,  logos  
+articles.  Though  the  facility  of  requesting  of are  considered  the  most  important  component  of  full-text  article  is  available  in  the  software,  it  is  
+a  branding  strategy  of  any  product.  A  logo  is  the  
+not configured. Hence, the user cannot request the  
+identifying  element  of  the  brand  for  a  company,  copy of the full text of an article, which is useful for  business, and product designed to create immediate  him. The  e-mail  ids  through  which  one  can  ask  for  recognition  by  the  viewer.  Individuality  and  the  full-text  are  not  active.  The  MU  can  think  to  open  uniqueness of a logo are necessary to avoid confusion  this  service  at  least  for  their  own  community,  so  among  users.  Developing  a  logo  for  the  repository  that  information  preserved  through  repository  will  will give a separate identity and uniqueness to this  
+be  used  by  its  users. 
+service  of  the  university. 
+The  reasons  for  importance  of  logo  are:  • Representation–As we remember people by their  
+faces, the logo can be for IR. A good logo can  
+give  an  image  and  appeal  to  the  IR  that  other  
+awareness  programs  cannot  provide. • Remembrance–Human  being  is  the  creature  
+(g) MUDR  registration 
+There  are  a  number  of  resources  which  allow  cross-searching of collections of IR. The MU should  think  of  registering  its  digital  repository  into  those  resources after a valuable analysis of them. Following  are  some  of  the  web  places  were  registration  can  
+17 
+that  tends  to  remember  logos  better  than  the  
+be  done . 
+• Association of Learned and Professional society  
+• 
+names,  as  good  logo  will  often  be  easier  to  remember  than  the  name.  Faculty  member  of  the  university  will  use  the  logo  given  to  IR  to  
+• remember  the  repository  service  provided  by  
+• that  university. 
+Uniqueness–In  an  environment  where  the  university  is  providing  various  services  to  its  
+• 
+• 
+Publishers  (ALPsP)  
+BAsE  (Bielefeld  Academic  search  Engine)  Guide  to  Electronic  Theses  and  Dissertations  OAIster 
+OpenDOAR  (Directory  of  Open Access 
+family member, a good logo will help the service  
+        Repositories)  
+322 
+
+========6========
+
+PAI  & P ARmAR: mANIPAL  U NIvERsITy DIGITAL  R EPOsITORy 
+• Repository66  map  
+•   s PARC  Repository  Resources  
+• WorldWidescience.org  
+• ROAR (Registry of Open Access Repositories) 
+(h) Assessment  methods  to  measure  success  of  
+a  repository 
+After  a  considerable  study,  it  was  found  that  
+6.    c oncLUSI onS 
+A  resourceful  library  can  be  created  by  using    IR  and  the  MU  has  realised  their  importance  and  usefulness  of  IR  being  a  reservoir  of  faculty  literature.  
+Text cannot live without communities of readers.  A text resting in a repository is no exception to this  rule18.  So,  it  is  time  for  MU  librarians  to  appraise  
+there is no feature in the EPrints software used by  
+faculties and students the importance of repository  MU  to  measure  the  success  rate  of  the  deposited  
+in  teaching  and  research.  Librarians  should  take  document.  Such  type  of  analysis  will  help  to  know  
+the  opportunity  to  organise  information  literacy  where  the  repository  stands  and  also  will  give  an  
+programs to spread the knowledge of the repository.  idea  about  the  field  where  libraries  can  focus  for  
+In  addition,  repository  software  should  also  be  improvement. It also gives the data to find how far the  
+constantly  updated,  and  customised  to  meet  the  repository has been successful both in terms of the  
+library's  and  the  user’s  needs.  While  at  present  
+the  MUDR  looks  fine  and  dandy,  and  sounds  like  
+collection  and  its  awareness  among  the  users. (i) Option  to  save  searched  document 
+If  MU  wishes  to  follow  the  present  method,  then  
+the win-win solution to preserve faculty information.  There  are  still  pitfalls  and  hurdles  MU  libraries  
+The  facility  is  available  in  the  EPrints  software  
+need  to  overcome. 
+where  a  user  can  save  the  documents  he/she  has  
+“In  an  institution,  man  may  come,  a  man  may  searched for future reference/use. But to avail that  
+go,  but  his/her  knowledge  has  to  be  preserved  by  facility,  user  has  to  log  in  to  the  MUDR,  which  is  
+libraries  for  both,  to  remember  his/her  contribution  at  present  not  allowed  except  for  administrators.  
+and  to  see  that  it  should  be  used  by  present  and  
+future  generation”. 
+it  should  think  to  add  new  features  to  the  EPrints  
+software,  which  can  be  used  to  save  the  searched  
+RefeRenceS 
+1. 
+documents. 
+(j)  mUDR App  development 
+As  today  student  and  faculty  are  e-savvy. mU  can  develop  an  app  for  its  digital  repository.  It  can  develop  the  mobile  application  for  its  digital  repository.  This  will  help  to  bring  the  repository  collection  more  close  to  its  users  and  even  gives  
+a  proud  feeling  for  the  author  whose  documents  2. 
+are  included  in  the  repository.  An  app  which  will  provide  a  direct  link  to  EPrints  will  definitely  save  the  user  time. 
+After creation of application mU has to make it  available either on any of the web options like Google  play, Amazon Appstore, Android  Tapp,  PocketGear  
+3. 
+or  can  distribute  it  separately  to  the  user  through  
+4. 
+proper  channel.  
+After  downloading  the  app,  one  can  click  on  
+to  the  home  page  of  the  app.  The  app  page  may  display  the  options  like: 
+• About  
+• Contact  
+• How  to  deposit  
+• Request  for  copy,  etc.  
+These  options  are  just  an  example  and  may  differ  with  the  creations  of  the  app.  The  touch  on  the  link  option  in  the  phone  will  directly  link  the  user  to  the  MUDR  website,  and  user  need  not  to  visit  the  website  of  MU  to  reach  to  MUDR  or  has  to  type  the  URL  of  MUDR. 
+the  icon  of  the  repository,  which  will  lead  him/her  
+5. 
+6. 
+7. 
+Gupta,  Sushma;  et  al .  Institutional  digital  repositories in India: Growth and development.  In   ILA  2013:  Next  Generation  Libraries:  New  Insights  and  Universal  Access  to  Knowledge.  Paper  presented  at  the  58th   Indian  Library  Association  International  Conference,  27-29  February 2013, Dharwad. Karnataka University,  Dharwad,  2013.  pp.  462-71. 
+Sawant, Sarika. Institutional repository initiatives in  India: A status report. sNDT Women’s University,  September  2009.  PhD  Thesis.  248  p.  http:// shodhganga.inflibnet.ac.in/handle/10603/4603/. Bailey,  Charles  W.  Institutional  repositories,  tout  de  suite.  http://digital-scholarship.org/ts/ irtoutsuite.pdf/. 
+Wikipedia.  Objectives.  https://en.wikipedia.org/ wiki/Institutional_repository/  (accessed  on  5  December  2013). 
+Narayana, Poornima; et al. Institutional repositories  in  India:  A  case  study  of  National  Aerospace  Laboratories. In  Digital Libraries: Achievements,  Challenges and Opportunities, edited by Shigeo  sugimoto,  Jane  Hunter,  Andreas  Rauber  &  Atsuyuki  morishima.  springer,  2006,  533-34.  http://nal-ir.nal.res.in/9046/1/. 
+Hashim, Tabasum & Tariq, Rashid Jan. Institutional  repositories: An evaluative study. Trends Inf. Manag., 2011, 7(2), 229-36. http://www.inflibnet.ac.in/ojs/ index.php/TRIM/article/viewFile/1257/1138/. Thorat,  Shivraj  V.  &  Patil,  S.K.  Institutional  repository:  A  proposed  model  for  Bharati  Vidyapeeth,  Deemed  University,  Pune.  In 
+323 
+
+========7========
+
+DJLIT,  VOL.  34,  NO.  4,  JULy  2014 
+CALIBER-11:  Towards  Building  a  Knowledge  
+Society:  Library  as  Catalyst  for  Knowledge  
+Discovery and Management. Paper presented at  
+the 17th  International Convention on Automation  
+of  Libraries  in  Education  and  Research,  2-4  
+March  2011,  Goa.  Goa  University,  Goa,  2011,  
+pp.  330-41.  http://ir.inflibnet.ac.in/bitstream/ 
+handle/1944/1625/34.pdf?sequence=1/. 
+8. Jayakanth, Francis; et al . Eprints@IISc: India’s  
+first and fastest growing institutional repository.  
+OCLC  Syst.  Serv.:  Int.  Digit.  Lib.  Pers.,  2008,  
+24(1), 59-70. http://EPrints.iisc.ernet.in/13075/1/ 
+OCLC_Sys_Serv_2401.pdf/. 
+9. Pai,  Rekha  D.  Digital  repository  using  open  
+source software: An insight into manipal University  
+digital repository. In  ICKMODE- 2013: Knowledge  
+Management and Organisation in the Digital Era.  
+Paper  presented  at  the  National  Conference,  
+17-19  January  2013,  Tumkur.  Sri  Siddaganga  
+Arts, science and Commerce College for Women,  
+Tumkur,  Karnataka,  2013,  pp.  461-65.  http:// 
+eprints.manipal.edu/137034/. 
+10. Kumar,  Ravindra.  Institutional  repositories  in  
+India:  A  case  study  of  IIm   Lucknow.  In   ILA  
+2013:  Next  Generation  Libraries:  New  Insights  
+2013). 
+16. Vista Print. Sample Logo. http://www.vistaprint. 
+in  (accessed  on  15  December  2013). 17. Inasp.info.  Repository  registration  sites.  http:// 
+www.rsp.ac.uk/grow/registration/  (accessed  on  
+8  January  2014). 
+18. Guedon,  Jean  Claude.  It’s  a  depository;  it’s  
+an  archive…open  access,  digital  collections  
+and  value.  ARBOR  Ciencia,  Pensamiento  y  
+Cultura, 2009, 185, 581-95. 1039/arbor.2009.185  
+n.737. 
+About  the Authors 
+Dr Rekha D. pai  is working as Assistant Professor  and  Senior  Librarian,  Department  of  Library  &  Information  Science,  and  Central  Library,  MIT,  Manipal  University,  Karnataka.  She  has  obtained  her  PhD  from  Mangalore  University,  Mangalore  in  2002 on Knowledge Organisation. She has obtained  her  BSc  from  Poorna  Prajna  College,  Udupi;  and   BLISc  and  MLISc.  from  Mangalore  University.  She  has  qualified  for  Lectureship  and  JRF.  She  has  presented  16  papers  in  National  and  International  
+presented at the 58th  Indian Library Association  
+International Conference, 27-29 February 2013,  
+Dharwad. Karnataka University, Dharwad, 2013.  
+pp.  462-71. 
+11. Wikipedia. Manipal University. http://en.wikipedia. 
+org/wiki/Manipal_University/  (accessed  on  7  
+December  2013). 
+12. Oxford  Dictionaries.  Meaning:  Digital.  http:// 
+oxforddictionaries.com/definition/english/ 
+digital?q=digital/  (accessed  on  7  December  
+2013). 
+13.  m U  EPrints.  About  mU  EPrints.  http://www. 
+EPrints.manipal.edu/ (accessed on 19 December  
+2013). 
+14. EPrints.  http://www.eprints.org/  (accessed  on  
+15  December  2013). 
+15. Business  branding  strategy.  http:// 
+businessbrandingstrategy.com/logo/why-are- 
+logos-important/  (accessed  on  25  December  
+and  Universal  Access  to  Knowledge.  Paper  
+seminars/conferences. Her areas of interest include:  
+Information technology and libraries, digital libraries,  
+324 
+etc. 
+Mr Sagender Singh parmar  is working as Assistant  Librarian,  Manipal  Centre  for  Natural  Sciences,  manipal  University,  manipa.  He  has  obtained  his  BLIS  from  IGNOU  and  MLIS  from  Manipal  University. He has presented 10 papers in National  and  International  seminars/conferences.  His  areas  of interest include: Implication of IT in libraries and  library  marketing. 
+
+========8========
+

@@ -1,0 +1,203 @@
+DESIDOC  Journal  of  Library  &  Information Technology,  Vol.  36,  No.4,  July  2016,  pp.  240-247  DOI:  10.14429/djlit.36.4.10064 
+©2016,  DESIDOC 
+  Development of Web Directory of Aerospace Testing Facilities in India  
+Margam Madhusudhan 
+Department of Library and Information Sciences,University of Delhi-110 007 
+E-mail:mmadhusudhan@libinfosci.du.ac.in 
+AbsTrAcT 
+The paper is an outcome of a major research project funded by the Aeronautics Research and Development  Board (AR&DB), DRDO. The primary intent of this project is to create a web-based database of testing facilities  in  aerospace  and  to  facilitate  sophisticated  searchable  database  on WWW  platform. The  output  of  the  project  report can be treated as a working catalogue to provide narrative information describing each facility, its testing  capabilities, unique characteristics, location, organisation, key persons, etc. Usage of the database  is divided into  passive and active. It enables to identify specifc data requirements needed to quantify the status of the country's  technological maturation from which an assessment can be made for research, development and testing of future  aerospace vehicles. It also helps in designing standard operating procedure for providing Aerospace Test facilities  existing in DRDO labs to the private sector (including under ‘Make in India’ initiative) on payment basis. 
+Keywords: Aerospace, testing facilities, web–directory, DRDO, India 
+1.      INTrODUcTION  
+"Today, in the wake of advanced technology platforms  and means of operations, Aerospace Science and Technology  is  the  most  influencing  factor.  It  imbues  our  Nation  significantly with strength, not only for economic development,  but  also  for  comprehensive  security  standards."1   Many  aerospace  testing  facilities  have  been  established  in  India  by  research  &  development  institutions,  national  laboratories  and  academic  institutions.  There  has  been  tremendous  growth  in  India’s  space  programme  giving  an impetus to development of ancillary industries in the  country  for  meeting  the  aerospace  requirements.  
+Over the few years, there have been many expansions,  enhancements and upgrades of existing aerospace facilities  or  newly  established  aerospace  facilities.  There  is  considerable potential in Indian entrepreneurs, industries/R&D  organisations  to  participate  ‘Make  in  India’  programme  to  create  huge  market  for  mutual  benefit  with  overseas  aircraft industries and systems, components and material  manufacturers through technology tie-ups, collaborations  and  joint  ventures.  These  facilities  are  used  for  civil,  space  as  well  as  military  applications.  
+In  recent  years,  ‘web-based  information  system  expectations of users have increased many folds.’2 Aerospace  testing  facilities  information  is  not  available  on  public  domain and accessed only at specific institutional websites  and  which  have  meagre  such  information.  Further,  it  is  very difficult to find the relevant information relating to  aerospace  tests  and  in  the  process  great  deal  of  useful  information  is  likely  to  be  missed.  Hence,  the  present  
+project  explored  aerospace  testing  facilities  information  in  semantic  web  environment  where  information  has  evolved  after  several  reviews  in  the  field.  This  project  also  identified  major  problems  in  obtaining  aerospace  testing facilities information. Therefore, it was the need of  the hour to develop a web-based database on Aerospace  Testing Facilities in India (hereafter called ATFI) across  various  research  and  development  organisations  and  premier academic, research, private institutions engaged  in  teaching,  training  and  research  in  aerospace.  
+2.     scOPE AND  ObJEcTIVEs 
+The  main  objectives  of  the  study  are  to: 
+(i)    Design and build a web-based database on aerospace 
+          testing facilities available in profiled indian institutions  
+        using a suitable RDBMS with facilities for updating,  
+          modification,  indexing  and  searching  facilities; (ii)   Create a value-added Union List of Aerospace Testing 
+          facilities,  and 
+(iii)  Design  an  end-user  interface  for  browsing, 
+        navigating  through  and  searching  with  particula 
+         emphasis on the common web portal for all resources 
+          existing  in ATFI. 
+The  study  is  confined  to  ten  major  aerospace  labs/institutions  in  India,  such  as:    (i)  Birla  Institute  of  Technology  (BIT),  (ii)  Council  of  Scientific  and  Industrial  Research  (CSIR),  (iii)  Defence  Research  &  Development  Organisation  (DRDO),  (iv)  Electronics  Corporation  of  India  Limited  (ECIL),  (v)  Hindustan  
+Recieved  on  2  May  2016,  revised  on  9  June  2016,  online  published  28  July  2016 
+
+========1========
+
+MADHUSUDHAN: DEVELOPMENT OF WEB DIRECTORY OF AEROSPACE TESTING FACILITIES IN INDIA  
+Aeronautics  Limited  (HAL),  (vi)  The  Indian  Institute  of  Science  (IISc),  (vii)  Indian  Institutes  of  Technology  (IITs),  such  as:  IIT-Kanpur,  IIT-Kharagpur,  IIT-Madras  (Chennai), (viii) Vikram Sarabhai Space Centre (VSSC)  and    Indian  Institute  of  Space  Science  &  Technology  (IISST)  of  Indian  Space  Research  Organisation  (ISRO),   (ix) Madras Institute of Technology (MIT), and (x) Other  aerospace  labs/institutions.  
+3.      METHODOLOGY  
+The system analysis and design method was followed  to develop ATFI web directory with the help of specially  designed ‘Data Capturing Form’ (Fig.1).  All the participating  labs under the study were visited in person and interactions  with the authorities of aerospace testing facilities was done  and  data was structured, validated and then incorporated  in  the  ATFI  web  directory  and  authorised  users  also  contribute  the  ATFI  data.  The  ATFI  web  directory  was  developed using state-of-the web technologies, and mobile  technologies  with  mobile  app. 
+Figure 1. Data capturing form. 
+4.     ArcHITEcTUrE  OF ATFI      
+The  architecture  of  ATFI  project  web  portal  is  in  five  layers  (Fig.  2).  Each  layer  has  its  own  role  in  the  functioning  and  is  depending  on  other  and  collectively  functions  in  retrieving  the  results  of ATFI. 
+Figure  2  reveals  that  the  different  layers  are  to  manage records and full text contents.  System uses the  relational  database  management  system  (RDBMS)  with  the  help  of    MySQL  to  store  data.  The  functionality  of  system backup and contribution of contents by the users  also comes under the purview of this layer. Network layer  in  the  system  perpetually  connects  the  users  and  source  institutions.  Presentation  layer  helps  in  display  of  the  retrieved  aerospace  testing  results  as  per  organisation,  laboratory, category, and place. The results can be filtered  
+        Figure  2.  Layers  of ATFI. 
+further using the session filtering. Business layer combines  a  number  of  operations  of  the  system.  This  layer  helps  to perform several operations and facilitates the users to  get the latest news, video tutorial, FAQ for online help.  ‘Safe  communication  layer’  ensures  the  safety  of  data.  This layer is an industry standard to safely communicate  and  safely  exchange  information."1 
+4.1    Functionalities  of ATFI 
+The ATFI Web portal’s architecture includes various  functionalities  such  as:  (i)  User  Registration  (Join),  (ii)  Aerospace  Testing  Facility  Submission  (Contribute),  (iii)  User  Approval  Process,  and  (iv)  Editing  testing  facilities, and (v)  Rejection of testing facilities (Delete)  (Fig.  3).  
+4.2    Designing  of ATFI Web  Portal 
+Designing  of  ATFI  Project  web  portal  is  using  a  hybrid  approach  and  using  both  commercial  and  open  source  tools,  such  as:  Linux  Centos  platform  and  the  database runs on MySQL, an open source, multi-threaded  and robust structured query language database server with  web application on Apache Server, with a total capacity  of about 1024 GB with extendable storage. Backups are  stored  on-site  server  with  different  formats  like  .SQL,  .XLS  and  .DOC.    
+The following tools and languages  are used for designing   ATFI  web  portal:  Dreamweaver,  Cascading  style  sheets  (CSS),  Adobe Photoshop, Adobe Flash, JAVA programming  language,  Hypertext  Preprocessor  (PHP), Asynchronous  JavaScript and XML (AJAX), mobile app, and Web 2.0 tools  
+5.      DEVELOPMENT  OF ATFI WEb   DI rEcTOrY 
+To  achieve  the  objectives,  a  web-based  database  of  ATFI  was  developed  and  integrated  in  the  web  portal  (http://atfi.dlis.du.ac.in)  (Fig.  4).  Figure  4  shows  the  home page of ATFI. The ATFI home page header contains  the  links  of  join,  contribute,  aerospace  testing  facilities  search, etc. To start a search, user may click on “search”  or “browse”. The contribute page on the header empower  users to submit records in ATFI. Single type of prescribed  
+241 
+
+========2========
+
+DJLIT, VOL.  36,  NO.  4, JULY   2016 
+facilities  across  India.  These  details  are  complemented  by  relevant  photographs  of  the  facilities.  This  web  portal  has  many  dynamic  features  to  facilitate  easy  navigation,  mobile  view  with  total  responsiveness,  tab  view and many other collaborative features"1  aesthetically  designed  and  visually  appealing  punch  lines  for  sliders  with reliable page headings, faster page loadings, easy to  use  navigation  that  helped  to  achieve  the  desired  tasks.  Mobile app is provided for easy access to smart mobile  phones  or  mobile  devices.  
+   Figure 3.  User creation and managing data in ATFI. 
+records  can  be  submitted  in  ATFI.    In  addition,  online  help  such  as,  FAQ,  query  submission  form,  and  video  tutorial  are  listed  for  effective  use  of  ATFI  sources  and  its  services.  User  can  login  into  ATFI  link  that  is  provided.  
+"The primary intent of ATFI web portal is to provide  sophisticated  searchable  database  of  Aerospace  Testing  
+5.1      Uses  of ATFI Web  Directory 
+The ATFI  web  directory  has  the  following  uses: (i) To  serve  as  a  significant  reference  and  statistical  
+information  tool  for  finding  narrative  information  
+related to features of aerospace test facility, location,  
+organisation,  institutions,  key  persons,  etc. (ii) The  passive  usage  that  involves  simple  acquisition  
+of information, such as for the purpose of studying  
+expert  knowledge. 
+(iii) The  active  use  involving  photographs  and  other  
+material  information  being  made  available  to  the  
+user  to  assist  in  other  research  works,  educational  
+or  other  activities. 
+(iv) The institutional profile and instruments used in the  
+aerospace  testing  are  by-products  of  this  research  
+project and it may be used as a guide/catalogue for  
+future  up-dating  of  the  contents  of  the  web-based  
+database. 
+(v) To help in creation of a Union catalogue of aerospace  
+testing  facilities  in  India. 
+(vi) To    help  in  designing  standard  operating  procedure  
+for  providing  Aerospace  Test  facilities  existing  in  
+DRDO  labs  to  the  private  sector  (including  under  
+‘Make  in  India’  initiative)  on  payment  basis. (vii)To  identify  specific  data  requirements  needed  to    
+quantify  the  status  of  the  country's  technological  
+                Figure  4.    Homepage  of ATFI  (http://atfi.dlis.du.ac.in). 
+242 
+
+========3========
+
+MADHUSUDHAN: DEVELOPMENT OF WEB DIRECTORY OF AEROSPACE TESTING FACILITIES IN INDIA  
+maturation  from  which  an  assessment  can  be  made  
+for  research,  development  and  testing  of  future  
+aerospace  vehicles. 
+(viii)To act as web interface to scientists to find aerospace test  
+facilities  according  to  his/her  areas  of  interest. (ix)  To act as an evaluation tool to appraise the performance  
+of Aerospace  test  facilities,  not  only  within  DRDO  
+labs,  but  also  other  Aerospace  organisations  in  
+India. 
+5.2    classification  of Aerospace Testing  Facilities 
+Each aerospace category has various sub-categories,  which  are  specified  in  the  database  and  special  care  has  been  taken  in  categorization  of  these  facilities  for  easy  navigation,  searching  and  browsing.  These  are  broadly  categorised  and  included,  as:  (i)  Aerodynamic  ,  (ii)  Aircraft  Components,  (iii)  Antenna,  (iv)  Avionics  and  Instrumentation,  (v)  Dynamics  and  Vibration,  (vi)  
+Electrical  and  Electromagnetic,  (vii)  Engine,  (viii)  Environmental, (ix) Flight Mechanics & Simulation, (x)  Life Cycle, (xi) Materials, (xii) Operator Training, (xiii)  Performance  Evaluation,  (xix)  Structural  and  Fatigue,  (xv)  Turbomachinary,  (xvi)  Wind  Tunnel,  and  (xvii)  Other  Testing  facilities.                  
+5.3   search  and browse  Features  of ATFI 
+The  ATFI  web  portal  offers  powerful  searching  capabilities  to  enable  user  to  find  the exact  information  he/she needs on mobile technology. The advanced search  engine offers flexibility and precision. User can use the  basic  search  box  located  at  the  bottom  of  the  screen  for  Keyword  search  which  includes  search  of  all  of  the  information  in  the ATFI  database.  In  addition,  there  are  four  search  forms  available  to  suit  the  user  particular  searching  needs:  (i)  Organisation,  (ii)  Laboratory,  (iii)  Category, and (iv) Place Search. Search page is depicted  in  Fig.  5. 
+                Figure  5.  search  page  of ATFI  (http://atfi.dlis.du.ac.in/search.php) 
+              Figure  6. Aerospace  testing  facilities  in  India-by  place. 
+243 
+
+========4========
+
+DJLIT, VOL.  36,  NO.  4, JULY   2016 
+The browse facility in ATFI web portal allows user  to  narrow  down  search  based  on  specific  fields  of  the  ATFI  database.  It  allows  the  user  to  search  for  a  term  or  number  within  a  particular  data  field  of  the  testing  facility or search a limited portion of the ATFI database,  rather  than  the  entire  summary  of  every ATFI  database.   Browse facility is provided in ATFI web portal in exciting  ways  such  as  by  Place,  Organisation,  Laboratory,  and  Test  Category.  Figure  6  presents  the  aerospace  testing  facilities  by  place  in  India. 
+Figure  7  depicts  the  organisation-wise  aerospace  testing  facilities.  Figure  8  presents  the  category-wise  aerospace  testing  facilities  included  in  this  web-portal. 
+5.4    search  results 
+After  conducting  a  search,  the  ATFI  Web  portal  will  display  matched  search  results  or  ‘hit  list’. Twenty  hits  are  displayed  per  page  and  subsequent  results  will  be  displayed  in  the  next    page(s).  User  has  to  Click  on  ‘Page#1,2,3,4’ shown in blue colour and available on top  and  bottom  of  each  search  results  page  (Fig.  9).  
+Figure 7.  Aerospace testing facilities in India-by organisation. 
+5.5      Print/save  as  PDF/E-mail  
+  The  search  results  page  has  provisions  for  print  or  save  as  PDF  file  or  email  facilities,  which  are  very  useful for users and print and save option button has been  provided bottom of the search results page. Interestingly,  a  special  user  defined  customization  of  results  page  provision  has  been  embedded,  i.e.,  images  or  any  field  may  be  removed  while  printing  or  saving  the  search  results  page  including  change  of  font  face  (Fig.  10). 
+5.6   Video Tutorial 
+Keeping of respondents’ preference and its popularity,  online  video  tutorial  has  been  provided  for  effective  searching,  browsing,  and  salient  features  in  this  web  portal  (Fig.  11).    
+5.7    Dynamic  Index  Page 
+The innovative feature ATFI web portal is dynamic  index  page  (http://atfi.dlis.du.ac.in/  aeroat.php)  wherein  all  the  existing  aerospace  testing  facilities  and  future  added  testing  facilities  are  indexed  automatically  in  real  time  and  a  click  away  from  full  details  of  each  aerospace  test  facility. 
+5.8    Frequently Asked  Questions  (FAQ)  Page 
+The ‘FAQ is an online document that poses a series  of common questions and answers on a specific topic.’3  The AFTI has a specially designed FAQ page (http://atfi. dlis.du.ac.in/  faq.php)  to  help  the  visitors  ‘as  a  way  to  answer questions’3  about the aerospace testing facilities/ services and improve the access of AFTI web portal-and  also  save  with  petty  or  repetitive  phone  calls  and  email  from  the  users. 
+5.9   contact  and  Feedback  Form 
+The  most  exciting  and  useful  feature  of  this  web  portal  is  the  implementation  of  Feedback  Form  (http:// atfi.dlis.du.ac.in/contact.php)  integrated  with  Contact  details. The ‘suggestions should be an integral part of the  web  portal  development,  especially  in  the  initial  stages  
+          Figure  8.   Aerospace  testing  facilities  in  India-by  category. 
+244 
+
+========5========
+
+MADHUSUDHAN: DEVELOPMENT OF WEB DIRECTORY OF AEROSPACE TESTING FACILITIES IN INDIA  
+     Figure 9.  search results on 'DrDO' organisation. 
+Figure 10.  snapshot of customisation of search results page. 
+Figure 12. Electronic book facility (http://atf.dlis.du.ac.in/ 
+ATF.php). 
+      Figure  11.    Multimedia  tutorial  page  (http://atfi.dlis.du.ac.in/tutorials.php) 
+245 
+
+========6========
+
+DJLIT, VOL.  36,  NO.  4, JULY   2016 
+as  it  helps  in  correcting  the  design,  as  the  suggestions  5.12   security Aspects 
+are  the  views  and  reactions  of  the  end  users’4     are  to  
+be  taken  into  account  for  their  views,  suggestions  and  
+The ATFI portal has many security features (Fig. 14)  comments. 
+to ensure safety of information, such as (i) CAPTCHA, (ii)  
+Email Address, (iii) Mobile Number, (iv) IP Address, and (v)  5.10    Electronic  book 
+Unique Record ID and Password. Further, it is compatible  
+      The  electronic  book  facility  also  provided  using  
+with  OWASP  standards  (2014)  with  reference  to  Web  sophisticated e-book tool as an alternative mode of access  
+Application Audit (Open Web Application Security Project)  for the convenience of users to access all the aerospace  
+and  free  from  any  other  known  vulnerabilities. 
+testing  facilities  existing  in ATFI  web  portal  (Fig.12). 
+6.     cONcLUsIONs 
+5.11    Mode  of Access ‘Web-based information systems  deliver varied contents  
+The ATFI web portal was developed using interactive  
+to  a  large  number  of  heterogeneous  user  groups.  The  responsiveness (Fig. 13) that makes web portal accessible  
+integration between interface and the back-end becomes  with:  (i)  Automatic  Customised  Display,  (ii)  Any  type  
+more complex.’2  This web-based directory is a compilation  of  Mobile  Device,  (iii)  Any  type  of  Tab,  and  (iv)  Any  
+of  all  aerospace  testing  facilities  in  India  and  "ensures  size  of  Desktop. 
+to  provide  a  collaborative  environment  to  address  all  
+needs of Aerospace industry testing facilities"1. It is one  
+of  the  primary  information  resource  consolidation  work  
+and would help in building a knowledge-base of testing  
+facilities  in  aerospace  to  all  those  who  are  in  need.  It  
+could  be  seen  as  an  initial  effort  towards,  taking  stock  
+of the availability of testing facilities in aerospace which  
+has  to  main  objectives  to  bring  them  to  the  knowledge  
+of  potential  users,  to  enhance  their  utility  and  also  to  
+supplement building web-based database. It is also a source  
+of online information, for Indian business/entrepreneurs  
+and  for  overseas  organisations  who  wish  to  diversify  
+aerospace  field,  expand  their  operations,  manufacture  
+aircraft items under joint venture/co-operation agreements,  
+collaborate  with  Indian  firms  and  R&D  institutions  
+and  relocate  their  business  to  take  advantage  of  such  
+opportunities in India. Further, it will enable "to identify  
+specific data requirements needed to quantify the status  
+of the country's technological maturation from which an  
+assessment  can  be  made  for  research,  development  and  
+1 
+Figure  13. snapshot  of  mobile  view  with  total  responsiveness testing  of  future  aerospace  vehicles" 
+. 
+of ATFI web portal (http://www.responsinator. 
+com/?url=http://atf.dlis.du.ac.in). 
+Figure  14. snapshots  of  security  aspects  in ATFI  web  portal.  
+246 
+
+========7========
+
+MADHUSUDHAN: DEVELOPMENT OF WEB DIRECTORY OF AEROSPACE TESTING FACILITIES IN INDIA  
+The  information  presented  in  this  web-directory  is  based  on  survey  conducted  by  correspondence,  on-site  visits  to  all  the  participating  labs/institutions,  personal  observation of respective web portals and other published  literature in conference proceedings and leaflets of various  organisations.  The  contents  of  the  ATFI  web  portal  is   beneficial to Aerospace institutions/labs, scientists, faculty  members,  research  scholars,  and  students.  Interestingly,  it  works  automatically  and  authenticates  the  user  ID  and password, no maintenance required, robust web and  mobile  integrated  technologies,  user  driven  facilities  (contribute, edit and delete records) are embedded. It is  compatible with OWASP standards (2014) and free from  any  other  known  vulnerability.  The  major  limitation  of  the  project  was  the  permission  issues  and  non-receipt  of  some  aerospace  test  images.  
+AcKNOWLEDGEMENTs 
+I  express  my  deep  sense  of  gratitude  to Aeronautic  Research  and  Development  Board  (AR&DB),  DRDO,  MoD, Govt. of India, New Delhi, for funding. My sincere  gratitude  to  Dr AL  Moorthy,  then  Coordinator,  and  Dr.  AK  Singh,  present  Coordinator,  ARP,  AR&DB,  and  Director, INMAS, DRDO, New Delhi. For his invaluable  guidance, constant support, and encouragement. I extend  my  thanks  to  participating  Aerospace  institutions/labs  and  their  scientists,  who  participated  and  helped  in  providing  required  information.  I  also  thank  authorities  of  the  University  of  Delhi,  and  all  colleagues  and  staff  of  Department  of  Library  and  Information  Science. 
+rEFErENcEs 
+1. ATFI (Aerospace Testing Facilities in India), 2015. http:// 
+atfi.dlis.du.ac.in  (accessed  on  29 April  2016). 
+2. 
+3. 
+4. 
+Bhardwaj,  R.K.  &  Madhusudhan,  M.  Online  legal  information  system  (OLIS)  leveraging  access  to  legal  information  resources  in  Indian  environment.   DESIDOC J. of Lib. & Inf. Tech.,  2016,  36(1), 47- 55. 
+The National Security Archive. Glossary of internet  terminology. 2007. http://nsarchive.gwu.edu/NSAEBB/ NSAEBB216/app2.pdf  (accessed  on  9 April  2016). Chandrashekara, M. & Kumar, N.M. Homepages of  Indian universities website: A study. 3rd Convention  PLANNER  -2005,  Assam  Univ.,  Silchar,  10-11  November., 2005, INFLIBNET, Ahmedabad. pp. 333- 46. http://ir.inflibnet.ac.in/bitstream/ 1944/1406/1/46. pdf  (accessed  on  2  March  2016). 
+contributor 
+Dr M. Madhusudhan  is currently working as Associate Professor  in  the  Department  of  LIS,  University  of  Delhi.  He  has  17  years of teaching, administration and research experience at the  University  level.Under  his  supervision  17  MPhil,  6  PhD  and  110+ project reports have been awarded. He has published one  book,  edited  two  books,  32  International  research  articles  in  peer-reviewed journals, 20 chapters in books, 9 national articles  and  7  international  conference  papers.  He  is  also  editorial  member  of   JLIS,  IJLIS   and  reviewer  for  five  international  LIS  journals.  His  areas  of  interest  includes:  Designing  and  evaluation of websites, evaluation of web-OPACs, information  communication technology in libraries, social networking sites,  e-resources,  mobile-based  library  services,  etc.  
+247 
+
+========8========
+

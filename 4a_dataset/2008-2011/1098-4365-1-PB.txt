@@ -1,0 +1,396 @@
+DESIDOC Journal of Library & Information Technology, Vol. 31, No. 4, July 2011, pp. 213-216
+© 2011, DESIDOC
+
+REVIEW PAPER
+
+Semantic Web-driven e-Learning System
+Nikita Joshi
+Amity University, Lucknow, Uttar Pradesh-226 010
+E-mail: nikitajoshi502@gmail.com
+
+ABSTRACT
+E-learning is an important domain which can be benefitted from the Semantic Web technology. The
+aim of Semantic Web is to provide distributed information with well-defined meaning, understandable for
+humans as well as machines. Semantic Web applications should be able to satisfy the individual needs
+and requirements of the users by providing them optimised access to information. This paper focuses on
+the uses of Semantic Web technology in e-learning. A conceptual architecture of semantic e-learning is
+proposed which offers various semantic-based services to the students and the instructors.
+Keywords: Semantic services, e-learning, Semantic Web, ontology
+
+1. INTRODUCTION
+The concept of Semantic Web has greatly
+influenced the Web. Semantic Web has enabled
+intelligent access to Web services and resources.
+Semantic Web will eventually prove to be beneficial to eLearning as well. The concept of ontology is the basic
+framework for Semantic Web. Ontologies assign a
+vocabulary of terms with their specific meanings.
+Ontology is popular because it provides a shared and
+common understanding of a domain that can be
+communicated between people and application systems1.
+Standards and tools for the Semantic Web are under
+development by the World Wide Web Consortium
+(W3C)2.These tools aim at providing unambiguous
+meaning to the Web content which can be processed by
+software agents in contrast to the content that is only
+intended for human consumption. This enables
+automated software agents to reason about Web
+content, thereby producing an intelligent response to
+unknown situations. The Semantic Web consists of an
+environment in which humans and machine agents will
+communicate on the basis of semantics3. Semantic Web
+technology can enhance the process of e-Learning to a
+great extent. e-Learning has replaced the location and
+content-specific learning with a customised and ondemand process of learning at any place and at any
+time.
+The aim of Semantic Web is to add structure or
+meaning to content residing on the Web, thereby
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+allowing intelligent navigation, personalisation, querying,
+and retrieval. To fulfil the goal of Semantic Web, the eLearning system must have access to structured
+collections of information and a set of inference rules that
+can be used to perform automated reasoning4.
+
+2. RELATED WORKS
+According to Schwartz5, the Semantic Web is meant
+to enable an environment in which independent, Internetconnected information systems can exchange knowledge
+and action specifications. Lara and Olmedilla have given
+a proposal for a Web services modelling ontology in
+distributed environments, which aims at providing the
+basis for a flexible and scalable definition of the service
+layer in the e-learning domain6. Crampes, and Ranwez
+have developed the system Karina7 which enables the
+user to dynamically build his learning courses according
+to his preference. It is based on the conceptual
+description of the learning material
+and some
+(prerequisite) strategies to fulfil the users' objectives in the
+searching process. The ontology-based intelligent
+authoring tool8 uses an intelligent training system in the
+e-Learning scenario. It uses four ontologies (domain,
+teaching strategies, learner model and interfaces
+ontology) for the construction of the learning model and
+the teaching strategy model, but it fails in exploiting
+modern Web technologies. Considerable amount of
+research on knowledge-based systems and intelligent
+systems moves towards concepts and ontologies
+focuses
+on knowledge sharing and reusability9.
+213
+
+the searching process. The Ontology-based Intelligent
+Authoring Tool8 uses an intelligent training system in the
+e-learning scenario. It uses four ontologies (domain,
+teaching strategies, learner model and interfaces
+ontology) for the construction of the learning model and
+the teaching strategy model, but it fails in exploiting
+modern Web Technologies. Considerable amount of the
+research on knowledge-based and intelligent systems
+moves towards concepts and ontologies focuses on
+knowledge sharing and reusability9. Juan Quemada and
+Bernd Simon have also presented a model for
+educational activities and educational materials. The
+educational activities include the events in which the
+instructors are involved10.
+
+3. PROPOSED E-LEARNING MODEL
+The proposed e-learning model provides various
+services to the students (Fig. 1). Once a new student
+registers or an existing user logs in. Students can view
+the syllabus, track any extra classes, study the course
+documents hosted by the instructor, refer books, view
+various useful URL links provided by the instructor, and
+perform semantic search for resources. Students can
+also submit their assignments and tutorials, assess
+themselves by various exercises and quizzes, and view
+their progress reports as well. Browsing allows students
+with varying levels of knowledge to easily navigate
+through the resources. Semantic browsing locates the
+
+metadata and collects interfaces from a combination of
+relevant information. Search refers to the semantic
+search, a step ahead of simple keyword matching, and
+delivers only relevant information from the result set.
+Smart question- answering provides precise answers to
+a specific question. For instance, given a question,
+“Which state in India had the highest literacy rate in
+2010?”, the system would directly return the name of the
+state, with a little summary about the result instead of the
+list of webpages consisting of the words in the query.
+Thus, students can perform semantic querying for
+learning materials. Students can also compose their own
+course with specific contents.
+On the other hand, through our e-learning model, the
+instructor can make various announcements, set up a
+session plan, host various documents and resource files
+for students, manage URL links, compose exercise and
+assignments for students and control their submissions,
+and compose the weekly progress report of the students
+(Fig. 2). The instructor can keep a track of the students'
+searches and the manner in which students compose
+their own course. The instructor provides annotations,
+which comprise content, context, and structure. All the
+contents of the database need not be created by the
+same person, the content can be frequently updated
+from time-to-time, and data can also be exported
+between different learning systems.
+
+View syllabus
+Extra classes
+
+Make anouncement
+
+Documents
+hosted by
+instructor
+
+Session plan set-up
+
+Reference
+books
+
+Weekly progress
+report of student
+
+Assignment
+tutorials
+Student
+
+Registration
+login
+
+Exercises/
+quizes
+Useful links
+Search
+
+Host documents and
+resource files
+Instructor
+Manage links
+Compose exercise
+and assignments
+
+Browsing
+
+Control and monitor
+users
+
+Smart question
+answering
+
+Control submission
+done by students
+
+View progress
+report
+Figure 1. Student services.
+214
+
+Figure 2. Instructor services.
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+4. ONTOLOGY
+The ontology is defined as a hierarchy of relevant
+domain concepts, relations between these concepts,
+further properties of concepts (attributes with value
+ranges), and the derivation rules to imply new knowledge.
+The student entity component searches and receives the
+learning contents, while the students’ performance is
+being evaluated. The learning content is searched by
+sending queries to the learning resources (i.e., ontologybased knowledge, RDF and database).
+The ontological knowledge added to the learning
+resources is searched by means of queries. The
+students’ performance is measured by the evaluation
+component, and the result is stored in the student records
+database. The instructor component can locate a new
+content in the database. To perform the searching of
+learning contents, a knowledge base is required. The
+knowledge base is constructed by adding metadata to the
+learning content. The metadata consists of the contextual
+knowledge of the learning resources and the general
+representation of the structural knowledge on particular
+domains (Fig. 3).
+
+5. ANNOTATION
+Using Extensible Markup Language (XML) users can
+add arbitrary structure to their document by creating tags
+Monitoring and
+Performance
+Evaluation
+
+Instructor
+
+Student
+
+Information Retriever
+(Semantic Knowledge Transfer)
+
+to annotate a webpage or text section. Tag names do not
+provide semantics by themselves11. XML (XMLSchema,www.w3.org/XML/Schema) is used as a
+"transport
+mechanism".
+Resource
+Description
+Framework (RDF)12,13 and RDF services14 provide a
+basic framework for expressing metadata on the web.
+DAML+OIL and OWL (build on RDF) offer better
+knowledge representation support2.
+The text documents written in plain ASCII or HTML
+are annotated with a set of tags that consists of names of
+the slots of the selected class in ontology. The ontology
+can include a class named Course .This class contains
+different slots such as "name" ( name of the course),
+"type" (video or document), "has-level" (difficulty level of
+the course), "institute" (educational institute providing the
+course), and objectives (indicating learning outcomes).
+The documents can then be annotated using any of the
+above slots. Various annotation tools are available like
+annotation tools for producing semantic markup include
+Annotea15; SHOE Knowledge Annotator16 MnM17 Melita18
+and OntoMat-Annotizer19 .
+
+6. LIMITATIONS
+If interoperability is an issue, then standardisation is
+required. There are some useful standards for
+specifications on the learning resources, such as the
+"Learning Objects Metadata Standard" (http://
+ltsc.ieee.org/wg12/) by the Learning Technology
+Standards Committee (LTSC) of the IEEE, established as
+an extension of Dublin Core. A related standard is the
+SCORM, the Sharable Content Object Reference Model
+(http://www.adlnet.org/). Both these standards attempt to
+assist the creation of reusable learning objects, in a
+similar manner to that of the Semantic Web. Moreover,
+standardisation of the user (learner) information also
+needs to be maintained by a (learning) system. Two
+standards emerged for this are Public and Private
+Information (PAPI) for Learner (http://ltsc.ieee.org/wg2/
+and http://edutool.com/papi/) and IMS Learning
+Information Package (LIP) (http://www.imsglobal.org/
+profiles/index.cfm). These standards define several
+categories for information about a user (learner)20.
+
+7. CONCLUSION AND FUTURE WORK
+
+Ontology
+based
+knowledge
+
+RDF
+
+Database
+
+Figure 3. Proposed e-learning model.
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+Various aspects of e-learning in the emerging
+Semantic Web have been illustrated. It contains a
+hierarchical
+contents
+structure
+and
+semantic
+relationships between concepts. Thus, it can provide
+useful information for searching and sequencing learning
+resources. It can help the instructor in understanding the
+learning process of the students. e-learning in Semantic
+Web is a more flexible learning structure and is different
+from the traditional teacher-student model in which the
+students take responsibility for their own learning and
+215
+
+determine their learning patterns. Future work may
+include students discussion forums to be included in the
+above system in which the students can discuss among
+themselves aboutthe learning activities and helping each
+other in composing better courses.
+
+REFERENCES
+1. Davies, J.; Fensel, D. & Harmelen, F. Towards the
+Semantic Web. Willy Publications, 2002.
+2. Scott Cost, R.; Finin, T.; Joshi, A.; Peng, Y.;
+Nicholas, C.; Soboroff, I. ITtalks: A case study in the
+Semantic Web and DAML+OIL. IEEE Intell. Syst.,
+2002, 17(1), 40-47.
+3. Berners-Lee, T. What the Semantic Web can
+represent, 2000. http://www.w3.org/DesignIssues/
+RDFnot.html
+4. Berners-Lee, T.; Hendler, J. & Lassila, O. The
+Semantic Web. Scientific American, 2001, 29-37.
+5. Schwartz, D.G. From open IS semantics to the
+Semantic Web: The road ahead. IEEE Intel. Syst.,
+2003, 18(3), 52-58.
+6. Ruben, Lara; Olmedilla, Daniel & Arroyo, Sinuhe. A
+Semantic Web services framework for distributed elearning environments. Digital Enterprise Research
+Institute, Innsbruck, Austria.
+7. Crampes, M. & Ranwez, S. Ontology-supported and
+ontology-driven conceptual navigation on the World
+Wide Web. In 11th ACM Hypertext Conference, San
+Antonio, TX, USA, 2000. pp. 191-99.
+8. Chen, W.; Hayashi, Y.; Jin, L.; Mitsuru, I. &
+Mizoguchi, R. An ontology-based intelligent
+authoring tool. In Proceedings of the 6th International
+Conference on Computers in Education, Beijing,
+1998. pp. 41-49.
+9. Moreale, E. & Vargas-Vera, M. Semantic services in
+e-learning: An argumentation case study. Educat.
+Technol. Soc., 2004, 7(4), 112-28.
+10. Quemanda, J. & Simon, B. A use-case based model
+for learning resources in educational mediators.
+Educat. Technol. Soc., 2003, 6, 149- 63,.
+11. Stojanovic, N.; Staab, S. & Studer, R. e-learning
+based on the Semantic Web. In the World
+Conference on the WWW and Internet
+(WebNet2001), 23-27 October, 2001, Orlando,
+Florida, USA.
+
+216
+
+12. Lassila, O. & Swick, R.R. Resource description
+framework (RDF): Model and syntax specification.
+recommendation. World Wide Web Consortium,
+1999.
+13. Hayes, P. RDF model theory, W3C Working Draft,
+2002.
+14. Brickley, D. & Guha, R. Resource description
+framework schema specification 1.0, Candidate
+recommendation. World Wide Web Consortium,
+2000.
+15. Kahan, J.; Koivunen, M..; Prud'Hommeaux, E. &
+Swick, R. Annotea: Open RDF infrastructure for
+shared Web annotations. In WWW10 International
+Conference, 1-5 May 2001, Hong Kong.
+16. Hendler, J.; Berners-Lee, T. & Miller, E. Integrating
+applications on the Semantic Web. J. Instit. Elect.
+Engg. Japan, 2002, 122(10), 676-80.
+17. Vargas-Vera, M.; Motta, E.; Domingue, J.; Lanzoni,
+M.; Stutt, A. & Ciravegna, F. MnM: Ontology-driven
+semi-automatic and automatic support for Semantic
+markup. LNCS, 2002, 2473, 379-91.
+18. Ciravegna, F.; Dingli, A.; Petrelli, D. & Wilks, Y. Usersystem cooperation in document annotation-based
+on information extraction. In 13th International
+Conference on Knowledge Engineering and
+Knowledge Management (EKAW02), 1-4 October
+2002, Sigüenza, Spain, 2002.
+19. Handschuh, S.; Staab, S. & Maedche, A. CREAM—
+Creating relational metadata with a componentbased, ontology-driven annotation framework. In
+International Conference on Knowledge Capture (KCAP 2001), 21-23 October 2001, Victoria, B.C.,
+Canada, 2001.
+20. Cristea, A.I. What can the Semantic Web do for
+adaptive educational hypermedia? Educat.Technol.
+Soc., 2004, 7(4), 40-58.
+
+About the Author
+Ms Nikita Joshi holds an MTech (Computer
+Science and Engg) from Amity University, Uttar
+Pradesh and BTech from Uttar Pradesh Technical
+University. She has been working as a faculty in
+Amity University, Lucknow. Her research interests
+include machine translation, data mining, ensemble
+learning, Semantic Web, and wireless sensor
+networks.
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+

@@ -1,0 +1,1720 @@
+DESIDOC Journal of Library & Information Technology, Vol. 31, No. 4, July 2011, pp. 253-261
+© 2011, DESIDOC
+
+Semantic Web: A Quantitative Analysis of
+World Publications Output (2001-2010)
+Avinash Kshitig and B.M. Gupta*
+National Institute of Science, Technology & Development Studies
+Dr K.S.Krishnan Marg, New Delhi-110 012
+*E-mail: bmgupta1@gmail.com
+
+ABSTRACT
+This study analyses the world research output on Semantic Web during 2001-2010, using Scopus
+database. It describes the overall growth pattern, publications share and citation impact of different
+countries. It analyses the characteristics of most productive institutions, authors and highly-cited papers.
+The patterns of research communication in most productive journals are also indicated.
+Keywords: Semantic Web, World publication output, scholarly information
+
+1. INTRODUCTION
+The scholarly information arena offers researchers
+an ever-increasing array of resources, including library’s
+catalogues, databases, full-text resources, digital
+repositories and Web pages. For accessing these
+resources, it is necessary to have knowledge of the
+various resources, their access mechanisms and the
+query interface they provide. It even requires a manual
+comparison between the results returned from several
+resources and does not enable the user to move from one
+resource to another for further discovery and navigation1.
+Significant efforts are under way to address these issues,
+not just for scholarly information but also for all Webaccessible data. The increasing interest in Web
+information retrieval led to the Semantic Web initiative.
+The term Semantic Web was coined by Tim BernersLee2, the inventor of the World Wide Web and Director of
+the World Wide Web Consortium, which oversees the
+development of proposed Semantic Web standards.
+The Semantic Web is a "web of data" that enables
+machines to understand the semantics, or meaning, of
+information on the World Wide Web2. It extends the
+network of hyperlinked human-readable web pages by
+inserting machine-readable semantic annotations or
+metadata or about pages and how they are related to
+each other, enabling automated agents to access the
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+Web more intelligently and perform tasks on behalf of the
+users. ''The Semantic Web is not a separate Web but an
+extension of the current one, in which information is given
+well-defined meaning, better enabling computers and
+people to work in cooperation according to Berners-Lee,
+et al."2
+The Semantic Web vision involves the sharing and
+processing of data by automated tools as well as by
+people. The central idea of the Semantic Web is to extend
+the current human readable web by encoding the
+semantics of web-resources in a machine interpretable
+form, and then automatically integrating data from
+different sources for performing actions on behalf of the
+user and to search for information based on its meaning
+rather than its syntactic form. It provides a common
+framework that allows data to be shared and reused
+across applications, enterprise and community
+boundaries. This vision requires new and advanced
+methods, models, tools and systems for services related
+to creation, access, retrieval, integration and filtering of
+web-based contents.
+The Semantic Web is similar to tagging systems the
+individual use in blogs to help search engine to find topics
+and pull them up. Blog tagging, however, is decided by
+individual tagger. Similar meta-tagging systems are used
+to identify web pages to search engines. Meta-tags for
+253
+
+web pages in fact are descriptors of the entire page or
+even the entire site. Tags, however, may not describe the
+discrete data on the page. Other tagging systems are
+based on extensible mark-up language (XML), from
+which web formatting code (HTML) is derived. XML
+tagging systems define at the beginning of a document
+what the tags will mean within the document. One can tag
+words, phrases and data for formatting and data search
+purposes. XML provides an elemental syntax for content
+structure within documents, yet associates no semantics
+with the meaning of the content contained within3-4.
+Several formats have been designed for Semantic
+Web to meet this goal, among which the Resource
+Description Framework (W3C, 1999) from the W3C and
+Topic Maps (ISO, 1999) from the International
+Standardisation Organisation aim at describing
+resources and establish relationships among them.
+Resource Description Framework (RDF) starts with selfdescription of data that other tagging systems use, but
+RDF names each item and relationship between items in
+a way that allows computers and software to exchange
+them automatically.
+It works best when groups agree to common
+schemes. However, groups can be of any size, which
+means that tagging is decentralized and does not require
+agreement across user groups. RDF uses a triple
+descriptor—a noun, verb and object, generally called a
+Universal Resource Identifier (URI). RDF can be
+enriched with a RDF Schema (RDFS) which expresses
+class hierarchies and typing constraints, e.g. to specify
+that a given relation type can connect only specific
+classes. The semantic tagging provided by RDF and
+Topic Maps may be extended by references to external
+knowledge coming from controlled vocabularies,
+taxonomies and ontologies3-4.
+An ontology is an abstract model which represents a
+common and shared understanding of a domain5.
+Ontologies generally consist of a list of interrelated terms
+and inference rules and can be exchanged between
+users and applications. They may be defined in a formal
+way, from natural language to description logics. The
+Web Ontology Language (OWL) belongs to the latter
+category. OWL is built upon RDF and RDFS and extends
+them to express class properties. OWL establishes the
+relationship of concepts within the data sets, which allows
+this relationship to be translated across other databases.
+Web ontology language that can formally describe the
+semantics of classes in the domains of interest and the
+semantics of properties (or attributes) is used in Web
+documents. Ontologies provide richer integration and
+interoperability of data and permit the development of
+applications that search across diverse communities or
+merge information from them. Ontologies are like a
+library classification, which have to be structured so that
+254
+
+they are recognizable in the RDF. Metadata and
+ontologies are complementary and constitute the
+Semantic Web's building blocks. They avoid meaning
+ambiguities and provide more precise answers. In
+addition to a better accuracy of query results, another
+goal of the Semantic Web is to describe the semantic
+relationships between these answers.
+
+2. OBJECTIVES
+The main objective of this study is to analyze the
+research performance in Semantic Web, as reflected in
+its publications output during 2001-2010. In particular,
+the study focuses on the following objectives: (i) To study
+the research output, its growth, and global publications
+share and impact of various significant countries, (ii) To
+study the publications productivity and impact of leading
+institutions and authors, (iii) To study the characteristics
+of highly cited papers and (iv) To study the patterns of
+research communication in most productive journals.
+
+3. METHODOLOGY AND SOURCE OF DATA
+This study is based on the publications data in
+Semantic Web retrieved from the Scopus Citation
+database for the 10 years (2001-2010). The search
+strategy/keyword used to retrieve the data on Semantic
+Web is as follows:
+(((TITLE-ABS-KEY("semantic Web") OR TITLE-ABSKEY("web of data")) AND PUBYEAR AFT 2000 AND
+PUBYEAR BEF 2011))
+The search using the above keywords becomes
+finally our main string. For citations data, three years,
+two year and one year citations window has been used
+for computing average citations per paper for Semantic
+Web research publications during 2000-2007, 2008 and
+2009. For analysing institutional, authors and journals
+output, the separate search strategies for generating
+institutional, author and journal outputs were developed,
+which later combined with the main string to generate the
+desired output. For generating high-cited papers, the
+main string is first run. Then, the tag "citation to" is
+ticked, which rearranges the entire output in the
+decreasing order of citations received by each paper
+with most high-cited papers at the top. Then the highcited papers are marked and downloaded for analyses.
+
+4. ANALYSES AND RESULTS
+4.1 Overall Publications Output and Impact
+There were 11846 papers published world over on
+Web Semantics during the last ten years, from 2001 to
+2010. These papers have grown at an annual average
+growth rate of 75.90 per cent. In terms of cumulative
+output, the research output on Web Semantics has
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+increased from 2279 papers in 2001-05 to 9567 papers
+in 2006-2010, showing a growth rate of 319.79 per cent
+(Table 1). On further breaking the research output by
+source, 5736 papers appeared in conference
+proceeding, 3198 in book series, 2851 in journals, 56 in
+trade publications and 5 as books. On analysing the
+citation impact (as measured on a three year citation
+window) of overall publication output, it was found that
+over the years the citation impact has come down. It is
+not consistent, because the field is still developing and
+yet to mature. The average citation impact of all papers
+during 2001-2010 was only 1.87 (Table 1).
+Table 1. Research output and impact of research
+on Web Semantics: 2001-2110
+
+Table 2. Contribution and citation impact of Different countries
+on Semantic Web: 2001-2010
+C ountry
+
+TP
+
+TC
+
+ACPP
+
+C hina
+
+1958
+
+1613
+
+0.82
+
+U SA
+
+1439
+
+5878
+
+4.08
+
+Germany
+
+1335
+
+3503
+
+2.62
+
+U .K.
+
+1067
+
+3321
+
+3.11
+
+Italy
+
+710
+
+1657
+
+2.33
+
+Spain
+
+602
+
+1040
+
+1.73
+
+South Korea
+
+303
+
+335
+
+1.11
+
+N etherlands
+
+291
+
+951
+
+3.27
+
+Japan
+
+236
+
+316
+
+1.34
+
+India
+
+224
+
+191
+
+0.85
+
+Brazil
+
+142
+
+111
+
+0.78
+
+Taiwan
+
+123
+
+232
+
+1.89
+
+Belgium
+
+115
+
+235
+
+2.04
+
+Switzerland
+
+113
+
+152
+
+1.35
+
+4.19
+
+Singapore
+
+91
+
+279
+
+3.07
+
+2467
+
+3.25
+
+Total
+
+8749
+
+19814
+
+2.26
+
+1040
+
+2764
+
+2.66
+
+World Total
+
+11846
+
+2006
+
+1340
+
+3486
+
+2.60
+
+Share of 15 countries in
+world output
+
+73.86
+
+2007
+
+1784
+
+4928
+
+2.76
+
+2008
+
+1970
+
+3664
+
+1.88
+
+2009
+
+1958
+
+1661
+
+0.85
+
+2010
+
+2515
+
+66
+
+0.03
+
+Total
+
+11846
+
+22167
+
+1.87
+
+Period
+
+TP
+
+TC
+
+ACPP
+
+2001
+
+35
+
+1017
+
+29.06
+
+2002
+
+108
+
+703
+
+6.51
+
+2003
+
+337
+
+1411
+
+2004
+
+759
+
+2005
+
+TP = Total papers; TC = Total citations;
+ACPP = Average citation per paper
+
+4.2 Contributions and Impact of Different
+Countries
+On measuring the contribution of various countries,
+it was found that China contributed the largest share of
+papers (16.53 per cent share) during 2001-2010 on Web
+Semantics, followed by United States, Germany and
+United Kingdom (from 9.01 per cent to 12.15 per cent
+share), Italy and Spain (from 5.08 per cent to 5.99 per
+cent share), South Korea, Netherlands, Japan, India,
+Brazil and Taiwan (from 1.04 per cent to 2.56 per cent
+share) and Belgium, Switzerland and Singapore (from
+0.77 per cent to 0.97 per cent share). These 15 countries
+together contributed 8749 papers, accounting for 73.86
+per cent share in world publications output during the
+same period. In terms of citation impact, the largest
+(4.08) was received by United States for its all
+publications during 2001-2010, followed by Netherlands,
+U.K and Singapore (from 3.07 to 3.27), Germany, Italy
+and Belgium (from 2.04 to 2.62), Taiwan, Spain,
+Switzerland, Japan and South Korea (from 1.11 to 1.89)
+and India, China and Brazil (from 0.78 to 0.85) (Table 2).
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+4.3 Institutional Contributions and Impact
+The top 15 most productive institutions involved in
+Semantic Web research have published 75 and more
+papers each during 2001-2010. Of these 15 authors, 5
+are from China, 3 from U.K., 2 each from Germany and
+Austria and 1 each from Ireland, Spain and Netherlands.
+The publications profile of these 15 institutions along with
+their research output, citations received and h-index
+values are presented in Table 3. These 15 institutions
+involved in Semantic Web research together have
+contributed 16.28 per cent share (1929 papers) in the
+cumulative world publications output, with an average of
+128.6 papers per institution. Only 9 institutions have
+registered higher publications share than the group
+average. These are Digital Enterprise Research Institute,
+Ireland with 204 papers, followed by University of
+Southampton, U.K (196 papers), Universität Karlsruhe,
+Germany (167 papers), Open University, U.K (159
+papers), University of Manchester, U.K (149 papers),
+Wuhan University, China (130 papers), Zhejiang
+University, China (128 papers), Vrije Universiteit,
+Netherlands (128 papers) and University of Innsbruck,
+Austria (121 papers).
+The average citation per paper registered by the
+total papers of these 15 institutions on Semantic Web
+was 3.18. Only 6 institutions have registered comparative
+higher citation impact than the group average. The
+highest impact of 6.91 citations per paper was scored by
+the University of Manchester, U.K., followed by Vrije
+255
+
+Table 3. Contribution and citation Impact of top 15 institutions on semantic web: 2001-2010
+Nam e of the Instituti on
+
+TP
+
+TC
+
+ACP P
+
+H -Inde x
+
+Digit al E nt erprise Res e arc h Ins titu te,
+Nation al Univers ity of Irela nd, Ga lway , I re lan d
+
+20 4
+
+70 5
+
+3.4 6
+
+16
+
+Unive rsity of S outh amp ton, U.K.
+
+19 6
+
+84 3
+
+4.3 0
+
+17
+
+Unive rsität K arlsruhe , K arls ruhe, G e rm any
+
+16 7
+
+83 9
+
+5.0 2
+
+19
+
+O pen Univers it y, Kno wled ge M edia Inst itut e, Milton
+K eyn es, U.K .
+
+15 9
+
+42 4
+
+2.6 7
+
+12
+
+Unive rsity of M anc hes ter, Manc he ste r, U.K .
+
+14 9
+
+10 29
+
+6.9 1
+
+20
+
+W uha n Univ ersity, W u han, China
+
+13 0
+
+71
+
+0.5 5
+
+3
+
+Zhejia ng U niv ers ity , Ch ina
+
+12 8
+
+14 3
+
+1.1 2
+
+8
+
+V rije Unive rs it eit Am ste rd am, Nethe rland s
+
+12 8
+
+64 5
+
+5.0 4
+
+16
+
+Unive rsity of In ns bruck , A ustria
+
+12 1
+
+33 7
+
+2.7 9
+
+12
+
+Technisch e Unive rsitat W ien
+(Vien na In stitute of Tec hn ology ), Au stria
+
+10 4
+
+26 6
+
+2.5 6
+
+11
+
+Unive rsidad Po lit ec nic a de Ma drid , S pain
+
+95
+
+15 2
+
+1.6 0
+
+6
+
+Ts ing hua Univers ity, Chin a
+
+95
+
+11 6
+
+1.2 2
+
+11
+
+S outh eas t University, Nanjin g, C hina
+
+90
+
+13 8
+
+1.5 3
+
+7
+
+S hang hai Jiaot ong Univers ity, Chin a
+
+88
+
+18 8
+
+2.1 4
+
+7
+
+Deu ts ch es Fo rsc hung s zen trum für
+K üns tliche In telligenz , K aise rs lautern,
+G erma ny
+
+75
+
+24 1
+
+3.2 1
+
+7
+
+19 29
+
+61 37
+
+3.1 8
+
+11 .47
+
+Tota l
+Tota l W orld O utput
+
+118 46
+
+S ha re of 1 5 Top Instituti ons
+in W orld Output
+
+1 6.28
+
+Universiteit, Netherlands (5.04 citations per paper),
+Universität Karlsruhe, Germany (5.02 citations per
+paper), University of Southampton, U.K. (4.30 citations
+per paper), Digital Enterprise Research Institute, Ireland
+(3.46
+citations
+per
+paper)
+and
+Deutsches
+Forschungszentrum
+für
+Künstliche
+Intelligenz,
+Kaiserslautern, Germany (3.21) (Table 3). The average
+h-index value of these 15 Indian most productive
+institutions was 11.47 during 2001-2010. The seven
+institutions have scored higher h-index value than group's
+average of 11.47. The highest h-index value (20) was
+achieved by University of Manchester, U.K, followed by
+University of Karlsruhe, Germany (19), University of
+Southampton, U.K (17), Digital Enterprise Research
+Institute, Ireland and Vrije Universiteit, Netherlands (16
+each) and Open University, U.K and University of
+Innsbruck, Austria (12 each) (Table 3).
+
+per author and account for 5.31 per cent share in the
+world cumulative publications output during 2001-2010.
+Five authors have published higher number of papers
+than the group's average. These are Enrico Motta with 74
+papers, followed by John Domingue (55 papers), Dieter
+Fensel (52 papers), Grigoris E. Antoniou (48 papers)
+and Ian Horrocks (44 papers).
+
+4.4 Authors’ Contributions and Impact
+
+Considering the quality/impact of papers, these
+productive authors have received a total of 2782 citations
+for 192 papers with an average of 4.42 citations per
+paper. Six authors have registered higher citation impact
+than the group's average citation impact of all authors
+(4.42). These are Ian Horrocks with 13.82 citations per
+paper, followed by Tim W. Finin (6.87 citations per
+paper), Thomas Lukasiewicz (6.63 citations per paper),
+Steffen Staab (5.97 citations per paper), G Stefan
+Decker (5.94 citations per paper) and Dieter Fensel
+(4.92 citations per paper).
+
+Based on the publication data, 15 authors have been
+identified as prolific authors who have published more
+than 32 papers on Semantic Web research. Of these 15
+authors, 3 each are from U.K. and Austria, 2 from China
+and 1 each is from Greece, Spain, USA, Germany,
+Canada, Ireland and Italy. These 15 authors together
+contributed 629 papers with an average of 41.93 papers
+
+Measuring the performance of these authors on the
+basis of h-index, eight authors have achieved the higher
+h-index value than the group's average of 7.05. These
+authors are Ian Horrocks with h-index of 16, followed by
+Dieter Fensel and Tim W. Finin (13 each), Steffen Staab
+(10), John Domingue and Stefan Decker (9 each) and
+Thomas Lukasiewicz (8) (Table 4).
+
+256
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+Table 4. Contribution and citation impact of top 15 authors on semantic web: 2001-2010
+Na me of author
+
+Author affiliation
+
+TP
+
+TC
+
+ACPP
+
+H-Index
+
+Enrico Mott a
+
+Open Unive rsity, Milton Keyes, U.K.
+
+74
+
+27 2
+
+3. 68
+
+10
+
+Joh n Dom ingue
+
+Techn isch e Universität Wien, I nstitu t für
+Informa tion ssystem e, Austria
+
+55
+
+15 4
+
+2. 80
+
+9
+
+Diete r Fensel
+
+University of I nnsbruck, Sem ant ic
+Techn ology Institute (STI) I nnsbruck,
+Austria
+
+52
+
+25 6
+
+4. 92
+
+13
+
+Grigoris E. Antoniou
+
+Institute of C omputer Science, Gree ce
+
+48
+
+12 2
+
+2. 54
+
+7
+
+I an Ho rrocks
+
+Oxf ord University, Com put ing Laboratory,
+U.K.
+
+44
+
+60 8
+
+13. 82
+
+16
+
+Asunción Gómez-Pérez
+
+Universidad Politécnica de Madrid,
+Ont olo gy Eng ineering Group, Spa in
+
+40
+
+10 8
+
+2. 70
+
+5
+
+Tim W . Finin
+
+University of M aryland , USA
+
+39
+
+26 8
+
+6. 87
+
+13
+
+Steff en Staab
+
+University of Koblen z, I nformatio n
+System s and Semantic We b Re sea rch
+Group, German y
+
+39
+
+23 3
+
+5. 97
+
+10
+
+Jeff Z. Pan
+
+University of Aberd een, Dept. of
+Comput ing Science. U. K.
+
+37
+
+10 8
+
+2. 92
+
+7
+
+Dragan Ga se vic
+
+Athabasca Universit y, School of
+Comput ing an d Inf ormation System s,
+Can ada
+
+35
+
+88
+
+2. 51
+
+6
+
+Zh aohu i h ui W u
+
+Zhe jiang Universit y, School of Com puter
+Science, China
+
+35
+
+63
+
+1. 80
+
+5
+
+Hu ajun J. Chen
+
+Zhe jiang Universit y, School of Com puter
+Science, China
+
+33
+
+43
+
+1. 30
+
+4
+
+Stefan De cker
+
+Digital Enterprise Re se arch Institute,
+Nat ion al Unive rsit y o f Ireland
+
+33
+
+19 6
+
+5. 94
+
+9
+
+Nicola Fanizzi
+
+Università Degli Studi d i Bari Ald o Moro,
+Dipartimento d i Informat ica. Italy
+
+33
+
+51
+
+1. 55
+
+5
+
+Th oma s L ukasiewicz
+
+Institut f ür Info rmationssysteme,
+Comput ing La boratory, Austria
+
+32
+
+21 2
+
+6. 63
+
+8
+
+629
+
+278 2
+
+4.42
+
+7 .05
+
+Total
+World output
+
+11846
+
+Share of 15 authors in world output
+
+4.5 Role of Keywords
+Keywords are also important indicators which throw
+light on thought content of the subject field. By analysing
+the keywords one gets an idea about different
+terminologies used by authors and indexers and also
+about the direction in which the subject is evolving. Table
+5 gives the list of high frequency keywords appearing on
+the Web Semantics literature during 2001-2010.
+The most prominent keywords are Semantic Web,
+Semantics, Ontology, World Wide Web, Web Services
+and Information Theory, with their share in total
+publications output varying from 15.65 per cent to 84.73
+per cent. The second category of important keywords is
+Information Retrieval, Information Services, Metadata,
+Multi Agent System, Knowledge Based Systems and
+Internet, with publication share varying from 6.09 per
+cent to 9.62 per cent. In the third category of importance
+of keywords include Query Languages, Linguistics,
+XML, Search Engines, Artificial Intelligence, Database
+Systems, Knowledge Representation, Information
+Systems, Websites, User Interfaces, Computer
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+5.31
+
+Software, Semantic Web Technology, Computer
+Programming Languages and Electronic Commerce,
+with contribution varying from 3.29 per cent to 5.93 per
+cent during 2001-2010 (Table 5).
+
+4.6 Media and Channels of Communication
+Scientists communicated their research results
+through variety of document types. Conference papers
+were the most predominant channel of communication
+where more than 70 per cent of the publications were
+published, followed by articles (23.54), reviews (1.89 per
+cent) and editorials (0.54 per cent). Among the journal
+articles, the most productive 30 journals publishing
+literature on Semantic Web are listed in Table 6. Together
+these 30 journals contributed 1123 papers during 20012010, constituting 39.39 per cent share in total journal
+world output. The most productive journal publishing
+papers in this area is Communications in Computer and
+Information Science with 132 papers and 4.63 per cent
+share, followed by Web Semantics (102 papers, 3.58
+per centshare), IEEE Intelligent Systems (78 papers,
+2.74 per cent share), etc. (Table 6).
+257
+
+Table 5. List of important keywords appearing in literature on web semantics: 2001-2010
+
+Keywords
+
+Frequency
+
+Frequency
+
+Semantic Web
+
+10037
+
+Linguistics
+
+629
+
+Semantics
+
+7051
+
+XML
+
+627
+
+Ontology
+
+5103
+
+Search Engines
+
+567
+
+World Wide Web
+
+3272
+
+Artificial Intelligence
+
+556
+
+Web Services
+
+2130
+
+Database Systems
+
+541
+
+Information Theory
+
+1854
+
+Knowledge Representation
+
+541
+
+Information Retrieval
+
+1140
+
+Information Systems
+
+516
+
+Information Services
+
+904
+
+Websites
+
+443
+
+Metadata
+
+894
+
+User Interfaces
+
+442
+
+Multi Agent System
+
+808
+
+Computer software
+
+434
+
+Knowledge-Based
+Systems
+Internet
+
+761
+
+Semantic Web Technology
+
+431
+
+722
+
+Computer Programming
+Languages
+
+427
+
+Query Languages
+
+703
+
+Electronic Commerce
+
+390
+
+4.7 High Cited Papers
+Of the 11846 papers published on Semantic Web
+during 2001-2010, only 3132 papers (26.44 per cent)
+have received 1 or more citations. Of the 3132 cited
+papers, 30 papers have received 100 or more citations
+since their inception, 78 papers citations in the range of
+50-99, 162 papers citations in range of 25-49 and 2862
+papers citations in the range of 1-25.
+Of the 108 high cited papers receiving citations 50
+and above, 88 appeared in journals as articles (63),
+reviews (13) and notes (2) and 20 as conference papers.
+The 88 papers are published in 43 journals. The highest
+number of papers (16) are published in Web Semantics,
+followed by 8 papers each in IEEE Internet Computing
+and IEEE Intelligent Systems, 7 papers in IEEE
+Intelligent Systems and Their Applications, 4 papers in
+IEEE Transactions on Knowledge and Data Engineering,
+3 papers in VLDB Journal, SIGMOD Journal and Lecture
+Notes in Computer Science (Including subseries Lecture
+Notes in Artificial Engineering and Lecture Notes in
+Bioinformatics), 2 papers in Data and Knowledge
+Engineering and 1 paper each in 34 other journals.
+Of the 108 high cited papers, only 35 involve
+international collaboration (27 bilateral and 8 multilateral)
+. Among these 108 high cited papers, USA has appeared
+in 59 papers, followed by Germany and UK (19 papers
+each), Canada and Netherlands (5 papers each), China
+and Spain (4 papers each), Italy, Singapore, France,
+Austria, Ireland and Sweden (2 papers each) and
+Finland, Japan, Taiwan, Portugal, Vietnam, India,
+Greece, South Korea, Norway, Australia and Brazil
+258
+
+Keywords
+
+(1 paper each). A list of top 20 high cited papers is given
+in Table 7.
+
+5. SUMMARY AND RESULTS
+In all 11846 papers were published the world over on
+Web Semantics during the last ten years from 2001 to
+2010, witnessing an annual average growth rate of 75.90
+per cent. The average citation impact of all papers on
+Web Semantics during 2001-2010 was 1.87. China tops
+the list among the 15 leading countries contributing to
+research on Web Semantics during 2001-2010, with
+16.53 per cent world publications share, followed by
+United States, Germany and United Kingdom, Italy and
+Spain (from 5.08 per cent to 12.15 per cent share),
+South Korea, Netherlands, Japan, India, Brazil and
+Taiwan (from 1.04 per cent to 2.56 per cent share) and
+Belgium, Switzerland and Singapore (from 0.77 per cent
+to 0.97 per cent share). These 15 countries together
+have contributed 8749 papers, accounting for 73.86 per
+cent share in world output during the same period.
+United States registered the largest citation impact of
+4.08 for all its publications during 2001-2010, followed by
+Netherlands, UK and Singapore, Germany, Italy and
+Belgium (from 2.04 to 3.27) and Taiwan, Spain,
+Switzerland, Japan and South Korea, India, China and
+Brazil (from 0.78 to 1.89).
+The most prominent keywords noticed in Web
+Semantics literature during 2001-2010, include
+Semantic Web, Semantics, Ontology, World Wide Web,
+Web Services and Information Theory, with their share
+in total publications output varying from 15.65 per cent to
+84.73 per cent and Information Retrieval, Information
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+Table 6. Media of communication of journal publicationson web semantics: 2001-2010
+Name of the Journal
+
+N o. of papers
+
+% Share in
+total Journal
+output
+
+Communications in Computer and Information Science
+
+132
+
+4.63
+
+Web Semantics
+
+102
+
+3.58
+
+IEEE Intelligent Systems
+
+78
+
+2.74
+
+Studies in Computational Intelligence
+
+61
+
+2.14
+
+IEEE Internet Computing
+
+53
+
+1.86
+
+Expert Systems with Applications
+
+47
+
+1.65
+
+Semantic Web & Information Systems
+
+43
+
+1.51
+
+Lecture Notes in Business Information Processing
+
+43
+
+1.51
+
+IEEE Transactions on Knowledge and Data Engineering
+
+35
+
+1.23
+
+Journal of Computational Information Systems
+
+35
+
+1.23
+
+Journal of Web Semantics
+
+35
+
+1.23
+
+BMC Bioinformatics
+
+33
+
+1.16
+
+Journal of Universal Computer Science
+
+32
+
+1.12
+
+International Journal of Metadata Semantics and Ontologies
+
+31
+
+1.09
+
+Journal of Southeast University, English Edition
+
+27
+
+0.95
+
+Knowledge Based Systems
+
+27
+
+0.95
+
+Data and Knowledge Engineering
+
+26
+
+0.91
+
+Jisuanji Jichong Zhizao Xitong Computer Integrated Manufacturing
+Systems, CIMS
+
+26
+
+0.91
+
+Frontier in Artificial Intelligence & Applications
+
+25
+
+0.88
+
+Jisuanji Yanjiu Yu Fazhan Computer Research & Development
+
+25
+
+0.88
+
+Jisuanji Gongcheng Computer Engineering
+
+24
+
+0.84
+
+SIGMOD Record
+
+23
+
+0.81
+
+Briefings in Bioinformatics
+
+22
+
+0.77
+
+Journal of Biomedical Informatics
+
+22
+
+0.77
+
+Electronic Notes in Theoretical Computer Science
+
+21
+
+0.74
+
+Ruan Jian Xue Bao Journal of Software
+
+21
+
+0.74
+
+Wseas Transaction on Information Science & Applications
+
+19
+
+0.67
+
+Jisuanji Xue Bao Chinese Journal of Computers
+
+19
+
+0.67
+
+Studies in Health Technology and Informatics
+
+18
+
+0.63
+
+IEEE Intelligent Systems & their Applications
+
+18
+
+0.63
+
+1123
+
+39.39
+
+Total
+Total world output in Journals
+
+2851
+
+Share of 30 Journals in world Journal output
+
+39.39
+
+Services, Metadata, Multi Agent System, Knowledge
+Based Systems and Internet, with their share in
+publications varying from 6.09 per cent to 9.62 per cent.
+The 15 most productive institutions involved in Semantic
+Web research (publishing 75 and more papers each
+during 2001-2010) have together contributed 1929
+papers, accounting for 16.28 per cent share in the
+cumulative world publications output, with an average
+output of 128.6 papers per institution.
+The top 15 most productive authors on Semantic
+Web (publishing 32 or more papers) have together
+contributed 629 papers, accounting for 5.31 per cent
+share in the world cumulative publications output during
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+2001-2010 and with an average of 41.93 papers per
+author. The most productive 30 journals publishes on
+Semantic Web have together contributed 1123 papers
+during 2001-2010, constituting 39.39 per cent share in
+total journal world publications output.
+Among the 11846 papers published on Semantic
+Web during 2001 to 2010, only 26.44 per cent (3132
+papers) have received 1 or more citations. Of these
+papers, 30 papers have received 100 or more citations
+since their inception, 78 papers citations in the range of
+50-99, 162 papers citations in range of 25-49 and 2862
+papers citations in the range of 1-25. Of the 108 highly
+cited papers (receiving 50 or more citations), only 35
+259
+
+Table 7. List of top 20 highly cited papers on web semantics: 2001-2010
+
+260
+
+Au thors name
+
+Title (document type)
+
+Source
+
+N o.of citations
+
+Berners-Lee, T.; Hendler
+J. & Lassila, O.
+
+The semantic web (N ote)
+
+Scientific American, 2001,
+284(5), 34-43.
+
+3132
+
+McIlraith S.A.,; Son, T.C.
+& Zeng, H.
+
+Semantic web services (Article)
+
+IEEE Intelligent Systems
+and their Applications,
+2001, 16(2), 46-53.
+
+609
+
+Horrocks, I.; PatelSchneider, P.F. & Van
+Harmelen, F.
+Kalfoglou, Y.;
+Schorlemmer, M. &
+
+From SHIQ and RDF to OWL: The making of
+a Web Ontology Language (Article)
+
+Web Semantics, 2003,
+1(1), 7-26.
+
+409
+
+Ontology mapping: The state of the art
+(Article)
+
+Knowledge Engineering
+Review, 2003, 18(1), 1-31.
+
+352
+
+Hendler, J.
+
+Agents and the semantic web (Article)
+
+IEEE Intelligent Systems
+and their Applications,
+2001, 16(2), 30-37.
+
+351
+
+Maedche, A. & Staab, S.
+
+Ontology learning for the semantic web
+(Article)
+
+IEEE Intelligent Systems
+and their Applications,
+2001, 16(2), 72-79.
+
+329
+
+Noy, N.F.; Sintek, M.;
+Decker, S., et al.
+
+Creating semantic web contents with
+protÃ©gÃ©-2000 (Article)
+
+IEEE Intelligent Systems
+and their Applications,
+2001, 16(2), 60-71.
+
+304
+
+Milanovic, N. & Malek, M.
+
+Current solutions for Web service
+composition (Article)
+
+IEEE Internet Computing,
+2004, 8(6), 51-59.
+
+275
+
+Shadbolt; N.; Hall; W. &
+Berners-Lee, T.
+
+The semantic web revisited (Review)
+
+IEEE Intelligent Systems,
+2006, 21(3), 96-101.
+
+244
+
+Sycara, K.; Paolucci, M.;
+Ankolekar, A., et al.
+
+Automated discovery, interaction and
+composition of Semantic Web services
+(Article)
+
+Web Semantics, 2003,
+1(1), 27-46.
+
+239
+
+Medjahed, B.;
+Bouguettaya, A. &
+Elmagarmid, A.K.
+
+Composing web services on the Semantic
+Web
+
+VLDB Journal, 2003,
+12(4), 333-51.
+
+231
+
+Fensel, D.; Van
+Harmelen, F., et al.
+
+OIL: An ontology infrastructure for the
+semantic web (Article)
+
+IEEE Intelligent Systems
+and their Applications,
+2001, 16(2), 38-45.
+
+197
+
+Narayanan, S. & McIlraith
+S.A.
+
+Simulation, verification and automated
+composition of web services (Conference
+Paper)
+
+Proceedings of the 11th
+International Conference
+on World Wide Web,
+WWW '02, 2002, 77-88.
+
+196
+
+Doan, A.; Madhavan, J.;
+Domingos, P., et al.
+
+Learning to map between ontologies on the
+semantic web (Conference Paper)
+
+Proceedings of the 11th
+International Conference
+on World Wide Web,
+WWW-02, 2002, 662-673
+
+195
+
+Cardoso J., Sheth A.
+
+Semantic E-workflow composition (Article)
+
+Journal of Intelligent
+Information Systems,
+2003, 21(3), 191-225.
+
+154
+
+Doan, A.H.; Madhavan,
+J.; Dhamankar, R., et al.
+
+Learning to match ontologies on the Semantic
+Web (Article)
+
+VLDB Journal, 2003,
+12(4), 303-19.
+
+152
+
+Alani, H.; Kim, S.; Millard,
+D.E.; Weal, M.J., et al.
+
+Automatic ontology-based knowledge
+extraction from web documents (Article)
+
+IEEE Intelligent Systems,
+2003, 18(1), 14-21.
+
+140
+
+Verma, K.;
+Sivashanmugam, K.;
+Sheth, A., et al.
+
+METEOR-S WSDI: A scalable P2P
+infrastructure of registries for semantic
+publication and discovery of web services
+(Article)
+
+Information Technology
+and Management, 2005,
+6(1), 17-39.
+
+138
+
+Guo Y.; Pan Z. & Heflin J.
+
+LUBM: A benchmark for OWL knowledge
+base systems (Conference Paper)
+
+Web Semantics, 2005, 3,
+158-82.
+
+128
+
+Boulos M.N.K.; Wheelert
+S.
+
+The emerging Web 2.0 social software: An
+eanbling suite of sociable technologies in
+health and health care education (Article)
+
+Health Information and
+Libraries Journal, 2007,
+24(1), 2-23.
+
+124
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+involve international collaboration (27 bilateral and 8
+multilateral). Among these high cited papers, USA has
+appeared in 59 papers, followed by Germany and UK (19
+papers each), Canada and Netherlands (5 papers each),
+China and Spain (4 papers each), Italy, Singapore,
+France, Austria, Ireland and Sweden (2 papers each),
+etc.
+
+ontology-based semantic web mining. http://wwwrp.lip6.fr/-blegrand/Publis/WSO_book. pdf
+5. Gruber, T. Toward principles for the design of
+ontologies used for knowledge sharing. Int. J.
+Human-Computer Stud., 1993, 43, 907-28.
+
+REFERENCES
+1. Sadeh, Tamar & Walker, Jenny. Library portals:
+Towards the semantic web. New Lib. World, 2003,
+104(1184/1185), 11-19.
+2. Berners-Lee T.; Hendler J. & Lassila, O. The
+semantic web (note). Scientific American, 2001,
+284(5), 34-43.
+3. Horton, James L. It's all semantics: The semantics
+web and PR. http://www.online_pr.com/Holding/The
+Semantic_Web_and_PR.pdf
+4. Aufaure, Marie-Aude; Grand, Benedicte Le; Soto,
+Michel &
+Bennacer, Nacera. Metadata- and
+
+DESIDOC J. Lib. Inf. Technol., 2011, 31(4)
+
+About the Authors
+Shri Avinash Kshitij obtained Masters in Computer Applications
+and is presently working as Scientist in National Institute of
+Science and Developmental Studies (NISTADS), CSIR, New
+Delhi. Before joining NISTADS, he worked as a Software
+Engineer in R-Systems Internal, Noida, and in Catabatic
+Automation Technology Pvt Ltd, Gurgaon. His areas of interest
+are Data mining and databases.
+Dr B.M. Gupta recieved his PhD in Scientometrics from
+Karnataka University and is working in this area since last
+33 years. His areas of interest include measurement of
+Indian S&T, international collaborations, and productivity of
+scientists. Presently he is working as Emeritus Scientist in
+Council of Scientific and Industrial Research.
+
+261
+
+

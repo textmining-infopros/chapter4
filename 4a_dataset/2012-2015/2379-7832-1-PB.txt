@@ -1,0 +1,962 @@
+DESIDOC Journal of Library & Information Technology, Vol. 32, No. 3, May 2012, pp. 228-232
+© 2012, DESIDOC
+
+Research and Development, Patenting and Performance:
+Evidence from Indian Pharmaceutical Industry
+Ishita G. Tripathy, Surendra S. Yadav and Seema Sharma
+Indian Institute of Technology, Hauz Khas, New Delhi-110 016
+E-mail: ishita.tripathy@nic.in
+
+ABSTRACT
+The Indian pharmaceutical industry (IPI) has been largely influenced by the changes in the patent regimes
+in India. This paper, besides reviewing the evolution of IPI, studies the trends of research and development
+(R&D) and patenting of pharmaceutical firms and identifies the determinants of R&D. It examines the
+interdependence between R&D and patenting, and firms’ overall performance. Secondary data analysis indicates
+that the product patent regime has impacted the R&D intensity of IPI firms. The analysis of primary data
+collected from 64 pharmaceutical firms identifies three distinct clusters of firms of IPI. The firms’ performance,
+measured by the rate of capital employed by the three groups of firms, indicates that superior R&D and a large
+number of patent filings need not necessarily imply a better performance. The paper adds to the extant
+literature on IPI by bringing forth implications which are important for formulating appropriate action plans to
+enable pharmaceutical firms to efficiently employ their resources in the product patent era.
+Keywords: Indian pharmaceutical industry, patents, patent regime, Tobit, ROCE, cluster analysis, return on capital
+employed
+
+1. INTRODUCTION
+In recent times, technological innovation, low
+production and research and development (R&D) costs
+and availability of a huge skilled, well-educated, Englishspeaking manpower have propelled India’s economic
+growth and competitiveness1. Technology-intensive
+sectors, like the pharmaceutical industry, have put India
+onto the global business atlas, with the Indian
+pharmaceutical industry (IPI) accounting for 10 per cent of
+world’s production by volume and 1.5 per cent in terms of
+value2. The evolution of IPI can be broadly divided into four
+phases, in congruence with the changes in patenting
+regimes followed in the country. The first phase (1911 1970) was that of the product patent regime, established
+by the Patents and Designs Act, 1911. The regime helped
+multi-national companies (MNCs) to rule the Indian
+market by importing bulk drugs and processing these into
+formulations. Indigenous firms, in contrast, had to
+produce the corresponding bulk drugs for their
+formulations. The second phase (1970-1995) started with
+the replacement of product patents by process patents,
+introduced by Indian Patents Act, 1970. This phase
+enabled Indian firms to manufacture drugs using less
+expensive processes than those developed by the
+Received 09 December 2011, online published 18 May 2012
+
+innovators, thereby boosting the growth of the indigenous
+firms vis-à-vis that of MNCs3. During the third phase
+(1995-2005), Patents (Amendment) Act, 1999, and
+Patents (Amendment) Act, 2002, were enacted, which
+provided for the implementation of the ‘mail box’,
+‘exclusive marketing rights’ facilities and ‘compulsory
+licensing’, in conformance with the provisions of World
+Trade Organisation’s Trade Related Aspects of
+Intellectual Property Rights4.
+With the establishment of a product patent regime by
+the enactment of Patents (Amendment) Act, 2005, drugs
+patented after 1995 were not allowed to be produced
+through reverse engineering5. Since 1995, the operational
+environment of the firms of IPI has undergone a
+tremendous transformation. The changed environment of
+patenting in India witnessed rapid alterations in the firms’
+operational and growth strategies6. Firms have resorted to
+setting up R&D units, demerger of R&D units from
+manufacturing set-ups, strong collaborations with
+research laboratories and separation of generics
+segment4,7. MNCs have viewed this changed patent era as
+an opportunity to expand their pharmaceutical business
+and acquired large firms8. In the new regime, the twopronged strategy of MNCs has been to target the mass
+228
+
+market through ‘product localisation and India specific
+pricing’ to capture the branded generics segment; and
+‘launch globally patented products in niche segments at a
+premium’9,10. In this backdrop, this paper examines the
+trend of R&D and patenting of firms of IPI and identifies the
+determinants of R&D. It tests the underlying hypothesis
+that distinct groups of firms, identified according to the
+R&D activities and patenting trends, have performance
+differentials.
+
+Table 1. Variables used for Tobit Model
+
+Dependent variable for tobit estimation: R&D intensity, ‘Y’
+Independent
+variables
+
+Description
+
+Patent regime,
+‘PRdum’
+
+PRdum = 1 for 2005-06 to
+2008-09
+= 0 for 2001-02 to 2004-05
+
++
+
+Ownership,
+‘Odum’
+
+Odum = 1 if domestic ownership;
+= 0, otherwise
+
++
+
+2. METHODOLOGY AND DATA USED
+
+Age, ‘A’
+
+Age of the firm in number of
+years.
+
++
+
+This study relies on both secondary and primary data
+and covers all large firms of IPI. Large firms are those
+firms which have a minimum investment of Rs. 10 crore on
+plant and machinery1. The reference period of this study is
+from 2001-02 to 2008-09, i.e. the last four years of the
+process patent regime and the first four years of the
+product patent regime. As per data available from the
+Prowess database of Centre for Monitoring Indian
+Economy (CMIE), during the year 2008-09 there were 183
+such pharmaceutical firms.
+
+Firm size, ‘S’
+
+Sales of the firm
+
++
+
+Square of firm
+2
+size, S
+
+Square of the sales of the firm
+
++/-
+
+Intensity of
+capital
+imports, KM
+
+Ratio of capital imports to sales
+
++/-
+
+Intensity of
+goods
+exported, X
+
+Ratio of export of goods to sales
+
++
+
+Intensity of
+foreign direct
+investment
+
+Ratio of FDI to sales
+
++
+
+Profit rate, PR
+
+Ratio of profit to sales
+
++
+
+Ratio of
+intangible
+assets to
+sales, IA
+
+Ratio of intangible assets to sales
+
++
+
+2.1 Secondary Data
+Secondary data analysis covers data of all 183 large
+firms for the years 2001-02 to 2008-09. To understand the
+R&D behaviour of IPI, the R&D intensity of pharmaceutical
+  Tobit model
+firms was estimated, using a Tobit model. The
+was found to be appropriate for the analysis because the
+dependent variable, R&D intensity, is continuous, but its
+range is constrained11 since a large number of firms in the
+sample do not have R&D activities, rendering a null value
+for the dependent variable. The description of the
+independent variables and their expected relationship with
+the dependent variable is given in Table 1. The relationship
+between the dependent and independent variables in the
+Tobit model used in this study can be presented in the
+following form:
+RDI=β 1 PRdum+β 2 Odum+β 3 A+β 4 S+β 5 S 2 +β 6 KM+
+β7X+β8FDI+β9PR+β10IA if Xitβ +uit> 0
+(1)
+= 0 if Xitβ + uit≤0
+where, RDI is the dependent variable; β is the vector of
+unknown parameters which determine the relationship
+between the independent variables and the latent variable;
+and Xi is the vector of explanatory variables.
+u ~ N (0, σ2)
+Due to some missing data, an unbalanced panel data
+of 173 firms for eight years was used. The firm-year
+observations were 1,243.
+
+2.2
+
+Primary Data
+
+The primary data was collected at two levels, expert
+level and firm level, between September 2009 and October
+DESIDOC J. Lib. Inf. Technol., 2012, 32(3)
+
+Expected
+relationship
+
+2010. Based on discussions held with experts drawn
+from the industry, Government of India and academia, on
+important aspects of IPI, a questionnaire for the firm-level
+survey was prepared and administered to the
+pharmaceutical firms. The questionnaire was of closed
+type and included questions regarding R&D and patents.
+The firms were asked to indicate their perception on a five
+point Likert scale. A pre-testing of the questionnaire was
+done on a sample of 21 pharmaceutical firms through
+personal interviews and e-mails. Changes, wherever
+necessary, were made according to the feedback
+received from the pre-testing.
+Thereafter, the final questionnaire was e-mailed to all
+the firms. This was followed up by telephone calls and
+personal interviews. Sixty four responses were found
+suitable for analysis. Keeping in view the multivariate
+nature of the factors/variables incorporated into the
+questionnaire, cluster analysis was found to be the
+suitable statistical tool for analysis12. The responses
+received were subjected to a cluster analysis with the
+help of Statistical Package for Social Sciences. Initially,
+the number of clusters was found out by running a
+hierarchical cluster analysis of the responses.
+Agglomeration schedule and dendrograms were used to
+group the firms according to the similarity in their R&D
+and patenting characteristics. With the help of Euclidean
+measure of distance, the firms with similarities (which
+were a short distance apart), and those with
+229
+
+dissimilarities (which were a long distance apart), were
+found to form three distinct groups, with firms within the
+groups showing similar characteristics. The number of
+clusters was identified by the distances between the
+clusters and by a sudden gap in the distance coefficients.
+Having identified the number of clusters as three, a kmeans cluster option was run on the data. The final
+cluster centres were obtained for each variable. From the
+final cluster centres, the average values of each variable
+for a cluster were interpreted. Return on capital employed
+(ROCE) is a popular performance measure and relates
+the profits of a firm to the capital employed by it13. Capital
+employed refers to long-term funds supplied by the
+lenders and owners of the firm. ROCE is calculated as:
+A high ROCE indicates an efficient use of the capital
+employed. To estimate performance differentials across
+the three different groups of firms identified by the cluster
+analysis, ROCE was used.
+ROCE =
+
+Profit before interest and tax
+
+x 100
+
+(2)
+
+Average total capital employed
+
+3. ANALYSIS AND DISCUSSIONS
+3.1 Secondary Data
+For the pharmaceutical industry, the number of patent
+applications recorded an annual quantum jump of 161.4
+per cent during 2003-04, a year prior to the introduction of
+the product patent regime (Table 2).
+
+As a proportion of total patent applications in the
+country, the IPI recorded its largest share (20 %) during
+2003-04. Thereafter, although there have been some
+fluctuations in the share of IPI in total patent applications
+in the country, the IPI maintained a minimum share of 9
+per cent in the subsequent years (2004-05 to 2008-09)
+and the absolute number of applications continued to
+remain high.
+There were 71 large firms which had filed applications
+for patents either in India or abroad during 2001-02 to
+2008-0915, 16. Of these, 29 firms applied for Indian patents,
+10 filed for patents outside the country and 32 filed for
+patents both within India and outside. Between 2001-02
+and 2008-09, within India, 3,241 patents had been filed by
+61 firms. Outside India, 43 firms had applied for 1,667
+patents during the same period. There is a heavy
+concentration of firms which have less than five patent
+applications in both India and abroad (Table 3). On the
+other end of the spectrum, there are very few firms with
+more than 100 applications. There are eight firms with
+applications of more than 100 within the country and four
+have more than 100 filings outside the country. Each of
+the 14 firms which had patent filings of more than 50 in
+India, also had filings outside the country. The 24 firms
+which had less than five patents in India, had not filed for
+any patents outside the country.
+The focus of IPI is shifting towards R&D, with more
+and more firms spending larger shares of their sales on
+R&D (Table 4). Between 2001-02 and 2008-09, the
+
+Table 2. Number of applications for patents under various fields of inventions
+
+Year
+
+Total
+
+2001-2002 to 2008-2009
+Chemicals Pharmaceuticals Food
+
+Electrical
+
+Mechanical Electronics
+
+Biotechnology
+
+2001-02
+
+10,592
+
+778
+(7.3)
+
+879
+(8.3)
+
+110
+(1.0)
+
+731
+(6.9)
+
+1,174
+(11.1)
+
+0
+(0.00)
+
+2
+(0.02)
+
+2002-03
+
+11,466
+
+776
+(6.8)
+
+966
+(8.4); {9.9}
+
+119
+(1.0)
+
+690
+(6.0)
+
+1,257
+(11.0)
+
+0
+(0.00)
+
+46
+(0.4)
+
+2003-04
+
+12,613
+
+2,952
+(23.4)
+
+2,525
+(20.0); {161.4}
+
+123
+(1.0)
+
+2,125
+(16.8)
+
+2,717
+(21.5)
+
+0
+(0.00)
+
+23
+(0.2)
+
+2004-05
+
+17,466
+
+3,916
+(22.4)
+
+2,316
+(13.3); {-8.3}
+
+190
+(1.1)
+
+1,079
+(6.2)
+
+3,304
+(18.9)
+
+2,787
+(16.0)
+
+1,214
+(7.0)
+
+2005-06
+
+24,505
+
+5,810
+(23.7)
+
+2,211
+(9.0); {-4.5}
+
+101
+(0.4)
+
+1,274
+(5.2)
+
+4,734
+(19.3)
+
+5,700
+(23.3)
+
+1,525
+(6.2)
+
+2006-07
+
+28,940
+
+6354
+(22.0)
+
+3,239
+(11.2); {46.5}
+
+1223
+(4.2)
+
+2,371
+(8.2)
+
+5,536
+(19.1)
+
+5,822
+(20.1)
+
+2,774
+(9.6)
+
+2007-08
+
+35,218
+
+6,375
+(18.1)
+
+4,267
+(12.1); {31.7}
+
+233
+(0.7)
+
+2,210
+(6.3)
+
+6,424
+(18.2)
+
+4,842
+(13.7)
+
+1,950
+(5.5)
+
+2008-09
+
+36,812
+
+5,884
+(16.0)
+
+3,672
+(10.0); {13.9}
+
+340
+(0.9)
+
+2,319
+(6.3)
+
+6,360
+(17.3)
+
+7,063
+(19.2)
+
+1,844
+(5.0)
+
+Note: Figures in round parentheses are percentage of total patent applications.
+Figures in curly parentheses are percentage growth over the previous year.
+14
+Source: Adapted from Tripathy
+230
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(3)
+
+Table 3.
+
+Number of firms which filed applications
+for patents: 2001-2002 to 2008-2009
+
+Table 5.
+
+Results of Tobit estimation: N = 1,243
+(unbalanced panel data of 173 firms)
+
+Patents fil ed
+
+In India
+
+Outside India
+
+Dependent var iable
+
+R&D Intensity
+
+More than 100
+
+08
+
+04
+
+independent vari ables
+
+Coefficients
+
+50 to 100
+
+06
+
+05
+
+PRdum
+
+25 to 50
+
+06
+
+03
+
+Odum
+
+10 to 25
+
+08
+
+03
+
+A
+
+5 t o 10
+
+09
+
+05
+
+S
+
+Less than 5
+
+24
+
+22
+
+S
+
+-0.000003 * **
+
+Total
+
+61
+
+42
+
+KM
+
+8.261369 *
+
+Year
+
+R&D
+(in Crore)
+
+Proportion of firms
+with more than 3 %
+R&D intensity (%)
+
+R&D
+intensi ty (%)
+
+2001-02
+
+674.37
+
+14.5
+
+3.2
+
+2002-03
+
+882.07
+
+09.8
+
+3.6
+
+2003-04
+
+1, 415.69
+
+18.2
+
+3.9
+
+2004-05
+
+1, 742.67
+
+23.0
+
+4.7
+
+2005-06
+
+2, 424.74
+
+25.8
+
+5.2
+
+2006-07
+
+2, 612.99
+
+29.4
+
+4.5
+
+2007-08
+
+3, 124.58
+
+25.0
+
+4.6
+
+2008-09
+4, 248.25
+Source: Prowess Database, CMIE
+
+23.8
+
+5.4
+
+proportion of firms investing more than 3 per cent of their
+sales in R&D activities grew from 14.5 per cent to 23.8 per
+cent. Despite an increase in the number of firms incurring
+R&D expenses, a large proportion (66.4 per cent) of the
+firms either did not invest at all or invested less than 1 per
+cent of their total sales on R&D in 2008-09.
+The determinants of R&D intensity of firms of IPI were
+identified using a Tobit model. The coefficients of the
+dummies for patent regime, ‘PRdum’, and ownership
+‘Odum’, were significant, implying that the new patent
+regime and domestic ownership were likely to contribute
+significantly to R&D intensity (Table 5).
+The variables, size, measured by sales, ‘S’, and the
+square of size, ‘S2’, were significant and indicated an
+inverted ‘U’ shaped relationship with the dependent
+variable. The coefficient of the intensity of imports of
+capital goods, ‘KM’, was positive and significant,
+indicating a complementary relationship with in-house
+R&D.
+The coefficient of profit rate, ‘PR’, was significant and
+positively related to the dependent variable. The
+coefficients of other independent variables did not have a
+significant impact on the dependent variable. Thus, the
+patent regime was found to be an important determinant
+of R&D intensity, along with domestic ownership, size of
+firms, intensity of capital imports, and profit rate.
+DESIDOC J. Lib. Inf. Technol., 2012, 32(3)
+
+-0.0834039
+0.0061551 * **
+
+2
+
+Table 4. R&D expenditure by large pharmaceutical firms:
+2001-02 to 2008-09
+
+7.19265 *
+25.28886 *
+
+XG
+
+0.1019723
+
+FDI
+
+-3.649337
+
+PR
+
+0.6353571 * **
+
+IA
+
+1.090348
+
+Cons tant
+
+-47.54288
+
+2
+
+851.24
+
+χ (10)
+Log Likelihood
+Prob>χ
+
+-5953.0685
+
+2
+
+0.0000
+
+*: Significant at 10%. ***: Significant at 1 %
+
+3.2 Primary Data
+Out of the 64 firms which participated in the primary
+survey, there were 60 indigenous respondents and four
+MNCs. Each of the respondents had their own in-house
+R&D units, within India. On an average, a firm invested
+Rs. 1,971 crore on plant and machinery. During the
+reference period, 2001-02 to 2008-09, the firms reported
+annual average domestic sales of Rs. 4,315 crore and
+annual average exports of Rs. 1,495 crore.
+The annual average R&D investment during the
+reference period was Rs. 241 crore, with an intensity of
+5.6 per cent. Besides these quantitative variables,
+respondents were asked to indicate their preferences on
+other parameters like nature of R&D activities, R&D
+laboratories, R&D personnel, IPR, collaboration with
+research institutes, R&D strategy and patents.
+The responses of these firms were subjected to
+cluster analysis. From the analysis, three groups
+emerged (Table 6). The first group consisted of six firms,
+the second and third groups had 17 and 39 firms,
+respectively. Amongst the three groups of firms, some of
+the firms of the first group were found to be investing on
+R&D related to new products. All the remaining firms were
+engaged in R&D entailing new processes and
+modifications in existing products and processes. The
+first group had the highest mean number of patent
+applications both in India and outside the country.
+Besides, it had the highest mean R&D intensity.
+The mean ROCE of the first group was the lowest and
+that of the second group was the highest. One-way
+ANOVA procedure showed that the ROCE means of the
+three groups were significantly different from each other at
+231
+
+Table 6. Means of variables for the three groups
+
+ 
+
+Parameters
+
+Means
+
+Measurement
+scale/unit
+
+Group 1
+
+Group 2
+
+Group 3
+
+Number
+
+006.0
+
+17
+
+41
+
+Members
+Mean number of patents applied for in India
+
+Number
+
+197.3
+
+59
+
+10
+
+Mean number of patents applied for outside India
+
+Number
+
+225.7
+
+80
+
+02
+
+Mean R&D intensity
+
+per cent
+
+007.1
+
+4.3
+
+2.4
+
+ROCE
+
+per cent
+
+017.7
+
+27.1
+
+21.3
+
+5 per cent level of significance. Thus, a large number of
+patent applications and R&D for new products may not
+necessarily translate into a higher ROCE. This reiterates
+the fact that higher-end R&D is expensive.
+
+6. Tripathy, Ishita G., Yadav, Surendra S. & Sharma,
+Seema. FDI flows into the Indian pharmaceutical
+industry: An analysis of trends and constraints. J.
+Intellect. Prop. Rights, 2011, 16(4), 330-34.
+
+4. CONCLUSIONS
+
+7. Pingle, Sanjay. R&D spend: Gamble on blockbuster
+drugs hots up. Pharmabiz Chronicle, 26 March 2009.
+http://www.pharmabiz.com/article/detnews.as
+p?articlei d=48984&sectionid=50.
+
+The focus of IPI is shifting towards R&D, with more
+and more firms spending larger shares of their sales on
+R&D. The number of patent applications of IPI has
+continued to remain high since 2003-04. The product
+patent regime has impacted the R&D intensity of IPI
+firms. The patent regime is an important determinant of
+R&D intensity, along with domestic ownership, size of
+firms, intensity of capital imports and profit rate. An
+analysis of performance differentials between firms of IPI
+indicated that superior R&D and a large number of patents
+need not necessarily imply a better performance of firms.
+The policy implications of this study are important for
+the pharmaceutical industry for formulating appropriate
+action plans to enable firms to efficiently employ their
+resources in the new patent era. In-house R&D conducted
+by pharmaceutical firms would get a further boost if their
+research is backed by industry-academia collaborations.
+Indian firms need to revisit the spectrum of activities
+involved in their R&D, so that these culminate in patents.
+
+REFERENCES
+1. Government of India. Eleventh five-year plan 2007-12.
+Planning Commission, New Delhi, 2007.
+2. Government of India. Third round up of developments
+in the pharmaceutical sector. Department of
+Pharmaceuticals, New Delhi, 2009.
+3. Chaudhuri, S. The WTO and India’s pharmaceuticals
+industry. Oxford University Press, New Delhi, 2005.
+4. Jha, Ravinder. Options for Indian pharmaceutical
+industry in the changing environment. Eco. Polit.
+Weekly, 2007, 42(39), 3958-967.
+5. Chittoor,
+Raveendra
+&
+Ray,
+Sougata.
+Internationalisation paths of Indian pharmaceutical
+firms–A strategic group analysis. J. Int. Manag.,
+2007, 13(1), 338-55.
+232
+
+8. The Hindu Business Line. Ministry to review pharma
+acquisitions by MNCs. 23 August 2010. pp. 3.
+9. Financial Express. Pharma MNCs take localisation
+route: ICRA. 2010. http://www.financialexpress.com/
+news/pharma-mncs-take-localisation-route-icra/
+681507/1.
+10. Indian Express. Global pharma ups India generics
+focus.
+15
+September
+2010.
+http://
+www.indianexpress.com/news/-Global-pharma-upsIndia-generics-focus-/681710.
+11. Maddala, G.S. Limited dependent and qualitative
+variables in econometrics. Cambridge University
+Press, Cambridge, 1983.
+12. Nargundkar, Rajendra. Marketing research text and
+cases. Ed. 2. Tata McGraw-Hill, New Delhi, 2007.
+13. Khan, M.Y. & Jain, Pramod Kumar. Management
+accounting: Text, problems and cases. Ed. 4. Tata
+McGraw-Hill Publishing Company Limited, New
+Delhi, 2007.
+14. Tripathy, Ishita G. R&D behaviour in the product
+patent regime. In Economic development in India:
+Issues and challenges, edited by Bimal K. Mohanty,
+New Century Publications, New Delhi, 2011. pp. 87100.
+15. Government of India. Indian patent information
+retrieval system, 2010. http://www.patentoffice.
+nic.in/.
+16. Delphion Research Intellectual Property Network,
+2010. http://www.delphion.com/.
+DESIDOC J. Lib. Inf. Technol., 2012, 32(3)
+
+

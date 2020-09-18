@@ -1,0 +1,646 @@
+DESIDOC Journal of Library & Information Technology, Vol. 29, No. 3, May 2009, pp. 59-64
+© 2009, DESIDOC
+
+Application of Radio Frequency Identification Technology in Libraries
+M.K. Galhotra1 and A.M. Galhotra2
+1
+
+Mata Sundri College for Women, University of Delhi
+Mata Sundri Lane, New Delhi-110 002
+E-mail: mkgalhotra@rediffmail.com
+2
+
+Department of Library & Information Science,
+Dr B.R. Ambedkar University, Agra-282 004
+
+ABSTRACT
+Radio Frequency Identification (RFID) systems were developed about 30 years ago. It is the latest
+technology to be used in libraries for book identification, for self checkout, and for sorting and conveying of
+library books and also for theft detection. These applications can lead to significant savings in labour costs
+and increase in efficiency. They can also reduce data entry errors, enhance customer service, and lower
+book theft and can provide a constant record update of media collections. The paper covers the components
+and technical features of a modern RFID library system to provide a guideline for the evaluation of this system.
+There are still many issues that must be addressed before RFID hits the big time. These include new technology
+for efficiency in operations, electromagnetic security systems, IT infrastructure to handle large amount of data,
+etc. Finally, the paper discusses the advantages and disadvantages of RFID system in libraries, and the extent
+to which this technology has been introduced in a few Indian Libraries.
+Keywords: RFID, radio frequency identification, electromagnetic, DSRC, dedicated short-range communication
+
+1.
+
+INTRODUCTION
+
+Radio Frequency Identification (RFID) systems were
+developed about 30 years ago. They were used for “radio
+tracking” of wild animals and evolved later into a
+technology, which is used in many industrial applications
+today. RFID is a technology that uses electromagnetic or
+electrostatic coupling in the radio frequency (RF) portion
+of the electromagnetic spectrum to uniquely identify an
+object, animal, or person. RFID is coming into increasing
+use in industry as an alternative to the bar code. The most
+common applications are tracking goods in the supply
+chain, re-usable containers, high value tools and other
+assets, and parts moving to a manufacturing production
+line. RFID is also used for security, payment systems,
+and in libraries for circulation purpose. Thousands of
+companies and libraries around the world use RFID today
+to improve internal efficiencies.
+
+2.
+
+WHAT IS RFID?
+
+RFID is a term used for a radio-enabled device that
+communicates with or interrogates a tag or smart label,
+which is embedded with a single microchip processor and
+Received on 5 November 2008
+
+an antenna. In a library environment, RFID technology
+resembles a traditional bar code system. In bar code
+system, RFID provides a means of assigning an ID to an
+item and reading that ID to perform circulation
+transactions or to take inventory1. RFID (sometimes also
+called dedicated short range communication, or DSRC)
+uses the radio frequency portion of the electromagnetic
+spectrum to uniquely identify objects. Good old radio
+communications and new efficiencies in fabrication and
+miniaturisation go into RFID devices that can help
+organise the production and delivery of goods, and enable
+personal identification in efficient new ways.2
+Like bar codes, RFID tags identify items. However,
+unlike bar codes, which must be in close proximity and
+line of sight to the scanner for reading, RFID tags do not
+require line of sight and can be embedded within
+packages. Depending on the type of tag and application,
+they can be read at a varying range of distances. In
+addition, RFID-tagged items can be read many times
+faster than bar-coded items. According to the Harrod’s
+Librarian’s Glossary and Reference book3 “RFID is an
+alternative to the bar code that uses tiny microchips in
+tags to hold and transmit detailed data about the item
+59
+
+tagged”. Dictionary for Library and Information Science4
+defines RFID as “the use of microchips to tag library
+materials and library card, enabling users to check out
+items by walking through a self-service station equipped
+with an antenna that emits low frequency radio waves”.
+
+3. RFID APPLICATION IN LIBRARIES
+RFID is the latest technology to be used in library for
+book identification, for self checkout, and for sorting and
+conveying of library books and also for theft detection.
+The aim of using RFID technology is to increase the
+efficiency, reduce data entry errors, and spare staff to
+perform more value-added functions5. RFID is a
+combination of radio-frequency-based technology and
+microchip technology. The information contained on
+microchips in the tags affixed to library materials is read
+RFID technology regardless of item orientation or
+alignment, i.e., the technology does not require line of
+sight or a fixed plane to read tags as traditional theft
+detection systems do. Distance from the item is not a
+critical factor except in the case of extra-wide exit gates.
+The corridors at the building exit(s), and can be as wide
+as four feet because the tags can be read at a distance of
+up to two feet by each of two parallel exit sensors. The
+devices used for circulation and inventorying are usually
+called “readers” while the ones used at building exits are
+usually called “sensors.”
+The technology used in RFID systems can replace
+both EM (electromechanical) or RF and even the barcodes theft detection systems.
+
+4.
+
+HOW DOES AN RFID SYSTEM WORKS?
+
+An RFID system consists of a tag, which is made up
+of a microchip with an antenna, and an interrogator or
+reader. The reader sends out electromagnetic waves. The
+tag antenna is tuned to receive these waves. A passive
+RFID tag draws power from field created by the reader and
+uses it to power the microchip’s circuits. The chip then
+modulates the waves that the tag sends back to the
+reader and the reader converts the new waves into digital
+data (Fig.1 ).
+
+5. COMPONENTS OF AN RFID SYSTEM
+A comprehensive RFID system has four components:
+(i)
+
+RFID tags that are electronically programmed with
+unique information;
+
+(ii) Readers or sensors to interrogate the tags;
+(iii) Antenna; and
+(iv) A server or docking station on which the software that
+interfaces with the automated library system is
+loaded. It is also possible to distribute the software
+among the readers and sensors.
+60
+
+Figure 1. RFID management system.
+
+5.1 RFID Tags
+The chip and the antenna together are called an RFID
+transponder or an RFID tag. The tag is made up of a
+programmable microchip with an antenna. The antenna
+enables the chip to transmit the identification information
+to the reader6. The tag is a heart of RFID system. The tag
+can be fixed in side the book’s back cover. Each paperthin tag contains an etched antenna and a microchip with
+a capacity of at least 64 bits. There are three types: “read
+only”, “WORM,” and “read/write tags.” Tags are “read
+only” if the identification is encoded at the time of
+manufacture and not rewritable. RFID tags can be read as
+long as they are within range of a reader. It depends upon
+the frequency of a tag. The frequency of a tag may be low,
+high and ultra high5.
+RFID systems are more expensive if they operate on
+higher frequencies. Different frequencies also have
+characteristics that make them more or less useful for
+particular applications. Low-frequency RFID systems use
+less power and are better able to penetrate non-metallic
+substances. They are ideal for scanning objects with
+high-water content such as fruits and liquids. Higher
+frequencies typically offer better range and can transfer
+data faster, but they use more power and are less likely to
+pass through materials. Higher frequencies are useful for
+air-to-air and air-to-ground communications.
+The RFID tag stores data on a tiny computer chip.
+The cheapest and most common chip will be the readonly chip, which is likely to carry only a serial number.
+More expensive “read-write” chips allow new information
+to be added to the tag or written over existing information
+when the tag is within range of a reader. Writeable chips
+will be useful in some specialised applications such as
+maintaining maintenance records for vehicles or
+appliances, but they are more expensive than read-only
+chips and impractical for tracking less expensive items.
+DESIDOC Jl. Lib. Inf. Technol., 2009, 29(3)
+
+Once an RFID tag has returned data to the RFID reader,
+the data is then used in whatever way appropriate for the
+task at hand. Probably, the most common RFID systems
+will relate the serial numbers from read-only tags to other
+relevant and useful information in secure databases. RFID
+may be used to implement and record the sale of a
+consumer good at a checkout stand, to allow a keycard
+holder to enter a building, or for dozens of other
+purposes.7
+
+system includes several different kinds of readers, also
+known as sensors when installed at library exits. These
+are RF devices designed to detect and read tags to obtain
+the information stored thereon. The reader powers an
+antenna to generate an RF field. When a tag passes
+through the field, the information stored on the chip in the
+tag is decoded by the reader and sent to the server which,
+in turn, communicates with the automated library system
+when the RFID system is interfaced with it.
+
+An RFID tag is a means of storing and retrieving data
+through a radio frequency transmission to the chip inside
+the tag. An RFID tag is simply an integrated circuit (chip),
+which includes memory for data storage and a substrate
+backing material with an antenna pattern. The chip can
+typically hold up to 1,024 bits (128 bytes) of information.
+In a typical library implementation, each book is equipped
+with smart labels and library users are given library cards
+imbedded with smart labels.
+
+In a typical library application, RFID readers can be
+installed at various strategic places to support different
+functions that RFID tags can perform. Some of the typical
+installations could be:
+
+Tags or smart labels can be programmed to store (i)
+unique accession number of documents; (ii) class
+number of a document; and (iii) a unique security code for
+EAS (Electronic Article Surveillance). While accession
+number is used for carrying out functions of circulation,
+stock verification and other library applications, class
+number can be deployed for sorting documents according
+to class numbers, and segregating then into bins for
+different shelving areas. As mentioned earlier, the RFID
+tags can also be used as antitheft devices in libraries.
+Such applications of RFID are called Electronic Article
+Surveillance (EAS). New forms of RFID perform EAS
+functions as well, obviating the need for a separate
+device8.
+
+
+
+Workstation designed specifically for library staff to
+facilitate the smooth handling of books and other
+material having RFID labels/tags.
+
+
+
+The security gates with Theft Detection System. Any
+item that has not been checked-out either by staff
+station or self check-out station will be detected as it
+goes past these pedestals.
+
+
+
+Self-service station with provision for checking out
+books independently by the borrower without any
+intervention of library staff. The theft detection
+system of the smart label for that book is deactivated
+to enable smooth passage from the security gate.
+
+
+
+“Drop Box” where returned books are placed through
+suitable slits by users themselves. As books are
+returned through the Book Drop Facility located
+suitably in a library, the smart labels are
+automatically read, and both user record and Library
+database gets updated.
+
+5.1.1 Tagging Materials
+
+5.3 Antenna
+
+A library planning on doing its own tagging should
+consider using volunteers in addition to its regular staff.
+This reduces both the time and cost of tagging. Only
+limited training is required; typically 15 to 20 minutes.
+While there is little choice with regard to the placement of
+tags on CD/DVDs and videotapes, there are many options
+for tagging books. It is important to select a consistent
+location for book tags. The inside of the back cover is the
+recommended location because it is the fastest for righthanded tag installers to reach. One vendor recommends it
+near the spine approximately three inches above the
+bottom. That avoids possible interference from metal
+shelves when inventorying9.
+
+The antenna produces RF waves to transmit signal
+that activates the transponder. Antenna is the channel
+between the tag and the reader, which controls the
+system’s data acquisition and communication. The
+electromagnetic field produced by an antenna can be
+constantly present when multiple tags are expected
+continually. Antennas can be built into a doorframe to
+receive tag data from person’s things passing through the
+door.
+
+5.2 RFID Readers
+RFID readers or receivers are composed of a radio
+frequency module, a control unit and an antenna to
+interrogate electronic tags via RF communication. A
+
+DESIDOC Jl. Lib. Inf. Technol., 2009, 29(3)
+
+5.4 Server/Docking Station
+The server is the heart of some comprehensive RFID
+systems. It is the communications gateway among the
+various components. It receives the information from one
+or more of the readers and exchanges information with the
+circulation database. Its software includes the APIs
+(Applications Programming Interface) necessary to
+interface it with the automated library system.
+61
+
+6. ADVANTAGES OF RFID SYSTEMS
+6.1 Rapid Charging/Discharging
+
+
+
+
+
+
+The use of RFID reduces the amount of time required
+to perform circulation operations. The information can
+be read from RFID tags much faster than from
+barcodes and that several items in a stack can be
+read at the same time.
+The other time savings realised by circulation staff
+are modest unless the RFID tags replace both the
+EM security strips or RF tags of older theft detection
+systems and the barcodes of the automated library
+system, i.e., the system is a comprehensive RFID
+system that combines RFID security and the
+tracking of materials throughout the library; or it is a
+hybrid system that uses EM for security and RFID for
+tracking, but handles both simultaneously with a
+single piece of equipment. There can be as much as
+50 per cent increase in throughput. The time savings
+are less for charging than for discharging because the
+time required for charging usually is extended by
+social interaction with users.
+The use of RFID in libraries reduces the overhead of
+both librarians and users by reducing the time spent
+in charging/discharging and inventory check. In
+addition to it, RFID tags are highly reliable making
+almost 100 per cent detection rate and are scalable
+for future expansion.
+
+6.2 Simplified Self-charging/Discharging
+Unlike barcodes the RFID doesn’t require direct line
+of sight making it easy and convenient to use. And for
+users using self-charging, there is a marked improvement
+because they do not have to carefully place materials
+within a designated template and they can charge several
+items at the same time
+(i)
+
+It also reduces the man power utilisation in charging/
+discharging, shelf management and inventory
+management of library. The use of self-service kiosks
+and book drops reduces the interaction of users with
+library staff making them free to do other work.
+
+(ii) Some RFID systems have an interface between the
+exit sensors and the circulation system to identify
+the items moving out of the library. Were a user to run
+out of the library and not be intercepted, the library
+would at least know what had been stolen. If the user
+card also has an RFID tag, the library will also be
+able to determine who removed the items without
+properly charging them
+Other RFID systems encode the circulation status on
+the RFID tag. This is done by designating a bit as the
+“theft” bit and turning it off at time of charge and on at time
+62
+
+of discharge. If the material that has not been properly
+charged is taken past the exit sensors, an immediate
+alarm is triggered. Another option is to use both the “theft”
+bit and the online interface to an automated library
+system—the first to signal an immediate alarm and the
+second to identify what has been taken out.
+
+6.3 High Speed Inventorying
+
+
+A unique advantage of RFID systems is their ability to
+scan books on the shelves without tipping them out
+or removing them. A hand-held inventory reader can
+be moved rapidly across a shelf of books to read all of
+the unique identification information. Using wireless
+technology, it is possible not only to update the
+inventory, but also to identify items which are out of
+proper order.
+
+
+
+Due to faster transactions, the items are available as
+soon as they are returned.
+
+6.4 Automated Materials Handling
+
+
+Another application of RFID technology is automated
+materials handling. This includes conveyor and
+sorting systems that can move library materials and
+sort them by category into separate bins or onto
+separate carts. This significantly reduces the amount
+of staff time required to ready materials for reshelving.
+
+
+
+Compared to bar code, which takes five seconds per
+item for each transaction, RFID is more than three
+times faster for quick database update.
+
+6.5 Long Tag Life
+RFID tags are far better than bar codes, as these are
+not required to be scanned through some reader or
+recorder, as required in bar-code. Finally, RFID tags last
+longer than barcodes because nothing comes into
+contact with them. Most RFID vendors claim a minimum
+of 100,000 transactions before a tag may need to be
+replaced.
+
+7. DISADVANTAGES OF RFID SYSTEMS
+7.1 High Cost
+The major disadvantage of RFID technology is its
+cost. While the readers and sensors used to read the
+information are costing between Rs100, 000 to Rs150,
+000, a server is costing as much as Rs 500, 000 to Rs
+600, 000. The tags cost Rs 30 to Rs 45 each.
+
+7.2 Easy to Deceive the Technology
+It is possible to compromise an RFID system by
+wrapping the protected material in two to three layers of
+DESIDOC Jl. Lib. Inf. Technol., 2009, 29(3)
+
+ordinary household foil to block the radio signals. It is also
+possible to compromise an RFID system by placing two
+items against one another so that one tag overlays
+another that may cancel out the signals. This requires
+knowledge of the technology and careful alignment.
+
+7.3 Removal of Tags
+RFID tags are typically affixed to the inside back
+cover and are exposed for removal. This means that there
+would be problems when users become more familiar with
+the role of the tags. In Indian libraries, it is a major
+challenge to keep the tags intact.
+
+7.4 Exit Sensor (Reader) Problems
+While the short-range readers used for circulation
+charge and discharge and inventorying appear to read the
+tags 100 per cent of the time, the performance of the exit
+sensors is more problematic. They must read tags at up
+to twice the distance of the other readers. The authors are
+not aware of any library that has done a before and after
+inventory to determine the loss rate when RFID is used for
+security.
+
+7.5 Invasion of User Privacy
+Privacy concerns associated with item-level tagging
+is another significant barrier to library use of RFID tags.
+The tags contain static information that can be relatively
+read easily by unauthorised tag readers. This allows for
+privacy issues described as “tracking” and “hot listing”.
+Tracking refers to the ability to track the movements of a
+book (or person carrying the book) by “correlating multiple
+observations of the book’s bar code” or RFID tag. Hot
+listing refers to the process of building a database of
+books and their associated tag numbers (the hot list) and
+then using an unauthorized reader to determine who is
+checking out items in the hot list.
+
+7.6 Reader Collision
+The signal from one reader interfering with the signal
+from another where coverage overlaps is reader collision.
+One way to avoid the problem is to use a technique called
+time division multiple access, or TDMA. In simple terms,
+the readers are instructed to read at different times, rather
+than both trying to read at the same time. This ensures
+that they don’t interfere with each other. But it means any
+RFID tag in an area where two readers overlap will be read
+twice10.
+
+7.7 Tag Collision
+Another problem readers have is reading a lot of chips
+in the same field. Tag clash occurs when more than one
+chip reflects back a signal at the same time, confusing
+the reader. Different vendors have developed different
+DESIDOC Jl. Lib. Inf. Technol., 2009, 29(3)
+
+systems for having the tags respond to the reader one at a
+time. Since they can be read in milliseconds, it appears
+that all the tags are being read simultaneously.
+
+7.8 Lack of Standard
+The tags used by library RFID vendors are not
+compatible even when they conform to the same
+standards because the current standards only seek
+electronic compatibility between tags and readers. The
+pattern of encoding information and the software that
+processes the information differs from vendor to vendor,
+therefore, a change from one vendor’s system to the other
+would require retagging all items or modifying the
+software.
+
+8. IS RFID BETTER THAN BAR CODING?
+The big difference between the two is that bar codes
+are a line-of-sight technology. A scanner has to see the
+barcode to read it, which means that the people who scan
+have to position the barcode towards a scanner for it to be
+read. RFID tags do not need line of sight. RFID tags can
+be read as long as they are within range of a reader. Since
+bar codes are inexpensive and effective for certain tasks,
+it is likely that RFID and bar codes will co-exist for many
+years. Until now, RFID has been too expensive and too
+limited to be practical for many commercial applications.
+But if tags can be made cheap enough, they can solve
+many of the problems associated with bar codes. Radio
+waves travel through most non-metallic materials, and
+can be embedded in packaging or encased in protective
+plastic for weather-proofing and greater durability.
+Since the application of RFID in libraries is only a
+recent phenomenon, there are very few standards related
+to it. It is very important to know the use and importance
+of these standards. In the present scenario, RFID tags
+and RFID readers are proprietary, meaning, tags by a
+specific vendor can be read only by the readers supplied
+by them. “The market is likely to grow exponentially if
+some standards commonality is achieved, whereby RFID
+equipment from different manufacturers can be used
+interchangeably.”11
+Some organisations have come forward to address
+this issue by developing standards for specific
+applications. The International Organization for
+Standardisation (IOS) is working on standards for tracking
+goods in the supply chain using high-frequency and ultrahigh frequency tags. Another organisation, EPC Global,
+has its own process, which was used to create bar code
+standards. Yet another issue hampering adoption of RFID
+systems has been cost. Since large companies would
+need thousands of readers to cover their huge
+manufacturing plants, warehouses, and stores the cost of
+deployment would be enormous12.
+63
+
+9.
+
+RFID IN INDIAN LIBRARIES
+
+While there are over 500, 000 RFID systems installed
+in warehouses and retail establishments worldwide, RFID
+systems are still relatively new in libraries. Several
+libraries have successfully installed the RFID solution.
+Since traditional security systems have proved to be less
+effective than libraries desire them to be and RFID is more
+effective in material management, one can safely say that
+the RFID solution is here to stay. Automation and selfservice can help libraries of all size to achieve their
+operations. RFID is the need to increase efficiency and
+reduce cost. The products of six manufacturers of library
+RFID systems are available in India through their
+business associates Bibliotheca, Checkpoint, ID
+systems, 3M, Edutech, X-ident technology GmBh
+represented by Infotek software and systems in India, and
+TAGSYS represented by Tech Logic, Vernon, Libsys in
+India and VTLS. There are several other companies that
+provide products that work with RFID, including user selfcharging stations and materials handling equipment.
+RFID technology has been introduced in a few Indian
+libraries like NASSDOC (New Delhi), University of Pune
+(Jayakar Library, Pune), University of Jammu (J&K),
+Indian Institute of Technology (Madras), Indian Institute of
+Management (Indore), Bank of Baroda (Mumbai), Indian
+Institute of Science (Bangalore), Indian Institute of
+Technology (Kharagpur), Indira Gandhi Centre for Atomic
+Research (IGCAR, Kalpakkam).
+
+10. CONCLUSION
+The significant advantage of all types of RFID
+systems is the non-contact, non-line of sight nature of the
+technology. Tags can be read through a variety of
+substances such as snow, fog, ice, paint, crusted grime,
+and other visually and environmentally challenging
+conditions, where barcodes or other optically read
+technologies would be useless. RFID tags can also be
+read in challenging circumstances at remarkable speeds,
+in most cases responding in less than 100 ms. The read/
+write capability of an active RFID system is also a
+significant advantage in interactive applications such as
+work-in-process or maintenance tracking. Though it is a
+costlier technology (compared with barcode), RFID has
+become indispensable for a wide range of automated data
+collection and identification applications. Developments
+in RFID technology continue to yield larger memory
+capacities, wider reading ranges, and faster processing. It
+
+is highly unlikely that the technology will ultimately
+replace barcode, even with the inevitable reduction in raw
+materials coupled with economies of scale; the integrated
+circuit in an RF tag will never be as cost-effective as a
+barcode label. However, RFID will continue to grow in its
+established niches where barcode or other optical
+technologies are not effective. If some standards of
+uniformity are achieved whereby RFID equipment from
+different manufacturers can be used interchangeably, the
+market will grow exponentially.
+
+REFERENCES
+1. Lindquist, G. RFID in libraries–introduction to the
+issues. In 69th IFLA General Conference and
+Council, Berlin, Germany, 1-9 August 2003. http://
+www.ifla.org
+2. Harper, Jim. RFID tags and privacy: How barcodeson-steroids are really a 98-lb weakling. http://
+www.cei.org
+3. Prytherch, Ray. Harrod’s librarian’s glossary and
+reference book. Ashagate, England. 2005.
+4. Reitz, Joan M. Dictionary for library and information
+science. Rain Tree, Chennai. 2004.
+5. http://en.wikipedia.org/wiki/RFID.
+6. Singh, Gurdev. Introduction to computers for library
+professionals. Ess Ess, Delhi. 2007.
+7. Harper, Jim.
+www.cei.org.
+
+RFID
+
+tags
+
+and
+
+privacy.
+
+http://
+
+8. Chadha, R.K. ICT in libraries: An overview. http://
+www.cec-ugc.org/
+9. Boss, R.W. RFID technology for libraries. http://www.
+ala.org/ala/pla/plapubs/technotes/rfidtechnology.html
+10. Hussain, Akhtar. RFID in libraries. IASLIC Bull.,
+2007, 52(1).
+11. Saiful, Amin. RFID tags. http://ncsi.iisc.ernet.in/
+pipermail/lis-forum/2004-November/001433.html
+12. RFID Technology. http://www.cxtoday.com/India/
+Future_Technology/RFID_Technology/551-81807907.html
+
+About the Authors
+Mr M.K. Galhotra did his MCom from the University of Rajasthan, Jaipur, MLibISc from Kurukshetra
+University, Kurukshetra and PhD from Dr B.R. Ambedkar University, Agra. He is currently working in
+Mata Sundri College for Women, New Delhi.
+Ms A.M. Galhotra is a research scholar at the Department of Library and Information Science, Dr B.R. Ambedkar
+University, Agra.
+64
+
+DESIDOC Jl. Lib. Inf. Technol., 2009, 29(3)
+
+

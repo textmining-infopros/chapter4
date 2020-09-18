@@ -1,0 +1,163 @@
+DESIDOC Journal of Library & Information Technology, Vol. 35, No. 5, September 2015, pp. 330-334 DOI: 10.14429/djlit.35.5.8578 
+  2015, DESIDOC 
+Copy Cataloguing through SOUL 2.0 
+Vishal D. Bapte 
+University Library, Sant Gadge Baba Amravati University,  
+Amravati- 444 602 (MS) 
+E-mail: vishal_bapte@rediffmail.com  
+AbStrACt 
+Cataloguing  is  one  of  the  important  housekeeping  operations  of  the  libraries. Almost  all  the  libraries,  with  a  few  exceptions,  use  cataloguing  module  to  create  bibliographical  records.The  task  of  creating bibliographical records can be reduced to the minimum by using copy cataloguing option. It is  an alternative for original cataloguing. The article describes the catalogue module and copy cataloguing  through SOUL 2.0.  A brief overview of copy cataloguing in India has also been taken. It has been found  that  it  is  underutilised  practice  and  library  professional  need  to  utilise  the  facility  of  copy  catalogueing  through IndCat, WorldCat or any other bibliographic database providing such facility. The initiative taken  by  INFLIBNET  in  the  form  IndCat  is  praiseworthy  on  this  background,  yet  there  might  be  problems  with regard to regional language documents. The recognised publishers need to provide MARC record  along with books to promote copy cataloguing. In effect, the library professional have to demand books  with MARC records to make them think this as regular practice.  Although, copy cataloguing offers an  opportunity  over  original  cataloguing,  its  needs  to  be  judiciously  used.  In  fact  its  usage  as  the  author  urges will help to address and remove the issues pertaining to copy cataloguing.  
+Keywords: Cataloguing, copy cataloguing, original cataloguing, SOUL 2.0, IndCat, WorldCat, India 
+1.  IntrOdUCtIOn 
+Cataloguing  is  a  traditional  library  practice  to  make the user know the record of material in library.  It is a tool by which users can know the document  available in particular library and information centre  from the different access point of the bibliographical  details.The  librarians  have  been  spending  a  lot  of  time,  money,  and  labour  to  accomplish  this  task.  Since last few years, catalogues are created through  data entries by using any library automation software.  Every time when the library procures the new title,  the  bibliographical  details  concerned  with  it  are  to  be  filled  in  catalogue  module  by  different  access  points  for  the  users.  However,  the  fact  is  that  the  same  book  is  available  in  multitudes  of  libraries  across  the  world.  But  several  records  have  been  generated for the same document which  but creates  a  question  in  mind  as  to  why  this  duplication  is.  A  deep  thought  over  this  challenges  our  wisdom.  The  best  solution  over  this  is  copy  cataloguing  which  has  long  been  underutilised  till  date.  Copy  cataloguing means copying the bibliographical details  that is already made available by someone through  copy-cataloguing facility. It allows libraries to enter  all  the  details  of  the  document  without  actually  typing, thus without much time, money, and efforts.  This  can  be  regarded  as  the  real  automation  of  cataloguing  function. 
+2.  LIterAtUre revIew 
+A  number  of  studies  have  been  found  on  copy  cataloguing and its related areas. The present study  is different as it deals with copy cataloguing through  SOUL 2.0. However, the following studies have been  reviewed  in  relation  to  the  present  study. 
+Talmacs1  opined that the task of copy cataloguing  requires  the  professional  judgement  and  narrated  how the Australian Bibliographic Network (ABN) copy  cataloguing is undertaken at the University of New  South  Wakes  Library,  Australia  and  also  reflected  on  whether  this  work  should  be  undertaken  by  professionals  or  paraprofessionals.  He  concluded  that  more  difficult  items  should  be  set  aside  for  experieced  staff.  Coats  &  Kiegel2   described  their  experience about automatic monographic selection,  acquisition and rapid cataloguing workflows through  the  use  of  a  book  vendor’s  database  and  OCLC’s  PromtCat  service  at  the  University  of  Washington  libraries. They also identified the benefit of automation  to selectors, acquisition staff and copy cataloguing  staff.  Horenstein3   narrated  experience  of  Adelphi  University  Library  in  respect  of  contracting  copy  cataloguing and physical processing with Blackwell’s  Book  services  since  1995.  Weiss,  Paul  &  Wilson4 examined a random sample of cataloguing copy from  selected  Research  Libraries  Information  Network  
+Received 19 May 2015, revised 29 June 2015,  online published 10 September 2015 
+
+========1========
+
+BAPTE: COPY CATALOGUING THROUGH SOUL 2.0 
+(RLIN). The study showed that there was no significant  difference in the number of chages made to Library  of Congress records and the groups of best member  libraries.  The  finding  sustained  the  expansion  of  co-operative  cataloguing  projects,  such  as  the  National Co-ordinated Cataloguing Program. In their  study, Beall & Kafadar5  examined 100 typographical  errors  in  records  in  the  OCLC  WorldCat  database.  The  local  cataloues  of  five  libraries,  holding  the  items described by the bibliographical records with  typographical  errors  were  searched  to  determine  whether  each  library  had  corrected  the  errors. The  study found that only 35.8 % of the errors had been  corrected.  They  concluded  that  knowledge  of  copy  cataloguing  error  rates  can  help  to  emphasise  the  importance  of  quality  data  in  bibliographic  utilities  and,  further  can  serve  as  an  indication  to  libraries  whether they need to pay more attention in correcting  typos  in  the  copy  cataloguing  process. 
+3.  SOUL  2.0  And  CAtALOgUIng  MO dULe 
+Software for University Libraries (SOUL) is state- of-the-art-integrated management software designed  and developed by the INFLIBNET Centre based on  requirement of college and university libraries. The  latest  version  of  the  software,  i.e.,  SOUL  2.0  was  released  in  January  2009.  The  database  for  new  version  of  SOUL  is  designed  for  latest  versions  of  MS-SQL and MYSQL (or any other popular RDBMS).  SOUL 2.0 is compliant to international standards such  as  MARC  21  bibliographic  format,  Unicode-  based  Universal Character Sets for multilingual bibliographic  records  and  NCIP  2.0  and  SIP  2  based  protocols  for  electronic  surveillance  and  control6. 
+Catalogue  module  is  used  for  retrospective  conversion of library resources. The strong features7  of  cataloguing  module  are: 
+•	 Allow 	 cataloguer 	 to 	 create 	 their 	 own 	 templates 	 
+for  data  entry  of  different  library  resources; •	 Different 	 templates 	 for 	 leaders 	 and 	 fixed 	 fields 	 
+of  MARC21; 
+•	 Facilitates 	 authority 	 database 	 of 	 person 	 name, 	 
+corporate  body,  subject  headings,  and  series  
+name; 
+•	 Support 	 copy 	 cataloguing 	 in 	 MARC21 	 format 	 
+by  using  ISO2709  standard; 
+•	 Master 	 database 	 of 	 publisher; 
+•	 Multi-lingual 	 database 	 by 	 using 	 unicode 	 character 	 
+set;  and  
+•	 Support 	 full 	 MARC21 	 bibliographic 	 format. 
+4.  OrIg InAL   C AtALOgUIng 
+L.M.  Schultz  describes  original  cataloguing  as  ‘creating  a  bibliographic  record  without  reference  
+to  other  bibliographic  records  for  the  same  item  or  different  editions  of  the  item.  Original  cataloguing  refers  cataloguing  an  item  by  examining  certain  parts of it to obtain information needed to describe  it’8.  This  kind  of  cataloging  is  most  often  needed  for unique items, such as materials pertaining local  history, archival materials, rare books, manuscripts  maps,  some  sound  recordings,  etc.  The  success  of  original  cataloguing  largely  depends  on  training  and  apprenticeship.  It  equally  depends  upon  the  knowledge  of  descriptive  cataloguing  and  subject  cataloging  and  strong  familiarity  with  common  cataloging  tools9.  If  a  title  is  recently  published  or  has  a  specialised  topic,  for  example,  local  or  government publication, a bibliographic record may  not exist in utility or vendor database. In these cases  the library uses original cataloguing to create a full  bibliographic  record  directly  on  the  local  system.  Catalogers  analyse  the  publication  and  create  a  new  bibliographic  record  using  MARC  and AACR2  formats  to  describe  the  title.  They  select  subject  headings  from  established  heading  lists  such  as  the  Library  of  Congress  Subject  Headings  (LCSH),  Sears List of Subject Headings, or Medical Subject  Headings (MeSH). A record contains as many subject  as  are  needed  for  its  description.  Each  heading  becomes  a  search  or  access  point  in  the  online  catalogue10.  The  workflow  of  online  cataloguing  is  shown  in  Fig.1. 
+5.  CO py  CAtALOgUIng 
+The  world  of  library  has  witnessed  a  lot  of  changes in cataloguing. Copy cataloguing is one of  the  milestones  in  this  journey.  It  is  an  alternative  for  original  cataloguing.  It  is  a  process  of  finding  almost  similar  record  of  an  item  or  items  available  for cataloguing, incorporating it in integrated library  management software (ILMS) with certain degree of  edition if required and filling in local details. OCLC  WorldCat, online catalog of Library of Congress and  INFLIBNET’s  IndCat  serve  as  source  for  copying  the  items.  
+Figure 1. Online cataloging workfow options. 
+331 
+
+========2========
+
+DJLIT,  VOL.  35,  NO.  5,  SEPTEMBER  2015 
+INFLIBNET Centre has developed Online Copy  Catalogue  System  (OCS)  to  promote  co-operative  cataloguing and avoid duplication of efforts as stated  in  its  objectives.OCS  allows  copying  records  of  document available in IndCat into SOUL 2.0 software  directly.  New  records  can  easily  be  uploaded  to  IndCat  Server.  It  supports  de-duplicate  (matched)  and merging records11. OCLC’s ‘Connexion’ is a tool  or  interface  for  copying  bibliographical  data  from  WorldCat.  ‘Connexion’  allow  one  to  simply  search  for  matching  records  in  WorldCat,  edit  the  record,  set  user holding, and export your records and print  labels, if desired. One can also create and maintain  copies  of  his/her  library’s  local  holding  records,  which  may  contain  additional  data,  such  as  local  call  number,  holding  locations  within  the  institution  or  local  or  copy-specific  notes12 (Fig.  2). 
+5.1  Copy  Cataloguing  through  SOUL  2.0 
+The  provision  for  copy  cataloguing  is  available  under ‘Cataloguing’ module in SOUL 2.0. ‘Import and  Export’  is  one  of  the  sub  modules  given  there  for  copy cataloguing purpose. When one clicks on this  first sub module, there will be first option as ‘Import  from  MARC’.  The  click  on  this  option  will  open  a  screen  by  which  copy  cataloguing  could  become  possible.  On  the  appearance  of  this  screen,  the  option ‘Import Bibliographic Record’ can be selected.  Now  required  records  are  to  borrowed  or  imported  in  MARC  format  is  selected  from  the  website  of  Library  of  Congress  or  INFLIBNET  or  any  other  organisation providing such kind of facility. By using  the ‘Browse’ option the record saved in MARC format  can  be  selected,  followed  by  this  click  on  ‘Import’.  Within  a  few  seconds,  a  message  will  appear  as  ‘Data  Imported’.  The  click  on  ‘Data  Imported’  will  show  number  of  records  being  processed,  number  of  records  being  added  and  number  of  record  
+IDs.  With  this  step,  the  screen  can  be  closed.  At  this  moment,  the  option  ‘Add  Acc  no.  to  Imported  Data’ wherein the local information for instance like  accession number, class number, budget, cost and  vendor  is  to  filled  in  is  being  selected. 
+Besides  this  option,  there  is  another  option  through ‘Predefined data entry’ to mention the local  information  to  complete  the  bibliographical  record.  By  selecting  the  ‘Edit’  tab,  the  record  ID  or  the  range  of  record  IDs  of  imported  titles  is  selected.  Then record by record local information has to filled  in  and  saved  properly.  While  deleting  particular  record  in  SOUL  2.0,  one  can  save  these  records  in  MARC  format  so,  that  it  can  be  used  as  and  when  required  for  cataloguing  purpose. 
+5.2  Steps  in  Copy  Cataloguing 
+The  following  steps  are  to  be  followed  in  copy  cataloguing  process  (Figs  3(a)  &  3(b)): 
+•	 Determine 	 the 	 records 	 to 	 be 	 imported 	 for 	 copy 	 
+cataloguing 
+•	 Search 	 those 	 record 	 from 	 the 	 online 	 catalogue 	 
+of  Library  of  Congress  or  INFLIBNET’s  IndCat  
+or other bibliographic records which allow copy  
+cataloguing 
+•	 Import 	 these 	 records 	 in 	 ‘Integrated 	 Database 	 
+Management  Software’ 
+•	 Add 	 the 	 local 	 information 	 after 	 validating 	 the 	 
+imported  records  and  save  the  records. 
+5.3  benefits  of  Copy  Cataloguing 
+The  major  benefits  of  copy  cataloguing  are: •	 No 	 need 	 to 	 type 	 the 	 bibliographic 	 record 	 on 	 
+the  part  of  cataloguer 
+•	 Offers 	 fewer 	 opportunities 	 to 	 commit 	 typographical 	 
+error  since  the  whole  record  is  copied 
+Figure 2. Predefned data entry templates for original cataloguing in SOUL 2.0. 
+332 
+
+========3========
+
+BAPTE: COPY CATALOGUING THROUGH SOUL 2.0 
+(a) 
+(b) 
+Figure 3. (a) Cataloguing process and (b) data import in copy catalouging. 
+•	 Copied 	 data 	 is 	 more 	 up 	 to 	 date 	 and 	 scientific 	 
+as  it  is  imported  from  authentic  source •	 Creates 	 uniqueness 	 in 	 creation 	 of 	 bibliographic 	 
+record 
+•	 Promotes 	 resource 	 sharing 
+5.4  Problems  in  Copy  Cataloguing 
+Some  stumbling  blocks  of  copy  cataloguing  are: 
+•	 There 	 may 	 not 	 be 	 any 	 retrieval 	 of 	 record 	 for 	 
+regional  language  records. 
+•	 A 	 certain 	 degree 	 of 	 technical 	 skill 	 is 	 required. •	 Call 	 numbers 	 may 	 not 	 be 	 available 	 sometimes, 	 
+especially,  for  the  regional  language  records. •	 There 	 might 	 be 	 error 	 in 	 MARC 	 coding. 
+6.    COpy  CA tALOgUIng  In  IndIA 
+Library  automation  has  become  broader  term  which  not  just  includes  computerisation  of  the  housekeeping  operation,  but  all  the  process  and  techniques which aim at doing the work automatically  with  greater  speed  and  efficiency  can  be  regarded  as  part  of  library  automation.  It  is  quite  surprising  that  35  %  universities  and  colleges  seem  to  have  automated their libraries. These libraries are largely  from urban areas13. Again to determine the level of  automation require discussion, debate and research.  There are again many libraries which are not using  acquisition  or  serial  modules.  These  conditions  entail that copy cataloguing is not widely practiced  in  India.  It  might  be  argued  that  the  libraries  have  the  knowledge  of  this  technique.    But  cataloguers  in  many  developed  countries  have  been  copying  
+catalogue  records  that  member  libraries  have  contributed to utilities such as OCLS13.  The  option  has  been  provided  by  the  INFLIBNET  in  the  form  of  IndCat.  Today,  most  of  the  proprietary  software  or  open  source  software  like  Koha  has  the  feature  of  importing  bibliographical  records.  Moreover,  INFLIBNET has been regularly organising seminars  and  training  programmes  to  increase  the  usage  of  copy  cataloguing  for  retrospective  conversion.   Further, it can be promoted when publishers would  supply readymade catalogues in MARC formats so  as  to  import  these  in  local  database  management  software. 
+In many libraries, cataloguing starts with acquisition  process itself. In that case, copy cataloging is limited  to editing of records wherever necessary. When the  record  is  imported  in  SOUL  2.0,  it  takes  separate  record ID. While cataloguing, the acquisition process  generate  separate  record  ID  for  each  title.  Hence,  there  might  be  question  with  regard  to  editing  of  data  as  the  editing  is  not  possible  for  the  same  record  from  acquisition  process. 
+7.  CO nCLUSIO nS 
+Copy cataloguing is very useful so far as increasing  the efficiency of academic libraries especially in India.  Aiming at out and out automation is the way to work  using copy cataloguing. The present situation calls  for  some  liabilities  on  library  professionals  in  the  form  of  some  technical  skill  as  abilities  to  search  the bibliographical records from IndCat, WorldCat or  any  other  similar  website  providing  bibliographical  facility,  ability  to  find  appropriate  records  from  the  bibliographic  database,  ability  to  match  item  in  hand with the pertinent record retrieved, knowledge  
+333 
+
+========4========
+
+DJLIT,  VOL.  35,  NO.  5,  SEPTEMBER  2015 
+of  the  MARC  code,  indicators,  ability  to  do  ISBD  punctuation if required. A cataloguing person should  be  flexible  enough  to  quickly  unlearn  the  old  ways  and  learn  how  to  use  the  new  workflows  for  better  productivity14. The copy cataloguing technique offers  this  opportunity  to  do  the  traditional  job  in  more  innovative manner. However, all the pros and cons  of  the  copy  cataloguing  still  need  to  be  studied  so  that it can be used without any hurdle in any open  source  or  proprietary  software.  
+The  book  publishers  in  India  are  not  providing  MARC records yet. There are at least a few examples  from developed country of providing MARC records  by  the  publisher  since  the  importance  has  been  recognised  by  them  while  maintaining  marketing  value.  Library  professionals  here  do  not  seem  to  have  taken  any  initiative  in  this  direction  which  would  make  publishers  think  on  that  line.  Ready  MARC records along with the books would certainly  promote  copy  cataloguing. 
+reFerenCeS 
+1. Talmacs, Kerrie. Copy-cataloguing: A professional  
+task? Cataloguing Australia,  2014,  10  (4). http:// 
+search.proquest.com/docview/57182002?accoun 
+tid=35054  (accessed  on  24  June  2015). 2. Coats, Jacqualine & Kiegel, Joseph. Automating  
+the  nexus  of  book  selection,  acquisitions  and  
+rapid copy cataloguing. Lib. Coll., Acq. & Tech.  
+Serv., 2003,  27 (1), 33-44. http://www.tandfonline. 
+com/doi/abs/10/1080/14649055.2003.10765894  
+(accessed  on  24  June  2015). 
+3. Horenstein, Bonnie. Outsourcing copy cataloguing  
+at  adelphi  university  libraries.  Cata.&  Class.  
+Quar.,   2000,  28(4),  105-16.  http://tandfonline. 
+com/doi/pdf/10./300/J104v28n-04_09 (accessed  
+on  25  June  2015). 
+4. Weiss,Janet;  Paul  J.  &  Wilson,  Marijo.  An  
+analysis of cataloguing copy: Library of Congress  
+vs. selected RLIN members. Lib.  Res.  &  Tech.  
+Ser., 1991, 35(1). http://search.proquest.com/d 
+ocview/57055907?accountid=35054  (accessed  
+on  25  June  2015). 
+5. Beall, Jeffery & Kafadar, Karen. The effectiveness  
+of copy cataloguing at eliminating typographical  
+errors in shared bibliographic records. Lib. Res.  
+334 
+Tech. Serv.,  2004,  48(2), 92-101. http://search. 
+proquest.com/docview/216887988?accountid=1 
+60817  (accessed  on  5  February  2015). 6. http://www.inflibnet.ac.in/soul/ (accessed on 15  
+November  2015) 
+7. http://www.inflibnet.ac.in/soul/modules.php#cat  
+(accessed  on  15  November  2015). 
+8. Orbih, David Egbailenamhe & Aina, Adebowale  
+Japhet.  Issues,  benefits  and  challenges  of  
+original  cataloguing  versus  copy  cataloguing:  
+The  experience  at  the  Logos  State  University.  
+Inter.  J.  of  Lib.  &  Inf.  Sci.,   2014,  6(5),  88-97.  
+http:www.academicjounals.og/IJLIS   (accessed  
+on  8  January  2015). 
+9. LIS Wiki. Original Cataloging.  http://liswiki.org/ 
+wiki/original-cataloging (accessed on 5 January  
+2015). 
+10. Wilson, Katie. Computers in libraries: An introduction  
+for  library  technicians.  New  Age  International,  
+New  Delhi,  2006. 
+11. http://indcat.inflibnet.ac.in/includes/UserGuide_OCS. 
+pdf.  (accessed  on  15  January  2015). 
+12. OCLC.Connexion. http://oclc.org/connexion/features. 
+en.html#acc  (accessed  on  15  January  2015). 13. Chandrakar,  Rajesh  &  Arora,  Jagdish.  Copy  
+cataloguing  in  india:  A  point-of-view.  The  
+Electronic  Library,   2010,  28(3),  432-37.  http:// 
+search.proquest.com/docview/357265718?accoun 
+tid=35054  (accessed  on  31  December  2014). 14. Sung,  Myung  Gi.  Ten  essential  qualities  for  
+success:  A  new  cataloging  librarian’s  from  a  
+supervisor’s perspective. Public Libraries,  2013,  
+52(3), 32-35. http://search.proquest.com/docvie 
+w/1371822969?accountid=35054  (accessed  on  
+30  December  2014).  
+About  the Author 
+Mr vishal d. bapte   is  working  as Assistant  Librarian  in  Sant Gadge Baba Amravati University, Amravati, Maharashtra  since  2012.  Previously,  he  worked  as  a  Librarian  in  Shankarlal Khandelwal College, Akola (MS). He obtained   his  MA  and  MLISc  from  the  same  university.  He  passed  SET  examination  in  Library  and  Information  Science  in  2007.  His  areas  of  interest  are:  Collection  development,  library  automation,  and  open  source  software. 
+
+========5========
+

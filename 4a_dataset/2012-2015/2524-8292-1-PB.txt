@@ -1,0 +1,563 @@
+DESIDOC Journal of Library & Information Technology, Vol. 32, No. 4, July 2012, pp. 306-312
+© 2012, DESIDOC
+
+In Search of Simplicity: Redesigning the Digital Bleek and Lloyd
+Lighton Phiri and Hussein Suleman
+Department of Computer Science, University of Cape Town
+Private Bag X3, Rondebosch, 7701, Cape Town, South Africa
+E-mail: lphiri_hussein@cs.uct.ac.za
+
+ABSTRACT
+The Digital Bleek and Lloyd is a collection of digitised historical artefacts on the Bushman people of
+Southern Africa. The underlying software was initially designed to enable access from as many people as
+possible so usage requirements were minimal – it was not even necessary to use a web server or database.
+However, the system was not focused on preservation, extensibility, or reusability. In this article, it is argued
+that such desirable attributes could manifest themselves in a natural evolution of the Bleek and Lloyd software
+system in the direction of greater simplicity. A case study demonstrates that this is indeed feasible in the case
+of the Digital Bleek and Lloyd and potentially more generally applicable in digital libraries.
+Keywords: Digital libraries, digital preservation, developing world, Digital Bleek and Lloyd
+
+1. INTRODUCTION
+Storage of information in digital form is increasingly
+becoming popular due to the flexibility and cost-effective
+nature of storage media. This data proliferation of both
+born-digital and digitised information has effectively
+increased the amount of digital information that is at risk
+of loss due to obsolescence of hardware and software,
+and physical damage. The process of managing this
+content and its associated representations over time to
+guarantee their long-term usability is known as digital
+preservation. It collectively requires the establishment
+and implementation of a reliable preservation policy and
+well-coordinated procedures to ensure that the digital
+objects are preserved against hardware and/or software
+obsolescence, media failure, and any other potential
+physical threats posed on the digital objects1.
+The preservation of digital information requires
+constant attention due to the fast pace at which
+technology is advancing and because of the delicate
+nature of digital storage media that is used to store digital
+content. A typical digital preservation procedure involves
+activities such as: regularly backing up of data to a
+different location to ensure its availability in the event of a
+disaster; refreshing of media by copying the digital
+information from one media to another; migration of digital
+content after a change in hardware and/or software
+technology used; and development of disaster recovery
+Received 1 June 2012, online published 18 July 2012
+
+plans. However, in most developing countries, data
+producers such as cultural heritage organisations pay
+insufficient attention to issues surrounding digital
+preservation. Their digital collections are often stored in
+digital library and content management systems that are
+primarily set up for management of assets and external
+visibility. Activities such as migration to other platforms
+are assigned a lower priority. In this article, it is argued
+that a change in the fundamental architecture of the digital
+library system can potentially improve the preservability of
+a collection. Simpler architectures for digital library
+systems may also make it easier to interconnect
+systems and extend or modify the features of a specific
+system. In developing countries, extensions and
+modifications are relatively rare, given the lack of human
+and machine resources. Reducing the resource
+requirements may result in more digital library systems
+with improved services. Thus, this article presents some
+elements of an alternative architecture for digital library
+systems that is arguably easier to manipulate and
+therefore supports more use cases and long-term
+preservation.
+In earlier work2, some issues were highlighted that
+hinder widespread preservation projects in Africa. A
+number of possible techniques and solutions currently
+adopted in African projects to preserve heritage were also
+presented. Overall, simplicity is proposed as a potential
+key criterion for building lightweight systems that are
+306
+
+easy to maintain and migrate, effectively reducing overall
+maintenance costs. To further investigation on simplicity,
+a recent project3 involved building a prototype lightweight,
+distributable, generic repository management and access
+system. The design approach centred on simplicity is
+potentially useful in areas with limited resources and/or
+expensive internet bandwidth.
+This article focuses on a case study where the Digital
+Bleek and Lloyd collection was transformed into a simpler
+form to gain all the potential advantages listed earlier.
+
+2. RELATED WORK
+The 1996 Task Force Report 4 on Archiving of Digital
+Information initiated formal research in digital
+preservation. It is particularly important because it
+identified the core challenges of digital preservation for
+organisations that manage digital collections. A number of
+initiatives have since emerged to support digital
+preservation. The Open Archival Information System
+(OAIS) reference model5 provides a formal and
+comprehensive overview of digital preservation and was
+approved by the International Standards Organisation
+(ISO) as the ISO 14721 standard. It has since been used
+as a basis for most tools that currently facilitate
+preservation. Preservation Metadata: Implementation
+Strategies (PREMIS) is a working group, composed of
+international experts in metadata to support digital
+preservation activities6. PREMIS is essentially a
+metadata community initiative that recommends best
+practices for preservation metadata. The PREMIS
+working group published a data dictionary and an XML
+schema to support the implementation of the data
+dictionary in digital archiving systems. The National
+Digital Information Infrastructure and Preservation
+Programme (NDIIPP) is a programme, led by the Library
+of Congress, to archive and provide access to digital
+resources. The NDIIPP is a precursor to the National
+Digital Stewardship Alliance (NDSA), an organisation
+focused on improving preservation standards and
+practices7.
+In the repository software development community,
+some projects have emerged as enablers of distributed
+preservation. Lots Of Copies Keep Stuff Safe (LOCKSS)
+is an international community initiative that provides
+libraries with digital preservation tools and support to
+facilitate the preservation of authorised copies of digital
+content8. DuraCloud is a managed cloud service that
+provides organisations with the necessary cloud
+subscription services to make it possible to safely store
+digital content in the cloud by easily multiplexing digital
+content storage with different providers 6‘. MetaArchive is
+a distributed alliance of university libraries, archives and
+research centres that works towards supporting
+distributed digital preservation practices. The
+MetaArchive corporation uses a technical framework that
+DESIDOC J. Lib. Inf. Technol., 2012, 32(4)
+
+is based on the LOCKSS software to ingest digital
+content into the geographically distributed network9.
+However, these hosted services require payment of
+subscription fees periodically and work on the
+assumption that participating organisations have
+adequate Internet bandwidth.
+Standalone repository software tools are commonly
+used to facilitate digital preservation. Greenstone10 and
+Omeka12 are commonly used by cultural heritage
+organisations for creation of digital collections.
+Greenstone is particularly popular in developing countries
+due to its ability to create digital collection archives that
+can potentially be distributed on a CD-ROM. DSpace13
+and EPrints14 are popular among academic institutions
+where they are commonly used to build institutional
+repository systems. However, the downside of using such
+standalone tools is that the preservation and extensibility
+features built into them require individuals with full
+developer-level knowledge of the software packages.
+In contrast, the Library of Congress developed the
+BagIt specification that specifies a hierarchical file
+packaging format for storage and transfer of digital
+content15. The packaging format is specifically designed
+to facilitate the storage and transfer of digital content for
+long-term preservation. The specification has resulted in
+the development of a number of utility tools that are used
+to facilitate digital preservation16. This concept of flexibility
+applies equally well to services as it does to data. The
+Dienst17, ODL18 and OpenDLib19 projects all sought to
+decrease management and effort, without compromising
+on features, by introducing flexible Web-based
+component architectures. In these cases, systems were
+created by interconnecting a suite of simple components
+to provide the necessary level of complexity of a fullfledged digital library system.
+The projects described above demonstrate the
+feasibility of preservation-oriented data stores and flexible
+service architectures, both premised on simplicity as an
+architectural principle. This article now merges, extends
+and generalises these ideas to create a minimal
+framework for simple digital library systems/collections,
+operationalised in the Digital Bleek and Lloyd collection.
+
+3. CASE STUDY: DIGITAL BLEEK AND LLOYD
+COLLECTION
+The Bleek and Lloyd collection is a 19th century
+compilation of notebooks and drawings comprising of
+linguistic and ethnographic work of Lucy Lloyd and
+Wilhelm Bleek on the life of the |Xam and !Kun Bushmen
+people of Southern Africa. In 2003, the Lucy Lloyd Archive
+and Research Centre at the University of Cape Town
+embarked on a large scale digitisation project and all the
+artefacts were scanned and corresponding representation
+information were generated.
+307
+
+The scanned images formed the basis for the
+implementation of a digital library system to store,
+manage, and preserve digital objects, effectively making
+the digital collection accessible online. Explicit user
+requirements necessitated the implementation of an XMLcentric solution that is accessible on a wide range of
+storage devices (CD-ROM drives, USB drives, and local
+network drives), is hardware independent and also
+requires minimal software installation. The collection is
+web-based and accessible online20, as shown in Fig. 1.
+The implementation of the digital collection was based on
+pre-generated hyperlinked static XML pages from XML
+source data using XSLT. An Ajax-based search
+component was integrated with the static pages, coupled
+with a JavaScript routine to perform query
+operations21.The collection’s repository architecture was
+recently redesigned to facilitate the long-term
+preservation of the digital content and also to easily
+integrate the system with new collections of recently
+digitised content and new services.
+
+objects. The repository stores both the digital content and
+metadata objects on the filesystem, using a hierarchical
+filesystem structure, with the metadata objects stored in
+XML plain text files.
+
+3.2 Collection Overview
+Table 1 presents an overview of part of the Bleek and
+Lloyd collection; more content is still being digitised and it
+is anticipated that these digital objects would eventually
+have to be integrated with the current digital collection.
+Table 1. Overview of the Bleek and Lloyd collection
+Collection
+
+theme
+
+Historical artefacts; museum objects
+
+Material type
+
+Digitised
+
+Collection size
+
+6.2 GB
+
+Content type
+
+image/jpeg
+
+Total number of digital objects
+
+18,924
+
+3.3 Data Model
+The digital objects–digital content and metadata
+objects–are both contained in the filesystem, within
+hierarchical container structures–filesystem directories.
+The hierarchical structures conform to the original
+collection structure that implicitly defines the relationship
+between the actual digital content and collection types.
+Figure 3 shows part of the books collection structure of
+the Bleek and Lloyd collection. The hierarchical structure
+
+3.1 High-level System Architecture
+The high-level architecture of the system, (Fig. 2), is
+composed of three main layers: the client layer is made
+up of the user interface through which end-users interact
+with the system; the service layer is composed of
+services that facilitate discovery of information; and the
+repository layer is used as a storage facility for the digital
+
+Repository
+
+Services
+
+Client
+
+Figure 1. Digital Bleek and Lloyd collection.
+
+HTML
+
+Search
+
+Digial
+Content
+
+Browse
+
+Index
+
+Filesystem
+Metadata
+
+Figure 2. Digital Bleek and Lloyd system architecture.
+308
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(4)
+
+Figure 3. Repository hierarchical directory structure.
+
+is important as it helps to preserve the semantics of the
+digital content. It also helps in the overall management of
+the as bulk actions can be performed on objects
+contained within the same container. The other advantage
+of using a hierarchical model is that it implicitly defines
+relationships between repository disparate objects; in the
+case of the digital Bleek and Lloyd collection, it defines
+the relationship between actual digital content (e.g.
+images) and virtual objects (e.g. stories).
+
+3.4 Digital Objects
+The metadata objects are stored as plain XML text
+files on the filesystem, alongside the corresponding
+objects that they describe. The XML text files are
+encoded using qualified Dublin Core22.
+This design strategy helps to simplify the preservation
+of the collection by making is easy for the collection to be
+migrated to other hardware and/or software platforms. The
+use of plain text files as storage for metadata, as opposed
+to the traditional mode of using a database, is especially
+useful as it makes it possible for the digital objects to be
+easily moved to any type of hardware or software platform
+with very little effort. The use of the ‘Copy’ utility command
+present in virtually any operating System is sufficient to
+move the entire collection. The explicit use of Dublin Core
+as the metadata scheme ensures conformance to
+international standards and widespread understanding of
+the metadata. Physically storing metadata files with the
+actual objects makes it easier for the representation
+information to be moved together with the objects when
+moving to a different hardware and/or software platform.
+DESIDOC J. Lib. Inf. Technol., 2012, 32(4)
+
+There are three distinct types of metadata objects:
+Container metadata objects define the composition of a
+directory that can be composed of other container
+metadata objects and/or digital content; virtual objects
+help define the semantics of the images and collection as
+a whole by describing the logical association of the
+images and collection; and digital content metadata
+objects describe the actual images. The container-based
+metadata files are a manifest of the objects contained
+within them. Figures 4, 5 and 6 show sample metadata
+files for container objects, virtual objects and digital
+content objects respectively.
+
+3.5 End User Access
+The collection front-end makes use of staticallygenerated Html files, with an Ajax-enabled search feature
+for online/off-line searchability of information. It is
+generated by applying XSLT style sheets to all the
+collection metadata objects. This technological decision
+removes the dependency of a web server and/or
+application server for rendering of the collection content.
+The only software component that would inevitably be
+required is a web browser, effectively making it possible
+for the collection to be stored and accessed from other
+hardware storage devices such as CD-ROMs, USB
+drives, and local network drives.
+
+4. DISCUSSIONS
+The simple techniques and solutions used to redesign
+the digital Bleek and Lloyd collection have obvious
+advantages, particularly to organisations with limited
+309
+
+<?xml version=”1.0", encoding=”UTF-8"?>
+<resource xmlns:dc=”http://purl.org/dc/elements/1.1/”
+Xmlns:dcterms=”http://purl.org/dc/terms/”>
+<dc:title>BC_151_A1_4_002</dc:title>
+<dcterms:hasPart>A1_4_2_FRCOV.jpg</dcterms:hasPart>
+<dcterms:hasPart>A1_4_2_IFCOV.jpg</dcterms:hasPart>
+<dcterms:hasPart>A1_4_2_FRCOV.jpg</dcterms:hasPart>
+:
+:
+<dcterms:hasPart>A1_4_2_00428.jpg<?dcterms:hasPart>
+<dcterms:hasPart>A1_4_2_IBCOV.jpg<?dcterms:hasPart>
+<dcterms:hasPart>A1_4_2_BKCOV.jpg<?dcterms:hasPart>
+<dcterms:hasPart>A1_4_2_SPINE.jpg<?dcterms:hasPart>
+</resource>
+
+Figure 4. Sample container object XML metadata file.
+
+<?xml version=”1.0", encoding=”UTF-8"?>
+<resource xmlns:dc=”http://purl.org/dc/elements/1.1/”
+Xmlns:dcterms=”http://purl.org/dc/terms/”
+Xmlns:bl=”http://lloydbleekcollection.uct.ac.za”>
+<dc.identifier>32</dc:identifier>
+<dc:title>Sun, Moon, and Stars<dc:title>
+<dcterms:contributor>||kabob (Jantje) (II)</scterms:contributor>
+<dc:subject>Celestial bodies and aeroscopy</dc:subject>
+:
+<dc:description>…</dc:description>
+<dcterms:created>1871</dcterms:created>
+:
+<dcterms:requires>A1_4_2_00377.jpg</dcterms:requires>
+<dcterms:requires>A1_4_2_00378.jpg</dcterms:requires>
+</resource>
+
+Figure 5. Sample virtual object XML metadata file.
+<?xml version=”1.0", encoding=”UTF-8"?>
+<resource xmlns:dcterms=”http://purl.org/dc/terms/”>
+<dcterms:requires>wilhembleeknotebooks/2</dcterms:requires>
+</resource>
+
+Figure 6. Sample digital content XML metadata file.
+
+resources. The solution allows for the seamless moving of
+the collection to any hardware and/or software platform
+and allows for the recreation of the collection in disaster
+recovery scenarios. The advantage of this is a costeffective preservation strategy resulting from reduced
+reliance on expensive, technically-inclined, human
+310
+
+resources; and a simplified migration process that any
+computer novice would be capable of performing.
+The use of plain text for storage of metadata, as
+opposed to using a database, facilitates the portability of
+system. The filesystem is a very efficient place to store
+DESIDOC J. Lib. Inf. Technol., 2012, 32(4)
+
+data; in fact, that is where many databases store their
+data files. Most importantly, however, the digital collection
+uses the simplest possible retrieval mechanism (the
+reading of a file in a directory location) and the data is
+seldom modified. The use of the filesystem for storage of
+the metadata makes it the optimal storage location.
+Hardware and software obsolescence could easily be
+overcome as the collection can easily be migrated to a
+different platform. Additionally, plain text files are highly
+like to be supported in future software versions. There is
+no guarantee that most of the currently existing
+proprietary database formats will be supported in the near
+future or if future software versions will be backwards
+compatible, but the text files in hierarchical directories are
+probably going to be understandable.
+
+A comprehensive evaluation of such an approach is
+also required to identify the advantages and
+disadvantages that such solutions have when compared
+to well-established architectural patterns. It would
+particularly be useful to establish the scalability of simpler
+architectures. A number of existing solutions are
+implemented with out-of-the-box support for essential
+features like extensibility and interoperability. It would
+thus be imperative to explicitly support such features. It
+may also be necessary to explicitly integrate the current
+solution with tools and services that facilitate
+preservation, such as content conversion, logging and
+integrity checking.
+
+The major challenge, however, would be to explore the
+scalability of such simple techniques when applied to
+large and complex collections. Another challenge is
+perhaps the use of static HTML files. The static collection
+necessitates complete regeneration of the entire digital
+collection when additional content is added to the
+collection. This is clearly not optimal as it would make it
+challenging to operate constantly changing collections.
+
+1. RLG/OCLC Working Group on Digital Archive
+Attributes. Trusted digital repositories: Attributes and
+responsibilities. Mountain View, CA, 2002.
+
+5. CONCLUSIONS
+Simplicity in the design of digital library systems is
+arguably a better bet for preservation of crucial cultural
+heritage collections. At the same time, simple
+architectures can support extensibility and flexibility of
+services. These ideas were tested by converting the
+Digital Bleek and Lloyd to conform to these principles.
+The new system is wholly a replacement for the prior
+system, but with a digital object structure that enables
+simpler preservation over time and enables easier
+integration of new services. Thus, as a proof-of-concept, it
+has been shown that it is possible to create a productionquality digital library system based on fundamental
+notions of simplicity.
+This is, however, only a first step in providing sufficient
+evidence that a simpler architectural design will work for
+digital library systems in general.
+
+6. FUTURE WORK
+This simple approach to the architecture of digital
+library systems can be extended and generalised
+further.For the most part, the solution presented is
+somewhat specific to the Bleek and Lloyd collection;
+there is thus a need to generalise this approach to make it
+applicable to a wide range of collections. This would
+require formally identifying design decisions that may
+inevitably result in a simple, lightweight system that is
+easy to manage. This is particularly important as it would
+highlight how simple repository storage and service
+architectures can be designed.
+DESIDOC J. Lib. Inf. Technol., 2012, 32(4)
+
+REFERENCES
+
+2. Suleman, H. An African perspective on digital
+preservation keywords motivation for preservation why
+an African perspective. Africa, 2008, 1-9.
+3. Suleman, H.; Bowes, M.; Hirst, M. & Subrun, S.
+Hybrid online-offline digital collections. In
+Proceedings of 2010 Annual Research Conference of
+the South African Institute of Computer Scientists and
+Information Technologists (SAICSIT’10), ACM Press,
+2010. pp. 421-25.
+4. Waters, D. & Garret, J. Preserving digital information.
+Report of Task Force on Archiving of Digital
+Information, 1996.
+5. Consultative Committee for Space Data Systems.
+Reference model for an open archival information
+system (OAIS). Issue, Washington, DC, 2002.
+6. PREMIS Editorial Committee. PREMIS data
+dictionary for preservation metadata. Preservation,
+2008.
+7. Library of Congress. Digital preservation (Library of
+Congress), 2012. http://www.digitalpreservation.gov/.
+8. Maniatis, P.; Roussopoulos, M. & Giuli, T. The
+LOCKSS peer-to-peer digital preservation system.
+Computer Systems, 2005, 23(1), 2-50.
+9. DuraSpace. DuraCloud. 2012. http://duracloud.org/.
+10. Skinner, K. & Gore, E. The MetaArchive cooperative:
+Chronicles in distributed digital preservation. In
+Proceedings of 2010 Roadmap for Digital
+Preservation Interoperability Framework Workshop.
+ACM, 2010. pp. 8.
+11. Bainbridge, D.; Buchanan, G.; Mcpherson, J.; Jones,
+S.; Mahoui, A. & Witten, I.H. Greenstone: A platform
+311
+
+for distributed digital library applications. In
+Proceedings of 5th European Conference on Research
+and Advanced Technology for Digital Libraries, 2001.
+pp. 137-48.
+12. Kucsma, J.; Reiss, K. & Sidman, A. Using Omeka to
+build digital collections: The METRO case study. DLib Magazine, 2010, 16(3/4).
+13. Tansley, R.; Bass, M.; Stuve, D. & et al. The DSpace
+institutional digital repository system: Current
+functionality. In 2003 Joint Conference on Digital
+Libraries. IEEE Comp. Soc., 2003, 87-97.
+14. Gutteridge, C. GNU EPrints 2 Overview. In 11th
+Panhellenic Academic Libraries Conference, 2002.
+15. Boyko, A.; Kunze, J.; Littman, J.; Madden, L. &
+Vargas, B. The BagIt file packaging format (V. 97), 26.
+http://www.ietf.org/internet-drafts/draft-kunze-bagit06.txt. (accessed on 7 September 2011)
+16. Library of Congress. NDIIPP partner tools and
+services inventory, 2012. http://www.digitalpreserv
+ation.gov/tools/.
+
+312
+
+17. Lagoze, C. & Davis, J.R. Dienst: An architecture for
+distributed document libraries. Commu. ACM, 1995,
+38(4), 47.
+18. Suleman, H. & Fox, E.A. A framework for building
+open digital libraries. D-Lib Magazine, 2001, 7, 12.
+19. Castelli, D.; Pagano, P. & Thanos, C. OpenDLib: An
+infrastructure for new generation digital libraries. Inter.
+J. Digit. Lib., 2004, 4(1), 45-47.
+20. Centre of Curating the Archive. The Digital Bleek and
+Lloyd. http://lloydbleekcollection.cs.uct.ac.za/.
+21. Suleman, H. Digital libraries without databases: The
+Bleek and Lloyd collection. In Proceedings of
+Research and Advanced Technology for Digital
+Libraries: 11th European Conference (ECDL 2007),
+Springer Berlin / Heidelberg. pp. 392-403.
+22. Weibel, S.; Kunze, J.; Lagoze, C. & Wolf, M. Dublin
+Core Metadata for Resource Discovery. Internet
+Engineering Task Force RFC 2413, 1998. http://
+www.hjp.at/doc/rfc/rfc2413.html.
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(4)
+
+

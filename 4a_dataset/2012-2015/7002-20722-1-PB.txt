@@ -1,0 +1,349 @@
+DESIDOC Journal of Library & Information Technology, Vol. 34, No. 5, September 2014, pp. 426-434 DOI: 10.14429/djlit.34.7002  
+  2014, DESIDOC 
+  Development of Semantic Web-based Knowledge Management  
+for Nuclear Reactor (KMNuR) Portal 
+N. Madurai Meenachi and M. Sai Baba 
+    Scientifc Information Resource Division, Resources Management Group 
+Indira Gandhi Centre for Atomic Research, Kalpakkam-603 102 
+E-mail: meenachi@igcar.gov.in, msb@igcar.gov.in 
+AbStRAct 
+A  web  portal  for  nuclear  reactor  domain  has  been  developed  and  is  christened  as  Knowledge  Management for Nuclear Reactor (KMNuR). This article reports about the development of the portal for  fast breeder test reactor (FBTR). The methodology adopted for the development of the portal is described.  Formats  like  RDF  (Resource  Description  Framework),  OWL  (Web  Ontology  Language),  Graphs,  UML  (Unifed  Modeling  Language)  were  used  to  represent  nuclear  reactor  knowledge. The  ontology  for  the  portal is created using Protégé. Central data processing system of the FBTR is taken as an example for  giving the details of the functionality of KMNuR portal and its knowledge representation.  
+Keywords: Ontology, RDF, OWL, UML, OWLGrEd, semantic web, knowledge management portal 
+1.  INtRODUctION 
+The  semantic  web  enables  intelligent  search  by offering greater functionality and interoperability  for  automatic  knowledge  extraction  by  machines1.   Ontology  is  used  to  define  a  set  of  assertions  and  relations  among  the  objects  for  specifying  the  concepts involved2.  A survey is carried out to study  the  state-of-the-art  of  development  of  ontology  in  various  domains  and  is  based  on  the  available  research  papers  in  refereed  journals,  reports  in  the  respective  domains,  scholarly  articles,  etc.  The  tools  required  for  the  development,  ontology  language  used  for  representation,  programming  language,  database,  reasoner,  etc.,  employed  in  the  various  domains  were  surveyed3.  The  survey  revealed  that  in  domains  like  power  plants  and  atomic energy,  the ontology development is rather  limited, which leds to taking up the development of  the ontology for nuclear reactor domain. As part of  the  programme  of  development  of  semantic  web- based knowledge management, portal in the nuclear  reactor  domain  is  being  pursued  for  enabling  the  scientists  and  engineers  effectively  create,  share  and  reuse  ontology.  The  requisite  ontology  for  the  Fast Breeder Test Reactor (FBTR) at Indira Gandhi  Centre for Atomic Research (IGCAR), Kalpakkam, is  being  developed  by  collecting  the  knowledge  from  the  nuclear  domain  experts.  
+Systematic preservation of knowledge plays key  role  to  improve  the  productivity  and  performance  of  any  organisation.  One  of  the  prime  objectives  of any knowledge management portal is to capture  
+the  knowledge  existing  in  a  particular  domain  and  preserve  it  for  the  future.  It  involves  the  creation  of  knowledge-base  by  collecting  all  the  requisite  knowledge available in a given domain. To achieve  this,  efforts  are  required  to  employ  a  suitable  mechanism for obtaining and integrating  the collective  knowledge in the domain. In a domain like operation  of  a  power  plant,  the  knowledge  is  obtained  from  diverse areas like design, operational,  maintenance,  safety,    quality  assurance,  etc.  Preserving  the  same  would  result  in  saving  time  and  effort  in  troubleshooting  the  problems  and  carry  out  apt  maintenance of the plant. The content of the portal  needs  to  be  organised,  in  such  a  way  that  the  adopted  ontology  would  be  known  to  the  users  to  make  an  effective  usage  of  the  same.  A  semantic  web-based knowledge representation is designed to  capture  the  knowledge  existing  in  nuclear  reactor  domain  and  preserve  it  for  the  future.  As  with  the  passage of time, the people involved in the design  and  commissioning  of  nuclear  systems  would  be  replaced  by  new  manpower.  The  other  focus  for  the development of the portal is to make the skill/ expertise  available  to  the  new  workforce.  
+Considering the life cycle of any nuclear plant,  the knowledge-base creation not only helps to sustain  the existing nuclear reactors but also in the design,  construction,  commissioning  and  operation  of  the  reactors likely to be built in the future. A knowledge  management  portal  has  been  developed  for  FBTR  and christened as KMNuR (Knowledge Management  for Nuclear Reactor) portal. Creating KMNuR portal  
+Received 5 May 2014, Revised 17 July 2014, Online published 4 September 2014 
+
+========1========
+
+MEENAChI  & S AI  B ABA: DEVELOPMENT OF  S EMANTIC  W EB-BASED  K NOWLEDGE  M ANAGEMENT  P ORTAL 
+would  cater  to  making  the  accumulated  knowledge  available  as  reference  to  operational  personal  and  also  to  the  new  work  force.  
+The portal has been developed using Java and  the  MySQL  database  at  the  backend  and  employs  tools  like  Protégé  IDE  (Integrated  Development  Environment) for ontology development4  and OWLGrEd  (Ontology Editor for Compact UML-style OWL Graphic  Notation)  for  UML  generation. The  objective  of  the  portal  is  to  develop  an  ontology  that  would  enable  effective usage of the contents being made available  by  the  user  community.  The  obtained  knowledge  about  the  nuclear  reactor  is  stored  in  formats  like RDF (Resource Description Framework), OWL  (Web  Ontology  Language),  graphs,  UML  (Unified  Modeling  Language).  RDF  structure  represents  standard syntax for describing the meaning of data  and  OWL  represents  the  standard  to  describe  the  relationship  between  the  data5.  
+2.  KNOWLEDGE  MANAGEMENt   POR tALS  IN  
+NUcLEAR  RELAtED  DOMAIN 
+International  Atomic  Energy  Agency  (IAEA)  provides guidelines and framework6-7   for  designing  the  portal  for  knowledge  management  systems,  which  cover  plant  policies,  its  strategy,  operation,   safety,  management  and  performance  information,  etc.  IAEA  aims  to  identify  knowledge  domains  like  major nuclear reactors, radiation effects, waste and  transport  safety  and  then  to  capture  and  share  the  critical  knowledge  in  each  domain.  This  would  lead  to  preserving  the  institutional  memory  and  stimulate new knowledge for current as well as future  generation of scientists, engineers and technicians.   Emergency  response,  country  specific  information,  nuclear  installation,  thematic  knowledge,  etc.,  are  also covered8. IAEA also conducts various technical  meetings and conferences to collect knowledge from  various  nuclear  power  plants.  
+The Gesellschaftfür Anlagenund Reaktorsicherheit  (GRS), Germany, carries out research in the areas  of  reactor  safety,  radioactive  waste  management,   radiation  and  environmental  protection. An  intranet  portal  has  been  set  up  by  GRS  to  prevent  the  knowledge loss and the ontoprise semantic tool was  used  for  the  ontology  representation9.  The  portal  developed  by  GRS10 is  embedded  with,  document  management,  yellow  pages,  announcements,  data  collections,  support  information,  suggestion  box,   new  sticker  for  work  scope  news,  message  boards  for  department  and  knowledge  representations  of  skill  areas,  etc.  
+The  Krško  Nuclear  Power  Plant  (Krško  NPP)  is  a  pressurised  light  water  reactor  power  system  of  Slovenia.  The  intranet  portal  (named  IntraNEK)  at  Krško  NPP,  allows  the  user  to  access  various  plant applications and links. In this portal, equipment  
+details,  structures,  documents,  human,  regulatory  requirements and commitments, non-conformances,  failure  analysis,  domestic  and  industry  operating  experience  and  corrective  actions  are  covered.  It  envisaged establishing guidance on the effective and  efficient use of operating experience information to  improve plant/personnel safety, plant reliability and  commercial  performance11.  
+Kazakhstan  Atomic  Energy  Committee  has  developed a portal to serve their day-to-day activities  and  to  support  working  processes  and  to  manage  the  documentation12.  It  also  facilitates  to  create  knowledge-base  thereby  providing  an  archive  for  nuclear  knowledge. 
+NuArch  project,  developed  at  Italy  Trieste  School  of  Nuclear  Knowledge  Management,  uses  a  web  crawler  that  will  identify  and  harvest  the  nuclear  information  resources  from  the  internet13.  The harvested information is automatically indexed  and  stored  in  a  high-volume  archive  with  version  control  and  makes  them  accessible  to  the  user.  
+KOZLODUY  NPP,  Bulgaria  portal  is  developed  based  on  FrameWork1.1  and  DotNet  Nuke.  Plant  operation, safety, system data, training and human  resources, etc., are covered in the portal. In addition,  online  technical  parameters  of  the  nuclear  power  plant  units  are  also  highlighted  (as  referred  from  the  IAEA  technical  report)6.  
+National Nuclear Energy Commission (CNEN), Brazil  developed a nuclear knowledge portal for licensing  and  controlling  the  nuclear  activities14.  This  portal  defines the knowledge tree about licensing, control,  legislation,  regulation,  training  and  documentation  as main classes. Fuel cycle installation, radioactive  installation, nuclear waste management, administrative  rules  and  resolutions  are  defined  as  subclasses  of  the knowledge tree. It also provides an opportunity  to  share  information  and  knowledge  in  real  time  among  the  collaborators.    
+ANENT (Asian Network for Education in Nuclear  Technology)  web  portal  has  been  developed  by  Korean Atomic  Energy  Research  Institute,  Nuclear  Training  Centre,  Korea.  This  portal  is  being  used  to  share  information  about  nuclear  education  and  training  information  materials  with  the  members  of  its  institutions15-16.  
+Japan Atomic Energy Research Institute (JAERI)  constructed a knowledge management framework for  nuclear energy policy. This framework covers up-to- date  important  intellectual  assets  of  JAERI17.  
+The knowledge management portals are developed  for their respective institutes by employing semantic  web. As most of these web portals are intranet-based,  not  many  details  are  available  in  the  published  literature. Neither the data structure information about  the portals nor the methodology adopted to implement  the  development  of  portal  could  be  obtained.    
+427 
+
+========2========
+
+DJLIT,  VOL.  34,  NO.  5, SEPTEMBER   2014 
+In  this  work,  the  development  of  the  KMNuR  portal is described. KMNuR comprised of knowledge  represented in different semantic formats like RDF,  OWL  and  UML  so  as  to  enable  the  web  crawler  to  share  and  reuse  nuclear  knowledge.  
+3. SYStEM ARcHItEctURE  OF  KMNuR  WEb 
+PORtAL 
+The system architecture of KMNuR is represented  in  Fig.  1.  Protégé  tool  is  used  for  developing  the  ontology.  The  KMNuR  web  portal  is  a  client/server  architecture  having  user  interface  in  the  frontend  and  database  at  the  backend.  The  frontend  of  the  user interface developed using Java web application  allows the user to get the requisite knowledge about  the  FBTR  from  MySQL  database  at  the  backend.  Net  Bean  IDE  is  used  for  developing  the  Java  web-based  application,  and  Glass  Fish  server  for  publishing  the  web  application.  The  knowledge  pertaining  to  FBTR  system  is  obtained  from  the  data  sources  like  journals,  books,  internal  reports,   existing  data  at  IAEA,    open  archives  and  from  nuclear  experts.  The  data  is  stored  in  the  MySQL  database  in  formats  like  RDF,  OWL,  UML,  and  graph.  Users  can  select  the  particular  format  to  retrieve  the  knowledge  about  the  nuclear  system  of  their  choice.  
+The  methodology  for  developing  components  of  the  portal  for  the  FBTR  domain  involves  the  following  steps: 
+(a) Ontology  is  created  by  defining  the  classes,   
+subclasses, object properties, data properties for each  
+system  by  receiving  the  expert  knowledge  (b) The  created  ontology  is  verified  and  validated  
+by  checking  the  inferred  knowledge  to  remove  
+any  logical  inconsistency.  The  verification  is  
+carried out by starting any one of the reasoners  
+like  Fact++,  hermit,  and  Pellet          
+(c) RDF/XML  and  OWL/XML  rendering  file  options  
+available  in  the  Protégé  tool,  are  utilised  to  
+generate  the  RDF,  OWL  files  for  the  given  
+Figure 1. System architecture of knowledge management  
+portal for nuclear reactor. 
+428 
+ontology.  These  data  are  captured  and  stored  
+in the database,  which would aid the machine  
+processing by allowing the crawler to crawl the  
+web to extract the knowledge embedded in the  
+system  
+(d) The  graphical  representation  of  the  knowledge  
+is  created  using  Onto_graph  and  the  image  
+is  saved  in  jpeg  or  gif  file  format.  This  is  an  
+add_on  tool  available  in  the  Protégé    (e) OWLGrEd  is  another  program  which  when  
+executed  simultaneously  with  Protégé  tool,  
+would  enable  the  user  to  export  the  ontology  
+to  construct  a  UML  diagram  
+The  collected  knowledge  and  information  of  each  system  are  stored  in  the  database,  for  the  user  and  agent  programme  to,  retrieve,  process  and  display  the  knowledge.  
+A  screen  shot  of  KMNuR  portal  main  page  is  shown  in  Fig.  2  and  is  expanded  and  shown  in  Fig.  3  and  Fig.  4.  The  left  side  frame  of  the  web  portal, lists out the names of the systems related to  the  nuclear  reactor  domain  such  as:  reactor  core,  control rod drive mechanism, primary sodium system  and  the  parameters  such  as  neutron  flux,  gamma  ray  source,  reactor  steady  state,  etc.  Systems  and  parameters of the nuclear reactor, whose knowledge  is represented in the KMNuR portal, are listed out in  Table 1. When the user selects a particular system  it  will  provide  information  about  the  same  on  the  right  side  frame.  RDF  or  UML  diagram  or  OWL  buttons  are  made  available  in  the  portal,  enabling  the user to view the acquired knowledge. Since the  UML  images  are  complex  in  nature,  zoom  facility  is  offered  to  get  an  enlarged  view.    
+Figure  2.  Knowledge  management  portal  for  nuclear  
+reactor showing the knowledge representation  
+of  each  system,  its  description,  OWL_Graph  
+and UML_diagram. 
+
+========3========
+
+MEENAChI  & S AI  B ABA: DEVELOPMENT OF  S EMANTIC  W EB-BASED  K NOWLEDGE  M ANAGEMENT  P ORTAL 
+Figure  3. OWL-GRAPH  enlarged  image  of    Fig.  2  for   
+cDPS  consisting  of  SS-1,  SS-2,  message  
+  server,  dataserver,  fastrecording  system, 
+  steamgeneratorsystem, graphical user interface,  
+  hardware, software, pc_based_system and their 
+ relationships. 
+ Figure 4. UML diagram enlarged image of Fig. 2 for  cDPS  
+ system. 
+The overall aim of the KMNuR portal is to integrate  and  infer  the  semantic  knowledge  needed  by  the  users in performing the nuclear reactor domain tasks.  As  an  example,  Central  Data  Processing  System  (CDPS)  is  taken  for  the  analysis  to  discuss  the  representation of the KMNuR portal. CDPS in FBTR  consists  of  two  subsystems  namely  Sub  System  I  (SSI)  and  Sub  System  II  (SSII),  and  connected  in  fault  tolerant  configuration.  SSI  and  SSII  systems  consist of three embedded systems, namely, safety  critical system (SCS), safety related system (SRS),  and non-nuclear safety system (NNS).  It also consists  of radiation and air monitoring system (RAAMS) for  the  processing  of  data  related  to  radiation,  data  server for acquiring nuclear data from the embedded  system,  message  server  system  for  retrieving  fault  messages  from  embedded  system,  fast  recording  system for recording analysis of safety parameters,  etc. Figure 3 depicts the enlarged image of the CDPS  in  OWL  sgraph  format.  The  enlarged  image  of  the  CDPS  in  UML  diagram  format  is  shown  in  Fig.  4.  For further enunciating the details, UML diagram for  neutron energy is shown in Fig. 5. It can be seen that  
+table  1.  Systems  and  parameters  of  nuclear  
+  reactor represented in the KMNuR portal S. No. Name of the system 
+1. Central Data Processing System 
+2. Control Rod Drive Mechanism 
+3. Electrical System 
+4. Emergency Core Cooling 
+5. FBTR Offsite Power Supply 
+6. Flux 
+7. Fuel Fabrication Oxide to Carbide 
+8. Fuel Fabrication Oxide to Metal 
+9. Gamma Interaction with Materials 
+10. Gamma Ray Source 
+11. LOR Parameter 
+12. Metal Fuel Fabrication 
+13. Mettalic Fuel 
+14. Neutronic_Channels 
+15. Ne_Interaction with Materials 
+16. Net Reactivity 
+17. Neutron Energy 
+18. Neutron Fission 
+19. Neutronic Instrumentation 
+20. Nuclear_Reaction 
+21. Nuclear Data 
+22. Nuclear Design 
+23. Nuclear Design Test 
+24. Nuclear Power Plant 
+25. Nuclear Reactor FBTR 
+26. Permissive circuits 
+27. Primary Sodium Circuit 
+28. Radiation 
+29. Reactivity Feedback 
+30. Reactor Accident 
+31. Reactor Accidental Condition 
+32. Reactor Assembly 
+33. Reactor Core 
+34. Reactor Dynamics 
+35. Reactor FueL handling 
+36. Reactor Shielding 
+37. Reactor Shutdown Mechanism 
+38. Reactor Start Up Condition 
+39. Reactor State 
+40. Reactor Steady State 
+41. Reactor Transients state 
+42. Safety Analysis  
+43. Scram Parameter  
+44. Secondary Sodium System  
+45. Shielding Materials  
+429 
+
+========4========
+
+DJLIT,  VOL.  34,  NO.  5, SEPTEMBER   2014 
+46. 47. 48. 49. 50. 51. 
+Shield within Reactor  Special_Transport_Equation Spent_Fuel  
+Steam Generator  Steam Water 
+Transport Equation 
+the details like, the class, subclass, the relationship  between  them  and  their  instances,  are  given.    3.1 Database  Structure  of  KMNuR 
+Database structure of KMNuR (Table 2) consists  of  fields  like:  Unique  identification  number  (Id_no),   name  of  the  systems  (Kr_name),  its  description  (Kr_desc),  OWL-Graph,  Rdf_desc,  Owl_desc  and  UML  diagram.  The  details  of  main  and  auxiliary  systems  of  the  FBTR  are  inputted  and  loaded  in  to  the  database.  
+3.2 Representing  RDF  in  KMNuR  Portal    
+RDF is a metadata, defined in the W3C (world wide  web consortium) family and is used for illustrating the  relationships between the various object resources18.  It  is  a  URI  (Uniform  Resource  Identifier)  based  syntax  data  representation  which  allows  a  secure  and  reliable  mechanism  for  metadata  exchange  between the web applications19. RDF files for each  of  the  system  are  generated  using  Protégé  and  stored  in  the  database.  When  a  particular  system  
+Figure 5. UML diagram of neutron energy. 
+430 
+table  2.  Structure  of  KMNuR  table  in  MySQL  database  
+to store the system information, image of OWL  
+graph, imageof UML, its description, RDF and  
+OWL description 
+Field   type     Key 
+Id_no       integer(10)       Primary Key  Kr_name varchar(30)   - 
+Owl_graph Longblob - 
+Uml longblob      - 
+Kr_desc varchar(1000) - 
+Rdf_desc varchar(2000) - 
+Owl_desc varchar(2000) - 
+in  the  nuclear  domain  is  selected  from  the  list,  the  corresponding  matching  RDF  information  is  displayed  in  the  main  window.  For  example,  when  CDPS  is  selected  in  RDF  format,  it  lists  out  the  classes  and  their  relationship.    
+3.3 Representing  OWL  in  KMNuR 
+The web ontology language (OWL) is an extension  of RDF and RDF Schema (RDF-S). It facilitates greater  machine interpretability of the web content than that  supported  by  XML,  RDF  and  RDF-S,  by  providing  additional vocabulary along with formal semantics. It  describes properties like: disjointedness, cardinality,  equality, symmetry, transitivity, functional, inverse and  enumerated relations between the classes. Using the  
+
+========5========
+
+MEENAChI  & S AI  B ABA: DEVELOPMENT OF  S EMANTIC  W EB-BASED  K NOWLEDGE  M ANAGEMENT  P ORTAL 
+OWL  language,  all  the  components  like  concepts,  instances,  properties  (or  relations)  and  axioms  of  ontology are created20. OWL Lite, OWL DL (Description  Language)  and  OWL  Full,  are  the  three  different  versions  of  the  OWL  sub  languages21   and  aims  to  bring the reasoning power of description logic to the  semantic web. For the CDPS system, by clicking the  OWL button in the KMNuR portal, the corresponding  OWL  file  for  the  CDPS  system  is  listed  out.    3.4 Representing  OWL-GRAPH  in  KMNuR 
+Properties  and  relationships  of  the  nuclear  knowledge are viewed in graphical representation by  using  the  Onto_graph  plug-in  available  in  Protégé.   The same can be stored in the graphical formats like  jpeg, gif, emf, bmp, etc. In the case KMNuR database  OWL_GRAPh   in  jpg  file  formatis  stored.  3.5  Representing  OWL_UML  in  KMNuR 
+UML is a general-purpose modelling language used  to  capture  the  information  about  different  views  of  systems, like static structure and dynamic behaviour.  UML  and  OWL  have  identical  characteristics  for  defining classes, associations, properties, packages,  types, generalisation and instances, etc22. OWLGrEd  is  UML  style-based  graphical  notation  editor  for  OWL.  Each  individual  tool  of  OWLGrEd  is  created  through  a  specially  designed  tool,  Transformation  Driven Architecture (TDA), for storing the information  like  types,  styles,  constraints  and  relationships  among  the  elements23.  Both  the  Protégé  and  TDA  tools need to be executed in parallel, to convert the  OWL to UML. In the Protégé tool, ‘EXPORT to TDA’  menu  option  is  available  to  convert  OWL  to  UML.  When  the  option  is  used,  the  OWL  file  is  opened  in  TDA  program  automatically.  Similarly,  to  export  the  ontology  from  OWLGrEd  to  Protégé,  user  has  to right-click on the UML diagram and select ‘Export  to Protégé’ option. In the KMNuR portal, rollover to  zoom_in facility is also available to view the enlarged  size  of  the  UML  image  for  a  particular  system.    
+4.  KNOWLEDGE  SHARING  IN  KMNuR 
+In the KMNuR web portal, pressing the ‘Knowledge  Sharing’  icon  allows  the  users  to  submit  the  new  knowledge to the system. Several aspects of knowledge  available  in  the  FBTR  system  are  collected  by  interviewing  the  domain  experts.  The  accumulated  information is compiled and converted to RDF, OWL  formats. When the information about the knowledge  created is available in the machine readable format,  details  like:  name  of  the  submitting  knowledge,  contributing authors are filled in. Once the relevant  data is entered,  it is submitted to the database for  approval  by  pressing  the  ‘Submit  the  Knowledge’  button.  The  data  is  stored  in  the  database  and  needs  approval  of  the  administrator  for  getting  added  to  the  web  portal.  The  knowledge  database  is  shown  in  the  Table  3.  By  pressing  the  ‘view  
+table  3.  Database  structure  of  knowledge-base  in  
+ MySQL database 
+Field   type     
+Km_name       Km_authors 
+varchar(30) varchar(100)   
+Km_desc 
+varchar(2000)   
+Km_RDF Km_OWL Km_UML Approval_Status 
+varchar(2000)      varchar(2000)   varchar(2000) char 
+pending  knowledge-base’,  the  pending  knowledge  can  be  viewed.  
+At the development stage the authors are playing  a dual role of accumulating related information from  the  nuclear  reactor  domain  experts  and  converting  them  and  storing  them  in  formats  like  RDF,  OWL,  Graphs  and  UML.  Once  the  portal  is  deployed  in  public  domain,  initially  it  is  being  planned  on  the  intranet of the organisation, it is envisaged that the  domain experts provide the information relating to the  nuclear reactor and an administrator would facilitate  making it available in the machine readable format  and  uploading  in  to  the  portal.  As  part  of  further  development, efforts would be put in for developing  appropriate  tools  for  automating  the  process  of  converting accumulated knowledge from the domain  experts  into  machine  readable  format.  
+When user inputs knowledge, one of the issues to  be addressed is the need for checking for similarity  with the existing knowledge. The ontology loaded by  the  user  is  to  be  compared  with  existing  collection  of  knowledge  to  avoid  duplicate  entry  in  to  the  portal.  After  initially  calculating  the  matching  the  approval_status field in the knowledge database is  updated.  To  aid  the  process  of  checking,  a  Quick  Mapping  Evaluator  (QME)  program  was  developed  for  ontology  mapping24.  QME  allows  the  user  to  select  the  required  ontology  alignment  algorithm  for  extracting  the  shared  knowledge.  An  ontology  matching  algorithm25,  that  aids  the  agent  program  to  filter  and  collect  the  knowledge  for  the  search,  reuse, share thereby giving relevant answers to the  user  query  has  been  used  in  the  development  of  the portal. The application of the ontology matching  algorithm  is  demonstrated  by  taking  two  examples  and details are briefly described below. The matrix  rank-based  algorithm  will  optimise  the  search  time  and  retrieve  the  relevant  knowledge  and  aid  in  avoiding addition of duplicate,  redundant knowledge  and  same  knowledge  from  different  sources.  Case 1: Ontologies developed for (i) steam generator  detectors and (ii) steam generator protection systems,  are  shown  in  Fig.  6  and  Fig.  7  respectively.  Using  matching  algorithm,  these  inputs  were  processed  
+431 
+
+========6========
+
+DJLIT,  VOL.  34,  NO.  5, SEPTEMBER   2014 
+Figure  6.  Ontology  of  steam  generator  (SG)  detector  
+ systems. 
+and  an  8x16  matrix  was  constructed  (Fig.  8).  It  was  found  that  the  common  matching  entity  is  the  ‘steam  generator’  and  a  value  of  ‘1’  is  set  in  the  matrix.  In  the  matrix,  all  values  are  ‘0’  except  in  the  first  row  and  first  column.  When  the  rank  of  the  matrix  is  calculated,  it  will  yield  the  value  of  the  rank  to  be  ‘1’,  indicating  that  there  is  a  partial  overlap  existing  between  these  two  ontologies.  Case 2: The ontology developed for control rod drive  mechanism  is  shown  in  Fig.  9.  The  ontologies  for  steam generator detector system (Fig. 6) and control  rod drive mechanism are compared. An 8x18 matrix  was constructed and all the rows and columns were  found  to  be  ‘0’  resulting  in  the  rank  of  the  matrix  being  ‘0’  (Fig.  10).  This  is  due  to  the  fact  that  the  ontology  of  the  control  rod  related  information  and  steam generator system are not directly connected.  hence,  it  is  concluded  that  these  two  ontologies are  unique  dealing  with  distinct  information.  
+The KMNuR is deployed presently in the intranet  to  address  issues  related  to  nuclear  KM  of  FBTR.  The  initiative  to  develop  the  portal  is  an  attempt  to  integrate  the  existing  information  bases  about  FBTR  in  an  easily  accessible  form.  Feedback  and  inputs from the domain experts will further enhance  and  enrich  the  available  knowledge  of  KMNuR  to  maintain  the  required  quality.  Finally  the  portal  would  be  deployed  across  the  www  to  share  the  knowledge relating to fast breeder reactors, enabling  thereuse, share and process the nuclear knowledge.  
+Figure  7.  Ontology  of  steam  generator  protection  
+  systems. 
+Figure  8.  Resultant  matrix  for  steam  generator  for  
+  a case given in Fig. 6 and Fig. 7. 
+Figure 9. Ontology of control rod drive mechanism (lor –  
+lowering of control rod, scram – safety control  
+rod activation mechanism). 
+432 
+
+========7========
+
+MEENAChI  & S AI  B ABA: DEVELOPMENT OF  S EMANTIC  W EB-BASED  K NOWLEDGE  M ANAGEMENT  P ORTAL 
+Figure 10.  Resultant matrix for control rod drive mechanism  
+for a case given in Fig. 6 and Fig. 8. 
+5. SUMMARY 
+The need for knowledge management portals and  portals  developed  by  other  countries  in  respect  of  nuclear power plants were discussed. Details of the  development  of  a  semantic  web  portal  for  nuclear  reactor domain, christened as KMNuR, were described. The system architecture of the developed portal has  been described. A client/serverarchitecturehas been  adopted  for  the  development  of  the  web  portal.  The  features  of  the  portal  embedded  with  various  format  like  RDF,  OWL_Graph  and  the  structure  of  database  employed  for  storing  the  knowledge  of  FBTR  are  described.      
+AcKNOWLEDGEMENtS 
+It is a pleasure to acknowledge the encouragement  of  Shri  S.C.  Chetal,  Raja  Ramanna  Fellow  and  Former Director and Dr P.R. Vasudeva Rao, Director,  IGCAR.  We  also  acknowledge  the  colleagues  of  Resource Management Group, Reactor Operation and  Maintenance Groups of IGCAR for their participation  and  support.  
+REFERENcES 
+1.  Decker,  S;  harmelen,  F.V.;  Erdmann,  J.B.M.;  
+Fensel,  D.;  horrocks,  I.;  Klein,  M.  &  Melnik,  
+S.    The  semantic  web:  The  roles  of  XML  and  
+RDF.   IEEE  Internet  Comp. ,  2000, 4,  63-74.  2.    h eath,  T.  &  Motta,  E.  Ease  of  interaction  plus  
+ease  of  integration:  Combing  web2.0  and  the  
+semantic web in a reviewing site. Web Semantic:  
+Sci.,  Dev. Agent.  WWW,  2007, 6,  76-83.  
+6.  Development  of  knowledge  portals  for  nuclear  
+power  plants,  IAEA  Nuclear  Energy  Series  
+Technical  Reports,  2009.  NG-T-6.  2.    7.  Knowledge  management  for  nuclear  research  
+and  development  organisations.  IAEA  Nuclear  
+Energy  Series Technical  Reports,  2012.  IAEA- 
+TECDOC-1675. 
+8. Knowledge  management  for  nuclear  industry  
+operating  organizations.  IAEA  Nuclear  Energy  
+Series Technical Reports, 2006. IAEA-TECDOC- 
+1510.  
+9. Beraha,  D.;  heigl,  T.  &  Puhr-Westerheide,  P.  
+Nuclear  knowledge  management:  The  GRS  
+realization.  Int.  J.  Nuc.  Knowl.  Manag.,  2005,  
+1,  351-61. 
+10.  Puhr-Westerheide,  P.  Improved  organizational  
+performance with a KM system. Joint ICTP IAEA  
+School  of  Nuclear  Knowledge  Management,  
+2008,  Trieste,  Italy.  http://www.  iaea.  org/ 
+nuclearenergy/nuclearknowledge/schools/ 
+NKMSchool/archive/2010/trieste2010/11_Improving  
+_performance-Trieste2010(Kosilov). pdf (accessed  
+on  30 April  2014). 
+11.  Bruno, B. Bozin & Cizmek, R. Industry operating  
+experience process at Krško NPP. In  9 
+th 
+ International  
+Conference  on  Nuclear  Option:  Countries  with  
+Small  and  Medium  Electricity  Grids.  Zadar,  
+Croatia,  June  2012.  
+12. Kosilov, A.; Mandl, W.; Pasztory, Z.; Gladyshev,  
+M.;  Idrissova,  M.  &  Zhantikin,  T.  A  knowledge  
+management  and  information  portal  for  the  
+Kazakhstan  atomic  energy  committee.  Int.  J.  
+Nuc.  Knowl.  Manag.,  2009, 3,  382-94. 13. Tolstenkov,  A.  Preservation  of  nuclear  
+information  and  records.  School  of  Nuclear  
+Knowledge  Management,  Trieste,  Italy,  August  
+2010.  http://www.iaea.org/nuclearenergy/ 
+nuclearknowledge/schools/NKMSchool/archive 
+/2010/trieste2010/23_Tolstenkov_Preservatoin_ 
+of_Nuclear_Information_2.  pdf.  (accessed  on  
+30 April  2014). 
+14. Gomes,  E.  &  Brage,  F.  Nuclear  knowledge  
+portal  for  supporting  licensing  and  controlling  
+nuclear activities in the Brazilian Nuclear Energy  
+Commission. Int. J. Nucl. Knowl. Manag., 2005,  
+1,  244-54. 
+usage  of  ontology  in  different  domains. Int.  J.  
+Appl.  Inf.  Sys.,  2012, 9,  46-55.  
+4.  Meenachi,  N.M.  &  Sai  Baba,  M.  Web  ontology  
+language  editors  for  semantic  web:  A  survey.  
+Int.  J.  Compu. Appli.,  2012, 53,  12-16.  
+5.  Saleena, B; Salini, M.G. & Venkateswaran, S. A  
+semantic approach to construct a knowledge portal  
+for e-learning using ontology. In  4 
+th 
+ International  
+Conference on Distance Learning and Education, San  
+Juan,  Puerto  Rico,  October  2010,  pp.  214-17. 
+3.  Meenachi,  N.M.  &  Sai  Baba,  M.  A  Survey  on  
+15. Lee, E.J.; han, K.W.; Kim, Y.T. & Lee, J.K. NET  
+DB  on  the  ANENT  web_portal,  IAEA  regional  
+workshop  on  the  development  of  a  web-portal  
+for  the ANENT,  Korea,  2005.  http://www.  iaea. 
+org/km/documents/A4_8.  pdf.  (accessed  on  30  
+April  2014). 
+16.  han,  K.W.;  Lee,  E.J.;  Kim,  Y.T.  &  Lee,  J.K.  
+Development of ANENT web_portal, IAEA Regional  
+Workshop on the Development of a Web-portal  
+for  the  ANENT,  Korea,  2005.  http://www.iaea. 
+org/km/documents/A4_7.pdf.  (accessed  on  30  
+April  2014). 
+433 
+
+========8========
+
+DJLIT,  VOL.  34,  NO.  5, SEPTEMBER   2014 
+17.  Yanagisawa,  K.;  Bexdek,  R.h.  &  Sawada,  T.  
+Long-term  nuclear  knowledge  management  
+of  innovative  nuclear  energy  systems  (INES):  
+A  case  study  of  the  Japan  Atomic  Energy  
+Research  Institute  (JAERI).  Prog.  Nuc.  Ener. ,  
+2008, 50,  683-87. 
+18.  Klyne,  G.  &  Carroll,  J.J.  Resource  description  
+framework (RDF): Concepts and abstract syntax.  
+2004.  http://www.  w3.  org/TR/rdf-concepts/. 
+(accessed  on  30 April  2014). 
+19. Palmer, S.B. The semantic web: An introduction,  
+2001. http://infomesh.net/ 2001/swintro. (accessed  
+on  30 April  2014). 
+20.  Parreiras,  F.S.;  Staab,  S.  &  Winter,  A.  Two  
+use:  Integrating  UML  models  and  OWL  
+ontologies,  2007.  http://www.uni-koblenz. 
+de/~fb4reports/2007/2007_16_Arbeitsber-ichte. 
+pdf.  (accessed  on  30 April  2014). 
+21.  McGuinness,  D.L.  &  harmelen,  F.V.  W3C,  
+OWL  web  ontology  language  overview,  2004.  
+http://www.ksl.stanford.edu/people/dlm/webont/  
+OWLOverviewJuly-302003.htm.  (accessed  on  
+30 April  2014). 
+22.  Colomb,  R.;  Raymond,  K.; hart,  L.;  Emery,  P.;  
+Welty,  C;  Xie,  G.T.  &  Kendall,  E.  The  object  
+management group ontology definition metamodel,  
+ontologies for software engineering and technology.  
+Springer,  2006,  pp.  217-47. 
+23. Barzdins, J.; Barzdins, G.; Cerans, K.; Liepins, R.;  
+& Sprogis, A. OWLGrEd: A UML style graphical  
+434 
+editor  for  OWL.  In  7 
+th 
+  International  Workshop  
+on  Semantic  Web  on  OWL:  Experiences  and  
+Directions,  San  Francisco,  California,  USA,  
+2010. 
+24.  Meenachi,  N.M.;  Prasad,  h.  &  Sai  Baba,  M.  
+Quick mapping evaluator–Application for ontology  
+mapping  evaluation:  A  case  study  on  nuclear  
+reactor  domain.  Int.  J.  Nuc.  Knowl.  Manag. ,  
+2013, 6,  143-54. 
+25. Meenachi, N.M. & Sai Baba, M. Matrix rank based  
+ontology matching: An extension of string equality  
+matching, Int.  J.  Nuc.  Manag.   2014,  6.  
+About  the Authors 
+Ms  N.  Madurai  Meenachi   is  working  as  Scientific  Officer  at  Scientific  Information  Resource  Division,  Resources  Management  Group,  IGCAR.  She  is  pursuing  her  PhD  in  Semantic  Web-based  Nuclear  Knowledge Management System with homi Bhabha  National  Institute. 
+Dr M. Sai baba  is working as Associate Director of  Resources  Management  Group, head  of  Scientific  Information Resource Division and head of Strategic  Planning  and  human  Resources  Development  Division and also a Professor, homi Bhabha National  Institute. 
+
+========9========
+

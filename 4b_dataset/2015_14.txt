@@ -1,0 +1,2401 @@
+UNIVERSITY OF CALIFORNIA
+Los Angeles
+
+Google Search
+and the “Right to Be Forgotten”
+
+A thesis submitted in partial satisfaction
+of the requirements for the degree
+Master of Library and Information Science
+
+by
+
+David Isom
+
+2015
+
+UMI Number: 1590382
+
+All rights reserved
+INFORMATION TO ALL USERS
+The quality of this reproduction is dependent upon the quality of the copy submitted.
+In the unlikely event that the author did not send a complete manuscript
+and there are missing pages, these will be noted. Also, if material had to be removed,
+a note will indicate the deletion.
+
+UMI 1590382
+Published by ProQuest LLC (2015). Copyright in the Dissertation held by the Author.
+Microform Edition © ProQuest LLC.
+All rights reserved. This work is protected against
+unauthorized copying under Title 17, United States Code
+
+ProQuest LLC.
+789 East Eisenhower Parkway
+P.O. Box 1346
+Ann Arbor, MI 48106 - 1346
+
+© Copyright by
+David Isom
+2015
+
+ABSTRACT OF THE THESIS
+
+Google Search
+and the “Right to Be Forgotten”
+
+by
+
+David Isom
+
+Master of Library and Information Science
+University of California, Los Angeles, 2015
+Professor Beverly P. Lynch, Chair
+
+On May 13, 2014, the Court of Justice of the European Union (CJEU) ruled that Google must
+comply with Spanish attorney Mario Costeja González’ request that it remove links to notices of
+a 1998 forced sale of real estate he then owned, helping to establish a “right to be forgotten” in
+regard to Internet searches in the European Union. While some have argued that the decision is
+unwarranted censorship that threatens freedom of speech and the character of the Internet, I
+contend that the recognition of a right to be forgotten is an acknowledgment of the tremendous
+power which Google has in determining how a person is perceived and that the CJEU’s decision
+is merely a small step in allowing individuals to limit real harms that can occur from what the
+company chooses to include in the results it returns when a person’s name is used as a search
+query.
+
+ii
+
+The thesis of David Isom is approved.
+
+Jean-François Blanchette
+Ramesh Srinivasan
+Beverly P. Lynch, Committee Chair
+
+University of California, Los Angeles
+2015
+
+iii
+
+Contents
+
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+The Google Spain v. AEPD Decision . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+Google’s Response to the CJEU’s Ruling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+Ethical Considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+The Personal Consequences of Search Results . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+Search Engine as Archive . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+Social Implications of Remembering and Forgetting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+Beyond Google Spain v. AEPD . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59
+Bibliography . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65
+
+iv
+
+Introduction
+
+In their classic 1890 article “The Right to Privacy,” Samuel Warren and Louis Brandeis
+note how new technologies and business models can present new threats to privacy:
+The intensity and complexity of life, attendant upon advancing civilization, have
+rendered necessary some retreat from the world, and man, under the refining influence of
+culture, has become more sensitive to publicity, so that solitude and privacy have become
+more essential to the individual; but modern enterprise and invention have, through
+invasions upon his privacy, subjected him to mental pain and distress, far greater than
+could be inflicted by mere bodily injury.1
+Warren and Brandeis likely had in mind then-state-of-the-art technology such as the telegraph,
+telephone, and chemical photography, as well as the sensationalist reporting and gossip columns
+that began to proliferate in the United States in the late-19th century. They may not have been
+able to anticipate the many contemporary threats to privacy made possible by personal
+computers, smartphones, the Internet, and a multitude of other information and communications
+technologies—such as the digital trails left by widespread electronic communications; the use of
+increasingly sophisticated algorithms for targeting advertising to a person’s location, likes and
+dislikes, circles of friends, and demographics; the increasing prevalence of cameras (operated
+both by governments and private parties) allowing still images and video to be broadcast globally
+in real-time; the widespread use of location-tracking mobile devices; and any number of other
+privacy concerns that have emerged with the development and popularity of the Internet and
+ubiquitous computing. Nonetheless, there is little doubt that the notion that new technology can
+allow for new kinds of intrusions into people’s private lives remains true today, with innovative
+devices and services giving rise to new privacy concerns on a nearly continuous basis.
+1
+
+Samuel D. Warren and Louis D. Brandeis, “The Right to Privacy,” Harvard Law
+Review 4, no. 5 (1890): 196.
+1
+
+One particular privacy concept that has attracted popular attention recently is the idea of a
+“right to be forgotten.”2 The term has been applied to two related but distinct concerns: first, that
+data which is collected about a person—as by a business or government—should not be used for
+a purpose other than that for which it was originally collected, and that such data should be
+deleted when it is no longer needed for that purpose; second, that an Internet search engine
+should be obliged under certain circumstances to remove particular links returned when using a
+person’s name as a search query—links that point to information which, even if true, may
+present some kind of harm to that person or which the subject would prefer not to be included in
+the search results. Stated another way, this second notion of a right to be forgotten is that there
+should be limits to what kinds of information should appear when searching for a person’s name
+in a search engine, recognizing the significant effects that can follow from the links that appear
+in search results.
+A right to be forgotten in the first sense can be traced at least as far back as the French
+Law on Information Technology, Data Files and Civil Liberty, enacted on January 6, 1978.3 But
+
+2
+
+The concept is commonly known as droit à l’oubli in French and derecho al olvido in
+Spanish.
+The term “right to be forgotten” is somewhat misleading and has led to popular criticism
+that mistakenly interprets the idea as asserting that an individual should have a right to somehow
+erase society’s collective memory or to strike undesirable information from news reports and
+historical accounts. However, it has widespread acceptance at this point and is far less unwieldy
+than the technically more accurate “right to request that a search engine remove a particular link
+containing information about a person upon that person’s request, provided that certain
+conditions are met,” and I employ the term in this paper in spite of its flaws.
+3
+
+Loi 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés [Law
+78-17 of January 6, 1978 on Information Technology, Data Files and Civil Liberty], Journal
+Officiel de la République Française [J.O.] [Official Gazette of France], Jan. 7, 1978, 227.
+Article 28 of the initial version of the law reads:
+2
+
+it is the second conception of a right to be forgotten which attracted particular notice in 2014,
+owing to a May 13, 2014 decision by the Court of Justice of the European Union (CJEU)
+involving the American search engine operator Google, its Spanish advertising sales subsidiary,
+the Agencia Española de Protección de Datos (AEPD, the Spanish data protection agency), and a
+Spanish attorney named Mario Costeja González.4 The case—Google Spain v. AEPD—was the
+subject of much comment in both the United States and in Europe, with American news sources
+often describing the decision as anathema to a free press and to freedom of speech more
+generally,5 while European coverage often supported the decision as a reasonable approach to
+protecting individuals’ privacy.6 As Paul Bernal writes,
+
+Sauf dispositions législatives contraires, les informations ne doivent pas être conserves
+sous une forme nominative au-delà de la durée prévue à la demande d’avis ou à la
+déclaration, à moins que leur conservation ne soit autorisée par la commission.
+English translation from David H. Flaherty, Protecting Privacy in Surveillance Societies (Chapel
+Hill: University of North Carolina Press, 1989), 180:
+Unless otherwise provided for by law, information may not be stored in personal form
+beyond the period stated in the application for an opinion or in the declaration, unless
+such storage is authorized by the Commission [Commission nationale de l’informatique
+et des libertés (CNIL), National Commission on Informatics and Liberty].
+Flaherty states that “Article 28 establishes the central principle of the right to be forgotten, one of
+the most important ideas in the law.” He further notes a statement from a CNIL report which
+states that “[t]he computer, which has a power and a memory so superior to man, must be made
+to forget.” Flaherty (quoting CNIL, Rpt., 1980-81, 98), Protecting Privacy in Surveillance
+Societies, 210.
+4
+
+Case C-131/12, Google Spain SL v. Agencia Española de Protección de Datos (May 13,
+2014), 3 CMLR 50.
+5
+
+See, for example, “Ordering Google to Forget,” Editorial, New York Times, May 13,
+2014, http://www.nytimes.com/2014/05/14/opinion/ordering-google-to-forget.html.
+6
+
+See, for example, Chris Moran, “Things to Remember About Google and the Right to
+Be Forgotten,” Guardian (London), July 3, 2014, http://www.theguardian.com/technology/2014/
+jul/03/google-remember-right-to-be-forgotten.
+3
+
+[w]hat is seen by those proposing it on the European side to be a simple and logical
+extension of existing data protection principles is presented in the US as “the biggest
+threat to free speech on the internet in the current decade”. Both sides see themselves as
+protecting the rights of the ordinary people—the EU in the face of the potentially
+overwhelming power of the corporate internet behemoths, the US in the face of the
+excessive and controlling zeal of the European regulators.7
+The First Amendment offers broad protections to speech in the United States, and culturally the
+country seems inclined to be suspicious of attempts to regulate speech, including Google’s
+search results.8 In contrast, European restrictions on hate speech and denial of the Holocaust
+demonstrate a less-absolute approach to freedom of speech than found in the United States, with
+European sensitivities to data collection possibly developing in response to events such as the
+Nazis’ use of government records to locate Jews in occupied territories during the Second World
+War9 and to the oppressive state surveillance of the Stasi in East Germany and the KGB in the
+Soviet Union.
+The CJEU decision has raised important issues for both search engines like Google and
+ordinary people who find more and more information about themselves—whether true or false,
+up-to-date or many years old—made instantly available upon demand to anyone in the world
+with an Internet connection. While the ruling is confined to the jurisdiction of the European
+7
+
+Paul Bernal (quoting Jeffrey Rosen), “The EU, the US and the Right to be Forgotten,”
+in Reloading Data Protection: Multidisciplinary Insights and Contemporary Challenges, ed.
+Serge Gutwirth, Ronald Leenes, and Paul De Hert (Dordrecht, Netherlands: Springer, 2013), 61.
+8
+
+For a discussion of how the First Amendment protects an Internet search engine’s
+search results, see Eugene Volokh and Donald M. Falk, “First Amendment Protection for Search
+Engine Search Results,” Competition: The Journal of the Antitrust and Unfair Competition Law
+Section of the State Bar of California 23, no. 1 (Spring 2014): 112–124. The authors note that
+their “article grew out of a white paper commissioned by Google, but the views within it should
+not necessarily be ascribed to Google”; 112.
+9
+
+See, for example, J.C.H. Blom’s discussion of the Nazis’ use of the Dutch population
+registry and identity cards; Blom, “The Persecution of the Jews in the Netherlands: A
+Comparative Western European Perspective,” European History Quarterly 19 (1989): 343–344.
+4
+
+Union, it has attracted interest from around the world and established a precedent which could
+lead to increased pressure on search engines to alter their search results in other jurisdictions.
+As more and more of public life either occurs directly on the Internet (as with publiclyaccessible comments made on social networking platforms like Facebook and Twitter) or is
+recorded thereon (as with photographs posted to an Instagram account or video recorded and
+uploaded to YouTube), Internet search engines play an ever-increasing role in determining a
+person’s public identity: what information search engines’ algorithms deem relevant—and how
+highly they rank particular links in the results returned—is critically important in determining
+how a person is popularly perceived. Moreover, being included in search results lets information
+spread far beyond the typical boundaries that existed before the widespread popularity of the
+Internet. Whereas in the pre-Internet era information about a person might be exposed only to a
+person’s immediate circle of friends, family, classmates, and co-workers, and to those people
+that might physically encounter or witness a person in public places, links included in search
+results can be viewed by anyone in the world using the Internet—including potential employers;
+estranged friends, family and lovers; and even complete strangers on other continents.
+While the principle of a right to be forgotten applies to any search engine, Google’s
+dominant market position10 means that it is the single most popular tool for finding such
+
+10
+
+In the United States, Google has recently lost some market share but nonetheless
+commands 75.2% of the search engine market as of December 2014; Brian Womack, “Google
+Loses Most Search Share Since 2009 While Yahoo Gains,” Bloomberg, January 7, 2015,
+http://www.bloomberg.com/news/articles/2015-01-07/google-loses-most-u-s-search-share-since2009-while-yahoo-gains, par. 2.
+In Europe, Google is even more dominant, with a share of more than 90%; Tom Fairless,
+“European Parliament Approves Google Breakup Resolution,” Wall Street Journal, November
+27, 2014, http://www.wsj.com/articles/european-parliament-approves-google-breakupresolution-1417090210, par. 2.
+5
+
+information and thus has a unique power to define a person’s identity on the Internet. As Siva
+Vaidhyanathan writes,
+[i]f Google is the dominant way we navigate the Internet, and thus the primary lens
+through which we experience both the local and the global, then it has remarkable power
+to set agendas and alter perceptions. Its biases (valuing popularity over accuracy,
+established sites over new, and rough rankings over more fluid or multidimensional
+models of presentation) are built into its algorithms. And those biases affect how we
+value things, perceive things, and navigate the worlds of culture and ideas. In other
+words, we are folding the interface and structures of Google into our very perceptions.
+Does anything (or anyone) matter if it (or she) does not show up on the first page of a
+Google search?11
+This makes Google the most likely recipient of requests to de-link certain information: while the
+idea of a right to be forgotten applies to any search engine, if a person’s goal in asserting such a
+right is to limit the visibility of harmful or misleading information, Google will be the most
+important target of such a claim simply because of its dominant market share.
+In this paper, I discuss the Google Spain v. AEPD decision and its consequences for
+Google and the subjects of searches, and I examine the right to be forgotten from a variety of
+approaches: I study the importance of Google in influencing what is known about private
+individuals and their public reputations; I investigate Google’s inclusion of personal information
+in its search results from an ethical perspective of information use; I explore an archival science
+approach to search engines; and I consider the cultural ramifications which the alternative—an
+Internet that does not forget—could entail. Finally, I conclude with a discussion of how Google
+has responded to the CJEU’s decision and include recommendations about how the company
+should move forward with respect to including personal information of private citizens in its
+public search results.
+
+11
+
+Siva Vaidhyanathan, The Googlization of Everything (And Why We Should Worry)
+(Berkeley: University of California Press, 2011), 7.
+6
+
+The Google Spain v. AEPD Decision
+
+While a legal analysis of the CJEU’s rationale in Google Spain v. AEPD is beyond the
+scope of this paper, a discussion of the background of the case, the basis for the decision, and the
+requirements which the CJEU set forth in its ruling is necessary to understand the current state of
+the right to be forgotten in the European Union and how similar models might develop in other
+jurisdictions.
+On January 19, 1998 and March 9, 1998, Barcelona newspaper La Vanguardia published
+notices of properties that would soon be auctioned.12 One of the properties for sale was a home in
+Sant Feliu de Llobregat, Catalonia, owned by attorney Mario Costeja González and his then-wife
+Alicia Vargas Cots which had been seized to repay a social security debt.13 Eleven years later,
+Costeja discovered that when searching Google for his name, the auction notices—having been
+captured electronically by Google’s Web crawler “Googlebot” after the newspaper digitized
+back issues of its print edition and made them available on its Web site in the PDF file format—
+were ranked highly in the search results that Google displayed.
+Dismayed by the prominence of this unflattering information, Costeja fought for the
+removal of the notice. (Costeja would later state that he “was fighting for the elimination of data
+that adversely affects people’s honour, dignity and exposes their private lives. Everything that
+
+12
+
+“Subhasta d’immobles,” La Vanguardia (Barcelona), January 19, 1998,
+http://hemeroteca.lavanguardia.com/preview/1998/01/19/pagina-23/33842001/pdf.html; and
+“Venda directa d’immobles,” La Vanguardia (Barcelona), March 9, 1998,
+http://hemeroteca.lavanguardia.com/preview/1998/03/09/pagina-13/33837533/pdf.html.
+13
+
+Paul Lanois, “Time to Forget: EU Privacy Rules and the Right to Request the Deletion
+of Data on the Internet,” Journal of Internet Law 18, no. 4 (2014): 22.
+7
+
+undermines human beings, that’s not freedom of expression.”)14 Costeja asked the newspaper’s
+publisher, La Vanguardia Ediciones SL, to remove the notices themselves and Google to remove
+its links to them.15 After both La Vanguardia and Google refused, Costeja submitted a complaint
+to the AEPD, the Spanish data protection authority, on March 5, 2010.16 The AEPD rejected
+Costeja’s complaint regarding La Vanguardia, stating that the newspaper’s publication of the
+notices had been “legally justified as it took place upon order of the Ministry of Labour and
+Social Affairs and was intended to give maximum publicity to the auction in order to secure as
+many bidders as possible.”17 The AEPD did, however, order Google in July 2010 to delist the
+links to the offending pages on La Vanguardia’s Web site.18
+Google objected to the AEPD’s ruling; Spain’s highest court, the Audiencia Nacional,
+referred the case to the CJEU.19 The CJEU ruled that Google qualifies as a “controller” of data
+under Directive 95/46/EC of the European Parliament and of the Council of 24 October 199520
+(the “Data Processing Directive”); that Google’s locating, indexing, organizing, and aggregating
+
+14
+
+Ashifa Kassam, “Spain’s Everyday Internet Warrior Who Cut Free From Google’s
+Tentacles,” Guardian (London), May 13, 2014, http://www.theguardian.com/technology/
+2014/may/13/spain-everyman-google-mario-costeja-gonzalez, par. 7.
+15
+
+David Streitfeld, “European Court Lets Users Erase Records on Web,” New York
+Times, May 13, 2014, http://www.nytimes.com/2014/05/14/technology/google-should-eraseweb-links-to-some-personal-data-europes-highest-court-says.html, par. 30.
+16
+
+Google Spain v. AEPD, par. 14.
+
+17
+
+Ibid., par. 16.
+
+18
+
+Streitfeld, “European Court Lets Users Erase Records on Web,” par. 31.
+
+19
+
+Ibid.
+
+20
+
+Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995
+on the Protection of Individuals with Regard to the Processing of Personal Data and on the Free
+Movement of Such Data, 1995 O.J. (L 281) 31.
+8
+
+of information hosted on the Internet by third parties qualifies as “data processing” under the
+Data Processing Directive; and thus that Google is subject to the Data Processing Directive’s
+requirements on the handling of citizens’ personal data. The CJEU stated that, as applied to
+Google,
+the operator of a search engine is obliged to remove from the list of results displayed
+following a search made on the basis of a person’s name links to web pages, published by
+third parties and containing information relating to that person, also in a case where that
+name or information is not erased beforehand or simultaneously from those web pages,
+and even, as the case may be, when its publication in itself on those pages is lawful.21
+The CJEU further stated that such information should be delisted from a search engine’s search
+results upon a user’s request if it “appears . . . to be inadequate, irrelevant or no longer relevant,
+or excessive in relation to the purposes of the processing at issue carried out by the operator of
+the search engine, the information and links concerned in the list of results must be erased.”22
+While the CJEU did not detail specifically how to determine whether information is “inadequate,
+irrelevant or no longer relevant,” the ruling demonstrates that—at a minimum—sixteen-year-old
+information about a debt since repaid qualifies for delisting from Google’s search results.
+The CJEU further stated that such information need not “cause . . . prejudice to the data
+subject”23—presumably meaning that there need not be a finding of demonstrable harm to the
+person in question—but added that the search engine may have cause to retain links to
+information if “particular reasons, such as the role played by the data subject in public life”
+might justify a “preponderant interest of the general public in having . . . access to the
+
+21
+
+Google Spain v. AEPD, par. 88.
+
+22
+
+Ibid., par. 94.
+
+23
+
+Ibid., par. 96.
+9
+
+information in question.”24 The standard for removing information about a person in the public
+eye, such as a politician or celebrity, thus is higher than for a private citizen such as Costeja.
+In his opinion, CJEU Advocate General Niilo Jääskinen writes that
+[n]owadays, protecting personal data and privacy of individuals has become increasingly
+important. Any content including personal data, be it in the form of texts or audiovisual
+materials, can instantly and permanently be made accessible in digital format world wide.
+The internet has revolutionised our lives by removing technical and institutional barriers
+to dissemination and reception of information, and has created a platform for various
+information society services. These benefit consumers, undertakings and society at large.
+This has given rise to unprecedented circumstances in which a balance has to be struck
+between various fundamental rights, such as freedom of expression, freedom of
+information and freedom to conduct a business, on one hand, and protection of personal
+data and the privacy of individuals, on the other.25
+Jääskinen thus sees the CJEU’s decision as an attempt to strike just such a balance between the
+privacy rights of ordinary citizens such as Costeja against the business rights and freedom of
+expression of Google and other search engines.
+It is critical to note that the CJEU’s ruling does not require the operators of Web sites on
+which the objectionable information is found to remove it—the decision did not require La
+Vanguardia to remove the Web pages in question and the auction notices can still be found by
+users who go directly to La Vanguardia’s Web site or by using versions of Google’s search
+engine targeting jurisdictions outside of the EU (which are not affected by the ruling), such as
+google.com. Thus while the decision can fairly be said to restrict Internet search engines’
+freedom of expression, it is inaccurate to suggest that the ruling allows a private citizen to censor
+legal but undesirable information or to delete official records—the information is still available,
+and merely the means of accessing it has been limited.
+
+24
+
+Ibid., par. 97.
+
+25
+
+Google Spain v. AEPD, Opinion of Advocate General Jääskinen, par. 2.
+10
+
+Google’s Response to the CJEU’s Ruling
+
+Google took steps to comply with the CJEU’s ruling within weeks of the decision,
+publishing a Web form which allows users to request that the company remove particular links
+from its search results.26 The current version of the form—titled “Search removal request under
+data protection law in Europe”27—requires the user to specify the governing jurisdiction,28 the
+form of the user’s name used as a search term, an e-mail address, the uniform resource locator
+(URL) of the link which the user is requesting to be removed, an electronic copy of a “document
+that verifies [the user’s] identity” (which the company states need not be a “passport or other
+government issued-ID,” though it does not state exactly what qualifies29), an affirmation that the
+information submitted is accurate, and an electronic signature. The form also allows an
+authorized individual to request the delisting of links on behalf of another person—such as a
+parent making a request on behalf of a child or an attorney making a request on behalf of a client.
+
+26
+
+Mark Scott, “Google Ready to Comply With ‘Right to Be Forgotten’ Rules in Europe,”
+New York Times, June 18, 2014, http://bits.blogs.nytimes.com/2014/06/18/google-ready-tocomply-with-right-to-be-forgotten-rules-in-europe/.
+27
+
+“Search removal request under data protection law in Europe,” Google Inc., accessed
+April 1, 2015, https://support.google.com/legal/contact/lr_eudpa?product=websearch.
+28
+
+The applicable jurisdictions are currently the 28 member-nations of the European
+Union, with the addition of Iceland, Lichtenstein, Norway, and Switzerland; ibid., pull-down
+menu on form labeled “Please select the country whose law applies to your request.”
+29
+
+Ibid., par. beginning “To prevent fraudulent removal requests from people
+impersonating others, trying to harm competitors, or improperly seeking to suppress legal
+information, we need to verify identity.”
+The form also states that the user may obscure parts of the document not needed to verify
+the user’s identity, including “numbers” and photographs (unless the user is requesting that
+image files be removed from Google’s search results). It adds that “Google will use this
+information solely to help us document the authenticity of your request and will delete the copy
+within a month of closing your removal request case except as otherwise required by law.”
+11
+
+The information which the form requires seems reasonable and unsurprising with one critical
+exception: the requirement that a user submit an image of a document verifying his or her
+identity could well have a chilling effect on a user who is already concerned about privacy and
+perhaps less than fully trusting of Google.
+The way in which Google presents search results from which links have been delisted
+might also dissuade some users from making such requests: a message displayed at the bottom of
+the affected search results page states that “[s]ome results may have been removed under data
+protection law in Europe,”30 with a link to a page on Google’s privacy policy Web site which
+discusses how the company has complied with the CJEU’s decision.31 Such a notice shows users
+of the search engine that the subject of the search query wanted to suppress a search result, with
+no indication as to whether what it contained was merely embarrassing or something more
+sinister.
+Following the ruling, Google also created an Advisory Council on the Right to Be
+Forgotten32 charged with suggesting how Google might proceed, post-Google Spain v. AEPD.
+Included on the Advisory Council were, among others, Luciano Floridi, Professor of Philosophy
+and Ethics of Information at the University of Oxford and Senior Research Fellow and Director
+of Research at the Oxford Internet Institute; Sylvie Kauffmann, editorial director of French
+
+30
+
+An example of such a notice can be seen when searching for “mario costeja gonzález”
+on the United Kingdom version of Google’s search Web site, as of April 1, 2015:
+https://www.google.co.uk/#q=mario+costeja+gonzález.
+Google displays a similar notice for links which have been removed from search results
+due to requests filed under the United States’ Digital Millennium Copyright Act.
+31
+
+“Privacy & Terms: FAQ,” Google Inc., accessed April 1, 2015,
+https://www.google.co.uk/policies/faq/.
+32
+
+“Advisory Council,” Google Inc., accessed April 1, 2015, http://www.google.com/
+advisorycouncil/.
+12
+
+newspaper Le Monde; Eric Schmidt, Google’s Executive Chairman and former Chief Executive
+Officer; and David Drummond, Google’s Senior Vice President of Corporate Development and
+Chief Legal Officer. The Advisory Committee held public meetings in seven cities across the
+European Union in late 2014 and released a report of its findings on February 6, 2015.33
+In its report, the Advisory Council notes that “[t]he legal criteria for removing content
+altogether from the underlying source may be different from those applied to delisting, given the
+publisher’s rights to free expression. If Google decided not to delist a link, the data subject can
+challenge this decision before the competent Data Protection Authority or Court.”34 The Council
+goes on to note that “[t]he ruling, while reinforcing European citizens’ data protection rights,
+should not be interpreted as a legitimation for practices of censorship of past information and
+limiting the right to access information.”35
+The Council proposes a four-part balancing test for Google to use when determining
+whether to comply with a delisting request. First, Google should consider the data subject’s role
+in public life (that is, whether the person has a “clear role in public life,” as with politicians,
+business leaders, professional athletes, and celebrities) or if the person has “no discernable role
+in public life” or a “limited or context-specific role in public life.”36 The second criterion is the
+nature of the information which has been requested to be delisted from Google’s search results,
+
+33
+
+Advisory Council to Google on the Right to Be Forgotten, “Report of the Advisory
+Council to Google on the Right to Be Forgotten,” February 6, 2015, https://drive.google.com/a/
+google.com/file/d/0B1UgZshetMd4cEI3SjlvV0hNbDA/view. The members of the Advisory
+Council were not paid for their time working on the project and received compensation only for
+travel costs; ibid., 1.
+34
+
+Ibid., 4.
+
+35
+
+Ibid., 6.
+
+36
+
+Ibid., 7–8.
+13
+
+with an assumption that certain kinds of information (such as information about the person’s
+intimate life, financial information, private contact or personal information, information about
+minors, and information which is false) are more sensitive and thus are more likely to merit
+delisting,37 but also recognizing that there is a strong public interest in having access to certain
+other types of information (such as political, philosophical, or religious discourse; public health
+and consumer protection information; information about criminal activity; information “that
+contributes to a debate on a matter of general interest”; information which is true; “information
+integral to the historical record”; scientific information; and artistic expression).38 Third, when
+determining whether a link should be delisted, the Council suggests that Google “consider the
+source of that information and its motivation for publishing it” and related factors, such as
+whether the person requesting delisting gave consent for the publication of the information and
+whether the person already has the ability to remove the information (for example, people who
+have posted embarrassing photographs of themselves to their own Instagram accounts already
+have the power to remove those photographs and thus need not request that Google remove links
+to them). Finally, the currency of the information in question should be considered, as
+information which may be relevant at one point in time may not be at a later date39 (as with the
+auction notices of Costeja’s property, which were highly relevant in early 1998 but of little or no
+relevance after the property had been sold and the debt settled).
+In addition to this balancing test, the Advisory Council suggests that Google add fields to
+the delisting form which would allow for an individual to comment on his or her role in public
+
+37
+
+Ibid., 9–10.
+
+38
+
+Ibid., 10–12.
+
+39
+
+Ibid., 14.
+14
+
+life, specifying the geographic area in which the person is known publicly, “whether the person
+chose to adopt a role in public life, or became well-known unintentionally,” and any further
+reasons why “his or her privacy interests should prevail over the interest of the general public in
+finding the information concerned upon a search relating to the data subject’s name.”40 The
+Council also notes that, with some 95% of all European search queries originating from local
+versions of Google’s search page, there is as yet no reason for Google to delist links beyond
+European Union jurisdictions: “we believe that delistings applied to the European versions of
+search will, as a general rule, protect the rights of the data subject adequately in the current state
+of affairs of technology.”41
+Google states that, as of April 1, 2015, users have made 235,449 requests for the removal
+of a total of 854,251 links under the Google Spain v. AEPD decision, with Google agreeing to
+remove 298,395 (41.3%) of those URLs.42 The page lists anonymized examples of the types of
+information which Google has and has not removed: “A victim of rape asked us to remove a link
+to a newspaper article about the crime. We have removed the page from search results for the
+individual’s name”; “An individual asked us to remove a link to a copy of an official state
+document published by a state authority reporting on the acts of fraud committed by the
+individual. We did not remove the page from search results.”43 The company further notes the
+
+40
+
+Ibid., 16.
+
+41
+
+Ibid., 19.
+
+42
+
+“Transparency Report: European privacy requests for search removals,” Google, April
+1, 2015, http://www.google.com/transparencyreport/removals/europeprivacy/, “URL request
+removal totals” chart.
+43
+
+Ibid., “Examples of requests we encounter” (click on arrows to see additional
+examples).
+15
+
+Internet domains from which it has removed the most URLs, with Facebook, Profile Engine,
+Google Groups, YouTube, and Badoo being the top five.44
+
+44
+
+Ibid., “Sites that are most impacted.”
+16
+
+Ethical Considerations
+
+Jeffrey Rosen believes that the right to be forgotten is a broad threat to the very nature of
+the Internet: he writes that “[i]t’s hard to imagine that the Internet that results [from enforcing a
+right to be forgotten] will be as free and open as it is now,”45 and claims that it endangers
+freedom of speech online.46 So long as the information linked to was acquired lawfully and is
+accurate, Rosen argues, a search engine should not be required to remove a link. Citing the
+Supreme Court of the United States’ decision in Florida Star v. B.J.F.,47 Rosen claims that
+forcing a search engine to comply with a request for removal is a violation of its freedom of
+speech, as protected in the United States by the First Amendment.
+Rosen is correct that a search engine is not legally obliged to comply with search removal
+requests in the United States—the ruling in Google Spain v. AEPD does not, of course, apply in
+the United States, which permits more collection, retention, and manipulation of its citizens’ data
+than permitted by the EU’s Data Processing Directive. Moreover, as Eugene Volokh and Donald
+M. Falk write,
+[t]wo federal court decisions have held that search results, including the choices of what
+to include in those results, are fully protected by the First Amendment. . . . And Supreme
+Court precedents compel the conclusion reached by these two courts, for eight related
+reasons. First, Internet speech is fully constitutionally protected. Second, choices about
+how to select and arrange the material in one’s speech product are likewise fully
+protected. Third, this full protection remains when the choices are implemented with the
+help of computerized algorithms. Fourth, facts and opinions embodied in search results
+are fully protected whether they are on nonpolitical subjects or political ones. Fifth,
+interactive media are fully protected. Sixth, the aggregation of links to material authored
+45
+
+Jeffrey Rosen, “The Right to Be Forgotten,” Stanford Law Review Online 64 (February
+13, 2012,): 92. http://www.stanfordlawreview.org/online/privacy-paradox/right-to-be-forgotten.
+46
+
+Ibid., 88.
+
+47
+
+Florida Star v. B.J.F., 491 U.S. 524 (1989).
+17
+
+by others is fully protected. Seventh, none of this constitutional protection is lost on the
+theory that search engine output is somehow “functional” and thus not sufficiently
+expressive. And, eighth, Google has never waived its rights to choose how to select and
+arrange its material.48
+But the mere fact that Google may not have a legal obligation in the United States to respond to
+search removal requests does not mean that it has no ethical obligation to do so, and the company
+could honor such requests in the United States should it so choose—there is no legal barrier to
+compliance with search removal requests even in the absence of a legally-recognized right to be
+forgotten in the United States.
+Another common argument against recognizing a right to be forgotten is that compliance
+with the law would create an administrative challenge for companies like Google and Facebook
+and could threaten their business models’ needs for data—that it is simply impractical or
+impossible for such companies to comply with a right to be forgotten and that doing so would
+have a deleterious effect on the economy through needless overregulation.49 But arguing that the
+right should not exist simply because compliance would be too difficult or that it might threaten
+such companies’ business interests makes no appeal to ethics: if it is unethical for a business to
+link to particular data in its search results, the business has a moral obligation to remove such
+links regardless of whether doing so is challenging or expensive.
+Moreover, it is not clear that compliance is really so difficult. Google has long allowed
+users to request the removal of videos hosted by its YouTube subsidiary on a wide variety of
+grounds: videos that violate YouTube’s terms of service (by depicting “nudity or sexual
+content,” “harmful or dangerous content,” “violent or graphic content,” “hateful content,” by
+48
+
+Volokh and Falk, “First Amendment Protection for Search Engine Search Results,”
+
+114.
+49
+
+Stephen C. Bennett, “The ‘Right to Be Forgotten’: Reconciling EU and US
+Perspectives,” Berkeley Journal of International Law 30, no. 1 (2012), 165–166.
+18
+
+violating copyright, by making threats, and by promoting “spam, misleading metadata, and
+scams”),50 videos that match the “Content ID” (a digital “fingerprint” that can be used to
+uniquely identify particular audio or video content)51 of known-copyrighted materials, and
+videos that a party reports as violating its copyright.52 The company thus has long had in place a
+system which allows users to request the removal of certain types of content from its search
+results. Indeed, Google published the Web form allowing users to request the removal of search
+results in accordance with Google Spain v. AEPD rather quickly, with no obvious harm to its
+search engine and no disruption in its services. Google itself also removes certain Web pages
+from its index, as when the company believes that they have been designed in such a way as to
+improve their ranking in its search results.53
+It is important to examine Google’s motivations for resisting compliance with search
+removal requests. While the company offers a wide array of products and services beyond its
+search engine—the Google Maps mapping service, the Google+ social network, the crossplatform Chrome Web browser, the Chrome OS operating system, the Android mobile operating
+system, and the Google Play mobile application marketplace, to mention only a handful—91%
+
+50
+
+“YouTube Community Guidelines,” YouTube LLC, accessed April 1, 2015,
+http://www.youtube.com/t/community_guidelines, “Don’t cross the line.”
+51
+
+“How Content ID works,” Google Inc., accessed April 1, 2015,
+https://support.google.com/youtube/answer/2797370.
+52
+
+“Submit a copyright takedown notice,” Google Inc., accessed April 1, 2015,
+https://support.google.com/youtube/answer/2807622/.
+53
+
+Frank Pasquale, The Black Box Society: The Secret Algorithms That Control Money
+and Information (Cambridge, MA: Harvard University Press, 2015), 65.
+19
+
+of its revenue in 2014 came from advertising.54 Google thus has an enormous interest in
+maintaining careful control over the operation of its core advertising-supported search business.
+For this reason, Google’s greatest resistance to complying with removal requests would appear to
+be the threat that it poses to its control over search results, not the administrative costs involved
+in building a system to remove such data. Google has stated that it received about 12,000 search
+removal requests on the first day that the form was available; as noted by Viviane Reding—the
+European Union Commissioner for Justice, Fundamental Rights, and Citizenship and a longtime
+proponent of a right to be forgotten—this number is quite small compared to “some million
+requests to take down material because of copyright questions. So you see, this is a small thing
+as compared to the copyright things. It is possible to handle the copyright question, so it should
+also be possible to handle the takedown requests on personal data questions.”55
+From Google’s perspective, offering as much information in its search results as its
+algorithm deems relevant will likely maximize its advertising profits—thus Google has a
+financial incentive to produce potentially objectionable (and even illegal) information in its
+search results if it thinks such information will be popular among users performing that search,
+lest users switch to another search engine which produces search results more to their liking.
+Since it is clear that Google’s search algorithm is already carefully constructed through
+deliberate human decision-making, Google has little basis for objecting to such oversight. Nor
+
+54
+
+“2014 Financial Tables,” Google Inc., accessed April 1, 2015,
+https://investor.google.com/financial/tables.html, table 1 ($50.547 billion advertising revenue;
+$55.519 billion total revenue).
+55
+
+Alex Hern, “EU Commissioner: Right to Be Forgotten is No Harder to Enforce Than
+Copyright,” Guardian (London), June 4, 2014, http://www.theguardian.com/technology/
+2014/jun/04/eu-commissioner-right-to-be-forgotten-enforce-copyright-google, par. 2–3.
+20
+
+can it claim that it is being unfairly targeted; the ruling will apply equally to any search engine,
+such as its competitors Yahoo and Bing.
+In addition to serving on Google’s Advisory Council on the Right to Be Forgotten,
+Luciano Floridi has written at length on the philosophy and ethics of information, and his work
+provides another basis for challenging Google’s reluctance to comply with private citizens’
+delisting requests. In The Ethics of Information, Floridi describes three theories of privacy that
+could apply to the various types of information captured in search results. The first two
+approaches are what he describes as traditional theories of information ethics. The first—the
+reductionist view—“argues that the value of informational privacy rests on a variety of
+undesirable consequences that may be caused by its breach, either personally (e.g. distress) or
+socially (e.g. unfairness).”56 This is essentially a consequentialist view, arguing that the misuse
+of information is bad because it will lead to bad consequences. To determine whether companies
+should be required to comply with search removal requests, then, this theory would hold that we
+look at the consequences that would follow from having such a policy—in essence, a form of the
+ethical approach known as rule utilitarianism.
+The second view is an ownership-based interpretation, which argues that “[a] person is
+said to own his or her information (information about him- or herself) . . . and therefore to be
+entitled to control its whole life-cycle, from generation to erasure through usage.”57 An
+individual could thus be said to have ownership of information either because he is the creator or
+author of that information (as with a photograph that a person takes and posts online), or because
+he is the subject of that information (as with a photograph that someone else takes of that
+56
+
+Luciano Floridi, The Ethics of Information (Oxford: Oxford University Press, 2013),
+
+240–241.
+57
+
+Ibid., 241.
+21
+
+person). In either case, the ownership view is rooted in the notion that an individual is entitled to
+information which he has created, or which is about him, as a fundamental right.
+The third theory is what Floridi describes as an ontological approach. This view holds
+that an individual should be regarded as being “constituted by his or her information . . . and
+hence by understanding a breach of one’s informational privacy as a form of aggression towards
+one’s personal identity.”58 Accordingly, information privacy is “a fundamental and inalienable
+right, so that, by default, the presumption should always be in favour of its respect.” While this is
+reminiscent of the ownership theory, Floridi distinguishes the ontological approach by arguing
+that “one’s informational sphere and one’s personal identity are co-referential” under the
+ontological view—“[t]here is no difference because ‘you are your information’, so anything done
+to your information is done to you, not to your belongings,” as would be seen by the ownership
+model.59 In short, Floridi sees personal information as “a constitutive part of someone’s personal
+identity and individuality,”60 and therefore an Internet service that does not respect an
+individual’s personal information infringes that individual’s fundamental rights.
+How might these theories of information ethics apply to Internet search results, such as
+the auction notices of Costeja’s property? From the reductionist viewpoint, such potentially
+embarrassing information could certainly cause the individual distress if not removed—but
+keeping such information available would potentially be beneficial to society, so long as it is
+accurate; someone considering employing Costeja as a lawyer, for example, might find it
+revealing to know of his earlier financial difficulties. At the same time, however, since Costeja
+
+58
+
+Ibid., 243.
+
+59
+
+Ibid., 243–244.
+
+60
+
+Ibid., 245.
+22
+
+repaid his debt, there may be no societal interest in displaying such information in Google’s
+search results.
+The ownership theory also provides no clear answer. While we might say that Costeja has
+some ownership of the information in question, as its subject, the newspaper which published the
+auction notices also has ownership of the information published, as its creator; therefore the
+newspaper also has a right to determine how that information is used.
+The ontological view would probably support the removal of this information—since
+Costeja’s debt has been repaid and the events in question occurred in 1998, returning information
+about his long-ago financial troubles anytime anyone searches for his name functions as a sort of
+attack on his moral character and challenges Costeja’s own right to define himself on the
+Internet. That is, since preserving the link to the information serves to permanently brand Costeja
+as a debtor, it is a fundamental attack on his identity and he should have a right to request its
+removal.
+Another argument against requiring search engines to recognize a right to be forgotten is
+that it improperly targets them for merely providing links to information hosted on others’ Web
+sites, rather than targeting the Web sites hosting the offending material in question—“shooting
+the messenger,” as it were.61 Google thus might be seen as akin to a tour guide who suggests
+destinations to which a person might go and routes that the person might take to get there, and
+should not be held responsible for what happens to the person if he goes to one of the suggested
+locations. If, for example, the tour guide suggests a restaurant, we would not find the tour guide
+liable if the person has a meal there and falls ill due to the restaurant’s negligent preparation of
+food. As this argument goes, the person demanding that Google remove a search result ought to
+
+61
+
+Bennett, “The ‘Right to Be Forgotten,’” 165.
+23
+
+take issue with the Web site that is publishing the offending content in question rather than
+finding fault with Google for simply showing the way.
+Of course, a person asking that certain links be removed may very well have also
+requested that the publisher of the offending content remove it—as Costeja did of La
+Vanguardia. Recognizing a right to be forgotten would not absolve creators or publishers of
+responsibility for the content of their Web pages; requiring search engines to remove links to
+certain kinds of information creates an additional responsibility on the part of search engine
+operators without reducing the responsibility of the creators of the offending content.
+More importantly, however, the Google-as-tour-guide argument ignores the fact that
+there are circumstances when we would indeed hold a tour guide responsible for suggesting
+inappropriate destinations or routes. A tour guide has an ethical duty not to include
+recommendations of locations which he knows to be dangerous—such as unstable cliffs, or a
+former battlefield still filled with landmines—and even more so if someone had already asked
+him to remove these locations from his list of suggested destinations. It thus is not unreasonable
+to hold a search engine responsible for the kinds of information it deems relevant when searching
+for a person’s name. What links are deemed “relevant,” after all, is the result of human decisions
+about how to interpret a user’s search query, how and when to use additional information about
+the user (such as his location and language spoken) to determine relevance, what types of content
+to include (such as text, images, and videos), whether “timely” links (such as news articles)
+should be included, whether results from sources with which the search engine has business
+agreements should be included (such as Twitter’s relationships with Google, Yahoo, and Bing62),
+
+62
+
+Yoree Koh and Rolfe Winkler, “Twitter Strikes Search Deal With Google to Surface
+Tweets,” The Wall Street Journal, February 5, 2015, http://www.wsj.com/articles/twitter-strikessearch-deal-with-google-to-surface-tweets-1423110651.
+24
+
+and countless other factors—the precise details of search engines’ formulae are trade secrets.
+There is no objective answer to how to balance such considerations; so while Google uses
+algorithms to determine what links are relevant to the user’s query, those algorithms reflect
+human decisions about what factors are important and how much weight to give them. As
+Evgeny Morozov writes,
+[e]very time someone questions the adequacy of its search results, Google likes to claim
+that it is simply an algorithms-powered neutral intermediary that stands between a given
+user and the collective mind of the Internet. On its corporate website, Google compares
+the presentation of its search results to democratic elections, with the most-linked sites
+emerging on top. If the top results lead to sites that are politically incorrect or racist or
+homophobic, the fault is not Google’s but the Internet’s. In this way Google fashions
+itself as a contentless messenger that works in everyone’s best interest—and with
+minimal human intervention. By this logic, Google is as responsible for the composition
+of its search results as a company that prints voting ballots or installs voting booths is
+responsible for the outcome of an election.63
+Search engines also have a significant power to suggest answers to their users. The user
+of a search engine often does not know what information is available about a particular subject
+until he searches for it—that is, until the search engine returns search results; indeed, very often
+it is precisely because a user does not know much about a subject or what kinds of information
+are available about it that leads the user to query a search engine. A potential client innocently
+using Google to locate Costeja’s office telephone number, for example, would likely have no
+idea about the lawyer’s property being auctioned to pay a debt in 1998 until the search engine
+includes a link to such information among its results.
+What a search engine deems relevant about a particular person thus plays a tremendous
+role in determining that person’s reputation on the Internet. This is particularly the case with the
+search results returned by Google; due to its market dominance, Google is the de facto
+63
+
+Evgeny Morozov, “Don’t Be Evil,” The New Republic, July 13, 2011,
+http://www.newrepublic.com/article/books/magazine/91916/google-schmidt-obama-gatestechnocrats, Part II, par. 7.
+25
+
+gatekeeper of the Internet for a significant majority of users in much of the world, and thus the
+information that is returned about a person in a Google search becomes to a large extent that
+person’s identity on the Internet. As more and more media and information sources are made
+publicly available worldwide through the Internet, how a person appears in Google searches
+becomes critical in defining that person’s public identity. Recognizing a right to be forgotten
+gives a user recourse to petition a search engine to remove information which is inaccurate,
+outdated, or invasive and which thereby may create a misleading portrayal of that person. As
+Meg Leta Ambrose writes,
+[w]e size each other (and ourselves) up through online search engines. Universities,
+employers, and potential romantic partners search users to discover what has not been
+included in the initial disclosure. Perhaps this new information practice is why 94% of
+parents and 94% adults feel that after a period of time, an individual should have the
+ability to have personal information held by search engines, social networking sites, or
+marketing companies deleted. It is difficult to change when one cannot move beyond the
+past. The Internet changes access to the past and this new form of access may limit the
+growth and development of the individual.64
+Far from simply “shooting the messenger,” then, recognizing a right to be forgotten amounts to
+acknowledging the essential role played by search engines in navigating the World Wide Web,
+the great importance of information found online in shaping a person’s reputation, and the
+powerlessness of private citizens when decontextualized pieces of information about them—even
+if factually correct, as far as they go—appear in search results and become defining components
+of how they are popularly perceived.
+
+64
+
+Meg Leta Ambrose, “You Are What Google Says You Are: The Right to be Forgotten
+and Information Stewardship,” International Review of Information Ethics 17 (2012): 22.
+26
+
+The Personal Consequences of Search Results
+
+While Google uses algorithms to calculate relevance and to determine the order of search
+results, such relevance is not the product of pure mathematics—as noted above, the search results
+reflect human decision-making about what is and is not important, what weight to assign to the
+multitude of variables that Google uses to determine how to rank search results for a particular
+query, how to understand a user’s query when more than one interpretation is possible, and many
+other variables. The complete set of factors which Google uses to determine its search results is
+the company’s “top business secret,”65 and thus the company does not fully disclose its
+methodology. Google’s “Inside Search” Web site (“How Search Works: From algorithms to
+answers”)66 emphasizes the quantity of Web pages which Google indexes (60 trillion as of April
+1, 2015) and that the company creates “programs and formulas to deliver the best results
+possible,”67 using “over 200 factors”68 to rank the results, but does not disclose what these
+factors are; furthermore, the company also uses data that it acquires from its related services,
+such as Gmail and Google+, to refine its algorithms. But as Tarleton Gillespie writes,
+[a]s there is no independent metric for what actually are the most relevant search results
+for any given query, engineers must decide what results look “right” and tweak their
+algorithm to attain that result, or make changes based on evidence from their users,
+treating quick clicks and no follow-up searches as an approximation, not of relevance
+65
+
+Hyunjin Kang and Matthew P. McAllister, “Selling You and Your Clicks: Examining
+the Audience Commodification of Google,” tripleC: Communication, Capitalism & Critique 9,
+no. 2 (2011): 150.
+66
+
+“How Search Works: From algorithms to answers,” Google Inc., accessed April 1,
+2015, http://www.google.com/insidesearch/howsearchworks/thestory/; Part 1 (“Crawling and
+Indexing”).
+67
+
+Ibid., Part 2 (“Algorithms”).
+
+68
+
+Ibid.
+27
+
+exactly, but of satisfaction. To accuse an algorithm of bias implies that there exists an
+unbiased judgment of relevance available, to which the tool is failing to hew. Since no
+measure is available, disputes over algorithmic evaluations have no solid ground to fall
+back on.69
+“Relevance” is an inherently subjective concept; using a mathematical formula to determine
+relevance and ordering does not make it otherwise, and Google’s search results thus reflect the
+subjective choices of its engineers in determining what is and is not relevant. Google cultivates a
+detached, technological image of how its search engine operates, omitting any discussion of the
+role of human decision-making in determining relevance—even in those cases when human
+intervention is required (as by law) to manually alter search results. Such is the case when the
+algorithms generate links to undesirable or illegal information, as when the search query
+“holocaust” or “jew” produces links to Web sites denying the Holocaust.70 In this way, the
+company promotes an image of computational purity that downplays its responsibility for its
+search results. As Vaidhyanathan writes, “[i]t does not want to be held responsible for policing
+its own collections, even those collections that would not exist at all if Google did not aggregate
+or create them.”71 Moreover, since Google derives the overwhelming majority of its revenue
+from advertising, it is reasonable to wonder how its search algorithm has been tailored to
+expedite the selling of advertisements; Frank Pasquale writes that “as Google dominates more of
+the search space, and as its investors’ demands remain pressing, its business focus has shifted
+
+69
+
+Tarleton Gillespie, “The Relevance of Algorithms,” in Media Technologies: Essays on
+Communication, Materiality, and Society, ed. Tarleton Gillespie, Pablo J. Boczkowski, and
+Kirsten A. Foot (Cambridge, MA: The MIT Press, 2015), 175.
+70
+
+Vaidhyanathan, The Googlization of Everything, 64–66.
+
+71
+
+Ibid., 48.
+28
+
+from the need to attract more users to the need to monetize what the viewers see.”72 Latanya
+Sweeney notes that online advertisements can be “tailored to the reader’s search criteria, content
+interests, geographical location, and so on. Any two readers (or even the same reader returning to
+the same website) might view different ads.”73 Sweeney’s research shows a significant disparity
+in the nature of advertisements displayed by Google’s AdSense program based on the perceived
+racial identity of names used as search queries—namely, that advertisements for criminal
+background checks and similar services suggesting a criminal history are significantly more
+likely to be displayed for search queries using names popularly identified as being AfricanAmerican.
+Since the details of its algorithm are secret, how Google determines what information to
+include for a particular search query and how it chooses what to rank at the top of the search
+results is unclear. While Google founders Sergey Brin and Larry Page disclosed the general
+methodology of Google’s PageRank algorithm in a 1997 academic paper written while they were
+graduate students at Stanford University74—at the most basic level, PageRank measures the
+importance of a Web page by counting the number of other Web pages that link to it—PageRank
+is only one part of its modern search formula: “Today Google’s algorithms rely on more than
+200 unique signals or ‘clues’ that make it possible to guess what you might really be looking for.
+
+72
+
+Pasquale, The Black Box Society, 98.
+
+73
+
+Latanya Sweeney, “Discrimination in Online Ad Delivery,” Communications of the
+ACM 56, no. 5 (2013): 47.
+74
+
+Sergey Brin and Larry Page, “The Anatomy of a Large-Scale Hypertextual Web Search
+Engine,” Computer Networks and ISDN Systems 30, no. 1–7 (1998): 107–117.
+29
+
+These signals include things like the terms on websites, the freshness of content, your region and
+PageRank.”75
+While Google suggests that it simply returns search results based on their pure
+mathematical relevance, its system is far more nuanced, and it surely is not coincidental that
+Google-owned properties consistently appear at the top of search results. Searching for even a
+relatively common word such as “thermostat” returns a Google product—the Nest Learning
+Thermostat, made by a company which Google purchased in January 201476—as the fourth link
+in its normal search results and as the second result in links identified as advertisements in a
+column on the right-hand side of the page.77 Despite frequently touting the benefits of being
+“open,” Google is conspicuously reluctant to reveal the details of its search mechanism—see, for
+instance, a memorandum written by then-Google Senior Vice President Jonathan Rosenberg in
+which he expounds on the virtues of openness (praising examples such as “open technology,”
+“open standards,” and “open source”) but goes on to argue that Google’s most important (and by
+far most profitable) products—its search and advertising services—are not and should not be
+open: “Our goal is to keep the Internet open, which promotes choice and competition and keeps
+users and developers from getting locked in. In many cases, most notably our search and ads
+
+75
+
+“Algorithms,” Google Inc., accessed April 1, 2015, http://www.google.com/
+insidesearch/howsearchworks/algorithms.html, par. 2.
+76
+
+Claire Cain Miller, “For Google, a Toehold Into Goods for a Home,” New York Times,
+January 13, 2014, http://www.nytimes.com/2014/01/14/technology/google-to-buy-nest-labs-for3-2-billion.html.
+77
+
+As of April 1, 2015, using google.com in Los Angeles, California. The search can be
+performed using the URL https://www.google.com/#q=thermostat.
+30
+
+products, opening up the code would not contribute to these goals and would actually hurt
+users.”78
+As Morozov notes, Google’s secret methodology and carefully-cultivated image of
+computational purity allows the company to disclaim responsibility when its search engine
+returns objectionable links—as it does when searching for the name Nikki Catsouras, which
+returns links to gruesome photographs of the scene of the car accident which took the teenager’s
+life in 2006.79 The photographs in question were taken by investigators at the scene of the
+accident in Orange County, California; two members of the California Highway Patrol
+forwarded copies of the images to friends and family on Halloween. The photographs spread to
+the World Wide Web, where they have been republished by Web sites that specialize in hosting
+graphic or shocking content.80 The Catsouras family sued the Highway Patrol; the case was
+settled in 2012,81 but Google continues to return links to the photographs.
+The ubiquity of the photographs and their prominence in Google’s search results led
+Catsouras’ father, Christos Catsouras, to forbid his other daughters from using the Internet for
+
+78
+
+Jonathan Rosenberg, “The meaning of open,” Google Official Blog, December 21,
+2009, http://googleblog.blogspot.com/2009/12/meaning-of-open.html, par. 24.
+79
+
+As of April 1, 2015, the second and sixth links returned when searching for “nikki
+catsouras” on Google from Los Angeles, California are to Web sites hosting such photographs.
+The search can be performed using the URL https://www.google.com/#q=nikki+catsouras. The
+search phrase “nikki catsouras photographs” is also included as the third suggested search phrase
+in Google’s autocomplete feature when one types “nikki catsouras” in the search box on
+google.com.
+80
+
+Jeffrey Toobin, “The Solace of Oblivion,” The New Yorker, September 29, 2014,
+http://www.newyorker.com/magazine/2014/09/29/solace-oblivion, par. 2.
+81
+
+Rick Rojas, “CHP Settles Over Leaked Photos of Woman Killed in Crash,” Los
+Angeles Times, January 31, 2012, http://articles.latimes.com/2012/jan/31/local/la-me-chp-photos20120131.
+31
+
+fear that they might come across the disturbing images;82 if they searched online for tributes to
+their sister, such as one hosted on Facebook,83 they could easily come across the images by
+accident. Merely searching for their own surname brings links to information about their sister’s
+death in each of the first ten links returned by Google, with “catsouras accident scene” and
+“catsouras photos” the third and fourth suggestions returned by Google’s autocomplete feature.84
+The Catsouras family asked Google to delist links to the photographs from the search results
+returned when searching for Nikki’s name, but the company has refused.
+While the photographs are too widely disseminated at this point to be deleted from all
+Web sites on which they are hosted—let alone any offline copies which have been deliberately
+saved—delisting the photographs from Google’s search results would have the effect of making
+them much more difficult to locate. Such a restriction on the exposure of the photographs would
+significantly limit the potential audience of the images and thereby reduce their role in
+determining how Nikki Catsouras is remembered, and the possibility of accidentally coming
+across the photographs would be greatly lessened. Since Google Search is the primary method
+through which so many users experience the World Wide Web, the vital importance of the
+results displayed for particular search queries cannot be understated. As Lucas Introna and Helen
+Nissenbaum write,
+[w]ithout an effective means of finding what you need, the benefits of an information and
+communication infrastructure like the Web are significantly diminished. We can conjure
+up analogies: a library containing all the printed books and papers in the world without
+82
+
+Toobin, “The Solace of Oblivion,” par. 3.
+
+83
+
+“In Loving Memory of Nicole ‘Nikki’ Catsouras,” Facebook page, accessed March 15,
+2015, https://www.facebook.com/R.I.P.NicoleCatsouras.
+84
+
+Search performed on April 1, 2015, from Los Angeles, California. The search can be
+performed with the URL https://www.google.com/#q=catsouras.
+32
+
+covers and without a catalogue; a global telephone network without a directory; a
+magnificent encyclopedia, haphazardly organized and lacking a table of contents.85
+Delisting thus could be an extremely effective method for limiting the spread of information
+even when the digital files containing the information have already been disseminated across the
+globe; if links to such information are not displayed in Google and other search engines, locating
+the information could be quite literally more difficult than finding a needle in a haystack or
+buried treasure without a map.
+Google’s unparalleled power as an essential gatekeeper of the Internet gives it unique
+importance in this respect. As Vaidhyanathan notes,
+[i]ncreasingly, Google is the lens through which we view the world. Google refracts,
+more than reflects, what we think is true and important. It filters and focuses our queries
+and explorations through the world of digitized information. It ranks and links so quickly
+and succinctly, reducing the boiling tempest of human expression into such a clean and
+navigable list, that it generates the comforting and perhaps necessary illusion of both
+comprehensiveness and precision. Its process of collecting, ranking, linking, and
+displaying knowledge determines what we consider to be good, true, valuable, and
+relevant. . . .
+. . . More than guiding us to answers and opportunities, it filters out noise: it
+prevents us from being distracted by the millions of documents that might serve our needs
+by guessing fairly accurately what we do need. So it’s almost impossible to imagine
+living a privileged, connected, relevant life in the early twenty-first century without
+Google. It has become a necessary—seemingly natural—part of our daily lives.86
+In this way, Google has enormous influence on popular knowledge about the subjects of search
+queries; the links that it returns for a particular query (and especially those that are given
+prominence by being displayed highly in the search results) have particular importance in
+defining the subject of that query—even if the information included in those links is not true, is
+taken out of context, or is outdated. Rosen has noted that, despite the popular vision of the
+
+85
+
+Lucas D. Introna and Helen Nissenbaum, “Shaping the Web: Why the Politics of
+Search Engines Matters,” The Information Society, 16 (2000): 180.
+86
+
+Vaidhyanathan, The Googlization of Everything, 7.
+33
+
+Internet as an open platform with the potential to give a voice to anyone with an Internet
+connection, “the ultimate power to decide who has an opportunity to be heard, and what we may
+say, lies increasingly with Internet service providers, search engines, and other Internet
+companies,”87 and Google’s dominance gives it a unique power among search engines in this
+respect.
+How highly links are returned in the results for a particular search query is also of
+significant importance: Web pages that are omitted or which appear low in Google’s results
+displayed for a particular query may as well not exist since they will be invisible to most Internet
+users. While determining what link is the most relevant may be unproblematic for certain kinds
+of search results—a user looking for the Web page of a particular university will be well-served
+when that institution’s page appears at the top of the results displayed when the university’s
+unique name is used as a search query88—it is easy to think of examples where this is not the
+case. Few people have sufficiently unique names to ensure that all returned links point to
+information about them and them alone, for example—and even if they do, there is no obvious
+order in which the links should be listed. Should the most popular links be included first—and
+how should such popularity be determined? Should links be ordered in chronological order of
+original publication? Should links on social networks be returned most highly? And perhaps
+most importantly, should links to certain kinds of information be included at all?
+
+87
+
+Jeffrey Rosen, “Google’s Gatekeepers,” New York Times, November 30, 2008,
+http://www.nytimes.com/2008/11/30/magazine/30google-t.html, par. 8.
+88
+
+For example, searching for “university of california los angeles” on google.com returns
+the University of California, Los Angeles’ home page (http://www.ucla.edu) as the first result as
+of April 1, 2015, searching from Los Angeles, California. The search can be performed using the
+URL https://www.google.com/#q=university+of+california+los+angeles.
+34
+
+Costeja’s situation shows the difficult choices involved in determining what links should
+and should not be included and the personal consequences that can follow from Google’s
+decisions. His property was sold and the debt repaid, but the reminder of Costeja’s financial
+difficulties appeared anytime anyone searched for his name. Returning links to the auction
+notices so highly in searches for Costeja’s name could be both embarrassing—who would want
+to be reminded of one’s past financial difficulties, let alone having one’s friends and family be
+informed of them when they are simply looking for, say, photographs of one’s recent holiday?—
+but could also affect his professional reputation and business prospects. Costeja was never
+accused of fraud or any other crime, yet the memory of his debt has proven difficult to erase
+from the World Wide Web simply because Google included links to the auction notices in the
+search results for his name. Even if the auction notices remained publicly available on La
+Vanguardia’s Web site, they would not dominate Costeja’s online reputation but for Google
+returning them so prominently in the search results it returned for his name.
+This illustrates a significant problem posed by the broad access to information which the
+Internet enables. In the era before the World Wide Web, information that appeared in a
+newspaper—such as the auction notices in La Vanguardia—would be accessible only to those
+who had physical access to it. This necessarily limited both the size of the audience that could be
+exposed to the information and the duration for which the information was readily available.
+Only those who had some kind of physical access to the newspaper—those who subscribed to it,
+bought a copy at a newsstand on the days in question, or read a secondhand copy at a café—
+might see the first auction notice that appeared on page 23 of the newspaper on January 19,
+1998, or the second notice on page 13 of the March 9, 1998 edition. Thus unless the auction
+notices continued to be republished, the auctions would quickly disappear from public
+
+35
+
+consciousness as the old issues of the newspaper were discarded. To be sure, copies of the
+newspaper retained in libraries, in the publisher’s own archive, or by private citizens would still
+be available, but the natural lifespan of information recorded in newspapers meant that it would
+only be discovered by someone who consciously decided to research Costeja and deliberately
+took the effort to do so, perhaps by venturing to a library specifically to find old issues of the
+newspaper stored on microfilm.
+Once the auction notices were made available online, however, the news of Costeja’s
+previous financial difficulties would follow Costeja indefinitely and would be among the first
+pieces of information returned when performing a casual Internet search for his name. Search
+engines thus greatly increase both the lifespan of the information in question—for Costeja,
+giving continued life to events from 1998 that had long been settled—and enormously broaden
+the potential size of the audience. The old requirement of physical access (as for back issues of a
+newspaper) no longer serves as a way of limiting the size of the audience and the lifespan of the
+information.
+Along with this greatly expanded exposure and prolonged lifespan is the tremendous
+increase in the amount of information which digital technologies allow to be recorded and made
+available on the Internet. As Viktor Mayer-Schönberger describes the phenomenon,
+[i]n the digital age, this balance [between remembering and forgetting] has been altered
+fundamentally. Digitization, the theoretical underpinning of the digital revolution, has led
+to cheap digital storage, easy retrieval, and global access. Today, forgetting has become
+costly and difficult, while remembering is inexpensive and easy. With the help of digital
+tools we—individually and as a society—have begun to unlearn forgetting, to erase from
+our daily practices one of the most fundamental behavioral mechanisms of humankind.89
+
+89
+
+Viktor Mayer-Schönberger, Delete: The Virtue of Forgetting in the Digital Age
+(Princeton: Princeton University Press, 2009), 92–93.
+36
+
+Because of the greatly decreased cost of recording information digitally, remembering has
+become the new default—be it copies of all outgoing e-mail messages automatically saved,
+recording of a user’s movements as determined by the location-tracking capabilities of a
+smartphone, or the record of all searches performed while signed in to a Google account.90
+Whereas remembering once took deliberate action and required time and effort—to physically
+write a transcript of words that someone spoke, to track and record a person’s whereabouts on a
+particular day and time, or to take a photograph, develop the film, and make a print—ubiquitous
+digital technology makes recording so easy and inexpensive that it is often easier to capture as
+much as possible and sort through the data later, as needed. And while issues such as file format
+obsolescence, data degradation, and “link rot” (the propensity of hyperlinks to break over time,
+as particular Web sites are reorganized, removed altogether, or become otherwise unavailable)
+mean that digital information will not truly last forever, this is of little consolation to people like
+Costeja and the Catsouras family who have already had their lives changed for the worse by
+Google’s links to digital records which have yet to disappear.
+
+90
+
+Google records the history of searches performed from a particular IP address even for
+users that are not signed in to Google accounts and only removes part of the IP address from its
+records after nine months; “Dashboard data,” Google Inc., accessed April 1, 2015,
+https://support.google.com/accounts/answer/162743.
+37
+
+Search Engine as Archive
+
+While Google and other search engines are not archives in a traditional sense, the amount
+of information which they gather and link to in search results is considerable and increasingly
+includes the types of information that has traditionally been found in archives. Moreover, by
+including potentially any publicly-available Web site in their search results and caching Web
+pages as they appeared when indexed, search engines have the potential to turn the World Wide
+Web into a de facto archive. Since archives have long dealt with issues such as who should have
+access to the information they contain and how sensitive personal information should be handled,
+an archival approach to the right to be forgotten could offer suggestions for search engines
+dealing with such decisions in a post-Google Spain v. AEPD world.
+In the most fundamental sense, archives91 can be described as collections of records: as
+stated by Theo Thomassen, an everyday, common notion is that an archive is “a collection of
+records accumulated by persons, corporate bodies and families in order to support their
+memories.”92 There is much debate in the archival tradition over just what qualifies as a record;
+some, following early-twentieth-century English archivist Hilary Jenkinson’s notion that
+“[a]rchives are documents which formed part of an official transaction and were preserved for
+
+91
+
+I take no position on the use of the nouns “archive” (singular) versus “archives”
+(plural), but I acknowledge that there is debate in the Anglophone world as to which is most
+appropriate. See entries for both terms in Richard Pearce-Moses, “A Glossary of Archival and
+Records Terminology,” Society of American Archivists, accessed April 1, 2015,
+http://www2.archivists.org/glossary.
+92
+
+Theo Thomassen, “A First Introduction to Archival Science,” Archival Science 1, no. 4
+(2001): 374.
+38
+
+official reference”93 may see records purely as those documents that are evidence of official
+transactions, such as a government’s tax records. According to this view, a collection of
+documents such as an historic figure’s personal papers might have significant value to historians,
+but do not qualify as “records” in an archival sense.94 Thomassen echoes this definition, arguing
+that “[n]ot all information that can be retrieved in documentary form is a record.”95 Others—
+following the American archivist T.R. Schellenberg—adopt a wider view of archives and records
+and maintain that archives encompass “a wide variety of documents and records”—but only
+those items which have a secondary purpose “beyond their original purpose . . . could be
+considered archival.”96
+In contrast, Internet search engines make no distinction between the types of documents
+they index: everything accessible through the World Wide Web is fair game. Thus Google
+indexes the Web sites of governments, universities, museums, newspapers and magazines, social
+networks, enthusiast and hobbyist Web pages of every persuasion, and much more—quite
+literally everything that its Web crawler can find. Such search results are not limited to simple
+text-based Web pages—they may also include still images, videos, and books (including books
+which Google itself has scanned, sometimes against the wishes of copyright holders),97 among
+
+93
+
+Hilary Jenkinson, A Manual of Archive Administration, rev. ed. (London: Percy Lund,
+Humphries & Co. Ltd., 1937), 4.
+94
+
+Pearce-Moses, “A Glossary of Archival and Records Terminology,” entry for
+“archives,” par. 4.
+95
+
+Thomassen, “A First Introduction to Archival Science,” 374.
+
+96
+
+Pearce-Moses, “A Glossary of Archival and Records Terminology,” entry for
+“archives,” par. 3.
+97
+
+Claire Cain Miller and Julie Bosman, “Siding With Google, Judge Says Book Search
+Does Not Infringe Copyright,” New York Times, November 14, 2013, http://www.nytimes.com/
+39
+
+other types of content. For search engines, anything to which they can link via hypertext is a
+record, with little or no concern for the veracity, legality, or quality of the information—Google
+does no fact-checking before including a Web page in its index and relies on user complaints to
+remove links under a narrow set of circumstances.98
+Traditionally, archives were strictly physical locations where records were accessioned,
+preserved, organized, and retrieved as necessary. As Luciana Duranti writes,
+the archives was a place of preservation under the jurisdiction of a public authority. The
+place, by providing the documents with trustworthiness, gave them the capacity of
+serving as evidence and continuing memory of action. We can still today look at the
+Roman Tabularium and understand its function from its structure. Corridors and enclosed
+stairs connect the building to the public offices of Republican Rome, so that the
+documents can securely and safely flow from the place of creation to that of
+preservation.99
+The physical aspect of an archive has two important purposes: first, an archive’s building serves
+as a symbol of a government’s or organization’s authority and power; secondly, it provides
+physical custody over records. Physical custody, Duranti argues, supports three critical functions
+of the archive: transparency of preservation, security, and stability.100 These functions are
+diminished or completely absent in exclusively-digital archives or similar electronic
+environments, where at best the organization may have control over a born-digital record or a
+
+2013/11/15/business/media/judge-sides-with-google-on-book-scanning-suit.html.
+98
+
+See Google’s general removal request form, “Removing Content From Google,”
+Google Inc., accessed April 1, 2015, https://support.google.com/legal/troubleshooter/
+1114905. Google also maintains a separate Web page for requesting removal of links for legal
+reasons, such as for violations of the Digital Millennium Copyright Act: “Legal Removal
+Requests,” Google Inc., accessed April 1, 2015, https://support.google.com/legal/answer/
+3110420.
+99
+
+Luciana Duranti, “Archives as a Place,” Archives & Manuscripts 24, no. 2 (1996): 447.
+
+100
+
+Ibid., 460.
+40
+
+digital surrogate of a physical record; in both cases, there could be numerous identical copies in
+the holdings of other organizations.
+As an example, Google’s search engine has no control over the content of the third-party
+Web sites to which it links; when those pages change or are removed altogether, Google’s index
+will be out of date until its Web crawler re-indexes them. Google also does not provide any kind
+of security or stability for third-party records displayed in its search results and does not have
+“intellectual custody” (for example, ownership of the copyright of a particular record, distinct
+from physical custody of the record) over the third-party materials to which it provides links in
+its search results. Indeed, in its capacity as a search engine, Google has no custodial or
+preservatory function.101
+For these reasons, Google and other search engines cannot be said to be archives in a
+traditional sense. But as Wolfgang Ernst writes,
+[i]f we disregard the metaphorical use of the word archive for all possible forms of
+memory and cultural memory and use it to mean the specific agency of a memory
+technology, the Internet is not an archive. Yet the Internet constitutes a new type of
+transarchive already present in Ted Nelson’s conception of hypertext and hypermedia: a
+dynamic archive, the essence of which is permanent updating, and one that can translate
+moving images and gramophone records from the classical realm of the alphabet to
+archive, real-time life itself. . . .102
+We can thus view the World Wide Web in its totality as a sort of ever-changing archive—one
+which may host pieces of traditional government archives, such as the United States’ National
+
+101
+
+Google does have “digital custody” over the videos it hosts via YouTube and for the
+digitized books it makes available through Google Books; moreover, it goes to great lengths to
+preserve the many kinds of data it obtains through its various business units, such as users’ email messages in Gmail and data stored in Google Drive. While Google maintains control over
+these digital files, intellectual custody remains with their creators.
+102
+
+Wolfgang Ernst, Digital Memory and the Archive, ed. and trans. by Jussi Parikka
+(Minneapolis: University of Minnesota Press, 2013), 84.
+41
+
+Archives;103 museum archives, such as that of the Metropolitan Museum of Art;104 personal
+archives, such as a collection of photos hosted on Yahoo’s Flickr; or simply as a vast network of
+interconnected Web sites, some lasting for a few months105 or others that are mysterious time
+capsules, still available to visit but left untouched for years.106
+Thus while a search engine may not meet the traditional definition of an archive, insofar
+as search engines serve as interfaces for locating vast quantities of record-like information, they
+can be said to have an archival function: a search engine can be seen as a digital finding aid for
+the World Wide Web. According to archival theory, finding aids “lead researchers to the
+information they are seeking from or about archives. They may be generally defined as the
+descriptive media (such as registers, guides, inventories and indexes) that establish physical and
+intellectual control over the holdings of an archives and make it possible to retrieve particular
+records or information from these archives.”107 The raison d’être of Google’s search engine is to
+lead its users to information; as the company describes itself, “Google’s mission is to organize
+103
+
+“Research Our Records,” United States National Archives and Records
+Administration, accessed April 1, 2015, http://www.archives.gov/research/.
+104
+
+“The Collection Online,” The Metropolitan Museum of Art, accessed April 1, 2015,
+http://www.metmuseum.org/collection/the-collection-online.
+105
+
+Various estimates have placed the average lifespan of a Web page at anywhere from
+44 to 100 days; Mike Ashenfelder, “The Average Lifespan of a Webpage,” The Signal: Digital
+Preservation, Library of Congress, November 8, 2011, http://blogs.loc.gov/
+digitalpreservation/2011/11/the-average-lifespan-of-a-webpage/.
+106
+
+See, for example, the oft-cited example of the Web site for the 1996 Warner Bros.
+film Space Jam, accessed April 1, 2015, http://www2.warnerbros.com/spacejam/movie/
+jam.htm. While not the oldest extant Web page on the Internet, its continued, unchanged, and
+mostly-still-functional-as-originally-created presence is enduring evidence of commercial use of
+the World Wide Web in the mid–1990s.
+107
+
+Jennifer Edgecombe, “Finding Aids,” in Keeping Archives, 2nd ed., ed. Judith Ellis
+(Port Melbourne, Australia.: Thorpe in association with the Australian Society of Archivists Inc.,
+1993), 248.
+42
+
+the world’s information and make it universally accessible and useful.”108 Elsewhere, Google
+states that
+[t]he web is like an ever-growing public library with billions of books and no central
+filing system. Google essentially gathers the pages during the crawl process and then
+creates an index, so we know exactly how to look things up. Much like the index in the
+back of a book, the Google index includes information about words and their locations.
+When you search, at the most basic level, our algorithms look up your search terms in the
+index to find the appropriate pages.109
+The information contained in the links returned in Google’s search results is completely
+de-contextualized: links to pages hosted on disparate Web sites are presented one after another
+and may vary widely in age and content type. A search for the French filmmaker Jacques Tati on
+Google’s primary domain, google.com, for example, returns “[a]bout 653,000 results,”110 with
+links to articles about Tati on Wikipedia; an entry in Amazon.com’s Internet Movie Database; a
+link to information about DVDs and Blu-Ray discs of his films available for sale; links to usersubmitted clips of Tati films hosted on Google’s YouTube (in apparent violation of copyright);
+and a link to the official Tati Web site operated by his estate. Buttons at the top of the search
+results page allow the user to restrict the search by content type, such as video clips, still images,
+or items for sale. In a sidebar on the right-hand side of the page, Google collates selected
+photographs of Tati, a brief biography (including the dates of his birth and death and the names
+of his spouse and children) as well as recommended related searches. All of the search results are
+presented side-by-side regardless of the identity of their source, the possible accuracy of the
+108
+
+“About Google,” Google Inc., accessed April 1, 2015, http://www.google.com/
+
+about/.
+109
+
+“Crawling and Indexing,” Google Inc., accessed April 1, 2015,
+http://www.google.com/insidesearch/howsearchworks/crawling-indexing.html, “Organizing
+information by indexing.”
+110
+
+As of April 1, 2015. This search can be performed using the URL
+https://www.google.com/#q=jacques+tati.
+43
+
+information which they contain, and perhaps even the legal status of the content included therein.
+Some argue that this kind of spontaneous re-ordering enabled by digital technologies is
+something we should embrace:
+We are building an ever-growing pile of smart leaves that we can organize as we need to
+at any one moment. Some ways of organizing it—of finding meaning in it—will be
+grassroots; some will be official. Some will apply to small groups; some will engender
+large groups; some will subvert established groups. Some will be funny; some will be
+tragic. But it will be the users who decide what the leaves mean.111
+But by returning such varied materials from divergent sources created around the world at
+different times, the context of the documents is lost. From an archival perspective, we might say
+that Google’s search results disregard the principle of provenance—the notion that “records of
+different origins (provenance) be kept separate to preserve their context.”112 As Anne Gilliland
+has observed, the rise of digital recordkeeping poses provenancial problems for archivists—but
+provenance, original order, and respect des fonds are still meaningful when applied to digital
+records:
+The archival approach offers the concepts of collective arrangement and description
+according to the provenance of the materials; these provide benefits even when
+information managers or users are not interested in the evidential value of the materials.
+Applying these concepts makes it possible to unite related digital, nondigital, and
+predigital materials according to their intellectual rather than their physical
+characteristics. These concepts build context, which is a powerful and underused tool for
+facilitating understanding and ultimately creating knowledge. They prompt the user to
+consider the degree to which the material’s source is authoritative.113
+
+111
+
+David Weinberger, Everything is Miscellaneous: The Power of the New Digital
+Disorder (New York: Times Books/Henry Holt and Company, 2007), 230.
+112
+
+Pearce-Moses, “A Glossary of Archival and Records Terminology,” entry for
+“provenance.”
+113
+
+Anne J. Gilliland-Swetland, Enduring Paradigm, New Opportunities: The Value of the
+Archival Perspective in the Digital Environment (Washington, DC: Council on Library and
+Information Resources, 2000), http://www.clir.org/pubs/reports/reports/pub89/pub89.pdf, 14.
+44
+
+Taken out of their original time and place, the material returned in search results offers a
+fragmentary view of its subject—a loose collection of facts which may or may not be true and
+which offer only a partial glimpse of their subject matter, like a sampling of still frames taken
+from a motion picture. In Costeja’s case, the auction notices omit the reason why the property
+was seized, the personal circumstances which led to the debt, and the impact this may have had
+on his personal life; the loss of context amounts to branding him as a debtor in the present day
+with no further explanation of who he is.
+The issue of how to handle private personal information in an archive is not a new one,
+and long predates the rise of the digital domain. Eric Ketelaar has described “layers of
+protection”—legislation, conditions of transfer, researchers’ undertakings, and physical
+conditions—already in place to protect the privacy of individuals whose personal information is
+stored in public archives,114 but argues in favor of a fifth layer guided by professional ethics:
+“[b]efore personal information that is destined for permanent retention is transferred to a public
+repository, it must be determined whether that information is of such a nature that its disclosure
+and publication would constitute an inadmissible breach of privacy.”115 For search engines, such
+privacy concerns are amplified because they enable quick access to any information publicly
+available online, and there are no human archivists making the moral calculations that Ketelaar
+describes before information is added to a search engine’s index.
+Search engines might well heed Ketelaar’s recommendation. Adding a requirement that a
+human approve any material captured by a Web crawler before it is added to a search engine’s
+
+114
+
+Eric Ketelaar, “The Right to Know, the Right to Forget? Personal Information in
+Public Archives,” Archives and Manuscripts 23, no. 1 (May 1995): 11.
+115
+
+Ibid., 12.
+45
+
+index—and thus before it could appear in search results—would help to prevent the spread of
+damaging information and media before it caused injury; such a procedure could have minimized
+the harms produced by the spread of the photographs of Nikki Catsouras and the notices of the
+auction of Costeja’s property. While this would surely be anathema to Google’s modus operandi,
+which seeks to reduce human involvement in its processes as much as possible, such a system is
+not without precedent: Yahoo employed human editors to determine what links to include in its
+once-dominant World Wide Web directory.116
+
+116
+
+While the directory’s popularity had dwindled for many years, Yahoo did not shut the
+service down until late 2014; Danny Sullivan, “Yahoo Directory Closes, Five Days Early,”
+Search Engine Land, December 27, 2014, http://searchengineland.com/yahoo-directory-closes211784.
+46
+
+Social Implications of Remembering and Forgetting
+
+What would a world where nothing is ever forgotten look like? As noted above, it is an
+exaggeration to state that the World Wide Web never forgets—indeed, as Internet pioneer (and
+current Vice President and Chief Internet Evangelist at Google) Vint Cerf117 recently commented
+on the fragility of digital media,
+[w]hen you think about the quantity of documentation from our daily lives that is
+captured in digital form, like our interactions by email, people’s tweets, and all of the
+world wide web, it’s clear that we stand to lose an awful lot of our history. We don’t want
+our digital lives to fade away. If we want to preserve them, we need to make sure that the
+digital objects we create today can still be rendered far into the future.
+We are nonchalantly throwing all of our data into what could become an
+information black hole without realising it. We digitise things because we think we will
+preserve them, but what we don’t understand is that unless we take other steps, those
+digital versions may not be any better, and may even be worse, than the artefacts that we
+digitized. If there are photos you really care about, print them out.118
+Nonetheless, digital technologies have made recording—and thus remembering—far easier and
+cheaper than ever before. As Vaidhyanathan writes,
+[f]or most of human history, forgetting has been the default and remembering the
+challenge. Chants, songs, books, libraries, and even universities were established
+primarily to overcome our propensity to forget. These aids to memory had physical and
+economic limitations that in fact served us well. All these technologies of memory also
+act as filters or editors. They help us remember much by discarding even more. Today,
+digital information storage and retrieval have made remembering the default state of
+knowledge and forgetting the accident or exception. So quickly have we moved from
+forgetting most things (or at least rendering them hard to access) to remembering them
+(and making them easy to search) that we have neglected to measure the effects of this
+change. Just because we have the storage vessels, we feel the need to fill them. Then we
+117
+
+“V. Cerf,” Google Inc., accessed April 1, 2015, http://research.google.com/pubs/
+author32412.html. Cerf is often described as one of the “Fathers of the Internet” for his role as
+co-creator of the Transfer Control Protocol/Internet Protocol standard.
+118
+
+Ian Sample, “Google Boss Warns of ‘Forgotten Century’ With Email and Photos At
+Risk,” Guardian (London), February 13, 2015, http://www.theguardian.com/technology/
+2015/feb/13/google-boss-warns-forgotten-century-email-photos-vint-cerf.
+47
+
+engage with networks of data communication that offer disparate elements of our lives to
+strangers and—perhaps more important—people we would like to know better.119
+Moreover, in the digital world, remembering is becoming the default, and forgetting takes
+deliberate action: with so much data recorded by default, deciding not to keep something
+requires that we delete it after the fact—as with text messages, copies of outgoing e-mail
+messages, instant message transcripts, and other forms of electronic communication.
+Another important new default mode of operation is public sharing. Traditionally,
+communication was largely private or limited in the scope of its potential audience; when
+speaking in person to a friend, only other people within a limited range might overhear the
+conversation—and in the era before pocketable devices or hidden microphones capable of
+recording audio became ubiquitous, there was little chance of a conversation being recorded. To
+say something or make a statement that might be heard by a larger audience required conscious
+effort—speaking through a public address system at a public event, submitting a letter to the
+editor of a newspaper, or posting a notice on a public bulletin board. In contrast, many popular
+social networking services such as Twitter and Facebook’s Instagram make messages and media
+publicly shared by default, requiring the user to manually change a setting to make them
+viewable only by approved users.120 (Facebook itself recently made sharing posts only with a
+user’s friends and family the default setting, after having made public sharing the default in
+
+119
+120
+
+Vaidhyanathan, The Googlization of Everything, 178.
+
+“When you sign up for Twitter, you have the option to keep your Tweets public (the
+default account setting) or to protect your Tweets”; from “About public and protected Tweets,”
+Twitter, Inc., accessed April 1, 2015, https://support.twitter.com/articles/14016-about-publicand-protected-tweets.
+“How do I set my photos and videos to private so that only approved followers can see
+them?”; from “Controlling Your Visibility,” Instagram, Inc., accessed April 1, 2015,
+https://help.instagram.com/116024195217477/.
+48
+
+2009; 121 Facebook founder and Chief Executive Officer Mark Zuckerberg once said that “the
+world will be better if you share more.”122) Sharing publicly by default enables information to be
+shared to any user of the service—and potentially to search engines as well, if they choose to
+include such material in their indexes.
+The oft-cited example of Ireneo Funes, the titular character of Jorge Luis Borges’ “Funes,
+His Memory,”123 illustrates the suffocating effect that remembering everything might have. In
+Borges’ story, Funes was thrown from a horse and permanently crippled—but also given a
+perfect memory, unable to forget even the slightest detail:
+. . . Funes remembered not only every leaf of every tree in every patch of forest, but every
+time he had perceived or imagined that leaf. He resolved to reduce every one of his past
+days to some seventy thousand recollections, which he would then define by numbers.
+Two considerations dissuaded him: the realization that the task was interminable, and the
+realization that it was pointless. He saw that by the time he died he would still not have
+finished classifying all the memories of his childhood.124
+The narrator adds that precisely because of this perfect memory, Funes was “not very good at
+thinking. To think is to ignore (or forget) differences, to generalize, to abstract. In the teeming
+world of Ireneo Funes there was nothing but particulars—and they were virtually immediate
+particulars.”125 Funes’ mind is so overwhelmed by the innumerable details captured in his eidetic
+
+121
+
+Juliette Garside, “Facebook Bows to Pressure on Privacy Settings for New Users,”
+Guardian (London), May 22, 2014, http://www.theguardian.com/technology/2014/may/22/
+facebook-privacy-settings-changes-users.
+122
+
+David Kirkpatrick, The Facebook Effect: The Inside Story of the Company That is
+Connecting the World (New York: Simon and Schuster, 2010), 200.
+123
+
+Jorge Luis Borges, “Funes, His Memory,” in Collected Fictions, trans. Andrew Hurley
+(New York: Viking, 1998), 131-137. The Spanish title of the story, “Funes el memorioso,” has
+also been translated into English as “Funes the Memorious.”
+124
+
+Ibid., 136.
+
+125
+
+Ibid., 137.
+49
+
+memory that there is no space left for real thinking; it is as if his mind has been transformed into
+an information repository, a mere holding-place for memories. Borges thus suggests that
+collecting data is altogether different from intelligence—a notion which Google might consider
+if the company’s greatest ambition is artificial intelligence.126 The tale of Ireneo Funes is, of
+course, a work of fiction, but the story nonetheless shows how difficult living may be if we
+cannot forget the past—when every detail of every experience, pleasant and unpleasant, is
+always with us, leaving us adrift in a sea of memories and unable to focus on the present.
+Once information is made available on the World Wide Web, it can remain there
+indefinitely—particularly if it has been exposed to an audience through a search engine. While it
+is always possible that one source of a record might no longer be available—perhaps the operator
+of the Web site went bankrupt or suffered a catastrophic loss of data—the ease of duplicating
+digital files makes it possible to make copies that could be distributed and recorded on computers
+anywhere in the world. Moreover, a large number of Web sites (particularly those of broad
+interest, such as news sites) are archived on a regular basis by third parties such as the Internet
+Archive or a search engine’s own caching functionality (“[c]ached links show you what a
+webpage looked like the last time Google visited it,” as Google describes the feature).127
+Interactions on social media—including ill-advised comments made on Twitter or photographs
+of drunken escapades posted to Facebook—may persist in the companies’ backup copies even
+after being deleted by the user, or in copies captured by other users or by third-party archiving
+
+126
+
+For a discussion of Google’s interest in artificial intelligence, see Robert D. Hof,
+“Deep Learning,” MIT Technology Review, April 23, 2013, http://www.technologyreview.com/
+featuredstory/513696/deep-learning/.
+127
+
+“Cached link,” Google Inc., accessed April 1, 2015, https://support.google.com/
+websearch/answer/1687222.
+50
+
+services.128 Such companies typically offer little information about how they handle data that
+users have chosen to delete—if, for example, all copies of such data (including those made for
+backup purposes or cached copies on redundant servers around the world) are fully erased upon
+the user’s request. While such data may not be readily available for public inspection on the
+Internet, security vulnerabilities and hacking attempts have exposed data which users thought
+that they had deleted.129 With each day that passes and each new smartphone app or social
+networking platform that is released, more data of increasingly varied kinds is being captured.
+Some of that data may disappear; some may persist but never be seen; and some—such as the
+auction notice of Costeja’s property—will endure and follow its subject indefinitely unless its
+use is restricted by law.
+The creation of a digital world of enduring memory may have far-ranging consequences.
+For all the concern about government surveillance such as the PRISM program conducted by the
+United States’ National Security Agency and the United Kingdom’s Government
+Communications Headquarters, comparatively little attention (and far less moral outrage) is
+directed at search engines and social networks that capture at least as much personal information
+128
+
+Regarding its role in archiving the Twitter “firehose” (the totality of postings made
+through the service), the Library of Congress has stated that “[p]rivate account information and
+deleted tweets will not be part of the archive,” although at least in this statement it is silent as to
+exactly how such information is excluded from the archive. Matt Raymond, “The Library and
+Twitter: An FAQ,” Library of Congress Blog, April 28, 2010, http://blogs.loc.gov/loc/2010/04/
+the-library-and-twitter-an-faq/, section titled “What is in the Archive?”
+129
+
+Tim Bradshaw, Hannah Kuchler, and Sally Davies, “Apple Admits Celebrity
+Accounts Hacked But Denies iCloud Breach,” Financial Times, September 2, 2014,
+http://www.ft.com/cms/s/0/916d7d24-327e-11e4-93c6-00144feabdc0.html. Apple maintains that
+its security measures were not breached and that hackers compromised user data using social
+engineering techniques to crack or reset users’ passwords. It remains unclear how photographs
+which some victims insist they had deleted were downloaded by hackers; one possibility is that
+the photographs persisted in smartphone backups that had been uploaded automatically to
+Apple’s iCloud service, which hackers were able to download after acquiring or resetting
+victims’ passwords.
+51
+
+about their users—data which the companies actively exploit for selling targeted advertising.
+While there is an increasing awareness of the extent to which new digital devices and services
+may compromise personal privacy, the overwhelming popularity of smartphones and social
+networking platforms suggests that a great many users are either unaware of or unconcerned by
+such matters.
+The consequences could be grave for free society: “If we had to worry that any
+information about us would be remembered for longer than we live, would we still express our
+views on matters of trivial gossip, share personal experiences, make various political comments,
+or would we self-censor? The chilling effect of perfect memory alters our behavior,” writes
+Mayer-Schönberger.130 Just as government surveillance in authoritarian regimes stifles freedom
+of expression and creates an environment in which citizens are afraid to speak freely for fear of
+detention or punishment, a digital world that does not forget threatens to allow one’s childhood
+foolishness, youthful indiscretions, personal beliefs, or political convictions to be recalled
+potentially in perpetuity, causing eternal embarrassment, harm to one’s reputation, threats to
+one’s livelihood, or worse.
+Jean-François Blanchette and Deborah G. Johnson have identified three areas where
+society has traditionally endorsed the importance of “social forgetfulness, which allows
+individuals a second chance, the opportunity for a fresh start in life”: personal bankruptcy,
+juvenile crime records, and credit reports.131 In each case, the law establishes limits on how and
+how long information of each of these kinds can be used.
+
+130
+
+Mayer-Schönberger, Delete, 5.
+
+131
+
+Jean-François Blanchette and Deborah G. Johnson, “Data Retention and the Panoptic
+Society: The Social Benefits of Forgetfulness,” The Information Society, no. 18 (2002): 33.
+52
+
+A world in which there is no forgetfulness—a world in which everything one does is
+recorded and never forgotten—is not a world conducive to the development of
+democratic citizens. It is a world in which one must hesitate over every act because every
+act has permanence, may be recalled and come back to haunt one, so to speak. Of course,
+the opposite is equally true: A world in which individuals are not held accountable over
+time for the consequences of their actions will not produce the sense of responsibility that
+is just as necessary to a democratic society. Thus, achieving the appropriate degree of
+social forgetfulness is a complex balancing act, ever in tension between the need to hold
+accountable, and the need to grant a “fresh start.”132
+The CJEU’s decision is one small step in the direction of mandating social forgetfulness. It does
+not allow an individual to rewrite history or eliminate all instances of offending material from
+every corner of the Internet, let alone any offline copies that other users may have made. But by
+allowing individuals to request removal of certain types of material, a right to be forgotten as
+recognized in Google Spain v. AEPD could temper the worst aspects of the still-nascent
+unforgetting digital sphere.
+Others see the possibility of perfect memory as something desirable—and obtainable,
+with sufficient technology. Inspired in part by Vannevar Bush’s Memex, engineer Gordon Bell
+describes his experiment with “lifelogging” in a Microsoft Research project called MyLifeBits,
+in which he seeks to digitally record all aspects of his life: everything he reads and writes, all of
+his communications (telephone calls, e-mail, instant messages), photographs and home movies,
+health data, and more.
+[E]ach day that passes I forget more and remember less. I don’t have Alzheimer’s or even
+brain damage. I’m just aging. . . . What if you could overcome this fate? What if you
+never had to forget anything, but had complete control over what you remembered—and
+when?
+Soon, you will be able to. You will have the capacity for Total Recall. You will
+be able to summon up everything you have ever seen, heard, or done. And you will be in
+total control, able to retrieve as much or as little as you want at any given time.133
+132
+133
+
+Ibid., 36.
+
+Gordon Bell and Jim Gemmell, Total Recall: How the E-Memory Revolution Will
+Change Everything (New York: Dutton, 2009), 3.
+53
+
+Bell envisions that all of the gathered information will be available for instant recall and analysis,
+and could even be handed down to future generations to enjoy: “[y]our digital self will reach out
+to touch lives in the future, allowing you to make an impact for generations to come,” he
+writes.134 While Bell notes that some people may resist lifelogging, he believes that “society at
+large is on an inexorable path toward Total Recall technology and it is going to transform the
+world around you,” whether one is an early adopter or an eternal holdout;135 Bell expects
+lifelogging to become a common practice “within a decade” of the book’s 2009 publication.136
+Bell sees the project’s capacity to supplant human memory as one of its great advantages:
+Imagine the ability to scan the past with the ease that would put Google to shame.
+Imagine how it could affect therapy sessions, friendly wagers, court testimony, lovers’
+spats (of course, metajudgments like “It’s the way he said it” or “You didn’t really mean
+it” will never go away). Imagine how easy it will be to prove that repairs were done, that
+a salesman went back on his word, or that the dog really did eat your homework. Think
+of how nice it would be to have recordings of childhood conversations with your best
+friend, or a complete audio library of the millions of priceless things your kids said when
+they were toddlers. What were those first baby words, really?137
+Bell later admits that complete memory retention is not without issue. Echoing Blanchette and
+Johnson, he notes that a juvenile offender may be able to leave the past behind if his crimes are
+not a matter of public record; but “[i]n a world where most things are recorded and saved, would
+he have the same chance?”138 “Nevertheless,” Bell continues, “I still advocate keeping
+everything, even the worst of it. They are your e-memories; you control the keys to them. Rather
+
+134
+
+Ibid., 6.
+
+135
+
+Ibid., 7.
+
+136
+
+Ibid., 21.
+
+137
+
+Ibid., 22–23.
+
+138
+
+Ibid., 66.
+54
+
+than erase them, you can seal them up. You can put a lock on those events you’d like to forget
+and never open them up again. What you really want to prevent in these cases is unwanted
+recall, not retention.”139 But Bell’s confidence in the ability to lock away undesired information
+shows a faith in information security not supported by the breaches and deliberate leaks that have
+become so common in today’s world.
+The kind of digital public memory made possible by search engines—with disparate
+records concatenated just-in-time according to a user’s search query—goes beyond what Borges
+or Bell contemplate. Whereas Funes’ memories are his alone and Bell’s MyLifeBits project is
+focused on developing an electronic aide-mémoire for personal use, search engines create a sort
+of shared public record viewable by anyone with an Internet connection. As more and more data
+is published online—with an increasing amount exclusively so—the significance and cultural
+impact of this public memory continues to grow. Vaidhyanathan writes that
+Jay Gatsby could not exist today. The digital ghost of Jay Gatz would follow him
+everywhere. There are no second acts, or second chances, in the digital age.
+Rehabilitation demands substantial autonomy and control over one’s record. As long as
+our past indiscretions can be easily Googled by potential employers or U.S. security
+agents, our social, intellectual, and actual mobility is limited.140
+Just as Google reminds Costeja himself, his friends, family, and prospective clients of his
+financial difficulties in the late–1990s, so too might everyone’s mistakes or indiscretions find a
+perpetual record in Google’s index. The very possibility of starting anew is now much more
+difficult; the personal changes that accompany going to new schools or starting new jobs, by
+moving to different cities and by meeting different people are much more difficult when the
+
+139
+
+Ibid.
+
+140
+
+Vaidhyanathan, The Googlization of Everything, 93.
+55
+
+digital traces that a person leaves behind—voluntarily or otherwise—follow wherever he goes.
+As Mayer-Schönberger writes,
+By recalling forever each of our errors and transgressions, digital memory rejects our
+human capacity to learn from them, to grow and to evolve.
+If human actions are never forgotten, there is little need for people to push
+themselves and change. In a world of omnipresent history, there may be little incentive to
+actively work on escaping one’s caste and breaking out of one’s mold, a fundamental
+element of modern enlightened society. Of course, even without incentives, humans as
+living beings will continue to change in a digital world—we’ll age physically and modify
+our views—but our digital representations will forever tether us to all our past actions,
+making it impossible, in practice, to escape them. Without some form of forgetting,
+forgiving becomes a difficult undertaking.141
+While many may find the new connectivity made possible by advanced information and
+communications technologies appealing—communicating and interacting with friends and
+family on the other side of the country or on another continent is certainly cheaper and easier
+than ever before—those that might want to start anew will find it increasingly difficult to do so.
+Is a society that remembers everything one which is likely to be accepting and forgiving?
+Vaidhyanathan warns that
+[o]ur appetite for public humiliation of others (undeserved or otherwise) should trouble
+us deeply. Like Hester Prynne in The Scarlet Letter, any one of us may be unable to
+escape the traces of our mistakes. We are no longer in control of our public personas,
+because so many of our fellow citizens carry with them instruments of surveillance and
+exposure such as cameras and video recorders.142
+Perhaps new cultural norms will develop in response to everyone’s past being publicly available
+in the digital record. As danah boyd [sic] of Microsoft Research says, “[n]o amount of structural
+intervention is going to combat this. People, particularly younger people, are going to come up
+with coping mechanisms. That's going to be the shift, not any intervention by a governmental or
+
+141
+
+Mayer-Schönberger, Delete, 125.
+
+142
+
+Vaidhyanathan, The Googlization of Everything, 96.
+56
+
+technological body.”143 While it is impossible to deny that culturally we will become accustomed
+to people’s pasts being available for public dissection—the simple fact that disclosures of
+embarrassing or shocking events from someone’s past being brought to the fore will be
+increasingly common means that the event of such disclosures might become less surprising—it
+is hard to imagine that we will ever be able to ignore or contextualize the actual content of such
+disclosures. To give one example, the mere fact that most people have embarrassing episodes
+from their youth which they wish that they could forgot may not prevent them from enjoying
+watching another’s embarrassing episode, which happened to be recorded and was
+surreptitiously uploaded to the Internet.144 The simple fact that something really happened, or
+that a fact is true, does not mean that everyone in the world is entitled to see it, or that it should
+remain in the public domain potentially in perpetuity.
+But perhaps the greatest danger of a digital public memory is the stifling effect that it
+might have on culture. We are likely all too familiar with the phenomenon of people behaving
+differently when they know that they are being photographed, filmed, or recorded; what will
+happen when future generations have become accustomed to many aspects of their lives not
+merely being recorded, but made available publicly? Mayer-Schönberger claims that the effect of
+such public remembering could be to create “a climate of self-censorship through the perception
+143
+
+Jessica Winter, “The Advantages of Amnesia,” Boston Globe, September 23, 2007,
+http://www.boston.com/news/globe/ideas/articles/2007/09/23/
+the_advantages_of_amnesia/, par. 14.
+144
+
+See, for example, the plight of Ghyslain Raza, better known as “Star Wars Kid,” who
+at the age of 14 recorded a video of himself “clumsily imitating a Star Wars Jedi knight” at his
+school’s video club studio; “10 years later, ‘Star Wars Kid’ speaks out,” Maclean’s, May 9,
+2013, http://www.macleans.ca/news/canada/10-years-later-the-star-wars-kid-speaks-out/, par 2.
+Raza left the recording in the studio and the tape was discovered by classmates who uploaded the
+video to the Internet. The video quickly became a sensation and Raza was subjected to ridicule
+and bullying, leading him to change schools and sue his classmates’ families.
+57
+
+of panoptic control that constrains robust and open debate—the hallmarks of democratic
+government—not simply in the present but long into the future.”145 If we know that everything
+we say or do might be recorded and attributed to us for some indefinitely long period into the
+future, we may behave less authentically, trying to impress others or saying what we believe is
+expected of us rather than what we really believe; we might fear speaking freely if we know that
+our statements might prevent us from getting into our preferred school, a sought-after job, or
+could even lead to government persecution.
+
+145
+
+Mayer-Schönberger, Delete, 112.
+58
+
+Beyond Google Spain v. AEPD
+
+Google has two options in responding to Google Spain v. AEPD: further tailoring its
+services on a localized basis to meet the varying laws around the world or using a lowestcommon-denominator approach, altering its search results worldwide so that they comply with
+even the strictest local regulations. Google already offers many country-specific versions of its
+search tool (such as google.com.br, google.co.uk, google.co.za, google.co.jp, and
+google.com.au), each with their own localized language and search results. Handling search
+removal requests on a local basis—automatically suppressing particular results as part of the
+local Google formula—is thus technically possible. Alternatively, Google could make such
+removal requests universal, removing information across all versions of Google Search. This
+might be easier for Google to implement but would globally reduce the number of returned links,
+and it could be difficult to maintain a single formula that satisfies the terms of all local
+regulations. Dealing with the patchwork of national limitations on the use of collected data and
+links presented in response to certain search queries may be challenging for Google—but such
+regional tailoring of search results is something the company already has chosen to do in the
+name of providing superior localized results. The landscape will only grow more complex should
+other countries follow the European Union’s lead in regulating the use of personal information or
+in otherwise requiring Google to alter its search results.146
+
+146
+
+Responding to mainland China’s censorship restrictions, Google moved its Chinatargeted search engine operations to Hong Kong in 2010 (and Web address from google.cn to
+google.co.hk); Miguel Helft and David Barboza, “Google Shuts China Site in Dispute Over
+Censorship,” New York Times, March 22, 2010, http://www.nytimes.com/2010/03/23/
+technology/23google.html, par. 1. The Chinese government routinely blocks many of Google’s
+services in the mainland.
+59
+
+The problem posed by the search results returned for a private citizen’s name can be seen
+as largely a matter of the disproportionate impact that search engines have in determining a
+person’s public identity and the individual’s powerlessness to challenge that representation. As
+Vaidhyanathan notes, “[w]hen we complain about infringements of privacy, what we really
+demand is some measure of control over our reputations. Who should have the power to collect,
+cross-reference, publicize, or share information about us. . . . Privacy refers to the terms of
+control over information, not the nature of the information we share.”147 This is particularly
+important when considering the distorted view presented by the assortment of de-contextualized,
+disparate pieces of information from various periods of time that are returned in search results.
+“Although personal information can reveal quite a lot about people’s personalities and activities,
+it often fails to reflect the whole person,” notes Daniel Solove.148 There is much more to Mario
+Costeja’s life than the piece of property in Sant Feliu de Llobregat, Catalonia which he once
+jointly owned with his then-wife, yet as far as Google’s search results suggested before the
+ruling, the forced sale of this property was one of the most important things to know about him.
+By the time Costeja discovered that this information appeared in search results for his name, he
+no longer owned the property and had divorced. This outdated information was a central part of
+his identity on the Internet as defined by Google, though Costeja himself surely would not define
+himself according to property he once owned and the person to whom he was once married.
+Before the recognition of a right to be forgotten, Costeja had little or no power to change how he
+appeared in Google’s search results.
+
+147
+148
+
+Vaidhyanathan, The Googlization of Everything, 93.
+
+Daniel Solove, “Why Privacy Matters Even if You Have ‘Nothing to Hide,’”
+Chronicle of Higher Education, May 15, 2011, https://chronicle.com/article/Why-PrivacyMatters-Even-if/127461/, par. 23.
+60
+
+The effects of the CJEU’s decision in Google Spain v. AEPD should not be overstated.
+The ruling gives individuals a small amount of power to request the alteration of search results
+after the fact, allowing a person to request delisting of particular links only after they have
+already been included in search results and thus may have already caused the individual some
+kind of harm, and the ruling does not require the original publisher of the information to remove
+it. This formulation of a right to be forgotten thus is not a fundamental threat to the future of the
+Internet but rather a recognition of the genuine harms that inclusion in search results can pose for
+private citizens—and that the limitations on the lifespan and the size of the potential audience of
+information recorded in analog forms did in fact have beneficial effects even if they were
+accidents of the physical carriers on which information was recorded rather than the result of
+deliberate planning. It is a small step towards letting individuals have a say in how search
+engines represent them, and one which search engines should allow even in those jurisdictions
+where they are not required to do so by law.
+While the balancing test which the Advisory Council proposed may seem a reasonable
+basis for a delisting strategy that complies with the Google Spain v. AEPD decision, the
+recommendation that Google only delist links in the jurisdictions subject to the CJEU’s ruling
+makes little sense. If the point of requiring delisting under certain circumstances is to limit what
+kinds of information can be exposed through Google—and to how large an audience—surely
+requiring Google to remove the links from all versions of its search engine would best
+accomplish both of these tasks. Indeed, as it currently stands, a user in the European Union who
+wishes to see all search results for a particular query need only visit google.com instead of a
+
+61
+
+local version.149 It seems eminently possible that European users could develop a preference for
+“accessing the whole Internet” or “getting uncensored results” by exclusively using google.com,
+thereby circumventing the purpose of the CJEU’s ruling in Google Spain v. AEPD.150 In
+November 2014, a working party composed of data protection authorities from various European
+Union member nations issued a recommendation that Google delist links across all of its
+domains151—but thus far, Google seems intent on doing only that which is strictly required by
+the Google Spain v. AEPD decision and no more.
+Google would be wise to reconsider. While the European Union has taken the strongest
+steps towards recognizing a right to be forgotten, courts in other jurisdictions have offered more
+limited rulings requiring Google and other search engines to remove certain links from their
+search results: in October 2014, a court in Japan ordered that Google remove about 120 links to
+articles implying that a particular individual had a criminal past;152 in 2009, an Argentine court
+decision (later reversed by an appeals court) required Google and Yahoo to remove links to Web
+sites of a sexual or pornographic nature that were using photographs of a pop singer without her
+149
+
+Search results obtained via google.com versus (for example) google.es will differ in
+other respects as well, of course, with google.com’s focus being on English-language materials,
+different geographic customization of results, etc.
+150
+
+By default, Google redirects users accessing google.com in many countries to
+localized versions of their search page—e.g. users in France are redirected automatically to
+google.fr. Google does, however, allow users to override this redirection by clicking a link to
+google.com on localized versions or by using the URL http://www.google.com/ncr (“ncr” stands
+for “No Country Redirect”); “Google.com goes to the wrong Google page,” Google Inc.,
+accessed April 1, 2015, https://support.google.com/websearch/answer/873.
+151
+
+Mark Scott, “‘Right to Be Forgotten’ Should Apply Worldwide, E.U. Panel Says,”
+New York Times, November 26, 2014, http://www.nytimes.com/2014/11/27/technology/right-tobe-forgotten-should-be-extended-beyond-europe-eu-panel-says.html.
+152
+
+Megumi Fujikawa, “Google Suffers New Privacy Setback in Japan,” Wall Street
+Journal, October 10, 2014, http://www.wsj.com/articles/google-suffers-new-privacy-setback-injapan-1412933523.
+62
+
+permission;153 in California, a law which took effect on January 1, 2015 requires operators of
+Web sites and other online services to allow minors to delete any “content or information” which
+they post.154 Thus there is growing sentiment around the world to recognize various forms of
+digital forgetting. From a public relations standpoint, Google would be well-served by
+acknowledging this and preemptively establishing a worldwide policy allowing users to request
+delisting of links when certain criteria are met, rather than doing the bare minimum required by
+law in those jurisdictions that force it to do so.
+While the company still appears to aspire to its oft-mocked motto “don’t be evil,”155 it
+often demonstrates a “‘blind spot regarding the consequences’ of its actions. That blind spot is
+entirely self-inflicted,” as Morozov notes;156 “[t]ime and time again, its engineers fail to
+anticipate the loud public outcry over the privacy flaws in its products, not because they lack the
+technical knowledge to patch the related problems but because they have a hard time imagining
+an outside world where Google is seen as just another greedy corporation that might have
+incentives to behave unethically.”157 Google thus may not be motivated by an “evil” motive,
+
+153
+
+Edward L. Carter, “Argentina’s Right to Be Forgotten,” Emory International Law
+Review 27, no. 1 (2013): 25–26.
+154
+
+Melanie Mason and Patrick McGreevy, “Brown OKs Bill Allowing Minors to Delete
+Embarrassing Web Posts,” Los Angeles Times, September 23, 2013,
+http://articles.latimes.com/2013/sep/23/local/la-me-brown-bills-20130924. The statute in
+question is Cal. Bus. & Prof. Code §§ 22580–82 (West 2015).
+155
+
+The slogan still appears in the company’s Code of Conduct posted on its Investor
+Relations Web site: “Code of Conduct,” Google Inc., accessed April 1, 2015,
+http://investor.google.com/corporate/code-of-conduct.html, “Preface.”
+156
+
+Morozov (quoting Steven Levy), “Don’t Be Evil,” Part II, par. 6.
+
+157
+
+Ibid., Part I, par. 9.
+63
+
+such as greed or malice, but rather by simple obliviousness to the possible cultural and legal
+impact of its actions.
+But the fact that Google may be well-intentioned yet uninformed should not be
+comforting: as Brandeis wrote in his famous dissent in Olmstead v. United States—a case which
+ruled that the federal government had not violated the Fourth and Fifth Amendment rights of the
+defendant by wiretapping his telephone conversations and using the recordings as evidence of his
+involvement in a bootlegging operation—“[e]xperience should teach us to be most on our guard
+to protect liberty when the Government’s purposes are beneficent. Men born to freedom are
+naturally alert to repel invasion of their liberty by evil-minded rulers. The greatest dangers to
+liberty lurk in insidious encroachment by men of zeal, well-meaning but without
+understanding.”158 While Brandeis’ admonition concerned government encroachment on its
+citizens’ liberties in the 1920s, his words could well have been directed at Google today: a
+company of great technical acumen and market dominance, but which has steadfastly refused to
+consider the legal, cultural, and personal consequences that could follow from its actions.
+
+158
+
+Olmstead v. United States, 277 U.S. 438, 479 (1928).
+64
+
+Bibliography
+Advisory Council to Google on the Right to Be Forgotten. “Report of the Advisory Council to
+Google on the Right to Be Forgotten.” February 6, 2015. https://drive.google.com/a/
+google.com/file/d/0B1UgZshetMd4cEI3SjlvV0hNbDA/view.
+Ambrose, Meg Leta. “You Are What Google Says You Are: The Right to be Forgotten and
+Information Stewardship.” International Review of Information Ethics 17 (2012): 21–30.
+Ashenfelder, Mike. “The Average Lifespan of a Webpage.” The Signal: Digital Preservation,
+Library of Congress, November 8, 2011. http://blogs.loc.gov/digitalpreservation/2011/11/
+the-average-lifespan-of-a-webpage/.
+Bell, Gordon, and Jim Gemmell. Total Recall: How the E-Memory Revolution Will Change
+Everything. New York: Dutton, 2009.
+Bennett, Stephen C. “The ‘Right to Be Forgotten’: Reconciling EU and US Perspectives.”
+Berkeley Journal of International Law 30, no. 1 (2012): 161-195.
+Bernal, Paul. “The EU, the US and the Right to be Forgotten.” In Reloading Data Protection:
+Multidisciplinary Insights and Contemporary Challenges, edited by Serge Gutwirth,
+Ronald Leenes, and Paul De Hert, 61–77. Dordrecht, Netherlands: Springer, 2013.
+Blanchette, Jean-François, and Deborah G. Johnson. “Data Retention and the Panoptic Society:
+The Social Benefits of Forgetfulness.” The Information Society, no. 18 (2002): 33–45.
+Blom, J.C.H. “The Persecution of the Jews in the Netherlands: A Comparative Western
+European Perspective.” European History Quarterly 19 (1989): 333–351.
+Borges, Jorge Luis. “Funes, His Memory.” In Collected Fictions, translated by Andrew Hurley,
+131–137. New York: Viking, 1998.
+Bradshaw, Tim, Hannah Kuchler, and Sally Davies. “Apple Admits Celebrity Accounts
+Hacked But Denies iCloud Breach.” Financial Times, September 2, 2014.
+http://www.ft.com/cms/s/0/916d7d24-327e-11e4-93c6-00144feabdc0.html.
+Brin, Sergey, and Larry Page. “The Anatomy of a Large-Scale Hypertextual Web Search
+Engine.” Computer Networks and ISDN Systems 30, no. 1–7 (1998): 107–117.
+Carter, Edward L. “Argentina’s Right to Be Forgotten.” Emory International Law Review 27, no.
+1 (2013): 23–40.
+Case C-131/12, Google Spain SL v. Agencia Española de Protección de Datos (May 13, 2014), 3
+CMLR 50.
+
+65
+
+Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the
+Protection of Individuals with Regard to the Processing of Personal Data and on the Free
+Movement of Such Data, 1995 O.J. (L 281) 31.
+Duranti, Luciana. “Archives as a Place.” Archives & Manuscripts 24, no. 2 (1996): 445–466.
+Edgecombe, Jennifer. “Finding Aids.” In Keeping Archives, 2nd edition, edited by Judith Ellis,
+248–272. Port Melbourne, Australia: Thorpe in association with the Australian Society of
+Archivists Inc., 1993.
+Ernst, Wolfgang. Digital Memory and the Archive. Edited and translated by Jussi Parikka.
+Minneapolis: University of Minnesota Press, 2013.
+Fairless, Tom. “European Parliament Approves Google Breakup Resolution.” Wall Street
+Journal, November 27, 2014. http://www.wsj.com/articles/european-parliamentapproves-google-breakup-resolution-1417090210.
+Flaherty, David H. Protecting Privacy in Surveillance Societies: The Federal Republic of
+Germany, Sweden, France, Canada, and the United States. Chapel Hill: University of
+North Carolina Press, 1989.
+Floridi, Luciano. The Ethics of Information. Oxford: Oxford University Press, 2013.
+Fujikawa, Megumi. “Google Suffers New Privacy Setback in Japan.” Wall Street Journal,
+October 10, 2014. http://www.wsj.com/articles/google-suffers-new-privacy-setback-injapan-1412933523.
+Garside, Juliette. “Facebook Bows to Pressure on Privacy Settings for New Users.” The
+Guardian (London), May 22, 2014. http://www.theguardian.com/technology/2014/
+may/22/facebook-privacy-settings-changes-users.
+Gillespie, Tarleton. “The Relevance of Algorithms.” In Media Technologies: Essays on
+Communication, Materiality, and Society, edited by Tarleton Gillespie, Pablo J.
+Boczkowski, and Kirsten A. Foot, 167–193. Cambridge, MA: The MIT Press, 2015.
+Gilliland-Swetland, Anne J. Enduring Paradigm, New Opportunities: The Value of the Archival
+Perspective in the Digital Environment. Washington, DC: Council on Library and
+Information Resources, 2000. http://www.clir.org/pubs/reports/reports/pub89/pub89.pdf.
+Google Incorporated. “About Google.” Accessed April 1, 2015. http://www.google.com/
+about/.
+———. “Advisory Council.” Accessed April 1, 2015. http://www.google.com/advisorycouncil/.
+———. “Algorithms.” Accessed April 1, 2015. http://www.google.com/insidesearch/
+howsearchworks/algorithms.html.
+66
+
+———. “Cached link.” Accessed April 1, 2015. https://support.google.com/websearch/answer/
+1687222.
+———. “Code of Conduct.” Accessed April 1, 2015. http://investor.google.com/corporate/codeof-conduct.html.
+———. “Crawling and Indexing.” Accessed April 1, 2015. http://www.google.com/insidesearch/
+howsearchworks/crawling-indexing.html.
+———. “Dashboard data.” Accessed April 1, 2015. https://support.google.com/accounts/answer/
+162743.
+———. “Google.com goes to the wrong Google page.” Accessed April 1, 2015.
+https://support.google.com/websearch/answer/873.
+———. “How Content ID works.” Accessed April 1, 2015. https://support.google.com/youtube/
+answer/2797370.
+———. “How Search Works: From algorithms to answers.” Accessed April 1, 2015.
+http://www.google.com/insidesearch/howsearchworks/thestory/.
+———. “Legal Removal Requests.” Accessed April 1, 2015. https://support.google.com/legal/
+answer/3110420.
+———. “Privacy & Terms: FAQ.” Accessed April 1, 2015. https://www.google.co.uk/policies/
+faq/.
+———. “Removing Content From Google.” Accessed April 1, 2015. https://support.google.com/
+legal/troubleshooter/1114905.
+———. “Search removal request under data protection law in Europe.” Accessed April 1, 2015.
+https://support.google.com/legal/contact/lr_eudpa?product=websearch.
+———. “Submit a copyright takedown notice.” Accessed April 1, 2015.
+https://support.google.com/youtube/answer/2807622/.
+———. “Transparency Report: European privacy requests for search removals.” April 1, 2015.
+http://www.google.com/transparencyreport/removals/europeprivacy/.
+———. “2014 Financial Tables.” Accessed April 1, 2015. https://investor.google.com/financial/
+tables.html.
+———. “V. Cerf.” Accessed April 1, 2015. http://research.google.com/pubs/author32412.html.
+
+67
+
+Helft, Miguel, and David Barboza. “Google Shuts China Site in Dispute Over Censorship.”
+New York Times, March 22, 2010. http://www.nytimes.com/2010/03/23/technology/
+23google.html.
+Hern, Alex. “EU Commissioner: Right to Be Forgotten is No Harder to Enforce Than
+Copyright.” Guardian (London), June 4, 2014. http://www.theguardian.com/
+technology/2014/jun/04/eu-commissioner-right-to-be-forgotten-enforce-copyrightgoogle.
+Hof, Robert D. “Deep Learning.” MIT Technology Review, April 23, 2013.
+http://www.technologyreview.com/featuredstory/513696/deep-learning/.
+Instagram, Incorporated. “Controlling Your Visibility.” Accessed April 1, 2015.
+https://help.instagram.com/116024195217477/.
+Introna, Lucas D., and Helen Nissenbaum. “Shaping the Web: Why the Politics of Search
+Engines Matters.” The Information Society 16 (2000), 169-185.
+Jenkinson, Hilary. A Manual of Archive Administration, revised edition. London: Percy Lund,
+Humphries & Co. Ltd., 1937.
+Kang, Hyunjin, and Matthew P. McAllister. “Selling You and Your Clicks: Examining the
+Audience Commodification of Google.” tripleC: Communication, Capitalism & Critique
+9, no. 2 (2011): 141–153.
+Kassam, Ashifa. “Spain’s Everyday Internet Warrior Who Cut Free From Google’s Tentacles.”
+Guardian (London), May 13, 2014. http://www.theguardian.com/technology/2014/may/
+13/spain-everyman-google-mario-costeja-gonzalez.
+Ketelaar, Eric. “The Right to Know, the Right to Forget? Personal Information in Public
+Archives.” Archives and Manuscripts 23, no. 1 (May 1995), 8–17.
+Kirkpatrick, David. The Facebook Effect: The Inside Story of the Company That is Connecting
+the World. New York: Simon and Schuster, 2010.
+Koh, Yoree, and Rolfe Winkler. “Twitter Strikes Search Deal With Google to Surface Tweets.”
+The Wall Street Journal, February 5, 2015. http://www.wsj.com/articles/twitter-strikessearch-deal-with-google-to-surface-tweets-1423110651.
+Lanois, Paul. “Time to Forget: EU Privacy Rules and the Right to Request the Deletion of Data
+on the Internet.” Journal of Internet Law 18, no. 4 (2014): 20–28.
+Loi 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés [Law 78-17 of
+January 6, 1978 on Information Technology, Data Files and Civil Liberty], Journal
+Officiel de la République Française [J.O.] [Official Gazette of France], Jan. 7, 1978, 227.
+
+68
+
+Mason, Melanie and Patrick McGreevy. “Brown OKs Bill Allowing Minors to Delete
+Embarrassing Web Posts.” Los Angeles Times, September 23, 2013.
+http://articles.latimes.com/2013/sep/23/local/la-me-brown-bills-20130924.
+Mayer-Schönberger, Viktor. Delete: The Virtue of Forgetting in the Digital Age. Princeton, NJ:
+Princeton University Press, 2009.
+Miller, Claire Cain. “For Google, a Toehold Into Goods for a Home.” New York Times, January
+13, 2014. http://www.nytimes.com/2014/01/14/technology/google-to-buy-nest-labs-for-32-billion.html.
+Miller, Claire Cain, and Julie Bosman. “Siding With Google, Judge Says Book Search Does Not
+Infringe Copyright.” New York Times, November 14, 2013. http://www.nytimes.com/
+2013/11/15/business/media/judge-sides-with-google-on-book-scanning-suit.html.
+Moran, Chris. “Things to Remember About Google and the Right to Be Forgotten.” Guardian
+(London), July 3, 2014. http://www.theguardian.com/technology/2014/jul/03/googleremember-right-to-be-forgotten.
+Morozov, Evgeny. “Don’t Be Evil.” The New Republic, July 13, 2011.
+http://www.newrepublic.com/article/books/magazine/91916/google-schmidt-obamagates-technocrats.
+Olmstead v. United States, 277 U.S. 438 (1928).
+“Ordering Google to Forget.” Editorial. New York Times, May 13, 2014.
+http://www.nytimes.com/2014/05/14/opinion/ordering-google-to-forget.html.
+Pasquale, Frank. The Black Box Society: The Secret Algorithms That Control Money and
+Information. Cambridge, MA: Harvard University Press, 2015.
+Pearce-Moses, Richard. “A Glossary of Archival and Records Terminology.” Society of
+American Archivists. Accessed April 1, 2015. http://www2.archivists.org/glossary.
+Raymond, Matt. “The Library and Twitter: An FAQ.” Library of Congress Blog, April 28, 2010.
+http://blogs.loc.gov/loc/2010/04/the-library-and-twitter-an-faq/.
+Rojas, Rick. “CHP Settles Over Leaked Photos of Woman Killed in Crash.” Los Angeles Times,
+January 31, 2012. http://articles.latimes.com/2012/jan/31/local/la-me-chp-photos20120131.
+Rosen, Jeffrey. “Google’s Gatekeepers.” New York Times, November 30, 2008.
+http://www.nytimes.com/2008/11/30/magazine/30google-t.html.
+———. “The Right to Be Forgotten.” Stanford Law Review Online 64 (February 13, 2012): 8892. http://www.stanfordlawreview.org/online/privacy-paradox/right-to-be-forgotten.
+69
+
+Rosenberg, Jonathan. “The meaning of open.” Google Official Blog, December 21, 2009.
+http://googleblog.blogspot.com/2009/12/meaning-of-open.html.
+Sample, Ian. “Google Boss Warns of ‘Forgotten Century’ With Email and Photos At Risk.”
+Guardian (London), February 13, 2015. http://www.theguardian.com/technology/
+2015/feb/13/google-boss-warns-forgotten-century-email-photos-vint-cerf.
+Scott, Mark. “Google Ready to Comply With ‘Right to Be Forgotten’ Rules in Europe.” New
+York Times, June 18, 2014. http://bits.blogs.nytimes.com/2014/06/18/google-ready-tocomply-with-right-to-be-forgotten-rules-in-europe/.
+———. “‘Right to Be Forgotten’ Should Apply Worldwide, E.U. Panel Says.” New York Times,
+November 26, 2014. http://www.nytimes.com/2014/11/27/technology/right-to-beforgotten-should-be-extended-beyond-europe-eu-panel-says.html.
+Solove, Daniel. “Why Privacy Matters Even if You Have ‘Nothing to Hide.’” Chronicle of
+Higher Education, May 15, 2011. https://chronicle.com/article/Why-Privacy-MattersEven-if/127461/.
+Streitfeld, David. “European Court Lets Users Erase Records on Web.” New York Times, May
+13, 2014. http://www.nytimes.com/2014/05/14/technology/google-should-erase-weblinks-to-some-personal-data-europes-highest-court-says.html.
+“Subhasta d’immobles.” La Vanguardia (Barcelona), January 19, 1998.
+http://hemeroteca.lavanguardia.com/preview/1998/01/19/pagina-23/33842001/pdf.html.
+Sullivan, Danny. “Yahoo Directory Closes, Five Days Early.” Search Engine Land, December
+27, 2014. http://searchengineland.com/yahoo-directory-closes-211784.
+Sweeney, Latanya. “Discrimination in Online Ad Delivery.” Communications of the ACM 56,
+no. 5 (2013): 44–54.
+“10 years later, ‘Star Wars Kid’ speaks out.” Maclean’s, May 9, 2013. http://www.macleans.ca/
+news/canada/10-years-later-the-star-wars-kid-speaks-out/.
+Thomassen, Theo. “A First Introduction to Archival Science.” Archival Science 1, no. 4 (2001):
+373–385.
+Toobin, Jeffrey. “The Solace of Oblivion.” The New Yorker, September 29, 2014.
+http://www.newyorker.com/magazine/2014/09/29/solace-oblivion.
+Twitter, Incorporated. “About public and protected Tweets.” Accessed April 1, 2015.
+https://support.twitter.com/articles/14016-about-public-and-protected-tweets.
+
+70
+
+Vaidhyanathan, Siva. The Googlization of Everything (And Why We Should Worry). Berkeley:
+University of California Press, 2011.
+“Venda directa d’immobles.” La Vanguardia (Barcelona), March 9, 1998.
+http://hemeroteca.lavanguardia.com/preview/1998/03/09/pagina-13/33837533/pdf.html.
+Volokh, Eugene, and Donald M. Falk. “First Amendment Protection for Search Engine Search
+Results.” Competition: The Journal of the Antitrust and Unfair Competition Law Section
+of the State Bar of California 23, no. 1 (Spring 2014): 112–124.
+Warren, Samuel. D., and Louis D. Brandeis. “The Right to Privacy.” Harvard Law Review 4, no.
+5 (1890): 193–220.
+Weinberger, David. Everything is Miscellaneous: The Power of the New Digital Disorder. New
+York: Times Books/Henry Holt and Company, 2007.
+Winter, Jessica. “The Advantages of Amnesia.” Boston Globe, September 23, 2007.
+http://www.boston.com/news/globe/ideas/articles/2007/09/23/
+the_advantages_of_amnesia/.
+Womack, Brian. “Google Loses Most Search Share Since 2009 While Yahoo Gains.”
+Bloomberg. Last modified. January 7, 2015. http://www.bloomberg.com/news/articles/
+2015-01-07/google-loses-most-u-s-search-share-since-2009-while-yahoo-gains.
+YouTube LLC. “YouTube Community Guidelines.” Accessed April 1, 2015.
+http://www.youtube.com/t/community_guidelines.
+
+71
+
+

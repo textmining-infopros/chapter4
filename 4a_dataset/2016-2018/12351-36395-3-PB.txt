@@ -1,0 +1,298 @@
+DESIDOC Journal of Library & Information Technology, Vol. 38, No. 1, January 2018, pp. 27-33, DOI : 10.14429/djlit.38.1.12351 
+ 2018, DESIDOC 
+Implementation of RFID Technology at Defence Science Library,  
+DESIDOC : A Case Study 
+Faizul Nisha 
+DRDO-Defence Scientifc Information and Documentation Centre, Delhi - 110 054, India 
+E-mail: faizi123.drdo@gmail.com 
+AbSTRACT 
+Radio Frequency IDentifcation (RFID) as a tool is being used for the better governance and management of  libraries. A RFID system offers a complete package from security, theft detection, tracking, monitoring, inventory  control, and act as an expedient in books circulation or charging and discharging of books; and, lessens the burden  of librarians, who could be better redeployed to other productive activities in the service of the readers. RFID  technology was implemented in Defence Science Library, Defence Scientifc Information & Documentation Centre  (DESIDOC), Delhi, in 2013. The study describes the process of implementation of RFID system in the Defence  Science Library, at DESIDOC. It provides an overview of the work to implement the RFID system including the  philosophy or the background or thought process that had gone into deciding in its implementation, the various  features, technical specifcation of the library automation software and system itself. The constraints faced during the  data migration and the visible advantages from the users’ perspective vis-à-vis manual operation are also covered.  The study concludes that implementation of RFID technology has brought a bouquet of benefts to librarians, the  
+staff and scientists or user of the Library.   
+Keywords: RFID; Defence Science Library; Implementation; Library Security; Library Administration    
+1. InTRODuCTIOn 
+Information  communication  and  technology  (ICT)  is  a manifestation of all forward looking organisations. It is an  enabler of signifcant changes in the society and fundamentally  has  impacted  the  lives  of  people  and  governance.  The  combination of IT and communication offers agility, fexibility,  response, effectiveness and has profound impact in enhancing  the capabilities where the need for federated information and  data in real time cannot be over emphasised1.  
+Not  to  be  left  behind  in  the  race  to  catch  up  with  the  dynamically evolving technologies, libraries also have shifted  gears and embraced advanced technologies to modernise and  automate library functions to the extent possible. So far libraries  have fared very well; adapting to all modern gadgetries and  advance  technologies  with  the  vision  of  providing  a  unique  experience every time a reader walked in2. 
+This  study  chose  the  subject  of  radio  frequency  identifcation (RFID), primarily on the premise that it offers a  wide range of advantages to all concerning in the community  comprising of librarian and readers. It is one of the innovations  built over radio frequency (RF), was frst introduced in 1998  but  took  time  to  gain  prominence  to  enable  tags  to  identify  themselves  to  a  radio  receiver.  The  tags  are  attached  to  a  staggering  range  of  items  with  a  wide  range  of  applications  from  cars  (electronic  tolls)  to  earrings  (brand  protection)  to  library books. It provides a pin-pointed information about the  product being tracked.  
+Received : 15 October 2017, Revised : 07 December 2017  Accepted : 15 Deczember 2017, Online published : 01 January 2018 
+The  history  of  RFID  goes  back  to  the  World  War  II  when the Britishers used it for the frst time to identify their  own  aircrafts.  It  was  later  utilised  by  the  US  Government  to supervise nuclear and other hazardous materials. Later in  1970s, the technique was thrown open for public use as Los  Alamos Scientifc Laboratories shared the technology for the  public use. It was Mario E Cardullo from the US who acquired  a patent for an active RFID tag with rewritable memory. Soon  after in 1973, Charles Walton from California obtained another  patent for passive transponder to unlock a door without the key3.  In India, RFID technique was frst used in 1940 for defence  related application whereas for commercial purpose, it was frst  used in 1980 for a cattle-tracking application. The commercial  usage of RFID in library-applications in India started in later  half  of  1990s.  With  increase  in  usage  and  intricacy,  new  standards were developed to make RFID systems functional  and compatible4.  
+In context of library-applications of RFID, Seattle Library  Project is the world’s largest library, whereas Shenzhen stands  at second position. At present, RFID has multiple applications  in real world like access control, security, tracking of objects  and people in public places (shops, libraries etc)3. 
+2. LITERATuRE   R EvIEw 
+RFID  is  a  technology  that  uses  wireless  radio  communications for unique identifcation of people or assets.  It  allows  the  tracking  of  an  item  such  as  a  library  book  by  transmission  of  radio  waves,  an  amalgamation  of  radio  frequency  and  microchip5.    “When  the  tagged  object  moves  
+27 
+
+========1========
+
+DJLIT, VOL.  38,  NO.  1,  JANUARy  2018 
+within the range of an RFID reader the reader will pick up the  wireless signal from the tag and the information can then be  redirected to a computer system for processing”6. 
+The RFID implementation across the libraries in Indian  Institutes of Technology revealed that out of ten libraries fve  were using RFID. Libraries whose collection were more than  50000,  have  initiated  to  install  RFID  in  their  libraries.  Cost  constraint is the basic reason behind not implementing RFID  technology. The lack of technology experts, integration with  current  systems  or  processes  and  diffculty  in  integrating  with existing library automation systems are barriers to RFID  systems7.  Shalini8,  found  that  users  are  highly  satisfed  with  the self-check system and do not fnd it diffcult at the time of  using it. 
+Roy & Kumar9, reveals that users are extremely satisfed  with the RFID applications in the library.  The book drop box  facility  was  found  to  be  very  well  accepted  among  the  user  group, because of its 24 x 7 availability, the hosteller were able  to return their books in the evening also. 
+Impact of RFID Technology on the library services and  activities has increased the self check-out and check-in of books  after the implementation of RFID. Another study found RFID  to be more helpful in reducing book thefts. A great impact on  the students was seen, motivated by the RFID system because  of time saving and convenience to get the books issued and  return books even after working hours10. 
+Some  of  the  major  benefts  of  RFID  technology  highlighted  by  the  respondents  include,  fast  circulation  transactions, multiple documents’ self check-in, self check-out,  user privacy, reliability, and reservation of books was indicated  as the topmost service. Lack of information appeared to be a  common problem as quoted by the users11. 
+Cunningham12   analysed  the  implementation  of  RFID  at  the Pilkington Library and concluded that implementation was  an unequivocal success: issue and return of documents were  surpassed within three months and staffng costs were reduced. 
+Bansode13   studied  implementation  of  RFID  system  at  University of Pune Jayakar Library, has observed that library  staff initially faced problem while working with RFID due  to lack of training and not having technical knowledge of  RFID and software. Later on library organised number of  training programmes to get its staff better acquainted with  the working of RFID and it has minimised the problem of  issue return, stock verifcation and proved to be an asset for  its people. 
+3. COmpOnEnTS OF   RFID T EChnOLOgy  3.1 RFID  Tags  
+RFID tags are called as transponders or labels. Tags are  more  or  less  microchips,  attached  to  an  antenna.  It  receives  the radio signals and in response sends out a radio signal to  the reader. Each tag contains a unique serial number and the  product  information. The  storage  of  information  on  a  RFID  tag  depends  upon  the  vendor,  application  and  type  of  tag,  but  typically  a  tag  does  not  contain  more  than  2-kilo  bytes  of data, which is suffcient to accumulate the basic necessary  information  of  an  item14.  RFID  tags  may  be  of  two  types:  Active Tags and Passive Tags. 
+28 
+3.1.1     Active  Tags 
+  They  have  their  own  power  source  –  an  internal  battery  that  possesses  longer  ranges  and  larger  memories  as  compared  to  passive  tags.  These  tags  consist  of  a  reader  / interrogator, antenna, and a tag. Active RFID tags are of two  types – transponders and beacons and work under two main  frequencies of 433 MHz and 915 MHz. RFID systems working  on 433 MHz are more favoured because of having an extensive  wavelength allowing it to work with non-RF friendly materials  such as metal and water15. 
+3.1.2      Passive  Tags 
+Passive  RFID  tags have  no  internal  power  source,  and  constitute an integrated circuit and internal antenna which is  commonly referred to as anRFID inlay. They are available in  all shapes and sizes and are usually intended for a particular  function, material, or application. 
+Passive RFID tags operate at different frequencies. The  principal frequencies within which passive RFID tags act have  been classifed as follows: 
+• Low Frequency  -  It lies in the range extending from 125  
+KHz  -  134  KHz  and  operates  from  huge  wavelength  
+with generally a short read range of about 1-10 cm. This  
+frequency can formally be used with animal tracking, as it  
+is not merely affected much by water or metal. • High  Frequency  and  Near-Field  Communication-  It  
+operates at a frequency of 13.56 MHz. It is an average  
+wavelength usually read range of about 1 cm up to 1 m.  
+This frequency is ideal for applications need not require a  
+long read range. Examples are: data transmissions, access  
+control applications, DVD kiosks, and passport security  
+etc. 
+• Ultra High Frequency - It runs at a frequency range from  
+865 MHz - 960 MHz. It is usually a short, high-energy  
+wavelength of about 1 m decoded to long read range. An  
+average distance of about 5 m – 6 m is needed to read  
+UHF, but up to 30 m or above is necessary to read larger  
+UHF tags. It is generally used with race timing, IT asset  
+tracking, fle tracking, and laundry management as these  
+applications require a distance of a meter of read range16. 
+3.2 RFID  Reader 
+RFID  reader  acts  as  a  link  between  RFID  tags  and  the   server.  It  is  a  bidirectional  device,  which  can  transmit  information  in  both  the  directions  i.e.  from  the  tag  to  the  server (read mode) and from the server to the RFID tag (write  mode).  RFID  reader  consists  of  three  basic  units:  a  radio  frequency module, a control unit and an antenna. These units  communicate the electronic tags through radio frequency (RF)  communication. The antenna generating the RF feld is powered  by the reader. The reader interprets the information stored in  the chip when the tag passes through the feld and sends to the  server. After this, when the RFID system is interfaced with the  server, it communicates with the integrated library system5. 
+3.3 Antenna 
+The  antenna  acts  as  the  connecting  channel  between  RFID  tags  and  the  coupler.  The  radio  waves  activating  the  
+
+========2========
+
+NISHA : IMPLEMENTATION OF  RFID T ECHNOLOgy AT  D EFENCE  S CIENCE  L IBRARy, DESIDOC : A CASE  S TUDy 
+RFID tags are generated by the RFID antennas when they are  passing through the activation feld. After a tag is activated, it  can communicate with the coupler in both the directions. When  multiple tags are expected in continuation, the electromagnetic  feld generated by an antenna exists without interruption5. 
+3.4   w orking  of  RFID 
+Self-checking  systems  can  be  used  to  fully  automate  the  borrowing  and  returning  of  books.  The  same  has  been  implemented at DESIDOC. Libsys, a specialised software is  being used at Defence Science Library, DESIDOC to perform  this.  Options  are  displayed  on  the  computer  screen  to  the  person using this system to borrow books. A unique code is  generated to identify the person. This code acts as a personal  identifcation number for the concerned library member. The  system has a built-in RFID reader, which helps in identifying  the  books  chosen  by  the  library  user.  Following  this,  the  check-in/out system deactivates the surveillance bit and again  activates it once the book is returned. Typical working of RFID  system17  has been shown in Fig. 1. 
+Figure 1. working of RFID. 
+4. SCOpE OF ThE   S TuDy 
+The  study  has  been  restricted  to  the  Defence  Science  Library,  DESIDOC,  Delhi.  The  study  is  based  on  the  implementation of RFID systems at DSL. 
+5.   nEED OF   RFID  FOR   D EFEnCE   S CIEnCE 
+LIbRARy 
+The  Library  of  Defence  Scientifc  Information  &  Documentation Centre (DESIDOC), Delhi  is known as Defence  Science Library. It has a rich collection of more than 75,000  books in various felds of S&T including rockets and missiles,  defence electronics, physical and life sciences, material science,  military science and technology, management, materials, and  naval R&D, etc. In addition to books, it has access to 2 lakhs  technical reports and 1 lakh bound volume of periodicals18.  
+The  library  is  housed  in  a  fve-storied  building  and  
+the  collection  is  arranged  at  each  foor  of  the  library.  Stock  taking of library documents was a tedious task and involves a  substantial resources.  
+Earlier,  Library  was  using  in-house  Defence  Library  Automation  Software  (DeLAS)  developed  and  maintained  by  DESIDOC  using  VB,  Java  and  MySQL  for  handling  ;  acquisition,  serial  control,  circulation,  and  OPAC.  Common  communication  format  (CCF)  was  used  for  creating  bibliographical records and for exchanging records. Since the  CCF format was not widely used in recent times, it was decided  to switch over to MARC records for exchange of information  with other library database. 
+To improve stock taking and circulation process, it was  decided  to  implement  RFID  system  for  library  documents.  Integration  of  RFID  system  with  existing  software  was  also  a  time-consuming  process  that  involved  a  huge  team  of  IT  professions.  To  avoid  this  delay  in  implementing  RFID  systems  along  with  web-based  library  automation  software,  it  was  proposed  to  implement  commercial  software  Libsys,  which has many features well suited to cater the requirements  of DSL. 
+The implementation of RFID in the library was done  
+in  2013  which  has  helped  providing  and  accessing  pin  
+pointed, exhaustive and expeditious information services. 
+6. ImpLEmEnTATIOn OF   RFID      
+TEChnOLOgy  
+In  order  to  assess  the  viability  of  the  RFID  implementation,  an  informal  group  of  experts  was  constituted. The group had discussions on distinct facets  comprising budget, essential hardware and software, cost- effectiveness and the availability of manpower. The experts  fnally  reached  at  a  consensus  and  decided  that  RFID  provides more security with effcient tracking of materials  throughout the library, including easier and faster charging  and discharging of documents, the potential to generate an  inventory, curtailing the manual intervention and efforts in  charging and discharging the documents manually. Earlier  studies  also  recommended  outsourcing  of  the  job    for  carrying out the initial work of implementing RFID13. 
+6.1 Outsourcing  and  Overall  Requirement 
+As  per  requirement  of  RFID  system,  data  migration  of  library  records  from  CCF  format  to  MARC21  format  was  carried out. After verifying the accuracy of each record, RFID  tags  were  placed  on  each  record  and  activated.  The  whole  library data migration and RFID tagging was outsourced and  completed  around  three  months.  Outsourcing  of  manpower  was done for carrying out the work as the existing staff of the  library was busy with their routine assignments.  
+The  outsourced  firm  charged  reasonable  cost  per  record  for  removing  the  books  from  the  shelves,  placing  the  tags  on  books,  verifying  bibliographical  records  in  the  database  and  activation  of  tags. The  total  cost  of  the  outsourced activity was reasonable which included library  automation along with 50,000 RFID tags, hardware, shelf  management  system,  and  outsourcing  of  other  necessary  activities as listed in the Table 1. 
+29 
+
+========3========
+
+DJLIT, VOL.  38,  NO.  1,  JANUARy  2018 
+Table 1. Overall system requirements 
+product description Web Centric LIBSyS7 software RFID tags 
+Multipurpose RFID staff station EAS gate antenna 
+Shelf management system Library membership cards Dual side smart card printer Migration of data  
+Implementation and installation  Pasting and tagging of books Training 
+Quantity 1 50,000 2 1 pair 1 500 1 1 Lump sum 50,000 4 persons 
+6.2 Technical  Specification 
+Table 2 presents the technical specifcation required for  the  installation  of  library  automation  software  (LibSys)  and  RFID systems. 
+6.3 Features  
+The software is integrated with the modules of acquisition,  cataloguing,  circulation,  serial  control,  article  indexing  and  WebOPAC. It also supports UNICODE and having windows  based gUI. One can use web browser to access the system.  It  also  supports  Z39.50  for  information  exchange  between  the  library  databases.  The  users  can  also  review/rate  the  titles, e-mail and send SMS notifcation. OAI-PMH support,  RSS  feeds  and  many  more  features  are  available  in  the  software.   
+Screenshots of LSmart module of circulation in LibSys is  shown in Fig. 2(a) and 2(b)19. 
+7. (i) 
+ISSuES  wh ILE ImpLEmEnTIng  RFID Conversion of records from CCF to MARC format was  a challenging task since both formats are different from  
+(a) 
+each  other.  The  identifcation  of  felds  in  each  format  
+and placing the correct feld and verifcation of records  
+consumed initially a month period. The CCF format records  
+were exported to Excel sheet along with delimiters and  
+exported the records in MARC21 format in the database.  
+After migration, a random checking had been carried out  
+for accuracy of records. At the initial phase, the records  
+of books were migrated followed by standards, reports,  
+patents,  current  periodicals  and  bound  volumes.  Since  
+the user records were to be migrated with 100 per cent  
+accuracy, as such all 2000+ user records were manually  
+verifed. In addition, the second level of verifcation was  
+also  carried  out  before  activation  of  RFID  Tags  after  
+placing it in a book. 
+(ii) Due to lack of manpower, shelving was not carried out  
+properly after activation of RFID tags. This lead again the  
+library staff to do the shelving of books afresh. (iii) Positioning of electronic article surveillance at the main  
+entrance was again a challenging task, since the library  
+foors made with ceramic tiles. While drilling the foor,  
+the ceramic tiles were broken which led to the delay in  
+mounting the surveillance system. To avoid such breaking  
+of  ceramic  tiles  again,  a  punching  machine  for  tiles  
+was  brought  in  and  fnally  the  surveillance  system  was  
+installed. 
+(iv) Stocktaking  was  one  of  the  prime  considerations  for  
+implementing RFID systems; however, while doing stock  
+verifcation, data was not accessible at the two edges of  
+each bookshelf. Given the fact, the books were manually  
+removed from the shelves for reading the tags. This leads  
+to manual interaction with automation system and proves  
+that RFID tags cannot be read through metal or wooden  
+surface. 
+8.   bE nEFIT OF   RFID  AFTER 
+ImpLEmEnTATIOn 
+After the implementation of RFID system, the users avail  the  fast  issuing,  reissuing  and  returning  of  the  documents  
+(b) 
+Figure 2. (a) LSmart module of LibSys software and (b) Snapshot of Libsys RFID. 
+30 
+
+========4========
+
+NISHA : IMPLEMENTATION OF  RFID T ECHNOLOgy AT  D EFENCE  S CIENCE  L IBRARy, DESIDOC : A CASE  S TUDy 
+Table  2. Technical specifcation 
+Requirements Software requirements 
+Technical specifcation 
+- License of LIBSYS7 software on one Server under Linux/Windows platform.  - Access of LIBSyS7 software by 5 concurrent housekeeping Users.  - Browser based access of OPAC by 50 Concurrent users.  
+- Data conversion from existing data in Excel to LIBSYS7 software.  - 4 days onsite briefng on LIBSYS7 LMS.  
+- Supply of installation guide along with manual on CD media. 
+- Data Migration from CCF to MARC21 
+RFID membership smart cards 
+- HF 13.56 MHz 
+- ISO 15693 
+- User details along with photo, organisation logo printed on the cards. 
+RFID tags for books 
+- HF 13.56 MHz 
+- ISO 15693 
+- Operation mode: Passive 
+- Suitable for book tagging 
+- Availability of security bit for EAS Application. - Adhesive for tags withstand temp. -25 °C to 70°C. - Memory: 1024 bits 
+Multipurpose RFID Staff Station  (Tagging, issue, return and renewal) 
+- HF 13.56 MHz 
+- Operating read range between 20-30 cm. - RFID reader/writer integrated with antenna. - Supports ISO 15693 transponders. - Full anti-collision support. 
+- Operating temperature 0 °C to 40 °C - Weight 1 kg 
+Shelf management system 
+- Operating frequency HF 13.56 MHz 
+- Support ISO 15693  
+- Anti-collision support 
+- Dimensions 
+  Antenna: 60 cm  long 
+  Reader:  19 cm x 11 cm x 6 cm  
+- Wi-Fi Library Inventory Antenna + Reader (to enable Stock Checking; Sorting; Locating)  including LSmart Client software along with mini laptop/tablet PC 
+- Operating Temperature: 0 °C to + 55 °C 
+EAS equipment  
+- Fit for books surveillance application  
+- Operating frequency HF 13.56 MHz 
+- RFID reader/writer integrated with antenna 
+- Supports ISO 15693 Transponders 
+- Full anti-collision support 
+- Built-in buzzer alarm  
+- Operating temperature -10 °C to 50 °C 
+- Inner cabling connection between EAS and Check-in & Check-out station - Dimension: 1846 mm x 546 mm x 45 mm 
+Card printer Dual Side Smart Card Printer with Cleaning Kit 
+Middleware - Provision of middleware application having all necessary device drivers and error  
+handling application. 
+Integration with the library management  - Continuous updating of check-in/check-out information from the check-in/check-out  system   desk. 
+- Batch mode download from stock counter. 
+- Interfacing with EAS gate reader. 
+Training 
+- Initial training to DESIDOC personnel for proper operation of the software. 
+through self-help desks. Tasks such as exploring the number  of books concurrently, searching a specifc book to examine  its existence in the library, locating the physical position of a  book, accounting/stock verifcation of the materials, anti-theft  detection  system  and  authentication  is  carried  out  by  using  
+RFID  technology.  Simultaneously,  the  tedious  job  of  stock  taking of library documents has become easier for the library  staff.  
+It has made the routine functioning of the library easier  and is being generally setup at the following locations: 
+31 
+
+========5========
+
+DJLIT, VOL.  38,  NO.  1,  JANUARy  2018 
+(i) Desktop reader/writer at the circulation counter. (ii) Electronic article surveillance system at DSL entry gate. (iii) Stock checking equipment used for the entire library. 
+9. COnCLuSIOnS 
+The RFID technology has become an innate part of all  modern libraries, information centres and knowledge centres,  and  has  proved  that  it  is  effcient,  effective,  user  friendly,  and  expedient.  It  is  much  better  and  improved  technology  over conventional barcodes system. Although it is expansive  now, but with the time and increase in usability, it is hoped  that  sooner  than  later  it  will  be  affordable  even  for  a  small  budgeted library. Needless to mention that it is just about the  right  time  for  the  rightfully  adaption  of  this  revolutionary  technology to reap high returns in terms of effcient services and  satisfaction. 
+The RFID technology extensively benefted the staffers  and the readers of Defence Science Library both in terms of  provision  and  availing  services.  The  ever-increasing  library  collections,  stock  verifcation  and  tracking  of  books  had  become a cumbersome and humanly impossible to handle. The  diminishing resources, lack of trained and skilled manpower  was some of the factors which forced DESIDOC to look for  innovative solutions and RFID was just about the solution that  was needed.  
+RFID  offers  quicker  and  faster  circulation  of  books,  including  check-in,  checkout  and  renewal  without  wasting  readers  time.  Record  keeping,  and  shelving  of  the  books  has  become  easier. The  requisite  manpower  to  discharge  all  these  housekeeping  operations  is  minimised,  and  have  been  redeployed for better and productive assignments in the service  of readers. The system has also put a check on the misplacing  of books, stealing and wrongful documentation.  
+There is a very little doubt that RFID technology is, the  solution, but comes with relatively prohibited cost. For a small  size library, the return-on-investment does not make much of  economic sense to them20.  
+However, as the interest in RFID as a solution to optimise  further the automation and tracking of documents are gathering  momentum at an increasing pace with more libraries joining  the trails, it is expected that cost will soon be affordable and  make  a  good  economic  wisdom  both  for  large  and  small  libraries.  
+REFEREnCES 
+1. LibBest. RFID Technology for libraries. http://www.rfd- 
+library.com  (Accessed on 30 November 2017). 2. Edwards,  S.  &  Fortune,  M.  About  RFID:  What  is  it?  
+BICe4libraries project: A guide to RFID in Libraries; 2008,  
+pp.  4-5.  http://www.bic.org.uk/fles/pdfs/090109%20 
+library%20guide%20fnal%20rev.pdf (Accessed  on  30  
+November 2017). 
+3. Hasan,  Nabi.  Roadmap  for  RFID  Implementation  in  
+Libraries: Issues and challenges. Int. J. Info. Libr. Soc.,  
+2014, 3(1), 65-71. 
+4. Nagalaxmi,  L.R.A.  Deployment  of  RFID  (Radio  
+Frequency  Identifcation)  at  Indian  academic  libraries:  
+32 
+Issues and best practice. Int. J. Libr. Info. Sci., 2011, 3(2),  
+34-37. 
+5. Singh, g. & Midha, M. RFID: A new technology in library  
+management systems. J. Interlibrary Loan Doc. Delivery  
+Electron. Reserve, 2008, 18(4), 439-447. 
+6. Rafq,  M.  Radio  frequency  identifcation  (RFID):  Its  
+usage  and  libraries.  e-prints  in  Library  &  Information  
+Science;  2004  [Pre-print],  https://core.ac.uk/download/ 
+pdf/11878395.pdf (Accessed on 12 June 2017). 7. Kale, Pallavi & Bherwani, M.T. Implementation of RFID  
+in Indian scenario: A case study. Int. J. Technol.,  2017,  
+7(1), 51-55. 
+8. Shalini,  g.A.  RFID  technology  at  Mahatma  gandhi  
+University  Library:  A  case  study.  In   Proceedings  of  
+11th   International  CALIBER  on  Re-Envisioning  Role  
+of  Libraries:  Transforming  Scholarly  Communication,  
+Infibnet  Centre,  Chennai,  Tamil  Nadu,  2017,  pp.  510- 
+517. 
+9. Roy,  P.  &  Kumar,  S. Application  of  RFID  in  Shaheed  
+Rajguru College of applied sciences for Women library,  
+University of Delhi, India: Challenges and future prospects.  
+Qualitative  and  Quantitative  Methods  Libraries,  2016,  
+5(1), 117-130. 
+10. Khanna, S. Impact of RFIDtechnology on library services:  
+A  case  study  of  A.C.  Joshi  library,  Panjab  University,  
+Chandigarh. Int. J. Digital Library Services, 2014, 4(2),  
+117-126. 
+11. Madhusudhan M. & gupta, Parul. Use of RFID technology  
+by students in Indian Institute of Technology, Delhi and  
+Indian  Law  Institute,  Delhi:  A  Survey.  World  Digital  
+Libraries, 2014, 7(2), 145-156. 
+12. Cunningham, M.S. A case study into the implementation  
+of  RFID  at  the  Pilkington  Library  Loughborough  
+University. Loughborough University. 2010. A Master’s  
+Dissertation, 62p. https://dspace.lboro.ac.uk/dspace-jspui/ 
+bitstream/2134/8820/1/MAdissertation-Cunningham.pdf 
+(Accessed on 10 October 2017). 
+13.  Bansod e, S.y. & Desale, S.K. Implementation of RFID  
+technology  in  University  of  Pune  Library. Program,  
+2009, 43(2), 202-214.  
+doi: 10.1108/00330330910954406 
+14. RFID  frequently  asked  question.  RFID  Journal;  2017,  
+https://www.rfdjournal.com/faq/show?66 (Accessed  on  
+12 June 2017). 
+15. RFID Insider: Tracking the RFID industry. https://www. 
+atlasrfdstore.com/active-rfd/ (Accessed  on  12  June  
+2017). 
+16. Smiley, S. Active  RFID  vs.  Passive  RFID:  What’s  the  
+difference?  2016.  http://blog.atlasrfdstore.com/active- 
+rfd-vs-passive-rfd. (Accessed on 12 June 2017). 17. Pal,  P.  Radio  Frequency  Identifcation  (RFID)  in  
+healthcare.  Ingenious   (web  magazine).  http://www.nie. 
+gov.in/ezine/ezine2.4/images/Technofle1.jpg (Accessed  
+on 14 September 2017. 
+18.  About  DESIDOC.  http://www.drdo.gov.in/drdo/labs/ 
+DESIDOC (Accessed on 12 September 2017 ) 19. About LibSys. http://www.libsys.co.in/ (Accessed on 12  
+June 2017). 
+
+========6========
+
+NISHA : IMPLEMENTATION OF  RFID T ECHNOLOgy AT  D EFENCE  S CIENCE  L IBRARy, DESIDOC : A CASE  S TUDy 
+20. Narayanan,  A;  Sanjay  Singh;  &  Somasekharan,  M.  
+Implementing  RFID  in    Library:  Methodologies,  
+advantages  and  disadvantages.  In  Proceedings  of   
+Recent  Advances  in  Information  Technology,  IGCAR,  
+Kalpakkam,  2005,  http://www.libsys.co.in/download/ 
+implementing_rfd_in_Libraries.pdf (Accessed  on  30  
+November 2017). 
+COnTRIbuTOR 
+Dr  Faizul nisha   received  her  MSc,    MLISc    and  PhD  from  Aligarh  Muslim  University, Aligarh.  Presently  she  is  working  as Technical Officer in DRDO-Defence Scientific Information  and  Documentation  Centre,  Delhi.  She  has  published  35  research papers in journals and 2 books. Her areas of interest  are:  E-journals,  e-resources,  institutional  repository,  digital  library,  RFID,  and  IT  application  in  libraries,  plagiarism  and  reference  management  tools. 
+Her  contribution  in  the  study  is  conception  of  the  idea,  collection  of  related  literature,  writing  and  compiling  the  entire  manuscript.  
+33 
+
+========7========
+

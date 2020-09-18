@@ -1,0 +1,227 @@
+DESIDOC Journal of Library & Information Technology, Vol. 34, No. 6, November 2014, pp. 486-490 
+  2014, DESIDOC 
+  Off Campus Access to Licensed E-resources of Library: A Case Study 
+Mahabaleshwara Rao Baikady*, Jessy A.** and Shivananda Bhat K.* 
+    *Department of Library and Information Science and Health Sciences Library, Kasturba Medical College 
+Manipal University, Manipal-576 104  
+E-mail: baikadi@yahoo.com; shiva.bhat@manipal.edu 
+**Department of Library and Information Science, Manipal University, Manipal-576 104  
+E-mail: jessysav28@gmail.com 
+ Ab StrACt 
+A case study of off campus (remote) access to licensed/subscribed electronic resources (e-resources)  of  the  Health  Sciences  Library  of  Kasturba  Medical  College,  Manipal  University,  Manipal,  which  offers  diverse sets of electronic information resources for its users, is presented here. User community, residing  outside the campus and off campus were disadvantaged by the inability to access library e-resources in  their hours of need. Due to the pressing demand from the user community for off/remote campus access  to  the  subscribed  e-resources,  library  initiated  the  search  for  an  appropriate  off  campus  login  access  solution  and  identifed  EZproxy  remote  access  software  as  the  solution.  EZproxy  platform  provides  a  single point remote access to various subscribed resources of the library. This article gives various steps  involved in the implementation of off campus access facility in the library with its benefts, conditionality  
+for access and technical details.  
+Keywords: EZproxy, e-resources, off campus access, health sciences library 
+1. 
+INtrODUCtION 
+Library  is  a  knowledge  centre  wherein  all  the  resources  irrespective  of  print  and  e-resources  are  stored.  E-resources  are  the  mainstay  of  any  modern  library  in  this  information  redundant  era.  The  exponential  growth  in  the  ICT  had  produced  a  set  of  several  new  terms  like  paperless  society,  e-library, Universal virtual library and doorway/gateway1 indicating its impact on the various fields. There is a  striking effect on the users’ behaviour in information  utilisation  because  of  changing  dissemination  of  web  environments  with  the  development  of  IT. The  library users request immediate and suitable usage  of  information  across  the  time  and  space  limit,  which  change  the  library  environment.  
+Now libraries are witnessing enormously increased  demand  from  users’  side  for  online  resources  and  consequently  the  related  activities  of  acquisition,  metadata  organisation  and  system  management  of  e-resources have become a challenging management  task. Libraries also face several other issues related  to  handling  different  types  of  publishers,  online  interface  providers,  frequent  changes  in  journal  titles  or  issues  within  aggregated  databases,  and  the  variety  in  the  scope  of  legitimate  use  of  each  license  agreement2.    
+Libraries have gone through various stages from  document  delivery  via  snail  mail  to  direct  remote  access by the users with the advent of ICT. Modern  library  users  cannot  pass  a  day  without  referring  to e-resources as they are heavily dependent upon  these resources for their academic and professional  endeavours.  Without  providing  meaningful  ways  to  access  the  stock  of  its  resources  by  the  users,  the  library’s  collection  holds  no  value.  The  users  residing  inside  or  outside  the  campus  should  be  able to procure the desired information, which they  could  access  without  wasting  any  time.  
+Usually  in  any  library,  access  to  subscribed  e-resources is made available on IP ranges/intranet  environment  which  is  limited  to  users  residing  in  the  campus.  Remote  or  off  campus  access  to  e-resources  among  user  community  wherever  they  reside  is  the  priority  of  the  library.  Remote  access to e-resources is a best practice of libraries  because  it  offers  opportunity  for  the  best  use  of  the  e-resources,  which  is  one  of  the  objectives  of  a  modern  library.  Remote  access  offers  easy  access  of  multiple  resources  subscribed  by  the  library  through  its  interface  making  simpler  the  task  of  the  users3. 
+Received 23 May 2014, revised 23 June 2014, Online published 19 November 2014 
+
+========1========
+
+DJLIT,  VOL.  34,  NO.  6, NOVEMBER   2014 
+2. 
+KMC  HEALtH  SCIENCES  LIbrArY 
+The Kasturba Medical College (KMC), Manipal,  was  established  in  1953  with  an  excellent  Health  Sciences Library for its users. Currently, KMC Health  Sciences  library  caters  to  the  needs  of  Medical,  Dental,  Pharmacy,  Nursing, Allied  Health  Sciences  and  Life  Science  institutions.  The  Health  Sciences  Library  subscribe  9  online  databases  (full  text  and  bibliographical), 575 online journals and 151 e-books  of  various  publishers  for  the  users.  E-resources  Management  and  Search  Solutions  (ERMSS)  help  libraries  to  keep  track  of  electronic  information  resources  including  e-journals,  e-books  and  online  databases both licensed and those available through  intranet  and  Wi-Fi  technology4. 
+3. 
+rEMOtE ACCESS SOftwArE EvALUAtION 
+as  Real  Audio,  news,  or  video  conferencing8.  
+For Squid proxy, 32 MB of RAM are required for  
+every  GB  of  disk  space.  If  run  out  of  memory  
+there  will  be  a  significant  reduction  in  speed.  • RHN  proxy  server  is  supported  with  Red  Hat  
+Enterprise Linux 5 and 6. The hardware configuration  
+requires  a  Pentium  IV  processor  or  equivalent  
+with  512  MB  of  memory  and  6  GB  storage  per  
+distribution9.  
+• EZproxy supports three operating systems such as  
+Linux, Solaris, and Windows10  and recommend a  
+minimum of Pentium II 400 with 256 MB of RAM11. 
+The technical division of KMC Health Sciences  library identified that EZproxy remote access software  from  OCLC  (Online  Computer  Library  Center)  is  more  compatible  with  the  existing  computer  and  other infrastructure facilities of the Health Sciences  Library  of  Manipal.  The  library  approached  OCLC  and subscribed EZProxy software to provide remote  login  access  solution.  
+4. 
+Off   CAMPUS  ACCESS  tO  E-rESOUrCES/  USINg  EZPrOXY  
+The  EZproxy  technology  plays  a  vital  role  in  accessing  the  library  material  off-campus  by  authenticating the users through a password. Proxy  servers  work  between  web  browsers  and  server,  and  acts  as  an  intermediary  between  the  two  ends  of  a  user  server  network  connection12.  This  middleware functions by authenticating user against  local  authentication  systems  to  provide  licensed  resources based on the authorisation of users. Link  resolvers are part of remote access that helps users  find the materials they need without having to start  a  new  search  in  another  database13.  
+EZproxy provides a mechanism, called SPUEdit,  for  rewriting  URLs  and  redirecting  browsers  to  the  new  rewritten  URL14.  The  SPU  (Starting  Point  URL)  commands  in  EZproxy  are  used  to  configure  Shibboleth-enabled  resources.  They  are  SPUEdit  and SPUEditVar15. This service is especially useful  while using computers in off-campus berth, internet  cafes,  etc.  This  provides  a  simple  system  which  allows  creation  of  single  set  of  webpages  to  gain  access to licensed databases, both on-site and off- site.  It  automatically  provides  links  to  the  vendor  site  whenever  additional  links  to  other  free  web  pages  on  the  intranet  is  added.  Authentication  of  on-site users is not required, whereas off campus/ remote access users can be authenticated for their  affiliation.  EZproxy  is  easy  to  setup  and  maintain  and  more  than  2500  institutions  world-wide  are currently  using  this  system.          
+The KMC Health Sciences Library makes available  subscribed e-resources to its users through the library  portal. A user had to be stationed within the university  premises  to  access  library  subscribed  e-resources  before  the  implementation  of  off  campus  facility.  
+Increase in demand from the users staying outside  the  campus  for  the  remote  login  access  of  library  subscribed e-resources, was an important aspect of  library services. For accomplishing this task, library  management  searched  for  an  innovative  service  that  provided  information  in  a  manner  appropriate  for  library  users.  Many  challenges  for  providing  remote access of its licensed resources to the users  began  with  selection  of  appropriate  remote  access  software available in the market, security of library  subscribed collections, preventing unauthorised users  from  gaining  access  to  the  licensed  resources  and  problem  in  link  resolver  setup  to  mention  a  few.  The  library  initiated  the  search  for  an  appropriate  off  campus  login  access  solution  among  a  number  of  remote  access  software  available  in  the  market  viz.,  CC  Proxy,  Squid  Proxy,  RHN  proxy,  EZproxy,  and open source remote software. The installation of  free/open source remote software (Dayon, UltraVNC,  TightVNC, etc.) was ruled out in the first stage due  to  the  lack  of  after  service  facilities. 
+A brief description of the different remote access  software  and  their  support  of  different  operating  systems  for  their  evaluation  of  suitability  is:  • CC Proxy backs all windows operating systems but  
+is not compatible with linux operating system5, 6. CC  
+Proxy recommends a minimum of Pentium II CPU  
+or equivalent with and 512 MB of RAM but more  
+load  balance  is  not  supported  on  CC  Proxy7.  • 
+UNIX platforms only. It supports the File Transfer  
+Protocols, Gopher and Secure Sockets Layer but  
+it does not support other internet protocols, such  
+The  Squid  Proxy  server  supports  Linux  and  
+4.1 benefits  of  Off  Campus  Access  
+487 
+The licensed resources of KMC Health Sciences  library  are  made  available  to  the  users  through  a  
+
+========2========
+
+BAIKADy, et al.: OFF CAMPUS ACCESS TO LICENSED E-RESOURCES OF LIBRARy 
+large number of content providers. The EZproxy off  campus facility connects to a large number of content  providers  through  a  wide  variety  of  authentication  services including Lightweight Directory Access Protocol  (LDAP), Session Initiation Protocol (SIP), Athens and  Shibboleth which reduces the number of authorisations/ passwords and provides a better end-user experience,  as  one  of  the  benefits  of  off  campus  access16.  
+Other  benefits  of  off  campus  access  through  EZproxy  are  provision  of  continuous  and  reliable  access of licensed resources for 24/7 and 365 days,  new  databases  access  in  short  time,  translation  of  multiple languages, generation of usage reports for  identification of popular resources outside the library  environment, its ability to shrink the size of response  that  helps  to  fits  information  in  mobile  phone  web  screen, no additional investment on hardware expenditure  incurred  and  ease  of  maintenance,  etc. 
+4.2 System  requirement  and  Installation  
+EZproxy is supported under three different operating  systems:  Linux,  Solaris,  and  Window.  EZproxy  for  Linux  server  recommend  a  minimum  of  Pentium  II  
+table 1.  List of authentication accessible in EZproxy 
+S. No. 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 
+Items 
+Blackboard 
+CAS (Central Authentication Service) DRA Web2 
+FTP (File Transfer Protocol) 
+IMAP (e-mail server) 
+Innovative Interfaces, Inc. 
+Insignia 
+Text fle  
+LDAP (including Active Directory) SIP (Service Interface Point ) 
+Library card numbers with a specifc prefx ODBC (EZproxy for Windows only) POP (e-mail server) 
+RADIUS 
+Referring URL 
+Shibboleth 
+Sirsi Dynix Horizon Information Portal 3.x Virtual reference 
+TLC authentication 
+and  server  log  files  needed  additional  space11. 
+400 with 256 MB of RAM. For installation 10 MB of  19. 
+disk space is required and user authentication files  
+the  list  of  items  which  EZproxy  can  authenticate. 
+4.2.1 Technical  Details  
+Having  remote  access  software  installed  allows one to access other computers remotely from  other  locations  via  the  world  wide  web17.  EZproxy  is a URL rewriting proxy server. Within the config. txt/ezproxy.cfg  file,  which  identifies  various  hosts  that  require  access  from  ones  local  IP  addresses.  When  the  user  click  on  a  link  to  an  online  library  resource,  remote  login  access  software  checks,  whether  the  user  computer  is  on  campus  or  off  
+• campus.  A  cookie  is  sent  to  the  user’s  browser  whenever the user authenticates successfully allowing  EZproxy  to  validate  user  access  rights.  If  the  user  is on campus, he/she bypass EZproxy and are sent  directly to the e-resources of the library. If the user  is  off  campus,  user  will  be  required  to  login  with  ones’  windows  using  username  and  password.  
+4.2.2 User  Authentication  
+The  purpose  of  EZproxy  is  to  create  one  set  of  webpages  that  can  be  used  by  both  on-site  and  off-site users to gain access to licensed databases.  There  is  no  requirement  to  authenticate  on-site  users,  but  there  is  a  requirement  to  authenticate  remote  users  to  verify  their  affiliation  with  their  institution. EZproxy provides the ability to detect on- site workstations and redirect the database requests  to  the  concerned  database  vendor.  Table  1  gives  
+4.3   t erms  and  Conditions  for  Subscription  of  
+EZproxy 
+• Installation of EZproxy requires certain ports to  
+be  opened,  which  needs  to  be  ensured  by  the  
+network  administrator. 
+• Alternatively the ‘proxy by hostname’ configuration  
+requires  certain  entries  in  the  NS  server  
+which  should  be  ensured  by  the  network  
+administrator. 
+Subscription is for twelve months and start from  
+the 1st  day of the month of supply, irrespective  
+of  the  date  of  supply  during  the  month. 
+• Access details to download the software would be  
+provided by the publisher directly to the library,  
+within  14  days  after  the  receipt  of  confirmed  
+order  and  payment. 
+• Software is allowed to install on only one server  
+of  licensee–single  installation. 
+• Subsequent year’s price includes annual subscription  
+to  EZproxy  and  annual  maintenance  support. • Library  need  to  sign  license  agreement  with  
+OCLC  for  the  subscription  of  EZProxy  remote  
+access  software. 
+5. 
+IMPLEMENtAtION  Of   EZP rOXY 
+After selecting the remote login access software,  next  step  was  its  implementation.  Trial  access  for  
+488 
+
+========3========
+
+DJLIT,  VOL.  34,  NO.  6, NOVEMBER   2014 
+EZProxy  started  in  July  2013  at  the library  to  test  the software and to know how it works in providing  solution  to  off  campus  access  to  e-resources.  The  e-resources are subscribed on single site license at  KMC  Health  Sciences  Library  and  are  restricted  to  Health Sciences Institutions at Manipal campus only.  After the successful launch of trial access, EZproxy  off  campus  access  to  e-resources  of  Library  went  live  in  November  2013. 
+For  remote  access  link,  users  who  are  staying  outside  the  campus/hostel  have  to  fill  up  EZProxy  
+• remote  access  requisition  form  and  submit  to  the  library  for  allotting  user  name  and  URL.  The  KMC  Health  Sciences  Library  issued  username  and  password  through  e-mail  for  the  authorised  users.  To  access  e-resource  when  off-campus,  user  has  to  open  one’s  browser  using  ‘URL,  username  and  password’,  it  link  to  the  micro  site  or  webpage  of  the  library.  EZproxy  remote  login  entree  needs  no  
+• configuration on the user's part. KMC Health Sciences  library  authenticate  its  users  through  library  card  number. Figure 1 schematically depicts the working  of  EZproxy.  Figure  2  shows  login  to  EZproxy  with  user  ID  and  password. 
+5.1  terms  and  Conditions  for  using  EZProxy  
+• 
+• 
+figure 2. EZproxy remote login page. 
+Authorised/eligible  users  who  are  not  residing  in hostels are requested to send the requisition  form  duly  certified  by  the  Chief  Warden  about  their  stay 
+KMC Health Sciences Library issued username  and password through e-mail for the authorised  users  
+Username and password should not be shared  with  anyone,  and 
+The  Library  will  monitor  the  user’s  activity  regularly  to  prevent  unauthorised  usage  and  multiple  login.  
+6. 
+CONCLUSIONS 
+The  remote  login  access,  EZproxy  serves  as  
+KMC Health Sciences library has enforced few  
+terms and conditions for using EZproxy to its users.  
+an  effective  tool  for  accessing  e-resources  for  the  
+user community of faculty members, researchers and  
+Library borrower card holders are eligible for getting  
+post  graduate  students.  EZproxy  platform  provides  
+a single point remote access to various subscribed   
+resources  of  the  library.  Thus  it  facilitates  the  
+PG students, research scholars and faculty who  maximal  usage  of  licensed  e-resources  in  large  
+libraries. The fully-customised software also serves  as  a  comprehensive  management  tool  for  remote  login  search  solutions,  for  speedy  and  relevant  access of subscribed e-resources as well as digitised  
+The  terms  and  conditions19   are  as  follows:      • 
+EZProxy  remote  access  to  e-resources  • 
+are staying outside the campus and those who  
+are staying inside the campus but not connected  
+to  the  Manipal  University  intranet  facility  are  
+eligible  for  remote  access  to  e-resources    • 
+requisition form and send to the library through  
+the  Head  of  Department  (HOD)  
+Authorised/eligible  users  have  to  fill  up  the  
+contents provided by the institution, thus maximising  
+the  resource  utilisation  of  the  library.  The  remote  
+login  access  software  also  serves  the  library  by  
+figure 1. Process of remote access software EZproxy between library network and content provider. 
+489 
+
+========4========
+
+BAIKADy, et al.: OFF CAMPUS ACCESS TO LICENSED E-RESOURCES OF LIBRARy 
+providing  cost  effective  acquisition  and  retrieval  of  licensed  resources  through  remote  access. This  helps  to  maintain  a  feasible  financial  allocation  of  collection, services and personnel of the library. The  implementation of EZproxy remote login access program  at  the  KMC  Health  Sciences  Library,  Manipal  is  a  working model for providing the users the convenient  and  efficient  interfaces  to  access  e-resources  by  keeping  pace  with  the  changing  technology. 
+rEfErENCES 
+1. Sinha,  M.K.;  Sinha,  G.  &  Sinha,  B.  Usage  of  
+electronic resources available under UGC-Infonet  
+digital  library  consortium  by  Assam  university  
+library users. In  8 
+th 
+ International CALIBRE, 2011,  
+pp.  490-510. 
+2. Rao,  M.  &  Muthol,  M.V.  Enabling  single  point  
+access  to  e-resources:  A  Manipal  university  
+health  sciences  library  initiative.  IEEE,  2009,  
+300-04. 
+3. Ezproxy  remote  access  to  e-resources:  User  
+manual.  http://library.tiss.edu/Remote-Access- 
+User-Manual.pdf. 
+4. http://muportal/index.asp. 
+5. http://www. youngzsoft. net/ccproxy/ proxy-server. 
+htm/. 
+6. http://www.  youngzsoft.  net/ccproxy/ccproxy  
+-is-not-compatible-with-linux-operating-system. 
+htm/. 
+7. CCProxy  user  manual.  Youngzsoft  2014.  pp.  
+396-99. 
+8. http://doc. opensuse. org/ products/draft/SLES/ 
+SLES-admin_sd_draft/cha.squid.html/. 9. https: //access. redhat. com/ site/ documentation/  
+en-US/Red_Hat_Network_Satellite/5.4/html-single/ 
+Proxy_Installation_Guide/index.html/. 
+10. http://www.oclc.org/support/services/ezproxy/ 
+documentation/download.en.html/. 
+11. https://oclc.org/support/services/ezproxy/ 
+documentation/download/install-linux.en.html. 12. Hecht,  R.  &  Herbst,  J.  Introduction  to  proxy  
+servers. MSIS 640- Data Communications , 2010,  
+1-9.  http://www.docstoc.com/docs/21166884/ 
+Introduction-to-Proxy-Servers. 
+13. Technology for remote access. DOI: 10.4018/978- 
+1-4666-0234-2.ch006.79-80. 
+14. Best practices for libraries. http:// www.incommon.  
+org/library/docs/Best_Practices.pdf. 
+15. Implementing  the  shibboleth-EZproxy  hybrid.  
+www. incommon. org/ library/ docs/ Shibboleth_  
+EZproxy_implement.pdf. 
+16. EZproxy for authenticated access to your library’s  
+e-content. http://www.oclc. org/content/dam/oclc/  
+services/brochures/213330usf_ezproxy.pdf.  17. Phillip,  P.  The  advantages  and  disadvantages  
+of  remote  access  software.  http://computers. 
+myfreearticlecentral.comArticle_104884_The- 
+Advantages-and-Disadvantages-of-Remote-Access- 
+Software.aspx  on  2013,  December  23. 
+18. http://www.oclc.org/content/dam/oclc/services/ 
+brochures/214721ukb_OCLC_WorldShare_License_ 
+Manager.pdf. 
+19. http://muportal.mahe.manipal.net/lib/1.pdf. 
+About  the Authors 
+Dr  Mahabaleshwara rao  baikady   is  working  as  Assistant Professor (Sr. Scale) and Senior Librarian  at  Department  of  Library  &  Information  Science  and  Health  Sciences  Library,  Manipal  University,  Manipal,  Karnataka.  He  obtained  both  BLIS  and  MLIS from Annamalai University; and PhD (LIS) from  Mangalore  University,  Mangalore  in  2011.  He  has  22  papers  in  national  and  international  seminars/ conferences  to  his  credit  and  11  papers  published  in  national  and  international  journals.  His  areas  of  interest  include:  Health  sciences  librarianship,  web-resource,  and  information  literacy. 
+Ms Jessy A.  is a Research Scholar at Department of  Library and Information Science, Manipal University,  Manipal.  She  obtained  BA  from  Calicut  University,  Calicut and BLIS and MLIS from Manipal University,  Manipal.  She  has  presented  4  papers  in  National/ International  Conferences. 
+Dr  Shivananda  bhat  K.   is  working  as  Assistant  Professor  (Sr  Scale)  and  Senior  Librarian  at  Department  of  Library  &  Information  Science,  and  Health  Sciences  Library,  Manipal  University,  Manipal.  He  obtained  PhD  (LIS)  from  Mysore  University,  Karnataka  in  2002.  His  area  of  interest  include: Information literacy programme, innovative  methods  in  search  strategies,  scientometrics,  and  cataloguing. 
+490 
+
+========5========
+

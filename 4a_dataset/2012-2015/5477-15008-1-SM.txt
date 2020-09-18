@@ -1,0 +1,515 @@
+DESIDOC Journal of Library & Information Technology, Vol. 33, No. 6, November 2013, pp. 457-464 
+  2013, DESIDOC 
+Lotka’s Law and Pattern of Author Productivity in the Area of  
+Physics Research 
+K.G. Pillai Sudhier 
+Library & Knowledge Centre, School of Distance Education, University of Kerala  
+Senate House Campus, Palayam, Thiruvananthapuram–695 034, Kerala 
+E-mail: kgsudhier@gmail.com 
+AbstRAct 
+ The paper aims to analyse authorship distribution in physics literature and to examine the validity  of Lotka’s law of scientifc publication productivity. A list of journal articles on various aspects of physics  research cited in the doctoral theses of University of Kerala, Thiruvananthapuram, South India was compiled  for the study. Using ‘straight count’ of authorship, a total of 1,665 personal authors were identifed and  3,367  authors  were  identifed  by  using  ‘complete  count’.  K-S  statistical  test  and  Chi-square  test  were  applied to verify the applicability of Lotka’s law in the two approaches. The productivity distribution did  not ft either set of data for two different author communities when Lotka’s law was applied in its original  form. This confrms that law does not applicable to authors of the physics literature. 
+Keywords: Lotka’s law, University of Kerala, scientifc productivity, bibliometrics, physics literature 
+1. INtRODUctION 
+Classifying and counting scientists, books, papers  and  citation,  as  early  statistical  bibliographers  set  out  to  do,  remain  a  fairly  extemporary  activity  as  long  as  data  continued  to  be  examined  outside  a  mathematical framework that would let them disclose  meaningful  patterns  in  the  documentation  process.  The turning point occurred between the 1920s and  the  1930s,  when  three  basic  bibliometric  studies  were  published:  Lotka’  work  on  the  distribution  of  scientific  papers  among  authors;  Bradford’s  contribution on the scattering of papers on a given  subject  in  scientific  journals;  and  Zipf’s  work  on  the distribution of words in a text1. Lotka, Bradford  and Zipf used simple mathematical statements and  graphical  devices  to  express  the  empirical  relation  between  sources  and  the  items  they  produce  in  three  areas:  Authors  producing  papers,  journals  producing  papers  on  a  given  subject,  and  texts  producing  words  with  a  given  frequency. 
+Three  regularities  occur  in  bibliometrics  to  which  have  been  given  the  name  ‘law’:  Lotka’s  Law of Scientific Productivity (authors publishing in  a  certain  discipline),  Bradford’s  Law  of  Scattering  (distribution of publications), and Zipf’s law of Word  
+The  validity  of  Lotka’s  law  has  been  studied  by  a  number  of  researchers  who  have  applied  the  model  to  data  sets  in  many  subject  areas.  Most  notable  are  the  contribution  of  Pao3   and  Nicholls4,  who  found  that  the  Lotka  model  fitted  the  majority  of  the  data  sets  studied.  Both  have  substantially confirmed the validity of the law, having  tested  it,  respectively,  against  48  and  70  datasets  of  empirical  author  productivity  distributions.  The  authors felt necessary to establish a standard testing  procedure  for  meaningful  statistical  comparison  between  different  tests  of  Lotka’s  law  by  defining  the minimal requirements for each step involved in  any  validation  process.  They  are:  
+(a)  Specification  of  the  model  
+(b)  Data  collection  
+(c)  Estimation  of  the  unknown  parameters  in  the  
+model  equation,  and  
+(d)  Testing  conformity  of  the  observed  data  to  the  
+theoretical distribution by means of a goodness- 
+of–fit  test. 
+2. 
+LOtKA’s   LAW  OF  scIENtIFIc 
+PRODUctIVItY 
+Lotka5,  investigated  the  literature  output  of  
+law  dealt  with  author  publishing  and  the  number  of  papers  published.  It  is  regarded  as  one  of  the  classical  laws  of  bibliometrics2.  
+Occurrence  (ranking  of  word  frequency).  Lotka’s  
+a  sample  of  chemists,  and  found  that,  “…  the  
+Received 21 December 2012, online published 13 November 2013 
+number (of authors) making n  contributions is about  1/n2   of  those  making  one;  and  the  proportion  of  
+
+========1========
+
+DJLIT,  VOL.  33,  NO.  6,  NOVEMBER   2013 
+all  contributors,  that  make  a  single  contribution,  is  about  60  %.” 
+p(n) = 
+k 
+   
+n2 
+where,  p   is  the  number  of  authors  producing  n papers,  and  where  k   is  constant  characteristic  of  a  particular  subject  area. 
+Lotka gave an acceptably modern mathematical  description  of  his  regularity  that  remains  today  as  the  (classic)  Lotka’s  law.  However,  Lotka’s  article  was  not  cited  until  1941  and  his  distribution  was  not  termed  ‘Lotka’s  Law’  until  1949,  as  said  by  Potter6. 
+Bookstein7  points out that the following theoretical  model 
+p(n) = 
+k 
+n2 
+x  =  1,  2,  3…    k>0,   a   >0 
+is  a  generalised  version  of  Lotka’s  law;  k  and  a  are  constants.  In  other  words,  the  number  of  authors  with  x  papers  is  proportional  to  
+1 
+xa 
+Price8, also interested in scientists’ productivity,  has  defined  a  law  developed  from  Lotka’s  stating  that  ‘half  of  the  scientific  papers  are  contributed  
+he/she receives a score of  
+2 1− R 
+N N + 
+1. In case 
+ 
+of proportional counting this formula is obtained  by  dividing  the  absolute  weights  N+1-R  by  the  sum  of  all  ranks:  1+2+…+N=  
+N ( N +1) 
+2 
+There  are  two  approaches  generally  used  for  organising  scientific  productivity  data:  
+(i)  Size-frequency: A standard frequency approach  
+which  models  frequency  of  source  f(x)  as  a  
+function  of  the  number  of  items  x.  It  allows  
+one  to  use  traditional  statistical  techniques. (ii) Rank-frequency: An approach which models the  
+number of items g(x) as a function of the rank  
+of  the  source r.  It  emphasis  on  those  sources  
+which  have  the  most  productive  items,  than  
+those  having  small  ranks r   =  1,2,3,4… 
+3. LItERAtURE  REVIEW 
+Lotka’s  work  went  unnoticed  for  many  years.  In  1978,  a  bibliography  of  437  works  on  Lotk’s  Law  and  related  statistical  regularities  appeared  in  the first issue of the journal Scientometrics10.  Ever  since, the convergence of productivity patterns with  
+Law of Scientific Productivity states that, N½  sources  yield  a  fraction  ½  of  the  items. 
+In most of these studies, the number of publications  are considered as a measure of scientific productivity.  There  are  four  methods  of  counting  of  number  of  publications9. 
+(1) Total counting/normal (standard) counting: Each  
+occurrence  of  an  author  is  recognised  and  
+by  the  square  root  of  the  total  number  of  scientific  
+Lotka’s  formula  has  been  advocated  in  as  diverse  authors.  In  other  words,  the  Price’s  Square  Root  
+areas of LIS, computer science, semiconductor and  
+micro  computer  research,  medicine,  biochemistry,  
+number  of  authors  associated  with  a  given  
+entomology, econometrics, patent literature and web  hyperlink  distribution11. 
+The  degree  of  conformity  or  non-conformity  of  various empirical distributions of Lotka’s distribution  has  been  tested  by  many  authors.  The  studies  on  the  fitness  of  Lotka’s  law  began  in  a  systematic  manner was with the work of Pao using least square  
+credit,  whether  he  or  she  is  the  only  author  
+of  a  publication  or  one  of  many  (each  of  the  
+N   authors  receives  a  credit  of  1) 
+(2) Straight counting/ first author counting: Only the  
+first author is counted, based on the assumption  
+that  the  first  author  is  the  primary  contributor  
+receives  equal  treatment,  regardless  of  the  
+method  with  48  sets  of  authors  productivity  data.  
+In  1985,  Pao12   presented  the  application  process  article.  Therefore,  an  author  receives  equal  
+of  Lotka’s  law  and  again  in  1986  she  studies  it  
+in  other  scientific  fields.  Modifications  to  Pao’s  
+procedure  were  proposed  by  Nicholls13,14. 
+The other studies include: Lemoline15  analysed  scientific  productivity  of  CSIR,  India;  Sen,  Taib  &  Hassan16   in  Information  science,  Gupta 
+17 
+  in  potato  research; Gupta & Kumar18  in theoretical population  genetics;  Kawamura19,  et  al.  in  dental  science  
+to  a  publication.  In  deriving  Inverse  Square  literature; Gupta20,  et al.studied productivity profile of  
+Law  of  Scientific  Productivity,  Lotka  adopted  
+this  method  (only  the  first  of  the  N   authors  
+receives  a  credit  1) 
+(3) Adjusted  counting/Fractional  counting:  Authors  
+scientists in engineering sciences; LOTKA, a computer  program  for  fitting  Lotka’s  law  was  presented  by  Rousseau & Rousseau21, and Kumar22   in  computer  science; Pulgarin & Gil-Leiva23  in automatic indexing  
+multiple authors (each of the N  author receives  
+1 
+a  score  of  
+N 
+). 
+(4) Proportional  counting:  If  an  author  has  a  rank  
+R  in a paper with  N  authors ( R=1,2,3…N), then  
+receive  fractional  credit  or  publications  with  
+literature.  Rai  &  Kumar24   examined  Lotka’s  law  
+among authors and within institutions with the help  
+458 
+of  empirical  data. 
+Sobrino, Caldes & Guerrero25  studied the application  of  Lotka’s  law  in  the  field  of  Information  Science.  Petek26   studied  the  personal  name  headings  in  the  Slovenian  online  catalogue  COBIB.  Askew27  
+
+========2========
+
+SUdhIeR: LOTKA’S LAW And PATTeRn OF  A UThOR  P ROdUCTIvITy In AReA OF  Phy SICS  Re SeARCh 
+in  her  doctoral  thesis,  tested  Lotka’s  law  using  the  methodology  outlined  by  Pao,  in  the  field  of  LIS.  Larsen  &  Van  Ins28   analysed  the  relationship  between  scientific  cooperation,  counting  method  and interdisciplinary publishing with the Lotka’s law  using  Mandelbrot’s  equivalent  distribution  model  
+Pavlyukevich,  Penyazkov  &  Fisenko29   studied  
+department  of  Physics  was  formally  established  in  1970  and  the  research  programme  has  been  in  operation  since  the  inception  of  the  department.  
+The purpose of this study to test Lotka’s law of  scientific productivity using the methodology outlined by  Pao34, in the field of Library and information Science.  Lotka’s  law  is  tested  using  Kolmogorov-Smirnov  
+Inznerno-Fizicheski  Zhurnal  author  activity. Ahmed  goodness-of-fit  tests  and  Chi-square  test. 
+&  Rahman30   examined  the  validity  of  Lotka’s  law  in  the  field  of  nutrition  research  in  Bangladesh.  Nerendra  Kumar31   examined  the  applicability  of  Lotka’s law to research productivity of CSIR, India.  Sen32  discussed the meaning of author productivity  and  research  productivity  and  demonstrated  how  simply the values of Lotka’s law can be calculated.  Sudhier33   conducted  a  study  on  the  application  of  Lotka’s  law  of  scientific  productivity  in  the  author  productivity distribution of Physics literature appended  in  the  IISc  doctoral  theses.  
+Lotka’s law has been attracted scientometricians  time  and  again.  There  have  been  many  studies,  which  have  explored  the  application  of  Lotka’s  
+5.1 Application  of  Lotka’s  Law 
+Lotka was the first to observe and analyse the  productivity  patterns  of  authors  in  a  sample  data  from  Chemistry  and  Physics.  He  came  out  with  a  general  formula,  known  as  Lotka’s  law  and  it  can  be  written  as  
+xny = k (1) 
+where,  y  is  the  frequency  of  authors  making  n  contributions  each  and  k  is  a  constant. 
+The Lotka’s inverse square law can mathematically  be  written  as 
+g(x) = ( 
+6p 
+)( 
+1 
+x 
+2 ),   x 
+  =  1,  2,  3  …. (2) 
+law  to  various  subject  areas.  The  review  revealed  
+where, g(x) is the proportion of authors making  x 
+that  there  were  not  many  studies  in  the  area  of  physics literature. Hence, this paper attempts study  the  validity  of  application  of  Lotka’s  law  in  author  productivity  distribution  of  Physics  literature. 
+4. ObJEctIVEs 
+This  paper  has  following  objectives: 
+(a) To  analyse  the  author  productivity  patterns  in  
+the  field  of  physics  literature 
+(b) To examine the validity of Lotka’s law using total  
+counting  and  straight  counting  of  authors (c) To apply Chi-square test and Kolmolgorov- Smirnov  
+contributions. 
+A generalised form of Lotka’s law was presented  by  Bookstein2   as 
+g(x)  =kx-n, x   =  1,2,3,4… xmax, k>0 (3) where g(x) represents the fraction of authors publishing  x  articles;  k  and  n   are  parameters  to  be  estimated  from  the  data;  xmax   represents  the  maximum  size  or value of productivity variable x; and n  is usually  ≥1. 
+According to Pao, the following procedure should  be  followed  in  studying  the  application  of  fit  of  the  
+Lotka’s  law. 
+(K-S)  goodness-of-fit  test  for  the  conformity  of  
+Lotka’s  law  to  a  given  citation  data  sample. 
+(a)Estimation  of  parameter  ‘n’ 
+5. 
+MEtHODOLOGY AND  sOURcE  DA tA data source of the study are the journal citations  
+The  first  step  in  the  application  of    Lotka’s  law  is  to  determine  the  value  of n,  which  is  to  be  determined either by using the Linear Least Square  
+in  the  doctoral  theses  of  the  University  of  Kerala,  (LLS)  regression  method  or  one  of  it’s  equivalent  India. The total sample consists of 1,665 first authors  form  given  by  the  following  formula:          
+as  straight  count  method  and  3,367  authors  in  
+complete count, appended in the 12 doctoral theses  
+            
+n = 
+in  physics,  during  the  five  year  period. 
+The  University  of  Kerala,  which  occupies  the  position  of  the  mother  university  in  Kerala,  has  been at the centre of all higher education activities  in  state  since  its  very  inception.  Popularly  known  as  ‘God’s  own  country’,  the  tiny  state  is  located  in  the  south  western  part  of  peninsular  India.  The  University  of  Travancore  which  eventually  became  the University of Kerala was established in 1937. It  is being the oldest university in the Kerala pioneered  in undertaking science programmes directly affecting  the state. At present, the University has 16 faculties  and 41 departments of teaching and research. The  
+[N ( x. g( x) g( x) x∑ 
+ln  ln  ln  ln  −∑ ∑ 
+] 
+       
+N ( x) ( x)∑ −∑ln  ln 22 
+       (4) 
+          
+     where N  is the number of pairs of data considered  x  =  
+1,2,3…. xmax 
+(b)  Estimation  of parameter  ‘k’ 
+The value of k, which is the theoretical number  
+of  authors  with  a  single  article  is  determined  from  
+the  following  formula: 
+k= 
+1 
+∑ 
+p-1 
+11 nx (n-1)(p ) 24×(p-1)+ 
++ pn+ 
+1 
+n n-1 2 n+1 
+   (5) 
+x=1 
+459 
+
+========3========
+
+DJLIT,  VOL.  33,  NO.  6,  NOVEMBER   2013 
+here, p is assumed to be 20 and n  is the experimentally  computed value of the exponent from the observed  distribution. 
+Once the value of n  and  k   is  determined,  then  using  eqn.  3,  determine  the  number  of  authors  writing  1,  2,  3,…x   articles 
+5.2  Goodness-of-Fit  tests 
+There are several statistics available for goodness- of-fit  tests. Among  those  tests,  the  Chi-square  test  and  Kolmogrov-Smirnov  (K-S)  test  commonly  used  as  goodness-of-fit  tool. 
+(a)  Chi-square  Test 
+If the observations in a sample fall into certain  specified categories or classes it may be of interest  to  know  whether  the  observed  frequencies  differ  significantly from those which could be expected in  these categories on the basis of certain hypotheses  or theoretical considerations. The c2-  test  is  useful  in  finding  out  where  a  theoretical  distribution  like  Lotka’s Law or any other, fits the given observations  satisfactorily  or  not. 
+g (b)  K-S  Test 
+The test is accomplished by finding the theoretical  cumulative  frequency  distribution  which  would  be  expected under the null hypothesis [F(x)] and comparing  it with the observed cumulative frequency distribution  [Sn(x)].  The  point  at  which  these  two  distribution,  theoretical and observed show the maximum deviation  
+By  substituting  the  values  in  equation  (4),  the  
+value  of  n  is  calculated  as 
+n = 
+[N ( x. g( x) g( x) x∑ −∑ ∑ln  ln ln ln ] 
+     N ( x) ( x)∑ −∑ ln ln22  
+n=8×34.6353-32.2086×10.6046 
+=  -2.327 
+8×17.5205-  10.6046()2 
+(b)  Calculation  of  value  ‘k’ 
+The  value  of  parameter  n   is  calculated  as,  n  
+=  -2.3270 
+Substituting  the  given  value  of  n,  the  
+value  of  k   is  estimated  from  the  Table  of  
+exponents  given  by  Rousseau35   as,  k   =  0.7 
+g( 1 ) =0.7 0.70x2.33 2.33=1 = 0.7000 g(2) 0.8508=2 
+0.7 
+2.33 
+= 
+(3) 0.9122=32.33 
+0.7 
+=g(4) 0.9447= 
+0.7 
+4 
+2.33 
+= 
+g(5) 0.9645=52.33 
+0.7 
+=g(6) 0.9777=6 
+0.7 
+2.33 
+= 
+g(7) 0.9871=72.33 
+0.7 
+=g(8) 0.9941=8 
+0.7 
+2.33 
+= 
+critical  value. The  null  hypothesis  is  rejected  if  the  calculated value of D   is  greater  than  critical  value;  otherwise  not. 
+is  determined.  Let D   =  Maximum  | F(x)–Sn  ( x)|.The  
+value  of  D   is  calculated  and  compared  with  the  
+(c) Fractional  value  of  the  expected  number  of  
+6.  REsUL ts  AND  DI scUssIONs 
+6.1  Dataset  for  the  straight  count  Method 
+(a)  Calculation  of  parameter  ‘n’ 
+The  first  step  in  the  application  of  Lotka’s  law  is  to  determine  the  value  of n,  which  is  to  be  determined  by  Linear  Least  Square  (LLS)  method  by  using  the  mathematical  formula  (4). 
+To compute the parameter n,  Table 1 of  x   and  g(x)  is  used. 
+table 1. calculation of n–straight count method 
+x 1 2 3 4 5 6 7 8 total 
+g(x) 1167 281 109 40 27 15 14 12 1665 
+ln x 0.0000 0.6931 1.0986 1.3863 1.6094 1.7918 1.9459 2.0794 10.6046 
+ln g(x) 7.0622 5.6384 4.6913 3.6889 3.2958 2.7081 2.6391 2.4849 32.2086 
+460 
+authors 
+By  replacing  the  value  of  n   and  k   in  Lotka’s  model  equation 
+g(x) = kx-n  and the values calculated are shown  in  the  column  6  of  Table  2. 
+(i)  Suitability  of  Lotka’s  Law  using  K-S  Statistical  
+   Test 
+To  test  the  applicability  of  Lotka’s  law,  Coile36 recommends  the  K-S  statistical  test. 
+For  applying  K-S  test,  convert  the  observed  and  expected  number  of  authors  into  fractional  values, and take the difference between cumulative  
+ln (x) * ln g(x) 0.0000 3.9082 5.1540 5.1139 5.3044 4.8522 5.1354 5.1672 34.6353 
+ln x  * ln  x 0.0000 0.48 05 1.2069 1.9218 2.5903 3.2104 3.7866 4.3241 17.5205 
+
+========4========
+
+SUdhIeR: LOTKA’S LAW And PATTeRn OF  A UThOR  P ROdUCTIvITy In AReA OF  Phy SICS  Re SeARCh 
+fractional values of observed and expected number  of  authors,  as  shown  in  Table  2. 
+The maximum difference value, Dmax, representing  the  maximum  deviation  is  identified  as  0.023. 
+The  table  value  or  critical  value  of  D   in  K-S  test  at  5  %  level  of  significance  is  0.565.  While  comparing the actual value of D, 0.023 with critical  value  0.565,  it  is  found  that  the  actual  value  of D does not fall within the critical value of D. Therefore,  
+K-S  statistical  test  and  Chi-square  test  are  applied  to  verify  the  applicability  of  Lotka’s  law  at  5 %  level of significance to the author productivity  distribution of first authors of physics literature and  it is found that the law does not fit the present set  of  data  in  the  two  methods. 
+6.2  For  the  Data  set  of  complete  count 
+Coile  argued  that  Schorr’s37   data  did  not  fit  
+Lotka’s  law  does  not  fit  the  author  productivity  
+Lotka’s distribution because he counted co authors  
+distribution  of  first  authors. 
+(whereas, Lotka’s counted only the first authors) and  
+table 2. K-s  test on observed and expected distribution of authors 
+x 1 2 3 4 5 6 7 8 
+g(x) 1167 281 109 40 27 15 14 12 
+FOF 0.7009 0.1688 0.0655 0.0240 0.0162 0.0090 0.0084 0.0072 
+cFOF 0.7009 0.8697 0.9351 0.9592 0.9754 0.9844 0.9928 1.0000 
+g(x) : 
+FOF  : Fraction  of  observed  frequency  of  authors 
+CFOF : 
+FeF :  Fraction  of  expected  frequency  of  authors 
+CFeF : 
+dOeCF : 
+cumulative  frequency  of  authors. (ii)  Applicability  of  Lotka’s  Law  using  Chi-square 
+   Test 
+To  check  the  suitability  of  Lotka’s  law  in  the  author productivity of physics literature, the following  
+Number  of  authors  contributing  x  number  of  papers 
+Cumulative  fraction  of  observed  frequency  of  authors 
+Cumulative  fraction  of  theoretical  frequency  of  authors Absolute  difference  of  the  observed  and  expected  
+FEF 0.7000 0.1508 0.0614 0.0325 0.0198 0.0132 0.0094 0.0070 
+cFEF 0.7000 0.8508 0.9122 0.9447 0.9645 0.9777 0.9871 0.9941 
+DOEcF 0.0009 0.0189 0.0229 0.0145 0.0109 0.0067 0.0057 0.0059 
+then used Chi-square test which is not an appropriate  test  to  verify  the  applicability  of  of  Lotka’s  law.  Therefore, the data of this compilation is tested by  counting  all  the  authors  (complete  count)  and  by  
+method  using  the  Chi-square  statistical  test  is  
+applying  both,  the  Chi-square  and  K-S  statistical  
+test  to  verify  the  applicability  of  generalised  form  
+employed. The results of the analysis are presented  in  the  Table  3. 
+To  find  out  the  suitability  of  Lotka’s  law  in  the  observed  author  productivity  distribution,  compare  
+of  Lotka’s  law. 
+(a)  Calculation  of  the  Parameter  ‘n’ 
+The  mathematical  formula  for  calculating  the  
+the  calculated  Chi-square  value  obtained,  11.19  
+parameter  n,  using  least  squares  method  is  given  
+with  the  critical  value  of  Chi-square. 
+The  critical  value  at  0.05  significance  level  is  
+in eqn.  (4). 
+To  compute  the  parameter  n,  of  Table  4  is  
+0.83. On comparing, the calculated value of chi-square  
+used.  
+is  greater  than  the  critical  value.  Thus,  again  the  Lotka’s law does not fit in the observed given author  productivity  distribution  of  the  first  authors. 
+by  substituting  the  values  in  the eqn.  (4),  as  explained  in  the  Table  4. 
+Table 3. Chi-square test of observed and expected frst authors 
+x 1 2 3 4 5 6 7 8 
+fo 1167 281 109 40 27 15 14 12 
+fe 1166 251 102 54 33 22 16 12 
+fo-fe 1.50 29.95 6.73 -14.08 -5.99 -7.03 -1.66 0.35 
+fo  – observed number of authors, f 
+e – estimated number of authors 
+(fo-fe)2 2.25 896.76 45.30 198.19 35.88 49.41 2.75 0.12 chi 
+chi 0.00 3.57 0.44 3.66 1.09 2.24 0.18 0.01 11.19 
+461 
+
+========5========
+
+DJLIT,  VOL.  33,  NO.  6,  NOVEMBER   2013 
+table 4. calculation of n–whole authors 
+x 1 2 3 4 5 6 7 8 9 10 11 12 13 14 total 
+g(x)  2261 609 231 88 56 39 23 9 15 8 8 6 4 10 
+ln x 0.0 0.7 1.1 1.4 1.6 1.8 1.9 2.1 2.2 2.3 2.4 2.5 2.6 2.6 25.2 
+ln (gx) 7.7 6.4 5.4 4.5 4.0 3.7 3.1 2.2 2.7 2.1 2.1 1.8 1.4 2.3 49.4 
+n 
+= 
+14 70.2 49.4 25.2×−× 
+  =  -2.41 
+14 53.12 (25.2)×−2 
+(b)  Calculation  of  the  Value  ‘k’ 
+The  value  of  k  is  determined  by  taking  the  corresponding  value   n  =  -2.41  from  the  table  of  exponents  given  by  Rousseau  (1993)  as  the  value  of  k  is  0.73. 
+By  replacing  the  value  of  n  and  k  in  Lotka’s  equation g(x)  = kx-n 
+The  fractional  value  of  expected  number  of  authors  are  calculated,  and  the  values  are  shown  in  column  6  of  the  Table  5. 
+(i) Application  of  K-S  Statistical  Test 
+For applying the K-S statistical test, results are  tabulated  in  Table  5. 
+The difference between the cumulative fractional  values  of  the  observed  and  the  expected  number  of  authors  are  shown  in  column  7  of  the  Table  5.  The  maximum  deviation  is  identified  as  0.058.  The  critical  value  of  D   in  K-S  test  at  5  %  level  
+table 5. K-s  test–whole authors 
+x 1 2 3 4 5 6 7 8 9 10 11 12 13 14 
+g(x) 2261 609 231 88 56 39 23 9 15 8 8 6 4 10 
+FOF 0.672 0.181 0.069 0.026 0.017 0.012 0.007 0.003 0.004 0.002 0.002 0.002 0.001 0.003 
+cFOF 0.672 0.852 0.921 0.947 0.964 0.975 0.982 0.985 0.989 0.992 0.994 0.996 0.997 1.000 
+462 
+ln (x) * ln g(x) 0.0 4.4 6.0 6.2 6.5 6.6 6.1 4.6 6.0 4.8 5.0 4.5 3.6 6.1 70.2 
+ln x  * ln  x 0.00 0.48 1.21 1.92 2.59 3.21 3.79 4.32 4.83 5.30 5.75 6.17 6.58 6.96 53.12 
+of  significance  is  0.391.  Here,  the  actual  value  of  D,  0.058  does  not  fall  within  the  critical  value  of  D,  0.391.  Therefore,  the  test  confirming  that  the  distribution  of  the  data  using  whole  author  count  doesn’t  fit  Lotka’s  law. 
+(ii)  Using  Chi-square  Test 
+To check whether the author productivity distribution  follows the Lotka’s alw or not, the Chi- square test  is  applied  to  the  data.  The  results  of  the  analysis  are  tabulated  in  Table  6. 
+The  calculated  value  of  chi-square  obtained  is  95.10 and the critical value at 5% level of significance  is 4.4. On comparing, it is found that the calculated  value of Chi-square is greater than the critical value  of  chi-square.  Thus,  again  it  is  conclude  that  the  Lotka’s  law  does  not  fit  in  the  observed  given  all  author  productivity  distribution. 
+The  statistical  tests  show  that  the  Lotka’s  law  in  its  generalised  form  does  not  fit  the  author  productivity distribution pattern prepared for the first  authors  and  for  the  contribution  of  all  authors. 
+FEF 0.730 0.137 0.052 0.026 0.015 0.010 0.007 0.005 0.004 0.003 0.002 0.002 0.002 0.001 
+cFEF 0.730 0.867 0.919 0.945 0.960 0.970 0.976 0.981 0.985 0.988 0.990 0.992 0.993 0.994 
+DOEcF 0.058 0.015 0.002 0.002 0.004 0.006 0.006 0.004 0.005 0.004 0.004 0.004 0.004 0.006 
+
+========6========
+
+SUdhIeR: LOTKA’S LAW And PATTeRn OF  A UThOR  P ROdUCTIvITy In AReA OF  Phy SICS  Re SeARCh 
+table 6. chi-square test of observed and expected distribution of whole authors  
+x 
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 chi 
+fo 2261 609 231 88 56 39 23 9 15 8 8 6 4 10 
+fe 2458 462 174 87 51 33 23 16 12 10 8 6 5 4 
+fo-fe -196.9 146.8 57.1 1.1 5.2 6.3 0.4 -7.3 2.7 -1.5 0.4 -0.2 -1.1 5.8 
+Figure 1. Log-log plot of number of authors and number  
+of articles. 
+The log-log graph in which the number of authors  and their respective number of articles of the given  data  of  physics  literature  are  shown  in  Fig.  1. 
+The  graphical  representation  of  the  author  productivity  data  is  shown  in  Fig.  2.  The  graph  is  plotted  with  number  of  authors  in  X-axis  and  the  number  of  articles  in  the y-axis. 
+7.   c ONcLUsIONs 
+Lotka’s  law  of  author  productivity  is  regarded  as  one  of  the  classical  laws  of  bibliometric.  The  present  study  showed  that  Lotka’  generalised  law  is  not  applicable  to  physics  literature.  
+K-S  test  and  chi-square  test  are  applied  to  verify  the  applicability  of  Lotka’s  law  of  scientific  productivity. The statistical tests show that the Lotka’s  law  in  its  generalised  form  does  not  fit  the  author  productivity  distribution  pattern  prepared  for  the  straight  count  and  for  the  contribution  of  complete  count  of  the  University  of  Kerala  theses  citations. 
+This  is  a  preliminary  study  on  authorship  productivity  in  the  field  of  physics  research  and  this  study  may  trigger  more  such  studies  for  the  purpose of testing Lotka’s law in the various branches  of  physics.  Future  research  could  be  directed  to  authorship and productivity studies in physics based  on various institutions in the country and contributions  from  different  databases. 
+(fo-fe)2 38773.5 21541.3 3258.3 1.2 27.5 39.6 0.2 54.0 7.3 2.4 0.2 0.0 1.1 33.2 
+Chi 
+15.8 46.6 18.7 0.0 0.5 1.2 0.0 3.3 0.6 0.3 0.0 0.0 0.2 7.8 95.10 
+Figure  2.  Plot  of  number  of  authors  and  number  of 
+ publication. 
+REFERENcEs 
+1. De  Bellis,  Nicola.  Bibliometrics  and  citation  
+analysis:  From  the  science  citation  index  to  
+cybermetrics.  The  Scarecrow  Press,  Lanham,  
+Maryland,  2009. 
+2. Bookstein,  A.  explanations  of  the  bibliometric  
+distributions,  Collection  Management,  1979,  
+3(2-3),  151-62. 
+3. Pao, Miranda Lee. An empirical examination of  
+Lotka’s law. J. American Soci. Info. Sci. , 1986,  
+37(1),  26-33. 
+4. Nicholls, P. T. Bibliometric modeling processes and  
+the empirical validity of Lotka’s law. J. American  
+Soci.  Info.  Sci.,  1989, 40(6),  379-85. 
+5. Lotka, A.J. The frequency distribution of scientific  
+productivity.  J.  Wahington  Acad.  Sci.,  1926,  
+16(12),  317-25. 
+6. Potter, William Gray. Lotka’s law revisited. Library  
+Trends,  1981,  30(1),  21-39.  http://  hdl.handle. 
+net/2142/7189/  (accessed  on  12 April  2012). 7. Bookstein,  A.  The  bibliometric  distributions.  
+Library  Quarterly,   1976,  46(4),  416-23. 
+8. Price, D.J. Little science, big science. Columbia  
+University  Press, new york,  1963. 
+9.   e gghe,  Leo.  A  review  of  ranking  problems  in  
+scientometrics and informetrics. In: edited by A.  
+Neelameghan, SRELS, Bangalore, 2000, 23-38. 
+463 
+
+========7========
+
+DJLIT,  VOL.  33,  NO.  6,  NOVEMBER   2013 
+10. vlachy, Jan. Frequency distribution of scientific  
+performance: A bibliography of Lotka’s law and related  
+phenomena. Scientometrics, 1978,  1(1), 109-30. 11. De  Bellis,  Nicola.  Bibliometrics  and  citation  
+analysis:  From  the  science  citation  index  to  
+cybermetrics.  The  Scarecrow  Press,  Lanham,  
+Maryland,  2009. 
+12. Pao, Miranda Lee. An empirical examination of  
+Lotka’s law. J.  American Soc. Inf. Sci.  , 1986,  
+37(1),  26-33. 
+13. Nichols, P.T. Empirical validation of Lotka’s law.  
+Inf.  Proc.  Manag.,  1986,  22,  417-19. 
+14. Nicholls,  P.T.  Bibliometric  modeling  processes  
+and  the  empirical  validity  of  Lotka’s  law.  J.  
+American  Soc.  Inf.  Sci.,  1989, 40(6),  379-85. 15. Lemoline,  W.  The  frequency  distribution  of  
+research papers and patents according to sex:  
+The case of CSIR, India. Scientometrics, 1992,  
+24(3),  449-469. 
+16. Sen, B.K.; Taib, C.A & hassan, M.F. Library and  
+Information  science  literature  and  Lotka’s  law.  
+Malaysian J. Lib. & Inf. Sci., 1996,  1(2), 89-93. 17. Gupta,  B.M.  Distribution  of  productivity  among  
+authors in Potato research (1900-1980). Lib. Sci.  
+Slant  Doc.  Inf.  Studies,  1996, 33,  127-34. 18. Gupta, B.M. & Suresh Kumar. Scientific productivity  
+in theoretical population genetics: A case study  
+in core journals. Lib. Sci. Slant Doc. Inf. Studies, 
+1998, 35(2),  89-97. 
+19. Kawamura, M. et al.  Lotka’s law and the pattern  
+of  scientific  productivity  in  the  dental  science  
+literature. Medical  Inf.  International  Medicines,  
+1999, 249(4),  309-15. 
+20. Gupta, B.M et al. Productivity profile of scientists  
+in  Engineering  Sciences  R  &  D  laboratories  of  
+CSIR, India: A case study.  Library Herald , 1999,  
+37(2),  103-15. 
+21. Rousseau, Brendan & Rousseau, Ronald. LOTKA: A  
+program to fit a power law distribution to observed  
+frequency data. Cybermetrics, 2000,  4(1), paper  
+4.  http://cybermetrics.cindoc.csic.es/pruebas/ 
+v4i1p4.htm/  (accessed  on  March  2012). 
+22. Suresh Kumar. Lotka’s law and author productivity  
+in the field of computer science in India. Library  
+Herald,  2003, 41(2),  90-98. 
+23. Pulgarin, A & Gil-Leiva, I. Bibliometric analysis  
+Miami,  Florida:  Florida  International  University,  
+Miami,  Florida,  2008.  Phd   Thesis. 
+28. Larsen, Peder Olesen & von Ins, Markus. Lotka’s  
+law, co- authorship and interdisciplinary publishing.  
+In  Proceedings of the 4 
+th 
+ International conference  
+on  WIS  &  9th   COLLNET  Meeting,  edited  by  H.  
+Kretschmer and F. havermann, Berlin, May 2008. 29. Pavlyukevich, n.v.; enyazkov, O. G & Fisenka, S.  
+P. Lotka’s law and authors activity of Inzenerno-  
+Fizicheskii nZhurnal. J. Eng. Physics Thermophysics,  
+2009, 82(3),  608-09. 
+30. Ahmed,  S.M.  Zabed  &  Rahman,  Md.  Anisur.  
+Lotka’s law and authorship distribution in nutrition  
+research in Bangladesh. Annals Lib. Inf. Studies,  
+2009, 56(2),  95-102. 
+31.   n erendra  Kumar.  Applicability  to  Lotka’s  law  
+to research productivity of CSIR, India. Annals  
+Lib.  Inf.  Studies,  2010, 57(1),  7-11. 
+32. Sen, B.K. Lotka’s law: a view point. Annals Lib.  
+Inf.  Studies,  2010, 57(2),  166-67. 
+33. Sudhier, K.G. Pillai. Application of Lotka’s law to  
+author productivity distribution of physics literature.  
+6th   international  conference  on  webometrics,  
+Informetrics  and  scientometrics  (ICWIS)  and  
+11th   COLLNET  Meeting,  2010,  October  19-22,  
+University  of  Mysore,  Mysore.  
+34. Pao, Miranda Lee. Lotka’s law: A testing procedure.  
+Inf.  Proce.  Manag.,  1985,  21,  305-20. 
+35. Rousseau, R. A table for estimating the exponent  
+in Lotka’s law. Journal of Documentation, 1993,  
+49(4),  409-12. 
+36. Coile, Russel C. Lotka’s frequency  distribution  
+of scientific  productivity. J. American Soc.  Inf.  
+Sci.,  1977,  28(6),  365-72. 
+37. Schorr,  Alan  edward.  Lotka’s  law  and  map  
+librarianship.   J. American  Soc.  Inf.  Sci. ,  1975,  
+26,  189-90. 
+About  the Author 
+Dr  K.G.  Pillai  sudhier   did  his  MSc  (Physics),  and  BLIS  from  Aligarh  Muslim  University,  Aligarh.  He  obtained  his  MLIS  and  PhD  in  LIS  from  the  University  of  Kerala.  Presently,  he  is  working  as  Librarian  in  the  School  of  Distance  Education,  University  of  Kerala,  Thiruvananthapuram.  Prior  to  
+Inf.  Proc.  Manag.,  2004, 40(2),  365-77. 24. Rai, L.P & naresh Kumar. A rationale for Lotka’s  
+law: An  examination  of  empirical  data. Annals  
+Lib.  &  Inf.  Studies,  2005, 52(3),  103-07. 25. Sobrino, Maria Isabel Martin et al.  Lotka law applied  
+to the scientific production of Information science  
+area.  Brazilian  J.  Inf.  Sci.,  2008,  2(1),  16-30.  
+http://www.bjis.unesp.br/pt/ (accessed on 12 April 12). 26. Petek, M. Personal name headings in COBIB: testing  
+Lotka’s law. Scientometrics, 2008, 75(1), 175-88. 27. Askew, Consuella. An examination of Lotka’s law  
+of the automatic indexing literature: 1956-2000.  
+that  he  worked  as Assistant  Professor  in  the dept.  
+of LIS, University of Kerala and librarian of several  
+teaching and research departments of the University.  he is also serving as Academic Counselor of IGnOU  for their BLIS and MLIS programmes and Research  Guide  of  University  of  Kerala  and  M.S.  University,  Tirunelveli, Tamil Nadu. He has also been associated  with  UGC  Academic  Staff  Colleges  as  Resource  Person.  He  has  more  than  75  research  articles  in  peer-reviewed  journals/  books/seminars,  and  conference proceedings and edited one book ‘Confetti  of Thoughts on Library and Information Studies’. His  
+areas  os  specialisations  are:  Bibliometrics,  citation  in the field of library and information studies.2008.  
+analysis,  open  access,  and  digital  libraries.  
+464 
+
+========8========
+

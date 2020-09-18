@@ -1,0 +1,318 @@
+DESIDOC Journal of Library & Information Technology, Vol. 32, No. 4, July 2012, pp. 335-338
+© 2012, DESIDOC
+
+SpaceGL: An Indian Portal for Space Science Grey Literature
+Md Nurul Alam*, Pragya Pandey*, and Chaitali Dutta**
+Physical Research Laboratory, Ahmedabad-380 009
+E-mail: alam@prl.res.in; praggyap@prl.res.in
+**West Bengal Board of Secondary Education, Kolkata-700 091
+E-mail: contactcdhere@gmail.com
+
+ABSTRACT
+This paper aims to present an experimental prototype model developed using DSpace for the design of
+a web portal which provides access to space science grey literature. Grey literature is that which is not
+readily available as other information and which is difficult to identify and access. The system is based on
+open source software (Java SDK, Apache, Tomcat, Apache Ant, PostgreSQL, and Dspace). SpaceGL is an
+important and ground-breaking example of an alternative method of delivering current research results to many
+potential users. It can act as a central hub which collects and disseminates space science grey literature
+produced in India through a single user interface. It can also be a showcase which provides continuously
+updated information on space science-related projects, initiatives, and events etc. produced in India. This
+experience shows that development of institutional repository system (SpaceGL) resting on open source
+software, framework and application program interfaces could lead to impressive results, in a short amount
+of time and with minimum of investment. In spite of being a prototype model, the SpaceGL aims to benefit from
+nation wide exposure on full-fledged development.
+Keywords: SpaceGL, Dspace, space science, portal, digital library, electronic archive, grey literature
+
+1. INTRODUCTION
+
+2. BACKGROUND
+
+Grey literature is generally considered as an
+important source of up-to-date scientific findings by many
+authorities. At the same time it is relatively difficult to
+locate and even more difficult to access. Thus, it may be
+supposed that all bodies funding research and
+development should eagerly support tools increasing the
+accessibility of grey literature to reduce the probability of
+‘reinventing the wheel’ and to improve the efficiency of
+invested public assets. A range of important types of grey
+literature has no legislative support and, thus, their
+accessibility is only dependent on the willingness of
+individual institutions and their awareness of the utility of
+cooperation among institutions1. Scientists and
+researchers find information hidden in the form of grey
+literature quite useful, but this information is neither easily
+available nor easy to identify or access, keeping this
+aspect in view a conceptual prototype model using
+DSpace software has been developed for the design of a
+web portal of space science grey literature in India. This
+paper enlightens the model with its potential services and
+features.
+
+The emergence of digital collections and the
+increasing amount of digital grey literature challenges the
+library’s ability to consistently collect information using
+our traditional tests and tools. Some of the standard
+criteria of authority and relevance to the institution’s
+mission remain critical. Other standards such as
+longevity and access are more problematic to apply. One
+challenge is the lack of consensus among librarians on a
+definition of grey literature. Another is the failure of
+collection policies to adequately address grey literature,
+especially in the light of digital environment. Addressing
+both challenges is essential to move forward with
+collecting digital grey literature in a coherent fashion
+within the institution2.
+
+Received 01 June 2012, online published 18 July 2012
+
+3. OBJECTIVES
+•
+
+To ensure long term preservation of space science
+grey literature
+
+•
+
+To make space science grey literature easily
+accessible
+335
+
+•
+
+To allow space science community to locate
+information
+about
+conference
+proceedings,
+workshops, talks, presentations, etc.
+
+Grey literatures can be archived by the submitters
+(faculties, student, etc.) from any where and any time
+against password authentication
+
+•
+
+All types of grey literature can be archived at one
+place in SpaceGL (Fig. 1)
+
+•
+
+To create central database of space science grey
+literature
+
+•
+
+Supports interactive integration of grey literature from
+multiple sources
+
+•
+
+To develop a mechanism for electronic distribution of
+grey literature
+
+•
+
+Allows user to locate grey literature through a single
+user interface
+
+•
+
+To serve as a finding aid for key information pertaining
+to the space science
+
+•
+
+•
+
+To develop a digital library of space science grey
+literature
+
+Provides services to support the submission,
+description,
+searching,
+browsing,
+access,
+preservation and visualisation of these documents
+
+•
+
+To create a nonprofit service in the interests of space
+science community
+
+•
+
+To provide value added service to the space science
+community
+
+•
+
+4. SCOPE
+SpaceGL: An Indian portal for space science grey
+literature, is a prototype conceptual model for the design
+of a web portal which provides access to space science
+grey literature. It is hoped that model acts as a central
+hub for holding records of space science grey literature
+from all geographic regions in India.
+
+4.1 SpaceGL on Dspace
+Dspace is digital asset management software jointly
+developed by Hewlett-Packard and MIT Libraries, and it is
+arguably one of the appreciated open source software
+deployed worldwide for building digital institutional
+repositories that captures, stores, indexes, preserves,
+and redistributes content in digital formats. DSpace
+provides the institutions and universities operate an open
+access and interoperable institutional repository at the
+local level. It is also intended to serve as a repository back
+up for future development to address long-term
+preservation and remote/online access issues. The
+system was launched during late 2002 as a live service
+hosted by MIT Libraries, and the source code made
+publicly available according to the terms of the BSD open
+source license, with the intention of encouraging the
+formation of an open source community around Dspace3 .
+
+4.2 Features of SpaceGL
+SpaceGL is a prototype model to to provide uniform
+access to grey literatures (conferences, symposiums,
+talks, etc.), providing continuously updated information on
+space science related projects, initiatives and events,
+etc., going on and documented in India. The important
+features of SpaceGL are:
+
+•
+
+Can be accessed from intranet and internet
+
+•
+
+Supports online registration of remote and local user
+
+336
+
+4.3 Functions of SpaceGL
+There are three web-user interfaces in SpaceGL:
+Collection and user Management, Submission interface,
+and Search and Browse. All documents and material on
+SpaceGL are organised in collections. Collections can be
+organized in trees, which can be created for different
+types of grey literature like Conference papers, Seminar
+etc. SpaceGL Team Manager is responsible for the local
+customisation of the system and administration of users,
+i.e. he/she can register users and assign specific rights to
+them. Responsibilities and user roles are defined on the
+collection level.
+Documents are entered via a step-by-step process or
+single form submission interface which guides depositors
+through the process and offers extensive documentation
+of metadata fields in the help texts. Files can also be
+uploaded with structured metadata. The different user
+roles have different interfaces and visibility of
+administrative metadata depends on the level of rights in
+the system.
+Different types of space science grey literature, i.e.,
+colloquiums, symposiums, talks, conference papers,
+seminars, etc. are provided, as shown in the collections
+and communities page in Fig. 2.
+The third interface allows user to search and browse
+either on a general subject level or on a specific one.
+There are three types of searches available, quick search,
+‘full-text search’ and ‘advanced search’ which allows a
+combination of various different search terms to exploit
+the full potential of the underlying metadata model
+(Fig. 3).
+The main entry point for getting an overview on records
+deposited on SpaceGL is by browsing through collections
+or by browsing through the alphabetic lists of authors.
+One can browse by date, subject, author or scientific
+domain, while the search is operating on titles, authors,
+sponsors,
+subjects,
+handles
+and
+abstracts.
+(Figs. 4-6).
+DESIDOC J. Lib. Inf. Technol., 2012, 32(4)
+
+Figure 1. Home page of SpaceGL.
+
+Figure 4. Browsing interface by title.
+
+Figure 2. Collections and communities.
+
+Figure 5. Browsing interface by author.
+
+Figure 3. Advanced search.
+
+Figure 6. Browsing interface by subject.
+
+5. CONCLUSIONS AND FUTURE WORK
+As grey literature carries valuable information which is
+a vital component of growth of scientific knowledge,
+particularly in developing countries like India, the Portal
+would act as a central hub for preservation, organisation
+and dissemination of space science grey literature.
+DESIDOC J. Lib. Inf. Technol., 2012, 32(4)
+
+It has been devised to provide expeditious access to
+grey literatures in various fields of space science and has
+been tailored keeping in view the information needs of
+space science community. In future on comprehensive
+development it would act as a distributed knowledge
+discovery tool for space science community to enhance
+their research productivity. With a multilingual user
+337
+
+interface it aims at improving the global visibility and
+accessibility of Indian grey literature.
+
+REFERENCES
+1. Vaska, et al. Grey literature repositories. 2010. http:/
+/nrgl.techlib.cz/images/Book.pdf (accessed on 21
+August 2011)
+2. Lehman, Heather & Webster, J. Describing grey
+literature again: A survey of collection policies. http://
+www.greynet.org/images/GL6_Page_136.pdf
+(accessed on 16 June 2011).
+3. Shreekumar, et al. Institutional repositories for
+knowledge management in academic and research
+institutions. 2007. http://drtc.isibang.ac.in:8080/
+bitstream/handle/1849/404/Sreekumar,%20MG.p
+df?sequence=1 ( accessed on 16 June 2011).
+About the Authors
+Md Nurul Alam obtained his post graduate degrees in
+Library & Information Science from Jadavpur University,
+Kolkata and in Computer Science from Sikkim Manipal
+University. He has worked with Electronic Media Library
+
+338
+
+and Indian Institute of Technology, Kharagpur and is
+presently employed in Physical Research Laboratory,
+Department of Space. His areas of interest are:
+Development of application-based products using open
+source software technologies and creation of digital
+repositories. He has published several papers in Indian
+and International journals.
+Ms Pragya Pandey obtained her post graduate degree in
+Library & Information Science and a diploma in Library
+Automation and Networking. Presently, she is employed
+at Physical Research Laboratory, Department of Space.
+She has an interest in creating tools for easy access to
+information She has presented 5 papers in conferences
+and 3 in journals.
+Dr Chaitali Dutta is currently the President of West
+Bengal Board of Secondary Education, India. She holds
+PhD in LIS from University of Calcutta. She has a
+teaching experience of 21 years. She was a Associate
+Professor and HOD of the Dept of LIS in Jadavpur
+University, Kolkata. Prior to that she worked in the
+Research Library of Jute Technological Research
+Laboratories, ICAR, Kolkata for 18 years. She has 30
+papers to her credit and has guided 10 PhD scholars of
+which 6 have already been awarded the degree.
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(4)
+
+

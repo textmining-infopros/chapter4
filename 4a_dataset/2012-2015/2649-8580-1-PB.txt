@@ -1,0 +1,1009 @@
+DESIDOC Journal of Library & Information Technology, Vol. 32, No. 5, September 2012, pp. 401-408
+© 2012, DESIDOC
+
+Open Source Software for Library Services
+Sunita Barve* and N.B. Dahibhate**
+*National Centre for Radio Astrophysics (NCRA), Pune-411 007
+E-mail: sunitabarve@gmail.com
+**National Chemical Laboratory (NCL), Pune-411 008
+E-mail: nb.dahibhate@ncl.res.in
+
+ABSTRACT
+Information and communications technology has played a major role in libraries. Libraries have now been
+completely dependent on providing new services to its users based on computer applications. Different
+computer programs are available for libraries to provide range of services from library automation, library
+website management, knowledge management, digital library management to document editing. To manage vast
+amount of digital information, libraries need some computer applications which takes care of their requirements.
+These applications are generally developed by commercial vendors or are available under open source license
+terms and conditions. In the present paper, an overview of range of open source software available for
+various library services. Library professionals can effectively use these software to provide innovative
+services to their users and without involvement of any of large budgets.
+Keywords: Open source software, library services
+
+1. INTRODUCTION
+Information and communications technology (ICT) is a
+buzz word in library science today. The ICT has been
+taught and discussed at a great length in library schools
+as well as in library professionals community. Library
+schools still lack providing practical knowledge to
+students while teaching the ICT related areas. Same is
+the case with library professionals where many library
+professionals depend completely on computer
+applications which are available in the market and
+supported by commercial vendors. Once any commercial
+software is purchased for the library, library has to depend
+on their terms and conditions and keep paying their AMC
+costs yearly. Since libraries lack in technical experience,
+vendors try to put their own terms and conditions while
+purchasing any software. While supplying any
+commercial software, the vendors do not supply the same
+with its full functionality and proper training of all modules.
+For every new small feature they demand heavily from the
+customers and still there is lack of dissatisfaction among
+the library community while using any commercial
+software.
+One of the main reasons given by the library
+community to use commercial software is ‘support’
+Received 14 May 2012, accepted 14 May 2012, online published
+
+provided by the commercial vendors. It is observed many
+times that though the AMCs are paid, still the commercial
+vendors lack providing proper support for libraries which
+include support for installation/re-installation of the
+software, solving any issues while using the software,
+upgrade of the software, providing new features in the
+software, import/export/migration of data in standard
+library format for future preservation, easy documentation
+manuals, data entry support with library standards (such
+as MARC-21, AACR-II, etc.), interoperability support of
+data for exchange between libraries, email server support,
+multilingual support, etc. Many such issues are not
+handled properly by commercial vendors and open source
+software (OSS) stands out best.
+Several OSS are available today for libraries to provide
+new value added services to end-users while handling
+large volumes of library data. Many of the professionals
+are either unaware of these software or due to insufficient
+technical expertise they do not intend to implement these
+software in their organisations.
+In the present paper, some popular OSS which can be
+effectively used in libraries for providing new services are
+listed which are heavily used OSS from different
+categories. These software are regularly upgraded and
+7 September 2012
+
+401
+
+have a strong user community across the world. Many of
+these software run on Linux as well as Windows operating
+systems.
+
+2. OPEN SOURCE SOFTWARE
+Since 1997, OSS have taken up a good market in
+computer industry. Large number of OSS are available
+today on internet. The world’s largest OSS development
+website is http://sourceforge.net.
+This site provide free hosting for all OSS-related
+projects where actual programs, source code, statistics
+related to OSS and other details about those projects are
+available. Source Forge provides a platform for the
+developers to create powerful software. Currently, it is
+hosting 3,24,000 projects with more than 46 million users
+who are using these software and there are more than
+4,000,000 downloads a day1. According to Raymond2, the
+definition of OSS is software that is freely redistributable
+and can readily be evolved and modified to fit changing
+needs.
+
+MySQL, PHP, Sendmail, Bind, Tcl/Tk, Python, etc.
+Firefox web browser has recently surpassed Microsoft’s
+Internet Explorer due to its quality. Google, is currently
+investing money into open source development, with its
+own browser Chrome, and two operating systems,
+Android for mobile phones and Chrome for computers.
+All the OSS software are copyrighted and distributed
+with license terms and conditions designed to ensure that
+the source code is always available. The most popular
+open source license is GPL, i.e., GNU Public License.
+Generally, value of any OSS is measured in terms of its
+simplicity and connectivity.
+
+3. BENEFITS AND DRAWBACKS
+Following are some of the benefits of using OSS
+
+•
+
+Software does not depend on any specific hardware
+or operating system platform to function.
+
+•
+
+With OSS, people can have any number of copies of
+programs on their machines, at home or at work.
+
+The OSS is a collaborative programming development
+which releases its source code freely to the general public
+for any use, modifications and redistribution without any
+licensing restrictions. The source code refers to
+instructions written by humans in a computer
+programming language to be compiled into a binary
+format that can run on a computer, carrying out the tasks
+outlined in the source code3. Instructions to computers
+are normally written by programmers in programming
+languages like – C, C++, Java, Perl, Python, etc. These
+instructions are readable by humans and referred to as
+source code.
+
+•
+
+Since source code is available one can customise the
+software as per the requirements.
+
+•
+
+It is possible to incorporate the software into the
+another program to perform new functions.
+
+•
+
+If the user base of open source is large, it can sustain
+in the market for long time.
+
+•
+
+Since developers working for open source are spread
+across the world its development does not depend on
+any single person/community. Hence, new release
+versions can frequently be made available to the
+community.
+
+There is a general confusion, among the users about
+OSS, free-ware, shareware and public domain software
+licenses. Free-ware is a software that is released free of
+cost in binary format only, which generally does not allow
+any modifications and redistribution of the software.
+Shareware is a software that is released free of cost in
+binary format only and allowed for the use on a trial basis
+and then insist end users to purchase the software.
+Public domain is a software whose copyrights has
+expired or has been released from copyright obligations
+by the author(s), rendering it free of restrictions on usage
+and redistribution.
+
+•
+
+There is large community of people who work on
+popular open source hence regularly new versions of
+the OSS are available to the community.
+
+•
+
+There is a group of community who can provide
+support through mailing lists, internet relay chat
+centers to get quick answer to any of problem/query.
+
+•
+
+Since it is open source, there is no data loss as well
+as with open standards/formats, hence it is easy to
+retrieve data for future.
+
+The OSS are becoming increasingly popular software
+development method. It is a term to describe the tradition
+of open standards, shared source code, and collaborative
+development. The OSS programs are available for any
+user for use. In case of proprietary software, the software
+is not free nor the source code of the software is available
+to the end user.
+There have been many successful open-source
+projects e.g. Linux operating system, Apache web server,
+402
+
+Following are some of the drawbacks of using OSS
+
+•
+
+Lack of formal support and training that a commercial
+software package offer.
+
+•
+
+Often software support is provided only through
+mailing lists and discussion forums.
+
+•
+
+Installing and maintaining OSS generally requires a
+technical knowledge than that required for commercial
+software.
+
+•
+
+OSS are also not known for ease of use as the focus
+is usually on functionality.
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+•
+
+With no vendor responsible for the software, support
+for the OSS applications can vary and often depend on
+the user/developer’s communities commitment to the
+project.
+
+by using OSS tools. For creating digital libraries, libraries
+relied on OSS tools as an alternative instead of any
+commercial digital library systems mainly due to
+dissatisfaction with functionality8.
+
+•
+
+Documentation manuals of OSS are not very simple.
+
+The OSS resources for libraries is vast and are
+increasing at an exponential rate9, These software can be
+used in libraries to provide new value added services to
+end users without any requirements of large budgets. The
+following sections provide list of different open source
+applications which are available from different categories
+and which can be effectively used to provide new services
+to end users with successful implementation without
+relying on any commercial vendors.
+
+4. STATE OF OSS IN LIBRARIES
+Daniel Chudnov has done a lot to raise the awareness
+of OSS in libraries4. The OSS4libsite (http://
+www.oss4.lib.org) now available as OSS in libraries (http:/
+/foss4lib.org/) provides categorisation and listing of
+library-related OSS applications including applications for
+document delivery, Z39.50 clients and servers, systems
+to manage collections, MARC record readers and writers,
+integrated library system applications, digital library
+software, digital archiving software, next generation
+OPAC software, electronic journal archiving, etc.
+The open source movement and libraries have a
+common factor such as free and equal access to
+information5. Libraries have highly specialised software
+needs because the library community have developed its
+own complex standards to share information. Until
+recently libraries relied on the commercial solutions for all
+their requirements due to unavailability of skilled IT staff
+as well as unavailability of user friendly open source
+solutions. Hence, open source solutions were not
+considered in libraries as a scalable or feature-rich
+solutions to handle most of the library requirements.
+Today several companies/organisations all over the
+world are committed to support and develop solutions
+based on OSS for libraries as well as in other areas. They
+offer services including hosting, installation to support,
+and development services6. With these new options,
+libraries don’t need an IT staff to deploy software or advice
+on development of new features. The OSS provides an
+opportunity for libraries to take control of library services
+and collections relying on available hardware with
+libraries. The time, effort, and money spent on buying
+commercial solution can be diverted to provide training
+existing staff on teaching OSS application as well as
+hiring additional customers to customise OSS as per
+specific requirements.
+
+4.1 Library Automation Software
+There are range of open source library automation
+software available. Out of the available open source
+software very few are updated/upgraded regularly and has
+a large user base. The CDS/ISIS, is first information
+storage and retrieval system developed by UNESCO
+available free but not under open source license terms
+and conditions and is heavily used only to uncatalogued
+library collections. Koha, Evergreen, Invenio, Senayan
+Library Management System, NewGenLib, EGranthalaya (not open source but available free after filling
+up the form), OPALS-Library Automation Software, ABCD,
+Glibms (not updated after 2002), Emilda (not updated
+after 2005), OpenBiblio (not updated after 2008) are some
+of the software available free to end users for library
+automation.
+Out of these available software Koha has been
+installed widely across world and has a large user base
+from developed countries to developing countries hence it
+can be used in all types of libraries such as from School
+to National library. Many countries have used Koha
+effectively to complete their automation and bring their
+OPACs on the web. Recently during 2011, Breeding
+carried out a survey of automation software used in US
+academic and public libraries and it was found that many
+libraries in US continue to opt for open source ILSs rather
+than proprietary products. Evergreen and Koha ILS have
+become mainstream10 in libraries from USA.
+
+4.1.1
+
+Koha (http://koha-community.org)
+
+The OSS generally provide more functions quickly
+than commercial solutions as they are developed by the
+users of the software who are spread across world and
+keep developing small pieces of the software regularly. In
+commercial software development, vendors priority is in
+profit generation that may not be in line with the needs of
+users7. Even with commercial vendors, number of
+developers who work for developing a particular software
+is a small group which is not the case with open source.
+
+It is 100 per cent open source integrated library
+automation software. New versions of Koha are released
+every fortnightly. It has a global community of its
+developers and has a large user-base across world
+(approximately more than 2000 installations). Many
+government organisations across world have officially
+decided to use Koha to support open source technology.
+
+Many OSS tools are now available for use in libraries.
+The development of digital library initiative is mainly driven
+
+Koha supports all modules of library applications as
+well as has support for Z39.50 server, multilingual support,
+supports library standards such as MARC-21/UNIMARC,
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+403
+
+OAI-PMH, ISO2709 as well as support several next
+generation OPAC features.
+Koha community has been providing excellent
+support through its mailing lists and IRC rooms. Software
+has detailed online documentation manual and there are
+several power-point presentations available on various
+modules of Koha on internet. Many commercial vendors
+provide support for koha. In India OSS, Labs, Mumbai and
+Anant Corporation, Mumbai are the main commercial
+players who provide support for Koha. The software can
+handle millions of records and transactions.
+Koha can be a best option for libraries to bring their
+OPACs on the web from school libraries to national
+libraries. Libraries have to make sure that their OPACs
+are available on the web. Online book stores provide
+details about any book published in any language but
+availability of a particular book can only be known if library
+catalogs are available on the web and can be Z39.50
+compliant for searching and retrieving data.
+
+widely used free open access, institutional repository
+software for archiving preprints and post-prints of faculty
+members. Due to simple installation process, EPrints
+has been used by many libraries.
+
+4.2.3
+
+CDS-Invenio (http://invenio-software.org/)
+
+CDS-Invenio is web-based integrated digital library
+software developed by CERN. It is a powerful, flexible
+digital library system suitable to handle very large
+collections of full-text documents. It tries to combine the
+best of the traditional library world and modern information
+retrieval technology. It has an excellent authentication
+and authorisation policy support. CDS-Invenio has grown
+into a large software suite intended to cope with large
+collections (almost 1 million records at CERN), and with
+advanced library-type functionalities. CDS-Invenio allow to
+catalogue print as well as digital documents with several
+advance features. It uses MARC-21 bibliographic
+standard. CDS-Invenio though supports very good
+functionality, due to its small user-base it is not used by
+many libraries across world.
+
+4.2 Digital Library Software
+Digital libraries (DLs)/institutional repositories (IRs)/
+digital archives are been discussed heavily since 2000.
+Under open source license terms and conditions range of
+digital library software are available especially CDSInvenio, DoKS, DSpace, Eprints, FEDORA, Greenstone,
+MyCoRe, etc. Each of these software has its own
+advantages and disadvantages. DSpace and EPrints are
+the most popular software used across world for building
+digital repositories as per the statistics from Registry of
+Open Access Repositories (ROAR)/Directory of Open
+Access Repositories (DOAR).
+
+4.2.1
+
+DSpace (http://dspace.org )
+
+It provides tools for management of digital assets, and
+is commonly used for building institutional repositories. It
+was basically designed to manage, host, preserve and
+enable distribution of the scholarly output of MIT’s faculty.
+In India, many institutions have taken steps to use
+DSpace for building digital repositories/institutional
+repositories. DSpace has more number of features over
+EPrints hence is heavily used across world. Prominent
+features of DSpace are that it supports unique
+identification number for every digital document that is
+added into DSpace repository, provides digital
+preservation support, has excellent work-flow
+management, has access control privacy and
+management, support authentication and authorisation
+policies at all levels.
+
+4.2.2
+
+EPrints (http://www.eprints.org)
+
+It is a generic archive software developed by
+University of Southampton. When first version of EPrints
+was released it became the erst and one of the most
+404
+
+4.3 AUDIO/VIDEO RECORDINGS OF TALKS
+4.3.1
+
+OpenEyA (http://www.openeya.org )
+
+In every organisations, talks are delivered by faculty
+members, invited speakers and students. Many of these
+talks are not recorded due to non availability of the
+software to record and archive these talks. Libraries can
+now take a leading role in recording these talks, archiving
+and delivering using open source software called as
+OpenEyA which is an easy to implement technology. This
+can be one of the value added service from the library. This
+technology is simple to use and can be implemented
+without any need of high-end hardware. OpenEyA is a
+linux-based automated lecture capture system developed
+by the ICTP Science Dissemination Unit (SDU), Italy. The
+software integrates different technologies under Ubuntu
+operating system to synchronise:
+
+•
+
+Video in Flash format (to see whatever happens in
+front of a classroom)
+
+•
+
+Slides from screen captures or any USB webcam (to
+zoom specific areas of the classroom podium,
+blackboard and/or projector screen) and
+
+•
+
+Classroom audio (without the need to wear a
+microphone)
+
+OpenEyA allows to archive (in Flash format) and
+share (via web, zip) traditional scientific lectures and talks
+carried out using chalkboards in classrooms and/or using
+modern presentations (PPT, PDF, animations, etc.)
+After the recording the software generates one html
+file which integrates audio/video and classroom or PPT in
+one single html file. As soon as html is opened the flash
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+format video starts running and acts as a streaming
+server. This is one of the important feature of ‘OpenEyA’
+as well as each file occupy very less space hence to
+deliver these contents over web does not have any
+constraints.
+
+4.4 Library Website/Content Management/
+Knowledge Management Software
+Library website maintenance is one of primary activity
+of any library. So far, most of the libraries are creating only
+html pages of information available in their libraries and
+publish this information from the organisational websites.
+Some libraries use free web logs to create blog of their
+library and disseminate information about their services.
+Creating blog is an easy way of publishing information
+about library, services provided by library and any other
+useful information about the library. There are certain
+limitations to either use html or blog services.
+A web presence is critical for almost every library, but
+creating websites can be daunting. It can take a lot of
+time, money and technical expertise, which are often in
+short supply. It is difficult to maintain library websites with
+updates and with new desirable features demand from
+user community. Here, an open source content
+management system (CMS) can help. The CMS tools
+allow to easily create complex library websites with lot of
+new features.
+The CMS is a software program that makes building
+and maintaining websites faster and easier. The CMS lets
+one build a website that can be quickly and easily
+updated by non-technical staff members. These open
+source systems are created and supported by a
+community of developers, and can be downloaded without
+cost. Both their feature sets and their price tags make
+open source systems particularly attractive to libraries.
+CMS stores actual content (text and images) on a back
+end database. The system then automatically pulls the
+content out and show it on the appropriate pages.
+There are several free OSS available which are heavily
+used all over the world to maintain institutions web sites
+hence same can be used for managing library websites
+as well. The well known among these software are Drupal,
+Plone, Joomla, WordPress (http://wordpress.org), etc.
+These software also can be used to play a key role in
+‘Knowledge Management’ projects. Using Joomla, Plone,
+Drupal or WordPress is very easy and these software can
+handle large volumes of data and can provide several Web
+2.0 services.
+Plone is difficult system to learn and install.
+WordPress, Joomla, and Drupal are fairly easy systems
+to get installation done and build library web sites. Among
+these three WordPress is the easiest to learn and
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+implement but can be used for small website
+management.
+
+4.4.1
+
+Drupal (http://drupal.org)
+
+It can be a great choice for libraries for building their
+websites and handling complex volume of data. Along
+with publishing information about library, Drupal also
+allows to support creating blogs for every user, handling of
+thousands of pages, storing formatted bibliographic
+information, automatically building site map from menus
+and content categories, providing tags to every content,
+providing social bookmarking support, photo/video
+sharing, RSS feeds support, faceted search feature,
+maintaining user profiles, taking user polls, etc. Several
+Web 2.0 features are supported in drupal. Drupal also
+allow to create a library catalog by importing MARC
+records.
+Drupal uses a classification system for all content in
+its system that can allow to place content virtually
+anywhere on the site at any given time11. Flexible and
+powerful Drupal is a great choice for complex site
+maintenance.
+
+4.4.2
+
+Kompozer (http://kompozer.net)
+
+It is used to design simple webpages in html format. It
+is an open source web file management system and
+easy-to-use WYSIWYG (What-You-See-Is-What-YouGet) webpage creating/editing. Kompozer is designed to
+be extremely easy to use, making it useful for non
+technical computer users who can create attractive,
+professional websites/webpages without needing to know
+HTML or web coding.
+
+4.5 Citation Management Software
+4.5.1
+
+Zotero (http://www.zotero.org)
+
+It is a free web-based easy to use citation
+management tool. It helps one to collect, organise, cite
+and share his/her research sources. Zotero is a firefox
+plugin and a standalone application. It lives right where
+one does his/her work in the web browser itself. Zotero
+allows to grab books, articles, webpages, and whatever
+else one find and allows to cite and then organise and
+generate bibliography in different standard format such as
+National Library of Medicine, American Psychological
+Association, American Political Science Association,
+Chicago Manual of Style, etc., and allow to easily cite
+references while writing articles, thesis, reports.
+Zotero not only allows to manage all references as per
+different categories but as well allow to upload full-text of
+files along with each reference and these full text files are
+indexed so it allows to search inside the pdf files which
+are uploaded on a Zotero server.
+405
+
+4.6 Audio/Video Files Editing
+4.6.1
+
+Audacity (http://audacity.sourceforge.net)
+
+It is a free OSS for recording and editing sound. It is a
+free, easy-to-use and multilingual audio editor and
+recorder for Windows, Mac OS X, GNU/Linux and other
+operating systems. Audacity allows to record live audio,
+convert tapes/records into digital recordings/CDs, edit
+variety of audio files, allow to cut, copy, mix sound
+together, etc.
+
+4.6.2
+
+Avidemux (http://http://fixounet.free.fr/
+avidemux/)
+
+It is a free video editor designed for simple cutting,
+filtering and encoding of video files. It supports many file
+types including AVI, MP4, MPEG, ASF, etc. Avidemux is
+available for Linux, BSD, Mac OSX and Microsoft
+Windows under the GNU GPL license.
+
+4.6.3
+
+Kino (http://www.kinodv.org)
+
+It is an another popular video editor software. Kino
+allow to load multiple video clips, cut, paste portions of
+video/audio and save it as a new file. Kino allow to export
+videos into number of formats such as AVI, MP3, MPEG1, MPEG-2, MPEG-4.There are several audio/video
+players available under open source such as vlc, mplayer,
+Kaffine, etc. which can be used to play audio/video files.
+Among all available players, VLC player has capability to
+handle most of the audio/video file formats.
+
+4.7 Conference Management System
+Conference Management systems are web
+applications which usually include features such as
+registration, payment, paper submission, review,
+scheduling, announcements, post conference details,
+proceedings of the conference, recordings of the talks
+delivered during the conference, etc.
+
+4.7.1
+
+Open Conference Systems (http://
+pkp.sfu.ca/?q=ocs)
+
+It is an open source solution to managing and
+publishing scholarly conferences online. It has been
+designed to reduce the time and energy devoted to the
+clerical and managerial tasks associated with managing
+a conference, while improving the record-keeping and
+efficiency of editorial processes as well as allow to
+publish post conference proceedings.
+
+4.7.2
+
+Indico (http://indico-software.org)
+
+It is an another web application to schedule and
+organise events, from simple lectures to complex
+meetings, workshops and conferences with sessions and
+contributions. The tool includes an advanced user
+delegation mechanism, and allows paper reviewing,
+406
+
+archival of conference information and electronic
+proceedings.
+
+4.8 Journal Management System
+4.8.1
+
+Open Journal System (http://http://pkp.sf
+u.ca/?q=ojs)
+
+It is a journal management and publishing system that
+has been developed to expand and improve access to
+research. The OJS can handle online submission and
+management of all contents. The OJS assists with every
+stage of the referred publishing process, from
+submissions through to online publication and indexing.
+The OJS is made freely available to journals worldwide
+for the purpose of making open access publishing a viable
+option for more journals, as open access can increase a
+journal’s readership as well as its contribution to the
+public good on a global scale.
+
+4.9 Website Download
+4.9.1
+
+HTTrack (http://www.httrack.com)
+
+It is a free, easy-to-use off line browser utility. It allows
+to download a world wide web site from the Internet to a
+local directory, building recursively all directories, HTML
+pages, images, and other files from the server to a local
+computer. HTTrack arranges the original site’s relative
+link-structure. To view a website, one can simply open a
+page of the ‘mirrored’ website in a browser, and it is
+possible to browse the site from link to link, as if you are
+viewing it online. HTTrack can also update an existing
+mirrored site, and resume interrupted downloads.
+HTTrack is fully configurable, and has an integrated help
+system.
+
+4.9.2
+
+Document Editing Software
+
+To edit, combine and manage several PDF files, there
+are several free tools available such as pdfedit, pdfjam,
+pdfjoin, pdf90, pdf180, etc. are available in linux. One can
+easily play with multiple pdf files. These tools allow to
+join, rotate and edit pdf files.
+
+4.10
+
+E-learning Management System
+
+A learning management system (LMS) is a system
+used to deliver online education. Today, most LMS make
+extensive use of web and include features such as
+discussion forums, chats, journals, grading tools, and
+student tracking.
+
+4.10.1 Moodle (http://moodle.org)
+It is one of the most popular open source e-learning
+course management system (CMS), also known as a
+learning management system or a virtual learning
+environment (VLE). It is a free web application that
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+educators can use to create effective online learning
+sites. A single Moodle website can host a large number of
+courses. Each course can be managed by one or more
+teachers. Courses can contain activities such as
+discussion forums, student journals, quizzes, surveys,
+assignments, chats, and workshops. Moodle includes
+support for grading, file uploads, user logging and
+tracking, multimedia, e-mail integration, and many other
+features, all comparable to those available in a proprietary
+LMS.
+
+4.11 Next Generation OPACs
+Due to developments in technology, the users expect
+now one-stop searching for all documents (federated
+searching) that are available in libraries such as searching
+across library OPAC (bibliographic information search
+about printed books, videos, journal titles), digital library
+collections (metadata, full-text search from digital
+documents), e-books, e-journals subscribed by the library
+and other databases available in the library.
+These next generation catalogue systems are
+distinguished from earlier OPACs as they provide more
+sophisticated search and retrieval features as well as
+support12:
+
+•
+
+Images of book covers, CD, audio/video files, Table of
+Contents, summaries, reviews
+
+•
+
+Relevance ranking
+
+•
+
+Faceted search
+
+•
+
+Spell checking
+
+•
+
+Users who borrowed this also borrowed
+
+•
+
+Amazon like contents
+
+•
+
+RSS feeds (which deliver new acquisitions of books
+and search updates)
+
+•
+
+Write reviews/comments about a book, initiate
+discussions about a book, ratings and tag
+clouds
+
+•
+
+Create reading lists and share with others through a
+more versatile OPAC interfaces
+
+•
+
+Suggest books online
+
+•
+
+Home delivery of books to users who never visit
+libraries
+
+•
+
+Mobile/e-mail notices of overdue/return/reserved
+books as well as access to library web OPAC
+
+•
+
+Users may be interested in knowing what their
+neighbors are reading, listening and watching
+
+•
+
+User ratings
+
+•
+
+Bookmark and share
+
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+•
+
+TOC, summary of the book and visual display of
+narrow down results
+
+Many open source next generation OPAC software
+are available such as SOPAC supported by Drupal,
+Evergreen, Bluefind, Vufind, Voyager, etc.
+
+4.11.1 Vufind (http://www.vufind.org)
+It is a one of the popular and heavily used next
+generation OPAC software designed and developed for
+libraries by libraries. The goal of VuFind is to enable users
+to search and browse through all of your library’s
+resources by replacing the traditional OPAC to include
+searching records from library catalog, locally cached
+journals, digital library items, institutional repository
+items, institutional bibliography items, and any other
+library collections and resources.
+
+4.12
+
+Wiki Management
+
+A wiki is a website that can be edited directly by
+people browsing it. Wikis allow others to contribute and
+modify entries. Wikis are online, collaborative that allow
+anyone to add, edit or delete pages. Some Wikis require
+registered membership, and others are private, but many
+allow anyone with access to the web to contribute. Wikis
+use a simplified mark-up syntax that allow users to
+contribute without any knowledge of HTML.
+Wiki’s help libraries to organise library resources and
+improve communication with users. Wiki software can be
+used to perform several tasks such as to create subject
+guides in libraries, to create documentation manuals, to
+create professional knowledge repository, to maintain wiki
+for a software development and its activities, to maintain
+conference website, etc. There are range of OSS available
+for creating wikis are CoWiki, Instiki, MediaWiki,
+MoinMoin, PmWiki, Swiki, and Twiki.
+
+4.12.1 MediaWiki (http://www.mediawiki.org)
+It is an open source extremely powerful, scalable
+software and a feature-rich wiki implementation software.
+Software runs on PHP and data is stored in MySQL.
+Mediawiki is a fully dynamic and a popular software.
+
+4.13
+
+Electronic Journals Archiving
+
+The LOCKSS (lots of copies keep stuff safe) program
+(http://www.lockss.org) is an open source, library-led
+digital preservation system built on the principle of ‘lots of
+copies keep stuff safe’. Today, it is named as ‘Controlled
+lots of copies keep stuff safe (CLOCKSS)’. The LOCKSS
+system allow librarians to take custody of and preserve
+access to the e-content for which libraries have paid for.
+Using their computers and network connections,
+librarians can obtain, preserve, and provide access to
+purchased copies of e-contents.
+407
+
+The LOCKSS allows to preserve all electronic
+contents locally for which subscriptions are paid by the
+libraries which allow them to restore their print purchasing
+models. If the publishers web site contents are
+unavailable, archived contents are served to the library
+users through LOCKSS archived program. The LOCKSS
+delivers a copy of the original publication to authorised
+users in real time, whenever it is needed. Because
+LOCKSS preserves the original publisher’s copy of each
+item, it ensures that the most authoritative version
+persists, remains unchanged, with full credit to the
+publisher.
+
+4.14 Meta Searching/Federated Searching
+Federated searching is known as meta searching,
+broadcast searching, cross-searching and a variety of
+other names, is the ability to search multiple information
+resources from a single interface and return an integrated
+set of results13.
+
+OSS tools. To save and preserve library data for future, it
+is important that libraries adopt as many OSS as they
+can and participate in the movement of sharing
+information globally with open standards and open
+formats.
+
+REFERENCES
+1. http://sourceforeg.net (accessed on 4 April 2012)
+2. Raymond, E.S. The cathedral and the bazaar.
+O’Reilly, 2001. 225 p.
+3. Poulter, Alan. Open source in libraries: An
+introduction and overview. Vol. 59, No. 9, 2010. p.
+655-61.
+4. Morgan, Eric Lease. Possibilities for open source
+software in libraries. Inf. Technol. Lib., 2002, 21(1).
+http://www.ala.org/lita/ital/21/1/morgan (accessed on
+4 April 2012).
+
+Federated searching (also known as meta search or
+cross searching) allow users to search simultaneously
+multiple web resources and subscription-based
+bibliographic databases from a single interface. To
+achieve that, parallel processes are executed in real-time
+and retrieve results from each separate source. The
+returned results are then grouped together and presented
+to the user in a unified way.
+
+5. Morgan, E. Open source software in libraries: A
+workshop. 2003. http://infomotions.com/musings/
+ossnlibraries-workshop/ossnlibraries-workshop.html
+(accessed on 1 April 2012)
+
+4.14.1 DbWiz (http://researcher.sfu.ca/dbwiz)
+
+7. Krogh, G. von & Hippel, E. von. Special issue of open
+source software development. Research Policy, 2003,
+32(7), 1149-291.
+
+It is an open source federated search engine which
+allows to search across multiple databases, websites,
+catalogues, and other online resources from a single
+interface, and presents the results as an integrated list.
+dbWiz provides a single stop search facility for all the
+resources available in any library.
+
+4.14.2 Pazpar2 (http://www.indexdata.com/pazpar2)
+It is a high-performance user interface-independent
+meta search engine featuring merging, relevance ranking,
+record sorting, and faceted results. It is a web-oriented
+Z39.50 client which will search a lot of targets in parallel
+and provide on-the-fly integration of results. The interface
+is entirely web service-based.
+
+5. CONCLUSIONS
+Open source offers useful savings in time, money, and
+resources. Large percentage of library professionals have
+recognised potential for OSS systems and applications.
+With exponential growth of information, user expectations
+are growing and more and more ‘personalised’ services
+are required by users and there is a great opportunity for
+librarians to play a leading role in organising and
+presenting filtered information by making use of these
+408
+
+6. Burger, T.N. Libraries facilitate open access to
+information with open source software. 2007. http://
+archive09.linux.com/feature/59491 (accessed on 30
+March 2012).
+
+8. Breeding, Marshall. An update on open source ILS.
+Information
+Today,
+2002,
+19(9),
+http://
+www.infotoday.com/it/oct02/breeding.htm (accessed
+on 1 April 2012).
+9. Cervone, F.F. The open source option. Library Journal
+NetConnect, 2003, 8-12.
+10. Breeding, Marshall. Automation marketplace 2012:
+Agents
+of
+change.
+2012.
+http://http://
+www.thedigitalshift.com/2012/03/ils/automationmarketplace-2012-agents-of-change/
+11. Garza, Alejandro. From OPAC to CMS : Drupal as an
+extensible library platform, Next Generation OPACs :
+Part 2. Library Hi Tech, 2009, 27(2), 252-67.
+12. Wynne, Susan C. & Martha, J. Hanscom. The effect
+of next-generation catalogs on catalogers and
+cataloging functions in academic libraries. Cata.
+Classif. Quart., 2011, 49(3), 179-207.
+13. Mah, Calvin & Stranack, Kevin. dbWiz: Open source
+federated searching for academic libraries. Library Hi
+Tech, 2005, 23(4), 490-503.
+DESIDOC J. Lib. Inf. Technol., 2012, 32(5)
+
+
