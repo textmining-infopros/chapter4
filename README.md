@@ -3,5 +3,5 @@
 Click badge below to load RStudio server
 
 <!-- badges: start -->
-[![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/textmining-utl/binder/master?urlpath=rstudio)
+[![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/textmining-utl/chapter4/master?urlpath=rstudio)
   <!-- badges: end -->
