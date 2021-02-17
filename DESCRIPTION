@@ -1,5 +1,5 @@
 Type: Compendium
-Package: Case Study 1B
+Package: Case Study 4C
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.1
 Authors@R: 
@@ -7,19 +7,20 @@ Authors@R:
            family = "Lamba",
            role = c("aut", "cre"),
            email = "lambamanika07@gmail.com")
-Description: Clustering of Text Documents
+Description: Topic Modeling of Documents
 License: What license it uses
 Depends: 
+    RColorBrewer,
+    stm,
+    tidytext,
+    forcats,
+    stringr,
+    dplyr,
+    purrr,
     readr,
-    proxy,
-    RTextTools, 
-    fpc, 
-    wordcloud,
-    cluster, 
-    tm, 
-    stringi, 
-    textmineR, 
-    factoextra, 
-    ggplot2
+    tidyr,
+    tibble,
+    ggplot2,
+    tidyverse
 Encoding: UTF-8
 LazyData: true
