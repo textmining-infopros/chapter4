@@ -3,24 +3,24 @@ Package: Case Study 4C
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.1
 Authors@R: 
-    person(given = "Manika",
-           family = "Lamba",
+    person(given = "First",
+           family = "Last",
            role = c("aut", "cre"),
-           email = "lambamanika07@gmail.com")
-Description: Topic Modeling of Documents
+           email = "first.last@example.com")
+Description: Topic modeling of documents in R
 License: What license it uses
 Depends: 
-    RColorBrewer,
-    stm,
-    tidytext,
-    forcats,
-    stringr,
     dplyr,
-    purrr,
-    readr,
-    tidyr,
-    tibble,
+    forcats,
     ggplot2,
+    purrr,
+    RColorBrewer,
+    readr,
+    stm,
+    stringr,
+    tibble,
+    tidyr,
+    tidytext,
     tidyverse
 Encoding: UTF-8
 LazyData: true
