@@ -1,3322 +1,0 @@
-	  
-Great Expectations: Researching Usability of Online Museum Collections
-
-Carly Wickell
-
-A thesis
-
-Submitted in partial fulfillment of the
-requirements for the degree of
-
-Master of Arts
-
-University of Washington
-
-2014
-
-Committee:
-Wilson O'Donnell
-Rachael Faust
-Jessica Luke
-
-Program Authorized to Offer Degree:
-Museology
-
-UMI Number: 1563141
-
-All rights reserved
-INFORMATION TO ALL USERS
-The quality of this reproduction is dependent upon the quality of the copy submitted.
-In the unlikely event that the author did not send a complete manuscript
-and there are missing pages, these will be noted. Also, if material had to be removed,
-a note will indicate the deletion.
-
-UMI 1563141
-Published by ProQuest LLC (2014). Copyright in the Dissertation held by the Author.
-Microform Edition © ProQuest LLC.
-All rights reserved. This work is protected against
-unauthorized copying under Title 17, United States Code
-
-ProQuest LLC.
-789 East Eisenhower Parkway
-P.O. Box 1346
-Ann Arbor, MI 48106 - 1346
-
-	  
-©Copyright 2014
-Carly Wickell
-
-	  
-University of Washington
-
-Abstract
-
-Great Expectations: Researching Usability of Online Museum Collections
-
-Carly Wickell
-
-Chair of the Supervisory Committee:
-Associate Director Wilson O’Donnell
-Museology
-
-This evaluative study examined what museum visitors expect to find when they access a
-museum’s online collection, how they are using online collections, and how successful their
-searches are. Increased reliance on the Internet in today’s culture means the museum website is
-quickly becoming the face for the institution and, for some visitors, their first impression. If a
-museum’s online collection is not useful or usable, then time spent making data available online
-will be wasted. This study focused on stakeholders of The Henry Art Gallery, located in Seattle,
-Washington, and provided a model comprised of Usability Testing and Follow-Up Interviews to
-create a comprehensive view of the user experience as it relates to online collections access. The
-findings of this evaluation revealed trends in usability and user experience. For example, users
-voiced the ability to share collections objects via social media and data suggested a desire for
-relationship-based search functionality.
-
-	  
-
-i	  
-
-Table of Contents
-LIST OF FIGURES
-
-II
-
-ACKNOWLEDGEMENTS
-CHAPTER 1: INTRODUCTION
-BACKGROUND INFORMATION
-PURPOSE OF EVALUATION STUDY
-
-III
-1
-1
-2
-
-CHAPTER 2: LITERATURE REVIEW
-PUBLISHED RESEARCH FROM THE FIELD
-Results and Data from the Field
-USABILITY AND EVALUATION RESEARCH
-IMPLICATIONS OF THE LITERATURE
-
-3
-4
-9
-13
-
-3
-
-CHAPTER 3: METHODOLOGY
-EVALUATION STUDY
-Key Terminology
-PARTICIPANTS
-USABILITY TESTING
-STRUCTURED INTERVIEW QUESTIONS
-
-14
-14
-15
-19
-21
-
-14
-
-CHAPTER 4: FINDINGS AND ANALYSIS
-25
-WHAT DO MUSEUM VISITORS EXPECT TO FIND WHEN THEY ACCESS A MUSEUM’S ONLINE COLLECTION?
-25
-HOW ARE MUSEUM VISITORS USING AND ACCESSING ONLINE COLLECTIONS?
-29
-HOW SUCCESSFUL ARE SEARCHES PERFORMED BY MUSEUM VISITORS ON THE ONLINE COLLECTIONS?31
-Structured Interviews
-32
-Usability Tests
-32
-LIMITATIONS
-38
-CHAPTER 5: DISCUSSION AND RESULTS
-40
-WHAT DO MUSEUM VISITORS EXPECT TO FIND WHEN THEY ACCESS A MUSEUM’S ONLINE COLLECTION?
-40
-HOW ARE MUSEUM VISITORS USING AND ACCESSING ONLINE COLLECTIONS?
-40
-HOW SUCCESSFUL ARE SEARCHES PERFORMED BY MUSEUM VISITORS ON THE ONLINE COLLECTIONS?41
-CHAPTER 6: CONCLUSIONS AND RECOMMENDATIONS
-CONCLUSIONS
-How successful are searches performed by museum visitors on the online collections?
-What do museum visitors expect to find when they access a museum’s online collection?
-How are museum visitors using and accessing online collections?
-RECOMMENDATIONS
-
-42
-42
-42
-43
-43
-43
-
-BIBLIOGRAPHY
-
-45
-
-APPENDIX A - CHARTS
-INTERVIEW CHARTS
-USABILITY TESTING CHARTS
-
-48
-48
-49
-
-	  
-
-ii	  
-
-List of Figures
-	  
-FIGURE 1. HENRY ART GALLERY STAFF CALL-TO-PARTICIPATE EMAIL
-FIGURE 2. UW RESEARCHERS/ACADEMIC STAFF AND MUSEUM MEMBERS CALL-TO-PARTICIPATE
-FIGURE 3. CONSENT AND RECORDING RELEASE FORM
-FIGURE 4. USABILITY TEST TASK SCENARIOS
-FIGURE 5. STRUCTURED INTERVIEW QUESTIONS.
-FIGURE 6. INTERVIEW QUESTION 1BI: IF YES, HOW MANY TIMES DO YOU THINK YOU’VE
-ACCESSED IT IN THE LAST 12 MONTHS?
-FIGURE 7. INTERVIEW QUESTION 2BI: IF YES, HOW MANY TIMES DO YOU THINK YOU’VE
-ACCESSED IT IN THE LAST 12 MONTHS?
-FIGURE 8. INTERVIEW QUESTION 3AI: IF YES, WHICH MUSEUM WEBSITES DID YOU VISIT?
-FIGURE 9. AVERAGE TIME SPENT PER TASK
-
-16
-17
-18
-21
-23
-26
-27
-28
-34
-
-	  
-
-iii	  
-
-Acknowledgements
-I would like to express my deepest gratitude to my committee members, Wilson O’Donnell,
-Rachael Faust, and Jessica Luke for the guidance I have received during this process. I am
-proud of what I have accomplished and a great deal of that is due to the three of you.
-I would also like to thank my family and friends for being there for me through this amazing
-journey. In particular, I would like to thank Janet and Dale Wickell, who have raised me to
-be the amazing, sometimes stubborn, individual I have become. You have both done so much
-to make this goal possible, and word cannot express how grateful I am to have such
-supportive parentals.
-Samantha Mittleman, Dani Hastings, and Amanda Dearolph, thank you for being my best
-friends and keeping me from taking things too seriously. I love you awesome nerds.
-Finally, a huge thank you to all the staff at the Henry Art Gallery for allowing me to perform
-this study. Particularly, Judy Sourakli and (again) Rachael Faust, my thesis would not have
-been possible without the two of you in my corner.
-
-INTRODUCTION	  
-
-Wickell	  1	  
-Chapter 1
-Introduction
-
-Background Information
-The Henry Art Gallery (Henry) is the contemporary art museum at the University of Washington
-(UW). Opened in 1926, the museum is the first public art museum in the state of WA. The Henry
-has a collection of over 25,000 objects and is committed to championing internationally
-recognized and emerging artists. In 2007, the Henry underwent a massive overhaul to their
-Collections Management System (CMS). Prior to this shift, the CMS used, SNAP! was solely
-accessible by the Collections staff, and objects were not available for viewing online. The
-Collections staff pushed for a system upgrade, citing difficulties utilizing it and a strong need for
-an updated system that would also enable the future transfer of object images to the online arena.
-Upon receiving grant funding, Henry staff enlisted the help of a project manager to assist in a
-working timeline for the implementation of the data transfer from the old CMS to the newly
-acquired Multi Mimsy XG (Mimsy). The software developers who create Mimsy also offer a
-platform called Mobius, which allows the transfer of objects and associated data in the collection
-to the web1.
-During the first implementation of Mobius, it was only accessible to staff via authorized login
-credentials. The goal, however, was to publish the objects in the collection to the web with 100%
-of permanent collections photographed and accessible from that web portal. The collection
-became accessible to the public during the launch of the new Henry website in 2008, designed by
-
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-1
-
-Weible, Erin. “No Longer an Island: A New Collections Management System Transforms the Henry Art Gallery”
-(Seattle, WA: The Henry Art Gallery, 2008).
-
-INTRODUCTION	  
-
-Wickell	  2	  
-
-a local firm IF/THEN. IF/THEN also created a new “face” for Mobius, as it was considered by
-museum staff to be unattractive and did not fit in with the look of the website2.
-The museum is currently undergoing the process of a website redesign that will impact the
-collections access. The Henry has been presented with the unique opportunity to make changes
-to the look and usability of the collection site. Information on current usability of the collections
-access as well as overall user experience with the current iteration of the collections sites is
-needed prior to making any changes or implementing new features.
-Purpose of Evaluation Study
-The purpose of this study was to evaluate what museum visitors expect to experience when
-accessing online collections. In order to answer this question, three specific questions were
-developed to guide the study:
-1. What do museum visitors expect to find when they access an online collection?
-2. How are they using the online collections?
-3. How successful are their searches?
-
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-2
-
-Faust, Rachael, interview by Carly Wickell. Interview (June 6, 2013).
-
-LITERATURE	  REVIEW	  
-
-Wickell	  3	  
-
-Chapter 2
-Literature Review
-“Digital technologies have the potential to rewrite the meaning and significance of collections.”
-– Fiona Cameron3
-
-This literature review examined two general areas of interest relating to evaluations of museum
-online collections. The first section of the literature review described published research from the
-field on online collections access. This section synthesized the main findings that museums seem
-to be taking a closer look at their web presence, inclusive of online collections, and that further
-research should be completed to determine what users expect from online access. The second
-section looked at usability testing research, and its place in evaluative studies of online museum
-collections.
-Published Research from the Field
-The J. Paul Getty Foundation asked nine institutions to participate in a study aimed at moving
-museum collections online. Institutions involved consisted of: Art Institute of Chicago, Freer
-Gallery of Art and Arthur M. Sackler Gallery, J. Paul Getty Museum, Los Angeles County
-Museum of Art, National Gallery of Art in Washington, D.C., San Francisco Museum of Art,
-Seattle Art Museum, Tate: London, and the Walker Art Center. The published reports by the
-Getty Foundation that followed the initiative, titled Moving Museum Collections Online: An
-Interim Report from the Getty Foundation and L.A. Art Online: Learning from the Getty’s
-Electronic Cataloguing Initiative, offer data from each institution that represents a culmination
-of a “six-year initiative … launched in 1997, at a time when museums were just beginning to
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-3
-
-Cameron, Fiona. “Digital Futures I: Museum Collections, Digital Technologies, and the Cultural Construction of
-Knowledge” (Curator 46, no. 3, July 2003), p327.
-
-LITERATURE	  REVIEW	  
-
-Wickell	  4	  
-
-develop Web sites”4 This research initiative addressed what offering access to collections
-through the website meant for the visitor and the museum5.
-In the Getty Foundation’s report, Moving Museum Collections Online: An interim report from
-the Getty Foundation, the nine participating institutions gave feedback on their online collections
-process. A problem noted in the research was a common obstacle surrounding technology used
-for museum collections. Multiple databases are often used in museums to store information about
-its collections, and it can often take another form of software to make that information web-ready.
-“Moreover, these systems do not “talk” to one another, often necessitating yet another layer of
-technology – middleware – to integrate them for online publishing. Developing the middleware
-is more difficult than many institutions initially imagined.”6
-Results and Data from the Field
-Dr. Paul F. Marty is the former Director of Information Technology at the Spurlock Museum,
-and currently an Associate Professor for the School of Information within the College of
-Communication and Information at Florida State University. In 2008, Marty conducted a visitor
-study “administered to more than 1200 visitors at nine different online museums that addressed
-questions about the role of museum websites in the lives of museum visitors. The results provide
-details about the use of digital museum resources on museum websites, and indicate that the
-majority of online museum visitors have clear expectations for the interactions that take place
-between museums and museum websites.”7 Marty’s exploratory study received a large 69.4%
-response rate when asked, "From your perspective, how important is it for a museum to have a
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-4
-
-J. Paul Getty Foundation. “L.A. Art Online: Learning from the Getty's Electronic Cataloguing Initiative” (Los
-Angeles, CA: The Getty Foundation, 2007).
-5
-Ibid.
-6
-J. Paul Getty Foundation. “Museum Catalogues Online” (Los Angeles: J. Paul Getty Foundation, 2012).
-7
-Marty, Paul F. "Digital Museum Resources and Their Use, Museum Management and Curatorship." (Museum
-Websites and Museum Visitors 23, no. 1, 2008), p81.
-
-LITERATURE	  REVIEW	  
-
-Wickell	  5	  
-
-museum website?"8 This coincides with a statement from the Getty Foundation’s L.A. Art
-Online report, “a Web-savvy public expects immediate user-friendly access to visual arts
-collections.”9 The respondents of Marty’s study also expressed a desire for activities and content
-on the website that was exclusive to that arena – to “take advantage of the online environment to
-present unique experiences that cannot be duplicated in museums”.10
-In his exploratory study, Marty went on to ask more questions on visitor views of online access,
-including how often they went to the museum’s website. The answers to this query revealed that
-“14.9% (179) [visited a museum website] Quarterly, 28.4% (341) Monthly, 30.5% (366) Weekly,
-and 9.2% (110) Daily.” These results show an increase by 4% in the daily visit category than
-when Dr.’s Victoria Kravchyna and Sam Hastings completed their survey in 2002.
-Dr. Victoria Kravchyna conducted this study during her term at Arius3D, Inc., where she focused
-on the research and evaluation of 3D technologies and the digitization of cultural heritage objects.
-Dr. Sam Hastings collaborated on this study, and is the Director and Professor of the School of
-Library and Information Sciences at the University of South Carolina. Kravchyna and Hastings
-focused on a more specific demographic than Marty, with much of their research revolving
-around museum professionals and academics.11 The questions that framed their study were “what
-kind of information are Web users looking for? What quality and quantity of images would they
-like to see on a page? What are their purposes for using images from the museum's collections?
-[and] is the information adequate?”12 Through their research, they were able to conclude that:
-“virtual visitors (63%) particularly value a capability to browse collection databases, to locate
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-8
-
-Marty, Paul F. "Digital Museum Resources and Their Use, Museum Management and Curatorship,” p88.
-J. Paul Getty Foundation. “L.A. Art Online: Learning from the Getty's Electronic Cataloguing Initiative.”
-10
-Marty, Paul F. "Digital Museum Resources and Their Use, Museum Management and Curatorship," p90.
-11	  Kravchyna, Victoria, and Sam Hastings. "Informational Value of Museum Web Sites." (First Monday 7, no. 2,
-February 2002).
-12
-Ibid.
-9
-
-LITERATURE	  REVIEW	  
-
-Wickell	  6	  
-
-supplementary descriptive information. There is a need for contextual information, vivid
-descriptive narratives, and theory drawn from narratives.”13 Kravchyna and Hastings state in
-their research, “one definition of a "good" museum Web site is one that combines well-produced
-general interest information with full access to the whole collection. This survey found that 63%
-percent of virtual visitors look forward to searching museum collections.”14 Their study
-concluded, “Virtual visitors (63%) particularly value a capability to browse collection databases,
-to locate supplementary descriptive information. There is a need for contextual information,
-vivid descriptive narratives, and theory drawn from narratives.”15
-Dr. Fiona Cameron is, at publication, a Senior Research Fellow for the Institute of Culture and
-Society at the University of Western: Sydney. Cameron is widely published and one area of
-research focus is on digital technologies as they relate to cultural heritage. Her 2003 article,
-Digital Futures I: Museum Collections, Digital Technologies, and the Cultural Construction of
-Knowledge, “considers the synergy between theoretical ideas in the academy and the computer
-ontologies that have been brought to bear on collections information.”16 Her research
-emphasized relinquishing some control of content interpretation to the user, rather than having a
-fully curated online experience. She also identified several emerging trends, including the fact
-that “user group proﬁles expressed a desire to engage with collections information as dispersed
-narratives” while still needing a balance of information from the museum. Cameron stressed this
-balance was important to keeping the museum as an authoritative, trustworthy source.17
-
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-13
-
-Kravchyna, Victoria, and Sam Hastings. "Informational Value of Museum Web Sites."
-Ibid.
-15
-Ibid.
-16
-Cameron, Fiona. "Digital Futures I: Museum Collections, Digital Technologies, and the Cultural Construction of
-Knowledge" (Curator 46, no. 3, July 2003), p325.
-17
-Ibid, p336.
-14
-
-LITERATURE	  REVIEW	  
-
-Wickell	  7	  
-
-Nate Solas is, at publication, the Board Director for the Museum Computer Network and former
-Senior New Media Developer and Head Technologist for the Walker Art Center. Solas’ 2010
-publication, Hiding Our Collections in Plain Site: Interface Strategies for Findability, draws
-similar conclusions to Cameron’s research. Solas found that users looking to access online
-collections are seeking a type of free-form learning experience, where they can discover on their
-own and at their own pace with the sense that the information gained was correct/true since it
-was coming from a museum website.18 Visitors also want museum websites to offer some type of
-customization – meaning that visitors with varying degrees of online proficiency would be able
-to find information easily.19
-A statement from Irene Hirano, President and Chief Executive Officer of the Japanese American
-National Museum in Los Angeles, in the Getty Foundations report, L.A. Art Online,
-acknowledges the difficulties of moving collections online, especially for museums of varying
-sizes. Hirano goes on to suggest it is the duty of the museum to find a way to provide access to
-its visitors in order to “remain more relevant and beneficial to the public we serve.”20 Michael
-Govan, Chief Executive Officer and Wallis Annenberg Director of the Los Angeles County
-Museum of Art (LACMA) is also quoted in L.A. Art Online, stating: “Our mission is all about
-collections access and preservation—and in today’s world, online collections information is
-central to both. LACMA’s Collections Online program is vital to so much that we do— from
-scholarship and exhibitions to education and development. It’s central to our mission, and a
-priority for our museum.”21
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-18
-
-Solas, Nate. "Hiding Our Collections in Plain Site: Interface Strategies for "Findability"" (Museums and the Web
-2010: Preceedings: Archives & Museum Informatices, March 2010).
-19
-Ibid.
-20
-J. Paul Getty Foundation. “L.A. Art Online: Learning from the Getty's Electronic Cataloguing Initiative.”
-21
-J. Paul Getty Foundation. “L.A. Art Online: Learning from the Getty's Electronic Cataloguing Initiative.”
-
-LITERATURE	  REVIEW	  
-
-Wickell	  8	  
-
-Anne Gilliland-Swetland, Professor and Director of the Center for Information at the University
-of California Los Angeles, and Layna White, Head of Collections Information and Access at San
-Francisco Museum of Modern Art, collaborated on the study, Museum Information Professionals
-As Providers And Users Of Online Resources. Gilliland-Swetland and White found that many
-websites are written to appease the academic and research audience rather than the average user.
-They state that “descriptions of museum objects… may be written for curators and scholars, and
-the words preferred by experts might not jibe with words used and understood by others seeking
-information and images. There may be a disconnect between what information professionals do
-as content providers and what many other people know or are familiar with.22
-Jeff Doyle, Director of Communications at the Open Museum and lead designer and developer
-of that museum’s website, and Maureen Ward Doyle, Director of Heritance, a not-for-profit that
-offers free services for training, consulting, and websites, collaborated on the article, Mixing
-Social Glue with Brick and Mortar: Experiments Using the Mobile Web to Connect People,
-Objects, and Museums. This report stated that a museum should “capture visitors as friends and
-inspire them to champion the museum’s content via their social networks.” This notion illustrates
-another benefit for the museum to make its collections accessible to the average individual; that
-“the primary design goal of a content delivery system should be transparency: to get the users
-engaged with the content, not with the delivery process or the technology.”23
-
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-22
-
-Gilliland-Swetland, Anne and Layna White. "Museum Information Professionals as Providers and Users of Online
-Resources" (ASIS&T Bulletin 30, no. 5, June/July 2004).
-23
-Doyle, Jeff, and Maureen Ward Doyle. "Mixing Social Glue with Brick and Mortar: Experiments Using the
-Mobile Web to Connect People, Objects, and Museums." (Museums and the Web 2010. Toronto: Archives &
-Museum Informatics, 2010).
-
-LITERATURE	  REVIEW	  
-
-Wickell	  9	  
-
-Usability and Evaluation Research
-One source that proved informative for this study was an article written in 2006 by Hong (Iris)
-Xie, PhD, Doctoral Program Director and Professor at University of Wisconsin-Milwaukee. In
-her study Evaluation of digital libraries: Criteria and problems from users’ perspectives, Xie
-outlines a process to analyze digital libraries from a user standpoint. Her study’s purpose was to
-expand on current evaluation methods of digital libraries. While this study is focused on digital
-libraries, common themes that correlate with online museum collections became apparent, such
-as the need for easy navigation, options for searching including basic and advanced, and having
-clear help features in place.24 For instance, one of the participants in her study stated, “I think the
-most important criterion…is usability. Users need to be able to navigate…with a certain sense of
-ease, or else they may become frustrated and decide to go elsewhere.”25
-A similar view emerged among museums that participated in case studies for the Getty’s
-Electronic Cataloguing Initiative. Their report, L.A. Art Online: Learning from the Getty’s
-Electronic Cataloguing Initiative, revealed inside processes of the nine museums, located in the
-United States and Europe, that were in the process of moving their collections online. One
-participating organization acknowledged that their museum was so focused on the overall idea of
-the project that they forgot about user design, forcing them to put the project on hold for further
-evaluation.26 The report goes on to give an example of possible user searches that can go wrong
-if the exact terminology in the catalogue is not used. “An online visitor searches for “painting”
-on a museum’s web site, but comes up with no records although the museum has hundreds of
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-24
-
-Xie, Hong (Iris). "Evaluation of digital libraries: Criteria and problems from users' perspectives." (Library &
-Information Science Research 28, 2006), p443.
-25
-Xie, Hong (Iris). "Evaluation of digital libraries: Criteria and problems from users' perspectives," p439.
-26
-J. Paul Getty Foundation. “L.A. Art Online: Learning from the Getty's Electronic Cataloguing Initiative.”
-
-LITERATURE	  REVIEW	  
-
-Wickell	  10	  
-
-paintings. The museum failed to include the standard term painting in their cataloguing
-system.”27 This type of error correlates with Xie’s previously mentioned need for clear and
-useful help features.
-The report section, “Why do it at all?” explains that the main goals of the evaluation process
-were to: “1) Increase Access, 2) Expand Audiences, 3) Support Teaching and Learning, 4)
-Improve Documentation, 5) Preserve Collections, and 6) Streamline Workflow.”28 An example
-case study given in the report representative of an institution that used the project to streamline
-their workflow was the Southwest Museum. This institution was going through a site renovation
-that vastly decreased the amount of collection on view to “less than 2%.”29 The institution was
-able to streamline their object relocation process by implementing the ability to catalogue and do
-other reporting via online tools.30
-Giannis Tsakonas, Deputy Director for the Library & Information Center at the University of
-Patras, in Greece, and Christos Papatheodorou, Associate Professor for the Department of
-Archives and Library Science at the Ionian University in Greece, collaborated on a study in 2008
-titled Exploring usefulness and usability in the evaluation of open access digital libraries,
-touches on similar themes when addressing evaluation techniques. This report has a slightly
-different focus, aimed at evaluation of an e-print archive through the ideas of usefulness and
-usability. Their study outlines the differences between the two concepts, defining usefulness as
-“whether the digital libraries constitute valuable tools for the completion of users’ tasks” and
-
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-27
-
-J. Paul Getty Foundation. “L.A. Art Online: Learning from the Getty's Electronic Cataloguing Initiative.”
-Ibid.
-29
-Ibid.
-30
-Ibid.
-28
-
-LITERATURE	  REVIEW	  
-
-Wickell	  11	  
-
-whether the digital libraries support the needs of those using them.31 These concepts were then
-aligned in a framework alongside another measurable used in their study, overall system
-performance. According to Tsakonas and Papatheodorou, “the results show that usefulness and
-usability are two related concepts that jointly affect user satisfaction.”32 This research supports
-the need to evaluate digital collections.
-The United States Government runs a website, Usability.gov, which provides core
-documentation on usability testing and evaluative research methods. Guides and templates are
-available on this site for conducting usability studies.33 Documents available include, but are not
-limited to: Planning a Usability Test, Running a Usability Test, and Reporting a Usability Test.
-Preparation tools and needed elements for conducting usability testing appear in the article,
-Planning a Usability Test. For example, it defines and identifies key facets to include in a
-usability test plan that includes: scope, purpose, schedule and location, sessions, equipment,
-participants, scenarios, metrics, quantitative metrics, and roles of staff or involved team
-members.34 This document also includes metrics to use in testing, examples of test metrics
-include: successful task completion, identification of critical and non-critical errors, error-free
-rate, time on task, subjective measures, and participant likes, dislikes and recommendations.35
-The Usability.gov document, Running a Usability Test, outlined proper conduct and techniques
-that can be employed in a usability test. It offers definitions and examples of moderating
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-31
-
-Papatheodorou, Christos, and Giannis Tsakonas. "Exploring usefulness and usability in the evaluation of open
-access digital libraries" (Information Processing and Management 44, 2008), p1237.
-32
-Ibid., p1235.
-33
-Usability.gov. What & Why of Usability. (Usability.gov, http://www.usability.gov/what-and-why/index.html,
-accessed February 2014).
-34
-Usability.gov. "Planning a Usability Test." (Usability.gov. http://www.usability.gov/how-to-andtools/methods/planning-usability-testing.html, accessed February 2014).
-35
-Ibid.
-
-LITERATURE	  REVIEW	  
-
-Wickell	  12	  
-
-techniques, including: concurrent think aloud, retrospective think aloud, concurrent probing, and
-retrospective probing. For example, for the concurrent think aloud section, the document states
-that it is used to “understand participants’ thoughts as they occur and as they attempt to work
-through issues they encounter. [This method] elicits real-time feedback and emotional responses,
-[but] can interfere with usability metrics, such as accuracy and time on task.”36 This document
-also provided information related to pilot testing and best practices for a successful usability
-testing session, as identified through the previously listed elements combined with test metrics
-that should be employed. Important best practices within this document include, but were not
-limited to, staying neutral as a moderator and ensuring test participants understand that the test is
-on the website and not on them.37
-The final core document from Usability.gov, Reporting Usability Test Results, was used to
-inform methodology and understanding of data collection and coding for usability testing.
-According to Usability.gov, data analysis for usability testing is split between two categories:
-quantitative and qualitative data. Quantitative data is information that can be used to “make
-calculations such as: success rates, task time, error rates, satisfaction questionnaire ratings.”38
-Qualitative data is information that is “related to: observations about pathways participants took,
-problems experienced, comments/recommendations, [and] answers to open-ended questions.”39
-
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-36
-
-Usability.gov. "Running a Usability Test." (Usability.gov, http://www.usability.gov/how-to-andtools/methods/running-usability-tests.html, accessed February 2014).
-37
-Ibid.
-38
-Usability.gov. "Reporting Usability Test Results." (Usability.gov, http://www.usability.gov/how-to-andtools/methods/reporting-usability-test-results.html, accessed February 2014).
-39
-Ibid.
-
-LITERATURE	  REVIEW	  
-
-Wickell	  13	  
-
-It is recommended to “make sure your problem statements are exact and concise” and clarifies
-the difference between a good problem statement and a poor one.40
-Implications of the Literature
-Diana Folsom, Manager, Art and Education System in the Collections Management and
-Information department at LACMA, stated in the L.A. Art Online report, “Online users want
-more of everything. With technology you can have more.... How far should we go?” According
-to the literature, most museum professionals seem to recognize the need to create an online space
-for their collections. According to The Getty Foundation’s research, those museums that put a
-focus on their online presence generally saw an increase not only in online traffic, but in
-visitation to the physical site as well. Museums seem to be taking a closer look at their web
-presence, inclusive of online collections, and it would appear further research should be
-completed to determine what users expect from online access.
-
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-40
-
-Usability.gov. "Reporting Usability Test Results."
-
-METHODOLOGY	  
-
-Wickell	  14	  
-Chapter 3
-Methodology
-
-Evaluation Study
-The purpose of this evaluation study was to explore what museum visitors expect to experience
-when accessing online collections? In order to answer this question, three specific questions were
-developed to guide the study:
-1. What do museum visitors expect to find when they access an online collection?
-2. How are they using the online collections?
-3. How successful are their searches?
-
-Two methods were used in this evaluative study: usability testing and structured interviews.
-Key Terminology
-Definitions obtained from Usability.gov were used for the purpose of this study. According to
-Usability.gov, Usability refers to “How effectively, efficiently and satisfactorily a user can
-interact with a user interface.”41 Usability testing is defined as “include[ing] a range of test and
-evaluation methods such as automated evaluations, inspection evaluations, operational
-evaluations and human performance testing. In a typical performance test, users perform a
-variety of tasks with a prototype (or an operational system) while observers note what each user
-does and says and performance data are recorded. One of the main purposes of usability testing
-is to identify issues that keep users from meeting the usability goals of a Web site.”42 The
-usability study documented how visitors used the sites with commentary throughout the study
-explaining their motivation behind each action.
-
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-41	  Usability.gov. What & Why of Usability.	  
-42	  Ibid.
-
-METHODOLOGY	  
-
-Wickell	  15	  
-
-Structured interviews, as defined by Michael Quinn Patton, are those in which “the exact
-wording and sequence of questions are determined in advance. All interviewees are asked the
-same basic questions in the same order.”43 Structured interviews followed each usability test of
-the study to serve as a means to identify visitor expectations versus actual experience of the
-online collection sites.
-Combining usability testing with follow-up structured interviews in this study at the Henry Art
-Gallery was designed to provide a broad understanding of the online visitor experience.
-Participants
-Twenty subjects were selected to participate in this study based on their invested interest in the
-Henry Art Gallery. The subjects were drawn from internal distribution lists that included
-researchers and academic staff of the University of Washington (UW), museum members, and
-staff of the Henry Art Gallery. This study did not advertise the call-to-participate to subjects
-under the age of 18. Subjects fitting one or more of these groups were called to participate via
-email. Email scripting templates from Usability.gov were used in the creation for the call-toparticipate email, with changes made to personalize the content to the Henry. Two emails were
-drafted: one specific to UW researchers/academics and museum members, another directed
-toward museum staff. Refer to Figures 1 and 2 below for the call-to-participate email templates.
-A call-to-participate allowed subjects within the desired groups to volunteer for the study, and
-information about the nature of the study was given prior to consent. Twenty-three participants
-responded, and due to scheduling conflicts, timing, and availability, only 20 of those individuals
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-43	  Patton,	   Michael	   Quinn.	   Qualitative	  Research	  and	  Evaluation	  Methods.	  (Thousand	   Oaks,	   CA:	   Sage	   Publications,	  
-
-2002)	  p349.	  	  
-
-METHODOLOGY	  
-
-Wickell	  16	  
-
-became participants. Of those, 11 were Henry staff, five were members of the Henry, and four
-were UW researchers/academics. Between the dates of March 26, 2014 and April 25, 2014,
-usability testing and structured follow-up interviews were performed on all 20 participants.
-Dear%Henry%Staff,%
-%%
-I%am%currently%working%with%Carly%Wickell,%a%UW%Museology%Graduate%student,%in%support%of%her%thesis%
-work%on%visitor%use%and%expectations%for%museum%collections%online.%
-%%
-In%addition%to%a%broad%study%about%how%other%museums%present%their%collections%online,%Carly%will%be%
-evaluating%the%Henry’s%online%collection%sites%(online%collection%
-database;%http://collections.henryart.org/main.php?module=objectsand%Digital%Interactive%
-Galleries;%http://dig.henryart.org/).%
-%%
-One%component%of%her%thesis%involves%a%usability%study.%Would&you&be&willing&to&use&the&Henry’s&online&
-collection&sites&and&give&feedback?%
-%%
-Usability%tests%will%be%conducted%at%the%museum.%You%will%be%asked%to%complete%several%short%tasks%using%
-the%collections%sites.%You%will%also%be%asked%questions%about%your%experience%and%perceptions%of%the%
-online%collections%sites.%During%this%process,%the%computer%screen%you%use%will%be%filmed%and%your%voice%
-recorded%through%the%camera%microphone.%The%follow%up%questions%asked%will%be%recorded%on%a%digital%
-recording%device.%
-%%
-The%study%will%be%held%through%April%17%on%Tuesdays,%Wednesdays,%and%Thursdays%between%9am%and%
-5pm,%by%appointment.%The%usability%test%and%follow%up%interview%should%take%about%30%minutes.%
-&%
-If&you&are&available&to&participate&please&reply&directly&to&Carly&at&crw1013@gmail.com&with&your&
-contact&information&and&preferred&dates&and&times.&Carly%will%respond%promptly%to%confirm%your%
-appointment%and%finalize%any%details%for%your%visit.%
-%%
-Please%feel%free%to%contact%me%with%questions.%
-%%
-This%is%a%great%opportunity%to%learn%more%about%the%Henry’s%current%online%collection%resources%as%well%as%
-help%us%improve.%
-%%
-Best,%
-Rachael%
-%%
-%%
-Rachael Faust
-Assistant Curator of Collections & Academic Programs%
-Henry Art Gallery
-206.616.9630
-HENRYART.ORG
-University of Washington / 15th Ave NE & NE 41st St / Box 351410 / Seattle, WA 98195-1410%
-
-%
-
-Explore the HENRY’s collection!
-Search the collection through the ONLINE DATABASE or browse the DIG MODULES
-
-Figure 1
-
-Figure 1. Henry Art Gallery staff call-to-participate email
-	  
-
-METHODOLOGY	  
-
-Wickell	  17	  
-
-Subject: Help the Henry improve our online collections
-
-!
-Thanks!for!using!the!Henry!Art!Gallery’s!online!collection!sites!(online!collection!
-database;!http://collections.henryart.org/main.php?module=objects!and!Digital!Interactive!
-Galleries;!http://dig.henryart.org/)!or!viewing!objects!in!the!museum’s!Study!Center!over!the!past!
-couple!of!years.!
-!!
-The!Henry!is!dedicated!to!preserving!the!25,000!objects!in!the!permanent!collection!while!also!providing!
-access!to!these!objects!to!ensure!collection!objects!are!relevant!and!useful!to!the!community.!Thanks!
-for!putting!our!collection!to!use!!
-!!
-The!Henry!is!currently!working!with!Carly!Wickell,!a!UW!Museology!Graduate!student,!in!support!of!her!
-thesis!work!on!visitor!use!and!expectations!for!museum!online!collections.!Carly’s!thesis!will!not!only!
-help!the!Henry!improve!our!online!collections!sites!but!will!also!contribute!to!the!museum!field.!One!
-component!of!her!thesis!involves!a!usability!study.!Would&you&be&willing&to&use&the&Henry’s&online&
-collection&sites&and&give&feedback?&!
-For!the!usability!test,!you!would!need!to!come!to!the!museum!and!complete!several!short!tasks!using!
-the!collections!sites.!You!will!be!asked!questions!about!your!experience!and!perceptions!of!the!online!
-collections!sites.!During!this!process,!the!computer!screen!you!use!will!be!filmed!and!your!voice!
-recorded!through!the!camera!microphone.!The!follow!up!questions!asked!will!be!recorded!on!a!digital!
-recording!device.!
-!!
-The!study!will!be!held!March!18!–!April!17!on!Tuesdays,!Wednesdays,!and!Thursdays!between!9am!and!
-5pm.!The!usability!test!and!follow!up!interview!should!take!about!30!minutes.!
-&!
-If&you&are&available&to&participate&please&reply&directly&to&Carly&at&crw1013@gmail.com&with&your&
-contact&information&and&preferred&dates&and&times.&Carly!will!respond!promptly!to!confirm!your!
-appointment!and!finalize!any!details!for!your!visit.!
-!!
-Please!feel!free!to!contact!me!with!any!questions.!
-!!
-Thanks!for!supporting!the!Henry!and!helping!us!improve!!
-!!
-Rachael!
-!!
-!!
-Rachael Faust
-Assistant Curator of Collections & Academic Programs!
-Henry Art Gallery
-206.616.9630
-HENRYART.ORG
-University of Washington / 15th Ave NE & NE 41st St / Box 351410 / Seattle, WA 98195-1410!
-
-!
-
-Explore the HENRY’s collection!
-Search the collection through the ONLINE DATABASE or browse the DIG MODULES!
-
-Figure 2
-
-Figure 2. UW researchers/academic staff and museum members call-to-participate
-Of the 11 Henry staff, five participants were UW Museology Graduate students who held workstudy roles at the museum. The five members of the Henry held varying occupations, and most
-of the UW researchers/academics were Doctoral or Masters candidates, with only one of the five
-a faculty member. All participants were asked to sign a digital video and audio recording consent
-form, with clear communication of the recording parameters. See Figure 3 below for the
-Consent and Recording Release Form.
-
-METHODOLOGY	  
-
-Wickell	  18	  
-
-!
-!
-
-Consent & Recording Release Form - Adult
-I agree to participate in the study conducted and recorded by Carly Wickell and The Henry Art
-Gallery.
-I understand and consent to the use and release of the recording by Carly Wickell and The Henry
-Art Gallery. I understand that the information and recording is for research purposes only and that
-my name and image will not be used for any other purpose. I relinquish any rights to the
-recording and understand the recording may be copied and used by Carly Wickell and The Henry
-Art Gallery without further permission.
-I understand that participation in this usability study is voluntary and I agree to immediately raise
-any concerns or areas of discomfort during the session with the study administrator.
-Please sign below to indicate that you have read and you understand the information on this form
-and that any questions you might have about the session have been answered.
-
-Date:_________
-
-Please print your name: ____________________________________________________
-
-Please sign your name: ____________________________________________________
-
-Thank you!
-We appreciate your participation.
-
-!
-
-U.S. Department of Health & Human Services - 200 Independence Avenue, S.W. - Washington, D.C. 20201!
-
-!
-
-Figure 3. Consent and Recording Release Form
-	  
-
-!
-
-!!!!
-
-1!
-
-METHODOLOGY	  
-
-Wickell	  19	  
-
-Usability Testing
-The usability tests utilized two different test metrics: a task-based approach and concurrent think
-aloud. This combination of testing techniques is designed to produce rich data for this study.
-“Task-based” refers to giving a participant a list of tasks to complete.44 These tasks test different
-areas of the collections site and address real-world applications of online collections use.
-“Concurrent Think Aloud” involves the participant narrating their actions, giving insight into
-why they choose to click on certain links or follow a certain path to accomplish their task.45 This
-also reveals if they encounter emotional events during the testing such as excitement, frustration,
-trepidation, etc. Concurrent think aloud can affect timing tasks and offer information about the
-user thought process. To measure reactions, the participants’ computer screen and voice were
-recorded.
-First click and successful search success rates will also be recorded. Computer Psychology, Inc.,
-a company focused on usability, performed usability testing for the Center for Disease Control’s
-website in 2006. It was during this time that they first introduced the concept of first click testing,
-and their results from 12 different usability tests showed that if the user clicked on the correct
-link as their first click, then their overall task completion was successful 87% of the time. To
-measure the first click success rate, tasks were designed with the quickest paths for task
-completion identified. Search and task completion success rates focus on the amount of times the
-participant successfully completes each task.46
-
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-44
-
-Usability.gov. "Scenarios." (Usability.gov. http://www.usability.gov/how-to-and-tools/scenarious.html, accessed
-March 2014).
-45
-Ibid.
-46
-Bailey, Robert W, and Cari Wolfson. "FirstClick Usability Testing." (Web Usability. October 08, 2013.
-http://webusability.com/firstclick-usability-testing, accessed March 2014).
-
-METHODOLOGY	  
-
-Wickell	  20	  
-
-The task-based, concurrent think aloud usability test is comprised of eight steps for the
-participant to complete. Each participant began on the Henry home page, and would follow the
-tasks in order. The tasks were broken down into sections that define different areas of the site
-that the subject would be navigating. Task direction reads as follows: 1) Navigate to the online
-collections search, 2) Search for Photographs, 3) Search for photographs made by German
-photographers in the 1980’s, 4) Return to main Collections page, 5) Navigate to the Digital
-Interactive Galleries, 6) Locate a video about a Northwest artist. Return to Digital Interactive
-Gallery home, 7) Find information about Textile Structures. Return to Digital Interactive Gallery
-home, 8) Locate a page on FSA photography. Return to Digital Interactive Gallery home. Due to
-the nature of the two parts of tasks six through eight, these tasks receive notation of “6a” and “6b”
-and so on during test analysis and reporting. The subject interaction was initially recorded with a
-camera focused on the computer screen. Screen recording allowed for further analysis of mouse
-movements and clicks that the subject neglected to voice during the usability test. After pilot
-testing, it was revealed the Screen Recording software offered voice recording as well. This
-streamlined the process and made it easier to code and analyze. It also seemed to help
-participants feel more at ease without a camera behind them. Finalized task scenarios can be seen
-in Figure 4.
-
-METHODOLOGY	  
-
-Wickell	  21	  
-
-PART ONE
-1. Navigate to the online collections search.
-
-PART TWO
-2. Search for Photographs.
-3. Search for photography made by German photographers during the 1980’s.
-4. Return to main Collections page.
-
-PART THREE
-5. Navigate to the Digital Interactive Galleries.
-6. Locate a video about a Northwest artist. Return to Digital Interactive Gallery home.
-7. Find information about Textile Structures. Return to Digital Interactive Gallery
-home.
-8. Locate a page on FSA Photography. Return to Digital Interactive Gallery home.
-!
-Figure 4
-
-Figure 4. Usability test task scenarios
-Structured Interview Questions
-After each usability test, participants were invited to participate in a short follow-up structured
-interview to discuss their use of the museum’s online collection sites and speak about other
-museum sites they frequent. Having the structured interview follow usability testing afforded
-participants the ability to reflect on their usability testing experience. Interview questions were
-developed using feedback from stakeholders at the Henry combined with usability testing
-resources, such as published theses and articles on user testing and intuitive design.
-Jared Spool, the founder of User Interface Engineering, is a software developer and programmer
-who has spent over a decade developing tools and best practices for usability evaluation. Spool
-developed a clear way of defining what intuitive design looks like. In his 2005 article, What
-
-METHODOLOGY	  
-
-Wickell	  22	  
-
-Makes a Design Seem 'Intuitive'?, he states that for a website to be considered intuitive, it should
-have two qualities:
-•
-
-“Condition #1: Both the current knowledge point and the target knowledge point are
-identical. When the user walks up to the design, they know everything they need to
-operate it and complete their objective.
-
-•
-
-Condition #2: The current knowledge point and the target knowledge point are
-separate, but the user is completely unaware the design is helping them bridge the
-gap. The user is being trained, but in a way that seems natural”47
-
-The interviews addressed a range of questions designed to inform the Henry Art Gallery of the
-usefulness, usability, and overall user experience in relation to the current online collection sites,
-while exhibiting applicability to the museum field as a whole. The complete list of interview
-questions can be found below in Figure 5.
-
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-47	  Spool, Jared M. "What Makes a Design Seem 'Intuitive'?" User Interface Engineering. January 10, 2005.
-http://www.uie.com/articles/design_intuitive/ (accessed November 1, 2013).	  
-
-METHODOLOGY	  
-
-Wickell	  23	  
-
-1. Before you came in today, were you aware that the Henry has an online collections database that you
-can access at home?
-a. no - move to DIG questions
-b. yes – Have you used it before today?
-i. Yes - How many times do you think you’ve accessed in it the last 12 months?
-1. Do you remember why you last went to the online collections database?
-2. Do you remember having any problems finding what you wanted?
-ii. No – move to DIG questions
-2. Before you came in today, were you aware that the Henry has digital interactive galleries that you can
-access at home?
-a. no - move to next question
-b. yes – Have you used it before today?
-i. Yes - How many times do you think you’ve accessed in it the last 12 months?
-1. Do you remember why you last went to the digital interactive galleries?
-2. Do you remember having any problems finding what you wanted?
-3. Have you used any other museum’s online databases in the past?
-a. Yes
-i. Which museum website did you visit?
-ii. Why did you go there?
-iii. Were there similarities or differences that stood out when compared to the Henry?
-b. No
-i. What did you think?
-ii. Is this how you thought an online collection would work?
-4. In the next 6 months, could you imagine yourself using one of these two online resources?
-5. I am going to show you three sheets, each with a screen shot of one of the digital interactive galleries on
-it. The Henry wants to know how they compare to each other.
-a. Which gallery was easiest for you to use?
-i. Why?
-6. The Henry Art Gallery has implemented the ability to create an online account with the ability to log in
-and create your own digital galleries using objects from the collections database.
-a. Did you know about this feature?
-i. Yes
-1. Have you used it?
-a. Yes
-i. Do you remember encountering any problems in the creation or
-managing of your gallery?
-ii. No
-1. Could you imaging this being useful to you?
-b. On scale 1-5 how likely do you think you would be to use this option the next time you are on
-the site, where 1 is highly unlikely and 5 is highly likely?
-Figure 5
-
-Figure 5. Structured interview questions.
-
-METHODOLOGY	  
-
-Wickell	  24	  
-
-Data Coding and Analysis
-Computer monitor screen captures and audio were coded for: time spent per area, number of
-mouse clicks, amount of times the user had to use the back button or became lost, and overall
-speed at which user arrived at the information they were seeking. Interview responses were
-coded based on positive or negative response, and further divided into themes that arose during
-testing.
-
-RESULTS	  
-
-Wickell	  25	  
-Chapter 4
-Findings and Analysis
-
-The purpose of this evaluation study was to explore what museum visitors expect to experience
-when accessing online collections. In order to answer this question, three specific questions were
-developed to guide the study:
-1. What do museum visitors expect to find when they access an online collection?
-2. How are they using the online collections?
-3. How successful are their searches?
-These three questions emerged from the literature review and responded to areas of information
-about stakeholder use of the Henry Art Gallery website identified by museum staff. These
-questions were used to guide the findings and analysis in the current chapter, along with results
-and discussions found in the Chapter 5.
-
-What do museum visitors expect to find when they access a museum’s online collection?
-This question sought to determine visitor expectations of online museum collections, and was
-addressed through many of the structured interview questions that focus on participants’
-interaction with the Henry collections site as well as other museum websites.
-Of the 20 participants interviewed, 20 (or 100%) stated that they were aware that the Henry Art
-Gallery had an online collections database that is accessible at home. When asked if they had
-used it prior to the usability testing, 14 (or 70%) stated that they had used it before that day. The
-14 respondents who answered yes were asked how many times in the past 12 months they
-thought they had used it. As depicted below in Figure 6, three participants responded that they
-had not used the site in the past year, four participants stated they had used it one to two times in
-
-RESULTS	  
-
-Wickell	  26	  
-
-the last year, three participants had accessed the site between three and five times in the last year,
-two participants had used the collections site six to ten times in the last year, and two participants
-stated a large frequency of visits in the 20 or more range over the last year.
-
-Figure 6. Interview question 1bi: If yes, how many times do you think you’ve accessed it in the
-last 12 months?
-Participants were asked a similar line of questions based on their use of the Henry Art Gallery
-Digital Interactive Galleries (DIG). Of the 20 participants interviewed, 16 (or 80%) were aware
-that the Henry offered these specialized digital galleries that are accessible at home. Of the 16
-participants who responded that they were aware of DIG, 11 (or 69%) stated that they had used it
-before the usability testing. As depicted below in Figure 7, two participants responded that they
-had not used the site in the past year, seven participants stated they had used it one to two times
-in the last year, one participant had accessed the site between three and six times in the last year,
-and one participant stated a large frequency of visits in the 20 or more range in the last year.
-
-RESULTS	  
-
-Wickell	  27	  
-
-Figure 7. Interview question 2bi: If yes, how many times do you think you’ve accessed it in the
-last 12 months?
-Participants were also asked about their past use of other museum online collections. When
-asked if they had used any other museum’s online databases in the past, 13 of the 20 participants
-(or 65%) responded in the affirmative. Those 13 respondents were then asked which museum
-collections sites they had visited in the past, and were allowed to give multiple responses. The
-Metropolitan Museum of Art (MET) received the most mentions with five participants stating
-they had visited it in the past, Seattle Art Museum (SAM) received three mentions, Victoria and
-Albert museum (V&A) was mentioned by two participants, and the British Museum also
-received two mentions. Other museums noted as being visited by participants can be seen below
-in Figure 8.
-
-RESULTS	  
-
-Wickell	  28	  
-
-Figure 8. Interview question 3ai: If yes, which museum websites did you visit?
-Participants were asked to speak to which DIG site was easiest for them to use, and were allowed
-to give multiple answers. The Costume and Textiles site received the highest number of positive
-mentions at 17, Photography and New Media at 10,and Northwest Artists at five. Representative
-quotes include the following:
-“Costumes and Textiles is very straightforward, Northwest Artists is very blog-like and
-not as easy for me, Photography is easy because of the timeline. Didn't like having all the
-text in the middle.”
-“[On Photography and New Media] Timeline was nice. [On Northwest Artists] Layout is
-confusing - do artists relate to the links across from them? You shouldn't have a category
-about UW Faculty and not include everyone. [On Costumes and Textiles] The layout is
-nice and appealing, someone obviously put a lot of time into this.”
-“[On Photography and New Media] Timeline is an interesting way of organizing all the
-data. The Costume and Textiles looks very, very, very detailed. I don’t know if I will ever
-
-RESULTS	  
-
-Wickell	  29	  
-
-need it or wander through it, but the more you get into it the more you want to look for
-things, so it kind of promotes to go further.”
-“[On Costume and Textiles] I really like the images, they are very inviting. I’m a visual
-person and am drawn to that. The page for Northwest artists seems just too much in your
-face all of a sudden, there is a whole lot of reading to do there. It would be greater if I
-could see the images of the artists next to their names. It’s black and white and not very
-enticing.”
-The appeal for browsing visually is corroborated with data from the usability tests. The Costume
-and Textiles DIG site offers a choice between text links and links with a title and representative
-photo beneath them. Out of 18 successful tasks completed for Costume and Textiles, 13 (or 72%)
-of participants chose to click on the visual link.
-How are museum visitors using and accessing online collections?
-This question seeks to identify visitor motivation for using online collections as well as future
-intent for use. This section is addressed through many of the structured interview questions that
-focus on participants’ interaction with the Henry collections site as well as other museum
-websites.
-Fourteen participants had used the Henry’s collections database in the past 12 months. Of those,
-five (or 36%) stated they visited the site for research or academic purposes – such as to prepare
-for a class, object information for a project, etc. Five more of the participants stated that they
-used the collections search for a specific query, such as searching for a specific artist, type of
-object, objects in a certain date range, etc. Three participants (or 21%) stated that they went to
-the collections search just to browse, with no specific purpose or query, and one participant
-stated that they could not recall why they last visited the collections database.
-A similar line of questioning was asked of the nine participants who had used the DIG sites in
-the past 12 months. Four participants (or 44%) stated they went to the DIG sites for a specific
-
-RESULTS	  
-
-Wickell	  30	  
-
-query, three participants (or 33%) could not recall why they went to the DIG sites, one
-participant (or 11%) stated they last used the DIG sites to browse, and the ninth participant cited
-visiting DIG for research and academic purposes.
-The 12 participants who had used other museum online collections sites were also asked if they
-could remember why they last went. Eight participants (or 67%) stated they used the other
-institution’s collections site for research and academic purposes, three participants (or 25%) cited
-visiting the other museum site for a specific query, and one participant (or 8%) stated they could
-not recall the reason for their last visit. Browsing the other museum collection was not given as a
-motivating factor in this instance.
-To gauge the level of interest in future visitation to the online collections database and DIG sites,
-participants were asked if they could imagine themselves using one of the two resources in the
-next six months. Of the 20 participants, 17 (or 85%) stated that yes, they could see themselves
-using either the collections database or the DIG.
-The Henry has launched a personal gallery option in the past year that allows users to create a
-login and account on the museum website, save and store favorite objects or collect images and
-information on objects for research purposes. Of the 20 participants, only three (or 15%) knew
-that this feature existed. Those three participants were asked if they had used it, and all
-responded that they had not. After explanation of the purpose and potential uses of the personal
-gallery, all 20 participants were asked if they could imagine it being useful to them. Fifteen (or
-75%) stated yes, they could see the personal gallery being useful. One participant further
-clarified that it would depend on a need, as they saw using it for research purposes more than
-personal purposes. Participants also stated that they would rather be able to share objects from
-
-RESULTS	  
-
-Wickell	  31	  
-
-the collection on their Pinterest board, rather than have it solely on the museum website.
-Representative quotes include the following:
-“[Yes, I can see it being useful] with the caveat of doing research and not just for the fun
-of it.”
-“The personal gallery doesn't make sense to me because I would want to share my
-gallery or have it public, I'd be more likely to grab the thumbnail and put it on my
-desktop or Tumblr. I don't see the point of having something closed off.”
-“When I do something online, I would copy the information online into a word
-document with a link back to it, including saving a screen capture or copy of the image. I
-just don't want to have to create an account to track down information that I can save in a
-place that is easily more accessible for me.”
-These data are further corroborated in a rating scale for future use. All 20 participants were asked,
-on a scale of 1-5 where 1 is highly unlikely and 5 is highly likely, how likely they thought they
-would be to use the personal gallery option the next time they visited the Henry collections sites.
-One participant did not give a specific answer, stating that it would be dependent on need. Seven
-of the 19 remaining participants (or 37%) selected 1: highly unlikely, three participants (or 16%)
-selected 2: unlikely, two participants (or 11%) selected 3: neutral, one participant (or 5%)
-selected 4: likely, and six participants (or 32%) selected 5:highly likely.
-How successful are searches performed by museum visitors on the online collections?
-This question seeks to address visitor success rate for searches and ease of navigation of online
-museum collections. This section is addressed through structured interviews and usability testing
-that focused on participants’ interaction with the Henry collections database and the Digital
-Interactive Galleries (DIG).
-
-RESULTS	  
-
-Wickell	  32	  
-
-Structured Interviews
-Of the 13 participants who had used the online collections database in the past 12 months, eight
-(or 62%) recalled having problems finding what they wanted. Representative quotes include the
-following:
-“Search was limited, no way to conceptually search. Ninety percent of what [my students
-and I] searched for that had any conceptual content was unsuccessful.”
-“[There are] certain search fields that are intuitive and give you the results you want, like
-artist names. Dates, and I've used this website many times, I can never find the right way
-to format the date. That is usually where I hit the wall.”
-“It's not familiar terminology for me, so I had to think out what I was looking for.”
-Of the six participants who had used the DIG sites in the past 12 months, four (or 67%) stated
-that they did not experience problems finding what they needed. One participant (or 17%)
-remembered having trouble, and described feeling intimidated by the layout of the Photography
-and New Media site. One participant could not recall whether or not he/she had problems during
-their last use. For the DIG sites, several participants noted that the last time they were there, they
-were browsing and not looking for something specific.
-Usability Tests
-All 20 participants were asked to complete a series of scenarios. First click success rate, overall
-task completion success rate, and time spent on task were recorded for each task.
-For Task 1 each participant began at the Henry home page and was prompted to navigate to the
-online collections search. This task would demonstrate whether the collections search location is
-clear and easy to find. The pre-identified best path for participants involved a first click on the
-Collection link on the Henry main page header. All 20 participants had successful first clicks.
-Fifteen participants (or 75%) successfully completed the task, with the remaining five
-participants stopping on the Collections main page – rather than continuing on to the Collections
-
-RESULTS	  
-
-Wickell	  33	  
-
-Search – believing they had completed the task. The average time spent completing this task was
-18.7 seconds, with a range of 5.9 seconds to 34 seconds.
-Participants began the second task where the first ended, at the Henry Collections search page.
-This task directed participants to search for Photograph and was designed to have participants
-utilize a basic search, and investigate whether those searches are successful and intuitive. The
-successful first click identified was to click inside the basic search box. Three participants did
-not perform this task, moving to task three. Of the 17 participants who completed the task, 15 (or
-88%) had successful first clicks, one participant clicked on the advanced search box, and one
-participant typed the search phrase in the search box located on the Henry top navigation panel.
-Sixteen participants (or 94%) successfully completed the task. The participant who chose to use
-top navigational search did not produce the correct results and gave up on the task. The average
-time spent completing this task was 25.9 seconds, with a range of 9.4 seconds to 1 minute 30.1
-seconds.
-Task 3 or The third task asked participants to search for photography made by German
-photographers during the 1980’s. This task requires the use of the advanced search and seeks to
-investigate whether those searches are successful and intuitive. If done correctly, this query was
-to produce 13 results. The pre-identified correct first click was for the user to click on the
-advanced search option. Ten of the 20 participants (or 50%) had successful first clicks. Nine
-participants (or 45%) initially clicked the basic search box, and one participant scrolled through
-the collections search page, clicked the link to return to the Collections Main page, went back to
-collections search and saw the basic search box. Twelve participants (or 60%) were unable to
-successfully complete the task. In order to complete the task, participants were intended to use
-the advanced search and input the following criteria: Class: Photographs, Origin: Germany,
-
-RESULTS	  
-
-Wickell	  34	  
-
-Earliest Year: Greater than or equal to 1980, Latest Year: Less Than or Equal to 1989. Many of
-the advanced searches were unsuccessful due to participants not selecting the right qualifier for
-the date range, selecting “equal to” rather than using “greater than or equal to” or “less than or
-equal to.” Participants also voiced confusion over the term “Class” and most initially chose to list
-Photography under “Medium.” Participants spent the longest amount of time on this task, as
-illustrated below in Figure 9, with an average time of 2 minutes 43.2 seconds, with a range from
-28.2 seconds to one participant spending 5 minutes 28 seconds.
-
-Figure 9. Average time spent per task
-Task 4 or the fourth task directed participants to return to the main Collections page. This task
-would demonstrate whether the collections search location is clear and easy to find. The preidentified best path for participants involved a first click on the Collection link on the Henry
-main page header. It should be noted that this is the primary first click option because it is the
-only option aside from participants clicking the back button on their browser multiple times.
-Seventeen participants (or 85%) had successful first clicks, one participant (or 5%) used the
-back button and then chose the correct Collections link from the top navigation, and two
-
-RESULTS	  
-
-Wickell	  35	  
-
-participants (or 10%) clicked the back button until they arrived at the Collection Search home
-and stopped, believing they were at the correct page. The same ratio of successful first clicks
-applied to successful searches, with 17 participants (or 85%) successfully returning to the main
-Collections page, and three participants (or 15%) not completing the task successfully. This task
-took an average of 5.8 seconds to complete, with a range from 1.3 seconds to 11.8 seconds.
-Task 5 directed participants to navigate to the DIG sites. This task would demonstrate whether
-the DIG location is clear and easy to find. The pre-identified best path for participants involved a
-first click on the DIG link on either the left side bar or the link located below the introductory
-text. Both links take visitors to the same location in roughly the same amount of time; therefore
-they were given equal weight for the purpose of this study. Nineteen participants (or 95%)
-successfully clicked on the correct link. One participant did not see the link in the left side
-column, and instead chose to click on the Exhibitions link in the top navigation, this was a
-thought echoed by other participants as they completed the task. Representative quotes are as
-follows:
-“Went to Exhibitions because that is where I would think that galleries would be.”
-“If coming from collections search, it is not immediately apparent where the digital
-interactive gallery is located.”
-All 20 participants were able to successfully complete the task with an average time of 15.8
-seconds, with a range from 2.1 seconds to 1 minute 37.2 seconds.
-Tasks 1-5 aid to address visitor success rate for searches and ease of navigation of online
-museum collections through the collections database search. The final three tasks address visitor
-success rate for searches and ease of navigation of online museum collections through the DIG
-sites. Each of the following tasks have two parts, a search query and a prompt to return to DIG
-
-RESULTS	  
-
-Wickell	  36	  
-
-homepage. Due to the similar nature participants behaved and comparative time spent on all
-three return prompts, the statistics for all three return prompts will be reported together at the
-end.
-Task 6a asked participants to located a video about a Northwest artist. This task would
-demonstrate whether the Northwest Artist DIG location is clear and easy to find, and how
-intuitive it is in terms of locating desired information. The pre-identified best path for
-participants involved a first click on the Northwest Artists link on the DIG home page. All 20
-participants (or 100%) had successful first clicks, however only 17 participants (or 85%)
-successfully completed the task. The three participants (or 15%) that did not complete the task
-arrived at the Northwest Artist home page and stopped, believing they had reached the correct
-task end point. The average time spent on this task was 23.1 seconds, with a range from 9.7
-seconds to 1 minute 1.3 seconds.
-Task 7a asked participants to locate information about textile structures. This task would
-demonstrate whether the Costume and Textiles DIG location is clear and easy to find, and how
-intuitive it is in terms of locating desired information. The pre-identified best path for
-participants involved a first click on the Northwest Artists link on the DIG home page. Eighteen
-participants (or 90%) had successful first clicks, with both participants who were not successful
-going back to the Collections search page. The same 18 participants completed the task
-successfully, with the two participants with incorrect first clicks not completing the task. Both of
-the participants who were unsuccessful chose to go to the Collections search page and do a
-search for textile structures. The average time spent completing this task was 32.3 seconds, with
-a range from 11.2 seconds to 1 minute 31.9 seconds.
-
-RESULTS	  
-
-Wickell	  37	  
-
-Task 8a asked participants to located a page on FSA Photography. This task would demonstrate
-whether the Photography and New Media DIG location is clear and easy to find, and how
-intuitive it is in terms of locating desired information. The pre-identified best path for
-participants involved a first click on the Photography and New Media link on the DIG home
-page. All 20 participants (or 100%) were both successful with their first clicks and successfully
-completed the task. The average time spent on this task was 25.1 seconds, with a range from 8.9
-seconds to 1 minute 16.9 seconds. It should be noted that the longest time was due to the page
-taking longer to load.
-Participants were asked to return to the DIG home page after each of the above three tasks. This
-was to illustrate how participants were finding their way back, as there is not a link on any of the
-individual DIG sites that will return them to the DIG home or Collections main page. Because of
-this, there is not a first click measurable for these tasks. Successful task completion rates and
-time spent on task were calculated.
-For task 6b, return to DIG home page, 18 participants (or 90%) were successfull. Of the two
-participants who did not complete the task, one participant clicked on the Henry H on the top
-right corner and was returned to the Henry Art Gallery main page, where they stayed. The other
-participant clicked the back button and passed DIG home page, landing on the Collections main
-page and remaining there. This first attempt to return to DIG home page took participants an
-average time of 14.5 seconds, with a range from 1.7 seconds to 1 minute 15.8 seconds.
-Task 7b showed improvements, with 19 participants (or 95%) successfully completing the
-prompt. One participant had been incorrectly using the Collections search for Task 7a, clicked
-the back button to the main Collections search page and stayed there. The second attempt to
-
-RESULTS	  
-
-Wickell	  38	  
-
-return home from a DIG site resulted in an average time of 15.4 seconds, with a range from 4.6
-seconds to 30.5 seconds.
-Three participants did not complete Task 8b, believing they were done with the usability test and
-staying on the FSA Photography page. Of the 17 participants who did attempt to return to the
-DIG home page, 16 (or 94%) were successful. The participant who did attempt to return and did
-not complete clicked on the Introduction link in the top navigation of the Photography and New
-Media site. They stayed on that home page and did not continue to DIG home page. The average
-time spent to complete this task was 16.5 seconds, with a range from 3.6 seconds to 41 seconds.
-The lack of a proper return option on the individual DIG sites became frustrating for participants,
-as representative in the comments made during those tasks as follows:
-“Not an obvious way to get back, so I’m just going to click the back button until I get
-there, which is annoying”
-“Not intuitive”
-“UGH” [After trying to find a back button on the final task]
-Limitations
-Sample: This sample size was larger than what the literature points to needing, with 20
-participants rather than five.48 However, this sample was limited to stakeholders of the Henry Art
-Gallery, and did not seek data from participants with no affiliation with the museum. This makes
-this data set an important view of how these participants use the online collection sites, but can
-not be generalized to how all typical users navigate the site.
-
-	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  
-48
-Usability.gov. "Running a Usability Test."
-	  
-
-RESULTS	  
-
-Wickell	  39	  
-
-Interview Sample Demographics: This information was not recorded; therefore comparisons
-cannot be drawn between age, gender, or computer proficiency and the data collected. This data
-did not appeal to the staff of the Henry when this instrument was initially designed, and the
-information about the sample and how age or computer proficiency relates to timing and success
-rates of tasks is not available.
-Coding Subjectivity: There is a level of subjectivity that is inherent to analysis of any qualitative
-data, such as commentary during usability testing and answers to open-ended questions during
-the structured interviews. Data coding and analysis was limited to one individual, which allowed
-for consistency while still being subjective to that individual.
-Amount of Data: The large amount of data collected could provide further results and undergo
-further analysis. For the purpose of this study, certain elements of this evaluative study were not
-relevant and were not included in reporting.
-
-DISCUSSION	  
-
-Wickell	  40	  
-Chapter 5
-Discussion and Results
-
-What do museum visitors expect to find when they access a museum’s online collection?
-Based on the analysis of the findings in Chapter 4, users expect to encounter difficulty when
-navigating museum collections online, emphasizing a need for clearer search options and a wider
-variety of ways to obtain object information. Structured interview questions established that
-stakeholders are generally aware that the Henry offers online collections access and has Digital
-Interactive Galleries available for use at home, but most users are not accessing these areas on a
-regular basis. Some participants seemed to feel overwhelmed by the online search mechanisms
-and the text that accompanies them. This question addressed the concept of usefulness discussed
-in Chapter 2, and identified ways the site could become more useful to online visitors. The
-complications identified in the findings were similar to those voiced in the research performed by
-Hong (Iris) Xie, with participants stating that they sometimes feel overwhelmed by the process
-of using online collections and the need for the design to be more intuitive. Currently, the visitors
-are finding the collections search useful and some participants who used it or the DIG sites for
-the first time during testing noted potential future use.
-How are museum visitors using and accessing online collections?
-Based on the analysis of the findings in Chapter 4, users are accessing the online collections sites
-for research and academic purposes, specific queries, and to browse. Visitors stated they wanted
-to see more relationships between exhibitions and collections, and to be able to browse the
-objects that are linked to past or present exhibitions. This question further identified the concept
-of usefulness, discussed in Chapter 2, of the online collection sites from a visitor perspective. For
-
-DISCUSSION	  
-
-Wickell	  41	  
-
-instance, many participants did not find the idea of the personal gallery useful unless they had a
-specific reason, such as research purposes, to create one. Many of these participants stated that
-they would rather be able to share the images on social media. Since the sharing of object
-pictures and information is not facilitated by the Henry site, many are taking screen captures of
-them to place on their personal computers or to then post to their social media accounts such as
-Tumblr, Pinterest, and Facebook.
-How successful are searches performed by museum visitors on the online collections?
-Based on the analysis of the findings in Chapter 4, searches seem to be only as successful as the
-subject was perseverant. When faced with the specific search query regarding German
-Photographers, many participants gave up due to frustration; a handful powered through
-stubbornly and relentlessly until they were successful, and only one participant accomplished the
-task on the first try. Even though a large amount of participants entered the correct information
-in the advanced search or basic search boxes, the constrained search parameters meant that they
-received a “no matching records” message for small mistakes.
-
-CONCLUSIONS	  AND	  RECOMMENDATIONS	  
-
-Wickell	  42	  
-
-Chapter 6
-Conclusions and Recommendations
-	  
-Conclusions
-This evaluation study resulted in three main conclusions. The first and most significant
-conclusion was that the advanced search mechanism is not usable to most participants. The
-second conclusion was that participants see object relationships and contextual information as
-useful. The final conclusion was that participants want to be able to share favorite objects from
-the collection, and that offering this would heighten their user experience. These conclusions are
-framed within the guiding research questions: What do museum visitors expect to find when they
-access an online collection, how are they using the online collections, and how successful are
-their searches?
-How successful are searches performed by museum visitors on the online collections?
-Further analysis of the advanced search features needs to be performed. Key issues noted during
-the advanced search was, as stated in Chapter 5, the strict search parameters in place which do
-not allow room for error as well as terminology boundaries. This is supported by Anne GillilandSwetland and Layna White’s research discussed in Chapter 2, which revealed how museum
-professionals and their visitors may not have the same ideas of terminology. There is a
-disconnect between what the museum feels is understandable and what the user felt they
-understood, particularly when it comes to the term “Class” which encompasses what most users
-considered to be “Medium.” In most cases, once the participant figured out they could select
-from the value listing, they tried to select “Photographs” or “Photography” under medium but
-could only find specific types of photography.
-
-CONCLUSIONS	  AND	  RECOMMENDATIONS	  
-
-Wickell	  43	  
-
-What do museum visitors expect to find when they access a museum’s online collection?
-coincides with Kravchyna and Hastings’ results around the necessity of easy navigation and
-search tools in Chapter 2, users valued the ability to view collections through relationships. Once
-they find an object, artist, medium, etc. they are interested in, there is a link to similar objects
-within reach.
-How are museum visitors using and accessing online collections?
-Participants value the ability to share an object to social media such as Tumblr, Pinterest, or
-Facebook is something that is important to these users. An area mentioned in Chapter 2, Michael
-Govan of LACMA told the Getty Foundation Initiative that it was critical to his institution to
-remain relevant to the public. This mindset is one to embrace, because addressing what visitors
-want from an online experience will produce more return visits and will positively impact the
-reach of the museum. Participants want to give credit to artists, and show their favorite styles of
-art, and concepts. One participant, and artist, voiced that they would also like to incorporate this
-feature. Participants have an idea of the complexities of obtaining copyright, but they do not
-understand why they are unable to share objects that have the tombstone information embedded
-within the image. Participants recognize the usability of a personal gallery for research purposes,
-but do not want to keep a personal, “for fun” gallery contained within one museum website.
-Recommendations
-This study resulted in eight key recommendations for the Henry Art Gallery. The first
-recommendation is to merge the collection search and the Digital Interactive Galleries, ensuring
-there is a clear path to and from each area so visitors do not become lost. The second
-recommendation is to incorporate more visual search elements into the collections search –
-visual learners need a search option that appeals to them. The third recommendation is to connect
-
-CONCLUSIONS	  AND	  RECOMMENDATIONS	  
-
-Wickell	  44	  
-
-objects in the collection to exhibitions, allow users to see which objects are a part of the
-exhibition within the main exhibit page. The fourth recommendation is to connect similar objects,
-artists, or themes so that when a user performs a search or views an object; they can also see
-what is similar rather than having to do multiple searches. The fifth recommendation is to create
-a clearer advanced search box - if participants do not notice it then they will not use it. The sixth
-recommendation is to address terminology used on the collections site, for example: “Medium”
-should be changed to “Type” and the category of “Class” should be renamed as “Medium.”
-Adding general terms to the search function, as well as concepts or themes will expand the
-usability of the database. The seventh recommendation is to keep the personal gallery option, but
-advertise it on the site to researchers who are interested in using the study center – participants
-saw value in this tool from a research standpoint so target this tool to that audience. The eigth
-and final recommendation is to create a Pinterest page for the museum.
-The Henry Art Gallery is poised in the perfect position to make some of these needed changes in
-order to improve the usefulness and usability of their online collections sites while undergoing
-the next phase of a website redesign. By improving usefulness and usability, visitor experience
-has the potential to increase and, as seen through the Getty Foundation Initiative discussed in
-Chapter 2, visitation could also increase. It is strongly recommended for the Henry to perform
-small batches of user testing at each key stage of implementation of these recommendations in
-order to gauge how the changes affect the end users and to identify any other areas of
-improvement. This sounds time consuming, but it will produce the best results.
-Future research into the characteristics of general users is recommended as well as looking at
-further combined efforts of multiple institutions to address the evaluation questions outlined in
-this study.
-
-BIBLIOGRAPHY	  
-
-Wickell	  45	  
-Bibliography
-
-Allen,	  J.	  Ryan	  et	  al.	  "Museum	  Collections	  Data	  and	  Online	  Mapping	  Applications."	  Mountain	  
-Research	  and	  Development	  (International	  Mountain	  Society)	  23,	  no.	  4	  (2003):	  334-­‐337.	  
-Allinson,	  Julie.	  "OpenART:	  Open	  Metadata	  for	  Art	  Research	  at	  the	  Tate."	  ASIS&T	  Bulletin	  38,	  
-no.	  3	  (February/March	  2012):	  43-­‐48.	  
-American	  Society	  for	  Information	  Science	  and	  Technology.	  http://www.asis.org	  (accessed	  
-April	  2013).	  
-Bailey,	  Robert	  W,	  and	  Cari	  Wolfson.	  "FirstClick	  Usability	  Testing."	  Web	  Usability.	  October	  08,	  
-2013.	  http://webusability.com/firstclick-­‐usability-­‐testing/	  (accessed	  March	  2014).	  
-Cameron,	  Fiona.	  "Digital	  Futures	  I:	  Museum	  Collections,	  Digital	  Technologies,	  and	  the	  
-Cultural	  Construction	  of	  Knowledge."	  Curator	  46,	  no.	  3	  (July	  2003):	  325-­‐340.	  
-Doyle,	  Jeff,	  and	  Maureen	  Ward	  Doyle.	  "Mixing	  Social	  Glue	  with	  Brick	  and	  Mortar:	  
-Experiments	  Using	  the	  Mobile	  Web	  to	  Connect	  People,	  Objects,	  and	  Museums."	  Museums	  
-and	  the	  Web	  2010.	  Toronto:	  Archives	  &	  Museum	  Informatics,	  2010.	  
-Dyson,	  Mary	  C,	  and	  Kevin	  Moran.	  "Informing	  the	  Design	  of	  Web	  Interfaces	  to	  Museum	  
-Collections."	  Museum	  Management	  and	  Curatorship	  18,	  no.	  4	  (December	  2000):	  391-­‐406.	  
-Fabrikant,	  Geraldine.	  "The	  Good	  Stuff	  in	  the	  Back	  Room."	  The	  New	  York	  Times:	  Arts.	  March	  
-12,	  2009.	  
-http://www.nytimes.com/2009/03/19/arts/artsspecial/19TROVE.html?pagewanted=all&
-_r=0	  (accessed	  November	  25,	  2013).	  
-Faust,	  Rachael,	  interview	  by	  Carly	  Wickell.	  Interview	  (June	  6,	  2013).	  
-Forbes,	  Megan.	  "CollectionSpace:	  A	  Story	  of	  Open-­‐Source	  Software	  Development	  and	  User-­‐
-Centered	  Design."	  ASIS&T	  Bulletin	  38,	  no.	  3	  (February/March	  2012):	  22-­‐26.	  
-Gilliland-­‐Swetland,	  Anne	  and	  Layna	  White.	  "Museum	  Information	  Professionals	  as	  
-Providers	  and	  Users	  of	  Online	  Resources."	  ASIS&T	  Bulletin	  30,	  no.	  5	  (June/July	  2004).	  
-Grebenstein,	  Emily,	  and	  Linda	  St.	  Thomas.	  "Fact	  Sheet:	  Smithsonian	  Collections."	  Newsdesk:	  
-Newsroom	  of	  the	  Smithsonian.	  September	  1,	  2013.	  http://newsdesk.si.edu/factsheets/fact-­‐
-sheet-­‐smithsonian-­‐collections	  (accessed	  November	  25,	  2013).	  
-Hamma,	  Ken.	  "Becoming	  Digital."	  ASIS&T	  Bulletin	  30,	  no.	  5	  (June/July	  2004).	  
-Institute	  of	  Museum	  and	  Library	  Services.	  2012	  National	  Medal	  for	  Museum	  and	  Library	  
-Service	  brochure.	  http://www.imls.gov/assets/1/AssetManager/2012MedalsBrochure.pdf	  
-(accessed	  April	  2013).	  
-—.	  Building	  Digital	  Communities:	  A	  Framework	  for	  Action.	  
-http://www.imls.gov/assets/1/workflow_staging/AssetManager/2140.PDF	  (accessed	  
-April	  2013).	  
-
-BIBLIOGRAPHY	  
-
-Wickell	  46	  
-
-Institute	  of	  Museum	  of	  Library	  Services.	  2013	  National	  Medal	  for	  Museum	  and	  Library	  
-Service	  brochure.	  http://www.imls.gov/assets/1/AssetManager/Medals13.pdf	  (accessed	  
-May	  2013).	  
-J.	  Paul	  Getty	  Foundation.	  L.A.	  Art	  Online:	  Learning	  from	  the	  Getty's	  Electronic	  Cataloguing	  
-Initiative.	  Los	  Angeles,	  CA:	  The	  Getty	  Foundation,	  2007.	  
-J.	  Paul	  Getty	  Foundation.	  Museum	  Catalogues	  Online.	  Los	  Angeles:	  J.	  Paul	  Getty	  Foundation,	  
-2012.	  
-Kravchyna,	  Victoria,	  and	  Sam	  Hastings.	  "Informational	  Value	  of	  Museum	  Web	  Sites."	  First	  
-Monday	  7,	  no.	  2	  (February	  2002).	  
-Krug,	  Steve.	  Don't	  make	  me	  think!:	  A	  common	  sense	  approach	  to	  Web	  usability.	  Berkeley,	  CA:	  
-New	  Riders	  Publishers,	  2006.	  
-Los	  Angeles	  County	  Museum	  of	  Art.	  Strategic	  Plan	  October	  2009.	  
-http://www.archive.org/stream/LacmaStrategicPlan102009/lacma-­‐strategic-­‐
-plan#page/n0/mode/2up	  (accessed	  April	  2013).	  
-Marty,	  Paul	  F.	  "Digital	  Museum	  Resources	  and	  Their	  Use,	  Museum	  Management	  and	  
-Curatorship."	  Museum	  Websites	  and	  Museum	  Visitors	  23,	  no.	  1	  (2008):	  81-­‐99.	  
-Museum	  Computer	  Network.	  http://www.mcn.edu/	  (accessed	  April	  2013).	  
-Museums	  and	  the	  Web.	  http://www.museumsandtheweb.com	  (accessed	  April	  2013).	  
-—.	  Best	  of	  the	  Web	  Awards.	  http://www.museumsandtheweb.com/best	  (accessed	  April	  
-2013).	  
-Papatheodorou,	  Christos,	  and	  Giannis	  Tsakonas.	  "Exploring	  usefulness	  and	  usability	  in	  the	  
-evaluation	  of	  open	  access	  digital	  libraries."	  Information	  Processing	  and	  Management	  44	  
-(2008):	  1234-­‐1250.	  
-Patton,	  Michael	  Quinn.	  Qualitative	  Research	  and	  Evaluation	  Methods.	  Thousand	  Oaks,	  CA:	  
-Sage	  Publications,	  2002.	  
-Smithsonian.	  Fact	  Sheets:	  Smithsonian	  Collections.	  http://newsdesk.si.edu/factsheets/fact-­‐
-sheet-­‐smithsonian-­‐collections	  (accessed	  April	  2013).	  
-Sociology.org.uk.	  "Sociological	  Research	  Skills:	  Research	  Methods."	  Sociology.org.uk.	  
-http://www.sociology.org.uk/methsi.pdf	  (accessed	  March	  2014).	  
-Solas,	  Nate.	  "Hiding	  Our	  Collections	  in	  Plain	  Site:	  Interface	  Strategies	  for	  "Findability"."	  
-Museums	  and	  the	  Web	  2010:	  Preceedings	  (Archives	  &	  Museum	  Informatices),	  March	  2010.	  
-Spool,	  Jared	  M.	  "What	  Makes	  a	  Design	  Seem	  'Intuitive'?"	  User	  Interface	  Engineering.	  January	  
-10,	  2005.	  http://www.uie.com/articles/design_intuitive/	  (accessed	  November	  1,	  2013).	  
-
-BIBLIOGRAPHY	  
-
-Wickell	  47	  
-
-The	  British	  Museum.	  About	  the	  Collection	  database	  online.	  
-http://www.britishmuseum.org/research/search_the_collection_database/about_the_data
-base.aspx	  (accessed	  April	  2013).	  
-Usability.gov.	  "Planning	  a	  Usability	  Test."	  Usability.gov.	  http://www.usability.gov/how-­‐to-­‐
-and-­‐tools/methods/planning-­‐usability-­‐testing.html	  (accessed	  February	  2014).	  
-—.	  "Reporting	  Usability	  Test	  Results."	  Usability.gov.	  http://www.usability.gov/how-­‐to-­‐and-­‐
-tools/methods/reporting-­‐usability-­‐test-­‐results.html	  (accessed	  February	  2014).	  
-—.	  "Running	  a	  Usability	  Test."	  Usability.gov.	  http://www.usability.gov/how-­‐to-­‐and-­‐
-tools/methods/running-­‐usability-­‐tests.html	  (accessed	  February	  2014).	  
-—.	  "Scenarios."	  Usability.gov.	  http://www.usability.gov/how-­‐to-­‐and-­‐tools/scenarious.html	  
-(accessed	  March	  2014).	  
-—.	  What	  &	  Why	  of	  Usability.	  http://www.usability.gov/what-­‐and-­‐why/index.html	  
-(accessed	  February	  2014).	  
-Weible,	  Erin.	  "No	  Longer	  an	  Island:	  A	  New	  Collections	  Management	  System	  Transforms	  the	  
-Henry	  Art	  Gallery."	  The	  Henry	  Art	  Gallery,	  Seattle,	  2008.	  
-White,	  Layna.	  "Museum	  Informatics:	  Collections,	  People,	  Access,	  Use."	  ASIS&T	  Bulletin	  30,	  
-no.	  5	  (June/July	  2004).	  
-Xie,	  Hong	  (Iris).	  "Evaluation	  of	  digital	  libraries:	  Criteria	  and	  problems	  from	  users'	  
-perspectives."	  Library	  &	  Information	  Science	  Research	  28	  (2006):	  433-­‐452.	  
-	  
-
-APPENDICES	  
-
-Wickell	  48	  
-Appendix A - Charts
-
-40
-3-5
-
-Worksho Certain search fields that are intuitive and give you the results you
-Looking I found what I wanted, there just weren't pictures so I wasn't sure if I
-
-2bi2
-
-Right
-I don't remember being pleased with it and felt that it probably needed
-Research I went to look for a photograph and I entered the title and artist and it
-
-No, browsing
-Not everything was digital, so that was disappointing. Was able to get a
-Search was limited, no way to conceptually search. 90% of what they
-I don't think so, it wasn't hard enough that I gave up
-No, because I can search for the acc #
-I first tried with Johnson, then tried photography and used the advanced
-
-2bi1
-
-0
-50
-
-y
-y
-Y
-
-2bi
-
-No
-No
-
-2a
-
-1bi2
-
-To set up
-Explore.
-No
-Costume
-Costumes
-Class
-Searching
-Looking
-I wanted
-
-2b
-
-1bi1
-
-10
-1-2
-0
-1-2
-6
-0
-1
-1-2
-4-5
-
-2
-
-1bi
-
-y
-N
-N
-
-2
-
-No
-
-Y
-y
-y
-y
-y
-y
-N
-
-1
-0
-1
-0
-1
-2
-
-Cost No
-
-N
-y
-y
-y
-y
-y
-y
-y
-
-Can't
-I
-No, but it was
-Jeffre No
-
-N
-Y
-y
-y
-y
-
-N
-N
-y
-y
-
-40+ Cost No, but it's
-1
-Just Since I was
-
-Y
-
-1
-
-Y
-
-4-6 No
-
-N
-
-Thou
-
-N
-
-*See
-
-N
-
-Indivi
-
-N
-
-It
-
-I have
-Whitney,
-
-Rese Whitne
-
-MoMA
-
-No I Biggest
-
-Brooklyn
-Dallas
-I can't
-Crocker Art
-MET, Victoria
-
-Whe
-MH
-Rese
-Obje
-Rese
-
-I find
-Basic
-I went
-Some
-When I
-
-N
-
-Well
-
-N
-
-N
-
-N
-
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-N
-Y
-Y
-N
-Y
-Y
-N
-Y
-Y
-Y
-N
-N
-Y
-
-5
-5
-3
-Depend
-5
-5
-4
-1
-5
-2
-1
-1
-5
-1
-2
-1
-3
-1
-2
-1
-
-Comments/Quotes
-
-6ai1ai
-
-6ai1a
-
-6ai1
-
-N
-N
-N
-N
-N
-N
-N
-Y
-N
-N
-N
-N
-N
-N
-Y
-N
-N
-N
-N
-Y
-
-6ai
-
-Timelin
-"Tree"
-C/T
-Possibl
-Timelin
-PNM:
-Very
-PNM:
-Timelin
-Photogr
-I didn't
-Becaus
-I
-NW
-Photogr
-I like
-My
-I liked
-Timelin
-I like
-
-6b
-
-Most Haven't
-
-Photo
-Costu
-Costu
-Photo
-Costu
-Costu
-Costu
-Photo
-Photo
-North
-Photo
-Photo
-Costu
-Costu
-Photo
-Costu
-Costu
-Photo
-Photo
-Costu
-
-Y
-
-Rese Yes, the
-
-6aii1
-
-Rese Feel all
-
-6a
-
-MET, VNA,
-I can't
-National
-
-Stylis
-
-y
-y
-y
-y
-y
-N
-y
-I
-y
-y
-Yes, I N
-I
-N
-y
-y
-I had y
-y
-y
-y
-y
-y
-y
-
-5ai
-
-N
-
-4
-
-Rese Henry
-Miro Spoke
-Rese SAM
-
-5a
-
-Met
-SAM
-SAM
-
-3bii
-
-Y
-Y
-Y
-N
-Y
-Y
-Y
-N
-N
-N
-Y
-N
-Y
-N
-y
-y
-y
-y
-Y
-N
-
-3bi
-
-It's not familiar terminology for me, so I had to think out what I was
-
-3b
-
-Trying
-
-3aii
-
-5
-
-N
-
-6aii
-
-N
-Y
-
-3aiii
-
-1a
-
-y
-y
-y
-y
-y
-y
-y
-y
-y
-N
-N
-y
-y
-N
-y
-y
-N
-N
-N
-Y
-
-3ai
-
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-y
-
-3a
-
-ID
-P1
-S1
-S2
-S3
-S4
-S5
-S6
-S7
-S8
-S9
-S10
-S11
-S12
-S13
-S14
-S15
-S16
-S17
-S18
-S19
-
-1b
-
-Interview Charts
-
-Onli
-Disa
-Onli
-If I
-I
-High
-I can
-I use
-It is
-
-Gell
-I
-
-APPENDICES	  
-
-Wickell	  49	  
-
-Usability Testing Charts
-
-Task
-
-1. [Beginning at the HAG Home Page] Navigate to the online
-collections search.
-
-2. Search for Photographs.
-
-Fi
-rst
-Successful
-Time
-Y Y 00:33.3
-Y Y 00:20.7
-Y Y 00:17.9
-Y Y 00:18.2
-Y N 00:13.2
-Y N 00:12.0
-Y Y 00:08.5
-Y Y 00:08.5
-Y Y 00:26.0
-Y Y 00:20.5
-Y Y 00:14.7
-Y N 00:30.8
-Y Y 00:16.5
-Y N 00:05.9
-Y Y 00:10.3
-Y Y 00:12.5
-Y Y 00:34.0
-Y Y 00:24.0
-Y Y 00:23.4
-Y N 00:22.4
-
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-N
-N
-Y
-Y
-Y
-N
-Y
-N
-Y
-Y
-Y
-N
-
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-NA
-NA
-Y
-Y
-Y
-N
-Y
-Y
-Y
-Y
-Y
-NA
-
-00:09.6
-00:32.9
-00:11.7
-00:13.5
-00:21.4
-00:50.5
-00:04.6
-00:15.0
-NA
-NA
-00:12.2
-01:30.1
-00:13.8
-00:42.2
-00:08.8
-00:55.6
-00:09.4
-00:18.5
-00:30.2
-NA
-
-Nature/Steps
-Comments
-Direct route, saw link at top nav, saw second link on side nav
-Direct route, saw link at top nav, saw second link on side nav
-Direct route, saw link at top nav, saw second link on side nav
-Direct route, saw link at top nav, saw second link on side nav
-Direct route, saw link at top nav, stopped on main collections page
-Direct route, saw link at top nav, stopped on main collections page
-Direct route, saw link at top nav, saw second link on side nav
-Direct route, saw link at top nav, saw second link on side nav
-Direct route, saw link at top nav, saw second link on side nav, scrolled page and c
-Direct route, saw link at top nav, saw second link on side nav, scrolled page and c
-Direct route, saw link at top nav, saw second link on side nav
-Direct route, saw link at top nav, stopped on main collections page
-Direct route, saw link at top nav, saw second link on side nav
-Direct route, saw link at top nav, stopped on main collections page
-Direct route, saw link at top nav, saw second link on side nav
-Direct route, saw link at top nav, saw second link on side nav
-Direct route, saw link at top nav, saw second link on side nav
-Direct route, saw link at top nav, saw second link on side nav
-Direct route, saw link at top nav, saw second link on side nav
-Direct route, saw link at top nav, stopped on main collections page
-
-	  
-
-Went straight to basic search box
-Scrolled>Checked for Photos in drop box>Searched "Photos" and go
-Went straight to basic search box
-Scrolled page, then went to basic search box
-Went straight to basic search box, checked and left "all words" in d
-Read collections search information first>Basic box
-Went straight to basic search box
-Went straight to basic search box
-Did not perform search.
-Did not perform search.
-Went straight to basic search box, checked and left "all words" in d
-Scrolled page, then went to basic search box
-Went straight to basic search box
-Search box at top of Henry Nav>Did not produce correct results>Ga
-lot ofsearch
-photographs.
-lot
-Went straight to Abasic
-box, A
-checked
-and left "all words" in d
-of text
-on welcome page,
-Went to Advanced
-Search>Checked
-for Photograph under medium v
-of abox
-brief
-Went straight to maybe
-basic more
-search
-Thought
-Went straight to summary.
-basic search
-boxfront
-search
-page
-is more
-Scrolled page, read
-text
-in intro>Basic
-search
-Did not perform search.
-daunting than needs to be.
-
-	  
-
-APPENDICES	  
-
-3. Search for photography made by German photographers during
-the 1980’s.
-
-4. Return to main Collections page.
-
-Wickell	  50	  
-
-Went to choose value after
-2 failed attempts at
-advanced search. Dating set
-to "equal to" rather than
-"greater than/equal." Had to
-use values for all search
-areas in order to attain
-results. Stated did not know
-what class means, German
-in culture? Wound up using
-list view, used date order
-(eventually), "found" using
-list view. Advanced search
-is very small. Concern with
-advanced search, not sure
-how specific it is to terms
-in catalogue. Date made is
-confusing. German >culture vs origin. "Class"
-
-N
-N
-N
-N
-Y
-N
-Y
-Y
-Y
-Y
-N
-N
-Y
-N
-Y
-Y
-N
-Y
-N
-Y
-
-N
-Y
-N
-N
-Y
-N
-N
-N
-Y
-Y
-N
-N
-Y
-N
-Y
-N
-Y
-N
-N
-Y
-
-04:41.7
-03:36.3
-03:40.9
-00:28.2
-02:31.9
-02:27.3
-01:27.9
-02:35.8
-02:44.0
-03:07.2
-01:51.5
-02:04.8
-05:28.0
-01:47.7
-01:13.4
-01:20.4
-04:36.2
-04:35.4
-02:29.9
-01:35.1
-
-Basic search
-Basic search
-Basic search
-Basic search
-Advanced
-Basic search box
-Advanced
-Advanced
-Advanced
-Advanced
-Basic search>Did
-Scrolled>Back to
-Advanced
-Basic
-Advanced
-Advanced
-Basic search with
-Advanced
-Basic search
-Advanced
-
-N
-Y
-Y
-Y
-Y
-N
-Y
-Y
-Y
-Y
-N
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-
-N
-Y
-Y
-Y
-Y
-N
-Y
-Y
-Y
-Y
-Y
-Y
-N
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-
-00:04.4
-00:06.7
-00:04.5
-00:05.3
-00:11.8
-00:10.8
-00:04.0
-00:04.5
-00:02.0
-00:05.8
-00:08.5
-00:07.0
-00:08.8
-00:03.8
-00:05.5
-00:03.5
-00:10.9
-00:04.4
-00:02.8
-00:01.3
-
-Clicked collections search button, believed at right position
-Scrolled page>Collections top nav clicked
-Collections top nav clicked
-Collections top nav clicked
-Collections top nav clicked
-Clicked collections search button, believed at right position
-Collections top nav clicked
-Collections top nav clicked
-Collections top nav clicked
-Collections top nav clicked
-Collections Search>Collections top nav
-Collections top nav clicked
-Collections search, remained on main search page rather than con
-Collections
-Collections top nav
-clicked search link
-clicked, returned
-to search top Nav
-Clicked back button>Clicked
-Collections
-home
-rather
-than
-Collections top nav clicked
-collections
-Collections top nav
-clickedhome. Like that
-Collections
-Collections top nav
-clicked in top nav
-remains
-highlighted pink to
-Collections top nav
-clicked
-Collections top nav
-clicked
-guide
-how to get back.
-
-	  
-
-	  
-
-APPENDICES	  
-
-5. Navigate to the Digital Interactive Galleries.
-
-6a. Locate a video about a Northwest artist.
-
-Wickell	  51	  
-
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-N
-Y
-Y
-Y
-
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-
-00:19.4
-00:05.0
-00:02.8
-00:14.9
-00:32.8
-00:22.8
-00:03.0
-00:06.4
-00:07.6
-00:02.2
-00:03.2
-00:10.5
-00:40.6
-00:20.0
-00:02.1
-00:07.2
-01:37.2
-00:04.4
-00:11.2
-00:03.5
-
-Went straight to DIG
-Went straight to DIG
-Went straight to DIG
-Almost went to "Exhibitions" then saw DIG link
-Scrolled page>Saw link to left in side bar and a link at bottom of
-Scrolled page>clicked link at bottom
-Went straight to DIG
-Went straight to DIG
-Scrolled page>clicked link at bottom
-Went straight to DIG at bottom of page
-Went straight to DIG
-Went straight to DIG
-From collections search>Clicked collections top nav>DIG side bar
-Wenttop
-to Exhibitions
-First looked through
-Nav, then saw DIG link on side bar
-that is where I
-Went straight to because
-DIG
-Went straight to would
-DIG think that galleries
-would be. If coming from & Events>Scrolled>Educ
-Went to Exhibitions>Scrolled>Programs
-collections
-is not
-Scrolled page>Saw
-link to search,
-left in itside
-bar and clicked it
-immediately
-apparent
-Scrolled page>Clicked
-DIG link
-on left side nav
-Went straight to where
-DIG DIG is located.
-
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-
-Y
-N
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-N
-Y
-Y
-Y
-Y
-Y
-Y
-N
-Y
-Y
-
-00:15.4
-00:22.2
-00:19.3
-00:39.9
-00:25.2
-00:17.0
-00:30.9
-00:13.2
-00:36.1
-00:10.8
-00:09.7
-00:17.1
-00:21.0
-00:29.8
-00:12.8
-00:22.3
-00:29.7
-00:17.9
-01:01.3
-00:09.7
-
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-NW link>scrolled
-
-	  
-
-	  
-
-APPENDICES	  
-
-6b. Return to Digital Interactive Gallery home.
-
-7a. Find information about Textile Structures.
-
-Wickell	  52	  
-
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-
-Y
-N
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-N
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-
-00:09.2
-00:03.7
-00:14.0
-00:02.2
-00:18.7
-00:05.0
-00:11.6
-00:26.8
-00:06.5
-00:04.3
-00:01.7
-01:15.8
-00:17.2
-00:19.8
-00:04.9
-00:18.9
-00:18.3
-00:04.0
-00:04.2
-00:23.7
-
-Scrolled page, did not see link>clicked back button until return to DIG home
-Scrolled page, did not see link>clicked back button until return to DIG home
-Scrolled page>Clicked Northwest top link>clicked H>Back to Collections h
-Clicked back button until at DIG home
-Scrolled page, did not see link>clicked back button until return to DIG home
-Scrolled page, did not see link>clicked back button until return to DIG home
-Scrolled page>Changed url (took off everything after first /)
-Scrolled page>Clicked Northwest top link>Changed url (took off everything
-Clicked back button until at DIG home
-Changed url (took off everything after the first /)
-Clicked back button until at DIG home
-"Clicking the Henry H to
-Scrolled page, did not see link>clicked Henry H>Remained on Henry Main p
-see where that takes me"
-Scrolled page, did not see link>clicked Northwest Artists title link>clicked b
-and
-when all
-thebutton until return to DIG home
-Scrolled page, did not seesurprise
-link>clicked
-back
-way
-to Henry back
-mainbutton until return to DIG home
-Scrolled page, did not
-seeback
-link>clicked
-page.
-"Not an top
-obvious
-way
-Scrolled page>Clicked
-Northwest
-link>clicked
-H>Back to Collections h
-to see
-get link>clicked
-back, so I'm just
-Scrolled page, did not
-back button>Scrolled NW Artist Hom
-going
-to click the back
-Scrolled page, did not
-see link>clicked
-back button to DIG home
-get there,
-Clicked back button button
-until atuntil
-DIGI home
-Scrolled page, did not
-see link>clicked
-which
-is annoying"Henry H>Collections Search Main pa
-
-Y
-N
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-N
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-
-Y
-N
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-N
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-
-00:16.9
-01:31.9
-00:18.2
-00:12.4
-00:57.2
-00:46.2
-00:25.2
-00:14.7
-00:28.8
-00:11.2
-00:16.2
-01:08.7
-00:27.1
-00:46.8
-00:12.1
-00:27.2
-00:36.7
-00:26.9
-00:46.3
-00:15.4
-
-Assuming
-photo textile link
-DIG>CostText>Photo
-Text>TextStruct
-upper textile
-link take
-Went all the way and
-to main
-collections>Collections
-search>list vie
-to same
-place. Curious as to
-DIG>CostText>Photo
-Text>TextStruct
-DIG>CostText>Upper
-Text
-link>TextStruct
-whether
-"Resources"
-would
-DIG>CostText>Photo
-Text>TextStruct
-have textile
-structures or if
-DIG>CostText>Upper
-Text
-link>TextStruct
-go under
-Textiles
-for
-DIG>CostText>Photo
-Text>TextStruct
-best/quickest.
-Not sure
-DIG>CostText>Photo
-Text>TextStruct
-what "Structures"
-meant so
-DIG>CostText>Photo
-almostText>TextStruct
-did not continue
-DIG>CostText>Photo Text>TextStruct
-deeper into CT page. Not
-DIG>CostText>Upper Text link>TextStruct
-sure what Structures meant,
-Collections Main>Collections search>Basic search>Textile struct
-but figured they may be
-DIG>CostText>Photo Text>TextStruct
-locatedText
-underlink>TextStruct
-Textiles
-DIG>CostText>Upper
-(from Text
-home).link>TextStruct
-"A lot of text"
-DIG>CostText>Upper
-in reference
-to main page.
-DIG>CostText>Photo
-Text>TextStruct
-WouldText>TextStruct
-have preferred the
-DIG>CostText>Photo
-information
-textlooking
-at the top
-DIG>CostText>Scrolled
-Page
-for information>Photo Tex
-of the page,
-to explain
-DIG>CostText>Scrolled
-Page
-lookingwhat
-for information>Photo Tex
-DIG>CostText>Photo
-textileText>TextStruct
-structures were
-
-	  
-
-	  
-
-APPENDICES	  
-
-7b. Return to Digital Interactive Gallery home.
-
-Wickell	  53	  
-
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-N
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-
-00:07.2
-00:06.7
-00:17.4
-00:22.8
-00:27.2
-00:27.8
-00:08.9
-00:16.9
-00:17.9
-00:04.6
-00:13.3
-00:30.5
-00:12.4
-00:20.1
-00:03.6
-00:14.6
-00:12.7
-00:17.5
-00:11.6
-00:13.5
-
-Hit back button until back to DIG
-Hit back button to Collections main>DIG link
-Hit back button>scrolled each page looking for another link>Back button
-Hit back button until back to DIG
-Scrolled page>Hit back button until back to DIG
-Scrolled each page as hit back button to see if a link existed
-Scrolled page>Changed url (took off everything after first /)
-Tried to click CT Title(not link)>clicked introduction tab>scrolled>chang
-Clicked back button until at DIG home
-Changed url (took off everything after the first /)
-Scrolled page, did not see link>clicked back button until return to DIG h
-From collections search>Clicked back button>Collections Search main p
-Hit back button until back to DIG
-Scrolled page, did not see link>clicked back button until return to DIG h
-Hit back button until back to DIG
-Scrolled page, did not see link>clicked Henry H>Collections Search Mai
-Not
-how else to
-get button until return to DIG h
-Scrolled page, did not
-seesure
-link>clicked
-back
-back except
-back button,
-Clicked Henry H>Collections
-Main>DIG
-Home
-"Not
-Clicked back button seems
-until ateasiest.
-DIG home
-Clicked back button intuitive"
-until at DIG home
-
-	  
-
-8a. Locate a page on FSA Photography.
-
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-
-00:10.4
-00:23.3
-01:16.9
-00:08.9
-00:48.0
-00:21.3
-00:19.3
-00:16.9
-00:15.0
-00:21.6
-00:11.2
-00:18.6
-00:24.1
-00:44.4
-00:21.8
-00:24.7
-00:22.1
-00:20.7
-00:35.5
-00:16.5
-
-DIG>Photo>Timeline>FSA
-DIG>Photo>Timeline>FSA
-*took longer to load* DIG>Photo>Timeline>FSA
-DIG>Photo>Timeline>FSA
-DIG>Photo>Saw timeline but scrolled through page to be sure that was th
-DIG>Photo>Timeline>FSA
-DIG>Photo>Timeline>FSA
-DIG>Photo>Saw timeline but scrolled through page to be sure that was th
-DIG>Photo>Scrolled>Timeline>FSA
-DIG>Photo>Scrolled>Timeline>FSA
-DIG>Photo>Timeline>FSA
-DIG>Photo>Scrolled>Timeline>FSA
-DIG>Photo>Scrolled>Timeline>FSA
-DIG>Photo>Timeline>FSA
-Seemed
-daunting
-a lot times until realized was ju
-DIG>Photo>Timeline
-top link
-clickedand
-a couple
-of information at first.
-DIG>Photo>Timeline>FSA
-Would like a search box
-DIG>Photo>Timeline>FSA
-available. "Oh, god" DIG>Photo>Timeline>FSA
-daunting until noticed link
-DIG>Photo>Timeline>FSA
-DIG>Photo>Timeline>FSA
-on timeline.
-
-	  
-
-APPENDICES	  
-
-8b. Return to Digital Interactive Gallery home.
-
-	  
-
-Wickell	  54	  
-
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-N
-
-NA
-NA
-Y
-Y
-Y
-Y
-NA
-Y
-N
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-Y
-
-NA
-NA
-00:12.1
-00:15.3
-00:22.2
-00:41.0
-NA
-00:17.2
-00:28.1
-00:06.6
-00:11.4
-00:35.6
-00:11.5
-00:03.6
-00:09.8
-00:11.1
-00:11.6
-00:17.8
-00:05.5
-00:20.7
-
-Did not return to DIG home.
-Did not return to DIG home.
-Hit back button until back to DIG
-Hit back button until back to DIG, looked to see if a different way
-Scrolled page, did not see link>clicked back button until return to DIG
-Scrolled page, did not see link>clicked back button until return to DIG
-Did not return to DIG home.
-Clicked Intro>clicked PhotoNM Title>Clicked H>Clicked Collections
-Clicked Intro>Believed completed
-Changed url (took off everything after the first /)
-Scrolled page, did not see link>clicked back button until return to DIG
-Scrolled page, did not see link>clicked back button until return to DIG
-Clicked PhotoNM title>clicked back button until back to DIG
-Hit back button until back to DIG
-Back
-button
-sometimes will
-Hit back button>Page
-became
-stuck>Changed
-URL
-not work properly
-to allow
-Clicked Henry H>Collections
-Main>DIG
-Home
-Clicked back button leaving
-until at site
-DIG(click
-homeback and
-it keeps trapped
-on same
-Clicked Henry H>Collections
-Main>DIG
-Home
-page).
-"UGH"
-after trying
-Selected DIG page from
-web
-history
-Scrolled page, did not
-PhotoNM Title link, scrolled>c
-to see
-findlink>Clicked
-a back button.
-
-	  
-
-

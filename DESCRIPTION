@@ -1,0 +1,25 @@
+Package: Case Study 4C
+Title: TOPIC MODELING OF DOCUMENTS IN R
+Version: 0.0.1
+Authors@R:
+    person(given = "Manika",
+           family = "Lamba",
+           role = c("aut", "cre"),
+           email = "lambamanika07@gmail.com")
+Description: Topic modeling of documents in R
+License: What license it uses
+Depends:
+  R (>= 3.5.0)
+Imports:
+    dplyr,
+    forcats,
+    ggplot2,
+    purrr,
+    RColorBrewer,
+    readr,
+    stm,
+    stringr,
+    tibble,
+    tidyr,
+    tidytext,
+    tidyverse
