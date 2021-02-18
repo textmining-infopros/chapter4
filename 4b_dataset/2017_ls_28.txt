@@ -1,0 +1,2271 @@
+TOPIC-BASED VIDEO CLASSIFICATION AND RETRIEVAL USING
+MACHINE LEARNING
+
+A THESIS IN
+Computer Science
+
+Presented to the Faculty of the University
+Of Missouri-Kansas City in partial fulfillment
+Of the requirements for the degree
+MASTER OF SCIENCE
+
+By
+NAGA KRISHNA VADLAMUDI
+
+B.Tech, Vellore Institute of Technology – Vellore, India, 2014
+
+Kansas City, Missouri
+2017
+
+
+
+
+
+
+
+
+ProQuest Number: 10743254
+
+
+
+
+
+All rights reserved
+
+
+
+
+INFORMATION TO ALL USERS
+The quality of this reproduction is dependent upon the quality of the copy submitted.
+In the unlikely event that the author did not send a complete manuscript
+and there are missing pages, these will be noted. Also, if material had to be removed,
+a note will indicate the deletion.
+
+
+
+
+
+
+
+
+
+
+
+
+ProQuest 10743254
+Published by ProQuest LLC (2018 ). Copyright of the Dissertation is held by the Author.
+
+
+
+All rights reserved.
+This work is protected against unauthorized copying under Title 17, United States Code
+Microform Edition © ProQuest LLC.
+
+
+
+
+ProQuest LLC.
+789 East Eisenhower Parkway
+P.O. Box 1346
+Ann Arbor, MI 48106 - 1346
+
+©2017
+NAGA KRISHNA VADLAMUDI
+ALL RIGHTS RESERVED
+
+TOPIC-BASED VIDEO CLASSIFICATION AND RETRIEVAL USING
+MACHINE LEARNING
+
+Naga Krishna Vadlamudi, Candidate for the Master of Science Degree
+University of Missouri-Kansas City, 2017
+ABSTRACT
+Machine learning has made significant progress for many real-world problems. The
+Deep Learning (DL) models proposed primarily concentrate on object detection, image
+classification, and image captioning. However, very little work has been shown in DL-based
+video-content analysis and retrieval. Due to the complex nature of time relevant information
+in a sequence of video frames, understanding video contents is particularly challenging during
+video analysis and retrieval. Latent Dirichlet Allocation (LDA) is known as one of the bestproven methods for uncovering hidden latent semantic structures (called the topics) from a
+large corpus. We want to extend it to capture topics from annotated videos and effectively use
+them for video classification and retrieval.
+This approach aims to classify and retrieve videos based on discovering topics from
+annotated keyframes in videos. This will be accomplished by employing a pipeline of the
+following five steps: (1) automatic keyframe detection, (2) video annotation using Show &Tell
+model, (3) topic discovery using LDA on the annotation, (4) topic assignment to keyframes in
+the videos, and (5) topic sequence analysis for videos. Mapping the topic histograms of the
+videos is used to both classify and retrieve videos. The unique contribution of this thesis is to
+design a topic histogram model that is a new way of representing topics within videos as a
+sequence and frequency of topics. Based on the framework, we have developed a video
+iii
+
+application using both Apache Spark and TensorFlow, and then we evaluated different machine
+learning algorithms and validation techniques using Wikipedia, Flickr30K, and YouTube8M
+datasets.
+
+iv
+
+APPROVAL PAGE
+The faculty listed below, appointed by the Dean of the School of Computing and Engineering,
+have examined a thesis titled “Topic-Based Video Classification and Retrieval Using Machine
+Learning” presented by Naga Krishna Vadlamudi, candidate for the Master of Science degree,
+and hereby certify that in their opinion, it is worthy of acceptance.
+
+Supervisory Committee
+
+Yugyung Lee, Ph.D., Committee Chair
+Department of Computer Science Electrical Engineering
+
+Deep Medhi, Ph.D.
+Department of Computer Science Electrical Engineering
+
+ZhiQang Chen, Ph.D.
+Department of Civil and Mechanical Engineering
+
+v
+
+TABLE OF CONTENTS
+ABSTRACT .................................................................................................................................... III
+ILLUSTRATIONS ........................................................................................................................... IX
+TABLES......................................................................................................................................... XI
+ACKNOWLEDGEMENTS .............................................................................................................. XII
+CHAPTER
+1. INTRODUCTION ........................................................................................................................ 1
+1.1 Motivation ......................................................................................................................... 1
+1.2 Problem Statement ........................................................................................................... 1
+1.3 Proposed Solution ............................................................................................................. 2
+2. BACKGROUND AND RELATED WORK........................................................................................ 3
+2.1 Terminology and Technology ............................................................................................ 3
+2.1.1 Machine Learning .................................................................................................... 3
+2.1.2 Latent Dirichlet Allocation (LDA) ............................................................................. 4
+2.1.3 Neural Networks ...................................................................................................... 6
+2.1.4 Open CV ................................................................................................................... 7
+2.1.5 FFMPEG .................................................................................................................... 7
+2.2 Tools .................................................................................................................................. 8
+2.2.1 Tensor flow .............................................................................................................. 8
+2.2.2 Apache Spark ........................................................................................................... 9
+2.2.3 Gensim ................................................................................................................... 11
+vi
+
+2.3 Related Work ................................................................................................................... 11
+3. PROPOSED FRAMEWORK ....................................................................................................... 13
+3.1 Introduction ..................................................................................................................... 13
+3.2 Keyframe Extraction ........................................................................................................ 14
+3.3 Annotation of Keyframe .................................................................................................. 15
+3.4 Pre-processing data and Building the LDA model ........................................................... 16
+3.5 Topic Assignment ............................................................................................................ 19
+3.6 Topic sequence analysis .................................................................................................. 21
+4. IMPLEMENTATION ................................................................................................................. 26
+4.1 Introduction ..................................................................................................................... 26
+4.2 System Configuration ...................................................................................................... 27
+4.3 Keyframe Extraction ........................................................................................................ 28
+4.4 Description of Keyframes ................................................................................................ 28
+4.5 Building LDA Model ......................................................................................................... 29
+4.6 Topic Assignment ............................................................................................................ 31
+4.7 Topic sequence analysis .................................................................................................. 32
+5. RESULTS AND EVALUATION .................................................................................................... 36
+5.1 Introduction ..................................................................................................................... 36
+5.2 Datasets ........................................................................................................................... 36
+5.3 Validations ....................................................................................................................... 37
+5.4 Evaluation ........................................................................................................................ 43
+5.4.1 Case 1: Video classification approach with 10 classes .......................................... 43
+vii
+
+5.4.2 Case 2: Category Based LDA approach with 10 classes (Dataset – 300 videos) .... 51
+5.4.3 Case 3: Video classification approach with UCF 50 dataset (50 classes) ............... 54
+5.4.4 Case 4: Video retrieval approach with 300 videos ................................................ 57
+5.4 Summary.......................................................................................................................... 60
+6. CONCLUSION AND FUTURE WORK ......................................................................................... 61
+6.1 Conclusion ....................................................................................................................... 61
+6.2 Limitations ....................................................................................................................... 61
+6.3 Future Work .................................................................................................................... 61
+REFERENCES ............................................................................................................................... 62
+VITA ............................................................................................................................................ 65
+
+viii
+
+ILLUSTRATIONS
+Figure
+
+Page
+
+1: Representing LDA as a Graphical Model ...............................................................................................5
+2: Topics Generation in a Document using LDA ........................................................................................6
+3: Biological Neuron Represented with Cartoon Drawing ........................................................................7
+4: TensorFlow Architecture [27]................................................................................................................9
+5: Spark Overview [11] ............................................................................................................................10
+6: Proposed Framework ..........................................................................................................................13
+7: Sequence of Frames in a Video ...........................................................................................................14
+8: Shot Transition in a Video ...................................................................................................................15
+9: Show and Tell Model Architecture ......................................................................................................16
+10: Text Data Preprocessing using NLP Techniques ................................................................................17
+11: Topic Histogram Representation .......................................................................................................22
+12: Random Forest Example....................................................................................................................23
+13: Naive Bayes Formula .........................................................................................................................24
+14: Proposed Framework - Implementation ...........................................................................................27
+15: Most Common Stop Words in Reuters RCV1 ....................................................................................30
+16: Topic Histogram Computation ..........................................................................................................32
+17: Topic Histogram Representation in Spark .........................................................................................33
+18: Topic Histogram Vector in Spark .......................................................................................................34
+19: Calculating Distance between Videos ...............................................................................................35
+20: Comparison of Topic Coherence for Different k Values for Flickr30k Dataset..................................39
+21: LDA Topic Model Visualization for k=5 on Flickr30k Dataset ............................................................40
+22: LDA Topic Model Visualization for k=10 on Flickr30k Dataset ..........................................................40
+ix
+
+23: LDA Topic Model Visualization for k=20 on Flickr30k Dataset ..........................................................41
+24: LDA Topic Model Visualization for k=30 on Flickr30k Dataset ..........................................................41
+25: Example of Keyframe Description and Topic Assignment.................................................................44
+26: LDA Topic Model Visualization for K=5 on Wikipedia Text Dataset ..................................................46
+27: LDA Topic Model Visualization for K=10 on Wikipedia Text Dataset ................................................46
+28: LDA Topic Model Visualization for K=20 on Wikipedia Text Dataset ................................................47
+29: LDA Topic Model Visualization For k=30 on Wikipedia Text Dataset................................................47
+30: Accuracy Comparison of Different k Values ......................................................................................48
+31: Comparison of Topic Coherence with Different k Values. ................................................................49
+32: Category Wise Classification Accuracy Comparison for Various k Values.........................................50
+33: Confusion Matrix of 10 Classes for Random Forest ..........................................................................51
+34: Topic Coherence Values for Category Based LDA with Varying K Values .........................................53
+35: Video Classification Accuracy Comparison for Category Based LDA with K Values ..........................53
+36: Video Classification Accuracy Comparison of Category Based LDA And Regular LDA ......................54
+37: Classification Accuracy Comparison for Different k Values on UCF50 Dataset.................................56
+
+x
+
+TABLES
+Table
+
+Page
+
+1: Topic Terms and Weights for a Sample Data ......................................................................................20
+2: Topic Assignment Calculation .............................................................................................................21
+3: Topic Sequence Representation of Videos ..........................................................................................21
+4: Validating Results of the Show and Model Generated on Flickr30k Dataset .....................................38
+5: Accuracy of Topic Assignments K=10 on Flickr30k Test Dataset .........................................................42
+6: Top 10 Terms for each Topic in Video Dataset for k=10 .....................................................................45
+7: Category Based LDA Metrics for k=1 & 3 ............................................................................................52
+8: Annotations of Show and Tell model vs Ground Truth on UCF50 Dataset .........................................55
+9: List of Videos Retrieved and their Score for Real Video ......................................................................58
+10: List of Videos Retrieved and their Score for Simulated Video ..........................................................59
+
+xi
+
+ACKNOWLEDGEMENTS
+To begin with, I thank Dr. Yugyung Lee, my advisor, for her advice and insights while
+working on this thesis. The deadlines that she set were a big motivator for me to complete my
+thesis on time. At different points, while working on this project, I was delightfully surprised at
+her inspiring suggestions, which helped in strengthening the arguments that I am making in
+this thesis. Even beyond this thesis, she has continuously challenged and pushed me
+throughout the Master’s program.
+Secondly, my research would not be possible without the support from the University
+of Missouri-Kansas City. By being given the opportunity to conduct my research on a GPU
+machine in the lab, I had a lot of support from the university infrastructure and from my lab
+mates.
+Finally, I express gratitude towards my family and friends for their continuous
+encouragement and support. This endeavor would be impossible without them.
+
+xii
+
+CHAPTER 1
+INTRODUCTION
+1.1 Motivation
+Video data has become abundant on the internet, which lead to the development of
+new techniques that analyze the semantic content of videos. The current scenario of the
+technical analysis of video content is limited to the summarization [19] of keyframes [33] and
+the corresponding behavior which provides a foray into the informative analysis of video
+content. Each frame of a video deciphers the information and the key content is provided as a
+result. When these approaches are deployed on applications for finding similar videos or for
+video classification, there are not significant results. Representing videos as a sequence of
+topics results in higher accuracy for finding similarity between videos. These sequencing
+techniques followed by machine learning approaches give significant results.
+1.2 Problem Statement
+Due to the tremendous increase in the usage of images and video content on the
+internet, there has been a growth and need for developing algorithms that can semantically
+understand the visual content for searching, classifying, captioning, and generating
+summarizations. Recently, Convolution Neural Networks (CNN) [12] delivered promising
+results for image classification and image captioning. Several deep learning models are readily
+available for image analysis. These days, we need an efficient approach to handle the videos
+with very high resolution and frame rate. The keyframe approach solves this by eliminating
+redundant frames and processing frames that provide significant information. With this
+approach, we are able to achieve faster analysis of video data. In addition, we do not lose the
+1
+
+semantic nature of the video data by uncovering the hidden latent semantic structures called
+the topics.
+1.3 Proposed Solution
+In this thesis, we present a machine learning framework that primarily focuses on video
+classification and retrieval problem, but also can be applied to other problems like video
+annotation, video recommendation, video summarization etc.
+At higher level of abstraction, following steps describes the implementation,
+1. Keyframe extraction of the videos.
+2. Generation of sentence description of each keyframe using Show and Tell model.
+3. Building the LDA model using Wikipedia dataset
+4. Topic assignment to each keyframe
+5. Topic sequence analysis for videos.
+This approach makes use of Open CV library [20], Convolution Neural Networks (CNNs),
+Latent Dirichlet Allocation (LDA) [3], Classification models, clustering methods, machine
+learning [21] and NLP [22] techniques.
+
+2
+
+CHAPTER 2
+BACKGROUND AND RELATED WORK
+This chapter provides information about all the key terms associated with machine
+learning that are used in entire thesis and technologies that were used for the implementation
+of the framework. We will also be discussing the related work to the problem statement.
+2.1 Terminology and Technology
+2.1.1 Machine Learning
+Machine learning is the study of algorithms that learn from data and experience. Today
+it is applied to many application areas from medicine to cybersecurity, from social media to
+astronomical surveying. Machine learning is a subfield of Artificial Intelligence (AI) [30]. The
+main goal of machine learning is to understand the structure of the data and fit that data into
+machine learning models which can be understood and utilized by people. Though machine
+learning is a field of computer science, it differs from conventional computational techniques.
+In conventional computing, algorithms are set of instructions programmed which are used by
+computers to compute or solve problems. Instead, machine learning algorithms use computers
+to train on input data and apply mathematical/statistical techniques in order to deliver output
+values. Thus, machine learning enables machines in building the models from a set of input
+data to make decisions by themselves, based on the input data.
+In machine learning, tasks are divided into two groups. These are based on how
+feedback on the learning is given to the system developed or how learning is received. There
+are two machine learning methods which are widely being applied to real-world problems.
+They are Supervised learning [28] and Unsupervised learning [29].
+3
+
+In supervised learning, a set of inputs that are labeled with their desired outputs are
+provided to the computer. The goal here is to make algorithm able to “learn” itself by relating
+its actual output with the “trained” outputs to find errors and update the model accordingly.
+Thus, supervised learning algorithms use the hidden patterns to predict labels on
+test/unlabeled data. supervised learning includes two categories of algorithms:
+•
+
+Classification: For the classification problems, output variable is a discrete or category
+such as “green” or “red” or “male” and “female”.
+
+•
+
+Regression: For the regression problems, output variable is a continuous value such as
+“height” or “weight”.
+In unsupervised machine learning algorithms, we only have input data and there is no
+
+corresponding output label/variable. For an input dataset, unsupervised algorithms create a
+model of the underlying semantics or distribution to learn more about the data. This is called
+unsupervised learning where there are no labels for the data (unlike supervised learning).
+Similarly, as supervised learning problems, unsupervised learning problems are also divided
+into two groups, namely Cluster analysis and Association.
+•
+
+Cluster analysis: A cluster analysis problem is where we want to discover the built-in
+groupings in the data.
+
+•
+
+Association: An association rule learning problem is where we want to discover the
+existence of interesting relationships between variables in the dataset.
+
+2.1.2 Latent Dirichlet Allocation (LDA)
+In Natural Language Processing (NLP), Latent Dirichlet Allocation (LDA) is “a generative
+statistical model that allows sets of observations to be explained by unobserved groups that
+4
+
+explain why some parts of the data are similar” [18]. LDA is a topic model which is introduced
+as a graphical model for discovering topics by David Blei, Andrew Ng, and Michael I. Jordan [1]
+The basic idea of LDA is that all the documents resemble a random mixture of hidden
+topics. Each topic is considered as a distribution over words. Figure 1 illustrates how LDA is
+represented as a Graphical model. Each box is considered as a plate, which represents a
+replicate. Documents are represented by the outer plate and words and topics in the
+documents are represented by the inner plate. α is the Dirichlet prior to topic distribution on
+each document and β is word distributions for each topic.
+
+Figure 1: Representing LDA as a Graphical Model
+Figure 2 shown below describes the topics generated by LDA for the input text. Here,
+the number of topics (k) is 4, where topics names are manually assigned as Arts, Budgets,
+Children and, Education.
+
+5
+
+Figure 2: Topics Generation in a Document using LDA
+2.1.3 Neural Networks
+Artificial Neural Networks (ANNs) [31] are the statistical models inspired directly by and
+partially modeled on biological nervous systems, such as a brain. The human brain is extremely
+complicated and the most intense computing engine known. The internal working of the brain
+is frequently modeled around the idea of neurons and the system of neurons known as
+biological neural networks. The human brain has around 100 billion neurons which are
+connected to each other.
+The true power of ANNs is to process non-linear relationships between input and
+output. ANNs have adaptive weights along paths between neurons. Learning algorithms can
+be used to tune these neurons based on the input data. While selecting a learning algorithm,
+it is also important to select an appropriate cost function. For a problem at hand, the cost
+function helps each neuron to learn the optimal solution. This process estimates the best
+values of model parameters, for both adaptive weights and learning rate etc. This is achieved
+6
+
+through stochastic gradient descent or gradient descent which leads to the optimal solution. If
+the optimal solution is possible, then ANNs are able to solve the actual real-world problem
+
+Figure 3: Biological Neuron Represented with Cartoon Drawing
+2.1.4 Open CV
+OpenCV is the open source library used in areas of computer vision. It is widely used
+for Image processing and machine learning applications. It also has the GPU acceleration
+capabilities for real-time applications. It supports all platforms like Linux, Windows, Mac,
+Android or IOS. It was written in C/C++ but has application programming interfaces for Java,
+Python, and C++.
+2.1.5 FFMPEG
+FFMPEG [32] is a collection of various libraries and tools that are used for processing
+multimedia content like audio, video, metadata etc.
+Following are the libraries provided by FFMPEG:
+•
+
+Libavcode: Used for encoding and decoding audio and video content
+
+•
+
+Libavformat: Muxing and demuxing audio, video and subtitles
+
+•
+
+Libavdevice: Provides an abstraction for accessing playback and capture
+devices.
+
+7
+
+•
+
+Libswscale: Implements color alteration and scaling procedures.
+
+•
+
+Libavutil: Provides implementations for decompressors and hashers
+
+•
+
+Libavfilter: Provides implementations for filtering audio/video
+
+•
+
+Libswresample: Provides implementations for audio mixing and resampling
+procedures.
+
+Following are the tools provided by FFMPEG:
+•
+
+FFPLAY: A multimedia player.
+
+•
+
+FFMPEG: A command line interface tool used to convert formats, manipulate,
+and stream multimedia content.
+
+•
+
+FFSERVER: A multimedia server for broadcasting multimedia content live
+
+•
+
+FFPROBE: A tool to examine the multimedia content
+2.2 Tools
+2.2.1 Tensor flow
+TensorFlow is an open source software library used for numerical computations
+
+with data flow graphs. Mathematical operations are denoted by nodes and data
+communicated between the nodes is represented by edges in the graph. TensorFlow
+allows the distributed computation by deploying the computation to various machines
+and even on mobile devices.
+TensorFlow supports large-scale distributed training and inference. It is now
+widely in building deep learning and machine learning models. It is a cross-platform
+library supported on Windows, Mac, Linux also both runs on both desktop and mobile
+etc. can be used across desktop, mobile, etc. Figure 4 illustrates the TensorFlow’s
+8
+
+architecture, it supports several devices and various programming languages. It has a
+layered architecture. User level code implemented in various languages are separated
+from core runtime kernels with a C API. Kernel implementations are above the Device
+and Networking layer. Distributed Master and Dataflow executors are on top of the
+kernel implementations
+
+Figure 4: TensorFlow Architecture [27]
+2.2.2 Apache Spark
+Apache Spark [11] is a powerful, in-memory large-scale data processing engine. Spark
+runs on Hadoop clusters through Yarn and supports both real-time, batch processing and
+advanced data analytics. It provides APIs for Scala, Java, R, and Python. As Spark runs on
+Hadoop, it makes it easy for the developers to develop applications that can use the power of
+Sparks machine learning libraries in deriving the insights and enhance their data science loads
+with a shared dataset on Hadoop platform.
+
+9
+
+Figure 5: Spark Overview [11]
+Spark has its own core engine, which is optimized and supports execution of general
+graphs. Every API that runs on top of the core engine follows a Directed Acyclic Graph (DAG)
+engine for execution. Apart from the core engine following are the higher-level tools it
+provides:
+MLlib – It provides machine learning algorithms for classification, clustering, and
+regression. Featurization for extracting features, selection, dimension reduction and
+transformation. It also offers ML Pipelines and persistence for saving and loading models.
+Spark SQL – It is used for processing the structured data and to execute SQL queries.
+Spark Streaming – It is an extension of the spark core API. It is used to process real-time
+data from various data sources like Flume, Kafka, and Kinesis.
+Graphx – Graphx is used for graphs and graph-parallel computation.
+
+10
+
+2.2.3 Gensim
+Gensim [12] is a popular Python library used in the areas of Natural Language
+Processing. It is specially designed for topic modelling, similarity retrieval on large data and
+document indexing. It has the following features:
+1. All the algorithms it includes are memory independent i.e, it can handle corpus of
+size greater than RAM.
+2. Its intuitive interface makes it easy to plug the input corpus/DataStream
+3. Includes multicore implementation of many popular algorithms like LDA, Latent
+Semantic Analysis (LSA/LSI/SVD), word2vec deep learning, and Random Projections
+(RP).
+4. Supports distributed computing.
+2.3 Related Work
+This research focuses on building a framework that features video classification and
+retrieval based on topic flow. The common approach for video classification encompasses
+three main stages. The first step is to extract visual features which are native to a section of
+the video. These interest points may vary from being sparse to dense [7, 8]. These features put
+together to form a fixed-size video level description. One of the popular methods is to quantize
+all features in the video using a trained k-means dictionary. Then collect the visual descriptions
+for the length of the video by varying spatio-temporal positions and extents in the form
+histograms [8]. Finally, using the generated “bag of words” representation a classifier is trained
+to discriminate between the various visual classes of interest.
+
+11
+
+Latent Dirichlet Allocation [1] is a generative probabilistic model for collections of
+discrete data. Compared to text domain, there is comparatively little work done on applying
+LDA to image/video domains. But attempts were made [2] to use LDA for topic discovery in the
+video domain. LDA is used in discovering topics from the group of documents. Using OPEN CV
+library, keyframes are extracted for each video. Show and Tell model [3] is used to extract the
+content of each keyframe.
+Convolutional Neural Networks (CNNs) [14] have been built up as an intense class of
+models for static object detection and image recognition problems. CNN architectures are
+further extended to solve video classification [15] problems which performed extremely well.
+With aggressive research in area videos using deep learning, using convolution temporal
+feature pooling architectures [16] led to start of art results in this domain. Memory and
+hardware are biggest challenges for the deep neural networks. On another hand, machine
+learning approaches require fewer data and hardware but perform equally for problems in
+video domain like video classification and retrieval [17].
+
+12
+
+CHAPTER 3
+PROPOSED FRAMEWORK
+3.1 Introduction
+In this chapter, we will discuss the proposed solution for the video classification and retrieval
+problems. As discussed earlier in Chapter 1, the proposed framework involves the following five
+steps:
+a. Keyframe extraction from the videos
+b. Annotation of keyframes
+c. Building the LDA model based with the input based on the context
+d. Topic assignment to the keyframes using the LDA model
+e. Analyzing the topic sequence by building topic Histograms
+
+Figure 6: Proposed Framework
+
+13
+
+In the further sections, all the above steps are discussed in detail.
+3.2 Keyframe Extraction
+The first step in processing videos is to extract frames from the video. A video is a
+sequence of images as shown in Figure 7. Keyframes are defined as the representative frames
+of a video stream, the frames that provide the most accurate and compact summary of the
+video content. It is the one which is more important to the video than the frames around it. In
+technical terms, a keyframe is a position on a video timeline that sets the start or end of a
+transition. The frame rate is the frequency at which frames in the video are displayed. Every
+video possesses this property.
+
+Figure 7: Sequence of Frames in a Video
+
+First, based on the frame rate, all the frames are extracted from the video. There are
+many ways to extract the keyframes, one common approach is to compute the difference
+14
+
+between features of the two adjacent frames, if it is over a threshold value, it is determined as
+a keyframe. Following are the steps perform to compute keyframe:
+a. Normalized histogram of the previous frame is calculated
+b. Normalized histogram of the current frame is calculated
+c. Both the histograms are compared and value (dCorr) is calculated
+d. If dCorr < t, then frame is identified as keyframe
+Figure 8 shows the shot transition (instant change from one shot to next) in a video.
+The highlighted frame is the keyframe.
+
+Figure 8: Shot Transition in a Video
+3.3 Annotation of Keyframes
+Annotation of an image is the process of describing the content of the image based on it
+features. With the recent advances in deep learning, object recognition, image classification and
+image description are made possible with extremely high accuracy rate. The Show and Tell [3]
+is a state of art new neural network model that learns and generates sentence descriptions for
+the images. It is an open source image captioning model developed by the research scientists
+at Google.
+
+15
+
+The Show and Tell model is an encode-decoder network. It first encodes an image into a fixed
+length vector representation and then decodes to sentence description. Figure 9 illustrates the
+architecture of show and tell model. The image encoder is a CNN network and decoder is a long
+term short memory (LSTM) network. The deep CNN network is the start of art model for image
+classification and object detection. LSTM is used for language modelling.
+
+Figure 9: Show and Tell Model Architecture
+3.4 Pre-processing Data and Building the LDA Model
+In this step, we use a text dataset, which are articles related to the classes present in the
+video dataset. Then we pre-process the data using NLP techniques followed by building the
+LDA model.
+
+16
+
+a. Pre-processing the data:
+Articles in the text dataset are pre-processed using NLP techniques like tokenization,
+stop word removal and lemmatization [34]. All these techniques are discussed in detail
+below:
+
+Figure 10: Text Data Preprocessing using NLP Techniques
+1. Tokenization:
+In this process, the input text in the documents is broke into modules like words,
+symbols, and phrases called tokens. This process is also known as lexical analysis.
+Example: Input sentence – light travels faster than the sound$
+Output sentence – light, travels, faster, than, the, sound
+2. Lemmatization:
+In linguistics, the process of grouping changed forms of the words such that it can be
+analyzed as one item recognized by its lemma or dictionary form. It is the algorithmic
+process of determination of lemma of a word based on the context of meaning.
+Example: Input - light, travels, faster, than, the, sound$
+Output – light, travel, fast, than, the, sound
+3. Stop Word removal:
+Stop words doesn’t contain any significant information. There are tools that
+avoid stop words to support the search for phrases.
+17
+
+Example: Input - light, travel, fast, than, the, sound
+Output – light, travel, fast, sound
+b. Building LDA model:
+LDA is a generative probabilistic model of a corpus. Before knowing how the LDA model
+works, let’s consider a simple example with the following sentences:
+Sentence 1 - I would love to eat tomato and apple
+Sentence 2 - I had an apple and avocado milk shake for the breakfast
+Sentence 3 - Dog and pussycat are pretty.
+Sentence 4 - Sheela is playing with her pussycat today
+Sentence 5 - Mouse is drinking the milk in the cup
+Given the above sentences as input to Latent Dirichlet allocation, it automatically
+discovers the topics present in these sentences. LDA might output topics as described
+below:
+Sentence 1 and Sentence 2 belong to 100% Topic 1
+Sentence 3 and Sentence 4 belong to 100% Topic 2
+Sentence 5 belong to 65% Topic 1 and 35% Topic 2
+•
+
+Topic 1: 20% tomato, 20% apples, 10% breakfast, 10% drinking, etc., we can assume
+that Topic 1 is about food items
+
+•
+
+Topic 2: 20% Dog, 20% pussycat, 15% mouse, 15% pretty, etc., we can assume that
+Topic B is about animals.
+LDA performs following steps to generate topics from the bunch of documents
+
+which is considered as a corpus.
+18
+
+•
+
+For each document choose the number of words(N) by Poisson distribution
+
+•
+
+For each document choose the topic mixture by Dirichlet distribution for K topics.
+Example: If the corpus consists of animal and food topics, then we might consider the
+document consisting of 3/5 food and 2/5 animals.
+
+•
+
+Generate word w_i for each word in the document:
+o Randomly pick a topic using the multinomial distribution
+o With the topic picked, generate the word by itself. For an example, suppose if
+an animal topic is selected, then we might generate the word “dog” with 20%
+probability and “pussycat” with 20% probability.
+We repeat these steps for a fixed number of iterations. At the end of all the
+
+iterations, an LDA model is built. This Model contains topics, which are a distribution of the
+words. Each topic has list of words and corresponding weights.
+3.5 Topic Assignment
+Topic assignment is the process of assigning a topic to the keyframes based on the
+descriptions of the keyframe using LDA model. At this step, topics are assigned to all the
+keyframes present in each video. Thus, at end of this step, each video is represented as a
+sequence of topics.
+For each keyframe, preprocess the descriptions using NLP techniques detailed in previous
+step. Then with the preprocessed image description, calculate the weight that it belongs to
+each topic. Assign the max weighted topic to the keyframe. This process is repeated from every
+keyframe in the dataset.
+
+19
+
+Following the pseudo code of the algorithm:
+for topic in topics
+sum = 0.0
+for word in image_descriptions
+sum += weight(word)
+if sum > maxWeight
+maxWeight = sum
+assignedTopic = topic
+Note: weight(word) returns the term weight if word is present in topic else 0
+Example: A cat and dog are playing in the park.
+Let us consider, we have an LDA model with 3 topics. Table 1 below shows the terms
+and weights of the LDA model.
+Table 1: Topic Terms and Weights for a Sample Data
+Topic 1
+
+Topic 2
+
+Topic 3
+
+Term
+
+Weight
+
+Term
+
+Weight
+
+Term
+
+Weight
+
+Cat
+
+0.25
+
+Play
+
+0.20
+
+Park
+
+0.15
+
+Dog
+
+0.22
+
+Game
+
+0.19
+
+Tree
+
+0.10
+
+Mouse
+
+0.11
+
+Ball
+
+0.12
+
+Green
+
+0.08
+
+Pet
+
+0.09
+
+Bat
+
+0.08
+
+Plants
+
+0.07
+
+Kitten
+
+0.02
+
+Field
+
+0.04
+
+Seed
+
+0.01
+
+The output of give sentence after preprocessing is: ‘Cat, Dog, Play, Park’. Using the above
+algorithm, the below table shows the calculation for the topic assignment for each keyframe.
+The weights that it belongs to each topic are show in the last column of the table.
+
+20
+
+Table 2: Topic Assignment Calculation
+Topic/Word
+
+Cat
+
+Dog
+
+Play
+
+Park
+
+Weight (sum)
+
+Topic 1
+
+0.25
+
+0.22
+
+0.0
+
+0.0
+
+0.47
+
+Topic 2
+
+0.0
+
+0.0
+
+0.20
+
+0.0
+
+0.20
+
+Topic 3
+
+0.0
+
+0.0
+
+0.0
+
+0.15
+
+0.15
+
+Table 3: Topic Sequence Representation of Videos
+Video
+
+Topic Sequence
+
+Video 1
+
+5
+
+1
+
+1
+
+2
+
+3
+
+1
+
+4
+
+4
+
+5
+
+2
+
+Video 2
+
+1
+
+4
+
+3
+
+5
+
+1
+
+1
+
+2
+
+4
+
+3
+
+1
+
+3.6 Topic Sequence Analysis
+In this step, using the topic sequence data, we build topic histograms and use this as
+vectors for video classification and retrieval problems.
+a. Topic Histograms
+Topic histograms is a way of representing the topic sequence data. The points
+in topic histogram represent the probability of belonging to each topic. The length of
+the topic in topic histogram is same as the number of topics present in LDA model.
+Figure 11 below is the representation of topic histogram for video 1 data from table 3.
+
+21
+
+0.45
+0.4
+0.35
+0.3
+0.25
+0.2
+0.15
+0.1
+0.05
+0
+Topic 1
+Topic 1
+
+Topic 2
+
+Topic 3
+
+Topic 4
+
+Topic 5
+
+Figure 11: Topic Histogram Representation
+
+b. Video classification
+We use the following classification algorithms used to classify the videos.
+1. Decision Trees [25]
+Decision tree maps a of set of likely outcomes of a sequence of related
+choices. It is used for both classification and regression. It uses a tree-like model
+for making decisions. Every branch of tree denotes a possible outcome or
+decision. The tree is structured in such a way to show how one choice lead to
+the next.
+2. Random Forest [26]
+Random forests are used in performing tasks like classification and
+regression. Unlike other classification algorithms, Random Forests grows
+multiple classification trees. To perform a classification of a new item from an
+22
+
+input vector, give the input vector each of the tree in the forest. Each tree elects
+a member, based on the output of each tree. Aggregate and output the result
+with maximum elections. The following steps are performed for building a
+Random Forest:
+i.
+
+Decision Tree learning: In this step, it uses the decision trees to map the
+observations of an object to its target value. To make the observations on new set
+data Decision Trees are used.
+
+ii.
+
+Tree Bagging: The training of random forest applies to aggregating the all tree
+learners. After training, predictions for unseen samples can be made by averaging
+the predictions from all the separate regression trees on the unobserved sample.
+
+iii.
+
+Bagging to random forests: This is also called as feature bagging which is randomly
+selecting the subset of features and training the trees with those selected features.
+
+iv.
+
+Extra Trees: A random value is selected to split from the empirical feature range,
+instead of selecting local optimal split.
+
+Figure 12 shown below is an instance of random forest formed by aggregating n trees.
+
+Figure 12: Random Forest Example
+23
+
+3. Naïve Bayes [24]
+Naïve Bayes classification is a family of probability which applies Bayes
+theorem with independent assumptions with features. Bayes theorem states
+that the probability of an event is based on the prior knowledge. These are
+highly scalable and required more parameters in learning a problem.
+The basic assumption of Naïve Bayes is every feature makes an equal
+and independent contribution to the output. Figure 13 shows the calculation of
+posterior probability of event.
+
+Figure 13: Naive Bayes Formula
+c. Video retrieval
+Video retrieval here is primarily used to give recommendations to users based
+on the video they are currently watching. A K-means cluster [23] is computed using the
+feature vectors (topic histograms) of all the videos in the video dataset. Currently, the
+number of clusters is selected based on the number of classes in the video dataset. For
+
+24
+
+an input video, the nearest video in the cluster and a rank for each video is assigned
+based on the distance between videos.
+
+25
+
+CHAPTER 4
+IMPLEMENTATION
+4.1 Introduction
+In this chapter, we will discuss about the implementation details i.e., system
+configuration, steps involved to solve the problem and tools used to compute the results.
+Below are steps involved to solve the problem.
+a. Automatic keyframe detection
+b. Video annotation using Show and Tell model
+c. Building LDA model using the Wikipedia dataset collected
+d. Assign topic to each keyframe using LDA model
+e. Topic sequence analysis for videos using topic histograms
+All the above steps are detailed in this chapter. As shown in Figure 14, the proposed
+framework has two stages. During the first stage, LDA model is built using the text dataset
+collected using Wikipedia API [35] and Diffbot articles API [36]. In the second stage, using the
+annotations generated by Show and Tell model and with the topics from LDA model, topics are
+assigned to the keyframes resulting each video as a sequence of topics. With the topic
+sequences, topic histograms are generated which serve as vectors, used for video classification
+and retrieval. Decision Tree, Random Forest, and Naïve Bayes classification algorithms are used
+for video classification. K-means algorithm is used for video retrieval. The whole process of
+video classification and retrieval are discussed in this chapter.
+
+26
+
+Figure 14: Proposed Framework - Implementation
+4.2 System Configuration
+The system configuration is as follows.
+Hardware:
+•
+
+Operating System: Ubuntu 14.04 LTS
+
+•
+
+Memory: 32 GB
+
+•
+
+Processor: Intel(R) Xeon(R) CPU E5-2603 v4 @ 1.70GHz
+
+•
+
+Graphics: GeForce GTX 1080 Ti (4x11 Gb)
+
+•
+
+OS Type: 64 bit
+
+•
+
+Disk: 1 TB
+
+Software:
+•
+
+TensorFlow-gpu 1.4
+27
+
+•
+
+Apache Spark – 2.0.0
+
+•
+
+Gensim – 3.1
+
+•
+
+pyLDAvis – 2.1.1
+
+•
+
+Wikipedia API
+
+•
+
+Diffbot Article Extraction API
+4.3 Keyframe Extraction
+As discussed in Chapter 2, FFMPEG library is used to extract frames out of the video.
+
+Every video is processed using this library and frames are stored in the in-sub directory titled
+with name of the video file.
+Once the frames are generated for every video, the next step is to figure out the
+keyframes among all the images using shot transition detector. This is implemented using
+OpenCV library. The input to shot transition detector is the directory containing images and a
+threshold (t) value. This threshold value ranges from 0 to 1. Output is the keyframes, where
+each keyframe numbers are written to a text file with the filename same as the video. The
+entire process of keyframe extraction for video dataset is automated using a shell script.
+4.4 Description of Keyframes
+The captions generated by this model are used as descriptions are for each frame. The
+same model is used and trained using MSCOCO image captioning dataset [9]. For the initial
+phase of training, the model parameters of the ‘Inception v3’ model are kept fixed and ran for
+1 million iterations. In the second phase of training, all the parameters are trained together for
+additional 2 million iterations are. The total training process took around 20 days on a GPU
+
+28
+
+machine 4 Nvidia GeForce GTX 1080 Ti (11 Gb). The image descriptors provided by this model
+after training are accurate.
+From the previous step (keyframe extraction), a file for each video containing the file
+path of the keyframes is generated. Each video keyframes files are passed as an argument to
+the trained Show and Tell model in TensorFlow to get descriptions of entire video in one shot.
+Again, entire process is automated with shell scripts. At the end, a text file is created for each
+video in the dataset which contains descriptions of every keyframe of the video.
+4.5 Building LDA Model
+Text dataset related to video classes are collected using the Wikipedia API and Diffbot API.
+With the class label of video dataset, related Wikipedia articles were searched using Wikipedia
+API and page URLs were fetched. Diffbot articles API is used to extract the text content out of
+html pages with web URL as input. All the Wikipedia articles URLs are passed to Diffbot articles
+API to filter the text content. Thus, created a corpus of about 1500 documents for 10 classes.
+The text dataset is filtered using NLP techniques and stop removals. Following are the steps
+performed:
+a. Spark ML Pipeline is constructed to extract the corpus. The goal of a pipeline here is to
+preprocess the data. The corpus is an RDD with each row indexed by the document
+number and a vector contain the vocabulary indexes of vocab array. It basically contains
+vocabulary for each document. The Pipeline has three stages which are portrayed
+below:
+1. Regex Tokenizer: It supports regular expression matching for tokenization. Here,
+default functionality is used which is splitting the sentence into spaces.
+29
+
+2. Stop Words Remover: Stop words are words which doesn’t provide significant
+information. Spark has a default list of stop words which would be removed, a
+custom list of stops are added to list.
+Figure 15 below shows a list of some commonly used stop words.
+
+Figure 15: Most Common Stop Words in Reuters RCV1
+3. Lemmatization: It is basically process of converting the words of a sentence into its
+dictionary form. For example, the verb ‘run’, ‘ran’, ‘running’ to its base form ‘ran’.
+This is achieved using the Stanford NLP [10] library’s Morphology class. The Natural
+Language Processing is a field of computer science that provides programmers with
+an opportunity of working on algorithms which would allow computers to
+understand and process the human language. The Stanford core NLP group mainly
+involves the computational linguistics and applications in human language
+technology.
+4. CountVectorizer: CountVectorizer is used to convert a set of documents into vectors
+of token counts. CountVectorizer model generates sparse representations for the
+documents over the vocabulary, which servers an input for algorithms like LDA.
+b. LDA model generation: Spark implementation of LDA requires following parameters:
+1. k: Number of topics
+2. optimizer: used for learning the LDA model, either EM LDA or Online LDA
+Optimizer
+
+30
+
+3. doc Concentration: Dirichlet parameter for prior - documents distributions
+over topics.
+4. topic Concentration: Dirichlet parameter for prior - topics distributions over
+words.
+5. Max Iterations: maximum number of iterations.
+6. checkpointInterval: this parameter sets the frequency at which checkpoints
+should be created
+7. Input: corpus which is represented as word count vectors.
+For the first phase of evaluation below are the parameters used to build LDA model.
+•
+
+k: 10
+
+•
+
+optimizer: EM
+
+•
+
+docConcentration: -1
+
+•
+
+topicConcentration: -1
+
+•
+
+maxIterations: 100
+
+•
+
+checkpointInterval: not considered
+
+•
+
+Input: corpus vectors generated from 10 classes of video data
+
+Spark has model persistence which allows to save and load the models.
+4.6 Topic Assignment
+Once the LDA model is build, all the topics and terms and their weights can be
+extracted. Using this information each keyframe in video is tagged to a topic following
+below approach.
+
+31
+
+•
+
+Filtered text from sentence of each keyframe using lemmatization and stop
+word removals
+
+•
+
+For each word in the filtered sentence, computed the weight that it belongs to
+topic x. Similarly calculated total weight that the filtered sentence belongs to
+topic x.
+
+•
+
+Keyframe is tagged to topic having highest weight.
+4.7 Topic sequence analysis
+
+4.7.1 Topic Histograms
+Topic histograms are computed using the topic sequences. To compute a topic
+histogram, first we calculate the count of individual topics. Build a new vector with length same
+as number of topics present in the LDA model. Now assign the value at index of new vector
+with the count of topics ordered. Then topic histogram is formed by normalizing the values.
+Figure 16 illustrates the topic sequence and topic histogram representation of the video. Figure
+17 illustrates a sample of the labelled topic histograms data generated in spark on video
+dataset.
+
+Figure 16: Topic Histogram Computation
+32
+
+Figure 17: Topic Histogram Representation in Spark
+4.7.2 Classification
+For the classification of video data, Decision tree, Random forest & Naïve bayes
+classifiers are used. Spark machine learning library is used to build these classification models.
+The input to these models is ml vectors which are formed using the labelled topic histograms.
+Figure 18 illustrates the labelled vector of training data for classification model in spark.
+
+33
+
+Figure 18: Topic Histogram Vector in Spark
+4.7.3 Video retrieval
+In this method, using the topic histograms a cluster is built in Spark using K-means
+algorithm. The number of clusters here is decided based on the classes present in the video
+dataset. Then the cluster in computed. Following are steps for retrieving a video based on
+the input.
+i.
+
+Compute the topic histograms of input video
+Apply same steps as discussed in 4.7.1 to compute the topic histograms
+
+ii.
+
+Find the nearest cluster
+Find the nearest cluster by calculating the distance between cluster centers with
+
+the input. Euclidean distance is computed using the below formula.
+
+iii.
+
+Calculate the distance of input video with the videos present in nearest cluster using
+the above Euclidean distance formula. Each row has two values, distance and the
+
+34
+
+video label. Figure 19 illustrates spark implementation of calculating distance
+between input video to videos in nearest cluster.
+
+Figure 19: Calculating Distance between Videos
+
+35
+
+CHAPTER 5
+RESULTS AND EVALUATION
+5.1 Introduction
+In this chapter, we will show the several sets of evaluations performed using the framework
+developed. The Initial set of evaluations were done on a video dataset of about 300 videos with
+10 different classes and then on UCF 50 dataset with 50 classes.
+5.2 Datasets
+In this section, various datasets used for the evaluation are discussed. Following datasets
+were used for the implementation.
+1. Microsoft Common Objects in Context (MSCOCO) image caption Dataset [9] is used
+training the Show and Tell model. The training for 3 million iterations took about 20
+days.
+2. YouTube 8M [4] is used for evaluation. This dataset contains 7 million video URLs
+annotated with 4716 labels. An open source project Youtube-dl [5] is used to download
+the specific classes for the dataset. It is used to download the videos from YouTube,
+which support many download options like limiting file size, video quality etc.
+3. Wikipedia articles dataset – 1500 text documents related to 10 classes of video dataset
+were collected from Wikipedia using Wikipedia API [35] and Diffbot articles API [36].
+4. UCF 50 [37] – Action Recognition data set - UCF50 is an action recognition video dataset
+which has 50 action categories. All the videos in dataset are realistic videos collected
+from YouTube. It contains 6676 videos.
+
+36
+
+5.3 Validations
+In this thesis, we are presenting the new way of representing the video as a sequence
+of topics. As discussed in Section 1.3, we proposed five steps for our framework. In this section,
+we validate each step with certain metrics.
+a. Validation of Keyframe Detection.
+In keyframe detection step, we use OpenCV library to extract and compare the
+sift features of two adjacent frames. For this thesis, we evaluated various threshold
+values to avoid redundant frames. To make sure that keyframe detection works perfect,
+we validate both in qualitative and quantitative manner.
+i.
+
+Qualitative approach: In this method, we manually evaluated a set of 20
+different videos from YouTube8M dataset which are about 2-5 minutes
+duration by extracting the keyframes using OpenCV with the threshold value as
+0.6. We cross-checked whether every shot transition was captured and checked
+if any redundant frames were captured. In this approached we achieved 100%
+accurate results
+
+ii.
+
+Quantitative approach: In this method, using a set of images from flickr30k
+dataset, created videos using FFMPEG library. Now using OpenCV library, with
+a threshold value of 0.6, extracted the keyframes. The entire process of creating
+video from set of images, extracting keyframes and cross-checking images
+keyframes with original set of images is automated using shell scripts. Over 100
+simulated videos were created which resulted in 100% accuracy.
+
+37
+
+OpenCV is very widely used in many real-world applications which involves
+multimedia processing. Using correct threshold values for keyframes extraction
+delivers best results.
+b. Validation of Video Annotation
+For the video annotation, we are using the Show and Tell model trained with
+MSCOCO image captioning dataset. It is state of the art model for the image captioning.
+We performed validation on a random set of images on flickr30k dataset. Firstly,
+generated the caption automatically for 1000 images using the show and tell model.
+Then manually evaluated whether the descriptions from show and tell model matched
+with the ground truth. Table 4 shows the results based on the evaluations performed.
+Table 4: Validating Results of the Show and Model Generated on Flickr30k Dataset
+Total images
+
+Same description
+
+Similar meaning
+
+Wrong description
+
+1000
+
+162
+
+517
+
+321
+
+The accuracy at this step is 67.9%. Again, the accuracy here entirely depends on the
+training dataset used to train the Show and Tell model. If the model knows about the
+images/objects, it performs well.
+c. Validation of topics discovered?
+In the text mining, Unsupervised techniques like topic modeling don’t guarantee
+on the interpretability of the output. These output from the topic models are well
+interpreted by humans, who serve as the standard for the coherence evaluation. But
+this way of evaluation is very expensive. Topic coherence determines whether all the
+topics are consistent and logical. In order to compute the topic coherence, we use
+38
+
+genism library. We build LDA models with different k (number of topics) values and
+proceed with the model having higher coherence value.
+For the flickr30k dataset, we built LDA model with 70% of data as training data
+with k values as 5, 10, 20, and 30. Upon manually analyzing the topics present in all the
+models, it is evident that the model having high coherence value have terms well
+distributed and are significant in each topic.
+
+TOPICS VS TOPIC COHERENCE
+Topic coherence
+0
+5
+
+10
+
+20
+
+30
+
+TOPIC COHERENCE
+
+-1
+
+-2
+
+-2.2123
+
+-2.0164
+
+-3
+
+-4
+-4.6409
+-5.2391
+
+-5
+
+-6
+
+TOPICS
+
+Figure 20: Comparison of Topic Coherence for Different k Values for Flickr30k Dataset
+Figures 21-24 are visualizations of the LDA models with different k values for
+flickr30k dataset.
+
+39
+
+Figure 21: LDA Topic Model Visualization for k=5 on Flickr30k Dataset
+
+Figure 22: LDA Topic Model Visualization for k=10 on Flickr30k Dataset
+
+40
+
+Figure 23: LDA Topic Model Visualization for k=20 on Flickr30k Dataset
+
+Figure 24: LDA Topic Model Visualization for k=30 on Flickr30k Dataset
+
+41
+
+d. How to validate topic assignment?
+In order to evaluate topic assignment, we used flickr30k dataset, which has 30k
+images and five sentence descriptions for each image. 30k images are divided into 70%
+training data and 30% testing data. Considering the training dataset’s sentence
+description as corpus, preprocessed the corpus and built the LDA model with number
+of topics (k) as 10. Now using the term weights from each topic, programmatically
+assigned a topic to every image in the test dataset based on the sentence description
+of each image. Then manually validated the test dataset, whether topic assigned to
+each frame is valid w.r.t other topics. Overall the accuracy is 93%. Table 5 shows the
+accuracy of topic assignments for each topic group for k=10 on flickr30k test dataset
+Table 5: Accuracy of Topic Assignments K=10 on Flickr30k Test Dataset
+Topic
+
+Accuracy (%)
+
+Man
+
+87.8
+
+Body parts
+
+80.2
+
+Vehicles
+
+85.1
+
+Sports
+
+100
+
+Snow
+
+82.5
+
+Group
+
+86.9
+
+Animal
+
+99.1
+
+Girl/Boy
+
+90.8
+
+Number
+
+92.3
+
+Music
+
+98.3
+
+42
+
+In Table 5, the topic names are manually assigned based on the topic terms in each
+topic.
+e. How to validate the Topic Sequence detection?
+In this method, we used the same simulated video data created in step (a). Then
+extracted the keyframes and assigned topics using the LDA model. Here we observed
+that the sequence of generated topics is same as expected for the input sequence for
+simulated videos.
+5.4 Evaluation
+Four case studies have been performed to effectively evaluate the framework:
+Case 1: Video classification approach with 10 classes (Dataset – 300 videos)
+Case 2: Category Based LDA approach with 10 classes (Dataset – 300 videos)
+Case 3: Video classification approach with UCF 50 dataset (50 classes)
+Case 4: Video retrieval approach with 300 videos.
+5.4.1 Case 1: Video classification approach with 10 classes
+The experiment is conducted on a video dataset of about 300 videos consisting 10
+classes. Prior to that, 1500 articles related to the video classes were collected. The dataset
+from these articles is preprocessed using NLP techniques, then LDA model is built using the
+preprocessed data.
+Figure 25 is an example of the topic assignment for each keyframe in video (Throwing
+a Frisbee). Descriptions are shown at the top and bottom of the image. These descriptions
+are generated by the show and tell model, which are accurate. This is not expected every
+
+43
+
+time as the description of the keyframe depends on the quality of the keyframe and how
+well the model is trained in that domain/context.
+
+Figure 25: Example of Keyframe Description and Topic Assignment
+
+From Figure 25, keyframes 1, 5, and 6 shows that the person is holding a Frisbee and all
+those frames are tagged as Topic 2. The descriptions of keyframes 2 and 3 are perfect, but
+for keyframe 4, the description is ‘A train travelling through a lush green forest’. This is
+ambiguous since the ‘lush of green forest’ part is accurate, but there is no train in the
+image. This is because to the motion and some parts of the image being blurred. These
+distortions make it difficult to decode correct descriptions of the image.
+
+44
+
+The LDA model is built with different k values such as 5,10,20 and 30. Table 6 shows the
+top 10 topic terms and their corresponding weights for video dataset with 10 classes with
+k=10.
+Table 6: Top 10 Terms for each Topic in Video Dataset for k=10
+
+An interactive topic model visualization is generated using the pyLDAvis library. Below
+Figures 26-29, are the snapshots of the visualization for k=5, 10, 20, and 30 on Wikipedia
+text dataset with 10 classes. This visualization helps in measuring the inter-topic distance
+between the topics, thus resulting in more aptly choosing the k values for the corpus.
+Topics generated by LDA are a distribution over the words in the corpus. Hence, there
+are chances that a word occurs in multiple topics. The occurrence of the words is
+identified by hovering on the words present on the right-hand side of the visualization.
+On left-hand side, all the topics are shown in circles. The intersection of two circles
+represents overlapping of topics between them.
+45
+
+Figure 26: LDA Topic Model Visualization for K=5 on Wikipedia Text Dataset
+
+Figure 27: LDA Topic Model Visualization for K=10 on Wikipedia Text Dataset
+
+46
+
+Figure 28: LDA Topic Model Visualization for K=20 on Wikipedia Text Dataset
+
+Figure 29: LDA Topic Model Visualization For k=30 on Wikipedia Text Dataset
+
+47
+
+Once topic assignment is done, each video is represented as a sequence of topics.
+This data is further used to build topic histograms. These topic histograms are used to build
+the classification model using decision tree, random forest and naïve bayes classifier
+algorithms. The objective of this case is to conduct 3 types of evaluations for the video
+classification accuracy and topic coherence with 10 classes:
+a) Accuracy comparison of Decision tree vs Random forest vs Naïve Bayes with different
+k values
+The classification algorithms used are Decision tree, Random forest, and Naïve Bayes.
+Figure 30 illustrates accuracy comparison of Decision Tree vs Random Forest vs Naïve
+Bayes for different k values. Maximum accuracy attained was 83.58% at k=10 with random
+forest classifier.
+
+Accuracy for different topics
+Accuracy
+
+100
+80
+
+79.86
+70.22
+61.4
+
+83.58
+78.13
+64.7
+
+5
+
+10
+
+66.372.2
+54.8
+
+60
+
+68.8
+56.43
+
+40
+20
+0
+20
+
+30
+
+Topics
+Decision Tree
+
+Random Forest
+
+Naïve Bayes
+
+Figure 30: Accuracy Comparison of Different k Values
+It is clearly observed that maximum accuracy is achieved when the number of
+classes and topics are equal. As the topics deviate from the class size k=10, the accuracy
+48
+
+dropped. It was also observed that random forest always outperformed decision tree and
+naïve bayes. This is because of random forest’s ability to limit overfitting without
+substantially increasing the error due to bias.
+b) Topic coherence values for different number of topics (k)
+Topic coherence determines whether all the topics are consistent and logical.
+Earlier, topics coming out from the topic modelling algorithms are tested with human
+interpretability. But this approach is qualitative but not quantitative. Figure 31 shows the
+topic coherence values of LDA models generated with different k values.
+
+Topics vs Topic Coherence
+Topic Coherence
+
+-1
+-1.05
+
+5
+
+-1.1
+
+-1.1391
+
+10
+
+20
+
+30
+
+-1.1191
+
+-1.15
+-1.2261
+
+-1.2
+-1.25
+
+-1.3082
+
+-1.3
+-1.35
+
+Topics
+Topic coherence
+
+Figure 31: Comparison of Topic Coherence with Different k Values.
+
+It can be inferred that maximum coherence value is achieved when the number of
+topics equals the class size. As we increased the number of topics on fixed corpus with 10
+classes, the coherence value started to drop. For k=20 and 30, the coherence value dropped
+
+49
+
+by 8.7% and 6.2%, respectively. On increasing the k values, the topic groups discovered
+could not be interpreted.
+c) Category wise accuracy with comparison of Decision tree vs Random forest vs Naïve
+Bayes
+The classification algorithms used are Decision tree, Random forest, and Naïve Bayes.
+Classification models are built with topic histograms that are generated on the video
+dataset with the number of topics (k) as 10. Figure 32 shows the Category wise video
+classifiction accuracy comparison of Decision Tree vs Random Forest vs Naïve Bayes for
+different k values.
+
+Category wise classification accuracies
+100
+
+88.8 90
+
+80
+
+87.588.887.585.7
+70
+
+75
+
+87.5
+75
+
+88.887.5
+
+87.5
+70 70
+
+87.5
+75 75
+
+70
+
+70
+
+60
+40
+20
+0
+Category 1
+
+Category 2
+
+Animals
+
+Cars
+
+Laptops
+
+Mobile phones
+
+Trains
+
+Buildings
+
+Baseball
+
+Aeroplane
+
+Flowers
+
+Books
+
+Figure 32: Category Wise Classification Accuracy Comparison for Various k Values
+Random forest outperformed over decision tree algorithm and naïve bayes in every
+category. The average accuracy of random forest, decision trees and naïve bayes was around
+83%, 78%, and 64% respectively for k = 10.
+50
+
+There is a lot of confusion in predicting the classes. This is portrayed with the confusion
+matrix shown in Figure 33 for random forest algorithm.
+
+Figure 33: Confusion Matrix of 10 Classes for Random Forest
+It can be inferred that there is confusion majorly in judging mobile phones, laptops,
+and flowers where they were interpreted as laptops, baseball, and cars, respectively.
+
+5.4.2 Case 2: Category Based LDA approach with 10 classes (Dataset – 300 videos)
+In this approach, LDA models are built independently for each class. These models were
+used on whole video dataset for topic assignment. Therefore, each class has a corpus size of
+about 150 documents. The individual metrics are posted in the table below.
+
+51
+
+Table 7: Category Based LDA Metrics for k=1 & 3
+Class
+
+Unique Tokens
+
+Topic Coherence
+
+Animals
+
+2283
+
+K=1
+-0.6345
+
+K=3
+-1.0339
+
+Cars
+
+2624
+
+-0.6739
+
+-0.8423
+
+Laptops
+
+2286
+
+-0.5229
+
+-0.6019
+
+Mobile Phones
+
+3178
+
+-0.7697
+
+-0.5158
+
+Trains
+
+2216
+
+-0.5980
+
+-0.6319
+
+Buildings
+
+2929
+
+-1.1472
+
+-1.1097
+
+Baseball
+
+2183
+
+-1.282
+
+-1.0271
+
+Aero planes
+
+2024
+
+-0.5773
+
+-0.6686
+
+Flowers
+
+1209
+
+-1.2484
+
+-1.2429
+
+Books
+
+2119
+
+-0.8763
+
+-0.8292
+
+With the category based LDA approach for k=1, the LDA model is built with 1 topic for
+each class resulting in a total of 10 topics. Similarly, for k=3 LDA model is built with 3 topics for
+each class resulting in a total of 30 topics. It is observed that for k=3, with many classes, topic
+coherence values are higher when compared with k=1. Figure 34 illustrates the comparison of
+topic coherence values for Category Based LDA with varying k values.
+
+52
+
+0
+Animals
+
+Cars
+
+Laptops
+
+-0.2
+
+Mobile
+Phones
+
+Trains
+
+Buildings Baseball
+
+Aero
+planes
+
+Flowers
+
+Books
+
+-0.4
+-0.6
+-0.8
+-1
+-1.2
+-1.4
+K=1
+
+K=3
+
+Figure 34: Topic Coherence Values for Category Based LDA with Varying K Values
+Classification algorithms Decision tree, Random forest and Naïve Bayes are used for
+
+Accuracy
+
+video classification in the category based LDA approach.
+
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+Decision Tree
+
+K=1
+52.8
+
+K=3
+50.6
+
+Random Forest
+
+56.3
+
+52.5
+
+Naïve Bayes
+
+53.8
+
+51.2
+
+Classification algorithms
+Decision Tree
+
+Random Forest
+
+Naïve Bayes
+
+Figure 35: Video Classification Accuracy Comparison for Category Based LDA with K Values
+
+53
+
+85
+80
+
+ACCURACY
+
+75
+70
+65
+60
+55
+50
+45
+
+Category based LDA for k=1
+52.8
+
+Regular LDA for k=10
+64.7
+
+Random Forest
+
+56.3
+
+83.58
+
+Naïve Bayes
+
+53.8
+
+78.13
+
+Decision Tree
+
+CLASSIFICATION ALGORITHMS
+Decision Tree
+
+Random Forest
+
+Naïve Bayes
+
+Figure 36: Video Classification Accuracy Comparison of Category Based LDA And Regular LDA
+5.4.3 Case 3: Video classification approach with UCF 50 dataset (50 classes)
+The objective of this case is to evaluate the video classification accuracy on the UCF 50
+dataset with 50 classes. For previous approaches (Case 1 and Case 2), the corpus was collected
+from Wikipedia based on video dataset set classes. In Case 3, keyframe annotations are
+considered as the corpus, and then the corpus is pre-processed to build the LDA model
+Currently, for this thesis, we are using the show and tell model trained with MSCOCO
+image captioning dataset for video annotation. The annotations generated by the show and
+tell model on the UCF 50 dataset images were not accurate. About 80% of the annotations
+generated were incorrect, thus leading to inconsistent topic assignment. This can only be
+overcome by using appropriate image dataset for training the show and tell model. Table 8
+shows the comparison of annotation generated by the Show and Tell model on UCF50 dataset
+with ground truth.
+54
+
+Table 8: Annotations of Show and Tell model vs Ground Truth on UCF50 Dataset
+Image
+
+Annotated Text
+
+Ground Truth
+
+A person is standing on a
+
+A man shooting the ball into
+
+bridge with a horse.
+
+the net in basketball court.
+
+A man standing in a room
+
+A woman tossing a pizza.
+
+with a bunch of bottles.
+
+A truck is driving down a road
+
+A man skating on with a skate
+
+with a mountain in the
+
+board on the road.
+
+background.
+
+The LDA model is built on the annotations of all the videos present in UCF50 dataset by
+varying k values. Once the topic assignment is done, topic histograms were generated for the
+video classification.
+
+55
+
+Classification accuracies on UCF 50
+ACCURACY (%)
+
+25
+19.2
+
+20
+15
+
+16.6
+13.4
+
+12.8
+
+17.3
+
+16.2
+13.5
+
+15.8
+
+12.6
+
+10
+5
+0
+10
+
+Decision Tree
+
+20
+TOPICS
+Random Forest
+
+30
+
+Naïve Bayes
+
+Figure 37: Classification Accuracy Comparison for Different k Values on UCF50 Dataset
+Figure 37 illustrates the accuracy comparison of Decision Tree vs Random Forest vs Naïve
+Bayes for different k values on UCF50 dataset. It can be inferred that classification accuracies
+are very low on UCF 50 dataset. This is due to inconsistent assignment of topics to each
+keyframe. This can be more elaborated by evaluating metrics of the built LDA model.
+The UCF50 dataset contains 6676 videos. Video annotations were generated for all the
+videos present in the dataset. Using 6676 documents, a total of only 262 unique tokens are
+found after preprocessing the documents. Tokens are filtered on the following basis:
+•
+
+Filter out the words that occur in less than 10 documents
+
+•
+
+Filter out the words that occur in more than 50% of the documents
+
+A total of 262 unique tokens were discovered using this approach. This is very less when
+compared to 7924 tokens on a corpus of 1500 documents for video dataset with 10 classes.
+
+56
+
+5.4.4 Case 4: Video retrieval approach with 300 videos
+In this approach, first we calculate build the cluster by computing the topic histograms.
+Then we compute the topic histogram for input video and find the nearest cluster using
+Euclidian distance. We evaluated video retrieval approach on two use cases. This for two use
+cases:
+1. Real Video
+In this approach, the input is the real video from the YouTube. Once the topic
+histogram is computed, nearest cluster is determined. Then measure the Euclidean
+distance with all the video in the nearest cluster. In Table 9, on left hand side is the
+input video. On right had side, retrieved videos are displayed in sorted order of their
+scores.
+
+57
+
+Table 9: List of Videos Retrieved and their Score for Real Video
+Input video
+
+Retrieved videos
+
+Score
+0.0025
+
+0.0038
+
+0.0059
+
+0.010
+
+2. Simulated Video:
+In this method, images belonging to different topics are picked randomly and
+created a video. Table 10 shows the results with input video on the left and retrieved
+videos on the right-hand side. The topic histogram of the input has a higher weight for
+
+58
+
+the laptops class, hence the nearest cluster found was the videos containing the
+laptops. So, the output contains the laptop videos which are nearest to the input video.
+Table 10: List of Videos Retrieved and their Score for Simulated Video
+Input video
+
+Retrieved videos
+
+Score
+0.1987
+
+0.2139
+
+0.3011
+
+0.3912
+
+59
+
+5.4 Summary
+The results are highly dependent on the quality of the keyframes. Show and Tell model
+is good at generating descriptions for the frames which are not distorted and blurred. Latest
+Google’s Inception V3 [13], the image recognition accuracy is around 95%, but the performance
+varies on blurred or distorted images. Also, the show and tell model performs well on the
+images it previously knows. Video classification results are pretty good on a test dataset with
+10 classes and with the LDA model built on the corpus related to the video dataset. But for the
+other approach (Case 3) where the LDA model is built on the corpus generated by the show
+and tell model, the results were bad. Category based LDA also did not really performed well,
+as the LDA models built globally have more knowledge as compared to the LDA models built
+locally. The video retrieval approach eliminates the comparison with every video by finding the
+nearest cluster. This can be further optimized by using the hierarchical clustering.
+
+60
+
+CHAPTER 6
+CONCLUSION AND FUTURE WORK
+6.1 Conclusion
+This thesis presented the new way of representing videos as a sequence of topics. We
+studied the performance of proposed frame work for different use cases. The accuracy of the
+classification and video retrieval problems are pretty good on the video dataset with 10 classes.
+For the proposed framework, the results entirely depend on the LDA model built and on the
+annotations generated by the Show and model. The drawback here is both the LDA model and
+show and tell model must have prior knowledge about the video data. The output can be more
+tuned by using appropriate training data both for LDA model and the Show and Tell model.
+6.2 Limitations
+The approach presented in the thesis considers only visual features and ignores the
+audio features. Considering audio features delivers more promising results. Videos with low
+quality are hard to classify as the Show and Tell model doesn’t give the accurate description of
+the keyframes.
+6.3 Future Work
+Building a framework entirely using Deep Learning could be more challenging but
+delivers better results. Currently, the field of deep learning has made a tremendous progress
+on computer vision problems particularly for image recognition, classification, captioning etc.,
+research work on video domain is still in progress. Representing video as the sequence of topics
+will be more beneficial in identifying the flow or context. Using Deep LDA instead of machine
+learning could deliver more promising results.
+61
+
+REFERENCES
+[1]
+David M. Blei, Andrew Y. Ng, and Michael I. Jordan. 2003. Latent dirichlet allocation. J.
+Mach. Learn. Res. 3 (March 2003), 993-1022.
+[2]
+Juan Cao, Jintao Li, Yongdong Zhang, and Sheng Tang. 2007. LDA-based retrieval
+rramework for semantic news video retrieval. International Conference on Semantic
+Computing (ICSC 2007). DOI:http://dx.doi.org/10.1109/icosc.2007.4338344
+[3]
+Oriol Vinyals, Alexander Toshev, Samy Bengio, and Dumitru Erhan. 2015. Show and
+tell: A neural image caption generator. 2015 IEEE Conference on Computer Vision and Pattern
+Recognition (CVPR)(2015). DOI:http://dx.doi.org/10.1109/cvpr.2015.7298935
+[4]
+
+GitHub, Inc. Sports 1M Dataset https://github.com/gtoderici/sports-1m-dataset
+
+[5]
+
+Anon. youtube-dl downloads. Retrieved January 4, 2018 from https://youtube-dl.org/
+
+[6]
+Ivan Laptev and Tony Lindeberg. 2003. Space-time interest points. Proceedings Ninth
+IEEE International Conference on Computer Vision(2003).
+DOI:http://dx.doi.org/10.1109/iccv.2003.1238378
+[7]
+Piotr Dollar, Vincent Rabaud, Garrison Cottrell and Serge Belongie. 2005 Behavior
+recognition via sparse spatio-temporal features. 2005 IEEE International Workshop on Visual
+Surveillance and Performance Evaluation of Tracking and Surveillance.
+DOI:http://dx.doi.org/10.1109/vspets.2005.1570899
+[8]
+Ivan Laptev, Marcin Marszalek, Cordelia Schmid, and Benjamin Rozenfeld. 2008.
+Learning realistic human actions from movies. 2008 IEEE Conference on Computer Vision and
+Pattern Recognition(2008). DOI:http://dx.doi.org/10.1109/cvpr.2008.4587756
+[9]
+Tsung-Yi Lin et al.2014. Microsoft COCO: Common Objects in Context. Computer
+Vision – ECCV 2014 Lecture Notes in Computer Science(2014), 740–755.
+DOI:http://dx.doi.org/10.1007/978-3-319-10602-1_48
+[10] Anon. Stanford CoreNLP – Natural language software. Retrieved January 4, 2018 from
+http://stanfordnlp.github.io/CoreNLP
+[11] Anon. What is Apache Spark. Retrieved January 4, 2018 from
+https://hortonworks.com/apache/spark/
+[12] RaRe-Technologies. 2017. RaRe-Technologies/gensim. (December 2017). Retrieved
+January 4, 2018 from https://github.com/RaRe-Technologies/gensim
+
+62
+
+[13] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jon Shlens, and Zbigniew Wojna.
+2016. Rethinking the inception architecture for computer vision. 2016 IEEE Conference on
+Computer Vision and Pattern Recognition (CVPR)(2016).
+DOI:http://dx.doi.org/10.1109/cvpr.2016.308
+[14] Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton. 2017. ImageNet classification
+with deep convolutional neural networks. Communications of the ACM 60, 6 (2017), 84–90.
+DOI:http://dx.doi.org/10.1145/3065386
+[15] Andrej Karpathy, George Toderici, Sanketh Shetty, Thomas Leung, Rahul Sukthankar,
+and Li Fei-Fei. 2014. Large-Scale Video Classification with Convolutional Neural Networks.
+2014 IEEE Conference on Computer Vision and Pattern Recognition (2014).
+DOI:http://dx.doi.org/10.1109/cvpr.2014.223
+[16] Joe Yue-Hei Ng, Matthew Hausknecht, Sudheendra Vijayanarasimhan, Oriol Vinyals,
+Rajat Monga, and George Toderici. 2015. Beyond short snippets: Deep networks for video
+classification. 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+(2015). DOI:http://dx.doi.org/10.1109/cvpr.2015.7299101
+[17] Rahul Radhakrishnan Iyer, Sanjeel Parekh, Vikas Mohandoss, Anush Ramsurat,
+Bhiksha Raj and Rita Singh, “Content-based video indexing and retrieval using corr-lda,” arXiv
+preprint arXiv:1602.08581, 2016.
+[18] Anon. 2017. Latent Dirichlet allocation. (December 2017). Retrieved January 4, 2018
+from https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation
+[19] Guang Li, Shubo Ma, and Yahong Han. 2015. Summarization-based Video Caption via
+Deep Neural Networks. Proceedings of the 23rd ACM international conference on Multimedia
+- MM 15 (2015). DOI:http://dx.doi.org/10.1145/2733373.2806314
+[20] Gary Bradski and Adrian Kaehler. Learning OpenCV: Computer Vision with the OpenCV
+Library. O’Reilly Media, 2008.
+[21] Anon. 2018. Machine learning. (January 2018). Retrieved January 4, 2018 from
+https://en.wikipedia.org/wiki/Machine_learning
+[22] Anon. 2017. Natural language processing. (December 2017). Retrieved January 4,
+2018 from https://en.wikipedia.org/wiki/Natural_language_processing
+[23] Anon. 2017. k-means clustering. (December 2017). Retrieved January 4, 2018 from
+https://en.wikipedia.org/wiki/ K-means_clustering
+[24] Anon. 2018. Naive Bayes classifier. (January 2018). Retrieved January 4, 2018 from
+https://en.wikipedia.org/wiki/ Naive_Bayes_classifier
+63
+
+[25] Anon. 2017. Decision tree. (December 2017). Retrieved January 4, 2018 from
+https://en.wikipedia.org/wiki/Decision_tree
+[26] Anon. 2018. Random forest. (January 2018). Retrieved January 4, 2018 from
+https://en.wikipedia.org/wiki/Random_forest.
+[27]
+
+Anon. TensorFlow. Retrieved January 4, 2018 from https://www.tensorflow.org/
+
+[28] Anon. 2018. Supervised learning. (January 2018). Retrieved January 4, 2018 from
+https://en.wikipedia.org/wiki/Supervised_learning
+[29] Anon. 2018. Unsupervised learning. (January 2018). Retrieved January 4, 2018 from
+https://en.wikipedia.org/wiki/Unsupervised_learning
+[30] Anon. 2018. Artificial intelligence. (January 2018). Retrieved January 4, 2018 from
+https://en.wikipedia.org/wiki/Artificial_intelligence
+[31] Anon. 2018. Artificial neural network. (January 2018). Retrieved January 4, 2018 from
+https://en.wikipedia.org/wiki/Artificial_neural_network
+[32]
+
+Anon. FFMPEG. Retrieved January 4, 2018 from https://www.ffmpeg.org/
+
+[33] Anon. 2017. Key frame. (December 2017). Retrieved January 4, 2018 from
+https://en.wikipedia.org/wiki/Key_frame
+[34
+Anon. 2017. Lemmatisation. (December 2017). Retrieved January 4, 2018 from
+https://en.wikipedia.org/wiki/Lemmatisation
+[35] Anon. 2017. Wikipedia API. (December 2017). Retrieved January 4, 2018 from
+https://en.wikipedia.org/w/api.php
+[36] Anon. Diffbot Article Extraction API. Retrieved January 4, 2018 from
+https://www.diffbot.com/dev/docs/article/
+[37] Kishore.K. Reddy, Mubarak. Shah, UCF50 action recognition dataset. Available at:
+http://crcv. ucf.edu/data/UCF50.php (accessed 01.04.17).
+
+64
+
+VITA
+Naga Krishna Vadlamudi completed his Bachelor’s degree in Electronics and Communication
+Engineering from Vellore Institute of Technology, Vellore, India and then worked as a Software
+Engineer in Accenture India Pvt. Ltd. for 20 months. Then he worked as Software Developer
+Intern at IBM, San Jose from May 2017 – Dec 2017. He started his Masters in Computer Science
+at the University of Missouri-Kansas City (UMKC) in January 2016, with an emphasis on Data
+Science and graduated in Dec 2017. While he was studying in UMKC, he has worked as
+Graduate Teaching Assistant for Knowledge Discovery and Management, Real-time Big Data
+Analytics and Big Data Apps and Analytics. Upon completion of his requirements for the
+Master’s Program, he plans to work as a Big Data Engineer.
+
+65
+
+

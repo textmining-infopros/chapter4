@@ -1,0 +1,1289 @@
+SAN DIEGO STATE UNIVERSITY IOS LIBRARY RESOURCE
+APPLICATION
+
+_______________
+
+A Thesis
+Presented to the
+Faculty of
+San Diego State University
+
+_______________
+
+In Partial Fulfillment
+of the Requirements for the Degree
+Master of Science
+in
+Computer Science
+
+_______________
+
+by
+Abhishek C. Choksi
+Spring 2016
+
+ProQuest Number: 10062905
+
+All rights reserved
+INFORMATION TO ALL USERS
+The quality of this reproduction is dependent upon the quality of the copy submitted.
+In the unlikely event that the author did not send a complete manuscript
+and there are missing pages, these will be noted. Also, if material had to be removed,
+a note will indicate the deletion.
+
+ProQuest 10062905
+Published by ProQuest LLC (2016). Copyright of the Dissertation is held by the Author.
+All rights reserved.
+This work is protected against unauthorized copying under Title 17, United States Code
+Microform Edition © ProQuest LLC.
+ProQuest LLC.
+789 East Eisenhower Parkway
+P.O. Box 1346
+Ann Arbor, MI 48106 - 1346
+
+iii
+
+Copyright © 2016
+by
+Abhishek C. Choksi
+All Rights Reserved
+
+iv
+
+DEDICATION
+I would love to dedicate my thesis work to my family and friends for their constant
+support through all my progress. I would like to thank San Diego State University’s faculty
+for their invaluable guidance, support, and constant motivation. A special thanks to my
+graduate advisor and mentor, Professor Carl Ekberg, for his supervision and feedback during
+my entire time in graduate work.
+
+v
+
+ABSTRACT OF THE THESIS
+San Diego State University iOS Library Resource Application
+by
+Abhishek C. Choksi
+Master of Science in Computer Science
+San Diego State University, 2016
+The world’s ever-growing population has led to an increased demand for information
+resources. In the bygone era, just getting your hands on the resources was a tough enough
+task. The modern challenge is locating resources quickly and comparing the available
+choices. In the case of a book one might try a local library, the SDSU library, Amazon or Ebay.
+As a Master’s student at San Diego State University, I was always faced with a
+challenge to acquire a book needed for the course, which quite frustrated me. Going through
+this hassle over and over again eventually gave me an idea of creating an easily accessible
+app for the resources of the library as a great solution to this issue. A comprehensive app has
+been developed in this thesis, keeping in mind the accessibility and ease for the students to
+get their hands on the required resources. The user can view all the available books, digital
+content, eBooks, articles and journals present at the SDSU library, at any time, using an
+iPhone. The app also contains many other features such as information about library staff,
+hours of operation of the library, viewing of all the planned news and events of the library,
+etc.
+
+vi
+
+TABLE OF CONTENTS
+PAGE
+ABSTRACT...............................................................................................................................v
+LIST OF FIGURES ............................................................................................................... viii
+ACKNOWLEDGEMENTS ..................................................................................................... ix
+CHAPTER
+1
+
+INTRODUCTION .........................................................................................................1
+1.1 Overview ............................................................................................................1
+1.2 Technologies Used .............................................................................................2
+
+2
+
+CORDOVA OVERVIEW AND IMPLEMENTATION ...............................................3
+2.1 Basic Components .............................................................................................3
+2.2 Development Paths ............................................................................................4
+2.3 Installing Cordova CLI ......................................................................................5
+2.3.1 Adding Various Platforms ........................................................................5
+2.4 Building Your Application ................................................................................6
+2.5 Adding Various Other Plugin/Features ..............................................................7
+
+3
+
+IONIC FRAMEWORK .................................................................................................8
+3.1 Angular.JS..........................................................................................................8
+3.2 JSON ................................................................................................................11
+
+4
+
+APPLICATION DESIGN AND IMPLEMENTATION .............................................13
+4.1 Key Components Of The Application .............................................................14
+4.1.1 Model ......................................................................................................15
+4.1.2 Views ......................................................................................................15
+4.1.3 App.js ......................................................................................................17
+4.1.4 Controller.js ............................................................................................24
+4.2 Article Search...................................................................................................29
+4.3 Book Search .....................................................................................................32
+
+vii
+4.4 Guides Course ..................................................................................................35
+4.5 Guides Type .....................................................................................................38
+4.6 Departments .....................................................................................................40
+5
+
+SUMMARY .................................................................................................................41
+
+6
+
+CONCLUSION AND FUTURE ENHANCEMENTS ................................................42
+
+REFERENCES ........................................................................................................................43
+
+viii
+
+LIST OF FIGURES
+PAGE
+Figure 2.1. Installing platforms on MAC...................................................................................5
+Figure 2.2. Installing platforms on Windows ............................................................................6
+Figure 2.3. Running and checking current set of platforms .......................................................6
+Figure 2.4. Removing platforms ................................................................................................6
+Figure 2.5. Building iOS platform app ......................................................................................6
+Figure 2.6. Preparing and the compiling platform-specific application ....................................6
+Figure 3.1. Features of Angular.js ...........................................................................................10
+Figure 3.2. SDSU Library Departments JSON file..................................................................12
+Figure 4.1. Side Menu and list of options ................................................................................13
+Figure 4.2. MVC Architecture .................................................................................................14
+Figure 4.3. Angular-routing declaration ..................................................................................18
+Figure 4.4. Graphic explanation of controllers ........................................................................25
+Figure 4.5. Displays the list of all records for searched article “Alien Abduction” ................30
+Figure 4.6. Displays the details when clicked on the Link for “Alien Abduction as
+Trauma Substitution” ...................................................................................................31
+Figure 4.7. Displays the list of all available books whose title contains “GIS” ......................33
+Figure 4.8. Displays the details for the book “GIS: A visual approach” .................................34
+Figure 4.9. Displays the course search list ...............................................................................36
+Figure 4.10. Displays the details for course “ARP Seminars 801, 836” .................................37
+Figure 4.11. Displays the list of all research guides available .................................................38
+Figure 4.12. Displays the details of “Biography” research guide ............................................39
+Figure 4.13. Department list and detail page displaying the name and phone number. ..........40
+
+ix
+
+ACKNOWLEDGEMENTS
+Working on this thesis has been a wonderful journey with the support of many
+influential people. Firstly, I would like to thank Keven Jaffery, a librarian at San Diego State
+University. He has been equally passionate about web, iOS, and android development
+projects. I am grateful to him for providing his valuable guidance and support throughout this
+journey and giving me an opportunity to challenge my abilities as a software developer.
+I would like to acknowledge Professor Carl Ekberg for guiding me in my work and
+encouraging me to work on a project which will help the students, faculties and staff to
+access the resources of the library through their fingertips. He has been extremely helpful to
+me in providing a lot of support and guidance throughout the thesis.
+I would also like to acknowledge Professor Alan Riggins, Department of Computer
+Science and Professor T. Mark Dunster, Department of Mathematics and Statistics for being
+a part of this journey by being in my committee.
+
+1
+
+CHAPTER 1
+INTRODUCTION
+1.1 OVERVIEW
+Mobile apps provide an excellent way of presenting information at one’s fingertips.
+Most smartphone owners have phones that use iOS, Android or windows as their operating
+system. Each of these platforms support apps, which are distributed through their own app
+store like Apple App Store, Google Play, Windows Phone Store, or Blackberry App World.
+These apps are either free or available for purchase, depending on the specific app. The
+platform allows users to download apps to their mobile device. However, they could be also
+downloaded to computers or tablet devices.
+As devices get more and more handy, there is a greater need to retrieve information
+and increase the productivity of the users. The usage of mobile apps has increased
+significantly amongst mobile phone users [1]. Huge revenue is generated by the downloading
+of apps, as evidenced by the $5 billion generated by Google Play and Apple App store
+combined [2].
+The primary purpose for the development of this app was to extend all the library
+resources in a simple and user-friendly interface to the San Diego State University’s iPhone
+users. This would give them access to information such as articles, books, library working
+hours, departments, research guides, courses, and types. The application would search
+through the articles, media, and books in the San Diego State University Library, retrieve all
+of the necessary information, then provide it to the student in an extremely user-friendly and
+navigable way.
+
+2
+
+1.2 TECHNOLOGIES USED
+The application is designed and developed using the Cordova and Ionic Framework.
+World Cat API is used to fetch media data for use in the app. The numerous web
+technologies used to build this application are:
+•
+
+HTML5 http://www.w3schools.com/html/html5_intro.asp [3]
+
+•
+
+CSS3 http://www.css3.info/ [4]
+
+•
+
+AngularJS https://angularjs.org/ [5]
+
+•
+
+Ionic Framework http://ionicframework.com/ [6]
+
+•
+
+Javascript https://www.javascript.com/ [7]
+
+•
+
+JSON http://www.json.org/ [8]
+
+3
+
+CHAPTER 2
+CORDOVA OVERVIEW AND IMPLEMENTATION
+Cordova, commonly known as Apache Cordova, is an open source mobile
+development framework. It uses the most common web technologies like HTML5, CSS3 and
+JavaScript. Developers having a basic understanding of these technologies can create their
+own mobile applications [9]. The framework allows users to develop cross platform
+applications. One doesn’t need to have knowledge of Objective C or Swift to create iPhone
+applications. Applications can be deployed on any target device. This is executed within
+wrappers targeted on each platform and relies on standard compliant API bindings to access
+each device’s sensors, data, and network status [9].
+Apache Cordova was introduced in October 2012 and has always remained open
+source for its users under the Apache License Version 2.0 [9].
+Apache Cordova is to be used if [9]:
+•
+
+Mobile developer wants to extend an application across more than one platform,
+without having to re-implement it with each platform's language and tool set.
+
+•
+
+Web developer wants to deploy a web app that is packaged for distribution in
+various app store portals.
+
+2.1 BASIC COMPONENTS
+Apache Cordova applications rely on a common config.xml file that provides
+information about the app and specifies parameters that affects its functionality. This file
+adheres to the W3C's Packaged Web App or widget, specification [9].
+The application itself is run as a web page (by default a local file named index.html)
+that references all the CSS, JavaScript, images, media files, and other resources that are
+necessary for it to run. The app executes as a WebView within the native application wrapper,
+which one can distribute to app stores [9].
+
+4
+The Cordova-enabled Web View may provide the application with its entire user
+interface. On some platforms, it can also be a component within a larger, hybrid application
+that augments the Web View with native application components [9].
+A plugin interface is available, allowing Cordova and native components to
+communicate with each other. This enables one to invoke native code from JavaScript.
+Ideally, the JavaScript APIs to that native code are consistent across multiple device
+platforms. As of version 3.0, plugins provide bindings to standard device APIs. Third-party
+plugins provide additional bindings to features not necessarily available on all platforms. One
+can find these third-party plugins in the plugin registry [10] and use them in their application.
+One can also develop plugins, as described in the Plugin Development Guide [11]. For
+examples, plugins may be necessary to communicate between Cordova and custom native
+components [9].
+NOTE: As of version 3.0, when a Cordova project is created, it does not have any
+inherent plugins. This is the new default behavior. Any plugins desired (even the core ones)
+must be explicitly added [9].
+Cordova does not provide any UI widgets or MV* frameworks - it only provides the
+runtime in which those can be executed. If one wishes to use UI widgets and/or an MV*
+framework, he will need to manually select and include them in the application himself as
+third-party material [9].
+
+2.2 DEVELOPMENT PATHS
+There are two development paths (each having their own advantages) which can
+followed when completing a task. The paths are:
+Cross-platform (CLI) Workflow: This is used if the application is needed to run
+multiple platforms with very little need of platform specific development. It
+revolves around Cordova CLI, which was introduced with Cordova 3.0. The CLI
+is a high-level tool that allows one to build projects for various platforms at once,
+abstracting away much of the functionality of lower-level shell scripts. CLI copies
+a common set of web assets into subdirectories for each mobile platform, makes
+any necessary configuration changes for each, and finally runs build scripts to
+generate application binaries. The CLI also provides a generic interface to
+integrate plugins into the app. For more details on the CLI, see the CommandLine Interface. Unless the platform-centered workflow is absolutely necessary,
+the cross-platform workflow is recommended. [3]
+
+5
+Platform-centered workflow: This workflow is used if one wants to build a
+platform-specific application that needs modifications at the lowermost level. This
+approach can be used if the app calls for the mixing of custom native components
+with web-based Cordova components. This workflow relies on a set of lowerlevel shell scripts that are tailored for each supported platform, and a separate
+Plugman utility that enables the usage of plugins. While this workflow can be
+used to build cross-platform apps, it is generally more difficult to do so because of
+the lack of higher-level tools. This translates to separate build cycles and plugin
+modifications for each platform. However, this workflow allows greater access to
+development options provided by each SDK, and is essential for complex hybrid
+apps. [3]
+
+2.3 INSTALLING CORDOVA CLI
+To download and install Cordova CLI, the following steps are taken as shown in the
+Cordova Documentation [12]:
+•
+
+Downloading and Installing Node.JS. This enabled me to invoke node or npm in
+my command line.
+
+•
+
+Downloading and installing a git client. This doesn’t ask the user to use git
+manually, but the CLI will use it in its backend.
+
+•
+
+To install Cordova, the following command is used in the command line:
+
+•
+
+$ sudo npm install –g cordova
+
+On OS X and Linux it is necessary to prefix the npm with sudo to install the
+development utility [12].
+•
+
+On Windows use:
+
+•
+
+C:\>npm install –g cordova
+
+•
+
+-g allows the users to install the package globally.
+
+2.3.1 Adding Various Platforms
+Before building any of the projects, a set of target platforms need to be specified [12].
+On MAC:
+
+Figure 2.1. Installing platforms on MAC. Source: [12]
+
+6
+On Windows:
+
+Figure 2.2. Installing platforms on Windows. Source: [12]
+To run and check the current set of platforms, the following command can be run:
+
+Figure 2.3. Running and checking current set of platforms. Source: [12]
+To remove a platform, any of the following commands (based on the platform it is
+installed on) can be run:
+
+Figure 2.4. Removing platforms. Source: [12]
+
+2.4 BUILDING YOUR APPLICATION
+Cordova creates a web-based application with an index.html file.
+To make the app platform specific (targeting the application to a specific platform),
+the following commands are used in the command line:
+
+Figure 2.5. Building iOS platform app. Source: [12]
+
+Figure 2.6. Preparing and the compiling platform-specific application. Source: [12]
+To test the application, an emulate command is used to view the app in an emulator.
+Once the application is ready, Apple’s Xcode SDK uses its in-built simulator to run the app.
+
+7
+iPhone devices can be included in the list of the emulators to run the application. This will
+help the developer to have insight as to how the app will function on an actual device.
+
+2.5 ADDING VARIOUS OTHER PLUGIN/FEATURES
+Cordova helps add more functionality based on the product specifications. A plugin is
+add-on code, which helps the developer in making an interface for the native components.
+Cordova also provides an opportunity for the developer to design and develop his own
+plugins.
+A list of these plugins, including additional third-party plugins provided by the
+community are noted in the registry at plugins.cordova.io [10].
+A few examples of plugins are:
+•
+
+Bar code Scanner
+
+•
+
+Network Connect and Battery
+
+•
+
+Geo location
+
+•
+
+Camera, Media Playback and Capture
+
+•
+
+Accessing files on the device API
+
+•
+
+Notifications and vibrations
+
+•
+
+Contacts
+
+•
+
+Splash screen
+
+Read Cordova’s product documentation for more details and commands to make the
+most use of the various plugins provided. Using these plugins, it becomes very easy for a
+developer to implement the functionality of the app without writing code from scratch –
+saving the developer a great amount of time.
+
+8
+
+CHAPTER 3
+IONIC FRAMEWORK
+Ionic is an amazing framework that helps developers build HTML5 mobile apps. This
+is largely used in the development of hybrid mobile apps. Hybrid apps have many advantages
+over pure native apps, especially in terms of platform support and speed of development.
+Considered as Bootstrap for Native apps, Ionic also supports a range of cool animations and
+beautiful designs.
+Consisting of mobile UI elements and layouts, it never was available on the web
+before - existing only in SDK’s for iOS and Android. Ionic needs a wrapper like Cordova or
+PhoneGap to run like a native app in the simulators. In this project, Cordova is utilized to run
+the app through Xcode’s iOS simulators as discussed earlier.
+Ionic is open source with a fast growing community. My reason for using the Ionic
+framework is because when I explored this framework, I realized the advantages of HTML5
+in mobile. This allowed me to utilize my web development skills and to create cross platform
+apps, as explained in the previous chapter.
+This is analogous to running a website or a web page in a native app shell. Hence, all
+the technologies like HTML, CSS and JavaScript could be implemented here. AngularJS is
+used extensively here as it is very powerful in building web-based applications.
+
+3.1 ANGULAR.JS
+Out of many JavaScript frameworks available for creating dynamic web pages,
+angular.js provides the best results by assisting in binding data on the web. It is an open
+source framework available under the MIT license developed in 2009 by Misko Hevery and
+Adam Abrons.
+“AngularJS is a structural framework for dynamic web apps. It lets you use HTML as
+your template language and let you extend HTML's syntax to express your application's
+
+9
+components clearly and succinctly. Angular's data binding and dependency injection
+eliminates much of the code you currently have to write. And it all happens within the
+browser, making it an ideal partner with any server technology” [13].
+It is very important to write clean and optimized code on the client side, which helps
+in creating Rich Internet Applications (RIA), because it uses the Model View Controller
+(MVC) paradigm, which will be dealt with in Chapter 4. I used angular.js along with Ionic as
+it provides cross browser compatibility by handling JavaScript code that is suitable for each
+browser.
+To understand the architecture of angular.js framework, discussed here are few
+common terms:
+Scope: helps the controller and the view to interact with each other.
+Controller: Consists of implementations in a particular scope.
+View: Simple placeholder where html content can be placed on the basis of your
+configuration.
+Data binding: helps synchronize data automatically between the implementation and
+the view.
+Services: Useful for making Ajax requests ($httpRequests)
+Routing: Needed when switching between views.
+Directives: This is a template, which can be used for HTML for DOM manipulation
+when creating custom tags and widgets.
+
+10
+
+Figure 3.1. Features of Angular.js. Source: [14]
+The figure shown above provides an overview of the core features of Angular.js.
+The three main components of angular.js are:
+•
+
+Ng-app: The application is named here. This also shows that it is an Angular.js
+application.
+
+•
+
+Ng-model: This is used to bind the view to the angular.js.
+
+•
+
+Ng-bind: Helps in binding data within the HTML tags.
+
+11
+
+3.2 JSON
+JavaScript Object Notation, commonly known as JSON, is a very lightweight text
+based open standard by which the data structures are represented. It was derived from
+JavaScript and is a language independent data format. It supports text and number only.
+There are many advantages of using JSON:
+•
+
+It is one of the best ways to store data. JSON stores data as arrays, hence making
+it very easy to transfer data.
+
+•
+
+It is extremely fast. This is because of the way it is written, i.e. the syntax is very
+light, and hence the response is executed fast.
+
+•
+
+It makes parsing data on the server side extremely easy, unlike XML which
+makes it a pain to parse data on the server side or the client side. [15]
+
+Figure 3.2 shows the JSON file and how it represents the data as arrays. It is very
+easy to read and fetch.
+
+12
+
+Figure 3.2. SDSU Library Departments JSON file. Source: [16]
+
+13
+
+CHAPTER 4
+APPLICATION DESIGN AND IMPLEMENTATION
+The San Diego State Library iPhone app is built on the iOS platform, applicable to
+OS versions 8+. Some of its features include media, article, book, and catalogue search. It
+also provides information about various departments of the Library and their contact
+information. Other pieces of information such as news and events are also provided in the
+interface. To top it off, each feature is clickable making it easier to navigate. Everything
+about the application (including the code behind the implementation of various important
+components of the app) is covered in this chapter.
+
+Figure 4.1. Side Menu and list of options
+
+14
+
+4.1 KEY COMPONENTS OF THE APPLICATION
+Apart from the individual pages that the application has, the core files supporting the
+application are:
+•
+
+App.js
+
+•
+
+Controller.js
+
+Model – view – Controller architecture:
+
+Figure 4.2. MVC Architecture. Source: [17]
+Angular.js follows the MVC architecture.
+
+15
+
+4.1.1 Model
+The model defines the data. Controller arrays are considered as a part of the model.
+The following snippet explains the concept of the model used in the app.
+$scope.searchValue = "";
+$scope.bookSearch = [];
+
+$scope.searchBook = function() {
+
+$scope.bookSearch = [];
+if ($scope.searchValue == "") {
+
+$scope.bookSearch = [];
+} else {
+$http.get("http://library.sdsu.edu/guides/json/books.json?query=" +
+$scope.searchValue)
+.success(function(response) {
+$scope.bookSearch = [];
+for (var i = 0; i < response.length - 1; i++) {
+$scope.bookSearch.push(response[i]);
+}
+
+});
+Here, the searchValue variable will take inputs from the user. This becomes our
+model data. The results from the JSON feed are stored in the bookSearch as an array. The
+search for the matching model data is performed on bookSearch, after which the match is
+pushed as a response to the view.
+
+4.1.2 Views
+The view is defined by the HTML. The app’s architecture is setup in a way where all
+of the views are contained in the views directory. New items can be added into this directory,
+which helps in maintaining the content. Angular.js provides a platform to write angular-
+
+16
+directives, which can be considered as templates for the view. Angular-directives are used to
+parse data to display on the page.
+Views in the Ionic framework are written in ion-view tags. All the HTML content is
+written here. The following snippet shows the usage of <ion-view>.
+
+<ion-view view-title="Guides Course" ng-controller="guidesCourseCtrl">
+<ion-content>
+
+<div class="" ng-repeat="i in guidesCourseSearch track by $index">
+<a class="item item-icon-right" href="{{i.guideURL2}}" >
+{{i.guideTitle}}
+</a>
+</div>
+</ion-content>
+</ion-view>
+
+Controller- The controller helps in defining the business logic of the app. The actions
+performed are outlined in the controller, which is unique for every view in the application
+architecture.
+In the controller, $httprequests are made to the API to fetch data into the app. This
+takes place in the $scope defined in the controller.
+The snippet for articleSearch from the control articleSearchController is:
+.controller('articleSearchCtrl', function($scope, $ionicModal, $timeout, $http)
+{
+
+$scope.searchValue = "";
+$scope.articleSearch = [];
+
+$scope.searchArticle = function() {
+$scope.articleSearch = [];
+if ($scope.searchValue == "") {
+
+17
+$scope.articleSearch = [];
+} else {
+$http.get("http://library.sdsu.edu/guides/json/articles.json?query=" +
+$scope.searchValue.trim())
+.success(function(response) {
+$scope.articleSearch = [];
+for (var i = 0; i < response.length - 1; i++) {
+$scope.articleSearch.push(response[i]);
+}
+});
+}
+}
+})
+
+When defining the controller, we inject the $scope $ionicmodal, 4timeout (which
+handles session timeouts) and $http (http requests)
+$http.get is used as we are fetching data from outside the app API. Values entered by
+the user are stored in the “searchValue” variable. The trim() method is used to remove the
+whitespace from both the ends of the string. For browsers that support trim(), the whitespace
+can be removed using a regular expression [18].
+
+4.1.3 App.js
+App.js is a JavaScript file that handles routing in an application by maintaining the
+state of different pages. This file is a part of the Angular.js architecture that uses the ngRoute
+module and other routing related dependencies like $stateProvider, $urlRouterProvider, etc.
+In addition to defining angular.js JavaScript, one has to define an extra library which is part
+of framework known as “angular-route.js”.
+
+18
+
+Figure 4.3. Angular-routing declaration. Source: [19]
+The following code is an example of how to declare routing for an article search page
+(articleSearch.html).
+
+.state('app.articleSearch', {
+url: '/articleSearch/',
+views: {
+'menuContent': {
+templateUrl: "views/articleSearch.html"
+}
+}
+})
+
+Each individual page in this application is stored in the “views” folder.
+The scope of the page is defined as $scope in the main controller page, and is passed
+on as the URL.
+
+19
+The implementation of routing in the application is.
+
+angular.module('your_app_name', [
+'ionic',
+'your_app_name.common.directives',
+'your_app_name.views',
+'ngRoute'
+])
+
+.run(function($ionicPlatform) {
+$ionicPlatform.ready(function() {
+// Hide the accessory bar by default (remove this to show the accessory bar above the
+keyboard
+// for form inputs)
+if (window.cordova && window.cordova.plugins.Keyboard) {
+cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+}
+if (window.StatusBar) {
+// org.apache.cordova.statusbar required
+StatusBar.styleDefault();
+}
+});
+})
+
+.config(function($stateProvider, $urlRouterProvider) {
+$stateProvider
+
+.state('app', {
+url: "/app",
+abstract: true,
+templateUrl: "views/side-menu.html"
+
+20
+})
+
+.state('app.articleSearch', {
+url: '/articleSearch/',
+views: {
+'menuContent': {
+templateUrl: "views/articleSearch.html"
+}
+}
+})
+.state('app.articleSearchDetails', {
+url: '/articleSearchDetails',
+views: {
+'menuContent': {
+templateUrl: "views/articleSearchDetails.html"
+}
+}
+})
+
+.state('app.bookSearch', {
+url: '/bookSearch',
+views: {
+'menuContent': {
+templateUrl: "views/bookSearch.html"
+}
+}
+})
+.state('app.bookSearchDetails', {
+url: '/bookSearchDetails/:bookName',
+views: {
+
+21
+'menuContent': {
+templateUrl: "views/bookSearchDetails.html"
+}
+}
+})
+
+.state('app.guidesCourse', {
+url: '/guidesCourse',
+views: {
+'menuContent': {
+templateUrl: "views/guidesCourse.html"
+}
+}
+})
+
+.state('app.guidesCourseDetails', {
+url: '/guidesCourseDetails/:articleName',
+views: {
+'menuContent': {
+templateUrl: "views/guidesCourseDetails.html"
+}
+}
+})
+
+.state('app.guidesSubject', {
+url: '/guidesSubject',
+views: {
+'menuContent': {
+templateUrl: "views/guidesSubject.html"
+}
+
+22
+}
+})
+.state('app.guidesSubjectDetails', {
+url: '/guidesSubjectDetails/:articleName',
+views: {
+'menuContent': {
+templateUrl: "views/guidesSubjectDetails.html"
+}
+}
+})
+
+.state('app.guidesType', {
+url: '/guidesType',
+views: {
+'menuContent': {
+templateUrl: "views/guidesType.html"
+}
+}
+})
+.state('app.guidesTypeDetails', {
+url: '/guidesTypetDetails/:articleName',
+views: {
+'menuContent': {
+templateUrl: "views/guidesTypeDetails.html"
+}
+}
+})
+
+.state('app.departments', {
+url: '/departments',
+views: {
+
+23
+'menuContent': {
+templateUrl: "views/departments.html"
+}
+}
+})
+
+.state('app.departmentsDetails', {
+url: '/departmentsDetails/:articleName',
+views: {
+'menuContent': {
+templateUrl: "views/departments.html"
+}
+}
+})
+
+.state('app.locations', {
+url: '/locations',
+views: {
+'menuContent': {
+templateUrl: "views/locations.html"
+}
+}
+})
+
+.state('app.locationsDetails', {
+url: '/locationsDetails/:articleName',
+views: {
+'menuContent': {
+templateUrl: "views/locationsDetails.html"
+}
+}
+
+24
+})
+
+.state('app.hours', {
+url: '/hours',
+views: {
+'menuContent': {
+templateUrl: "views/hours.html"
+}
+}
+})
+
+// if none of the above states are matched, use this as the fallback
+$urlRouterProvider.otherwise('/app/view1');
+});
+
+4.1.4 Controller.js
+We discussed above what a controller does and how it is helpful. This module
+explains the way a controller is implemented in the application. We can either create an
+individual controller.js file for every page or define the controller for all pages in a single
+controller.js file.
+In this application, I have defined all controllers in a single controller.js file, as it is
+easier to maintain a single file rather than many files. Controllers expose variables and the
+functionality to expressions and directives [20].
+Figure 4.4 shows how the controller, scope, and view work in collaboration with each
+other.
+
+25
+
+Figure 4.4. Graphic explanation of controllers. Source: [20]
+The implementation of all the controllers in a single controller.js file is:
+
+angular.module("your_app_name")
+
+.controller("contactController", function($scope, $stateParams) {
+
+var abc = $stateParams.id;
+console.log(abc);
+$scope.printVar = abc;
+
+})
+.controller('articleSearchCtrl', function($scope, $ionicModal, $timeout, $http) {
+$scope.searchValue = "";
+$scope.articleSearch = [];
+
+$scope.searchArticle = function() {
+
+26
+$scope.articleSearch = [];
+if ($scope.searchValue == "") {
+$scope.articleSearch = [];
+} else {
+$http.get("http://library.sdsu.edu/guides/json/articles.json?query=" +
+$scope.searchValue.trim())
+.success(function(response) {
+$scope.articleSearch = [];
+for (var i = 0; i < response.length - 1; i++) {
+$scope.articleSearch.push(response[i]);
+}
+});
+}
+}
+
+})
+
+.controller('bookSearchCtrl', function($scope, $ionicModal, $timeout, $http) {
+
+$scope.searchValue = "";
+$scope.bookSearch = [];
+
+$scope.searchBook = function() {
+//
+
+$scope.searchData =[];
+
+$scope.bookSearch = [];
+if ($scope.searchValue == "") {
+//
+
+$scope.searchData = $scope.bookSearch;
+
+$scope.bookSearch = [];
+} else {
+
+27
+$http.get("http://library.sdsu.edu/guides/json/books.json?query=" +
+$scope.searchValue)
+.success(function(response) {
+$scope.bookSearch = [];
+for (var i = 0; i < response.length - 1; i++) {
+$scope.bookSearch.push(response[i]);
+}
+//
+
+$scope.searchData = $scope.bookSearch;
+
+});
+}
+}
+})
+
+.controller('departmentSearchCtrl', function($scope, $ionicModal, $timeout, $http) {
+
+$scope.departments = {};
+
+$http.get("http://library.sdsu.edu/json/departments.json")
+.success(function(response) {
+$scope.departments = response;
+
+});
+})
+
+.controller('guidesSubjectCtrl', function($scope, $ionicModal, $stateparm.$timeout,
+$http) {
+
+$scope.guidesSubjectSearch = {};
+var id = $stateParams.id;
+$http.get("http://library.sdsu.edu/json/guidessubject.json")
+.success(function(response) {
+
+28
+$scope.guidesSubjectSearch = response;
+
+});
+})
+
+.controller('guidesCourseCtrl', function($scope, $ionicModal, $timeout, $http) {
+
+$scope.guidesCourseSearch = {};
+
+$http.get("http://library.sdsu.edu/json/guidescourse.json")
+.success(function(response) {
+$scope.guidesCourseSearch = response;
+
+});
+
+})
+
+.controller('guidesTypeCtrl', function($scope, $ionicModal, $timeout, $http) {
+
+$scope.guidesType = {};
+
+$http.get("http://library.sdsu.edu/json/guidestype.json")
+.success(function(response) {
+$scope.guidesType = response;
+
+});
+
+})
+
+.controller('hoursCtrl', function($scope, $ionicModal, $timeout, $http) {
+
+29
+$scope.hours = {};
+
+$http.get("http://library.sdsu.edu/json/hours.json")
+.success(function(response) {
+$scope.hours = response;
+
+});
+})
+
+4.2 ARTICLE SEARCH
+Using the article search function, users can search through a list of hundreds of article
+resources.The user gets to type in their search term and the ensuing list of results will be
+displayed below the search bar in a matter of seconds, thanks to a quick and responsive
+search algorithm. The header displays the page the user is viewing. The results include the
+article name, article type, and a link to fetch more details in the list view. Users can click on
+the “LINK” to go its corresponding individual page as shown in figures 4.5 and 4.6.
+
+30
+
+Figure 4.5. Displays the list of all
+records for searched article “Alien
+Abduction”
+
+31
+
+Figure 4.6. Displays the details when
+clicked on the Link for “Alien Abduction
+as Trauma Substitution”
+The JSON feed for the article search is http://library.sdsu.edu/guides/json/articles.json
+[21]
+The implementation of the article search page is:
+
+<ion-view view-title="Article Search" ng-controller="articleSearchCtrl">
+<ion-header-bar class="bar-light bar-subheader">
+<input type="text" placeholder="Search Article" ng-change="searchArticle()" ngmodel="searchValue">
+
+</ion-header-bar>
+<ion-content>
+
+32
+<div class="" ng-repeat="i in articleSearch track by $index">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="col-lg-12 col-md-12 col-sm -12 col-xs-12" style="padding:5px; fontsize:16px;">
+{{i.articleName}}
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding:5px;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+Article Type : {{i.articleType }}
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<a href="{{i.articleURL}}">Link</a>
+</div>
+</div>
+</div>
+<hr/>
+</div>
+</ion-content>
+</ion-view>
+
+4.3 BOOK SEARCH
+The book search feature is one of the most important features of the application. It is
+critically important that students get access to the information whenever and wherever
+needed. The search text box allows users to type in the name of the book and be taken to a
+list page displaying the results. The detail page opens a link to the page for that particular
+search.
+Figures 4.7 and 4.8 display the book search page and detail page.
+
+33
+
+Figure 4.7. Displays the list of all
+available books whose title contains
+“GIS”
+
+34
+
+Figure 4.8. Displays the details for the
+book “GIS: A visual approach”
+The results list provides information such as the book name, book type (book or
+eBook) and the link to book page.
+The implementation for the book search page is:
+
+<ion-view view-title="Book Search" ng-controller="bookSearchCtrl">
+<ion-header-bar class="bar-light bar-subheader">
+<input type="text" placeholder="Search Books" ng-change="searchBook()" ngmodel="searchValue">
+</ion-header-bar>
+<ion-content>
+<div class="" ng-repeat="i in bookSearch track by $index">
+
+35
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="col-lg-12 col-md-12 col-sm -12 col-xs-12" style="padding:5px; fontsize:16px;">
+{{i.bookName}}
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding:5px;">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+Type : {{i.bookType }}
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<a href="{{i.bookURL}}">Link</a>
+</div>
+</div>
+</div>
+<hr/>
+</div>
+</ion-content></ion-view>
+
+4.4 GUIDES COURSE
+Students also get access to the research guide courses, subject and types. Course
+guides provide information about the course such as the category it falls under, research
+assistance, and other resources like book collections/articles, etc. Navigating to the guide
+course from the side menu will take the user to a list of all available courses. Clicking on any
+will direct the user to its detail page.
+
+36
+
+Figure 4.9. Displays the course search
+list
+
+37
+
+Figure 4.10. Displays the details for
+course “ARP Seminars 801, 836”
+The HTML implementation of the page is:
+
+<ion-view view-title="Guides Course" ng-controller="guidesCourseCtrl">
+
+<ion-content>
+
+<div class="" ng-repeat="i in guidesCourseSearch track by $index">
+<a class="item item-icon-right" href="{{i.guideURL2}}" >
+{{i.guideTitle}}
+
+</a>
+</div>
+</ion-content>
+
+38
+</ion-view>
+The list displays only the title of the course, which is done by injecting “guideTitle” into the
+scope.
+
+4.5 GUIDES TYPE
+Guides Type provides information about each of the different types of research guides
+available. Randomly searching for a book could involve lots of useless scrolling, wasting a
+lot of time in the process. To resolve that issue, searching through types can be a much
+quicker alternative. Its implementation is done in the same way as Guides Course. Figures
+4.11 and 4.12 are screenshots from the application.
+
+Figure 4.11. Displays the list of all
+research guides available
+
+39
+
+Figure 4.12. Displays the details of
+“Biography” research guide
+The implementation for searching guides by type is shown below.
+
+<ion-view view-title="Guides Type" ng-controller="guidesTypeCtrl">
+<ion-content>
+<div class="" ng-repeat="i in guidesType track by $index">
+<a class="item item-icon-right" href="{{i.guideURL2}}" >
+{{i.guideTitle}}
+</a>
+</div>
+</ion-content></ion-view>
+
+40
+
+4.6 DEPARTMENTS
+The SDSU Library is maintained by students and staff working in various
+departments of the library. This module helps students reach out to a particular department
+when needed.
+The list view will display the name of the department and the corresponding contact
+phone number.
+The JSON feed is: http://library.sdsu.edu/json/departments.json [22]
+
+Figure 4.13. Department list and detail page
+displaying the name and phone number.
+
+41
+
+CHAPTER 5
+SUMMARY
+This thesis emphasizes the versatility of new technologies like the Ionic framework to
+build hybrid applications such as an app for library resources. Through integrating these new
+technologies with basic HTML and web-development skills, a highly accessible app for
+students has been developed. The primary purpose of developing this app was to provide a
+platform to staff and students to browse and explore the resources of the SDSU Library. It is
+hoped that the students will be able to browse through the catalog of resources to find the
+information desired in the least possible time using the app.
+
+42
+
+CHAPTER 6
+CONCLUSION AND FUTURE ENHANCEMENTS
+The current application covers core functionalities of the SDSU library. The
+motivation behind developing this app was to cut down on the time that a student would have
+to spend to searching for resources. A simple, lightweight and user-friendly app could be a
+great start to access resources at their fingertips. Though this app has plenty of useful
+features, there’s a huge scope for improvement as far as the User Interface design and other
+functionalities. The SDSU Library department is also introducing an Android version for the
+same app, which would be accessible on all of the latest android mobile phones and tablets.
+Future improvements might include adding a login page to maintain the security of the
+application and control access to the data. The current application doesn’t have a route finder,
+which could help students navigate through the campus and the library. Improving the search
+experience is equally important. This could be done by adding more filters based on author,
+title etc. More work is needed to display the content, by rendering them inline.
+Adding a bar code scanner to get the details of a particular book would be a great
+feature to have. This could cut down on the manual search time.
+
+43
+
+REFERENCES
+[1]
+
+S. LUDWIG, Mobile app usage grows 35%, TV & web not so much. Venture Beat,
+http://venturebeat.com/2012/12/05/mobile-app-usage-tv-web-2012/, accessed
+November 2015, December 2012.
+
+[2]
+
+M. MACMILLAN, The millionaires index. Pollen VC Insights, http://insights.pollen.vc/
+millionaires-index/the-millionaires-index, accessed November 2015, published
+November 2015.
+
+[3]
+
+W3SCHOOLS,
+
+[4]
+
+CSS3, Everything you need to know about CSS3. CSS3.info, http://www.css3.info/,
+accessed November 2015, n.d.
+
+[5]
+
+ANGULARJS, AngularJS. AngularJS, https://angularjs.org/, accessed November 2015,
+n.d.
+
+[6]
+
+IONIC FRAMEWORK, Ionic. Ionic, http://ionicframework.com/, accessed November
+2015, n.d.
+
+[7]
+
+JAVASCRIPT, Not exactly sure what JavaScript is? Javascript,
+https://www.javascript.com/, accessed November 2015, n.d.
+
+[8]
+
+JSON, Introducing JSON. JSON, http://www.json.org, accessed November 2015, n.d.
+
+[9]
+
+CORDOVA, Overview. Cordova, https://cordova.apache.org/docs/en/latest/
+guide/overview/index.html, accessed November 2015, n.d.
+
+HTML5 introduction. w3schools,
+http://www.w3schools.com/html/html5_intro.asp, accessed November 2015, n.d.
+
+[10] CORDOVA, Cordova plugins. Cordova, http://cordova.apache.org/plugins/, accessed
+November 2015, n.d.
+[11] CORDOVA, Plugin development guide. Cordova, https://cordova.apache.org/docs/en/
+latest/guide/hybrid/plugins/index.html, accessed November 2015, n.d.
+[12] CORDOVA, The command-line interface. Cordova,
+https://cordova.apache.org/docs/en/latest/guide/cli/index.html, accessed November
+2015, n.d.
+[13] ANGULARJS, What is Angular? AngularJS,
+https://docs.angularjs.org/guide/introduction. 2015, accessed November 2015, n.d.
+[14] TUTORIALS POINT, AngularJS – Overview. Tutorials Point,
+http://www.tutorialspoint.com/angularjs/angularjs_overview.htm, accessed November
+2015, n.d.
+
+44
+[15] R. SHARMA, JSON – its advantages and disadvantages. Ezeelive Technologies,
+http://www.ezeelive.com/blog/json-advantages-disadvantages/, accessed November
+2015, November 2015.
+[16] SAN DIEGO STATE UNIVERSITY, Developer tools. SDSU Library & Information Access,
+http://library.sdsu.edu/computers-technology/online-tools/developer-tools, accessed
+September 2015, n.d.
+[17] M. JAGGAVARAPU, Presentation patterns: MVC, MVP, PM, MVVM. Word Press,
+https://manojjaggavarapu.wordpress.com/2012/05/02/presentation-patterns-mvc-mvppm-mvvm/, accessed November 2015, May 2012.
+[18]
+
+W3SCHOOLS, JavaScript String trim() Method. w3schools,
+http://www.w3schools.com/jsref/jsref_trim_string.asp, accessed November 2015, n.d.
+
+[19] ANGULARJS, ngRoute. AngularJS, https://docs.angularjs.org/api/ngRoute, accessed
+November 2015, n.d.
+[20] ANGULARJS, Conceptual overview. AngularJS,
+https://docs.angularjs.org/guide/concepts, accessed November 2015, n.d.
+[21] SAN DIEGO STATE UNIVERSITY, Developer tools, articles. SDSU Library & Information
+Access, http://library.sdsu.edu/guides/json/articles.json, accessed November 2015, n.d.
+[22] SAN DIEGO STATE UNIVERSITY, Developer tools, library departments. SDSU Library &
+Information Access, http://library.sdsu.edu/json/departments.json, accessed October
+2015, n.d.
+
+
