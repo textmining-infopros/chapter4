@@ -1,16 +1,15 @@
+Type: Compendium
 Package: Case Study 4C
-Title: TOPIC MODELING OF DOCUMENTS IN R
+Title: What the Package Does (One Line, Title Case)
 Version: 0.0.1
-Authors@R:
+Authors@R: 
     person(given = "Manika",
            family = "Lamba",
            role = c("aut", "cre"),
            email = "lambamanika07@gmail.com")
 Description: Topic modeling of documents in R
 License: What license it uses
-Depends:
-  R (>= 3.5.0)
-Imports:
+Depends: 
     dplyr,
     forcats,
     ggplot2,
@@ -23,3 +22,5 @@ Imports:
     tidyr,
     tidytext,
     tidyverse
+Encoding: UTF-8
+LazyData: true
