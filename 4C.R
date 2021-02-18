@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #Load libraries
 library(tidyverse)
 library(tidytext)
@@ -162,6 +162,3 @@ findThoughts(STM, texts = data$Title, n = 5, topics = 5)
 #Topic correlation
 topicor <- topicCorr(STM)
 plot(topicor)
-
-
->>>>>>> c5adf8e60b63bf3dc1ef3367543d8bce48d5a115
