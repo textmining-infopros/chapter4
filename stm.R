@@ -3,9 +3,12 @@ library(tidyverse)
 library(tidytext)
 library(stm)
 library(ggplot2)
-library(RColorBrewer)library(tidyverse)
+library(RColorBrewer)
+library(tidyverse)
 library(tidytext)
 library(stm)
+library(tm)
+
 
 #Load dataset
 data <- read.csv("https://raw.githubusercontent.com/textmining-utl/chapter4/master/4c_dataset.csv?token=ARBWLQ3RCKTIK7PFAPDEUD3ACZJYA")
