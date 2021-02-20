@@ -9,6 +9,7 @@ library(tidytext)
 library(stm)
 library(tm)
 library(LDAvis)
+library(igraph)
 
 
 #Load dataset
