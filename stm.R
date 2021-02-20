@@ -8,6 +8,7 @@ library(tidyverse)
 library(tidytext)
 library(stm)
 library(tm)
+library(LDAvis)
 
 
 #Load dataset
