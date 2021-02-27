@@ -3,7 +3,7 @@
 This repository contains a reproducible research compendium for the case study used in the book:
 Manika Lamba and Margam Madhusudhan (2021) Text Mining: An Uncharted Territory for Librarians, Springer. 
 
-## Open this [link](https://textmining-utl.github.io/chapter4/) to interact and visualizes the results from topic modeling.
+## Open this [link](https://textmining-utl.github.io/chapter4/) to interact and visualizes the results from topic modeling
 
 # How to cite
 Please cite this compendium as: xxxxxxx
