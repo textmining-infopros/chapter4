@@ -3,8 +3,6 @@
 This repository contains a reproducible research compendium for the case study used in the book:
 Manika Lamba and Margam Madhusudhan (2021) Text Mining: An Uncharted Territory for Librarians, Springer. 
 
-## Open this [link](https://textmining-utl.github.io/chapter4/) to interact and visualizes the results from topic modeling
-
 # How to cite
 Please cite this compendium as: xxxxxxx
 
@@ -45,6 +43,8 @@ the analysis:
          1. The server has limited memory so you cannot load large datasets or run big computations.
          2. Binder is meant for interactive and ephemeral interactive coding so an instance will die after 10 minutes of inactivity.
          3. An instance cannot be kept alive for more than 12 hours.
+
+## Open this [link](https://textmining-utl.github.io/chapter4/) to interact and visualizes the results from topic modeling
 
 ### Licenses
 
