@@ -1,7 +1,7 @@
 # Case Study : Topic Modeling of Documents using Three Different Tools
 
 This repository contains a reproducible research compendium for the case study used in the book:
-Manika Lamba and Margam Madhusudhan (2021) Text Mining: An Uncharted Territory for Librarians, Springer. 
+Manika Lamba and Margam Madhusudhan (2021) Text Mining for Information Professionals: An Uncharted Territory, SpringerNature. 
 
 # How to cite
 Please cite this compendium as: xxxxxxx
@@ -17,14 +17,14 @@ The compendium contains the data, code, and notebook associated with the case st
   - The `stm.R` file contatins the R code for 4C case study.
   - The `Case_Study_4C.ipynb` file contatins the Jupyter notebook for 4C case study.
 
-### Open this [link](https://textmining-utl.github.io/chapter4/) to interact and visualizes the results from topic modeling
+### Open this [link](https://textmining-infopros.github.io/chapter4/) to interact and visualizes the results from topic modeling
 
 # How to download or install
 There are several ways to use the compendium’s contents and reproduce
 the analysis:
 
   - **Download the compendium as a zip archive** from this [GitHub
-    repository](https://github.com/textmining-utl/chapter4/archive/master.zip).
+    repository](https://github.com/textmining-infopros/chapter4/archive/master.zip).
     
       - After unpacking the downloaded zip archive, you can explore the
         files on your computer.
@@ -35,11 +35,11 @@ the analysis:
     BinderHub on [mybinder.org](https://mybinder.org/):
   
       - Click
-        **RStudio**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter4/master?urlpath=rstudio) to launch an interactive 
+        **RStudio**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-infopros/chapter4/master?urlpath=rstudio) to launch an interactive 
         [RStudio](https://rstudio.com/) session in your web browser.
         
       - Click
-        **Jupyter+R**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-utl/chapter4/master?filepath=Case_Study_4C.ipynb) to launch an interactive [Jupyter Notebook](https://jupyter.org/) session in your web browser using [R](https://cloud.r-project.org/index.html) kernel. When you execute code within the notebook, the results appear beneath the code.
+        **Jupyter+R**: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/textmining-infopros/chapter4/master?filepath=Case_Study_4C.ipynb) to launch an interactive [Jupyter Notebook](https://jupyter.org/) session in your web browser using [R](https://cloud.r-project.org/index.html) kernel. When you execute code within the notebook, the results appear beneath the code.
         
        - **Limitations of Binder**
          1. The server has limited memory so you cannot load large datasets or run big computations.
