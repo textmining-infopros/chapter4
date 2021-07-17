@@ -25,7 +25,7 @@ The compendium contains the data, code, and notebook associated with the case st
 
 ### Open this [link](https://textmining-infopros.github.io/chapter4/) to interact and visualizes the results from topic modeling
 
-# How to download or install
+# How to Download or Install
 There are several ways to use the compendium’s contents and reproduce
 the analysis:
 
