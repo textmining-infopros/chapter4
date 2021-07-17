@@ -11,9 +11,9 @@ Please cite this compendium as: Lamba, Manika, & Madhusudhan, Margam. (2021). To
 The compendium contains the data, code, and notebook associated with the case study. This case study is further divided into 4A, 4B, and 4C. 4A case study used Topic-Modeling-Tool, 4B case study used RapidMiner platform, and 4C case study used R programming language to perform topic modeling. It is organized as follows:
 
   - The `4a_dataset\` folder contains the data for 4A case study.
-    - The `4a_supplementary.docx` file contains the supplemtary data associated with 4A case study.
+    - The `4a_supplementary.docx` file contains the supplementary data associated with 4A case study.
   - The `4b_dataset\` folder contains the data for 4B case study.
-    - The `4b_supplementary.pdf` file contains the supplemtary data associated with 4B case study.
+    - The `4b_supplementary.pdf` file contains the supplementary data associated with 4B case study.
   - The `4c_dataset.csv` file contains the data for 4C case study.
   - The `stm.R` file contatins the R code for 4C case study.
   - The `Case_Study_4C.ipynb` file contatins the Jupyter notebook for 4C case study.
