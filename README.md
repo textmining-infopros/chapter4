@@ -1,5 +1,7 @@
 # Case Study: Topic Modeling of Documents using Three Different Tools [![DOI](https://zenodo.org/badge/296715177.svg)](https://zenodo.org/badge/latestdoi/296715177)
 
+<img src="https://github.com/textmining-infopros/chapter4/blob/master/topic-modeling-hex.png" width="350" height="400">
+
 This repository contains a reproducible research compendium for the case study used in the book --
 Manika Lamba and Margam Madhusudhan (2021) Text Mining for Information Professionals: An Uncharted Territory, SpringerNature. 
 
