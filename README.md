@@ -15,7 +15,7 @@ Manika Lamba and Margam Madhusudhan (2021) Text Mining for Information Professio
 Please cite this compendium as: Lamba, Manika, & Madhusudhan, Margam. (2021). Topic Modeling of Documents using Three Different Tools (Version 1.0). http://doi.org/10.5281/zenodo.5090206
 
 # Contents
-The compendium contains the data, code, and notebook associated with the case studies. This case study is further divided into 4A, 4B, and 4C. 4A case study used Topic-Modeling-Tool, 4B case study used RapidMiner platform, and 4C case study used R programming language to perform topic modeling. It is organized as follows:
+The compendium contains the data, code, and notebook associated with the case studies. It is divided into 4A, 4B, and 4C. 4A case study used Topic-Modeling-Tool, 4B case study used RapidMiner platform, and 4C case study used R programming language to perform topic modeling. It is organized as follows:
 
   - The `4a_dataset\` folder contains the data for 4A case study.
     - The `4a_supplementary.docx` file contains the supplementary data associated with 4A case study.
