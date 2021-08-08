@@ -25,7 +25,7 @@ The compendium contains the data, code, and notebook associated with the case st
   - The `stm.R` file contatins the R code for 4C case study.
   - The `Case_Study_4C.ipynb` file contatins the Jupyter notebook for 4C case study.
 
-### Open this [link](https://textmining-infopros.github.io/chapter4/) to interact and visualizes the results from topic modeling
+## Click this [link](https://textmining-infopros.github.io/chapter4/) to interact and visualizes the results from 4C case study
 
 # How to Download or Install
 There are several ways to use the compendium’s contents and reproduce
