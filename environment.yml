@@ -1,20 +1,4 @@
 channels:
   - conda-forge
 dependencies:
-  - r-base=3.6
-  - r-RColorBrewer
-  - r-stm
-  - r-tidytext
-  - r-forcats
-  - r-stringr
-  - r-dplyr
-  - r-purrr
-  - r-readr
-  - r-tidyr
-  - r-tibble
-  - r-ggplot2
-  - r-tidyverse
-  - r-tm
-  - r-LDAvis
-  - r-igraph
-  - r-reshape2
+  - r-base=4.1
