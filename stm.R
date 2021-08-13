@@ -10,7 +10,7 @@ library(stm)
 library(tm)
 library(LDAvis)
 library(igraph)
-
+library(reshape2)
 
 #Load dataset
 data <- read.csv("https://raw.githubusercontent.com/textmining-utl/chapter4/master/4c_dataset.csv?token=ARBWLQ3RCKTIK7PFAPDEUD3ACZJYA")
