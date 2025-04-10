@@ -13,7 +13,7 @@ library(igraph)
 library(reshape2)
 
 #Load dataset
-data <- read.csv("https://raw.githubusercontent.com/textmining-utl/chapter4/master/4c_dataset.csv?token=ARBWLQ3RCKTIK7PFAPDEUD3ACZJYA")
+data <- read.csv("https://github.com/textmining-infopros/chapter4/raw/refs/heads/master/4c_dataset.csv")
 
 #Set seed
 set.seed(123)
